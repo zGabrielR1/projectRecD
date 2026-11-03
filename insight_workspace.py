@@ -14,6 +14,8 @@ from insight_connection import ConnectionSettings, current_settings, test_connec
 from insight_schedule import ScheduleRequest
 import insight_schedule as schedules
 from insight_stock import ExpiryRequest, companies as stock_companies, query_expiry
+from insight_composition import (CompositionRequest, companies as composition_companies,
+                                 options as composition_options, query_composition_purchases)
 
 router = APIRouter(prefix="/api/workspace")
 
@@ -26,6 +28,21 @@ def expiry_companies():
 @router.post("/stock/expiry")
 def expiry(req: ExpiryRequest):
     return query_expiry(req)
+
+
+@router.get("/composition/companies")
+def composition_company_list():
+    return composition_companies()
+
+
+@router.get("/composition/options")
+def composition_option_list(company_id: str):
+    return composition_options(company_id)
+
+
+@router.post("/composition/purchases")
+def composition_purchases(req: CompositionRequest):
+    return query_composition_purchases(req)
 
 
 @router.post("/conversation")

@@ -75,6 +75,14 @@ try:
         time.sleep(.25)
     else:
         raise AssertionError('Packaged server did not start')
+    page_status, page = request('/composition-purchases', raw=True)
+    assert page_status == 200 and b'/static/composition.js' in page
+    for filename in ['composition.js', 'composition.css']:
+        status, data = request('/static/' + filename, raw=True)
+        assert status == 200 and hashlib.sha256(data).digest() == hashlib.sha256((BUILD / 'static' / filename).read_bytes()).digest()
+    assert request('/api/workspace/composition/companies', authenticated=False)[0] == 401
+    assert request('/api/workspace/composition/purchases', {}, authenticated=False)[0] == 401
+    assert request('/api/workspace/composition/purchases', {})[0] == 422
     snapshot = {'year': 2026, 'company_reference': 'RC-fixture', 'repository_scope_description': 'Synthetic preselected input',
                 'documents': [{'document_id': 'one', 'month': 1, 'items': [{'seller_id': 'A', 'total_liquido': '0.1',
                     'cancelled': False, 'auxiliary_document': False, 'moves_stock': True, 'moves_finance': True},
@@ -101,13 +109,19 @@ try:
         status, data = request('/static/' + filename, raw=True)
         assert status == 200 and hashlib.sha256(data).digest() == hashlib.sha256(source.read_bytes()).digest()
 finally:
-    subprocess.run(['taskkill', '/PID', str(process.pid), '/T', '/F'], capture_output=True)
+    escaped = str(EXE).replace("'", "''")
+    subprocess.run(['powershell.exe', '-NoProfile', '-Command',
+                    f"Get-Process DigiSatInsight -ErrorAction SilentlyContinue | Where-Object {{ $_.Path -eq '{escaped}' }} | Stop-Process -Force"],
+                   capture_output=True)
     process.wait(timeout=20)
     log.close()
 
 digest = hashlib.sha256(EXE.read_bytes()).hexdigest()
 verification = {'version': VERSION, 'commit': os.environ.get('GITHUB_SHA'), 'exe_sha256': digest,
-    'validation_profile': 'windows-isolated', 'windows_pe_executed': True, 'minimal_path': True,
+    'validation_profile': 'incremental-composition', 'baseline_tag': 'v1.1.1-rc.6',
+    'windows_pe_executed': True, 'composition_page': True, 'composition_assets': True,
+    'composition_api_authentication': True, 'composition_request_validation': True,
+    'minimal_path': True,
     'authentication': True, 'independent_monthly_audit': True, 'fractional_unit_price_audit': True,
     'snapshot_validation': True, 'native_notices': True, 'static_assets': True,
     'live_digisat_validated': False, 'live_database_validated': False,
@@ -119,9 +133,13 @@ shutil.copyfile(ROOT / 'docs/guia-1.0.md', OUT / 'LEIA-ME.md')
 with (OUT / 'LEIA-ME.md').open('a', encoding='utf-8') as guide:
     guide.write('\n\n## RC6: auditorias independentes\n\nPOST /api/audit/monthly e POST /api/audit/unit-prices operam sobre snapshots normalizados. '
                 'Nao capturam automaticamente dados Mongo/WCF. Verificacao Windows isolada; homologacao SuiteG6/base do cliente pendente.\n')
+with (OUT / 'LEIA-ME.md').open('a', encoding='utf-8') as guide:
+    guide.write('\n\n## RC7: compras de composição\n\nAcesse /composition-purchases para consultar compras por empresa e período, com número do movimento e quantidades dos componentes. '
+                'O resultado mostra a quantidade do documento e a quantidade convertida para estoque. Por padrão, exclui movimentos cancelados e inclui apenas compras concluídas; situação ausente gera aviso. '
+                'O total não representa saldo disponível: não desconta vendas, consumo, reservas ou montagens. As consultas MongoDB são somente leitura.\n')
 metadata = {'version': VERSION, 'status': 'release-candidate', 'platform': 'Windows x64',
             'python_required': False, 'built_at': datetime.now(timezone.utc).isoformat(),
-            'validation_profile': 'windows-isolated', 'live_digisat_validated': False}
+            'validation_profile': 'incremental-composition', 'live_digisat_validated': False}
 (OUT / 'VERSION.json').write_text(json.dumps(metadata, indent=2) + '\n')
 # Explicit template independent of developer files or existing local settings.
 template = ('MONGO_URI=mongodb://127.0.0.1:12220/?directConnection=true&readPreference=secondaryPreferred\n'

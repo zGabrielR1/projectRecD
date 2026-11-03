@@ -1483,6 +1483,11 @@ def finance_reports_page():
 def native_reports_page():
     return FileResponse(ROOT / 'static' / 'native.html')
 
+
+@app.get('/composition-purchases', include_in_schema=False)
+def composition_purchases_page():
+    return FileResponse(ROOT / 'static' / 'composition.html')
+
 app.add_event_handler("startup", workspace_startup)
 app.add_event_handler("shutdown", workspace_shutdown)
 

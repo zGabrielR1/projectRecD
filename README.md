@@ -1,5 +1,7 @@
 # DigiSat Insight
 
+**Compras de composição:** relatório em `/composition-purchases`, com número do movimento, quantidades por componente, conversão para estoque e exportação CSV. Consulte [regras e limites](docs/compras-composicao.md).
+
 **1.1.1-rc.6**: [auditorias independentes de cálculos](docs/release-1.1.1-rc.6.md), com conferência mensal por vendedor e preços fracionados via API/CLI. Distribuição Windows validada em ambiente isolado; paridade com SuiteG6/base do cliente permanece para homologação.
 
 **1.1.1-rc.5**: [Report center visual refinements](docs/release-1.1.1-rc.5.md). Compact heading and search, full-width report selection, corrected connection fields and readable recent shortcuts.

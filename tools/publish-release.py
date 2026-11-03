@@ -66,11 +66,21 @@ assets = args.assets_dir.resolve()
 checked = subprocess.run([sys.executable, str(ROOT / 'tools/check-release-package.py'), '--release-dir', str(assets)], cwd=ROOT)
 if checked.returncode:
     raise SystemExit('Package validation failed; no release was created.')
-build = Path((ROOT / '.release-build/latest-build-path').read_text(encoding='utf-8'))
-verification = json.loads((build / 'verification/verification.json').read_text(encoding='utf-8'))
+verification_path = assets / 'verification.json'
+if not verification_path.exists():
+    build = Path((ROOT / '.release-build/latest-build-path').read_text(encoding='utf-8'))
+    verification_path = build / 'verification/verification.json'
+verification = json.loads(verification_path.read_text(encoding='utf-8'))
 if verification['version'] != VERSION or verification['exe_sha256'] != hashlib.sha256((assets / 'DigiSatInsight.exe').read_bytes()).hexdigest():
     raise SystemExit('The release candidate does not match its verification report.')
-for gate in ['independent_monthly_audit', 'fractional_unit_price_audit', 'snapshot_validation', 'bi_rules', 'bi_presentation_math', 'bi_assets_and_authentication', 'bi_live_dashboard', 'bi_models_and_saved_views', 'bi_restart_persistence', 'connection_inspection', 'light_theme_assets', 'finance_drill_down']:
+if verification.get('validation_profile') == 'incremental-composition':
+    if verification.get('baseline_tag') != 'v1.1.1-rc.6':
+        raise SystemExit('The composition report release must inherit the published RC6 baseline.')
+    gates = ['windows_pe_executed', 'composition_page', 'composition_assets',
+             'composition_api_authentication', 'composition_request_validation']
+else:
+    gates = ['independent_monthly_audit', 'fractional_unit_price_audit', 'snapshot_validation', 'bi_rules', 'bi_presentation_math', 'bi_assets_and_authentication', 'bi_live_dashboard', 'bi_models_and_saved_views', 'bi_restart_persistence', 'connection_inspection', 'light_theme_assets', 'finance_drill_down']
+for gate in gates:
     if verification.get(gate) is not True:
         raise SystemExit('BI gate not approved: ' + gate)
 
