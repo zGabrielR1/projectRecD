@@ -1,0 +1,159 @@
+{
+  "name": "Modulo.GeradorArquivosInventario",
+  "baseline": "baseline\\Modulo.GeradorArquivosInventario.dll",
+  "baseline_sha256": "090c3a6691caead79240a6be7d5beba4638cd67f8f69e1e05435d7e53b65c304",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosInventario\\Modulo.GeradorArquivosInventario.csproj",
+  "sources": [
+    {
+      "path": "GeradorArquivoInventarioModulo.cs",
+      "export_path": "GeradorArquivoInventarioModulo.cs",
+      "raw_sha256": "a42123d20517fd73155f9266cb04476da44f66d7184f24e08f8b087a07f60062"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "6dcfa9fe72691d1fe0010e182c0c46e39b69fad22516e5ce65bed71d9673a787"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "12697535f1e2e7293edf5fc9c0077a94c1ac868fd4bd0e76db8da40540c1b300"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "602215f017cc074ff38c74e33c9b0d4f6fed02fbec0c940d0ae227ee60744018"
+    },
+    {
+      "path": "Reports\\RelatorioInventario.cs",
+      "export_path": "Reports\\RelatorioInventario.cs",
+      "raw_sha256": "a67a0fe4c0913c27c3d4c12fb1c7972b590f299032b992f60d942d3a39f1d78d"
+    },
+    {
+      "path": "Reports\\RelatorioInventarioPaisagem.cs",
+      "export_path": "Reports\\RelatorioInventarioPaisagem.cs",
+      "raw_sha256": "cf303d2c0b0599d9335f0ee7262673f9dc50ec40c68cf73a12f740d0c576f8ff"
+    },
+    {
+      "path": "Reports\\TotalizacaoPorAliquota.cs",
+      "export_path": "Reports\\TotalizacaoPorAliquota.cs",
+      "raw_sha256": "6b132c83f1e46cdf58b86b239245310e9bea805992e1ef8ce8fb926d15a53c27"
+    },
+    {
+      "path": "Reports\\TotalizacaoPorTributacao.cs",
+      "export_path": "Reports\\TotalizacaoPorTributacao.cs",
+      "raw_sha256": "082be58c81f3620ffc18a300d13288951b56daf19f02c8224fcb5178ba3caec4"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoInventarioFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoInventarioFichaViewModel.cs",
+      "raw_sha256": "ecd80299db8cc96c6d9f785f8ad407831e17283271f961576568b2d45909aa89"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoInventarioFormulario.cs",
+      "export_path": "ViewModels\\GeradorArquivoInventarioFormulario.cs",
+      "raw_sha256": "bab604528d51df9acbe11751e432c33cc2c1136b637ee9198ce152a986891a64"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosInventarioViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosInventarioViewModel.cs",
+      "raw_sha256": "db728375dddaaf5e8498ae399828294ee28ee6c00512caa76559023232682f93"
+    },
+    {
+      "path": "ViewModels\\InformacaoGeradorInventarioAbaViewModel.cs",
+      "export_path": "ViewModels\\InformacaoGeradorInventarioAbaViewModel.cs",
+      "raw_sha256": "de1599b654f2571d5448c52f69662037339584895d814b998a20907c5f5509d3"
+    },
+    {
+      "path": "ViewModels\\InformacaoGeradorInventarioViewModel.cs",
+      "export_path": "ViewModels\\InformacaoGeradorInventarioViewModel.cs",
+      "raw_sha256": "e61a29bf543c89d40999659231a54465230a330613d7c42784451c373964da45"
+    },
+    {
+      "path": "ViewModels\\ItensGeradorInventarioAbaViewModel.cs",
+      "export_path": "ViewModels\\ItensGeradorInventarioAbaViewModel.cs",
+      "raw_sha256": "87e7ddea167aedae5c0cadd113e57b0cfb052ce3bf973101eedc761e36b5d576"
+    },
+    {
+      "path": "ViewModels\\ItensGeradorInventarioViewModel.cs",
+      "export_path": "ViewModels\\ItensGeradorInventarioViewModel.cs",
+      "raw_sha256": "ac3ddc8ae715506561327bc6ed543f2c550b43e223367987cb61611798e7a55e"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\InformacaoGeradorInventarioView.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\InformacaoGeradorInventarioView.cs",
+      "raw_sha256": "a8d7f98e57cb9718583c03d510d07e76b480cef015558eb2f7b7665b21e3b06a"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\ItensGeradorInventarioView.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\ItensGeradorInventarioView.cs",
+      "raw_sha256": "e771f642c5907809ac58621c7fb7da88bb56ee76dd28b6ead7c09fe32d9034b6"
+    },
+    {
+      "path": "Views\\GeradorArquivoInventarioFichaView.cs",
+      "export_path": "Views\\GeradorArquivoInventarioFichaView.cs",
+      "raw_sha256": "c0b27d4fc186d5d148419628e4886bf587c7206791ee15e44b51e5d8a6725e91"
+    },
+    {
+      "path": "Views\\GeradorArquivosInventarioView.cs",
+      "export_path": "Views\\GeradorArquivosInventarioView.cs",
+      "raw_sha256": "06c61589d7899f8d3f417aeaf020f9ec1a6422dc87845a002985aadc52a867ef"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Qualify report enum types shadowed by WPF imports or instance properties",
+      "occurrences": 139
+    },
+    {
+      "kind": "Use inferred types consistently for anonymous GroupBy result selector parameters",
+      "occurrences": 2
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosInventario.g.resources",
+      "file": "0000.bin",
+      "bytes": 17051,
+      "sha256": "148e8d40351c94b89fbae0121d58963b881be12ca66d0e27fc80e04678a6a8a2"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Reports.RelatorioInventarioPaisagem.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Reports.RelatorioInventario.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Reports.TotalizacaoPorAliquota.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Reports.TotalizacaoPorTributacao.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.GeradorArquivosInventario.dll.licenses",
+      "file": "0006.bin",
+      "bytes": 296,
+      "sha256": "eaf2fdad8dcbcb5c13be3efb33a64fa608e45632f1502f8ebf524d14a0dd9d7b"
+    }
+  ],
+  "generated_stubs": false
+}

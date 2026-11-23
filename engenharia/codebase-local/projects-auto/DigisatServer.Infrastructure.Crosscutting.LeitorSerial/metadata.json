@@ -1,0 +1,15 @@
+{
+  "artifactSha256": "38e084269f89e5c78fc1ba05e76a0e929290a9076d8f84ea49835097606a40f4",
+  "mvid": "a2f77b2b-4437-41ab-ad5e-87cf21a40d73",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.LeitorSerial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Reactive.Core",
+    "System.Reactive.Linq",
+    "System.Reactive.Interfaces"
+  ],
+  "resources": []
+}

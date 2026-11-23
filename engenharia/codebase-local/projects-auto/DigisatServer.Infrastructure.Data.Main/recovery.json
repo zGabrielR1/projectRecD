@@ -1,0 +1,494 @@
+{
+  "name": "DigisatServer.Infrastructure.Data.Main",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Data.Main.dll",
+  "baseline_sha256": "04db71b2f1e51a28e4bff16df9b896e8ebebf126378d31033ef68cc3ae59892f",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Data.Main\\DigisatServer.Infrastructure.Data.Main.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "144d4c59156a5768942444877c984d7ebc66e835ce1d1191094c2800a74ef24a"
+    },
+    {
+      "path": "Repositories\\AgendamentoRepositoryRead.cs",
+      "export_path": "Repositories\\AgendamentoRepositoryRead.cs",
+      "raw_sha256": "c419edd6af9303a1fa55fa0c86d58acb2fd0454c6250fdd0643c5aba7c6b95a5"
+    },
+    {
+      "path": "Repositories\\AgendamentoRepositoryWrite.cs",
+      "export_path": "Repositories\\AgendamentoRepositoryWrite.cs",
+      "raw_sha256": "53771696e0ab64b3f91f780244ef944fb3a3fc1346be95f7a8025a91d3b719e6"
+    },
+    {
+      "path": "Repositories\\AggregateEx.cs",
+      "export_path": "Repositories\\AggregateEx.cs",
+      "raw_sha256": "40d4e6442736e6b14cb98714d8215015f85c65c977c86088f38ca763a3e25f69"
+    },
+    {
+      "path": "Repositories\\AgrupamentoQuartoRepositoryRead.cs",
+      "export_path": "Repositories\\AgrupamentoQuartoRepositoryRead.cs",
+      "raw_sha256": "d481edb8b99742a41b1df0beb4c2752d1c871c4cc29291b1378f00294f551642"
+    },
+    {
+      "path": "Repositories\\AnimalRepositoryRead.cs",
+      "export_path": "Repositories\\AnimalRepositoryRead.cs",
+      "raw_sha256": "20e3eb87c8ba1c9f75e96cb5d4dfcf20d58f83b289ecbe5852105cb7d634e898"
+    },
+    {
+      "path": "Repositories\\AnuncioMercadoLivreRepositoryWrite.cs",
+      "export_path": "Repositories\\AnuncioMercadoLivreRepositoryWrite.cs",
+      "raw_sha256": "fd672fc4aa0e7c00b505646ff2b182aef3466c031773c3dd0af04c1891e8e558"
+    },
+    {
+      "path": "Repositories\\BicoRepositoryRead.cs",
+      "export_path": "Repositories\\BicoRepositoryRead.cs",
+      "raw_sha256": "5944ddddef64192328564401fc7c1bb44013d330265c7b30011f03cef50cd507"
+    },
+    {
+      "path": "Repositories\\BoletoRepositoryRead.cs",
+      "export_path": "Repositories\\BoletoRepositoryRead.cs",
+      "raw_sha256": "25845eca75700ff6d13ab56579a6f9d77dae5d06cd2f4030ab1bc4e28abbc6d0"
+    },
+    {
+      "path": "Repositories\\CardapioRepositoryRead.cs",
+      "export_path": "Repositories\\CardapioRepositoryRead.cs",
+      "raw_sha256": "2a558e50ae6f44973520af92c36e66a07da61763c720f2a78c3166494bac9474"
+    },
+    {
+      "path": "Repositories\\CompartilhamentoWhatsAppRepositoryWrite.cs",
+      "export_path": "Repositories\\CompartilhamentoWhatsAppRepositoryWrite.cs",
+      "raw_sha256": "e83c4156a8af56568492bb2eb46e747c7bbed4e306dbf70d23a81b096263eb57"
+    },
+    {
+      "path": "Repositories\\ConfiguracaoRepositoryRead.cs",
+      "export_path": "Repositories\\ConfiguracaoRepositoryRead.cs",
+      "raw_sha256": "a3caeae810bfc750cb25166401a2b93f31af2625a77cde7c24dd3d9ade95f8ee"
+    },
+    {
+      "path": "Repositories\\ConfiguracaoServidorRepositoryRead.cs",
+      "export_path": "Repositories\\ConfiguracaoServidorRepositoryRead.cs",
+      "raw_sha256": "97c423f4a1571b3e961fd3af6bc6cb1cd34c6c7e1bce1d09ae17534123d579de"
+    },
+    {
+      "path": "Repositories\\ConhecimentoTransporteEletronicoRepositoryRead.cs",
+      "export_path": "Repositories\\ConhecimentoTransporteEletronicoRepositoryRead.cs",
+      "raw_sha256": "fd7e65f50917a5e32ce9793231d43894eb835cdbbcd6eda3a74f66b1e28cd8ad"
+    },
+    {
+      "path": "Repositories\\ContadorSenhaRepositoryWrite.cs",
+      "export_path": "Repositories\\ContadorSenhaRepositoryWrite.cs",
+      "raw_sha256": "a38e3dbb4f106722251edb7757d807b2a8fd8af591d1882525254a15b40d86a0"
+    },
+    {
+      "path": "Repositories\\ContaRepositoryRead.cs",
+      "export_path": "Repositories\\ContaRepositoryRead.cs",
+      "raw_sha256": "45b24a73bf4f318bd20491333c4ea09ccbd154499878464ce90ec5cbf44f8313"
+    },
+    {
+      "path": "Repositories\\ContaRepositoryWrite.cs",
+      "export_path": "Repositories\\ContaRepositoryWrite.cs",
+      "raw_sha256": "9c4038f8f42b82e35ae57eeae411ff6c0d0e54838cb076f43ea4f9a74c6a6d11"
+    },
+    {
+      "path": "Repositories\\CotacaoRepositoryRead.cs",
+      "export_path": "Repositories\\CotacaoRepositoryRead.cs",
+      "raw_sha256": "5b76af67d07ef616ef0ed608d32d78e0046d1e718c72e6d3f591eb0b63e66b7e"
+    },
+    {
+      "path": "Repositories\\CotacaoRepositoryWrite.cs",
+      "export_path": "Repositories\\CotacaoRepositoryWrite.cs",
+      "raw_sha256": "5e00150d02034eb5b9052b263f5c9dad45d94e551ed72d1584edf2b9364d8072"
+    },
+    {
+      "path": "Repositories\\EstoqueFisicoQuantidadeRepositoryRead.cs",
+      "export_path": "Repositories\\EstoqueFisicoQuantidadeRepositoryRead.cs",
+      "raw_sha256": "4a535701854a12fb0846c826b7df0021a51644d076bb33dc0f6535555a2a3a0f"
+    },
+    {
+      "path": "Repositories\\EstoqueFisicoQuantidadeRepositoryWrite.cs",
+      "export_path": "Repositories\\EstoqueFisicoQuantidadeRepositoryWrite.cs",
+      "raw_sha256": "a1a4bf985ebf6de1c195494e0b824a2d3ee67e621ff4321ca9cdb3ed74b3cf2e"
+    },
+    {
+      "path": "Repositories\\EstoqueQuantidadeRepositoryRead.cs",
+      "export_path": "Repositories\\EstoqueQuantidadeRepositoryRead.cs",
+      "raw_sha256": "1379580996f7a3e660feb5b81bb8ad14bd91bc201803d9bad5b08528070180bc"
+    },
+    {
+      "path": "Repositories\\EstoqueRepositoryWrite.cs",
+      "export_path": "Repositories\\EstoqueRepositoryWrite.cs",
+      "raw_sha256": "2d97f974fe1c68bc5db9d5988c65f4df5cb984ca5a27cb0123c782d3b7b276a2"
+    },
+    {
+      "path": "Repositories\\GestaoContratoRepositoryRead.cs",
+      "export_path": "Repositories\\GestaoContratoRepositoryRead.cs",
+      "raw_sha256": "5a2e47670a127e3913555a06d39f28befd3849b33c1fa4cc1807a59c880ac3fb"
+    },
+    {
+      "path": "Repositories\\GrupoMenuRepositoryWrite.cs",
+      "export_path": "Repositories\\GrupoMenuRepositoryWrite.cs",
+      "raw_sha256": "62c5392908d74eac08fba420c215d6a411229419332d6e636fb895f0ea570ef8"
+    },
+    {
+      "path": "Repositories\\GrupoRepositoryRead.cs",
+      "export_path": "Repositories\\GrupoRepositoryRead.cs",
+      "raw_sha256": "9b794ed7d59b97bc1597871f082e137483b45893eeefe59180cbfc2f37ccb906"
+    },
+    {
+      "path": "Repositories\\GrupoRepositoryWrite.cs",
+      "export_path": "Repositories\\GrupoRepositoryWrite.cs",
+      "raw_sha256": "95e4e0b59e4417eadc7a1806595e567420406de0872876c6f0d5ce46c66e95c6"
+    },
+    {
+      "path": "Repositories\\HospedagemRepositoryRead.cs",
+      "export_path": "Repositories\\HospedagemRepositoryRead.cs",
+      "raw_sha256": "4d007ef56aa0d316bc731c946340c57b423927e557ed2b6eb1610b6e9a3cd485"
+    },
+    {
+      "path": "Repositories\\InformacaoExtraRepositoryWrite.cs",
+      "export_path": "Repositories\\InformacaoExtraRepositoryWrite.cs",
+      "raw_sha256": "9441fc976a1786357c740cb3282e5ee342fb2856fd476da04225660992446564"
+    },
+    {
+      "path": "Repositories\\InformacaoNutricionalRepositoryWrite.cs",
+      "export_path": "Repositories\\InformacaoNutricionalRepositoryWrite.cs",
+      "raw_sha256": "4023a7db2225a7aa750308230be5c0472639ea9321c1c064c379015df52b08a6"
+    },
+    {
+      "path": "Repositories\\KitRepositoryRead.cs",
+      "export_path": "Repositories\\KitRepositoryRead.cs",
+      "raw_sha256": "092b68fa11d6f225e840b70c6324ac87ef860038710f4fdcd3b0c29c73fd5d56"
+    },
+    {
+      "path": "Repositories\\KitRepositoryReadFactory.cs",
+      "export_path": "Repositories\\KitRepositoryReadFactory.cs",
+      "raw_sha256": "fbf7b87c80dee909b15532a8195828546d4727092e5346bfce61f76977b850c1"
+    },
+    {
+      "path": "Repositories\\KitRepositoryWrite.cs",
+      "export_path": "Repositories\\KitRepositoryWrite.cs",
+      "raw_sha256": "37166623e60313d185581115d1c37932c0fb1fdea142b0019c9076abc42a138f"
+    },
+    {
+      "path": "Repositories\\ManifestacaoDestinatarioRepositoryWrite.cs",
+      "export_path": "Repositories\\ManifestacaoDestinatarioRepositoryWrite.cs",
+      "raw_sha256": "9153d5d16f758ab4c15d4292880e55a7770d960fe451bd82509b5b02279b964a"
+    },
+    {
+      "path": "Repositories\\MenuRapidoRepositoryRead.cs",
+      "export_path": "Repositories\\MenuRapidoRepositoryRead.cs",
+      "raw_sha256": "b7ffd422eac558e6437cf89c53068ae7d27d7ca6233345a907fcdeeb3e5e5111"
+    },
+    {
+      "path": "Repositories\\MenuRapidoRepositoryWrite.cs",
+      "export_path": "Repositories\\MenuRapidoRepositoryWrite.cs",
+      "raw_sha256": "f8955df45988dfe73c65415f94ba08695aa16cd67cc68a784c916f3125218967"
+    },
+    {
+      "path": "Repositories\\MoedaRepositoryRead.cs",
+      "export_path": "Repositories\\MoedaRepositoryRead.cs",
+      "raw_sha256": "2e9807af17dbc8c4bb8feb749fac5e696dda6513b83d7c7358121ec3e5bba97b"
+    },
+    {
+      "path": "Repositories\\MovimentacaoCtrcRepositoryRead.cs",
+      "export_path": "Repositories\\MovimentacaoCtrcRepositoryRead.cs",
+      "raw_sha256": "1d52984f9327e483a629de1ba3cd81692169e389c0263b012aa321fba6045fde"
+    },
+    {
+      "path": "Repositories\\MovimentacaoRepositoryRead.cs",
+      "export_path": "Repositories\\MovimentacaoRepositoryRead.cs",
+      "raw_sha256": "68c8900b9223def3106dd559431cd47c0df5281df09db53cba3fd814b4fffec1"
+    },
+    {
+      "path": "Repositories\\MovimentacaoRepositoryWrite.cs",
+      "export_path": "Repositories\\MovimentacaoRepositoryWrite.cs",
+      "raw_sha256": "4259f5bff4c4dd5f3d0e680cb2153a5bf4faf6e4d31a25d67d127f7b058c6763"
+    },
+    {
+      "path": "Repositories\\MovimentoContaRepositoryRead.cs",
+      "export_path": "Repositories\\MovimentoContaRepositoryRead.cs",
+      "raw_sha256": "399cedfead72ce72dc933c9724c463956df9a33227d55b6e9b58efe8a73a1d1f"
+    },
+    {
+      "path": "Repositories\\MovimentoContaRepositoryWrite.cs",
+      "export_path": "Repositories\\MovimentoContaRepositoryWrite.cs",
+      "raw_sha256": "330391b4281f02e7b7a5d495b75aaf23570b822729c26cfdeeb20fe401f2f3e3"
+    },
+    {
+      "path": "Repositories\\NaturezaOperacaoRepositoryRead.cs",
+      "export_path": "Repositories\\NaturezaOperacaoRepositoryRead.cs",
+      "raw_sha256": "fc7029b2997bc5c5ecb19277ec075a31096ae6eef60cf56ade3c17061f17ab17"
+    },
+    {
+      "path": "Repositories\\NaturezaOperacaoRepositoryWrite.cs",
+      "export_path": "Repositories\\NaturezaOperacaoRepositoryWrite.cs",
+      "raw_sha256": "252f7ef49bd05950d6b8ae3b94a5306a039f926af9e71d0f0a28170edef72c87"
+    },
+    {
+      "path": "Repositories\\ObjetoRepositoryRead.cs",
+      "export_path": "Repositories\\ObjetoRepositoryRead.cs",
+      "raw_sha256": "65d11e18febd7844a0ee7b79041810ccb5f6d24e0f8634a15a797c61f195a09c"
+    },
+    {
+      "path": "Repositories\\OrcamentoIndustriaRepositoryRead.cs",
+      "export_path": "Repositories\\OrcamentoIndustriaRepositoryRead.cs",
+      "raw_sha256": "80be8a30f5ae8790e0a8b259ef360a9f3ae038b9b57c834f4569ca2e571cd077"
+    },
+    {
+      "path": "Repositories\\OrdemDesmontagemRepositoryRead.cs",
+      "export_path": "Repositories\\OrdemDesmontagemRepositoryRead.cs",
+      "raw_sha256": "466652b28191015ed6cf5774bbdb875249c448e9a54cab66ba2c3305dc898859"
+    },
+    {
+      "path": "Repositories\\OrdemProducaoRepositoryRead.cs",
+      "export_path": "Repositories\\OrdemProducaoRepositoryRead.cs",
+      "raw_sha256": "914d7c83e807ac25ca5047f0bb381aef2fe27ef06ece838aeb41a09465f7d91a"
+    },
+    {
+      "path": "Repositories\\ParcelaPagamentoRepositoryWrite.cs",
+      "export_path": "Repositories\\ParcelaPagamentoRepositoryWrite.cs",
+      "raw_sha256": "4cc8c595f3cb148824b02aa96645f58f3272b3c76bcce69f2ba0a64fe244294e"
+    },
+    {
+      "path": "Repositories\\ParcelaRecebimentoRepositoryWrite.cs",
+      "export_path": "Repositories\\ParcelaRecebimentoRepositoryWrite.cs",
+      "raw_sha256": "185b1dc162705c4d85518d61ab40f26500919525ee0596048248f8f812a75d25"
+    },
+    {
+      "path": "Repositories\\ParcelaRepositoryRead.cs",
+      "export_path": "Repositories\\ParcelaRepositoryRead.cs",
+      "raw_sha256": "a0f525ace24af83d879e2f62539aeadb77394d8e03c81248646625ac50998dee"
+    },
+    {
+      "path": "Repositories\\PerfilRepositoryWrite.cs",
+      "export_path": "Repositories\\PerfilRepositoryWrite.cs",
+      "raw_sha256": "49ceb70d67b83cadd2b9d02926b1a4831d438ac3d30052af264c2a178aa0c5e7"
+    },
+    {
+      "path": "Repositories\\PessoaRepositoryRead.cs",
+      "export_path": "Repositories\\PessoaRepositoryRead.cs",
+      "raw_sha256": "e9093003f7ec0c1e37df3f415bcb9d828decbee32c0aab179fa9af18abde2c79"
+    },
+    {
+      "path": "Repositories\\PessoaRepositoryWrite.cs",
+      "export_path": "Repositories\\PessoaRepositoryWrite.cs",
+      "raw_sha256": "27530fb0d9e0f6b798234d40a9226ce9c953ae8a5581cab15b1513f0bc5e1273"
+    },
+    {
+      "path": "Repositories\\PrecoRepositoryPafWrite.cs",
+      "export_path": "Repositories\\PrecoRepositoryPafWrite.cs",
+      "raw_sha256": "70fd2051a5541de8283086476da0c3c91e32be139ee01d373a8063502383dc30"
+    },
+    {
+      "path": "Repositories\\PrecoRepositoryRead.cs",
+      "export_path": "Repositories\\PrecoRepositoryRead.cs",
+      "raw_sha256": "1b9b72a82ea4456786e833f0c24a5a19d19b843bae0f2cb31e71c034d4a251fd"
+    },
+    {
+      "path": "Repositories\\ProdutoServicoEmpresaRepositoryRead.cs",
+      "export_path": "Repositories\\ProdutoServicoEmpresaRepositoryRead.cs",
+      "raw_sha256": "71b6e2b297779bd367f4b8d97a27bec127a4937b9800d7e13f8b7dd8cc6dea0d"
+    },
+    {
+      "path": "Repositories\\ProdutoServicoEmpresaRepositoryRead32.cs",
+      "export_path": "Repositories\\ProdutoServicoEmpresaRepositoryRead32.cs",
+      "raw_sha256": "9906c08b863a616edc975edd38e44f99f36e23edfa6ed792d0e33c32c1e6fce5"
+    },
+    {
+      "path": "Repositories\\ProdutoServicoEmpresaRepositoryReadFactory.cs",
+      "export_path": "Repositories\\ProdutoServicoEmpresaRepositoryReadFactory.cs",
+      "raw_sha256": "3e234fe0fb28770fe612f711a457d53bd30f1d1d8abcb4825095de38e3fd9432"
+    },
+    {
+      "path": "Repositories\\ProdutoServicoEmpresaRepositoryWrite.cs",
+      "export_path": "Repositories\\ProdutoServicoEmpresaRepositoryWrite.cs",
+      "raw_sha256": "93d4d111e9b6d7f89d41054cdb9ea543ca64c7c917a7d1c97c1334ca4dd59cc6"
+    },
+    {
+      "path": "Repositories\\ProdutoServicoRepositoryRead.cs",
+      "export_path": "Repositories\\ProdutoServicoRepositoryRead.cs",
+      "raw_sha256": "afb9919ffb0cfbbb8a5d948ca54c1fe45884c315f58dfa913916c33fbf489e02"
+    },
+    {
+      "path": "Repositories\\ProdutoServicoRepositoryRead32.cs",
+      "export_path": "Repositories\\ProdutoServicoRepositoryRead32.cs",
+      "raw_sha256": "bce4624ef33023c7ed66aac10fbcec1b41122dc0717fd3f41bbd033d9ea277b6"
+    },
+    {
+      "path": "Repositories\\ProdutoServicoRepositoryReadFactory.cs",
+      "export_path": "Repositories\\ProdutoServicoRepositoryReadFactory.cs",
+      "raw_sha256": "033436c33a547782d5b766b18cd59e4cea55042c7abf8dfab53697ef13bfcb83"
+    },
+    {
+      "path": "Repositories\\ProdutoServicoRepositoryWrite.cs",
+      "export_path": "Repositories\\ProdutoServicoRepositoryWrite.cs",
+      "raw_sha256": "47506f0c02b6ebd81a2a5b72bbef9c047dd1900dfeafe96ad863a2c87acf2917"
+    },
+    {
+      "path": "Repositories\\PropriedadeRuralRepositoryRead.cs",
+      "export_path": "Repositories\\PropriedadeRuralRepositoryRead.cs",
+      "raw_sha256": "2db90fe8640106354885790a6569ebd9d2b7c78d13518cdaf96735aa88fc17c1"
+    },
+    {
+      "path": "Repositories\\PropriedadeRuralRepositoryWrite.cs",
+      "export_path": "Repositories\\PropriedadeRuralRepositoryWrite.cs",
+      "raw_sha256": "0a419f0a14e3877a55db54b2a3f2143fef7cf8fdf6bbc71f0cf96d07e5ee8eb9"
+    },
+    {
+      "path": "Repositories\\ReceitaRepositoryRead.cs",
+      "export_path": "Repositories\\ReceitaRepositoryRead.cs",
+      "raw_sha256": "92ff5c9264e0a59672d0a804b9b2ae567eaf5c383c6daa2e3ae5421dc38c70a5"
+    },
+    {
+      "path": "Repositories\\ReceitaRepositoryWrite.cs",
+      "export_path": "Repositories\\ReceitaRepositoryWrite.cs",
+      "raw_sha256": "7360cc33cbf71c9639e7f6e8d66e8188896f73df9af8b0d4d44342250ec345a0"
+    },
+    {
+      "path": "Repositories\\RegistroPafEcfRepositoryRead.cs",
+      "export_path": "Repositories\\RegistroPafEcfRepositoryRead.cs",
+      "raw_sha256": "32ba512a633498389ac4c99d20127103708fcbb2e38a442ee48927198727ef3f"
+    },
+    {
+      "path": "Repositories\\RegistroPafEcfRepositoryWrite.cs",
+      "export_path": "Repositories\\RegistroPafEcfRepositoryWrite.cs",
+      "raw_sha256": "8118150a507b0829c78eff3567f2ca7ea8db062513a11f36fa5ab1beea93b61d"
+    },
+    {
+      "path": "Repositories\\RelacaoProdutoServicoEmpresaFornecedorRepositoryRead.cs",
+      "export_path": "Repositories\\RelacaoProdutoServicoEmpresaFornecedorRepositoryRead.cs",
+      "raw_sha256": "836444f3d9d537ff17e322864bdfc7b56080ba227d0ef2c2fd741fdc921cde8e"
+    },
+    {
+      "path": "Repositories\\RequisicaoExternaRepositoryWrite.cs",
+      "export_path": "Repositories\\RequisicaoExternaRepositoryWrite.cs",
+      "raw_sha256": "6109b8f7dbe7bfe1ef594f89a68bcb241969bcbda9ce892e5e193e136fdfa0d7"
+    },
+    {
+      "path": "Repositories\\RomaneioCargaRepositoryRead.cs",
+      "export_path": "Repositories\\RomaneioCargaRepositoryRead.cs",
+      "raw_sha256": "65eb57fb9d87f19470edacb7e18ff4a07bf9286e1060d3c0aad253386cc1a765"
+    },
+    {
+      "path": "Repositories\\RomaneioConhecimentoTransporteEletronicoRepositoryRead.cs",
+      "export_path": "Repositories\\RomaneioConhecimentoTransporteEletronicoRepositoryRead.cs",
+      "raw_sha256": "6c3431c8c63f5975e4438be40807f42fac82c494c8bba615c66aef33f34c991b"
+    },
+    {
+      "path": "Repositories\\SegmentacaoRepositoryRead.cs",
+      "export_path": "Repositories\\SegmentacaoRepositoryRead.cs",
+      "raw_sha256": "dad61eaf63ce946ac453ebc57c7e007cbd0d301e7157caf85dbac20c7a211368"
+    },
+    {
+      "path": "Repositories\\SequenciaMovimentacaoRepositoryRead.cs",
+      "export_path": "Repositories\\SequenciaMovimentacaoRepositoryRead.cs",
+      "raw_sha256": "0bd737cb048b91b23a95a9e7951782cef4c67064e95075e3ea04109a969f970e"
+    },
+    {
+      "path": "Repositories\\SequenciaMovimentacaoRepositoryWrite.cs",
+      "export_path": "Repositories\\SequenciaMovimentacaoRepositoryWrite.cs",
+      "raw_sha256": "6a38b7a507f7545a71764553ecd1760c5252ab79395e33c71fc4800dac6f7448"
+    },
+    {
+      "path": "Repositories\\SequenciaNossoNumeroRepositoryWrite.cs",
+      "export_path": "Repositories\\SequenciaNossoNumeroRepositoryWrite.cs",
+      "raw_sha256": "1c53f4c5ae5d24d3a5945531069f0325d43f35086691fc7c9928e1711b3b4422"
+    },
+    {
+      "path": "Repositories\\StatusDavOsCadastroRepositoryWrite.cs",
+      "export_path": "Repositories\\StatusDavOsCadastroRepositoryWrite.cs",
+      "raw_sha256": "d915b52195dc119983707110ec16d5f7cc9716f219a10adf0d93b20ef4f2ae77"
+    },
+    {
+      "path": "Repositories\\TabelaPrecoRepositoryRead.cs",
+      "export_path": "Repositories\\TabelaPrecoRepositoryRead.cs",
+      "raw_sha256": "e6ab7ca1d470b48ad2f9b437e3649bbb7720be0a10f61678c477c08e0981d22a"
+    },
+    {
+      "path": "Repositories\\TanqueRepositoryRead.cs",
+      "export_path": "Repositories\\TanqueRepositoryRead.cs",
+      "raw_sha256": "553a3c42d2f6ca513df6880f39ed0476f9e648025eb7d52e0c5c975acb06624c"
+    },
+    {
+      "path": "Repositories\\TanqueRepositoryRead32.cs",
+      "export_path": "Repositories\\TanqueRepositoryRead32.cs",
+      "raw_sha256": "1d6acb0d0d2598e0117b32dad870421f21ed3a5bf5fb14b6ca58be68f2894f68"
+    },
+    {
+      "path": "Repositories\\TanqueRepositoryReadFactory.cs",
+      "export_path": "Repositories\\TanqueRepositoryReadFactory.cs",
+      "raw_sha256": "3110439a6e2b9f47126375f844a78f7743f6442b4066ad8e9e402aea23da9e84"
+    },
+    {
+      "path": "Repositories\\TanqueRepositoryWrite.cs",
+      "export_path": "Repositories\\TanqueRepositoryWrite.cs",
+      "raw_sha256": "a33ba9592a7e0eb085bb27d5ae1c186bf4ab0a496f7498bb5841516715e60db4"
+    },
+    {
+      "path": "Repositories\\TransferenciaRepositoryRead.cs",
+      "export_path": "Repositories\\TransferenciaRepositoryRead.cs",
+      "raw_sha256": "2d24255b67e6aeb760ec5ada1a921c4bf8714d6fc51d8e0b95554327ebf08eea"
+    },
+    {
+      "path": "Repositories\\TributacaoFederalRepositoryRead.cs",
+      "export_path": "Repositories\\TributacaoFederalRepositoryRead.cs",
+      "raw_sha256": "af2e6d0ae5ae63066a35a5486f25c25422455010612e3073c3c96abb0b029db8"
+    },
+    {
+      "path": "Repositories\\TurnoRepositoryRead.cs",
+      "export_path": "Repositories\\TurnoRepositoryRead.cs",
+      "raw_sha256": "fa2ef9a7b7db2d2ea0b28ac8d40e9427547a633f4b175081a17954203e315478"
+    },
+    {
+      "path": "Repositories\\UsuarioRepositoryRead.cs",
+      "export_path": "Repositories\\UsuarioRepositoryRead.cs",
+      "raw_sha256": "73ff5114d56b61a5a917a250fe84df36e1592b1b9710c5f728fa537ab8c2cbc3"
+    },
+    {
+      "path": "Repositories\\UsuarioRepositoryWrite.cs",
+      "export_path": "Repositories\\UsuarioRepositoryWrite.cs",
+      "raw_sha256": "f02453af4e12d1ca73318556c9658ee17612a78a249f1a99d5dd9080ca20cc59"
+    },
+    {
+      "path": "Repositories\\VersaoProcessosRepositoryWrite.cs",
+      "export_path": "Repositories\\VersaoProcessosRepositoryWrite.cs",
+      "raw_sha256": "24035d04e9cda2fe472b1011763445f567dc01ad4fd505eba8d7ab36c61576f5"
+    },
+    {
+      "path": "Repositories\\VolumeInicialRepositoryRead.cs",
+      "export_path": "Repositories\\VolumeInicialRepositoryRead.cs",
+      "raw_sha256": "e78e929a95f8e41304d082c7524793fb32d996f5c8d9b7dc4f312eca54e01d0d"
+    },
+    {
+      "path": "Repositories\\XmlMovimentacaoRepositoryRead.cs",
+      "export_path": "Repositories\\XmlMovimentacaoRepositoryRead.cs",
+      "raw_sha256": "a0d1c109c5bfb79c7813ffb4145fd3d22049ce2fe031ddd7c6b8a346d0330789"
+    },
+    {
+      "path": "Repositories\\XmlMovimentacaoRepositoryWrite.cs",
+      "export_path": "Repositories\\XmlMovimentacaoRepositoryWrite.cs",
+      "raw_sha256": "f6b850f8aaa19dcd03d491f9ca49fa3d406ef1b16c0d526c29332b72f0c34680"
+    },
+    {
+      "path": "Resources\\Messages.cs",
+      "export_path": "Resources\\Messages.cs",
+      "raw_sha256": "f4fb3a0ea437b9207a2d150fff295e1be2df2c5f1b2a508fee6e2fb5f222b010"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 2175
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Data.Main.Resources.Messages.resources",
+      "file": "0000.bin",
+      "bytes": 994,
+      "sha256": "5692fa3ff9646f2704930767069254e1de4810ae20efe70245a7a1439c587018"
+    }
+  ],
+  "generated_stubs": false
+}

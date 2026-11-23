@@ -1,0 +1,195 @@
+﻿{
+    "name":  "Modulo.Sngpcs",
+    "baseline":  "baseline\\Modulo.Sngpcs.dll",
+    "baseline_sha256":  "556a87a9f62772eee65077b0778c7b60b2264d0b7152f8ec67515d41091acd59",
+    "export_project":  "recovered\\SuiteG6\\Modulo.Sngpcs\\Modulo.Sngpcs.csproj",
+    "sources":  [
+                    {
+                        "path":  "Properties\\AssemblyInfo.cs",
+                        "export_path":  "Properties\\AssemblyInfo.cs",
+                        "raw_sha256":  "6989f73f2817693b80a7438fafbbe4dfd98b2ba4e091cd3d4719f87a5dc64e22"
+                    },
+                    {
+                        "path":  "Properties\\Resources.cs",
+                        "export_path":  "Properties\\Resources.cs",
+                        "raw_sha256":  "55ca74963ac7c6c86894e7860a6b8bdb5c8e86b1c3405f0b95b33849a1749d46"
+                    },
+                    {
+                        "path":  "Properties\\Settings.Designer.cs",
+                        "export_path":  "Properties\\Settings.Designer.cs",
+                        "raw_sha256":  "e18d7253dd49fe33d3750602e6df6d81c8465fed2ceeeb27e7e9c451168ab8c1"
+                    },
+                    {
+                        "path":  "Reports\\Resumo.cs",
+                        "export_path":  "Reports\\Resumo.cs",
+                        "raw_sha256":  "899204a49608b714c7425137393c1835c02ae6e0423fdf3efd3e7eb8bdf32273"
+                    },
+                    {
+                        "path":  "Reports\\ResumoStatus.cs",
+                        "export_path":  "Reports\\ResumoStatus.cs",
+                        "raw_sha256":  "eaedd05098b2b5884189baea8e0a2cadb32468da971dc6a8f556b0c832ed2d76"
+                    },
+                    {
+                        "path":  "Services\\TransmitirArquivoSngpcService.cs",
+                        "export_path":  "Services\\TransmitirArquivoSngpcService.cs",
+                        "raw_sha256":  "55d6ddd6d89f4c50913f17ea58146fb9e520632ad0c08af026190f98141979ff"
+                    },
+                    {
+                        "path":  "SngpcModulo.cs",
+                        "export_path":  "SngpcModulo.cs",
+                        "raw_sha256":  "57be277a30bd666e4cf22393783585a6ad9de8c4ba2432f775b6534428292cb6"
+                    },
+                    {
+                        "path":  "ViewModels\\GerarArquivoSngpcAbaViewModel.cs",
+                        "export_path":  "ViewModels\\GerarArquivoSngpcAbaViewModel.cs",
+                        "raw_sha256":  "f9e85b11aff226fc2a8301fbb0189c0e1efae11d61791d2305a72b85713c914b"
+                    },
+                    {
+                        "path":  "ViewModels\\GerarArquivoSngpcFichaViewModel.cs",
+                        "export_path":  "ViewModels\\GerarArquivoSngpcFichaViewModel.cs",
+                        "raw_sha256":  "4d77601cb061cdfc88904328b2ecba2cf29100d31ceaa2f7509930f2a0653e12"
+                    },
+                    {
+                        "path":  "ViewModels\\GerarArquivoSngpcFormulario.cs",
+                        "export_path":  "ViewModels\\GerarArquivoSngpcFormulario.cs",
+                        "raw_sha256":  "f51a1aa680562104d3609f9ac5ffdd7d7ff85f290bacf3311bab226900891508"
+                    },
+                    {
+                        "path":  "ViewModels\\GerarArquivoSngpcViewModel.cs",
+                        "export_path":  "ViewModels\\GerarArquivoSngpcViewModel.cs",
+                        "raw_sha256":  "67b03259486fcb4b92a23d780c75cf2dbb5c79a484eab19c82591b3c76b8842c"
+                    },
+                    {
+                        "path":  "ViewModels\\GerarInventarioSngpcAbaViewModel.cs",
+                        "export_path":  "ViewModels\\GerarInventarioSngpcAbaViewModel.cs",
+                        "raw_sha256":  "1efce3664089a0347193da86c2551fa82c46192ffc57190dd6249149d626347a"
+                    },
+                    {
+                        "path":  "ViewModels\\GerarInventarioSngpcFichaViewModel.cs",
+                        "export_path":  "ViewModels\\GerarInventarioSngpcFichaViewModel.cs",
+                        "raw_sha256":  "f67b78ea6e54b280124cdca49eee7f8a40f94b9aeb04a62ff7874fc5d0a462ca"
+                    },
+                    {
+                        "path":  "ViewModels\\GerarInventarioSngpcFormulario.cs",
+                        "export_path":  "ViewModels\\GerarInventarioSngpcFormulario.cs",
+                        "raw_sha256":  "16ae98f7b5b854a538820d144795d57872c87f23c8b5d2c268a895c9922775fd"
+                    },
+                    {
+                        "path":  "ViewModels\\GerarInventarioSngpcViewModel.cs",
+                        "export_path":  "ViewModels\\GerarInventarioSngpcViewModel.cs",
+                        "raw_sha256":  "db46a14173ea10cc27eb513c89048fcc27c7476118f35b16288e2e203c12e09e"
+                    },
+                    {
+                        "path":  "ViewModels\\ReceitaAbaViewModel.cs",
+                        "export_path":  "ViewModels\\ReceitaAbaViewModel.cs",
+                        "raw_sha256":  "07365756c0ca0ada033f311758d28bfee47af90e330b315e5c13f0e76d8edd25"
+                    },
+                    {
+                        "path":  "ViewModels\\ReceitaFichaAdicionarViewModel.cs",
+                        "export_path":  "ViewModels\\ReceitaFichaAdicionarViewModel.cs",
+                        "raw_sha256":  "943c5be35f48fc5e38aa0c7d4649219f7e66fdf92e30a8935402dbe2c12704ad"
+                    },
+                    {
+                        "path":  "ViewModels\\ReceitaFichaAtualizarViewModel.cs",
+                        "export_path":  "ViewModels\\ReceitaFichaAtualizarViewModel.cs",
+                        "raw_sha256":  "065aa74e595ef4a7ac29eaf56a39ab4e207693b74e040e6d6685112d2e7ccc7d"
+                    },
+                    {
+                        "path":  "ViewModels\\ReceitaMedicamentosAbaViewModel.cs",
+                        "export_path":  "ViewModels\\ReceitaMedicamentosAbaViewModel.cs",
+                        "raw_sha256":  "f88fd8da1c2a62e19d9083ba537277363e55df723e6467af6fd40d2fc28cf95f"
+                    },
+                    {
+                        "path":  "ViewModels\\ReceitaMedicamentosViewModel.cs",
+                        "export_path":  "ViewModels\\ReceitaMedicamentosViewModel.cs",
+                        "raw_sha256":  "a50bc53d60f1206f561ae40c0a6f7bd8499f0aba22b038867edee42092b97cbe"
+                    },
+                    {
+                        "path":  "ViewModels\\ReceitaViewModel.cs",
+                        "export_path":  "ViewModels\\ReceitaViewModel.cs",
+                        "raw_sha256":  "b28d44c9a1d5cfceacc34e56f57a43178cb015a059e019a32dfbd27a6464bfec"
+                    },
+                    {
+                        "path":  "ViewModels\\SngpcFormulario.cs",
+                        "export_path":  "ViewModels\\SngpcFormulario.cs",
+                        "raw_sha256":  "9c22684500eb39e752aaaa1d44826a1a04aff70c9bbc5efd9af15f3ce8d124c3"
+                    },
+                    {
+                        "path":  "ViewModels\\SngpcListaViewModel.cs",
+                        "export_path":  "ViewModels\\SngpcListaViewModel.cs",
+                        "raw_sha256":  "2acc06abdee9306b36263d0f7b34dc779067bbaa9e0c9a2797b49b469dd464ad"
+                    },
+                    {
+                        "path":  "ViewModels\\SngpcsViewModel.cs",
+                        "export_path":  "ViewModels\\SngpcsViewModel.cs",
+                        "raw_sha256":  "6efc979ddb361ca9b51a6923fcaae3448f238c71b9d748cd9047ffe2152c2bd5"
+                    },
+                    {
+                        "path":  "Views\\GerarArquivoSngpcFichaView.cs",
+                        "export_path":  "Views\\GerarArquivoSngpcFichaView.cs",
+                        "raw_sha256":  "96b9d49531c3ed07f28aa7465c3d0459515b5e86d62e3de2b02a430e285af1b4"
+                    },
+                    {
+                        "path":  "Views\\GerarInventarioSngpcFichaView.cs",
+                        "export_path":  "Views\\GerarInventarioSngpcFichaView.cs",
+                        "raw_sha256":  "8e870fedbb901cd87f90d8653e21471244ebcce8bd339380a5622797f146e39c"
+                    },
+                    {
+                        "path":  "Views\\ReceitaFichaAdicionarView.cs",
+                        "export_path":  "Views\\ReceitaFichaAdicionarView.cs",
+                        "raw_sha256":  "c36aa6a0893ac8b4df6cbbd3e7c4c866fba3549da90d79b8e7f3a7d4ec02010b"
+                    },
+                    {
+                        "path":  "Views\\ReceitaFichaAtualizarView.cs",
+                        "export_path":  "Views\\ReceitaFichaAtualizarView.cs",
+                        "raw_sha256":  "8507c5febf0f5603a85649ba43458ec0e3b57802784ead3681919c89d8813cad"
+                    },
+                    {
+                        "path":  "Views\\SngpcListaView.cs",
+                        "export_path":  "Views\\SngpcListaView.cs",
+                        "raw_sha256":  "3ee9b4bc0498ac33a20e14cf74bae72ef1efef8951d1be68b6383385ff8b1fd9"
+                    },
+                    {
+                        "path":  "Views\\SngpcsView.cs",
+                        "export_path":  "Views\\SngpcsView.cs",
+                        "raw_sha256":  "ce169e307efb7bf4f3786cc01ba40adbe28a21ea1b0df0ce08a817d7a1664b0b"
+                    }
+                ],
+    "output_type":  "Library",
+    "repairs":  [
+                    "Replaced invalid decompiler cached-lambda identifier with an initialized local predicate; the module builder qualified ambiguous LINQ Expression references based on compiler diagnostics."
+                ],
+    "original_resources":  [
+                               {
+                                   "name":  "Modulo.Sngpcs.g.resources",
+                                   "file":  "0000.bin",
+                                   "bytes":  32340,
+                                   "sha256":  "676465c467d2675623981d1e896917841d0b6e2a4da9b8015ca56561fa1e877c"
+                               },
+                               {
+                                   "name":  "Otus.Modulo.Sngpcs.Properties.Resources.resources",
+                                   "file":  "0001.bin",
+                                   "bytes":  180,
+                                   "sha256":  "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+                               },
+                               {
+                                   "name":  "Otus.Modulo.Sngpcs.Reports.Resumo.resources",
+                                   "file":  "0002.bin",
+                                   "bytes":  180,
+                                   "sha256":  "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+                               },
+                               {
+                                   "name":  "Otus.Modulo.Sngpcs.Reports.ResumoStatus.resources",
+                                   "file":  "0003.bin",
+                                   "bytes":  180,
+                                   "sha256":  "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+                               },
+                               {
+                                   "name":  "Modulo.Sngpcs.dll.licenses",
+                                   "file":  "0004.bin",
+                                   "bytes":  277,
+                                   "sha256":  "2d214d56b1dfbd387a82da248834abbc52e1ea8e5a988e162cd2bf2f020679fa"
+                               }
+                           ],
+    "generated_stubs":  false
+}

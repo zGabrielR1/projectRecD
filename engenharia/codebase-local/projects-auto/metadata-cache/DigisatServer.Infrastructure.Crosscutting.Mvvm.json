@@ -1,0 +1,23 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Mvvm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DevExpress.Mvvm.v15.2",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Prism.Wpf",
+    "PresentationCore",
+    "PresentationFramework",
+    "System.Xaml",
+    "WindowsBase",
+    "System.Windows.Forms",
+    "System.Core",
+    "System.Reactive.Linq",
+    "System.Windows.Interactivity",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.XtraReports.v15.2",
+    "System.Reactive.Core",
+    "NClone",
+    "DevExpress.Xpf.Core.v15.2"
+  ]
+}

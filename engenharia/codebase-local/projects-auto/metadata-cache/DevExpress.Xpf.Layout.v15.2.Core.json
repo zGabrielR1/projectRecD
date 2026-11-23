@@ -1,0 +1,12 @@
+{
+  "assembly": "DevExpress.Xpf.Layout.v15.2.Core, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "System",
+    "WindowsBase",
+    "PresentationCore",
+    "PresentationFramework",
+    "DevExpress.Data.v15.2",
+    "System.Core"
+  ]
+}

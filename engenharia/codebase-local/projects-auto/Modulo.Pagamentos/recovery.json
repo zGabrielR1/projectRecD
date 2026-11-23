@@ -1,0 +1,156 @@
+{
+  "name": "Modulo.Pagamentos",
+  "baseline": "baseline\\Modulo.Pagamentos.dll",
+  "baseline_sha256": "4bf9cf85aaacd8ed25532d2f9fd78429159ea1de104926d9864cc9ddf4ffe6e2",
+  "export_project": "recovered\\SuiteG6\\Modulo.Pagamentos\\Modulo.Pagamentos.csproj",
+  "sources": [
+    {
+      "path": "PagamentoModulo.cs",
+      "export_path": "PagamentoModulo.cs",
+      "raw_sha256": "de12f1b3e1045fd01e1eb97bfa1b990abec8f155476c37c1bcc8f0cddea5728a"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "bd936e0c16124e69ba5730410dc5a76c46749baa20b2f7954db439dc96387a18"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "c0d89a992ee80ed85697e44c8606b1adbb50c98736ee8dc9624d8081eabd323a"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "7aa687a1d549d88844fd8892ecffabb5ce68a53ee38f162d84471ba30934267a"
+    },
+    {
+      "path": "ViewModels\\PagamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\PagamentoAbaViewModel.cs",
+      "raw_sha256": "fd9008f6b1d42c786881687a36f47347c35b069b64695b2be8402e37566a7184"
+    },
+    {
+      "path": "ViewModels\\PagamentoAnexosAbaViewModel.cs",
+      "export_path": "ViewModels\\PagamentoAnexosAbaViewModel.cs",
+      "raw_sha256": "f7697c7a2e56be7ec5b0c1ccfe5a51b24c747a49e17a7b6b15f05fce68d4317e"
+    },
+    {
+      "path": "ViewModels\\PagamentoAnexosFichaViewModel.cs",
+      "export_path": "ViewModels\\PagamentoAnexosFichaViewModel.cs",
+      "raw_sha256": "c4188614b79351e1a6359c3b5c751f4a8ac49e2c18657a919f0bd9a03f7ec800"
+    },
+    {
+      "path": "ViewModels\\PagamentoAnexosFormulario.cs",
+      "export_path": "ViewModels\\PagamentoAnexosFormulario.cs",
+      "raw_sha256": "3c9d451f57888c5610376a54b5ef9a9e3670b82af1fae8ce46730dd07867caa4"
+    },
+    {
+      "path": "ViewModels\\PagamentoAnexosViewModel.cs",
+      "export_path": "ViewModels\\PagamentoAnexosViewModel.cs",
+      "raw_sha256": "f4e5ef3b633a6af0e9f6667c2e842d076568ef68f95acf2f31e2a7359750bb67"
+    },
+    {
+      "path": "ViewModels\\PagamentoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\PagamentoFichaAdicionarViewModel.cs",
+      "raw_sha256": "f0c48c70da6bad70eb2e863bfee8f3ec5a9c7d9338f2450aab3884968c3e8a13"
+    },
+    {
+      "path": "ViewModels\\PagamentoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\PagamentoFichaAtualizarViewModel.cs",
+      "raw_sha256": "82cdab6a6e2633f4a3f36b970f82bb80168c0012d6b0708a4f98fefade5a6dbf"
+    },
+    {
+      "path": "ViewModels\\PagamentoFormulario.cs",
+      "export_path": "ViewModels\\PagamentoFormulario.cs",
+      "raw_sha256": "5a97cb26ced3fd98e3075ad0ea938db8d71455c11f902be9845497ba456c7ccb"
+    },
+    {
+      "path": "ViewModels\\PagamentoListaViewModel.cs",
+      "export_path": "ViewModels\\PagamentoListaViewModel.cs",
+      "raw_sha256": "3194f69371e55b39a0828bcf9f9b30f12fa069a3f766e54891517a52f3a1d15f"
+    },
+    {
+      "path": "ViewModels\\PagamentosViewModel.cs",
+      "export_path": "ViewModels\\PagamentosViewModel.cs",
+      "raw_sha256": "6791e6bdd556d53268fd8c887672dc82f0054b1cda4ed00fdb9f693ad7a1d32a"
+    },
+    {
+      "path": "ViewModels\\PagamentoViewModel.cs",
+      "export_path": "ViewModels\\PagamentoViewModel.cs",
+      "raw_sha256": "e88d7cdf0dc66a69c0fe4142868cb4b455f8f8cc4e9ac506afa8ba63815d6ebf"
+    },
+    {
+      "path": "Views\\PagamentoAnexosFichaView.cs",
+      "export_path": "Views\\PagamentoAnexosFichaView.cs",
+      "raw_sha256": "ea3e11b2399244618d9b5bb0ee02260862601731fc469dd96dc6ef5c1740e450"
+    },
+    {
+      "path": "Views\\PagamentoFichaAdicionarView.cs",
+      "export_path": "Views\\PagamentoFichaAdicionarView.cs",
+      "raw_sha256": "dda94ce39a3183e73342d4ba43775f1504adfcc88ebe37e270961f091268ac40"
+    },
+    {
+      "path": "Views\\PagamentoFichaAtualizarView.cs",
+      "export_path": "Views\\PagamentoFichaAtualizarView.cs",
+      "raw_sha256": "aeb0d055825f76ba404125001cf854633fc8e7f851da20f63b1fedbdb14d1b22"
+    },
+    {
+      "path": "Views\\PagamentoFichaViewDetalhes\\PagamentoAnexosView.cs",
+      "export_path": "Views\\PagamentoFichaViewDetalhes\\PagamentoAnexosView.cs",
+      "raw_sha256": "e80b07f6a381fceeb177173a3b7168a2d35cc203d048ca1524838c9980a6ab21"
+    },
+    {
+      "path": "Views\\PagamentoFichaViewDetalhes\\PagamentoView.cs",
+      "export_path": "Views\\PagamentoFichaViewDetalhes\\PagamentoView.cs",
+      "raw_sha256": "52e0c2f2bd1875554447278768ca0c5ffc6a130a827510e1810d035e8c60939a"
+    },
+    {
+      "path": "Views\\PagamentoListaView.cs",
+      "export_path": "Views\\PagamentoListaView.cs",
+      "raw_sha256": "a111fc86baad356fe2c8a2ca94971b904476340873418bbb53c192a85b59c252"
+    },
+    {
+      "path": "Views\\PagamentosView.cs",
+      "export_path": "Views\\PagamentosView.cs",
+      "raw_sha256": "2e2582ab16303bab899ca2ec92611d168ee2ba7b3c00d186dcec0eb0aadb8886"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 72
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 10,
+      "types": [
+        "__c_DisplayClass38_0",
+        "__c_DisplayClass23_0",
+        "__c_DisplayClass23_1",
+        "__c_DisplayClass23_2",
+        "__c_DisplayClass23_3",
+        "__c_DisplayClass24_0",
+        "__c_DisplayClass24_1",
+        "__c_DisplayClass24_2",
+        "__c_DisplayClass24_3",
+        "__c_DisplayClass2_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Pagamentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 38602,
+      "sha256": "0b58bf113b29923ab91a55e2bf202893f4d4669a048a5a07499cec04d934a04a"
+    },
+    {
+      "name": "Otus.Modulo.Pagamentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

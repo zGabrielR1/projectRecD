@@ -1,0 +1,153 @@
+{
+  "artifactSha256": "8269c29a63427955fb35cea50511438c024a17bf8066264901aa23122707fc1c",
+  "mvid": "354ab781-359e-459f-b3ab-c7720f61a458",
+  "assembly": "Modulo.Movimentacoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System",
+    "System.Xaml",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "PresentationCore",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "System.ServiceModel",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.Mvvm.v15.2",
+    "FontAwesome.WPF",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Domain.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "System.Windows.Forms",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Drawing",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "System.Reactive.Core",
+    "WindowsBase",
+    "DigisatServer.Application.Core",
+    "itextsharp",
+    "DevExpress.Data.v15.2",
+    "NClone",
+    "DigisatServer.Infrastructure.Crosscutting.Boleto"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Movimentacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 722127,
+      "sha256": "be3658c5919750a1bde25568461db2dde4cc29798a45f197e2934bf6e4931aa9"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.DanfeSimplificadoEtiqueta.RelatorioDanfeSimplificadoEtiqueta.resources",
+      "file": "0002.bin",
+      "bytes": 9963,
+      "sha256": "db6d3ba088675ba2f16b8e6131311568b9f7ec249dc4dfc448cb078bc073c971"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.Decomposicao.RelatorioDecomposicaoEntrada.resources",
+      "file": "0003.bin",
+      "bytes": 3738,
+      "sha256": "27f64ccec23076ac538874661e8592086cdef0fbf70a6521f652ef32350f4e07"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.EspelhoDocumentoFiscal.RelatorioEspelhoDocumentoFiscal.resources",
+      "file": "0004.bin",
+      "bytes": 6263,
+      "sha256": "137f91b6886690a997b1733119fe55bf793aec63b13394c25f6c5f99fc5214a0"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.EspelhoDocumentoFiscal.RelatorioParcialEspelhoDocumentoFiscalProdutoEServico.resources",
+      "file": "0005.bin",
+      "bytes": 716,
+      "sha256": "c7921b6256de5e34a74bfaa009acbbf2aefda2d7530d1d7fe60d05c159f88b32"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.EspelhoDocumentoFiscal.RelatorioParcialEspelhoDocumentoFiscalDuplicatas.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.EtiquetaObjetos.resources",
+      "file": "0007.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.EtiquetaObjetosContinua.resources",
+      "file": "0008.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.EtiquetaVolumesContinua.resources",
+      "file": "0009.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.FormacaoPrecoVenda.ListaPrecosAtualizados.resources",
+      "file": "0010.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.PedidoCompra.RelatorioPedidoCompraConferenciaEntrada.resources",
+      "file": "0011.bin",
+      "bytes": 3686,
+      "sha256": "eb033c8cb8b93b3d85c6e9b35ec72c45ece8a5d7f42c00e7edb8d595e0b0f8cb"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.PedidoCompra.RelatorioRomaneioPedidoCompra.resources",
+      "file": "0012.bin",
+      "bytes": 3686,
+      "sha256": "eb033c8cb8b93b3d85c6e9b35ec72c45ece8a5d7f42c00e7edb8d595e0b0f8cb"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.QuantidadeNecessaria.resources",
+      "file": "0013.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.EtiquetaVolumes.resources",
+      "file": "0014.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Reports.RelatorioItensDevolvidoDav.resources",
+      "file": "0015.bin",
+      "bytes": 3554,
+      "sha256": "e95bdd8c2d53e9b1d640edb4cc9d43a0156bd76734bd1ee17e562c1e3bb250f8"
+    },
+    {
+      "name": "Otus.Modulo.Movimentacoes.Resources.Messages.resources",
+      "file": "0016.bin",
+      "bytes": 1420,
+      "sha256": "111dd4d7f5e02154555494b51cfd0c3fb46bdcb422ea136dcfab7a289fcd5d20"
+    },
+    {
+      "name": "Modulo.Movimentacoes.dll.licenses",
+      "file": "0017.bin",
+      "bytes": 284,
+      "sha256": "8a0d4b5c50c3c3e516eca06e44a7d96db8d7c5fec4ae92475d81d6e9f3c17799"
+    }
+  ]
+}

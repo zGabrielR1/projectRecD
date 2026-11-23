@@ -1,0 +1,33 @@
+{
+  "artifactSha256": "04db71b2f1e51a28e4bff16df9b896e8ebebf126378d31033ef68cc3ae59892f",
+  "mvid": "9707b9da-d28a-46a0-a8b7-768a4d705289",
+  "assembly": "DigisatServer.Infrastructure.Data.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "System",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Domain.Main",
+    "MongoDB.Bson",
+    "System.Core",
+    "MongoDB.Driver",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "MongoDB.Driver.Core",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DigisatServer.Domain.Core",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "Microsoft.CSharp",
+    "DigisatServer.Infrastructure.Crosscutting.Criptografia"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Data.Main.Resources.Messages.resources",
+      "file": "0000.bin",
+      "bytes": 994,
+      "sha256": "5692fa3ff9646f2704930767069254e1de4810ae20efe70245a7a1439c587018"
+    }
+  ]
+}

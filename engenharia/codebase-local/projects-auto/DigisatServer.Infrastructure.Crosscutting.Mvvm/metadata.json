@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "e140cebad1ee89d8e454f80949e4f5e84a1f60d6fda5f0af8d1769b29c60f7c3",
+  "mvid": "17f2b8ff-5f98-468b-b065-9df54777bf5c",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Mvvm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DevExpress.Mvvm.v15.2",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Prism.Wpf",
+    "PresentationCore",
+    "PresentationFramework",
+    "System.Xaml",
+    "WindowsBase",
+    "System.Windows.Forms",
+    "System.Core",
+    "System.Reactive.Linq",
+    "System.Windows.Interactivity",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.XtraReports.v15.2",
+    "System.Reactive.Core",
+    "NClone",
+    "DevExpress.Xpf.Core.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Mvvm.g.resources",
+      "file": "0000.bin",
+      "bytes": 51657,
+      "sha256": "a05cb058f78fee1b947d35c104c387f06828eec61ade87f5c98c3ce713287c0f"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Mvvm.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 19463932,
+      "sha256": "a643aaf62c3fc6e236798098d4835a4540bc5f08ac600ba4772d0cca0133eb7c"
+    }
+  ]
+}

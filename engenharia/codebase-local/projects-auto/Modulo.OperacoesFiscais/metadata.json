@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "3506b082a03271a4b863d1f06afa0160e348b3b78d5bd54f395fe1352f46de84",
+  "mvid": "87678c25-18ad-4c9f-a97b-9d415691538d",
+  "assembly": "Modulo.OperacoesFiscais, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "PresentationCore",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.OperacoesFiscais.g.resources",
+      "file": "0000.bin",
+      "bytes": 14737,
+      "sha256": "0f20a9494f936afd9931535c7567061768044f7e2187fc43f5273351c83a1602"
+    },
+    {
+      "name": "Otus.Modulo.OperacoesFiscais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

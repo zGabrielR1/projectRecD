@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "dcb86584b5bbb1d8693053a27b81ec00a391418d8bae7a0f2a6940e14295ebf0",
+  "mvid": "53520c52-c1ec-4cf2-bc0e-9e377d78da4f",
+  "assembly": "Modulo.GerenciamentoRotinasDiaria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Boleto",
+    "itextsharp"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GerenciamentoRotinasDiaria.g.resources",
+      "file": "0000.bin",
+      "bytes": 36369,
+      "sha256": "6a43de23ee668672d7f859c0388d8527a6f0a6854a168177434857fc41f43da1"
+    },
+    {
+      "name": "Otus.Modulo.GerenciamentoRotinasDiaria.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

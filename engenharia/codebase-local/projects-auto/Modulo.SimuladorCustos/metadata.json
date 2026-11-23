@@ -1,0 +1,54 @@
+{
+  "artifactSha256": "467ccd533fdea006b769b4c7875cfef03aa9bd1d0c0137bf40ade8ea22a3206e",
+  "mvid": "c7f790ba-12d6-41ff-8107-185b0b4f3972",
+  "assembly": "Modulo.SimuladorCustos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DevExpress.XtraReports.v15.2",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.DataAccess.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DevExpress.Data.v15.2",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.SimuladorCustos.g.resources",
+      "file": "0000.bin",
+      "bytes": 20709,
+      "sha256": "f17a0923317c79ece1f21c86de162f8bf765775965c915b4b397ab85f6d61725"
+    },
+    {
+      "name": "Otus.Modulo.SimuladorCustos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.SimuladorCustos.Reports.RelatorioSimuladorCusto.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.SimuladorCustos.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 286,
+      "sha256": "b767517c285ca78079857ec0d6b907e0ddf0846d41d69dbb3919260e934e23a5"
+    }
+  ]
+}

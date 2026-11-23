@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "7e6227a6a61f9b631a5a591d0132f32a43813ddb67c09140b7fb1e5731e8f2e7",
+  "mvid": "2768c674-50a7-4133-8e68-390ccdd1b76d",
+  "assembly": "Modulo.ConsultasProduto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.IdentityModel",
+    "DevExpress.Xpf.Grid.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ConsultasProduto.g.resources",
+      "file": "0000.bin",
+      "bytes": 25476,
+      "sha256": "6d2f03253dd88963f0e4f86000fac6b1291b69f5d299b89ccb959618ba38c2fa"
+    },
+    {
+      "name": "Otus.Modulo.ConsultasProduto.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

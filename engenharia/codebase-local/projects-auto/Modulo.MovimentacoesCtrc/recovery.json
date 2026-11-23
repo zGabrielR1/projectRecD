@@ -1,0 +1,187 @@
+﻿{
+    "name":  "Modulo.MovimentacoesCtrc",
+    "baseline":  "baseline\\Modulo.MovimentacoesCtrc.dll",
+    "baseline_sha256":  "0f9dd9c741f2fdc36c1fda1745d622ef8c5fd218ef6733ebb01868b5684ee66c",
+    "export_project":  "recovered\\SuiteG6\\Modulo.MovimentacoesCtrc\\Modulo.MovimentacoesCtrc.csproj",
+    "sources":  [
+                    {
+                        "path":  "MovimentacoesCtrc\\MovimentacaoCtrcModulo.cs",
+                        "export_path":  "MovimentacoesCtrc\\MovimentacaoCtrcModulo.cs",
+                        "raw_sha256":  "5044d3b9bef83dd8b29c65e15921e8f217e14a573995d147e1cc058add01d6d1"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Properties\\Resources.cs",
+                        "export_path":  "MovimentacoesCtrc\\Properties\\Resources.cs",
+                        "raw_sha256":  "589549bed72b661e25b8714de8dc395ee6101179547493569e4c5a85d4f9fb83"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Properties\\Settings.Designer.cs",
+                        "export_path":  "MovimentacoesCtrc\\Properties\\Settings.Designer.cs",
+                        "raw_sha256":  "299c2b2b2bfbf2cb5ce97d8ea3e3a95796b823a4d867ae22e001c773b6708acc"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcAbaViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcAbaViewModel.cs",
+                        "raw_sha256":  "33c27a05b9c3811aa29b950aecfee4e32a878c9eee1c94e8693a1b458257a3e0"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcDadosCofinsViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcDadosCofinsViewModel.cs",
+                        "raw_sha256":  "80e7ff5d28d2dd2c695804dcbdb7f8594ce0958db27f3ca1fb2a17746c3da228"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcDadosIbsCbsViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcDadosIbsCbsViewModel.cs",
+                        "raw_sha256":  "0bda16c57ec754833ac933a5a67cd9b9da943925ac2622a5628530708885b77e"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcDadosIcmsViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcDadosIcmsViewModel.cs",
+                        "raw_sha256":  "e7e0a7297d3a92ff30c24ea0fb7df8ff89b331a7ee353283343f28e56bb82e93"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcDadosPisViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcDadosPisViewModel.cs",
+                        "raw_sha256":  "833ea57ebda311fa98cc8d478ca2184349310d00cae65a38ce63f9d0240fe811"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcFichaAdicionarViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcFichaAdicionarViewModel.cs",
+                        "raw_sha256":  "4e6019970fb4b2d51f295cd75ab17a7c786f527f13543ace61c7af327e3749d8"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcFichaAtualizarViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcFichaAtualizarViewModel.cs",
+                        "raw_sha256":  "6f46005be94ef8b3e4c425efcba86408f91e285f02074d4b9bf28a01498cf93d"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcFormulario.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcFormulario.cs",
+                        "raw_sha256":  "bc32103155f16d17f87815462eb33253249f281d59c70d68b9e4063c11cbed0c"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcListaViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcListaViewModel.cs",
+                        "raw_sha256":  "3353d3cc87c918dd386b49e50a0d4f37d1a74974cd7c732315547e31de78d7fb"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcMovimentacoesAbaViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcMovimentacoesAbaViewModel.cs",
+                        "raw_sha256":  "80f7649ccfd08de5c7ff1171eb1991c638cd4983f3a8d739ab38cd3a4f3ef842"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcMovimentacoesViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcMovimentacoesViewModel.cs",
+                        "raw_sha256":  "df2ff0181f2bd1f5cb88d2b7cc621b4c37d2d565357b7d0ec677c6357c5b9433"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcPagamentoAbaViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcPagamentoAbaViewModel.cs",
+                        "raw_sha256":  "e731e020eddbdd46737c10bd45b77242617afdd6440a1d57c3757f1fc1aefc5c"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcTotaisAbaViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcTotaisAbaViewModel.cs",
+                        "raw_sha256":  "e5246c1646a06b0a61e7f40ddf67b4853378dde9e92fe0ef2ad09c738af8d718"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcTotaisViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcTotaisViewModel.cs",
+                        "raw_sha256":  "b2603cf368c5dec91075693aedb1cdbd8e70e405b94e57146160eaf4764e500c"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacaoCtrcViewModel.cs",
+                        "raw_sha256":  "6f7dca7a7ad6be107220908932782607579b433c5d79f90a17312098b311ef93"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\MovimentacoesCtrcViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\MovimentacoesCtrcViewModel.cs",
+                        "raw_sha256":  "d6ac48730ea9944c7d96da08f69579ee296520e0f1b6b7bce9072dc37372bb9c"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\Pagamento\\LimiteCreditoViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\Pagamento\\LimiteCreditoViewModel.cs",
+                        "raw_sha256":  "c13400110b4123dc0f2bbe90b2302c7f360939579f07ea4107e3df4b1b234394"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\Pagamento\\PagamentoViewModel.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\Pagamento\\PagamentoViewModel.cs",
+                        "raw_sha256":  "94365d876fb6d4281602bff2f6a67a640f4a1b599009b07fd3d0451a1143ad0c"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\Pagamento\\Parcela.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\Pagamento\\Parcela.cs",
+                        "raw_sha256":  "c503daad9f734b3b0823c08b4dd46c5e7db77746e49ffaf8242b4de1eb0e9e36"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\ViewModels\\Pagamento\\Parcelas.cs",
+                        "export_path":  "MovimentacoesCtrc\\ViewModels\\Pagamento\\Parcelas.cs",
+                        "raw_sha256":  "1c74a771af9ae35703163d67e79273184cae5a9b77ea40d9b3fd0cea01b6c8af"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcFichaAdicionarView.cs",
+                        "export_path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcFichaAdicionarView.cs",
+                        "raw_sha256":  "cc96e1981ca81c7b0affba24b24ecf80684424329a5c390c6b7da3c81e2ca1c8"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcFichaAtualizarView.cs",
+                        "export_path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcFichaAtualizarView.cs",
+                        "raw_sha256":  "fff780c298a337e4dc6bc81985b5073ce41e6f05b57a8e69b0713d44493603d7"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcListaView.cs",
+                        "export_path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcListaView.cs",
+                        "raw_sha256":  "7dc1b36547c94464a8fd472968225298a0187ac4469a2bc6ea2491b5aeee350f"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcViewDetalhes\\MovimentacaoCtrcMovimentacoesView.cs",
+                        "export_path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcViewDetalhes\\MovimentacaoCtrcMovimentacoesView.cs",
+                        "raw_sha256":  "3c138801653c3b3dcedc221d61c3ba4982202aa8157159ae5f9d71675b3191e3"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcViewDetalhes\\MovimentacaoCtrcTotaisView.cs",
+                        "export_path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcViewDetalhes\\MovimentacaoCtrcTotaisView.cs",
+                        "raw_sha256":  "0f1e77e566b3bc87c362a4a00893971a706d4b8a5b2fb3ff208c1b1c3d14ea19"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcViewDetalhes\\MovimentacaoCtrcView.cs",
+                        "export_path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcViewDetalhes\\MovimentacaoCtrcView.cs",
+                        "raw_sha256":  "7cf138529addfcf80ab28af733f78f747cb02d800fafc190f4e2a8245724e808"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcViewDetalhes\\MovimentacoesCtrcPagamentoView.cs",
+                        "export_path":  "MovimentacoesCtrc\\Views\\MovimentacaoCtrcViewDetalhes\\MovimentacoesCtrcPagamentoView.cs",
+                        "raw_sha256":  "886adfa707b1449edbbea3a451990f012b43e1df4470f51036eb03e349476aa9"
+                    },
+                    {
+                        "path":  "MovimentacoesCtrc\\Views\\MovimentacoesCtrcView.cs",
+                        "export_path":  "MovimentacoesCtrc\\Views\\MovimentacoesCtrcView.cs",
+                        "raw_sha256":  "f1cef12ae89a9afc697cf5d9b9f9affc68251cfae71e2426965de5c78ecd8119"
+                    },
+                    {
+                        "path":  "Properties\\AssemblyInfo.cs",
+                        "export_path":  "Properties\\AssemblyInfo.cs",
+                        "raw_sha256":  "6416841d30cc9a5d614e5cc689236d0678abfc654c7afcf69a47bbd0cabb77e7"
+                    }
+                ],
+    "output_type":  "Library",
+    "repairs":  [
+                    "Replaced invalid decompiler cached-lambda identifier with an initialized local delegate in the CTe import callback."
+                ],
+    "original_resources":  [
+                               {
+                                   "name":  "Modulo.MovimentacoesCtrc.g.resources",
+                                   "file":  "0000.bin",
+                                   "bytes":  54456,
+                                   "sha256":  "f6427e329414072eec30619288a82789ca9f9e496c45c7da8d00ae872b5630d1"
+                               },
+                               {
+                                   "name":  "Otus.Modulo.MovimentacoesCtrc.Properties.Resources.resources",
+                                   "file":  "0001.bin",
+                                   "bytes":  180,
+                                   "sha256":  "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+                               }
+                           ],
+    "generated_stubs":  false
+}

@@ -1,0 +1,527 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf.dll",
+  "baseline_sha256": "8cb622bec66d145337f961820245a35a1864fa256c99ff077a4f2c4b028a880b",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf\\DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf.csproj",
+  "sources": [
+    {
+      "path": "Classes\\Componente.cs",
+      "export_path": "Classes\\Componente.cs",
+      "raw_sha256": "e8bdb9cb2030ce1ad39354edda6b6e9cb1c740ad75d01e47437b14fff5c9a309"
+    },
+    {
+      "path": "Classes\\Composicao.cs",
+      "export_path": "Classes\\Composicao.cs",
+      "raw_sha256": "94004ffad7a830372ad2afeddde7fa26dbd948f3d274bede650d3393d533b126"
+    },
+    {
+      "path": "Classes\\PafEcfArquivoRequisicaoExterna.cs",
+      "export_path": "Classes\\PafEcfArquivoRequisicaoExterna.cs",
+      "raw_sha256": "aebaebf0439e5aed3e5e2c20d0f48da4cd4f41276742bb70ee563ce77a52fb9e"
+    },
+    {
+      "path": "Classes\\PafEcfArquivoRequisitoXi.cs",
+      "export_path": "Classes\\PafEcfArquivoRequisitoXi.cs",
+      "raw_sha256": "b75bd2d9aad35035b726b24209edd71954122218bd3e2f3bade3c68538b76881"
+    },
+    {
+      "path": "Classes\\PafEcfArquivoTabelaIndiceTecnicoProducao.cs",
+      "export_path": "Classes\\PafEcfArquivoTabelaIndiceTecnicoProducao.cs",
+      "raw_sha256": "a91f1eac760b73cd850bbfe273d7d6a0ee89c0482a2c1bde695f379d835c022a"
+    },
+    {
+      "path": "Classes\\PafEcfArquivoVendaIdentificadaPeloCpfCnpj.cs",
+      "export_path": "Classes\\PafEcfArquivoVendaIdentificadaPeloCpfCnpj.cs",
+      "raw_sha256": "b61f175b23b75e199ceaadaa3f441e5e19daa9b80a10fd4a6527334aaf6a96ff"
+    },
+    {
+      "path": "Classes\\RegistroA2.cs",
+      "export_path": "Classes\\RegistroA2.cs",
+      "raw_sha256": "7854a52be7f3ba0b9d4cc0a8682fba3d9dcb88b25ca9df6490d71af5a6dea604"
+    },
+    {
+      "path": "Classes\\RegistroA2PafNfce.cs",
+      "export_path": "Classes\\RegistroA2PafNfce.cs",
+      "raw_sha256": "e40ea214f48a441ff93777af817f62cab8073c57692e65f88e2093087aa0e812"
+    },
+    {
+      "path": "Classes\\RegistroB2.cs",
+      "export_path": "Classes\\RegistroB2.cs",
+      "raw_sha256": "f5141a61ccd417407897749edc2e7d99e70a2b4c00f042fa4a1c6959234fcd5d"
+    },
+    {
+      "path": "Classes\\RegistroC2.cs",
+      "export_path": "Classes\\RegistroC2.cs",
+      "raw_sha256": "6d14797cf7c6a1ae9fac995fd8bcbd46e2bc24a6c72105334ef81678e014c176"
+    },
+    {
+      "path": "Classes\\RegistroD2.cs",
+      "export_path": "Classes\\RegistroD2.cs",
+      "raw_sha256": "0e964add5df7dd11617e3e07dfc1de1bd52549191c5669022c73f182f6a6560c"
+    },
+    {
+      "path": "Classes\\RegistroD2PafNfce.cs",
+      "export_path": "Classes\\RegistroD2PafNfce.cs",
+      "raw_sha256": "f14993f470c71223366c275cba9dadd79bf0b794eb59c6c31c408bbeef67b407"
+    },
+    {
+      "path": "Classes\\RegistroD3.cs",
+      "export_path": "Classes\\RegistroD3.cs",
+      "raw_sha256": "cbc89591120db44001a6f9537f4fa9d79ebaaa5d93200226a4e7e47bb7029a09"
+    },
+    {
+      "path": "Classes\\RegistroD4.cs",
+      "export_path": "Classes\\RegistroD4.cs",
+      "raw_sha256": "c9b79b9a6d1f16674364164f58072775bcd29edffe1cb4a55bdacf109af758e4"
+    },
+    {
+      "path": "Classes\\RegistroE2.cs",
+      "export_path": "Classes\\RegistroE2.cs",
+      "raw_sha256": "7fad18b0fe60ab3119e23345f56977d1e5f7834ae833f215e8f01a0ff6be4e14"
+    },
+    {
+      "path": "Classes\\RegistroE3.cs",
+      "export_path": "Classes\\RegistroE3.cs",
+      "raw_sha256": "fb75b017edfc387d9de6fabc51dda784308906b78eb8be0972f8d30c3f1f9736"
+    },
+    {
+      "path": "Classes\\RegistroH2.cs",
+      "export_path": "Classes\\RegistroH2.cs",
+      "raw_sha256": "1ced2ee6c3f5420621cd33c18c58578b92d5750c5f3e1efa35a244f116bbd3da"
+    },
+    {
+      "path": "Classes\\RegistroIdentificacaoPafEcfBase.cs",
+      "export_path": "Classes\\RegistroIdentificacaoPafEcfBase.cs",
+      "raw_sha256": "775994c6279a47557889b3f8251353c883c112f230a43c10ac1e297b5df43db7"
+    },
+    {
+      "path": "Classes\\RegistroIdentificacaoPessoaBase.cs",
+      "export_path": "Classes\\RegistroIdentificacaoPessoaBase.cs",
+      "raw_sha256": "308c7a50035dec71400ade99f5fce2a07e5008f53e5e12eda19b35f51b1b8582"
+    },
+    {
+      "path": "Classes\\RegistroJ1.cs",
+      "export_path": "Classes\\RegistroJ1.cs",
+      "raw_sha256": "ea250d8199399454ceba60dfe8639e86a5bb75c446138d2fd1c16455c6d1bfcf"
+    },
+    {
+      "path": "Classes\\RegistroJ1PafNfce.cs",
+      "export_path": "Classes\\RegistroJ1PafNfce.cs",
+      "raw_sha256": "7a8c3eb7c6a5d59878ce4c80cd909280040a1395db4b8e48cb322520045d0b2a"
+    },
+    {
+      "path": "Classes\\RegistroJ2.cs",
+      "export_path": "Classes\\RegistroJ2.cs",
+      "raw_sha256": "28edcffa389b9ee176da9fe08c749477fbed93044186b26153a6b5c809078a42"
+    },
+    {
+      "path": "Classes\\RegistroJ2PafNfce.cs",
+      "export_path": "Classes\\RegistroJ2PafNfce.cs",
+      "raw_sha256": "c9c973a86cc36c558d97db2f7ebdf3b4d5738c17bcb16f67213dcd4375b2997e"
+    },
+    {
+      "path": "Classes\\RegistroN1.cs",
+      "export_path": "Classes\\RegistroN1.cs",
+      "raw_sha256": "90a506cb8ce7c036c000b5f798cde057ef6c898ddd01478dc47074f9263670ea"
+    },
+    {
+      "path": "Classes\\RegistroN2.cs",
+      "export_path": "Classes\\RegistroN2.cs",
+      "raw_sha256": "13cbf0567537989c856f062f77084c01c0a0380476cd8762cbc5b44d3dbe466b"
+    },
+    {
+      "path": "Classes\\RegistroN3.cs",
+      "export_path": "Classes\\RegistroN3.cs",
+      "raw_sha256": "1abca7c51a695f570e0feacf99286b0fb2b03f946e79d8e7956dcca1936f4f13"
+    },
+    {
+      "path": "Classes\\RegistroN9.cs",
+      "export_path": "Classes\\RegistroN9.cs",
+      "raw_sha256": "2960b15b9968c21cac4cbc476601786647991d2fde96ff28e1ff007c0749d46a"
+    },
+    {
+      "path": "Classes\\RegistroP2.cs",
+      "export_path": "Classes\\RegistroP2.cs",
+      "raw_sha256": "23dc0fd28ca87fb9b61a1deab23ecc000ea7de8b3942936610d021375253d14d"
+    },
+    {
+      "path": "Classes\\RegistroR01.cs",
+      "export_path": "Classes\\RegistroR01.cs",
+      "raw_sha256": "292d3034b44eb2d920cc4a1b91eb8a671fc92e527cd35793b8f28f62ed22c286"
+    },
+    {
+      "path": "Classes\\RegistroR02.cs",
+      "export_path": "Classes\\RegistroR02.cs",
+      "raw_sha256": "edc0d217ebf3c07f3474f25a2503945eae58ebc0c48a5ea99c6fe2ccec5b3ab4"
+    },
+    {
+      "path": "Classes\\RegistroR03.cs",
+      "export_path": "Classes\\RegistroR03.cs",
+      "raw_sha256": "9ea60bb4bc451a1c8d57a89057ca28ed1adb400eddc21219dd4aea2043886274"
+    },
+    {
+      "path": "Classes\\RegistroR04.cs",
+      "export_path": "Classes\\RegistroR04.cs",
+      "raw_sha256": "f11c9a426e6c2329a03f49b7e71c8a66b8179066ee666c2373b7a009eb2270e8"
+    },
+    {
+      "path": "Classes\\RegistroR05.cs",
+      "export_path": "Classes\\RegistroR05.cs",
+      "raw_sha256": "f0b686dc70d51cf49747e4eaed6076ac184fb8c617119d607f7b8f2c5af953d2"
+    },
+    {
+      "path": "Classes\\RegistroR06.cs",
+      "export_path": "Classes\\RegistroR06.cs",
+      "raw_sha256": "5af9d71052d4cc9ed43ab6e422d1e0af45586858e905efc4445f0afd0232d8d8"
+    },
+    {
+      "path": "Classes\\RegistroR07.cs",
+      "export_path": "Classes\\RegistroR07.cs",
+      "raw_sha256": "9c280a24d2606f68f89efaa3de3b17734fc8ce11f3e16afa3682f7e4df8a0d9b"
+    },
+    {
+      "path": "Classes\\RegistroS2.cs",
+      "export_path": "Classes\\RegistroS2.cs",
+      "raw_sha256": "62829cd210916fbe8c7d3204f6bfceae96857116e0bcedf0244db025ed2b87dd"
+    },
+    {
+      "path": "Classes\\RegistroS2PafNfce.cs",
+      "export_path": "Classes\\RegistroS2PafNfce.cs",
+      "raw_sha256": "15138fcb761f29af74d8676316d5cee4783f9191e34df9bd305cd13d294165e2"
+    },
+    {
+      "path": "Classes\\RegistroS3.cs",
+      "export_path": "Classes\\RegistroS3.cs",
+      "raw_sha256": "6ab733b3d87b6c9fd1adf2d770ecc2aa123b5c701d9c870c82406b951964414d"
+    },
+    {
+      "path": "Classes\\RegistrosPafEcf.cs",
+      "export_path": "Classes\\RegistrosPafEcf.cs",
+      "raw_sha256": "8b7d199c232c6e19cddcb59f5b25efae783ae74e51aae3e091b31b56a878de82"
+    },
+    {
+      "path": "Classes\\RegistroTotalizacaoBase.cs",
+      "export_path": "Classes\\RegistroTotalizacaoBase.cs",
+      "raw_sha256": "927d30b28da25e03f3f08daf378ba05be20a9bfda015c7ed7a1913b2adf81352"
+    },
+    {
+      "path": "Classes\\RegistroU1.cs",
+      "export_path": "Classes\\RegistroU1.cs",
+      "raw_sha256": "fae7fd0e4336b4d3cc2152fe5c384afccfbe18c33373c612b29d5e96982b3abb"
+    },
+    {
+      "path": "Classes\\RegistroW1.cs",
+      "export_path": "Classes\\RegistroW1.cs",
+      "raw_sha256": "ed58d5f6236ecfac6c56bf50ec34fb979092439d3c89ce34ed7d77c23227096a"
+    },
+    {
+      "path": "Classes\\RegistroW2.cs",
+      "export_path": "Classes\\RegistroW2.cs",
+      "raw_sha256": "340740a4f90d1533b6628e5abb07d8596f2340670cc5c1245f11b6ebae8f2256"
+    },
+    {
+      "path": "Classes\\RegistroW3.cs",
+      "export_path": "Classes\\RegistroW3.cs",
+      "raw_sha256": "2614bf29210e7d134702fdef27163aac78ee949e0ce35992b08f3d57f752da68"
+    },
+    {
+      "path": "Classes\\RegistroW4.cs",
+      "export_path": "Classes\\RegistroW4.cs",
+      "raw_sha256": "3ae57c6b0fac9a32cf237367e187523bff581e6c4ed3ecb80645cf67e13b0eec"
+    },
+    {
+      "path": "Classes\\RegistroW5.cs",
+      "export_path": "Classes\\RegistroW5.cs",
+      "raw_sha256": "e433c5b9eef8edd030076bbdb2c8782df426b984a6c3e468c44d0be4d909b8b2"
+    },
+    {
+      "path": "Classes\\RegistroZ1.cs",
+      "export_path": "Classes\\RegistroZ1.cs",
+      "raw_sha256": "4e0c5be79b29d32c3e72f9fdf9deee7942fd62b795b3a213976a2f3487a4a25b"
+    },
+    {
+      "path": "Classes\\RegistroZ2.cs",
+      "export_path": "Classes\\RegistroZ2.cs",
+      "raw_sha256": "ad6043d8debe97387e6dcfbe67a7d3f76e887914bccb4c4e10c51357668205c8"
+    },
+    {
+      "path": "Classes\\RegistroZ3.cs",
+      "export_path": "Classes\\RegistroZ3.cs",
+      "raw_sha256": "ed618d2176b62326c3958263c0ee76b5590583f125f219211487b120612fe154"
+    },
+    {
+      "path": "Classes\\RegistroZ4.cs",
+      "export_path": "Classes\\RegistroZ4.cs",
+      "raw_sha256": "fefe36ca279642e64bf6ee78c2dd4329abb9c5194eaa63bb6579c4eb55488a48"
+    },
+    {
+      "path": "Classes\\RegistroZ9.cs",
+      "export_path": "Classes\\RegistroZ9.cs",
+      "raw_sha256": "fe6188472fa36ad2e56ed43b3f2f933aec4d71133f410ff65bca53fcccc84b1f"
+    },
+    {
+      "path": "Interfaces\\INumeroFabricacao.cs",
+      "export_path": "Interfaces\\INumeroFabricacao.cs",
+      "raw_sha256": "ca3c386431336319b2617eb9b0e71e64f93520464686e63b94311fdfd99c5655"
+    },
+    {
+      "path": "Interfaces\\IRegistroA2.cs",
+      "export_path": "Interfaces\\IRegistroA2.cs",
+      "raw_sha256": "24b120c89621243a704fb7e85d4fb29907bace1380009c556e9dbc4a5f6a1c9b"
+    },
+    {
+      "path": "Interfaces\\IRegistroA2PafEcf.cs",
+      "export_path": "Interfaces\\IRegistroA2PafEcf.cs",
+      "raw_sha256": "f2e2ed547c10623d5c81497fbf9c6b1f9939af38589bd5ae79f3a21f7593e734"
+    },
+    {
+      "path": "Interfaces\\IRegistroB2.cs",
+      "export_path": "Interfaces\\IRegistroB2.cs",
+      "raw_sha256": "2c553d110a810e0207e753c14cdff951a25f88395142fb68ac428b86f677e3f2"
+    },
+    {
+      "path": "Interfaces\\IRegistroC2.cs",
+      "export_path": "Interfaces\\IRegistroC2.cs",
+      "raw_sha256": "b0a377b642698fcafd0f1f4f81ff87165e07c60ef712dad94d2099531256b315"
+    },
+    {
+      "path": "Interfaces\\IRegistroD2.cs",
+      "export_path": "Interfaces\\IRegistroD2.cs",
+      "raw_sha256": "c381393e391f50088772541c41d7652628283208a1eecce5f4a6c0e15e561c13"
+    },
+    {
+      "path": "Interfaces\\IRegistroD2PafEcf.cs",
+      "export_path": "Interfaces\\IRegistroD2PafEcf.cs",
+      "raw_sha256": "d779b4424c8388fdc41f69b74fe2aa2795a4ab4bd6db216285d961405e138037"
+    },
+    {
+      "path": "Interfaces\\IRegistroD3.cs",
+      "export_path": "Interfaces\\IRegistroD3.cs",
+      "raw_sha256": "fb53e9dfe7e1531f042f3718a02c7f21e8903b5a044264bacbe5792353fecce7"
+    },
+    {
+      "path": "Interfaces\\IRegistroD4.cs",
+      "export_path": "Interfaces\\IRegistroD4.cs",
+      "raw_sha256": "4e80abf45777f5650762c2dc2e182180064e28e017409e3c31914240f48c93cf"
+    },
+    {
+      "path": "Interfaces\\IRegistroE2.cs",
+      "export_path": "Interfaces\\IRegistroE2.cs",
+      "raw_sha256": "e3dea6ff82ce7916b324801eb93fc858cabbea3d3bab1892fbda0b57d8218627"
+    },
+    {
+      "path": "Interfaces\\IRegistroE3.cs",
+      "export_path": "Interfaces\\IRegistroE3.cs",
+      "raw_sha256": "076cdb61d82ff993cb6397f44f45d8d50ca5206b4e8da4c4beaef423cb5cadce"
+    },
+    {
+      "path": "Interfaces\\IRegistroH2.cs",
+      "export_path": "Interfaces\\IRegistroH2.cs",
+      "raw_sha256": "6cba4a2e7b4953777ddd0e3435e30efe5ec11148740b2a2540f3d23b1503de24"
+    },
+    {
+      "path": "Interfaces\\IRegistroIdentificacaoPafEcfBase.cs",
+      "export_path": "Interfaces\\IRegistroIdentificacaoPafEcfBase.cs",
+      "raw_sha256": "ee2449108719a63a31fbcaf52d3986c4a049524815a628c12a9ab4c4f8ab8425"
+    },
+    {
+      "path": "Interfaces\\IRegistroJ1.cs",
+      "export_path": "Interfaces\\IRegistroJ1.cs",
+      "raw_sha256": "313c79f9887e62ad1fa2f40ac795712556a34cd9f3e2fccdf2f738b4988c5738"
+    },
+    {
+      "path": "Interfaces\\IRegistroJ1PafEcf.cs",
+      "export_path": "Interfaces\\IRegistroJ1PafEcf.cs",
+      "raw_sha256": "af5c4d1857ce973947626d21b843eaf711dab00a917aa88a9a2271168ba61e45"
+    },
+    {
+      "path": "Interfaces\\IRegistroJ2.cs",
+      "export_path": "Interfaces\\IRegistroJ2.cs",
+      "raw_sha256": "30e0ba55352d60b577917ba97f84532fe275f1b543bd8b9dc32ed3307f750324"
+    },
+    {
+      "path": "Interfaces\\IRegistroJ2PafEcf.cs",
+      "export_path": "Interfaces\\IRegistroJ2PafEcf.cs",
+      "raw_sha256": "c9d9a787bd53b1971f2e8a2a7e8bd8b8639d1cb6e7f487c3dbcb2aabca1bc88f"
+    },
+    {
+      "path": "Interfaces\\IRegistroN1.cs",
+      "export_path": "Interfaces\\IRegistroN1.cs",
+      "raw_sha256": "91410669ee686eb7dbaac96995d12342b7918ccabd60383489a7bf5e8a4df7f0"
+    },
+    {
+      "path": "Interfaces\\IRegistroN2.cs",
+      "export_path": "Interfaces\\IRegistroN2.cs",
+      "raw_sha256": "2a7af3c7ce0084765211aafe716c0afb0526e0af8f0b1d27947a89c5f66927d6"
+    },
+    {
+      "path": "Interfaces\\IRegistroN3.cs",
+      "export_path": "Interfaces\\IRegistroN3.cs",
+      "raw_sha256": "72506375dce751f556bf1ce2619b2d056c52487df30390a1d331bb0450601d63"
+    },
+    {
+      "path": "Interfaces\\IRegistroN9.cs",
+      "export_path": "Interfaces\\IRegistroN9.cs",
+      "raw_sha256": "78f3243017e39101a5092b642609080a471a1b7fd0e07aa05f1f19aa4fd94dee"
+    },
+    {
+      "path": "Interfaces\\IRegistroP2.cs",
+      "export_path": "Interfaces\\IRegistroP2.cs",
+      "raw_sha256": "bee38cafe5f113acb5a31b3fea0527dfd134bdc7a3236b486421816bf0b3a5df"
+    },
+    {
+      "path": "Interfaces\\IRegistroPafEcf.cs",
+      "export_path": "Interfaces\\IRegistroPafEcf.cs",
+      "raw_sha256": "e0e39f1737195bcd19879a4bae1b6849858e3b9dbf8bf78fe25075ba7e942a07"
+    },
+    {
+      "path": "Interfaces\\IRegistroPafNfce.cs",
+      "export_path": "Interfaces\\IRegistroPafNfce.cs",
+      "raw_sha256": "31a06c7a2930c8771754883a694b4ad9c894e7619cc1e93352af3f69facb87e6"
+    },
+    {
+      "path": "Interfaces\\IRegistroR01.cs",
+      "export_path": "Interfaces\\IRegistroR01.cs",
+      "raw_sha256": "46edcd389f23cf15a97a4721513eec45a60a89a5eda4b6e4e82901d46175a3df"
+    },
+    {
+      "path": "Interfaces\\IRegistroR02.cs",
+      "export_path": "Interfaces\\IRegistroR02.cs",
+      "raw_sha256": "2a3a0eec26f3e7e5d9f3d3becabb2d0098ca813690030a743cc2612da71cb516"
+    },
+    {
+      "path": "Interfaces\\IRegistroR03.cs",
+      "export_path": "Interfaces\\IRegistroR03.cs",
+      "raw_sha256": "dabfc76d420efd043fe7c6ba5f4ac66a5797cb0a1e32797b5a846068fef84272"
+    },
+    {
+      "path": "Interfaces\\IRegistroR04.cs",
+      "export_path": "Interfaces\\IRegistroR04.cs",
+      "raw_sha256": "3fec251dedb02d6cd8968768eaad55922ceaa52d229b06f3716b3da2a5c49ca0"
+    },
+    {
+      "path": "Interfaces\\IRegistroR05.cs",
+      "export_path": "Interfaces\\IRegistroR05.cs",
+      "raw_sha256": "1c737e44df64d9908d4b64412f97960d42891b18032e606414f19f5da20e652e"
+    },
+    {
+      "path": "Interfaces\\IRegistroR06.cs",
+      "export_path": "Interfaces\\IRegistroR06.cs",
+      "raw_sha256": "b5fda3aa5cfdb9321a99cc3977d185c04c66784d347a8b0d1557745966438162"
+    },
+    {
+      "path": "Interfaces\\IRegistroR07.cs",
+      "export_path": "Interfaces\\IRegistroR07.cs",
+      "raw_sha256": "3618eabda255656c98b266e4a90fd8ccb04a9078ceef58eac07fd3313d3dae31"
+    },
+    {
+      "path": "Interfaces\\IRegistroS2.cs",
+      "export_path": "Interfaces\\IRegistroS2.cs",
+      "raw_sha256": "ec6e9ba69f9ab0060ddc032b116f9270d6622a82a39222f9e697052271ea9aed"
+    },
+    {
+      "path": "Interfaces\\IRegistroS2PafEcf.cs",
+      "export_path": "Interfaces\\IRegistroS2PafEcf.cs",
+      "raw_sha256": "dc341c58e8638c1ccd76224503aa2715bfb77885193a8934e43c02b9bc714bc1"
+    },
+    {
+      "path": "Interfaces\\IRegistroS3.cs",
+      "export_path": "Interfaces\\IRegistroS3.cs",
+      "raw_sha256": "17a5171c7559ea314adf715a3023d0e5effa9295cf50197d74bfc208964ae8a5"
+    },
+    {
+      "path": "Interfaces\\IRegistroTotalizacaoBase.cs",
+      "export_path": "Interfaces\\IRegistroTotalizacaoBase.cs",
+      "raw_sha256": "c96d15188040ba4fc28fe197210f3eeaae046b9ec9d146d3e68299a50046cc5c"
+    },
+    {
+      "path": "Interfaces\\IRegistroU1.cs",
+      "export_path": "Interfaces\\IRegistroU1.cs",
+      "raw_sha256": "055272f992f1867bcd89ae23d94ab8ce9c765a0549f69cf3dd2097512f860b56"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "68ce4e689bc94415ee10e155d5930f2eb5e8b1f9904913ec0acf4e1e399cf784"
+    },
+    {
+      "path": "Types\\DenominacaoRegistroR06.cs",
+      "export_path": "Types\\DenominacaoRegistroR06.cs",
+      "raw_sha256": "cd4c69fde7c856ccd79eafa83c4b6d5c95a97a357b202854c8669611aca57d18"
+    },
+    {
+      "path": "Types\\Formatos.cs",
+      "export_path": "Types\\Formatos.cs",
+      "raw_sha256": "74b19c5147495198a601668546b349eaa09ad4aa8eceeb312c91153b946a32c8"
+    },
+    {
+      "path": "Types\\IndicadorDeCancelamento.cs",
+      "export_path": "Types\\IndicadorDeCancelamento.cs",
+      "raw_sha256": "271eb6761b32ae82a141bdd6c6250b4b869547bd67e78a0e1d9afb0294bb1bc6"
+    },
+    {
+      "path": "Types\\IndicadorDeEstorno.cs",
+      "export_path": "Types\\IndicadorDeEstorno.cs",
+      "raw_sha256": "369cf057369926da6818b4a9139b4f4a1ff8b641bfc2234544d5cad9703adada"
+    },
+    {
+      "path": "Types\\IndicadorDeOrdemDeAplicacaoDeDescontoEAcrescimoEmSubtotal.cs",
+      "export_path": "Types\\IndicadorDeOrdemDeAplicacaoDeDescontoEAcrescimoEmSubtotal.cs",
+      "raw_sha256": "9cec206d1b1a3d32d1a8cfa6a5a8b620b47a4350522e1fdcbff15be81227e3e1"
+    },
+    {
+      "path": "Types\\IndicadorDoTipoDeDescontoOuAcrescimoSobreSubtotal.cs",
+      "export_path": "Types\\IndicadorDoTipoDeDescontoOuAcrescimoSobreSubtotal.cs",
+      "raw_sha256": "a86cd111a2413ee3cf207de22a0e1dc7fcbfbc680abcc2e1a6a0443e42508f15"
+    },
+    {
+      "path": "Types\\MensuracaoDoEstoque.cs",
+      "export_path": "Types\\MensuracaoDoEstoque.cs",
+      "raw_sha256": "1ebd1d2c107aebf7a4dac43c24b8eac75ce682f7fe71c7ec728c759b1eb47322"
+    },
+    {
+      "path": "Types\\ParametroDoEcfParaIncidenciaDeDescontoDoISSQN.cs",
+      "export_path": "Types\\ParametroDoEcfParaIncidenciaDeDescontoDoISSQN.cs",
+      "raw_sha256": "368578de2272cca8bac2638853eff126f79373acbaee440683188238ea79fe9a"
+    },
+    {
+      "path": "Types\\StatusDoAbastecimento.cs",
+      "export_path": "Types\\StatusDoAbastecimento.cs",
+      "raw_sha256": "9b72809e53192d8c7cf108748eeaaa1855017241d24df01e43e5e29cc1096471"
+    },
+    {
+      "path": "Types\\TipoDeAlteracao.cs",
+      "export_path": "Types\\TipoDeAlteracao.cs",
+      "raw_sha256": "e56d06477206aceaf9025c44f4ec78965177ac21170c0cb80fde359c5d31ed94"
+    },
+    {
+      "path": "Types\\TipoDeDocumento.cs",
+      "export_path": "Types\\TipoDeDocumento.cs",
+      "raw_sha256": "f881c9ed5ee441dd12ff6a76ff8ab179126b240006178f66523ecc170fa968ff"
+    },
+    {
+      "path": "Types\\TipoDocumentoRegistroJ.cs",
+      "export_path": "Types\\TipoDocumentoRegistroJ.cs",
+      "raw_sha256": "7f0b49b908b9f02eb982c24988aed08d3d764f6d5babc97b733e4bbbcbef2f44"
+    },
+    {
+      "path": "Types\\TituloDoDav.cs",
+      "export_path": "Types\\TituloDoDav.cs",
+      "raw_sha256": "265ba866da9101c9c07c59dab2fb047744a8a0a41245dba49dbe0730f0909d08"
+    },
+    {
+      "path": "Types\\TributacaoParaPaf.cs",
+      "export_path": "Types\\TributacaoParaPaf.cs",
+      "raw_sha256": "28f825f675dbb6122df9d5599e03562ca9340cc9ed37973537c194456914e062"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Use inferred types consistently for anonymous GroupBy result selector parameters",
+      "occurrences": 2
+    }
+  ],
+  "original_resources": [],
+  "generated_stubs": false
+}

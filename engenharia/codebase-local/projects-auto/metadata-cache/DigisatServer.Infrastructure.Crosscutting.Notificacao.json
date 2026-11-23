@@ -1,0 +1,16 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Notificacao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "WindowsBase",
+    "PresentationCore",
+    "System",
+    "System.Drawing",
+    "System.Xaml",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "Prism",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm"
+  ]
+}

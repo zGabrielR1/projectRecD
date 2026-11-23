@@ -1,0 +1,159 @@
+{
+  "name": "Modulo.GruposMenuRapido",
+  "baseline": "baseline\\Modulo.GruposMenuRapido.dll",
+  "baseline_sha256": "c634cee5a9474cabe953e6ce1e329fc766b87d5f7c4988c8e14fead4995ac4a4",
+  "export_project": "recovered\\SuiteG6\\Modulo.GruposMenuRapido\\Modulo.GruposMenuRapido.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "f2d4db93b8977acc2c396869043eea4b2c478ea1f9cfec5149ecabaf50c9c81f"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "c634cee5a9474cabe953e6ce1e329fc766b87d5f7c4988c8e14fead4995ac4a4"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 81
+    },
+    {
+      "kind": "Resolve report or permission descriptor import aliases and protected report Dispose call",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException",
+        "Atualizar": "DigisatServer.Infrastructure.Crosscutting.Right.Atualizar",
+        "Adicionar": "DigisatServer.Infrastructure.Crosscutting.Right.Adicionar",
+        "VisualizarRelatorio": "DigisatServer.Infrastructure.Crosscutting.Right.VisualizarRelatorio"
+      }
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GruposMenuRapido.g.resources",
+      "file": "0000.bin",
+      "bytes": 44313,
+      "sha256": "b29d448c64974bf5ebde89ef7ea17100abb7ebb30546c6579f5afecbbbfb611d"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "GrupoMenuRapidoModulo.cs",
+      "export_path": "GrupoMenuRapidoModulo.cs",
+      "raw_sha256": "3c82df3a3744032f2aaad96c96cca60646de362e5d51b86901249234cec8fbc3"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "eae18251502c231618dda11e41648f4b35dd2378bb1e5fb1c217140374f4e000"
+    },
+    {
+      "path": "ViewModels\\AdicionalGrupoAbaViewModel.cs",
+      "export_path": "ViewModels\\AdicionalGrupoAbaViewModel.cs",
+      "raw_sha256": "e1fc0c82d68e4714050a8edcbf49d4954c6693b30e42f0614af4a1a4a5dbffcc"
+    },
+    {
+      "path": "ViewModels\\AdicionalGrupoViewModel.cs",
+      "export_path": "ViewModels\\AdicionalGrupoViewModel.cs",
+      "raw_sha256": "f50d6afe199fa54c6214d3378a58951852d848445901b654921072f960bed7f4"
+    },
+    {
+      "path": "ViewModels\\BonificacaoGrupoAbaViewModel.cs",
+      "export_path": "ViewModels\\BonificacaoGrupoAbaViewModel.cs",
+      "raw_sha256": "b991c657f6f4f53b4be541f28b2a27949845d4c774977e7ca3403ff0143ea619"
+    },
+    {
+      "path": "ViewModels\\BonificacaoGrupoViewModel.cs",
+      "export_path": "ViewModels\\BonificacaoGrupoViewModel.cs",
+      "raw_sha256": "01611ae724f7b97d41354faba7e0f74bd829770e73df5d8aef5f1047ab5b01ba"
+    },
+    {
+      "path": "ViewModels\\GrupoMenuAbaViewModel.cs",
+      "export_path": "ViewModels\\GrupoMenuAbaViewModel.cs",
+      "raw_sha256": "d60901df95f64c6327c49d396f431e5ba5d5a1e6ddd76e6d08029935b3400283"
+    },
+    {
+      "path": "ViewModels\\GrupoMenuFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\GrupoMenuFichaAdicionarViewModel.cs",
+      "raw_sha256": "213261ae553483604119143e19a872a2f89b4e34e0d6d755617fe469cc194297"
+    },
+    {
+      "path": "ViewModels\\GrupoMenuFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\GrupoMenuFichaAtualizarViewModel.cs",
+      "raw_sha256": "56be4255874edb297728fbb25860c3487461d8f07bcadedec9a7a467fd4e040d"
+    },
+    {
+      "path": "ViewModels\\GrupoMenuFormulario.cs",
+      "export_path": "ViewModels\\GrupoMenuFormulario.cs",
+      "raw_sha256": "c186eae67f4eb2a98c548b9ea29f706ab978c776f29ade03b600b74df836d72a"
+    },
+    {
+      "path": "ViewModels\\GrupoMenuListaViewModel.cs",
+      "export_path": "ViewModels\\GrupoMenuListaViewModel.cs",
+      "raw_sha256": "90966c2b0fafc106c0e2c2c7043e547513ce61dc2f5119033698a01a25a488e8"
+    },
+    {
+      "path": "ViewModels\\GrupoMenuViewModel.cs",
+      "export_path": "ViewModels\\GrupoMenuViewModel.cs",
+      "raw_sha256": "f8c63d1d05522671ef6e5c44a121c853944b822958c3bb657108c25e17377cdc"
+    },
+    {
+      "path": "ViewModels\\GruposMenuViewModel.cs",
+      "export_path": "ViewModels\\GruposMenuViewModel.cs",
+      "raw_sha256": "3d2c6af452d0f5017eb9742580e61a72b78dcbe4868ada00ac2dc7fb33273e8f"
+    },
+    {
+      "path": "ViewModels\\PredefinicaoGrupoAbaViewModel.cs",
+      "export_path": "ViewModels\\PredefinicaoGrupoAbaViewModel.cs",
+      "raw_sha256": "d808394393549ae7e9eacee4bc672743823425e6744e4fd8e1a21ba2c74232ee"
+    },
+    {
+      "path": "ViewModels\\PredefinicaoGrupoViewModel.cs",
+      "export_path": "ViewModels\\PredefinicaoGrupoViewModel.cs",
+      "raw_sha256": "b3f7f2e025ed950ebd7ebfec161bfc20d5b6611c4739e688d59086dfbf1facf9"
+    },
+    {
+      "path": "Views\\GrupoMenuFichaAdicionarView.cs",
+      "export_path": "Views\\GrupoMenuFichaAdicionarView.cs",
+      "raw_sha256": "77154fb45658f4ca84b5d4d4cff3906b2a1bcb4a886b8041d1fe882a914d104b"
+    },
+    {
+      "path": "Views\\GrupoMenuFichaAtualizarView.cs",
+      "export_path": "Views\\GrupoMenuFichaAtualizarView.cs",
+      "raw_sha256": "0d913165dfceff836a0cd33a290960d3bac9e30fc95ef3e8ec187cb68021468d"
+    },
+    {
+      "path": "Views\\GrupoMenuFichaViewDetalhes\\AdicionalGrupoMenuView.cs",
+      "export_path": "Views\\GrupoMenuFichaViewDetalhes\\AdicionalGrupoMenuView.cs",
+      "raw_sha256": "af4261a90545d52414d8327db4304ea54d07e43053b4faff4d7ec88e9c692fb5"
+    },
+    {
+      "path": "Views\\GrupoMenuFichaViewDetalhes\\BonificacaoGrupoMenuView.cs",
+      "export_path": "Views\\GrupoMenuFichaViewDetalhes\\BonificacaoGrupoMenuView.cs",
+      "raw_sha256": "40c74d6f7b50ac9da58489089f622c9f63d40014223eaeeb3b0bd08e34c489ff"
+    },
+    {
+      "path": "Views\\GrupoMenuFichaViewDetalhes\\GrupoMenuView.cs",
+      "export_path": "Views\\GrupoMenuFichaViewDetalhes\\GrupoMenuView.cs",
+      "raw_sha256": "3ad54dabc4c1c627de47dd7b56f7aa71e9973ff446b62a824b333a3e0baba1f4"
+    },
+    {
+      "path": "Views\\GrupoMenuFichaViewDetalhes\\PredefinicaoGrupoMenuView.cs",
+      "export_path": "Views\\GrupoMenuFichaViewDetalhes\\PredefinicaoGrupoMenuView.cs",
+      "raw_sha256": "9f558063dced3585f9968459a4abb102dc39f80fe173c76ca894f997c41bc544"
+    },
+    {
+      "path": "Views\\GrupoMenuListaView.cs",
+      "export_path": "Views\\GrupoMenuListaView.cs",
+      "raw_sha256": "5cab59d4d387a06ae42cba53652919bc2f43ab46a4552e5664d01bc2f678fc2f"
+    },
+    {
+      "path": "Views\\GruposMenuView.cs",
+      "export_path": "Views\\GruposMenuView.cs",
+      "raw_sha256": "15ffdb5996df5bb6f1f7bd12d4475f6ccde17a9385fc4d36c6c84f27b224aaf8"
+    }
+  ]
+}

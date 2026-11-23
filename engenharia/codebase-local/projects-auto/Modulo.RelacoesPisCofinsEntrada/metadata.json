@@ -1,0 +1,36 @@
+{
+  "artifactSha256": "b22ae62c3c47af7ca95a825f2612baaf63b1686ea3b873e43e2875bdb366676d",
+  "mvid": "e8e8a480-b409-450e-a032-d9d3ef05614b",
+  "assembly": "Modulo.RelacoesPisCofinsEntrada, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.RelacoesPisCofinsEntrada.g.resources",
+      "file": "0000.bin",
+      "bytes": 9558,
+      "sha256": "ae9d15d4f1824b180791ba9d7669b54ae3d949738342e18717c867399f18cb48"
+    },
+    {
+      "name": "Otus.Modulo.RelacoesPisCofinsEntrada.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

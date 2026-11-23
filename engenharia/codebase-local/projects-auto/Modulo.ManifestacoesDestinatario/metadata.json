@@ -1,0 +1,43 @@
+{
+  "artifactSha256": "55b49a3f64209dd2444e90b1cf1d5a5121172fd1fb391218b79638e0a272129e",
+  "mvid": "e99851e1-173c-4e10-99aa-7d99b3f7aba9",
+  "assembly": "Modulo.ManifestacoesDestinatario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "PresentationCore",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.XtraReports.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "System.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Reactive.Core",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Report"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ManifestacoesDestinatario.g.resources",
+      "file": "0000.bin",
+      "bytes": 14611,
+      "sha256": "3257c90309db226c1af4683408a30ce988b95acdb2ce125ee79a1ff2b7b9bc77"
+    },
+    {
+      "name": "Otus.Modulo.ManifestacoesDestinatario.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

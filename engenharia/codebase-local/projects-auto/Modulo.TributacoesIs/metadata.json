@@ -1,0 +1,32 @@
+{
+  "artifactSha256": "3c063502a874510aebb16b66ca79a3cb8321c99642954896c57775b1cb8b7b3c",
+  "mvid": "dc6495c2-86a2-4a82-abf9-c0ab5a7c3768",
+  "assembly": "Modulo.TributacoesIs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "PresentationFramework",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "NClone"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.TributacoesIs.g.resources",
+      "file": "0000.bin",
+      "bytes": 41000,
+      "sha256": "f7d17aa359ff99b777c5fc02ae8e0c83f21685ed0ccf6343c2c58d761826665a"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "SincronizadorG6",
+  "baseline": "baseline\\SincronizadorG6.exe",
+  "baseline_sha256": "26ffed48484bdd9e9210034d2076c07f713fed969c9dd877039d28133c7e5386",
+  "export_project": "recovered\\SuiteG6\\SincronizadorG6\\SincronizadorG6.csproj",
+  "sources": [
+    {
+      "path": "Bootstrapper.cs",
+      "export_path": "Bootstrapper.cs",
+      "raw_sha256": "aaaf6d58abc2807e1797c3ecaffa97dc20ab33118227aada597a71e32bbe73cb"
+    },
+    {
+      "path": "Program.cs",
+      "export_path": "Program.cs",
+      "raw_sha256": "4e6ffc705a25e34ad2a9fe0f30e2f1f26fddd18457a4fbc97171d5b379e0eede"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "8dc66c85bee79708f20fd0b0f8c62226bd365db26ac5187709dfedcd698e2908"
+    },
+    {
+      "path": "SincronizacaoClientActor.cs",
+      "export_path": "SincronizacaoClientActor.cs",
+      "raw_sha256": "1beb18ba3e7d8df1ff4e0484d0cf42c710fc8930a48702c6c364ef7445e3d6c9"
+    },
+    {
+      "path": "SincronizacaoClientActorSystem.cs",
+      "export_path": "SincronizacaoClientActorSystem.cs",
+      "raw_sha256": "f64fd28e8f37737744548d0e16e07e61b67949698313a6a1e942f47a7cf99a2b"
+    },
+    {
+      "path": "SincronizacaoService.cs",
+      "export_path": "SincronizacaoService.cs",
+      "raw_sha256": "24eef63da1deb9f931b064486277cd7f3202ec9f698bd13e31561570c96f4e8c"
+    }
+  ],
+  "output_type": "Exe",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 12
+    }
+  ],
+  "original_resources": [],
+  "generated_stubs": false
+}

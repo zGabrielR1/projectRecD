@@ -1,0 +1,33 @@
+{
+  "artifactSha256": "fe0feacde377f54fc2849791b6b3dfc74e3835da7c50bb36b5fe66c220093c78",
+  "mvid": "19ee21bb-8884-46c7-9f65-3065ef21ac98",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Notificacao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "WindowsBase",
+    "PresentationCore",
+    "System",
+    "System.Drawing",
+    "System.Xaml",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "Prism",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Notificacao.g.resources",
+      "file": "0000.bin",
+      "bytes": 2008,
+      "sha256": "7ba5a6b2c62af636ef8b6dbe4fdb970b6938b01a6006a017c9f7de093a92dcbe"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Notificacao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

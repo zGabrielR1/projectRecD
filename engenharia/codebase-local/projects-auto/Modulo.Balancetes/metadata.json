@@ -1,0 +1,53 @@
+{
+  "artifactSha256": "94ce98bd7c38b1367ca1663514730c66ef121a4e3b72474fb089265b07dcba0d",
+  "mvid": "211b242e-4896-450b-a1c8-29f52f6f191d",
+  "assembly": "Modulo.Balancetes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "PresentationCore",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "System.Drawing",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Balancetes.g.resources",
+      "file": "0000.bin",
+      "bytes": 11239,
+      "sha256": "d8216d7be7b996d4ed57377f64d1a3dc76155581fc82fce445b38a81d153a135"
+    },
+    {
+      "name": "Otus.Modulo.Balancetes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Balancetes.Reports.Relatorio.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Balancetes.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 281,
+      "sha256": "b4e22151c65c54eb68975502b8d7d6604c4da69ee7867e9e7b65d44719d4e055"
+    }
+  ]
+}

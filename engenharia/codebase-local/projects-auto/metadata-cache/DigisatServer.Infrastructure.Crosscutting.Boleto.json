@@ -1,0 +1,22 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Boleto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System.Web",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Pechkin",
+    "TuesPechkin",
+    "System",
+    "System.Drawing",
+    "QRCoder",
+    "System.Design",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Core",
+    "TuesPechkin.Wkhtmltox.AnyCPU",
+    "Microsoft.VisualBasic",
+    "DevExpress.Data.v15.2"
+  ]
+}

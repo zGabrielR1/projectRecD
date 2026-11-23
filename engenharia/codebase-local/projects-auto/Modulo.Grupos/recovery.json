@@ -1,0 +1,135 @@
+{
+  "name": "Modulo.Grupos",
+  "baseline": "baseline\\Modulo.Grupos.dll",
+  "baseline_sha256": "bdd5d7a4f08caea785f0f50fbd7797c540d06ea5019d3e5cdd4d0f194afba9f9",
+  "export_project": "recovered\\SuiteG6\\Modulo.Grupos\\Modulo.Grupos.csproj",
+  "sources": [
+    {
+      "path": "GrupoModulo.cs",
+      "export_path": "GrupoModulo.cs",
+      "raw_sha256": "b0f854507b802e5f5c8b8b661443081cb65678d42f37ec05f26c8383cbc516e5"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "375a6fa75d9c1a8cb4a075502abd72bd1f6ea7cc1b2d39388af9d0426b8a149f"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a370a619bd32dc35d7937184f53934d03f56f8e7033ce19113787841bf137e88"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "2a8abab8e338894e0f48a394081cd9bb66195ed8f1145c351d45a92b362b4d8d"
+    },
+    {
+      "path": "ViewModels\\GrupoAbaViewModel.cs",
+      "export_path": "ViewModels\\GrupoAbaViewModel.cs",
+      "raw_sha256": "fb434d9fae160a09f1c9d487fd7cc328cffd13855e1e6421bf48ca1de0907bdf"
+    },
+    {
+      "path": "ViewModels\\GrupoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\GrupoFichaAdicionarViewModel.cs",
+      "raw_sha256": "51ef0e7bb7817c0e531396ec2ab5adb140562768f612700987effca1b0a1d876"
+    },
+    {
+      "path": "ViewModels\\GrupoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\GrupoFichaAtualizarViewModel.cs",
+      "raw_sha256": "4cb1dda5eb5c6230f1c114f822e255633c5ac66b880ecd478b1f2874a4749208"
+    },
+    {
+      "path": "ViewModels\\GrupoFormulario.cs",
+      "export_path": "ViewModels\\GrupoFormulario.cs",
+      "raw_sha256": "693ea79a0227a3740fcb38768296984a3ebb0286bd8991810a07198f410988f8"
+    },
+    {
+      "path": "ViewModels\\GrupoListaViewModel.cs",
+      "export_path": "ViewModels\\GrupoListaViewModel.cs",
+      "raw_sha256": "04e9fbac71ac6148701f93eab84d5ce819f96725ba8805541f2e9b83d0290013"
+    },
+    {
+      "path": "ViewModels\\GruposViewModel.cs",
+      "export_path": "ViewModels\\GruposViewModel.cs",
+      "raw_sha256": "21f90932e361a44babfb03ebc56505848ef7032e3c02cafcd900110d05d64f85"
+    },
+    {
+      "path": "ViewModels\\GrupoViewModel.cs",
+      "export_path": "ViewModels\\GrupoViewModel.cs",
+      "raw_sha256": "199d1aa6d197f6f187a1b44be31e1a60a2d6cc0b87651527e2904244f4dece10"
+    },
+    {
+      "path": "ViewModels\\SubGrupoAbaViewModel.cs",
+      "export_path": "ViewModels\\SubGrupoAbaViewModel.cs",
+      "raw_sha256": "980022b57566cb79400d4e85ad9abdebca11431dc7752e387b033ccd10c5b981"
+    },
+    {
+      "path": "ViewModels\\SubGrupoFichaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\SubGrupoFichaManutencaoDetalhe.cs",
+      "raw_sha256": "02e7a3a97524acaa3d10386a65983a28c8a8ab368e1dda0f3967450135726608"
+    },
+    {
+      "path": "ViewModels\\SubGrupoListaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\SubGrupoListaManutencaoDetalhe.cs",
+      "raw_sha256": "aef44c17f9a613987fd30bf20b31b00002b880f172747583149df2a329eb609e"
+    },
+    {
+      "path": "ViewModels\\SubGrupoViewModel.cs",
+      "export_path": "ViewModels\\SubGrupoViewModel.cs",
+      "raw_sha256": "f92a259a6e63345a59b87050d13bde78c22e0310611422a7f1c8df5b14dc417e"
+    },
+    {
+      "path": "Views\\GrupoFichaAdicionarView.cs",
+      "export_path": "Views\\GrupoFichaAdicionarView.cs",
+      "raw_sha256": "856c05d05e2fd8e490172f69cc2b36516063cbc5880c2421b49eab8aceca0fde"
+    },
+    {
+      "path": "Views\\GrupoFichaAtualizarView.cs",
+      "export_path": "Views\\GrupoFichaAtualizarView.cs",
+      "raw_sha256": "d82f888bc7aa9126b8afe42f0085d735dacaf76ed8a3857ce7f16dbddd72a2fb"
+    },
+    {
+      "path": "Views\\GrupoFichaViewDetalhes\\GrupoView.cs",
+      "export_path": "Views\\GrupoFichaViewDetalhes\\GrupoView.cs",
+      "raw_sha256": "335702920367770befdb6f3bbb6f2b778f075190d0b95db30e35d8ed3a776e63"
+    },
+    {
+      "path": "Views\\GrupoFichaViewDetalhes\\SubGrupoFichaView.cs",
+      "export_path": "Views\\GrupoFichaViewDetalhes\\SubGrupoFichaView.cs",
+      "raw_sha256": "496151a890162e6af6b0aff82ab53d082fe737666c2277323d69ac011640ce4b"
+    },
+    {
+      "path": "Views\\GrupoFichaViewDetalhes\\SubGrupoListaView.cs",
+      "export_path": "Views\\GrupoFichaViewDetalhes\\SubGrupoListaView.cs",
+      "raw_sha256": "751a42470ca2f955469da0b645ecb6d579640a03910e0cfdf5ea01fa2bb6a942"
+    },
+    {
+      "path": "Views\\GrupoListaView.cs",
+      "export_path": "Views\\GrupoListaView.cs",
+      "raw_sha256": "86b7195994506b178e7faf9bed25d1877907996cc7008bf090afe3412079d647"
+    },
+    {
+      "path": "Views\\GruposView.cs",
+      "export_path": "Views\\GruposView.cs",
+      "raw_sha256": "7833d12c3f150659db8169e133291cc480db3886779fcf8e66efee6026728511"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Grupos.g.resources",
+      "file": "0000.bin",
+      "bytes": 19692,
+      "sha256": "6d12621ece20210a6c3e45ab8cc36b5954a6156ad304388b23d6e90f07cf9bf1"
+    },
+    {
+      "name": "Otus.Modulo.Grupos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

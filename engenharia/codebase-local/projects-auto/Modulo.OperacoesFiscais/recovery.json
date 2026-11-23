@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.OperacoesFiscais",
+  "baseline": "baseline\\Modulo.OperacoesFiscais.dll",
+  "baseline_sha256": "3506b082a03271a4b863d1f06afa0160e348b3b78d5bd54f395fe1352f46de84",
+  "export_project": "recovered\\SuiteG6\\Modulo.OperacoesFiscais\\Modulo.OperacoesFiscais.csproj",
+  "sources": [
+    {
+      "path": "OperacaoFiscalModulo.cs",
+      "export_path": "OperacaoFiscalModulo.cs",
+      "raw_sha256": "b8d9ba80761af2efeaef1d41cd3779e587e68d8401f29ce29dee43e5fd882ca2"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "2afa618e109735c7350b35268b3c0d682a8beb4675212357dd6ee80de3e6727d"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "f455b68b70979beb4d59cf6f1ee66c8c8cd053676179609c9b51d4bdfad83a8b"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "f8bd5fb07406d504c11aa3e4bfcdf48613568394c97dd82afc4dac5df18a6f28"
+    },
+    {
+      "path": "ViewModels\\OperacaoFiscalAbaViewModel.cs",
+      "export_path": "ViewModels\\OperacaoFiscalAbaViewModel.cs",
+      "raw_sha256": "0bb7d6ec985004f093ce215e311163a5a4e1004c825ebd67513f12d1eda4e82b"
+    },
+    {
+      "path": "ViewModels\\OperacaoFiscalFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\OperacaoFiscalFichaAdicionarViewModel.cs",
+      "raw_sha256": "0e53b654ecca264b97a4a27a1975a72697d34b21b990face01ff46c5d3d50c85"
+    },
+    {
+      "path": "ViewModels\\OperacaoFiscalFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\OperacaoFiscalFichaAtualizarViewModel.cs",
+      "raw_sha256": "cc7452ba7fcaf845768d59af67b97aa6b6d8a41eb2ea46c12c01c8d2c5f94ca6"
+    },
+    {
+      "path": "ViewModels\\OperacaoFiscalFormulario.cs",
+      "export_path": "ViewModels\\OperacaoFiscalFormulario.cs",
+      "raw_sha256": "babfd828a10ea5b60aa0ed7c78ab0771949ea455ebd6db88604353d5debcd58f"
+    },
+    {
+      "path": "ViewModels\\OperacaoFiscalListaViewModel.cs",
+      "export_path": "ViewModels\\OperacaoFiscalListaViewModel.cs",
+      "raw_sha256": "251488ab4304a25a8fbc0995875edf121808749b2e0b2a52c24524715270c5bc"
+    },
+    {
+      "path": "ViewModels\\OperacaoFiscalViewModel.cs",
+      "export_path": "ViewModels\\OperacaoFiscalViewModel.cs",
+      "raw_sha256": "aa52054efe78e8224fd739785b1f8a17655eca4120651bed790df17dc77b103a"
+    },
+    {
+      "path": "ViewModels\\OperacoesFiscaisViewModel.cs",
+      "export_path": "ViewModels\\OperacoesFiscaisViewModel.cs",
+      "raw_sha256": "70d38c6652b88d71e2e5e340b94428b555279ed59014b96d167b8bef0726ee95"
+    },
+    {
+      "path": "Views\\OperacaoFiscalFichaAdicionarView.cs",
+      "export_path": "Views\\OperacaoFiscalFichaAdicionarView.cs",
+      "raw_sha256": "3bfd1ffe7e9cc412b748956c3fb6d2578878f60e52b9ddd8a0c5ba5c231bee0f"
+    },
+    {
+      "path": "Views\\OperacaoFiscalFichaAtualizarView.cs",
+      "export_path": "Views\\OperacaoFiscalFichaAtualizarView.cs",
+      "raw_sha256": "2fc91a7a11205294890690f42c99f4fd44a7dd6874d9e9d02d7977dad5073542"
+    },
+    {
+      "path": "Views\\OperacaoFiscalListaView.cs",
+      "export_path": "Views\\OperacaoFiscalListaView.cs",
+      "raw_sha256": "c097d182329cb0fee07d0c15acb5daf41fcbbf995d54605fbf725a13498041f0"
+    },
+    {
+      "path": "Views\\OperacaoFiscalView.cs",
+      "export_path": "Views\\OperacaoFiscalView.cs",
+      "raw_sha256": "efee1dd8293a2a814f3aa32892bcf7f9c15efb75e1909f94a49e8e9a6b3a0e57"
+    },
+    {
+      "path": "Views\\OperacoesFiscaisView.cs",
+      "export_path": "Views\\OperacoesFiscaisView.cs",
+      "raw_sha256": "a2a81f9a2db30313471e13bc392b8c90d0a9efe645f3c9e7bf3c9bd455016a4a"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.OperacoesFiscais.g.resources",
+      "file": "0000.bin",
+      "bytes": 14737,
+      "sha256": "0f20a9494f936afd9931535c7567061768044f7e2187fc43f5273351c83a1602"
+    },
+    {
+      "name": "Otus.Modulo.OperacoesFiscais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

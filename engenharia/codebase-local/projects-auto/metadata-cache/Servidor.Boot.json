@@ -1,0 +1,21 @@
+{
+  "assembly": "Servidor.Boot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "Prism.Unity.Wpf",
+    "WindowsBase",
+    "Prism.Wpf",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "Microsoft.Practices.Unity",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ServiceModel",
+    "Servidor.Shell",
+    "PresentationFramework",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Servidor.Infra",
+    "DigisatServer.Infrastructure.Crosscutting.Notificacao",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "DigisatServer.Distributed.Akka.Main",
+    "System.Core"
+  ]
+}

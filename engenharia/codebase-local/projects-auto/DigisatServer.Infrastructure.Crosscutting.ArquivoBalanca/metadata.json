@@ -1,0 +1,22 @@
+{
+  "artifactSha256": "c36e5126a40789628aaca8bc7272f78fd64666799e0c48b5c5240a55c53f2c73",
+  "mvid": "1797da4e-4b28-4390-b2d5-dda174304213",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

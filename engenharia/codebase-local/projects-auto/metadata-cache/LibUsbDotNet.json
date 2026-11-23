@@ -1,0 +1,8 @@
+{
+  "assembly": "LibUsbDotNet, Version=2.2.8.104, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Windows.Forms"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Modulo.DeclaracoesExportacao",
+  "baseline": "baseline\\Modulo.DeclaracoesExportacao.dll",
+  "baseline_sha256": "47cf5646c54cba3608ae7da24fc4010a5a2bcb299a5b17260a6c0fb2ec9f5506",
+  "export_project": "recovered\\SuiteG6\\Modulo.DeclaracoesExportacao\\Modulo.DeclaracoesExportacao.csproj",
+  "sources": [
+    {
+      "path": "DeclaracaoExportacaoModulo.cs",
+      "export_path": "DeclaracaoExportacaoModulo.cs",
+      "raw_sha256": "1538a2c0c82fa3e5a7e927325be20cb97f4d2700f2ea46fb101fa827bcaf2b87"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "79727098fe3d287ad72922704a697aa71c5a7ae9591c2243758298394bc5f7b2"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "eb823beb426978aa05f77a95ff534ff8a3d69e8957ba1b42ba54814fced1a6c6"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "00b55e7789f77da161b532a1e113369be8270f193af621af57af2d1ed34cd575"
+    },
+    {
+      "path": "ViewModels\\DeclaracaoExportacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\DeclaracaoExportacaoAbaViewModel.cs",
+      "raw_sha256": "a5dc874f7edb74cc1be4766ce9e6bb66e5c904633272e43c52c53c558b5996b5"
+    },
+    {
+      "path": "ViewModels\\DeclaracaoExportacaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\DeclaracaoExportacaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "78c348bdea9429a0c18b70027dfb78b3c5fc467e5333aa7998209ab6fc8a8a4c"
+    },
+    {
+      "path": "ViewModels\\DeclaracaoExportacaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\DeclaracaoExportacaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "a352ca0bb6b0a71fd8bf23c4045ecda60dac9e3d5a7a04c4a1e2488ca7b9a0f0"
+    },
+    {
+      "path": "ViewModels\\DeclaracaoExportacaoFormulario.cs",
+      "export_path": "ViewModels\\DeclaracaoExportacaoFormulario.cs",
+      "raw_sha256": "d5ed92246c23754239c077f46b20071d0569f037a62aaf6ec4da456507cfe9e5"
+    },
+    {
+      "path": "ViewModels\\DeclaracaoExportacaoListaViewModel.cs",
+      "export_path": "ViewModels\\DeclaracaoExportacaoListaViewModel.cs",
+      "raw_sha256": "f58d57e2e457e260cd3fe1457d11acdedcfab4e7efa2f261373d333af7786f10"
+    },
+    {
+      "path": "ViewModels\\DeclaracaoExportacaoMovimentacoesAbaViewModel.cs",
+      "export_path": "ViewModels\\DeclaracaoExportacaoMovimentacoesAbaViewModel.cs",
+      "raw_sha256": "09da37b9589f1c54e2a382f903972bd59e4ef6cc9605116e35da5852948c4a5c"
+    },
+    {
+      "path": "ViewModels\\DeclaracaoExportacaoMovimentacoesViewModel.cs",
+      "export_path": "ViewModels\\DeclaracaoExportacaoMovimentacoesViewModel.cs",
+      "raw_sha256": "7f31d715478a834fffa74ef9740f2835923ea9a8cda08110db0cef4c1c57aa0d"
+    },
+    {
+      "path": "ViewModels\\DeclaracaoExportacaoViewModel.cs",
+      "export_path": "ViewModels\\DeclaracaoExportacaoViewModel.cs",
+      "raw_sha256": "c4a04dfa840837e88ec343f59ac97fe1a6949ea89eddf527e8dcb3acb2a387bc"
+    },
+    {
+      "path": "ViewModels\\DeclaracoesExportacaoViewModel.cs",
+      "export_path": "ViewModels\\DeclaracoesExportacaoViewModel.cs",
+      "raw_sha256": "e6b15729da6901b752a7621064f2c2d19474bfc986065213247aaab59e1f814b"
+    },
+    {
+      "path": "ViewModels\\ItemMovimentacaoViewModel.cs",
+      "export_path": "ViewModels\\ItemMovimentacaoViewModel.cs",
+      "raw_sha256": "f43750c0db61742e3b77038478e6ad95ef98941c270d6e3cc24534b1c862cb55"
+    },
+    {
+      "path": "ViewModels\\ListaMovimentacaoViewModel.cs",
+      "export_path": "ViewModels\\ListaMovimentacaoViewModel.cs",
+      "raw_sha256": "2befed3df2b12d0c3162d23a2ba694a66927eb0d7f4de1f2ceed4b95d904e178"
+    },
+    {
+      "path": "Views\\DeclaracaoExportacaoFichaAdicionarView.cs",
+      "export_path": "Views\\DeclaracaoExportacaoFichaAdicionarView.cs",
+      "raw_sha256": "039f756b63307db7aafb580443464c3ce9e7eab4ee6e4ee1521d7fcbc1073f17"
+    },
+    {
+      "path": "Views\\DeclaracaoExportacaoFichaAtualizarView.cs",
+      "export_path": "Views\\DeclaracaoExportacaoFichaAtualizarView.cs",
+      "raw_sha256": "64fc08d53be033edcd132f6d6990810fb6cb9399a4ec03e8f3abeaa50d48560c"
+    },
+    {
+      "path": "Views\\DeclaracaoExportacaoFichaViewDetalhes\\DeclaracaoExportacaoMovimentacoesView.cs",
+      "export_path": "Views\\DeclaracaoExportacaoFichaViewDetalhes\\DeclaracaoExportacaoMovimentacoesView.cs",
+      "raw_sha256": "1ffdcb8ea00e4f7ebe55127ac2d94de9c66113095637f9ffa41e04e970586fe0"
+    },
+    {
+      "path": "Views\\DeclaracaoExportacaoFichaViewDetalhes\\DeclaracaoExportacaoView.cs",
+      "export_path": "Views\\DeclaracaoExportacaoFichaViewDetalhes\\DeclaracaoExportacaoView.cs",
+      "raw_sha256": "7708aedf14415c6a7d0e69867c89daee85b06eb6014324fbcfd5576adaf22f84"
+    },
+    {
+      "path": "Views\\DeclaracaoExportacaoListaView.cs",
+      "export_path": "Views\\DeclaracaoExportacaoListaView.cs",
+      "raw_sha256": "92846f8bf88b1655397c3e8331217098576f9d7c594589cbe00fbaffc076f107"
+    },
+    {
+      "path": "Views\\DeclaracoesExportacaoView.cs",
+      "export_path": "Views\\DeclaracoesExportacaoView.cs",
+      "raw_sha256": "b518e3434f21b8d96610e4eb4e36344bd0af52dfbf36f0f70508f15e90641f4d"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.DeclaracoesExportacao.g.resources",
+      "file": "0000.bin",
+      "bytes": 24241,
+      "sha256": "c5180ff4f0ea3c6d0e47344d780951ab9edd12be6ffcc010d0a8374f1208f3c5"
+    },
+    {
+      "name": "Otus.Modulo.DeclaracoesExportacao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

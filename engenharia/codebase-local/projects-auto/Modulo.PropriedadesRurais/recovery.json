@@ -1,0 +1,150 @@
+{
+  "name": "Modulo.PropriedadesRurais",
+  "baseline": "baseline\\Modulo.PropriedadesRurais.dll",
+  "baseline_sha256": "15b3af7d5072f15a5471eb2492ddd6e6a242a2a825aef1c6b71d0e40dab724dd",
+  "export_project": "recovered\\SuiteG6\\Modulo.PropriedadesRurais\\Modulo.PropriedadesRurais.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f00bbce3389c2a924832f1717a5632efa02d5706b591a3aa340675281f3d67ad"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "39570e26538ff43c76ac1f8cf7d984a97563395666e6f8ec05556360b0dadc32"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "539a8b68cf8acb9a1a62b3c889c590e8374f59f34d8254989d144fa5de25635d"
+    },
+    {
+      "path": "PropriedadeRural.cs",
+      "export_path": "PropriedadeRural.cs",
+      "raw_sha256": "5bcc8f85da95689142671c43b391dbfdd028b0e5e178fc319bfdb16ca8b2eadd"
+    },
+    {
+      "path": "ViewModels\\EnderecosViewModel\\EnderecoExteriorViewModel.cs",
+      "export_path": "ViewModels\\EnderecosViewModel\\EnderecoExteriorViewModel.cs",
+      "raw_sha256": "23e82fb1d3e7f97b86f6ce5ada10b367c8cda795a321771fda1d1902c6d07b72"
+    },
+    {
+      "path": "ViewModels\\EnderecosViewModel\\EnderecoNacionalViewModel.cs",
+      "export_path": "ViewModels\\EnderecosViewModel\\EnderecoNacionalViewModel.cs",
+      "raw_sha256": "09de805bfa60d5458107cf5ce1cbb70567f2f700fd1dfa47847561cbe893a003"
+    },
+    {
+      "path": "ViewModels\\EnderecosViewModel\\EnderecoViewModelBase.cs",
+      "export_path": "ViewModels\\EnderecosViewModel\\EnderecoViewModelBase.cs",
+      "raw_sha256": "0a03aa00bf6b4022a7ff971d6fb38cbf4cf457351d93be703e72bef004b429bd"
+    },
+    {
+      "path": "ViewModels\\PropriedadeRuralAbaViewModel.cs",
+      "export_path": "ViewModels\\PropriedadeRuralAbaViewModel.cs",
+      "raw_sha256": "48bf3e915651c47c8f64f578fb89e3518c85442b225b1df8208378a7368d4a10"
+    },
+    {
+      "path": "ViewModels\\PropriedadeRuralFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\PropriedadeRuralFichaAdicionarViewModel.cs",
+      "raw_sha256": "7b4f52d01baeafc05e64ead3eaa489565c1e689c1937fe53fddb1d4a7dea4a1a"
+    },
+    {
+      "path": "ViewModels\\PropriedadeRuralFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\PropriedadeRuralFichaAtualizarViewModel.cs",
+      "raw_sha256": "41aab947cf01680d88c9c8f5bd85ee32ce03accbd230f707b9454cab1b0c15a5"
+    },
+    {
+      "path": "ViewModels\\PropriedadeRuralFormulario.cs",
+      "export_path": "ViewModels\\PropriedadeRuralFormulario.cs",
+      "raw_sha256": "53421805b7baeea92c40baaf50425d73dba851390369b9635105bb67040f5b2f"
+    },
+    {
+      "path": "ViewModels\\PropriedadeRuralListaViewModel.cs",
+      "export_path": "ViewModels\\PropriedadeRuralListaViewModel.cs",
+      "raw_sha256": "212fc6e95840cd731407766bd30ad1c348a44f028e9eb0ae24190cb00950558b"
+    },
+    {
+      "path": "ViewModels\\PropriedadeRuralViewModel.cs",
+      "export_path": "ViewModels\\PropriedadeRuralViewModel.cs",
+      "raw_sha256": "1ebd88e0151b54c7e99527313bd63a3e4e61a82045c669630c9dd6a2501ff2b1"
+    },
+    {
+      "path": "ViewModels\\PropriedadesRuraisViewModel.cs",
+      "export_path": "ViewModels\\PropriedadesRuraisViewModel.cs",
+      "raw_sha256": "79e43815dcb3ef4a26816d0afdf0d39a53df5945978223a169ed3dca4883acee"
+    },
+    {
+      "path": "ViewModels\\TerceiroAbaViewModel.cs",
+      "export_path": "ViewModels\\TerceiroAbaViewModel.cs",
+      "raw_sha256": "dba01e89077515948e75a0d0495964539ab922dd26fe27d3f60acb8f865bcaf6"
+    },
+    {
+      "path": "ViewModels\\TerceiroFichaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\TerceiroFichaManutencaoDetalhe.cs",
+      "raw_sha256": "ff13497bb55ef0a0776078e3847aa6d8f0a6bd364819caabc88aac650a6ab6c9"
+    },
+    {
+      "path": "ViewModels\\TerceiroListaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\TerceiroListaManutencaoDetalhe.cs",
+      "raw_sha256": "a40eeac3818dd4f581cb09644dbb6f6e3a4566711cd2368ebe1560a1ee2f5179"
+    },
+    {
+      "path": "ViewModels\\TerceiroViewModel.cs",
+      "export_path": "ViewModels\\TerceiroViewModel.cs",
+      "raw_sha256": "294c34dba4f31d91050cfcd75e383dfa79a178ef325483e16cfadc8b32982fb7"
+    },
+    {
+      "path": "Views\\PropriedadeRuralFichaAdicionarView.cs",
+      "export_path": "Views\\PropriedadeRuralFichaAdicionarView.cs",
+      "raw_sha256": "7fb5fb963d6f1e16ad311700896bfe6736a16471bcbd4e08822f4d8d930fe391"
+    },
+    {
+      "path": "Views\\PropriedadeRuralFichaAtualizarView.cs",
+      "export_path": "Views\\PropriedadeRuralFichaAtualizarView.cs",
+      "raw_sha256": "132c6ec09d48bc298ebbf2d92d7689eee411d8a768f11f369fcbd3c4325a8750"
+    },
+    {
+      "path": "Views\\PropriedadeRuralFichaViewDetalhes\\PropriedadeRuralView.cs",
+      "export_path": "Views\\PropriedadeRuralFichaViewDetalhes\\PropriedadeRuralView.cs",
+      "raw_sha256": "cad3a4749a0b5e62de808d23b1da26e5affc136d92d9b787dd5a06cc6a47ce1a"
+    },
+    {
+      "path": "Views\\PropriedadeRuralFichaViewDetalhes\\TerceiroFichaView.cs",
+      "export_path": "Views\\PropriedadeRuralFichaViewDetalhes\\TerceiroFichaView.cs",
+      "raw_sha256": "6c4846830a39f239455aa4c9b3ff2df16972ffabcba2435ddc6f97fdc29d649d"
+    },
+    {
+      "path": "Views\\PropriedadeRuralFichaViewDetalhes\\TerceiroListaView.cs",
+      "export_path": "Views\\PropriedadeRuralFichaViewDetalhes\\TerceiroListaView.cs",
+      "raw_sha256": "bab9bbf1c476401f6f297cc99b2beede561cae6d75434b6dc2f5358b203b60c7"
+    },
+    {
+      "path": "Views\\PropriedadeRuralListaView.cs",
+      "export_path": "Views\\PropriedadeRuralListaView.cs",
+      "raw_sha256": "66c8369ae49e8270877ba8588d37fdd9a892f40d366254ab8a9da47d7bab0f86"
+    },
+    {
+      "path": "Views\\PropriedadesRuraisView.cs",
+      "export_path": "Views\\PropriedadesRuraisView.cs",
+      "raw_sha256": "2f5b953d88e2f7706de0ddd7cc01e9c16f61961467c1c84e198b0ef02dcfc671"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.PropriedadesRurais.g.resources",
+      "file": "0000.bin",
+      "bytes": 27353,
+      "sha256": "5bdfbfafc2ba0acb50c478177732fe566e48b2e19eccc3e59640156414bcc393"
+    },
+    {
+      "name": "Otus.Modulo.PropriedadesRurais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

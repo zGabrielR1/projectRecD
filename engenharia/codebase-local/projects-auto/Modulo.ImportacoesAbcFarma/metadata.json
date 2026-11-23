@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "14fbf46bb364222f4ca9706d033e0b7a32d9d96885c180f78ee6a745e46ec1df",
+  "mvid": "736b47d2-6228-4cec-9fe1-6c7a292c0f55",
+  "assembly": "Modulo.ImportacoesAbcFarma, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ImportacoesAbcFarma.g.resources",
+      "file": "0000.bin",
+      "bytes": 13735,
+      "sha256": "3f4610d4dd9a2c1aedb48dcd69908979f7f7f08def01d8b8e9cbbd27a13d8db2"
+    },
+    {
+      "name": "Otus.Modulo.ImportacoesAbcFarma.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

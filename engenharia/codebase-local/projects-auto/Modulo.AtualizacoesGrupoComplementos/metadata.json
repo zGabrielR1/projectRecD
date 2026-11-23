@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "2ea0e098f3af34d528d58c3e2db45fc732af56fc21acae0d52b208b43b9c076d",
+  "mvid": "97f0da9e-d5e7-4e46-84c7-e4beab022973",
+  "assembly": "Modulo.AtualizacoesGrupoComplementos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Mvvm.v15.2",
+    "PresentationCore",
+    "Prism.Unity.Wpf",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.AtualizacoesGrupoComplementos.g.resources",
+      "file": "0000.bin",
+      "bytes": 9020,
+      "sha256": "7aaf849772610fe01ccfc19fbff4a20b372719d1c8680c55c70a63433c9075e6"
+    },
+    {
+      "name": "Otus.Modulo.AtualizacoesGrupoComplementos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "name": "Modulo.AgrupamentoQuartos",
+  "baseline": "baseline\\Modulo.AgrupamentoQuartos.dll",
+  "baseline_sha256": "2156e8fa1afe3680a2427ef7fa5b757e6a40e834025d0b5ed54785b8ed62549c",
+  "export_project": "recovered\\SuiteG6\\Modulo.AgrupamentoQuartos\\Modulo.AgrupamentoQuartos.csproj",
+  "sources": [
+    {
+      "path": "AgrupamentoQuartoModulo.cs",
+      "export_path": "AgrupamentoQuartoModulo.cs",
+      "raw_sha256": "17ba3f85535050ea11a2513c8f0a60f238a6773d158ad0d77414790816bbc227"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "fa9da8567f8b2c6751417cfa9e03052b058bf67c3e452080140d288e5081d6a2"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "924685dee15244c42da4ff34ab0c0d84bbd85b95638aa0e575416cc4b2add140"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "13047bfd61bf5ee4592ae5177f0421b2cf9149f2ef7f7e2567c07ed5dbe94f5e"
+    },
+    {
+      "path": "ViewModels\\AgrupamentoQuartoAbaViewModel.cs",
+      "export_path": "ViewModels\\AgrupamentoQuartoAbaViewModel.cs",
+      "raw_sha256": "7de02b97125ea38dde6634a02afedc1d93f1919ef53e1c6467ba99bc1e6b8c78"
+    },
+    {
+      "path": "ViewModels\\AgrupamentoQuartoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\AgrupamentoQuartoFichaAdicionarViewModel.cs",
+      "raw_sha256": "dfbebcbb0284a2f9a098e066586c65188bd4d04c6618224af2b7a233d1d329b9"
+    },
+    {
+      "path": "ViewModels\\AgrupamentoQuartoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\AgrupamentoQuartoFichaAtualizarViewModel.cs",
+      "raw_sha256": "9850074c0dfd663b3ccf06802def023d10f7176f32409975e741ea86147fc84f"
+    },
+    {
+      "path": "ViewModels\\AgrupamentoQuartoFichaViewModel.cs",
+      "export_path": "ViewModels\\AgrupamentoQuartoFichaViewModel.cs",
+      "raw_sha256": "8ef9788530dfbdedf3c7eb9e4afc3b441d3900f94a0a60a9102f800e61498802"
+    },
+    {
+      "path": "ViewModels\\AgrupamentoQuartoFormulario.cs",
+      "export_path": "ViewModels\\AgrupamentoQuartoFormulario.cs",
+      "raw_sha256": "e8bedd3b89e141c9181d3eba3169956912f0ac73dac7196bb62e693cb5933870"
+    },
+    {
+      "path": "ViewModels\\AgrupamentoQuartoListaViewModel.cs",
+      "export_path": "ViewModels\\AgrupamentoQuartoListaViewModel.cs",
+      "raw_sha256": "1f913d11560a1295c53157485f211fe36265ece034501b47c706647acd6f9b2b"
+    },
+    {
+      "path": "ViewModels\\AgrupamentoQuartoViewModel.cs",
+      "export_path": "ViewModels\\AgrupamentoQuartoViewModel.cs",
+      "raw_sha256": "6d5f5aa38643a8127ceae83e14626b9ac104d3dd89629abd80d5ca5b0123cd37"
+    },
+    {
+      "path": "ViewModels\\AgrupamentosQuartoViewModel.cs",
+      "export_path": "ViewModels\\AgrupamentosQuartoViewModel.cs",
+      "raw_sha256": "c0a4797bd78ef707a65bd5e6c6a5eb2f953ce31e29a40c358dddb2d61e342c00"
+    },
+    {
+      "path": "ViewModels\\EnviarQuartosHunitAbaViewModel.cs",
+      "export_path": "ViewModels\\EnviarQuartosHunitAbaViewModel.cs",
+      "raw_sha256": "d744ad10ef8f285e5936ea66d533f5b37025a440e47aed2c048927d3dcf534cc"
+    },
+    {
+      "path": "ViewModels\\EnviarQuartosHunitFichaViewModel.cs",
+      "export_path": "ViewModels\\EnviarQuartosHunitFichaViewModel.cs",
+      "raw_sha256": "e46a53454fca35f561bae1860fc271b42a2ef166d52a9be0e2e563d0fd60de3e"
+    },
+    {
+      "path": "ViewModels\\EnviarQuartosHunitFormulario.cs",
+      "export_path": "ViewModels\\EnviarQuartosHunitFormulario.cs",
+      "raw_sha256": "756e2115b06162f34d5163c20da5ae0d0734a9bf1da1261efd6f39180cd79b8d"
+    },
+    {
+      "path": "ViewModels\\EnviarQuartosHunitViewModel.cs",
+      "export_path": "ViewModels\\EnviarQuartosHunitViewModel.cs",
+      "raw_sha256": "604ca33059587936b8d68e53d1776eb31d47e60e2c27c6e7aa919100ba3117ce"
+    },
+    {
+      "path": "ViewModels\\ItemEnviarQuartosHunitPeriodo.cs",
+      "export_path": "ViewModels\\ItemEnviarQuartosHunitPeriodo.cs",
+      "raw_sha256": "c1c5175e84667921d3cd554768cb7afe1d3a57e512c3969650b0b4e828181649"
+    },
+    {
+      "path": "ViewModels\\ItemInclusaoPrecoPorHospede.cs",
+      "export_path": "ViewModels\\ItemInclusaoPrecoPorHospede.cs",
+      "raw_sha256": "b2b413b2455f52737fe88eaab70eea9f6ac39e5ad88b6a1b0b9f8b728bfc399c"
+    },
+    {
+      "path": "ViewModels\\ItemInclusaoQuarto.cs",
+      "export_path": "ViewModels\\ItemInclusaoQuarto.cs",
+      "raw_sha256": "00316233a08e89471ad5ffcbfc4af59a7a0c9d7d6724537bb698934ec146dcfb"
+    },
+    {
+      "path": "ViewModels\\ItensDisponiveisQuartoAbaViewModel.cs",
+      "export_path": "ViewModels\\ItensDisponiveisQuartoAbaViewModel.cs",
+      "raw_sha256": "a89681620ab259cc75edbcc0ef38575598c537f76869b778742ac6064681214a"
+    },
+    {
+      "path": "ViewModels\\ItensDisponiveisQuartoViewModel.cs",
+      "export_path": "ViewModels\\ItensDisponiveisQuartoViewModel.cs",
+      "raw_sha256": "0a23f54562aca87fd364ca705ced79d4c45b723c783552975739239f970761e0"
+    },
+    {
+      "path": "ViewModels\\PeriodoPrecoAbaViewModel.cs",
+      "export_path": "ViewModels\\PeriodoPrecoAbaViewModel.cs",
+      "raw_sha256": "4e1c0ffd9076f9c0f90370278b834dde4fa78c9a6b6d0b449c3af63aa7aae7a5"
+    },
+    {
+      "path": "ViewModels\\PeriodoPrecoFichaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\PeriodoPrecoFichaManutencaoViewModel.cs",
+      "raw_sha256": "9f524b8a4facc3a23609c3245929495df562435fa5dfeebb8c801973869ff556"
+    },
+    {
+      "path": "ViewModels\\PeriodoPrecoListaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\PeriodoPrecoListaManutencaoViewModel.cs",
+      "raw_sha256": "da6f97c9d2235bb330adf219c1353a30abce60aba690d91c323a89112ef6b035"
+    },
+    {
+      "path": "ViewModels\\PeriodoPrecoViewModel.cs",
+      "export_path": "ViewModels\\PeriodoPrecoViewModel.cs",
+      "raw_sha256": "7bf8725d5c973fbd19ef4da98a7bbd1730f109058cf558b638ec139979bc6668"
+    },
+    {
+      "path": "ViewModels\\PortalHunitAbaViewModel.cs",
+      "export_path": "ViewModels\\PortalHunitAbaViewModel.cs",
+      "raw_sha256": "6a82b14360816b06d55e9981e88954b7ea89061b25e27017c7e1e4a9509f9b49"
+    },
+    {
+      "path": "ViewModels\\PortalHunitViewModel.cs",
+      "export_path": "ViewModels\\PortalHunitViewModel.cs",
+      "raw_sha256": "115f2a39148789c3c1bb61aac9a3189ccfb579a2541965276adc8d651303b138"
+    },
+    {
+      "path": "ViewModels\\VinculacaoQuartosAbaViewModel.cs",
+      "export_path": "ViewModels\\VinculacaoQuartosAbaViewModel.cs",
+      "raw_sha256": "74144167070f2e95a80e02ff1b23ac2f303e79551d362baa922a77f0cb98147b"
+    },
+    {
+      "path": "ViewModels\\VinculacaoQuartosViewModel.cs",
+      "export_path": "ViewModels\\VinculacaoQuartosViewModel.cs",
+      "raw_sha256": "0c8a5193ff717855102c77691320a8d1c0df3b1640847fd7e69805a60f77a799"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoFichaAdicionarView.cs",
+      "export_path": "Views\\AgrupamentoQuartoFichaAdicionarView.cs",
+      "raw_sha256": "f254c093ce9a6f9ad10e222570f6e507b097347754fd7086df2649696d4c3b14"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoFichaAtualizarView.cs",
+      "export_path": "Views\\AgrupamentoQuartoFichaAtualizarView.cs",
+      "raw_sha256": "03be738ae932156d79f17ed56a317c35a546d069c4ba2968b33d4eec49570a71"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\AgrupamentoQuartoView.cs",
+      "export_path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\AgrupamentoQuartoView.cs",
+      "raw_sha256": "19cee884e5fd9a6782e9fed89f4ee021b46c42fdd0705453b820ad827c58abce"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\EnviarQuartosHunit.cs",
+      "export_path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\EnviarQuartosHunit.cs",
+      "raw_sha256": "1bf612a9aeee5d5e3584d023c006afc8afa3e6d17b7867ded5aad350336b2b17"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\ItensDisponiveisQuartoView.cs",
+      "export_path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\ItensDisponiveisQuartoView.cs",
+      "raw_sha256": "49634b3181d69b0940c1a18ac1c8e25cfeab910a0949c6bb72f0f4ba4ae6dff8"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\PeriodoPrecoListaView.cs",
+      "export_path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\PeriodoPrecoListaView.cs",
+      "raw_sha256": "c74ca06014eb8a2d2a43ba29d68a9b92977a00bbf229780cb7f3c03ef3dd5304"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\PeriodoPrecoView.cs",
+      "export_path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\PeriodoPrecoView.cs",
+      "raw_sha256": "0cb2898c6ee77bd1dd9665235cac46a2d1d09a026076095b2a8c3e2b77d074ce"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\PortalHunitView.cs",
+      "export_path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\PortalHunitView.cs",
+      "raw_sha256": "4ec986e81a682b27fa52077854ca27a0b205c16d0b8d1bd6c4472013d2721cb0"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\VinculacaoQuartosView.cs",
+      "export_path": "Views\\AgrupamentoQuartoFichaViewDetalhes\\VinculacaoQuartosView.cs",
+      "raw_sha256": "89babc04573302bff12728f16eb6765e8ddb9dda01f917fbc648b197f3b62551"
+    },
+    {
+      "path": "Views\\AgrupamentoQuartoListaView.cs",
+      "export_path": "Views\\AgrupamentoQuartoListaView.cs",
+      "raw_sha256": "d3de8873bb0fd691762d5b1099c62f2e70395215569968a30b9ebdfde6d58dc1"
+    },
+    {
+      "path": "Views\\AgrupamentosQuartoView.cs",
+      "export_path": "Views\\AgrupamentosQuartoView.cs",
+      "raw_sha256": "599d3c998474faa6e0b03b2e2afacaeb4a821904993f86acec7a123af42cff35"
+    },
+    {
+      "path": "Views\\EnviarQuartosHunitFichaView.cs",
+      "export_path": "Views\\EnviarQuartosHunitFichaView.cs",
+      "raw_sha256": "0b7ab23eb2d04b5d904fce4371da66ef6a3dc42ff041a8c4b1c5666478f69624"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.AgrupamentoQuartos.g.resources",
+      "file": "0000.bin",
+      "bytes": 54013,
+      "sha256": "040130f1b9794ff0f3061cbe57bafee8b63515d30fb1cd7c72c592de1ca6e729"
+    },
+    {
+      "name": "Otus.Modulo.AgrupamentoQuartos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,9 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Sintegra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Core"
+  ]
+}

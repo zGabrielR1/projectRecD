@@ -1,0 +1,37 @@
+{
+  "artifactSha256": "69d086dd438dd99a19068507152ffc688e93e766c7e2c7ef5887b189d4006610",
+  "mvid": "3e1c8be8-f7d0-4a17-8dc7-aa2f8a10ade5",
+  "assembly": "Modulo.Departamentos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Departamentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 9697,
+      "sha256": "802c4021c53465cff0477c8cbd5c6b706c9b8bf10df45fd60a872e5dd62021bf"
+    },
+    {
+      "name": "Otus.Modulo.Departamentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

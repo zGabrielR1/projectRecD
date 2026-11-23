@@ -1,0 +1,85 @@
+{
+  "name": "Modulo.GestaoSincronizacoesScanntech",
+  "baseline": "baseline\\Modulo.GestaoSincronizacoesScanntech.dll",
+  "baseline_sha256": "6c4c3bbc6ed3a6f7086f23dda9887c2ce569656e5b68f2922831df2dd5f38408",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacoesScanntech\\Modulo.GestaoSincronizacoesScanntech.csproj",
+  "sources": [
+    {
+      "path": "GestaoSincronizacaoScanntechModulo.cs",
+      "export_path": "GestaoSincronizacaoScanntechModulo.cs",
+      "raw_sha256": "2f101cca9151eecea2fed20c013e93ef5ae5e5680f4fe74ea70025928a03bc3e"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "726eee060d8c43a67c8ea4c8fd6d987d59e85fd721ff5d7513d27178210f9016"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "ad78e20c9461242ab1326400d2ee91d5a6e402f7c1789ddb28302880aec1745f"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "91b1a184e137cfa21b19e2a88025252957a1102a64e07d9bf90d20a5e0a25107"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoScanntechFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoScanntechFichaViewModel.cs",
+      "raw_sha256": "0b2f09d7209b5522132ccb969e2f3ea18f2f64501757cddfef8d8400b2e619c6"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoScanntechFormulario.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoScanntechFormulario.cs",
+      "raw_sha256": "61eeaf6781f5d4704c8ff1223eac6f57e8d1ba5588753e9e87731e86c68c0961"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacoesScanntechViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacoesScanntechViewModel.cs",
+      "raw_sha256": "e2ecc60040cfe4c25c0518397c02e2f1694fd6ec9d6c32aa520fc3ee28fb7bda"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "raw_sha256": "ed10774138daed1be26fc0f57616de9b313388f8a9037c6e7c134c12cdc92d09"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoViewModel.cs",
+      "raw_sha256": "fad27a237937e062bfa3d6244b35202c033273888e3a46191a0a4c9e62bc8ecd"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoScanntechFichaView.cs",
+      "export_path": "Views\\GestaoSincronizacaoScanntechFichaView.cs",
+      "raw_sha256": "cd83c30d9f862348f76d594ca1770888fb2ee970032424b25d0c59e2f78c2ab7"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoScanntechFichaViewDet\\SincronizacaoView.cs",
+      "export_path": "Views\\GestaoSincronizacaoScanntechFichaViewDet\\SincronizacaoView.cs",
+      "raw_sha256": "69364ae25521c98580348ee8ca5cdeb2648939da85d53ca4bb4d11eaa20ce03d"
+    },
+    {
+      "path": "Views\\GestaoSincronizacoesScanntechView.cs",
+      "export_path": "Views\\GestaoSincronizacoesScanntechView.cs",
+      "raw_sha256": "e637d5e5793b189e1855ac67767bf0abe35d898d0df1fbf720aea6f60649b644"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoSincronizacoesScanntech.g.resources",
+      "file": "0000.bin",
+      "bytes": 11903,
+      "sha256": "92c55939eda8239e83a82181113de1bc01634886e3ee0b3c45b809a9709190b2"
+    },
+    {
+      "name": "Otus.Modulo.GestaoSincronizacoesScanntech.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

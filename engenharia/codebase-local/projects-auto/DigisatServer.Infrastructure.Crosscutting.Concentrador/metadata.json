@@ -1,0 +1,20 @@
+{
+  "artifactSha256": "a15e00dbbdf194849b5d8d419dbe8b6f1bf8345db3e7a18d69ce05acc2bc072e",
+  "mvid": "02311ab3-ff68-438d-be74-43f51c20494e",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Concentrador, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "System.Xml",
+    "System.Reactive.Core",
+    "System.Reactive.Linq",
+    "Hiro",
+    "WindowsBase",
+    "System.Core",
+    "System.Reactive.PlatformServices",
+    "System.Reactive.Interfaces"
+  ],
+  "resources": []
+}

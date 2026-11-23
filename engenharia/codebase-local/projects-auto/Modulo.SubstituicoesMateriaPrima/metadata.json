@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "9537861341c1174255ae7c03823e49e14522f7b50756dbe7eba009052a89ce70",
+  "mvid": "b7f3bf37-ba07-4274-9318-f5e722451f18",
+  "assembly": "Modulo.SubstituicoesMateriaPrima, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Mvvm.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "Infraestrutura"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.SubstituicoesMateriaPrima.g.resources",
+      "file": "0000.bin",
+      "bytes": 13872,
+      "sha256": "3375fb50413ce48686468245755373186e5ec1ee676d795008edb987faf14d24"
+    },
+    {
+      "name": "Otus.Modulo.SubstituicoesMateriaPrima.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

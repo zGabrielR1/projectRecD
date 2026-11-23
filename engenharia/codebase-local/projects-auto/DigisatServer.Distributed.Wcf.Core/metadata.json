@@ -1,0 +1,26 @@
+{
+  "artifactSha256": "1901d2271eb39215fa46935b869c015378cec1b4acc8dea106bf143caacb1491",
+  "mvid": "99b857b4-7588-4eaf-b306-c476f97e4ae3",
+  "assembly": "DigisatServer.Distributed.Wcf.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "System.Runtime.Serialization",
+    "System.ServiceModel",
+    "SimpleInjector",
+    "DigisatServer.Application.Core",
+    "System.IdentityModel",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "System.ServiceModel.Web",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Ionic.Zip",
+    "System.Configuration",
+    "System.Xml",
+    "System.Core",
+    "System.Security",
+    "System.ComponentModel.Composition",
+    "ALungu.Security"
+  ],
+  "resources": []
+}

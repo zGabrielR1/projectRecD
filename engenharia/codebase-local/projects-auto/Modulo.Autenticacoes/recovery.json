@@ -1,0 +1,199 @@
+{
+  "name": "Modulo.Autenticacoes",
+  "baseline": "baseline\\Modulo.Autenticacoes.dll",
+  "baseline_sha256": "f2318a0bf524b4c8dd14f7e78cf5348f6faf336844a8e36bf5863716e53f525a",
+  "export_project": "recovered\\SuiteG6\\Modulo.Autenticacoes\\Modulo.Autenticacoes.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "4e394e8147777c0e86e0e53da5b73b24b7af70981b9a8a72647c0b12d6c06ee3"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "f2318a0bf524b4c8dd14f7e78cf5348f6faf336844a8e36bf5863716e53f525a"
+    },
+    {
+      "kind": "Represent boxed ObjectId value without invalid ref-cast syntax"
+    },
+    {
+      "kind": "Resolve session Token/Pessoa and module descriptor types; retain explicit domain Pessoa casts",
+      "evidence": "type-evidence/Modulo.Autenticacoes/Modulo.Autenticacoes.il"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 19
+    },
+    {
+      "kind": "Resolve configuration domain/session types, icon Usuario and Mvvm helper from original references",
+      "aliases": {
+        "Configuracao": "DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Configuracoes.Configuracao",
+        "Usuario": "Otus.Infraestrutura.Models.Icones.Usuario",
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException"
+      }
+    },
+    {
+      "kind": "Select session Configuracao event type for AtualizarConfiguracao callback while retaining domain repository configuration type"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Autenticacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 39497,
+      "sha256": "844481beee6b0b28f00dc3d80959640e700d8e6800d7f631fcbb426baf9b8682"
+    },
+    {
+      "name": "Otus.Modulo.Autenticacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "AutenticacaoModulo.cs",
+      "export_path": "AutenticacaoModulo.cs",
+      "raw_sha256": "f5be982c5f41ba78e41c70d9d68d39a77933f3b2182bed0a1eab974f04838818"
+    },
+    {
+      "path": "Projections\\PerfilEmpresaProjection.cs",
+      "export_path": "Projections\\PerfilEmpresaProjection.cs",
+      "raw_sha256": "c8231eda44b8d76451230964ff5da823bba54434d2120697d70a9ae6f82c204d"
+    },
+    {
+      "path": "Projections\\PessoaProjection.cs",
+      "export_path": "Projections\\PessoaProjection.cs",
+      "raw_sha256": "82de1714b1b785e74f4677ed814e754241e089165b4bdac7e4b449bfcabb45c0"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f33a842071d5dac6751058b347b780380040c457013de2f79fb53debb58b49aa"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a102c5c42779044993f02cfe8c2904a1fda22ec1d553980bb429a2b3b108e7ac"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "0f60e3e24ec9ed06f1cea9c144a344f67f64cd7e7792c03494ae91379b6d183a"
+    },
+    {
+      "path": "Services\\AutenticacaoNavegacaoService.cs",
+      "export_path": "Services\\AutenticacaoNavegacaoService.cs",
+      "raw_sha256": "c6011ec501120714a96fbcd7d7c4540daa216063e7a863913ce2b711ec8b0447"
+    },
+    {
+      "path": "Services\\AutenticacaoService.cs",
+      "export_path": "Services\\AutenticacaoService.cs",
+      "raw_sha256": "f60e260bcdcae8f6bce2f2c6633dc2b8b387977b5c3994c15a336f1f978b8449"
+    },
+    {
+      "path": "Services\\SessaoService.cs",
+      "export_path": "Services\\SessaoService.cs",
+      "raw_sha256": "a9cad0c5b6266b78b0305563eddbca25ba5864abfc70902a0dcdb3372a0364e8"
+    },
+    {
+      "path": "ViewModels\\AcessoViewModel.cs",
+      "export_path": "ViewModels\\AcessoViewModel.cs",
+      "raw_sha256": "abcf328c240676c68af8148fb8f424b1ff63f6eea53556947bab8ea656fcd609"
+    },
+    {
+      "path": "ViewModels\\AlterarSenhaViewModel.cs",
+      "export_path": "ViewModels\\AlterarSenhaViewModel.cs",
+      "raw_sha256": "01279b55c5cb4071ad247f4db2e6f226a51826ff5b5d28ae324ec18edd236f46"
+    },
+    {
+      "path": "ViewModels\\AutenticacaoBaseViewModel.cs",
+      "export_path": "ViewModels\\AutenticacaoBaseViewModel.cs",
+      "raw_sha256": "0c9c30263fd081eae9ffeee71716cc08f67632e5c457ae6c6b5e376ab649f64d"
+    },
+    {
+      "path": "ViewModels\\AutenticacaoViewModel.cs",
+      "export_path": "ViewModels\\AutenticacaoViewModel.cs",
+      "raw_sha256": "27efbed4acc65d5813886fbbbe439fc8fa4d51a176105500166154eea6560b84"
+    },
+    {
+      "path": "ViewModels\\AutenticacoesViewModel.cs",
+      "export_path": "ViewModels\\AutenticacoesViewModel.cs",
+      "raw_sha256": "040ab47435dd6ffe05541b4868c1131cdafd8d5f33b02ca10f20458bf0ad13f1"
+    },
+    {
+      "path": "ViewModels\\BloqueioViewModel.cs",
+      "export_path": "ViewModels\\BloqueioViewModel.cs",
+      "raw_sha256": "87e8dc86e28e4fb045800edad79424c58211c9600057727372b773a1f45084a4"
+    },
+    {
+      "path": "ViewModels\\PreAutenticacaoViewModel.cs",
+      "export_path": "ViewModels\\PreAutenticacaoViewModel.cs",
+      "raw_sha256": "418d5145f63e76e2997e321ee893a4ed40b92a6519ad5e8c745d3546146225c9"
+    },
+    {
+      "path": "ViewModels\\PrimeiroAcessoViewModel.cs",
+      "export_path": "ViewModels\\PrimeiroAcessoViewModel.cs",
+      "raw_sha256": "2a06d16c6d619617ba73f0538be084d51a6f4bb1df4465ba97350b8b8392b0fa"
+    },
+    {
+      "path": "Views\\AlterarIpServidor.cs",
+      "export_path": "Views\\AlterarIpServidor.cs",
+      "raw_sha256": "37ed6ad7014f30df97414bcc3b3036033ce6c4defabff284b2d2085095e01925"
+    },
+    {
+      "path": "Views\\AlterarSenhaView.cs",
+      "export_path": "Views\\AlterarSenhaView.cs",
+      "raw_sha256": "b543095369e9407ba807cd9696214d31ae9a25247cab36ff37e2b69e15698e3e"
+    },
+    {
+      "path": "Views\\AutenticacaoView.cs",
+      "export_path": "Views\\AutenticacaoView.cs",
+      "raw_sha256": "b630ae8c230729bd0d4939ac234c4d1b8333ea2f291c98f0effe0c9941e27dc9"
+    },
+    {
+      "path": "Views\\AutenticacoesView.cs",
+      "export_path": "Views\\AutenticacoesView.cs",
+      "raw_sha256": "d86b668998d04d75f2d31ed3452a191928947e6b3edd48ba1b68cffdc0ce6dab"
+    },
+    {
+      "path": "Views\\BloqueioView.cs",
+      "export_path": "Views\\BloqueioView.cs",
+      "raw_sha256": "ef25bda62a470c17649350f1feab7b9bfc628a9d88605560beb5282c61aae79b"
+    },
+    {
+      "path": "Views\\Emitente.cs",
+      "export_path": "Views\\Emitente.cs",
+      "raw_sha256": "d2a09c298e3722c711530680e835efe8414c52acc9e31008267d3680ff1d7af2"
+    },
+    {
+      "path": "Views\\LogomarcaView.cs",
+      "export_path": "Views\\LogomarcaView.cs",
+      "raw_sha256": "c4929f4fe2114a5ac4489c0d4b9ccfb13c99523c7063887c0bf04230f5acc18c"
+    },
+    {
+      "path": "Views\\PreAutenticacaoView.cs",
+      "export_path": "Views\\PreAutenticacaoView.cs",
+      "raw_sha256": "eb587eb3b28a2fec9885725468ec2014c29a7e1ca99d482e9161c6ae9fded895"
+    },
+    {
+      "path": "Views\\PrimeiroAcessoView.cs",
+      "export_path": "Views\\PrimeiroAcessoView.cs",
+      "raw_sha256": "05c2174fa4b254ee652457b3d92e53dc495a9500fda20ffa628351455f755e5c"
+    },
+    {
+      "path": "Views\\TituloView.cs",
+      "export_path": "Views\\TituloView.cs",
+      "raw_sha256": "4d2c03d6120b02c84da43f90bc4e19de789c168c7a918466d6a5efb5660847b6"
+    },
+    {
+      "path": "Views\\UsuarioSenhaView.cs",
+      "export_path": "Views\\UsuarioSenhaView.cs",
+      "raw_sha256": "8d69c058602fd5f311a7364860c48ab695e4f5e48a1baccbbc9cf36a2999dab0"
+    }
+  ]
+}

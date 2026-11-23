@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "37e87a72fdb2592c68ba42277335fb6091601a7f08288b80a67de40c3184beff",
+  "mvid": "8ab14d10-9fc6-463d-91e1-47018b5e9d5d",
+  "assembly": "Modulo.AnunciosMercadoLivre, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "PresentationCore",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.AnunciosMercadoLivre.g.resources",
+      "file": "0000.bin",
+      "bytes": 66647,
+      "sha256": "d8a0d3dd5aae2f947888aedacf9094aad5c977c2ea2f8fa0b3ac6309159bb55c"
+    },
+    {
+      "name": "Otus.Modulo.AnunciosMercadoLivre.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

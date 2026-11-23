@@ -1,0 +1,55 @@
+{
+  "artifactSha256": "2ab20e8f5d9453b9f4a37f739743d595ae742a8e1e204745741f4b47713b3af1",
+  "mvid": "54f6ae04-3e83-4181-b035-ac6a89473135",
+  "assembly": "Modulo.OrcamentosIndustria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "NClone",
+    "DevExpress.Data.v15.2",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.OrcamentosIndustria.g.resources",
+      "file": "0000.bin",
+      "bytes": 37167,
+      "sha256": "d3830493d47a33040783a4139479b277850b9354d8eca6ba05a2795cf8d40bf1"
+    },
+    {
+      "name": "Otus.Modulo.OrcamentosIndustria.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrcamentosIndustria.Reports.ImpressoOr\u00e7amentoEmCadeia.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.OrcamentosIndustria.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 290,
+      "sha256": "325780be022a3321c67fe7df7a8f9985cec043ce4333b9350f39e55f5fc269a0"
+    }
+  ]
+}

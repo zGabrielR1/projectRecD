@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "f188490d45dd9c75f081280d34656e382b2166b9aa2f9dcabd99349c47124e88",
+  "mvid": "7793ae76-9b8e-4526-8bba-65057d59a775",
+  "assembly": "Modulo.TributacoesFederais, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.TributacoesFederais.g.resources",
+      "file": "0000.bin",
+      "bytes": 61803,
+      "sha256": "d96527be2427081ae08a8ac6834750d74acfb918d0cd9d20241d32a886da10e5"
+    },
+    {
+      "name": "Otus.Modulo.TributacoesFederais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "assembly": "DigisatServer.Distributed.Wcf.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System.Runtime.Serialization",
+    "System.ServiceModel",
+    "SimpleInjector",
+    "DigisatServer.Application.Core",
+    "System.IdentityModel",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "System.ServiceModel.Web",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Ionic.Zip",
+    "System.Configuration",
+    "System.Xml",
+    "System.Core",
+    "System.Security",
+    "System.ComponentModel.Composition",
+    "ALungu.Security"
+  ]
+}

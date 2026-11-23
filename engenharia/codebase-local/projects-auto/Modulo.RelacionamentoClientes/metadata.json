@@ -1,0 +1,52 @@
+{
+  "artifactSha256": "c4a0d63d05acde250b4bf5c754f4e4d535f8e565a6adaecfe264713a6c07bab3",
+  "mvid": "7c4028ef-cc85-4214-94bd-0ffac9a36f67",
+  "assembly": "Modulo.RelacionamentoClientes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DevExpress.Xpf.RichEdit.v15.2",
+    "WindowsBase",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.Mvvm.v15.2",
+    "System.Windows.Forms",
+    "PresentationCore",
+    "Prism.Unity.Wpf",
+    "DevExpress.Xpf.Grid.v15.2.Core",
+    "Prism",
+    "System.Reactive.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.RelacionamentoClientes.g.resources",
+      "file": "0000.bin",
+      "bytes": 162773,
+      "sha256": "0320437a3e0d39291e11db3c4da760b65ac76d04e59e4de29313fe33c005f1c9"
+    },
+    {
+      "name": "Otus.Modulo.RelacionamentoClientes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.RelacionamentoClientes.dll.licenses",
+      "file": "0002.bin",
+      "bytes": 293,
+      "sha256": "56cdf05eb886924b5b41785f243d9384e48c50ae44df77aad8c14b787f8c955f"
+    }
+  ]
+}

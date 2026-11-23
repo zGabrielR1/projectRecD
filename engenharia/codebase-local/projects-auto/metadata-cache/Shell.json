@@ -1,0 +1,25 @@
+{
+  "assembly": "Shell, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "System",
+    "PresentationCore",
+    "Microsoft.Practices.Unity",
+    "Infraestrutura",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Prism.Wpf",
+    "DigisatServer.Infrastructure.Crosscutting.RegistroSistema",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "WindowsBase",
+    "System.Reactive.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "System.Core",
+    "System.Reactive.Linq"
+  ]
+}

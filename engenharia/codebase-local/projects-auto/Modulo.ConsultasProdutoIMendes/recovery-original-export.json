@@ -1,0 +1,210 @@
+{
+  "name": "Modulo.ConsultasProdutoIMendes",
+  "baseline": "baseline\\Modulo.ConsultasProdutoIMendes.dll",
+  "baseline_sha256": "c5a62c3090e546579562d19f21f376ff6ba0ae79189b2a3c5e9d59f0267c394c",
+  "export_project": "recovered\\SuiteG6\\Modulo.ConsultasProdutoIMendes\\Modulo.ConsultasProdutoIMendes.csproj",
+  "sources": [
+    {
+      "path": "ConsultaProdutoIMendesModulo.cs",
+      "export_path": "ConsultaProdutoIMendesModulo.cs",
+      "raw_sha256": "d6b1c22251b5f3549c12e5ef6ef124491e9db1239f0151b091aa0a846076de8f"
+    },
+    {
+      "path": "Projections\\GrupoProjections.cs",
+      "export_path": "Projections\\GrupoProjections.cs",
+      "raw_sha256": "49e06256fc06d65ff608996274f43305e14d819e76158a99ad7510f9b48a3ec6"
+    },
+    {
+      "path": "Projections\\IpiRegraFiscalProjections.cs",
+      "export_path": "Projections\\IpiRegraFiscalProjections.cs",
+      "raw_sha256": "7e85b050cfb7eb045fde6dbfce8f37a7beb0a544e4d3703c32062b5106a2569f"
+    },
+    {
+      "path": "Projections\\PisCofinsRegraFiscalProjections.cs",
+      "export_path": "Projections\\PisCofinsRegraFiscalProjections.cs",
+      "raw_sha256": "003f2312afa8e412bb3df8c790c3df0b53f88f0db858ba33406246a21ea5a2d2"
+    },
+    {
+      "path": "Projections\\RegraProjections.cs",
+      "export_path": "Projections\\RegraProjections.cs",
+      "raw_sha256": "b726244b284e587a7250caf4c7746c8fd4578e47e288ceae1d5992c74b4921c2"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "57ba81776fcddf3eb233756f5bb815fdda8be271c2f7ea243bbe22ec856501a6"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "efa58b02e61aea462a6c39ad4cd4502dfd9db9d82fc8a8d0d92c46b6429418f6"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "00e9ce060c62faec41233f36d1b0f9ee2285752811f0f7617b59cf6d55a13231"
+    },
+    {
+      "path": "ViewModels\\ConsultaProdutoIMendes.cs",
+      "export_path": "ViewModels\\ConsultaProdutoIMendes.cs",
+      "raw_sha256": "8fd0db1ad719d6b5209bc7f79276ffd8cc4ba78dd9f159555b61f57624c1ce6b"
+    },
+    {
+      "path": "ViewModels\\ConsultaProdutoIMendesFichaViewModel.cs",
+      "export_path": "ViewModels\\ConsultaProdutoIMendesFichaViewModel.cs",
+      "raw_sha256": "5c98ad8ad20911792490f4a1aa0ec9e183f8ce218a37ec9266eaa1009a69a875"
+    },
+    {
+      "path": "ViewModels\\ConsultaProdutoIMendesFormulario.cs",
+      "export_path": "ViewModels\\ConsultaProdutoIMendesFormulario.cs",
+      "raw_sha256": "22f4103e1f1133c16d87ae6ad4a6b8480eedddf1820113837f85e1a3efedd436"
+    },
+    {
+      "path": "ViewModels\\ConsultarHistoricoAcessoAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarHistoricoAcessoAbaViewModel.cs",
+      "raw_sha256": "8699b66caa57b7e28c14a22d10df0392ad7fd7269cfb3bbfb40943f7f7ca987d"
+    },
+    {
+      "path": "ViewModels\\ConsultarHistoricoAcessoViewModel.cs",
+      "export_path": "ViewModels\\ConsultarHistoricoAcessoViewModel.cs",
+      "raw_sha256": "54b717bbd4b62ae0b78806eda85361b1602f56e5ee7f3afa983ca8fd51945c86"
+    },
+    {
+      "path": "ViewModels\\ConsultarProdutosAlteradosAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarProdutosAlteradosAbaViewModel.cs",
+      "raw_sha256": "22092493ae5ea04396f9eb5e4fc51ce8ba3b77d714de5f883cea0db4a1f3d32e"
+    },
+    {
+      "path": "ViewModels\\ConsultarProdutosAlteradosViewModel.cs",
+      "export_path": "ViewModels\\ConsultarProdutosAlteradosViewModel.cs",
+      "raw_sha256": "71d97a75182b1dc3bbbc33988f7d018f793d31d6ee294e963b3127f43f68ba0b"
+    },
+    {
+      "path": "ViewModels\\ConsultasProdutoIMendesViewModel.cs",
+      "export_path": "ViewModels\\ConsultasProdutoIMendesViewModel.cs",
+      "raw_sha256": "0a74965f4fb4c2964dc50ee972796af1553a2105a600b5183181850438a2be4f"
+    },
+    {
+      "path": "ViewModels\\CorrigirCadastroAbaViewModel.cs",
+      "export_path": "ViewModels\\CorrigirCadastroAbaViewModel.cs",
+      "raw_sha256": "eb85533da938b349ca6fe2e183e16ae4b853579654605b3b63816a3a5bb8d50a"
+    },
+    {
+      "path": "ViewModels\\CorrigirCadastroFichaViewModel.cs",
+      "export_path": "ViewModels\\CorrigirCadastroFichaViewModel.cs",
+      "raw_sha256": "002195c039fbe1c6163d789543f3ceb89ae9ed8a9a498a2526eeb5f6a6663d64"
+    },
+    {
+      "path": "ViewModels\\CorrigirCadastroFormulario.cs",
+      "export_path": "ViewModels\\CorrigirCadastroFormulario.cs",
+      "raw_sha256": "4d747e3bbd392d7f889ae91123d4ac9c4efa67855106e7fa776538ea286af386"
+    },
+    {
+      "path": "ViewModels\\CorrigirCadastroViewModel.cs",
+      "export_path": "ViewModels\\CorrigirCadastroViewModel.cs",
+      "raw_sha256": "38e816293830f6557f9c0d38970211be4d7bcc385d00d19ff8a44a896cd36a0e"
+    },
+    {
+      "path": "ViewModels\\ProdutoDevolvido.cs",
+      "export_path": "ViewModels\\ProdutoDevolvido.cs",
+      "raw_sha256": "46b6276b7a168425269eab0aec8d26b941f1262345e1ac52997b835a0bfef030"
+    },
+    {
+      "path": "ViewModels\\ProdutoDevolvidoViewModel.cs",
+      "export_path": "ViewModels\\ProdutoDevolvidoViewModel.cs",
+      "raw_sha256": "e31c885a5cbed7e7509dd9b7f0c6e3644b4cab0505a60283f86370c5720010fc"
+    },
+    {
+      "path": "ViewModels\\SelecaoProdutoIMendesAbaViewModel.cs",
+      "export_path": "ViewModels\\SelecaoProdutoIMendesAbaViewModel.cs",
+      "raw_sha256": "fd69250368094c32a881ccbca578de4b7e8126e11b2c5a12dfb295694f86f878"
+    },
+    {
+      "path": "ViewModels\\SelecaoProdutoIMendesViewModel.cs",
+      "export_path": "ViewModels\\SelecaoProdutoIMendesViewModel.cs",
+      "raw_sha256": "1304143b166274730e2359d0944fe9c7e19ade6a616a97e817dab48cfc4e3022"
+    },
+    {
+      "path": "ViewModels\\SelecionadosAbaViewModel.cs",
+      "export_path": "ViewModels\\SelecionadosAbaViewModel.cs",
+      "raw_sha256": "123c91d0b34727b73dd633085005c1f2dd5320f9b030807da42be3dc961af8dc"
+    },
+    {
+      "path": "ViewModels\\SelecionadosViewModel.cs",
+      "export_path": "ViewModels\\SelecionadosViewModel.cs",
+      "raw_sha256": "1650229eb5a950f0f74afc00fe99232b427f58543199ad219a1b144b55e8516e"
+    },
+    {
+      "path": "ViewModels\\SimulacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\SimulacaoAbaViewModel.cs",
+      "raw_sha256": "b50df01b7bfa9289ef7cb36955bfb6b3ccafdc1e61396192a055219aeca31bc3"
+    },
+    {
+      "path": "ViewModels\\SimulacaoViewModel.cs",
+      "export_path": "ViewModels\\SimulacaoViewModel.cs",
+      "raw_sha256": "cdc928d248a8d883cec0c9711e8393d71bd3076ec293046a114e92d865db958b"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\ConsultarHistoricoAcessoView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\ConsultarHistoricoAcessoView.cs",
+      "raw_sha256": "3679c6e34c64841af3b2f4a99c8ee19a6bfdea0a35b9611871fc746b5cc34bfd"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\ConsultarProdutosAlteradosView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\ConsultarProdutosAlteradosView.cs",
+      "raw_sha256": "775bca1641dcbdc23eeefac3f04680081a32f9d40b86b92de9af32e67c83eb4e"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\CorrigirCadastroView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\CorrigirCadastroView.cs",
+      "raw_sha256": "0ac6f359a6d03a2f274051d61ba90af067770c0f552ba642124f441c745ef78f"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\SelecaoProdutoIMendesView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\SelecaoProdutoIMendesView.cs",
+      "raw_sha256": "642762b13fbb0a27f61fd277c6dee5c1825f2e602af2c440a712197d36d6faa3"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\SelecionadosView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\SelecionadosView.cs",
+      "raw_sha256": "cc8ebdde1b37ca4a93672921b932fca0de62e132646cdd833aea1c411c576f38"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\SimulacaoView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\SimulacaoView.cs",
+      "raw_sha256": "0485eb0d7d880bc9e5c55f7ef0ba337515eb9ae399882879d788edb503415ebf"
+    },
+    {
+      "path": "Views\\ConsultaProdutoIMendesFichaView.cs",
+      "export_path": "Views\\ConsultaProdutoIMendesFichaView.cs",
+      "raw_sha256": "a49ee5ce87e32b9cf2d9fda5b0a14742c152ef15d8051ee03355ef321f0d7776"
+    },
+    {
+      "path": "Views\\ConsultasProdutoIMendesView.cs",
+      "export_path": "Views\\ConsultasProdutoIMendesView.cs",
+      "raw_sha256": "4d1dbe77fa970d207e3b37438e3b764fdb7b9ee2264da88f5d46eba06f86b642"
+    },
+    {
+      "path": "Views\\CorrigirCadastroFichaView.cs",
+      "export_path": "Views\\CorrigirCadastroFichaView.cs",
+      "raw_sha256": "2bf070dd40c93e6a375e300593c500498846806712c1b711ad37f41b79b1b980"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.ConsultasProdutoIMendes.g.resources",
+      "file": "0000.bin",
+      "bytes": 49764,
+      "sha256": "01252ab3274d560fc126d17bfb521fa5f08ac31c4dac7f2724f577f92806a447"
+    },
+    {
+      "name": "Otus.Modulo.ConsultasProdutoIMendes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

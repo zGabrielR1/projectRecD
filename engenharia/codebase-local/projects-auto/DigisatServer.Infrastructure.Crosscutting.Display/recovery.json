@@ -1,0 +1,67 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Display",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Display.dll",
+  "baseline_sha256": "c271387183bf896396fa2abc0d63cdfe8ac227b82ca11ddf1b670a0ff6a02897",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Display\\DigisatServer.Infrastructure.Crosscutting.Display.csproj",
+  "sources": [
+    {
+      "path": "Classes\\DisplayDefault.cs",
+      "raw_sha256": "cf1b5796b6a0644d2199bec6654fd4882774f2c4dd8af8698b09dd8a471cbd07"
+    },
+    {
+      "path": "Classes\\DisplayFactory.cs",
+      "raw_sha256": "757c2df656d3ed2762f785bdaa9b433cb47da4e1adedd518b6c44d15f90dd4c2"
+    },
+    {
+      "path": "Classes\\Elgin\\Elgin.cs",
+      "raw_sha256": "60ca15d61316594a96e9664d3eb4de2cd9ba7d51a54bd0c25963e16680679735"
+    },
+    {
+      "path": "Classes\\Elgin\\ElginDeclaracoes.cs",
+      "raw_sha256": "0e3ea5cc539e7d8f47cdc81e61d87c96d1910c5b5852ab96c309d0c1a8514f81"
+    },
+    {
+      "path": "Classes\\Elgin\\ElginDefault.cs",
+      "raw_sha256": "e0cf6dc8aa1a770d29f185ea8257bd345c0b84e2eaeeae387752cb41431c4313"
+    },
+    {
+      "path": "Classes\\Elgin\\ElginPix4.cs",
+      "raw_sha256": "ef8e5c44f74b7cbc1c2b326375354c0d4e4cbe60a43b23338472c74dd873b280"
+    },
+    {
+      "path": "Interfaces\\IDisplay.cs",
+      "raw_sha256": "19f9a842df05ee8afa16e6e06fd779b2b84e76bc26ef5dfb7f1c90d03ea63de8"
+    },
+    {
+      "path": "Interfaces\\IDisplayFactory.cs",
+      "raw_sha256": "d8376ce87130da81c347408c5d8dd29de171a8c5318cb494957307cd60024dea"
+    },
+    {
+      "path": "Interfaces\\IDisplayMarcaFactory.cs",
+      "raw_sha256": "52574d3b38ab30a32b93c3ffc210581d1ccfae5694f6d64ea25f65481e34538e"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "cbb29a01e08d9c98b42acca9dbfe588f63c50148686833666a0af0b9484498a6"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "raw_sha256": "d2d2e8b55e9dd2ca54cfd32fe26dc144dd6200dbb03012fd84ebe118bc1ae41d"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d664ce5f2703189f0d30a6169532792779915510b5327b236be215301988a0da"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Display.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

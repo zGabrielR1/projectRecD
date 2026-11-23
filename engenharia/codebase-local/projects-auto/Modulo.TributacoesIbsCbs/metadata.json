@@ -1,0 +1,33 @@
+{
+  "artifactSha256": "0e25384d1714cc3f51d61428dc46b3ea61f046d4d5b128df959dbfc9922c6030",
+  "mvid": "9a6d4d78-8461-4e7a-ace8-a030d6874e05",
+  "assembly": "Modulo.TributacoesIbsCbs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "PresentationFramework",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Reactive.Core",
+    "NClone"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.TributacoesIbsCbs.g.resources",
+      "file": "0000.bin",
+      "bytes": 58441,
+      "sha256": "970428d8f10105b0fca85845e64962799747dbd2480428f67619dd084339bee5"
+    }
+  ]
+}

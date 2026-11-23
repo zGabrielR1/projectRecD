@@ -1,0 +1,88 @@
+{
+  "name": "Modulo.ManifestacoesDestinatario",
+  "baseline": "baseline\\Modulo.ManifestacoesDestinatario.dll",
+  "baseline_sha256": "55b49a3f64209dd2444e90b1cf1d5a5121172fd1fb391218b79638e0a272129e",
+  "export_project": "recovered\\SuiteG6\\Modulo.ManifestacoesDestinatario\\Modulo.ManifestacoesDestinatario.csproj",
+  "sources": [
+    {
+      "path": "ManifestacaoDestinatarioModulo.cs",
+      "export_path": "ManifestacaoDestinatarioModulo.cs",
+      "raw_sha256": "9c705280b7cdbf705191244c9327ec1176a0b9bd1d60985e41ff6e9edec4c569"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "b8f95285ebe8aeb3c04289d47ab398596cb88c84bcbe46cbd4f8f581cf9bfad3"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "84cf45dd52793fbd5d69483a67c6af661e9b78e2af9260fd42155ce2d364b342"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "ea4b8a4428b4e6a353a2907a00f112de7717328ef3459cf960cf8f302335c631"
+    },
+    {
+      "path": "ViewModels\\ManifestacaoDestinatarioListaViewModel.cs",
+      "export_path": "ViewModels\\ManifestacaoDestinatarioListaViewModel.cs",
+      "raw_sha256": "48b46bb3c54de787d60c29323a4159ea633b9730444be74056de8cdb17b0813d"
+    },
+    {
+      "path": "ViewModels\\ManifestacaoDestinatarioViewModel.cs",
+      "export_path": "ViewModels\\ManifestacaoDestinatarioViewModel.cs",
+      "raw_sha256": "9ed9bb4c37eafc0afebd2db3759c53cfc76b047a15c7aa0a62d7abef0795ce03"
+    },
+    {
+      "path": "ViewModels\\ManifestacoesDestinatarioViewModel.cs",
+      "export_path": "ViewModels\\ManifestacoesDestinatarioViewModel.cs",
+      "raw_sha256": "bc88b97c51e1638d5d90b4cfd15090d960fb6e9d0dc3c1a23615a60c5326ff91"
+    },
+    {
+      "path": "Views\\ManifestacaoDestinatarioListaView.cs",
+      "export_path": "Views\\ManifestacaoDestinatarioListaView.cs",
+      "raw_sha256": "26bf10eb80df584a92cd56690a9d6ce1e07a958bdc8811f2435df3c340eced80"
+    },
+    {
+      "path": "Views\\ManifestacoesDestinatarioView.cs",
+      "export_path": "Views\\ManifestacoesDestinatarioView.cs",
+      "raw_sha256": "b5d4bae4cfe67e1af5b921d34c64ad9988202b098207b77010127da13f61f498"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 8
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 7,
+      "types": [
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass15_0",
+        "__c_DisplayClass15_1",
+        "__c_DisplayClass15_2",
+        "__c_DisplayClass17_0",
+        "__c_DisplayClass17_1"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.ManifestacoesDestinatario.g.resources",
+      "file": "0000.bin",
+      "bytes": 14611,
+      "sha256": "3257c90309db226c1af4683408a30ce988b95acdb2ce125ee79a1ff2b7b9bc77"
+    },
+    {
+      "name": "Otus.Modulo.ManifestacoesDestinatario.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

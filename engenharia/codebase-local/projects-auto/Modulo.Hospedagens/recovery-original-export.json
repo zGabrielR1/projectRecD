@@ -1,0 +1,503 @@
+{
+  "name": "Modulo.Hospedagens",
+  "baseline": "baseline\\Modulo.Hospedagens.dll",
+  "baseline_sha256": "74c839b0b32a6ff58e2005d7eadfbda59e8ac971bbc28e9d223948220fb0fb97",
+  "export_project": "recovered\\SuiteG6\\Modulo.Hospedagens\\Modulo.Hospedagens.csproj",
+  "sources": [
+    {
+      "path": "HospedagemModulo.cs",
+      "export_path": "HospedagemModulo.cs",
+      "raw_sha256": "b0c99b93fe4ea9d7f01326294917610074e168c46677ccb5b5a0104ddba9e91b"
+    },
+    {
+      "path": "Interfaces\\ILeitorCartaoService.cs",
+      "export_path": "Interfaces\\ILeitorCartaoService.cs",
+      "raw_sha256": "202112b98f069549260e464c337513d58108a06e0906f2a8d118f4cfa70ab0c2"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "0acd4d87b754519002bddbdf07e9ed170e45e65af6ff4c27b2733823c6ca8c53"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a88608d18969fee16a3916fc7e09e79ed0657ad60aa955ee23567fa8f049fd1b"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "5bb76d53ad7619f58fadbca3dcea0f4cacd48249ce248d173702979698d770e3"
+    },
+    {
+      "path": "Reports\\ComprovanteReservaHospedagem.cs",
+      "export_path": "Reports\\ComprovanteReservaHospedagem.cs",
+      "raw_sha256": "ad1ae3b79314d5f8d4d47fc23c8161c987794733a146ee6801a4ce408dd2d134"
+    },
+    {
+      "path": "Reports\\DemonstrativoConsumo.cs",
+      "export_path": "Reports\\DemonstrativoConsumo.cs",
+      "raw_sha256": "cbca64c06c50fea562a1d264cbf96d741824ceaf9041093bcb7a360c751f2019"
+    },
+    {
+      "path": "Reports\\DemonstrativoConsumo40Colunas.cs",
+      "export_path": "Reports\\DemonstrativoConsumo40Colunas.cs",
+      "raw_sha256": "7e57beea23301e01f5effd6843c2dc78be354bfdc98f1f33a2b364c751b7f481"
+    },
+    {
+      "path": "Reports\\DemonstrativoConsumoSemCliente.cs",
+      "export_path": "Reports\\DemonstrativoConsumoSemCliente.cs",
+      "raw_sha256": "983c25f5a55da73b3b58206534d883d1721257ae38a776175a2bb5a3545f2e78"
+    },
+    {
+      "path": "Reports\\DemonstrativoConsumoSemCliente40Colunas.cs",
+      "export_path": "Reports\\DemonstrativoConsumoSemCliente40Colunas.cs",
+      "raw_sha256": "2d2b5fc46eaa506862cbe7da1b0ef75b4bb74660ac8a2f30b60d00b671bc5700"
+    },
+    {
+      "path": "Reports\\DemonstrativoConsumoTodasComandas.cs",
+      "export_path": "Reports\\DemonstrativoConsumoTodasComandas.cs",
+      "raw_sha256": "f791b51fc0ee123862530f405f4d61dbc724a024be79e98af97573318424d7bc"
+    },
+    {
+      "path": "Reports\\DemonstrativoConsumoTodasComandas40Colunas.cs",
+      "export_path": "Reports\\DemonstrativoConsumoTodasComandas40Colunas.cs",
+      "raw_sha256": "cfd70202ee56350bd27038a1505a061312de4d3577c794f21d3d2c3cb9c13b87"
+    },
+    {
+      "path": "Reports\\ExtratoHospedagem.cs",
+      "export_path": "Reports\\ExtratoHospedagem.cs",
+      "raw_sha256": "1c8f373c56bede3c7b80c0775ca9a097615e76675d095e3e7bdf868837d8aee8"
+    },
+    {
+      "path": "Reports\\ExtratoHospedagem40Colunas.cs",
+      "export_path": "Reports\\ExtratoHospedagem40Colunas.cs",
+      "raw_sha256": "f0af843bf6eba46490e04d72ed9e5c1b57b3c9f756144e3cde3c0547b5783170"
+    },
+    {
+      "path": "Reports\\FichaRegistroHospede.cs",
+      "export_path": "Reports\\FichaRegistroHospede.cs",
+      "raw_sha256": "653ae69bd56ea54631eca90d10aad454fbeb005733b824301978353a506854ff"
+    },
+    {
+      "path": "Reports\\HospedagemRelatorio.cs",
+      "export_path": "Reports\\HospedagemRelatorio.cs",
+      "raw_sha256": "e1c169167bee933fbcd33976e1b96cd80814370c35b34519bc2e525baae460f1"
+    },
+    {
+      "path": "Reports\\ResumoHospedagem.cs",
+      "export_path": "Reports\\ResumoHospedagem.cs",
+      "raw_sha256": "b3c8ef50f637873bafdc8169c78c408d780309f614a31fe835551aa476ada5cd"
+    },
+    {
+      "path": "Reports\\ResumoHospedagem40Colunas.cs",
+      "export_path": "Reports\\ResumoHospedagem40Colunas.cs",
+      "raw_sha256": "5a0398fcea98ae0e83466a8966569c92fd15c68e181d793ced30b198112b42f9"
+    },
+    {
+      "path": "Services\\LeitorCartaoService.cs",
+      "export_path": "Services\\LeitorCartaoService.cs",
+      "raw_sha256": "3e4149c61b2b00dbdea2069a39344fb830c6a3533c5f4394e031b2fe53e7af46"
+    },
+    {
+      "path": "Styles\\SchedulerControls\\SchedulerControlCustom.cs",
+      "export_path": "Styles\\SchedulerControls\\SchedulerControlCustom.cs",
+      "raw_sha256": "19224ca391ca7db28c1ef1dead8d68f0b342837077eefc353911fd95f095af56"
+    },
+    {
+      "path": "ViewModels\\HospedagemViewModel.cs",
+      "export_path": "ViewModels\\HospedagemViewModel.cs",
+      "raw_sha256": "f6359fd24c9c0d180a04080e0d715e5600fb6f4130c6cb5eabc13e0504e4477c"
+    },
+    {
+      "path": "ViewModels\\HospedagensFinalizadas\\HospedagensFinalizadasAbaViewModel.cs",
+      "export_path": "ViewModels\\HospedagensFinalizadas\\HospedagensFinalizadasAbaViewModel.cs",
+      "raw_sha256": "4c7402d951bb870067e9675ead7d33dc077a6625379ae6181f4d8f19c98a0551"
+    },
+    {
+      "path": "ViewModels\\HospedagensFinalizadas\\HospedagensFinalizadasFichaViewModel.cs",
+      "export_path": "ViewModels\\HospedagensFinalizadas\\HospedagensFinalizadasFichaViewModel.cs",
+      "raw_sha256": "a9ec3b122ae94192bd7fe8ce855f29c699b66f42b54bc4d87d09786ecfd9d138"
+    },
+    {
+      "path": "ViewModels\\HospedagensFinalizadas\\HospedagensFinalizadasFormulario.cs",
+      "export_path": "ViewModels\\HospedagensFinalizadas\\HospedagensFinalizadasFormulario.cs",
+      "raw_sha256": "9b0cb3874637c4e5d9562269ed7e9d3351870751f9df5d8f33d00e387fc97b28"
+    },
+    {
+      "path": "ViewModels\\HospedagensFinalizadas\\HospedagensFinalizadasViewModel.cs",
+      "export_path": "ViewModels\\HospedagensFinalizadas\\HospedagensFinalizadasViewModel.cs",
+      "raw_sha256": "a46cac37e374145a1eaa4de8cbfb3d3bd94b69f0d57589ab4aafaedf69a4be4d"
+    },
+    {
+      "path": "ViewModels\\HospedagensViewModel.cs",
+      "export_path": "ViewModels\\HospedagensViewModel.cs",
+      "raw_sha256": "dc007716fe655bf2662d4b752aa4c95a6b270584f89755eee81826ef1b855f62"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartoAguardandoLimpezaViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartoAguardandoLimpezaViewModel.cs",
+      "raw_sha256": "16130de9c80230d250976a29e379c5c46faa0433efad0fdbec165bab8e64b308"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartoAguardandoManutencaoViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartoAguardandoManutencaoViewModel.cs",
+      "raw_sha256": "71e1fc563e6d871ff1306ab75488cfd35b058e71c6e614076484cc8074ee17a4"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartoLimpezaViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartoLimpezaViewModel.cs",
+      "raw_sha256": "cd862d45a4b598b5fea304dadb93b685ea8db4eacb6328ebec28db001cfa6660"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartoLivreViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartoLivreViewModel.cs",
+      "raw_sha256": "1d7751c35ed295446465391837f6c01c7689c75b594a1b1de21cda0049af50bd"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartoManutencaoViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartoManutencaoViewModel.cs",
+      "raw_sha256": "7c33ed2fe417e17f425758a4c51fc2fdc50a08565f15967bcd91920be65365ac"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartoOcupadoViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartoOcupadoViewModel.cs",
+      "raw_sha256": "c59eef4b054b638b78b115f9c3e38c3630b1067ac621e4dc54684ac0a8ab21ee"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartoPreReservadoViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartoPreReservadoViewModel.cs",
+      "raw_sha256": "307a4bc1c5d842944b5829608d4e464875c429fa6f51797a815c745be475ca0f"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartoReservadoViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartoReservadoViewModel.cs",
+      "raw_sha256": "d22008b6c0cda17a54c6ecd4e45a4548db8ec7215ac98ea15c5d8fa07f1b0ae5"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartosAgrupadosViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartosAgrupadosViewModel.cs",
+      "raw_sha256": "5e8effb21c646b629774731325e592f331f893cada8a492ca8525a672ee9355b"
+    },
+    {
+      "path": "ViewModels\\MapaQuartos\\QuartoViewModel.cs",
+      "export_path": "ViewModels\\MapaQuartos\\QuartoViewModel.cs",
+      "raw_sha256": "a863069b9a5f92140fad9839d67c4f69b7e56f47f18f6b6bf7555c7d11f5695e"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\Automovel.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\Automovel.cs",
+      "raw_sha256": "f6d946994d718b773cd5ea56384a0d4921c70e802f86ade095dfdb7d5aaa6464"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\Aviao.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\Aviao.cs",
+      "raw_sha256": "03bf7079c5843d5dafa1300f486df3dea3cfb840e2cc3b6ace768f82109c9be0"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\Bicicleta.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\Bicicleta.cs",
+      "raw_sha256": "b2e3f3ef908f5d19ebef9856e7d3005857825615605c5347ad704c33feedf86f"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\MeiosTransporteViewComboBoxModel.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\MeiosTransporteViewComboBoxModel.cs",
+      "raw_sha256": "317e7a16d399813c1b8dab0ddf3cfca5a0079e7b0e9f942e0fbd600c179b1c93"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\MeioTransporte.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\MeioTransporte.cs",
+      "raw_sha256": "e8b6b15aecae547d6bb3a65926c2dda557a3530c80bb8b29d29c3867574bb42f"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\MeioTransporteFactory.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\MeioTransporteFactory.cs",
+      "raw_sha256": "8736f9224e27fa3de02c70a1d2dc7f8e77aadb773619c5b835eb0e584842e475"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\Moto.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\Moto.cs",
+      "raw_sha256": "95f785ecb8cd5ed0ea942e1be1eeb48e395028d62ebc81016089d99fe6d6745f"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\NavioBarco.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\NavioBarco.cs",
+      "raw_sha256": "fa2c6a6e2c4f0b5583a5a82ddcdc46fe168882c9de3fe8ed12963c8ec828174f"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\Onibus.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\Onibus.cs",
+      "raw_sha256": "52ee5150466d09058e1ebe7b5606d862d71332a08af9e3dd13e29515e1f5710c"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\Pe.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\Pe.cs",
+      "raw_sha256": "2c93fae7a1b0563a7c85e77ce7fb3230af038a556778329ab30fabe922890493"
+    },
+    {
+      "path": "ViewModels\\MeiosTransporte\\Trem.cs",
+      "export_path": "ViewModels\\MeiosTransporte\\Trem.cs",
+      "raw_sha256": "3ab89c8ce3e1b5c86a4d17e915e74317142b6da82adbcfba20d560a36ba66002"
+    },
+    {
+      "path": "ViewModels\\Motivos\\Compras.cs",
+      "export_path": "ViewModels\\Motivos\\Compras.cs",
+      "raw_sha256": "5f5bd28fb7c5a833b466906ffaafc2c870aedf52cf212b7d1fb9e74ee40c12ed"
+    },
+    {
+      "path": "ViewModels\\Motivos\\CongressoFeira.cs",
+      "export_path": "ViewModels\\Motivos\\CongressoFeira.cs",
+      "raw_sha256": "e05f63b15b70c2eaa8f4920100d32609f60779fb715c12943dadd770bf2abef6"
+    },
+    {
+      "path": "ViewModels\\Motivos\\EstudosCursos.cs",
+      "export_path": "ViewModels\\Motivos\\EstudosCursos.cs",
+      "raw_sha256": "dd37c322c23f8bb31f04f4ce0ef8a8f1e79f73eddf2a00c0a3ebff83b404665b"
+    },
+    {
+      "path": "ViewModels\\Motivos\\LazerFerias.cs",
+      "export_path": "ViewModels\\Motivos\\LazerFerias.cs",
+      "raw_sha256": "3f51bb44bcd2e57190f29da2c2c772d9e21272d3afb59f5cb8e43b4fb77b8ead"
+    },
+    {
+      "path": "ViewModels\\Motivos\\Motivo.cs",
+      "export_path": "ViewModels\\Motivos\\Motivo.cs",
+      "raw_sha256": "68bc57648675da49324c12970932e2fb49a0c8ce02613c4d86b401fa267da228"
+    },
+    {
+      "path": "ViewModels\\Motivos\\MotivosViagemViewComboBoxModel.cs",
+      "export_path": "ViewModels\\Motivos\\MotivosViagemViewComboBoxModel.cs",
+      "raw_sha256": "5f41142f3ab032cd60c330ef8595f085a37835ba00693309c494e2c4cf0c062f"
+    },
+    {
+      "path": "ViewModels\\Motivos\\Negocio.cs",
+      "export_path": "ViewModels\\Motivos\\Negocio.cs",
+      "raw_sha256": "0d127640617e0bf7553a5ed7181d5163421b91178800e13b6cb57056e997040b"
+    },
+    {
+      "path": "ViewModels\\Motivos\\ParentesAmigos.cs",
+      "export_path": "ViewModels\\Motivos\\ParentesAmigos.cs",
+      "raw_sha256": "e58d93944bc20d5723dd14ef6361d7a7933e5a491aaf782e78610abab058fe75"
+    },
+    {
+      "path": "ViewModels\\Motivos\\Religiao.cs",
+      "export_path": "ViewModels\\Motivos\\Religiao.cs",
+      "raw_sha256": "1c126004cb114d4600a6e5907cba2d6a5058abd4658344d256f58285c816ccad"
+    },
+    {
+      "path": "ViewModels\\Motivos\\Saude.cs",
+      "export_path": "ViewModels\\Motivos\\Saude.cs",
+      "raw_sha256": "72d126ccabeccc3440036f5c9f4f8606af679bfef3061b676b9c53e964a0a9ef"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ComandasViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\ComandasViewModel.cs",
+      "raw_sha256": "716925f550c4b8a6d94fb4e5dc342d1fed2a9ce923922be1037a2b788167d128"
+    },
+    {
+      "path": "ViewModels\\Paineis\\HospedesViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\HospedesViewModel.cs",
+      "raw_sha256": "76538bad1957474836330ddf3c78ee0fa5b2c85d37583c08407a25f012c9ba8a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoCheckOut.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoCheckOut.cs",
+      "raw_sha256": "ea3ae0a130ff55ad03c99a089a476044b0975e704b86fe19fe6fa7c1773d31c4"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoCompartilharImpresso.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoCompartilharImpresso.cs",
+      "raw_sha256": "bd65be0b7a68e006ef176e561ef56fa06570ab0803148b6a0ee3758df62e9965"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoFechadura.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoFechadura.cs",
+      "raw_sha256": "9e7c8d41db89a876628997231b99d7e2a642a723d8c0c071ba03aa31cb0cae6b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoHistorico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoHistorico.cs",
+      "raw_sha256": "9d61daa536272dc1fff39af9d76719675f3246728f14c2186a6eea6f6c4c65af"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoHospedagem.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoHospedagem.cs",
+      "raw_sha256": "e470217a99225d6fdc9321cc3ead30b61f646b48beb8aedba3c24c00b88a38d5"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoHunit.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoHunit.cs",
+      "raw_sha256": "11f8098b95faf6e6ed3a213cf2e4a82dc3abf897231487c1d796bbfd3f45dcbc"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoImprimir.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoImprimir.cs",
+      "raw_sha256": "b86ab2dee845d9a8498285ecda62aec6ed7f67f1dc1be5aa87712643aaf6d82b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoManutencao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoManutencao.cs",
+      "raw_sha256": "c12c39d5ba65223ab327c459e10561fd92820f3dc9ce7330bf22e9f520ec323f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoProdutosServicosHospedagem.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoProdutosServicosHospedagem.cs",
+      "raw_sha256": "cef7cff59afa53164fa7eb8dd000f6c8c3259ca9ab05cb1404a835e1dea397d1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoListaQuartos.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoListaQuartos.cs",
+      "raw_sha256": "451a7847b978a83deb586a307ea4d6ec0c5b0fd4bcf5faa8ce5e6de13582ae0d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoMapaQuartos.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoMapaQuartos.cs",
+      "raw_sha256": "10c6b8c8dd99ea1362fecdcf3965b0cf72cef65f4a1ad54c00b18d11d1936c34"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoReservasHunit.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoReservasHunit.cs",
+      "raw_sha256": "bb3ee9a0cf15cd8bebb1d87b8272f952ca26652c92d5f102198bf9da9a6d3a77"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelFichaHospedagem.cs",
+      "export_path": "ViewModels\\Paineis\\PainelFichaHospedagem.cs",
+      "raw_sha256": "d83d6513275a100b4c4d14b3ce749a270068e42ad4955fd2d03f00d5494d6ec8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelFichaReservaHospedagem.cs",
+      "export_path": "ViewModels\\Paineis\\PainelFichaReservaHospedagem.cs",
+      "raw_sha256": "5b98ae5ddfb8e4aaa7849dde210cb9f29ff5d9259281da0bae65c4415d701bf9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PeriodoPrecoHospedagemViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\PeriodoPrecoHospedagemViewModel.cs",
+      "raw_sha256": "c9c53a7f16debfe77ff4369ea9bbe2e277bc73bf77da7d60a7ad928feb45cde5"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ProdutosConsumidosQuartoViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\ProdutosConsumidosQuartoViewModel.cs",
+      "raw_sha256": "74222efaf7e80e0d8c40f988f1bf40543b0f8626302217e7a0269a4f913c883b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\QuartoDisponivel.cs",
+      "export_path": "ViewModels\\Paineis\\QuartoDisponivel.cs",
+      "raw_sha256": "6c924508454584763621bd6b81f854bab965720b1b49f5be297727d085c52770"
+    },
+    {
+      "path": "Views\\HospedagemView.cs",
+      "export_path": "Views\\HospedagemView.cs",
+      "raw_sha256": "5c80e82d88349ad3e5003b5c5eb5453e961739090e6a6171ffe71a79be721a50"
+    },
+    {
+      "path": "Views\\HospedagensFinalizadas\\HospedagensFinalizadasFichaView.cs",
+      "export_path": "Views\\HospedagensFinalizadas\\HospedagensFinalizadasFichaView.cs",
+      "raw_sha256": "6dcb654080c6ddf802b2ca22ac49769ffef296395c2d81fa7f6e9a458a7734a8"
+    },
+    {
+      "path": "Views\\HospedagensFinalizadas\\HospedagensFinalizadasView.cs",
+      "export_path": "Views\\HospedagensFinalizadas\\HospedagensFinalizadasView.cs",
+      "raw_sha256": "18bb5c7e44dfa28d649c7dfaa6553f0d779bf4c48da2f325f00ff83cbcd7d993"
+    },
+    {
+      "path": "Views\\HospedagensView.cs",
+      "export_path": "Views\\HospedagensView.cs",
+      "raw_sha256": "a728c149d794141f34c8f4fc6b35b3927be536aff6055c01c070ead29a761fa2"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Hospedagens.g.resources",
+      "file": "0000.bin",
+      "bytes": 121320,
+      "sha256": "566e1e6d4751755b2b52a6f9b8e980d4144d2101dcd8f9fdb80254155bcdb372"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumo40Colunas.resources",
+      "file": "0002.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumoSemCliente40Colunas.resources",
+      "file": "0003.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumoTodasComandas40Colunas.resources",
+      "file": "0004.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ComprovanteReservaHospedagem.resources",
+      "file": "0005.bin",
+      "bytes": 7030,
+      "sha256": "064d40a17d3e6b334aaa21097f1e2eb993a6194eb94dd74ff475fd7f47739b42"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ResumoHospedagem40Colunas.resources",
+      "file": "0006.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ExtratoHospedagem40Colunas.resources",
+      "file": "0007.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumoTodasComandas.resources",
+      "file": "0008.bin",
+      "bytes": 7012,
+      "sha256": "15349d8f0152d37356938916944bd3d76d654f795f12419194d2edb18273aba3"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumoSemCliente.resources",
+      "file": "0009.bin",
+      "bytes": 7012,
+      "sha256": "15349d8f0152d37356938916944bd3d76d654f795f12419194d2edb18273aba3"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumo.resources",
+      "file": "0010.bin",
+      "bytes": 7012,
+      "sha256": "15349d8f0152d37356938916944bd3d76d654f795f12419194d2edb18273aba3"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ResumoHospedagem.resources",
+      "file": "0011.bin",
+      "bytes": 4586,
+      "sha256": "76cc8b8f57c6d01555509c6215fe310a5ce0f4246672c5fb1449cc39742afdfb"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ExtratoHospedagem.resources",
+      "file": "0012.bin",
+      "bytes": 4586,
+      "sha256": "76cc8b8f57c6d01555509c6215fe310a5ce0f4246672c5fb1449cc39742afdfb"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.FichaRegistroHospede.resources",
+      "file": "0013.bin",
+      "bytes": 4586,
+      "sha256": "76cc8b8f57c6d01555509c6215fe310a5ce0f4246672c5fb1449cc39742afdfb"
+    },
+    {
+      "name": "Modulo.Hospedagens.dll.licenses",
+      "file": "0014.bin",
+      "bytes": 282,
+      "sha256": "a7b401a7ca2293de33422810766bbbc19cf949b992aef32ac07305daeb69bdb2"
+    }
+  ],
+  "generated_stubs": false
+}

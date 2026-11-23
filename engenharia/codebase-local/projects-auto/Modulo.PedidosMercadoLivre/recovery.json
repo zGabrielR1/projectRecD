@@ -1,0 +1,116 @@
+{
+  "name": "Modulo.PedidosMercadoLivre",
+  "baseline": "baseline\\Modulo.PedidosMercadoLivre.dll",
+  "baseline_sha256": "1a744b74db6bbb9b98b13cde1a3029e31d4f9ace60abb6a943e440c9c0784fbc",
+  "export_project": "recovered\\SuiteG6\\Modulo.PedidosMercadoLivre\\Modulo.PedidosMercadoLivre.csproj",
+  "sources": [
+    {
+      "path": "PedidoMercadoLivreModulo.cs",
+      "export_path": "PedidoMercadoLivreModulo.cs",
+      "raw_sha256": "58abbba79fe2d41ea954c43a2fb906d8933f233ad4b346c235ad480c2b8d3cdd"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "9f0dcdcf78dee16c0064a62e9f3ae74822804950f14fc348561485b51955e34f"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "15b88136491165c54f3783c4ef2e03105577eda3a318030390685fa2dd622081"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "ee69eca23f659ecb561f84881671415ccca64a06c3a99f57001aa9756a037988"
+    },
+    {
+      "path": "Reports\\PedidoMercadoLivre.cs",
+      "export_path": "Reports\\PedidoMercadoLivre.cs",
+      "raw_sha256": "3949decaa3ce4cfc2c7bd21c22c6e0a7411d8efd2d51f20c51e978f749590d6d"
+    },
+    {
+      "path": "ViewModels\\PedidoMercadoLivreAbaViewModel.cs",
+      "export_path": "ViewModels\\PedidoMercadoLivreAbaViewModel.cs",
+      "raw_sha256": "606cd6d5d9f3cd07f0fc13e3cde69bbc334873f13d48337379487d94f0298cce"
+    },
+    {
+      "path": "ViewModels\\PedidoMercadoLivreFormularioViewModel.cs",
+      "export_path": "ViewModels\\PedidoMercadoLivreFormularioViewModel.cs",
+      "raw_sha256": "e4693efd5ff3c4d556a3c5de46893935baa4c5277eb59e5fe3732799862e7ee3"
+    },
+    {
+      "path": "ViewModels\\PedidoMercadoLivreListaViewModel.cs",
+      "export_path": "ViewModels\\PedidoMercadoLivreListaViewModel.cs",
+      "raw_sha256": "fa933015ae5eb4a74abba1c03277305e23482e776501ac1c79c2e3d10c6c489d"
+    },
+    {
+      "path": "ViewModels\\PedidoMercadoLivreViewModel.cs",
+      "export_path": "ViewModels\\PedidoMercadoLivreViewModel.cs",
+      "raw_sha256": "d3cfc27a2a05aa0bbe50c8135e3b530121910e773ce2564e7d30ab56632a2903"
+    },
+    {
+      "path": "ViewModels\\PedidosMercadoLivreViewModel.cs",
+      "export_path": "ViewModels\\PedidosMercadoLivreViewModel.cs",
+      "raw_sha256": "4021ce6c59a88fcb7af480fb90a52e85722a8324ab11913c93ab9b9e8c297a34"
+    },
+    {
+      "path": "Views\\PedidoMercadoLivreListaView.cs",
+      "export_path": "Views\\PedidoMercadoLivreListaView.cs",
+      "raw_sha256": "fde76cad9da409f5bf063e4b3870d2b2daba153b19b4fc3d134637eebe2b5322"
+    },
+    {
+      "path": "Views\\PedidosMercadoLivreView.cs",
+      "export_path": "Views\\PedidosMercadoLivreView.cs",
+      "raw_sha256": "a020b5085b115004e224dbac35b5f4cb7ae90c36869604e6f41e6d53e2bbada9"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 79
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 8,
+      "types": [
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass8_0",
+        "__c_DisplayClass19_0",
+        "__c_DisplayClass19_1",
+        "__c_DisplayClass20_0",
+        "__c_DisplayClass20_1",
+        "__c_DisplayClass20_2",
+        "__c_DisplayClass28_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.PedidosMercadoLivre.g.resources",
+      "file": "0000.bin",
+      "bytes": 11076,
+      "sha256": "71868673bd85866d7c07284e326b8d689e3a7bcddd371772f855063d7df019b3"
+    },
+    {
+      "name": "Otus.Modulo.PedidosMercadoLivre.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PedidosMercadoLivre.Reports.PedidoMercadoLivre.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.PedidosMercadoLivre.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 290,
+      "sha256": "2b38951011d164884b5a61b7c03a687677eefaee7042f1928af3836347506b5d"
+    }
+  ],
+  "generated_stubs": false
+}

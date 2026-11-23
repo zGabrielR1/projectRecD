@@ -1,0 +1,187 @@
+{
+  "name": "Modulo.TiposSegmentacao",
+  "baseline": "baseline\\Modulo.TiposSegmentacao.dll",
+  "baseline_sha256": "e7e96e5d0e62ebc4c06002e8fe80728d6aa08c4d0a6df81c6291e5cec6312621",
+  "export_project": "recovered\\SuiteG6\\Modulo.TiposSegmentacao\\Modulo.TiposSegmentacao.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "699d4d0ea6a44424850c0de0dbd60513c7f6a097dbb910f01d88f45184a0101a"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "2e459b287b96f6e6ab4d30c9de6820629e2c694177f3bc925088eabbdd517f73"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "9c2cdfdd5a0ff8cdd0a9dc0d797e9603cfe8cbb2727f6598d6924afe15de4b19"
+    },
+    {
+      "path": "TipoSegmentacaoModulo.cs",
+      "export_path": "TipoSegmentacaoModulo.cs",
+      "raw_sha256": "a83e87654a5f369418143e405e01b363e595d6a23388129fbabd9ed001ebc82b"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\FinanceiroViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\FinanceiroViewModel.cs",
+      "raw_sha256": "6e0a3daf9e0accf2156249f6f58b068529cb7115f51c4825b6bf2cd4292bb95f"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\HistoricoMovimentacaoViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\HistoricoMovimentacaoViewModel.cs",
+      "raw_sha256": "175ceb48c70ac7b6a860fc4e500f2ee6eeb70922e365981427e7fed45877c285"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\OutrasInformacoesViewModelBase.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\OutrasInformacoesViewModelBase.cs",
+      "raw_sha256": "828bbc6e28f318bc7315d5f5454941a05c24c4b7ab3e5d4f6664b279525c159b"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\PagarViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\PagarViewModel.cs",
+      "raw_sha256": "c2befe131663675dd4bc25b54e7db36cccc7a07ae350db968bd6faf6108453a9"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\PesquisaParcelasViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\PesquisaParcelasViewModel.cs",
+      "raw_sha256": "c17c847f1c8488694dc2b54f3487c1e65aadec9501ada1cf0b30ded27c24762a"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ReceberViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ReceberViewModel.cs",
+      "raw_sha256": "3a4f99dad42a9b863ec6deb6425020f631a1758b15f16a94a9a942538749f663"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\Reports\\Financeiro.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\Reports\\Financeiro.cs",
+      "raw_sha256": "fbdef62b7ffc51810b7b9064702c35ff7bad8e03d713e7f099e9b1972d488f5c"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\TiposSegmentacaoOutrasInformacoesFichaViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\TiposSegmentacaoOutrasInformacoesFichaViewModel.cs",
+      "raw_sha256": "10fe624eb42d287c5756ad7d98ec3d93fdad9ee4617e5f2645c28b1fc15cc1a0"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\TiposSegmentacaoOutrasInformacoesFormulario.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\TiposSegmentacaoOutrasInformacoesFormulario.cs",
+      "raw_sha256": "16f76ecdc891e3ee0863c805d992f19b9b5d786134e0d9eaa1c02be435ccbc6e"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\TiposSegmentacaoOutrasInformacoesViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\TiposSegmentacaoOutrasInformacoesViewModel.cs",
+      "raw_sha256": "d29174c6afee34aa5eb63bd81e88453bb6f1efddfd4048a2ac45e6f31fa8cf13"
+    },
+    {
+      "path": "ViewModels\\TipoSegmentacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\TipoSegmentacaoAbaViewModel.cs",
+      "raw_sha256": "8bd59cd9376cc6a35b3642e725e97db2ec8fd62dcd87434a967014597cb9ef22"
+    },
+    {
+      "path": "ViewModels\\TipoSegmentacaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TipoSegmentacaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "57a30cbeaa4a3b624518d715fd8df51286ed60dc812649797ce44332f242ea53"
+    },
+    {
+      "path": "ViewModels\\TipoSegmentacaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\TipoSegmentacaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "69a90cb7fe99323ffaa6920654ad2f2eee6bcb11e7df811536faa5e8298666fb"
+    },
+    {
+      "path": "ViewModels\\TipoSegmentacaoFormulario.cs",
+      "export_path": "ViewModels\\TipoSegmentacaoFormulario.cs",
+      "raw_sha256": "66bb4e49b0b0946d896285306f1bf8b7cf4861a7df7692ab74c4663b823434e1"
+    },
+    {
+      "path": "ViewModels\\TipoSegmentacaoListaViewModel.cs",
+      "export_path": "ViewModels\\TipoSegmentacaoListaViewModel.cs",
+      "raw_sha256": "3a90fbd448a57f409d83cbfd968e7974842b404168010fd3d6c219cfc1289b8b"
+    },
+    {
+      "path": "ViewModels\\TipoSegmentacaoViewModel.cs",
+      "export_path": "ViewModels\\TipoSegmentacaoViewModel.cs",
+      "raw_sha256": "3d385fd39e1ea625d50c28d1d69ad4860a73f7167e50c8dffad0ffca41ae4025"
+    },
+    {
+      "path": "ViewModels\\TiposSegmentacaoViewModel.cs",
+      "export_path": "ViewModels\\TiposSegmentacaoViewModel.cs",
+      "raw_sha256": "e602dc6e5823a24f66ee4bc16de6348da2df77940a32f2761828dd9af6a6964f"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\FinanceiroView.cs",
+      "export_path": "Views\\OutrasInformacoes\\FinanceiroView.cs",
+      "raw_sha256": "fe78a88cece04f0e8488d9729ff8a1e912993c8efbfee8efde1972a1973c98e7"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\HistoricoMovimentacaoView.cs",
+      "export_path": "Views\\OutrasInformacoes\\HistoricoMovimentacaoView.cs",
+      "raw_sha256": "79cc2cc2a27d0c8262f222ea1f8ab0db583e0353ceb742832a3bd8e09c297316"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\PagarReceberView.cs",
+      "export_path": "Views\\OutrasInformacoes\\PagarReceberView.cs",
+      "raw_sha256": "210ed9e32b0924b292661541fb7b894bdb673a40ac2c0706b6b35cd8c2e06c35"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\TiposSegmentacaoOutrasInformacoesFichaView.cs",
+      "export_path": "Views\\OutrasInformacoes\\TiposSegmentacaoOutrasInformacoesFichaView.cs",
+      "raw_sha256": "d3644e237f39e1a61e7fdb535189cdc18da3a0d0641be631f6b1e56adcbe9002"
+    },
+    {
+      "path": "Views\\TipoSegmentacaoFichaAdicionarView.cs",
+      "export_path": "Views\\TipoSegmentacaoFichaAdicionarView.cs",
+      "raw_sha256": "63422da360245070b73d007056de03a5a6fc37d8c9a8ea7d6f88165093bdfec2"
+    },
+    {
+      "path": "Views\\TipoSegmentacaoFichaAtualizarView.cs",
+      "export_path": "Views\\TipoSegmentacaoFichaAtualizarView.cs",
+      "raw_sha256": "f90c752149480f1438aa113ac895fcf08c811eddb19251597e5a55b1ec829607"
+    },
+    {
+      "path": "Views\\TipoSegmentacaoFichaViewDetalhes\\TipoSegmentacaoView.cs",
+      "export_path": "Views\\TipoSegmentacaoFichaViewDetalhes\\TipoSegmentacaoView.cs",
+      "raw_sha256": "1b34d24969a305b418d939f40badc44316a5a6c2bd19150a933a4e04c1f2d534"
+    },
+    {
+      "path": "Views\\TipoSegmentacaoListaView.cs",
+      "export_path": "Views\\TipoSegmentacaoListaView.cs",
+      "raw_sha256": "0c431f32c2017093683b7bc04c7682f3e5312c9fd4361762200afb61e59b3056"
+    },
+    {
+      "path": "Views\\TiposSegmentacaoView.cs",
+      "export_path": "Views\\TiposSegmentacaoView.cs",
+      "raw_sha256": "56721d0e1d07aca6a116270817799b64b5f30fc5ec4a4e1a11156b335635aca6"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.TiposSegmentacao.g.resources",
+      "file": "0000.bin",
+      "bytes": 41265,
+      "sha256": "e64afa854b1b2e42de91de1dba952c97d2d48fd0c86c8edcbd83020c271625b4"
+    },
+    {
+      "name": "Otus.Modulo.TiposSegmentacao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.TiposSegmentacao.ViewModels.OutrasInformacoes.Reports.Financeiro.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.TiposSegmentacao.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 287,
+      "sha256": "a2418ff41a08c52f53bc6824a1d94d03c740bead3419ebe85fbf960b4680f68b"
+    }
+  ],
+  "generated_stubs": false
+}

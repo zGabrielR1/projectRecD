@@ -1,0 +1,54 @@
+{
+  "artifactSha256": "58155d79ea5c892c72b3ca748e7d9965ee7e2cedef818a857756634d8d1a6566",
+  "mvid": "cc68b524-bd31-4f1e-9219-378779420fd5",
+  "assembly": "Modulo.PedidosShopee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Infraestrutura",
+    "System.Windows.Forms",
+    "System.Core",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.XtraReports.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Drawing",
+    "DevExpress.Data.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.DFe"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.PedidosShopee.g.resources",
+      "file": "0000.bin",
+      "bytes": 10239,
+      "sha256": "8256c961a096ca2f206f8700c0878c7ddb11ea66f314f12b4bd90460e399b36b"
+    },
+    {
+      "name": "Otus.Modulo.PedidosShopee.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PedidosShopee.Reports.PedidoShopee.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.PedidosShopee.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 284,
+      "sha256": "82193e030ab349e1aa0af62bb7cec401f982e8ca688eaf5b56ed93efd9d826ea"
+    }
+  ]
+}

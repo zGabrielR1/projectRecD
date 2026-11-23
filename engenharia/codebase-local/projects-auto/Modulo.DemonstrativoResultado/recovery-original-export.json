@@ -1,0 +1,313 @@
+{
+  "name": "Modulo.DemonstrativoResultado",
+  "baseline": "baseline\\Modulo.DemonstrativoResultado.dll",
+  "baseline_sha256": "6636a7d44147f6fef37e1fc4f71f92e95bfb9e5b0e00ae2c41f7b77c848f0a9f",
+  "export_project": "recovered\\SuiteG6\\Modulo.DemonstrativoResultado\\Modulo.DemonstrativoResultado.csproj",
+  "sources": [
+    {
+      "path": "DemonstrativoResultadoModulo.cs",
+      "export_path": "DemonstrativoResultadoModulo.cs",
+      "raw_sha256": "070908f1103f6596f2928f258fbda6480185552d45ea2224a6144aabccfdfbc7"
+    },
+    {
+      "path": "Interfaces\\IGridControlPesquisa.cs",
+      "export_path": "Interfaces\\IGridControlPesquisa.cs",
+      "raw_sha256": "bb12b50c6446b199997df8c4190d0154f37005508d77e3de3181ca83b7c85880"
+    },
+    {
+      "path": "Interfaces\\IModoFuncionamentoService.cs",
+      "export_path": "Interfaces\\IModoFuncionamentoService.cs",
+      "raw_sha256": "011d770304ba5f39d1710e4fc3291037140a7c2a93b6b048c707384a39111c9c"
+    },
+    {
+      "path": "Interfaces\\IViewModelDemonstrativoResultado.cs",
+      "export_path": "Interfaces\\IViewModelDemonstrativoResultado.cs",
+      "raw_sha256": "135173fafb91c0035a3848b5fa4aae4b581acf0e2e2d3068eff07e4413ff8e3d"
+    },
+    {
+      "path": "Interfaces\\IViewModelGraficoDemonstrativoResultado.cs",
+      "export_path": "Interfaces\\IViewModelGraficoDemonstrativoResultado.cs",
+      "raw_sha256": "6a7c28d870cbad8fb2fa63a8bbcae4493b0cdccab7cb8aff9fe7b33844099ab0"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "056f83e9919d08b84db9ae7bf47e1c56a3f0094553e4fd245c1f0f85c5402cbc"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "6753ed1898c06748ef90a45cfb717b314f17cc803e4c9451c4f2dcf2ea1704e0"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "7ba9b141fe318861518952de451d8d857b5fff40a1d266687b7830bd58ab096d"
+    },
+    {
+      "path": "Reports\\AnaliseFinanceira.cs",
+      "export_path": "Reports\\AnaliseFinanceira.cs",
+      "raw_sha256": "91f104876edab7a41c10af907544a05f4c87fdc6b17a95ad4f0b965bcc3f4406"
+    },
+    {
+      "path": "Reports\\AnaliseGeral.cs",
+      "export_path": "Reports\\AnaliseGeral.cs",
+      "raw_sha256": "09fe0fa4764630d51b534ffa9a026ec2ec66cb813df73bb712501069d85cab90"
+    },
+    {
+      "path": "Services\\ModoFuncionamentoService.cs",
+      "export_path": "Services\\ModoFuncionamentoService.cs",
+      "raw_sha256": "4aa0b3ddc1da8ad129860f3a2a3b2e6d84f5d9731fdc2547ac754049efe47564"
+    },
+    {
+      "path": "Types\\TipoFiltroZerado.cs",
+      "export_path": "Types\\TipoFiltroZerado.cs",
+      "raw_sha256": "03c8d90b0b8ae149575a0ee5c66fecd30ffd1d3c46c695dc73556e7d40da7b0b"
+    },
+    {
+      "path": "Types\\TipoTitulo.cs",
+      "export_path": "Types\\TipoTitulo.cs",
+      "raw_sha256": "e5a97d8b200cbd888c56fabe08fb191a43058dae7702fbdd81ee3032e81230b7"
+    },
+    {
+      "path": "ViewModels\\AnaliseBaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\AnaliseBaseDetalheViewModel.cs",
+      "raw_sha256": "0c9e1b543e046d1b2485a40d932da20ae2638c2328cef965e6341f9c9d36bb97"
+    },
+    {
+      "path": "ViewModels\\AnaliseFinanceira\\AnaliseFinanceiraAbaViewModel.cs",
+      "export_path": "ViewModels\\AnaliseFinanceira\\AnaliseFinanceiraAbaViewModel.cs",
+      "raw_sha256": "324271bcd177cbbb79378d2a8f839549a53d6fc1b6a5d716c283473cfa05470c"
+    },
+    {
+      "path": "ViewModels\\AnaliseFinanceira\\AnaliseFinanceiraDetalheViewModel.cs",
+      "export_path": "ViewModels\\AnaliseFinanceira\\AnaliseFinanceiraDetalheViewModel.cs",
+      "raw_sha256": "78118bfcda0fee6aa9253c0a799f7d34a9c3bf57b939bbbbd7f116c30c45fff8"
+    },
+    {
+      "path": "ViewModels\\AnaliseFinanceira\\AnaliseFinanceiraFormulario.cs",
+      "export_path": "ViewModels\\AnaliseFinanceira\\AnaliseFinanceiraFormulario.cs",
+      "raw_sha256": "764c0995108302b9b46c5145673a18a413c7150fb2e4117a91834c28657388df"
+    },
+    {
+      "path": "ViewModels\\AnaliseFinanceira\\AnaliseFinanceiraViewModel.cs",
+      "export_path": "ViewModels\\AnaliseFinanceira\\AnaliseFinanceiraViewModel.cs",
+      "raw_sha256": "751efe6b1fb72825e4b536facea861c5b926d203b3511ff5d5c83edf95211569"
+    },
+    {
+      "path": "ViewModels\\AnaliseFinanceira\\ObjetoImpressaoAnaliseFinanceira.cs",
+      "export_path": "ViewModels\\AnaliseFinanceira\\ObjetoImpressaoAnaliseFinanceira.cs",
+      "raw_sha256": "adea7bb87c23bfd308bb33927b8ddc83086048f8bc4bbe325dcfe453627c043a"
+    },
+    {
+      "path": "ViewModels\\AnaliseGeral\\AnaliseGeralAbaViewModel.cs",
+      "export_path": "ViewModels\\AnaliseGeral\\AnaliseGeralAbaViewModel.cs",
+      "raw_sha256": "b60c07f85e99718fd1a6b80cf51721a0f4bd6ae47389bf3250e11a6d2d070e10"
+    },
+    {
+      "path": "ViewModels\\AnaliseGeral\\AnaliseGeralDetalheViewModel.cs",
+      "export_path": "ViewModels\\AnaliseGeral\\AnaliseGeralDetalheViewModel.cs",
+      "raw_sha256": "80cd924d79301a479265b113cf0aa9a3e313d807188cb35b4b2e0a2acd9d9d31"
+    },
+    {
+      "path": "ViewModels\\AnaliseGeral\\AnaliseGeralFormulario.cs",
+      "export_path": "ViewModels\\AnaliseGeral\\AnaliseGeralFormulario.cs",
+      "raw_sha256": "6cc1e1f6446fe9eff4bb9603d4ff1ec953126905e94180c9b53879f96186dec9"
+    },
+    {
+      "path": "ViewModels\\AnaliseGeral\\AnaliseGeralViewModel.cs",
+      "export_path": "ViewModels\\AnaliseGeral\\AnaliseGeralViewModel.cs",
+      "raw_sha256": "7d28a641dcdc25d6659d48b71f81277ec9abca4954edefdc1ab006575ccd260f"
+    },
+    {
+      "path": "ViewModels\\AnaliseGeral\\ObjetoImpressaoAnaliseGeral.cs",
+      "export_path": "ViewModels\\AnaliseGeral\\ObjetoImpressaoAnaliseGeral.cs",
+      "raw_sha256": "1a1c92c6a0239efc9b2a4774568c8ee35b8c3a6a853f7829dc8c7bb86ad43957"
+    },
+    {
+      "path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaAnualDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaAnualDetalheAbaViewModel.cs",
+      "raw_sha256": "b939414b70ace8500d15d1b9ca62b2e8c4487a25670107622618b18aff4e67e1"
+    },
+    {
+      "path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaAnualDetalheViewModel.cs",
+      "export_path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaAnualDetalheViewModel.cs",
+      "raw_sha256": "d6367f152d1b444860714edd4595835396f9c4055d3e5a4961173718c3e8f986"
+    },
+    {
+      "path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaBaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaBaseDetalheViewModel.cs",
+      "raw_sha256": "f530661b58483793ad95d93716e8a72ab7fa4376babf86b16046a69243cf652c"
+    },
+    {
+      "path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaFormulario.cs",
+      "export_path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaFormulario.cs",
+      "raw_sha256": "f6684e9488f781d19b58c10b1defee2483989f78cde7896d6f6c2dacbe744745"
+    },
+    {
+      "path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaViewModel.cs",
+      "export_path": "ViewModels\\CustoLucroDetalhesViewModel\\CustoLucroMercadoriaViewModel.cs",
+      "raw_sha256": "bd7bdcf19ce2da6bc789c47109e86a375c74eee42120ad80975dc17ddbd1c4e3"
+    },
+    {
+      "path": "ViewModels\\CustoLucroDetalhesViewModel\\GraficoItem.cs",
+      "export_path": "ViewModels\\CustoLucroDetalhesViewModel\\GraficoItem.cs",
+      "raw_sha256": "504de3a198b03efa4097bc6a25208243585c57afa93267e90c5f9bc9c312220e"
+    },
+    {
+      "path": "ViewModels\\DemonstrativoResultadoPrincipalViewModel.cs",
+      "export_path": "ViewModels\\DemonstrativoResultadoPrincipalViewModel.cs",
+      "raw_sha256": "89544c8017e173dc75d9ac2d36e5507ed59205d8057dd19e75fe5758454c50d1"
+    },
+    {
+      "path": "ViewModels\\DemonstrativoResultadoViewModel.cs",
+      "export_path": "ViewModels\\DemonstrativoResultadoViewModel.cs",
+      "raw_sha256": "5c2a89fe37c2e9d3143ca5b21b87171f602d21a832cf8cfb8c885572552dac06"
+    },
+    {
+      "path": "ViewModels\\DetalhesViewModel\\BaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\DetalhesViewModel\\BaseDetalheViewModel.cs",
+      "raw_sha256": "a5e4b3ae6b5398f8d1d69b57f62c7cdd77e6dba2b40c66eca78cebf07e03ecd7"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBalanceteAnualCentrosCustoDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBalanceteAnualCentrosCustoDetalheAbaViewModel.cs",
+      "raw_sha256": "b4c7dda84277e5bd2051cbab1b5ce5da2b740e009446fe905bedbceedcb5e377"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBalanceteAnualCentrosCustoDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBalanceteAnualCentrosCustoDetalheViewModel.cs",
+      "raw_sha256": "12850c94f2c2778b872ed7ac68d03fc5c08fc97f6d6aaec232efcd3e4eefa841"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBalanceteAnualPlanosContaDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBalanceteAnualPlanosContaDetalheAbaViewModel.cs",
+      "raw_sha256": "be679d203179f0d351949d73166e1dd9b1b2d0a8f43db82ac0264bca2154a26a"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBalanceteAnualPlanosContaDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBalanceteAnualPlanosContaDetalheViewModel.cs",
+      "raw_sha256": "192a6eaa235cbacb60cc54b2d3bbff78f0228a2bada1c7ffe944b02b645c99ea"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBaseDetalheViewModel.cs",
+      "raw_sha256": "9c16785e16e49b57d789c8e848062678c8181b7035113215c27e435a6286ae98"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroFormulario.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroFormulario.cs",
+      "raw_sha256": "5cfcd88087386484d5298ab46d1a2451f0c2b1a03b1de1ec46f4384699bfb812"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroRecebimentoPagamentoAnualDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroRecebimentoPagamentoAnualDetalheAbaViewModel.cs",
+      "raw_sha256": "11ba6ab99dfad1c16acac986101446976acc5e8a78d09cb057c800808f2a41c8"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroRecebimentoPagamentoAnualDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroRecebimentoPagamentoAnualDetalheViewModel.cs",
+      "raw_sha256": "d3e6763b8ad044cce1b79346de57c265971f41eef84dd8e6134ad1effaca9115"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroSaldosContasAnualDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroSaldosContasAnualDetalheAbaViewModel.cs",
+      "raw_sha256": "22c9a1a58a39d2b39966093dbcf0929be45e1f4a6d0cb23d782b0a8a51223d7f"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroSaldosContasAnualDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroSaldosContasAnualDetalheViewModel.cs",
+      "raw_sha256": "fea1862113377ede2e44a838f5da76d2623a287fc6478521f7947abc348e9415"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroViewModel.cs",
+      "raw_sha256": "8244caad219f871513289de5020ae43889221dd5d2efd3b43657d4660f8fe4af"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\ResumoTotais.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\ResumoTotais.cs",
+      "raw_sha256": "e667c7379ec993176ebfad6d740f1e99914dc6886bf540e643e57a7d479d4133"
+    },
+    {
+      "path": "ViewModels\\InventarioDetalhesViewModel\\GraficoItem.cs",
+      "export_path": "ViewModels\\InventarioDetalhesViewModel\\GraficoItem.cs",
+      "raw_sha256": "5be706bdc286ee8c8c106302770c64bf01b84420896eb21ea4e73ed820bcd969"
+    },
+    {
+      "path": "ViewModels\\InventarioDetalhesViewModel\\GraficoItemMes.cs",
+      "export_path": "ViewModels\\InventarioDetalhesViewModel\\GraficoItemMes.cs",
+      "raw_sha256": "f8e6208148d2858ad7219d2a5ce09c9dd1770e50d8c4049d401bb16196c6e98a"
+    },
+    {
+      "path": "ViewModels\\InventarioDetalhesViewModel\\InventarioAnualDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\InventarioDetalhesViewModel\\InventarioAnualDetalheAbaViewModel.cs",
+      "raw_sha256": "bf23e128deceee72306da17a2644c0a705320ec1fbab5095ac25dad31b3242cf"
+    },
+    {
+      "path": "ViewModels\\InventarioDetalhesViewModel\\InventarioAnualDetalheViewModel.cs",
+      "export_path": "ViewModels\\InventarioDetalhesViewModel\\InventarioAnualDetalheViewModel.cs",
+      "raw_sha256": "71d4287bc9bee1ee24d3934fe391f7024da5f18c82b731613919b013ecda7928"
+    },
+    {
+      "path": "ViewModels\\InventarioDetalhesViewModel\\InventarioBaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\InventarioDetalhesViewModel\\InventarioBaseDetalheViewModel.cs",
+      "raw_sha256": "d41475508a65d1fe94d85f035b2e82d5c4795731a50d2e3c4a150beb5d6e0a02"
+    },
+    {
+      "path": "ViewModels\\InventarioDetalhesViewModel\\InventarioFormulario.cs",
+      "export_path": "ViewModels\\InventarioDetalhesViewModel\\InventarioFormulario.cs",
+      "raw_sha256": "dcf9b6be3d4ca49a2c11cd96fdebfad31757a2a8628a7b9dfe95ed47d15429d7"
+    },
+    {
+      "path": "ViewModels\\InventarioDetalhesViewModel\\InventarioViewModel.cs",
+      "export_path": "ViewModels\\InventarioDetalhesViewModel\\InventarioViewModel.cs",
+      "raw_sha256": "9b30955c8fef872c3b4e91cd818d65e1305b21f578033bf078eeef6b9299723d"
+    },
+    {
+      "path": "Views\\DemonstrativoResultadoPrincipalView.cs",
+      "export_path": "Views\\DemonstrativoResultadoPrincipalView.cs",
+      "raw_sha256": "0fd349624c47142908e311802e4a78fb5c44d51a86301fb5cf66ef2e9940728a"
+    },
+    {
+      "path": "Views\\DemonstrativoResultadoView.cs",
+      "export_path": "Views\\DemonstrativoResultadoView.cs",
+      "raw_sha256": "42a81e60d1f250c9a65dc59fd16f8f8687e11d6c53ff0ef7d123cb88825212e3"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.DemonstrativoResultado.g.resources",
+      "file": "0000.bin",
+      "bytes": 111848,
+      "sha256": "b8e41f507f3f185438cf134baa61b06f8b813b13becdd6cec9eedef75a78d138"
+    },
+    {
+      "name": "Otus.Modulo.DemonstrativoResultado.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.DemonstrativoResultado.Reports.AnaliseGeral.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.DemonstrativoResultado.Reports.AnaliseFinanceira.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.DemonstrativoResultado.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 293,
+      "sha256": "3dbda632a66ad012dea2cd04838b64ea4fe4802febca7abc82738a9609899c41"
+    }
+  ],
+  "generated_stubs": false
+}

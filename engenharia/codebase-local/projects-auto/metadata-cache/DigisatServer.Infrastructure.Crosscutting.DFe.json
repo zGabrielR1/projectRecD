@@ -1,0 +1,19 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.DFe, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System.Xml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Security",
+    "System.Web.Services",
+    "System.Xml.Linq",
+    "System.Net.Http",
+    "Newtonsoft.Json",
+    "System.Runtime.Serialization",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Core",
+    "System.ServiceModel",
+    "System.Net.Http.WebRequest"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "name": "Modulo.SugestaoCompras",
+  "baseline": "baseline\\Modulo.SugestaoCompras.dll",
+  "baseline_sha256": "d14233d2f1d09c7417eba6b4f31b2792f016032b1b3bc17715ec5805787f1959",
+  "export_project": "recovered\\SuiteG6\\Modulo.SugestaoCompras\\Modulo.SugestaoCompras.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "0626d4b60e270515058091c2ddd5607eb00c7d286f631bbde78231a9536ac1ed"
+    },
+    {
+      "path": "Reports\\ImpressoSugestaoCompra.cs",
+      "export_path": "Reports\\ImpressoSugestaoCompra.cs",
+      "raw_sha256": "099b2b86a3cf50439858a38646439641adaf6975f3e2a2fe0ea8866bf4720fd6"
+    },
+    {
+      "path": "Reports\\SugestaoCompraImpresso.cs",
+      "export_path": "Reports\\SugestaoCompraImpresso.cs",
+      "raw_sha256": "35d34b5b55b940a1f9b2cdf6481b7c21d8ae70e65114d6e6df77f8ee18137973"
+    },
+    {
+      "path": "SugestaoCompraModulo.cs",
+      "export_path": "SugestaoCompraModulo.cs",
+      "raw_sha256": "12ab6d134e7912db69971709760b65e333c26c7fef0820a61b06b3abb5e60509"
+    },
+    {
+      "path": "ViewModels\\ImportacaoParcialCotacaoCompraAbaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoParcialCotacaoCompraAbaViewModel.cs",
+      "raw_sha256": "62741f7197f3bccbebdf1eeae31454222d507d1adc1dd20284999b39793e17e5"
+    },
+    {
+      "path": "ViewModels\\ImportacaoParcialCotacaoCompraFichaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoParcialCotacaoCompraFichaViewModel.cs",
+      "raw_sha256": "b1ada17bbed4fb1a66b6ab94cb4828d2f15674bbb3314c0b534a10398c20229c"
+    },
+    {
+      "path": "ViewModels\\ImportacaoParcialCotacaoCompraFormulario.cs",
+      "export_path": "ViewModels\\ImportacaoParcialCotacaoCompraFormulario.cs",
+      "raw_sha256": "d5a15420dc6f288310e065b858960c2a458ce7b14306d439ced2294186f7bcb8"
+    },
+    {
+      "path": "ViewModels\\ImportacaoParcialCotacaoCompraViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoParcialCotacaoCompraViewModel.cs",
+      "raw_sha256": "39b3b34ac75fa25995e24d0045655f83876db173583b2d93196f0c2028cc36df"
+    },
+    {
+      "path": "ViewModels\\ImportacaoParcialPedidoCompraAbaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoParcialPedidoCompraAbaViewModel.cs",
+      "raw_sha256": "6229592dc948115e9006dbd15dcd3dda0848d8e5820104705e33ffeb7b2c7ff9"
+    },
+    {
+      "path": "ViewModels\\ImportacaoParcialPedidoCompraFichaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoParcialPedidoCompraFichaViewModel.cs",
+      "raw_sha256": "abec6b067b6995c89c8b03b33027538feda5a3e8a3a2437ed81d3709092a6cd2"
+    },
+    {
+      "path": "ViewModels\\ImportacaoParcialPedidoCompraFormulario.cs",
+      "export_path": "ViewModels\\ImportacaoParcialPedidoCompraFormulario.cs",
+      "raw_sha256": "68afa668c24bb74638f91d30ec3e6e46e6efe521784789447f333be5f3ddbc1a"
+    },
+    {
+      "path": "ViewModels\\ImportacaoParcialPedidoCompraViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoParcialPedidoCompraViewModel.cs",
+      "raw_sha256": "4887e4412ad2a4111fa2fcaa1c2c792a29669a03ea44ec29dd6360c33b74e318"
+    },
+    {
+      "path": "ViewModels\\SugestaoCompraAbaViewModel.cs",
+      "export_path": "ViewModels\\SugestaoCompraAbaViewModel.cs",
+      "raw_sha256": "59f5e8865748af7648da4457bc00176f2fe78aab7e483e18f526b1fcc8ad9584"
+    },
+    {
+      "path": "ViewModels\\SugestaoCompraFichaViewModel.cs",
+      "export_path": "ViewModels\\SugestaoCompraFichaViewModel.cs",
+      "raw_sha256": "551f07e56394ee12a6a484c75cdf34040b277dcded9a16d2641b0517e449db40"
+    },
+    {
+      "path": "ViewModels\\SugestaoCompraFormulario.cs",
+      "export_path": "ViewModels\\SugestaoCompraFormulario.cs",
+      "raw_sha256": "9c1dce7b6387abf38088b64e569734bd8f3792c7097196a4a61d6b7a21303fd2"
+    },
+    {
+      "path": "ViewModels\\SugestaoCompraGradeViewModel.cs",
+      "export_path": "ViewModels\\SugestaoCompraGradeViewModel.cs",
+      "raw_sha256": "fce66921d84f054ed22a07966b7e953de8b732db1462af55989f2174b6f8e24e"
+    },
+    {
+      "path": "ViewModels\\SugestaoCompraItemViewModel.cs",
+      "export_path": "ViewModels\\SugestaoCompraItemViewModel.cs",
+      "raw_sha256": "6a5e75bc8ba0fe55902a012d4b7d1a8a799f92f15bf944b34e353ce13c94877d"
+    },
+    {
+      "path": "ViewModels\\SugestaoComprasViewModel.cs",
+      "export_path": "ViewModels\\SugestaoComprasViewModel.cs",
+      "raw_sha256": "ca9e1882b8af14668d780492874d1974498943cd8d344c3ddc5434e05cf414da"
+    },
+    {
+      "path": "ViewModels\\SugestaoCompraViewModel.cs",
+      "export_path": "ViewModels\\SugestaoCompraViewModel.cs",
+      "raw_sha256": "111d52865ed1987caf2aa8159020e6dfcb96529f7d21ccc7bbc9e25bc040b37c"
+    },
+    {
+      "path": "Views\\ImportacaoParcialCotacaoCompraFichaView.cs",
+      "export_path": "Views\\ImportacaoParcialCotacaoCompraFichaView.cs",
+      "raw_sha256": "60db0fc866327ebadbd02e5d5f911153314f6946e1730d707f4dc8a6fc3a4a9f"
+    },
+    {
+      "path": "Views\\ImportacaoParcialPedidoCompraFichaView.cs",
+      "export_path": "Views\\ImportacaoParcialPedidoCompraFichaView.cs",
+      "raw_sha256": "e268d308b08ba41c6770a505f9d39ec9ff026125c1ebcb7d58521cbab1b325b0"
+    },
+    {
+      "path": "Views\\SugestaoCompraFichaView.cs",
+      "export_path": "Views\\SugestaoCompraFichaView.cs",
+      "raw_sha256": "6f106377f2fef06edbfa52709ed0f373b9376a567f1a1e4511f6cf70c18a8625"
+    },
+    {
+      "path": "Views\\SugestaoCompraFichaViewDetalhes\\ImportacaoCotacaoCompraView.cs",
+      "export_path": "Views\\SugestaoCompraFichaViewDetalhes\\ImportacaoCotacaoCompraView.cs",
+      "raw_sha256": "99e92907b9dfdf634a39bbf4baab5c4d905f0e3cb39fd7f726faf14da7c3bd67"
+    },
+    {
+      "path": "Views\\SugestaoCompraFichaViewDetalhes\\ImportacaoPedidoCompraView.cs",
+      "export_path": "Views\\SugestaoCompraFichaViewDetalhes\\ImportacaoPedidoCompraView.cs",
+      "raw_sha256": "7cee97f589fc3fdef459081fe8064a42dc7bbf0919ef61197fa56b72974dcc25"
+    },
+    {
+      "path": "Views\\SugestaoCompraFichaViewDetalhes\\SugestaoCompraView.cs",
+      "export_path": "Views\\SugestaoCompraFichaViewDetalhes\\SugestaoCompraView.cs",
+      "raw_sha256": "5b60d6fb74ff8fddbadf262dd57e2ce35d487a695e0b899c09133e753b645667"
+    },
+    {
+      "path": "Views\\SugestaoComprasView.cs",
+      "export_path": "Views\\SugestaoComprasView.cs",
+      "raw_sha256": "d13e6a67cc9fc430b943751ef84411d3ba35c65a6702887a31ec2230adc8038d"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 30
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 4,
+      "types": [
+        "__c_DisplayClass18_0",
+        "__c_DisplayClass24_0",
+        "__c_DisplayClass24_1",
+        "__c_DisplayClass26_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.SugestaoCompras.g.resources",
+      "file": "0000.bin",
+      "bytes": 37165,
+      "sha256": "be07e1d24113b5c0d878cba39bf834be93bf8379d09d7b3994fedcf438fba951"
+    },
+    {
+      "name": "Otus.Modulo.SugestaoCompras.Reports.ImpressoSugestaoCompra.resources",
+      "file": "0001.bin",
+      "bytes": 6312,
+      "sha256": "c47256b55faf3ce7eadea32130f8b53b9ee0b3bbf582ed90e5bb3d7d811ba876"
+    }
+  ],
+  "generated_stubs": false
+}

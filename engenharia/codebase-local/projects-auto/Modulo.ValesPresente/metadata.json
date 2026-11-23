@@ -1,0 +1,62 @@
+{
+  "artifactSha256": "03393108077ae47f57400313c9dad7eb39b3a4c3e024284ce07c7e03c84c78e1",
+  "mvid": "577996f8-cc6a-46e4-827c-26ba2991f1fb",
+  "assembly": "Modulo.ValesPresente, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "DevExpress.Printing.v15.2.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.XtraPrinting.v15.2",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ValesPresente.g.resources",
+      "file": "0000.bin",
+      "bytes": 30156,
+      "sha256": "1939da28c22af4e1f6771d7b904fef62a66c223237ff2e94926a38723b85ae5b"
+    },
+    {
+      "name": "Otus.Modulo.ValesPresente.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ValesPresente.Reports.Comprovante40Colunas.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ValesPresente.Reports.Comprovante.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ValesPresente.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 284,
+      "sha256": "4277adfe90090105231e3889a008436326b6fb301334e996cbb9896b66ff299e"
+    }
+  ]
+}

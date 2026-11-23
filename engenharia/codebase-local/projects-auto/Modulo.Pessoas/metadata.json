@@ -1,0 +1,117 @@
+{
+  "artifactSha256": "80297f7e5471291aee7984c7a0f99846d1959e19bb59365d76ca50e2e8526433",
+  "mvid": "d7af54f8-e6ed-4f4a-aa84-91b41dd8c837",
+  "assembly": "Modulo.Pessoas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "WindowsBase",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.Mvvm.v15.2",
+    "System.Windows.Forms",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "Prism.Unity.Wpf",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Application.Core",
+    "System.Reactive.Core",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Pessoas.g.resources",
+      "file": "0000.bin",
+      "bytes": 407428,
+      "sha256": "5bdc2647a0d4c0df43e5e081166285982f210fb256e0c919b7096f07a5671c91"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.Reports.PrescricaoOtica40Colunas.resources",
+      "file": "0002.bin",
+      "bytes": 14668,
+      "sha256": "dca9381e6a2e9124928970216a09881829b7e4bf041d34abead92df77d787f02"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.Reports.PrescricaoOtica.resources",
+      "file": "0003.bin",
+      "bytes": 3666,
+      "sha256": "d5595b117606cf70e3b08d1a7ed29e6f7549a7bd2f0daea2fb3f8d2700d66207"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.Reports.ComprovanteCreditoServico.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.Reports.ComprovanteCreditoServico40Colunas.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.Reports.ComprovanteCashback40Colunas.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.Reports.ComprovanteCashback.resources",
+      "file": "0007.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.Reports.Comprovante.resources",
+      "file": "0008.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.Reports.Comprovante40Colunas.resources",
+      "file": "0009.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.ViewModels.OutrasInformacoes.Reports.Agendamentos.resources",
+      "file": "0010.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Pessoas.ViewModels.OutrasInformacoes.Reports.Financeiro.resources",
+      "file": "0011.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Pessoas.dll.licenses",
+      "file": "0012.bin",
+      "bytes": 278,
+      "sha256": "cf97f796cc450fa152bc3f54643b96aef75a5b2c872692a6294b8eae1e87ff08"
+    }
+  ]
+}

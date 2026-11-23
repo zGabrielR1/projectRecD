@@ -1,0 +1,96 @@
+{
+  "name": "Modulo.GeradorArquivosTerminalConsulta",
+  "baseline": "baseline\\Modulo.GeradorArquivosTerminalConsulta.dll",
+  "baseline_sha256": "c7840eba60947517dc018018c2a9bdb54f4922e62e601dc6a96b4de9cfd485ae",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosTerminalConsulta\\Modulo.GeradorArquivosTerminalConsulta.csproj",
+  "sources": [
+    {
+      "path": "GeradorArquivoTerminalConsultaModulo.cs",
+      "export_path": "GeradorArquivoTerminalConsultaModulo.cs",
+      "raw_sha256": "d98a7f2c3e4746bb1d32af3a793388039f0d43396a713edb4cf2d184c1be2abf"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "b95253435ad64215c3cdbabd6d99a95bbef027150ba8f2796389700e3782131d"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "61897f71349ec2ba70bb729f755bed55a0dc313f28a98ea72d147c45c1b13cf9"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "ee89f2955583220cecff8e6fd827af7cc02aaf4e91ff8a8ae3ecf69249efcb5a"
+    },
+    {
+      "path": "Services\\GeradorArquivosTerminalConsultaService.cs",
+      "export_path": "Services\\GeradorArquivosTerminalConsultaService.cs",
+      "raw_sha256": "b2e619dc32fdc9842d8751532bff43d1f34018bc0198e9694e210d697119df0b"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoAbaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoAbaViewModel.cs",
+      "raw_sha256": "326a669a4fb68bf46523a2ab86d1e995567b5faba884467b12f1f41ea55e2d7e"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosTerminalConsultaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosTerminalConsultaViewModel.cs",
+      "raw_sha256": "7ead5287407aea2cb133c1fdd745e9ab9800ca72874200dfbc5645b67e7d874f"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoTerminalConsultaFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoTerminalConsultaFichaViewModel.cs",
+      "raw_sha256": "797c5948eb453489bec72d870ecdebc3e41f53f1f0e8077976afd7ef19bccfcf"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoTerminalConsultaFormulario.cs",
+      "export_path": "ViewModels\\GeradorArquivoTerminalConsultaFormulario.cs",
+      "raw_sha256": "a830c227b7180a281eedd23b2e7467f1cde5381200da8f438031df8e86d11c42"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoTerminalConsultaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoTerminalConsultaViewModel.cs",
+      "raw_sha256": "9c894910529003c25915c1e0d23ed90a99f3bbe3c03e58ee4e0a7507893d4811"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\GeradorArquivoView.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\GeradorArquivoView.cs",
+      "raw_sha256": "8b3cc133bf044cb8f1a84c91204a8290b604bc08e8e041d9f5edf343431f8dab"
+    },
+    {
+      "path": "Views\\GeradorArquivosTerminalConsultaView.cs",
+      "export_path": "Views\\GeradorArquivosTerminalConsultaView.cs",
+      "raw_sha256": "ab686addd3c8442478d127531dd25b0791ecd7085443948a3bae3b3e9fe8d412"
+    },
+    {
+      "path": "Views\\GeradorArquivoTerminalConsultaFichaView.cs",
+      "export_path": "Views\\GeradorArquivoTerminalConsultaFichaView.cs",
+      "raw_sha256": "4e5377e4f85338b48e189b9b883a295f5cb1818ca7dd5723fbb8d1513f31befe"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Restore exception catch assignment to outer retry local, supported by original stloc.0/ldloc.0 IL",
+      "occurrences": 1,
+      "evidence": "engenharia\\codebase-local\\retry-evidence\\Modulo.GeradorArquivosTerminalConsulta\\Modulo.GeradorArquivosTerminalConsulta.il"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosTerminalConsulta.g.resources",
+      "file": "0000.bin",
+      "bytes": 9000,
+      "sha256": "51146fc00c203db718f82bb3cf6826b25771b8e17f7da3f00e371196c5d6b958"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosTerminalConsulta.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

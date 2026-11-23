@@ -1,0 +1,137 @@
+{
+  "name": "Modulo.PlanosConta",
+  "baseline": "baseline\\Modulo.PlanosConta.dll",
+  "baseline_sha256": "8ade1afa3ec1ca99ab192a94d81f78bb63b681d823fe27f99eee9d68e583cc59",
+  "export_project": "recovered\\SuiteG6\\Modulo.PlanosConta\\Modulo.PlanosConta.csproj",
+  "sources": [
+    {
+      "path": "PlanoContaModulo.cs",
+      "export_path": "PlanoContaModulo.cs",
+      "raw_sha256": "b9c83416188fe2637ec93ee53665986049741eb383f831c9b0c8caa9183d93be"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "79c1a0f32e7793c78c33e17ff7d81c462403676899c6179c00883d3479211735"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "5799aa5226f44f08f76947c8bb9ee3f655f6d7f5645805470c4b467fc9ac30d3"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "72792ee508975cb670057f1a390bb947e394651848360a87180cd6edaf0a6a74"
+    },
+    {
+      "path": "Reports\\Relatorio.cs",
+      "export_path": "Reports\\Relatorio.cs",
+      "raw_sha256": "6840e892d7b6b1ab7c4ee22eea42d8f06858dab7c544d6aab9d1708d81afb33a"
+    },
+    {
+      "path": "ViewModels\\PlanoContaAbaViewModel.cs",
+      "export_path": "ViewModels\\PlanoContaAbaViewModel.cs",
+      "raw_sha256": "0e8bb5276ca6ac696d741c6a5cc626bb816f7e5524a18f4579cdb2b2234277a5"
+    },
+    {
+      "path": "ViewModels\\PlanoContaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\PlanoContaFichaAdicionarViewModel.cs",
+      "raw_sha256": "ecdc6af2ee4058ab483d8b13b8b58efe54b1bb8159c657968eca2dc169d4c83e"
+    },
+    {
+      "path": "ViewModels\\PlanoContaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\PlanoContaFichaAtualizarViewModel.cs",
+      "raw_sha256": "9fddcb3c61c75780d679f8bf68e98031c7023158d458cd38980a34e33cfd5697"
+    },
+    {
+      "path": "ViewModels\\PlanoContaFormulario.cs",
+      "export_path": "ViewModels\\PlanoContaFormulario.cs",
+      "raw_sha256": "96c7f26923bb75ef93609cca4904a3577818adb67ef4b205ce2b8c99cc04d5c7"
+    },
+    {
+      "path": "ViewModels\\PlanoContaListaViewModel.cs",
+      "export_path": "ViewModels\\PlanoContaListaViewModel.cs",
+      "raw_sha256": "218f4c33af5132063f2745a7ba05fdff1aa1fe9f52954b5c2944924e6c688d5e"
+    },
+    {
+      "path": "ViewModels\\PlanoContaPrincipal.cs",
+      "export_path": "ViewModels\\PlanoContaPrincipal.cs",
+      "raw_sha256": "11b30d5f75db86ecb3be0c3681024062accf042cbbdf2f6e33b02e4f95169c4e"
+    },
+    {
+      "path": "ViewModels\\PlanoContaViewModel.cs",
+      "export_path": "ViewModels\\PlanoContaViewModel.cs",
+      "raw_sha256": "82ae720022abd053e935ee28514ea611e0207de7d217086073de9530c071e948"
+    },
+    {
+      "path": "ViewModels\\PlanosContaViewModel.cs",
+      "export_path": "ViewModels\\PlanosContaViewModel.cs",
+      "raw_sha256": "e4e74535a29578447bbc05e25f810548ac72b00a9aac41ce8afb6e1a3bce2967"
+    },
+    {
+      "path": "ViewModels\\TipoPlanoContaViewModel.cs",
+      "export_path": "ViewModels\\TipoPlanoContaViewModel.cs",
+      "raw_sha256": "9b7cfc98b4e838391b88cb9827e0ce495a84782957399aeaa9c5126b66ca5fd5"
+    },
+    {
+      "path": "Views\\PlanoContaFichaAdicionarView.cs",
+      "export_path": "Views\\PlanoContaFichaAdicionarView.cs",
+      "raw_sha256": "e09a191d5d2f0ac357f69b982cd7199f9b43d164e16115d315b5c012a108ee49"
+    },
+    {
+      "path": "Views\\PlanoContaFichaAtualizarView.cs",
+      "export_path": "Views\\PlanoContaFichaAtualizarView.cs",
+      "raw_sha256": "4ff79682f3eec7edde3812833b61720b6c3c94cffbda2ab70dfd248a78b8d4bc"
+    },
+    {
+      "path": "Views\\PlanoContaFichaViewDetalhes\\PlanoContaView.cs",
+      "export_path": "Views\\PlanoContaFichaViewDetalhes\\PlanoContaView.cs",
+      "raw_sha256": "19ed4905a4d86847a7f6d0031a852ed9a3ac06b036741e2e508653475846b06c"
+    },
+    {
+      "path": "Views\\PlanoContaListaView.cs",
+      "export_path": "Views\\PlanoContaListaView.cs",
+      "raw_sha256": "fff44f6707d90ed74a04fbccc479a1671dfb626eedc0174b26c5c2ad6635adda"
+    },
+    {
+      "path": "Views\\PlanosContaView.cs",
+      "export_path": "Views\\PlanosContaView.cs",
+      "raw_sha256": "438dfbf4ea65cd3ccf53b3eace9263912c48679cbfd74db41e3836682cf48bbf"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Qualify report enum types shadowed by WPF imports or instance properties",
+      "occurrences": 11
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.PlanosConta.g.resources",
+      "file": "0000.bin",
+      "bytes": 12762,
+      "sha256": "ccea5197f0e25ae08bcdbb6804c717e9fef3ad4bbdb67b7888587868a3a8ec79"
+    },
+    {
+      "name": "Otus.Modulo.PlanosConta.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PlanosConta.Reports.Relatorio.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.PlanosConta.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 282,
+      "sha256": "f99a6e04601a5dceecd1b521b3e7903cf4eac6f92baf397612599477218c409b"
+    }
+  ],
+  "generated_stubs": false
+}

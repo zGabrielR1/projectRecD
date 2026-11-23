@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "f02f7c6993260409158fb2302e9b8c6934bf0ecffafabc774d2e2db947a8a1c7",
+  "mvid": "cfa0a99e-1d49-4a3d-88af-1fb60a133cef",
+  "assembly": "Modulo.EmailsModelo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.RichEdit.v15.2",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.RichEdit.v15.2.Core",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.EmailsModelo.g.resources",
+      "file": "0000.bin",
+      "bytes": 12764,
+      "sha256": "bd5498b35a4b0b34798a8cbaa8d6a01151f4d3379a47ae4900618b1308765db5"
+    },
+    {
+      "name": "Otus.Modulo.EmailsModelo.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

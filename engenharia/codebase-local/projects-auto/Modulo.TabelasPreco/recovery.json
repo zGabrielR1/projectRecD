@@ -1,0 +1,160 @@
+{
+  "name": "Modulo.TabelasPreco",
+  "baseline": "baseline\\Modulo.TabelasPreco.dll",
+  "baseline_sha256": "197d3e4842f79317cb570c26d6f42a2ebfc5ed6a04f9c2ff8ce902cb878da6c1",
+  "export_project": "recovered\\SuiteG6\\Modulo.TabelasPreco\\Modulo.TabelasPreco.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f107840cdb586bd384dff0a6d4319fc85166369f56e562d65116c5d9b880b1f1"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "1f897111db735f441d1598e4469794d1b976fe271b2637a413d0c60bc0703b7b"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "931f9efa5469e1b6e58055b57c5893aebfd16416c9308801d379def7bf59f9a5"
+    },
+    {
+      "path": "TabelaPrecoModulo.cs",
+      "export_path": "TabelaPrecoModulo.cs",
+      "raw_sha256": "5b8a8a08b5093fa5ea6af47dda8333611d186ad112bb239ba8cf15c738c917df"
+    },
+    {
+      "path": "ViewModels\\ItemTabelaPrecoViewModel.cs",
+      "export_path": "ViewModels\\ItemTabelaPrecoViewModel.cs",
+      "raw_sha256": "48172dbf0dd28b409097c244f8775a883ababc839bad9b579960f50acdefcdc0"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoAbaViewModel.cs",
+      "export_path": "ViewModels\\TabelaPrecoAbaViewModel.cs",
+      "raw_sha256": "4d396bf0293d5223f2e2946589f9da775932ffcc99c85dd4a5aaef274b4862e7"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TabelaPrecoFichaAdicionarViewModel.cs",
+      "raw_sha256": "e52a5b270097140c5a70977425845635c212fae6191345f7c4ec3908b5f2d204"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\TabelaPrecoFichaAtualizarViewModel.cs",
+      "raw_sha256": "11593999fee25f64902c2df58b7332c761fd4f35352b3e7486c8935f6765a27c"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoFormulario.cs",
+      "export_path": "ViewModels\\TabelaPrecoFormulario.cs",
+      "raw_sha256": "7495a9719dabf93485eaa5da7c238703eb9b6306517ce5f827468cdf07fc34f4"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoItensAbaViewModel.cs",
+      "export_path": "ViewModels\\TabelaPrecoItensAbaViewModel.cs",
+      "raw_sha256": "d69adc7adbe0d3650886c13f9b0a91dce25c93a91d918f155abc96c5d19e3b30"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoItensSelecionadosAbaViewModel.cs",
+      "export_path": "ViewModels\\TabelaPrecoItensSelecionadosAbaViewModel.cs",
+      "raw_sha256": "5467b983236259376a2dc37a8c3d14bb5b6d71e5fc159a7e61376cf6d1cd5059"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoItensSelecionadosViewModel.cs",
+      "export_path": "ViewModels\\TabelaPrecoItensSelecionadosViewModel.cs",
+      "raw_sha256": "9875714b087977f6fde81769b838e0cd03d4f12799c6048145aed65b9a4f84bb"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoItensViewModel.cs",
+      "export_path": "ViewModels\\TabelaPrecoItensViewModel.cs",
+      "raw_sha256": "b4b38a2524a66ed2c280436976feca4230fcefe5af305dec6bf43b54223ed517"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoListaViewModel.cs",
+      "export_path": "ViewModels\\TabelaPrecoListaViewModel.cs",
+      "raw_sha256": "008db4d1cd9f6bb4282c17f6cefcf7aac9639d225b5a54e79be30325737b5c27"
+    },
+    {
+      "path": "ViewModels\\TabelaPrecoViewModel.cs",
+      "export_path": "ViewModels\\TabelaPrecoViewModel.cs",
+      "raw_sha256": "7910d7e4679be070244e2e242091b750700e155996537ae2d3f8efcf38c5be9a"
+    },
+    {
+      "path": "ViewModels\\TabelasPrecoViewModel.cs",
+      "export_path": "ViewModels\\TabelasPrecoViewModel.cs",
+      "raw_sha256": "586391ecb1ca521fcf7fd984be89b5c68b9b1e6be1b6f64927439e8edb4cdd8d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Acrescimo.cs",
+      "export_path": "ViewModels\\Tipos\\Acrescimo.cs",
+      "raw_sha256": "0391288336ef10f48c7d1eb75e00ca20daf3774facfb5d056d98979147b548e8"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Desconto.cs",
+      "export_path": "ViewModels\\Tipos\\Desconto.cs",
+      "raw_sha256": "2336f21342ef0619f73f5103310a627547be6a899e3af3dd8ab4273cb631acb0"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Tipo.cs",
+      "export_path": "ViewModels\\Tipos\\Tipo.cs",
+      "raw_sha256": "6a8fe4a910d57f7aebfd5b45cee54cc7c5f7ebe6d3dd1ece912b5d24099e02ad"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TipoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\TipoComboBoxViewModel.cs",
+      "raw_sha256": "4383829e2e9a480c41983a34ef8e389a3ecd08951e4db2f294169ccc50cd8db2"
+    },
+    {
+      "path": "views\\TabelaPrecoFichaAdicionarView.cs",
+      "export_path": "views\\TabelaPrecoFichaAdicionarView.cs",
+      "raw_sha256": "426a6fdf52c355a1533a31d93f761aaffd58e069de2cc5a3e9e8fcaaa5d25ddd"
+    },
+    {
+      "path": "views\\TabelaPrecoFichaAtualizarView.cs",
+      "export_path": "views\\TabelaPrecoFichaAtualizarView.cs",
+      "raw_sha256": "fd3dec83a3977b9b06c365f66055285322a51bfb13cd4e4c490e0e87d3a5b036"
+    },
+    {
+      "path": "views\\TabelaPrecoListaView.cs",
+      "export_path": "views\\TabelaPrecoListaView.cs",
+      "raw_sha256": "e970385e1466b3db02528f32ad8bed88d7ce66b57d09adee8aba32efc3697665"
+    },
+    {
+      "path": "views\\TabelaPrecoViewDetalhes\\TabelaPrecoItensSelecionadosView.cs",
+      "export_path": "views\\TabelaPrecoViewDetalhes\\TabelaPrecoItensSelecionadosView.cs",
+      "raw_sha256": "a15754e7abde47e9c446ee93dd3775b621bf60cf72c5559b8cf0789fbcd4b85e"
+    },
+    {
+      "path": "views\\TabelaPrecoViewDetalhes\\TabelaPrecoItensView.cs",
+      "export_path": "views\\TabelaPrecoViewDetalhes\\TabelaPrecoItensView.cs",
+      "raw_sha256": "39588bfd2a58e5dbc1c5081baebe630fca0bb4243e0145804212fd9aa1923f5a"
+    },
+    {
+      "path": "views\\TabelaPrecoViewDetalhes\\TabelaPrecoView.cs",
+      "export_path": "views\\TabelaPrecoViewDetalhes\\TabelaPrecoView.cs",
+      "raw_sha256": "dbffc8878c33f3708c47af8d0fa0e521bcded98a8a3b1aa833cbd5d960dafafd"
+    },
+    {
+      "path": "views\\TabelasPrecoView.cs",
+      "export_path": "views\\TabelasPrecoView.cs",
+      "raw_sha256": "4bd8845a56d04e4381446045f709e9cc45df2e239e5d2fe998f21a260f2db6e5"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.TabelasPreco.g.resources",
+      "file": "0000.bin",
+      "bytes": 33083,
+      "sha256": "101e38110bc76e70e8fed75d74a5cadc340355a490ea9750bd3e8cc5fed1304f"
+    },
+    {
+      "name": "Otus.Modulo.TabelasPreco.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

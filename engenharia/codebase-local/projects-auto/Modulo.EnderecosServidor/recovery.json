@@ -1,0 +1,102 @@
+{
+  "name": "Modulo.EnderecosServidor",
+  "baseline": "baseline\\Modulo.EnderecosServidor.dll",
+  "baseline_sha256": "6a5a4f0a01de901027081cb7bac5a1e2b57e165ef875e6ad8ec70f49cbb1be0f",
+  "export_project": "recovered\\SuiteG6\\Modulo.EnderecosServidor\\Modulo.EnderecosServidor.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "61c560eb861fec0ac12ed7661a9d5717e4c70bd86ee767de5c77e67ea8a5bb18"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "6a5a4f0a01de901027081cb7bac5a1e2b57e165ef875e6ad8ec70f49cbb1be0f"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 8
+    },
+    {
+      "kind": "Resolve helper/report/command aliases and protected report Dispose call",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException"
+      }
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.EnderecosServidor.g.resources",
+      "file": "0000.bin",
+      "bytes": 16912,
+      "sha256": "2df460cbcfa66b5b2d907646bd5e3c53b18763fbf92161ccbfe221d2042df06e"
+    },
+    {
+      "name": "Otus.Modulo.EnderecosServidor.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "EnderecoServidorModulo.cs",
+      "export_path": "EnderecoServidorModulo.cs",
+      "raw_sha256": "1f3d19a04a48f02196b31c3182dc5cf4ce66135b1fc578af7bfca1a9b2dd4c63"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "05ec4f69ee003ab12e2ee3a0d8ee335b91029a2b016b3c461fcc109fa68b0522"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "488b84d73e777bf15ce126a86b062290699b3d1a92dbf56845f7e8af83cff946"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "675cf66aaec3f9526bb79989151f46bc1e9926321908f7293b9067ec240dda17"
+    },
+    {
+      "path": "Services\\ConfiguracaoNavegacaoService.cs",
+      "export_path": "Services\\ConfiguracaoNavegacaoService.cs",
+      "raw_sha256": "cfa58cd39af3d5d3aebacda547a9f2ef59c7c1ef83d20cc773c798ff7a41a515"
+    },
+    {
+      "path": "Services\\LoaderIpEvent.cs",
+      "export_path": "Services\\LoaderIpEvent.cs",
+      "raw_sha256": "2f50fc0621f4d19ceb445de3bd2a0f1daa073029ed7fb9799a2027d461a429e9"
+    },
+    {
+      "path": "ViewModels\\EnderecoIpViewModel.cs",
+      "export_path": "ViewModels\\EnderecoIpViewModel.cs",
+      "raw_sha256": "de9f6b8974fa9f7a3b7b083d989ba33d85498a85f0d1c0dbd31dc10cc97082da"
+    },
+    {
+      "path": "ViewModels\\EnderecoServidorViewModel.cs",
+      "export_path": "ViewModels\\EnderecoServidorViewModel.cs",
+      "raw_sha256": "b9864f56fecfdabb05bdaf78ffdd3256ea91b1ce8c83349a39c92ac78da50b9e"
+    },
+    {
+      "path": "ViewModels\\EnderecosServidorViewModel.cs",
+      "export_path": "ViewModels\\EnderecosServidorViewModel.cs",
+      "raw_sha256": "c360b9d465399fdf8e9c51158a3ea8cd647d6124d06fbfbabf6cc3450cd04600"
+    },
+    {
+      "path": "Views\\EnderecoServidorView.cs",
+      "export_path": "Views\\EnderecoServidorView.cs",
+      "raw_sha256": "2d87776d30f273074f832f6ec96cf0b10b04bf60e681903b5f1e4e7656103049"
+    },
+    {
+      "path": "Views\\EnderecosServidorView.cs",
+      "export_path": "Views\\EnderecosServidorView.cs",
+      "raw_sha256": "ba0d247d62fa5a25788e0b13693c3daa6e97b78c5ba59ef390a70873d32da409"
+    }
+  ]
+}

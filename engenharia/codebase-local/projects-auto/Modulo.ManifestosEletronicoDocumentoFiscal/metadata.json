@@ -1,0 +1,140 @@
+{
+  "artifactSha256": "a7bc3c2fb2630b0782ae31a316905c666be00a2b332bfd7ad28ed9e820fd115a",
+  "mvid": "5404571f-637a-487a-9063-78750f49729d",
+  "assembly": "Modulo.ManifestosEletronicoDocumentoFiscal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "System.ServiceModel",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.Printing.v15.2.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "System.Reactive.Core",
+    "DevExpress.Data.v15.2",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ManifestosEletronicoDocumentoFiscal.g.resources",
+      "file": "0000.bin",
+      "bytes": 182874,
+      "sha256": "cf030b9d68fb3dc035bf9fd4595fe703710cae8e64c32f8db5d62c96cc8a7653"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.Contingencia.CondutorContingencia.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.Contingencia.DamdfeRetratoContingencia.resources",
+      "file": "0003.bin",
+      "bytes": 1299,
+      "sha256": "cc349aeeedc2f00d3264305b647b673a4bb7c3a9a593a2dc1ae46c0c0151e38f"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.Contingencia.ValePedagioContingencia.resources",
+      "file": "0004.bin",
+      "bytes": 576,
+      "sha256": "0a7ff163e9e3ea5423e7089573ec86b1109951dad6f52947e9ba729a6d9e6803"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.DamdfeRetrato.resources",
+      "file": "0005.bin",
+      "bytes": 1393,
+      "sha256": "edb7bf5191c8a97d21949122d7b3d784d530c6e9c9689a6d2b4e067810ca823c"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.DamdfeReboque.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.DamdfePercurso.resources",
+      "file": "0007.bin",
+      "bytes": 576,
+      "sha256": "0a7ff163e9e3ea5423e7089573ec86b1109951dad6f52947e9ba729a6d9e6803"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.DamdfeVeiculo.resources",
+      "file": "0008.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.DamdfeValePedagio.resources",
+      "file": "0009.bin",
+      "bytes": 576,
+      "sha256": "0a7ff163e9e3ea5423e7089573ec86b1109951dad6f52947e9ba729a6d9e6803"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.DamfeCiot.resources",
+      "file": "0010.bin",
+      "bytes": 560,
+      "sha256": "d20dfc63252e9eb60262f488690b8a7b036e73fdd887b829a43ea326424945ef"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.Damdfe.DamfeCondutor.resources",
+      "file": "0011.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.EspelhoMdfe.EspelhoMdfeCiot.resources",
+      "file": "0012.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.EspelhoMdfe.EspelhoMdfeValePedagio.resources",
+      "file": "0013.bin",
+      "bytes": 576,
+      "sha256": "0a7ff163e9e3ea5423e7089573ec86b1109951dad6f52947e9ba729a6d9e6803"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.EspelhoMdfe.EspelhoMdfeCondutor.resources",
+      "file": "0014.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ManifestosEletronicoDocumentoFiscal.Reports.EspelhoMdfe.EspelhoManifestoDocumentoFiscal.resources",
+      "file": "0015.bin",
+      "bytes": 3505,
+      "sha256": "297077b7ae908042f1867ede2ac5f65abba8fe44c690d813559d528fdebf55c1"
+    },
+    {
+      "name": "Modulo.ManifestosEletronicoDocumentoFiscal.dll.licenses",
+      "file": "0016.bin",
+      "bytes": 306,
+      "sha256": "f9db61c8bdbbfd9ccca227e3c6fe5d2e35ab8d5daf436e835434453ec7912b7b"
+    }
+  ]
+}

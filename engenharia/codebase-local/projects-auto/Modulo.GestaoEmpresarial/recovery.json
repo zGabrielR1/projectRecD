@@ -1,0 +1,459 @@
+{
+  "name": "Modulo.GestaoEmpresarial",
+  "baseline": "baseline\\Modulo.GestaoEmpresarial.dll",
+  "baseline_sha256": "9c893559d9d9b28eaa847cc38b25051a5db9c1526b00edf321dfc7b09521acea",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoEmpresarial\\Modulo.GestaoEmpresarial.csproj",
+  "sources": [
+    {
+      "path": "GestaoEmpresarialModulo.cs",
+      "export_path": "GestaoEmpresarialModulo.cs",
+      "raw_sha256": "111a55cc20f4e7e183219aa743f4fbefe2339d9aea643a523c5487d85f8b526f"
+    },
+    {
+      "path": "Interfaces\\IModoFuncionamentoService.cs",
+      "export_path": "Interfaces\\IModoFuncionamentoService.cs",
+      "raw_sha256": "4b1e4bb303b0e8144cd40dbd3ae17f78dc6a59dade378c0e117d7043ece1b3b2"
+    },
+    {
+      "path": "Interfaces\\IViewModelGestaoEmpresarial.cs",
+      "export_path": "Interfaces\\IViewModelGestaoEmpresarial.cs",
+      "raw_sha256": "a3f4f027af42c4c8d69c4d083ad63050753553e8c01e868ed91d2899d8f6f1b2"
+    },
+    {
+      "path": "Interfaces\\IViewModelGraficoGestaoEmpresarial.cs",
+      "export_path": "Interfaces\\IViewModelGraficoGestaoEmpresarial.cs",
+      "raw_sha256": "7afe2c783487264ae7af1c63e468ee6f5ba592a4e53e3f5c0415b876f9a34ed5"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "eb7e66a53086bd2338c1dbf58e02d9f2eaf85b47c3f3284932d8347bb7ea203d"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "163cc1ed1820564e8dc4a12f436aa916cd63dad54c280e2582a6d6fc612ce5a9"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8c768fb37eeaee318b4c065071711fced21e515c30dd56c807f0642a4f635bf6"
+    },
+    {
+      "path": "Services\\ModoFuncionamentoService.cs",
+      "export_path": "Services\\ModoFuncionamentoService.cs",
+      "raw_sha256": "97997e9cbacd8919db33faa211f215089bcdfbaed986a5c68028c1ba570ba9ca"
+    },
+    {
+      "path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoBaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoBaseDetalheViewModel.cs",
+      "raw_sha256": "3a1a5499f55f8dbbbeb475238649bc0731dab067940d17553f93e96cf2640454"
+    },
+    {
+      "path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoDetalheAbaViewModel.cs",
+      "raw_sha256": "d7faae6a9289feae22ac647a0bda7045ccdf5dc034c91da5067df1b0d2330975"
+    },
+    {
+      "path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoDetalheViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoDetalheViewModel.cs",
+      "raw_sha256": "6dde4345e66794ab0c1a56f4c7faba181c737758b1fc31fd3af297f1fa71ff36"
+    },
+    {
+      "path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoFormulario.cs",
+      "export_path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoFormulario.cs",
+      "raw_sha256": "44ff99b7caa0bace37027825e67a0f69b01e6bbbccfdb5f9bbffb1d5aacc0360"
+    },
+    {
+      "path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentosTransporteEletronicoDetalhe\\ConhecimentosTransporteEletronicoViewModel.cs",
+      "raw_sha256": "b2b894774d02d34351f40c4f48f42079edaa765ba135ba9c93b26cd342958052"
+    },
+    {
+      "path": "ViewModels\\DetalhesViewModel\\BaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\DetalhesViewModel\\BaseDetalheViewModel.cs",
+      "raw_sha256": "6d2f72717a5fe7b9c96bc42c23ea1d89d480210f13da3fa892cf8739683b1f7c"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroBaseDetalheViewModel.cs",
+      "raw_sha256": "fdff1eebe13d791ac1d50ade43dadd2affa6e0f8a71aa3f749eae1d95ab42fe3"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroContaDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroContaDetalheAbaViewModel.cs",
+      "raw_sha256": "f8cc0bc48371cf95655438393cdc7abf8f77378ffefbc983c7d8db6f056249d0"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroContaDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroContaDetalheViewModel.cs",
+      "raw_sha256": "4355297e18ab376c6a75af52ee1294ba709552f472d97251603f4375878f5cfd"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroFormulario.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroFormulario.cs",
+      "raw_sha256": "a2ba5dc4cbf32a16d0639bed4ac6aa2df21f622c3b5839ec7a0076929a2d18c5"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroMovimentoContaDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroMovimentoContaDetalheAbaViewModel.cs",
+      "raw_sha256": "2bf74e84acd8020cc0af5eec07dbc9c9c4dd067015f4afa5e9564dd5efad6fa8"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroMovimentoContaDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroMovimentoContaDetalheViewModel.cs",
+      "raw_sha256": "c12d116673dc3eda53bb74566cef15f005a381d2051a7752ae8f4916aa8e7a80"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroPagamentoDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroPagamentoDetalheAbaViewModel.cs",
+      "raw_sha256": "163d2ac82ec5a00d2a34984c5a5bdf480ca72f8e8f20593ad12736c641fcdd35"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroPagamentoDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroPagamentoDetalheViewModel.cs",
+      "raw_sha256": "881e582f8fb1b75213f588c0e1631c810e04ddf98a21c4ce7a71d55643e5bf92"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroRecebimentoDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroRecebimentoDetalheAbaViewModel.cs",
+      "raw_sha256": "1f085723c3410f0c51033f16e35ee7742e6e4c15a86888f7a4f081d032b16b8a"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroRecebimentoDetalheViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroRecebimentoDetalheViewModel.cs",
+      "raw_sha256": "46c93fe30be6950f6795a6b34ff645ce82b081e60eb36677f19180b1e199f422"
+    },
+    {
+      "path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroDetalhesViewModel\\FinanceiroViewModel.cs",
+      "raw_sha256": "dc382bb6bea50b56a6cc12353400133b2038af8f7eb973eb0fa59a798fd9b998"
+    },
+    {
+      "path": "ViewModels\\GestaoEmpresarialPrincipalViewModel.cs",
+      "export_path": "ViewModels\\GestaoEmpresarialPrincipalViewModel.cs",
+      "raw_sha256": "fd751c9f274956fc54b6e1b57d184ffdad299698555cce1a6a045ba651cbc006"
+    },
+    {
+      "path": "ViewModels\\GestaoEmpresarialViewModel.cs",
+      "export_path": "ViewModels\\GestaoEmpresarialViewModel.cs",
+      "raw_sha256": "7abbeb548fe8d94c7b5453185921abd9a6b47939fa2857497f6a8602db22895d"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosBase\\DataHoraValor.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosBase\\DataHoraValor.cs",
+      "raw_sha256": "5bb92c4bac68fe4cf03e93242b9ca9c805beb11f2285d80f2eb025d8bbc5215b"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosBase\\DescricaoValor.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosBase\\DescricaoValor.cs",
+      "raw_sha256": "b8cb7643a89eeba15168ac4a51700f685d042128981e043181d45a8e7012b75a"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosBase\\PropriedadeInformacao.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosBase\\PropriedadeInformacao.cs",
+      "raw_sha256": "08c97b85149f803eed402fd913047e8b30c25138ad617b750b61c63cd3556542"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContasDetalhesAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContasDetalhesAbaViewModel.cs",
+      "raw_sha256": "e7dc06255cd99dda23a494eb65cc5fbd86839912e360fce460092142cc8cd594"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContasDetalhesViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContasDetalhesViewModel.cs",
+      "raw_sha256": "09a0bcd07094de3a48e86c6f7ae689ab259abd0f106277b43c1809edd1265cb6"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\GraficoContasAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\GraficoContasAbaViewModel.cs",
+      "raw_sha256": "6814f58b51ce452df8fcf13dbf6d3051e1333e2b9c5d09c7c11d2635f3f2ae27"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\GraficoContasFormulario.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\GraficoContasFormulario.cs",
+      "raw_sha256": "23e1ace7e5b1af9f942edd8c2e7530b3d372aa42cdbbeb8b4148dd5d21647f49"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\GraficoContasViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\GraficoContasViewModel.cs",
+      "raw_sha256": "7c9d4dc533aabfb165b91d33f44753ecae5280f862041a30fbc0cfac54cd99d0"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\ContasComboBox.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\ContasComboBox.cs",
+      "raw_sha256": "5c106b359967fa08d5b125cad45bc3654b6b7097f56c31a21bc8809f4de10505"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\TipoGraficoConta.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\TipoGraficoConta.cs",
+      "raw_sha256": "0fe2fc4ceaea954d12818a83baee018b726b30ed13eb45628bb506b88ad6d8a5"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\TipoGraficoContaComboBox.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\TipoGraficoContaComboBox.cs",
+      "raw_sha256": "c46fd11dfd07a2194c59aae5d1f16c55307b26362f5f3604750d085ec9c4c2f4"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\TotalPorDia.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\TotalPorDia.cs",
+      "raw_sha256": "0dcb53fc26098c69bcb3d56f8a304b34e354ba3e17f149d7d893c0cbda9299c3"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\TotalPorPeriodo.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosContas\\TiposGraficosContas\\TotalPorPeriodo.cs",
+      "raw_sha256": "8f054e0b0462c3eeda3219ca0616d249f572d87985dc97927f58f1a948e890b5"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosFormulario.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosFormulario.cs",
+      "raw_sha256": "dad04c21fe626974e1e1694ad1ea4b1f3ba6eb90dbc59d93c5c51d143f3a1230"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoesDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoesDetalheAbaViewModel.cs",
+      "raw_sha256": "441927155b0ec2ebc6255226e5c1378dddee9f8000c68194ddcc270370446aab"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoesDetalheViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoesDetalheViewModel.cs",
+      "raw_sha256": "2c03399af3231df4ef1a7956660701f6609cb54b6d387e8192a4c0209301972c"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\GraficoEntradasSaidasAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\GraficoEntradasSaidasAbaViewModel.cs",
+      "raw_sha256": "f0018e844268a140e69b338ec479b13dfa4844675bb35e16e4e160df149161ce"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\GraficoEntradasSaidasFormulario.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\GraficoEntradasSaidasFormulario.cs",
+      "raw_sha256": "b41b866ede1f3eb3654f341ea85ade542e93b78ba4678da8e51ba49d35957b8e"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\GraficoEntradasSaidasViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\GraficoEntradasSaidasViewModel.cs",
+      "raw_sha256": "b15fd8060585a75a4d1de95910f1c030350575a9adf77c420c5f73db410288d3"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TipoGraficoMovimentacao.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TipoGraficoMovimentacao.cs",
+      "raw_sha256": "3b79cdff670f3e0843ae31c3d9d4271c34643ff74e5bbad5c2172a8b0fbb8307"
+    },
+    {
+      "path": "_long\\bb03bed54d88a723.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TipoGraficoMovimentacaoComboBox.cs",
+      "raw_sha256": "11dae36c4f5db68ba82e198f13cb3d44b7f627a73ef1a233b667400619dabbfc"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalEntradaPorDia.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalEntradaPorDia.cs",
+      "raw_sha256": "af7252c6cb0eabdbb0baf9fd35e40625dfc6805eb91c21dbae63c5078eedc64b"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalEntradaPorPeriodo.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalEntradaPorPeriodo.cs",
+      "raw_sha256": "767ef6e668c156cff1100eed5ee3c5ac93d32bd72894cb48b3c6caee4e0ceede"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalPorDia.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalPorDia.cs",
+      "raw_sha256": "430ab3814e9ed43274d118db05a75c2ff99524519fb68e3fdd7aa14dcbb9ea00"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalPorPeriodo.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalPorPeriodo.cs",
+      "raw_sha256": "324b0fea615694bb0a59604112989f51e4af8dde06cf715b5c0b0e75ed455924"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalSaidaPorDia.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalSaidaPorDia.cs",
+      "raw_sha256": "159d43c8988d6346588aedbca02cbb91bc0c82d8284d2bff371e122ecfa3f64f"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalSaidaPorPeriodo.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosMovimentacoes\\TiposGraficosMovimentacoes\\TotalSaidaPorPeriodo.cs",
+      "raw_sha256": "dea420b5446dd755b67db6756b2988cac68fdae8b0d0d3a8d2814588a91c9c86"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentosDetalhesAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentosDetalhesAbaViewModel.cs",
+      "raw_sha256": "e242bc743d437c706147decbb379650ea552cd8236c2bc8a0d34085e3eea3ef3"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentosDetalhesViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentosDetalhesViewModel.cs",
+      "raw_sha256": "e86ffccdaec1740ebf1e784bf245d881e28c4ff4e3338f0983b42d0fa578a266"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\GraficoPagamentosRecebimentosFormulario.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\GraficoPagamentosRecebimentosFormulario.cs",
+      "raw_sha256": "14580ee75e2f2f6df504e082e0dff769fdc5f88c9c8facf142c4e8e39d0c0e8d"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\GraficoPagamentosRecebimentosViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\GraficoPagamentosRecebimentosViewModel.cs",
+      "raw_sha256": "54b8ed5eb44982d184a55de844db9a3cb7802cb8b84c9d6987ed82f055698d67"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\GraficosPagamentosRecebimentosAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\GraficosPagamentosRecebimentosAbaViewModel.cs",
+      "raw_sha256": "ed7b38186c965ef0132c7dc13b6b6f0d15728a2af8a4779586b1b770dd55ee89"
+    },
+    {
+      "path": "_long\\a341306884c670d4.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\TiposGraficosPagamentosRecebimentos\\TipoGraficoPagamentoRecebimento.cs",
+      "raw_sha256": "2c5ea27a976a40ae5728c59a437b97f56e1bbb87b3096f4faadc33ac1175c972"
+    },
+    {
+      "path": "_long\\dcaa18fc982ea125.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\TiposGraficosPagamentosRecebimentos\\TipoGraficoPagamentoRecebimentoComboBox.cs",
+      "raw_sha256": "de301944b127339f8191a70cdc120f9eee311d7a007d041b0ff2253bfa6d9b0d"
+    },
+    {
+      "path": "_long\\139d77131b27e1b7.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\TiposGraficosPagamentosRecebimentos\\TotalPagamentoNoPeriodo.cs",
+      "raw_sha256": "059284eee620b890ad5ffed3193d9332e4dda92e45af1259b4d0b700da68eeaa"
+    },
+    {
+      "path": "_long\\a6253232960a0edd.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\TiposGraficosPagamentosRecebimentos\\TotalPorDia.cs",
+      "raw_sha256": "b0da209a738793c9fa62edf916222ea00bc4720e90e92005bb3a842aab142038"
+    },
+    {
+      "path": "_long\\810b664d0acb31c4.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\TiposGraficosPagamentosRecebimentos\\TotalPorPeriodo.cs",
+      "raw_sha256": "11a27ff39dfe408af09b493f3eeb0dd098ad3ce63a9421c64bd9ae6284b2218a"
+    },
+    {
+      "path": "_long\\d5e532ef39109fb9.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosPagamentosRecebimentos\\TiposGraficosPagamentosRecebimentos\\TotalRecebimentoPorPeriodo.cs",
+      "raw_sha256": "716794097e48ef95124bfe2ce20be3c68fa6a6cd49b1b9cb7fbc12f8d8fb4d12"
+    },
+    {
+      "path": "ViewModels\\GraficosDetalhesViewModel\\GraficosViewModel.cs",
+      "export_path": "ViewModels\\GraficosDetalhesViewModel\\GraficosViewModel.cs",
+      "raw_sha256": "bbf703471eac0a9ed16ad9143520a74a712f64f30b5a0bb73aa976229bf0c452"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesAbastecimentosDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesAbastecimentosDetalheAbaViewModel.cs",
+      "raw_sha256": "b2a792398d58c62749a24098da8a024672024069f76d4231a8c334335e35e929"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesAbastecimentosDetalheViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesAbastecimentosDetalheViewModel.cs",
+      "raw_sha256": "ad27ff7b1a8c24af2fdce8ee0b0f45c069558828274e9a703647876a3d8d3461"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesBaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesBaseDetalheViewModel.cs",
+      "raw_sha256": "a72944f781cff5481fba15608bae58d9603bcab1ebd82040e961d9d25302f124"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesDetalheAbaViewModel.cs",
+      "raw_sha256": "008144c21fadac3cd8e0b7ef9e1d212f8c646383ad53d1172332550581b4770e"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesDetalheViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesDetalheViewModel.cs",
+      "raw_sha256": "d4a9a4b7d43c7556b77942debd66ac6d6e9777fa422708b1883a051a71a678a2"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesFormulario.cs",
+      "export_path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesFormulario.cs",
+      "raw_sha256": "ba6e9e38e43d26d515f50d8d84b9e215e76e1ee15ae7fc6306e09cc6c354b4ac"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesItensDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesItensDetalheAbaViewModel.cs",
+      "raw_sha256": "a6774a2c71cf02d2f0fc70335d2662127c6b3a707f9d32a9c19cc9c10fd4f399"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesItensDetalheViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesItensDetalheViewModel.cs",
+      "raw_sha256": "a0db643305f71fa1133e8bb288664729129356f2731f1c9446e8424909179686"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesDetalhesViewModel\\MovimentacoesViewModel.cs",
+      "raw_sha256": "a1886472880ad8b79bccac3a7901d1f141d6fa40b5277038fa5e35188452131c"
+    },
+    {
+      "path": "ViewModels\\PessoasDetalhesViewModel\\PessoasDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\PessoasDetalhesViewModel\\PessoasDetalheAbaViewModel.cs",
+      "raw_sha256": "8bebb7524ea5486ede4398da416cca429427ec56bb6bfd228047b4d91c2b45c9"
+    },
+    {
+      "path": "ViewModels\\PessoasDetalhesViewModel\\PessoasDetalheViewModel.cs",
+      "export_path": "ViewModels\\PessoasDetalhesViewModel\\PessoasDetalheViewModel.cs",
+      "raw_sha256": "63c66aa42f2af269b2876f1fee619fd7e2f8e709138f5ee314447875a2935cd9"
+    },
+    {
+      "path": "ViewModels\\PessoasDetalhesViewModel\\PessoasFormulario.cs",
+      "export_path": "ViewModels\\PessoasDetalhesViewModel\\PessoasFormulario.cs",
+      "raw_sha256": "6de59a4543d6c7854bd12aab3d807553b8712a5f72580181a89160324900171f"
+    },
+    {
+      "path": "ViewModels\\PessoasDetalhesViewModel\\PessoasViewModel.cs",
+      "export_path": "ViewModels\\PessoasDetalhesViewModel\\PessoasViewModel.cs",
+      "raw_sha256": "d37dc3d94e95cb3915a604b7312c2a9492d22526906f0e31294cb45e3e876146"
+    },
+    {
+      "path": "ViewModels\\ProdutosServicosDetalhesViewModel\\ProdutosServicosDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\ProdutosServicosDetalhesViewModel\\ProdutosServicosDetalheAbaViewModel.cs",
+      "raw_sha256": "3557d1e1ffbbd506e92e1c4d608bf2ceab829aad101d0d239ac20224003249e8"
+    },
+    {
+      "path": "ViewModels\\ProdutosServicosDetalhesViewModel\\ProdutosServicosDetalheViewModel.cs",
+      "export_path": "ViewModels\\ProdutosServicosDetalhesViewModel\\ProdutosServicosDetalheViewModel.cs",
+      "raw_sha256": "aa3ffff33b0427801912092435c2e863cd833a0856035fab0b3769e2d2367703"
+    },
+    {
+      "path": "ViewModels\\ProdutosServicosDetalhesViewModel\\ProdutosServicosFormulario.cs",
+      "export_path": "ViewModels\\ProdutosServicosDetalhesViewModel\\ProdutosServicosFormulario.cs",
+      "raw_sha256": "5c3cf8f029a6a2caa2e0de85a6fd87ceb22b0d2a7dd47c77c7d454149f4c21db"
+    },
+    {
+      "path": "ViewModels\\ProdutosServicosDetalhesViewModel\\ProdutosServicosViewModel.cs",
+      "export_path": "ViewModels\\ProdutosServicosDetalhesViewModel\\ProdutosServicosViewModel.cs",
+      "raw_sha256": "3e04f9062488a63994d641114990b78945ac363bad69beb3f5bbab83606a434f"
+    },
+    {
+      "path": "Views\\GestaoEmpresarialPrincipalView.cs",
+      "export_path": "Views\\GestaoEmpresarialPrincipalView.cs",
+      "raw_sha256": "6e5c446f248e5e6e163fbef69527371d7e321d974ad5409490d7d3ea4c4b60d7"
+    },
+    {
+      "path": "Views\\GestaoEmpresarialView.cs",
+      "export_path": "Views\\GestaoEmpresarialView.cs",
+      "raw_sha256": "c7bbb46e6f5fb121ac9adc1394b48752f2d4dece77a4257aca36358697e924f9"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 27
+    },
+    {
+      "kind": "generated local initialisation",
+      "occurrences": 7
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoEmpresarial.g.resources",
+      "file": "0000.bin",
+      "bytes": 159722,
+      "sha256": "e499a9429209419c017a7edb8e5e8ece07fc221665d3348c70343cddc336f95a"
+    },
+    {
+      "name": "Otus.Modulo.GestaoEmpresarial.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

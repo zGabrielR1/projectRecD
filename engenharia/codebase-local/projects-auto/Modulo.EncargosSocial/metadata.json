@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "ad0bc2164b19d36e9e0dad1e53c41f2c78cab908a861497614d30ba63d89416c",
+  "mvid": "ad8398d8-d755-4582-8402-05d29033dbd4",
+  "assembly": "Modulo.EncargosSocial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.EncargosSocial.g.resources",
+      "file": "0000.bin",
+      "bytes": 21832,
+      "sha256": "555e6e1cb9f6fddb26b5768f0b7146f8cde426caf013535ad780e480dfddb6fe"
+    },
+    {
+      "name": "Otus.Modulo.EncargosSocial.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

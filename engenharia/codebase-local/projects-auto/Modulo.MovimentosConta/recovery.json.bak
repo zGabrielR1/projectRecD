@@ -1,0 +1,228 @@
+{
+  "name": "Modulo.MovimentosConta",
+  "baseline": "baseline\\Modulo.MovimentosConta.dll",
+  "baseline_sha256": "0e262f2873a5d615711907b2ca9020dc81eb4eb774cdb8573c5ab49e2ab770d4",
+  "export_project": "recovered\\SuiteG6\\Modulo.MovimentosConta\\Modulo.MovimentosConta.csproj",
+  "sources": [
+    {
+      "path": "Events\\ItemExtratoAtualizadoEvent.cs",
+      "export_path": "Events\\ItemExtratoAtualizadoEvent.cs",
+      "raw_sha256": "368ba80984042928a1900c91676e4595be440c901b51a1b925e6030061159855"
+    },
+    {
+      "path": "MovimentoContaModulo.cs",
+      "export_path": "MovimentoContaModulo.cs",
+      "raw_sha256": "e8228e1b2a4379276970fd1fbfcbf6b1f68911fb4a1b8c0d8721810cbce24866"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "38082a7b40a4a041cc3b074f51ef734c924f8d4e3fe8b8e4360b64e5d0c4b5f4"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "db8c4c7dc5103613bc1eef99baa2c926b88a2e98c8270f67d44ac30c3de7cf2f"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "9aa9f076e675f310b7c397de6ca2c7622aa5780a49e75b97de8e4efa8d7e420c"
+    },
+    {
+      "path": "UserControls\\TituloValorUserControlTextWrap.cs",
+      "export_path": "UserControls\\TituloValorUserControlTextWrap.cs",
+      "raw_sha256": "5b02431e83fda95b84fab0fae07edf9f46568a017ac7abfebe93f4be6232b927"
+    },
+    {
+      "path": "ViewModels\\ArquivoViewModel.cs",
+      "export_path": "ViewModels\\ArquivoViewModel.cs",
+      "raw_sha256": "a0789256f0b42fe6c575cda6853384ef909a9d5378e061f003adfaadc3a8bd44"
+    },
+    {
+      "path": "ViewModels\\ImagemViewModel.cs",
+      "export_path": "ViewModels\\ImagemViewModel.cs",
+      "raw_sha256": "85c25403afe2ef1e2cc45a65ce10d5b34da968d627c6c50a86e30120cbdafb1d"
+    },
+    {
+      "path": "ViewModels\\ItemExtratoAbaViewModel.cs",
+      "export_path": "ViewModels\\ItemExtratoAbaViewModel.cs",
+      "raw_sha256": "fd6f4b7175def2a578aeb07fd8dc69f0d8cc5ac19ec2f82a8ce5b35df401f0ca"
+    },
+    {
+      "path": "ViewModels\\ItemExtratoFichaViewModel.cs",
+      "export_path": "ViewModels\\ItemExtratoFichaViewModel.cs",
+      "raw_sha256": "7e75e54a54134386acdea1c4fc8389cf7f498353da51518e52620046b0e00399"
+    },
+    {
+      "path": "ViewModels\\ItemExtratoFormulario.cs",
+      "export_path": "ViewModels\\ItemExtratoFormulario.cs",
+      "raw_sha256": "bd7bbe72e3b7b620c0f477655588483cf04863b865575c040eeeca19097cbde7"
+    },
+    {
+      "path": "ViewModels\\ItemExtratoViewModel.cs",
+      "export_path": "ViewModels\\ItemExtratoViewModel.cs",
+      "raw_sha256": "50dff5ada7e88c0545a6f194b55daee1780bcbcf85f97ea7b4144242cf947a12"
+    },
+    {
+      "path": "ViewModels\\ItemLancamentoViewModel.cs",
+      "export_path": "ViewModels\\ItemLancamentoViewModel.cs",
+      "raw_sha256": "115ae44913dd05ad7f257ccdc9df4ed58bec9ac592abe0789ddab7d5eb72ceab"
+    },
+    {
+      "path": "ViewModels\\LancamentosArquivoOfxListaViewModel.cs",
+      "export_path": "ViewModels\\LancamentosArquivoOfxListaViewModel.cs",
+      "raw_sha256": "6d34781ea67f6835a41b81af2b15e4f875916f72760e7ed49ac91059332a8124"
+    },
+    {
+      "path": "ViewModels\\MovimentoContaAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentoContaAbaViewModel.cs",
+      "raw_sha256": "7c1ba7b4fbf3f06fcf714947402e856cc48be4e217e3667dd3cab13f4a794073"
+    },
+    {
+      "path": "ViewModels\\MovimentoContaAnexosAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentoContaAnexosAbaViewModel.cs",
+      "raw_sha256": "eeca0884300251783e54eeefaf8b279901764fd131bbe0127e050b0611ba1948"
+    },
+    {
+      "path": "ViewModels\\MovimentoContaAnexosViewModel.cs",
+      "export_path": "ViewModels\\MovimentoContaAnexosViewModel.cs",
+      "raw_sha256": "0acdfb311cbffc2bb030c7d40e41cccdec558d52e85c6f91c2ab66dd66fa10e8"
+    },
+    {
+      "path": "ViewModels\\MovimentoContaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\MovimentoContaFichaAdicionarViewModel.cs",
+      "raw_sha256": "fbadfaeb802452ac92c008a63b9f477a807cf064d025a22a1a5b446728763461"
+    },
+    {
+      "path": "ViewModels\\MovimentoContaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\MovimentoContaFichaAtualizarViewModel.cs",
+      "raw_sha256": "ee6bf9bc080bf915fc34926dd8df3ed90e441c1a40e2da501caba8f987d84e5e"
+    },
+    {
+      "path": "ViewModels\\MovimentoContaFormulario.cs",
+      "export_path": "ViewModels\\MovimentoContaFormulario.cs",
+      "raw_sha256": "753cd0a5d894fb47eba55a0be91fac01dac5cdcbb0acf6b6a4aacc8143e323c2"
+    },
+    {
+      "path": "ViewModels\\MovimentoContaListaViewModel.cs",
+      "export_path": "ViewModels\\MovimentoContaListaViewModel.cs",
+      "raw_sha256": "4de00a6ce67611a02410ce0116bc0aec33678d1ec520828edcfa5790c0f7f39e"
+    },
+    {
+      "path": "ViewModels\\MovimentoContaViewModel.cs",
+      "export_path": "ViewModels\\MovimentoContaViewModel.cs",
+      "raw_sha256": "e29dbce1ef597ea47ee5cf14c4930164448ef2e1a9d75a29e6f438356427995b"
+    },
+    {
+      "path": "ViewModels\\MovimentosContaViewModel.cs",
+      "export_path": "ViewModels\\MovimentosContaViewModel.cs",
+      "raw_sha256": "2293e631448f1d81ba6bc217971a5d674a851df8221c74a508b414f7428c1327"
+    },
+    {
+      "path": "ViewModels\\OrigemViewModel.cs",
+      "export_path": "ViewModels\\OrigemViewModel.cs",
+      "raw_sha256": "9c3a874a896997f464c6f4fb56b22149152e18c850bdaddcb106b8268d56eda1"
+    },
+    {
+      "path": "Views\\ImportarOfx.cs",
+      "export_path": "Views\\ImportarOfx.cs",
+      "raw_sha256": "b3c4944b282167309c4e3510ae23ece8cadb0d61904d917932833a74aaff402b"
+    },
+    {
+      "path": "Views\\ItemExtratoFichaView.cs",
+      "export_path": "Views\\ItemExtratoFichaView.cs",
+      "raw_sha256": "9361535351c7dbf296cc3254b9e432393e81888ba70281eda6a2f9f24e70500d"
+    },
+    {
+      "path": "Views\\LancamentosArquivoOfxListaView.cs",
+      "export_path": "Views\\LancamentosArquivoOfxListaView.cs",
+      "raw_sha256": "98c684f27fd443535b4d6c4ee546ad54906b7c4f686a3ef849aed65e42de3037"
+    },
+    {
+      "path": "Views\\MovimentoContaFichaAdicionarView.cs",
+      "export_path": "Views\\MovimentoContaFichaAdicionarView.cs",
+      "raw_sha256": "9b5b6fe74fb916e60a02587d15082caf5c5cace2779055f83027318b0a8026d4"
+    },
+    {
+      "path": "Views\\MovimentoContaFichaAtualizarView.cs",
+      "export_path": "Views\\MovimentoContaFichaAtualizarView.cs",
+      "raw_sha256": "4fc1e19ace153905ef258110cde7cb541fa2f3206bb0dcd5345c20e315fe0d2e"
+    },
+    {
+      "path": "Views\\MovimentoContaFichaViewDetalhes\\MovimentoContaAnexosView.cs",
+      "export_path": "Views\\MovimentoContaFichaViewDetalhes\\MovimentoContaAnexosView.cs",
+      "raw_sha256": "4d6115e51e7ebaff9cb6de055759f4d2ebe6120b1d7a2f8998443506d779796a"
+    },
+    {
+      "path": "Views\\MovimentoContaFichaViewDetalhes\\MovimentoContaView.cs",
+      "export_path": "Views\\MovimentoContaFichaViewDetalhes\\MovimentoContaView.cs",
+      "raw_sha256": "a76ac57630426560009878b0c311204fb2c2dabf367c09bb2a56d219421e97b4"
+    },
+    {
+      "path": "Views\\MovimentoContaListaView.cs",
+      "export_path": "Views\\MovimentoContaListaView.cs",
+      "raw_sha256": "db2140a358e9697b7a80fa657764f05f2c2bfa1a11dcc2ae0d1d70749608d1b9"
+    },
+    {
+      "path": "Views\\MovimentosContaView.cs",
+      "export_path": "Views\\MovimentosContaView.cs",
+      "raw_sha256": "2892ccef76b2e9226c76e0c8f3f403e496f9d3fc58e94756ae4f6a400833d8f6"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 104
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 27,
+      "types": [
+        "__c_DisplayClass22_0",
+        "__c_DisplayClass22_1",
+        "__c_DisplayClass22_2",
+        "__c_DisplayClass22_3",
+        "__c_DisplayClass23_0",
+        "__c_DisplayClass23_1",
+        "__c_DisplayClass23_2",
+        "__c_DisplayClass23_3",
+        "__c_DisplayClass21_0",
+        "__c_DisplayClass39_0",
+        "__c_DisplayClass41_0",
+        "__c_DisplayClass50_0",
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass22_0",
+        "__c_DisplayClass4_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass13_1",
+        "__c_DisplayClass18_0",
+        "__c_DisplayClass19_0",
+        "__c_DisplayClass20_0",
+        "__c_DisplayClass55_0",
+        "__c_DisplayClass55_1",
+        "__c_DisplayClass55_2",
+        "__c_DisplayClass29_0",
+        "__c_DisplayClass72_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.MovimentosConta.g.resources",
+      "file": "0000.bin",
+      "bytes": 65819,
+      "sha256": "f009891bf931efc85e67c5961e32847666299dd6b97ab05aba493bb696158f2e"
+    },
+    {
+      "name": "Otus.Modulo.MovimentosConta.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

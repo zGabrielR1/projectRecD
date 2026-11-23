@@ -1,0 +1,160 @@
+{
+  "name": "Modulo.GerenciadorBoletos",
+  "baseline": "baseline\\Modulo.GerenciadorBoletos.dll",
+  "baseline_sha256": "53dab5c4bce5c42e501d90e74d3e56ddcf28f020bbf22a21aca514f831600994",
+  "export_project": "recovered\\SuiteG6\\Modulo.GerenciadorBoletos\\Modulo.GerenciadorBoletos.csproj",
+  "sources": [
+    {
+      "path": "GerenciadorBoletoModulo.cs",
+      "export_path": "GerenciadorBoletoModulo.cs",
+      "raw_sha256": "6dd615ec12e12a97a0aa3e818f51fd1224dd5ad9c760c94b00986bb2473b2851"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "6060d4a19bc2199a025a57d568211ddc50a49764fb1558617f7375e47bed992f"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "57fdf2ff8f3d8438ed596ce6cfca2e5e6d27d187e4d265c0b1be1cba0fcb2f55"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "82a1a15077560b231830ec2d537ba4b4f0a9a92697b4229c4887c27aa4433eff"
+    },
+    {
+      "path": "Reports\\Resumo.cs",
+      "export_path": "Reports\\Resumo.cs",
+      "raw_sha256": "a872250195786932e26f1985aaa75d2afdb5fbdf51a2e647e3a1503272fc9bcd"
+    },
+    {
+      "path": "Reports\\ResumoRemessa.cs",
+      "export_path": "Reports\\ResumoRemessa.cs",
+      "raw_sha256": "e35d88d136340dc44252b0f9d2a28f66ea637f230112948bda8de58ed115d9fe"
+    },
+    {
+      "path": "Reports\\ResumoStatus.cs",
+      "export_path": "Reports\\ResumoStatus.cs",
+      "raw_sha256": "8fb966957e795853c60b39f78c895f81ab12b31f2c8182845bb7edd31bed29a1"
+    },
+    {
+      "path": "Reports\\ResumoStatusRemessa.cs",
+      "export_path": "Reports\\ResumoStatusRemessa.cs",
+      "raw_sha256": "a1386d5e5e07011ec959197aae8c3cdde9e875af3f9c765770007cfb61a3d1cd"
+    },
+    {
+      "path": "ViewModels\\GeracaoArquivoRemessa.cs",
+      "export_path": "ViewModels\\GeracaoArquivoRemessa.cs",
+      "raw_sha256": "b513aa7f9215a179ab83f55a3b3f236135b8651599b7f7db23ed91b41f66537d"
+    },
+    {
+      "path": "ViewModels\\GerenciadorBoletoAbaViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorBoletoAbaViewModel.cs",
+      "raw_sha256": "bb541c2399eaaaedca514d2ca00524c014e8c49bb6c0bc61a8794040e18788d7"
+    },
+    {
+      "path": "ViewModels\\GerenciadorBoletoFormulario.cs",
+      "export_path": "ViewModels\\GerenciadorBoletoFormulario.cs",
+      "raw_sha256": "6b1d140626b47af3c1180ee4d99342c81f6046992a26dae54929803e91e16a4a"
+    },
+    {
+      "path": "ViewModels\\GerenciadorBoletoListaViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorBoletoListaViewModel.cs",
+      "raw_sha256": "43b3d66049282717db2254d74b2e09c04bef6030740642f1ac7218d5aae35e45"
+    },
+    {
+      "path": "ViewModels\\GerenciadorBoletosViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorBoletosViewModel.cs",
+      "raw_sha256": "61b3810bfa751ac32123bcf00ffce9120644685efbfca8c69f9bba88eb5b6a11"
+    },
+    {
+      "path": "ViewModels\\GerenciadorBoletoViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorBoletoViewModel.cs",
+      "raw_sha256": "aaeb26470c3d7b99130dec077d43fbff527479cbc09063dffdd4a01d202f3d43"
+    },
+    {
+      "path": "ViewModels\\ItemResumoViewModel.cs",
+      "export_path": "ViewModels\\ItemResumoViewModel.cs",
+      "raw_sha256": "26e1990d34a69ab542d92c787af65479bab44ce735802802a018da36877ed7eb"
+    },
+    {
+      "path": "ViewModels\\LeituraArquivoRetorno.cs",
+      "export_path": "ViewModels\\LeituraArquivoRetorno.cs",
+      "raw_sha256": "68adafa64e259810a6726a378f73980146222301d66aeafaa0c1329e95da9a5b"
+    },
+    {
+      "path": "ViewModels\\ResumoViewModel.cs",
+      "export_path": "ViewModels\\ResumoViewModel.cs",
+      "raw_sha256": "15589c91a24d575155ef3471c70ff9a7f6be355172a01d51bc89de0010a97bc8"
+    },
+    {
+      "path": "Views\\GerenciadorBoletoListaView.cs",
+      "export_path": "Views\\GerenciadorBoletoListaView.cs",
+      "raw_sha256": "c6c0e34760e711ea256c211e95c6b8eddb471cc10daccd9e744bfa2091394f5b"
+    },
+    {
+      "path": "Views\\GerenciadorBoletosView.cs",
+      "export_path": "Views\\GerenciadorBoletosView.cs",
+      "raw_sha256": "b7fb218ee08e4a93ce04b6e05d6152eb7a6a7007fac37d2cb69bb0100e547963"
+    },
+    {
+      "path": "Views\\GerenciadorBoletosViewDetalhes\\BoletoView.cs",
+      "export_path": "Views\\GerenciadorBoletosViewDetalhes\\BoletoView.cs",
+      "raw_sha256": "bf1c8b15606de2b1635e3afc00884a8adcdc05eaa7098be8c857314e50152fc3"
+    },
+    {
+      "path": "Views\\ResumoView.cs",
+      "export_path": "Views\\ResumoView.cs",
+      "raw_sha256": "1659de400cf72fbd07adb6a2e39e766f012adab2f4cc714683085e1c205a0ffd"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GerenciadorBoletos.g.resources",
+      "file": "0000.bin",
+      "bytes": 24594,
+      "sha256": "e9f66c48ba7ad184b3af3a53b15f15fb5555995f45fdc1b8811122f4a468a5fc"
+    },
+    {
+      "name": "Otus.Modulo.GerenciadorBoletos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GerenciadorBoletos.Reports.ResumoRemessa.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GerenciadorBoletos.Reports.ResumoStatusRemessa.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GerenciadorBoletos.Reports.ResumoStatus.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GerenciadorBoletos.Reports.Resumo.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.GerenciadorBoletos.dll.licenses",
+      "file": "0006.bin",
+      "bytes": 289,
+      "sha256": "7c49716fdd5af0a0479552f9486fbc86874b50e0e61474b4ada4b6fd2201d091"
+    }
+  ],
+  "generated_stubs": false
+}

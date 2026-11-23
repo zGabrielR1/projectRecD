@@ -1,0 +1,17 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "mscorlib",
+    "System",
+    "System.Security",
+    "System.Xml",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Reactive.Linq",
+    "System.Reactive.Core",
+    "System.Web.Services",
+    "System.ComponentModel.DataAnnotations"
+  ]
+}

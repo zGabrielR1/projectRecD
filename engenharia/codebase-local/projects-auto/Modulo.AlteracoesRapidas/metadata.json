@@ -1,0 +1,42 @@
+{
+  "artifactSha256": "c68783409c165a15bb71c6c069d3507c556ac9cdec1e5ecde4bbe864103142b2",
+  "mvid": "7738e326-45d6-4371-97d5-eba3886f80f1",
+  "assembly": "Modulo.AlteracoesRapidas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "PresentationCore",
+    "DevExpress.Mvvm.v15.2",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core",
+    "DevExpress.Xpf.Grid.v15.2",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.AlteracoesRapidas.g.resources",
+      "file": "0000.bin",
+      "bytes": 24141,
+      "sha256": "dc89de5b52bd6365a41a4e2d9afdd627ab94778587dbef2ebfc12e6bb907a47e"
+    },
+    {
+      "name": "Otus.Modulo.AlteracoesRapidas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

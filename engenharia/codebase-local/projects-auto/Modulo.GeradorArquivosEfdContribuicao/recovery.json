@@ -1,0 +1,175 @@
+{
+  "name": "Modulo.GeradorArquivosEfdContribuicao",
+  "baseline": "baseline\\Modulo.GeradorArquivosEfdContribuicao.dll",
+  "baseline_sha256": "6938c6cebfca926f848fb37d38d86e36b0c9d396f268bca6308dfff987a81368",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosEfdContribuicao\\Modulo.GeradorArquivosEfdContribuicao.csproj",
+  "sources": [
+    {
+      "path": "GeradorArquivoEfdContribuicaoModulo.cs",
+      "export_path": "GeradorArquivoEfdContribuicaoModulo.cs",
+      "raw_sha256": "21c19afb7c465d0fe50235dd72c5e7db5724955b904218380847c43c1249a3b2"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "fd0fe1787fe9bbb52a0e60168d73155018a37e28893eea09950cc1680e65bd6a"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "84d87e2c8203f310bafc1eeb720c1292fe11f17ecd88c5156ab3bc99d4314f76"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "a086ffcd8cd0a42e7c168c20552569dfc5c8df8fc61e5a81b6a51dc8cbf9e4d1"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoEfdContribuicaoFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoEfdContribuicaoFichaViewModel.cs",
+      "raw_sha256": "a46ccad20bd2e12753c8fc367f96d5b901fad9c7a317bbe601f575c169890597"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoEfdContribuicaoFormulario.cs",
+      "export_path": "ViewModels\\GeradorArquivoEfdContribuicaoFormulario.cs",
+      "raw_sha256": "52f7fea26746bd7a4b00f7dbaaad85ea7583c7ef7e8da8d9ea402b3c002f169a"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosEfdContribuicaoViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosEfdContribuicaoViewModel.cs",
+      "raw_sha256": "c5e3586b930e3a88795859214e96a0c2cc0d86efc8bf21507f0c938af7fd9787"
+    },
+    {
+      "path": "ViewModels\\Passo1AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo1AbaViewModel.cs",
+      "raw_sha256": "9d6f5d2de8eea210780aa85ce54a7b1170de46912d22d1da749377128ccaec5e"
+    },
+    {
+      "path": "ViewModels\\Passo1ViewModel.cs",
+      "export_path": "ViewModels\\Passo1ViewModel.cs",
+      "raw_sha256": "39c7b8862f33ea7f5cfddfa7aa9ff8a0a39c0d387f531b7ccc1e97fbb7703f6d"
+    },
+    {
+      "path": "ViewModels\\Passo2AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo2AbaViewModel.cs",
+      "raw_sha256": "8f96060afb88cfd8f3dc68f7bed72e5dab1e796982f60dc940faaaf857d58f6e"
+    },
+    {
+      "path": "ViewModels\\Passo2ViewModel.cs",
+      "export_path": "ViewModels\\Passo2ViewModel.cs",
+      "raw_sha256": "cf1bd8c9d0fe740c793f55ea60f54b34b009ca43f28dd9eb870b7b5e660f0cfe"
+    },
+    {
+      "path": "ViewModels\\Passo3AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo3AbaViewModel.cs",
+      "raw_sha256": "fa2174bcc00990f601c8fe237229ed00d1db3a08067dcc4c46d46812d19e8658"
+    },
+    {
+      "path": "ViewModels\\Passo3ViewModel.cs",
+      "export_path": "ViewModels\\Passo3ViewModel.cs",
+      "raw_sha256": "a2fea806c10337b18c81f3ebc00872285a735b22a9ee5552e36c78149424401d"
+    },
+    {
+      "path": "ViewModels\\Passo4AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo4AbaViewModel.cs",
+      "raw_sha256": "e93fe369ee191d28e0efa9776545b343a9d497ea5b72a3f46d6c2e439fcc5884"
+    },
+    {
+      "path": "ViewModels\\Passo4ViewModel.cs",
+      "export_path": "ViewModels\\Passo4ViewModel.cs",
+      "raw_sha256": "ab4502a4c34288bc54d8ac63c13a3b7383bfe6fdbbdb39148cb9f91b3f77fdf6"
+    },
+    {
+      "path": "ViewModels\\Passo5AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo5AbaViewModel.cs",
+      "raw_sha256": "bc97ba097b4bfb37f11bc55d0cae6a8c7f116de91859ac6b7d6715c55c59c1b6"
+    },
+    {
+      "path": "ViewModels\\Passo5ViewModel.cs",
+      "export_path": "ViewModels\\Passo5ViewModel.cs",
+      "raw_sha256": "3152aa6726289c6aaed03fa14e80220df3fb5912eb003bfe2cc2892185a86544"
+    },
+    {
+      "path": "ViewModels\\Passo6AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo6AbaViewModel.cs",
+      "raw_sha256": "807dadf6f0c236af3c4b3adca2a8ab40532a6d40bc89848af8d4a0299dda4d2c"
+    },
+    {
+      "path": "ViewModels\\Passo6ViewModel.cs",
+      "export_path": "ViewModels\\Passo6ViewModel.cs",
+      "raw_sha256": "d336fa9a53fe508a0e31beeb722159cd3a966940f597ee40582e426258c91b4c"
+    },
+    {
+      "path": "ViewModels\\Passo7AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo7AbaViewModel.cs",
+      "raw_sha256": "b99af6609ef8610f7979b20388f969a25369b8195fcaaf9dae55b673ea7f7e10"
+    },
+    {
+      "path": "ViewModels\\Passo7ViewModel.cs",
+      "export_path": "ViewModels\\Passo7ViewModel.cs",
+      "raw_sha256": "04faf7d01143529b9c4878b51775694282debd7bdffc91da34ea7e692c585053"
+    },
+    {
+      "path": "Views\\GeradorArquivoEfdContribuicaoFichaView.cs",
+      "export_path": "Views\\GeradorArquivoEfdContribuicaoFichaView.cs",
+      "raw_sha256": "7fefac1634f844bc9fd942381cf129542889abdd4680884c14d2265a4607d0bc"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo1View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo1View.cs",
+      "raw_sha256": "94c12613c801ec5943f914761accfd06c74a6a8b68ef294c19480d60ec7fee07"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo2View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo2View.cs",
+      "raw_sha256": "b12e972236588044f8a77edb19d1fe582f7c70f07b84df22cc381157955ddd8e"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo3View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo3View.cs",
+      "raw_sha256": "f3ae04bbc238fd05dda842ffbc5054fbd8d0af14ec9f460eed78033554c22dfb"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo4View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo4View.cs",
+      "raw_sha256": "9202f16217b9d7e46048dfa9732356f4c0c0704729bf4a46ccb76b37dc2bbd57"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo5View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo5View.cs",
+      "raw_sha256": "1d9837e902d162be86b71d45e62061751a040c2eb05bc6ddb3dbc106f30d604b"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo6View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo6View.cs",
+      "raw_sha256": "d1761a9b4fcc45d662fe0eea587032f921856794fe67655652bcf588af228f2b"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo7View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo7View.cs",
+      "raw_sha256": "913f8ce46870d3de849162a010142a88354f094df6f24246843a32f48393584d"
+    },
+    {
+      "path": "Views\\GeradorArquivosEfdContribuicaoView.cs",
+      "export_path": "Views\\GeradorArquivosEfdContribuicaoView.cs",
+      "raw_sha256": "62b11ea25f5548bb6b55f96a18c15400f4667a2cdcc7faee1261ba3ba4a39efc"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosEfdContribuicao.g.resources",
+      "file": "0000.bin",
+      "bytes": 26092,
+      "sha256": "291cec4f4468c59ba23a750eabe5cee23b77006a079edf2cc3bb0e62edb7f1f9"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosEfdContribuicao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,21 @@
+{
+  "assembly": "DevExpress.Xpf.Charts.v15.2, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "WindowsBase",
+    "System",
+    "PresentationFramework",
+    "DevExpress.Charts.v15.2.Core",
+    "DevExpress.Xpf.Core.v15.2",
+    "PresentationCore",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Mvvm.v15.2",
+    "System.Printing",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Data",
+    "System.Xml",
+    "System.Xaml",
+    "System.Core",
+    "DevExpress.Xpf.Printing.v15.2"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.Inutilizacoes",
+  "baseline": "baseline\\Modulo.Inutilizacoes.dll",
+  "baseline_sha256": "b136749a15e395949ef5f755fdb46df88ac21616b341e38d26daccef341cac47",
+  "export_project": "recovered\\SuiteG6\\Modulo.Inutilizacoes\\Modulo.Inutilizacoes.csproj",
+  "sources": [
+    {
+      "path": "InutilizacaoModulo.cs",
+      "export_path": "InutilizacaoModulo.cs",
+      "raw_sha256": "295d90be953d7c80fd4ae984866816a2f738748603aed468cf0743952dda8446"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "b78af9b599a45123a9b3157e73c4f8280bb3b66661c1e77155b69614df4a501e"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "e65f69fe4477f8e01b71211159cbfaf8dd2824e703bb550e6ee2b0a656c4aaa0"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "bcade4ad6661de7c5f0c2035851126493b8c9d59eb6eaff7499b8f9e79f8beba"
+    },
+    {
+      "path": "ViewModels\\InutilizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\InutilizacaoAbaViewModel.cs",
+      "raw_sha256": "82fa98fd58bcf41e811ec5c05b02df758cfcae5405e540be10c7f81915053253"
+    },
+    {
+      "path": "ViewModels\\InutilizacaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\InutilizacaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "da7073e230f679f760f9f9322bc4dc8c5f1b046a4f9e4a24fc6b9b1dc51c995f"
+    },
+    {
+      "path": "ViewModels\\InutilizacaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\InutilizacaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "0fd77bfbc1f0f8fa869eaa8e58e14227ebe87501fcbed1097b560485cbc50fea"
+    },
+    {
+      "path": "ViewModels\\InutilizacaoFormulario.cs",
+      "export_path": "ViewModels\\InutilizacaoFormulario.cs",
+      "raw_sha256": "5d0839c34dfc9ff2c852cc712627d69612f5015d974496b2a5b67fe062c01f3a"
+    },
+    {
+      "path": "ViewModels\\InutilizacaoListaViewModel.cs",
+      "export_path": "ViewModels\\InutilizacaoListaViewModel.cs",
+      "raw_sha256": "639e8dfdcb2d8299f54e1a73f1a866dc667ab72d01e938739331a613ba65dc62"
+    },
+    {
+      "path": "ViewModels\\InutilizacaoViewModel.cs",
+      "export_path": "ViewModels\\InutilizacaoViewModel.cs",
+      "raw_sha256": "201a72d857c78b0ab7c1025c2c0aa78e7e2b1ce734d081603ba4d9964b86a610"
+    },
+    {
+      "path": "ViewModels\\InutilizacoesViewModel.cs",
+      "export_path": "ViewModels\\InutilizacoesViewModel.cs",
+      "raw_sha256": "082a1dbadd44a5e1ea905010bf539aa0bdb1415393bcd38034c0a291930502e2"
+    },
+    {
+      "path": "Views\\InutilizacaoFichaAdicionarView.cs",
+      "export_path": "Views\\InutilizacaoFichaAdicionarView.cs",
+      "raw_sha256": "dfece57ac3bc5502b58ba2558a6d869823220a42399a4bb0d36dc97a46e7d6bd"
+    },
+    {
+      "path": "Views\\InutilizacaoFichaAtualizarView.cs",
+      "export_path": "Views\\InutilizacaoFichaAtualizarView.cs",
+      "raw_sha256": "f0e40fbab1e8b1be6f5d3a0564bda7e020a7b75a046341ace830d2eb36790fd3"
+    },
+    {
+      "path": "Views\\InutilizacaoFichaViewDetalhes\\InutilizacaoView.cs",
+      "export_path": "Views\\InutilizacaoFichaViewDetalhes\\InutilizacaoView.cs",
+      "raw_sha256": "c44d73d4700eedd1e29d61af4c0e909b74f456b0a122c251c90f41a4f7dd5d28"
+    },
+    {
+      "path": "Views\\InutilizacaoListaView.cs",
+      "export_path": "Views\\InutilizacaoListaView.cs",
+      "raw_sha256": "c37cced3226fda48bb8b07fe35afc91aaf30d15fe54e462478e049682a3af12f"
+    },
+    {
+      "path": "Views\\InutilizacoesView.cs",
+      "export_path": "Views\\InutilizacoesView.cs",
+      "raw_sha256": "58e6046f59f146975bb2af27bed09f1f35ae0b025fdae36080e31a7292e8e623"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Inutilizacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 17015,
+      "sha256": "e32db6f1fbd0f5b36c48dba257ef6cece9a6e35d67d8945a9d091c4a94b6ee14"
+    },
+    {
+      "name": "Otus.Modulo.Inutilizacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

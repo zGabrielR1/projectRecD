@@ -1,0 +1,160 @@
+{
+  "name": "Modulo.GestaoArquivosPafEcf",
+  "baseline": "baseline\\Modulo.GestaoArquivosPafEcf.dll",
+  "baseline_sha256": "bb3253da2d9e4310fe1733d34120cf6f5ee68e1db306b8fbc0a7da18b1c00762",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoArquivosPafEcf\\Modulo.GestaoArquivosPafEcf.csproj",
+  "sources": [
+    {
+      "path": "GestaoArquivoPafEcfModulo.cs",
+      "export_path": "GestaoArquivoPafEcfModulo.cs",
+      "raw_sha256": "106950eb4e114edbcee885cfe25b31a70826c5a430ab5b912f10b26f45b7a2d2"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "906ae49e029e182a7ee56922a856728726819d503d134e2db8165a29a583d0df"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a968355b29f3ce176851d8037928416a7a36c86ff1fd6443256295501ab6f367"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "f9b15e879baf6cbc29335422170edb9b46bfd231b9aa8f0cecfb3e79609c0886"
+    },
+    {
+      "path": "ViewModels\\ArquivoEstoque.cs",
+      "export_path": "ViewModels\\ArquivoEstoque.cs",
+      "raw_sha256": "045f661f1626079a7503e2a62d03a0a90e5f7b859e78950af277def4640ab136"
+    },
+    {
+      "path": "ViewModels\\ArquivoReducaoZ.cs",
+      "export_path": "ViewModels\\ArquivoReducaoZ.cs",
+      "raw_sha256": "cf603b8185bf428594b282b33f7f5654e4e66dfd8c67ed69d8b59b5b9d5faca0"
+    },
+    {
+      "path": "ViewModels\\EstoqueAnoAnterior.cs",
+      "export_path": "ViewModels\\EstoqueAnoAnterior.cs",
+      "raw_sha256": "b65487115796fc8879c1c68d37818ba233220ffbca81d7280045f22f8a53df7f"
+    },
+    {
+      "path": "ViewModels\\EstoqueAtual.cs",
+      "export_path": "ViewModels\\EstoqueAtual.cs",
+      "raw_sha256": "27f1fcfce0eea2032c96c3129ef7b33b7d4a2425a6defe1aa72db03f914e3327"
+    },
+    {
+      "path": "ViewModels\\EstoqueMudancaRegime.cs",
+      "export_path": "ViewModels\\EstoqueMudancaRegime.cs",
+      "raw_sha256": "56cf224a30e2be8d8bb22e215c63eab42ae4949202224cbe6e371cdeae2c3bc4"
+    },
+    {
+      "path": "ViewModels\\EstoqueMudancaTributacao.cs",
+      "export_path": "ViewModels\\EstoqueMudancaTributacao.cs",
+      "raw_sha256": "94b60edae425eb88cc56ba2796775533a934fd4a7da7ae769d0fc1d9e812fa15"
+    },
+    {
+      "path": "ViewModels\\EstoqueSuspensaoBaixaIe.cs",
+      "export_path": "ViewModels\\EstoqueSuspensaoBaixaIe.cs",
+      "raw_sha256": "c5c52e9480fb01ab2633a8ad95f0bd1131187877175cc8d79706a6dc13af48a5"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoConsultaPendenciasAbaViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoConsultaPendenciasAbaViewModel.cs",
+      "raw_sha256": "01b38cd350cbe04f9cf259446b6492abe767c4938d00ac538ab13464ba0292ee"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoConsultaPendenciasViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoConsultaPendenciasViewModel.cs",
+      "raw_sha256": "584e1bc5f203c2808010170cbb0b4450d6946d680031d16815d0ddac7a40bd5e"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoEstoqueAbaViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoEstoqueAbaViewModel.cs",
+      "raw_sha256": "af76998dcaea0d2192ee73686ccc731f6b2b9723ca4ed8414f7e1e693cc7c2df"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoEstoqueViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoEstoqueViewModel.cs",
+      "raw_sha256": "a2721803c7a215cb9953710f0e744a5349e9112df1bd0469102bd4720ffc1693"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoListarArquivosAbaViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoListarArquivosAbaViewModel.cs",
+      "raw_sha256": "03fd8afd6baceb410196f1ddf978e00241007a525b71512843de4b54de046143"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoListarArquivosViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoListarArquivosViewModel.cs",
+      "raw_sha256": "36c75d6bfebc630fc45470a24d6c8c1ddc24299b7f0577481b6c89f8d4bddee3"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoPafEcfFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoPafEcfFichaViewModel.cs",
+      "raw_sha256": "7c06969d8e120a1c71de4980ea44e5cfcb5178f210882e054011a13d21744a3c"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoPafEcfFormulario.cs",
+      "export_path": "ViewModels\\GestaoArquivoPafEcfFormulario.cs",
+      "raw_sha256": "96e0406e48ddf47ddcde2db8f9969105cab2111271f417d92234cc340183bfaa"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoReducaoZAbaViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoReducaoZAbaViewModel.cs",
+      "raw_sha256": "bc8cdbf2b4b7bfe23948a806a1d2168c6940d89e2c14e7e0b108d767e25fe061"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoReducaoZViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoReducaoZViewModel.cs",
+      "raw_sha256": "d7267d56ca87eda91ab07cda74cab92c7e38e8451a5eec22eabfa40806e934b4"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivosPafEcfViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivosPafEcfViewModel.cs",
+      "raw_sha256": "6945c524c0ccb090e2298917187c335e8b749227bcd736383ea80933b07e6ecb"
+    },
+    {
+      "path": "ViewModels\\ITipo.cs",
+      "export_path": "ViewModels\\ITipo.cs",
+      "raw_sha256": "c45f7dd25c99e954cc7be3d60a747619e05a1cdf6ee2cd4990d4779fd0c645ad"
+    },
+    {
+      "path": "ViewModels\\PorCrz.cs",
+      "export_path": "ViewModels\\PorCrz.cs",
+      "raw_sha256": "3cb21d9d3eff958f25b10eecc5cc398d63c6a756a30ee70bf9db2c5a5cc0e693"
+    },
+    {
+      "path": "ViewModels\\PorData.cs",
+      "export_path": "ViewModels\\PorData.cs",
+      "raw_sha256": "be251c35173e48fd92572a29fd8c4b438dc857cbb4c06b6dba6d89359110bb55"
+    },
+    {
+      "path": "Views\\GestaoArquivoPafEcfFichaView.cs",
+      "export_path": "Views\\GestaoArquivoPafEcfFichaView.cs",
+      "raw_sha256": "12e87a36042a91894223f38c90a137136b11068e3ec444cd1f50eb35ebce6868"
+    },
+    {
+      "path": "Views\\GestaoArquivosPafEcfView.cs",
+      "export_path": "Views\\GestaoArquivosPafEcfView.cs",
+      "raw_sha256": "46f5c0438555a5ca9677a8d7fccc8f8357594e95c649b053752f724aa75cfc9c"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoArquivosPafEcf.g.resources",
+      "file": "0000.bin",
+      "bytes": 14164,
+      "sha256": "ba444133a92e0d7b7c814014f2f0d4a8e9e41a06db0485a883fac621e18810c2"
+    },
+    {
+      "name": "Otus.Modulo.GestaoArquivosPafEcf.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,27 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.LeitorSerial",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.LeitorSerial.dll",
+  "baseline_sha256": "38e084269f89e5c78fc1ba05e76a0e929290a9076d8f84ea49835097606a40f4",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.LeitorSerial\\DigisatServer.Infrastructure.Crosscutting.LeitorSerial.csproj",
+  "sources": [
+    {
+      "path": "Classes\\LeitorSerialDefault.cs",
+      "export_path": "Classes\\LeitorSerialDefault.cs",
+      "raw_sha256": "34b70ff213aafed5a1657d10dbea4a89a7d304819d80f30427a2ebbd48ba760f"
+    },
+    {
+      "path": "Interfaces\\ILeitorSerial.cs",
+      "export_path": "Interfaces\\ILeitorSerial.cs",
+      "raw_sha256": "d80f0ccf2f2f7d6a8affada25495f36ef63bbd869876df4486c3f882495a3529"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "778ab85a66b802ecb60b89fcfece28cd89c79b0b9c0fc7a2c9d57e5c0dd950ad"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [],
+  "generated_stubs": false
+}

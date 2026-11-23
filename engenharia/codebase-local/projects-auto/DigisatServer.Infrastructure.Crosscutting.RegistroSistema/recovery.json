@@ -1,0 +1,127 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.RegistroSistema",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema.dll",
+  "baseline_sha256": "6fee3224c06f63f650a811817e0273da4ca9daf0cd5bc06f26f6dcefaeda4a78",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema.csproj",
+  "sources": [
+    {
+      "path": "-Module-{329A9385-35B3-4F08-8D1E-13EA0E538592}.cs",
+      "export_path": "-Module-{329A9385-35B3-4F08-8D1E-13EA0E538592}.cs",
+      "raw_sha256": "253c1fb8e9f8e9026064fe527906ce29f14db775a1b59c953db21fc0b85d501e"
+    },
+    {
+      "path": "ccXVfQtmPp4ieI3EYb\\cufZfoHK9iRPDhQTMw.cs",
+      "export_path": "ccXVfQtmPp4ieI3EYb\\cufZfoHK9iRPDhQTMw.cs",
+      "raw_sha256": "f9290c8246751836aafcf2d09f00c91b74c9d0fa85306e18ac9d00db2bb46897"
+    },
+    {
+      "path": "File\\XmlConfiguracaoSistemaG6File.cs",
+      "export_path": "File\\XmlConfiguracaoSistemaG6File.cs",
+      "raw_sha256": "49c6039696f4818c9470f5af0094b8f60bd4b6375eb2dc3ac8d0f5d1a2b4b8b7"
+    },
+    {
+      "path": "File\\XmlConfiguracaoSistemaG6FileFactory.cs",
+      "export_path": "File\\XmlConfiguracaoSistemaG6FileFactory.cs",
+      "raw_sha256": "edf7935babd0020d93549a11b0aad4459cad5b4e1dfbfa6dbbb091ebaeabe64d"
+    },
+    {
+      "path": "Function\\ControleDeHash.cs",
+      "export_path": "Function\\ControleDeHash.cs",
+      "raw_sha256": "96c43e3ae00796a4ea76ddcfc84b1e148fe3df968bd205725828edcf97469479"
+    },
+    {
+      "path": "Models\\AtivacaoBase.cs",
+      "export_path": "Models\\AtivacaoBase.cs",
+      "raw_sha256": "94eda4ea7400911bd545f1c1f20954dc91f1f79f49795b88b029a1a6ea56408f"
+    },
+    {
+      "path": "Models\\ContraAtivacao.cs",
+      "export_path": "Models\\ContraAtivacao.cs",
+      "raw_sha256": "8ecddc35abd0551d6b12c846e00007f5513c8aedc52d665f36e34189e37975bd"
+    },
+    {
+      "path": "Models\\PainelDeControleWindows.cs",
+      "export_path": "Models\\PainelDeControleWindows.cs",
+      "raw_sha256": "a03aead8712507742446f5ab9bf8e093db2a87a3fa72da58a7dd1c35d3a3ecdc"
+    },
+    {
+      "path": "Models\\Produto.cs",
+      "export_path": "Models\\Produto.cs",
+      "raw_sha256": "b45b6725b7fd10693c9eb08ccb382ea7889ce80400c9cfab5859d85b28cabeb4"
+    },
+    {
+      "path": "Models\\SuiteDigisat.cs",
+      "export_path": "Models\\SuiteDigisat.cs",
+      "raw_sha256": "7c907af1e0ca4a551fdac79d1e525e2d1c32669c065ad07e41e5dea6e1b61a47"
+    },
+    {
+      "path": "Models\\SuiteDigisatNull.cs",
+      "export_path": "Models\\SuiteDigisatNull.cs",
+      "raw_sha256": "176ea336d34605afa49619fc01b583e17a30ec0952db3b72dedd35773667742c"
+    },
+    {
+      "path": "OoMExSe3fmYLKejyOr\\HVpr3gKT1W7hr9mCeh.cs",
+      "export_path": "OoMExSe3fmYLKejyOr\\HVpr3gKT1W7hr9mCeh.cs",
+      "raw_sha256": "f378e279c9ea6050bbc3f11ed1bfc097762efa74a62ea12a91392b10196e4ac7"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "9eb2e5628359a765b1fbe4e9be37e2e73276d94b74408c644a2412f4241b32a0"
+    },
+    {
+      "path": "Service\\IRegistroWindowsService.cs",
+      "export_path": "Service\\IRegistroWindowsService.cs",
+      "raw_sha256": "1df9cb3f1bd46df8913b6441d025526b2c354a37d06043b927604fe861f727c4"
+    },
+    {
+      "path": "Service\\RegistroWindowsService.cs",
+      "export_path": "Service\\RegistroWindowsService.cs",
+      "raw_sha256": "7d0840646ee815bb9e857216a764fa8797c4323f7cc976f8928ca618752cc166"
+    },
+    {
+      "path": "sZAiCtW4xDBF97lQDs\\tgXrsqygh5tJJsiHK1.cs",
+      "export_path": "sZAiCtW4xDBF97lQDs\\tgXrsqygh5tJJsiHK1.cs",
+      "raw_sha256": "b8602cf991a8854e504fc388b9fa83ebefcaf98d400913dc029267377e4aa8dd"
+    },
+    {
+      "path": "vNXbhYm5HZ7WdacPLx\\p6hilg1vkCI3tCc7YO.cs",
+      "export_path": "vNXbhYm5HZ7WdacPLx\\p6hilg1vkCI3tCc7YO.cs",
+      "raw_sha256": "cdd67c6d68eb2cbf7f4dc575e02ec41c687a48d2f2d6a9cdd988977cb8a61a27"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 37
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "vNXbhYm5HZ7WdacPLx.p6hilg1vkCI3tCc7YO.resources",
+      "file": "0000.bin",
+      "bytes": 357,
+      "sha256": "2301600f3a91216e2f2a221e42b120d114c649067df6ed88e711ffb1daf38824"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.RegistroSistema.g.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "file": "0002.bin",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "file": "0003.bin",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,162 @@
+{
+  "name": "Modulo.OrcamentosIndustria",
+  "baseline": "baseline\\Modulo.OrcamentosIndustria.dll",
+  "baseline_sha256": "2ab20e8f5d9453b9f4a37f739743d595ae742a8e1e204745741f4b47713b3af1",
+  "export_project": "recovered\\SuiteG6\\Modulo.OrcamentosIndustria\\Modulo.OrcamentosIndustria.csproj",
+  "sources": [
+    {
+      "path": "OrcamentoIndustriaModulo.cs",
+      "export_path": "OrcamentoIndustriaModulo.cs",
+      "raw_sha256": "2790049529a2828fc8614acf5a3fa772dac70a718bd5c30b627d488b981a9d18"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "5af32425d8688021b0a6dca16ef9575ec7487cbfe19a4bac435cc01b5e98ca4b"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "f096614c26768ef23c17f07e626d730847517cded3cd81b9677c10c873e92ae4"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "0842bf52089be031363738852a946826c491d799525cca2dff8ee820e4b62296"
+    },
+    {
+      "path": "Reports\\ImpressoOr\u00e7amentoEmCadeia.cs",
+      "export_path": "Reports\\ImpressoOr\u00e7amentoEmCadeia.cs",
+      "raw_sha256": "01cead4fb43da866971202f36de0c7dc4b1e50865981f97c963908a61cc76d7b"
+    },
+    {
+      "path": "ViewModels\\ItemOrcamentoIndustriaViewModel.cs",
+      "export_path": "ViewModels\\ItemOrcamentoIndustriaViewModel.cs",
+      "raw_sha256": "3ccecd6fb572766f3f57e18dd2851ce69d781ab7e73fd8cb2a20ac4b56dc8a85"
+    },
+    {
+      "path": "ViewModels\\ItemRelacaoProdutoProduzidoAprovadoViewModel.cs",
+      "export_path": "ViewModels\\ItemRelacaoProdutoProduzidoAprovadoViewModel.cs",
+      "raw_sha256": "ff469d304bc2288225d700c97b20ab7b6e8a34ff6fc1e0ca2e7e66296b7a0f9e"
+    },
+    {
+      "path": "ViewModels\\ItensAbaViewModel.cs",
+      "export_path": "ViewModels\\ItensAbaViewModel.cs",
+      "raw_sha256": "4b3f33b770909cfe401916910983fabd2a349857b5fb71fac3b1df5811e12d55"
+    },
+    {
+      "path": "ViewModels\\ItensViewModel.cs",
+      "export_path": "ViewModels\\ItensViewModel.cs",
+      "raw_sha256": "1c65939202e022fb5d08cf02ba32e62cd92f037202410a5535f24cd8ec4412bf"
+    },
+    {
+      "path": "ViewModels\\OrcamentoIndustriaAbaViewModel.cs",
+      "export_path": "ViewModels\\OrcamentoIndustriaAbaViewModel.cs",
+      "raw_sha256": "5e1de8a30be1032e168deff3e4f8d0c90714cd1686244cc8894d08df08e27b73"
+    },
+    {
+      "path": "ViewModels\\OrcamentoIndustriaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\OrcamentoIndustriaFichaAdicionarViewModel.cs",
+      "raw_sha256": "630876f37fcd183e439ded6660a5a34fa4e4021c703c7e447f32e2be5ee5270a"
+    },
+    {
+      "path": "ViewModels\\OrcamentoIndustriaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\OrcamentoIndustriaFichaAtualizarViewModel.cs",
+      "raw_sha256": "89e4b4c518842870ffa2f0f0784d136197d887ebb3cd23a5b9304cc575b450be"
+    },
+    {
+      "path": "ViewModels\\OrcamentoIndustriaFormulario.cs",
+      "export_path": "ViewModels\\OrcamentoIndustriaFormulario.cs",
+      "raw_sha256": "403841ca5fe1707dd177a130309357099c17005b172ca8b3ec9045669a92a84e"
+    },
+    {
+      "path": "ViewModels\\OrcamentoIndustriaListaViewModel.cs",
+      "export_path": "ViewModels\\OrcamentoIndustriaListaViewModel.cs",
+      "raw_sha256": "de6bd29641bfb467531eaefc0dd28be3e934b514a82300f746106e13ca6dc8e8"
+    },
+    {
+      "path": "ViewModels\\OrcamentoIndustriaViewModel.cs",
+      "export_path": "ViewModels\\OrcamentoIndustriaViewModel.cs",
+      "raw_sha256": "de24f359f23f08dc21876b84df06db3196d8bad6fd274154130b1266a850714c"
+    },
+    {
+      "path": "ViewModels\\OrcamentosIndustriaViewModel.cs",
+      "export_path": "ViewModels\\OrcamentosIndustriaViewModel.cs",
+      "raw_sha256": "7ccc9babe24b78b844a9fb97112cf26dbaa8f4c95d32285f8b003069ad81e072"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoProduzidoAprovadoViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoProduzidoAprovadoViewModel.cs",
+      "raw_sha256": "3ae15e6b93c62f5805aeaf4318becf9ba9c240e2487db517d86825a435a21ef3"
+    },
+    {
+      "path": "Views\\FichaViewDetalhes\\ItensView.cs",
+      "export_path": "Views\\FichaViewDetalhes\\ItensView.cs",
+      "raw_sha256": "dfa40d01113625e91948eaa8b46ce329fd239af55d01a3f18e1ff726e6cb718c"
+    },
+    {
+      "path": "Views\\FichaViewDetalhes\\OrcamentoIndustriaView.cs",
+      "export_path": "Views\\FichaViewDetalhes\\OrcamentoIndustriaView.cs",
+      "raw_sha256": "90ce1bc9cf4b11fbd28dc6b3c72af7b13a622a7a40da8b3b394c1ac243abcf00"
+    },
+    {
+      "path": "Views\\OrcamentoIndustriaFichaAdicionarView.cs",
+      "export_path": "Views\\OrcamentoIndustriaFichaAdicionarView.cs",
+      "raw_sha256": "c03d36bda5b15252128d3ff2241d618e19dbb5b64914ebbc684799257459e30e"
+    },
+    {
+      "path": "Views\\OrcamentoIndustriaFichaAtualizarView.cs",
+      "export_path": "Views\\OrcamentoIndustriaFichaAtualizarView.cs",
+      "raw_sha256": "0f7427bcaac3953ae257f486a2f54b847e29205df5d37d405173dbccfcc7ed81"
+    },
+    {
+      "path": "Views\\OrcamentoIndustriaListaView.cs",
+      "export_path": "Views\\OrcamentoIndustriaListaView.cs",
+      "raw_sha256": "52a49ac32424dd2507cb10bec4c159495a41c0d3bd0d0d6845dfd97df53810b3"
+    },
+    {
+      "path": "Views\\OrcamentosIndustriaView.cs",
+      "export_path": "Views\\OrcamentosIndustriaView.cs",
+      "raw_sha256": "cb2dd401b9b3c4aff002b8dd26f725612c636db187b565d65118eddff9108e6e"
+    },
+    {
+      "path": "Views\\RelacaoProdutoProduzidoAprovadoView.cs",
+      "export_path": "Views\\RelacaoProdutoProduzidoAprovadoView.cs",
+      "raw_sha256": "49fac9c8720893a0d40f655b69d520e94b3be41742d781f5877166f96d579112"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 6
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.OrcamentosIndustria.g.resources",
+      "file": "0000.bin",
+      "bytes": 37167,
+      "sha256": "d3830493d47a33040783a4139479b277850b9354d8eca6ba05a2795cf8d40bf1"
+    },
+    {
+      "name": "Otus.Modulo.OrcamentosIndustria.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrcamentosIndustria.Reports.ImpressoOr\u00e7amentoEmCadeia.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.OrcamentosIndustria.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 290,
+      "sha256": "325780be022a3321c67fe7df7a8f9985cec043ce4333b9350f39e55f5fc269a0"
+    }
+  ],
+  "generated_stubs": false
+}

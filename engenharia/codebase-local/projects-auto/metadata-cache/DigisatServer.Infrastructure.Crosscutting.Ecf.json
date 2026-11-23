@@ -1,0 +1,14 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Ecf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "mscorlib",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+    "System.Runtime.Serialization",
+    "System.Xml"
+  ]
+}

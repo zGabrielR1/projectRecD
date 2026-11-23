@@ -1,0 +1,21 @@
+{
+  "artifactSha256": "c73b6b2db10528362f79f60494a81898687adf9770208c5fe44492bf99e9a811",
+  "mvid": "82cfe7ef-833a-42a1-b90f-cdd0ba9ae780",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.ImpressoraNaoFiscal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Printing",
+    "System.Management",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.XtraPrinting.v15.2",
+    "RawPrint",
+    "DevExpress.XtraReports.v15.2",
+    "System.Drawing",
+    "System.Core"
+  ],
+  "resources": []
+}

@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "8ef973c9c5ac47ea1f793d9ebdc3f05569a46b699f450da61612264329041404",
+  "mvid": "cd74bd7b-b045-4cef-ba94-909af9bdfc7f",
+  "assembly": "Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural.g.resources",
+      "file": "0000.bin",
+      "bytes": 13155,
+      "sha256": "a32fd0adc4f12078a0307e1ac060c2ab3ba7a028b7db8650295008bdddf8a7b7"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

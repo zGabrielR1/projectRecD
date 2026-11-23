@@ -1,0 +1,10 @@
+{
+  "assembly": "QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28",
+  "references": [
+    "mscorlib",
+    "System.Core",
+    "System.Drawing",
+    "System",
+    "System.Xml.Linq"
+  ]
+}

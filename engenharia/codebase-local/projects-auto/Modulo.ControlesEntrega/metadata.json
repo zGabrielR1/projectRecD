@@ -1,0 +1,107 @@
+{
+  "artifactSha256": "986f800a5343ceb447ce7f102033c0e792940adb3b8733d9977805c7b7aa9e0c",
+  "mvid": "1464075a-fa74-4a76-9e12-7b5b95751582",
+  "assembly": "Modulo.ControlesEntrega, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.Mvvm.v15.2",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "System.Drawing",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ControlesEntrega.g.resources",
+      "file": "0000.bin",
+      "bytes": 53303,
+      "sha256": "26b560990303dd53669d2f198b4c5ecf7ab4b67db3a04f8cdeb69b0ac0ccbd0c"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ComprovanteEntrega40Colunas.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ComprovanteEntrega.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.GarantiaEntregaPendente40Colunas.resources",
+      "file": "0004.bin",
+      "bytes": 8646,
+      "sha256": "4f276013814eabe808a029da14e89de97acd13d65558b6fde144d3cb01362f74"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ImpressoControleEntregaConcluido40Colunas.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ImpressoControleEntregaConcluido.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.GarantiaEntregaPendente.resources",
+      "file": "0007.bin",
+      "bytes": 7652,
+      "sha256": "4d6298ae3033c2fc07fc3f46f6fe0b16dee869d7f6db4dedc8f51573ebd6c9f5"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ImpressoControleEntregaPendente40Colunas.resources",
+      "file": "0008.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ImpressoControleEntregaPendente.resources",
+      "file": "0009.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Resources.Messages.resources",
+      "file": "0010.bin",
+      "bytes": 273,
+      "sha256": "dd2a7094c167cead8b84c834bdef667ab8c42d06049bc3f62005c471a7249f81"
+    },
+    {
+      "name": "Modulo.ControlesEntrega.dll.licenses",
+      "file": "0011.bin",
+      "bytes": 287,
+      "sha256": "9572c18aeead5beb82c3f15d6b418d39882e5a977b8ac9f0be67668a3bdcf634"
+    }
+  ]
+}

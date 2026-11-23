@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "cebc0f013b5148148261a1156a7c6c0c065afc17a9780fcff1dd517443a67f52",
+  "mvid": "fca009a0-fdab-49ef-90a7-5d6be2f8a3ad",
+  "assembly": "Modulo.GestaoPainelContabeis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "System.Windows.Forms",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Xpf.Grid.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoPainelContabeis.g.resources",
+      "file": "0000.bin",
+      "bytes": 24177,
+      "sha256": "e8ea86f7e4ca9c29e1605918c4106764e08d39f85ffa0599457107773f43670f"
+    },
+    {
+      "name": "Otus.Modulo.GestaoPainelContabeis.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

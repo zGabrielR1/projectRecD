@@ -1,0 +1,109 @@
+{
+  "name": "DigisatServer.Distributed.Akka.Main",
+  "baseline": "baseline\\DigisatServer.Distributed.Akka.Main.dll",
+  "baseline_sha256": "f0cae4e37b786355493dd03d971e8747e4288887fcd08f56f2fc1ac43ab56f6f",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Distributed.Akka.Main\\DigisatServer.Distributed.Akka.Main.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "5a4b306ebdc661e49d0ba608edbb981d9f17ef0653b5341e96e79557c90dcc04"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "f0cae4e37b786355493dd03d971e8747e4288887fcd08f56f2fc1ac43ab56f6f"
+    }
+  ],
+  "original_resources": [],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "Actors\\ConsultaPrecoServerActor.cs",
+      "export_path": "Actors\\ConsultaPrecoServerActor.cs",
+      "raw_sha256": "32c907ef262dff5eafcc697f8b14bb844f943e1aeab054654c273f83c0610335"
+    },
+    {
+      "path": "Actors\\ConsultaProdutoPbmServerActor.cs",
+      "export_path": "Actors\\ConsultaProdutoPbmServerActor.cs",
+      "raw_sha256": "82838039b75b3a03983a5a566e6303a2982c5f1675c2b5fb9eee3b9c8d81db55"
+    },
+    {
+      "path": "Actors\\HabilitacaoServerActor.cs",
+      "export_path": "Actors\\HabilitacaoServerActor.cs",
+      "raw_sha256": "cce7b43d9b50ab979df0684d8a8b8533622adecbf5af4ab0fcdd737d198f67b9"
+    },
+    {
+      "path": "Actors\\MensagemServerActor.cs",
+      "export_path": "Actors\\MensagemServerActor.cs",
+      "raw_sha256": "ddb94080541db769660820b7b1c927e081566e88708dbded3268b6008469ca22"
+    },
+    {
+      "path": "Actors\\MicroTerminalServerActor.cs",
+      "export_path": "Actors\\MicroTerminalServerActor.cs",
+      "raw_sha256": "2b0ba565296ee96f51c9c624321fa37dc821af7c0f1b5c71331399a57c414998"
+    },
+    {
+      "path": "Actors\\PedidoIfoodClient.cs",
+      "export_path": "Actors\\PedidoIfoodClient.cs",
+      "raw_sha256": "7f0337730bfe18511570721b746f618f6ddf29ff8da8eddff95ae98f55e01786"
+    },
+    {
+      "path": "Actors\\PedidoIfoodServerActor.cs",
+      "export_path": "Actors\\PedidoIfoodServerActor.cs",
+      "raw_sha256": "d8f5729af89eb72b0d96fa3e01f3ff0e56316a9a64cdbbc1304baae7436b4ba4"
+    },
+    {
+      "path": "Actors\\PostoServerActorTestConnection.cs",
+      "export_path": "Actors\\PostoServerActorTestConnection.cs",
+      "raw_sha256": "e52b44236e2a2c7f25c9c77c2e684e767640be4eba1de269c0d63d24c7523d19"
+    },
+    {
+      "path": "Actors\\PostoServerActorWcf.cs",
+      "export_path": "Actors\\PostoServerActorWcf.cs",
+      "raw_sha256": "4be1fa7068ee9757074d1f2d0003df2ade159e9b75f7c6ab2963b5929d40d8d9"
+    },
+    {
+      "path": "Actors\\RestauranteClient.cs",
+      "export_path": "Actors\\RestauranteClient.cs",
+      "raw_sha256": "681a1218afab809a18c2cddcd3364ddf9d45a2282d2f2775c7b930dd88285f90"
+    },
+    {
+      "path": "Actors\\RestauranteServerActor.cs",
+      "export_path": "Actors\\RestauranteServerActor.cs",
+      "raw_sha256": "d91961ea70b036db0fdbd60d45a188fa03cfb6ef53c741dcf78e1dbd97e10892"
+    },
+    {
+      "path": "Actors\\SatServerActorWcf.cs",
+      "export_path": "Actors\\SatServerActorWcf.cs",
+      "raw_sha256": "b6d8a0a5ba5ae72b781109fae62c3eb3e16d78f3d3d0ec75066df72a8f6bc39a"
+    },
+    {
+      "path": "Actors\\SincronizacaoClient.cs",
+      "export_path": "Actors\\SincronizacaoClient.cs",
+      "raw_sha256": "94b838548af13919da610cc57cd65c6a6b65a630734f66eea03c9bf3c33c14fa"
+    },
+    {
+      "path": "Actors\\SincronizacaoServerActor.cs",
+      "export_path": "Actors\\SincronizacaoServerActor.cs",
+      "raw_sha256": "7b6aa37fdf1df2fc81b077062a30be849732ce660f923735f600b4e1750820c1"
+    },
+    {
+      "path": "Actors\\WcfServerActor.cs",
+      "export_path": "Actors\\WcfServerActor.cs",
+      "raw_sha256": "6eb9d03067d477e1909963a470c3a8b6fdc75254fe1d6e7baf7a77bf8885b1b0"
+    },
+    {
+      "path": "AkkaFactory.cs",
+      "export_path": "AkkaFactory.cs",
+      "raw_sha256": "300dc3e020663f060c36f387acbebd9561528b3cc942bfd86656ccffbd46023d"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "01ae2408e705c1549c036865e2d5678bdee08705bc48868ff69284f7c5ad6f1f"
+    }
+  ]
+}

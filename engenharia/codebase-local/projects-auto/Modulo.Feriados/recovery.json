@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.Feriados",
+  "baseline": "baseline\\Modulo.Feriados.dll",
+  "baseline_sha256": "b935c53a6a87061160300af9cf316d7fd668774ea5a0e8ff30b1c34564364e99",
+  "export_project": "recovered\\SuiteG6\\Modulo.Feriados\\Modulo.Feriados.csproj",
+  "sources": [
+    {
+      "path": "FeriadoModulo.cs",
+      "export_path": "FeriadoModulo.cs",
+      "raw_sha256": "0c209f092dad2b4e56e7a5e69c5c33f481904c46093b4a8f290dfbf59e812fd5"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "18d243bebf3fe63e447a5cdb5e0435787aedf5dfb45803f1b6a62d7738b9c9f8"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "3a831d5f6a908ba92ce1814bad7db76eab69971b4ed10459b52a09a679620326"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d9b1fe352649a1e67bf6ee61d7a3ac74a6c159cab0869d0044c09960382f0fbf"
+    },
+    {
+      "path": "ViewModels\\FeriadoAbaViewModel.cs",
+      "export_path": "ViewModels\\FeriadoAbaViewModel.cs",
+      "raw_sha256": "e2e41e7b77cc372d4925b9c8db29854796e91fcef91cce51ff6444e364f1855a"
+    },
+    {
+      "path": "ViewModels\\FeriadoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\FeriadoFichaAdicionarViewModel.cs",
+      "raw_sha256": "d1136428c7b95d413ebd549633ee255e25289ca75efe671ee91fe5857ca491f5"
+    },
+    {
+      "path": "ViewModels\\FeriadoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\FeriadoFichaAtualizarViewModel.cs",
+      "raw_sha256": "25019d2916ccab52a17e32a89861ae2c7a824024a9e37c3632588a9b0f853704"
+    },
+    {
+      "path": "ViewModels\\FeriadoFormulario.cs",
+      "export_path": "ViewModels\\FeriadoFormulario.cs",
+      "raw_sha256": "2908c8d3fca8af9621682b9c57b14b4a960d8ae27ddbcb7cd7225b25acb84ee3"
+    },
+    {
+      "path": "ViewModels\\FeriadoListaViewModel.cs",
+      "export_path": "ViewModels\\FeriadoListaViewModel.cs",
+      "raw_sha256": "f1ed46a6df2f6b588d7850b0036598226b8df867cc1806d627f55ba557fd897c"
+    },
+    {
+      "path": "ViewModels\\FeriadosViewModel.cs",
+      "export_path": "ViewModels\\FeriadosViewModel.cs",
+      "raw_sha256": "f00611f7cd60890f610e50c335585e5eb13084f7be9bb267395adcaa8acd07d2"
+    },
+    {
+      "path": "ViewModels\\FeriadoViewModel.cs",
+      "export_path": "ViewModels\\FeriadoViewModel.cs",
+      "raw_sha256": "ae9a3eddf7fdf2a837be5164e7edf0c3984cf7ef0cae9d0a920e2840765aedb0"
+    },
+    {
+      "path": "Views\\FeriadoFichaAdicionarView.cs",
+      "export_path": "Views\\FeriadoFichaAdicionarView.cs",
+      "raw_sha256": "224c6cc04c096e21cde86b1b7390551c28b699ed4c22836a1ed569a84106b002"
+    },
+    {
+      "path": "Views\\FeriadoFichaAtualizarView.cs",
+      "export_path": "Views\\FeriadoFichaAtualizarView.cs",
+      "raw_sha256": "e34f32132266f9c3e07fff3b71c060910ecd5393b5466bcc36fcfa6e4a6f5e45"
+    },
+    {
+      "path": "Views\\FeriadoFichaViewDetalhes\\FeriadoView.cs",
+      "export_path": "Views\\FeriadoFichaViewDetalhes\\FeriadoView.cs",
+      "raw_sha256": "ed3b4bf6bf25b5149bbfbac0e77cb88a27594b9e65febecce6e514428417be59"
+    },
+    {
+      "path": "Views\\FeriadoListaView.cs",
+      "export_path": "Views\\FeriadoListaView.cs",
+      "raw_sha256": "6372c00f4d3dbe82f9c3b014c336c182733f333145519fcc6cff8ffe87e3ea33"
+    },
+    {
+      "path": "Views\\FeriadosView.cs",
+      "export_path": "Views\\FeriadosView.cs",
+      "raw_sha256": "c141a84f6ef72099adaaf652fba68dbf76de9e2bb9e3a155de4a0e0ab3c72687"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Feriados.g.resources",
+      "file": "0000.bin",
+      "bytes": 11769,
+      "sha256": "6168f319b9ff21dcd6a51356756b43947e215b6fdc6413acba5a5c61a9b79dc3"
+    },
+    {
+      "name": "Otus.Modulo.Feriados.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

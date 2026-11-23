@@ -1,0 +1,37 @@
+{
+  "artifactSha256": "619c69b1f4bc116911d840b7d682db6021b265d2c51e229d9a4f00193342b6cd",
+  "mvid": "61b238f9-3253-46a6-b039-0a5c4843aa22",
+  "assembly": "Modulo.FormasPagamento, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.FormasPagamento.g.resources",
+      "file": "0000.bin",
+      "bytes": 17605,
+      "sha256": "b493178611213859037f3dea74a180f3120d39ce485d2ca0610c9b587b01f798"
+    },
+    {
+      "name": "Otus.Modulo.FormasPagamento.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

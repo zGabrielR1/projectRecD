@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "de5cb4e710b8827f63fc49ef7797a09bb6a5eec109d4457aef177420681dd832",
+  "mvid": "611ef823-db7f-4078-a0a4-d6e4e1ee6cbd",
+  "assembly": "Modulo.CustosIndiretos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.CustosIndiretos.g.resources",
+      "file": "0000.bin",
+      "bytes": 27287,
+      "sha256": "e768dc5cab190d5e793ad58362b51a837db2e77a39deb87a6ba122da8a66c0ce"
+    },
+    {
+      "name": "Otus.Modulo.CustosIndiretos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

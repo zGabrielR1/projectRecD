@@ -1,0 +1,130 @@
+{
+  "name": "Modulo.Kits",
+  "baseline": "baseline\\Modulo.Kits.dll",
+  "baseline_sha256": "b4269ca1dc05fda123ed42fadf216e351735d3f8773a223a56d2176efadcf713",
+  "export_project": "recovered\\SuiteG6\\Modulo.Kits\\Modulo.Kits.csproj",
+  "sources": [
+    {
+      "path": "KitModulo.cs",
+      "export_path": "KitModulo.cs",
+      "raw_sha256": "584cd557d1e45358f2902274bb49c1e404266dddf1ec5dbad64067f1bb3b062a"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "ed63b98f59bb1ba061bcbea16ac1618b6c42e600b398b7ef40c92b39f7d04c08"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "bc34ad34279d28985f0a7b9f6948d411ff7545684f2a16970766c0fea0e144eb"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "2637969631ab2e96f94f8ad0e666610999fee6eda266b7c4436ec9945c1c6daf"
+    },
+    {
+      "path": "ViewModels\\ItemKitViewModel.cs",
+      "export_path": "ViewModels\\ItemKitViewModel.cs",
+      "raw_sha256": "0a088e08c48b4e2d148cfdcf7707b11b38935d21e70fc3dda25c969472986002"
+    },
+    {
+      "path": "ViewModels\\KitAbaViewModel.cs",
+      "export_path": "ViewModels\\KitAbaViewModel.cs",
+      "raw_sha256": "3870fe3132153a246da2a0b64cc386501862d171e9e2d71912d1fd812b25d58a"
+    },
+    {
+      "path": "ViewModels\\KitFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\KitFichaAdicionarViewModel.cs",
+      "raw_sha256": "99e2328b97ab7f71ca499991fc6f11fd8a44c2c6a574aedf01993298492a1ff1"
+    },
+    {
+      "path": "ViewModels\\KitFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\KitFichaAtualizarViewModel.cs",
+      "raw_sha256": "bcd065bdada3f4e666e086c997a4aa89d42b6ce7bbd7f73f1beccee3e29b2aee"
+    },
+    {
+      "path": "ViewModels\\KitFormulario.cs",
+      "export_path": "ViewModels\\KitFormulario.cs",
+      "raw_sha256": "81f9b1641d20bd0e019244dcaeecc81b078169de5a5e5d027f2e6f9b4c46ac7a"
+    },
+    {
+      "path": "ViewModels\\KitItensAbaViewModel.cs",
+      "export_path": "ViewModels\\KitItensAbaViewModel.cs",
+      "raw_sha256": "bc558f0ba2ff33a9e3fe7ebb47fcb58bb10a116e531371a37532cc63dc16459d"
+    },
+    {
+      "path": "ViewModels\\KitItensViewModel.cs",
+      "export_path": "ViewModels\\KitItensViewModel.cs",
+      "raw_sha256": "ca28fc6bb4c20b7bee7f9b5ba5c33d4d34ec193eccb6e751bf8f5d48d773ab00"
+    },
+    {
+      "path": "ViewModels\\KitListaViewModel.cs",
+      "export_path": "ViewModels\\KitListaViewModel.cs",
+      "raw_sha256": "72e5e7c9b0ffef82d514a380c51e8cd8e58133926a23b04fe79440de0a89fb84"
+    },
+    {
+      "path": "ViewModels\\KitsViewModel.cs",
+      "export_path": "ViewModels\\KitsViewModel.cs",
+      "raw_sha256": "2c990ce56612afb532f115da0abeb6d3cbcbf423aed317b0511634c329e0c662"
+    },
+    {
+      "path": "ViewModels\\KitViewModel.cs",
+      "export_path": "ViewModels\\KitViewModel.cs",
+      "raw_sha256": "061c9a39e7c978f3bd9fd58e1834b377fa51ce2a263d84807bdbe1ec4bf34c00"
+    },
+    {
+      "path": "ViewModels\\ListaItemKitViewModel.cs",
+      "export_path": "ViewModels\\ListaItemKitViewModel.cs",
+      "raw_sha256": "e5c9d3a03f57c7151eda44252a0fc21b4b617fe549b706b28cdfa820e7e6b743"
+    },
+    {
+      "path": "Views\\KitFichaAdicionarView.cs",
+      "export_path": "Views\\KitFichaAdicionarView.cs",
+      "raw_sha256": "2c144c79a329aee94d585e2ac6d25a1d16db2b975dfffc1502365211bdc6159b"
+    },
+    {
+      "path": "Views\\KitFichaAtualizarView.cs",
+      "export_path": "Views\\KitFichaAtualizarView.cs",
+      "raw_sha256": "0e76a9422e129d95ee808732729c54a495d34d26d814fb52196cc2d5c6952e0d"
+    },
+    {
+      "path": "Views\\KitFichaViewDetalhes\\KitItensView.cs",
+      "export_path": "Views\\KitFichaViewDetalhes\\KitItensView.cs",
+      "raw_sha256": "de496e3da46dd7f5788f3ccf16c6509fcde441dc62dd84ed69b162265c05dcb1"
+    },
+    {
+      "path": "Views\\KitFichaViewDetalhes\\KitView.cs",
+      "export_path": "Views\\KitFichaViewDetalhes\\KitView.cs",
+      "raw_sha256": "a7e52b0396fa4f73fefba00d2ce8f004c8ffe02c9381e497f9094f9fff085b18"
+    },
+    {
+      "path": "Views\\KitListaView.cs",
+      "export_path": "Views\\KitListaView.cs",
+      "raw_sha256": "1ac2efee6eb57d4755c48a7417e828e26b96c59b80e207d47e9cd0c4d5bef6b2"
+    },
+    {
+      "path": "Views\\KitsView.cs",
+      "export_path": "Views\\KitsView.cs",
+      "raw_sha256": "c9b2135b89381f8105764b80c4a41cc91b41d6635e9475a606c32f5a5f5b5d98"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Kits.g.resources",
+      "file": "0000.bin",
+      "bytes": 19379,
+      "sha256": "56a4b30044a55fa563c7e630f66ec355d41bb4bb408fae8fa895f0e202b0d7ac"
+    },
+    {
+      "name": "Otus.Modulo.Kits.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

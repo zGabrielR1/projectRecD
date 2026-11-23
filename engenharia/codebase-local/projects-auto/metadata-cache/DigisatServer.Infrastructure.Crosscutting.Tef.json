@@ -1,0 +1,13 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Tef, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "System.Reactive.Linq",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "PresentationFramework",
+    "WindowsBase"
+  ]
+}

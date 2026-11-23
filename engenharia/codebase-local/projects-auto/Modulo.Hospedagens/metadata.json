@@ -1,0 +1,129 @@
+{
+  "artifactSha256": "74c839b0b32a6ff58e2005d7eadfbda59e8ac971bbc28e9d223948220fb0fb97",
+  "mvid": "480ec062-ddd8-4120-9303-ca92f177eea1",
+  "assembly": "Modulo.Hospedagens, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System",
+    "System.Xaml",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.LeitorCartao",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "DigisatServer.Domain.Main",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.Xpf.Scheduler.v15.2",
+    "DevExpress.XtraScheduler.v15.2.Core",
+    "System.Windows.Forms",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Domain.Core",
+    "DevExpress.XtraPrinting.v15.2",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Hospedagens.g.resources",
+      "file": "0000.bin",
+      "bytes": 121320,
+      "sha256": "566e1e6d4751755b2b52a6f9b8e980d4144d2101dcd8f9fdb80254155bcdb372"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumo40Colunas.resources",
+      "file": "0002.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumoSemCliente40Colunas.resources",
+      "file": "0003.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumoTodasComandas40Colunas.resources",
+      "file": "0004.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ComprovanteReservaHospedagem.resources",
+      "file": "0005.bin",
+      "bytes": 7030,
+      "sha256": "064d40a17d3e6b334aaa21097f1e2eb993a6194eb94dd74ff475fd7f47739b42"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ResumoHospedagem40Colunas.resources",
+      "file": "0006.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ExtratoHospedagem40Colunas.resources",
+      "file": "0007.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumoTodasComandas.resources",
+      "file": "0008.bin",
+      "bytes": 7012,
+      "sha256": "15349d8f0152d37356938916944bd3d76d654f795f12419194d2edb18273aba3"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumoSemCliente.resources",
+      "file": "0009.bin",
+      "bytes": 7012,
+      "sha256": "15349d8f0152d37356938916944bd3d76d654f795f12419194d2edb18273aba3"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.DemonstrativoConsumo.resources",
+      "file": "0010.bin",
+      "bytes": 7012,
+      "sha256": "15349d8f0152d37356938916944bd3d76d654f795f12419194d2edb18273aba3"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ResumoHospedagem.resources",
+      "file": "0011.bin",
+      "bytes": 4586,
+      "sha256": "76cc8b8f57c6d01555509c6215fe310a5ce0f4246672c5fb1449cc39742afdfb"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.ExtratoHospedagem.resources",
+      "file": "0012.bin",
+      "bytes": 4586,
+      "sha256": "76cc8b8f57c6d01555509c6215fe310a5ce0f4246672c5fb1449cc39742afdfb"
+    },
+    {
+      "name": "Otus.Modulo.Hospedagens.Reports.FichaRegistroHospede.resources",
+      "file": "0013.bin",
+      "bytes": 4586,
+      "sha256": "76cc8b8f57c6d01555509c6215fe310a5ce0f4246672c5fb1449cc39742afdfb"
+    },
+    {
+      "name": "Modulo.Hospedagens.dll.licenses",
+      "file": "0014.bin",
+      "bytes": 282,
+      "sha256": "a7b401a7ca2293de33422810766bbbc19cf949b992aef32ac07305daeb69bdb2"
+    }
+  ]
+}

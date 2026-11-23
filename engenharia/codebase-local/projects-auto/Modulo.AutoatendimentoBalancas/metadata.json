@@ -1,0 +1,61 @@
+{
+  "artifactSha256": "789bcbb168b5f005282964eec1f44042ce87602a091817e69e0af270bd8b43cd",
+  "mvid": "eafd21ff-63cc-4687-8e62-dbcf8bbb5596",
+  "assembly": "Modulo.AutoatendimentoBalancas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "PresentationCore",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "System.Drawing",
+    "DevExpress.Printing.v15.2.Core",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Data.v15.2",
+    "WindowsBase"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.AutoatendimentoBalancas.g.resources",
+      "file": "0000.bin",
+      "bytes": 16746,
+      "sha256": "eb028d0abdc560cd057a8ed4d84acfd91168e4830cdd0b45af43e75fa93a70ee"
+    },
+    {
+      "name": "Otus.Modulo.AutoatendimentoBalancas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.AutoatendimentoBalancas.Reports.RelatorioAutoatendimento56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.AutoatendimentoBalancas.Reports.RelatorioAutoatendimento79Mm80Mm.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.AutoatendimentoBalancas.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 294,
+      "sha256": "fb3dacb03f0b418c6f160b37e613eb28bdecf8147b0785c5f64ce2b0d09dbe24"
+    }
+  ]
+}

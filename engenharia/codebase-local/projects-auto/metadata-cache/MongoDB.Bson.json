@@ -1,0 +1,8 @@
+{
+  "assembly": "MongoDB.Bson, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Core"
+  ]
+}

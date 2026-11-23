@@ -1,0 +1,42 @@
+{
+  "artifactSha256": "62deec983ce1d70d1fad4bd1d654b917885c98bd0047ca98afae766ba5290ebc",
+  "mvid": "a7d1bc1e-ba4a-40c7-9778-bc08de04d4e4",
+  "assembly": "Modulo.GeradorArquivosBalanca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DevExpress.Mvvm.v15.2",
+    "PresentationCore",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "System.Windows.Forms"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GeradorArquivosBalanca.g.resources",
+      "file": "0000.bin",
+      "bytes": 9767,
+      "sha256": "49881e3c37522e862e8794a6f14bb9b38a50fb6de21f3d2e770c05f339e0e4d5"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosBalanca.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "64b414e12fae80fa16cb99699e752c5bef3104b9cf0ff96edae4f0c38b398df4",
+  "mvid": "233d18be-43bf-4063-a022-0fde64d50dfb",
+  "assembly": "Modulo.Transferencias, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Transferencias.g.resources",
+      "file": "0000.bin",
+      "bytes": 17589,
+      "sha256": "66d0f1ac63da8184b9fe14a22bdd912a64c92f0563718d15b089fa81f9bb3415"
+    },
+    {
+      "name": "Otus.Modulo.Transferencias.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

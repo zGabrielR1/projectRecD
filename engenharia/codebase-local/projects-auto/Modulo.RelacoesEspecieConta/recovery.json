@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.RelacoesEspecieConta",
+  "baseline": "baseline\\Modulo.RelacoesEspecieConta.dll",
+  "baseline_sha256": "1d8e5dcca75cdc5e5a36dd904eb83258c184c47dd46db09d82dc37e470f627da",
+  "export_project": "recovered\\SuiteG6\\Modulo.RelacoesEspecieConta\\Modulo.RelacoesEspecieConta.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "7c68e2ffa92528dd66b42f05add1e9395717e836c1c58b138bec2de2147a6a42"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "5978ca82cb9fc49c4f7e91bee92f60bc13fe56f2b656a9e80e91823a24667047"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "247a7279b2a83749cb795ded505e019b8f61be629569291234a605f4c364f33c"
+    },
+    {
+      "path": "RelacaoEspecieContaModulo.cs",
+      "export_path": "RelacaoEspecieContaModulo.cs",
+      "raw_sha256": "a0bc85e9d56684159a1c0faff0ca7fe6d06196741ce82e4f42bf2f63f19f866f"
+    },
+    {
+      "path": "ViewModels\\RelacaoEspecieContaAbaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoEspecieContaAbaViewModel.cs",
+      "raw_sha256": "3fd8b7c66c34997608fa401d63d725fc67dd508d67177e9502c45a4a4c6e3755"
+    },
+    {
+      "path": "ViewModels\\RelacaoEspecieContaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\RelacaoEspecieContaFichaAdicionarViewModel.cs",
+      "raw_sha256": "0ba6fa8d9340e15567a4f29d4ba50db53a4d3990b2e2b4eec9990a28e71979bd"
+    },
+    {
+      "path": "ViewModels\\RelacaoEspecieContaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\RelacaoEspecieContaFichaAtualizarViewModel.cs",
+      "raw_sha256": "9a7bd12de967b1b2e803efd09ed5cf9f63d2d651028517db215146782c5ee39c"
+    },
+    {
+      "path": "ViewModels\\RelacaoEspecieContaFormulario.cs",
+      "export_path": "ViewModels\\RelacaoEspecieContaFormulario.cs",
+      "raw_sha256": "c45d7e1c1ede2dba3003bac75706f50f3070fecf8046f4aa1a70a4dc2f54558e"
+    },
+    {
+      "path": "ViewModels\\RelacaoEspecieContaListaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoEspecieContaListaViewModel.cs",
+      "raw_sha256": "320e507b406d693b81c06d39e2f959403f3b31873b8129b48db4b69d0b7086e1"
+    },
+    {
+      "path": "ViewModels\\RelacaoEspecieContaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoEspecieContaViewModel.cs",
+      "raw_sha256": "7b50d95c71894e2aed8de1501e5df25ae64a51529d8aa476967a99a1429bbbd0"
+    },
+    {
+      "path": "ViewModels\\RelacoesEspecieContaViewModel.cs",
+      "export_path": "ViewModels\\RelacoesEspecieContaViewModel.cs",
+      "raw_sha256": "73a17bd2ac1e867bbba663fb711b774203bddd1acaad36cdfdcfd82c13e09eb9"
+    },
+    {
+      "path": "Views\\RelacaoEspecieContaFichaAdicionarView.cs",
+      "export_path": "Views\\RelacaoEspecieContaFichaAdicionarView.cs",
+      "raw_sha256": "0909a83e74bc333d03afb61a0f65b11bc1dda34e232760e42c4fd457f46cc465"
+    },
+    {
+      "path": "Views\\RelacaoEspecieContaFichaAtualizarView.cs",
+      "export_path": "Views\\RelacaoEspecieContaFichaAtualizarView.cs",
+      "raw_sha256": "c18f0190abd2bbfab9ee9567379cb29deaac6f483e212be5b5be00b35bfaf70a"
+    },
+    {
+      "path": "Views\\RelacaoEspecieContaListaView.cs",
+      "export_path": "Views\\RelacaoEspecieContaListaView.cs",
+      "raw_sha256": "f6f992ef980a4f9ef628ab9c6448b6670f8faf7b8d1328f58c4aec4d9203d82d"
+    },
+    {
+      "path": "Views\\RelacaoEspecieContaView.cs",
+      "export_path": "Views\\RelacaoEspecieContaView.cs",
+      "raw_sha256": "427ac2dda0bd5018442986e8087ccf136a38b2b1dc8fc55770f4ae17b247a494"
+    },
+    {
+      "path": "Views\\RelacoesEspecieContaView.cs",
+      "export_path": "Views\\RelacoesEspecieContaView.cs",
+      "raw_sha256": "6e537ca7658feb172b11562258cb579060d9c7033e8730c8b4fbb83e595134e7"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.RelacoesEspecieConta.g.resources",
+      "file": "0000.bin",
+      "bytes": 17444,
+      "sha256": "8f5ec5ccc7df823095e0be65623b2d7c7100ca248a222c2c1f10b4f787241ef4"
+    },
+    {
+      "name": "Otus.Modulo.RelacoesEspecieConta.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

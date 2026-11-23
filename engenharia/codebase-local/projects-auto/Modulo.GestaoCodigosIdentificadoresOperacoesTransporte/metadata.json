@@ -1,0 +1,42 @@
+{
+  "artifactSha256": "220b78cbba6a707d4d14b10282197349b2e03344c0dd533d5868132d225de383",
+  "mvid": "45e07e5a-573f-4cbf-93a2-cf7eca5ad8a2",
+  "assembly": "Modulo.GestaoCodigosIdentificadoresOperacoesTransporte, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "System.ComponentModel.DataAnnotations",
+    "Prism",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Xpf.Grid.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoCodigosIdentificadoresOperacoesTransporte.g.resources",
+      "file": "0000.bin",
+      "bytes": 20676,
+      "sha256": "c3d46aba7ecfadb01d4a76f3b890b3e91e174ad8fa644bbbf8d748addd5d70b6"
+    },
+    {
+      "name": "Otus.Modulo.GestaoCodigosIdentificadoresOperacoesTransporte.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.FasesProducao",
+  "baseline": "baseline\\Modulo.FasesProducao.dll",
+  "baseline_sha256": "15efe4ed98466a885325f48be60be6b9cd3502ab8541c1dbac2088a7d7c4b23e",
+  "export_project": "recovered\\SuiteG6\\Modulo.FasesProducao\\Modulo.FasesProducao.csproj",
+  "sources": [
+    {
+      "path": "FaseProducaoModulo.cs",
+      "export_path": "FaseProducaoModulo.cs",
+      "raw_sha256": "a12895cbd5826f2488ad183adc1158141479b00b558b2ecd3ce56d558925a180"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "64974cd614045eac62b956ca46251111cbc6d7df5eba6382415db848d070fab1"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "ecd2e2bbf4bf689e3ec3a811380c983b376e3942af5da96fb6f6809abece8a1c"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "2c47cff53ebfd0400921b15043b7f42bdc7d277e32880a809f4dd619002d2634"
+    },
+    {
+      "path": "ViewModels\\FaseProducaoAbaViewModel.cs",
+      "export_path": "ViewModels\\FaseProducaoAbaViewModel.cs",
+      "raw_sha256": "9eb826421ebbd183d9d81698fc2dd818d91c2231ceff03133ac2fc6e825aa80b"
+    },
+    {
+      "path": "ViewModels\\FaseProducaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\FaseProducaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "31c1cdc2179c914adcaeab3f3632e062b995b6b39c5a40c58e9939dd6ffbc08e"
+    },
+    {
+      "path": "ViewModels\\FaseProducaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\FaseProducaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "e846e8c145db3935af213f893195d4ed0d8bb656a33ba2a71d37c3d4dd30fff8"
+    },
+    {
+      "path": "ViewModels\\FaseProducaoFormulario.cs",
+      "export_path": "ViewModels\\FaseProducaoFormulario.cs",
+      "raw_sha256": "4aa03aaf4b14870df2d3be49b1cfcd5e63ec0be8b6df090476bc063f829f2ed2"
+    },
+    {
+      "path": "ViewModels\\FaseProducaoListaViewModel.cs",
+      "export_path": "ViewModels\\FaseProducaoListaViewModel.cs",
+      "raw_sha256": "a3ae5a24142b8cf23e79c4dd0808543a54d90533e50235ba4693030dad33be3b"
+    },
+    {
+      "path": "ViewModels\\FaseProducaoViewModel.cs",
+      "export_path": "ViewModels\\FaseProducaoViewModel.cs",
+      "raw_sha256": "27da09899ef3042c901514cb87b27ae57890d6976e873e4a8a69c45acbeb91de"
+    },
+    {
+      "path": "ViewModels\\FasesProducaoViewModel.cs",
+      "export_path": "ViewModels\\FasesProducaoViewModel.cs",
+      "raw_sha256": "37e169228d76bbad59266c209f4df471202e8d314d6c462ab0812e1066f9ced2"
+    },
+    {
+      "path": "Views\\FaseProducaoFichaAdicionarView.cs",
+      "export_path": "Views\\FaseProducaoFichaAdicionarView.cs",
+      "raw_sha256": "d2e96599a3a257576492c49993ef1eeba4febbff24ca4a631f6e3560478c8487"
+    },
+    {
+      "path": "Views\\FaseProducaoFichaAtualizarView.cs",
+      "export_path": "Views\\FaseProducaoFichaAtualizarView.cs",
+      "raw_sha256": "50550802de13647d871045cea3cdf4bb3956918f340242802ec90f90d211e493"
+    },
+    {
+      "path": "Views\\FaseProducaoListaView.cs",
+      "export_path": "Views\\FaseProducaoListaView.cs",
+      "raw_sha256": "6d22a9818ae3ec40ba607f9fc9637fd35bc0d0a282617528592333aed2a4030f"
+    },
+    {
+      "path": "Views\\FaseProducaoViewDetalhes\\FaseProducaoView.cs",
+      "export_path": "Views\\FaseProducaoViewDetalhes\\FaseProducaoView.cs",
+      "raw_sha256": "b2a571c7f4fd31490fb18a701b2ad30e14e41df2ef49da9120281018a0064ec5"
+    },
+    {
+      "path": "Views\\FasesProducaoView.cs",
+      "export_path": "Views\\FasesProducaoView.cs",
+      "raw_sha256": "db0210e8c4843437922d44710a21f70c3e877d325289def7e24b853f32a9ebf4"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.FasesProducao.g.resources",
+      "file": "0000.bin",
+      "bytes": 11414,
+      "sha256": "f163192e431d91a4af81de92df78c26ebfb2afdc77fac543fd93b044061e5a4d"
+    },
+    {
+      "name": "Otus.Modulo.FasesProducao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,715 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Mvvm.dll",
+  "baseline_sha256": "e140cebad1ee89d8e454f80949e4f5e84a1f60d6fda5f0af8d1769b29c60f7c3",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Mvvm\\DigisatServer.Infrastructure.Crosscutting.Mvvm.csproj",
+  "sources": [
+    {
+      "path": "AbaAuxiliarViewModelBase.cs",
+      "export_path": "AbaAuxiliarViewModelBase.cs",
+      "raw_sha256": "aa595c6772c9e3390e580a15ed549ca165ceb57e268a10497a080c36c334b544"
+    },
+    {
+      "path": "AbaDtoViewModelBase.cs",
+      "export_path": "AbaDtoViewModelBase.cs",
+      "raw_sha256": "52d3a0f0bb5a12d4a74485da6df6cb582e8a715ed3288bb52a992bd9c5dd7d3a"
+    },
+    {
+      "path": "AbaPrincipalViewModelBase.cs",
+      "export_path": "AbaPrincipalViewModelBase.cs",
+      "raw_sha256": "46840449130f8e4020b0a8532ecaaaf08f471f4f7a813decee968e94e3f9299f"
+    },
+    {
+      "path": "AbaViewModelBase.cs",
+      "export_path": "AbaViewModelBase.cs",
+      "raw_sha256": "1703bfb58c43d7b89cf2559ab3535e5b3f2aec4a1989194911a63d384dd1bcff"
+    },
+    {
+      "path": "AcrescimoDialogoDataContext.cs",
+      "export_path": "AcrescimoDialogoDataContext.cs",
+      "raw_sha256": "1db092d4e769b92a8470b64f87a59acbe62d8fade95bc93045a2e4a20de97124"
+    },
+    {
+      "path": "AlertaSonoro.cs",
+      "export_path": "AlertaSonoro.cs",
+      "raw_sha256": "f60befd986f96924f822230658f6fecb28cd79d3a8622c4b805d9fe53fb5a956"
+    },
+    {
+      "path": "Attributes\\ValidAttribute.cs",
+      "export_path": "Attributes\\ValidAttribute.cs",
+      "raw_sha256": "5be75c9dcc08c9ab692862659d5bedfc0ecc1d4b4faba59f606d655b8166b612"
+    },
+    {
+      "path": "Attributes\\ValidIfNotNullAttribute.cs",
+      "export_path": "Attributes\\ValidIfNotNullAttribute.cs",
+      "raw_sha256": "6b7f18bcd0aa8892c55d7cce250cfefc3863ca1acce200f6610ca865c50aeda9"
+    },
+    {
+      "path": "Attributes\\ValidNotNullAttribute.cs",
+      "export_path": "Attributes\\ValidNotNullAttribute.cs",
+      "raw_sha256": "1abb15a0cc6d8d6791059317115a84bfbfcd3f9d4b865072ebd61a31dd26169d"
+    },
+    {
+      "path": "Base.cs",
+      "export_path": "Base.cs",
+      "raw_sha256": "9a865f81bc3fa138e842b669a07a1e84bc11ab31c0b1606e554395470b77560c"
+    },
+    {
+      "path": "CampoComboDialogo.cs",
+      "export_path": "CampoComboDialogo.cs",
+      "raw_sha256": "e81300cd4e3aa78b5b7dada2e10ede6f5620d22ddda0079cf6d1ea562a0347a4"
+    },
+    {
+      "path": "CampoDialogo.cs",
+      "export_path": "CampoDialogo.cs",
+      "raw_sha256": "bf65634550ca4f8f02e31ca658a8e9a965c148fd0ba5e866d044827bb3793d9c"
+    },
+    {
+      "path": "CamposComboDialogoDataContext.cs",
+      "export_path": "CamposComboDialogoDataContext.cs",
+      "raw_sha256": "ccd1e99fa5addb4523196244a3641af71ea822ad5fd57aa4f9eb59a23d51a857"
+    },
+    {
+      "path": "CampoTextoDialogo.cs",
+      "export_path": "CampoTextoDialogo.cs",
+      "raw_sha256": "97eeab3348231e1193250dc9e2d1ff8d10838ddc877a32c647a0f1814aae3b9d"
+    },
+    {
+      "path": "ComboBoxDialogoDataContext.2.cs",
+      "export_path": "ComboBoxDialogoDataContext.2.cs",
+      "raw_sha256": "8e0df25faae9806821fdb51e3326a9b2ec1adde1b74e0ad37308fd83cc556907"
+    },
+    {
+      "path": "ComboBoxDialogoDataContext.cs",
+      "export_path": "ComboBoxDialogoDataContext.cs",
+      "raw_sha256": "03951308c8cd1a226f7ab935c1b415f3b7b5a2f04ecd69e1c478d8ec7feec8bc"
+    },
+    {
+      "path": "Commands\\CustomDelegateCommand.2.cs",
+      "export_path": "Commands\\CustomDelegateCommand.2.cs",
+      "raw_sha256": "6fbe5b371ea1c6408494e621ba5b54e9396af707394a6287cb9e7654efca6b37"
+    },
+    {
+      "path": "Commands\\CustomDelegateCommand.cs",
+      "export_path": "Commands\\CustomDelegateCommand.cs",
+      "raw_sha256": "a2f43311a33f14948ed480af7e6024f3af1bcdf2c0ce10284f3159e54c36d286"
+    },
+    {
+      "path": "Commands\\CustomNavigateParameter.cs",
+      "export_path": "Commands\\CustomNavigateParameter.cs",
+      "raw_sha256": "615e4bfefb62b327fdb6827b9dc052386211531b6dfb37b8680ac362a74f319b"
+    },
+    {
+      "path": "Commands\\CustomParameter.cs",
+      "export_path": "Commands\\CustomParameter.cs",
+      "raw_sha256": "d1b9f1303e4d58f0c984d5cd4d5c689625594e87b6acacad3952f2f8623c02c1"
+    },
+    {
+      "path": "Commands\\InteractiveCommand.cs",
+      "export_path": "Commands\\InteractiveCommand.cs",
+      "raw_sha256": "17debe045ffd27a576d287336287adf47367f72ddf4a6c413ababb3b4f42f30d"
+    },
+    {
+      "path": "Commands\\ISelecaoNavigateParameterCallBack.cs",
+      "export_path": "Commands\\ISelecaoNavigateParameterCallBack.cs",
+      "raw_sha256": "3cac64292b8677083edf8b2315a61076cf42cb5ceb4fb3774b02f33ab0fbd555"
+    },
+    {
+      "path": "Commands\\SelecaoCommandParameter.2.cs",
+      "export_path": "Commands\\SelecaoCommandParameter.2.cs",
+      "raw_sha256": "cbb641af9a70cb791334eb25722ac3a1ff52e032b5975cf7a9c0adc777754b55"
+    },
+    {
+      "path": "Commands\\SelecaoCommandParameter.cs",
+      "export_path": "Commands\\SelecaoCommandParameter.cs",
+      "raw_sha256": "dfb0471f469ec4afebbf71a01492bc3c901e93e7ef6901b80c221802a4affe6a"
+    },
+    {
+      "path": "Commands\\SelecaoNavigateParameterCallBack.2.cs",
+      "export_path": "Commands\\SelecaoNavigateParameterCallBack.2.cs",
+      "raw_sha256": "9550a660e7ef17f23f71d84f9f9b3fee9fab61a7dcf2770b9e88f0b5e0eb0536"
+    },
+    {
+      "path": "Commands\\SelecaoNavigateParameterCallBack.cs",
+      "export_path": "Commands\\SelecaoNavigateParameterCallBack.cs",
+      "raw_sha256": "e7d2e864d4f325967843513bc2a8ed8c410be589d5c2b672a432439d805a03de"
+    },
+    {
+      "path": "Commands\\SelecaoPersonalizadoCommandParameter.cs",
+      "export_path": "Commands\\SelecaoPersonalizadoCommandParameter.cs",
+      "raw_sha256": "894cde52004d5d23ff032db00c43d21c431da794b82d97e51ddc2866d4cde517"
+    },
+    {
+      "path": "Commands\\SelecaoValidacaoCommandParameter.cs",
+      "export_path": "Commands\\SelecaoValidacaoCommandParameter.cs",
+      "raw_sha256": "1bfb99534eaaffeb512a972716796ac0b30427d93ec91c935043bffb808e59e0"
+    },
+    {
+      "path": "Commands\\SelecaoValidacaoInformacaoCommandParameter.cs",
+      "export_path": "Commands\\SelecaoValidacaoInformacaoCommandParameter.cs",
+      "raw_sha256": "d024b051af859c92127182407eb186b4621a66c095f8d6ff2e9753190775829c"
+    },
+    {
+      "path": "Commands\\SelecaoViewModelCommandParameter.cs",
+      "export_path": "Commands\\SelecaoViewModelCommandParameter.cs",
+      "raw_sha256": "617436e663ed9347dcf24a24bda8dd5fb49da477d570ef21d445ae094f686df9"
+    },
+    {
+      "path": "Commands\\ValidateParameter.cs",
+      "export_path": "Commands\\ValidateParameter.cs",
+      "raw_sha256": "6f9105d3b652fa16518e8fbce9f802933a366458e810179c42b0a20875b9033b"
+    },
+    {
+      "path": "Commands\\ValidateParameterPessoa.cs",
+      "export_path": "Commands\\ValidateParameterPessoa.cs",
+      "raw_sha256": "c270f3930cc80dba72803d112424173c1383497744e49168ed8b130ff8afacf0"
+    },
+    {
+      "path": "ConfiguracaoIpDialogoDataContext.cs",
+      "export_path": "ConfiguracaoIpDialogoDataContext.cs",
+      "raw_sha256": "9651a9e40bbdaca9234cb525b0d41d2035038cf1d46eb3655a97bbe28f32b120"
+    },
+    {
+      "path": "ConteudoDialogo.cs",
+      "export_path": "ConteudoDialogo.cs",
+      "raw_sha256": "7f471a8017fe15ba109ef46974067034a08f3c82f7debe68f7f8513cd85a21c2"
+    },
+    {
+      "path": "DescontoDialogoDataContext.cs",
+      "export_path": "DescontoDialogoDataContext.cs",
+      "raw_sha256": "a6d2a54d0c6161fdec9199e347fedb4b1bc5f82d5f917b077c2fc9603a54e63d"
+    },
+    {
+      "path": "Dialogo.cs",
+      "export_path": "Dialogo.cs",
+      "raw_sha256": "733842671b8b1fda83a14e16465a9edd5e08f80abfa6f29a368d312e796bb045"
+    },
+    {
+      "path": "DialogoConfirmaAnula.cs",
+      "export_path": "DialogoConfirmaAnula.cs",
+      "raw_sha256": "b4252b22a9157cdcd879c5a9c3d3e0b429975fd10bcb3c193a87962018a6c913"
+    },
+    {
+      "path": "DialogoDataContext.cs",
+      "export_path": "DialogoDataContext.cs",
+      "raw_sha256": "63e9c19a2d06f22a4a32d484358ca02e27ac0dd0eda3f51f44ec226f67e19f80"
+    },
+    {
+      "path": "DialogoEmail.cs",
+      "export_path": "DialogoEmail.cs",
+      "raw_sha256": "aadc911eb938cddd497c4a8aa4d52782d522a7c76fd8363e0ea1fe6382bf094b"
+    },
+    {
+      "path": "DialogoFactory.cs",
+      "export_path": "DialogoFactory.cs",
+      "raw_sha256": "872af020a7af9f2447d13ae834fa1cb6e3409f6de2bf7c1d3d7d9a2fac226e5f"
+    },
+    {
+      "path": "Email.cs",
+      "export_path": "Email.cs",
+      "raw_sha256": "106be5d6e29b6d1bcae1b568be71a4b0206c06357dc1ea6f3fdda9575ac19ea8"
+    },
+    {
+      "path": "FastObservableCollection.cs",
+      "export_path": "FastObservableCollection.cs",
+      "raw_sha256": "e5d1690b1d11aef21819c60c59825a16341e14342520ff78a6a9bdb9cefbfd52"
+    },
+    {
+      "path": "Filtros\\Filtro.cs",
+      "export_path": "Filtros\\Filtro.cs",
+      "raw_sha256": "0269a44707d944442873454b8f8fe1c0bdfa7813af3d56fbf15f57f8e77d96a6"
+    },
+    {
+      "path": "Filtros\\Filtros.cs",
+      "export_path": "Filtros\\Filtros.cs",
+      "raw_sha256": "cad860a29714969ce2dbfb2b5e1ec770513096d59a9a535442f92df36044ac2f"
+    },
+    {
+      "path": "Filtros\\Marca.cs",
+      "export_path": "Filtros\\Marca.cs",
+      "raw_sha256": "8e24aafe362c371ef740aa858289b39b7edef2534fb333755bbf942d76a7ef4a"
+    },
+    {
+      "path": "Filtros\\MovimentacaoEntrada.cs",
+      "export_path": "Filtros\\MovimentacaoEntrada.cs",
+      "raw_sha256": "77cc4097964b77751e920a66f38d7450e0e715aee8181be9f57bca6d3db5f255"
+    },
+    {
+      "path": "Filtros\\MovimentacaoSaida.cs",
+      "export_path": "Filtros\\MovimentacaoSaida.cs",
+      "raw_sha256": "d5f111c33970ffcf837655a5e473ecec388ad4b1c0584a092ecaeff2cbaeffc2"
+    },
+    {
+      "path": "Filtros\\ProdutoFiltro.cs",
+      "export_path": "Filtros\\ProdutoFiltro.cs",
+      "raw_sha256": "235aabf538559ee607635aa2e49da569ba9bac5e64ba9c0ae7aac8d3420aa2a1"
+    },
+    {
+      "path": "Filtros\\ProdutoServico.cs",
+      "export_path": "Filtros\\ProdutoServico.cs",
+      "raw_sha256": "e85a18079bafbdad32771c0250c5d4ea333e8f4914258b02b44d117afad2c3f1"
+    },
+    {
+      "path": "Filtros\\Promocao.cs",
+      "export_path": "Filtros\\Promocao.cs",
+      "raw_sha256": "80834efdacb232cecd9c6c226432692acf16a081f8c82ccfbd9b6e3e664526ec"
+    },
+    {
+      "path": "Filtros\\SubGrupo.cs",
+      "export_path": "Filtros\\SubGrupo.cs",
+      "raw_sha256": "7edc9db67868a8e695cf11d0972ee42679981f55aeaf76a8edebc1f1ae9918f5"
+    },
+    {
+      "path": "Filtros\\TributacaoEstadual.cs",
+      "export_path": "Filtros\\TributacaoEstadual.cs",
+      "raw_sha256": "fc5b6bef7c0d9296346cebb0598fca853d3e375f56cfa1cda1132afa845d23de"
+    },
+    {
+      "path": "Filtros\\TributacaoFederal.cs",
+      "export_path": "Filtros\\TributacaoFederal.cs",
+      "raw_sha256": "e00782b48e536b7124336c61a217688dbae768cd9bfd35a8884f92913d4fe462"
+    },
+    {
+      "path": "Filtros\\TributacaoMunicipal.cs",
+      "export_path": "Filtros\\TributacaoMunicipal.cs",
+      "raw_sha256": "821bd0ade5ce5e66d7a12cd198b963c02b9579e66ad5cf9068cae8a48c95dbe1"
+    },
+    {
+      "path": "Formulario.cs",
+      "export_path": "Formulario.cs",
+      "raw_sha256": "29ced1ccf946971c2a12834b4b9a061329a9ddab33a57c84eba3235b9880deb2"
+    },
+    {
+      "path": "FormularioEditavel.cs",
+      "export_path": "FormularioEditavel.cs",
+      "raw_sha256": "114b42b1de932a4d685b4795bda6e9d724a8f73798ec2e01c78dc0e26792b2c8"
+    },
+    {
+      "path": "FormularioEntity.cs",
+      "export_path": "FormularioEntity.cs",
+      "raw_sha256": "c61136ad0fca0781540eb81b5c415af7e6267a43eb318254ffdeff3ae5010332"
+    },
+    {
+      "path": "GetElements.cs",
+      "export_path": "GetElements.cs",
+      "raw_sha256": "f05b0859f0583eeec8b9164ac8c9bfb59bfdb303f34c773db821c252b2391f81"
+    },
+    {
+      "path": "HelperException.cs",
+      "export_path": "HelperException.cs",
+      "raw_sha256": "546bf57199ac9a1f8bb40419d31073baec63425cd0ae2a8c9d55994072d7cf25"
+    },
+    {
+      "path": "HoraMinutoDataContext.cs",
+      "export_path": "HoraMinutoDataContext.cs",
+      "raw_sha256": "8d170c28019655022ffdfc66ecab9d05ef40a0a1c7cc13815758b8b1a93fbb0f"
+    },
+    {
+      "path": "HoraMinutoSegundoDataContext.cs",
+      "export_path": "HoraMinutoSegundoDataContext.cs",
+      "raw_sha256": "7142f64ed961413f195873b168ba7014e4b709f470883a69264b7bf1eb179823"
+    },
+    {
+      "path": "IAbaAuxiliarViewModelBase.cs",
+      "export_path": "IAbaAuxiliarViewModelBase.cs",
+      "raw_sha256": "ed838d0b56cc36644ed628632b32edafa9912c7fce55dc195f6a310c79e63254"
+    },
+    {
+      "path": "IAbaDtoViewModelBase.cs",
+      "export_path": "IAbaDtoViewModelBase.cs",
+      "raw_sha256": "73d6922dea58ad40fdb5075b1f72c7252a67da77a2ccee0d8344316819a39c45"
+    },
+    {
+      "path": "IAbaMementoViewModel.cs",
+      "export_path": "IAbaMementoViewModel.cs",
+      "raw_sha256": "506a44e6f6de124a959ac7ec502731c48ff1930c07025fdc7c7c7d39f605aaf2"
+    },
+    {
+      "path": "IAbaPrincipalViewModelBase.cs",
+      "export_path": "IAbaPrincipalViewModelBase.cs",
+      "raw_sha256": "ab3e5289e73af6fe32adecbd9c9d651fcea5bd33efeecef5964cd0fcbbfae147"
+    },
+    {
+      "path": "Informacao.cs",
+      "export_path": "Informacao.cs",
+      "raw_sha256": "5618c386d2383e79c91b9de0cd7d214488179add711c970d2ff50697a629780f"
+    },
+    {
+      "path": "InformacaoAbaViewModel.cs",
+      "export_path": "InformacaoAbaViewModel.cs",
+      "raw_sha256": "eee4f2a373988fe5239df809fd1962c91de6a19d8cbe561e0b54e546e5ea2e29"
+    },
+    {
+      "path": "InformacaoDateTimeDialogoDataContext.cs",
+      "export_path": "InformacaoDateTimeDialogoDataContext.cs",
+      "raw_sha256": "c5e0c0b46a25fbe8d8b2a6df928655645bd14e311d6a4b384eb3d1fb73222eb4"
+    },
+    {
+      "path": "InformacaoDecimalDialogoDataContext.cs",
+      "export_path": "InformacaoDecimalDialogoDataContext.cs",
+      "raw_sha256": "f01c18ab30472b49064db6b2b4b11b7328a34b773b93cfa6f1b6c5e019f238e5"
+    },
+    {
+      "path": "InformacaoDialogoAcrescimosDataContext.cs",
+      "export_path": "InformacaoDialogoAcrescimosDataContext.cs",
+      "raw_sha256": "913a0274e5e537dad652d527105ae22a87019538602b2635931f79a4cbc8ce84"
+    },
+    {
+      "path": "InformacaoDialogoConfirmaAnulaDataContext.cs",
+      "export_path": "InformacaoDialogoConfirmaAnulaDataContext.cs",
+      "raw_sha256": "8fe2c90d483405530332ae879dc33fa89dffc5e164c94fa0ea82233a36603253"
+    },
+    {
+      "path": "InformacaoDialogoDataContext.cs",
+      "export_path": "InformacaoDialogoDataContext.cs",
+      "raw_sha256": "e76abc3109e3dc1a873423c3c9e8720161511fa3433656f228ad5bf274a264d0"
+    },
+    {
+      "path": "InformacaoDialogoDataContextBase.cs",
+      "export_path": "InformacaoDialogoDataContextBase.cs",
+      "raw_sha256": "dcd8dca62887c591871f61e29af3c770bce79e2c81f08b4cb5687f5e5fc7135b"
+    },
+    {
+      "path": "InformacaoDialogoEnviarEmailCompartilharWhatsAppDataContext.cs",
+      "export_path": "InformacaoDialogoEnviarEmailCompartilharWhatsAppDataContext.cs",
+      "raw_sha256": "01a49054821cb840729b3177f50d073a01803987c592954cd8d0c8c4e83d3a0e"
+    },
+    {
+      "path": "InformacaoDialogoImprimirEnviarEmailDataContext.cs",
+      "export_path": "InformacaoDialogoImprimirEnviarEmailDataContext.cs",
+      "raw_sha256": "133f67d98fba0f50b7bf3186abc44bc94895c3f0b79c05ca27890bb9b5cc0c67"
+    },
+    {
+      "path": "InformacaoDialogoSimNaoDataContext.cs",
+      "export_path": "InformacaoDialogoSimNaoDataContext.cs",
+      "raw_sha256": "8cd5521eec8669dacf10a91ecdc3061c604c4c882a364c89ed244a77666862bb"
+    },
+    {
+      "path": "InformacaoDialogoSimNaoDoarDataContext.cs",
+      "export_path": "InformacaoDialogoSimNaoDoarDataContext.cs",
+      "raw_sha256": "93062e9c138930c6227f63d747ddcf369dcc3d32806b77640488405f56403aaf"
+    },
+    {
+      "path": "InformacaoDialogoSimNaoInformacaoOcultaDataContext.cs",
+      "export_path": "InformacaoDialogoSimNaoInformacaoOcultaDataContext.cs",
+      "raw_sha256": "794554ba1840b73c4df3d8f677244b8d06c65977174866214c2e2dfd31864e5a"
+    },
+    {
+      "path": "InformacaoEnviarEmailDataContext.cs",
+      "export_path": "InformacaoEnviarEmailDataContext.cs",
+      "raw_sha256": "e28d3dabda58affe55a6966ddad95196177aee1f78b92b9ef9cb4db629329e55"
+    },
+    {
+      "path": "InformacaoOcultaDialogoDataContext.cs",
+      "export_path": "InformacaoOcultaDialogoDataContext.cs",
+      "raw_sha256": "9b1d16325e71dc28448551077e1a35bb71d71523cedb1518345233ea304516f4"
+    },
+    {
+      "path": "InformacaoPesquisaDialogoDataContext.cs",
+      "export_path": "InformacaoPesquisaDialogoDataContext.cs",
+      "raw_sha256": "a342f14bf03039f6adc041311b86a2226be0a79c5a7527f946191458a7c787d9"
+    },
+    {
+      "path": "InformacaoTextoDialogoDataContext.cs",
+      "export_path": "InformacaoTextoDialogoDataContext.cs",
+      "raw_sha256": "9b4382e6acd2e4127fed7df7feecc2b88701cc2081e795d3791d112c5aca89d0"
+    },
+    {
+      "path": "InformacoesService.cs",
+      "export_path": "InformacoesService.cs",
+      "raw_sha256": "730e3ea68fd6ca54857eafe1dba4ed9b43a3eb8421923b9f92461c61ceb1ea71"
+    },
+    {
+      "path": "Interfaces\\IAbaViewModelBase.cs",
+      "export_path": "Interfaces\\IAbaViewModelBase.cs",
+      "raw_sha256": "b02af2c40404465fbe5143c7bc9101842224677eb095f99ee99df56df2e5bf0e"
+    },
+    {
+      "path": "Interfaces\\IDialogo.cs",
+      "export_path": "Interfaces\\IDialogo.cs",
+      "raw_sha256": "7ffe856b425bb6ea55feadce28b742e2559acd6ab7f13faabf287d97961769a4"
+    },
+    {
+      "path": "Interfaces\\IFormulario.cs",
+      "export_path": "Interfaces\\IFormulario.cs",
+      "raw_sha256": "228e7502c40c9cbb70e01c3f0d5fe432adb1758002f99dbca80199b7dc2e23c1"
+    },
+    {
+      "path": "Interfaces\\IFormularioEditavel.cs",
+      "export_path": "Interfaces\\IFormularioEditavel.cs",
+      "raw_sha256": "6be84f91a028c9b6310eefb2e7974787653a655577a5576cb9e5109851e87724"
+    },
+    {
+      "path": "Interfaces\\IFormularioEntity.cs",
+      "export_path": "Interfaces\\IFormularioEntity.cs",
+      "raw_sha256": "6ad388cdb23d5adf32d1357f21a9a22ca6386212a2221b938144d4d1ced46c62"
+    },
+    {
+      "path": "Interfaces\\IItens.cs",
+      "export_path": "Interfaces\\IItens.cs",
+      "raw_sha256": "98d763123954caa3c067a94955e3921be400759513542d4ae69fc70805ca45a4"
+    },
+    {
+      "path": "Interfaces\\IItensPaginacao.cs",
+      "export_path": "Interfaces\\IItensPaginacao.cs",
+      "raw_sha256": "acf5e5164a476dba9a6da2d09d88f30f9b29befa722926d89d69b77fcd398815"
+    },
+    {
+      "path": "Interfaces\\IPainel.cs",
+      "export_path": "Interfaces\\IPainel.cs",
+      "raw_sha256": "d99825eef8a68bf20a7d3d6774a89a7233e635788c427228b50e34f971c073b6"
+    },
+    {
+      "path": "Interfaces\\IPainelMensagem.cs",
+      "export_path": "Interfaces\\IPainelMensagem.cs",
+      "raw_sha256": "38f2030b4857be6b264ff2767f0539183766d5797aa0d95cf67cb0b8efd26b21"
+    },
+    {
+      "path": "Interfaces\\IPainelSeletorDireito.cs",
+      "export_path": "Interfaces\\IPainelSeletorDireito.cs",
+      "raw_sha256": "0f8ab5778ba68a3e90364705c0188fbf41b9e71366c8edb6681f95ed1b86fd23"
+    },
+    {
+      "path": "Interfaces\\IPainelSeletorEsquerdo.cs",
+      "export_path": "Interfaces\\IPainelSeletorEsquerdo.cs",
+      "raw_sha256": "c52871375cb58e517207ec6d759b83b397eeb756fdda7b33668a9904c64442d5"
+    },
+    {
+      "path": "Interfaces\\IPainelTitulo.cs",
+      "export_path": "Interfaces\\IPainelTitulo.cs",
+      "raw_sha256": "c2088de8f8ddccbe50bdba515a596b73ee2ef0bdc3fe75a13de6f1fd416459f4"
+    },
+    {
+      "path": "Interfaces\\IParametro.cs",
+      "export_path": "Interfaces\\IParametro.cs",
+      "raw_sha256": "87c9478f0cc8fd3e5000d2fe5262ba9335c1faff3ab903b8cc633675740ccd7b"
+    },
+    {
+      "path": "Interfaces\\IParametroPersonalizado.cs",
+      "export_path": "Interfaces\\IParametroPersonalizado.cs",
+      "raw_sha256": "52b3ee167aeda4e4287a5a2bd4566c2836e44c6e07151f493cc9bbd0c65d486e"
+    },
+    {
+      "path": "Interfaces\\IParametros.cs",
+      "export_path": "Interfaces\\IParametros.cs",
+      "raw_sha256": "b58af4319993c0f8e344993d43b1a5fb81fdea427a4ec68431f9d56e2b5e20a3"
+    },
+    {
+      "path": "Interfaces\\IRelatorio.cs",
+      "export_path": "Interfaces\\IRelatorio.cs",
+      "raw_sha256": "ce3b9b77184142123b099055a8cc95503956bd5a813b1c2efe156f7b1767706c"
+    },
+    {
+      "path": "Interfaces\\ISelecaoCommandParameter.cs",
+      "export_path": "Interfaces\\ISelecaoCommandParameter.cs",
+      "raw_sha256": "7203f43a8ad518b30e03943325ddba615c5c0320a1480e3a759709f772206a1a"
+    },
+    {
+      "path": "Interfaces\\IViewModelAtivoBase.cs",
+      "export_path": "Interfaces\\IViewModelAtivoBase.cs",
+      "raw_sha256": "19f596391baf5018e02023de4e60bb4c03b42b3ce42294bdd9f98a180c6d1bf4"
+    },
+    {
+      "path": "Interfaces\\IViewModelBase.cs",
+      "export_path": "Interfaces\\IViewModelBase.cs",
+      "raw_sha256": "f6cf6036f46a10bd3f4ede50ba0321af95e768c9c9fed3611261a804c9e9bf2e"
+    },
+    {
+      "path": "Interfaces\\IViewModelDtoBase.cs",
+      "export_path": "Interfaces\\IViewModelDtoBase.cs",
+      "raw_sha256": "c530f783f90ff8c5dde05ee9f27480cdc4127130b6446324dca35af77d22c82d"
+    },
+    {
+      "path": "Interfaces\\IViewModelIndice.cs",
+      "export_path": "Interfaces\\IViewModelIndice.cs",
+      "raw_sha256": "65107030a8e507b5b2d18a69d2b4e8cc90b5d12eb0da33324996b4b20a9a18ad"
+    },
+    {
+      "path": "Interfaces\\IViewModelInformacaoAba.cs",
+      "export_path": "Interfaces\\IViewModelInformacaoAba.cs",
+      "raw_sha256": "6822abfaea9b8e260fc0bd70eddbf3ae7d6c3d37dc8b869d3011eb3dcd77d311"
+    },
+    {
+      "path": "Interfaces\\IViewModelPrincipal.cs",
+      "export_path": "Interfaces\\IViewModelPrincipal.cs",
+      "raw_sha256": "84407f20f3546f93dac5ce3df2d8fe179ea30d12dccbdc48f759ef6ab10329ad"
+    },
+    {
+      "path": "Interfaces\\IViewModelSelecao.cs",
+      "export_path": "Interfaces\\IViewModelSelecao.cs",
+      "raw_sha256": "9f13096cc740739e79cfc9f39b57dd162925b5ebae0d1136b0cb4f28cea4843f"
+    },
+    {
+      "path": "Interfaces\\IViewModelTitulo.cs",
+      "export_path": "Interfaces\\IViewModelTitulo.cs",
+      "raw_sha256": "d786b509e7086919ed2622c46272d19fd5689a4fc2a8d71f8d10a124831805c0"
+    },
+    {
+      "path": "LancamentoManualDialogoDataContext.cs",
+      "export_path": "LancamentoManualDialogoDataContext.cs",
+      "raw_sha256": "7311e69723749320a3f6175239d22ebff2f73c8dd1308c136ac26a1ed31312eb"
+    },
+    {
+      "path": "LancamentoManualInteiroDialogoDataContext.cs",
+      "export_path": "LancamentoManualInteiroDialogoDataContext.cs",
+      "raw_sha256": "78217ae8c2e8383b2611e75fa48a3fd995711ce4b4c34c149edd05c9a69763ed"
+    },
+    {
+      "path": "LancamentoManualPrecoDialogoDataContext.cs",
+      "export_path": "LancamentoManualPrecoDialogoDataContext.cs",
+      "raw_sha256": "5e0b3cca696cbf3b147a5e3d33aeb76660d415c420cf0733e10337a3d8ccd5e6"
+    },
+    {
+      "path": "Lista.cs",
+      "export_path": "Lista.cs",
+      "raw_sha256": "db4fe600abd6ec1349bdd0a85b2a20339266568fdde16fca2ddc2c6c82388be2"
+    },
+    {
+      "path": "MessageBoxNotificationAction.cs",
+      "export_path": "MessageBoxNotificationAction.cs",
+      "raw_sha256": "dbfb86e045ad9364f6372953a20343874d8eca12eba30f5a65caa0c84558dd90"
+    },
+    {
+      "path": "ModuloBase.cs",
+      "export_path": "ModuloBase.cs",
+      "raw_sha256": "e51f64f4869c6f5de5ad342709f2965f508b495e5a1d19e48b0f94c7a47bd606"
+    },
+    {
+      "path": "NavigationBase.cs",
+      "export_path": "NavigationBase.cs",
+      "raw_sha256": "89e8d802affcb3be516117e9734e2e23347283c7c57db54c74599ba9ab69a18f"
+    },
+    {
+      "path": "Notificacao.cs",
+      "export_path": "Notificacao.cs",
+      "raw_sha256": "efdb006d2cdcbf061109d60917b6c84d887d63a5a5a8da536e46414bd54d79a8"
+    },
+    {
+      "path": "PainelTitulo.cs",
+      "export_path": "PainelTitulo.cs",
+      "raw_sha256": "9c039b98daf8370d241c79080a9a58b59b44c1afbe43209b45f5233977ec6c3d"
+    },
+    {
+      "path": "PermissaoAcessoDialogoDataContext.cs",
+      "export_path": "PermissaoAcessoDialogoDataContext.cs",
+      "raw_sha256": "954ebb5ef84bedfab755016f3f85163937cecff2c1a7c1f466a78a272618333b"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "cd187c19cab160a74305e89cd331f0b537d9cbfca1172a5bf1fe24357b7f82d4"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "4d32ad0bac13aec973d836be1f1d814ba37daf31e83483a6f85c07bf5c11519e"
+    },
+    {
+      "path": "Seletor.cs",
+      "export_path": "Seletor.cs",
+      "raw_sha256": "4e9148ca61800fa72e0d762f1449376d2d39093d39aeb7e52d064e9d3ca46555"
+    },
+    {
+      "path": "ServicoFormulario.cs",
+      "export_path": "ServicoFormulario.cs",
+      "raw_sha256": "1d4627fe51e944b2091589082610816caf979fb1c411dba920f9b656742e9261"
+    },
+    {
+      "path": "ServicoViewModelBase.cs",
+      "export_path": "ServicoViewModelBase.cs",
+      "raw_sha256": "b6a2754ea99ba0ca95b4e408f8465c71caaa871e6db263e2253e9421586f0882"
+    },
+    {
+      "path": "States\\Adicao.cs",
+      "export_path": "States\\Adicao.cs",
+      "raw_sha256": "e8d600f43d544eb2471593e9b9380fff4d14a07b2e0fd6717c13ddb8b227dcec"
+    },
+    {
+      "path": "States\\Edicao.cs",
+      "export_path": "States\\Edicao.cs",
+      "raw_sha256": "db9db7f3b7e44ca9abc59b034249679e4486ce79045bca649db06d9df9b08743"
+    },
+    {
+      "path": "States\\Listagem.cs",
+      "export_path": "States\\Listagem.cs",
+      "raw_sha256": "bc446cb47bcd3ae0ac4a976554686dbea828a48580adc13ca1d7b4d0ab645f35"
+    },
+    {
+      "path": "States\\Navegacao.cs",
+      "export_path": "States\\Navegacao.cs",
+      "raw_sha256": "a2067efd0f39b1e4e17e2150c3c7feab2ff277985084ba83d9499061acd661b3"
+    },
+    {
+      "path": "States\\Normal.cs",
+      "export_path": "States\\Normal.cs",
+      "raw_sha256": "85c75863a7152c6516670bd4a05622949ce9840429ef1d32f80bc453374e5159"
+    },
+    {
+      "path": "States\\StateItem.cs",
+      "export_path": "States\\StateItem.cs",
+      "raw_sha256": "cbcf579d509f1a3b9741b5b67d1f4c2eedce6ebf4520198c6e58c0951f291f14"
+    },
+    {
+      "path": "States\\StateView.2.cs",
+      "export_path": "States\\StateView.2.cs",
+      "raw_sha256": "d633abf117bde4ff8c1811f3e4f25079da090b085906b1bf6c17a1d0a2ecab12"
+    },
+    {
+      "path": "States\\StateView.cs",
+      "export_path": "States\\StateView.cs",
+      "raw_sha256": "18e38e955a3ea65f7d6479a1478263a1b8c16c319dc98e40070230852525614b"
+    },
+    {
+      "path": "TecladoNumerico.cs",
+      "export_path": "TecladoNumerico.cs",
+      "raw_sha256": "e55bf3debbf8c1acbdd718d08b5389383e695db52e4591d4355cb5dba97c3f8f"
+    },
+    {
+      "path": "Titulo.cs",
+      "export_path": "Titulo.cs",
+      "raw_sha256": "b23e6c2a06c3ad46e4ad2293521c1254abdd1ddb9733338d07aef78e0e1e49c1"
+    },
+    {
+      "path": "UpdateViewBindableBase.cs",
+      "export_path": "UpdateViewBindableBase.cs",
+      "raw_sha256": "807ffa8f23c2456f65d9e90fd32dba63c222e261a01cc550727da3952b7d9443"
+    },
+    {
+      "path": "Validation.cs",
+      "export_path": "Validation.cs",
+      "raw_sha256": "aaca82a858e775082ce8a20fcf2e8e73d67067d1c62e8fa55d0a8ca32476e79f"
+    },
+    {
+      "path": "ValidationProvider.cs",
+      "export_path": "ValidationProvider.cs",
+      "raw_sha256": "9e5e837d9a525370ed0f3dafa9576085fde1cd4884036cefabe164f8fa1416ff"
+    },
+    {
+      "path": "ViewModelValidationBase.cs",
+      "export_path": "ViewModelValidationBase.cs",
+      "raw_sha256": "77311c9385510d5c8d6d033548ca5ca728f0371d138c6f714824f9ff3e93f8a3"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 33
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Mvvm.g.resources",
+      "file": "0000.bin",
+      "bytes": 51657,
+      "sha256": "a05cb058f78fee1b947d35c104c387f06828eec61ade87f5c98c3ce713287c0f"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Mvvm.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 19463932,
+      "sha256": "a643aaf62c3fc6e236798098d4835a4540bc5f08ac600ba4772d0cca0133eb7c"
+    }
+  ],
+  "generated_stubs": false
+}

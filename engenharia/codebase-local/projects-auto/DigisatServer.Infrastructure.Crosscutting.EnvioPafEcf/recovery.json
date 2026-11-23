@@ -1,0 +1,306 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf.dll",
+  "baseline_sha256": "628cd2ebfdd08acd4dd1b8b6102d7ba3261f385bab5a6f1dbead3e5ca19ff484",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf.csproj",
+  "sources": [
+    {
+      "path": "-Module-{DECBCDFD-3F81-425B-A996-CA08B0B7B1DB}.cs",
+      "export_path": "-Module-{DECBCDFD-3F81-425B-A996-CA08B0B7B1DB}.cs",
+      "raw_sha256": "0adea2079f3cbc76eab81d47f942e49305f7182dd57cea4009b4b02db2422cfc"
+    },
+    {
+      "path": "Arquivo.cs",
+      "export_path": "Arquivo.cs",
+      "raw_sha256": "24c5caf8c0f5c06950dfea1d6626370ea864e75a05962a585a319bc27e304f0f"
+    },
+    {
+      "path": "AssinaturaEnvioFisco.cs",
+      "export_path": "AssinaturaEnvioFisco.cs",
+      "raw_sha256": "071f4cf83ac6e6be11674bb273c6825c73c6c62fb92dbb52da1200624850f423"
+    },
+    {
+      "path": "CadastroWebServicePafEcf.cs",
+      "export_path": "CadastroWebServicePafEcf.cs",
+      "raw_sha256": "5e40d400cfc5a55fa88443f2ee67375ffb3a723b9209f03053f9debead224d24"
+    },
+    {
+      "path": "ConsultaPendencias\\Arquivo.cs",
+      "export_path": "ConsultaPendencias\\Arquivo.cs",
+      "raw_sha256": "79e8d28b4c603b5cd429f292815012780bbb185485a4b465a1294a422da5a4f9"
+    },
+    {
+      "path": "ConsultaPendencias\\ConsultarPendenciasContribuinte.cs",
+      "export_path": "ConsultaPendencias\\ConsultarPendenciasContribuinte.cs",
+      "raw_sha256": "808b8567897989ed22d52fd60b8c07ff8a8423a34698ada7499065312ed23d51"
+    },
+    {
+      "path": "ConsultaPendencias\\ConsultarProcessamentoArquivo.cs",
+      "export_path": "ConsultaPendencias\\ConsultarProcessamentoArquivo.cs",
+      "raw_sha256": "d305a7e67b8254a3c65fd053aa304953f672041877a8fef7f799c8d4abc9eee6"
+    },
+    {
+      "path": "ConsultaPendencias\\Estoque.cs",
+      "export_path": "ConsultaPendencias\\Estoque.cs",
+      "raw_sha256": "8efeabe0c5b6d847b28fff007c694f5f357f3c108b2f931aa3605a00b01dab79"
+    },
+    {
+      "path": "ConsultaPendencias\\ListarArquivos.cs",
+      "export_path": "ConsultaPendencias\\ListarArquivos.cs",
+      "raw_sha256": "98389a749687827fc8423966f845b89b064703085d32276b09404570c3b38ba1"
+    },
+    {
+      "path": "ConsultaPendencias\\MensagemConsultarPendenciasContribuinte.cs",
+      "export_path": "ConsultaPendencias\\MensagemConsultarPendenciasContribuinte.cs",
+      "raw_sha256": "e2e060d8a6bb7ac4094130e2a77a0abbc2336eb835045a1aec573d2ca4bee32d"
+    },
+    {
+      "path": "ConsultaPendencias\\MensagemConsultarProcessamentoArquivo.cs",
+      "export_path": "ConsultaPendencias\\MensagemConsultarProcessamentoArquivo.cs",
+      "raw_sha256": "16f28ea1f97be0446b51d641509f2018722e8f7b82a953a729fe8d8408552cfb"
+    },
+    {
+      "path": "ConsultaPendencias\\Pendencia.cs",
+      "export_path": "ConsultaPendencias\\Pendencia.cs",
+      "raw_sha256": "f80d9f282c2db72b6998db8cea3bdd1c264aea0316b81f7838705c099fdff7e8"
+    },
+    {
+      "path": "ConsultaPendencias\\RespostaArquivos.cs",
+      "export_path": "ConsultaPendencias\\RespostaArquivos.cs",
+      "raw_sha256": "47da40086abe610cb8a5d6015b51bbfed7e1ae72bacc81994b47a3725151b0fa"
+    },
+    {
+      "path": "ConsultaPendencias\\RespostaConsultarPendenciasContribuinte.cs",
+      "export_path": "ConsultaPendencias\\RespostaConsultarPendenciasContribuinte.cs",
+      "raw_sha256": "5891baed8304e0620b9316c400750bda474f07f5ab4ae0e2a0cc601e18e0f9a1"
+    },
+    {
+      "path": "ConsultaPendencias\\RespostaEcf.cs",
+      "export_path": "ConsultaPendencias\\RespostaEcf.cs",
+      "raw_sha256": "8869fc7fb5984a0680824b556aacce05d0c888b79f9f92188b71f6abc6d9a409"
+    },
+    {
+      "path": "ConsultaPendencias\\RespostaEstoques.cs",
+      "export_path": "ConsultaPendencias\\RespostaEstoques.cs",
+      "raw_sha256": "ec17b25d6c2a8452e438027f314acb437786be43802cf73639afd1c096f85551"
+    },
+    {
+      "path": "ConsultaPendencias\\RespostaListarArquivos.cs",
+      "export_path": "ConsultaPendencias\\RespostaListarArquivos.cs",
+      "raw_sha256": "297e2ed4aadf662d5910c0c8b352c98de38e9eff4202d9788827ca1fae8e04e3"
+    },
+    {
+      "path": "ConsultaPendencias\\RespostaReducaoZ.cs",
+      "export_path": "ConsultaPendencias\\RespostaReducaoZ.cs",
+      "raw_sha256": "55f2b4e52eba95f5aa8f295af6853aa08b64ae49c8694991c6a09fbcb85d4e56"
+    },
+    {
+      "path": "ConsultaService.cs",
+      "export_path": "ConsultaService.cs",
+      "raw_sha256": "18fdced74c1c74c6d569b2301c3d74ebd74e4f301158b3b18921c786e8574c71"
+    },
+    {
+      "path": "EnderecoWebServicePafEcf.cs",
+      "export_path": "EnderecoWebServicePafEcf.cs",
+      "raw_sha256": "1508cb0cfd7e331c974fa3f2f637e6b0f789630d4008b74b5eece74c2ffd5526"
+    },
+    {
+      "path": "EnvioEstoque\\DadoEstoque.cs",
+      "export_path": "EnvioEstoque\\DadoEstoque.cs",
+      "raw_sha256": "46d8908c26a8fce2f82545a8a9b26b8f331ea374ffd556c15e7fdb0410305e4a"
+    },
+    {
+      "path": "EnvioEstoque\\Estoque.cs",
+      "export_path": "EnvioEstoque\\Estoque.cs",
+      "raw_sha256": "40a5b8c5d5e0340d1d9ec47813c5d50a3969c97d1a3138df564be35ab436fc9f"
+    },
+    {
+      "path": "EnvioEstoque\\MensagemEstoque.cs",
+      "export_path": "EnvioEstoque\\MensagemEstoque.cs",
+      "raw_sha256": "24624cde48ce8a5752997c106f983d4130e3a080d5a89d8407f0b2b9a14fd245"
+    },
+    {
+      "path": "EnvioEstoque\\ProdutoEstoque.cs",
+      "export_path": "EnvioEstoque\\ProdutoEstoque.cs",
+      "raw_sha256": "34ef2cfbc741a0768bfbd483ad33cdda0ce28a346b483946b7ca069cbd5a5863"
+    },
+    {
+      "path": "EnvioFisco.cs",
+      "export_path": "EnvioFisco.cs",
+      "raw_sha256": "02ae438341d51601d1daa46eb60d6288960db8dda3a85a5f72126a9783aff205"
+    },
+    {
+      "path": "EnvioFiscoBase.cs",
+      "export_path": "EnvioFiscoBase.cs",
+      "raw_sha256": "f9dc031b2c7844dbeb61d1165244bfef4aff0eed04d23da1801f1f45ecd12b44"
+    },
+    {
+      "path": "EnvioReducaoZ\\ArquivoReducaoZ.cs",
+      "export_path": "EnvioReducaoZ\\ArquivoReducaoZ.cs",
+      "raw_sha256": "5d1e12bd8978ed66d2dabfb3f7c3d273a6c98883877817fbdb43b5b9716b0788"
+    },
+    {
+      "path": "EnvioReducaoZ\\DadoReducaoZ.cs",
+      "export_path": "EnvioReducaoZ\\DadoReducaoZ.cs",
+      "raw_sha256": "82a3c692cc2b572954084e9a6a6898173e00e50b4a18968ffac39251a6b9a650"
+    },
+    {
+      "path": "EnvioReducaoZ\\Ecf.cs",
+      "export_path": "EnvioReducaoZ\\Ecf.cs",
+      "raw_sha256": "939a0a30d3a0a7850616a86fc1d67872c8625d76c8148548732598aa0af8c3eb"
+    },
+    {
+      "path": "EnvioReducaoZ\\MensagemReducaoZ.cs",
+      "export_path": "EnvioReducaoZ\\MensagemReducaoZ.cs",
+      "raw_sha256": "22bf5eeed675bf5e9bbbc02cd8a0961f48af5159afc1927507da281cba33ba0a"
+    },
+    {
+      "path": "EnvioReducaoZ\\ProdutoReducaoZ.cs",
+      "export_path": "EnvioReducaoZ\\ProdutoReducaoZ.cs",
+      "raw_sha256": "cf2f46f754f7fd097ac9b7598eb363a8390d91c23a2ec78d2007517a852388fd"
+    },
+    {
+      "path": "EnvioReducaoZ\\ProdutoServicoReducaoZ.cs",
+      "export_path": "EnvioReducaoZ\\ProdutoServicoReducaoZ.cs",
+      "raw_sha256": "a74b3b8bb05b0ebb28581f45de442a87fd88a03874512a2c58572a7527e2b9ed"
+    },
+    {
+      "path": "EnvioReducaoZ\\ReducaoZ.cs",
+      "export_path": "EnvioReducaoZ\\ReducaoZ.cs",
+      "raw_sha256": "53e323c5713a1ee439b97071310bad1f56344d4e4f4c6132d23604b6731fe5c0"
+    },
+    {
+      "path": "EnvioReducaoZ\\RespostaConsulta.cs",
+      "export_path": "EnvioReducaoZ\\RespostaConsulta.cs",
+      "raw_sha256": "5228da614031fdb784739fd7e09d63c8863324a27e8afd672984709d55e27ed6"
+    },
+    {
+      "path": "EnvioReducaoZ\\ServicoReducaoZ.cs",
+      "export_path": "EnvioReducaoZ\\ServicoReducaoZ.cs",
+      "raw_sha256": "42bdead9726c50b9dcbe4c975b14e381bee9c6d2f80a708e2cfe8053a2bbbfd3"
+    },
+    {
+      "path": "EnvioReducaoZ\\TotalizadorParcial.cs",
+      "export_path": "EnvioReducaoZ\\TotalizadorParcial.cs",
+      "raw_sha256": "82b52d527932ec73dbdbf6835812e78d9e532f2e8ec37390bda4e0e875a22b06"
+    },
+    {
+      "path": "Estabelecimento.cs",
+      "export_path": "Estabelecimento.cs",
+      "raw_sha256": "bc1059c644bc87cdfbdacf9de967690a36b76a73087834f51d5d2d758dc1f0c9"
+    },
+    {
+      "path": "ExceptionVinteArquivos.cs",
+      "export_path": "ExceptionVinteArquivos.cs",
+      "raw_sha256": "5e0affdb4923b53c369d38c595410637a68f26b410a79ad2817ffd27939c825e"
+    },
+    {
+      "path": "InformacaoServico.cs",
+      "export_path": "InformacaoServico.cs",
+      "raw_sha256": "88e5a1160c642e9e2c301a914bc1a2a72231f4215251e103b550970761f5147e"
+    },
+    {
+      "path": "Mensagem.cs",
+      "export_path": "Mensagem.cs",
+      "raw_sha256": "a6ba7a019bcabe9ad263ae3ab0e3c7160482575802cc63f79cff3a363f978fd8"
+    },
+    {
+      "path": "OBoSk2E8qrBbNIdAQl\\pRgTddNJ6XFn2DHaUW.cs",
+      "export_path": "OBoSk2E8qrBbNIdAQl\\pRgTddNJ6XFn2DHaUW.cs",
+      "raw_sha256": "d79daa0b217bbeab0c79180a2f638665377c002e7f0487348edda720b51b1319"
+    },
+    {
+      "path": "PafEcf.cs",
+      "export_path": "PafEcf.cs",
+      "raw_sha256": "b7efbeba3dc061d599fe25073232d70a3ee9550c82a37e86dfccfe85582a5f2b"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c064727ffd9a38958c81beb422172624814e9a57122502d1dfbce7dbeeaab08e"
+    },
+    {
+      "path": "Q7RuhT1lXWjXoFTCiq\\cpPrFlyuILHSkEol6D.cs",
+      "export_path": "Q7RuhT1lXWjXoFTCiq\\cpPrFlyuILHSkEol6D.cs",
+      "raw_sha256": "7d53fa767679d0d58c7746bb4ed1fd81bba76ada07f9f1c621fd57d3df84d1d9"
+    },
+    {
+      "path": "Resposta.cs",
+      "export_path": "Resposta.cs",
+      "raw_sha256": "7e1fccec1be34629b2c1fe3ceda31c85c690232b0a545faee9ad15adcd56e09f"
+    },
+    {
+      "path": "RespostaEnvio.cs",
+      "export_path": "RespostaEnvio.cs",
+      "raw_sha256": "0df40117ecfa26d28fb767c950be33e941b1595449a67c13a8eea2ce2731cbc3"
+    },
+    {
+      "path": "RespostaManutencao.cs",
+      "export_path": "RespostaManutencao.cs",
+      "raw_sha256": "6b48ecc7093b4e1b2f6710fd60eb422f5095fcc68b7edd2dfb1d79e399231145"
+    },
+    {
+      "path": "TransmissaoService.cs",
+      "export_path": "TransmissaoService.cs",
+      "raw_sha256": "7c4c24dccbe0300da94d87b064f232e7b6b23d7276b4ee685f6685d1e5e8570e"
+    },
+    {
+      "path": "TransmissaoServidorService.cs",
+      "export_path": "TransmissaoServidorService.cs",
+      "raw_sha256": "6a7fe997425149b92c112a7cd7d3de4fd04fff9ef7e1aa499b82ad3ff0bd6945"
+    },
+    {
+      "path": "UfWebServicePafEcf.cs",
+      "export_path": "UfWebServicePafEcf.cs",
+      "raw_sha256": "54686aeb59fce87f7a6e19761ff67a26337892b8989b6adddbc355ad6a29108e"
+    },
+    {
+      "path": "WebServiceConsultaPafEcf.cs",
+      "export_path": "WebServiceConsultaPafEcf.cs",
+      "raw_sha256": "4e39f4c153a9d836759ba71de02432ceeacb1f0e9a11f049b6b49930c4023fb1"
+    },
+    {
+      "path": "WebServicePafEcf.cs",
+      "export_path": "WebServicePafEcf.cs",
+      "raw_sha256": "7ca7d216d856d835b73b8520bf72fffefad60736eb62b3c6bf7d588c8bd8b3ed"
+    },
+    {
+      "path": "WebServicePafEcfBase.cs",
+      "export_path": "WebServicePafEcfBase.cs",
+      "raw_sha256": "fc04e1711656b29a49193d16dc6380fefda3337b9c04554dff5622403839e612"
+    },
+    {
+      "path": "zVrfPGUeHFAeVL4AHT\\vXOrZui9UQE5vxTcmh.cs",
+      "export_path": "zVrfPGUeHFAeVL4AHT\\vXOrZui9UQE5vxTcmh.cs",
+      "raw_sha256": "5a7bd62f0e19e7fb441ca864e9bb6ec5125b46cda4fe5b3fe5c44db47815e354"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 30
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf.g.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "file": "0001.bin",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "file": "0002.bin",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    }
+  ],
+  "generated_stubs": false
+}

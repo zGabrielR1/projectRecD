@@ -1,0 +1,9 @@
+{
+  "assembly": "Microsoft.Win32.TaskScheduler, Version=2.6.3.0, Culture=neutral, PublicKeyToken=c416bc1b32d97233",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Xml",
+    "System.Core"
+  ]
+}

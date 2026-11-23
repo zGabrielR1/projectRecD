@@ -1,0 +1,65 @@
+{
+  "artifactSha256": "556a87a9f62772eee65077b0778c7b60b2264d0b7152f8ec67515d41091acd59",
+  "mvid": "45b86cfe-0e22-4710-a101-e82853c88da3",
+  "assembly": "Modulo.Sngpcs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.Mvvm.v15.2",
+    "System.Reactive.Core",
+    "System.Core",
+    "System.Windows.Forms",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Xml",
+    "DevExpress.Data.v15.2",
+    "System.Drawing",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Sngpcs.g.resources",
+      "file": "0000.bin",
+      "bytes": 32340,
+      "sha256": "676465c467d2675623981d1e896917841d0b6e2a4da9b8015ca56561fa1e877c"
+    },
+    {
+      "name": "Otus.Modulo.Sngpcs.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Sngpcs.Reports.Resumo.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Sngpcs.Reports.ResumoStatus.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Sngpcs.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 277,
+      "sha256": "2d214d56b1dfbd387a82da248834abbc52e1ea8e5a988e162cd2bf2f020679fa"
+    }
+  ]
+}

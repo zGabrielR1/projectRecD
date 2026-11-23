@@ -1,0 +1,10 @@
+{
+  "assembly": "Hiro, Version=1.16.0.29, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "Operacoes",
+    "System",
+    "LibUsbDotNet",
+    "System.Core"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.ImportacoesGuiaDaFarmacia",
+  "baseline": "baseline\\Modulo.ImportacoesGuiaDaFarmacia.dll",
+  "baseline_sha256": "128b393f7ef359f7f94a764a65f47f9f498de209f7f49b767a7255b034b96fa8",
+  "export_project": "recovered\\SuiteG6\\Modulo.ImportacoesGuiaDaFarmacia\\Modulo.ImportacoesGuiaDaFarmacia.csproj",
+  "sources": [
+    {
+      "path": "ImportacaoGuiaDaFarmaciaModulo.cs",
+      "export_path": "ImportacaoGuiaDaFarmaciaModulo.cs",
+      "raw_sha256": "08a7cefcfbf76576866e6cfabdcc5a28ca71df9a089488c7c93fff33bc406e08"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "20b021a778fed255b5de0ade5cc8fbfa29ba82496b575bc2a45a894683ee3892"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "4bec007901290a99eb79a2f125f35aee292971add13d01b95c8bd5371d8673b9"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "fc4ceba2a90da72c89c9ff72c12c1855980e623683cfd2944333cfef4197fd29"
+    },
+    {
+      "path": "ViewModels\\HistoricoConsultaAbaViewModel.cs",
+      "export_path": "ViewModels\\HistoricoConsultaAbaViewModel.cs",
+      "raw_sha256": "be0ed1b90844a3ceaf93df1ba657c9153c37023a63bec64b411472f237fd6a63"
+    },
+    {
+      "path": "ViewModels\\HistoricoConsultaViewModel.cs",
+      "export_path": "ViewModels\\HistoricoConsultaViewModel.cs",
+      "raw_sha256": "81c20d851c7cca009d816b14ba647934b8aa12555bab25fcedc9d47bca880cfe"
+    },
+    {
+      "path": "ViewModels\\ImportacaoGuiaDaFarmaciaAbaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoGuiaDaFarmaciaAbaViewModel.cs",
+      "raw_sha256": "f42e4bb05c027683edc534264848e7fbeefd6a62f78d0b2b4fb9c26dabb19f6d"
+    },
+    {
+      "path": "ViewModels\\ImportacaoGuiaDaFarmaciaFichaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoGuiaDaFarmaciaFichaViewModel.cs",
+      "raw_sha256": "e4b5ec1a88a50ecfedf61e8a0694489f42111bed3d37799ed84ed16eb2586d45"
+    },
+    {
+      "path": "ViewModels\\ImportacaoGuiaDaFarmaciaFormulario.cs",
+      "export_path": "ViewModels\\ImportacaoGuiaDaFarmaciaFormulario.cs",
+      "raw_sha256": "0803997ac4ccb7ed7f20f01e1722f8985ae665473d39e9a2486717c93bea0b46"
+    },
+    {
+      "path": "ViewModels\\ImportacaoGuiaDaFarmaciaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoGuiaDaFarmaciaViewModel.cs",
+      "raw_sha256": "0cc0a2939064eb0089e3c5b59c56e266af56060631141bfdabdec7d7880f97ce"
+    },
+    {
+      "path": "ViewModels\\ImportacoesGuiaDaFarmaciaViewModel.cs",
+      "export_path": "ViewModels\\ImportacoesGuiaDaFarmaciaViewModel.cs",
+      "raw_sha256": "621233c3957c4acf5628c1b84af2d337db941b931d6db513db4f58b95b339f13"
+    },
+    {
+      "path": "Views\\ImportacaoGuiaDaFarmaciaFichaView.cs",
+      "export_path": "Views\\ImportacaoGuiaDaFarmaciaFichaView.cs",
+      "raw_sha256": "66379efb2439933c8e3ed98fc9af973ba6aec66f82a8c4e26dfaee3acc999652"
+    },
+    {
+      "path": "Views\\ImportacoesGuiaDaFarmaciaFichaViewDetalh\\HistoricoConsultaView.cs",
+      "export_path": "Views\\ImportacoesGuiaDaFarmaciaFichaViewDetalh\\HistoricoConsultaView.cs",
+      "raw_sha256": "ac971eb7d320fdfc1e8a97a6777d3bbb3724a789aa028bf22d98c4ea493d1824"
+    },
+    {
+      "path": "Views\\ImportacoesGuiaDaFarmaciaFichaViewDetalh\\ImportacaoGuiaDaFarmaciaView.cs",
+      "export_path": "Views\\ImportacoesGuiaDaFarmaciaFichaViewDetalh\\ImportacaoGuiaDaFarmaciaView.cs",
+      "raw_sha256": "fba7c5c06c29005c2f66b4a77b1d06d11d1a81d290e96973801c390e99c61b37"
+    },
+    {
+      "path": "Views\\ImportacoesGuiaDaFarmaciaView.cs",
+      "export_path": "Views\\ImportacoesGuiaDaFarmaciaView.cs",
+      "raw_sha256": "2cc4eaa8a1e2bc40854be348ac935f7676e056a1504b672b540210f66cebc0de"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 6
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.ImportacoesGuiaDaFarmacia.g.resources",
+      "file": "0000.bin",
+      "bytes": 13905,
+      "sha256": "290478ce55c6fe45fcc6c65a0d81f7f45314afba36e884202ab90967e4102cc3"
+    },
+    {
+      "name": "Otus.Modulo.ImportacoesGuiaDaFarmacia.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

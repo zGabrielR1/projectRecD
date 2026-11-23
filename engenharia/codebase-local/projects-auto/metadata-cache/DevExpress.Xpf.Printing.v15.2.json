@@ -1,0 +1,25 @@
+{
+  "assembly": "DevExpress.Xpf.Printing.v15.2, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "PresentationCore",
+    "DevExpress.Xpf.Ribbon.v15.2",
+    "DevExpress.Xpf.Core.v15.2",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "WindowsBase",
+    "System",
+    "System.Xaml",
+    "DevExpress.Xpf.DocumentViewer.v15.2.Core",
+    "DevExpress.Xpf.Docking.v15.2",
+    "DevExpress.Mvvm.v15.2",
+    "System.Windows.Forms",
+    "System.Drawing",
+    "System.Printing",
+    "System.Core",
+    "ReachFramework",
+    "DevExpress.RichEdit.v15.2.Core",
+    "System.ServiceModel"
+  ]
+}

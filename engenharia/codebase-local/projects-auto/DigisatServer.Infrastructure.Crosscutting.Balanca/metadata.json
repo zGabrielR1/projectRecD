@@ -1,0 +1,16 @@
+{
+  "artifactSha256": "4c73185600eb4d5b8f12d5fb22e4f1dea8f996bbe4b9768ec841c34fefa5085c",
+  "mvid": "4ec837bf-50fd-418b-94ce-26ab8c1e1afe",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Balanca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "System.Reactive.Core",
+    "System.Reactive.Linq",
+    "System.Core",
+    "System.Reactive.Interfaces"
+  ],
+  "resources": []
+}

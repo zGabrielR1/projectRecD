@@ -1,0 +1,14 @@
+{
+  "artifactSha256": "8cb622bec66d145337f961820245a35a1864fa256c99ff077a4f2c4b028a880b",
+  "mvid": "9f9eed73-f720-4539-b183-422410c77777",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System",
+    "System.Core"
+  ],
+  "resources": []
+}

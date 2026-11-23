@@ -1,0 +1,35 @@
+{
+  "artifactSha256": "159d3ea86c7d39f1720d9d3bfe56cadf3e3bdcdbc9ebc79053548b766471e46b",
+  "mvid": "6e973dd4-78cf-48a2-833b-c8e8347ff68c",
+  "assembly": "Modulo.GeradorArquivosEtiquetas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoEtiquetaEletronica",
+    "Prism.Unity.Wpf",
+    "System.Windows.Forms"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GeradorArquivosEtiquetas.g.resources",
+      "file": "0000.bin",
+      "bytes": 9423,
+      "sha256": "1cc745e7aaec57fff89b33a04298fca44f17547c3157db4a00f81b86c142f363"
+    }
+  ]
+}

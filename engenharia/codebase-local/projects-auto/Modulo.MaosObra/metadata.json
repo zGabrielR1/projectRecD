@@ -1,0 +1,37 @@
+{
+  "artifactSha256": "3a6f719fa42e6b9cec86c0ac5f9f50d4bb0458667833a076554512063ab6a142",
+  "mvid": "f46bad20-cec7-4c97-bd12-28e0b610448c",
+  "assembly": "Modulo.MaosObra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.MaosObra.g.resources",
+      "file": "0000.bin",
+      "bytes": 8044,
+      "sha256": "9327f6730841305eb8b78c0d99bd9d998f42c4d00486bafafba402340b37161e"
+    },
+    {
+      "name": "Otus.Modulo.MaosObra.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

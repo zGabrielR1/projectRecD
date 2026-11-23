@@ -1,0 +1,15 @@
+{
+  "assembly": "Operacoes, Version=1.3.3.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System.Core",
+    "PresentationFramework",
+    "System",
+    "WindowsBase",
+    "PresentationCore",
+    "System.Drawing",
+    "System.Xml",
+    "System.Configuration",
+    "Microsoft.CSharp"
+  ]
+}

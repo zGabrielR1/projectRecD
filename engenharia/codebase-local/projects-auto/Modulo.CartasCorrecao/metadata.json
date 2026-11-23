@@ -1,0 +1,56 @@
+{
+  "artifactSha256": "444debbbebc105386e10f9a62406781775afdea6f31a1e24386047f1766af6d0",
+  "mvid": "8ddac5f4-1867-459c-b880-62284c0e0c82",
+  "assembly": "Modulo.CartasCorrecao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "DevExpress.Printing.v15.2.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.XtraPrinting.v15.2",
+    "System.Core",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.CartasCorrecao.g.resources",
+      "file": "0000.bin",
+      "bytes": 15180,
+      "sha256": "d2034fe11f0f7b131403953f549b5b78a6930298ac90a77741ec2abdae5dedb6"
+    },
+    {
+      "name": "Otus.Modulo.CartasCorrecao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.CartasCorrecao.Reports.RelatorioCartaCorrecao.resources",
+      "file": "0002.bin",
+      "bytes": 776,
+      "sha256": "3ed6fa26acdd5b9aa0d9b75a08faaac9088b4539dc87bba102a20f209f68815f"
+    },
+    {
+      "name": "Modulo.CartasCorrecao.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 285,
+      "sha256": "a302ab90efdd281b53776f470b79511fe2648c75d1589f6b95eb028978f82e1d"
+    }
+  ]
+}

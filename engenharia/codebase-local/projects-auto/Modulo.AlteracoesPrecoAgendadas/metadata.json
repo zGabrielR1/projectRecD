@@ -1,0 +1,34 @@
+{
+  "artifactSha256": "9c3272e89e883322574e5603ab906d120913e3baa013a2c3bed431eefea654c1",
+  "mvid": "9abfc0d4-7f2e-4e4f-992a-8304c9bb13e9",
+  "assembly": "Modulo.AlteracoesPrecoAgendadas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "PresentationFramework",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "DevExpress.Xpf.Grid.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.AlteracoesPrecoAgendadas.g.resources",
+      "file": "0000.bin",
+      "bytes": 29785,
+      "sha256": "9bc564f888079d70a67f951d3bc67e4c3ee904636646dd48178607c8906216dc"
+    }
+  ]
+}

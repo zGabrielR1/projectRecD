@@ -1,0 +1,55 @@
+{
+  "artifactSha256": "51d6849812ffa8696b88ec38b79d167a8f4e9f8c62a86673200b0630141d93f5",
+  "mvid": "f19f23f2-3109-43eb-8596-1520a9f907d1",
+  "assembly": "Modulo.FluxosCaixa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.XtraReports.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "PresentationCore",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.DataAccess.v15.2",
+    "DevExpress.XtraCharts.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "System.Reactive.Core",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.FluxosCaixa.g.resources",
+      "file": "0000.bin",
+      "bytes": 13367,
+      "sha256": "f3a427942ca9726d378761b1a4d4254eb73917c32cd7dcf349387ed35fe2b329"
+    },
+    {
+      "name": "Otus.Modulo.FluxosCaixa.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.FluxosCaixa.Reports.Relatorio.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.FluxosCaixa.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 282,
+      "sha256": "359aff654a7f8679d85ac8147871604d585145cd37169f90c392cd95329281d2"
+    }
+  ]
+}

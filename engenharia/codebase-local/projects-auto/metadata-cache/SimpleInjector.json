@@ -1,0 +1,8 @@
+{
+  "assembly": "SimpleInjector, Version=4.0.12.0, Culture=neutral, PublicKeyToken=984cb50dea722e99",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Core"
+  ]
+}

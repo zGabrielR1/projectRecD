@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.Transferencias",
+  "baseline": "baseline\\Modulo.Transferencias.dll",
+  "baseline_sha256": "64b414e12fae80fa16cb99699e752c5bef3104b9cf0ff96edae4f0c38b398df4",
+  "export_project": "recovered\\SuiteG6\\Modulo.Transferencias\\Modulo.Transferencias.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "e74703e69721a2e7c8180eb019901f497d88529c8bc4fad7b255157507b403bb"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "ef80ed9cfb7a5f9368bd44f8d8fb2ddaa7d35705318885add20df78c71726781"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "bbfdadccfdf4dc35267f096d27493e53518bd7cd24bed3f7b4de9439b5f6839d"
+    },
+    {
+      "path": "TransferenciaModulo.cs",
+      "export_path": "TransferenciaModulo.cs",
+      "raw_sha256": "23df3f278ae61d5c2d149c02676f5e80816d2a996c207e9643b31df3cdec8b66"
+    },
+    {
+      "path": "ViewModels\\TransferenciaAbaViewModel.cs",
+      "export_path": "ViewModels\\TransferenciaAbaViewModel.cs",
+      "raw_sha256": "53a7c8a329025c62a3b08c3fe88ba559223b53a793ce38a708ac6d8c16bdf6c5"
+    },
+    {
+      "path": "ViewModels\\TransferenciaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TransferenciaFichaAdicionarViewModel.cs",
+      "raw_sha256": "610c16a5852a230fde7252c0e7e241440830db8e35f7236c031e3ed3ace93a84"
+    },
+    {
+      "path": "ViewModels\\TransferenciaFormulario.cs",
+      "export_path": "ViewModels\\TransferenciaFormulario.cs",
+      "raw_sha256": "70c272027d1f24265743a830a5218ecdc213a8c8bb3e24cbe96cd89fe184ee65"
+    },
+    {
+      "path": "ViewModels\\TransferenciaListaViewModel.cs",
+      "export_path": "ViewModels\\TransferenciaListaViewModel.cs",
+      "raw_sha256": "003295a1a687916635e8da40f0475c496e7fc247f9633942107f6ef39409a504"
+    },
+    {
+      "path": "ViewModels\\TransferenciasViewModel.cs",
+      "export_path": "ViewModels\\TransferenciasViewModel.cs",
+      "raw_sha256": "790d319ab6d1093fa6e9e3191caf8fd03b7153a1d9a4221bfa8f566a9b572112"
+    },
+    {
+      "path": "ViewModels\\TransferenciaViewModel.cs",
+      "export_path": "ViewModels\\TransferenciaViewModel.cs",
+      "raw_sha256": "fae46ee7e78c5f97642ea903de186daa614deb5a3195acc7c40fc7efb2108495"
+    },
+    {
+      "path": "views\\TransferenciaFichaAdicionarView.cs",
+      "export_path": "views\\TransferenciaFichaAdicionarView.cs",
+      "raw_sha256": "cdc07b8902314372de7f5bebdf3026dd3851f6393b25571ebc3ec50f19afba14"
+    },
+    {
+      "path": "views\\TransferenciaListaView.cs",
+      "export_path": "views\\TransferenciaListaView.cs",
+      "raw_sha256": "d040078928d96c8ed68bd393672a2d358045560ce963f6aa28309cb6c8b9c931"
+    },
+    {
+      "path": "views\\TransferenciasView.cs",
+      "export_path": "views\\TransferenciasView.cs",
+      "raw_sha256": "5d6767d8889e72a4d2e4830d195cd80618430a07ea74925a6e0396ad744d5cc4"
+    },
+    {
+      "path": "views\\TrasferenciaFichaViewDetalhes\\TransferenciaView.cs",
+      "export_path": "views\\TrasferenciaFichaViewDetalhes\\TransferenciaView.cs",
+      "raw_sha256": "5f091a5f962bf57356fd10e0b5639b8f3cbdf1f57a8e51ea47551c56c60962ae"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Transferencias.g.resources",
+      "file": "0000.bin",
+      "bytes": 17589,
+      "sha256": "66d0f1ac63da8184b9fe14a22bdd912a64c92f0563718d15b089fa81f9bb3415"
+    },
+    {
+      "name": "Otus.Modulo.Transferencias.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

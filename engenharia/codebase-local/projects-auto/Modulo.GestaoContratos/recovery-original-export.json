@@ -1,0 +1,276 @@
+{
+  "name": "Modulo.GestaoContratos",
+  "baseline": "baseline\\Modulo.GestaoContratos.dll",
+  "baseline_sha256": "f1405691d5f3e02c6bd94ef64455eced5ba7b5f73aed8742596102f87d556da5",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoContratos\\Modulo.GestaoContratos.csproj",
+  "sources": [
+    {
+      "path": "Function\\CampoContrato.cs",
+      "export_path": "Function\\CampoContrato.cs",
+      "raw_sha256": "0326f5d038815f243f7fb98426677deddf9b195d7032f01e529cee26634cfe85"
+    },
+    {
+      "path": "Function\\CamposContrato.cs",
+      "export_path": "Function\\CamposContrato.cs",
+      "raw_sha256": "71020666e8613e608d699f550e3b452ed47fa9cfb5cce8fb2365601810a8c7f6"
+    },
+    {
+      "path": "GestaoContratoModulo.cs",
+      "export_path": "GestaoContratoModulo.cs",
+      "raw_sha256": "f86a0b5a428fa506a81f72ce75716203c3eda6b9e526c9ec195b0c3560e920a9"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "260062ec6b9cc8dc3cdcd277eb98097cb5ffb6916f75615dd0a031c19a6b8606"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "b95a7f2ad8c0e8618235935507ad055fbf7f6291ff4736f9cb544f24e3968687"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "dec8e31c759341b832aae86324b1144b2e359d9a6eaa50ce9bb4f11e28650db0"
+    },
+    {
+      "path": "Reports\\ImpressoContrato.cs",
+      "export_path": "Reports\\ImpressoContrato.cs",
+      "raw_sha256": "6f858894cdbc0fe3a44f97ec3d456028fc7824939b56e2990edaa4c33de5efd5"
+    },
+    {
+      "path": "Reports\\RelatorioContrato.cs",
+      "export_path": "Reports\\RelatorioContrato.cs",
+      "raw_sha256": "9c2fabc6da09b28f3e5b0a10a5817410dee66308ec2376f785d2b2a240d61b0f"
+    },
+    {
+      "path": "ViewModels\\ConfirmacaoNumeroContrato.cs",
+      "export_path": "ViewModels\\ConfirmacaoNumeroContrato.cs",
+      "raw_sha256": "b69805bfda3ed8e1bb639c19e929fa6dc751405c62ff154843ba3b88bf331c6a"
+    },
+    {
+      "path": "ViewModels\\ContratoRenovacaoEmMassaViewModel.cs",
+      "export_path": "ViewModels\\ContratoRenovacaoEmMassaViewModel.cs",
+      "raw_sha256": "f1a0698cf9cbcd1f5d70a91752ec565c3ce9600533a55f10d562b2d2a51d39fb"
+    },
+    {
+      "path": "ViewModels\\GestaoContratoAbaViewModel.cs",
+      "export_path": "ViewModels\\GestaoContratoAbaViewModel.cs",
+      "raw_sha256": "4bdbb4053d9437200904289e34b0435591a3344646bc58f769239e14a0ce17e5"
+    },
+    {
+      "path": "ViewModels\\GestaoContratoAnexosAbaViewModel.cs",
+      "export_path": "ViewModels\\GestaoContratoAnexosAbaViewModel.cs",
+      "raw_sha256": "19913d77480bd940cc8545125546d4d620b84b30031d625306d05f6ed2fb79f6"
+    },
+    {
+      "path": "ViewModels\\GestaoContratoAnexosViewModel.cs",
+      "export_path": "ViewModels\\GestaoContratoAnexosViewModel.cs",
+      "raw_sha256": "981d7fc0e67b4904b1f25c2940ebbb6f6b5343c23316c8a7fe3fa6f22cefbbf8"
+    },
+    {
+      "path": "ViewModels\\GestaoContratoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\GestaoContratoFichaAdicionarViewModel.cs",
+      "raw_sha256": "e8aae277ad67d957edf1cc33e48ed43e76626c6de0bb5d7d0c2211f93f93e6e6"
+    },
+    {
+      "path": "ViewModels\\GestaoContratoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\GestaoContratoFichaAtualizarViewModel.cs",
+      "raw_sha256": "d62dd28425566a119fddc6a4bc59a638c2e041d76e18852a250de6cbfb58c4cd"
+    },
+    {
+      "path": "ViewModels\\GestaoContratoFormulario.cs",
+      "export_path": "ViewModels\\GestaoContratoFormulario.cs",
+      "raw_sha256": "478cc27cfb7a9fe8dd1d434a05c1e13c65bd86f7d6e07bc283cf31bd4c090da9"
+    },
+    {
+      "path": "ViewModels\\GestaoContratoListaViewModel.cs",
+      "export_path": "ViewModels\\GestaoContratoListaViewModel.cs",
+      "raw_sha256": "32ba4547a121c0eef729ba1b108e2adc9a070b23808fb29da1f392f4523f3efb"
+    },
+    {
+      "path": "ViewModels\\GestaoContratosViewModel.cs",
+      "export_path": "ViewModels\\GestaoContratosViewModel.cs",
+      "raw_sha256": "2c3f90688f6a33fe2f2585dd550736f5e03dab2a7ca2859778437b5ecbed9709"
+    },
+    {
+      "path": "ViewModels\\GestaoContratoViewModel.cs",
+      "export_path": "ViewModels\\GestaoContratoViewModel.cs",
+      "raw_sha256": "1096e9b9b013ee24a33bb04dcc58d41fb06a7c16f27fc382946a094926cda71e"
+    },
+    {
+      "path": "ViewModels\\ImpressaoContratoAbaViewModel.cs",
+      "export_path": "ViewModels\\ImpressaoContratoAbaViewModel.cs",
+      "raw_sha256": "89c0fdf7380a4522e65d7c6cdde15ae3accd73766ce70e6a4ab491863c854c15"
+    },
+    {
+      "path": "ViewModels\\ImpressaoContratoViewModel.cs",
+      "export_path": "ViewModels\\ImpressaoContratoViewModel.cs",
+      "raw_sha256": "88f7c6155f942d251740024faec54d73666b9488807af884b3dca89a05b48a8e"
+    },
+    {
+      "path": "ViewModels\\RenovarContratoAbaViewModel.cs",
+      "export_path": "ViewModels\\RenovarContratoAbaViewModel.cs",
+      "raw_sha256": "f65c894a28fc0ec8c3b582439fb0ac85138d375bfd4d494843bbfe14b6a2d67d"
+    },
+    {
+      "path": "ViewModels\\RenovarContratoFichaViewModel.cs",
+      "export_path": "ViewModels\\RenovarContratoFichaViewModel.cs",
+      "raw_sha256": "874697780e4c5dc4d2bcd145da01b7ebf96a12b10fd2631dcfec2ea0bbed4b17"
+    },
+    {
+      "path": "ViewModels\\RenovarContratoFormulario.cs",
+      "export_path": "ViewModels\\RenovarContratoFormulario.cs",
+      "raw_sha256": "54c81a17ca7b52f82604d146328507b1869b9517c5afcd46fa2a60e72bbee71d"
+    },
+    {
+      "path": "ViewModels\\RenovarContratosEmMassaAbaViewModel.cs",
+      "export_path": "ViewModels\\RenovarContratosEmMassaAbaViewModel.cs",
+      "raw_sha256": "706ed560d175a134706af7404a860acf69dec30a47053d6d80c00b89a01575f4"
+    },
+    {
+      "path": "ViewModels\\RenovarContratosEmMassaFichaViewModel.cs",
+      "export_path": "ViewModels\\RenovarContratosEmMassaFichaViewModel.cs",
+      "raw_sha256": "ebbcd418a85587c46c81d992e90e73b93dfc5e412d98c0b73e52e6ddf7f75678"
+    },
+    {
+      "path": "ViewModels\\RenovarContratosEmMassaFormulario.cs",
+      "export_path": "ViewModels\\RenovarContratosEmMassaFormulario.cs",
+      "raw_sha256": "ad0ae90d3c2a63d21b2db983dd728cbf5fed5fcefc7038c6386132a66f4752bf"
+    },
+    {
+      "path": "ViewModels\\RenovarContratosEmMassaViewModel.cs",
+      "export_path": "ViewModels\\RenovarContratosEmMassaViewModel.cs",
+      "raw_sha256": "f1dd190c8f1003c6ac37b66cae693e8997b7049f3243ae9c782019960770060f"
+    },
+    {
+      "path": "ViewModels\\RenovarContratoViewModel.cs",
+      "export_path": "ViewModels\\RenovarContratoViewModel.cs",
+      "raw_sha256": "87c50737b3379686ed32ef9a467ba718b003cddc309cafd69d6011c553859977"
+    },
+    {
+      "path": "ViewModels\\ServicosContratoViewModel.cs",
+      "export_path": "ViewModels\\ServicosContratoViewModel.cs",
+      "raw_sha256": "237c561055b4438c63506651229caf303969bf0be5e2cce82d9574a0034e137d"
+    },
+    {
+      "path": "ViewModels\\TiposContrato\\TipoContratoAbaViewModel.cs",
+      "export_path": "ViewModels\\TiposContrato\\TipoContratoAbaViewModel.cs",
+      "raw_sha256": "9c05094596dc8012ef1f17822a978d8559c4fdf45670560c909557e690c6ba0b"
+    },
+    {
+      "path": "ViewModels\\TiposContrato\\TipoContratoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TiposContrato\\TipoContratoFichaAdicionarViewModel.cs",
+      "raw_sha256": "2b57cc68714774448002b83088c58ebed565b1434c1511ee623ae1264af2940c"
+    },
+    {
+      "path": "ViewModels\\TiposContrato\\TipoContratoFormulario.cs",
+      "export_path": "ViewModels\\TiposContrato\\TipoContratoFormulario.cs",
+      "raw_sha256": "eb88a4066e6f4dd10c6486d6dda5fe5cffa4be368357c344a2f7beb7298198de"
+    },
+    {
+      "path": "ViewModels\\TiposContrato\\TipoContratoListaViewModel.cs",
+      "export_path": "ViewModels\\TiposContrato\\TipoContratoListaViewModel.cs",
+      "raw_sha256": "42fdf689728c344632e05f01b11fba0b844d556d031e475b23c6a61aecc19e6c"
+    },
+    {
+      "path": "ViewModels\\TiposContrato\\TipoContratoViewModel.cs",
+      "export_path": "ViewModels\\TiposContrato\\TipoContratoViewModel.cs",
+      "raw_sha256": "4b83e21fc6ae51db4f2bf26d5a41b7608f49b2d3ce649277b83692ebcd8373c8"
+    },
+    {
+      "path": "ViewModels\\TiposContrato\\TiposContratoViewModel.cs",
+      "export_path": "ViewModels\\TiposContrato\\TiposContratoViewModel.cs",
+      "raw_sha256": "77bf7408f999bd84b994fa7dd4f0699916f1a2e06e859308fc05fc601a11e8bd"
+    },
+    {
+      "path": "Views\\GestaoContratoFichaAdicionarView.cs",
+      "export_path": "Views\\GestaoContratoFichaAdicionarView.cs",
+      "raw_sha256": "51c498474ccd79caa9c20e5e70a39962ddeecfd4e57339ff99714624edd2fb6c"
+    },
+    {
+      "path": "Views\\GestaoContratoFichaAtualizarView.cs",
+      "export_path": "Views\\GestaoContratoFichaAtualizarView.cs",
+      "raw_sha256": "c9c30b3d8d0f7eeff9346c13ef3a5a5050a06ad42c44bba62b1abafa40d091d0"
+    },
+    {
+      "path": "Views\\GestaoContratoFichaViewDetalhes\\GestaoContratoAnexosView.cs",
+      "export_path": "Views\\GestaoContratoFichaViewDetalhes\\GestaoContratoAnexosView.cs",
+      "raw_sha256": "cad5347606eb85ba2c39b0d92e46b80bf4f6eb2c21bb6b569f4c7a9c6df5e6ca"
+    },
+    {
+      "path": "Views\\GestaoContratoFichaViewDetalhes\\GestaoContratoView.cs",
+      "export_path": "Views\\GestaoContratoFichaViewDetalhes\\GestaoContratoView.cs",
+      "raw_sha256": "4f366c8e6815e897f0224863faa61f15552d01a45713a7aecb395dc4ba115b54"
+    },
+    {
+      "path": "Views\\GestaoContratoFichaViewDetalhes\\ImpressaoContratoView.cs",
+      "export_path": "Views\\GestaoContratoFichaViewDetalhes\\ImpressaoContratoView.cs",
+      "raw_sha256": "4c42ccf4983679959af443c7d7f8cc6b232e51f520b8f077750ec6640216c858"
+    },
+    {
+      "path": "Views\\GestaoContratoFichaViewDetalhes\\RenovarContratosEmMassaView.cs",
+      "export_path": "Views\\GestaoContratoFichaViewDetalhes\\RenovarContratosEmMassaView.cs",
+      "raw_sha256": "3de55940044abb02157946256e82f122b6119528a3665e39e8228ad758e678cc"
+    },
+    {
+      "path": "Views\\GestaoContratoFichaViewDetalhes\\RenovarContratoView.cs",
+      "export_path": "Views\\GestaoContratoFichaViewDetalhes\\RenovarContratoView.cs",
+      "raw_sha256": "489c4a98d3afb3609387a418d21c873b19628b78c6246673cac6ee219ffa8d9e"
+    },
+    {
+      "path": "Views\\GestaoContratoListaView.cs",
+      "export_path": "Views\\GestaoContratoListaView.cs",
+      "raw_sha256": "dce0fa9cce54656c661997bb77e34a76deee55b667e64d56027e0327b4bc4147"
+    },
+    {
+      "path": "Views\\GestaoContratosView.cs",
+      "export_path": "Views\\GestaoContratosView.cs",
+      "raw_sha256": "d8e9bbf0bfd2ef8cef2fa6df8a79a721fe287f5727634500f71700021c5d4739"
+    },
+    {
+      "path": "Views\\RenovarContratoFichaView.cs",
+      "export_path": "Views\\RenovarContratoFichaView.cs",
+      "raw_sha256": "01bb076171e6418c57d64f8454fc5acbde12f1796ad09603e5b09fabd77db224"
+    },
+    {
+      "path": "Views\\RenovarContratosEmMassaFichaView.cs",
+      "export_path": "Views\\RenovarContratosEmMassaFichaView.cs",
+      "raw_sha256": "5db430b5c36c137d96416d31597e4b35e6f4e193ec042e493073cabe89306bd4"
+    },
+    {
+      "path": "Views\\TiposContrato\\TipoContratoFichaAdicionarView.cs",
+      "export_path": "Views\\TiposContrato\\TipoContratoFichaAdicionarView.cs",
+      "raw_sha256": "bad19ec7d6de9cee796f09c7919ff4773165a93cb56d6627ea0fc6d0d16f6784"
+    },
+    {
+      "path": "Views\\TiposContrato\\TipoContratoListaView.cs",
+      "export_path": "Views\\TiposContrato\\TipoContratoListaView.cs",
+      "raw_sha256": "2e4e7ee093044533af0f5941662b91c4d9d76a7b78e82a7fe6c25bb8ee0a57c8"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoContratos.g.resources",
+      "file": "0000.bin",
+      "bytes": 78702,
+      "sha256": "b029d93e1d055a71670a92f1dd6d50598e3fe4df7eb3d25577086b65b0d83628"
+    },
+    {
+      "name": "Otus.Modulo.GestaoContratos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoContratos.Reports.ImpressoContrato.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.Shopee",
+  "baseline": "baseline\\Modulo.Shopee.dll",
+  "baseline_sha256": "f740a2a0ce5e2a13ceffc6843121715aa332647113852b11e6df92c23375035e",
+  "export_project": "recovered\\SuiteG6\\Modulo.Shopee\\Modulo.Shopee.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "0041905932178805d798fc7da8258ed1580800e5bcfdb06702652ecf5c42fdcb"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "4d1c7d5c93bf382635eaa7279dc128801a110b58c8a4ad169e965af922d4ad94"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "6ff0adcf9e480e8f6176fa0c1b1ee8bd19bc6b256a94cc64747800c58c00df53"
+    },
+    {
+      "path": "Services\\ModoFuncionamentoShopeeService.cs",
+      "export_path": "Services\\ModoFuncionamentoShopeeService.cs",
+      "raw_sha256": "e3771bff2c75d9271d01c83cc3afc79e6e5a94bd49e3b0ab3c2cc91d1c3bb9a5"
+    },
+    {
+      "path": "ShopeeModulo.cs",
+      "export_path": "ShopeeModulo.cs",
+      "raw_sha256": "6d87d523c84c130a1e15f61d40f131b6ae061e37642b5a81ad0cf0e26573278b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelObterToken.cs",
+      "export_path": "ViewModels\\Paineis\\PainelObterToken.cs",
+      "raw_sha256": "7f819a9ac0c254b6b4bd9338c74f9c64504dab606170499e2233c713a8edfe26"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelUsuario.cs",
+      "export_path": "ViewModels\\Paineis\\PainelUsuario.cs",
+      "raw_sha256": "23519ac91011312df0f7f04a0de264bfdd23baa2cb334d03b58e33c84850a818"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelValidarToken.cs",
+      "export_path": "ViewModels\\Paineis\\PainelValidarToken.cs",
+      "raw_sha256": "543404457cc772825a880e3365cc0ebae5a6697710a9c4754885adc62f5ca36a"
+    },
+    {
+      "path": "ViewModels\\ShopeesViewModel.cs",
+      "export_path": "ViewModels\\ShopeesViewModel.cs",
+      "raw_sha256": "12a54b238cefdb68f2dcc731f545fc2457829c153ba7feaa44aaaf2252bcae62"
+    },
+    {
+      "path": "ViewModels\\ShopeeViewModel.cs",
+      "export_path": "ViewModels\\ShopeeViewModel.cs",
+      "raw_sha256": "057272826034245f76e93dd731eb7755d2f9bcdd0b332fb82c5a37136a65766d"
+    },
+    {
+      "path": "views\\ShopeesView.cs",
+      "export_path": "views\\ShopeesView.cs",
+      "raw_sha256": "301ab993829f4d2f273519a3f3812c074be513013da6555ff5f4c9d9e1cc9ccb"
+    },
+    {
+      "path": "views\\ShopeeView.cs",
+      "export_path": "views\\ShopeeView.cs",
+      "raw_sha256": "3848e674f3023d211b07e1b769d0d59f1bfb2f20b7e9b5d6621faf77f69e6736"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Select original overload explicitly: ThreadStart or IRelatorio",
+      "occurrences": 1,
+      "evidence": "engenharia\\codebase-local\\overload-evidence\\Modulo.Shopee\\Modulo.Shopee.il"
+    },
+    {
+      "kind": "Explicit parameterless anonymous method selects original ThreadStart overload",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Shopee.g.resources",
+      "file": "0000.bin",
+      "bytes": 9377,
+      "sha256": "f5f078d89621559ec98e354dbd78ee5c480ae715f4e3efe096a5b435cbf38b29"
+    },
+    {
+      "name": "Otus.Modulo.Shopee.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

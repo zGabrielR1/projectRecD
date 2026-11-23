@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.RenegociacaoPagamentos",
+  "baseline": "baseline\\Modulo.RenegociacaoPagamentos.dll",
+  "baseline_sha256": "29c65363ef28228fb243d2349e850b8facbcecd2917f258a01758c8599f8fbb3",
+  "export_project": "recovered\\SuiteG6\\Modulo.RenegociacaoPagamentos\\Modulo.RenegociacaoPagamentos.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "4de6e94719a1ca6c139d16719d1db3f5df58cefa282417f65a8e19f4b8a0d287"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "3dc8dc758eb6ceca5dee7b426790db7d3d32938b0de867679b22174b32614686"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8eccc6b1516c6a6133f8faaf06fc6c7b16ecb9e7543cdc32b06060b39be40539"
+    },
+    {
+      "path": "RenegociacaoPagamentoModulo.cs",
+      "export_path": "RenegociacaoPagamentoModulo.cs",
+      "raw_sha256": "febb99de1c2bdf899c0c1928b149c8a8dc939788147e6dcc300be24bbf2601c8"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\RenegociacaoAbaViewModel.cs",
+      "raw_sha256": "1bc8135094f30db0929c1a3252787053ba35deb246803ea4910b62116852c585"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoPagamento.cs",
+      "export_path": "ViewModels\\RenegociacaoPagamento.cs",
+      "raw_sha256": "71d219487aaaa54cd603ecab5ade24eb1b2e0a92b4b79bdc6ecf52541fff6ac8"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoPagamentoFichaViewModel.cs",
+      "export_path": "ViewModels\\RenegociacaoPagamentoFichaViewModel.cs",
+      "raw_sha256": "4b257af6b9edab6b207eed4b76c6d8868d9f2e36d4ceab17bf7f683e3b6e228c"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoPagamentoFormulario.cs",
+      "export_path": "ViewModels\\RenegociacaoPagamentoFormulario.cs",
+      "raw_sha256": "12b70eb985391341158d5d7556fbd22fc60d7a3dea863fb455d0635f47e74133"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoPagamentosViewModel.cs",
+      "export_path": "ViewModels\\RenegociacaoPagamentosViewModel.cs",
+      "raw_sha256": "7d64ef7121245b98b8be9d579f8a3168b89ce54285b9ae57f42d459d39fa5a3a"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoViewModel.cs",
+      "export_path": "ViewModels\\RenegociacaoViewModel.cs",
+      "raw_sha256": "3e4930c125224809432831dcd04db0699dd3ec424daa4c1194c97f542f37467c"
+    },
+    {
+      "path": "Views\\RenegociacaoPagamentoFichaView.cs",
+      "export_path": "Views\\RenegociacaoPagamentoFichaView.cs",
+      "raw_sha256": "80bff5359de1dccecf60248e34635925024319bc462702d79d0695f8db7e1941"
+    },
+    {
+      "path": "Views\\RenegociacaoPagamentosFichaViewDetalhes\\RenegociacaoView.cs",
+      "export_path": "Views\\RenegociacaoPagamentosFichaViewDetalhes\\RenegociacaoView.cs",
+      "raw_sha256": "f3de5e83476edf6bb069a8f03d112b78742040510c17ef21591dc14adab44bdd"
+    },
+    {
+      "path": "Views\\RenegociacaoPagamentosFichaViewDetalhes\\ReparcelarView.cs",
+      "export_path": "Views\\RenegociacaoPagamentosFichaViewDetalhes\\ReparcelarView.cs",
+      "raw_sha256": "2d4db7260cd74b9389d1cd5051f4ccc072a2c34a67edbe53524f66c975807e49"
+    },
+    {
+      "path": "Views\\RenegociacaoPagamentosView.cs",
+      "export_path": "Views\\RenegociacaoPagamentosView.cs",
+      "raw_sha256": "4888a73ed9e3ddeecbefc02c5c9c523af339b08c051901a9e4beffdc58bd271b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.RenegociacaoPagamentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 21031,
+      "sha256": "7345c4c7610455a60505f879fb61567a911dd85b95e0f6a623c8a78743b3ef9f"
+    },
+    {
+      "name": "Otus.Modulo.RenegociacaoPagamentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

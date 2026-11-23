@@ -1,0 +1,150 @@
+{
+  "name": "Modulo.Promocoes",
+  "baseline": "baseline\\Modulo.Promocoes.dll",
+  "baseline_sha256": "dea18ff6e92fee941a7860a53c89c14cb29c92c3d983ce9d03526b4ff158da3b",
+  "export_project": "recovered\\SuiteG6\\Modulo.Promocoes\\Modulo.Promocoes.csproj",
+  "sources": [
+    {
+      "path": "PromocaoModulo.cs",
+      "export_path": "PromocaoModulo.cs",
+      "raw_sha256": "93aca77eb0dc9400235bd27aab25f4c80d93eac5c2be2a0d5c1fbd3b3a4ab446"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "ff6dcc18919ac73215b9531c70b954e56f999c900f2bc94522bb4f0b4b8838e1"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "6e34774fdea7fb12a55fdc81b2fa6b7b914e92ec085bed0486c224a38d4d7659"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "bc71ceab99ad3fd0f218fcf5a9621fc910493309b6d44906a029e45382bb271e"
+    },
+    {
+      "path": "ViewModels\\DiaSemanaViewModel.cs",
+      "export_path": "ViewModels\\DiaSemanaViewModel.cs",
+      "raw_sha256": "bf66380f39aa16f3cc064ec9745d6efe5e87d3ae9d213cee46b5609b360aa972"
+    },
+    {
+      "path": "ViewModels\\DiaViewModel.cs",
+      "export_path": "ViewModels\\DiaViewModel.cs",
+      "raw_sha256": "2690d461c962c76a3b8a3bf85c5270e530569bbc90b8e99b925fd36e496cd617"
+    },
+    {
+      "path": "ViewModels\\ItemPromocaoViewModel.cs",
+      "export_path": "ViewModels\\ItemPromocaoViewModel.cs",
+      "raw_sha256": "74ce0a51c3774bbb09976e0cc489586529acf8a319b48493a044db8791d2afa5"
+    },
+    {
+      "path": "ViewModels\\ListaItemPromocaoViewModel.cs",
+      "export_path": "ViewModels\\ListaItemPromocaoViewModel.cs",
+      "raw_sha256": "644347774e0492b9590fbc24944add0cff5b498261ac1d8562deb454e9c9fbef"
+    },
+    {
+      "path": "ViewModels\\PeriodoViewModel.cs",
+      "export_path": "ViewModels\\PeriodoViewModel.cs",
+      "raw_sha256": "17587a2f0fb163620af43ad865352cd748bcb17b67fe068f2c64927dcf4a4ec8"
+    },
+    {
+      "path": "ViewModels\\PromocaoAbaViewModel.cs",
+      "export_path": "ViewModels\\PromocaoAbaViewModel.cs",
+      "raw_sha256": "10d8178a8195917301933bfcc3d0c808a5455af001923b10b99a7af7ace9d283"
+    },
+    {
+      "path": "ViewModels\\PromocaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\PromocaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "e57874e10980b496957aabc7fcb65929d966129d2aba8c17460751a923ed1654"
+    },
+    {
+      "path": "ViewModels\\PromocaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\PromocaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "560d23aa6528bc01a6af7bff2eda6b0fc74e7da31709716e2ee50c3c0f941ccc"
+    },
+    {
+      "path": "ViewModels\\PromocaoFormulario.cs",
+      "export_path": "ViewModels\\PromocaoFormulario.cs",
+      "raw_sha256": "3b7bc712bc715bcd2af83e44c472297f1524bad2c3f36c4ab8510cdb7555bd8a"
+    },
+    {
+      "path": "ViewModels\\PromocaoItensAbaViewModel.cs",
+      "export_path": "ViewModels\\PromocaoItensAbaViewModel.cs",
+      "raw_sha256": "0cd4c405c7d8892f1a3cf70eb91d93a5f85284fb47e0c3fc39b02bd30f0db028"
+    },
+    {
+      "path": "ViewModels\\PromocaoItensViewModel.cs",
+      "export_path": "ViewModels\\PromocaoItensViewModel.cs",
+      "raw_sha256": "c6b083036939bf6b912161dfdb11c92458b6055c8a1610600389ad58b889049d"
+    },
+    {
+      "path": "ViewModels\\PromocaoListaViewModel.cs",
+      "export_path": "ViewModels\\PromocaoListaViewModel.cs",
+      "raw_sha256": "3072e6a66f416d87e77b7a1b6903ac6ab17764d50bd9fe6c63e49ffdeeda9811"
+    },
+    {
+      "path": "ViewModels\\PromocaoViewModel.cs",
+      "export_path": "ViewModels\\PromocaoViewModel.cs",
+      "raw_sha256": "0df7feb7d090fd1578d07900c86701b5bbb521b6de8e37ff5bf81d0588485f47"
+    },
+    {
+      "path": "ViewModels\\PromocoesViewModel.cs",
+      "export_path": "ViewModels\\PromocoesViewModel.cs",
+      "raw_sha256": "8465e48465717b2af382c6026fe45f145df66316cb1aec2c65f1a6725d82c878"
+    },
+    {
+      "path": "ViewModels\\TipoPromocaoViewModel.cs",
+      "export_path": "ViewModels\\TipoPromocaoViewModel.cs",
+      "raw_sha256": "8abe34d35f11f19fb614d31152bdaeb2cff5fd029f26cf12880e56e50f2f02ef"
+    },
+    {
+      "path": "Views\\PromocaoFichaAdicionarView.cs",
+      "export_path": "Views\\PromocaoFichaAdicionarView.cs",
+      "raw_sha256": "3691794a65d70b902926631cd241032ae3f90b59c821aebe8b70c21f804fdf2f"
+    },
+    {
+      "path": "Views\\PromocaoFichaAtualizarView.cs",
+      "export_path": "Views\\PromocaoFichaAtualizarView.cs",
+      "raw_sha256": "f0d012ae86ee67e1048385782d79b6fd15cda2abb5d626e171f9bbfe9f4b29a0"
+    },
+    {
+      "path": "Views\\PromocaoFichaViewDetalhes\\PromocaoItensView.cs",
+      "export_path": "Views\\PromocaoFichaViewDetalhes\\PromocaoItensView.cs",
+      "raw_sha256": "18652d0a397e01e4aacaced879b21ae4e1408b2e1f1139834fe686bd6641ac20"
+    },
+    {
+      "path": "Views\\PromocaoFichaViewDetalhes\\PromocaoView.cs",
+      "export_path": "Views\\PromocaoFichaViewDetalhes\\PromocaoView.cs",
+      "raw_sha256": "f3692cb1013861141bd7ab69faada5f0cea2643115a63095f91fc7fb466f4807"
+    },
+    {
+      "path": "Views\\PromocaoListaView.cs",
+      "export_path": "Views\\PromocaoListaView.cs",
+      "raw_sha256": "c09df863ab73dcb3cf614e4032fbc89d28b198eda23c3831451aedd17c2b6a86"
+    },
+    {
+      "path": "Views\\PromocoesView.cs",
+      "export_path": "Views\\PromocoesView.cs",
+      "raw_sha256": "df2dd4961907784bfc59d29fadc2338f73c1ebfb3adc34e9fdf9a2e14f629f1a"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Promocoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 22714,
+      "sha256": "6c994c7469bbe9e92b88dab7099ccb15031baac4f89a112c668b7effc222d788"
+    },
+    {
+      "name": "Otus.Modulo.Promocoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

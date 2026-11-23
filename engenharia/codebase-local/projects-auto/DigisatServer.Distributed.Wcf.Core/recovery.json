@@ -1,0 +1,213 @@
+{
+  "name": "DigisatServer.Distributed.Wcf.Core",
+  "baseline": "baseline\\DigisatServer.Distributed.Wcf.Core.dll",
+  "baseline_sha256": "1901d2271eb39215fa46935b869c015378cec1b4acc8dea106bf143caacb1491",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Distributed.Wcf.Core\\DigisatServer.Distributed.Wcf.Core.csproj",
+  "sources": [
+    {
+      "path": "Attributes\\BasePrincipalPermissionAttribute.cs",
+      "export_path": "Attributes\\BasePrincipalPermissionAttribute.cs",
+      "raw_sha256": "df71a19a3d6a233a36610de5b69a1d2b7103acfc3d0421642c92fbc5f6ddaa25"
+    },
+    {
+      "path": "Attributes\\NoProtectedAttribute.cs",
+      "export_path": "Attributes\\NoProtectedAttribute.cs",
+      "raw_sha256": "10a1fea20dfdde1f25416b65c1fba865af37d939428c233d68624350ba778f9f"
+    },
+    {
+      "path": "Attributes\\PermissaoAttribute.cs",
+      "export_path": "Attributes\\PermissaoAttribute.cs",
+      "raw_sha256": "d415958e8285305bbefce1672047ce6e1c648355fab8bea32bbd5617fb839344"
+    },
+    {
+      "path": "Attributes\\ProtectedAttribute.cs",
+      "export_path": "Attributes\\ProtectedAttribute.cs",
+      "raw_sha256": "4d01c3a718cc947acfa6d628df7fe63d5fa277bc20152a07259c29aef0ea5921"
+    },
+    {
+      "path": "Attributes\\WebHttpAttribute.cs",
+      "export_path": "Attributes\\WebHttpAttribute.cs",
+      "raw_sha256": "e2c853b1213eae10bc7ef61b9fc620d56b5544e88d2705a797daf249a9fc7c37"
+    },
+    {
+      "path": "Bindings\\ClientCustomBinding.cs",
+      "export_path": "Bindings\\ClientCustomBinding.cs",
+      "raw_sha256": "104ccce86812b306e3940cee590d149c1b80e0b29556d9417c5dd8a836ea5666"
+    },
+    {
+      "path": "Bindings\\ServerCustomBinding.cs",
+      "export_path": "Bindings\\ServerCustomBinding.cs",
+      "raw_sha256": "2b537f96a0872c3ca11dd86168212a1f67e1b7423e0e3d9237e9b77204de2fdc"
+    },
+    {
+      "path": "Credentials.cs",
+      "export_path": "Credentials.cs",
+      "raw_sha256": "2fb1760783f8b4609cdb352a5c5f77005a9ec7150c7d0c04e9402b22350e186e"
+    },
+    {
+      "path": "Cryptography\\ClientCryptographer.cs",
+      "export_path": "Cryptography\\ClientCryptographer.cs",
+      "raw_sha256": "744da9e1327e29e7c3044364125eb5c34ae741ca7bcd7f8ac98f7edbb4e348c7"
+    },
+    {
+      "path": "Cryptography\\Cryptographer.cs",
+      "export_path": "Cryptography\\Cryptographer.cs",
+      "raw_sha256": "82e8a754bee9316e70885d1566e0df6704aa3b4fc29f6b19c7858c218412a2de"
+    },
+    {
+      "path": "Cryptography\\ServerCryptographer.cs",
+      "export_path": "Cryptography\\ServerCryptographer.cs",
+      "raw_sha256": "4dd8b2265499e5d8b92301478515c5edcf4f884f7d9fe2040d496fef98fc95e2"
+    },
+    {
+      "path": "Encodings\\ClientMessageEncoder.cs",
+      "export_path": "Encodings\\ClientMessageEncoder.cs",
+      "raw_sha256": "9b2b1f2949291ef1bb307899271ad7b14c7eba147b447eb50d1cb5baae6f22f1"
+    },
+    {
+      "path": "Encodings\\ClientMessageEncoderFactory.cs",
+      "export_path": "Encodings\\ClientMessageEncoderFactory.cs",
+      "raw_sha256": "01c8b082dc8490fa5e3e9913db6d338025f2353f2b7aa338a6bef1ab7388fa2a"
+    },
+    {
+      "path": "Encodings\\ClientMessageEncodingBindingElement.cs",
+      "export_path": "Encodings\\ClientMessageEncodingBindingElement.cs",
+      "raw_sha256": "2a76ec430b7f1cc98d2b64954f4ce8bc1984397d166e505e3455a98e846c44b6"
+    },
+    {
+      "path": "Encodings\\ClientMessageEncodingElement.cs",
+      "export_path": "Encodings\\ClientMessageEncodingElement.cs",
+      "raw_sha256": "b2b5e91a6b4599c9916b5ce5cf70c643273486eae6e4ae45c939e9a4196d3deb"
+    },
+    {
+      "path": "Encodings\\CommonMessageEncoder.cs",
+      "export_path": "Encodings\\CommonMessageEncoder.cs",
+      "raw_sha256": "c010c06b1580c3711534db7a5d81372cdbb175d6c21ccaaf748966e7c659214a"
+    },
+    {
+      "path": "Encodings\\CommonMessageEncodingBindingElement.cs",
+      "export_path": "Encodings\\CommonMessageEncodingBindingElement.cs",
+      "raw_sha256": "94c7f720a1c4e39fd08f0f3a2ae05d7dd7727f31a6e1cdd61ac242d826f0e5ca"
+    },
+    {
+      "path": "Encodings\\CommonMessageEncodingElement.cs",
+      "export_path": "Encodings\\CommonMessageEncodingElement.cs",
+      "raw_sha256": "f2b6c43454e20de6111e7c5cb8bc4a76424a466a383ad1ee7d14144c59abc879"
+    },
+    {
+      "path": "Encodings\\ContentCompressionType.cs",
+      "export_path": "Encodings\\ContentCompressionType.cs",
+      "raw_sha256": "64b0c138f3a6bc191b6ae77a8ddd689472427ee57369919832cef0f149a83fc1"
+    },
+    {
+      "path": "Encodings\\ContentEncodingType.cs",
+      "export_path": "Encodings\\ContentEncodingType.cs",
+      "raw_sha256": "a6e069f6c3fe31f45785c6a8e8eecc89751447cd7ddf48703d63af96785ff588"
+    },
+    {
+      "path": "Encodings\\ContentEncryptionType.cs",
+      "export_path": "Encodings\\ContentEncryptionType.cs",
+      "raw_sha256": "22cc41f8c0b7865d29da9d9889cf637d88a79fdf8dd6d392ad5d6c3472c57d19"
+    },
+    {
+      "path": "Encodings\\ServerMessageEncoder.cs",
+      "export_path": "Encodings\\ServerMessageEncoder.cs",
+      "raw_sha256": "550c486ba3f92f24585eadf3723e00e3a1f2b9c94b1725db5d24260534d2b7b5"
+    },
+    {
+      "path": "Encodings\\ServerMessageEncoderFactory.cs",
+      "export_path": "Encodings\\ServerMessageEncoderFactory.cs",
+      "raw_sha256": "325c58d31171afe8b5f0e178996c527af872ce34bab0aa35c6300bd2e5bc094a"
+    },
+    {
+      "path": "Encodings\\ServerMessageEncodingBindingElement.cs",
+      "export_path": "Encodings\\ServerMessageEncodingBindingElement.cs",
+      "raw_sha256": "12aa881f7c012ce18434156a40e96d57b779bcb1daa87d12feb27d70edb257e1"
+    },
+    {
+      "path": "Encodings\\ServerMessageEncodingElement.cs",
+      "export_path": "Encodings\\ServerMessageEncodingElement.cs",
+      "raw_sha256": "4d5a98cc10eaf08423f2d7d0d8cdbc1b08ff2901158760b8634c6d87cff04a46"
+    },
+    {
+      "path": "ErrorHandlers\\ApplicationErrorHandler.cs",
+      "export_path": "ErrorHandlers\\ApplicationErrorHandler.cs",
+      "raw_sha256": "4d9fa4ce8791615175dbba33c0ddb729237c07ed64e1e59f6c0914b4ea272a9f"
+    },
+    {
+      "path": "ErrorHandlers\\ApplicationErrorHandlerAttribute.cs",
+      "export_path": "ErrorHandlers\\ApplicationErrorHandlerAttribute.cs",
+      "raw_sha256": "374e6c49249cdd5515da4626e9acabb59b9229e15bcf0e3cd7f0f60485851fcd"
+    },
+    {
+      "path": "Inspectors\\ClientMessageInspector.cs",
+      "export_path": "Inspectors\\ClientMessageInspector.cs",
+      "raw_sha256": "65f1fdcf080289caed7a51f2702cb2d8d8bdf839e2215de8acac956286657e95"
+    },
+    {
+      "path": "Inspectors\\MessageInspectorArgs.cs",
+      "export_path": "Inspectors\\MessageInspectorArgs.cs",
+      "raw_sha256": "0e35632b70cf179b719a7f8a6699aa9471cf5474790d47f54c2fd49823c6cf02"
+    },
+    {
+      "path": "Inspectors\\MessageInspectorEventHandler.cs",
+      "export_path": "Inspectors\\MessageInspectorEventHandler.cs",
+      "raw_sha256": "65da5a45522b2c0fcbf4994fca2aad31cb1c33e8823ccd06be63a7257ceb68dc"
+    },
+    {
+      "path": "Ioc\\ImportPropertySelectionBehavior.cs",
+      "export_path": "Ioc\\ImportPropertySelectionBehavior.cs",
+      "raw_sha256": "dbf579f8c4139864ff97fda6b3ea64117c347f93658ff7b467432c829f7ec7cc"
+    },
+    {
+      "path": "Policys\\ControllerAuthenticationManager.cs",
+      "export_path": "Policys\\ControllerAuthenticationManager.cs",
+      "raw_sha256": "d0ebb699816eb41fdd4e172626a3de1b9a7aa23fb6d96a43dcc7ae028e975013"
+    },
+    {
+      "path": "Policys\\CustomPrincipal.cs",
+      "export_path": "Policys\\CustomPrincipal.cs",
+      "raw_sha256": "c5345ab44ad237167541cf51c9caece6e2a864c664d0acc201ab926bb22a5790"
+    },
+    {
+      "path": "Policys\\ServerApiAuthenticationManager.cs",
+      "export_path": "Policys\\ServerApiAuthenticationManager.cs",
+      "raw_sha256": "ba544fcbd8c92c8d6dd09886ee1b88e4f3c01bd05df0510acf5a13866c1ded92"
+    },
+    {
+      "path": "Policys\\ServerAuthenticationManager.cs",
+      "export_path": "Policys\\ServerAuthenticationManager.cs",
+      "raw_sha256": "f22b32280fa2b04aa2a73e3abd1e470cdf6494f241d24a82998f1628503518ab"
+    },
+    {
+      "path": "Policys\\ServerAuthorizationPolicy.cs",
+      "export_path": "Policys\\ServerAuthorizationPolicy.cs",
+      "raw_sha256": "e12c440780c2f931b7918e401213508548804b6b3f7e8c030d4ba167471307a0"
+    },
+    {
+      "path": "Policys\\UsuarioIdentity.cs",
+      "export_path": "Policys\\UsuarioIdentity.cs",
+      "raw_sha256": "b5e6d4814becd249090d80f91ebb89a46858abae1d7c623be966e64016f53c68"
+    },
+    {
+      "path": "Policys\\UsuarioIdentityNull.cs",
+      "export_path": "Policys\\UsuarioIdentityNull.cs",
+      "raw_sha256": "e912103a37d874c6b107da265c2113906d7f81b6d2a7cdc45a62da03273ec03f"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "5d3597ca6e664f021ed94d384778ddde598121a89af7b45beba73bd0073db26c"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Restore original family getter/private setter visibility or qualify original Modulo parameter type",
+      "occurrences": 1,
+      "evidence": "accessor-evidence/DigisatServer.Distributed.Wcf.Core/DigisatServer.Distributed.Wcf.Core.il"
+    }
+  ],
+  "original_resources": [],
+  "generated_stubs": false
+}

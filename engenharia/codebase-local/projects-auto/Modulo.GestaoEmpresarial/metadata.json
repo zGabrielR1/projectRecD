@@ -1,0 +1,41 @@
+{
+  "artifactSha256": "9c893559d9d9b28eaa847cc38b25051a5db9c1526b00edf321dfc7b09521acea",
+  "mvid": "444558bb-d0e9-492c-8425-e19b305e5b00",
+  "assembly": "Modulo.GestaoEmpresarial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DevExpress.Xpf.Grid.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Xpf.Grid.v15.2.Core",
+    "PresentationCore"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoEmpresarial.g.resources",
+      "file": "0000.bin",
+      "bytes": 159722,
+      "sha256": "e499a9429209419c017a7edb8e5e8ece07fc221665d3348c70343cddc336f95a"
+    },
+    {
+      "name": "Otus.Modulo.GestaoEmpresarial.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

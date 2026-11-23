@@ -1,0 +1,116 @@
+{
+  "name": "Modulo.PedidosEcommerce",
+  "baseline": "baseline\\Modulo.PedidosEcommerce.dll",
+  "baseline_sha256": "9758c12eb0b465610882883b943e6b138be3cbdea26b21bdb54c58f2ac76aedb",
+  "export_project": "recovered\\SuiteG6\\Modulo.PedidosEcommerce\\Modulo.PedidosEcommerce.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "e69fc29f27474adef31442b543f56f565c175282eec3265f9feb9f82566db085"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "9758c12eb0b465610882883b943e6b138be3cbdea26b21bdb54c58f2ac76aedb"
+    },
+    {
+      "kind": "Qualify session company/API order model or rename illegal generated base-call helper identifier",
+      "alias": "using PedidoEcommerce = DigisatServer.Infrastructure.Crosscutting.Service.Ecommerce.Classes.PedidoEcommerce;\n"
+    },
+    {
+      "kind": "Qualify report TextAlignment and UI HelperException; restore protected report Dispose calls"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.PedidosEcommerce.g.resources",
+      "file": "0000.bin",
+      "bytes": 10535,
+      "sha256": "342c63f6d1697f64704d1a770e229474be207e470e4c70dfc535bb37a989eb1b"
+    },
+    {
+      "name": "Otus.Modulo.PedidosEcommerce.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PedidosEcommerce.Reports.ImpressoPedidoEcommerce.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.PedidosEcommerce.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 287,
+      "sha256": "de1cb32327972c3b50e7066bf58d993db6548dd0e8976a0b489bbd527b5fd8e4"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "PedidoEcommerceModulo.cs",
+      "export_path": "PedidoEcommerceModulo.cs",
+      "raw_sha256": "6fe16c6393da18e09bfb7edbd3b9c4c23ac1b4e9a0d580ba9821be9d7472d1c9"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "ae54d3dab958153069bf6f3cf39da8009d64bbd73126ecca33b522677fe2dad1"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "050b62e6a7601d59bc8c4a2a817ad98f217e1d089b37d8590e9c2f3c8c545f39"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "dd513b7b50f2d3c1ffacca8dc559189e85fb2dcbdfe86ae2c8fdea5b54551093"
+    },
+    {
+      "path": "Reports\\ImpressoPedidoEcommerce.cs",
+      "export_path": "Reports\\ImpressoPedidoEcommerce.cs",
+      "raw_sha256": "dc6de76a24b46512e4dd1b06966d57b7c0085a4f2521943f0a636abe3938daec"
+    },
+    {
+      "path": "ViewModels\\PedidoEcommerceAbaViewModel.cs",
+      "export_path": "ViewModels\\PedidoEcommerceAbaViewModel.cs",
+      "raw_sha256": "ee5afca1ba91927c3c8b1a848ddd6db9e4f8b0222bf71c614fd1a7d501698d6f"
+    },
+    {
+      "path": "ViewModels\\PedidoEcommerceFormulario.cs",
+      "export_path": "ViewModels\\PedidoEcommerceFormulario.cs",
+      "raw_sha256": "954ec21043e8c4d0fe6d6fcd476635d514e2bbad97ab50794b1dfed3b9011b98"
+    },
+    {
+      "path": "ViewModels\\PedidoEcommerceListaViewModel.cs",
+      "export_path": "ViewModels\\PedidoEcommerceListaViewModel.cs",
+      "raw_sha256": "d6a8a4c4098dfe5a43c84f0f465203531f26f22deb530544226c81edf084ac59"
+    },
+    {
+      "path": "ViewModels\\PedidoEcommerceViewModel.cs",
+      "export_path": "ViewModels\\PedidoEcommerceViewModel.cs",
+      "raw_sha256": "7a5e69d7cb8907d218bd391e35089b728897966405ad2b1b5a9217686deeda49"
+    },
+    {
+      "path": "ViewModels\\PedidosEcommerceViewModel.cs",
+      "export_path": "ViewModels\\PedidosEcommerceViewModel.cs",
+      "raw_sha256": "368029f4e5a282ac3e1fcff5e9d4ad2654eac0a8bf5d35d89ee9e96f4af56a1e"
+    },
+    {
+      "path": "Views\\PedidoEcommerceListaView.cs",
+      "export_path": "Views\\PedidoEcommerceListaView.cs",
+      "raw_sha256": "675c197fe5c82e713555ae340799324e6ff00983ee4434be483e72574a80efcc"
+    },
+    {
+      "path": "Views\\PedidosEcommerceView.cs",
+      "export_path": "Views\\PedidosEcommerceView.cs",
+      "raw_sha256": "164b27e8d445a1b2fe2fd46a6706c07d95329d82e7e9896c44448e65c8ba4ced"
+    }
+  ]
+}

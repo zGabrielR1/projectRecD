@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "b94aa8fbfab3508a568e0b4972121f1a7bfad54a363a1656e9b92e15359bfc00",
+  "mvid": "c33852e1-8c6c-4acf-8b3b-df2d680f7a7e",
+  "assembly": "Modulo.ExportarArquivosContabilidade, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoContabilidade",
+    "DevExpress.Mvvm.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ExportarArquivosContabilidade.g.resources",
+      "file": "0000.bin",
+      "bytes": 16931,
+      "sha256": "940ec2332a85e390a9887b2bea52148e8c169f549b2ae523fff9655eae3ff620"
+    },
+    {
+      "name": "Otus.Modulo.ExportarArquivosContabilidade.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

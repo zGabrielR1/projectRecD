@@ -1,0 +1,85 @@
+{
+  "name": "Modulo.GestaoSincronizacoesDominio",
+  "baseline": "baseline\\Modulo.GestaoSincronizacoesDominio.dll",
+  "baseline_sha256": "c255161a1a8abcacbab5f10639d53876e5c710aca0a1e14acb468be94952f0bc",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacoesDominio\\Modulo.GestaoSincronizacoesDominio.csproj",
+  "sources": [
+    {
+      "path": "GestaoSincronizacaoDominioModulo.cs",
+      "export_path": "GestaoSincronizacaoDominioModulo.cs",
+      "raw_sha256": "13bc15c3fd89761ba84de1cf6237c80ec95c9766d21389073c814abd3e35462e"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c4a15b062e538ebb48c6393d4ad3dfaf301c9a0d9b4e5bba53a26aae091ca51d"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "1f120c0b66078a2f454b698cb7b4c7f5b6baeca61733341bda0d4181a4dcff9c"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "9adc0f310e87827a69da760c7af1bae4287ffb1fbcea7934c1eb8ab47b5c13a1"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoDominioFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoDominioFichaViewModel.cs",
+      "raw_sha256": "28ee3573da411127cc0a9e490f86d5ff1e2e87866607fc9b9447c2ce7e656b48"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoDominioFormulario.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoDominioFormulario.cs",
+      "raw_sha256": "0d56df299d845fe6724bf556087f34690cfd4131540bf92a47a48ea41e63ffec"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacoesDominioViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacoesDominioViewModel.cs",
+      "raw_sha256": "7d5d534415914cfce5a9e8fdfa36e0e527dcf257a528d1a62a620869afcf8f63"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "raw_sha256": "8e9548efd0dcf5ea5745634f74c8542a10d61868dddf0c54a310fb714d784dbd"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoViewModel.cs",
+      "raw_sha256": "752436026003d267905e4b203414414c6911c79610153aabad008d182ce299de"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoDominioFichaView.cs",
+      "export_path": "Views\\GestaoSincronizacaoDominioFichaView.cs",
+      "raw_sha256": "ba75ad293a7aecc9077abbd820ee78ef996cc6af2b9439a1f135489dc3ade88f"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoDominioFichaViewDetal\\SincronizacaoView.cs",
+      "export_path": "Views\\GestaoSincronizacaoDominioFichaViewDetal\\SincronizacaoView.cs",
+      "raw_sha256": "f6154a2ceea01d90764da43d80b07988cf51be5db85a951b603ae119c97ccfdc"
+    },
+    {
+      "path": "Views\\GestaoSincronizacoesDominioView.cs",
+      "export_path": "Views\\GestaoSincronizacoesDominioView.cs",
+      "raw_sha256": "453891cf7fa7a38afc32066d13762d894daf3e4881864c457416af84a4007adb"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoSincronizacoesDominio.g.resources",
+      "file": "0000.bin",
+      "bytes": 11942,
+      "sha256": "c2f73634bd17fb150e83b3d88d49fa5459ff0ec0349ba4dfc18c007d2dbdcabc"
+    },
+    {
+      "name": "Otus.Modulo.GestaoSincronizacoesDominio.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

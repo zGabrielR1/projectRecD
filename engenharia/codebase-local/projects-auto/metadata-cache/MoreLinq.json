@@ -1,0 +1,10 @@
+{
+  "assembly": "MoreLinq, Version=2.8.21218.0, Culture=neutral, PublicKeyToken=384d532d7e88985d",
+  "references": [
+    "mscorlib",
+    "System.Core",
+    "System.ValueTuple",
+    "System.Data",
+    "System"
+  ]
+}

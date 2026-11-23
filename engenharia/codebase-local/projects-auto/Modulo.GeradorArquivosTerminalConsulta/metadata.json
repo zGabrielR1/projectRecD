@@ -1,0 +1,41 @@
+{
+  "artifactSha256": "c7840eba60947517dc018018c2a9bdb54f4922e62e601dc6a96b4de9cfd485ae",
+  "mvid": "2d4ed618-03ad-451a-a931-9022cbe72d54",
+  "assembly": "Modulo.GeradorArquivosTerminalConsulta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalConsulta",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "System.Windows.Forms"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GeradorArquivosTerminalConsulta.g.resources",
+      "file": "0000.bin",
+      "bytes": 9000,
+      "sha256": "51146fc00c203db718f82bb3cf6826b25771b8e17f7da3f00e371196c5d6b958"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosTerminalConsulta.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

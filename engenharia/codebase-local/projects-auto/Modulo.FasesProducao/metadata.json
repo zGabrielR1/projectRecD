@@ -1,0 +1,36 @@
+{
+  "artifactSha256": "15efe4ed98466a885325f48be60be6b9cd3502ab8541c1dbac2088a7d7c4b23e",
+  "mvid": "a63508cc-0e9b-4a46-afa5-3e406eca6dc6",
+  "assembly": "Modulo.FasesProducao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.FasesProducao.g.resources",
+      "file": "0000.bin",
+      "bytes": 11414,
+      "sha256": "f163192e431d91a4af81de92df78c26ebfb2afdc77fac543fd93b044061e5a4d"
+    },
+    {
+      "name": "Otus.Modulo.FasesProducao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

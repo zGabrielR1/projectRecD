@@ -1,0 +1,155 @@
+{
+  "name": "Modulo.Custos",
+  "baseline": "baseline\\Modulo.Custos.dll",
+  "baseline_sha256": "41686f02f8c6bd562ddb6d57515b845b450e73604875f6a861ffa5c24287e285",
+  "export_project": "recovered\\SuiteG6\\Modulo.Custos\\Modulo.Custos.csproj",
+  "sources": [
+    {
+      "path": "CustoModulo.cs",
+      "export_path": "CustoModulo.cs",
+      "raw_sha256": "4ecd0ea332a23eab79e391ea6a9f1916172baa575b47dd93a24116c48cf94ebe"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "03918fdbe1688070749a8a2c3b8af0b67fb136cae846cff029b3f355d0f4c716"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "fa24d99e775355b5f9af1ae3bb45863a980de1b6f8c34f3fbf2c1e31b164b233"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "4443ae743574ed2b54f250e75fcdc2e02f7103ef6da8d3583251bfbd5ab246e2"
+    },
+    {
+      "path": "ViewModels\\CustoAbaViewModel.cs",
+      "export_path": "ViewModels\\CustoAbaViewModel.cs",
+      "raw_sha256": "2a07c2a4175cfd70f2d9a5da51ad71ba8babc8db9c6306c4dca0e5777360003e"
+    },
+    {
+      "path": "ViewModels\\CustoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\CustoFichaAdicionarViewModel.cs",
+      "raw_sha256": "e3adac7954a254f01218c6857213e0fa9541cd51ed868b740a6fe0883036133c"
+    },
+    {
+      "path": "ViewModels\\CustoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\CustoFichaAtualizarViewModel.cs",
+      "raw_sha256": "a4037380fbf1b8ca19c7e111276db4573bd76c05b4b3946e90f9f64f340bdbe0"
+    },
+    {
+      "path": "ViewModels\\CustoFormulario.cs",
+      "export_path": "ViewModels\\CustoFormulario.cs",
+      "raw_sha256": "c8eecb3e1e0dd52b048549289c049a7e271c6c040470b2fb4c6a36824c12dfff"
+    },
+    {
+      "path": "ViewModels\\CustoListaViewModel.cs",
+      "export_path": "ViewModels\\CustoListaViewModel.cs",
+      "raw_sha256": "ece9c338349949d5da35206a607d040fe49ed26da9da790bcbbf52f61159120f"
+    },
+    {
+      "path": "ViewModels\\CustosViewModel.cs",
+      "export_path": "ViewModels\\CustosViewModel.cs",
+      "raw_sha256": "b86ec84b6637a4b6aba511758bd398c3956678e63e44d2d5d9a71a6d510f5aff"
+    },
+    {
+      "path": "ViewModels\\CustoViewModel.cs",
+      "export_path": "ViewModels\\CustoViewModel.cs",
+      "raw_sha256": "9202c9e48cb10fe7b0d825316e65518e1813aa325d440e69dfdc241a33888f76"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoAbaViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoAbaViewModel.cs",
+      "raw_sha256": "e87f60a9528be458cddf66dacb5e98f78b777cc38c476cf78c52a88e1936b05e"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoFichaAdicionarViewModel.cs",
+      "raw_sha256": "0df68797b40ad9c329c1e27b52ba89c1685e655bb3205c5355a2674cb9ba8008"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoFichaAtualizarViewModel.cs",
+      "raw_sha256": "352c7ad4c47386e0f7ce1f3ef9737c043c55ab9f394e3d2280b7a89bc3593323"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoFormulario.cs",
+      "export_path": "ViewModels\\IncidenciaCustoFormulario.cs",
+      "raw_sha256": "8fc979e818797764b7bcd7a264165e67e6c3f474d1dcebe08f67376b3eb0ee03"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoListaViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoListaViewModel.cs",
+      "raw_sha256": "8c82fd5a03848c15c99e70a18a8dcf8a4ed89b9d3f16baa35df3799a49422e33"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoViewModel.cs",
+      "raw_sha256": "239a6da96a3f50793df86ba924ce0fba243980769db824df03860943961d59e3"
+    },
+    {
+      "path": "Views\\CustoFichaAdicionarView.cs",
+      "export_path": "Views\\CustoFichaAdicionarView.cs",
+      "raw_sha256": "389dba6646323ecae7156308ab4c4a74dd5b186de2ec079a4f290ee970b72f87"
+    },
+    {
+      "path": "Views\\CustoFichaAtualizarView.cs",
+      "export_path": "Views\\CustoFichaAtualizarView.cs",
+      "raw_sha256": "c0b90114a1977e28eca9c1528048d241bb509614caf01b595d96bc2632d92291"
+    },
+    {
+      "path": "Views\\CustoListaView.cs",
+      "export_path": "Views\\CustoListaView.cs",
+      "raw_sha256": "e8be0a37bc4b60ffceb3b368faf0019a525bfc3605f26a134060431b9f5fb9b7"
+    },
+    {
+      "path": "Views\\CustosView.cs",
+      "export_path": "Views\\CustosView.cs",
+      "raw_sha256": "eb2dfc8a72b66b1ffcb0b514381b6472a920dde9137d09fc874d13a8ee2eb543"
+    },
+    {
+      "path": "Views\\FichaViewDetalhes\\CustoView.cs",
+      "export_path": "Views\\FichaViewDetalhes\\CustoView.cs",
+      "raw_sha256": "16658e4d7badf36e7f7b4947a2af57b65d59cc71b776827a0b07f56d78cc914e"
+    },
+    {
+      "path": "Views\\FichaViewDetalhes\\IncidenciaCustoView.cs",
+      "export_path": "Views\\FichaViewDetalhes\\IncidenciaCustoView.cs",
+      "raw_sha256": "1c3222928e46ff4529eadc67cc0d661e91350ad783b4a0549ff2d68b43ee6865"
+    },
+    {
+      "path": "Views\\IncidenciaCustoFichaAdicionarView.cs",
+      "export_path": "Views\\IncidenciaCustoFichaAdicionarView.cs",
+      "raw_sha256": "de8dc3d550f3057972320db03b834da080fbc11d68a801a355acec64d09f2d9e"
+    },
+    {
+      "path": "Views\\IncidenciaCustoFichaAtualizarView.cs",
+      "export_path": "Views\\IncidenciaCustoFichaAtualizarView.cs",
+      "raw_sha256": "b4a8f8917f73b41412fbda89ac3de5ee4ac581ef4be28f361365e3b1c4c6f028"
+    },
+    {
+      "path": "Views\\IncidenciaCustoListaView.cs",
+      "export_path": "Views\\IncidenciaCustoListaView.cs",
+      "raw_sha256": "0d1c4df75ee743f2894e563a189203681755c3d6ce28689fb86e9654e852eeac"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Custos.g.resources",
+      "file": "0000.bin",
+      "bytes": 25962,
+      "sha256": "68e48b5cf4869df6c47604483325217fd452a1f2b787df39d9dbe448610d8177"
+    },
+    {
+      "name": "Otus.Modulo.Custos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,28 @@
+{
+  "assembly": "DigisatServer.Distributed.Wcf.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ServiceModel",
+    "System",
+    "SimpleInjector.Integration.Wcf",
+    "SimpleInjector",
+    "DigisatServer.Distributed.Wcf.Core",
+    "System.IdentityModel",
+    "System.ServiceModel.Web",
+    "DigisatServer.Application.Core",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "System.Xml.Linq",
+    "DigisatServer.Domain.Main",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "DigisatServer.Distributed.Boot",
+    "System.ServiceModel.Activation",
+    "System.Runtime.Serialization",
+    "System.Web.Extensions",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Xml",
+    "Newtonsoft.Json"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "artifactSha256": "0928bf551e95df4b51ce5d1652eaf9dcba2dfac6a9b286ed238533cbae93bf1a",
+  "mvid": "67f866fb-e490-4129-b253-32b3bfda5f1e",
+  "assembly": "Modulo.GestaoBoletos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Xpf.Grid.v15.2",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Boleto",
+    "System.Windows.Forms",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Xpf.Core.v15.2",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.Xpf.Grid.v15.2.Core",
+    "PresentationCore",
+    "WindowsBase",
+    "DevExpress.Data.v15.2",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoBoletos.g.resources",
+      "file": "0000.bin",
+      "bytes": 32068,
+      "sha256": "2c2190e126ed06b736011bf4889b59c4a730f39630d21b20b36e3676a1ef25f1"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Reports.Resumo.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Reports.ResumoRemessa.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Reports.ResumoStatus.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Reports.ResumoStatusRemessa.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.GestaoBoletos.dll.licenses",
+      "file": "0006.bin",
+      "bytes": 284,
+      "sha256": "78e8bc26eadef7078ecce205f91cd13a29334c7fe5485d0dfb447d93aecb0a8c"
+    }
+  ]
+}

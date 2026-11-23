@@ -1,0 +1,90 @@
+{
+  "name": "Modulo.RelacoesPisCofinsEntrada",
+  "baseline": "baseline\\Modulo.RelacoesPisCofinsEntrada.dll",
+  "baseline_sha256": "b22ae62c3c47af7ca95a825f2612baaf63b1686ea3b873e43e2875bdb366676d",
+  "export_project": "recovered\\SuiteG6\\Modulo.RelacoesPisCofinsEntrada\\Modulo.RelacoesPisCofinsEntrada.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "d4edc5123ef13ba7784bd42dd6839a35fedd1f2f1bc98f509796fb2fd1c1f2fc"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "84ab924a967b5ab6d3ece704cc2b975549b85f88813dcc69a2c11558059e5a50"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "2c9c20db94add66b862c9ee9c62eed10bdef0c37751ea4b9421d70272909f773"
+    },
+    {
+      "path": "RelacaoPisCofinsEntradaModulo.cs",
+      "export_path": "RelacaoPisCofinsEntradaModulo.cs",
+      "raw_sha256": "a5f8a5305b01269a4b72b699289fe910ee97fdf97c8732ce771e0ad678980406"
+    },
+    {
+      "path": "ViewModels\\RelacaoPisCofinsEntradaAbaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoPisCofinsEntradaAbaViewModel.cs",
+      "raw_sha256": "7425d4de8c0c94a8a19f53c97f273cd78b4f9d178b13a581d7deabbf2a6e8443"
+    },
+    {
+      "path": "ViewModels\\RelacaoPisCofinsEntradaFichaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoPisCofinsEntradaFichaViewModel.cs",
+      "raw_sha256": "0ae4e60af66d17b09ddf768fc2da2f934993e95d470474b869e55838bd4d3a6c"
+    },
+    {
+      "path": "ViewModels\\RelacaoPisCofinsEntradaFormulario.cs",
+      "export_path": "ViewModels\\RelacaoPisCofinsEntradaFormulario.cs",
+      "raw_sha256": "b6d6ff673bcc8045e568a1a5875edb25468d5b3f5704db59a3e7b85a1c5ed2c3"
+    },
+    {
+      "path": "ViewModels\\RelacaoPisCofinsEntradaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoPisCofinsEntradaViewModel.cs",
+      "raw_sha256": "58d1951a1a8cf47db6c85cb51d95aaf2d1aba9d46a2b466ed795bfd39586cb43"
+    },
+    {
+      "path": "ViewModels\\RelacaoPisCofinsViewModel.cs",
+      "export_path": "ViewModels\\RelacaoPisCofinsViewModel.cs",
+      "raw_sha256": "5aa76743952873355f4ecafaaae111fd9f80c5cf5504ecba8482a777fd392466"
+    },
+    {
+      "path": "ViewModels\\RelacoesPisCofinsEntradaViewModel.cs",
+      "export_path": "ViewModels\\RelacoesPisCofinsEntradaViewModel.cs",
+      "raw_sha256": "dc329de3f41f5a6a6f2a11e8cab477e68ee505b039bc7dd5df3f2fc779449126"
+    },
+    {
+      "path": "Views\\RelacaoPisCofinsEntradaFichaView.cs",
+      "export_path": "Views\\RelacaoPisCofinsEntradaFichaView.cs",
+      "raw_sha256": "b1b1b724e65d283b3b5b012f104621a6e145c5c21e294d139a93cfbc1302203f"
+    },
+    {
+      "path": "Views\\RelacaoPisCofinsEntradaFichaViewDetalhes\\RelacaoPisCofinsEntradaView.cs",
+      "export_path": "Views\\RelacaoPisCofinsEntradaFichaViewDetalhes\\RelacaoPisCofinsEntradaView.cs",
+      "raw_sha256": "19ee6018f6c9501999ddd6b1c5a81973dc63955b7c879d919df23212ced04dbe"
+    },
+    {
+      "path": "Views\\RelacoesPisCofinsEntradaView.cs",
+      "export_path": "Views\\RelacoesPisCofinsEntradaView.cs",
+      "raw_sha256": "3759525e2b22bdc8655c2d41991fd98f9707681eddc295a7d627395bc1ef145b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.RelacoesPisCofinsEntrada.g.resources",
+      "file": "0000.bin",
+      "bytes": 9558,
+      "sha256": "ae9d15d4f1824b180791ba9d7669b54ae3d949738342e18717c867399f18cb48"
+    },
+    {
+      "name": "Otus.Modulo.RelacoesPisCofinsEntrada.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

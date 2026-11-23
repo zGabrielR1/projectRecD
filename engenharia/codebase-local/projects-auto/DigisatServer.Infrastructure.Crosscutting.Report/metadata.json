@@ -1,0 +1,245 @@
+{
+  "artifactSha256": "e8b5d45b04b76192165b2dab62f426791fca93a1a807ee506c4ae66d29655298",
+  "mvid": "d0ce9edd-2d7a-4445-a853-79e8043b31c6",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Report, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DevExpress.XtraReports.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "System.Windows.Forms",
+    "System.Drawing",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DevExpress.Data.v15.2",
+    "System.Core",
+    "PresentationFramework"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfceA4.resources",
+      "file": "0000.bin",
+      "bytes": 22054,
+      "sha256": "3d33b7c648e55a57481d47ec43ed49ccb98e1952281d31bc6471d60d4a1a9d33"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfceCancelado56Mm57Mm58Mm.resources",
+      "file": "0001.bin",
+      "bytes": 23404,
+      "sha256": "528089602e484ed4d002712a89e4beef43f4f2eb8b5f1f3ac99382b3b7295c79"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfce56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 24406,
+      "sha256": "f1a41e8d1d6515a5395cbfb8d00efd8fc1a451bac3c9ea96e9097e3cad074efe"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfceCanceladoA4.resources",
+      "file": "0003.bin",
+      "bytes": 19368,
+      "sha256": "edfcfdb0a0e5cb46483986485a1cf5b7d3ea0c072abb12537cc868205f00e87d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfceCancelado79Mm80Mm.resources",
+      "file": "0004.bin",
+      "bytes": 20214,
+      "sha256": "11a9864e2584686de1856871e78e947375e5bea95a61065d26d01c646ff6252f"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfce79Mm80Mm.resources",
+      "file": "0005.bin",
+      "bytes": 25570,
+      "sha256": "096790d40bebf0d2b9aeb43f1f39477d5df06fb61cdbc22a92fd3ae4cf11caae"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfePaisagem.RelatorioDanfePaisagem.resources",
+      "file": "0006.bin",
+      "bytes": 447,
+      "sha256": "c7a83f222ffb98952b4a570dbc8fc186bfebc65398bbcabc223e8e8e6926b0a2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfePaisagem.RelatorioParcialDanfePaisagem.resources",
+      "file": "0007.bin",
+      "bytes": 11028,
+      "sha256": "75cc574e69470adac71c559850874a94480022c8f4ffa17f8152a1f209537766"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfePaisagem.RelatorioParcialDanfeProdutoEServicoPaisagem.resources",
+      "file": "0008.bin",
+      "bytes": 17412,
+      "sha256": "977335badbd428fe52c000eed6328c22cad8e48f3679d4e643da49e3e3befdba"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfePaisagem.RelatorioParcialDanfePaisagemDuplicatas.resources",
+      "file": "0009.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeRetrato.RelatorioDanfeRetrato.resources",
+      "file": "0010.bin",
+      "bytes": 22981,
+      "sha256": "c8dea1bcd0e3321b3375e6055b0243aac41aec17d02176c8a8f432f0e48be43b"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeRetrato.RelatorioDanfeRetratoComprovanteCancelamento.resources",
+      "file": "0011.bin",
+      "bytes": 8559,
+      "sha256": "0323419937c8d349bfc882f293217642fc5d57df440d0cb86e05049f0769799e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeRetrato.RelatorioParcialDanfeRetratoDadosProdutoEServico.resources",
+      "file": "0012.bin",
+      "bytes": 18065,
+      "sha256": "710772e1b186efcdc4e99b7540c5b49d0b134283921238483f9e8abeace0f12c"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeRetrato.RelatorioParcialDanfeRetratoDuplicatas.resources",
+      "file": "0013.bin",
+      "bytes": 2438,
+      "sha256": "9f5db6915a7c338ecb51e33b2a1a652165ecfa942964a0ee83037937fdd6ca0d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeSimplificadoTipo2.RelatorioDanfeSimplificadoTipo2.resources",
+      "file": "0014.bin",
+      "bytes": 25916,
+      "sha256": "5c6560d880a15482cd5968a7927a144338ecdd202867ad0fc952dbb1d50cc268"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeSimplificado.RelatorioDanfeSimplificadoComprovanteCancelamento.resources",
+      "file": "0015.bin",
+      "bytes": 12146,
+      "sha256": "905bf823c6668c4b3c1047a2ef03ac41deefac5a80ce27047dee7ddd642736dc"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeSimplificado.RelatorioDanfeSimplificado.resources",
+      "file": "0016.bin",
+      "bytes": 18559,
+      "sha256": "3bbc741ebfcde96a3ae70b2debed6afda1a3a905d79e0e1eb14df68bc2b83dee"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ExtratoSat.ExtratoCfeSatAutorizado56Mm57Mm58Mm.resources",
+      "file": "0017.bin",
+      "bytes": 5367,
+      "sha256": "50c96650dcfc564124b47796621cc86e94fae62869aa66b14f2791019a7a6140"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ExtratoSat.ExtratoCfeSatAutorizado79Mm80Mm.resources",
+      "file": "0018.bin",
+      "bytes": 5555,
+      "sha256": "a7c9146f5fcb8cd032949768a5e2882975103d4bfcc9f76b035d21bd368527a8"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ExtratoSat.ExtratoCfeSatCancelado56Mm57Mm58Mm.resources",
+      "file": "0019.bin",
+      "bytes": 5285,
+      "sha256": "b7873fdd34d0c624a1aeaed30f4201a85e10defe0096bd459098b0b47184b9c7"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ExtratoSat.ExtratoCfeSatCancelado79Mm80Mm.resources",
+      "file": "0020.bin",
+      "bytes": 5377,
+      "sha256": "9d47f094fb1b7bd5224b9c0ff24472ce7198e9fbec158f3e2c9e0b116b53e5dd"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.FichaConsumo.RelatorioFichaConsumo56Mm57Mm58Mm.resources",
+      "file": "0021.bin",
+      "bytes": 2572,
+      "sha256": "a8a94595ab1ba51b19ae24bba45b0b03df3e96920b00c781c4a48c70250a602d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.FichaConsumo.RelatorioFichaConsumo79Mm80Mm.resources",
+      "file": "0022.bin",
+      "bytes": 2572,
+      "sha256": "a8a94595ab1ba51b19ae24bba45b0b03df3e96920b00c781c4a48c70250a602d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ImagensItens.ImagemItem.resources",
+      "file": "0023.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.MesaContaCliente.ImpressoMesaContaCliente56Mm57Mm58Mm.resources",
+      "file": "0024.bin",
+      "bytes": 9296,
+      "sha256": "fab480c3cd2216ca017bd5ad22bf4896bb96321afb5931bc0db470e9815552c8"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.MesaContaCliente.ImpressoMesaContaCliente79Mm80Mm.resources",
+      "file": "0025.bin",
+      "bytes": 10792,
+      "sha256": "b13fdc3ec58d24d02ccba75d5ba46f88d000af219b929e75478932b2146b74b7"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Models.Relatorio.resources",
+      "file": "0026.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Orcamento.RelatorioOrcamento.resources",
+      "file": "0027.bin",
+      "bytes": 3742,
+      "sha256": "28adc38760624367ff9dc94c71e305b8d6e7005e9c43a42899d003bda5926258"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.OrdemServico.RelatorioOrdemServico.resources",
+      "file": "0028.bin",
+      "bytes": 3742,
+      "sha256": "28adc38760624367ff9dc94c71e305b8d6e7005e9c43a42899d003bda5926258"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Parcelas.ParcelasPendentesEAtrasadasComCabecalhoERodape.resources",
+      "file": "0029.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Parcelas.ParcelaComCabecalhoERodape.resources",
+      "file": "0030.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Parcelas.Parcela.resources",
+      "file": "0031.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.PedidoVenda.RelatorioPedidoVenda.resources",
+      "file": "0032.bin",
+      "bytes": 3742,
+      "sha256": "28adc38760624367ff9dc94c71e305b8d6e7005e9c43a42899d003bda5926258"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.RegistroVenda.RelatorioRegistroVenda56Mm57Mm58Mm.resources",
+      "file": "0033.bin",
+      "bytes": 21318,
+      "sha256": "0658139b2ad04ca0728c6377e28bd0cb015288ea7b84882dc40d59937f809444"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.RegistroVenda.RelatorioRegistroVendaA4.resources",
+      "file": "0034.bin",
+      "bytes": 21178,
+      "sha256": "209a07bda3a2b0485bf9b2666e567da3ffd5fdbe4c38dfb546d0b20853cf1b5e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.RegistroVenda.RelatorioRegistroVenda79Mm80Mm.resources",
+      "file": "0035.bin",
+      "bytes": 21458,
+      "sha256": "3925f302bacf892fefc0a0f3e3e407764c8e812c783657dd5cd5f6d79fbc44c0"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.dll.licenses",
+      "file": "0036.bin",
+      "bytes": 312,
+      "sha256": "4f1b36162b2457b2d4613c65a427ae0ef59dea8c57d989474f8930e96c5a5f54"
+    }
+  ]
+}

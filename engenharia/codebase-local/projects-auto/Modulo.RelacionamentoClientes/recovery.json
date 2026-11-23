@@ -1,0 +1,575 @@
+{
+  "name": "Modulo.RelacionamentoClientes",
+  "baseline": "baseline\\Modulo.RelacionamentoClientes.dll",
+  "baseline_sha256": "c4a0d63d05acde250b4bf5c754f4e4d535f8e565a6adaecfe264713a6c07bab3",
+  "export_project": "recovered\\SuiteG6\\Modulo.RelacionamentoClientes\\Modulo.RelacionamentoClientes.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "5b3767f62a28117aa96975a113076bd3e1f5abd4d2266eb1b6f2907704eda0ab"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "398ea3da04cbf9c5e35844a55097880ee024bee1a9fabac6178282b529c03657"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "9054827587ec63f8935c0b289f466263e4f0b9d0a0e6eb734f00a8b4a0f6afbf"
+    },
+    {
+      "path": "RelacionamentoClienteModulo.cs",
+      "export_path": "RelacionamentoClienteModulo.cs",
+      "raw_sha256": "671b9758ae6ff05c236d564ebc48c9ef3d6aeb4816d0ab12494305b597abaf81"
+    },
+    {
+      "path": "ViewModels\\ClientesDeixaramComprarAbaViewModel.cs",
+      "export_path": "ViewModels\\ClientesDeixaramComprarAbaViewModel.cs",
+      "raw_sha256": "9e589a0f64417ba1c361cba244245fa797e6597a82b316d60151493fe650191e"
+    },
+    {
+      "path": "ViewModels\\ClientesDeixaramComprarViewModel.cs",
+      "export_path": "ViewModels\\ClientesDeixaramComprarViewModel.cs",
+      "raw_sha256": "a4f1a3450a93ec3182c19e5e1767f1a149b0e1ce5097159e7494ba29aa174d58"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\AgendamentosAbaViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\AgendamentosAbaViewModel.cs",
+      "raw_sha256": "97ea0eca851f8d53f4fcaaa03bbee683136ffe5bf5df59a84a17cd629249f99b"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\AgendamentosViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\AgendamentosViewModel.cs",
+      "raw_sha256": "054794ff28e8d901d8537ab17a8d37025847232fe3c39e1dc9bd10268c1c7fc8"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\ContratosAbaViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\ContratosAbaViewModel.cs",
+      "raw_sha256": "fa00b26fad25a1fb9df4edc25921abcf76af12853192fee9e44d74eda338619d"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\ContratosViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\ContratosViewModel.cs",
+      "raw_sha256": "0f0526f34f7196ea3b59a3308d72c9399ff2411a60c88fd9015f3067a4acbe71"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\FichaCadastralAbaViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\FichaCadastralAbaViewModel.cs",
+      "raw_sha256": "103909ea362092920ab20f8b20cacdfe0ecf34ffcd3e65597a21bae6d6eeaf1a"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\FichaCadastralViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\FichaCadastralViewModel.cs",
+      "raw_sha256": "1844d3b6f22c5ec07401ad0c5f9d6a06cd9d3de8a1af929d46098889cef28d57"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\FinanceiroAbaViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\FinanceiroAbaViewModel.cs",
+      "raw_sha256": "d90ea947ac125557018225fa8838dc24ab60c40f27c910f85250079f06c020e3"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\FinanceiroViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\FinanceiroViewModel.cs",
+      "raw_sha256": "af6c03c3bb9dd1790bb1e023c8ba56f6d1fbd7f1832609c261e28753c8714974"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\HistoricoMovimentacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\HistoricoMovimentacaoAbaViewModel.cs",
+      "raw_sha256": "e17591a1fa44a41f784e85ec2e3fd23f82b5a63a7030ccff9dcda11341e883ec"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\HistoricoMovimentacaoViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\HistoricoMovimentacaoViewModel.cs",
+      "raw_sha256": "445a0acc98ec50c9b4c6b158bb30d12ff337f41722cd4270da8707875f4ecbd5"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\MovimentacaoAcumuladaProdutoAbaViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\MovimentacaoAcumuladaProdutoAbaViewModel.cs",
+      "raw_sha256": "2c15497e059de4869f132096155a45645b4175cc5b8d3773d56dfb3b651db78f"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\MovimentacaoAcumuladaProdutoViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\MovimentacaoAcumuladaProdutoViewModel.cs",
+      "raw_sha256": "ef0c92f844f7426c053d3168914a8e94054aeefbf3f80052851f9e2bb7f873c6"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\PagarAbaViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\PagarAbaViewModel.cs",
+      "raw_sha256": "652c4c24135e01862a40e4ab2846d19bd9ca36d0c598e4f7faae5439084bb86b"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\PagarViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\PagarViewModel.cs",
+      "raw_sha256": "453ae8a017da7d9470246001fbdef07fc1a3fe777b42685eb6a3e9452f0e7a50"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\ReceberAbaViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\ReceberAbaViewModel.cs",
+      "raw_sha256": "1548e8e141adebffc051fa2495a74e3c7ab9f3e2e3eea16f7747f80bdc06cd00"
+    },
+    {
+      "path": "ViewModels\\ClienteSelecionado\\ReceberViewModel.cs",
+      "export_path": "ViewModels\\ClienteSelecionado\\ReceberViewModel.cs",
+      "raw_sha256": "51b50150b0795055de4bbf2f94ad403f744194775ea584a12a771cf5bfd8e23b"
+    },
+    {
+      "path": "ViewModels\\ClientesPagaramDividaAbaViewModel.cs",
+      "export_path": "ViewModels\\ClientesPagaramDividaAbaViewModel.cs",
+      "raw_sha256": "2dc965b9ce4dc11a05938cfa5176b48d01503489930b52ba763df1e511ecf966"
+    },
+    {
+      "path": "ViewModels\\ClientesPagaramDividaViewModel.cs",
+      "export_path": "ViewModels\\ClientesPagaramDividaViewModel.cs",
+      "raw_sha256": "2618ae61217ee3b58a420a851e31d1ffddefbb8430bfd9a5513e035499befd74"
+    },
+    {
+      "path": "ViewModels\\ContatoPosVendaAbaViewModel.cs",
+      "export_path": "ViewModels\\ContatoPosVendaAbaViewModel.cs",
+      "raw_sha256": "154b8302a985560768ac14ea58a31ff78e6b812aa279ebfc6bb867dc35af1f74"
+    },
+    {
+      "path": "ViewModels\\ContatoPosVendaViewModel.cs",
+      "export_path": "ViewModels\\ContatoPosVendaViewModel.cs",
+      "raw_sha256": "3f4f6e7a7e8244f7d1d33c644d49ee2451bcf977ae860985894f038dbfcb1be7"
+    },
+    {
+      "path": "ViewModels\\CreditoAbaViewModel.cs",
+      "export_path": "ViewModels\\CreditoAbaViewModel.cs",
+      "raw_sha256": "0a67259178a6e47f4843100f7c91f0841cff1754c7cc51e19e5ec315f9a0247f"
+    },
+    {
+      "path": "ViewModels\\CreditoViewModel.cs",
+      "export_path": "ViewModels\\CreditoViewModel.cs",
+      "raw_sha256": "88d5f7118bcfb310d007329b5bb28b4d39e8b44d768dce23c19b41d126afc052"
+    },
+    {
+      "path": "ViewModels\\DescricaoValor.cs",
+      "export_path": "ViewModels\\DescricaoValor.cs",
+      "raw_sha256": "275f5f1c51ea0082a5949789de2e0e19c2a7ec48bd57596331a654ed0d217bc2"
+    },
+    {
+      "path": "ViewModels\\GraficosClientesAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosClientesAbaViewModel.cs",
+      "raw_sha256": "7d788f719499d1381317845bada54e38a3d0df68968deccd665b52755e63d4ca"
+    },
+    {
+      "path": "ViewModels\\GraficosClientesViewModel.cs",
+      "export_path": "ViewModels\\GraficosClientesViewModel.cs",
+      "raw_sha256": "53a71fc39813ea87dccedb43f76a197ee59f125e8680d97eed3b7b654037940e"
+    },
+    {
+      "path": "ViewModels\\GraficosHospedagensAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosHospedagensAbaViewModel.cs",
+      "raw_sha256": "1cabe8daf76722eb21c27744f41a940fadc9788efe9700671149e35ddc07a243"
+    },
+    {
+      "path": "ViewModels\\GraficosHospedagensViewModel.cs",
+      "export_path": "ViewModels\\GraficosHospedagensViewModel.cs",
+      "raw_sha256": "ce890c5adef822de9c792375a4d14becd2243c8ddc7baf899650dda538f559de"
+    },
+    {
+      "path": "ViewModels\\GraficosPicoVendasAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosPicoVendasAbaViewModel.cs",
+      "raw_sha256": "d0c3b3d222c33b0c0778f5473980f5f4e7a305622a19c68f86deec4c07734457"
+    },
+    {
+      "path": "ViewModels\\GraficosPicoVendasViewModel.cs",
+      "export_path": "ViewModels\\GraficosPicoVendasViewModel.cs",
+      "raw_sha256": "67a82ec6f2a008cef8a437a3f02ec80201898f188c64a1a1ad9bfbc3ce8b45a8"
+    },
+    {
+      "path": "ViewModels\\GraficosTopDezAbaViewModel.cs",
+      "export_path": "ViewModels\\GraficosTopDezAbaViewModel.cs",
+      "raw_sha256": "036ad791e06a5ff4d9523bcf34e3c857642c96ed30fbb63721c348f92a190272"
+    },
+    {
+      "path": "ViewModels\\GraficosTopDezViewModel.cs",
+      "export_path": "ViewModels\\GraficosTopDezViewModel.cs",
+      "raw_sha256": "e83c83256be4cbb750596eaa988a7b6cc970c5a5d35ddb66e397c7a8aa2a6fe6"
+    },
+    {
+      "path": "ViewModels\\MalaDiretaAbaViewModel.cs",
+      "export_path": "ViewModels\\MalaDiretaAbaViewModel.cs",
+      "raw_sha256": "225d4d4ad8691c0880f6bc4b04ad8ab962b84b52a365c75673d51252ec9ce555"
+    },
+    {
+      "path": "ViewModels\\MalaDiretaViewModel.cs",
+      "export_path": "ViewModels\\MalaDiretaViewModel.cs",
+      "raw_sha256": "40863dda7ab170c32ff3c2e90ae1d760e31508d7aa7b359b87862b234f356ef8"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\DestinatarioMalaDireta.cs",
+      "export_path": "ViewModels\\MalaDireta\\DestinatarioMalaDireta.cs",
+      "raw_sha256": "b5401749ab6fa9665d8e00ff079ee7c62a112ef69191536b95af9fb350f94d4d"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\EnvioMalaDiretaViewModel.cs",
+      "export_path": "ViewModels\\MalaDireta\\EnvioMalaDiretaViewModel.cs",
+      "raw_sha256": "89b32bc5b06983502094b18e2d7d5e68ac470648dfc3746fb73e8c3179649ff3"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\MalaDiretaAgendamentosViewModel.cs",
+      "export_path": "ViewModels\\MalaDireta\\MalaDiretaAgendamentosViewModel.cs",
+      "raw_sha256": "60ca831890d667c2bb8974b799dff6a81aac7d7c4f97c7cce14c32f673ea8d75"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\MalaDiretaAnimaisAniversarianteViewModel.cs",
+      "export_path": "ViewModels\\MalaDireta\\MalaDiretaAnimaisAniversarianteViewModel.cs",
+      "raw_sha256": "373f7192f4a932820a8491476295316fd09d10c474b4787f0146870354541b40"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\MalaDiretaAniversarianteViewModel.cs",
+      "export_path": "ViewModels\\MalaDireta\\MalaDiretaAniversarianteViewModel.cs",
+      "raw_sha256": "431be68257ec4cf43b9b60aa0389bef3774cbae0d2455d41b47cc3051c2b2c45"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\MalaDiretaBase.cs",
+      "export_path": "ViewModels\\MalaDireta\\MalaDiretaBase.cs",
+      "raw_sha256": "7f96bd7323d1466370c437cc1dd9e6ee0000ff51f7a1da6867fcce050b94ea39"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\MalaDiretaPessoaComContratoAtivoViewModel.cs",
+      "export_path": "ViewModels\\MalaDireta\\MalaDiretaPessoaComContratoAtivoViewModel.cs",
+      "raw_sha256": "0a27a100383a0a32b20bcc706eb5b8947298b1aa47f2b0b8cfcde60b60d0e3d1"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\MalaDiretaSegmentacaoPessoaViewModel.cs",
+      "export_path": "ViewModels\\MalaDireta\\MalaDiretaSegmentacaoPessoaViewModel.cs",
+      "raw_sha256": "3797adced3abf6ca2b67b70f8679e9543664e0b5e2949e310d23607f09f3573d"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\MalaDiretaTipoCadastroViewModel.cs",
+      "export_path": "ViewModels\\MalaDireta\\MalaDiretaTipoCadastroViewModel.cs",
+      "raw_sha256": "48e58c9a86a518139f97fbe686e972919dedca05a83f131dc6f3f3b7415708e6"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\PorAgendamento.cs",
+      "export_path": "ViewModels\\MalaDireta\\PorAgendamento.cs",
+      "raw_sha256": "f78e3b9637dc82e134e3160751f89c636c9e14e6923c134d121bc99712379b8c"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\PorAnimaisAniversariantes.cs",
+      "export_path": "ViewModels\\MalaDireta\\PorAnimaisAniversariantes.cs",
+      "raw_sha256": "986a80f8a7a2e1fcf34e223fa844549d0eb19b2df293f26360598a7dd7bdc9b5"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\PorAniversariantes.cs",
+      "export_path": "ViewModels\\MalaDireta\\PorAniversariantes.cs",
+      "raw_sha256": "3e207bc942d99c84d183bfff3be4c5f251460b26f2ef28bf74915fc32eb053f9"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\PorPessoaComContratoAtivo.cs",
+      "export_path": "ViewModels\\MalaDireta\\PorPessoaComContratoAtivo.cs",
+      "raw_sha256": "4c3445290bd696bd28485aa62ccea1790640f03540fb477e5d2b15f42a2cc4b7"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\PorSegmentacaoPessoa.cs",
+      "export_path": "ViewModels\\MalaDireta\\PorSegmentacaoPessoa.cs",
+      "raw_sha256": "f19f7c33e34ba17d69fd8f497f102de107295d5f2e3f0e5ea9d2886e87a46e0a"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\PorTipoCadastro.cs",
+      "export_path": "ViewModels\\MalaDireta\\PorTipoCadastro.cs",
+      "raw_sha256": "077887c3d08eaddddf624ae1d3040e1973533806ff85a4e53d4b4a9eb8fd64de"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\PreviaAnexoWhatsApp.cs",
+      "export_path": "ViewModels\\MalaDireta\\PreviaAnexoWhatsApp.cs",
+      "raw_sha256": "97f1fe3378dc0f89f043852f61a4be0e5f40de7512ffe0e4948511cefe81046e"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\Tipo.cs",
+      "export_path": "ViewModels\\MalaDireta\\Tipo.cs",
+      "raw_sha256": "052d27386e59923b9d9b01b64a8f45a8a7e135c32eea7c54664fc140f2a3176e"
+    },
+    {
+      "path": "ViewModels\\MalaDireta\\TipoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\MalaDireta\\TipoComboBoxViewModel.cs",
+      "raw_sha256": "ba6cf59bda2b50d08e14756975766e97f24b03dc9d785833db0b5839e43df51c"
+    },
+    {
+      "path": "ViewModels\\MetaAbaViewModel.cs",
+      "export_path": "ViewModels\\MetaAbaViewModel.cs",
+      "raw_sha256": "44f82c29ed6d1a5ca1bf40c99e2e10959eb4ba04d57bf28c783618e6c3179ac5"
+    },
+    {
+      "path": "ViewModels\\MetaViewModel.cs",
+      "export_path": "ViewModels\\MetaViewModel.cs",
+      "raw_sha256": "2725b506d163fe68e0aaf2e7afb923833907e2018d25a4bd5f437d34d83c43a5"
+    },
+    {
+      "path": "ViewModels\\RelacionamentoClienteFichaViewModel.cs",
+      "export_path": "ViewModels\\RelacionamentoClienteFichaViewModel.cs",
+      "raw_sha256": "80d777bac94e5c38d0759059259d15fbd42cc420472f2afde47cec055587c3dd"
+    },
+    {
+      "path": "ViewModels\\RelacionamentoClienteFormulario.cs",
+      "export_path": "ViewModels\\RelacionamentoClienteFormulario.cs",
+      "raw_sha256": "5b156a55125eaa0110b32340c1c166261320a085463d7a1a44ff967f6b0b5842"
+    },
+    {
+      "path": "ViewModels\\RelacionamentoClientesViewModel.cs",
+      "export_path": "ViewModels\\RelacionamentoClientesViewModel.cs",
+      "raw_sha256": "1d93bc6bd6df8edca1c456a73c537628bf6ccae66b5f22bbfbf02de6ba66d40a"
+    },
+    {
+      "path": "ViewModels\\SelecaoClienteAbaViewModel.cs",
+      "export_path": "ViewModels\\SelecaoClienteAbaViewModel.cs",
+      "raw_sha256": "ef99123681b994416c702454b8d80024e7fff162cb3efa892b1427a999d412a8"
+    },
+    {
+      "path": "ViewModels\\SelecaoClienteViewModel.cs",
+      "export_path": "ViewModels\\SelecaoClienteViewModel.cs",
+      "raw_sha256": "27ca46c7f8cc29b99798e337ec2e56ff71d02acb89027257223ea9ee5d02f3ff"
+    },
+    {
+      "path": "ViewModels\\TicketMedioAbaViewModel.cs",
+      "export_path": "ViewModels\\TicketMedioAbaViewModel.cs",
+      "raw_sha256": "519785c6cd5d890282bc3a6be3d95f25cc28710ab9377410bc6dd6f82f489f2b"
+    },
+    {
+      "path": "ViewModels\\TicketMedioViewModel.cs",
+      "export_path": "ViewModels\\TicketMedioViewModel.cs",
+      "raw_sha256": "e7c3c995143d0eb0d822db7dc7de669d3cc758c92c34dd97ed3b14611e1a7e79"
+    },
+    {
+      "path": "ViewModels\\UltimaVendaProdutoAbaViewModel.cs",
+      "export_path": "ViewModels\\UltimaVendaProdutoAbaViewModel.cs",
+      "raw_sha256": "fcf54487517867ec7e935dc72b7a810213b86a80d09904a2536ccc54ed3457b8"
+    },
+    {
+      "path": "ViewModels\\UltimaVendaProdutoViewModel.cs",
+      "export_path": "ViewModels\\UltimaVendaProdutoViewModel.cs",
+      "raw_sha256": "52a452c256adcf32c8348227aeb9367f796085623633755ff5d598f00896a685"
+    },
+    {
+      "path": "Views\\ClienteSelecionado\\AgendamentosView.cs",
+      "export_path": "Views\\ClienteSelecionado\\AgendamentosView.cs",
+      "raw_sha256": "a694bbdd8f385d669fb4c8b328f630071f1e762a844b14070088978d1400ae25"
+    },
+    {
+      "path": "Views\\ClienteSelecionado\\ContratosView.cs",
+      "export_path": "Views\\ClienteSelecionado\\ContratosView.cs",
+      "raw_sha256": "c148dd01c8c85f96e737b39a10fe98c242991850f049a21cf582d4639e23fca4"
+    },
+    {
+      "path": "Views\\ClienteSelecionado\\FichaCadastralView.cs",
+      "export_path": "Views\\ClienteSelecionado\\FichaCadastralView.cs",
+      "raw_sha256": "af91da944f89a31bdb726fa21836007eed09b49dba9d22dc9612d298712bf065"
+    },
+    {
+      "path": "Views\\ClienteSelecionado\\FinanceiroView.cs",
+      "export_path": "Views\\ClienteSelecionado\\FinanceiroView.cs",
+      "raw_sha256": "d4c2e2c1564f0a6770f583ac980734b51295baeccfbfb8bbd826ed67760d5f18"
+    },
+    {
+      "path": "Views\\ClienteSelecionado\\HistoricoMovimentacaoView.cs",
+      "export_path": "Views\\ClienteSelecionado\\HistoricoMovimentacaoView.cs",
+      "raw_sha256": "76c1a3f3b91b2f71a5a3fea74ebf47c86c57ccc138b78ac1ecd1831ed5c04e25"
+    },
+    {
+      "path": "Views\\ClienteSelecionado\\MovimentacaoAcumuladaProdutoView.cs",
+      "export_path": "Views\\ClienteSelecionado\\MovimentacaoAcumuladaProdutoView.cs",
+      "raw_sha256": "e305de058aef9424a3265e22b73f805ce777f65fb71e435936598867def7a73a"
+    },
+    {
+      "path": "Views\\ClienteSelecionado\\PagarReceberView.cs",
+      "export_path": "Views\\ClienteSelecionado\\PagarReceberView.cs",
+      "raw_sha256": "2d397148e8302dc0c56aaa0dc4a3c2e2975bfb5408f0f384e6ee649ad85760d1"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaView.cs",
+      "raw_sha256": "5cec5d071643191fde96003d528dcee8d20d154545e5915f6e65ea671bbb63f5"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\ClientesDeixaramComprarView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\ClientesDeixaramComprarView.cs",
+      "raw_sha256": "3b763344e278b593b7a0fbd6380bd4f0f0b74ceaf488ff8ba3903f652da08808"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\ClientesPagaramDividaView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\ClientesPagaramDividaView.cs",
+      "raw_sha256": "4d61aaa8a1b4a50500497507e0b7bb917911623031a33a5d5a79a1bd2fbbbf8c"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\ContatoPosVendaView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\ContatoPosVendaView.cs",
+      "raw_sha256": "d5bf5cc5585c86421de031e2a00d38260b2aeaf35efbbe37bc45b1071f0dfef3"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\CreditoView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\CreditoView.cs",
+      "raw_sha256": "e5f16c509cbad85e6ebdfb390cc06dc470a09a99fdfc1e26ee2985547429b854"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\EmailModeloView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\EmailModeloView.cs",
+      "raw_sha256": "4edfd781263251e52b6754c1ecd5a635808b4c8291bc70deb1a8bd17eae5137f"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\GraficoClienteView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\GraficoClienteView.cs",
+      "raw_sha256": "a24b116ef4f5fbfbe98c96b5c34e412db202681cc3aff52825c61cc0e97c2b39"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\GraficoHorarioPicoView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\GraficoHorarioPicoView.cs",
+      "raw_sha256": "63bf45a037a3dd565bfa523decf47df094c7da3e76be75725f8f8ff26861f785"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\GraficoHospedagemView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\GraficoHospedagemView.cs",
+      "raw_sha256": "e70ccabd6d4b19b0a3309cee5f981541001d836636aa4cc56607539d28739e6c"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\GraficoTopDezView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\GraficoTopDezView.cs",
+      "raw_sha256": "c23059675d4262330bb62229571a0aff7f60cb27d7f6d67ced16a5d59b31017a"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\MalaDiretaEnvioView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\MalaDiretaEnvioView.cs",
+      "raw_sha256": "18472f332f01ba077444d8b74c72f174fc41803ccb51b14ae9520814a371b37f"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\MalaDiretaView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\MalaDiretaView.cs",
+      "raw_sha256": "83cfdc54874bb5c46cc0934a29bec1d4f698fe22d5b1c64b191799e23774573f"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\MetaView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\MetaView.cs",
+      "raw_sha256": "e7a854b206ef280d9300ad5fa02d975892090911fe23cbbd253c4b629f0301f0"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\SelecaoClienteView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\SelecaoClienteView.cs",
+      "raw_sha256": "2940655b3898a241b6c6325fb133e70ceb3307ecccd4503c438b8486d70e90d1"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\TicketMedioView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\TicketMedioView.cs",
+      "raw_sha256": "3bf5e151d6fb7dab58470f9f2ccbbe79c094de869a1279a3faa488d581123c6c"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\UltimaVendaProdutoView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\UltimaVendaProdutoView.cs",
+      "raw_sha256": "658594debff644ee0b064108640f19dbff3d3907917e5b47e38f30cec1d6acc3"
+    },
+    {
+      "path": "Views\\RelacionamentoClienteFichaViewDetalhes\\WhatsAppModeloView.cs",
+      "export_path": "Views\\RelacionamentoClienteFichaViewDetalhes\\WhatsAppModeloView.cs",
+      "raw_sha256": "56217d9485cc6fe8642ce221c7d7547312e7d3847c62096b5b8bdf9fee64cad4"
+    },
+    {
+      "path": "Views\\RelacionamentoClientesView.cs",
+      "export_path": "Views\\RelacionamentoClientesView.cs",
+      "raw_sha256": "efb146ef9e78a35c1a81eeebf634ac2b3a1502e2ba7a100f4b0ea5accc25fbc9"
+    },
+    {
+      "path": "__PrivateImplementationDetails.cs",
+      "export_path": "__PrivateImplementationDetails.cs",
+      "raw_sha256": "bb23b9b67103a92a5a071df9062dba40c1959eb1eed3dc1d58250f88fdd090da",
+      "generated": true
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 32
+    },
+    {
+      "kind": "synthesized ComputeStringHash helper",
+      "occurrences": 1
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 58,
+      "types": [
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass15_0",
+        "__c_DisplayClass24_0",
+        "__c_DisplayClass25_0",
+        "__c_DisplayClass26_0",
+        "__c_DisplayClass33_0",
+        "__c_DisplayClass34_0",
+        "__c_DisplayClass34_1",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass36_0",
+        "__c_DisplayClass38_0",
+        "__c_DisplayClass39_0",
+        "__c_DisplayClass40_0",
+        "__c_DisplayClass41_0",
+        "__c_DisplayClass42_0",
+        "__c_DisplayClass19_0",
+        "__c_DisplayClass21_0",
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass17_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass5_0",
+        "__c_DisplayClass34_0",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass38_0",
+        "__c_DisplayClass39_0",
+        "__c_DisplayClass40_0",
+        "__c_DisplayClass41_0",
+        "__c_DisplayClass42_0",
+        "__c_DisplayClass43_0",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass58_0",
+        "__c_DisplayClass59_0",
+        "__c_DisplayClass60_0",
+        "__c_DisplayClass62_0",
+        "__c_DisplayClass65_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass31_0",
+        "__c_DisplayClass23_0",
+        "__c_DisplayClass25_0",
+        "__c_DisplayClass25_1",
+        "__c_DisplayClass26_0",
+        "__c_DisplayClass27_0",
+        "__c_DisplayClass28_0",
+        "__c_DisplayClass29_0",
+        "__c_DisplayClass32_0",
+        "__c_DisplayClass34_0",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass36_0",
+        "__c_DisplayClass37_0",
+        "__c_DisplayClass38_0",
+        "__c_DisplayClass9_0",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass75_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass6_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.RelacionamentoClientes.g.resources",
+      "file": "0000.bin",
+      "bytes": 162773,
+      "sha256": "0320437a3e0d39291e11db3c4da760b65ac76d04e59e4de29313fe33c005f1c9"
+    },
+    {
+      "name": "Otus.Modulo.RelacionamentoClientes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.RelacionamentoClientes.dll.licenses",
+      "file": "0002.bin",
+      "bytes": 293,
+      "sha256": "56cdf05eb886924b5b41785f243d9384e48c50ae44df77aad8c14b787f8c955f"
+    }
+  ],
+  "generated_stubs": false
+}

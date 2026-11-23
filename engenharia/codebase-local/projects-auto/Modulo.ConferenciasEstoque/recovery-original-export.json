@@ -1,0 +1,163 @@
+{
+  "name": "Modulo.ConferenciasEstoque",
+  "baseline": "baseline\\Modulo.ConferenciasEstoque.dll",
+  "baseline_sha256": "4792f9990401fa33d1baef00a380be5442fc6dbd2fb2ea700546783af4b884d7",
+  "export_project": "recovered\\SuiteG6\\Modulo.ConferenciasEstoque\\Modulo.ConferenciasEstoque.csproj",
+  "sources": [
+    {
+      "path": "ConferenciaEstoqueModulo.cs",
+      "export_path": "ConferenciaEstoqueModulo.cs",
+      "raw_sha256": "505d71813ee45d16b29ebcf12bb3bf04d3d4ad2650ca471c2616ecad6c27d959"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "a16e0be620d12f9b3ac22026a0234dcd4c8764e8386a96e3da79e076714ec5f9"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "174b51052e9b256914d23ffb2a86c391866c304a7e7bcdccab1e5fc550a4e45d"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "a9d3e7a5a326a57eef865940214075deff33e7e120a65802a98077b802595e0a"
+    },
+    {
+      "path": "Reports\\ImpressoConferenciaEstoque.cs",
+      "export_path": "Reports\\ImpressoConferenciaEstoque.cs",
+      "raw_sha256": "365a481af69955b052122cb2367c87ec74aa541b8a8b3e338f9698db284d5625"
+    },
+    {
+      "path": "Reports\\ImpressoItensNaoRelacionados.cs",
+      "export_path": "Reports\\ImpressoItensNaoRelacionados.cs",
+      "raw_sha256": "ed631a8e08ad841f2409c105d63a4d6ed07e54737c51d6b86af3a2e653a43830"
+    },
+    {
+      "path": "ViewModels\\AbrirMovimentacaoEvent.cs",
+      "export_path": "ViewModels\\AbrirMovimentacaoEvent.cs",
+      "raw_sha256": "000841c14863b2aa356846b4985c36bb3f111a57a7751f0543315a9052d5e746"
+    },
+    {
+      "path": "ViewModels\\ComboBoxBusca.cs",
+      "export_path": "ViewModels\\ComboBoxBusca.cs",
+      "raw_sha256": "34afa529ac3ef8f52591eeddc87b2dc4a2b873e106785b84e11ba2a7e35d1f91"
+    },
+    {
+      "path": "ViewModels\\ConferenciaEstoqueAbaViewModel.cs",
+      "export_path": "ViewModels\\ConferenciaEstoqueAbaViewModel.cs",
+      "raw_sha256": "bc7b7a2f8a9da54feec097239c02ab84aaffbbc03709eab30aeb9f5451133b63"
+    },
+    {
+      "path": "ViewModels\\ConferenciaEstoqueDiferencaAbaViewModel.cs",
+      "export_path": "ViewModels\\ConferenciaEstoqueDiferencaAbaViewModel.cs",
+      "raw_sha256": "1e4d4df790bc8ebec132616226be0b77e90daebd3b6833d0b949cc6642c80e38"
+    },
+    {
+      "path": "ViewModels\\ConferenciaEstoqueDiferencaViewModel.cs",
+      "export_path": "ViewModels\\ConferenciaEstoqueDiferencaViewModel.cs",
+      "raw_sha256": "7a353523bd1650abb24b92c4c275acf0fa79113a793e6bb6976799e8744c34bd"
+    },
+    {
+      "path": "ViewModels\\ConferenciaEstoqueFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\ConferenciaEstoqueFichaAdicionarViewModel.cs",
+      "raw_sha256": "4d460597f92ec57af50ad6279513ae8c0211d9cd52b365e6a8ff2da118a5df8d"
+    },
+    {
+      "path": "ViewModels\\ConferenciaEstoqueFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ConferenciaEstoqueFichaAtualizarViewModel.cs",
+      "raw_sha256": "fd1a1c279f72317de0c6ecda2f27d36f6951186c4a604a08322f28cd597395db"
+    },
+    {
+      "path": "ViewModels\\ConferenciaEstoqueFormulario.cs",
+      "export_path": "ViewModels\\ConferenciaEstoqueFormulario.cs",
+      "raw_sha256": "2e404eccffe8cd1b1a09a0788fc1e0bcef38024517039e40ee655a9b2daa8c57"
+    },
+    {
+      "path": "ViewModels\\ConferenciaEstoqueListaViewModel.cs",
+      "export_path": "ViewModels\\ConferenciaEstoqueListaViewModel.cs",
+      "raw_sha256": "7112e15345b0f6a2ce84e9733bbb29f6af77be941cd223383de32ac92393ba67"
+    },
+    {
+      "path": "ViewModels\\ConferenciaEstoqueViewModel.cs",
+      "export_path": "ViewModels\\ConferenciaEstoqueViewModel.cs",
+      "raw_sha256": "5179d0f3d4a4fc08677910c5bd274d0694f1fa1d9337010ebba41f0e5a9e7e06"
+    },
+    {
+      "path": "ViewModels\\ConferenciasEstoqueViewModel.cs",
+      "export_path": "ViewModels\\ConferenciasEstoqueViewModel.cs",
+      "raw_sha256": "97e780dfc871d9c3e472c8c1ad0cd77ecef547781b55244fb283e99fe9b5c968"
+    },
+    {
+      "path": "ViewModels\\ItemConferenciaEstoqueViewModel.cs",
+      "export_path": "ViewModels\\ItemConferenciaEstoqueViewModel.cs",
+      "raw_sha256": "fdfa436132818ece899944ad62e6c9be241be859029c0dae7be1175a61b1bdba"
+    },
+    {
+      "path": "Views\\ConferenciaEstoqueFichaAdicionarView.cs",
+      "export_path": "Views\\ConferenciaEstoqueFichaAdicionarView.cs",
+      "raw_sha256": "c182fdd2e09571d290a2a5f08dbbdcdc047f62f129309c89bcd44c37540de6bd"
+    },
+    {
+      "path": "Views\\ConferenciaEstoqueFichaAtualizarView.cs",
+      "export_path": "Views\\ConferenciaEstoqueFichaAtualizarView.cs",
+      "raw_sha256": "2bb3b606c364291d47b47f183e6a0f6bec0882153e7a178007a7b54ef56a4001"
+    },
+    {
+      "path": "Views\\ConferenciaEstoqueFichaViewDetalhes\\ConferenciaEstoqueDiferencaView.cs",
+      "export_path": "Views\\ConferenciaEstoqueFichaViewDetalhes\\ConferenciaEstoqueDiferencaView.cs",
+      "raw_sha256": "b9d773dfc1d16ee276a4dd0ddb4bdab31852fecbe8c524d338591e6d7f41477f"
+    },
+    {
+      "path": "Views\\ConferenciaEstoqueFichaViewDetalhes\\ConferenciaEstoqueView.cs",
+      "export_path": "Views\\ConferenciaEstoqueFichaViewDetalhes\\ConferenciaEstoqueView.cs",
+      "raw_sha256": "a23b5b315f05e083c7e35f2dc9963296667b823d2a664daf08bfe15550dafc9f"
+    },
+    {
+      "path": "Views\\ConferenciaEstoqueListaView.cs",
+      "export_path": "Views\\ConferenciaEstoqueListaView.cs",
+      "raw_sha256": "5e2fad3ac81be1bba40978e95dec8424aa464c1b5bc6422b3683248df2de51f8"
+    },
+    {
+      "path": "Views\\ConferenciasEstoqueView.cs",
+      "export_path": "Views\\ConferenciasEstoqueView.cs",
+      "raw_sha256": "bb461095e79d2c8f60354b3b649c7e17908861d156443fe31aadeaadb3e9b741"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.ConferenciasEstoque.g.resources",
+      "file": "0000.bin",
+      "bytes": 37886,
+      "sha256": "4dab4ecf2aeb31a310fc89cbb749f5a02f1d95dc2908a5728ebbfea70d1555fa"
+    },
+    {
+      "name": "Otus.Modulo.ConferenciasEstoque.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ConferenciasEstoque.Reports.ImpressoItensNaoRelacionados.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ConferenciasEstoque.Reports.ImpressoConferenciaEstoque.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ConferenciasEstoque.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 290,
+      "sha256": "7a2d58ec3f20c02c0d9c9442975360ca1e0e9a95b65c710ba055ce014754ed54"
+    }
+  ],
+  "generated_stubs": false
+}

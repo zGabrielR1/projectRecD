@@ -1,0 +1,159 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Style",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Style.dll",
+  "baseline_sha256": "b5bb322c2faed57bc7918ac4efefcda0aad9ffc8bd55f187ecbf1c84f9e2d7bf",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Style\\DigisatServer.Infrastructure.Crosscutting.Style.csproj",
+  "sources": [
+    {
+      "path": "Behavior\\AcceptKeyBinding.cs",
+      "export_path": "Behavior\\AcceptKeyBinding.cs",
+      "raw_sha256": "c50452b16dd34e7b09008a823115f3cf05e822132dd98d25558c4021a5511fe1"
+    },
+    {
+      "path": "Behavior\\AttachedProperties.cs",
+      "export_path": "Behavior\\AttachedProperties.cs",
+      "raw_sha256": "d4534be49977572ba0bbc3e8098e2a5c0f09c3045183d5b62f91730ca9e42c4a"
+    },
+    {
+      "path": "Behavior\\FocusCorrector.cs",
+      "export_path": "Behavior\\FocusCorrector.cs",
+      "raw_sha256": "8e5da11899288dee854db11423a33c6c11723930aaf99d5760163858500619fd"
+    },
+    {
+      "path": "Behavior\\ListBoxExtenders.cs",
+      "export_path": "Behavior\\ListBoxExtenders.cs",
+      "raw_sha256": "1888392504f6d1ef91aef0c7e0276475c3220d0b131df86c54e323b6b2d54d03"
+    },
+    {
+      "path": "Behavior\\ListViewItemBehavior.cs",
+      "export_path": "Behavior\\ListViewItemBehavior.cs",
+      "raw_sha256": "2f9c9ca133bba79b2ebf942286dc3864da9c85cad9b8b7691555ee7b8e63b8cd"
+    },
+    {
+      "path": "Behavior\\MinimizeBehavior.cs",
+      "export_path": "Behavior\\MinimizeBehavior.cs",
+      "raw_sha256": "6cd54828d6ca4d60704bdccb1c4d2e2924079f6e9875626cda02cff0a13ccc34"
+    },
+    {
+      "path": "Behavior\\PropagateInputBindingsToWindowBehavior.cs",
+      "export_path": "Behavior\\PropagateInputBindingsToWindowBehavior.cs",
+      "raw_sha256": "3cf6f30c3720fd32907f8f5425f628c4fe82bbc1320ec379a3e7c9fac24a0421"
+    },
+    {
+      "path": "Behavior\\ScreenSizeBehavior.cs",
+      "export_path": "Behavior\\ScreenSizeBehavior.cs",
+      "raw_sha256": "9adf362978c352c5d35788df67c093877a4cf37a449e5da27c3c43eae8074750"
+    },
+    {
+      "path": "Behavior\\ScrollableTouchCorrector.cs",
+      "export_path": "Behavior\\ScrollableTouchCorrector.cs",
+      "raw_sha256": "51127d49db12b92e0a054369798fee29176fdaf0179913848b1fd99bf8ba10d3"
+    },
+    {
+      "path": "Behavior\\ScrollToSelectedItemBehavior.cs",
+      "export_path": "Behavior\\ScrollToSelectedItemBehavior.cs",
+      "raw_sha256": "f905970878ad6d91b450bd979f935028d665942634bb54badc2b804fed3b7881"
+    },
+    {
+      "path": "Behavior\\ScrollViewerCorrector.cs",
+      "export_path": "Behavior\\ScrollViewerCorrector.cs",
+      "raw_sha256": "30dce4a301b8de992770d9477efb71980b5a82ee348e27fa02b429ebc6a05e35"
+    },
+    {
+      "path": "Behavior\\SubControlsTouchScrollEvent.cs",
+      "export_path": "Behavior\\SubControlsTouchScrollEvent.cs",
+      "raw_sha256": "cbca3fdde1c888e43585b65eec75bf03154ac5c06f789c7bb5f20c7f391f9447"
+    },
+    {
+      "path": "Buttons\\DelayedCommand.cs",
+      "export_path": "Buttons\\DelayedCommand.cs",
+      "raw_sha256": "199dc249f485672306225d9079771da41f538d274afbaabbc7d563146e6c488b"
+    },
+    {
+      "path": "Colors\\ColorToSolidColorBrushValueConverter.cs",
+      "export_path": "Colors\\ColorToSolidColorBrushValueConverter.cs",
+      "raw_sha256": "b8de6ed4b852d86d83fe7c04ecd722b46797296ad946c23749e114589e9ebe03"
+    },
+    {
+      "path": "GridControls\\BestFitGridBehavior.cs",
+      "export_path": "GridControls\\BestFitGridBehavior.cs",
+      "raw_sha256": "2dc2f6740febd4e0c3c3bcbbbe43c7cfe5be4b62afb080087512583537d22d98"
+    },
+    {
+      "path": "GridControls\\GridControlBestFit.cs",
+      "export_path": "GridControls\\GridControlBestFit.cs",
+      "raw_sha256": "78ea7c33170bb1d3cfb704902102d4d7cf1e58bbca6fcc32be8ff511bb081eb3"
+    },
+    {
+      "path": "GridControls\\GridControlDefault.cs",
+      "export_path": "GridControls\\GridControlDefault.cs",
+      "raw_sha256": "511d98dd5348a3d65deffe65c590d312fdb15b1a489194dd51e43e539097863b"
+    },
+    {
+      "path": "GridControls\\GridControlPaginado.cs",
+      "export_path": "GridControls\\GridControlPaginado.cs",
+      "raw_sha256": "32df01222f3c3a3c2d956d7d7df885216b50ced8daa917bf3610919cc92df7f8"
+    },
+    {
+      "path": "GridControls\\GridControlPaginadoBestFit.cs",
+      "export_path": "GridControls\\GridControlPaginadoBestFit.cs",
+      "raw_sha256": "8d366fa40e7c3cc70ebc7cd18c3d5aeea64eb2a44f3ace57e70114ac688d81c3"
+    },
+    {
+      "path": "GridControls\\IGridControlPesquisa.cs",
+      "export_path": "GridControls\\IGridControlPesquisa.cs",
+      "raw_sha256": "fbdd14e087e4c73671c966e1bf69c18fde23526936b75f5f91dd5a6ae2fc893b"
+    },
+    {
+      "path": "GridControls\\PreviewKeyCommandBehavior.cs",
+      "export_path": "GridControls\\PreviewKeyCommandBehavior.cs",
+      "raw_sha256": "faeb30e809f6abea9da99791c0584250a3c8ebac42918a349b87bd3241a53a3a"
+    },
+    {
+      "path": "Grids\\OpacidadeCorConverter.cs",
+      "export_path": "Grids\\OpacidadeCorConverter.cs",
+      "raw_sha256": "4465fce32fc54af2214b5420e921304f02f87d6a53104ef76aa49ebc0c10f919"
+    },
+    {
+      "path": "Grids\\OpacidadeCorConverter2.cs",
+      "export_path": "Grids\\OpacidadeCorConverter2.cs",
+      "raw_sha256": "0c2ce0cc6fc989b0f339dd971416e5463d5d96d5e663ebe25390cbc6b8dcbb62"
+    },
+    {
+      "path": "Grids\\OpacidadeCorConverter6.cs",
+      "export_path": "Grids\\OpacidadeCorConverter6.cs",
+      "raw_sha256": "75a4b0df0b2304cc10f04b68ecdf097598a9a1f1ace250d873c6c46ed9be0670"
+    },
+    {
+      "path": "Grids\\OpacidadeCorConverter8.cs",
+      "export_path": "Grids\\OpacidadeCorConverter8.cs",
+      "raw_sha256": "9d1221b36a292e78c580f992867f216a84408b203b719d9703f700755401ebdf"
+    },
+    {
+      "path": "ListViews\\ListViewFocusable.cs",
+      "export_path": "ListViews\\ListViewFocusable.cs",
+      "raw_sha256": "0f9d789c14f5b9fcdb2a7a0d2759317868e1f9ac5b77bd8f52e6179abd9f65ae"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "008158212bff701158c1a1d961247da95718c11758a2a719f11cf8bfcdf40909"
+    },
+    {
+      "path": "TextEdits\\TextBoxFocusSelectionBehavior.cs",
+      "export_path": "TextEdits\\TextBoxFocusSelectionBehavior.cs",
+      "raw_sha256": "f09a7a7163cdb044dfd65fc0746636341cb6972aab4880a3e2bbbeb2819da3bf"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Style.g.resources",
+      "file": "0000.bin",
+      "bytes": 582368,
+      "sha256": "f5ab2f634f37c7d0576ba4d328693e807f73e4b9de407c1de98ccce7bf16a408"
+    }
+  ],
+  "generated_stubs": false
+}

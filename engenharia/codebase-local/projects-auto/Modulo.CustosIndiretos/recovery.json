@@ -1,0 +1,155 @@
+{
+  "name": "Modulo.CustosIndiretos",
+  "baseline": "baseline\\Modulo.CustosIndiretos.dll",
+  "baseline_sha256": "de5cb4e710b8827f63fc49ef7797a09bb6a5eec109d4457aef177420681dd832",
+  "export_project": "recovered\\SuiteG6\\Modulo.CustosIndiretos\\Modulo.CustosIndiretos.csproj",
+  "sources": [
+    {
+      "path": "CustoIndiretoModulo.cs",
+      "export_path": "CustoIndiretoModulo.cs",
+      "raw_sha256": "44124e5d152c8d69905ba86bc118b6de7e4dc5cdff6d5220a7787a0d6b2f58c2"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "863b3f36a39a3ba511ecf5a43fc75d9d8e6ff864358e7f5cc1022ed0a9f4c694"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "c91cb1e271bf9e1b532b6abb1d616a46010a0dd908c4567bf003a74ec8041805"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "4bbad53ec3be5623eeb7d90417231c4a79bde70eeac5205d8ed34793cda1cbd4"
+    },
+    {
+      "path": "ViewModels\\CustoIndiretoAbaViewModel.cs",
+      "export_path": "ViewModels\\CustoIndiretoAbaViewModel.cs",
+      "raw_sha256": "64f50758e9689ca67aa49310797cf3aaf72e5bd04bbda38f0096df1e83467a16"
+    },
+    {
+      "path": "ViewModels\\CustoIndiretoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\CustoIndiretoFichaAdicionarViewModel.cs",
+      "raw_sha256": "c7aec88c1487046435c477fa558a050b7eb9003a950540dad4cf4f031df94a58"
+    },
+    {
+      "path": "ViewModels\\CustoIndiretoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\CustoIndiretoFichaAtualizarViewModel.cs",
+      "raw_sha256": "8c9c2ff19c37671604e29ee55f5e0e49da3b5dd4064bf181f0493c44701c22ca"
+    },
+    {
+      "path": "ViewModels\\CustoIndiretoFormulario.cs",
+      "export_path": "ViewModels\\CustoIndiretoFormulario.cs",
+      "raw_sha256": "7416a14829a8bdf0186fa205fe1ec1ea9c337a394ff315a830a2c72ccea5eb04"
+    },
+    {
+      "path": "ViewModels\\CustoIndiretoListaViewModel.cs",
+      "export_path": "ViewModels\\CustoIndiretoListaViewModel.cs",
+      "raw_sha256": "8ff15b66ebe91dd6b3d1290544b3d82af02e9c9ee7966a123c583532dc4f67a0"
+    },
+    {
+      "path": "ViewModels\\CustoIndiretoViewModel.cs",
+      "export_path": "ViewModels\\CustoIndiretoViewModel.cs",
+      "raw_sha256": "ae62be379a5157880ed8ee4321bfbba6bcce2b2f26808fdc05ac65afc5ee355e"
+    },
+    {
+      "path": "ViewModels\\CustosIndiretosViewModel.cs",
+      "export_path": "ViewModels\\CustosIndiretosViewModel.cs",
+      "raw_sha256": "2a5c518a6e269d1c62a288cedfdfcd659b00e59a0a5ebf670a16cecf63091870"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoIndiretoAbaViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoIndiretoAbaViewModel.cs",
+      "raw_sha256": "25785becaccc23d87a18af3df7c10302d7ba764febda8035cae9fc65976f63d9"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoIndiretoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoIndiretoFichaAdicionarViewModel.cs",
+      "raw_sha256": "9a6a4c31fd0453edc118f2df5944d176f170d92597614825c2687065193ace41"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoIndiretoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoIndiretoFichaAtualizarViewModel.cs",
+      "raw_sha256": "5b7309c38e2e321cace20603b9e064b1d3d718b3a3228e620a17d81a8971147a"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoIndiretoFormulario.cs",
+      "export_path": "ViewModels\\IncidenciaCustoIndiretoFormulario.cs",
+      "raw_sha256": "b1c7595011a8e74adb6ff0e4a764592719c38900f92dc12581b7f7c9baa7f456"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoIndiretoListaViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoIndiretoListaViewModel.cs",
+      "raw_sha256": "63325b35c57054beae6f4d5c5fa6f6300e7a3c41bb4eaafce4219c6207336267"
+    },
+    {
+      "path": "ViewModels\\IncidenciaCustoIndiretoViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaCustoIndiretoViewModel.cs",
+      "raw_sha256": "c9ca75717129b97564f7cec0d051e5e7d4cc257add94ae8c3a794c8806ffcffb"
+    },
+    {
+      "path": "Views\\CustoIndiretoFichaAdicionarView.cs",
+      "export_path": "Views\\CustoIndiretoFichaAdicionarView.cs",
+      "raw_sha256": "8bfba6d9052da3fee9bf680f2b1c1ec153b50a21eea73b804faa2f2f5428160a"
+    },
+    {
+      "path": "Views\\CustoIndiretoFichaAtualizarView.cs",
+      "export_path": "Views\\CustoIndiretoFichaAtualizarView.cs",
+      "raw_sha256": "7c617428410939b73e32db0130f90ffa4d730e514f9e51ad785bb57b5341e59a"
+    },
+    {
+      "path": "Views\\CustoIndiretoListaView.cs",
+      "export_path": "Views\\CustoIndiretoListaView.cs",
+      "raw_sha256": "0f9e5eb258258104093ec474943a8fde9cd440cd51e76170b1cabb92d19ce661"
+    },
+    {
+      "path": "Views\\CustosIndiretosView.cs",
+      "export_path": "Views\\CustosIndiretosView.cs",
+      "raw_sha256": "2e6e347140d6a5dfa2c65fd9046c8fd0ea81a23b1ab0a44fe9db183eb7c3a4b4"
+    },
+    {
+      "path": "Views\\FichaViewDetalhes\\CustoIndiretoView.cs",
+      "export_path": "Views\\FichaViewDetalhes\\CustoIndiretoView.cs",
+      "raw_sha256": "5237931ade87d52888ade94da38f1354235a99e92ab203001e0fe25eee607e6e"
+    },
+    {
+      "path": "Views\\FichaViewDetalhes\\IncidenciaCustoIndiretoView.cs",
+      "export_path": "Views\\FichaViewDetalhes\\IncidenciaCustoIndiretoView.cs",
+      "raw_sha256": "405c81e812e5b818334d2b32ddce1870690e076c566683cdce7a9906be3fc537"
+    },
+    {
+      "path": "Views\\IncidenciaCustoIndiretoFichaAdicionarView.cs",
+      "export_path": "Views\\IncidenciaCustoIndiretoFichaAdicionarView.cs",
+      "raw_sha256": "f4efdec1286b52f38ab4c0617b3722c3f80d3da85f26acbab2ef90a5b43155bc"
+    },
+    {
+      "path": "Views\\IncidenciaCustoIndiretoFichaAtualizarView.cs",
+      "export_path": "Views\\IncidenciaCustoIndiretoFichaAtualizarView.cs",
+      "raw_sha256": "1c96fa8cdc5d1df79d41bc555e7b14ffc736a61a92aef5e5c92d3bd86593bea6"
+    },
+    {
+      "path": "Views\\IncidenciaCustoIndiretoListaView.cs",
+      "export_path": "Views\\IncidenciaCustoIndiretoListaView.cs",
+      "raw_sha256": "d6f8fe0d21da55fa061b3110af2947869ed54291799d4f09006d8707bab209fb"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.CustosIndiretos.g.resources",
+      "file": "0000.bin",
+      "bytes": 27287,
+      "sha256": "e768dc5cab190d5e793ad58362b51a837db2e77a39deb87a6ba122da8a66c0ce"
+    },
+    {
+      "name": "Otus.Modulo.CustosIndiretos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

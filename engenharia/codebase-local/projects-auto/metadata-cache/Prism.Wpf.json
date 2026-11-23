@@ -1,0 +1,16 @@
+{
+  "assembly": "Prism.Wpf, Version=6.3.0.0, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59",
+  "references": [
+    "mscorlib",
+    "System.Xaml",
+    "Microsoft.Practices.ServiceLocation",
+    "Prism",
+    "WindowsBase",
+    "PresentationFramework",
+    "System",
+    "PresentationCore",
+    "System.Core",
+    "System.Configuration",
+    "System.Windows.Interactivity"
+  ]
+}

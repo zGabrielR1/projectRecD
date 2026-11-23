@@ -1,0 +1,135 @@
+{
+  "name": "Modulo.EncargosSocial",
+  "baseline": "baseline\\Modulo.EncargosSocial.dll",
+  "baseline_sha256": "ad0bc2164b19d36e9e0dad1e53c41f2c78cab908a861497614d30ba63d89416c",
+  "export_project": "recovered\\SuiteG6\\Modulo.EncargosSocial\\Modulo.EncargosSocial.csproj",
+  "sources": [
+    {
+      "path": "EncargoSocialModulo.cs",
+      "export_path": "EncargoSocialModulo.cs",
+      "raw_sha256": "a3c5a8ba3cfae4b214c098d4a2c13c2958e124c1f33ccf705b238041c6e958cd"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "82062314e175c781d92479c6ba022cb9131840529ecc173138d8bcbd841a5e6f"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "014bd4300ab1038649c433d4fef236dd5e503b1ec0e38a0ca5416683ebaa3517"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "be9cee197c1fb3ed5f81720501209a32c5da97d9b49a1d21aa6946f66c63344d"
+    },
+    {
+      "path": "ViewModels\\EncargoSocialAbaViewModel.cs",
+      "export_path": "ViewModels\\EncargoSocialAbaViewModel.cs",
+      "raw_sha256": "b90587b41397d35503a4a35651777f1505b25c657a1daa7c05cbcf500e1db60a"
+    },
+    {
+      "path": "ViewModels\\EncargoSocialFichaViewModel.cs",
+      "export_path": "ViewModels\\EncargoSocialFichaViewModel.cs",
+      "raw_sha256": "97174fc68d489199eb11fad0e009faf058ebf498d9138dcca7454c646fc63529"
+    },
+    {
+      "path": "ViewModels\\EncargoSocialFormulario.cs",
+      "export_path": "ViewModels\\EncargoSocialFormulario.cs",
+      "raw_sha256": "16c7b04fefe35258e141d220446a9927316fb3315cb8a0da338fac77aa467338"
+    },
+    {
+      "path": "ViewModels\\EncargoSocialViewModel.cs",
+      "export_path": "ViewModels\\EncargoSocialViewModel.cs",
+      "raw_sha256": "dcfe5d69a87a70b5985211e71846d36318b1354bbe82279a5ce88507ced649b4"
+    },
+    {
+      "path": "ViewModels\\EncargosSocialViewModel.cs",
+      "export_path": "ViewModels\\EncargosSocialViewModel.cs",
+      "raw_sha256": "08051681a57771ff3da30850879006f35a4363e75ce1bf1746d7e846eabbe842"
+    },
+    {
+      "path": "ViewModels\\IncidenciaEncargoSocialAbaViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaEncargoSocialAbaViewModel.cs",
+      "raw_sha256": "b0c0d0aa8cacf612ec48ced7579925acf16f0b931217595e5e66a63f5444ac7e"
+    },
+    {
+      "path": "ViewModels\\IncidenciaEncargoSocialFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaEncargoSocialFichaAdicionarViewModel.cs",
+      "raw_sha256": "624398c1a834aa3f419a6c1636896a34bc48b47b437fef98a4534189443047c0"
+    },
+    {
+      "path": "ViewModels\\IncidenciaEncargoSocialFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaEncargoSocialFichaAtualizarViewModel.cs",
+      "raw_sha256": "a388d8878a5c9bead3e3e9d9bce1e04888d845bdb6433f5fee2811b33f3ed3df"
+    },
+    {
+      "path": "ViewModels\\IncidenciaEncargoSocialFormulario.cs",
+      "export_path": "ViewModels\\IncidenciaEncargoSocialFormulario.cs",
+      "raw_sha256": "36835ed718ebc31c09bd84d0a09e816557fcf1e52a8ada26c663b7ac7b96860a"
+    },
+    {
+      "path": "ViewModels\\IncidenciaEncargoSocialListaViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaEncargoSocialListaViewModel.cs",
+      "raw_sha256": "e077101f13d3c6caeefceb2b158f407c24bb23f56fd5d05518a52eea144f45b2"
+    },
+    {
+      "path": "ViewModels\\IncidenciaEncargoSocialViewModel.cs",
+      "export_path": "ViewModels\\IncidenciaEncargoSocialViewModel.cs",
+      "raw_sha256": "0e539e0df21c1bf8e17efc01bafdffbbf22c358662d2bf63230641941e81a353"
+    },
+    {
+      "path": "Views\\EncargoSocialFichaView.cs",
+      "export_path": "Views\\EncargoSocialFichaView.cs",
+      "raw_sha256": "800dc2f5dbb120e0d668232db7c880cc68843c318b4a25430b0a05a3bb9e945b"
+    },
+    {
+      "path": "Views\\EncargosSocialView.cs",
+      "export_path": "Views\\EncargosSocialView.cs",
+      "raw_sha256": "a9540049546cd26e5941d7b0762eddba720ea4924371d2e903c9e7e10c3b8b36"
+    },
+    {
+      "path": "Views\\FichaViewDetalhes\\EncargoSocialView.cs",
+      "export_path": "Views\\FichaViewDetalhes\\EncargoSocialView.cs",
+      "raw_sha256": "502f73241d4f2b08325c2ff4899bdb8cb1fe416d9d37fbc89095b36c078e44a9"
+    },
+    {
+      "path": "Views\\FichaViewDetalhes\\IncidenciaEncargoSocialView.cs",
+      "export_path": "Views\\FichaViewDetalhes\\IncidenciaEncargoSocialView.cs",
+      "raw_sha256": "852931812b4b85998a11916f6a143593b8d6f1a869ebd9d8d91e6154e0097af2"
+    },
+    {
+      "path": "Views\\IncidenciaEncargoSocialFichaAdicionarView.cs",
+      "export_path": "Views\\IncidenciaEncargoSocialFichaAdicionarView.cs",
+      "raw_sha256": "00cac0d8898a30c2f75cdd85494c7db460a44ddc73aafb9f1da45bf019f60921"
+    },
+    {
+      "path": "Views\\IncidenciaEncargoSocialFichaAtualizarView.cs",
+      "export_path": "Views\\IncidenciaEncargoSocialFichaAtualizarView.cs",
+      "raw_sha256": "18a67708a6967085ba0d3350af7e8193780c0d6365b6992656162968becf7dba"
+    },
+    {
+      "path": "Views\\IncidenciaEncargoSocialListaView.cs",
+      "export_path": "Views\\IncidenciaEncargoSocialListaView.cs",
+      "raw_sha256": "e7aa276a1e7d1e4f8f528ca434eeb166475f6b4dbb45e0ed91646688c5c9cd0a"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.EncargosSocial.g.resources",
+      "file": "0000.bin",
+      "bytes": 21832,
+      "sha256": "555e6e1cb9f6fddb26b5768f0b7146f8cde426caf013535ad780e480dfddb6fe"
+    },
+    {
+      "name": "Otus.Modulo.EncargosSocial.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

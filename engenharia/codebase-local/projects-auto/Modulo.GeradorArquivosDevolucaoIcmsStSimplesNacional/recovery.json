@@ -1,0 +1,110 @@
+{
+  "name": "Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional",
+  "baseline": "baseline\\Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional.dll",
+  "baseline_sha256": "46abdecc4981ff8bda8e44d3e28b05d1cc11e8553b321685c5fdf6172284dcfa",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional\\Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional.csproj",
+  "sources": [
+    {
+      "path": "GeradorArquivoDevolucaoIcmsStSimplesNacionalModulo.cs",
+      "export_path": "GeradorArquivoDevolucaoIcmsStSimplesNacionalModulo.cs",
+      "raw_sha256": "e0e621df39a483e3ffd286ca4f63a8a0ce8d13c94be3fc7d4ef904910e06f345"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "d40561f6384aff2f327cb61afc16818f2d86a300fa182747ca81780c82845a54"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "01a51777fbb8fa2e3e7694fe7bc47e0fe22625d9e31ee318ea010a96603a2577"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "31c3abe865d8f60580024b261e2dbd79559b643a66842e3038dc81a2f1d11da9"
+    },
+    {
+      "path": "Services\\ArquivoDevolucaoIcmsStSimplesNacionalService.cs",
+      "export_path": "Services\\ArquivoDevolucaoIcmsStSimplesNacionalService.cs",
+      "raw_sha256": "7b732498e6d2a21ebc07f555e042bc31385537c07be66ea0a5cfd7e2fa88dc3c"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoDevolucaoIcmsStSimplesNacionalFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoDevolucaoIcmsStSimplesNacionalFichaViewModel.cs",
+      "raw_sha256": "4ef2c0edf63990abcaf7cf59fec13186d086eeb5299dd95e6bfe3727dc1dc12d"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoDevolucaoIcmsStSimplesNacionalFormulario.cs",
+      "export_path": "ViewModels\\GeradorArquivoDevolucaoIcmsStSimplesNacionalFormulario.cs",
+      "raw_sha256": "29187bb014fc614e79aea60d2ee05451efdf9bcb4448e64532e05a21532c7f7d"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosDevolucaoIcmsStSimplesNacionalViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosDevolucaoIcmsStSimplesNacionalViewModel.cs",
+      "raw_sha256": "c81330eaaae7bd2c2ff020eeae127c870fe42807e2fca5019ca88bfec85564d4"
+    },
+    {
+      "path": "ViewModels\\InformacaoGeradorDevolucaoIcmsStSimplesNacionalAbaViewModel.cs",
+      "export_path": "ViewModels\\InformacaoGeradorDevolucaoIcmsStSimplesNacionalAbaViewModel.cs",
+      "raw_sha256": "626b247bc5501b8bc1eb1b5cb78c7bf4c8df60dd5a1cd2db16c63738480b5cd5"
+    },
+    {
+      "path": "ViewModels\\InformacaoGeradorDevolucaoIcmsStSimplesNacionalViewModel.cs",
+      "export_path": "ViewModels\\InformacaoGeradorDevolucaoIcmsStSimplesNacionalViewModel.cs",
+      "raw_sha256": "d1f8dad587c232be27a06e2c49031f935fd3feb8253bee993c2c47803cd5e0a4"
+    },
+    {
+      "path": "ViewModels\\ItensGeradorDevolucaoIcmsStSimplesNacionalAbaViewModel.cs",
+      "export_path": "ViewModels\\ItensGeradorDevolucaoIcmsStSimplesNacionalAbaViewModel.cs",
+      "raw_sha256": "6b9a9ad5aef3fd720d75a177b45d4079a41e1c26573acf312475948905e1a11d"
+    },
+    {
+      "path": "ViewModels\\ItensGeradorDevolucaoIcmsStSimplesNacionalViewModel.cs",
+      "export_path": "ViewModels\\ItensGeradorDevolucaoIcmsStSimplesNacionalViewModel.cs",
+      "raw_sha256": "7546e445c0549f868d278b7fcec402d61af7b7a1b6583859435e09e4d15f88ff"
+    },
+    {
+      "path": "ViewModels\\NcmSelecionadaViewModel.cs",
+      "export_path": "ViewModels\\NcmSelecionadaViewModel.cs",
+      "raw_sha256": "9763f95a622aa75ba8ae43bbe6a180426d3a2c9285a43c5b83053cc4ab7ea91b"
+    },
+    {
+      "path": "Views\\GeradorArquivoDevolucaoIcmsStSimplesNacionalFichaView.cs",
+      "export_path": "Views\\GeradorArquivoDevolucaoIcmsStSimplesNacionalFichaView.cs",
+      "raw_sha256": "64544bd44215bef62cd513ee38acc54f9a4230e8d0c81f2fa30c54f116c99ff6"
+    },
+    {
+      "path": "_long\\a8111a1fa9ad1c71.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\InformacaoGeradorDevolucaoIcmsStSimplesNacionalView.cs",
+      "raw_sha256": "00e74d97d41687b49ae9dfa89427a2e9718bba005929c06818b896542b75c94b"
+    },
+    {
+      "path": "_long\\7ec9fdf766314cd5.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\ItensGeradorDevolucaoIcmsStSimplesNacionalView.cs",
+      "raw_sha256": "a4b5e318c004e99baca690854421895238a70c92bfaf7110de4c4567e8123b7f"
+    },
+    {
+      "path": "Views\\GeradorArquivosDevolucaoIcmsStSimplesNacionalView.cs",
+      "export_path": "Views\\GeradorArquivosDevolucaoIcmsStSimplesNacionalView.cs",
+      "raw_sha256": "22e56c2d4e53634aaafdda888007e19d5166921e4c1090de54912a23d0ec69ca"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional.g.resources",
+      "file": "0000.bin",
+      "bytes": 17436,
+      "sha256": "10d2954c8db9bacc43956104b337020150b3da1884dee6b3ad3e554a839c9ee6"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

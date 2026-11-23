@@ -1,0 +1,138 @@
+{
+  "name": "Modulo.Cheques",
+  "baseline": "baseline\\Modulo.Cheques.dll",
+  "baseline_sha256": "15a5b4c91103153c2128a70aec5dcd5d330f20b93f36d9573d22d766fa56e62f",
+  "export_project": "recovered\\SuiteG6\\Modulo.Cheques\\Modulo.Cheques.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "ba58f5c1dcc5d99399c7325973da16318c467c3ad20359d143e587dfc78b20f5"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "15a5b4c91103153c2128a70aec5dcd5d330f20b93f36d9573d22d766fa56e62f"
+    },
+    {
+      "kind": "Qualify session company/API order model or rename illegal generated base-call helper identifier",
+      "alias": "using Pessoa = Otus.Infraestrutura.Models.Sessoes.Pessoa;\n"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 25
+    },
+    {
+      "kind": "Match dialog out parameter metadata, lower enum offset switch to int, qualify permission and search command types"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Cheques.g.resources",
+      "file": "0000.bin",
+      "bytes": 21485,
+      "sha256": "e626e02871300df938ac94112812a2e8bbdecaf5fb03c16d20d66425dcb92c36"
+    },
+    {
+      "name": "Otus.Modulo.Cheques.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "ChequeModulo.cs",
+      "export_path": "ChequeModulo.cs",
+      "raw_sha256": "14227f3dc61880550b4a69fca0dfeab55e3e99517cb3e2bf1d76db484d57b2b4"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "264bfe268ace86a95d9c040c28424c6b61143f25f4bb20a9ab9ea70fab6d6d57"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a340a169ad796dff9ace4d13f5eb32337cb3f22cc0daf2b3fa93ffa001c01a36"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "ab5e316b397ec050e6c0e2ec1c7f8ea2b5f3c1b52f182d682d8ae3ae4c197d2b"
+    },
+    {
+      "path": "ViewModels\\ChequeAbaViewModel.cs",
+      "export_path": "ViewModels\\ChequeAbaViewModel.cs",
+      "raw_sha256": "ed0afe396fccf986825437c699d530714d7bad079c993d16e4118edb7f10796b"
+    },
+    {
+      "path": "ViewModels\\ChequeFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\ChequeFichaAdicionarViewModel.cs",
+      "raw_sha256": "4f77adc3a1954826bc3735e7dd79240adbdcf2b012661ade783e7f6d29af5668"
+    },
+    {
+      "path": "ViewModels\\ChequeFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ChequeFichaAtualizarViewModel.cs",
+      "raw_sha256": "340af229970cd9189060ab01cb8c0d595d8ee4c40cbbd28e8403226c69d5700d"
+    },
+    {
+      "path": "ViewModels\\ChequeFormulario.cs",
+      "export_path": "ViewModels\\ChequeFormulario.cs",
+      "raw_sha256": "d87f73483702c3d885743a172223b792e51ce975b06c64e522b9ae8cc7fbb69b"
+    },
+    {
+      "path": "ViewModels\\ChequeListaViewModel.cs",
+      "export_path": "ViewModels\\ChequeListaViewModel.cs",
+      "raw_sha256": "a94c469c0699a8250cb5025a1a12f6493c1f646e065adbafddad02813f8698d5"
+    },
+    {
+      "path": "ViewModels\\ChequeParcelasAbaViewModel.cs",
+      "export_path": "ViewModels\\ChequeParcelasAbaViewModel.cs",
+      "raw_sha256": "d8193c60e62789e6e6ad1c7accef4e9cb80e89c4b34ffbd327229769fc769f79"
+    },
+    {
+      "path": "ViewModels\\ChequeParcelasViewModel.cs",
+      "export_path": "ViewModels\\ChequeParcelasViewModel.cs",
+      "raw_sha256": "6722ce7c343fdc8735e65d65fe64022019a9854a720f47b81733df0145e4de3e"
+    },
+    {
+      "path": "ViewModels\\ChequesViewModel.cs",
+      "export_path": "ViewModels\\ChequesViewModel.cs",
+      "raw_sha256": "01360a9742b0ed6a1e0aa6809157e598482bea733041d7e6f7f8f49a007b5d4d"
+    },
+    {
+      "path": "ViewModels\\ChequeViewModel.cs",
+      "export_path": "ViewModels\\ChequeViewModel.cs",
+      "raw_sha256": "b1aa3283e096ecb008432e2ab870dfef86a71163e9a78ff6cbb919d94126f43a"
+    },
+    {
+      "path": "ViewModels\\TipoCheque.cs",
+      "export_path": "ViewModels\\TipoCheque.cs",
+      "raw_sha256": "59c41e6d1022c4a9d6e41d000af6473dbf4c4a4e1a3c3d2a7397fbd21b27983d"
+    },
+    {
+      "path": "Views\\ChequeFichaAdicionarView.cs",
+      "export_path": "Views\\ChequeFichaAdicionarView.cs",
+      "raw_sha256": "e336bc2f1a32dc52800f1d82859eb5f08b624c8a4fa8f357c7d2ec6917a82985"
+    },
+    {
+      "path": "Views\\ChequeFichaAtualizarView.cs",
+      "export_path": "Views\\ChequeFichaAtualizarView.cs",
+      "raw_sha256": "e64515bb00122bc0b47b7fe0e08e3a471651405ec38453dbbc932e076fe1de2b"
+    },
+    {
+      "path": "Views\\ChequeListaView.cs",
+      "export_path": "Views\\ChequeListaView.cs",
+      "raw_sha256": "b9d762f18367249f89ff0296cc407d145050c5753ae8fec49087a114b0f8334a"
+    },
+    {
+      "path": "Views\\ChequesView.cs",
+      "export_path": "Views\\ChequesView.cs",
+      "raw_sha256": "d63d0e96b0ec7d9e279d7f161c9bd4a8a323c9c42b3df1e5f373abd5d1ef4de4"
+    }
+  ]
+}

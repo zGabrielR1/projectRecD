@@ -1,0 +1,8 @@
+{
+  "assembly": "Topshelf.NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b",
+  "references": [
+    "mscorlib",
+    "Topshelf",
+    "NLog"
+  ]
+}

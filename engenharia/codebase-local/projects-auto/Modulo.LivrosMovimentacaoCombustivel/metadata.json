@@ -1,0 +1,67 @@
+{
+  "artifactSha256": "069efd99ca26ebac14dd6ad2fe34c022d7dd06078eef6e48bc3c2912bcda155b",
+  "mvid": "94b9da75-ae41-41b8-b071-d7eea35a86e3",
+  "assembly": "Modulo.LivrosMovimentacaoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System",
+    "System.Xaml",
+    "Infraestrutura",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "DevExpress.XtraReports.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "System.Windows.Forms",
+    "DevExpress.Printing.v15.2.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.LivrosMovimentacaoCombustivel.g.resources",
+      "file": "0000.bin",
+      "bytes": 31428,
+      "sha256": "2261d0997e790e3ced897855fd0080748c6e330f39a788556018da4044da64b6"
+    },
+    {
+      "name": "Otus.Modulo.LivrosMovimentacaoCombustivel.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.LivrosMovimentacaoCombustivel.Reports.RelatorioFolhaLmc.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.LivrosMovimentacaoCombustivel.Reports.RelatorioTermoAberturaLmc.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.LivrosMovimentacaoCombustivel.Reports.RelatorioTermoFechamentoLmc.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.LivrosMovimentacaoCombustivel.dll.licenses",
+      "file": "0005.bin",
+      "bytes": 300,
+      "sha256": "94beb3fc3b5aad2c4c81c638499d87fb02166e53f25d11ec84157909455dea34"
+    }
+  ]
+}

@@ -1,0 +1,1230 @@
+{
+  "name": "Modulo.Etiquetas",
+  "baseline": "baseline\\Modulo.Etiquetas.dll",
+  "baseline_sha256": "e718ba1856a0dcd8726604ca21b0d4c9c848bb74ed09bdf59873c6c545342974",
+  "export_project": "recovered\\SuiteG6\\Modulo.Etiquetas\\Modulo.Etiquetas.csproj",
+  "sources": [
+    {
+      "path": "EtiquetaModulo.cs",
+      "export_path": "EtiquetaModulo.cs",
+      "raw_sha256": "486a18fd52cd286e367f8fe3850c8803da998162d6c107508f5e541418f6dcc0"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "4657d5712bcf089d99db82bba623c17bb70553587787c5757ce5c9605c1798d8"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "7166cdb5d62e1b8d2733c3ed728dca875489b7bd2cfa2f2eca580ae474411d2a"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "5a20b20b2437720705ed8554ccf93b2b523270704ba60a3495865f9ca7f8fa48"
+    },
+    {
+      "path": "ViewModels\\CampoAbaViewModel.cs",
+      "export_path": "ViewModels\\CampoAbaViewModel.cs",
+      "raw_sha256": "665a346f53e305bc38642461afb29807a8ebaca349b12869141db2a0ec7f57bc"
+    },
+    {
+      "path": "ViewModels\\CampoEtiquetaViewModel.cs",
+      "export_path": "ViewModels\\CampoEtiquetaViewModel.cs",
+      "raw_sha256": "1647bbd1d2e0dc8ed82d9ee9030861a8959946208e068ad4e5fc86248ba41132"
+    },
+    {
+      "path": "ViewModels\\CampoFichaManutencaoDetalheViewModel.cs",
+      "export_path": "ViewModels\\CampoFichaManutencaoDetalheViewModel.cs",
+      "raw_sha256": "decc420e1182775b3486b59cdc6e8d7d73aeb6efcc64157b7a15165aca7365ad"
+    },
+    {
+      "path": "ViewModels\\CampoListaManutencaoDetalheViewModel.cs",
+      "export_path": "ViewModels\\CampoListaManutencaoDetalheViewModel.cs",
+      "raw_sha256": "8df074cdab4fb9129525c957a947d4f75a8003f71fd420e882412539bf2c2739"
+    },
+    {
+      "path": "ViewModels\\CamposComboBoxViewModel.cs",
+      "export_path": "ViewModels\\CamposComboBoxViewModel.cs",
+      "raw_sha256": "d727253c8b371a6817099106fc7632d6945e26335be191dd505b1efeeda1176b"
+    },
+    {
+      "path": "ViewModels\\CampoViewModel.cs",
+      "export_path": "ViewModels\\CampoViewModel.cs",
+      "raw_sha256": "997fb3ffb7172fea3675828fe41bad50b31047f26dd16b1ba7ad7dca1c0a45a3"
+    },
+    {
+      "path": "ViewModels\\EtiquetaAbaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetaAbaViewModel.cs",
+      "raw_sha256": "3e5cffcd5a729ced11552b364a518d4ad7eb2cebc617811ecb15976eb83f80a9"
+    },
+    {
+      "path": "ViewModels\\EtiquetaConfiguracaoAbaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetaConfiguracaoAbaViewModel.cs",
+      "raw_sha256": "2a070ede97af7724c848b1493f5294f65886b3e6a3aa947c96bec9087e22857c"
+    },
+    {
+      "path": "ViewModels\\EtiquetaConfiguracaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\EtiquetaConfiguracaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "b1da805e20b243142696a8f0deb89235d503d1869024f5535e0220ffa47dc0f8"
+    },
+    {
+      "path": "ViewModels\\EtiquetaConfiguracaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\EtiquetaConfiguracaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "a0b273a7cbc15408b19982a4b115cc7b37abafb8312c4dfe4eed1df5c9462c8a"
+    },
+    {
+      "path": "ViewModels\\EtiquetaConfiguracaoFormulario.cs",
+      "export_path": "ViewModels\\EtiquetaConfiguracaoFormulario.cs",
+      "raw_sha256": "c6c7efbb2858a43aa1dd8331edb97bbc7699dd873530468ade7e075b09dfe5dd"
+    },
+    {
+      "path": "ViewModels\\EtiquetaConfiguracaoListaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetaConfiguracaoListaViewModel.cs",
+      "raw_sha256": "ea1322d035fb27cd167d36d79f5f17aaa97bae7bfdbecc7c6e6e51914b00bbe6"
+    },
+    {
+      "path": "ViewModels\\EtiquetaConfiguracaoViewModel.cs",
+      "export_path": "ViewModels\\EtiquetaConfiguracaoViewModel.cs",
+      "raw_sha256": "3ce62331545d69bfb6d757a6ba30e4fb0dce7364ee5c7fda93a55d720c1ac020"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\BuscaFiltroLancamentoItemRapidoAbaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\BuscaFiltroLancamentoItemRapidoAbaViewModel.cs",
+      "raw_sha256": "2c2ce66d3f3eb4c333fbd083fb49a2214e7506211fb7445fe7ff243a8faf5ad4"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\EtiquetaConfiguracaoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\EtiquetaConfiguracaoComboBoxViewModel.cs",
+      "raw_sha256": "2784a06ffd75a5fef2f03e9b76a0e608ef3cc760d9787b85762565da906cb9c2"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoAbaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoAbaViewModel.cs",
+      "raw_sha256": "8fe01a61abe796c55219eb6af1003ccea139bfdb4fae1096a49e77fbef5cf981"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoConfiguracaoAbaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoConfiguracaoAbaViewModel.cs",
+      "raw_sha256": "41768d7b6127e4dc4da7d19c5bad5082ac90fabd9fb087e109a65e8ff84b82c2"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoConfiguracaoViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoConfiguracaoViewModel.cs",
+      "raw_sha256": "cad823221964626be803d5827561c3700b32c2e7cf73255d79502f62b2991626"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoFichaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoFichaViewModel.cs",
+      "raw_sha256": "959eb2aa84271fd235e44f3e81f4404b9583f7d2b67a7dc2071bdac01562ba8e"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoFormulario.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoFormulario.cs",
+      "raw_sha256": "60b42ab7de9c2c0728ef0b1f19fab03b34fdba171cf3dc0b230fcfbd40119740"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoItensAbaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoItensAbaViewModel.cs",
+      "raw_sha256": "fa848fdc35200a74113c71751fdcd2db81706424f7097919db980f3206d23f12"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoItensViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoItensViewModel.cs",
+      "raw_sha256": "fa62276eb2b89565e6932e14d1b33a60d99aa820fad46d1997f369bd8a265434"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\EtiquetaImpressaoViewModel.cs",
+      "raw_sha256": "8e17179b30cf99867d59eaf197f0704e3b5de01387ab9ead9d0503f8cac1c6ae"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\FiltroViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\FiltroViewModel.cs",
+      "raw_sha256": "0c89fb387c468bfe7f949e15f164d8981fd2578e9c88a585b74f7dd2daf2e9d3"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\MovimentacaoItemFiltroViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\MovimentacaoItemFiltroViewModel.cs",
+      "raw_sha256": "e2bb37d0b391a4cef1c38f6c00fbe60de5e413c4e53828642104575c36118c6c"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\MovimentacaoObjetoFiltroViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\MovimentacaoObjetoFiltroViewModel.cs",
+      "raw_sha256": "85ab3f02ff2b892a8aa58d9161c6e98d6935d63425d8c1b463516f13327dd470"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\MovimentacaoVolumeFiltroViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\MovimentacaoVolumeFiltroViewModel.cs",
+      "raw_sha256": "ef0c49a8d016b85bcd3b7cb4d2e55c53c856d5dc0524ea69ace18338b51de9a9"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\PessoaFiltroViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\PessoaFiltroViewModel.cs",
+      "raw_sha256": "e2ab6246e822db61d58ae8d642e666fb79e4b1c6015958f306eec7c1dd0f5ea7"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\ProdutoFiltroViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\ProdutoFiltroViewModel.cs",
+      "raw_sha256": "2cad408b0f47459cf9f98ae802e310822d1974ce87deb9e3b548d4e422e397ab"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityMovimentacaoItemMovimentacaoItemSaidaViewMo.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityMovimentacaoItemMovimentacaoItemSaidaViewMo.cs",
+      "raw_sha256": "dc13a4c5f3a1dccd977ae7a9fb4b3fa90c3c64fa9517555790ce08d3c6788c19"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityMovimentacaoObjetoMovimentacaoObjetoSaidaVi.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityMovimentacaoObjetoMovimentacaoObjetoSaidaVi.cs",
+      "raw_sha256": "9fe9dc8186b9000948aab019ac28372141ba1a208edf15a8e2d8dcadf2ec8588"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityMovimentacaoVolumeMovimentacaoVolumeSaidaVi.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityMovimentacaoVolumeMovimentacaoVolumeSaidaVi.cs",
+      "raw_sha256": "8bd3cf47c8db62bfbbd48bae410b030ee4980e10ea0aee752d0be944a14af134"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityMunicipioViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityMunicipioViewModel.cs",
+      "raw_sha256": "2cbbcb61230f4849e27102d7e7cff8271fbe9959086522a940766b0f788575f3"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityPessoaMovimentacaoEntradaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityPessoaMovimentacaoEntradaViewModel.cs",
+      "raw_sha256": "73f4d0cfb71b56cc8c0e823bd8663ea6cef8e4ff09d11039d2ca8df10db857c5"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityPessoaMovimentacaoSaidaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityPessoaMovimentacaoSaidaViewModel.cs",
+      "raw_sha256": "364fb2c4deef2e1bb264c0b9d9978fcb7bba5fc699150a2b2bfe01f08476c2f7"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityPessoaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityPessoaViewModel.cs",
+      "raw_sha256": "233b6b41d195b178cd68596d6cf14893558ceb9a4ba43f44517d7f003d7718cb"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityUfViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroEntityUfViewModel.cs",
+      "raw_sha256": "51eccb7cfe502c503bcaa51e3f55cf4de282d3459ec92a718f0c344f3442657e"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroLancamentoItemRapidoViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroLancamentoItemRapidoViewModel.cs",
+      "raw_sha256": "8f225b33445c516524d9ff60f4f2091ac5bf6a4e7fa3a20e71f8a5fb71bea51c"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroMovimentacaoItemViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroMovimentacaoItemViewModel.cs",
+      "raw_sha256": "b4078260d647b0046cd5ba59d2c3a67657add345b710e849fb3a1b329ad8441a"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroMovimentacaoObjetoViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroMovimentacaoObjetoViewModel.cs",
+      "raw_sha256": "8337b86e4d342bb73ed5a2611fcbdd319427f2385986bbf11afb5cfb45bbcf18"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroMovimentacaoVolumeViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroMovimentacaoVolumeViewModel.cs",
+      "raw_sha256": "18fe41ab32411951b00b8c0050702f7249e22aa957e57daa3417394bd761c8a0"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityMarcaViewMod.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityMarcaViewMod.cs",
+      "raw_sha256": "07a07a2b5c568e65b067867c4389a7cf06cd883bdde3c808cacfd24fbeee2ed9"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityMovimentacao.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityMovimentacao.cs",
+      "raw_sha256": "54344d1bb670c763e85c5a89870f62adb12f522596093a738cc84cbb678c271d"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityOrdemProduca.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityOrdemProduca.cs",
+      "raw_sha256": "c7cfb19e59fe5b8f8aff0cba4148eeb4a42e49ed1fea7e779beb1a35d817d562"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityProdutoViewM.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityProdutoViewM.cs",
+      "raw_sha256": "4103579fd3b9f9ac3fb26c443dbc25dedf7966fe25a6fe5af65b59e25ca6a45b"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityPromocaoView.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityPromocaoView.cs",
+      "raw_sha256": "c56269894c8906e8830a59ac41abf33678915297b8eb8e2cc51ac16f11697304"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntitySubGrupoView.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntitySubGrupoView.cs",
+      "raw_sha256": "bc5c1626b557413946c3c579a798bc0642ccf7de1d6c4e79fd9bdb0becfad97c"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoEntityViewModel.cs",
+      "raw_sha256": "e1de78b7f378450e629a0dc9ff6a32469e0d330ecb6818490795ac50ef51d0db"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoViewModelBase.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelTabelaPrecoViewModelBase.cs",
+      "raw_sha256": "8e8665f40d1d1f2dd44176315c50ce99cfc96846b85d1520c4b912516c4a88f0"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelViewModelBase.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroQuantidadeDisponivelViewModelBase.cs",
+      "raw_sha256": "e483603fbc49ff59a0e312291c5765e142fbd57ba438509c6d18c6c3669406a4"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroViewModel.cs",
+      "raw_sha256": "9a3245118cd7b72c8f2edc73bb94d6d7fc3c6b8807197f16bad6a8bf36df358e"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroViewModelBase.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\BuscaFiltroViewModelBase.cs",
+      "raw_sha256": "7a98edb00dfee158039e31d6415c2ae855b45639d3f3c74e94cc78b72cf2bb2d"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\Filtro.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\Filtro.cs",
+      "raw_sha256": "f6c91b176771014f77986e70fc1acf793170ea8322788cc39b546c49ec88600b"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMarca.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMarca.cs",
+      "raw_sha256": "4fed5b5b832d685ddc330b5b971cf7bdfdf6c4cd53ec9186ed7669378bf313fa"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMovimentacaoItemMovimentacaoSaida.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMovimentacaoItemMovimentacaoSaida.cs",
+      "raw_sha256": "a713d8cfa5af26ec91b8c1a93f197600c87c38005b35093f44ff827f1853970e"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMovimentacaoObjetoMovimentacaoSaida.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMovimentacaoObjetoMovimentacaoSaida.cs",
+      "raw_sha256": "96b7d38da638ede1d99870c5a5de11fab7fd46f3e40189cbda82cb56bf153b3b"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMovimentacaoVolumeMovimentacaoSaida.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMovimentacaoVolumeMovimentacaoSaida.cs",
+      "raw_sha256": "09e15343c4b1eea5461de6a3388f958941b06c3df44d20e25010b978f177a39d"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMunicipio.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroMunicipio.cs",
+      "raw_sha256": "f6c771cb0950d0c36f07d5f60671add233583e538940e68a725252b588117271"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroPessoa.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroPessoa.cs",
+      "raw_sha256": "bf7f5c0ac1a7a488803f42c51ce95031d430221dd609e2260816ff9735e186a4"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroPessoaMovimentacaoEntrada.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroPessoaMovimentacaoEntrada.cs",
+      "raw_sha256": "ca3e95aa2e9d40a5ed9198476561d9555f5a3f0c6a36260b98fc96ac075ddb61"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroPessoaMovimentacaoSaida.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroPessoaMovimentacaoSaida.cs",
+      "raw_sha256": "1c32b6868f8021c0fd56097e32baaea62d67790e19e6084b154f76dc3b337576"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroProduto.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroProduto.cs",
+      "raw_sha256": "e4b7e710fceffc6618fc56e5010f5a1e1760c0b997c63cde8dafacc2c7140e21"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroProdutoMovimentacaoEntrada.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroProdutoMovimentacaoEntrada.cs",
+      "raw_sha256": "8e19f18141b30ba6b9fa9004c29acc98f962257a1c638bc697642c74ab83b1bc"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroProdutoMovimentacaoSaida.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroProdutoMovimentacaoSaida.cs",
+      "raw_sha256": "e9c1c45facb44c6817b3600d8ad14b4c19c88718d53e8f6558079ebde46df9dd"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroProdutoOrdemProducao.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroProdutoOrdemProducao.cs",
+      "raw_sha256": "18a83daefff19ab280ec618a25985ee1da8af56ca9477efb196cdab7867d2d66"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroPromocao.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroPromocao.cs",
+      "raw_sha256": "0a3c7b90d3f41bb3209aecc62c52d92378ee5c959c503461bf486f529ff21c9b"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroSubGrupo.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroSubGrupo.cs",
+      "raw_sha256": "c866795bb40dcc6e52ee2dbbc99af3518f926aede900c0d91e0a25327038b08b"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroUf.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\FiltroUf.cs",
+      "raw_sha256": "a8c46afebae7064359a15a0ebea6c7a047419895bcef663ada36a115cd4ac15b"
+    },
+    {
+      "path": "ViewModels\\EtiquetasImpressao\\Tipos\\TipoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasImpressao\\Tipos\\TipoComboBoxViewModel.cs",
+      "raw_sha256": "a1ea0a024138795e93ea585325bb43a649151ed6c90d615540430f5fb2ab06f4"
+    },
+    {
+      "path": "ViewModels\\EtiquetasViewModel.cs",
+      "export_path": "ViewModels\\EtiquetasViewModel.cs",
+      "raw_sha256": "ffd0440a32749d39875a0a8dace34bac40c05935ed5a9e1eb9a4242022cc5cf8"
+    },
+    {
+      "path": "ViewModels\\EtiquetaViewModel.cs",
+      "export_path": "ViewModels\\EtiquetaViewModel.cs",
+      "raw_sha256": "bb0c75d04c11899b6c8da596a23e886ed687bfe78ffa493b61dfcf921a1856f6"
+    },
+    {
+      "path": "ViewModels\\OrigemComboBoxViewModel.cs",
+      "export_path": "ViewModels\\OrigemComboBoxViewModel.cs",
+      "raw_sha256": "6174b4970449d26f02c2f49c51bcea8ded17bb1587966bd6c269b1e8c3f90a54"
+    },
+    {
+      "path": "ViewModels\\PaginaAbaViewModel.cs",
+      "export_path": "ViewModels\\PaginaAbaViewModel.cs",
+      "raw_sha256": "2f89c63588288694e1b045fd7eab824460ed6e7247293d3bdfa05efb40155f07"
+    },
+    {
+      "path": "ViewModels\\PaginaViewModel.cs",
+      "export_path": "ViewModels\\PaginaViewModel.cs",
+      "raw_sha256": "230f14c22bdc11582e9a24dcbaf532bb2a0815b7849db073bdd36648bc802682"
+    },
+    {
+      "path": "ViewModels\\PreVisualizacao.cs",
+      "export_path": "ViewModels\\PreVisualizacao.cs",
+      "raw_sha256": "373f29675d73b2959a481103b3da60e75d82c1e0747af6f5649d201ed15b0159"
+    },
+    {
+      "path": "ViewModels\\PreVisualizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\PreVisualizacaoAbaViewModel.cs",
+      "raw_sha256": "318d0f19f0ab58085e93031ce47721a6f894d065303c0cc8a950f64de9690eb9"
+    },
+    {
+      "path": "ViewModels\\PreVisualizacaoViewModel.cs",
+      "export_path": "ViewModels\\PreVisualizacaoViewModel.cs",
+      "raw_sha256": "5cf77ad806e4cc81e9068587c56d3d3e081a0dfb3d9230a5d0d207e2b9cbddab"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Alinhamentos\\AlinhamentoTexto.cs",
+      "export_path": "ViewModels\\Tipos\\Alinhamentos\\AlinhamentoTexto.cs",
+      "raw_sha256": "7b0b7dddf1fd5d22fb8c272d706e27135feb43bc084d76d805592e4d96977300"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Alinhamentos\\AlinhamentoTextoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Alinhamentos\\AlinhamentoTextoComboBoxViewModel.cs",
+      "raw_sha256": "a6e48cbc1ebf978564d6b3fd9eb43511dfc1d0b07a7d916389c93c6b7fbaa6f2"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Alinhamentos\\Centro.cs",
+      "export_path": "ViewModels\\Tipos\\Alinhamentos\\Centro.cs",
+      "raw_sha256": "7ea733b8526921234c6418ca00844bfc3f0e1809b0237e6a57fcb8cd60471ab5"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Alinhamentos\\Direita.cs",
+      "export_path": "ViewModels\\Tipos\\Alinhamentos\\Direita.cs",
+      "raw_sha256": "52003f86c9d998810e5729ab548fd4732581c2649874d97053d66f675bf26d0d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Alinhamentos\\Esquerda.cs",
+      "export_path": "ViewModels\\Tipos\\Alinhamentos\\Esquerda.cs",
+      "raw_sha256": "abf3e463da75b3285b0307ec130bd472a04434940d5e4a297ace01452d024799"
+    },
+    {
+      "path": "ViewModels\\Tipos\\BarrasViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\BarrasViewModel.cs",
+      "raw_sha256": "cacc373ca0c2ee70f8f53afb8462b5270d006d18e265ebc516f1e320f7a6081b"
+    },
+    {
+      "path": "ViewModels\\Tipos\\CabecaParaBaixo.cs",
+      "export_path": "ViewModels\\Tipos\\CabecaParaBaixo.cs",
+      "raw_sha256": "343c885b241fc6baa0057143ef4efb05f8b9064d65647694046cf98508a51eb9"
+    },
+    {
+      "path": "ViewModels\\Tipos\\CampoBaseViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\CampoBaseViewModel.cs",
+      "raw_sha256": "6bf42b8bed9e553fac19ca8cf5f87ac0952cbf6957dbd4510ca7b880003abb44"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\CaracteristicaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\CaracteristicaViewModel.cs",
+      "raw_sha256": "31e9e43c107630e72a452590189fabf9ed7d5e459179db684745ceb2616bf998"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\CodigoBarrasTributavelViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\CodigoBarrasTributavelViewModel.cs",
+      "raw_sha256": "eb7b97f90034f75a2f545b2dd8ac2cc69b99a07ccaae184fea6b65d45ba15103"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\CodigoBarrasViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\CodigoBarrasViewModel.cs",
+      "raw_sha256": "e0199d71e62c00187f8b50712e510b3dfa02a0613295da4ade9e2bc82373cffe"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\CodigoInternoFormatoCodigoBarraViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\CodigoInternoFormatoCodigoBarraViewModel.cs",
+      "raw_sha256": "275770df16114e561f0a31b7ddec9d4ecd7907262a8b3a9ed9437694948313fa"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\CodigoInternoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\CodigoInternoViewModel.cs",
+      "raw_sha256": "00defe636e64fdf539d5d05135e59d5d4393b52e4db099d288492a15ed0eb1b4"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\CondicaoEspecialNViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\CondicaoEspecialNViewModel.cs",
+      "raw_sha256": "21aedcbf66ce9dc1687ffd0590a07623059d55221050944ae3fd6e70abc8465d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\CondicaoEspecialViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\CondicaoEspecialViewModel.cs",
+      "raw_sha256": "cf3dcae6e9181b9c707c562e0401bf20c4d3364b6f7cd875ae724231cdffb4dd"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\CondicaoEspecialXViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\CondicaoEspecialXViewModel.cs",
+      "raw_sha256": "685dac3b306f2d2fde28d212734caf5e1a2bb90a50a36ccb1b58f243dc066499"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DataConclusaoOrdemProducaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DataConclusaoOrdemProducaoViewModel.cs",
+      "raw_sha256": "d2df1d1065eb39e23e0d480510ca1bc6d0099acffd3db18d82b24f3971355c16"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DataFabricacaoLoteViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DataFabricacaoLoteViewModel.cs",
+      "raw_sha256": "292f8679349c400008db14b78f216eca14bede5f0e5a724d8e733034f8092867"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DataGarantiaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DataGarantiaViewModel.cs",
+      "raw_sha256": "3aac8b7e6245dc8704b1104e40ae0c632da6bb5e2226364ff343cc4e7b24cd3e"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DataImpressaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DataImpressaoViewModel.cs",
+      "raw_sha256": "d958de55d7e15af2bd0a3110dcc655f65bd93cf75705abaf79e7df333f92bfef"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DataUltimaCompraViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DataUltimaCompraViewModel.cs",
+      "raw_sha256": "6888fa7004a2405902c876e995dbf63c88931529a17557f4e2a93c10917742d1"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DataValidadeLoteViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DataValidadeLoteViewModel.cs",
+      "raw_sha256": "daf769a8c3eaffcb7b4a77925ef2528aca1cb27211212eccce1177cefb8d1a3b"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DefeitoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DefeitoViewModel.cs",
+      "raw_sha256": "e6de7a4d794ad634d0a3cf276aa2009deed4bde7de9204bf23fc1413e46db411"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DescricaoGradeLinhaColunaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DescricaoGradeLinhaColunaViewModel.cs",
+      "raw_sha256": "e7df02189596e3d8020412ef9b5236e7c8061358b80ec84c4a3e98a777f6682b"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DescricaoReferenciaPrecoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DescricaoReferenciaPrecoViewModel.cs",
+      "raw_sha256": "7c9b8daee403a28e86dd0557471337f312ae8ea85de42f4eb442ee2c2ec99bc2"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DescricaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DescricaoViewModel.cs",
+      "raw_sha256": "59b72400d821a90bbe80314aec98ac89faac5d1c9b723ec85f8707c555324b99"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DiagnosticoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DiagnosticoViewModel.cs",
+      "raw_sha256": "975dfa344bccef37478d55d9f396f757bfcdd9dbfbd30300565f8ffc32c16505"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\DocumentoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\DocumentoViewModel.cs",
+      "raw_sha256": "9a04e80191bc6c63e81538eb1e39c9a3c48e6a6f6fb04d9cc940e4756a020c1e"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EmailViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EmailViewModel.cs",
+      "raw_sha256": "9b408c4c08d3e21e9f89da4c9f3884004486a3cb15c8185f189380343302a3fe"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaBairroViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaBairroViewModel.cs",
+      "raw_sha256": "907d47df0358e8b0fa926daff51c3e0727242ccf23d3cb6c5039195dbc309f7b"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaCepViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaCepViewModel.cs",
+      "raw_sha256": "0b95b85eba2ae0cad41efa5ca9d854e10adc342fd8f63200330d45fd1adb39f2"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaMunicipioViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaMunicipioViewModel.cs",
+      "raw_sha256": "2552085f676cef7689b0a14d2a2504b87f91ae16f74831a90f3d393282676b49"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaNumeroViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaNumeroViewModel.cs",
+      "raw_sha256": "f2542c0d5afbd1090a5d8d882ec671ba0b4bed8b479dc7a2a857b1a20cc35a79"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaPaisViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaPaisViewModel.cs",
+      "raw_sha256": "e9da2f03f3cd9de6ba9899b97d86c6d6a8d7426066c226968c27169f36bf41ed"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaUfViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaUfViewModel.cs",
+      "raw_sha256": "58385b2e95005cd684bfcab3f186ff5c3786ddd39aee7711bccb82a708c15b39"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoEntregaViewModel.cs",
+      "raw_sha256": "523cbcfd9ba26a56e23b1fcec19ca4ec84eb07edd76671fd94a152e48a07c46a"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalBairroViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalBairroViewModel.cs",
+      "raw_sha256": "a71d7eed45605ef5f81f9443882dde84bea82f786cb697f645778cdc2d55e254"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalCepViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalCepViewModel.cs",
+      "raw_sha256": "27fed272a6907b26372e363ae70b44e9406c446416522a5a5c974a08aadb1ace"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalMunicipioViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalMunicipioViewModel.cs",
+      "raw_sha256": "04a890806b83f6f439ff1b33eafba4397b4421cfcd923866321d1aa8a2a6ab6d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalNumeroViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalNumeroViewModel.cs",
+      "raw_sha256": "52e2579f2a0ece8c11931f8b4a3835c6824233bf399f10a8bfe9f2687198dc65"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalPaisViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalPaisViewModel.cs",
+      "raw_sha256": "8e3bfaa7f320e0ce03af1e4813e60890220ab1ee2b3ad44e96688cf399133862"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalUfViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalUfViewModel.cs",
+      "raw_sha256": "966acae272d62d39ccbf2acbc873b1245ec97ee553c0dc5739b0d5ea42872971"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\EnderecoPrincipalViewModel.cs",
+      "raw_sha256": "a7c804a2c62cc387621c66f78ff2a62a20d1d09fcaafeea9e17eaa40f5826498"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\GradeColunaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\GradeColunaViewModel.cs",
+      "raw_sha256": "30c24e86a172085e186d08cc6ae46cae89b71aed6082cebf857b7c7632424ad3"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\GradeLinhaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\GradeLinhaViewModel.cs",
+      "raw_sha256": "b28abd39903ae353b30215eb4554c16b126068091d5452685c54e3c3277bf556"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\HoraImpressaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\HoraImpressaoViewModel.cs",
+      "raw_sha256": "2f13c8502fa2a5a97ec5044846484e71a43c67f2a98ff1322d40c87af6d95869"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\LinkViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\LinkViewModel.cs",
+      "raw_sha256": "e3193601f25b5d3271f88940b98737d7519b453a08e9cbc841be547d215f66cc"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\LocalizacaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\LocalizacaoViewModel.cs",
+      "raw_sha256": "c2e8fcf932bd7a61741d4548e20b289620602f6e37c5140a44b4b7541df41695"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\LoteViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\LoteViewModel.cs",
+      "raw_sha256": "7b6e4739ff2b34360ac638d8d97ddcae9218d44f7edc9385f6ad12bf81aeb657"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MarcaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MarcaViewModel.cs",
+      "raw_sha256": "26f080d6a719d6afb20bde894ec55c3859ce344bf67cd5226412a2fefa341f65"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoChaveAcessoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoChaveAcessoViewModel.cs",
+      "raw_sha256": "eeda385b3a7f459e5bc1eac6fea6f4e191a84dcb33d72fd897c72148bdacee55"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoDataEmissaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoDataEmissaoViewModel.cs",
+      "raw_sha256": "1fd274e079f54f5070767fc5cad7cdf91f04312ce910f2fa2aae5ccc7cab5747"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoDescricaoPrioridadeViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoDescricaoPrioridadeViewModel.cs",
+      "raw_sha256": "553aa9dbc66d52faeb0d48ed4c4b542fb67352777e98bb036348a4c02deff1b6"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemCodigoBarrasTributavelViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemCodigoBarrasTributavelViewModel.cs",
+      "raw_sha256": "786bdd55b709e8ae8c3faf1589ddccf04835c1228ece0642c0c5514ceb5e9836"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemCodigoBarrasViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemCodigoBarrasViewModel.cs",
+      "raw_sha256": "04de9606cbfbb89132e81fc69abad90f6c422a25e702110582a8fa2b11db3d6b"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemCodigoInternoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemCodigoInternoViewModel.cs",
+      "raw_sha256": "134ed47e75d0febf8db5cbe91bb16fdfa6287b2429ed92997f3cf5dd5078e5cb"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemDescricaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemDescricaoViewModel.cs",
+      "raw_sha256": "2ac1a5a628f75d9db75e1da0407639acf0dca1f0764cb41cf0dfce08bcc553ad"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemInformacaoEstoqueViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemInformacaoEstoqueViewModel.cs",
+      "raw_sha256": "0bc670a3c55abcb7cc522643c2268a2d395420ba18c0b5663dd36a5ceaf23787"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemObservacaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemObservacaoViewModel.cs",
+      "raw_sha256": "a83290953add53f1247d627549dcc2b8d1f27bdcd79b4d967daefe39450e4cb6"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemQuantidadeViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemQuantidadeViewModel.cs",
+      "raw_sha256": "067667be07e52d70287749aafb9b146d4d0ee10fa538d3803adb79da2274fefe"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemTotalPesoBrutoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemTotalPesoBrutoViewModel.cs",
+      "raw_sha256": "d38a3c4132b79872d6d16922397062a4cd04d9a16e7c709b5bd12358d668c264"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemTotalPesoLiquidoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemTotalPesoLiquidoViewModel.cs",
+      "raw_sha256": "4a087231ec38ef4b30c46556fc96ada2e94e1f9acebb78b5463cde7c2ed518e9"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemTotalViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemTotalViewModel.cs",
+      "raw_sha256": "bcb14966fc133a4ba5577d9f47a5f9cfafbd8d2faae3e25c222ed1e60a1eb3d0"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemUnidadeViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoItemUnidadeViewModel.cs",
+      "raw_sha256": "b2ece4f44aecd782ddae9996e0492b794460d0a75ebd81fc3c5298e0efa76b3f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoNomeTecnicoResponsavelViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoNomeTecnicoResponsavelViewModel.cs",
+      "raw_sha256": "8da8ddaf8fa123bccc4d34f852ee3d9dfb23bd8b2ad1a65a0469e9a884d81af8"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoNomeVendedorResponsavelViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoNomeVendedorResponsavelViewModel.cs",
+      "raw_sha256": "a4c2f33e176f8c6cdd50bdd06fc6e55b80cc4ea29afc55a324ada49cb8e4c175"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoNumeroViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoNumeroViewModel.cs",
+      "raw_sha256": "394709b850a617d9bb5b68e8b20f7874a019eae959b15850fc3a11dc89b010b7"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoTotalPesoBrutoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoTotalPesoBrutoViewModel.cs",
+      "raw_sha256": "1ed3a1f0570ea8b6b68adb57c8a46d60592f661d876c433ba95a0631cdb3ce0d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoTotalPesoLiquidoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoTotalPesoLiquidoViewModel.cs",
+      "raw_sha256": "0969430e9c47b1ea684fb40756992ce802dd3c3c680f645693ebb67c6a927f38"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\MovimentacaoTotalViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\MovimentacaoTotalViewModel.cs",
+      "raw_sha256": "15d92e2f9137f20e6055ea54999b4d46644018b3d04c9e1624f82b75529a8639"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\NomeFantasiaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\NomeFantasiaViewModel.cs",
+      "raw_sha256": "812de34ce0306696262b6a2c99b98f6e6e5ae2f3eb8f1ec75c9bd795c2d90a0f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\NomeViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\NomeViewModel.cs",
+      "raw_sha256": "37d45aa6c0cb8b4fcc0ff701afe682d50588fe5379e0531679d3badd4a8302d4"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoAnoFabricacaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoAnoFabricacaoViewModel.cs",
+      "raw_sha256": "26e94278ba57efa2460338bbd646b95a3c7855d0b485d8fc09e7860709962445"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoChassiViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoChassiViewModel.cs",
+      "raw_sha256": "ea6446d1b855c0f3cd79f5e5b9965c40b8dded54ca5198f5611dc00cd16c5c00"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoCilindradaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoCilindradaViewModel.cs",
+      "raw_sha256": "d4030cb852d18977bfc09e75e3476e168838122208f0184540db1c8e237e183f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoCorViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoCorViewModel.cs",
+      "raw_sha256": "a9ee66f46c2a273ebc9faa2940147451be7942b08444f5880e51edbb6cb01d30"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoDescricaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoDescricaoViewModel.cs",
+      "raw_sha256": "69ae230e530d23c1b57db4614400a7989acfcc0b91523472a952e9ac9a9eb862"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoMarcaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoMarcaViewModel.cs",
+      "raw_sha256": "191140977cc75aa846417cb28da6d4737e66de05c371f9ab34a93e58417dc7a0"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoModeloViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoModeloViewModel.cs",
+      "raw_sha256": "600cf7d42d72ea08fff19d4e359198e308d22b61fe3b770098df2d2223dc4bf9"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoMotorViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoMotorViewModel.cs",
+      "raw_sha256": "1009113f76002a89e0945fb51841dba44682bdcee24a6e1ccf160a5d4874f483"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoPlacaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoPlacaViewModel.cs",
+      "raw_sha256": "01d71b125afdfa945af549366067892b8f3d771819e05dad1fbba2cc1f7f57b1"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoPotenciaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoPotenciaViewModel.cs",
+      "raw_sha256": "054a7f64ee9bec3a698aa1d0c2ba1243534e755c0d9c675108b856e4ea6fa007"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoRenavamViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoRenavamViewModel.cs",
+      "raw_sha256": "7d9817cb780d8817a5308bf82060312e3a7172f704991489f7514f676f223da6"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoSegmentoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoSegmentoViewModel.cs",
+      "raw_sha256": "e7b3c21e3ec8dde474f89c601fdcddd9029318d08842f6e883d1ccc7c120e0ff"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObjetoSerialViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObjetoSerialViewModel.cs",
+      "raw_sha256": "c52f30b3df523f62575f16f6f13f969f52ba45ea336dc9b1f0ad45382b0be032"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ObservacaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ObservacaoViewModel.cs",
+      "raw_sha256": "e54d54da794c4a6fcead2614bdd68346f0f6e27cb35eea534e93ff96a42e4256"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\PesoBrutoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\PesoBrutoViewModel.cs",
+      "raw_sha256": "7ff9f311e51a441b439917d31c70786cd2e96e5ab444eef1d4e5712c9515771f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\PesoLiquidoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\PesoLiquidoViewModel.cs",
+      "raw_sha256": "ff2fb892941da428f3b929f42318ba965175172b26ba992d2090d5f5112539c3"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\PrecoCustoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\PrecoCustoViewModel.cs",
+      "raw_sha256": "509662f37065034b3d70502c7c76608b130ba2f85d54e3984994d2c0a37dad8f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\PrecoVendaCadastroViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\PrecoVendaCadastroViewModel.cs",
+      "raw_sha256": "f48afb5e10f48849ab7357128b940ae86cca08d37d0df4aa287e55ff983b2375"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\PrecoVendaPromocionalViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\PrecoVendaPromocionalViewModel.cs",
+      "raw_sha256": "68c5ab6e7f006fb38eed20169cd07c9ae3ca719895a093a18db70f8f542c0e0b"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\PrecoVendaTabelaPrecoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\PrecoVendaTabelaPrecoViewModel.cs",
+      "raw_sha256": "90a5d3e6f0a36753cc24481ab56cca18d72e82dd57134d7de94dc58a99c98c0f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\PrecoVendaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\PrecoVendaViewModel.cs",
+      "raw_sha256": "24b9884330fa3f00cf45c98ba2d06bff8be9dd9ef5e74c07aaac152aed35954d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\QuantidadeViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\QuantidadeViewModel.cs",
+      "raw_sha256": "896602d788160ea154faa9d7b08bfacc03d136de2030447d2c89674d81a0db1a"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ReferenciaPrecoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ReferenciaPrecoViewModel.cs",
+      "raw_sha256": "c7d12536a81bb2edfc5c38305feb22c6fbc5e7e01232701d942ad825b5cc5b6a"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\ResponsavelViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\ResponsavelViewModel.cs",
+      "raw_sha256": "8dd8a8d05c5105d1bbf37d74041c6ab2b37ba3a595dd6a18dd460f6bebd8191f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\SerialViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\SerialViewModel.cs",
+      "raw_sha256": "71915d375b3e2f714a8b36e69b95ee088c9cad8e363464ddc509dd27a7e9755f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\TelefoneViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\TelefoneViewModel.cs",
+      "raw_sha256": "c315c97e938d60847d8a3e0cef7a9940d23f33d9dcfcaa7288a2209d9cc74137"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\TransportadoraDocumentoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\TransportadoraDocumentoViewModel.cs",
+      "raw_sha256": "766dff4c7b3741da14746317929648e9c12b3eb24a799632d09eac2bfb018bf2"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\TransportadoraNomeFantasiaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\TransportadoraNomeFantasiaViewModel.cs",
+      "raw_sha256": "84a985f087704fcd642cd4479c42671c4269f4287d1130ad3644bd0c3d63de6d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\TransportadoraNomeViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\TransportadoraNomeViewModel.cs",
+      "raw_sha256": "d52d0986a1888248e02a6aa1384731a41c13ac64fd6ed2b53b4c2e93feab3ef8"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\UnidadeMedidaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\UnidadeMedidaViewModel.cs",
+      "raw_sha256": "6aeb294d03b141dc4502f7e856da866099c255506a3307c985c95e346e77f035"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\VolumeContadorViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\VolumeContadorViewModel.cs",
+      "raw_sha256": "194a549d445cf6137c91055cc39e8eab6b9913b6b4dd53c454b34dfc4a63dd44"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\VolumeEspecieViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\VolumeEspecieViewModel.cs",
+      "raw_sha256": "a050c0523033fdc27c919ddf67b9d58fb0a7fc19dcdfa1eb7a66671e3ff72027"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\VolumeMarcaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\VolumeMarcaViewModel.cs",
+      "raw_sha256": "bec1fc9feb59f87f3adaffdcf5406b6fd391888d318b30fc10891dac14a05533"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\VolumeNumeracaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\VolumeNumeracaoViewModel.cs",
+      "raw_sha256": "19d33d0ed27813a518d4055a9614ad9633227fd699ef57f1ea3417f756292ae3"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\VolumePesoBrutoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\VolumePesoBrutoViewModel.cs",
+      "raw_sha256": "124b570cc5950fe986b9302447b84727ef0848e88f01e2eb13e89f79b1e795cb"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\VolumePesoLiquidoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\VolumePesoLiquidoViewModel.cs",
+      "raw_sha256": "fff5d31d7fbed3b97f98c3846ec417f9466aaad96f9904edf48ebb488d16cefb"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Campos\\VolumeQuantidadeViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\Campos\\VolumeQuantidadeViewModel.cs",
+      "raw_sha256": "7812da0800c9a78d5b5a3e296725e97047c5b084d69ad28ca2819c09f3f316a2"
+    },
+    {
+      "path": "ViewModels\\Tipos\\CustomBaseXRLabel.cs",
+      "export_path": "ViewModels\\Tipos\\CustomBaseXRLabel.cs",
+      "raw_sha256": "0680c380e2f44918b8c7a8b30c287fe9ff5689dea5ee49853032b686b9f51ef9"
+    },
+    {
+      "path": "ViewModels\\Tipos\\CustomBaseXRPictureBox.cs",
+      "export_path": "ViewModels\\Tipos\\CustomBaseXRPictureBox.cs",
+      "raw_sha256": "6e0ca4bc01edde92bbb21dce0d991a87b144949ace607f0e5914345b0da113e2"
+    },
+    {
+      "path": "ViewModels\\Tipos\\CustomXRBarCode.cs",
+      "export_path": "ViewModels\\Tipos\\CustomXRBarCode.cs",
+      "raw_sha256": "78c2268570072dc98538ee05d85c99c4acb075e2eb638e4b720478a6ebaa5974"
+    },
+    {
+      "path": "ViewModels\\Tipos\\CustomXRLabel.cs",
+      "export_path": "ViewModels\\Tipos\\CustomXRLabel.cs",
+      "raw_sha256": "73425dab9d7412ce7914c4074781cbd1f502673a6821fe470707325570a05511"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DadoBase.cs",
+      "export_path": "ViewModels\\Tipos\\DadoBase.cs",
+      "raw_sha256": "546a26311a3df27ec9a20d0fa1af2f6658607be3bdc544f9566bc9537dedacf8"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DadoBranco.cs",
+      "export_path": "ViewModels\\Tipos\\DadoBranco.cs",
+      "raw_sha256": "93e06b1545a24582a288affe6d4ff0d683e24148948060a9d356c13f5dd5d2ad"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DadoMovimentacaoItem.cs",
+      "export_path": "ViewModels\\Tipos\\DadoMovimentacaoItem.cs",
+      "raw_sha256": "31d010d8b5da803607bb124f4c81fa87cfc0a214631c41e6d1af1351181d39d0"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DadoMovimentacaoObjeto.cs",
+      "export_path": "ViewModels\\Tipos\\DadoMovimentacaoObjeto.cs",
+      "raw_sha256": "ff09c6ee306a15070a68965f6408ee414e7be0621326d6af2baffb633f99fdb9"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DadoMovimentacaoVolume.cs",
+      "export_path": "ViewModels\\Tipos\\DadoMovimentacaoVolume.cs",
+      "raw_sha256": "94b41f4bbd1fec5f1644ef03f8dc305ccefeea13936f4ec3faf766781b760590"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DadoPessoa.cs",
+      "export_path": "ViewModels\\Tipos\\DadoPessoa.cs",
+      "raw_sha256": "a56aa9569d238353d9f727d9a2f6c6e74ab6417c235cca55bf9e2a75d071b137"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DadoProduto.cs",
+      "export_path": "ViewModels\\Tipos\\DadoProduto.cs",
+      "raw_sha256": "32445af68e21c48712e90b63bc81903b7c1b14cb2d743023c0be6779a918dc02"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DadoProdutoFactory.cs",
+      "export_path": "ViewModels\\Tipos\\DadoProdutoFactory.cs",
+      "raw_sha256": "4160bb377278c34a2bff2e0e824561d532a61fd19dc79ad7ff0a7b0dbecc8f0f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DataViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\DataViewModel.cs",
+      "raw_sha256": "10ea342bdf5170b6f66b579b76b3c1890ce70dbeedb44db2a88199e856b97c8f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\FormatoDataHora.cs",
+      "export_path": "ViewModels\\Tipos\\FormatoDataHora.cs",
+      "raw_sha256": "ed9f653767829171cf0e3a13959a0d7ac4b798f2f28e25218d80e827980273bf"
+    },
+    {
+      "path": "ViewModels\\Tipos\\HoraViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\HoraViewModel.cs",
+      "raw_sha256": "8dadaea8799730ab92f543fb4174317c7c814086f5f1da68e280e559df62a69d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\IDado.cs",
+      "export_path": "ViewModels\\Tipos\\IDado.cs",
+      "raw_sha256": "1d4f40c9b7f01231a4ccefe263ec2a0d521d9b80dcca0cec6cf166c1a149f89b"
+    },
+    {
+      "path": "ViewModels\\Tipos\\ImagemViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\ImagemViewModel.cs",
+      "raw_sha256": "5c57481e8bd63332a99d382cd01b30322b4bb5d37e2581567136dd642f80dff0"
+    },
+    {
+      "path": "ViewModels\\Tipos\\MonetarioViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\MonetarioViewModel.cs",
+      "raw_sha256": "c42843a292d33a925564b253e9d589dcddb607f36138215af57ce91595367dbf"
+    },
+    {
+      "path": "ViewModels\\Tipos\\MovimentacaoItem.cs",
+      "export_path": "ViewModels\\Tipos\\MovimentacaoItem.cs",
+      "raw_sha256": "ad285099aaa1bb2a3a5766cf1024025a3d921f46dda466a3ba35456d645f3e2f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\MovimentacaoObjeto.cs",
+      "export_path": "ViewModels\\Tipos\\MovimentacaoObjeto.cs",
+      "raw_sha256": "91b1287714e44c0da6b9478cfe76cc68bd51580003663755977cc83e06517ac5"
+    },
+    {
+      "path": "ViewModels\\Tipos\\MovimentacaoVolume.cs",
+      "export_path": "ViewModels\\Tipos\\MovimentacaoVolume.cs",
+      "raw_sha256": "48c6929a6cd067eb20f3e473ea7cbcb680da669ccc2b62fc977b2085b0c00821"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Normal.cs",
+      "export_path": "ViewModels\\Tipos\\Normal.cs",
+      "raw_sha256": "72f7eeca1f8f1918b4aeba8e392cebf6b3bc73980f8832e96822110b88e7464d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\NumericoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\NumericoViewModel.cs",
+      "raw_sha256": "2566f33fa08ab2284fe318d201adc5f691810b10a86028056dd03c1952d8df25"
+    },
+    {
+      "path": "ViewModels\\Tipos\\OrientacaoCodigoBarrasBase.cs",
+      "export_path": "ViewModels\\Tipos\\OrientacaoCodigoBarrasBase.cs",
+      "raw_sha256": "4b8763a5cb556923bf0dbb1272eb54724025f8ef073e41861c5341184dfc8e1b"
+    },
+    {
+      "path": "ViewModels\\Tipos\\OrientacaoCodigoBarrasComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\OrientacaoCodigoBarrasComboBoxViewModel.cs",
+      "raw_sha256": "62c0f6c7dd4faf9460ddc4eca2f4f8dda6681566c44df27d5257706a637c74ff"
+    },
+    {
+      "path": "ViewModels\\Tipos\\OrigemDado.cs",
+      "export_path": "ViewModels\\Tipos\\OrigemDado.cs",
+      "raw_sha256": "4a53507d64dd890f0ae2b798b0dcd970253ee45eeeefb3cc61e914f65f848746"
+    },
+    {
+      "path": "ViewModels\\Tipos\\PadraoBarrasComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\PadraoBarrasComboBoxViewModel.cs",
+      "raw_sha256": "13b3cf63a8d769950029c9862e6d067eabd120b878f455e60618ef61e64a2ec3"
+    },
+    {
+      "path": "ViewModels\\Tipos\\PersonalizadoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\PersonalizadoViewModel.cs",
+      "raw_sha256": "77cdaa47f57f6d38bc69f867733fe72299043fa8212e1b7c4d701dd5f2072b45"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Pessoa.cs",
+      "export_path": "ViewModels\\Tipos\\Pessoa.cs",
+      "raw_sha256": "d5b87d8df74acf9d72989a5404e9fdbb108b46572d0912a5cc32d0824a0cc656"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Polegada.cs",
+      "export_path": "ViewModels\\Tipos\\Polegada.cs",
+      "raw_sha256": "89a48440429b1e55eaf5e0688230fcb75f7151d0829a0c6312ac455c9a386279"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Produto.cs",
+      "export_path": "ViewModels\\Tipos\\Produto.cs",
+      "raw_sha256": "b56fad3c3d4f62072abf143cef7eac6567e40cc926e22354f317a0bc92205422"
+    },
+    {
+      "path": "ViewModels\\Tipos\\RotacaoDireita.cs",
+      "export_path": "ViewModels\\Tipos\\RotacaoDireita.cs",
+      "raw_sha256": "39e8e188f563951f1d54091ff1512296e4f1756bf3a7f27da44f24241bc57d45"
+    },
+    {
+      "path": "ViewModels\\Tipos\\RotacaoEsquerda.cs",
+      "export_path": "ViewModels\\Tipos\\RotacaoEsquerda.cs",
+      "raw_sha256": "a3f0d5c9ff45d1dfc93d9f2cbdaefa1a6f4cb32f316649e2f7fba279e520b7e8"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TextoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\TextoViewModel.cs",
+      "raw_sha256": "7cf489229af2a3aa9a83545d16331551ed57427b0766e007a88cd0fb737237b5"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TiposTexto.cs",
+      "export_path": "ViewModels\\Tipos\\TiposTexto.cs",
+      "raw_sha256": "5931a099cf8afa223aa4f176fb7ffc8c6e88c0641d1e0b0bdd754380b71bf36c"
+    },
+    {
+      "path": "Views\\EtiquetaConfiguracaoFichaAdicionarView.cs",
+      "export_path": "Views\\EtiquetaConfiguracaoFichaAdicionarView.cs",
+      "raw_sha256": "099db94efb9ecc44b09561c62fa9a3c9b6d23e086178f45b590fdaa3fc4f33dd"
+    },
+    {
+      "path": "Views\\EtiquetaConfiguracaoFichaAtualizarView.cs",
+      "export_path": "Views\\EtiquetaConfiguracaoFichaAtualizarView.cs",
+      "raw_sha256": "7d03ad1ef8d62a9decbf3610d590150d576eff5860fa7488e839b4f9cf02330e"
+    },
+    {
+      "path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\CampoFichaManutencaoDetalheView.cs",
+      "export_path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\CampoFichaManutencaoDetalheView.cs",
+      "raw_sha256": "471719323073df300ee13e0cf573a320ccfbc475337a3460c7897494ce616057"
+    },
+    {
+      "path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\CampoListaManutencaoDetalheView.cs",
+      "export_path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\CampoListaManutencaoDetalheView.cs",
+      "raw_sha256": "a5ccff6519fa69ae62ccb6a01c9bfde526b04b56d4b0c622839ff4f7a1cd4ada"
+    },
+    {
+      "path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\EtiquetaConfiguracaoView.cs",
+      "export_path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\EtiquetaConfiguracaoView.cs",
+      "raw_sha256": "4b4a65298317c91dd70b4c474b7ba1b45cf4febedb51386b6ebe999480f6b0cc"
+    },
+    {
+      "path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\EtiquetaView.cs",
+      "export_path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\EtiquetaView.cs",
+      "raw_sha256": "53057069b7c906c408b66d4b815f5008e35f5382470e8d0c28c26b1038e06913"
+    },
+    {
+      "path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\PaginaView.cs",
+      "export_path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\PaginaView.cs",
+      "raw_sha256": "4fc1b499ccdbd52eaae2b083500c3be067f828c39055845ce62662cb500e0fb5"
+    },
+    {
+      "path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\PreVisualizacaoView.cs",
+      "export_path": "Views\\EtiquetaConfiguracaoFichaViewDetalhes\\PreVisualizacaoView.cs",
+      "raw_sha256": "9d32bdb6e521611ead33b2e67d46c46526bf117ddf2bf7bd98f39cece2cef8ac"
+    },
+    {
+      "path": "Views\\EtiquetaConfiguracaoListaView.cs",
+      "export_path": "Views\\EtiquetaConfiguracaoListaView.cs",
+      "raw_sha256": "438c1046feb1467ca1799c6bcc5f5b3a70c32d8ff0b09cb6fb4c0ea44f3f9baa"
+    },
+    {
+      "path": "Views\\EtiquetasImpressao\\BuscaFiltroLancamentoItemRapidoView.cs",
+      "export_path": "Views\\EtiquetasImpressao\\BuscaFiltroLancamentoItemRapidoView.cs",
+      "raw_sha256": "b9705b21e32382058dc503bb63868685dcfe40d51ed89d82d16c48fbce35d57f"
+    },
+    {
+      "path": "Views\\EtiquetasImpressao\\EtiquetaImpressaoConfiguracaoView.cs",
+      "export_path": "Views\\EtiquetasImpressao\\EtiquetaImpressaoConfiguracaoView.cs",
+      "raw_sha256": "2e7d37a1d5e0725d40680fa3e18d6fa9c025c55eb61c75530ed51308fec14e36"
+    },
+    {
+      "path": "Views\\EtiquetasImpressao\\EtiquetaImpressaoFichaView.cs",
+      "export_path": "Views\\EtiquetasImpressao\\EtiquetaImpressaoFichaView.cs",
+      "raw_sha256": "b046fc0f80a80a7570f0d2426b17a1bd135238b97e21f07a574b3303b9732f60"
+    },
+    {
+      "path": "Views\\EtiquetasImpressao\\EtiquetaImpressaoItensView.cs",
+      "export_path": "Views\\EtiquetasImpressao\\EtiquetaImpressaoItensView.cs",
+      "raw_sha256": "426eb8e788693b828550cc97db2783870e89483c037360325b86f9267e022525"
+    },
+    {
+      "path": "Views\\EtiquetasImpressao\\EtiquetaImpressaoView.cs",
+      "export_path": "Views\\EtiquetasImpressao\\EtiquetaImpressaoView.cs",
+      "raw_sha256": "fa68cb3f68b45cbb6243d1c49d1f1a8dff5acd9ba182c90ffd688caaa45c49e4"
+    },
+    {
+      "path": "Views\\EtiquetasView.cs",
+      "export_path": "Views\\EtiquetasView.cs",
+      "raw_sha256": "d921c9d786719b299218a6fd6e2a2449aa8679bbe21f7918de9f85ce60377c42"
+    },
+    {
+      "path": "Views\\LinkExportar.cs",
+      "export_path": "Views\\LinkExportar.cs",
+      "raw_sha256": "6c5ea3d8dcf54ffe6a524c8ebd31ca3df22d5343117b3b0f7a8a980cdb29979e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Etiquetas.g.resources",
+      "file": "0000.bin",
+      "bytes": 68640,
+      "sha256": "5f2a903f82089955ac5c4961c189182d3e5ed3b88a9a99d74e00c425b499e96b"
+    },
+    {
+      "name": "Otus.Modulo.Etiquetas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

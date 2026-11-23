@@ -1,0 +1,189 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalP",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural.dll",
+  "baseline_sha256": "b35cb9b66f60b78ee589fca24d16950ad62049dbb736290b608239dbfdb202ed",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalP\\DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalP.csproj",
+  "sources": [
+    {
+      "path": "Classes\\BlocoDefault.cs",
+      "export_path": "Classes\\BlocoDefault.cs",
+      "raw_sha256": "6e0f08eaac217da4c18ca304fd28f65607eb50e04fc474198215519a9ce6b7ea"
+    },
+    {
+      "path": "Classes\\LivroCaixaDigitalProdutorRuralArquivoDefault.cs",
+      "export_path": "Classes\\LivroCaixaDigitalProdutorRuralArquivoDefault.cs",
+      "raw_sha256": "56410b78a7e3e9d8ccaa21fbf4b90c827cba10570fdd59be25ce7f497419f3f7"
+    },
+    {
+      "path": "Classes\\LivroCaixaDigitalProdutorRuralDefault.cs",
+      "export_path": "Classes\\LivroCaixaDigitalProdutorRuralDefault.cs",
+      "raw_sha256": "6726030feaca7903a08f066e982952ec1d9fc8c54c1c22b5d14cb93feccda59c"
+    },
+    {
+      "path": "Classes\\LivroCaixaDigitalProdutorRuralFactory.cs",
+      "export_path": "Classes\\LivroCaixaDigitalProdutorRuralFactory.cs",
+      "raw_sha256": "dab56f12bfaf46b117f7a973dc15c8eea732aaeb4b04af94ebbd5188cd4b1170"
+    },
+    {
+      "path": "Classes\\Registro0000Default.cs",
+      "export_path": "Classes\\Registro0000Default.cs",
+      "raw_sha256": "7a01b0c1e787d0ce10ae2696d57e1cb6044981926c6aa85db6ad16d1bdf1d680"
+    },
+    {
+      "path": "Classes\\Registro0010Default.cs",
+      "export_path": "Classes\\Registro0010Default.cs",
+      "raw_sha256": "760fcee397ad06736705e12d1e4e759afc7914be96224c0f8b8feeb8cc39f8b2"
+    },
+    {
+      "path": "Classes\\Registro0030Default.cs",
+      "export_path": "Classes\\Registro0030Default.cs",
+      "raw_sha256": "6b841d2b77c43c24a57296bcf1d6c92025ebfe828773d076de4af114de833b33"
+    },
+    {
+      "path": "Classes\\Registro0040Default.cs",
+      "export_path": "Classes\\Registro0040Default.cs",
+      "raw_sha256": "1bebd1a2b030268d6a70c54697e478bc6f07e284313c0f2b9657b01a2318747d"
+    },
+    {
+      "path": "Classes\\Registro0045Default.cs",
+      "export_path": "Classes\\Registro0045Default.cs",
+      "raw_sha256": "0e608faae8dbcab894c21b7fd5e700f89b0e271bfbaf62a171d2e65c432c4ded"
+    },
+    {
+      "path": "Classes\\Registro0050Default.cs",
+      "export_path": "Classes\\Registro0050Default.cs",
+      "raw_sha256": "7b7128dd7bd3dd3fa42f0c991325dc624c5688a6b892fd77b8408f3f71914fe4"
+    },
+    {
+      "path": "Classes\\Registro9999Default.cs",
+      "export_path": "Classes\\Registro9999Default.cs",
+      "raw_sha256": "e62ee94be0a5ab400fd90253fcdbe90ee13e808e6faf8148a24eb1ffa5c7f526"
+    },
+    {
+      "path": "Classes\\RegistroQ100Default.cs",
+      "export_path": "Classes\\RegistroQ100Default.cs",
+      "raw_sha256": "9abe476002998ee11087897cc1801f24ccc27f2883086a87c78894ce89899ec6"
+    },
+    {
+      "path": "Classes\\RegistroQ200Default.cs",
+      "export_path": "Classes\\RegistroQ200Default.cs",
+      "raw_sha256": "8b406cac50a2a4223c4272ff4bb48291bf3a5e203b11a85346ef31bd62c764f9"
+    },
+    {
+      "path": "Functions\\Formatos.cs",
+      "export_path": "Functions\\Formatos.cs",
+      "raw_sha256": "3c7957f35008f4fa11b32db6f54311a88be9cd7ffb92072f01b10e062c2872a3"
+    },
+    {
+      "path": "Interfaces\\IBlocoDefault.cs",
+      "export_path": "Interfaces\\IBlocoDefault.cs",
+      "raw_sha256": "85d1740c44c678c6e67ecaa48c1d89b729427ac8adb0ccc1e6a6f04d8236841f"
+    },
+    {
+      "path": "Interfaces\\IRegistro0000.cs",
+      "export_path": "Interfaces\\IRegistro0000.cs",
+      "raw_sha256": "207ede23927d3cbb25471d21dee757ea98a3d2b23ac81b61db10541e26a2326a"
+    },
+    {
+      "path": "Interfaces\\IRegistro0010.cs",
+      "export_path": "Interfaces\\IRegistro0010.cs",
+      "raw_sha256": "844e5f8aec4951a08a576e87f6d753da3a6b83cfd00d4a8cdcc61202090b2c38"
+    },
+    {
+      "path": "Interfaces\\IRegistro0030.cs",
+      "export_path": "Interfaces\\IRegistro0030.cs",
+      "raw_sha256": "f0f26429aa5436b522fa1f1163c0f2572b4cbce404ffee14653f943ebbc1f83e"
+    },
+    {
+      "path": "Interfaces\\IRegistro0040.cs",
+      "export_path": "Interfaces\\IRegistro0040.cs",
+      "raw_sha256": "68b8d586d30afd3ae149aeaa6f67c9bebd239dec75497857c8a3c5f660cc8f85"
+    },
+    {
+      "path": "Interfaces\\IRegistro0045.cs",
+      "export_path": "Interfaces\\IRegistro0045.cs",
+      "raw_sha256": "b8c81acd0e0b99c9c25eb34c3efb3dc8cc15d74489969b5988b6865e61449a9c"
+    },
+    {
+      "path": "Interfaces\\IRegistro0050.cs",
+      "export_path": "Interfaces\\IRegistro0050.cs",
+      "raw_sha256": "f5eb930eb410d1b3d1cdd8b2a1eea9746732039a6afe003c6fcaebd323c1ff28"
+    },
+    {
+      "path": "Interfaces\\IRegistro9999.cs",
+      "export_path": "Interfaces\\IRegistro9999.cs",
+      "raw_sha256": "4bf04dc9ccaf97d8ba984264cdc9c03624eaac9e353f24773f69e6cfe917bb72"
+    },
+    {
+      "path": "Interfaces\\IRegistroQ100.cs",
+      "export_path": "Interfaces\\IRegistroQ100.cs",
+      "raw_sha256": "f7e99af4595043d5977769e3beacb2f80f971358f4116ab981b50a0e4033ea74"
+    },
+    {
+      "path": "Interfaces\\IRegistroQ200.cs",
+      "export_path": "Interfaces\\IRegistroQ200.cs",
+      "raw_sha256": "434e7d55d87d94afe51ab8faf731923c5cbd28fac846c6b3cae8b818d30beb5d"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "1c3f078c3aade1dbfe43fefd406f799f3e1b4d8f0a65dd06ee729af10d0e48b5"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "24ee7d09f562f7c507c11f9129ce537f914d01fbb0b6f52637bb4a9564ab61f1"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "48c7aeac92e78ac1799ec87c1e994c5c29545c741e84cb9f6000a06dbb7c1c26"
+    },
+    {
+      "path": "Types\\FormaApuracao.cs",
+      "export_path": "Types\\FormaApuracao.cs",
+      "raw_sha256": "dac66e28c1c1e566db049f7be65d79808e1c573e7c40516d9473e06dec914507"
+    },
+    {
+      "path": "Types\\IndicadorSituacaoEspecialOutrosEventos.cs",
+      "export_path": "Types\\IndicadorSituacaoEspecialOutrosEventos.cs",
+      "raw_sha256": "ad92b1032b4d8a6dfc5ff2b2266e6e31119cd1c10a0c64877ff1bf72f7fd3e9d"
+    },
+    {
+      "path": "Types\\IndicadorSituacaoInicioPeriodo.cs",
+      "export_path": "Types\\IndicadorSituacaoInicioPeriodo.cs",
+      "raw_sha256": "00182a4129887e0f165363dce2da87772e700cb484478ae3c43f9c0bd2327639"
+    },
+    {
+      "path": "Types\\TipoContraparte.cs",
+      "export_path": "Types\\TipoContraparte.cs",
+      "raw_sha256": "6fbb742369271ef78606446fd96a5ec5d726ec97acb55aa141a0fa79c617f8b9"
+    },
+    {
+      "path": "Types\\TipoDocumento.cs",
+      "export_path": "Types\\TipoDocumento.cs",
+      "raw_sha256": "930f262da2b614bdf7a9e109bae940fe02190e3b029c4fe8699e7e167e8a8167"
+    },
+    {
+      "path": "Types\\TipoExploracao.cs",
+      "export_path": "Types\\TipoExploracao.cs",
+      "raw_sha256": "ac1fc852fec6b11fe43ac4b048bebe4ddd8333c8b41b209a530705162edddcbd"
+    },
+    {
+      "path": "Types\\TipoLancamento.cs",
+      "export_path": "Types\\TipoLancamento.cs",
+      "raw_sha256": "311406f254c86bfdd83cbc400fdeb61c3ba2a54f5aef7423de20eb9a5afbc4cc"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

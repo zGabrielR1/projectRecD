@@ -1,0 +1,85 @@
+{
+  "name": "Modulo.JornadasTrabalho",
+  "baseline": "baseline\\Modulo.JornadasTrabalho.dll",
+  "baseline_sha256": "492195d6c94a2d0cb83b09147b12cb6dd5a22b6ff56f7cc67f82ec5db4d9b4f0",
+  "export_project": "recovered\\SuiteG6\\Modulo.JornadasTrabalho\\Modulo.JornadasTrabalho.csproj",
+  "sources": [
+    {
+      "path": "JornadaTrabalhoModulo.cs",
+      "export_path": "JornadaTrabalhoModulo.cs",
+      "raw_sha256": "418409da0e2a0ba895da10cf04dbd90d3e771d722fc3ebce3be6c39f1764d3fa"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "1fcf5a089dc28c1c89214a8e6c06783622d0b019fe6f2ce8f41d86b91bbeaa30"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "74060b8409b6c15074b244d3bf67f0c757929b8f93df0c271477168bade69315"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "64118e334e3bdacefd74b5e6e7a2c46dec3bb54ce3a0feac6151ba9fda505571"
+    },
+    {
+      "path": "ViewModels\\DiaTrabalhoViewModel.cs",
+      "export_path": "ViewModels\\DiaTrabalhoViewModel.cs",
+      "raw_sha256": "f2d7bda678bcdd53b1dab4957328b5290133c16e12b37ce97d8cf2df9641968b"
+    },
+    {
+      "path": "ViewModels\\JornadasTrabalhoViewModel.cs",
+      "export_path": "ViewModels\\JornadasTrabalhoViewModel.cs",
+      "raw_sha256": "0a86183e608125dc66a765b6fabe41596f89a863d300b2e281a1e4ddcf0520da"
+    },
+    {
+      "path": "ViewModels\\JornadaTrabalhoAbaViewModel.cs",
+      "export_path": "ViewModels\\JornadaTrabalhoAbaViewModel.cs",
+      "raw_sha256": "1846d466164f969d9f6ea0e3e6650512c65c3f7424e0da0973bca0d3373bd28f"
+    },
+    {
+      "path": "ViewModels\\JornadaTrabalhoFichaViewModel.cs",
+      "export_path": "ViewModels\\JornadaTrabalhoFichaViewModel.cs",
+      "raw_sha256": "63e2c4c36205aa61cac69d13302bb2186b52acb194e21554d13d0f6fd129e25c"
+    },
+    {
+      "path": "ViewModels\\JornadaTrabalhoFormulario.cs",
+      "export_path": "ViewModels\\JornadaTrabalhoFormulario.cs",
+      "raw_sha256": "7581b794d98595afd554c4c585f0272343df8ed11ca856022ddbceabd1406e88"
+    },
+    {
+      "path": "ViewModels\\JornadaTrabalhoViewModel.cs",
+      "export_path": "ViewModels\\JornadaTrabalhoViewModel.cs",
+      "raw_sha256": "6d8877f5d5b44c38b6f6945de860108d57094e2de9ee343c05c9c9078e5ee9d4"
+    },
+    {
+      "path": "Views\\JornadasTrabalhoView.cs",
+      "export_path": "Views\\JornadasTrabalhoView.cs",
+      "raw_sha256": "82027f739dab3282d2c2421e504c7068c8c0a9a60de4a50a4419bc8a6b9543d6"
+    },
+    {
+      "path": "Views\\JornadaTrabalhoFichaView.cs",
+      "export_path": "Views\\JornadaTrabalhoFichaView.cs",
+      "raw_sha256": "51bfd730d8cef812ee95a93588811c9ceb2e67a60ceabb6cdb745c04e2e8cba5"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.JornadasTrabalho.g.resources",
+      "file": "0000.bin",
+      "bytes": 6571,
+      "sha256": "b50c8f4571d3baa0f31201a7aff5ed09fa2d22466bdd5236bb41a35486d42417"
+    },
+    {
+      "name": "Otus.Modulo.JornadasTrabalho.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

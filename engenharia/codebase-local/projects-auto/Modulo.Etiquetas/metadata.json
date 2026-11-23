@@ -1,0 +1,47 @@
+{
+  "artifactSha256": "e718ba1856a0dcd8726604ca21b0d4c9c848bb74ed09bdf59873c6c545342974",
+  "mvid": "4680c961-dabf-4113-a5b5-97750349e680",
+  "assembly": "Modulo.Etiquetas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Windows.Forms",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.Mvvm.v15.2",
+    "System.Drawing",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.Xpf.Printing.v15.2",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "PresentationCore",
+    "Prism.Unity.Wpf",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DevExpress.XtraPrinting.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Etiquetas.g.resources",
+      "file": "0000.bin",
+      "bytes": 68640,
+      "sha256": "5f2a903f82089955ac5c4961c189182d3e5ed3b88a9a99d74e00c425b499e96b"
+    },
+    {
+      "name": "Otus.Modulo.Etiquetas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

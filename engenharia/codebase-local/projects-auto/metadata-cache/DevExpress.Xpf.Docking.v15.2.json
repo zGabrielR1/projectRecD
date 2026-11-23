@@ -1,0 +1,18 @@
+{
+  "assembly": "DevExpress.Xpf.Docking.v15.2, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "System.Xaml",
+    "WindowsBase",
+    "PresentationFramework",
+    "DevExpress.Xpf.Layout.v15.2.Core",
+    "System",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Mvvm.v15.2",
+    "UIAutomationProvider",
+    "UIAutomationTypes",
+    "System.Core"
+  ]
+}

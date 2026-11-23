@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.Marcas",
+  "baseline": "baseline\\Modulo.Marcas.dll",
+  "baseline_sha256": "4c596d0ad5ea1995fa34d85ce2dae918e31fcfdd682dc42f7d7153b162eb107b",
+  "export_project": "recovered\\SuiteG6\\Modulo.Marcas\\Modulo.Marcas.csproj",
+  "sources": [
+    {
+      "path": "MarcaModulo.cs",
+      "export_path": "MarcaModulo.cs",
+      "raw_sha256": "7537c1040d2bdb77c1f83848bd893dbb8db736ef7fc7d24b11d2c51a8b1def63"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "a78540e5cf6d3329352fdcaaf1588ab26c928927d682f7d258a67807014de194"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "67cb7480b32c9d95adfd4bc10cc6f53dfb7eecda9f6a5a460fbbae26e116d939"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8f2e42f200d32a3bac70d5449cc4293076b1467910ace84c23c1ab214faa3ef1"
+    },
+    {
+      "path": "ViewModels\\MarcaAbaViewModel.cs",
+      "export_path": "ViewModels\\MarcaAbaViewModel.cs",
+      "raw_sha256": "ef9459222e7b3a32de89b43ebea4ebc0d568b2474cfc75c51377e7152599d9e3"
+    },
+    {
+      "path": "ViewModels\\MarcaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\MarcaFichaAdicionarViewModel.cs",
+      "raw_sha256": "81eec22128ba4dc97b13a75eb057bd929644120d2fee38ee0f9b8577c88236af"
+    },
+    {
+      "path": "ViewModels\\MarcaFormulario.cs",
+      "export_path": "ViewModels\\MarcaFormulario.cs",
+      "raw_sha256": "c5ef44bb3483a243d259e4072101d61dd79617aefab54bae7b1a3efed1a0ef34"
+    },
+    {
+      "path": "ViewModels\\MarcaListaViewModel.cs",
+      "export_path": "ViewModels\\MarcaListaViewModel.cs",
+      "raw_sha256": "8c517d7188847d58f6dbe2e07efc0db788787dcd84e3754e4703a5cb527650db"
+    },
+    {
+      "path": "ViewModels\\MarcasViewModel.cs",
+      "export_path": "ViewModels\\MarcasViewModel.cs",
+      "raw_sha256": "58f803b0456301e36f421deafdf4677f5c33d43c4df0563d8e11632f71e6ef90"
+    },
+    {
+      "path": "ViewModels\\MarcaViewModel.cs",
+      "export_path": "ViewModels\\MarcaViewModel.cs",
+      "raw_sha256": "1fe7c32640a690702abeba6839ed0988113baf4e9c174c116b37bb50ec3e54fe"
+    },
+    {
+      "path": "Views\\MarcaFichaAdicionarView.cs",
+      "export_path": "Views\\MarcaFichaAdicionarView.cs",
+      "raw_sha256": "74de1f87675a3948d6e89c02b6feeaa6c7c0c429b06949c07aa4ab3e04c05de5"
+    },
+    {
+      "path": "Views\\MarcaFichaViewDetalhes\\MarcaView.cs",
+      "export_path": "Views\\MarcaFichaViewDetalhes\\MarcaView.cs",
+      "raw_sha256": "355e4fbee4d21add33d9e630f7a0e3d50934ea5ff5895adca964e34cb4643228"
+    },
+    {
+      "path": "Views\\MarcaListaView.cs",
+      "export_path": "Views\\MarcaListaView.cs",
+      "raw_sha256": "597b7c0f5c7807697e63a0e942130cda73c85d18dda3bef0ff57ca47163c80d1"
+    },
+    {
+      "path": "Views\\MarcasView.cs",
+      "export_path": "Views\\MarcasView.cs",
+      "raw_sha256": "88d6bdb2341bd7dccdf787ab3adefbf9544b19262ecfb3955ad5c65b7f0fa44a"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Marcas.g.resources",
+      "file": "0000.bin",
+      "bytes": 9090,
+      "sha256": "1e2666d461d19a94a9ca2c1c8bdab7e1b236a47473c12e6f386c9693730df46b"
+    },
+    {
+      "name": "Otus.Modulo.Marcas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

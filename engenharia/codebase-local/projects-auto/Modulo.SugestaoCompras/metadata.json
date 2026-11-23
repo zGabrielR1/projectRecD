@@ -1,0 +1,47 @@
+{
+  "artifactSha256": "d14233d2f1d09c7417eba6b4f31b2792f016032b1b3bc17715ec5805787f1959",
+  "mvid": "72b344f6-6392-4c40-9a61-b1065fe10d29",
+  "assembly": "Modulo.SugestaoCompras, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "WindowsBase",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.SugestaoCompras.g.resources",
+      "file": "0000.bin",
+      "bytes": 37165,
+      "sha256": "be07e1d24113b5c0d878cba39bf834be93bf8379d09d7b3994fedcf438fba951"
+    },
+    {
+      "name": "Otus.Modulo.SugestaoCompras.Reports.ImpressoSugestaoCompra.resources",
+      "file": "0001.bin",
+      "bytes": 6312,
+      "sha256": "c47256b55faf3ce7eadea32130f8b53b9ee0b3bbf582ed90e5bb3d7d811ba876"
+    }
+  ]
+}

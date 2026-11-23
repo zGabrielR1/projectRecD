@@ -1,0 +1,135 @@
+{
+  "name": "Modulo.TributacoesMunicipais",
+  "baseline": "baseline\\Modulo.TributacoesMunicipais.dll",
+  "baseline_sha256": "444bafbeb3afd0016282e03703e6fdc3e2a18a113ab700c98000ece90c94157c",
+  "export_project": "recovered\\SuiteG6\\Modulo.TributacoesMunicipais\\Modulo.TributacoesMunicipais.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "7db3afd30d87c97e131e678b624b5e5efc9e29bcdb4ee5f31067289534d061da"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "d436f465d0466363bd189f2d9eee30c22f313bfb8eceb9f206269783d71b753f"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "76b6c871e227535ecf18b3ab1814b5562bb91f76dd84762c7840dfe2a7fa2364"
+    },
+    {
+      "path": "TributacaoMunicipalModulo.cs",
+      "export_path": "TributacaoMunicipalModulo.cs",
+      "raw_sha256": "9afd283246293daeefb860a91579d2c9edb3b16603f0f262a7f9cd19c61e053a"
+    },
+    {
+      "path": "ViewModels\\CSTISSFactory.cs",
+      "export_path": "ViewModels\\CSTISSFactory.cs",
+      "raw_sha256": "8896db8036364ae9586093d500401243b85a0d3306a9cf4bb78604cce2b2dfe4"
+    },
+    {
+      "path": "ViewModels\\CSTISSIsentoViewModel.cs",
+      "export_path": "ViewModels\\CSTISSIsentoViewModel.cs",
+      "raw_sha256": "8b0ed22986636bc7919906ef32c1b2e79abfa95746fac1ba5ac307880752591b"
+    },
+    {
+      "path": "ViewModels\\CSTISSNormalViewModel.cs",
+      "export_path": "ViewModels\\CSTISSNormalViewModel.cs",
+      "raw_sha256": "8d1a2c23bb5db75025604c5121bd17f0d30d6509fd18896dca32202fe90f8a0b"
+    },
+    {
+      "path": "ViewModels\\CSTISSRetidoViewModel.cs",
+      "export_path": "ViewModels\\CSTISSRetidoViewModel.cs",
+      "raw_sha256": "019b42ec4c8a49df7302003a3ec668b15ae24d00992798efa9ec1391ff80ee9a"
+    },
+    {
+      "path": "ViewModels\\CSTISSSubstitutoViewModel.cs",
+      "export_path": "ViewModels\\CSTISSSubstitutoViewModel.cs",
+      "raw_sha256": "e90fb9ccca3e41d391252316ff00d7123f8d3a14057e3029875430f52745a795"
+    },
+    {
+      "path": "ViewModels\\CSTISSViewModel.cs",
+      "export_path": "ViewModels\\CSTISSViewModel.cs",
+      "raw_sha256": "8956b2cda1dab0a997675e788f2d064000227911e3219c7882d17cf0beca3c93"
+    },
+    {
+      "path": "ViewModels\\TributacaoMunicipalAbaViewModel.cs",
+      "export_path": "ViewModels\\TributacaoMunicipalAbaViewModel.cs",
+      "raw_sha256": "a6dd09b969d7727b6d060d3d74613e4a1e87ba3d48a252d676eecc9cba62c191"
+    },
+    {
+      "path": "ViewModels\\TributacaoMunicipalFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TributacaoMunicipalFichaAdicionarViewModel.cs",
+      "raw_sha256": "b58357b834d85b5d5315663e6fc41f6cb711e91e541cc8a974719e1efb5d59a4"
+    },
+    {
+      "path": "ViewModels\\TributacaoMunicipalFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\TributacaoMunicipalFichaAtualizarViewModel.cs",
+      "raw_sha256": "244b3c3ba06e6782cd4433839f2f8534ab8b0ec03aaff9d9fc981896358c112a"
+    },
+    {
+      "path": "ViewModels\\TributacaoMunicipalFormulario.cs",
+      "export_path": "ViewModels\\TributacaoMunicipalFormulario.cs",
+      "raw_sha256": "85e20a057051023f074fc33aa61892cc96b3a85e345d47a7310d70d972138027"
+    },
+    {
+      "path": "ViewModels\\TributacaoMunicipalListaViewModel.cs",
+      "export_path": "ViewModels\\TributacaoMunicipalListaViewModel.cs",
+      "raw_sha256": "d08e5dd2245b7aed07ebf78d508747753dde11e28673c4aefe8b2056e59dfda1"
+    },
+    {
+      "path": "ViewModels\\TributacaoMunicipalViewModel.cs",
+      "export_path": "ViewModels\\TributacaoMunicipalViewModel.cs",
+      "raw_sha256": "289216226e90a9a0893b75f70bc51f9bbf403dd2dfbdd4c9c81b42627b20036d"
+    },
+    {
+      "path": "ViewModels\\TributacoesMunicipaisViewModel.cs",
+      "export_path": "ViewModels\\TributacoesMunicipaisViewModel.cs",
+      "raw_sha256": "7d6298968cda7001e847da70d4f9f8020caf4c2f1864a91931aaece994f86096"
+    },
+    {
+      "path": "views\\TributacaoMunicipalFichaAdicionarView.cs",
+      "export_path": "views\\TributacaoMunicipalFichaAdicionarView.cs",
+      "raw_sha256": "de53289f26e553b7cafc4849911941d80379cd46c7d7a4f7fb74dc9cbc103711"
+    },
+    {
+      "path": "views\\TributacaoMunicipalFichaAtualizarView.cs",
+      "export_path": "views\\TributacaoMunicipalFichaAtualizarView.cs",
+      "raw_sha256": "ddbfaed967ff5e7717c34610f5b3a7e13cabe482ef94cd9f12737925197f58d3"
+    },
+    {
+      "path": "views\\TributacaoMunicipalListaView.cs",
+      "export_path": "views\\TributacaoMunicipalListaView.cs",
+      "raw_sha256": "cb217d915a7ca93b5d59d035cb2c172720c73884e04af3b8d157127475b560ee"
+    },
+    {
+      "path": "views\\TributacaoMunicipalView.cs",
+      "export_path": "views\\TributacaoMunicipalView.cs",
+      "raw_sha256": "d03b941c9e4ecd8e6d6346868513e918bc8b7bd48dfd6a41d5aecf70eb6f8fd1"
+    },
+    {
+      "path": "views\\TributacoesMunicipaisView.cs",
+      "export_path": "views\\TributacoesMunicipaisView.cs",
+      "raw_sha256": "236aac2930ed4d422350d455e11fcaaca7530ca5f72343dfd4720241a7f85311"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.TributacoesMunicipais.g.resources",
+      "file": "0000.bin",
+      "bytes": 18999,
+      "sha256": "473e6c8d7e5bb84e023cc69ef08af7cdc394f469188bb52b5a520f701c61c1a1"
+    },
+    {
+      "name": "Otus.Modulo.TributacoesMunicipais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

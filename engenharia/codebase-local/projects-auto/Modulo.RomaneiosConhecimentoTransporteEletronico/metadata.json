@@ -1,0 +1,55 @@
+{
+  "artifactSha256": "f6d3f2ea8240784759f5c3f9202bcc22ca6ea9a2126df8345fb10f4704b5df63",
+  "mvid": "26ec6c4f-b77f-4168-b50b-c3a484b1282d",
+  "assembly": "Modulo.RomaneiosConhecimentoTransporteEletronico, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "NClone",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.RomaneiosConhecimentoTransporteEletronico.g.resources",
+      "file": "0000.bin",
+      "bytes": 33003,
+      "sha256": "123c7c139889e51c83d07c6bfced6a220fc7326016b3fbf048ae71d64eff8807"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosConhecimentoTransporteEletronico.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosConhecimentoTransporteEletronico.Reports.CanhotosConhecimentoTransporteEletronicoReferenciado.resources",
+      "file": "0002.bin",
+      "bytes": 5546,
+      "sha256": "2e606aae5388ee58f4110c47f73d50f1bd9e0e3007f2ebc40e50e8fdfe8dbbe2"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosConhecimentoTransporteEletronico.Reports.RomaneioConhecimentoTransporteEletronico.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

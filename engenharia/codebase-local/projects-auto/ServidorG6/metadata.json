@@ -1,0 +1,31 @@
+{
+  "artifactSha256": "cffa5e250c870636489994d725a7d4810de06c457d20e87e6750ab02b1d4a94e",
+  "mvid": "c84412bb-e4f4-4e3f-9ee8-18e64c8d1fbb",
+  "assembly": "ServidorG6, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": "Servidor.App",
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System",
+    "Servidor.Boot",
+    "Prism.Wpf",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm"
+  ],
+  "resources": [
+    {
+      "name": "ServidorG6.g.resources",
+      "file": "0000.bin",
+      "bytes": 109480,
+      "sha256": "3ce3246b4fe2b2cf06d03a1d101e3c3d0f57de3d0960caa5b2cac5c37f4a0320"
+    },
+    {
+      "name": "Servidor.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

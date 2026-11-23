@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "dea18ff6e92fee941a7860a53c89c14cb29c92c3d983ce9d03526b4ff158da3b",
+  "mvid": "b6909a34-5301-4892-a42a-db7e8f5a93dc",
+  "assembly": "Modulo.Promocoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Promocoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 22714,
+      "sha256": "6c994c7469bbe9e92b88dab7099ccb15031baac4f89a112c668b7effc222d788"
+    },
+    {
+      "name": "Otus.Modulo.Promocoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

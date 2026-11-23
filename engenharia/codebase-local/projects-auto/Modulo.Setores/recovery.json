@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.Setores",
+  "baseline": "baseline\\Modulo.Setores.dll",
+  "baseline_sha256": "21ab944afa86bc4e99811cae378195cebd9c8b9523160615686b3375f8b6d90b",
+  "export_project": "recovered\\SuiteG6\\Modulo.Setores\\Modulo.Setores.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f94aae0e2be93fede94e6e7620730ad82ac36bf952033e912e368774e8c37489"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "87c08966ff71245b9833a2e309ec02e21eca2a47b5d6da7fec4ae9fd89398831"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "cee9eb264c0f11fded650c319a71b2612026238691564cce5f7cc020d532936f"
+    },
+    {
+      "path": "SetorModulo.cs",
+      "export_path": "SetorModulo.cs",
+      "raw_sha256": "5499ba92211c440af7925bc661f6ad16a6cd7c8cbc530a024eb0a60281b4cb68"
+    },
+    {
+      "path": "ViewModels\\SetorAbaViewModel.cs",
+      "export_path": "ViewModels\\SetorAbaViewModel.cs",
+      "raw_sha256": "5b267ac72324e5e2df21c656185543c1f16e4a38084ed1ef976f746370e38298"
+    },
+    {
+      "path": "ViewModels\\SetoresViewModel.cs",
+      "export_path": "ViewModels\\SetoresViewModel.cs",
+      "raw_sha256": "adfc7e92786371f3e0204546f8544ee0e6bba4c8ef76425ff990e531f363e8bd"
+    },
+    {
+      "path": "ViewModels\\SetorFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\SetorFichaAdicionarViewModel.cs",
+      "raw_sha256": "5390c721e24675f14386ee4a058f69af53f91d0a1021912eda6d0a9d733efa01"
+    },
+    {
+      "path": "ViewModels\\SetorFormulario.cs",
+      "export_path": "ViewModels\\SetorFormulario.cs",
+      "raw_sha256": "2c3e88da8ec78a5f2ed75a21e9075feab59337f69848874fe3e1530435163785"
+    },
+    {
+      "path": "ViewModels\\SetorListaViewModel.cs",
+      "export_path": "ViewModels\\SetorListaViewModel.cs",
+      "raw_sha256": "52e111cd42ecf7a761f5ed1d2263c19242d119a0be6c2ed365e44bbae2534eba"
+    },
+    {
+      "path": "ViewModels\\SetorViewModel.cs",
+      "export_path": "ViewModels\\SetorViewModel.cs",
+      "raw_sha256": "ae460186c816b28c4557995ef7ca58e0389a9a2a73bd83de97c87d274a68405c"
+    },
+    {
+      "path": "views\\SetoresView.cs",
+      "export_path": "views\\SetoresView.cs",
+      "raw_sha256": "87bf54c5cbf47a26dc95b8e396cca7229e4035df7ebc9e7c190a6266c1352c33"
+    },
+    {
+      "path": "views\\SetorFichaAdicionarView.cs",
+      "export_path": "views\\SetorFichaAdicionarView.cs",
+      "raw_sha256": "b8ff4b8d50c0cf42f0408be2d34f0a7914c7833c85be2b0d3cc03a2b9b69fa6f"
+    },
+    {
+      "path": "views\\SetorFichaViewDetalhes\\SetorView.cs",
+      "export_path": "views\\SetorFichaViewDetalhes\\SetorView.cs",
+      "raw_sha256": "969fa81ad6000944ab092382ccf80918ec2a9a2c5be0addecd18db0a1253570e"
+    },
+    {
+      "path": "views\\SetorListaView.cs",
+      "export_path": "views\\SetorListaView.cs",
+      "raw_sha256": "b6754a43151a6cb5f8bc736613d23ae875f0fe4fb0e078249a20db6887636ecd"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Setores.g.resources",
+      "file": "0000.bin",
+      "bytes": 9543,
+      "sha256": "624b12dcaf1a279cade78b7fbd835b571fd2d4b25d8aa581bb3dab38362e6237"
+    },
+    {
+      "name": "Otus.Modulo.Setores.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

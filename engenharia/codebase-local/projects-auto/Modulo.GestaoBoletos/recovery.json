@@ -1,0 +1,242 @@
+{
+  "name": "Modulo.GestaoBoletos",
+  "baseline": "baseline\\Modulo.GestaoBoletos.dll",
+  "baseline_sha256": "0928bf551e95df4b51ce5d1652eaf9dcba2dfac6a9b286ed238533cbae93bf1a",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoBoletos\\Modulo.GestaoBoletos.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "9bd7028c4fc69e580f02521eade737c8d3811a8a303c8cd99e79ca0b40a3ff6e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "0928bf551e95df4b51ce5d1652eaf9dcba2dfac6a9b286ed238533cbae93bf1a"
+    },
+    {
+      "kind": "Resolve report alignment/disposal, consistent anonymous GroupBy lambda typing, or boxed enum ref-cast syntax"
+    },
+    {
+      "kind": "Resolve boleto entity DTO/null-object type distinct from bank-account boleto configuration DTO",
+      "alias": "using BoletoDto = DigisatServer.Application.Main.Dto.Financeiros.Boleto.BoletoDto;\n"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 25
+    },
+    {
+      "kind": "Resolve report/null-object/helper aliases; infer bank-account Boleto configuration local independently of entity DTO; restore report disposal",
+      "aliases": {
+        "TextAlignment": "DevExpress.XtraPrinting.TextAlignment",
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException",
+        "BoletoDtoNull": "DigisatServer.Application.Main.Dto.Financeiros.Boleto.BoletoDtoNull",
+        "Container": "System.ComponentModel.Container"
+      }
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoBoletos.g.resources",
+      "file": "0000.bin",
+      "bytes": 32068,
+      "sha256": "2c2190e126ed06b736011bf4889b59c4a730f39630d21b20b36e3676a1ef25f1"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Reports.Resumo.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Reports.ResumoRemessa.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Reports.ResumoStatus.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoBoletos.Reports.ResumoStatusRemessa.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.GestaoBoletos.dll.licenses",
+      "file": "0006.bin",
+      "bytes": 284,
+      "sha256": "78e8bc26eadef7078ecce205f91cd13a29334c7fe5485d0dfb447d93aecb0a8c"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "GestaoBoletoModulo.cs",
+      "export_path": "GestaoBoletoModulo.cs",
+      "raw_sha256": "030f41683a2013f639befa1c653e5d51868540bf1b9fc30037723c5ab1576f16"
+    },
+    {
+      "path": "Interfaces\\IGridControlPesquisa.cs",
+      "export_path": "Interfaces\\IGridControlPesquisa.cs",
+      "raw_sha256": "70004fb9819442ab5c6820a6c20cfc03877aef62fb4f5688f1e2b386b266c424"
+    },
+    {
+      "path": "Interfaces\\IModoFuncionamentoService.cs",
+      "export_path": "Interfaces\\IModoFuncionamentoService.cs",
+      "raw_sha256": "beb57afe2110b1129b029c52a4cd205c7f02217e4d248f91df1e9b3d8492c473"
+    },
+    {
+      "path": "Interfaces\\IViewModelGestaoBoleto.cs",
+      "export_path": "Interfaces\\IViewModelGestaoBoleto.cs",
+      "raw_sha256": "5bf0f1498d7ee53a70ba7c59a7710b5c48909ca81b1c9a17df180881d0fb143b"
+    },
+    {
+      "path": "Interfaces\\IViewModelGraficoGestaoBoleto.cs",
+      "export_path": "Interfaces\\IViewModelGraficoGestaoBoleto.cs",
+      "raw_sha256": "fc560cc857a5a35ecd668f75e853a16d98927d1b8bcf583b24f9e7b8cfbf25f8"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "9165c028b9015b27495b00874f272016a585254c8480eaa8567c175252f93a7c"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "6e499772e1d7a2df7e6fc913449ba2a18e22fe03073cfe9ef8cdcd7f3df9980a"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "b94a68c6df9105c5cb2ff62037f31d56f3a316d5ab4d6fbc6588699e80f28c0b"
+    },
+    {
+      "path": "Reports\\Resumo.cs",
+      "export_path": "Reports\\Resumo.cs",
+      "raw_sha256": "a37b83aa58c61e2af254092d94be3e48ab6262b323712c1a30f9dfa59fd10d24"
+    },
+    {
+      "path": "Reports\\ResumoRemessa.cs",
+      "export_path": "Reports\\ResumoRemessa.cs",
+      "raw_sha256": "f70ab52f7cb59c7d38573b6d93d3ad3bb8a23167f9d8eef8f439afb1c5bc39b9"
+    },
+    {
+      "path": "Reports\\ResumoStatus.cs",
+      "export_path": "Reports\\ResumoStatus.cs",
+      "raw_sha256": "13282feae184e41db6bd95e41b2e9487c37974ff30223853b35deb8c4ec84c51"
+    },
+    {
+      "path": "Reports\\ResumoStatusRemessa.cs",
+      "export_path": "Reports\\ResumoStatusRemessa.cs",
+      "raw_sha256": "a861a76c6f73cfe479915cec220f9545feb5faf7688b91affff96f65cf1ad159"
+    },
+    {
+      "path": "Services\\ModoFuncionamentoService.cs",
+      "export_path": "Services\\ModoFuncionamentoService.cs",
+      "raw_sha256": "a06d709bcd7dfeee88556b7a2ac48e4ae8383531aa8826c66988b52ed604538a"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\BoletoBaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\BoletoBaseDetalheViewModel.cs",
+      "raw_sha256": "0ae001ea317de712820bf84a02eb9a313b5d4647f8071dd8bf2b6f21d21a8907"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\BoletoFormulario.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\BoletoFormulario.cs",
+      "raw_sha256": "ef431d67041a7eae65fe5220d4493823bfe4475d8484dc49aea6ffd723ad000b"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\BoletoImprovavelRemessaDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\BoletoImprovavelRemessaDetalheAbaViewModel.cs",
+      "raw_sha256": "39c15610e6cfdd02896f174cd978791f54f479f67b0e24265a68095f67c65258"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\BoletoImprovavelRemessaDetalheViewModel.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\BoletoImprovavelRemessaDetalheViewModel.cs",
+      "raw_sha256": "5160ca03921ca0b8d247df991efda3b6791a70826b33ee04b20fed4aadbac55f"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\BoletoPossivelRemessaDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\BoletoPossivelRemessaDetalheAbaViewModel.cs",
+      "raw_sha256": "c49ce00a76cdb65665d8b403f4376500cd9aad294b6cf3a6ee80d699e59f46f9"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\BoletoPossivelRemessaDetalheViewModel.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\BoletoPossivelRemessaDetalheViewModel.cs",
+      "raw_sha256": "df4337782c18b63613a759f69280b15a011541456a0c97e24e8e3e604da93d01"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\BoletoViewModel.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\BoletoViewModel.cs",
+      "raw_sha256": "0954d5fcbdeec214a84e2c329f567690a7fd014ad127e37bee9de8e12e5b48a0"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\GeracaoArquivoRemessa.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\GeracaoArquivoRemessa.cs",
+      "raw_sha256": "20a1d12a3156415353efad0db53299d3b1cb94d69395218db1320bd30c2ec51a"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\GerenciadorBoletoViewModel.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\GerenciadorBoletoViewModel.cs",
+      "raw_sha256": "fde7a9ca765511428ab72c7445d41819599bad599dd528afce531fbdcfe6fb96"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\ItemResumoViewModel.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\ItemResumoViewModel.cs",
+      "raw_sha256": "1240ec2910798e82e3e5bb58b9a3412eb6f21e75f192f8207e5b0047817f8b9b"
+    },
+    {
+      "path": "ViewModels\\BoletoDetalhesViewModel\\LeituraArquivoRetorno.cs",
+      "export_path": "ViewModels\\BoletoDetalhesViewModel\\LeituraArquivoRetorno.cs",
+      "raw_sha256": "b65e8dcd294f0175a6ad79a9148bd0e7e79ce70a2799163d93ca1842374713c1"
+    },
+    {
+      "path": "ViewModels\\DetalhesViewModel\\BaseDetalheViewModel.cs",
+      "export_path": "ViewModels\\DetalhesViewModel\\BaseDetalheViewModel.cs",
+      "raw_sha256": "c84c41cf11188db36fc90c53bb4265f7717793bf3452c8de7c3866dd042bd49e"
+    },
+    {
+      "path": "ViewModels\\GestaoBoletoPrincipalViewModel.cs",
+      "export_path": "ViewModels\\GestaoBoletoPrincipalViewModel.cs",
+      "raw_sha256": "fc7bf777eb3232892ff97849a1ad4935d4fc9cf4edbfc3ab7264b712eff83593"
+    },
+    {
+      "path": "ViewModels\\GestaoBoletoViewModel.cs",
+      "export_path": "ViewModels\\GestaoBoletoViewModel.cs",
+      "raw_sha256": "fbd82337ac3ef0728b63296ea9a0f5ab03656b02f96982441e83642ffd8971bd"
+    },
+    {
+      "path": "ViewModels\\ResumoViewModel.cs",
+      "export_path": "ViewModels\\ResumoViewModel.cs",
+      "raw_sha256": "963fda383f21b9240815c118bbda4076fa0969970706292ec949e13c1164a101"
+    },
+    {
+      "path": "Views\\GestaoBoletoPrincipalView.cs",
+      "export_path": "Views\\GestaoBoletoPrincipalView.cs",
+      "raw_sha256": "5aeef9f776c2519ef626fa4c9ef75b9feec0b7046a6b56c186a15f0999622c13"
+    },
+    {
+      "path": "Views\\GestaoBoletoView.cs",
+      "export_path": "Views\\GestaoBoletoView.cs",
+      "raw_sha256": "740a87a6c4f9787b7f722bfb8ef83b7653e2dab7959cf463aca1c7f7169ec282"
+    },
+    {
+      "path": "Views\\ResumoView.cs",
+      "export_path": "Views\\ResumoView.cs",
+      "raw_sha256": "dc340baf4cf0e682e13e57364b272bd5c4fc24f04563f7e2ff06b623c25c0fef"
+    }
+  ]
+}

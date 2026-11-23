@@ -1,0 +1,335 @@
+{
+  "name": "Modulo.ControlesEntrega",
+  "baseline": "baseline\\Modulo.ControlesEntrega.dll",
+  "baseline_sha256": "986f800a5343ceb447ce7f102033c0e792940adb3b8733d9977805c7b7aa9e0c",
+  "export_project": "recovered\\SuiteG6\\Modulo.ControlesEntrega\\Modulo.ControlesEntrega.csproj",
+  "sources": [
+    {
+      "path": "ControleEntregaModulo.cs",
+      "export_path": "ControleEntregaModulo.cs",
+      "raw_sha256": "d2c92013f670aaa8c67bed100349487c5aaa056ea752eb4aa2b7dcd3aeba4994"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "984d63a050f316ec742ec9b785c6e51a763333d6c9977b7b19b255eb100ff671"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "3cc1c6622f9fe157c672cb1fc0c99cf2073c30b3d2758b8fd2570f2e12dfd7a2"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "2f6bdbb215196e88f64b7d33bd3dea6a632b0682798a8d4919002e01253e4913"
+    },
+    {
+      "path": "Reports\\ComprovanteEntrega.cs",
+      "export_path": "Reports\\ComprovanteEntrega.cs",
+      "raw_sha256": "9b42dc913c43df72808af6c777362b3e9150c5fafc03591bf229f6bc45976975"
+    },
+    {
+      "path": "Reports\\ComprovanteEntrega40Colunas.cs",
+      "export_path": "Reports\\ComprovanteEntrega40Colunas.cs",
+      "raw_sha256": "627edd8e754429208a88e18c1da7a2a5ea8849b8f087f94f19c6bb38c0176dc1"
+    },
+    {
+      "path": "Reports\\GarantiaEntregaPendente.cs",
+      "export_path": "Reports\\GarantiaEntregaPendente.cs",
+      "raw_sha256": "db350190aca42d01e7ff0ea95bc3b11b93e221f9d1045853d17360c02b4f240e"
+    },
+    {
+      "path": "Reports\\GarantiaEntregaPendente40Colunas.cs",
+      "export_path": "Reports\\GarantiaEntregaPendente40Colunas.cs",
+      "raw_sha256": "f07e6ba285de8c0c5b1371b3c100b90ab0d528fa13cb5077c0ff5cd9cf0ae74d"
+    },
+    {
+      "path": "Reports\\ImpressoControleEntregaConcluido.cs",
+      "export_path": "Reports\\ImpressoControleEntregaConcluido.cs",
+      "raw_sha256": "5f7d1d1da4a20392b6231e33056b93615c92d71091350f6884e3d85a167a816c"
+    },
+    {
+      "path": "Reports\\ImpressoControleEntregaConcluido40Colunas.cs",
+      "export_path": "Reports\\ImpressoControleEntregaConcluido40Colunas.cs",
+      "raw_sha256": "3c2ef4e5f71de039d9bbc1ab9474d5d80f670cefed9eb4be9eb12da8fbf542ab"
+    },
+    {
+      "path": "Reports\\ImpressoControleEntregaPendente.cs",
+      "export_path": "Reports\\ImpressoControleEntregaPendente.cs",
+      "raw_sha256": "063c0fcb9f4cc5c95ed1c3ce97f86aa32f3eaea0d0798362deb51695fc71de21"
+    },
+    {
+      "path": "Reports\\ImpressoControleEntregaPendente40Colunas.cs",
+      "export_path": "Reports\\ImpressoControleEntregaPendente40Colunas.cs",
+      "raw_sha256": "2c4323f84d8952333723aad53b89012a7550a341217cc66f4102c4c0eefa82b4"
+    },
+    {
+      "path": "Resources\\Messages.cs",
+      "export_path": "Resources\\Messages.cs",
+      "raw_sha256": "d9f0797a78a8b98f42ada15b40402e2468ac2df58172c9ffc2e42ed5342962b8"
+    },
+    {
+      "path": "ViewModels\\ControleEntregaAbaViewModel.cs",
+      "export_path": "ViewModels\\ControleEntregaAbaViewModel.cs",
+      "raw_sha256": "de1b8f564e3a41036494b1a1c4a5573d305d5a60692c7625ec3eeb38e2772942"
+    },
+    {
+      "path": "ViewModels\\ControleEntregaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\ControleEntregaFichaAdicionarViewModel.cs",
+      "raw_sha256": "96652ba98326ff60d6a106dd0a982718f18fadb7834e3b85b0b0b621f9ef19af"
+    },
+    {
+      "path": "ViewModels\\ControleEntregaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ControleEntregaFichaAtualizarViewModel.cs",
+      "raw_sha256": "d45b54c8e54f898c59ff9bdcfd81e3831969399e1ed702ff74270fbf3d1793ab"
+    },
+    {
+      "path": "ViewModels\\ControleEntregaFormulario.cs",
+      "export_path": "ViewModels\\ControleEntregaFormulario.cs",
+      "raw_sha256": "157d2a47e4b192524afc5cda36aef2f7b15a795873f354d683ebf0378decb105"
+    },
+    {
+      "path": "ViewModels\\ControleEntregaListaViewModel.cs",
+      "export_path": "ViewModels\\ControleEntregaListaViewModel.cs",
+      "raw_sha256": "8d0681ae13c71d5512953bef70aa3082ee004f11f843dbba2d6ff455385e5776"
+    },
+    {
+      "path": "ViewModels\\ControleEntregaViewModel.cs",
+      "export_path": "ViewModels\\ControleEntregaViewModel.cs",
+      "raw_sha256": "e1bcd6f3ee541dc062e17151cdd263579db0a682a715005b48372f4f10a065e9"
+    },
+    {
+      "path": "ViewModels\\ControlesEntregaViewModel.cs",
+      "export_path": "ViewModels\\ControlesEntregaViewModel.cs",
+      "raw_sha256": "27044356971882ebc63a20888432241fcd3abb7a35749ae1c4eeeac6b23f06f9"
+    },
+    {
+      "path": "ViewModels\\ItemEntregaViewModel.cs",
+      "export_path": "ViewModels\\ItemEntregaViewModel.cs",
+      "raw_sha256": "6248cbd3a38ccdfe634f7cda239628a87eeb5983783d67d4d9a102b60c7ded83"
+    },
+    {
+      "path": "ViewModels\\ObservacaoControleEntregaAbaViewModel.cs",
+      "export_path": "ViewModels\\ObservacaoControleEntregaAbaViewModel.cs",
+      "raw_sha256": "b9a69b3ceddb2edc05f15883996d99733ee55b9273fdae36ae467420d4294196"
+    },
+    {
+      "path": "ViewModels\\ObservacaoControleEntregaViewModel.cs",
+      "export_path": "ViewModels\\ObservacaoControleEntregaViewModel.cs",
+      "raw_sha256": "2cc27f3b3bb5896f6b737060670f7bcb411f614c47ffcfd33d0b2774b738f4e3"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\EnderecoCobrancaEstrangeiroViewModel.cs",
+      "export_path": "ViewModels\\Pessoa\\EnderecoCobrancaEstrangeiroViewModel.cs",
+      "raw_sha256": "43ee9647ecde2fcb7ec9cfbefa1b99fe449421ab7753224230605abb5a9dbd27"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\EnderecoCobrancaNacionalViewModel.cs",
+      "export_path": "ViewModels\\Pessoa\\EnderecoCobrancaNacionalViewModel.cs",
+      "raw_sha256": "f7de6dea0785e0ac5221a0d3905c7594536c24452a366dded084c70210a01358"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\EnderecoEntregaEstrangeiroViewModel.cs",
+      "export_path": "ViewModels\\Pessoa\\EnderecoEntregaEstrangeiroViewModel.cs",
+      "raw_sha256": "fd674843bc3ff561f6060e5081a1bf9b9393da4f6dec15b6a96c7caf5f6c9389"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\EnderecoEntregaNacionalViewModel.cs",
+      "export_path": "ViewModels\\Pessoa\\EnderecoEntregaNacionalViewModel.cs",
+      "raw_sha256": "ea79d7ed1766a734cd87ce57ab28b8eaf659e810cdd4839605b4636a34df413d"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\EnderecoEstrangeiroViewModel.cs",
+      "export_path": "ViewModels\\Pessoa\\EnderecoEstrangeiroViewModel.cs",
+      "raw_sha256": "c4490cb163a3131e54c13a6117fc3df89fdd85998a699bf7199ca79e34363fc0"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\EnderecoNacionalViewModel.cs",
+      "export_path": "ViewModels\\Pessoa\\EnderecoNacionalViewModel.cs",
+      "raw_sha256": "1464122b102383654b90089689d8221d93ffd410fa8468db6d7bb9086fb9629e"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\EnderecoViewModel.cs",
+      "export_path": "ViewModels\\Pessoa\\EnderecoViewModel.cs",
+      "raw_sha256": "ae2c95b764b2c14fd5a8e6ce5f817fe0f566ba072dc99f00b6071b6973f3cf1d"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\EnderecoViewModelFactory.cs",
+      "export_path": "ViewModels\\Pessoa\\EnderecoViewModelFactory.cs",
+      "raw_sha256": "090a8f4bb1932f8f21cfbbbf980f55a1a1f2f72bee3d47522169550854e6d3cb"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\PessoaDetalheViewModel.cs",
+      "export_path": "ViewModels\\Pessoa\\PessoaDetalheViewModel.cs",
+      "raw_sha256": "41379d163d1fe71b004d72fccd9b38c394abd89fed74336853eee8820c0c05e8"
+    },
+    {
+      "path": "ViewModels\\Pessoa\\PessoaHistoricoViewModel.cs",
+      "export_path": "ViewModels\\Pessoa\\PessoaHistoricoViewModel.cs",
+      "raw_sha256": "570fcdfaf4e2cd984a3e769d87714f2bc1a0a06417cd1d57a5bdc6ba3873bc55"
+    },
+    {
+      "path": "ViewModels\\RegistroEntregaAbaViewModel.cs",
+      "export_path": "ViewModels\\RegistroEntregaAbaViewModel.cs",
+      "raw_sha256": "e55b385c96d8b69d139a575ec821afb06119b840de713b2d4eff884981361098"
+    },
+    {
+      "path": "ViewModels\\RegistroEntregaFichaViewModel.cs",
+      "export_path": "ViewModels\\RegistroEntregaFichaViewModel.cs",
+      "raw_sha256": "44e9f2f552199dc0ee31a12a48753baaf4b654112bea6a521bfd6ad50559f687"
+    },
+    {
+      "path": "ViewModels\\RegistroEntregaFormulario.cs",
+      "export_path": "ViewModels\\RegistroEntregaFormulario.cs",
+      "raw_sha256": "0e34befde71f38ac2e6d3b86b6027a00a1b2e4aaf5e67cd9caecc63ed299d5c2"
+    },
+    {
+      "path": "ViewModels\\RegistroEntregaViewModel.cs",
+      "export_path": "ViewModels\\RegistroEntregaViewModel.cs",
+      "raw_sha256": "a6e4094b18445d86a1db6f1a6a034e82e50f7c852f8e579ece746e3c0e40aae4"
+    },
+    {
+      "path": "Views\\ControleEntregaFichaAdicionarView.cs",
+      "export_path": "Views\\ControleEntregaFichaAdicionarView.cs",
+      "raw_sha256": "0198ac213aaf9bca2c3b8e0ac8c6b97d77f8f559105f84d7a6b9a38c025d40bf"
+    },
+    {
+      "path": "Views\\ControleEntregaFichaAtualizarView.cs",
+      "export_path": "Views\\ControleEntregaFichaAtualizarView.cs",
+      "raw_sha256": "94d335ed15cd6d5e07d4430105f3ef01918d30ba7122d722772e8a6ed11715e1"
+    },
+    {
+      "path": "Views\\ControleEntregaFichaViewDetalhes\\ControleEntregaView.cs",
+      "export_path": "Views\\ControleEntregaFichaViewDetalhes\\ControleEntregaView.cs",
+      "raw_sha256": "cc95a0bedb4a1d9f13e80a3a07745bc3e0781d070f8006315155e86bbceb0a79"
+    },
+    {
+      "path": "Views\\ControleEntregaFichaViewDetalhes\\ItensControleEntregaView.cs",
+      "export_path": "Views\\ControleEntregaFichaViewDetalhes\\ItensControleEntregaView.cs",
+      "raw_sha256": "ea201a8a37da818d19961f657f5337af6c472feee7caa8bbe72ef3172567e27e"
+    },
+    {
+      "path": "Views\\ControleEntregaFichaViewDetalhes\\ObservacaoControleEntregaView.cs",
+      "export_path": "Views\\ControleEntregaFichaViewDetalhes\\ObservacaoControleEntregaView.cs",
+      "raw_sha256": "1cc61ef071d1b05230c751f290dbd21dd86f42791c913959026a10f82ac97581"
+    },
+    {
+      "path": "Views\\ControleEntregaFichaViewDetalhes\\PessoaDetalheView.cs",
+      "export_path": "Views\\ControleEntregaFichaViewDetalhes\\PessoaDetalheView.cs",
+      "raw_sha256": "1a6473f8ba1873ce58da361a46bb9c58c0ce58ec50a94d643953f9cdaa963708"
+    },
+    {
+      "path": "Views\\ControleEntregaFichaViewDetalhes\\RegistroEntregaView.cs",
+      "export_path": "Views\\ControleEntregaFichaViewDetalhes\\RegistroEntregaView.cs",
+      "raw_sha256": "5156551ce583c8e012dbae07dc9f7b0ee76628b59df9603566f4e6768ce0a3a4"
+    },
+    {
+      "path": "Views\\ControleEntregaListaView.cs",
+      "export_path": "Views\\ControleEntregaListaView.cs",
+      "raw_sha256": "531722bf768ac0039309083d8062cdb867389ae51cca361ac331daef1e87de48"
+    },
+    {
+      "path": "Views\\ControlesEntregaView.cs",
+      "export_path": "Views\\ControlesEntregaView.cs",
+      "raw_sha256": "92726e45c41b4b0437d4c246acf6e4e0b37fffe19355a13805b54801d950c2c4"
+    },
+    {
+      "path": "Views\\LinkImprimir.cs",
+      "export_path": "Views\\LinkImprimir.cs",
+      "raw_sha256": "e55fbb05965ce94f966bcdc9090a6e94f9ce832356b65c9deb657a4a8e3ae893"
+    },
+    {
+      "path": "Views\\LinkImprimirGarantiaEntregaPendente.cs",
+      "export_path": "Views\\LinkImprimirGarantiaEntregaPendente.cs",
+      "raw_sha256": "35f6ee79f74bd33f3861960add529785d96b47ca57bb65f492829569b1532700"
+    },
+    {
+      "path": "Views\\LinkRegistrarEntrega.cs",
+      "export_path": "Views\\LinkRegistrarEntrega.cs",
+      "raw_sha256": "a835115055ff69264700511c0eb844d73e1253d40090e2805ded6f777b5213a9"
+    },
+    {
+      "path": "Views\\RegistroEntregaFichaView.cs",
+      "export_path": "Views\\RegistroEntregaFichaView.cs",
+      "raw_sha256": "196f44de5e4e3596beb33d02bbe9aa3ca4840271af5c211606a83af2a5509996"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.ControlesEntrega.g.resources",
+      "file": "0000.bin",
+      "bytes": 53303,
+      "sha256": "26b560990303dd53669d2f198b4c5ecf7ab4b67db3a04f8cdeb69b0ac0ccbd0c"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ComprovanteEntrega40Colunas.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ComprovanteEntrega.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.GarantiaEntregaPendente40Colunas.resources",
+      "file": "0004.bin",
+      "bytes": 8646,
+      "sha256": "4f276013814eabe808a029da14e89de97acd13d65558b6fde144d3cb01362f74"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ImpressoControleEntregaConcluido40Colunas.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ImpressoControleEntregaConcluido.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.GarantiaEntregaPendente.resources",
+      "file": "0007.bin",
+      "bytes": 7652,
+      "sha256": "4d6298ae3033c2fc07fc3f46f6fe0b16dee869d7f6db4dedc8f51573ebd6c9f5"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ImpressoControleEntregaPendente40Colunas.resources",
+      "file": "0008.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Reports.ImpressoControleEntregaPendente.resources",
+      "file": "0009.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ControlesEntrega.Resources.Messages.resources",
+      "file": "0010.bin",
+      "bytes": 273,
+      "sha256": "dd2a7094c167cead8b84c834bdef667ab8c42d06049bc3f62005c471a7249f81"
+    },
+    {
+      "name": "Modulo.ControlesEntrega.dll.licenses",
+      "file": "0011.bin",
+      "bytes": 287,
+      "sha256": "9572c18aeead5beb82c3f15d6b418d39882e5a977b8ac9f0be67668a3bdcf634"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Modulo.AtualizacoesGrupoComplementos",
+  "baseline": "baseline\\Modulo.AtualizacoesGrupoComplementos.dll",
+  "baseline_sha256": "2ea0e098f3af34d528d58c3e2db45fc732af56fc21acae0d52b208b43b9c076d",
+  "export_project": "recovered\\SuiteG6\\Modulo.AtualizacoesGrupoComplementos\\Modulo.AtualizacoesGrupoComplementos.csproj",
+  "sources": [
+    {
+      "path": "AtualizacaoGrupoComplementoModulo.cs",
+      "export_path": "AtualizacaoGrupoComplementoModulo.cs",
+      "raw_sha256": "d8267909e473ddcc4ee50c9c2c7cde1188a86bd73c5fad20f689fc51dcf4b7d4"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "249dbd09c4eb9170572bb423c75293a84cc24119d5b38c7c280cdb954146b46f"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "8b7fd58291b620e73f484fbd87f0cf218b331b60203e5fc7c4847411014f9791"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "4ead44447875086b0107e1d6e4dfcb64d1106a55b1c1f34884361163631a5a80"
+    },
+    {
+      "path": "ViewModels\\AtualizacaoGrupoComplementoFichaViewModel.cs",
+      "export_path": "ViewModels\\AtualizacaoGrupoComplementoFichaViewModel.cs",
+      "raw_sha256": "282c36b65c7bc68e78e979a2b69919196e267bf7d8ae085f0d6f196fbc245acf"
+    },
+    {
+      "path": "ViewModels\\AtualizacoesGrupoComplementoViewModel.cs",
+      "export_path": "ViewModels\\AtualizacoesGrupoComplementoViewModel.cs",
+      "raw_sha256": "782e0c3668a92b09dbbd5f6dd4a04717295405d82efc3b86d02b235916f0d9b8"
+    },
+    {
+      "path": "ViewModels\\GrupoComplementoMenuRapidoViewModel.cs",
+      "export_path": "ViewModels\\GrupoComplementoMenuRapidoViewModel.cs",
+      "raw_sha256": "7036aaadaba9775b3ee1a5736b3206ebf720cd9c708cc040472b0ae36448c9dd"
+    },
+    {
+      "path": "Views\\AtualizacaoGrupoComplementoFichaView.cs",
+      "export_path": "Views\\AtualizacaoGrupoComplementoFichaView.cs",
+      "raw_sha256": "9ed7214ea167a529ed1ba17aa7a76250a7b9b194dcd186bb2e4f97792acafa13"
+    },
+    {
+      "path": "Views\\AtualizacoesGrupoComplementoView.cs",
+      "export_path": "Views\\AtualizacoesGrupoComplementoView.cs",
+      "raw_sha256": "c1fcf8e4f7f7a0d7a837cdabf60cd39981e6a1497be8a261a4d93592b1358007"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.AtualizacoesGrupoComplementos.g.resources",
+      "file": "0000.bin",
+      "bytes": 9020,
+      "sha256": "7aaf849772610fe01ccfc19fbff4a20b372719d1c8680c55c70a63433c9075e6"
+    },
+    {
+      "name": "Otus.Modulo.AtualizacoesGrupoComplementos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,99 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.PixPinPad",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.PixPinPad.dll",
+  "baseline_sha256": "516cc740643aff8f2a6a9d8fd2370b53a67d04e9b1f5a71384d8047abd7bb781",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.PixPinPad\\DigisatServer.Infrastructure.Crosscutting.PixPinPad.csproj",
+  "sources": [
+    {
+      "path": "Classes\\PinPadGerenciadorFactory.cs",
+      "export_path": "Classes\\PinPadGerenciadorFactory.cs",
+      "raw_sha256": "6cbc5279de3561c2ea8adff5a80924e3b63a4bec29dfa1d0b45551b61c815416"
+    },
+    {
+      "path": "Classes\\PixPinPadDefault.cs",
+      "export_path": "Classes\\PixPinPadDefault.cs",
+      "raw_sha256": "040efc420b13980030ba7788f50e8242d38dc4cb5579816a1775b81a6fb8c810"
+    },
+    {
+      "path": "Classes\\Shipay\\Shipay.cs",
+      "export_path": "Classes\\Shipay\\Shipay.cs",
+      "raw_sha256": "837b1a967deb7ddf130b9833e89b1c43b79ec0a37ac9244e9d74018ed3e5bda3"
+    },
+    {
+      "path": "Classes\\Shipay\\ShipayDefault.cs",
+      "export_path": "Classes\\Shipay\\ShipayDefault.cs",
+      "raw_sha256": "a9d14c7aa56642c406307ca4dbba0196c5a9dd177b3332c2c35a14dd5fa52532"
+    },
+    {
+      "path": "Classes\\Shipay\\ShipayPix7.cs",
+      "export_path": "Classes\\Shipay\\ShipayPix7.cs",
+      "raw_sha256": "db4a2b862ecd755d7b53d92e40b1750ecae6f40fc8bfb80c8f52ceefa4981981"
+    },
+    {
+      "path": "Classes\\Shipay\\ShipayPix7Constants.cs",
+      "export_path": "Classes\\Shipay\\ShipayPix7Constants.cs",
+      "raw_sha256": "8c3398bfdf63d5fbf561ae9a16e407116f4da0610543486f41b0ca413b278126"
+    },
+    {
+      "path": "Classes\\Shipay\\ShipayPix7Crypto.cs",
+      "export_path": "Classes\\Shipay\\ShipayPix7Crypto.cs",
+      "raw_sha256": "3d3c34a5c49d2b79b946f2a1ac52658204b5b6f876fc90c81c11c79944fbacf0"
+    },
+    {
+      "path": "Classes\\Shipay\\ShipayPix7Native.cs",
+      "export_path": "Classes\\Shipay\\ShipayPix7Native.cs",
+      "raw_sha256": "1f68922f523d9eb37455dff8076bac2988dba43494544f44ae2cdfea03350091"
+    },
+    {
+      "path": "Classes\\Shipay\\ShipayPix7PublicKeys.cs",
+      "export_path": "Classes\\Shipay\\ShipayPix7PublicKeys.cs",
+      "raw_sha256": "202dd22715b1866bdcc7d09e63011d4b058a6707604df6fc3f8f068d866d58cf"
+    },
+    {
+      "path": "Interfaces\\IDisplayFactory.cs",
+      "export_path": "Interfaces\\IDisplayFactory.cs",
+      "raw_sha256": "00e6636e8dafafaba5d9642abc4e7fc140e2e8de09b46e52af587c059b7b2037"
+    },
+    {
+      "path": "Interfaces\\IPixPinPad.cs",
+      "export_path": "Interfaces\\IPixPinPad.cs",
+      "raw_sha256": "7c9fcd9236de9c0c1d2c26cf7b9a301c7f8796ab40ea1439ae1fbe1bf35c4f8b"
+    },
+    {
+      "path": "Interfaces\\IPixPinPadGerenciadorFactory.cs",
+      "export_path": "Interfaces\\IPixPinPadGerenciadorFactory.cs",
+      "raw_sha256": "97d79b85d5c853bb95caacd0defacf80fe754b9fe8567dce462ce4406e1d2548"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "a2431bdd938c88bd566b71abda41ef14089e2d3305a7a019ee8598d5f892bfaf"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "d984764e41ee374e13a94234f5f1a9c99df2af2e5d0e47d1b56e8d78a49b457e"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "3932ec63fcf8c788229833ee874e4e569a0fef2ba770ebd3cb46e47b4705e96e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Qualify System.IO.File methods shadowed by sibling File namespace",
+      "occurrences": 2
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.PixPinPad.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

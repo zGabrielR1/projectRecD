@@ -1,0 +1,107 @@
+{
+  "name": "Modulo.Comissoes",
+  "baseline": "baseline\\Modulo.Comissoes.dll",
+  "baseline_sha256": "c83b6a951019e1f0feffc5be5051041dc257da2b77002f75462f5a6f3e32bb27",
+  "export_project": "recovered\\SuiteG6\\Modulo.Comissoes\\Modulo.Comissoes.csproj",
+  "sources": [
+    {
+      "path": "ComissaoModulo.cs",
+      "export_path": "ComissaoModulo.cs",
+      "raw_sha256": "134fb09c43add98f6f2674fe68023eddb7707b6b546f94e6cf0b966b2c641fa9"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "22460a2ce8a7894f5fa2ac5d753608615b483baf6b4e54565f277de1d93dc874"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "e3b71178c39abb0a8e82c0d06c0fcb16707506acd6fea47ee1d9a93481076834"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "4f9932ea1f80a062088c72628803acc06fb1f149e88f75130d393f75417e4108"
+    },
+    {
+      "path": "Reports\\RelatorioComissoes.cs",
+      "export_path": "Reports\\RelatorioComissoes.cs",
+      "raw_sha256": "603648c6ee7fad4378344b67421ceea41ccde54e9902e6090a688261fabfbc78"
+    },
+    {
+      "path": "ViewModels\\ComissaoAbaViewModel.cs",
+      "export_path": "ViewModels\\ComissaoAbaViewModel.cs",
+      "raw_sha256": "c47c9921386b3725cf2b59e7f9a456f004634d1ba031a7e0ba61c661e19835b1"
+    },
+    {
+      "path": "ViewModels\\ComissaoFichaViewModel.cs",
+      "export_path": "ViewModels\\ComissaoFichaViewModel.cs",
+      "raw_sha256": "58a2a3728a5c004f44858882dfe86729dce54b2fea17de99efca4c53d6a81ac3"
+    },
+    {
+      "path": "ViewModels\\ComissaoFormulario.cs",
+      "export_path": "ViewModels\\ComissaoFormulario.cs",
+      "raw_sha256": "bd93dccddd06cb9a920cd30e8629079e42403f90c8ac9de005650185ec7a0439"
+    },
+    {
+      "path": "ViewModels\\ComissaoViewModel.cs",
+      "export_path": "ViewModels\\ComissaoViewModel.cs",
+      "raw_sha256": "b34a2807d5f8c8d3ef079a8846907c474c2a14ed27b23dd09037be97b22b623c"
+    },
+    {
+      "path": "ViewModels\\ComissoesViewModel.cs",
+      "export_path": "ViewModels\\ComissoesViewModel.cs",
+      "raw_sha256": "46323de3d1de4a6d5eb99997a2f9e120c75ab5692c6ec8268e97dc0957688e75"
+    },
+    {
+      "path": "ViewModels\\ItemComissaoViewModel.cs",
+      "export_path": "ViewModels\\ItemComissaoViewModel.cs",
+      "raw_sha256": "5f5d7658c53fc4e173e01b51229164ca78c93e8987e11789e3d808844c1b9ee7"
+    },
+    {
+      "path": "Views\\ComissaoFichaView.cs",
+      "export_path": "Views\\ComissaoFichaView.cs",
+      "raw_sha256": "40c602a477f48d96dea3da184708f30004fcf03a8a30f953174a119128c8bc5d"
+    },
+    {
+      "path": "Views\\ComissaoFichaViewDetalhes\\ComissaoView.cs",
+      "export_path": "Views\\ComissaoFichaViewDetalhes\\ComissaoView.cs",
+      "raw_sha256": "5ecb65dd8fd768d832de2c8e88d59545cec915646602f1b157a6e5ae0f5b6f48"
+    },
+    {
+      "path": "Views\\ComissoesView.cs",
+      "export_path": "Views\\ComissoesView.cs",
+      "raw_sha256": "c05412fea09cfe132fa146ab42a85260f45ad73e3ae46b61575836f483e8e3a4"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Comissoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 14635,
+      "sha256": "b714f586d620985e0510b30b55333bc7229325e8c31b36ca6304c8223e1bb11f"
+    },
+    {
+      "name": "Otus.Modulo.Comissoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Comissoes.Reports.RelatorioComissoes.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Comissoes.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 280,
+      "sha256": "c1c67fea409eeac7bac146be0d51450579e83ca39c4dfd671636eb1c461f85a2"
+    }
+  ],
+  "generated_stubs": false
+}

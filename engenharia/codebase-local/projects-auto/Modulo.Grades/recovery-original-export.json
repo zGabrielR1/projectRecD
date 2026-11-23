@@ -1,0 +1,160 @@
+{
+  "name": "Modulo.Grades",
+  "baseline": "baseline\\Modulo.Grades.dll",
+  "baseline_sha256": "87b3cebd493424b49a8195e38a369c1b19381f0a6cd3b7e392799f8ec184895a",
+  "export_project": "recovered\\SuiteG6\\Modulo.Grades\\Modulo.Grades.csproj",
+  "sources": [
+    {
+      "path": "GradeModulo.cs",
+      "export_path": "GradeModulo.cs",
+      "raw_sha256": "7a18636bc433bb04a6795133f332bf878db959f01b2129d4abee9606a2bf9cab"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "58ea57cd8bb274dd6853a18382e738403ea314de798f4c8a93843eede3b153ee"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "70182ae785f9081398d7703967c17147b0ef464cf40eb56feaaec517ad493eee"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "a10aac9087c824ba1b3cc0147f4d3e32045e564cb0f906750374aa6288aa8d44"
+    },
+    {
+      "path": "ViewModels\\ColunasAbaViewModel.cs",
+      "export_path": "ViewModels\\ColunasAbaViewModel.cs",
+      "raw_sha256": "1127402e35643eb5d126130d564579a5117079796f87d4ad820f8f414e2e31d5"
+    },
+    {
+      "path": "ViewModels\\ColunasViewModel.cs",
+      "export_path": "ViewModels\\ColunasViewModel.cs",
+      "raw_sha256": "ad26f7d87b5dc80d7316ad6d495dde3607be391b54babcbcb17d4cc2038d8e81"
+    },
+    {
+      "path": "ViewModels\\GradeAbaViewModel.cs",
+      "export_path": "ViewModels\\GradeAbaViewModel.cs",
+      "raw_sha256": "43ec1db929b39ad9c552cb24c48d5da44a380a941b286d2f7ccce795263e5f92"
+    },
+    {
+      "path": "ViewModels\\GradeFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\GradeFichaAdicionarViewModel.cs",
+      "raw_sha256": "b41b60179e3747e68c566409786b20373d19ae84e454ae81becdf22c73c1f5d1"
+    },
+    {
+      "path": "ViewModels\\GradeFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\GradeFichaAtualizarViewModel.cs",
+      "raw_sha256": "cc52892c7ed8a415e0c64754751d71a731938db63fb331dc1b4bd868f85665da"
+    },
+    {
+      "path": "ViewModels\\GradeFormulario.cs",
+      "export_path": "ViewModels\\GradeFormulario.cs",
+      "raw_sha256": "d055ddbc50e4a61eac614c097b6ffa3cfd3436b87be130093813f321cbb0dd39"
+    },
+    {
+      "path": "ViewModels\\GradeListaViewModel.cs",
+      "export_path": "ViewModels\\GradeListaViewModel.cs",
+      "raw_sha256": "6daa3fa8615c5871298cd0a58ac2418f11b890a8ce4f29c3cb302da3b454ec6f"
+    },
+    {
+      "path": "ViewModels\\GradesViewModel.cs",
+      "export_path": "ViewModels\\GradesViewModel.cs",
+      "raw_sha256": "4661db621146306c8508aa9e3718a4be461a10a4dcc799eab6240387f360887e"
+    },
+    {
+      "path": "ViewModels\\GradeViewModel.cs",
+      "export_path": "ViewModels\\GradeViewModel.cs",
+      "raw_sha256": "6a14b09603a2364ec25c9bc5187400df0ab0d37d66aa295175691ac1af46c7df"
+    },
+    {
+      "path": "ViewModels\\LinhaColunaViewModel.cs",
+      "export_path": "ViewModels\\LinhaColunaViewModel.cs",
+      "raw_sha256": "ce26eec324a825bcef920a96f0349f17660de0bff8b3342031327eb9b30fe74a"
+    },
+    {
+      "path": "ViewModels\\LinhasAbaViewModel.cs",
+      "export_path": "ViewModels\\LinhasAbaViewModel.cs",
+      "raw_sha256": "5cf1204ca95f844f055529873a8d50b68f017ebbb59bd5f6965ee86b70ada805"
+    },
+    {
+      "path": "ViewModels\\LinhasColunas.cs",
+      "export_path": "ViewModels\\LinhasColunas.cs",
+      "raw_sha256": "8a49301a0b2d6a8d2332373944be604c820499b438f569fdb9b3315ab1d71abc"
+    },
+    {
+      "path": "ViewModels\\LinhasColunasViewModel.cs",
+      "export_path": "ViewModels\\LinhasColunasViewModel.cs",
+      "raw_sha256": "1df05b06f6a416423bbc78d706bb2361cd5498c1d5783a9d3eb293099a478f8c"
+    },
+    {
+      "path": "ViewModels\\LinhasViewModel.cs",
+      "export_path": "ViewModels\\LinhasViewModel.cs",
+      "raw_sha256": "1e348cc4d3f9373c0688fea361cd5fd6c45a6304a5dabe17315d4b7217c6e87d"
+    },
+    {
+      "path": "ViewModels\\VisualizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\VisualizacaoAbaViewModel.cs",
+      "raw_sha256": "42b98c3f64dfd75acb1b71acbf6667dbb7e08f3c49df50c22f0425d9c792495a"
+    },
+    {
+      "path": "ViewModels\\VisualizacaoViewModel.cs",
+      "export_path": "ViewModels\\VisualizacaoViewModel.cs",
+      "raw_sha256": "a9e74be75717e94577bd5fa568b6ac83d211e95f3538a8dabcbd612600e18ac3"
+    },
+    {
+      "path": "Views\\GradeFichaAdicionarView.cs",
+      "export_path": "Views\\GradeFichaAdicionarView.cs",
+      "raw_sha256": "aba720a3e2f000c63e7a8094fed2bc40ab21d834d8c17b227cd0a66a18a7e491"
+    },
+    {
+      "path": "Views\\GradeFichaAtualizarView.cs",
+      "export_path": "Views\\GradeFichaAtualizarView.cs",
+      "raw_sha256": "df3ebbbe9886c5c1f7c425fee3cb536a6ff5a3f69dcd0bbe9155f46ee7c4d1e2"
+    },
+    {
+      "path": "Views\\GradeFichaViewDetalhes\\GradeView.cs",
+      "export_path": "Views\\GradeFichaViewDetalhes\\GradeView.cs",
+      "raw_sha256": "d52d67e0bfce8a23103eb57f8076171b1572bedb35ff22073d3f298202bb854c"
+    },
+    {
+      "path": "Views\\GradeFichaViewDetalhes\\LinhasColunasView.cs",
+      "export_path": "Views\\GradeFichaViewDetalhes\\LinhasColunasView.cs",
+      "raw_sha256": "e66e07c65e5e2aa0016b2ac36a06ce073c42992d0c809938292e1ac20176e15a"
+    },
+    {
+      "path": "Views\\GradeFichaViewDetalhes\\VisualizacaoView.cs",
+      "export_path": "Views\\GradeFichaViewDetalhes\\VisualizacaoView.cs",
+      "raw_sha256": "21a0fe5ecc7c3fdbdd6f35a78c89881490460b242c67ddab1f59d7e15999c1b7"
+    },
+    {
+      "path": "Views\\GradeListaView.cs",
+      "export_path": "Views\\GradeListaView.cs",
+      "raw_sha256": "0c90496eae8454e5e5b5d50afb42dec99b96015cf0d7a23cfa3b50dac57286ef"
+    },
+    {
+      "path": "Views\\GradesView.cs",
+      "export_path": "Views\\GradesView.cs",
+      "raw_sha256": "7550de6097ffdeb11a30e76664aecc865df77caa767cba372b414503cf8e813b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Grades.g.resources",
+      "file": "0000.bin",
+      "bytes": 22600,
+      "sha256": "d5da2a1bbc7ff78dfdcc6ef8dac08950f6f972175a2a4e76fc610150e171adfb"
+    },
+    {
+      "name": "Otus.Modulo.Grades.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

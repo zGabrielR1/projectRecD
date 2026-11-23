@@ -1,0 +1,24 @@
+{
+  "artifactSha256": "3a295dd17b8d21e84ababa4fa6c45f241d66561fd797695eeae554a6b33133ed",
+  "mvid": "53c622df-872f-4435-b210-dd6704dd2f7d",
+  "assembly": "DigisatServer.Other.SatService.Infraestrutura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "System.Runtime.Serialization",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Xml",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Other.SatService.Infraestrutura.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

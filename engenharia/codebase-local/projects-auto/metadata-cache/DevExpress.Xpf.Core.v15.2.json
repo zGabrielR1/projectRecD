@@ -1,0 +1,25 @@
+{
+  "assembly": "DevExpress.Xpf.Core.v15.2, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "PresentationFramework",
+    "WindowsBase",
+    "mscorlib",
+    "UIAutomationProvider",
+    "PresentationCore",
+    "System",
+    "System.Xaml",
+    "System.Windows.Forms",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Core",
+    "UIAutomationTypes",
+    "System.Drawing",
+    "System.Xml.Linq",
+    "System.Configuration",
+    "System.Xml",
+    "System.ServiceModel",
+    "System.Data",
+    "System.ComponentModel.DataAnnotations"
+  ]
+}

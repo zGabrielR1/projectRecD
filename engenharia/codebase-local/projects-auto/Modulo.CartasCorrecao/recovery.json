@@ -1,0 +1,112 @@
+{
+  "name": "Modulo.CartasCorrecao",
+  "baseline": "baseline\\Modulo.CartasCorrecao.dll",
+  "baseline_sha256": "444debbbebc105386e10f9a62406781775afdea6f31a1e24386047f1766af6d0",
+  "export_project": "recovered\\SuiteG6\\Modulo.CartasCorrecao\\Modulo.CartasCorrecao.csproj",
+  "sources": [
+    {
+      "path": "CartaCorrecaoModulo.cs",
+      "export_path": "CartaCorrecaoModulo.cs",
+      "raw_sha256": "377184cf0825b0d24c0bf2b65c5f71f812d35207ff406d6f3c631ed86ccdf730"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "8867c59e1b3fb335272e7888f6a28ade9189aa56e160490a9adb864b8f88e310"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "54f53aa6f214add83aba58ce30b360a900c74a67b8e3934937a9260181c46911"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "285d43c3b93e748e4f884a3bbd1055fbdbe12cce9ec4089a27c1dfc412748e6f"
+    },
+    {
+      "path": "Reports\\RelatorioCartaCorrecao.cs",
+      "export_path": "Reports\\RelatorioCartaCorrecao.cs",
+      "raw_sha256": "3232d80ce4c93166965836c9721072a8fadd18ddf72a7dc8843c07a108fb21c8"
+    },
+    {
+      "path": "ViewModels\\CartaCorrecaoAbaViewModel.cs",
+      "export_path": "ViewModels\\CartaCorrecaoAbaViewModel.cs",
+      "raw_sha256": "1d3a95ce5fc873f07ab415373e55e4657693269aa34a129ec131d74b5143d7bc"
+    },
+    {
+      "path": "ViewModels\\CartaCorrecaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\CartaCorrecaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "1021c7e9f571d6d2ad3c17662fd9bec281a84addf28486084fc6b612e3e6c275"
+    },
+    {
+      "path": "ViewModels\\CartaCorrecaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\CartaCorrecaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "c34ab7f3426694c4dd0534cdcf5d53dfd39ac243f6e67e0144f7a746e0b88602"
+    },
+    {
+      "path": "ViewModels\\CartaCorrecaoFormulario.cs",
+      "export_path": "ViewModels\\CartaCorrecaoFormulario.cs",
+      "raw_sha256": "07ec77e9e3cf44ffe0dd1d36b60eec57aa41c9d90819d13f8f140b380f174dd2"
+    },
+    {
+      "path": "ViewModels\\CartaCorrecaoListaViewModel.cs",
+      "export_path": "ViewModels\\CartaCorrecaoListaViewModel.cs",
+      "raw_sha256": "5f6b72316d5d90732fa269f096a61c3b362a5c4dcf5de768d24a167fc6efa2d4"
+    },
+    {
+      "path": "ViewModels\\CartaCorrecaoViewModel.cs",
+      "export_path": "ViewModels\\CartaCorrecaoViewModel.cs",
+      "raw_sha256": "bcb51ffd8016ae106b8102dd72390d7f7d49db39c85e59a3a5a35278c35d769c"
+    },
+    {
+      "path": "Views\\CartaCorrecaoFichaAdicionarView.cs",
+      "export_path": "Views\\CartaCorrecaoFichaAdicionarView.cs",
+      "raw_sha256": "8258f622e4e500d9759412e851e5cf296c59e4dc3332de44037a467061e7be01"
+    },
+    {
+      "path": "Views\\CartaCorrecaoFichaAtualizarView.cs",
+      "export_path": "Views\\CartaCorrecaoFichaAtualizarView.cs",
+      "raw_sha256": "0c90abaaf126370bc06b6706174fedf95d23f5ccde6e1d18bf79964bc4092efd"
+    },
+    {
+      "path": "Views\\CartaCorrecaoFichaViewDetalhes\\CartaCorrecaoView.cs",
+      "export_path": "Views\\CartaCorrecaoFichaViewDetalhes\\CartaCorrecaoView.cs",
+      "raw_sha256": "6bb745483cc5be0c0871765edd2cb0b5f220be04754d4aca519e7aa241136fff"
+    },
+    {
+      "path": "Views\\CartaCorrecaoListaView.cs",
+      "export_path": "Views\\CartaCorrecaoListaView.cs",
+      "raw_sha256": "8c713f7abc6294a7d10be3a3fd7a4bc64756d87a988e9275ed2378ba17153baf"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.CartasCorrecao.g.resources",
+      "file": "0000.bin",
+      "bytes": 15180,
+      "sha256": "d2034fe11f0f7b131403953f549b5b78a6930298ac90a77741ec2abdae5dedb6"
+    },
+    {
+      "name": "Otus.Modulo.CartasCorrecao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.CartasCorrecao.Reports.RelatorioCartaCorrecao.resources",
+      "file": "0002.bin",
+      "bytes": 776,
+      "sha256": "3ed6fa26acdd5b9aa0d9b75a08faaac9088b4539dc87bba102a20f209f68815f"
+    },
+    {
+      "name": "Modulo.CartasCorrecao.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 285,
+      "sha256": "a302ab90efdd281b53776f470b79511fe2648c75d1589f6b95eb028978f82e1d"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,43 @@
+{
+  "artifactSha256": "a605d217b4cd7b151b22bf304e898cbf5d6d40817fdf22e1aa5acdb8989e3b54",
+  "mvid": "a83e50e4-a5b7-4dd2-9acd-0692be2521c7",
+  "assembly": "Modulo.GestaoCashback, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoCashback.g.resources",
+      "file": "0000.bin",
+      "bytes": 20152,
+      "sha256": "a9880d76e03884d7abd654e69122c759a1b216115161116c5a5aa11c5016c684"
+    },
+    {
+      "name": "Otus.Modulo.GestaoCashback.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoCashback.Resources.Messages.resources",
+      "file": "0002.bin",
+      "bytes": 273,
+      "sha256": "dd2a7094c167cead8b84c834bdef667ab8c42d06049bc3f62005c471a7249f81"
+    }
+  ]
+}

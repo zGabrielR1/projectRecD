@@ -1,0 +1,37 @@
+{
+  "artifactSha256": "00d2349326d94ea1280f9fd4026f48d6cede36d9e91faac3ce508a6c4f178810",
+  "mvid": "04297e32-9e8c-4e63-bb1a-bd46847e423a",
+  "assembly": "Modulo.CalculosPrecoCusto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.Mvvm.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.CalculosPrecoCusto.g.resources",
+      "file": "0000.bin",
+      "bytes": 12872,
+      "sha256": "bd4a4ee51fa1b5361b89319d69f854148adedd70f624a1867e449e5267d0b091"
+    },
+    {
+      "name": "Otus.Modulo.CalculosPrecoCusto.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

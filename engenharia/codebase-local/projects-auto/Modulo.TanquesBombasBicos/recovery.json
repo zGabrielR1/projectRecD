@@ -1,0 +1,230 @@
+{
+  "name": "Modulo.TanquesBombasBicos",
+  "baseline": "baseline\\Modulo.TanquesBombasBicos.dll",
+  "baseline_sha256": "8e69b56dcbe97326688f4ee0b079b99e69204403c50bc26d6cea29b1f1728d15",
+  "export_project": "recovered\\SuiteG6\\Modulo.TanquesBombasBicos\\Modulo.TanquesBombasBicos.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "a25810a80e9a8c11a55d31fa0cf49fe61cf7b10af8be1bbaee72cae69705d0c1"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "82b3ea53be757146e6d10d314a4aa479b40dc5dd0a2235f0739eff2e38c35ee9"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "aafcd132439ee47f08072734654afaf7ac4c99aad07fb76c834630244bee2c7a"
+    },
+    {
+      "path": "TanqueBombaBicoModulo.cs",
+      "export_path": "TanqueBombaBicoModulo.cs",
+      "raw_sha256": "b8a84ed6274236cee92ac8694bd817db34e323a7abc759c1418149890b474f90"
+    },
+    {
+      "path": "ViewModels\\AjustarVolumeItemViewModel.cs",
+      "export_path": "ViewModels\\AjustarVolumeItemViewModel.cs",
+      "raw_sha256": "d951691c94e34bc0bb578d080108f873972a90ac1d30e6c3ceb99598e67ad565"
+    },
+    {
+      "path": "ViewModels\\AjustarVolumesFichaViewModel.cs",
+      "export_path": "ViewModels\\AjustarVolumesFichaViewModel.cs",
+      "raw_sha256": "56930817b25719f6db447ace83cf9f28eeee68e0c428d90b5572a1820fc57cc2"
+    },
+    {
+      "path": "ViewModels\\BicoAbaViewModel.cs",
+      "export_path": "ViewModels\\BicoAbaViewModel.cs",
+      "raw_sha256": "ec29f8976120a976c04291f551ed196020b5333d11c312f0bbe9f7ecce315b8c"
+    },
+    {
+      "path": "ViewModels\\BicoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\BicoFichaAdicionarViewModel.cs",
+      "raw_sha256": "b016b8b2845dc2f5be0930077ac8050b0aa972f7e98c89902c6643f22dcd0c40"
+    },
+    {
+      "path": "ViewModels\\BicoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\BicoFichaAtualizarViewModel.cs",
+      "raw_sha256": "70fc92776d35fb89e1140a5773aed18c92e8241d55e71353e7eda469b1dc1ca0"
+    },
+    {
+      "path": "ViewModels\\BicoFormulario.cs",
+      "export_path": "ViewModels\\BicoFormulario.cs",
+      "raw_sha256": "725152ba6dc4141237d42aad0cc4cfd08ce9db456345e0384ad93badd7deb309"
+    },
+    {
+      "path": "ViewModels\\BicoListaViewModel.cs",
+      "export_path": "ViewModels\\BicoListaViewModel.cs",
+      "raw_sha256": "71f88a60326421574bd82738490521ccd6a8a471f351fa66543df70e47a2e161"
+    },
+    {
+      "path": "ViewModels\\BicosViewModel.cs",
+      "export_path": "ViewModels\\BicosViewModel.cs",
+      "raw_sha256": "1a85412c07750a5c24ab4d210896b65eb50e8ca187d21e7d70aafbe59d2dccac"
+    },
+    {
+      "path": "ViewModels\\BicoViewModel.cs",
+      "export_path": "ViewModels\\BicoViewModel.cs",
+      "raw_sha256": "1c75c7a792c2922f270aaf0b15abaff4afed6ac9b051532999c009b5933b0f77"
+    },
+    {
+      "path": "ViewModels\\BombaAbaViewModel.cs",
+      "export_path": "ViewModels\\BombaAbaViewModel.cs",
+      "raw_sha256": "c9b174920601005f6921fad29da304b421facfeadf0c0a65341b2e3ba1240a6a"
+    },
+    {
+      "path": "ViewModels\\BombaFichaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\BombaFichaManutencaoDetalhe.cs",
+      "raw_sha256": "c02ab2fcc7b0ea00d0331760238be59156bbd126738c529f35d348b1bc643dab"
+    },
+    {
+      "path": "ViewModels\\BombaListaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\BombaListaManutencaoDetalhe.cs",
+      "raw_sha256": "f3b131e2e30939f059b5e0dc332d7c43ba59028b450896d3daf9a7ffaa8187bd"
+    },
+    {
+      "path": "ViewModels\\BombaViewModel.cs",
+      "export_path": "ViewModels\\BombaViewModel.cs",
+      "raw_sha256": "bdef76700fbd04182049079ffd5eadddac27bb56f17b7250b2254541bb8935dd"
+    },
+    {
+      "path": "ViewModels\\EditarBicoFichaViewModel.cs",
+      "export_path": "ViewModels\\EditarBicoFichaViewModel.cs",
+      "raw_sha256": "31a510aadc648c31738c2f13fc0696f6516ef285cb099b924de194cea2a5a95f"
+    },
+    {
+      "path": "ViewModels\\EditarBicoItemViewModel.cs",
+      "export_path": "ViewModels\\EditarBicoItemViewModel.cs",
+      "raw_sha256": "3fd437e48757551741285a744e8fa523af8c1987b14c8adc932c53ff4bcf0119"
+    },
+    {
+      "path": "ViewModels\\LacresViewModel.cs",
+      "export_path": "ViewModels\\LacresViewModel.cs",
+      "raw_sha256": "b2c887394d4a306badfb7640d899e6b8b9790cb8a519f110bf3f91bd4dbc6846"
+    },
+    {
+      "path": "ViewModels\\TanqueAbaViewModel.cs",
+      "export_path": "ViewModels\\TanqueAbaViewModel.cs",
+      "raw_sha256": "0236a8c4f71d75861d996284dc8af03c4c5473563f0b9a52f011a8d04fa2d348"
+    },
+    {
+      "path": "ViewModels\\TanqueFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TanqueFichaAdicionarViewModel.cs",
+      "raw_sha256": "ea54561c073b814e08edf919702b9f9ef56c9290dd325da3c2a9439c7774349b"
+    },
+    {
+      "path": "ViewModels\\TanqueFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\TanqueFichaAtualizarViewModel.cs",
+      "raw_sha256": "b82c63779000382b46833e56e80429cf879d9fb9b07b422b66e149c764f3294c"
+    },
+    {
+      "path": "ViewModels\\TanqueFormulario.cs",
+      "export_path": "ViewModels\\TanqueFormulario.cs",
+      "raw_sha256": "12a72c1dc6b78fc19953eb39a5acd805023d577e5350dc2af148d31aa31b54e8"
+    },
+    {
+      "path": "ViewModels\\TanqueListaViewModel.cs",
+      "export_path": "ViewModels\\TanqueListaViewModel.cs",
+      "raw_sha256": "a2cefb27abd0d9716a924600522431611ce425bdc537791ee2e44ec03d05a78d"
+    },
+    {
+      "path": "ViewModels\\TanquesBombasBicosViewModel.cs",
+      "export_path": "ViewModels\\TanquesBombasBicosViewModel.cs",
+      "raw_sha256": "5aa784a3e986f65abb38d0230ea8bccf5fdfed1970b62862558287029825e6ce"
+    },
+    {
+      "path": "ViewModels\\TanqueViewModel.cs",
+      "export_path": "ViewModels\\TanqueViewModel.cs",
+      "raw_sha256": "e79ee32fa0aff2b87853b142e2bf75409bc7474ab340da95cfb638277cc43935"
+    },
+    {
+      "path": "Views\\AjustarVolumesFichaView.cs",
+      "export_path": "Views\\AjustarVolumesFichaView.cs",
+      "raw_sha256": "3c1d68bb7b9e4156da7606e445d0f473307e2f0b48860f833068a9adac571c6b"
+    },
+    {
+      "path": "Views\\BicoFichaAdicionarView.cs",
+      "export_path": "Views\\BicoFichaAdicionarView.cs",
+      "raw_sha256": "5f7597131f97b5c3f15df7788ba89f36c041a6058604c73dbcb8525077e99ac9"
+    },
+    {
+      "path": "Views\\BicoFichaAtualizarView.cs",
+      "export_path": "Views\\BicoFichaAtualizarView.cs",
+      "raw_sha256": "65b04faa09fd5e5c8e9054e920e9e7f428b7197e71d74ee4d76da1f2305be52b"
+    },
+    {
+      "path": "Views\\BicoListaView.cs",
+      "export_path": "Views\\BicoListaView.cs",
+      "raw_sha256": "af47908d5f97edd68db58a929de72cae830431000c006c4097f322b1d2dcc3b5"
+    },
+    {
+      "path": "Views\\EditarBicoFichaView.cs",
+      "export_path": "Views\\EditarBicoFichaView.cs",
+      "raw_sha256": "86e5d4c687413dbe154abc562a69b6a2722ec6ae236fc75adbaf11593156462d"
+    },
+    {
+      "path": "Views\\TanqueBombaBicoViewDetalhes\\BicoView.cs",
+      "export_path": "Views\\TanqueBombaBicoViewDetalhes\\BicoView.cs",
+      "raw_sha256": "df86a52335c6feb4ae0d75bb4065be31801ca7c4f94787209458b0cd73a34432"
+    },
+    {
+      "path": "Views\\TanqueBombaBicoViewDetalhes\\BombaFichaView.cs",
+      "export_path": "Views\\TanqueBombaBicoViewDetalhes\\BombaFichaView.cs",
+      "raw_sha256": "dceb8571b2a2cc48b6d4714bc588084633e295a8172740604e8325b0141c674e"
+    },
+    {
+      "path": "Views\\TanqueBombaBicoViewDetalhes\\BombaListaView.cs",
+      "export_path": "Views\\TanqueBombaBicoViewDetalhes\\BombaListaView.cs",
+      "raw_sha256": "95a9442802a51048f19621a88a9ce74539ff929a50d7295488231825c11f6ff9"
+    },
+    {
+      "path": "Views\\TanqueBombaBicoViewDetalhes\\TanqueView.cs",
+      "export_path": "Views\\TanqueBombaBicoViewDetalhes\\TanqueView.cs",
+      "raw_sha256": "9fede2f73e5419f832f18973bef0b0ed96ee613c67e0326a426558e07564eec3"
+    },
+    {
+      "path": "Views\\TanqueFichaAdicionarView.cs",
+      "export_path": "Views\\TanqueFichaAdicionarView.cs",
+      "raw_sha256": "3ff0ad303defaf009de4ccc30cff5741602fe9f265cb2453cdb32f0f2b5b03e3"
+    },
+    {
+      "path": "Views\\TanqueFichaAtualizarView.cs",
+      "export_path": "Views\\TanqueFichaAtualizarView.cs",
+      "raw_sha256": "7e9411f3c859833d4dd8a6cd62630d46febfe22d8e660513271137dfbfc82f3c"
+    },
+    {
+      "path": "Views\\TanqueListaView.cs",
+      "export_path": "Views\\TanqueListaView.cs",
+      "raw_sha256": "577c94d11d39b8c6a13db145a69e6fb8344b01702e9fee9676d5a718899c05bc"
+    },
+    {
+      "path": "Views\\TanquesBombasBicosView.cs",
+      "export_path": "Views\\TanquesBombasBicosView.cs",
+      "raw_sha256": "a9e5bdb7525b16e2741fc76778f07dfb025eaaeda9965ac3da58b05e1cbd0c6a"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 5
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.TanquesBombasBicos.g.resources",
+      "file": "0000.bin",
+      "bytes": 55763,
+      "sha256": "f62a4ea40d0ff5dddaf07a2bf6141f110e1e1028a22df54cd763a3a0a13cc9cd"
+    },
+    {
+      "name": "Otus.Modulo.TanquesBombasBicos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

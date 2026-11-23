@@ -1,0 +1,8 @@
+{
+  "assembly": "NClone, Version=1.1.0.0, Culture=neutral, PublicKeyToken=81c60607627cc572",
+  "references": [
+    "mscorlib",
+    "System.Core",
+    "System"
+  ]
+}

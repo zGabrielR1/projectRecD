@@ -1,0 +1,77 @@
+{
+  "artifactSha256": "c03e1ef9198ef33f12a2f0bae30a4b37e20efd63850651a55ff3c9d364c4b318",
+  "mvid": "8e048a1b-a9f9-4bae-9879-1076ff3730b8",
+  "assembly": "Modulo.ConhecimentosTransporteEletronico, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "PresentationCore",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "System.ServiceModel",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "System.Windows.Forms",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Reactive.Core",
+    "System.Xml",
+    "NClone",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ConhecimentosTransporteEletronico.g.resources",
+      "file": "0000.bin",
+      "bytes": 212407,
+      "sha256": "4f62daaf9111852fd415bcadba92b71df2707b9308a9056346157a39b9f2e08f"
+    },
+    {
+      "name": "Otus.Modulo.ConhecimentosTransporteEletronico.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ConhecimentosTransporteEletronico.Reports.EspelhoCte.RelatorioEspelhoCteOs.resources",
+      "file": "0002.bin",
+      "bytes": 12019,
+      "sha256": "55ca179eac4796ac95a2856128e17c8ce28e7e9d9cc6b2e3be35fb816989fbbd"
+    },
+    {
+      "name": "Otus.Modulo.ConhecimentosTransporteEletronico.Reports.EspelhoCte.RelatorioEspelhoCte.resources",
+      "file": "0003.bin",
+      "bytes": 13706,
+      "sha256": "fe8d24f52b3c2485d1738235b5f8a882fe252164e7f6b0111a0f55394571c470"
+    },
+    {
+      "name": "Otus.Modulo.ConhecimentosTransporteEletronico.Reports.EspelhoCte.RelatorioParcialEspelhoComponentes.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ConhecimentosTransporteEletronico.dll.licenses",
+      "file": "0005.bin",
+      "bytes": 304,
+      "sha256": "2bf35898dc3de3ae0dac4ab2052151c353be089f2c274261f512623f52b7a34d"
+    }
+  ]
+}

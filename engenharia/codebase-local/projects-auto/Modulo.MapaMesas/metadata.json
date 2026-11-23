@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "87663712cfdfedebb9fafe6af46f9bb43df382f5ac5b1cd320d7a8fba9cc9215",
+  "mvid": "f3850e9b-c1c3-4529-910b-af4f752e3983",
+  "assembly": "Modulo.MapaMesas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Domain.Main",
+    "System.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Reactive.Core",
+    "System.Reactive.Linq"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.MapaMesas.g.resources",
+      "file": "0000.bin",
+      "bytes": 31207,
+      "sha256": "e79249ec247a25162087c3c0e81e5d5a114ea0af9fdad66fcb8b730c9d960d96"
+    },
+    {
+      "name": "Otus.Modulo.MapaMesas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

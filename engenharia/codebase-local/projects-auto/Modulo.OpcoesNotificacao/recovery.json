@@ -1,0 +1,85 @@
+{
+  "name": "Modulo.OpcoesNotificacao",
+  "baseline": "baseline\\Modulo.OpcoesNotificacao.dll",
+  "baseline_sha256": "de079628b4ace7025ceae23831d879c54e8457dd55acd035006e473e6019ce96",
+  "export_project": "recovered\\SuiteG6\\Modulo.OpcoesNotificacao\\Modulo.OpcoesNotificacao.csproj",
+  "sources": [
+    {
+      "path": "OpcaoNotificacaoModulo.cs",
+      "export_path": "OpcaoNotificacaoModulo.cs",
+      "raw_sha256": "31153b5dcff165af7e8cf452cf8d8aa0c5775903afc963c3c98a1cf6ef82e699"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "92b553c970a3a8f95b1dc8e621b4fccb9cda77db8c6cd1e20e9cd607d54a694f"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "d45b454df4fdd1f12e25ab9a50d678cee5bf1d745bf39deadf1e918f069fc1ee"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d1b1869ccb01ae9738f2e6a9c1f98fb86b48331425be606ec147c8996a5ae358"
+    },
+    {
+      "path": "ViewModels\\OpcaoNotificacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\OpcaoNotificacaoAbaViewModel.cs",
+      "raw_sha256": "22a69e84224f4b2311c5c7e3ade9a1515413661546df7159a5e25d713f2732f4"
+    },
+    {
+      "path": "ViewModels\\OpcaoNotificacaoFichaViewModel.cs",
+      "export_path": "ViewModels\\OpcaoNotificacaoFichaViewModel.cs",
+      "raw_sha256": "f6a00d956692d667207586b6bf9dd6aa0c1d2eec4560ca86bdd20e107b055a4b"
+    },
+    {
+      "path": "ViewModels\\OpcaoNotificacaoFormulario.cs",
+      "export_path": "ViewModels\\OpcaoNotificacaoFormulario.cs",
+      "raw_sha256": "81f9f58a17a8c4025997f2c452e4a2b37657cd256a64b1ba5ea2b2fef44e313f"
+    },
+    {
+      "path": "ViewModels\\OpcaoNotificacaoViewModel.cs",
+      "export_path": "ViewModels\\OpcaoNotificacaoViewModel.cs",
+      "raw_sha256": "99ce034877abf9945c8a2cf4aba219b235ffecd97e7da19ed682553d3aa7fc96"
+    },
+    {
+      "path": "ViewModels\\OpcoesNotificacaoViewModel.cs",
+      "export_path": "ViewModels\\OpcoesNotificacaoViewModel.cs",
+      "raw_sha256": "541a33fafaab9ae719f2cfc2bbad41697a217fdb8b676a335c69a9c5cd389b6c"
+    },
+    {
+      "path": "Views\\OpcaoNotificacaoFichaView.cs",
+      "export_path": "Views\\OpcaoNotificacaoFichaView.cs",
+      "raw_sha256": "22c80585ba4ffa7f1e7e49dfb821a8372b0c6c555bfec5c383134e01f859dfe8"
+    },
+    {
+      "path": "Views\\OpcaoNotificacaoView.cs",
+      "export_path": "Views\\OpcaoNotificacaoView.cs",
+      "raw_sha256": "dd60df228de616854040f4729aeeee0d479a78dea03dbe9a379160e07cee0b5c"
+    },
+    {
+      "path": "Views\\OpcoesNotificacaoView.cs",
+      "export_path": "Views\\OpcoesNotificacaoView.cs",
+      "raw_sha256": "a83ed050c3bcd61205aa2e0100f79713fa0f285a979b9ed51a3d0c73d382cc60"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.OpcoesNotificacao.g.resources",
+      "file": "0000.bin",
+      "bytes": 9490,
+      "sha256": "f21488d0af1c0eabf4bd4071088334ecc7e2525f7e010f39de4e8b4be944bbcf"
+    },
+    {
+      "name": "Otus.Modulo.OpcoesNotificacao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

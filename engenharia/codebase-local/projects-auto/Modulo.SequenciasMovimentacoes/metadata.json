@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "cb9bb8cfe3c74b175cdbd1dbf0e12d4b1625e64841df8c4eedad83d02d499348",
+  "mvid": "a6667f24-cdef-4a78-b9b8-82ac6b78b588",
+  "assembly": "Modulo.SequenciasMovimentacoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "PresentationCore",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.SequenciasMovimentacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 12958,
+      "sha256": "d0c14308e8c883caaf9506ab8a518d884054f59c951a202345ecfcaf03f0ba3c"
+    },
+    {
+      "name": "Otus.Modulo.SequenciasMovimentacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

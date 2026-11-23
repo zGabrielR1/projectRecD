@@ -1,0 +1,632 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Farmacia.dll",
+  "baseline_sha256": "14768948dc0e3ee5a7c9fff9b5e0db40d338dd0f028428777ca4acd643b8a8e4",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Farmacia\\DigisatServer.Infrastructure.Crosscutting.Farmacia.csproj",
+  "sources": [
+    {
+      "path": "FarmaciaPopular\\Autorizacao.cs",
+      "export_path": "FarmaciaPopular\\Autorizacao.cs",
+      "raw_sha256": "e329cfd7f6f69e15807bf9905af30e0e65192a825a8a2f64ffcac3be3f0ac807"
+    },
+    {
+      "path": "FarmaciaPopular\\CodigosRetornoFarmaciaPopular.cs",
+      "export_path": "FarmaciaPopular\\CodigosRetornoFarmaciaPopular.cs",
+      "raw_sha256": "cdc25d0d489fbf8d385e0e30ea4152d7d7bda6516746537726b996d7aaf61586"
+    },
+    {
+      "path": "FarmaciaPopular\\Confirmacao.cs",
+      "export_path": "FarmaciaPopular\\Confirmacao.cs",
+      "raw_sha256": "53a056db1712cf8d2511377f34c8d06f0ded34b41dd8ea61e397fa13008e09b6"
+    },
+    {
+      "path": "FarmaciaPopular\\ConfirmacaoAutorizacao.cs",
+      "export_path": "FarmaciaPopular\\ConfirmacaoAutorizacao.cs",
+      "raw_sha256": "7ded4cc88d52f76d56af971aa9b8cce4c907f91d33874e3f62ea0755229ffe09"
+    },
+    {
+      "path": "FarmaciaPopular\\ConfirmacaoEstorno.cs",
+      "export_path": "FarmaciaPopular\\ConfirmacaoEstorno.cs",
+      "raw_sha256": "f9146429161bbb60f27f171b6cbac4cfc2cfa37442c7f106febe07acc4f937ea"
+    },
+    {
+      "path": "FarmaciaPopular\\ConfirmacaoRecebimento.cs",
+      "export_path": "FarmaciaPopular\\ConfirmacaoRecebimento.cs",
+      "raw_sha256": "f8ca2f043879fe20e6fdee33b368bce81d87cc893d75c0d9f0fcc1996833fa51"
+    },
+    {
+      "path": "FarmaciaPopular\\Estorno.cs",
+      "export_path": "FarmaciaPopular\\Estorno.cs",
+      "raw_sha256": "b58f7ec949b672c429d802ebd2ff91ac98da187c8e9dc4eabf481889d628af47"
+    },
+    {
+      "path": "FarmaciaPopular\\ItemPesquisa.cs",
+      "export_path": "FarmaciaPopular\\ItemPesquisa.cs",
+      "raw_sha256": "ebb7aef47f85f0a5d131cef7de5e3e9c2166bd6ec452d87e28ac82ec5bf5ff76"
+    },
+    {
+      "path": "FarmaciaPopular\\Medicamento.cs",
+      "export_path": "FarmaciaPopular\\Medicamento.cs",
+      "raw_sha256": "f6881983f2aabc62884a8babccc4306a6856f302cacbbed6718405d3faa9611e"
+    },
+    {
+      "path": "FarmaciaPopular\\MedicamentoFactory.cs",
+      "export_path": "FarmaciaPopular\\MedicamentoFactory.cs",
+      "raw_sha256": "e180b9ca9d744c2fd3f32ae961fdc1167526b14be12d9b246b5bbeb164160052"
+    },
+    {
+      "path": "FarmaciaPopular\\Pesquisa.cs",
+      "export_path": "FarmaciaPopular\\Pesquisa.cs",
+      "raw_sha256": "428494672dac63f54056fae7ea84f79dbd964e21316fe5091c591706efac5bb0"
+    },
+    {
+      "path": "FarmaciaPopular\\Recebimento.cs",
+      "export_path": "FarmaciaPopular\\Recebimento.cs",
+      "raw_sha256": "5bfd2f192880d2cc4ef57491a2c42090f055e3f259bbab560b80cd14d6f2c65f"
+    },
+    {
+      "path": "FarmaciaPopular\\RetornoPesquisa.cs",
+      "export_path": "FarmaciaPopular\\RetornoPesquisa.cs",
+      "raw_sha256": "6dfe21674c1714f7849761ee4eac441deabf63b8a447875536c02819bbd997e5"
+    },
+    {
+      "path": "FarmaciaPopular\\Solicitacao.cs",
+      "export_path": "FarmaciaPopular\\Solicitacao.cs",
+      "raw_sha256": "26a1a9c7ba38575b96e37ca00e7ab9b083649e43e7ce7e4e65e730773403b3a1"
+    },
+    {
+      "path": "FarmaciaPopular\\Usuario.cs",
+      "export_path": "FarmaciaPopular\\Usuario.cs",
+      "raw_sha256": "df2a5a8f520a59533436a37fceb9e3010a909685dc98986e57d7bd942e7aa312"
+    },
+    {
+      "path": "FarmaciaPopular\\UsuarioFarmacia.cs",
+      "export_path": "FarmaciaPopular\\UsuarioFarmacia.cs",
+      "raw_sha256": "6adce344df774cd229490cc6b6f0ede43c7cc4f7cb290c4cd78dbd71b7b07b40"
+    },
+    {
+      "path": "Inventario\\CabecalhoInventario.cs",
+      "export_path": "Inventario\\CabecalhoInventario.cs",
+      "raw_sha256": "cd6e1fa93dc24050000f47dfbc07d425bdd0ca7993d734399ea36769992e4014"
+    },
+    {
+      "path": "Inventario\\CorpoInventario.cs",
+      "export_path": "Inventario\\CorpoInventario.cs",
+      "raw_sha256": "d0a91b7ab6589a6c631d55be82335895090274d627f58631a0cd8f1d6ffa7a8b"
+    },
+    {
+      "path": "Inventario\\EntradaInsumosInventario.cs",
+      "export_path": "Inventario\\EntradaInsumosInventario.cs",
+      "raw_sha256": "da8a22fed345b9e9c9ad346fc27f8d368602050534a1980899730604230e0d90"
+    },
+    {
+      "path": "Inventario\\EntradaMedicamentosInventario.cs",
+      "export_path": "Inventario\\EntradaMedicamentosInventario.cs",
+      "raw_sha256": "1329a6bd02b4a1099126e617d3ba6af477c2275eeb516681090e765ef22ff13a"
+    },
+    {
+      "path": "Inventario\\InsumoEntradaInventario.cs",
+      "export_path": "Inventario\\InsumoEntradaInventario.cs",
+      "raw_sha256": "08363707bd7c803e59b49557c325d3684ad5810579f9738e953dc2475d1d8dd4"
+    },
+    {
+      "path": "Inventario\\InsumosInventario.cs",
+      "export_path": "Inventario\\InsumosInventario.cs",
+      "raw_sha256": "64fb3ee5d8dde3427a2c9f3e5dddd3a7e7d7bf1dc15ea9ee2007b095183d46b7"
+    },
+    {
+      "path": "Inventario\\MedicamentoEntradaInventario.cs",
+      "export_path": "Inventario\\MedicamentoEntradaInventario.cs",
+      "raw_sha256": "f7c760cc6fe27705b062237d9472e04c8f272dede8e6273a10f982083ec37c2e"
+    },
+    {
+      "path": "Inventario\\MedicamentosInventario.cs",
+      "export_path": "Inventario\\MedicamentosInventario.cs",
+      "raw_sha256": "91c7d047847cba2823ea01e39d88e72e825f41e96713997b58fc5d697117f8e5"
+    },
+    {
+      "path": "Inventario\\MensagemSNGPCInventario.cs",
+      "export_path": "Inventario\\MensagemSNGPCInventario.cs",
+      "raw_sha256": "904b045b71f5039753bccc3501658caad224855faeb206d3870e3dbe19b758f1"
+    },
+    {
+      "path": "Pbms\\ArquivoPbm.cs",
+      "export_path": "Pbms\\ArquivoPbm.cs",
+      "raw_sha256": "dde25a85b414e4d937de045fe48bb62ae10027279d00df14a05a40468d2b3965"
+    },
+    {
+      "path": "Pbms\\EPharmaService.cs",
+      "export_path": "Pbms\\EPharmaService.cs",
+      "raw_sha256": "e025956b33d609c11262d0d77b465c36cbc9aa716533dc446593727e12114178"
+    },
+    {
+      "path": "Pbms\\ePharma\\ConsultaEPharma.cs",
+      "export_path": "Pbms\\ePharma\\ConsultaEPharma.cs",
+      "raw_sha256": "ef66aa1e0ac73c2e0bd3f1a91b4eff30ba9d79eaab778e60809b146b1015def3"
+    },
+    {
+      "path": "Pbms\\ePharma\\FechamentoEPharma.cs",
+      "export_path": "Pbms\\ePharma\\FechamentoEPharma.cs",
+      "raw_sha256": "cc13701c7317d135d00f4c4b910dac4fa152bb0de34556fe22b3f33b558a4c43"
+    },
+    {
+      "path": "Pbms\\ePharma\\ProdutoAutorizadoEPharma.cs",
+      "export_path": "Pbms\\ePharma\\ProdutoAutorizadoEPharma.cs",
+      "raw_sha256": "297708dd8e1c6f1e4a49facd345b8adea8f2a391f51bb31ed837a3f8eb5d545c"
+    },
+    {
+      "path": "Pbms\\ePharma\\ProdutoVendidoEPharma.cs",
+      "export_path": "Pbms\\ePharma\\ProdutoVendidoEPharma.cs",
+      "raw_sha256": "d4915f59f0980790e90d649169f0f4ea57c3f53229ea54dfc6938329a4b268e5"
+    },
+    {
+      "path": "Pbms\\ePharma\\RetornoConsultaEPharma.cs",
+      "export_path": "Pbms\\ePharma\\RetornoConsultaEPharma.cs",
+      "raw_sha256": "e89a112cd1efb93b037beb37027c54cbf0e59e2a4216f4e8f75c2fda030ed09c"
+    },
+    {
+      "path": "Pbms\\ePharma\\RetornoFechamento.cs",
+      "export_path": "Pbms\\ePharma\\RetornoFechamento.cs",
+      "raw_sha256": "8f2a9116f38505bd4c6841b77fb82ad5f5779ffc18f885be2db224a5dcbc12d7"
+    },
+    {
+      "path": "Pbms\\ePharma\\RetornoTesteAtividadeEPharma.cs",
+      "export_path": "Pbms\\ePharma\\RetornoTesteAtividadeEPharma.cs",
+      "raw_sha256": "ef72b5c298b9ba9ec4b129752f724846d0e84e738ac7d7428014813c4609d771"
+    },
+    {
+      "path": "Pbms\\ePharma\\RetornoVendaEPharma.cs",
+      "export_path": "Pbms\\ePharma\\RetornoVendaEPharma.cs",
+      "raw_sha256": "4fcc89b86a239f3bdd2ffa8cd4c863e123652b48ba1d2884b3f9d7612a416156"
+    },
+    {
+      "path": "Pbms\\ePharma\\TesteAtividadeEPharma.cs",
+      "export_path": "Pbms\\ePharma\\TesteAtividadeEPharma.cs",
+      "raw_sha256": "31ffa1f8e39f1f9ed9890be5338bcdd3b84c3e0d8da3cd785b8e6c9c4de74dfe"
+    },
+    {
+      "path": "Pbms\\ePharma\\TipoConvenioPbm.cs",
+      "export_path": "Pbms\\ePharma\\TipoConvenioPbm.cs",
+      "raw_sha256": "99e17218cb7ceab215146715db1aa093f6a93b6ed6e9d9f5afafc4d0eedfc162"
+    },
+    {
+      "path": "Pbms\\ePharma\\TipoDocumentoFiscal.cs",
+      "export_path": "Pbms\\ePharma\\TipoDocumentoFiscal.cs",
+      "raw_sha256": "89828f88ea8a9ebc68bbb237e212481f060ea8909ad966bc44838b0e7605804a"
+    },
+    {
+      "path": "Pbms\\ePharma\\VendaEPharma.cs",
+      "export_path": "Pbms\\ePharma\\VendaEPharma.cs",
+      "raw_sha256": "9fa419df315ca21cee3d43267cb297698cdf940759c5de35c57f2743a717df49"
+    },
+    {
+      "path": "Pbms\\IArquivoPbm.cs",
+      "export_path": "Pbms\\IArquivoPbm.cs",
+      "raw_sha256": "fbaff2859b85d7f3fdf54afd0df1ed1e667e22736eb455813a10d6334b1d5550"
+    },
+    {
+      "path": "Pbms\\IProdutoVendido.cs",
+      "export_path": "Pbms\\IProdutoVendido.cs",
+      "raw_sha256": "740cdda46055a82a70ae5ba34a26d7bcd0daca482807bfa57335a90da26335df"
+    },
+    {
+      "path": "Pbms\\IRetornoConsulta.cs",
+      "export_path": "Pbms\\IRetornoConsulta.cs",
+      "raw_sha256": "e924263f41eff07e178c25f5e31405c042951e9af740f1f923c57a132634b974"
+    },
+    {
+      "path": "Pbms\\IRetornoVenda.cs",
+      "export_path": "Pbms\\IRetornoVenda.cs",
+      "raw_sha256": "bf33efb7ee65913ee868552f79f313427cc375ce8d9dbf7ac4a03472d04d01ba"
+    },
+    {
+      "path": "Pbms\\PbmFactory.cs",
+      "export_path": "Pbms\\PbmFactory.cs",
+      "raw_sha256": "5039e548ab31ca62a7fc40e975882f2ef6c6174006128d91808135db0784a09a"
+    },
+    {
+      "path": "Pbms\\PbmService.cs",
+      "export_path": "Pbms\\PbmService.cs",
+      "raw_sha256": "7bd26d5adbbfa3739e0d37103fd60e682d13ef034e56ef3461aade66583ba318"
+    },
+    {
+      "path": "Pbms\\PortalDrogariaService.cs",
+      "export_path": "Pbms\\PortalDrogariaService.cs",
+      "raw_sha256": "18798e80c197d8719bdd761c598a99f735bc88c4e36b7868c5903dd8dc33cc4e"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioAnulacaoVenda.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioAnulacaoVenda.cs",
+      "raw_sha256": "6606a6a7139e729fdf6c569770ec6856e774bdfe3ca7135cb0a768b49f85111f"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioAnulacaoVendaReq.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioAnulacaoVendaReq.cs",
+      "raw_sha256": "fe25c2ab68b9a08b67807b0eedbf4971b55350a5d5f1f2bd19ec064886e25619"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioAnulacaoVendaResp.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioAnulacaoVendaResp.cs",
+      "raw_sha256": "f81c017fdcc030f5f6666e2c5f2bfc1545733db1a77b3f2acba478e5da6d14b0"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioConfirmacaoTransacao.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioConfirmacaoTransacao.cs",
+      "raw_sha256": "f7ae8e2ba2209022d7b060d04734b9dde9849b9750a61db0751cf0b05dae3584"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioConfirmacaoTransacaoReq.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioConfirmacaoTransacaoReq.cs",
+      "raw_sha256": "078f021678d79b45fc9631348d72ac3374fe94241e633c3b7da3cf01428bb378"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioEfetivacaoTransacao.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioEfetivacaoTransacao.cs",
+      "raw_sha256": "2b245b6951bfc01b1a9f9b2dd478c83fb4402ac4322790ec3aa80e97d11f36f1"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioEfetivacaoTransacaoItemReq.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioEfetivacaoTransacaoItemReq.cs",
+      "raw_sha256": "0325249eb5b90213a3bcbaf9b5d35c1f77669e2e6dfc0cec4b967210bac79d81"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioEfetivacaoTransacaoReq.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioEfetivacaoTransacaoReq.cs",
+      "raw_sha256": "156b7048ae547f2e0aa7030cb44f4c21009414db718affc9b410292b54fcac73"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioRecuperacaoPreAutorizacao.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioRecuperacaoPreAutorizacao.cs",
+      "raw_sha256": "e3dfab41a7b4799903aac7ffa6496b73af7a2c58499381cd992348ada22b3e8c"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioRecuperacaoPreAutorizacaoReq.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioRecuperacaoPreAutorizacaoReq.cs",
+      "raw_sha256": "8cbf0507213caad82436670bc5631efaf2bffeeb603b47c40dd8e4cde9b218bc"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioRecuperacaoPreAutorizacaoResp.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioRecuperacaoPreAutorizacaoResp.cs",
+      "raw_sha256": "0f01e45dc03fc9200495e56f08785c3f584cc140f38f398047f08e218b686d8f"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioTransacaoPagamento.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioTransacaoPagamento.cs",
+      "raw_sha256": "b73d6027ec7c8c07f7199a7d53cc9de6bd9363e66313bff70066682498a8a988"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioTransacaoPagamentoReq.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioTransacaoPagamentoReq.cs",
+      "raw_sha256": "311c880221be80e2c46871c30d0768bffecb227f58bc2f69fec5e0d6c12dd434"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\EnvioTransacaoPagamentoResp.cs",
+      "export_path": "Pbms\\PortalDrogaria\\EnvioTransacaoPagamentoResp.cs",
+      "raw_sha256": "d41dcea24b719e98a997358c7a85c27e0d9402009a5a14c8dccaed62d0e931e0"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\Item.cs",
+      "export_path": "Pbms\\PortalDrogaria\\Item.cs",
+      "raw_sha256": "0dd4fc037ff9d70c4cfc465e88212dfe8c1d5db9b203c49114cf5897d8e3c65c"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\PortalDrogariaArquivo.cs",
+      "export_path": "Pbms\\PortalDrogaria\\PortalDrogariaArquivo.cs",
+      "raw_sha256": "1ff6ef264630a6ca86a20f64834649da8bd077acb2e5debc2bd16ed967822d16"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\PortalDrogariaInformacao.cs",
+      "export_path": "Pbms\\PortalDrogaria\\PortalDrogariaInformacao.cs",
+      "raw_sha256": "309e40e68df877457939cd8fc831f3d162508cc594eafa6021fb99881056880e"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\PortalDrogariaLinha.cs",
+      "export_path": "Pbms\\PortalDrogaria\\PortalDrogariaLinha.cs",
+      "raw_sha256": "7003ef6ac9fdb962f7bcba1346ac2a0daf2dd3b5be18495b56852e3c3f72deb1"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\PortalDrogariaUtil.cs",
+      "export_path": "Pbms\\PortalDrogaria\\PortalDrogariaUtil.cs",
+      "raw_sha256": "60e18e4827636c0b822437ff70c555e5b47fb352d8380485a8adbc8e2c1e6760"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\ProdutoAutorizadoPortalDrogaria.cs",
+      "export_path": "Pbms\\PortalDrogaria\\ProdutoAutorizadoPortalDrogaria.cs",
+      "raw_sha256": "8eb096ff55f9bb48dbc9a4670888e3d251b3c9e2ac7144cc3172285755111871"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\ProdutoVendidoPortalDrogaria.cs",
+      "export_path": "Pbms\\PortalDrogaria\\ProdutoVendidoPortalDrogaria.cs",
+      "raw_sha256": "3d917061e21ef8a8655fb34c0a01b60dab00e56398dc6996113c33dd61a41e46"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\RespostaAnulacaoVenda.cs",
+      "export_path": "Pbms\\PortalDrogaria\\RespostaAnulacaoVenda.cs",
+      "raw_sha256": "3989d46277aa504c1e4387d60d2974748df976ae603cb38bf4a07b1ee7a0486e"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\RespostaEfetivacaoTransacao.cs",
+      "export_path": "Pbms\\PortalDrogaria\\RespostaEfetivacaoTransacao.cs",
+      "raw_sha256": "e0a81a6753bfbe0f88332dc8109cd5cfbb833bb55b6e23feda2b77aedf840ad3"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\RespostaRecuperacaoPreAutorizacao.cs",
+      "export_path": "Pbms\\PortalDrogaria\\RespostaRecuperacaoPreAutorizacao.cs",
+      "raw_sha256": "43b4ea86a95828b08124fad1524b015ed09faffc549082c85202584c0b11b41b"
+    },
+    {
+      "path": "Pbms\\PortalDrogaria\\RespostaTransacaoPagamento.cs",
+      "export_path": "Pbms\\PortalDrogaria\\RespostaTransacaoPagamento.cs",
+      "raw_sha256": "8219bea8951f1fa7f507c206c98b535273ea6e133800b779a791d863ae99899c"
+    },
+    {
+      "path": "Pbms\\ProdutoAutorizado.cs",
+      "export_path": "Pbms\\ProdutoAutorizado.cs",
+      "raw_sha256": "d58b2f524e8f40abe9fdf9393961c78d81bd75de3f8cd7aa1f82b3288f8a4e6a"
+    },
+    {
+      "path": "Pbms\\ProdutoVendidoFactory.cs",
+      "export_path": "Pbms\\ProdutoVendidoFactory.cs",
+      "raw_sha256": "3955dd665bc019e4f29c50ce4da14d519d4103fae72a395aeb2427a11fba6186"
+    },
+    {
+      "path": "Pbms\\RetornoArquivoPbm.cs",
+      "export_path": "Pbms\\RetornoArquivoPbm.cs",
+      "raw_sha256": "a28ea1eb916590984e932a90792dddc9d8c0f813af1ab91567e7bce2e951d87a"
+    },
+    {
+      "path": "Pbms\\RetornoProdutosAutorizadosComprovante.cs",
+      "export_path": "Pbms\\RetornoProdutosAutorizadosComprovante.cs",
+      "raw_sha256": "6f6116cb6fad8e45c9b9c4e2c938f9c31561c095363113d239fbfd7c016e0f64"
+    },
+    {
+      "path": "Pbms\\Status.cs",
+      "export_path": "Pbms\\Status.cs",
+      "raw_sha256": "258142b94a91f65841a610bf219c3f0e352226164fec9f27c0278487f0148786"
+    },
+    {
+      "path": "Pbms\\StatusProduto.cs",
+      "export_path": "Pbms\\StatusProduto.cs",
+      "raw_sha256": "0632d3d6561a282ce2ea3bb5e889dc8c15bf0d0bafff8e24e633e2e6d7fb217c"
+    },
+    {
+      "path": "Pbms\\TipoPbm.cs",
+      "export_path": "Pbms\\TipoPbm.cs",
+      "raw_sha256": "c3b30810414255b35cb9815e1d39e9c359e4342c1955eeda76c4c41ea851bf7b"
+    },
+    {
+      "path": "Pbms\\VidaLinkService.cs",
+      "export_path": "Pbms\\VidaLinkService.cs",
+      "raw_sha256": "a16b5fb5341da8035f33bed7a04ef4344b8040b8dc8dafbb52c6a55657a37ea0"
+    },
+    {
+      "path": "Pbms\\VidaLink\\ConsultaVidaLink.cs",
+      "export_path": "Pbms\\VidaLink\\ConsultaVidaLink.cs",
+      "raw_sha256": "a465f8ece72e556202d785baed079b45c36f205a39fde8a65ee29727533c283e"
+    },
+    {
+      "path": "Pbms\\VidaLink\\ProdutoAutorizadoVidaLink.cs",
+      "export_path": "Pbms\\VidaLink\\ProdutoAutorizadoVidaLink.cs",
+      "raw_sha256": "d664a4bba8d6eb8c60212031112c4b1063679c26fbdd011aefba5bb812c44fd5"
+    },
+    {
+      "path": "Pbms\\VidaLink\\ProdutoVendidoVidaLink.cs",
+      "export_path": "Pbms\\VidaLink\\ProdutoVendidoVidaLink.cs",
+      "raw_sha256": "8c327174d9e19d6b3ba88b0a2ed3cefc4cd244e055fc7ff8d60ef8060e97eb32"
+    },
+    {
+      "path": "Pbms\\VidaLink\\RetornoConsultaVidaLink.cs",
+      "export_path": "Pbms\\VidaLink\\RetornoConsultaVidaLink.cs",
+      "raw_sha256": "658f257f3d55858df7d44fbb2aa1b5a77a1bab3d1b0eba5dc45e6fcc4adb198d"
+    },
+    {
+      "path": "Pbms\\VidaLink\\RetornoTesteAtividadeVidaLink.cs",
+      "export_path": "Pbms\\VidaLink\\RetornoTesteAtividadeVidaLink.cs",
+      "raw_sha256": "2a785fcb4d75c82bcd3b7fdd10cb76ee791b60c429ae80652b43b919eb21ea23"
+    },
+    {
+      "path": "Pbms\\VidaLink\\RetornoVendaVidaLink.cs",
+      "export_path": "Pbms\\VidaLink\\RetornoVendaVidaLink.cs",
+      "raw_sha256": "c5fd9462dd35ee9b1c0ae3afc2a1f96e27d66e39bde29e9da82e0b0ff1ecd383"
+    },
+    {
+      "path": "Pbms\\VidaLink\\TesteAtividadeVidaLink.cs",
+      "export_path": "Pbms\\VidaLink\\TesteAtividadeVidaLink.cs",
+      "raw_sha256": "f237cfd588f3fb2291bcbfc26b4870839417ef7fb10612ba37d04731117089ae"
+    },
+    {
+      "path": "Pbms\\VidaLink\\TipoAutorizacao.cs",
+      "export_path": "Pbms\\VidaLink\\TipoAutorizacao.cs",
+      "raw_sha256": "9a532fabe1ff0e2f7513bc9c1d3b3bfb2713dc239c119b1ba029c51984abfede"
+    },
+    {
+      "path": "Pbms\\VidaLink\\VendaVidaLink.cs",
+      "export_path": "Pbms\\VidaLink\\VendaVidaLink.cs",
+      "raw_sha256": "1df9ede17cbaf1c5c03e850616aacf8d47c9cd7195b0e8f3a5dd9de83028cfd0"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "dc7debcbfcc13f7bd5d223e8a64ebb8b870e9e67a3eb47b57dfb7350f4eb86b9"
+    },
+    {
+      "path": "Services\\confirmarAutorizacaoCompletedEventArgs.cs",
+      "export_path": "Services\\confirmarAutorizacaoCompletedEventArgs.cs",
+      "raw_sha256": "7284d282a8cbae55aba8ac1b17e6da89f1e49447d3ec204211b89dbbe7edbeb2"
+    },
+    {
+      "path": "Services\\confirmarAutorizacaoCompletedEventHandler.cs",
+      "export_path": "Services\\confirmarAutorizacaoCompletedEventHandler.cs",
+      "raw_sha256": "5ca1c96d4abe4c6567d5d2307519dcefdbd78eac17e75ea499a2c2ea087a58a8"
+    },
+    {
+      "path": "Services\\confirmarRecebimentoCompletedEventArgs.cs",
+      "export_path": "Services\\confirmarRecebimentoCompletedEventArgs.cs",
+      "raw_sha256": "0084f2627d92dfb48dec72a4cd4ddb79eb1a8daf8f44b853db8028331c514842"
+    },
+    {
+      "path": "Services\\confirmarRecebimentoCompletedEventHandler.cs",
+      "export_path": "Services\\confirmarRecebimentoCompletedEventHandler.cs",
+      "raw_sha256": "f63fe54ba9c9bf9bc185d4f6f9a27d425a0fec4efc58d4e0864e95ae7f72bb52"
+    },
+    {
+      "path": "Services\\executarEstornoCompletedEventArgs.cs",
+      "export_path": "Services\\executarEstornoCompletedEventArgs.cs",
+      "raw_sha256": "2d06079bebe7afc7a0b29c47852ac06c918b3d9c01be425e845101ddcd9fddba"
+    },
+    {
+      "path": "Services\\executarEstornoCompletedEventHandler.cs",
+      "export_path": "Services\\executarEstornoCompletedEventHandler.cs",
+      "raw_sha256": "f2759d0ad522be497bb0b56302cd758e36e081e340d5a3dcff7dad5790fb78e9"
+    },
+    {
+      "path": "Services\\executarSolicitacaoCompletedEventArgs.cs",
+      "export_path": "Services\\executarSolicitacaoCompletedEventArgs.cs",
+      "raw_sha256": "5f454de504f539b9de9b48fa8719e17411340136d22aa5685702214435821c90"
+    },
+    {
+      "path": "Services\\executarSolicitacaoCompletedEventHandler.cs",
+      "export_path": "Services\\executarSolicitacaoCompletedEventHandler.cs",
+      "raw_sha256": "131725ce9aae8f268bf5d5b78acbd1d3993f84e2309b31dc21a6abc91d0a6428"
+    },
+    {
+      "path": "Services\\FarmaciaPopularIdentificacaoService.cs",
+      "export_path": "Services\\FarmaciaPopularIdentificacaoService.cs",
+      "raw_sha256": "62485b126d6dc531e162f957bc05d14ee6e63e0f805d3f574135ee92d3467b0a"
+    },
+    {
+      "path": "Services\\FarmaciaPopularService.cs",
+      "export_path": "Services\\FarmaciaPopularService.cs",
+      "raw_sha256": "ab65f9d19d0ec46deca27e9fc93aaa211b39f01e02ba1e36608593f9ea233904"
+    },
+    {
+      "path": "Services\\IFarmaciaPopularIdentificacaoService.cs",
+      "export_path": "Services\\IFarmaciaPopularIdentificacaoService.cs",
+      "raw_sha256": "5bdd78d2fad286a5b4a72e01ea49295249066f0e3204efae1bea8fbde2559e05"
+    },
+    {
+      "path": "Services\\IFarmaciaPopularService.cs",
+      "export_path": "Services\\IFarmaciaPopularService.cs",
+      "raw_sha256": "058c1ecfc070fd70356095f4ea2fc39403e42a0b00674fff848dfc00a927a2c0"
+    },
+    {
+      "path": "Services\\pesquisarAutorizacoesCompletedEventArgs.cs",
+      "export_path": "Services\\pesquisarAutorizacoesCompletedEventArgs.cs",
+      "raw_sha256": "e75fcb7eefdf402942e627c80d6b45f885bb2ac51f240113baa8f55496e8385d"
+    },
+    {
+      "path": "Services\\pesquisarAutorizacoesCompletedEventHandler.cs",
+      "export_path": "Services\\pesquisarAutorizacoesCompletedEventHandler.cs",
+      "raw_sha256": "a0f1c756b5357cb3fe74fa01cbd991be71fda27f553f3faf157c3678db0bfd5b"
+    },
+    {
+      "path": "Services\\WebServiceFarmaciaPopular.cs",
+      "export_path": "Services\\WebServiceFarmaciaPopular.cs",
+      "raw_sha256": "a73d4d93668097298f3918756376d3d7c8f894e1430ab692d41aac5fe22ad351"
+    },
+    {
+      "path": "Sngpc\\Cabecalho.cs",
+      "export_path": "Sngpc\\Cabecalho.cs",
+      "raw_sha256": "c50888f08129fe01c861d7371ea082d1fe2d3c06be0d38cc80d327e4d84308cb"
+    },
+    {
+      "path": "Sngpc\\CabecalhoTransmissao.cs",
+      "export_path": "Sngpc\\CabecalhoTransmissao.cs",
+      "raw_sha256": "3caf232b3c904a3854bc2551208fda2a041fa549a9de736b40be01dbbace966c"
+    },
+    {
+      "path": "Sngpc\\CompradorMedicamento.cs",
+      "export_path": "Sngpc\\CompradorMedicamento.cs",
+      "raw_sha256": "e3d344d9789fb7cd7d9e69a87fd41c1d51c618fd05e26ceb1878f22a24cb6eb2"
+    },
+    {
+      "path": "Sngpc\\Corpo.cs",
+      "export_path": "Sngpc\\Corpo.cs",
+      "raw_sha256": "3a0dd97ac80c02a9347dd90c8b103246a31c69c12f99241c1aa4ad71a2baf829"
+    },
+    {
+      "path": "Sngpc\\EntradaMedicamentos.cs",
+      "export_path": "Sngpc\\EntradaMedicamentos.cs",
+      "raw_sha256": "194138bd23c4bdde4fd8ecf5c8ecae64729ca610c1c499bc77c21d769b168372"
+    },
+    {
+      "path": "Sngpc\\Insumos.cs",
+      "export_path": "Sngpc\\Insumos.cs",
+      "raw_sha256": "2d462e9a9be88772e8482a01f599059da66db21964166bc72b01974ab282bb71"
+    },
+    {
+      "path": "Sngpc\\MedicamentoEntrada.cs",
+      "export_path": "Sngpc\\MedicamentoEntrada.cs",
+      "raw_sha256": "078a3a39c7798f2fdb6ef16626c35652986f7692be3c44365753ab95eb181770"
+    },
+    {
+      "path": "Sngpc\\MedicamentoPerda.cs",
+      "export_path": "Sngpc\\MedicamentoPerda.cs",
+      "raw_sha256": "62c2e7ed04e57fa5c809e26c6a28665bdf60bd19b25ac544bb999ed42ed79971"
+    },
+    {
+      "path": "Sngpc\\Medicamentos.cs",
+      "export_path": "Sngpc\\Medicamentos.cs",
+      "raw_sha256": "152b06188719800d8221aedff76b64e65aef6f95c13f11fa4edcc25bd6101b0b"
+    },
+    {
+      "path": "Sngpc\\MedicamentoTransferencia.cs",
+      "export_path": "Sngpc\\MedicamentoTransferencia.cs",
+      "raw_sha256": "adcc20f31363c49f535f2500ab9fd83cf2c4ee092e2d930f70c6839c5bbd8cc0"
+    },
+    {
+      "path": "Sngpc\\MedicamentoVenda.cs",
+      "export_path": "Sngpc\\MedicamentoVenda.cs",
+      "raw_sha256": "3c1f60cefeaff1b03439f962ea3a884a5fac2924c347b7265ff878691af222a7"
+    },
+    {
+      "path": "Sngpc\\MensagemSNGPC.cs",
+      "export_path": "Sngpc\\MensagemSNGPC.cs",
+      "raw_sha256": "34872a96afb2c902b774256955ce4c1392e0aee22b19c8e32ad0ae499f4f98cc"
+    },
+    {
+      "path": "Sngpc\\NotaFiscalEntradaMedicamento.cs",
+      "export_path": "Sngpc\\NotaFiscalEntradaMedicamento.cs",
+      "raw_sha256": "247c5be3cf6f6835c009002bbdd0f98e29ec1159fb532394362c516ac5086256"
+    },
+    {
+      "path": "Sngpc\\NotaFiscalTransferenciaMedicamento.cs",
+      "export_path": "Sngpc\\NotaFiscalTransferenciaMedicamento.cs",
+      "raw_sha256": "edf609a13804627676d3d7263a5b505e483642f3cd45d3223e5bc7557f024861"
+    },
+    {
+      "path": "Sngpc\\PacienteMedicamento.cs",
+      "export_path": "Sngpc\\PacienteMedicamento.cs",
+      "raw_sha256": "2138ace7a0c5edce5367d86890fc72a2c2056e61f9af8e28a304c763468f0fb7"
+    },
+    {
+      "path": "Sngpc\\PrescritorMedicamento.cs",
+      "export_path": "Sngpc\\PrescritorMedicamento.cs",
+      "raw_sha256": "b32d1fd97376223db75efd522df8fe698bc62715b2fc2d092fae0e23ffea2118"
+    },
+    {
+      "path": "Sngpc\\SaidaMedicamentoPerda.cs",
+      "export_path": "Sngpc\\SaidaMedicamentoPerda.cs",
+      "raw_sha256": "2c69fef497fa6885b9502af4468a74a197582b84d6320d837586a04157fe619c"
+    },
+    {
+      "path": "Sngpc\\SaidaMedicamentoTransferencia.cs",
+      "export_path": "Sngpc\\SaidaMedicamentoTransferencia.cs",
+      "raw_sha256": "c95dc89c89c6f538a945a082d95b265af5da9c1cb205feff1c30507bd5102fb5"
+    },
+    {
+      "path": "Sngpc\\SaidaMedicamentoVendaAoConsumidor.cs",
+      "export_path": "Sngpc\\SaidaMedicamentoVendaAoConsumidor.cs",
+      "raw_sha256": "5cc609d504b35e14a56191d148aa65ebf099dd879ac3420db468b76632965f14"
+    },
+    {
+      "path": "Sngpc\\TransmissaoSNGPC.cs",
+      "export_path": "Sngpc\\TransmissaoSNGPC.cs",
+      "raw_sha256": "3b165e649a05241771e7296b5aa4af4e429196b0a59604b01fb003d071830113"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [],
+  "generated_stubs": false
+}

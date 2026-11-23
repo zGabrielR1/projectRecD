@@ -1,0 +1,9 @@
+{
+  "compiled": false,
+  "backing_field_identifiers_normalized": 2380,
+  "remaining_diagnostic_family": "Framework-incompatible Index/Range syntax, constructor pseudocalls, null-throw expressions and read-only property assignments",
+  "remaining_diagnostics": 46,
+  "next_step": "Lower range syntax and reconstruct seven constructors from original IL",
+  "metadata_limitation": "Renamed private backing fields require reflection/serialization parity review",
+  "property_initializers_moved": 5140
+}

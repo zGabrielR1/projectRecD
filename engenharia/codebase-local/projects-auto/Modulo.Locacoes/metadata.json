@@ -1,0 +1,54 @@
+{
+  "artifactSha256": "266a4489900056bddf3e4a45c5ec77c61993ac4e6f0ca152a2d702da86ae6807",
+  "mvid": "bcd98762-8726-447a-abca-1a4a50964c56",
+  "assembly": "Modulo.Locacoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "Infraestrutura",
+    "System.Xaml",
+    "System",
+    "PresentationFramework",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Xpf.Scheduler.v15.2",
+    "System.Core",
+    "DevExpress.XtraScheduler.v15.2.Core",
+    "DevExpress.Mvvm.v15.2",
+    "System.Windows.Forms",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.Data.v15.2",
+    "DigisatServer.Domain.Core",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Locacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 55076,
+      "sha256": "b253900e25e2a57c59fc9c0760e83c24a0dd356f1d48f3fa634158bb9fbeeea7"
+    },
+    {
+      "name": "Otus.Modulo.Locacoes.Reports.ImpressoContratoFinalizado.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Locacoes.Reports.ImpressoContratoLocacao.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "assembly": "WebDriver, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Core",
+    "System.Net.Http",
+    "System.Drawing",
+    "System.IO.Compression",
+    "System.IO.Compression.FileSystem",
+    "System.Xml",
+    "System.Numerics",
+    "System.Xml.Linq",
+    "System.Runtime.Serialization",
+    "System.Data"
+  ]
+}

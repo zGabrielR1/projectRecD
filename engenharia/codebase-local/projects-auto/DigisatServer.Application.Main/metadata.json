@@ -1,0 +1,59 @@
+{
+  "artifactSha256": "f27cb00fdbee2851ad9119a32a435943c58c072ca102fe88ef0e3f001938cd9d",
+  "mvid": "b30a6fa6-e83d-4926-b4d3-d4d1fc4370e9",
+  "assembly": "DigisatServer.Application.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Application.Core",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Domain.Main",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "MongoDB.Bson",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "Newtonsoft.Json",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DevExpress.XtraReports.v15.2",
+    "System.Web.Extensions",
+    "DigisatServer.Domain.Core",
+    "DigisatServer.Distributed.Wcf.Core",
+    "itextsharp",
+    "DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "DigisatServer.Infrastructure.Crosscutting.RegistroSistema",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Reactive.Interfaces",
+    "MoreLinq",
+    "System.Drawing",
+    "DevExpress.Mvvm.v15.2",
+    "System.ServiceModel.Web",
+    "DevExpress.Xpf.Core.v15.2",
+    "System.Reactive.Core",
+    "System.Reactive.Linq",
+    "NClone",
+    "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural",
+    "DigisatServer.Infrastructure.Crosscutting.EfdContribuicao",
+    "DigisatServer.Infrastructure.Crosscutting.Sintegra"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Application.Main.Resources.Messages.resources",
+      "file": "0000.bin",
+      "bytes": 1005,
+      "sha256": "239281b6b3777d92fb6728b93669e07e600f12743f07bdf7c272c0a608645864"
+    },
+    {
+      "name": "DigisatServer.Application.Main.dll.licenses",
+      "file": "0001.bin",
+      "bytes": 294,
+      "sha256": "78e538b82e1616307b05359a223ad60e51738989a6903d5753ba689ec93edfe5"
+    }
+  ]
+}

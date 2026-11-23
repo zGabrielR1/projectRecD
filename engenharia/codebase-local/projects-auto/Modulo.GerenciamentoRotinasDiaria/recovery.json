@@ -1,0 +1,214 @@
+{
+  "name": "Modulo.GerenciamentoRotinasDiaria",
+  "baseline": "baseline\\Modulo.GerenciamentoRotinasDiaria.dll",
+  "baseline_sha256": "dcb86584b5bbb1d8693053a27b81ec00a391418d8bae7a0f2a6940e14295ebf0",
+  "export_project": "recovered\\SuiteG6\\Modulo.GerenciamentoRotinasDiaria\\Modulo.GerenciamentoRotinasDiaria.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "0506a34f602459a98792681acdc96859cf6ddd16a49ee3278f5d203eb8379615"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "dcb86584b5bbb1d8693053a27b81ec00a391418d8bae7a0f2a6940e14295ebf0"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 26
+    },
+    {
+      "kind": "Resolve UI exception/report alignment aliases and protected report disposal",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException"
+      }
+    },
+    {
+      "kind": "Restore missing notification member tokens from uniquely matched original getter sequences",
+      "getters": [
+        {
+          "class": "AgendamentoViewModel",
+          "property": "PodeEditarAgendamento",
+          "type": "bool",
+          "evidence": "source\\ViewModels\\AgendamentoViewModel.cs"
+        },
+        {
+          "class": "MovimentacaoViewModel",
+          "property": "MovimentacaoEntradaAtualizarParameter",
+          "type": "ISelecaoCommandParameter",
+          "evidence": "source\\ViewModels\\MovimentacaoViewModel.cs"
+        },
+        {
+          "class": "MovimentacaoViewModel",
+          "property": "TotalSaidas",
+          "type": "decimal",
+          "evidence": "source\\ViewModels\\MovimentacaoViewModel.cs"
+        },
+        {
+          "class": "MovimentacaoViewModel",
+          "property": "TotalEntradas",
+          "type": "decimal",
+          "evidence": "source\\ViewModels\\MovimentacaoViewModel.cs"
+        },
+        {
+          "class": "FinanceiroViewModel",
+          "property": "PagamentoAtualizarParameter",
+          "type": "ISelecaoCommandParameter",
+          "evidence": "source\\ViewModels\\FinanceiroViewModel.cs"
+        },
+        {
+          "class": "FinanceiroViewModel",
+          "property": "TotalRecebimentos",
+          "type": "decimal",
+          "evidence": "source\\ViewModels\\FinanceiroViewModel.cs"
+        },
+        {
+          "class": "FinanceiroViewModel",
+          "property": "TotalPagamentos",
+          "type": "decimal",
+          "evidence": "source\\ViewModels\\FinanceiroViewModel.cs"
+        }
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GerenciamentoRotinasDiaria.g.resources",
+      "file": "0000.bin",
+      "bytes": 36369,
+      "sha256": "6a43de23ee668672d7f859c0388d8527a6f0a6854a168177434857fc41f43da1"
+    },
+    {
+      "name": "Otus.Modulo.GerenciamentoRotinasDiaria.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "GerenciamentoRotinaDiariaModulo.cs",
+      "export_path": "GerenciamentoRotinaDiariaModulo.cs",
+      "raw_sha256": "ccf89ba904020b6e7b9e586503017d61151d74b0aecf5bedb1ee8a7e44cd9eb5"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "3783a80bf3c4049ec653cb57347afe17ea786c17420a41520456c876e42bfc4e"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "6172a00c2610ab69692ed21cca9e4f72eee208049b9ceddcd3e6b27535a859ee"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "e3484ce5422138a31e64d06cf25104750d3c9ad20733d725f26dcdb70a8fdcde"
+    },
+    {
+      "path": "ViewModels\\AgendamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\AgendamentoAbaViewModel.cs",
+      "raw_sha256": "71c7824e65eca42b885b47649de83258f34067d7c7093ec50011bed25ee4d235"
+    },
+    {
+      "path": "ViewModels\\AgendamentoViewModel.cs",
+      "export_path": "ViewModels\\AgendamentoViewModel.cs",
+      "raw_sha256": "3a6dcbbc964cabdcc1ab32bb9139d28fb4e0e64d6dd36de20926e70ba9686865"
+    },
+    {
+      "path": "ViewModels\\AniversarianteAbaViewModel.cs",
+      "export_path": "ViewModels\\AniversarianteAbaViewModel.cs",
+      "raw_sha256": "b0b39868e3546d63e88af1210005fa01e3342f056d53e2717c662508980ad172"
+    },
+    {
+      "path": "ViewModels\\AniversarianteViewModel.cs",
+      "export_path": "ViewModels\\AniversarianteViewModel.cs",
+      "raw_sha256": "f40466eeb5663440f73a26a9fe1e0260c789c3bc14c72e2c2f02d91f80f58e92"
+    },
+    {
+      "path": "ViewModels\\FinanceiroAbaViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroAbaViewModel.cs",
+      "raw_sha256": "b48a3467f95817379feee979059a70beb76c23e4736a3c7be2d450ebb07aef9c"
+    },
+    {
+      "path": "ViewModels\\FinanceiroViewModel.cs",
+      "export_path": "ViewModels\\FinanceiroViewModel.cs",
+      "raw_sha256": "91724a1282478ace18595123b593c38605c4c9c246af5786d8ce3de82446a846"
+    },
+    {
+      "path": "ViewModels\\GerenciamentoRotinaDiariaFichaViewModel.cs",
+      "export_path": "ViewModels\\GerenciamentoRotinaDiariaFichaViewModel.cs",
+      "raw_sha256": "9e01097a08412d492f7a035facea6065a587723fab9d40f978ceb1625523d13c"
+    },
+    {
+      "path": "ViewModels\\GerenciamentoRotinaDiariaFormulario.cs",
+      "export_path": "ViewModels\\GerenciamentoRotinaDiariaFormulario.cs",
+      "raw_sha256": "1e036c1714d07a4eceb6c7d148cea9ebedb5e52a6af6afcb8967b1efb9949c8c"
+    },
+    {
+      "path": "ViewModels\\GerenciamentoRotinasDiariaViewModel.cs",
+      "export_path": "ViewModels\\GerenciamentoRotinasDiariaViewModel.cs",
+      "raw_sha256": "6d3a7b6914b1b72175055181283a2ad1798e5f69c07838f6135b62c9a046c6b6"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacaoAbaViewModel.cs",
+      "raw_sha256": "8ee82052e4d084c34bb929081385569f180a142a89b9d66c2e77bbc609fddca3"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoViewModel.cs",
+      "export_path": "ViewModels\\MovimentacaoViewModel.cs",
+      "raw_sha256": "e2d3634651bc6eba9b7c90539edc8df538e8b70119a0878024b45c370b82e7d9"
+    },
+    {
+      "path": "ViewModels\\VencimentoProdutosAbaViewModel.cs",
+      "export_path": "ViewModels\\VencimentoProdutosAbaViewModel.cs",
+      "raw_sha256": "0fbfb6f07f1a459a6a59634e14d34a27d0020389ab84647da7867a5c45f2f96a"
+    },
+    {
+      "path": "ViewModels\\VencimentoProdutosViewModel.cs",
+      "export_path": "ViewModels\\VencimentoProdutosViewModel.cs",
+      "raw_sha256": "11e7f853f9c1fcb3b9b234db44c841e1eaad957eba834616b872cb91f2ddb197"
+    },
+    {
+      "path": "Views\\GerenciamentoRotinaDiariaFichaView.cs",
+      "export_path": "Views\\GerenciamentoRotinaDiariaFichaView.cs",
+      "raw_sha256": "1552732a09eeb55ffe4deaf1f01c01878b66d8d299b3ca8c4717e27c1999b3ff"
+    },
+    {
+      "path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\AgendamentoView.cs",
+      "export_path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\AgendamentoView.cs",
+      "raw_sha256": "f1a347a5d60f71b05615196854eac0f54c9a67da8b79f1c1e2c7225823634097"
+    },
+    {
+      "path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\AniversarianteView.cs",
+      "export_path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\AniversarianteView.cs",
+      "raw_sha256": "902710add05691556ba33c3c4fe0c7c8ecce3fa675edb7969b0f7ce92f12407e"
+    },
+    {
+      "path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\FinanceiroView.cs",
+      "export_path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\FinanceiroView.cs",
+      "raw_sha256": "20828848e1af0cd09ef63fae0e19f4366c54b79d49879f92b6771bc09d9889eb"
+    },
+    {
+      "path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\MovimentacaoView.cs",
+      "export_path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\MovimentacaoView.cs",
+      "raw_sha256": "ee9bb24f97e8f533502bbcf6cd3f3f3c3071e7bfb853e9873be09baff68d39e0"
+    },
+    {
+      "path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\VencimentoProdutosView.cs",
+      "export_path": "Views\\GerenciamentoRotinaDiariaFichaViewDetalh\\VencimentoProdutosView.cs",
+      "raw_sha256": "9d348e7c17afc92f80fcbaf5d419e32fd8a3dee8181e91457499bcf93a94d1b5"
+    },
+    {
+      "path": "Views\\GerenciamentoRotinasDiariaView.cs",
+      "export_path": "Views\\GerenciamentoRotinasDiariaView.cs",
+      "raw_sha256": "a18d938a139d8e4804bd65e257a5926c3f4d1f3f5c4340e51f46ea6b971d7508"
+    }
+  ]
+}

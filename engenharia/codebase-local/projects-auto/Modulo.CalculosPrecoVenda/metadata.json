@@ -1,0 +1,37 @@
+{
+  "artifactSha256": "5b943c07cdfc4952ce6098fd80cfb1f249643160b378b25e677be6a53750061d",
+  "mvid": "18b4be4e-a593-42eb-9691-42e4cc3a7b95",
+  "assembly": "Modulo.CalculosPrecoVenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.Mvvm.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.CalculosPrecoVenda.g.resources",
+      "file": "0000.bin",
+      "bytes": 15437,
+      "sha256": "19e8d3abddd52104575737daadc5616f8c890608a4b6ea36aed92c16f5f485cf"
+    },
+    {
+      "name": "Otus.Modulo.CalculosPrecoVenda.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

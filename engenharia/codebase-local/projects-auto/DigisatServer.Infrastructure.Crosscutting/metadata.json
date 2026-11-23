@@ -1,0 +1,83 @@
+{
+  "artifactSha256": "a75faa4e67bfb3858ee5f709751079d52e8216faddbcf914d0a4bcb2649f2dd4",
+  "mvid": "8331e3f1-2ddd-4ea0-bb32-1b607a7a348c",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting, Version=1.1.1.1, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationCore",
+    "System.ComponentModel.DataAnnotations",
+    "System.Xaml",
+    "System",
+    "mscorlib",
+    "Microsoft.Win32.TaskScheduler",
+    "PresentationFramework",
+    "WindowsBase",
+    "System.Core",
+    "System.Net.Http",
+    "System.Drawing",
+    "System.Management",
+    "Newtonsoft.Json",
+    "System.IdentityModel",
+    "System.Web",
+    "CIDBio",
+    "MimeKit",
+    "MailKit",
+    "Microsoft.CSharp",
+    "Akka",
+    "WebDriver",
+    "HtmlAgilityPack",
+    "DevExpress.Xpf.Core.v15.2",
+    "Microsoft.VisualBasic",
+    "System.Xml",
+    "System.Runtime.Serialization",
+    "System.Numerics",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.Data.v15.2",
+    "System.Security",
+    "System.IO.Compression",
+    "System.IO.Compression.FileSystem",
+    "Ionic.Zip",
+    "System.Data",
+    "System.Data.DataSetExtensions",
+    "System.Xml.Linq",
+    "DocumentFormat.OpenXml",
+    "DevExpress.RichEdit.v15.2.Core",
+    "System.Reactive.Linq",
+    "System.Reactive.Core",
+    "NClone",
+    "MongoDB.Bson"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Resources.Messages.resources",
+      "file": "0000.bin",
+      "bytes": 949,
+      "sha256": "4d02ea3413255628e6885a37ab4dee49f19254eb1e21d8f6da4f0362b6dfd4c2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.g.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "file": "0002.bin",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "file": "0003.bin",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Properties.Resources.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

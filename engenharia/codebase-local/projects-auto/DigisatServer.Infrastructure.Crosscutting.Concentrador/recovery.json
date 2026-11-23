@@ -1,0 +1,672 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Concentrador.dll",
+  "baseline_sha256": "a15e00dbbdf194849b5d8d419dbe8b6f1bf8345db3e7a18d69ce05acc2bc072e",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\DigisatServer.Infrastructure.Crosscutting.Concentrador.csproj",
+  "sources": [
+    {
+      "path": "Akka\\AbastecimentoValidoRequest.cs",
+      "export_path": "Akka\\AbastecimentoValidoRequest.cs",
+      "raw_sha256": "2f533eb041039f24162f2147529e1e068b08f59e8dc01cca6fac9105657d7d9c"
+    },
+    {
+      "path": "Akka\\AbastecimentoValidoResponse.cs",
+      "export_path": "Akka\\AbastecimentoValidoResponse.cs",
+      "raw_sha256": "0bf140e5aece53a222c5914f36ff6f04415f12fb382d1688b8ce235f5d639885"
+    },
+    {
+      "path": "Akka\\AdicionarAbastecimentosRequest.cs",
+      "export_path": "Akka\\AdicionarAbastecimentosRequest.cs",
+      "raw_sha256": "b4d777782e7208cb0fed2cfed55580267c6256c44054ef9c8f46093950d276b4"
+    },
+    {
+      "path": "Akka\\AtualizarPrecosRequest.cs",
+      "export_path": "Akka\\AtualizarPrecosRequest.cs",
+      "raw_sha256": "410d1a0b81cb3e9e8e05f55eb046dcc7342e6fafd26d6b2af877bd437f4380bb"
+    },
+    {
+      "path": "Akka\\AutorizarAbastecimentoRequest.cs",
+      "export_path": "Akka\\AutorizarAbastecimentoRequest.cs",
+      "raw_sha256": "1d3cf25efc0f7a4256586cacdc5682a108a621869db08c98f83bb1bfdd9c86b5"
+    },
+    {
+      "path": "Akka\\BicoAkka.cs",
+      "export_path": "Akka\\BicoAkka.cs",
+      "raw_sha256": "230e9f92ec34b1bfbe0f8952ccae9c643ba5192c1dcba74dfc835a6dcd0d5334"
+    },
+    {
+      "path": "Akka\\BicoSemComunicacao.cs",
+      "export_path": "Akka\\BicoSemComunicacao.cs",
+      "raw_sha256": "20f12fa7842da5f4e89af64062c9ea76d20ab2f773362bb54da3abcdfbe26efb"
+    },
+    {
+      "path": "Akka\\BicoSemComunicacaoRequest.cs",
+      "export_path": "Akka\\BicoSemComunicacaoRequest.cs",
+      "raw_sha256": "ef8d150aef0e850e276ec51bc689e9f6b1c651b463d6ec579b477b55908620cd"
+    },
+    {
+      "path": "Akka\\BicoSemComunicacaoResponse.cs",
+      "export_path": "Akka\\BicoSemComunicacaoResponse.cs",
+      "raw_sha256": "bc9dc8e07511d772a29fa388d12d35d8c34c8ba198bbf7281278ba7e6aa7d22c"
+    },
+    {
+      "path": "Akka\\BicoStatus.cs",
+      "export_path": "Akka\\BicoStatus.cs",
+      "raw_sha256": "346bbf19883374b9b50c9544cfe2f6699a282d560757d5414060959fea3d2fb7"
+    },
+    {
+      "path": "Akka\\BombaAkka.cs",
+      "export_path": "Akka\\BombaAkka.cs",
+      "raw_sha256": "6996e1bcb3be5c3a9f339804cb48f1c90d8269aec64268e589e3ba99cf9666c1"
+    },
+    {
+      "path": "Akka\\ConnectPontoDeVendaPostoServiceRequest.cs",
+      "export_path": "Akka\\ConnectPontoDeVendaPostoServiceRequest.cs",
+      "raw_sha256": "3fc2b40d07e76ee5e34e92df079a76acfe11f3f31a5606f734d84e4cb69d7142"
+    },
+    {
+      "path": "Akka\\ConnectPontoDeVendaPostoServiceResponse.cs",
+      "export_path": "Akka\\ConnectPontoDeVendaPostoServiceResponse.cs",
+      "raw_sha256": "9be3f708909afcfdf8a0ec66dd70b04670d6f2217ab89d4fb7c34ff4e81496d6"
+    },
+    {
+      "path": "Akka\\ConnectPostoRequest.cs",
+      "export_path": "Akka\\ConnectPostoRequest.cs",
+      "raw_sha256": "05f9b57e4e05eca2378a4948e17c27488a0f4dfb250a27e8bd4ff260e29c9ce5"
+    },
+    {
+      "path": "Akka\\ConnectPostoResponse.cs",
+      "export_path": "Akka\\ConnectPostoResponse.cs",
+      "raw_sha256": "2cf52a838a74dd1d5a4a227f2ae5ee83e7424f62125d57481ec7564a8410c458"
+    },
+    {
+      "path": "Akka\\ConnectPostoTestRequest.cs",
+      "export_path": "Akka\\ConnectPostoTestRequest.cs",
+      "raw_sha256": "b15b61c226feb78137dcd710cd0c2b833f33b0e7e0364fa39c2f198abc339e78"
+    },
+    {
+      "path": "Akka\\ConnectPostoTestResponse.cs",
+      "export_path": "Akka\\ConnectPostoTestResponse.cs",
+      "raw_sha256": "de335d64d2101b839721c02640f8fe0ed7bbae2def8fbe0532850fc628d3415f"
+    },
+    {
+      "path": "Akka\\DisconnectPontoDeVendaPostoServiceRequest.cs",
+      "export_path": "Akka\\DisconnectPontoDeVendaPostoServiceRequest.cs",
+      "raw_sha256": "71dc55fe4922a5d1d84c2d66baf4bfc0016134558267581c7ce8d26c1fe488a9"
+    },
+    {
+      "path": "Akka\\DisconnectPostoRequest.cs",
+      "export_path": "Akka\\DisconnectPostoRequest.cs",
+      "raw_sha256": "a98e14b760bca00cce4a7cd0c69184f9e7b65874a15958ed1680c1bc1f5ea677"
+    },
+    {
+      "path": "Akka\\NotificouSituacaoComunicacaoBicoResponse.cs",
+      "export_path": "Akka\\NotificouSituacaoComunicacaoBicoResponse.cs",
+      "raw_sha256": "913b5d4a4db8d951da4baafb11ca2d14ad81287601623570e4814c5da5254c34"
+    },
+    {
+      "path": "Akka\\NovoAbastecimentoRequest.cs",
+      "export_path": "Akka\\NovoAbastecimentoRequest.cs",
+      "raw_sha256": "b238175d3495f64cb2a47d95107275f3d97dfb771a06b840bdce0260a5282058"
+    },
+    {
+      "path": "Akka\\NovoAbastecimentoResponse.cs",
+      "export_path": "Akka\\NovoAbastecimentoResponse.cs",
+      "raw_sha256": "2808f17a6f91542ef561cc0c0cde699bb28fa372bda860ac5ef56b54fbfa6435"
+    },
+    {
+      "path": "Akka\\PararAbastecimentoRequest.cs",
+      "export_path": "Akka\\PararAbastecimentoRequest.cs",
+      "raw_sha256": "cdbf0246bd45c281cbdf79dd9b9e04e0a789e78e036f793d648a4c08d63792ad"
+    },
+    {
+      "path": "Akka\\PerdeuComunicacaoTotalResponse.cs",
+      "export_path": "Akka\\PerdeuComunicacaoTotalResponse.cs",
+      "raw_sha256": "565c5c57c018290e2bbc6e8bf9792e722e9ce5e99769aed9aa21fc23560a2a54"
+    },
+    {
+      "path": "Akka\\PresetRequest.cs",
+      "export_path": "Akka\\PresetRequest.cs",
+      "raw_sha256": "079531ff95693c48b3a29b942f21ea4950ad4c99686d97d691378395577cd442"
+    },
+    {
+      "path": "Akka\\QuebraContinuidadeEncerranteResponse.cs",
+      "export_path": "Akka\\QuebraContinuidadeEncerranteResponse.cs",
+      "raw_sha256": "13a22e9cec670e4a6bc4a0eb7839601b22398673552bee8c522074283269b1f6"
+    },
+    {
+      "path": "Akka\\RemoverAbastecimentoRepetidoRequest.cs",
+      "export_path": "Akka\\RemoverAbastecimentoRepetidoRequest.cs",
+      "raw_sha256": "fa6a34990bc756c7911e0812615403cc5bf5e80556f3c183959122cafeba5000"
+    },
+    {
+      "path": "Akka\\RemoverAbastecimentosRequest.cs",
+      "export_path": "Akka\\RemoverAbastecimentosRequest.cs",
+      "raw_sha256": "700ab00b0b0df24449024beec9ae12e0198b56fc9053357f3fed8a225b1b473d"
+    },
+    {
+      "path": "Akka\\RemoverAbastecimentosResponse.cs",
+      "export_path": "Akka\\RemoverAbastecimentosResponse.cs",
+      "raw_sha256": "d7896cc051dfd0c1f52f33c98090b3bb6487c262e9ebaa683a4e7b4f98215c46"
+    },
+    {
+      "path": "Akka\\RemoverQuebraContinuidadeEncerranteRequest.cs",
+      "export_path": "Akka\\RemoverQuebraContinuidadeEncerranteRequest.cs",
+      "raw_sha256": "c5a5855c8b748885cece382b2637174f9ba856eb1bca1496e3b0f178082ca024"
+    },
+    {
+      "path": "Akka\\RemoverQuebraContinuidadeEncerranteResponse.cs",
+      "export_path": "Akka\\RemoverQuebraContinuidadeEncerranteResponse.cs",
+      "raw_sha256": "cfbcc509020d62fe649aa2757b28262af019d6b613d9279cd77f2c57a7afa807"
+    },
+    {
+      "path": "Akka\\RetornouComunicacaoTotalResponse.cs",
+      "export_path": "Akka\\RetornouComunicacaoTotalResponse.cs",
+      "raw_sha256": "36c0249f5c7906b8eb62fd82b44956dde5e17d44937d81b2528ac2757ed14647"
+    },
+    {
+      "path": "Akka\\StatusBicosResponse.cs",
+      "export_path": "Akka\\StatusBicosResponse.cs",
+      "raw_sha256": "379e13d29ab5ac7dc5a7967e931273652897592835b611fba3bf8905990a38f2"
+    },
+    {
+      "path": "Akka\\TornarAbastecimentosPendentesMobileRequest.cs",
+      "export_path": "Akka\\TornarAbastecimentosPendentesMobileRequest.cs",
+      "raw_sha256": "38eb64398b98ad2405f32ec7c18ec6e00e9ba3c9d69df14eb257cf1d1e825638"
+    },
+    {
+      "path": "Akka\\TornarAbastecimentosPendentesRequest.cs",
+      "export_path": "Akka\\TornarAbastecimentosPendentesRequest.cs",
+      "raw_sha256": "3bb12df8e9970b71361e29ac03da15b9bb5b077fe9f8bb0c16c3c2a28a0949a8"
+    },
+    {
+      "path": "CesnaActiveX\\Cesna.cs",
+      "export_path": "CesnaActiveX\\Cesna.cs",
+      "raw_sha256": "91e229db810504843d9270ca5c1b18f31eaa76e2c668ed385d3ada14cffb5817"
+    },
+    {
+      "path": "CesnaActiveX\\ICesna.cs",
+      "export_path": "CesnaActiveX\\ICesna.cs",
+      "raw_sha256": "6dd5ca34029cc061798707d0f3c47cf6b02095bde4aa2cc799177113a1749bff"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents.cs",
+      "raw_sha256": "11d98f90af69c82aa8025eddb0a38c3794fcf5d2a44a7e2d87664c56093d25d5"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents_Event.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents_Event.cs",
+      "raw_sha256": "324bc62c6bb792e0f2a89861673bb5204f30f182884bfdeadb8d721cfaa185ef"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents_FcmAbasteceuEventHandler.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents_FcmAbasteceuEventHandler.cs",
+      "raw_sha256": "d9f1b3a87eec102e0bae22258d2c03edd3a7260ae76f622e20237509af7e7c6a"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents_FcmMudancaDeEstadoEventHandler.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents_FcmMudancaDeEstadoEventHandler.cs",
+      "raw_sha256": "b810d05a2087de0e41c3f78a42d5b2faa031b9736c8c0291b36088ef08cf395d"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents_FcmTotalizadorEventHandler.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents_FcmTotalizadorEventHandler.cs",
+      "raw_sha256": "baf3dbdcc41484686f9b8f12ddb0cc46d8d36ead7a48850ce6e35ff56575a85c"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents_FcmVersaoFcmSlaveEventHandler.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents_FcmVersaoFcmSlaveEventHandler.cs",
+      "raw_sha256": "f71bca936066e52cbc3dd096a2ae86264af980c98ca4ebf0961fa0dd8fa6bc83"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents_IdCodeAbasteceuEventHandler.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents_IdCodeAbasteceuEventHandler.cs",
+      "raw_sha256": "a75eb2eeaa7210b6669c5901fa378c0c6ee6fdcf944677334970a2d6735f1444"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents_IdCodeConfigMabEventHandler.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents_IdCodeConfigMabEventHandler.cs",
+      "raw_sha256": "04a291e0e41f0720b0796ba1dfa47da01890487c8752ef9592185b3b400ebe08"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents_IdCodeMudancaDeEstadoEventHandler.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents_IdCodeMudancaDeEstadoEventHandler.cs",
+      "raw_sha256": "babe6e5c66ff2cf98e567fe97d4b860f299970a40a6452120ce271b11ce05d98"
+    },
+    {
+      "path": "CesnaActiveX\\ICesnaEvents_IdCodeTotalizadorEventHandler.cs",
+      "export_path": "CesnaActiveX\\ICesnaEvents_IdCodeTotalizadorEventHandler.cs",
+      "raw_sha256": "a0bee8dcc08e2c9d8ce1da96d88f1705b3b1cfcbf5c30b82383023635dc1e13c"
+    },
+    {
+      "path": "Classes\\Abastecimento.cs",
+      "export_path": "Classes\\Abastecimento.cs",
+      "raw_sha256": "f9a02aa06ccac2c2ea8610c729ab531da18b03f3d9cf30c4754ce38748d4d931"
+    },
+    {
+      "path": "Classes\\Bico.cs",
+      "export_path": "Classes\\Bico.cs",
+      "raw_sha256": "d0a225356d7e710d4ef8705ab4bb105c66876cdbf4c6c57193b471c0b6e199c7"
+    },
+    {
+      "path": "Classes\\Bomba.cs",
+      "export_path": "Classes\\Bomba.cs",
+      "raw_sha256": "031b509b73b79dd11c30629191bf89a58dbbad8c798020664387645e71c3a68d"
+    },
+    {
+      "path": "Classes\\Cesna\\Cesna.cs",
+      "export_path": "Classes\\Cesna\\Cesna.cs",
+      "raw_sha256": "4eb82f294880955094d0a653eb9377bbe3cc4d64a2219cb04613928f9200137d"
+    },
+    {
+      "path": "Classes\\Cesna\\CesnaBico.cs",
+      "export_path": "Classes\\Cesna\\CesnaBico.cs",
+      "raw_sha256": "97572a480573cfd7bfb4e27ee867e335078b6d178263c40592048fb5592f2620"
+    },
+    {
+      "path": "Classes\\Cesna\\CesnaConcentradorFcm.cs",
+      "export_path": "Classes\\Cesna\\CesnaConcentradorFcm.cs",
+      "raw_sha256": "86f5b3532030adf6bd39a85821d20af7373e8134859bf85a6b686338f60f1330"
+    },
+    {
+      "path": "Classes\\Cesna\\CesnaConcentradorIdCode.cs",
+      "export_path": "Classes\\Cesna\\CesnaConcentradorIdCode.cs",
+      "raw_sha256": "ca317de5a6e879f186e457e3b396267c1156219995d88aeb2570e475938c72aa"
+    },
+    {
+      "path": "Classes\\Cesna\\CesnaDeclaracoes.cs",
+      "export_path": "Classes\\Cesna\\CesnaDeclaracoes.cs",
+      "raw_sha256": "fec2c5105cf857332ec7f9ab37c0b38f987e7cd14b0898304024cd3035cf52ae"
+    },
+    {
+      "path": "Classes\\Cesna\\CesnaDefault.cs",
+      "export_path": "Classes\\Cesna\\CesnaDefault.cs",
+      "raw_sha256": "81321c1960a4cc6730cd202c35ef60208f5515c8457ebb7b2f16990614203f8f"
+    },
+    {
+      "path": "Classes\\Cesna\\CesnaFcm.cs",
+      "export_path": "Classes\\Cesna\\CesnaFcm.cs",
+      "raw_sha256": "358b36008ed82be20e7402d181920b3cdc58b3cafddd1fdac6eec592905365a6"
+    },
+    {
+      "path": "Classes\\Cesna\\CesnaIdCode.cs",
+      "export_path": "Classes\\Cesna\\CesnaIdCode.cs",
+      "raw_sha256": "ceb3c1d81e806df85faa3dcecfd2ff2ae3ba101805cb19bf824921b8984c1021"
+    },
+    {
+      "path": "Classes\\Cesna\\ICesnaBico.cs",
+      "export_path": "Classes\\Cesna\\ICesnaBico.cs",
+      "raw_sha256": "d0b87d2f9ae5fab5649fb39f5b98cd499a3c684355d6b99fdfa330a80f39bee1"
+    },
+    {
+      "path": "Classes\\Cesna\\ICesnaConcentrador.cs",
+      "export_path": "Classes\\Cesna\\ICesnaConcentrador.cs",
+      "raw_sha256": "cb62349bea8d6a302acae31984ce387e70edb3251380b08cd9d8f9742ecfd897"
+    },
+    {
+      "path": "Classes\\CompanyTec\\CompanyTec.cs",
+      "export_path": "Classes\\CompanyTec\\CompanyTec.cs",
+      "raw_sha256": "0a1a7b44c87b903f3ce1eb66bdd9ea2e45efbe2e28871d9cadab8448389e80dd"
+    },
+    {
+      "path": "Classes\\CompanyTec\\CompanyTecComando.cs",
+      "export_path": "Classes\\CompanyTec\\CompanyTecComando.cs",
+      "raw_sha256": "44090d7092d56fbe3a8dc4a569a9035dee4f61b6dffafb093f82b9a96ada89ea"
+    },
+    {
+      "path": "Classes\\CompanyTec\\CompanyTecComandoCheckSum.cs",
+      "export_path": "Classes\\CompanyTec\\CompanyTecComandoCheckSum.cs",
+      "raw_sha256": "6f94a60c7e240aef82d495904ea4028cade21860972664512fda840bd18e2989"
+    },
+    {
+      "path": "Classes\\CompanyTec\\CompanyTecComandos.cs",
+      "export_path": "Classes\\CompanyTec\\CompanyTecComandos.cs",
+      "raw_sha256": "b5dff4b3ea06220f62ff14989adf8e6bea1dbb3ea7c588a3a88493cf41006bfc"
+    },
+    {
+      "path": "Classes\\CompanyTec\\CompanyTecDefault.cs",
+      "export_path": "Classes\\CompanyTec\\CompanyTecDefault.cs",
+      "raw_sha256": "11c604c2724c81e0f47be1ad610ddaad11670b801eeda70fecf041a3a1a47a3e"
+    },
+    {
+      "path": "Classes\\CompanyTec\\CompanyTecSerial.cs",
+      "export_path": "Classes\\CompanyTec\\CompanyTecSerial.cs",
+      "raw_sha256": "476860adbc6da3bb9697e888dca95430b77a5281ac23a021fb695aabf341e482"
+    },
+    {
+      "path": "Classes\\CompanyTec\\CompanyTecSerialPort.cs",
+      "export_path": "Classes\\CompanyTec\\CompanyTecSerialPort.cs",
+      "raw_sha256": "966095d9000e8d7cb02768b21c5305549f728d7ab0d986df6e012574965747da"
+    },
+    {
+      "path": "Classes\\CompanyTec\\CompanyTecSocket.cs",
+      "export_path": "Classes\\CompanyTec\\CompanyTecSocket.cs",
+      "raw_sha256": "fc07675f3c1932fe62909fad7dbb7addd0da98a48417597eebeb8369f6be9a3b"
+    },
+    {
+      "path": "Classes\\CompanyTec\\CompanyTecSocketPort.cs",
+      "export_path": "Classes\\CompanyTec\\CompanyTecSocketPort.cs",
+      "raw_sha256": "cb7fe176c0d80ffb52d3832de71ccb874c9b274dd5292b1895e49b7fce082735"
+    },
+    {
+      "path": "Classes\\CompanyTec\\ICompanyTecComando.cs",
+      "export_path": "Classes\\CompanyTec\\ICompanyTecComando.cs",
+      "raw_sha256": "90e8f57d6c8fc9fb62eaead9fcb20ed41c597d07cbf6b1831e5f10b3058312f5"
+    },
+    {
+      "path": "Classes\\CompanyTec\\ICompanyTecPorta.cs",
+      "export_path": "Classes\\CompanyTec\\ICompanyTecPorta.cs",
+      "raw_sha256": "58a18eff0d1dd234cf69997ed0f7a0cdc4a8e9385c58afb7e68c294a34192d48"
+    },
+    {
+      "path": "Classes\\ConcentradorComunicacao.cs",
+      "export_path": "Classes\\ConcentradorComunicacao.cs",
+      "raw_sha256": "191f777df758a618476e5a2b472326fcb2d752631c2fd707f6ffd5f18b4973bc"
+    },
+    {
+      "path": "Classes\\ConcentradorConfiguracaoCom.cs",
+      "export_path": "Classes\\ConcentradorConfiguracaoCom.cs",
+      "raw_sha256": "74462802ea3baee6c0685f0b55617e0ff3ca3176f874ff26b0039b792bd696c3"
+    },
+    {
+      "path": "Classes\\ConcentradorConfiguracaoIp.cs",
+      "export_path": "Classes\\ConcentradorConfiguracaoIp.cs",
+      "raw_sha256": "21ac7d69d4ef1b81461d85b7ee86c857a8369ef7d57fcac1628cdaf4cf19b8c4"
+    },
+    {
+      "path": "Classes\\ConcentradorConfiguracaoMab.cs",
+      "export_path": "Classes\\ConcentradorConfiguracaoMab.cs",
+      "raw_sha256": "14f5cb1fc7207de119872566bec9959984c9062bd491efb332b79708cf09e69d"
+    },
+    {
+      "path": "Classes\\ConcentradorConfiguracaoMaster.cs",
+      "export_path": "Classes\\ConcentradorConfiguracaoMaster.cs",
+      "raw_sha256": "06b431bd874631dc960d6bb3cf69947c15162f6eb9874f400fa05e65bfec9b52"
+    },
+    {
+      "path": "Classes\\ConcentradorConfiguracaoNaoNecessaria.cs",
+      "export_path": "Classes\\ConcentradorConfiguracaoNaoNecessaria.cs",
+      "raw_sha256": "9e054964b632e2de8c81283581f051f3e609a0cf702306795cab2e8e25429180"
+    },
+    {
+      "path": "Classes\\ConcentradorConfiguracaoUsb.cs",
+      "export_path": "Classes\\ConcentradorConfiguracaoUsb.cs",
+      "raw_sha256": "0f14d7c424023445a064ca080c37e8bc1c07cb7323e95864b063c0dfe4836e47"
+    },
+    {
+      "path": "Classes\\ConcentradorDefault.cs",
+      "export_path": "Classes\\ConcentradorDefault.cs",
+      "raw_sha256": "a55165a314ac1db5da5b69e17eae185aead2e58be3694ae2cab67acf19e22353"
+    },
+    {
+      "path": "Classes\\ConcentradorFactory.cs",
+      "export_path": "Classes\\ConcentradorFactory.cs",
+      "raw_sha256": "f520c6979df15d35d612da08f4fca7cf18af457779a8cba0d72f8eaa97cdacfa"
+    },
+    {
+      "path": "Classes\\ConcentradorNotificacao.cs",
+      "export_path": "Classes\\ConcentradorNotificacao.cs",
+      "raw_sha256": "77044a6103c7a5f78cb6cd4d5778c5c86fc748c8df6648f575603a5ad6ca2819"
+    },
+    {
+      "path": "Classes\\ConcentradorNotificacaoPerda.cs",
+      "export_path": "Classes\\ConcentradorNotificacaoPerda.cs",
+      "raw_sha256": "67af208ee907e894b0d60f31b66812fe0074182b59c157f7e91a927bb4804ef5"
+    },
+    {
+      "path": "Classes\\ConcentradorNotificacaoPerdaComunicacaoTotalEventArgs.cs",
+      "export_path": "Classes\\ConcentradorNotificacaoPerdaComunicacaoTotalEventArgs.cs",
+      "raw_sha256": "82c8f074ddff34f79392b01c53d697a27b5ca210d731d93846fe54b426b04afd"
+    },
+    {
+      "path": "Classes\\ConcentradorNotificacaoPerdaImediata.cs",
+      "export_path": "Classes\\ConcentradorNotificacaoPerdaImediata.cs",
+      "raw_sha256": "f29bc8987472b9c61b1b6a3bd839f70d3223133c869637ed122ad01742c2d0e3"
+    },
+    {
+      "path": "Classes\\ConcentradorNotificacaoRetornoComunicacaoFalhaTotalEventArgs.cs",
+      "export_path": "Classes\\ConcentradorNotificacaoRetornoComunicacaoFalhaTotalEventArgs.cs",
+      "raw_sha256": "559e40dd7d8cc89228400c54c6e41e377e97bf6632d184ab49b93b46e24741c5"
+    },
+    {
+      "path": "Classes\\Events\\BombaBicoEventArgs.cs",
+      "export_path": "Classes\\Events\\BombaBicoEventArgs.cs",
+      "raw_sha256": "30b7e7f1e92b23def97f30032f100be83d6ea98d639f02c97f956849b839801c"
+    },
+    {
+      "path": "Classes\\Events\\ConcentradorAbastecimentoEventArgs.cs",
+      "export_path": "Classes\\Events\\ConcentradorAbastecimentoEventArgs.cs",
+      "raw_sha256": "ba45bc8ba32d315a2f3bdcf2759da4181a9f03eb867fcaf82f39e861aee21eb5"
+    },
+    {
+      "path": "Classes\\Events\\ConcentradorErroEventArgs.cs",
+      "export_path": "Classes\\Events\\ConcentradorErroEventArgs.cs",
+      "raw_sha256": "a0370bc9f7c8b69d07b2de7ff4e021d5a530baad81edad9259c05825d2a4d6fd"
+    },
+    {
+      "path": "Classes\\Events\\ConcentradorLeituraEventArgs.cs",
+      "export_path": "Classes\\Events\\ConcentradorLeituraEventArgs.cs",
+      "raw_sha256": "1a6e56eab1de9a5c89c1449324fb6d1c73a2c3d5ee6daed2ab37215c604cba8d"
+    },
+    {
+      "path": "Classes\\Events\\ConcentradorNotificacaoEventArgs.cs",
+      "export_path": "Classes\\Events\\ConcentradorNotificacaoEventArgs.cs",
+      "raw_sha256": "c09e4ae6bf13f8a8a594970d5bd65d2e5ada6876191fcd786deb9e500db22842"
+    },
+    {
+      "path": "Classes\\Events\\ConcentradorNotificacaoFalhaEventArgs.cs",
+      "export_path": "Classes\\Events\\ConcentradorNotificacaoFalhaEventArgs.cs",
+      "raw_sha256": "2a0ac9c3182976f03fde0f28290e29792ba5b37466cf77162036b248f3b5d636"
+    },
+    {
+      "path": "Classes\\Events\\ConcentradorNotificacaoRetornoEventArgs.cs",
+      "export_path": "Classes\\Events\\ConcentradorNotificacaoRetornoEventArgs.cs",
+      "raw_sha256": "7ae13c191b7198a41bfe3ae0d0897f927c95e40c34f2525aeb4febdad087aee2"
+    },
+    {
+      "path": "Classes\\Events\\ConcentradorStatusEventArgs.cs",
+      "export_path": "Classes\\Events\\ConcentradorStatusEventArgs.cs",
+      "raw_sha256": "bb0d21119264fc3aecbe7267ca50eb7a87f1b42ffe360adafcc24e23d53ff493"
+    },
+    {
+      "path": "Classes\\Hiro\\Hiro.cs",
+      "export_path": "Classes\\Hiro\\Hiro.cs",
+      "raw_sha256": "7bf83c3625f505a01be57ef14938215effdc69ff9a4649f7ccc3999e503a8081"
+    },
+    {
+      "path": "Classes\\Hiro\\HiroDefault.cs",
+      "export_path": "Classes\\Hiro\\HiroDefault.cs",
+      "raw_sha256": "64a12fb2e7db198ddba04fc3ad006063edfc6941e0df025824c7a47ba9eb69ee"
+    },
+    {
+      "path": "Classes\\Hiro\\HiroSerial.cs",
+      "export_path": "Classes\\Hiro\\HiroSerial.cs",
+      "raw_sha256": "41320416a1e1ff0f252f134760c6053e7ac50d1879f4ed8cb68330aac56ab015"
+    },
+    {
+      "path": "Classes\\Hiro\\HiroSocket.cs",
+      "export_path": "Classes\\Hiro\\HiroSocket.cs",
+      "raw_sha256": "2af5d0ad24211519637cf0059b4e0e3df9255a8adfd06e367feec01e50387651"
+    },
+    {
+      "path": "Classes\\Hiro\\HiroUsb.cs",
+      "export_path": "Classes\\Hiro\\HiroUsb.cs",
+      "raw_sha256": "3132cedb741d54fb54672f571754ced12745f883be037e36ce03ce712aee0489"
+    },
+    {
+      "path": "Classes\\VLTech\\VLTech.cs",
+      "export_path": "Classes\\VLTech\\VLTech.cs",
+      "raw_sha256": "843f588c83c089b920c2076c05da1d6dd4e6f24ef811493c0a36d0e596a6107e"
+    },
+    {
+      "path": "Classes\\VLTech\\VLTechDeclaracoes.cs",
+      "export_path": "Classes\\VLTech\\VLTechDeclaracoes.cs",
+      "raw_sha256": "3c1b5ece56fa7ff5b27c0777a44387a194ed301acd5eb75edb99f3f544ccd5c0"
+    },
+    {
+      "path": "Classes\\VLTech\\VLTechDefault.cs",
+      "export_path": "Classes\\VLTech\\VLTechDefault.cs",
+      "raw_sha256": "68b023d9ed524db61dac2cb1ec3799baf1b071da451bce382e3836a59c2ea1d3"
+    },
+    {
+      "path": "Classes\\VWTech\\VWTech.cs",
+      "export_path": "Classes\\VWTech\\VWTech.cs",
+      "raw_sha256": "0882950e141c180915db7d55da0d2afc701b322aed9900cb035cac7b83038fa0"
+    },
+    {
+      "path": "Classes\\VWTech\\VWTechDeclaracoes.cs",
+      "export_path": "Classes\\VWTech\\VWTechDeclaracoes.cs",
+      "raw_sha256": "933d68a6945c766752c5da881826c93e1e5e2223a2180844795d4a06e584a7ee"
+    },
+    {
+      "path": "Classes\\VWTech\\VWTechDefault.cs",
+      "export_path": "Classes\\VWTech\\VWTechDefault.cs",
+      "raw_sha256": "7866382463f1ec8b603fe2355c60edb309d967567f8e022bc6b3419860540679"
+    },
+    {
+      "path": "Classes\\VWTech\\VWTechSerial.cs",
+      "export_path": "Classes\\VWTech\\VWTechSerial.cs",
+      "raw_sha256": "f4df806684adee70e982ddb41c447a2dd2035c25d7e9c80218c4a85e963ccc4f"
+    },
+    {
+      "path": "Classes\\VWTech\\VWTechSocket.cs",
+      "export_path": "Classes\\VWTech\\VWTechSocket.cs",
+      "raw_sha256": "224dca2750122a6680dae348ac80a385bba6999fa8b1f9e9adef8ee773311fb4"
+    },
+    {
+      "path": "Exceptions\\ConcentradorBaseException.cs",
+      "export_path": "Exceptions\\ConcentradorBaseException.cs",
+      "raw_sha256": "08a3c03564a125f6e96e576320e9556ca396343d695c87c800122ea5ee2abb3b"
+    },
+    {
+      "path": "Exceptions\\ConcentradorBicoNaoConfiguradoException.cs",
+      "export_path": "Exceptions\\ConcentradorBicoNaoConfiguradoException.cs",
+      "raw_sha256": "969cae1fd370f75f6efef1b40502fa1aaa2ebd2f2d21b243bd326a9bc9581d29"
+    },
+    {
+      "path": "Exceptions\\ConcentradorPrecoNaoConfiguradoException.cs",
+      "export_path": "Exceptions\\ConcentradorPrecoNaoConfiguradoException.cs",
+      "raw_sha256": "9a4c85e24618259aee23c4af56d20efb8fef8551bf4aa13e906b55ff5e045648"
+    },
+    {
+      "path": "Interfaces\\IAbastecimento.cs",
+      "export_path": "Interfaces\\IAbastecimento.cs",
+      "raw_sha256": "1d1724d3c74a14b100f39b4fd15633f2d6d36633d88ce6b1eadbe38aec78995b"
+    },
+    {
+      "path": "Interfaces\\IBico.cs",
+      "export_path": "Interfaces\\IBico.cs",
+      "raw_sha256": "4fab9440b9b159088e07e487e6298faaf7c8a3b51ea1b1d953fc33cac311ab55"
+    },
+    {
+      "path": "Interfaces\\IBomba.cs",
+      "export_path": "Interfaces\\IBomba.cs",
+      "raw_sha256": "0a2e323eee041b561f6f619d713f61bc178b862ec7878222430afe2eb1c02346"
+    },
+    {
+      "path": "Interfaces\\IConcentrador.cs",
+      "export_path": "Interfaces\\IConcentrador.cs",
+      "raw_sha256": "2ef393a655a5e364e011df895c77814cc49c33a8b492f4c736cbc53fd7e62cf7"
+    },
+    {
+      "path": "Interfaces\\IConcentradorComunicacao.cs",
+      "export_path": "Interfaces\\IConcentradorComunicacao.cs",
+      "raw_sha256": "05ce7ffbed6e4354fe61d83b0c90f20d71cf523b9276580510ac77149aa4d927"
+    },
+    {
+      "path": "Interfaces\\IConcentradorConfiguracao.cs",
+      "export_path": "Interfaces\\IConcentradorConfiguracao.cs",
+      "raw_sha256": "f67352cfdfd0774fe50cffb2e0798f4bdb172327769240d533d1d567973924a8"
+    },
+    {
+      "path": "Interfaces\\IConcentradorConfiguracaoCesna.cs",
+      "export_path": "Interfaces\\IConcentradorConfiguracaoCesna.cs",
+      "raw_sha256": "ffba1f0b3679c293796759d3ac57df43d672e83a52a992a499119f107c9da9ac"
+    },
+    {
+      "path": "Interfaces\\IConcentradorFactory.cs",
+      "export_path": "Interfaces\\IConcentradorFactory.cs",
+      "raw_sha256": "de1a3648b5d2590c656179b6dae66bfdf33b0e8ab1baa30ef4b3167ea5dd81ec"
+    },
+    {
+      "path": "Interfaces\\IConcentradorMarcaFactory.cs",
+      "export_path": "Interfaces\\IConcentradorMarcaFactory.cs",
+      "raw_sha256": "a6234410c7f19aa4012ad7c574e80f68247aa275edeccde3be880566c2e783df"
+    },
+    {
+      "path": "Interfaces\\IConcentradorNotificacao.cs",
+      "export_path": "Interfaces\\IConcentradorNotificacao.cs",
+      "raw_sha256": "5bed37e763963aed7d28009a73284d4bf5c67c00d272cb8a4e6607069abd9099"
+    },
+    {
+      "path": "Interfaces\\IConcentradorNotificacaoFalha.cs",
+      "export_path": "Interfaces\\IConcentradorNotificacaoFalha.cs",
+      "raw_sha256": "6bf6f5da5517800925ebb2d42201b9f66d7d3b888dec9f41e6553167652fbe21"
+    },
+    {
+      "path": "Interfaces\\IConcentradorNotificacaoRetorno.cs",
+      "export_path": "Interfaces\\IConcentradorNotificacaoRetorno.cs",
+      "raw_sha256": "d60bc56669f6cd4d10b23eab0ad7bf778e9a331a6c63417c9a20b749d37fc2d8"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "451e2a7ee751e296a00d42041c533f28efa73b0d02c8b1a9c2826446e02b4501"
+    },
+    {
+      "path": "Types\\FormaDeComunicacao.cs",
+      "export_path": "Types\\FormaDeComunicacao.cs",
+      "raw_sha256": "d0b053fa278cb5ef534dbeb799e89d2d0953f74a6ab408fd60baba84d565675f"
+    },
+    {
+      "path": "Types\\ModoOperacaoBomba.cs",
+      "export_path": "Types\\ModoOperacaoBomba.cs",
+      "raw_sha256": "e3c9e194f0816e40b1e92358adbf4c197649b25c3d7becbc2d17bf59462ef3a1"
+    },
+    {
+      "path": "Types\\MotivoDescontinuidade.cs",
+      "export_path": "Types\\MotivoDescontinuidade.cs",
+      "raw_sha256": "756bdb738adb720e4ec8d81ef3f53d1f490adfafa42cf8b7700f46bb5e230441"
+    },
+    {
+      "path": "Types\\SituacaoBico.cs",
+      "export_path": "Types\\SituacaoBico.cs",
+      "raw_sha256": "61f83d960beea9e07585b60962b2fe469a0e14d612cb1fbed35047451dff46f0"
+    },
+    {
+      "path": "Types\\SituacaoComunicacaoConcentrador.cs",
+      "export_path": "Types\\SituacaoComunicacaoConcentrador.cs",
+      "raw_sha256": "ea45f31ace7712a7643ae6906837a174bb4cdad4ffa217021a668fa22f4cd7e7"
+    },
+    {
+      "path": "Types\\StatusBico.cs",
+      "export_path": "Types\\StatusBico.cs",
+      "raw_sha256": "8b760a01d8662c3f3e7e21851dd34b47fee6b4c6114acf2b15c7f133938ee345"
+    },
+    {
+      "path": "Types\\TipoOperacaoBico.cs",
+      "export_path": "Types\\TipoOperacaoBico.cs",
+      "raw_sha256": "153922d06a7e1c4b43021a03a8f73e0532b86c9fa396f07a4831a6cf3f728c04"
+    },
+    {
+      "path": "__PrivateImplementationDetails.cs",
+      "export_path": "__PrivateImplementationDetails.cs",
+      "raw_sha256": "bb23b9b67103a92a5a071df9062dba40c1959eb1eed3dc1d58250f88fdd090da",
+      "generated": true
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 95
+    },
+    {
+      "kind": "synthesized ComputeStringHash helper",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [],
+  "generated_stubs": false
+}

@@ -1,0 +1,175 @@
+{
+  "name": "Modulo.GeradorArquivosSintegra",
+  "baseline": "baseline\\Modulo.GeradorArquivosSintegra.dll",
+  "baseline_sha256": "6c610376de9be4d1377ec810eba6a2e22a2be894f84ab43f65723b2f1b2108e3",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosSintegra\\Modulo.GeradorArquivosSintegra.csproj",
+  "sources": [
+    {
+      "path": "GeradorArquivoSintegraModulo.cs",
+      "export_path": "GeradorArquivoSintegraModulo.cs",
+      "raw_sha256": "fe915d877aae28606a1cdee4b5a7cb05f96cfff056cb39f92713dd320f3b0722"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "83ae77c141090576deb1c200d109bf5aec9fc38125f722cf4a18a22932894e5d"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a07d9981823aadf7c5928dd4bb64e665bd8702b6917ccd61fd888c179c4e44b5"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "64bb0dffc446101b98f991add1f3057cd375526bdf8d7835c71825f75d3f601b"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoSintegraFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoSintegraFichaViewModel.cs",
+      "raw_sha256": "8b1deeab67ebce8fc021fd90b8366ca04dfb83a395e022367f1fcab2647b4567"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoSintegraFormulario.cs",
+      "export_path": "ViewModels\\GeradorArquivoSintegraFormulario.cs",
+      "raw_sha256": "e86b15714f68f95cd47a576dae117bb9bcc2221140b52f498358276d8b4be2ec"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosSintegraViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosSintegraViewModel.cs",
+      "raw_sha256": "52d0cd6ca4674e068fda8f5ad0e7ce5954d8feefabfd328073a98142d65f1d92"
+    },
+    {
+      "path": "ViewModels\\Passo1AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo1AbaViewModel.cs",
+      "raw_sha256": "8552c93db4a400df1a150730b7bbbf0264f98d56275a4201013f209d423d566b"
+    },
+    {
+      "path": "ViewModels\\Passo1ViewModel.cs",
+      "export_path": "ViewModels\\Passo1ViewModel.cs",
+      "raw_sha256": "e6c96f3d9e79d17a80611326aa6e7ea7f5eee98976b77165925ea4c8bf302ac5"
+    },
+    {
+      "path": "ViewModels\\Passo2AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo2AbaViewModel.cs",
+      "raw_sha256": "bb3c839c8807db99f23d4217be571783fef35cb997b04a8f7b6bb6f3a641a0fc"
+    },
+    {
+      "path": "ViewModels\\Passo2ViewModel.cs",
+      "export_path": "ViewModels\\Passo2ViewModel.cs",
+      "raw_sha256": "4a89d5a3b45b6b4ac0cdd3536c0d8d80c471f6f894b88ab3a914536a702f5dae"
+    },
+    {
+      "path": "ViewModels\\Passo3AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo3AbaViewModel.cs",
+      "raw_sha256": "1594d6c4fe0dac81365e52ecaa74dd5bd4c391289d4724c1df379155b0e9647b"
+    },
+    {
+      "path": "ViewModels\\Passo3ViewModel.cs",
+      "export_path": "ViewModels\\Passo3ViewModel.cs",
+      "raw_sha256": "885dd737d1b0d62d75c0e4335a5f8fafe49e3bc8487d8ace40f3fcb3eee66792"
+    },
+    {
+      "path": "ViewModels\\Passo4AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo4AbaViewModel.cs",
+      "raw_sha256": "a302459842bd42aedb2e185ee6e0e7239eec5c8df401efae95dd92432dae03a4"
+    },
+    {
+      "path": "ViewModels\\Passo4ViewModel.cs",
+      "export_path": "ViewModels\\Passo4ViewModel.cs",
+      "raw_sha256": "e16fa8ca408cc1051366d3c51f24cd3795589c59083d4e1681a52bc3a37ada07"
+    },
+    {
+      "path": "ViewModels\\Passo5AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo5AbaViewModel.cs",
+      "raw_sha256": "b62c1e229a1fc96dd9c121d31e106d42cad055d34239ddc102d659308a7b69e2"
+    },
+    {
+      "path": "ViewModels\\Passo5ViewModel.cs",
+      "export_path": "ViewModels\\Passo5ViewModel.cs",
+      "raw_sha256": "73a7c715e02cd6c30781aa75f689eb542f035b3473fbcc6db22f83a8fd967ce9"
+    },
+    {
+      "path": "ViewModels\\Passo6AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo6AbaViewModel.cs",
+      "raw_sha256": "3a62dabda2956d2158b6db14b484d7569f5b067dcbf3a58c701ba947a9bb4800"
+    },
+    {
+      "path": "ViewModels\\Passo6ViewModel.cs",
+      "export_path": "ViewModels\\Passo6ViewModel.cs",
+      "raw_sha256": "771ad259128ae5ddd7e5afca88d4330ec0dd25c6e1004c206f13fc4454871041"
+    },
+    {
+      "path": "ViewModels\\PorUnidadeFederacao.cs",
+      "export_path": "ViewModels\\PorUnidadeFederacao.cs",
+      "raw_sha256": "9988833df7ae94bba43f821fbf759a6062bdfb523b8a908fe0db3e45bd49f1d6"
+    },
+    {
+      "path": "ViewModels\\TipoGeracaoArquivoSintegra.cs",
+      "export_path": "ViewModels\\TipoGeracaoArquivoSintegra.cs",
+      "raw_sha256": "4a311e87f7ac69f19b47fe49532a4970801d01b118261858bafd367fb56de62a"
+    },
+    {
+      "path": "ViewModels\\Unico.cs",
+      "export_path": "ViewModels\\Unico.cs",
+      "raw_sha256": "c46a3d3ed52a5ddf24d5859610e2ff0678d912a3b72e0c2d4854cafe61e98617"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo1View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo1View.cs",
+      "raw_sha256": "5e7edc46843ae53bccdc4515f263844d9a374ffae72f9755bb8de7be5d368dee"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo2View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo2View.cs",
+      "raw_sha256": "af78fc0b018d127d93257ddf0618721bcf74a4248fadc2d587aa67ff22732ceb"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo3View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo3View.cs",
+      "raw_sha256": "2fb76680bc877f1ebab1ca3dce53273ea3547fb2f723b855bf45d350b26556b3"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo4View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo4View.cs",
+      "raw_sha256": "0b94c69c0a11e0479ca9653847aae01434bd48192b0a85286d41703bb256c6a7"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo5View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo5View.cs",
+      "raw_sha256": "11d3c6488e2f076929b67f2ff7065b91ddbb1df2be1d28da5bf73174f0cb6254"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo6View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo6View.cs",
+      "raw_sha256": "cd0c4a4c39bd473bd47185a1bffb267b6c96b7708c365edaabeb2168cfb247b7"
+    },
+    {
+      "path": "Views\\GeradorArquivoSintegraFichaView.cs",
+      "export_path": "Views\\GeradorArquivoSintegraFichaView.cs",
+      "raw_sha256": "da2b40fabd22f214cddedd596b8746793b8ec4718ade38a4cec74c18ad29a514"
+    },
+    {
+      "path": "Views\\GeradorArquivosSintegraView.cs",
+      "export_path": "Views\\GeradorArquivosSintegraView.cs",
+      "raw_sha256": "faf050f61f2f94f499f9d1087c98b28aa2410e91ba10087c204578831ee95b3b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosSintegra.g.resources",
+      "file": "0000.bin",
+      "bytes": 23099,
+      "sha256": "ae08aba782e2b71840f9bf0a6ec4b797ea7e7611dbbdcd3529177841171f7e85"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosSintegra.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

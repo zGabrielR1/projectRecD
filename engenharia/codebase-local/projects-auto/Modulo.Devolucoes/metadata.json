@@ -1,0 +1,69 @@
+{
+  "artifactSha256": "caa9da2b7b00accf8d5676c8d0783bdf92b1c4de68e88db07f82d396d6b23a1d",
+  "mvid": "23711cfb-ea9f-418c-a6df-655f4a34ffc6",
+  "assembly": "Modulo.Devolucoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "NClone",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Devolucoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 44988,
+      "sha256": "a9acb39f78e61b28ebfec41bb4dfe089224486f86f0ec4231ad77a1c3c634db1"
+    },
+    {
+      "name": "Otus.Modulo.Devolucoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Devolucoes.Reports.ImpressoCredito56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Devolucoes.Reports.ImpressoCredito79Mm80Mm.resources",
+      "file": "0003.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Devolucoes.Reports.ImpressoCredito.resources",
+      "file": "0004.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Modulo.Devolucoes.dll.licenses",
+      "file": "0005.bin",
+      "bytes": 281,
+      "sha256": "5603f77728d1c631c8146c308ef57ee398b104b0eaee6dcd0790b08036732ec0"
+    }
+  ]
+}

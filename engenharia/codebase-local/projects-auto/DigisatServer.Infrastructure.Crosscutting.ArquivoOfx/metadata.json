@@ -1,0 +1,12 @@
+{
+  "artifactSha256": "91d158bf4261e2ee42a6c739be24fd6fd45ac31408a4e09ec691479570fc39d4",
+  "mvid": "b150ab75-cd0d-42fc-8223-356d260710f4",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.ArquivoOfx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "System.Xml",
+    "DigisatServer.Infrastructure.Crosscutting"
+  ],
+  "resources": []
+}

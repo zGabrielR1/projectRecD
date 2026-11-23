@@ -1,0 +1,22 @@
+{
+  "artifactSha256": "aa5009a5e660cbd62177b90406552994b03bd1831be6815b9b2dbc734c8492cc",
+  "mvid": "bbb4995d-f2e7-4845-9e51-5257432966b6",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.SpedFiscal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.SpedFiscal.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

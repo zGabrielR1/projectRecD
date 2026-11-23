@@ -1,0 +1,11 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Criptografia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "mscorlib",
+    "ManagedOpenSsl",
+    "System.Numerics",
+    "System.Core"
+  ]
+}

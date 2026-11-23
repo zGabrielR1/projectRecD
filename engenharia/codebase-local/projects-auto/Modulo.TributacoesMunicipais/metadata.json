@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "444bafbeb3afd0016282e03703e6fdc3e2a18a113ab700c98000ece90c94157c",
+  "mvid": "52699400-82ac-4830-b071-c308c3eae15e",
+  "assembly": "Modulo.TributacoesMunicipais, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "PresentationCore",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.TributacoesMunicipais.g.resources",
+      "file": "0000.bin",
+      "bytes": 18999,
+      "sha256": "473e6c8d7e5bb84e023cc69ef08af7cdc394f469188bb52b5a520f701c61c1a1"
+    },
+    {
+      "name": "Otus.Modulo.TributacoesMunicipais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

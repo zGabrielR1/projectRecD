@@ -1,0 +1,61 @@
+﻿{
+    "name":  "DigisatServer.Infrastructure.Crosscutting.ArquivoOfx",
+    "baseline":  "baseline\\DigisatServer.Infrastructure.Crosscutting.ArquivoOfx.dll",
+    "baseline_sha256":  "91d158bf4261e2ee42a6c739be24fd6fd45ac31408a4e09ec691479570fc39d4",
+    "export_project":  "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ArquivoOfx\\DigisatServer.Infrastructure.Crosscutting.ArquivoOfx.csproj",
+    "sources":  [
+                    {
+                        "path":  "ArquivoOfxService.cs",
+                        "export_path":  "ArquivoOfxService.cs",
+                        "raw_sha256":  "15576b47ccbb54e6be7628d924476cd8389f3bd813486c233293ac58b22f05fd"
+                    },
+                    {
+                        "path":  "Classes\\Bank.cs",
+                        "export_path":  "Classes\\Bank.cs",
+                        "raw_sha256":  "0be1399dbce9e156e420b6b3d92a7d60c06206064ece3196ef520f21bbba3825"
+                    },
+                    {
+                        "path":  "Classes\\BankAccount.cs",
+                        "export_path":  "Classes\\BankAccount.cs",
+                        "raw_sha256":  "46fed6a567697b44d11a388b5bd09edf9d4ce269b53e47f266b5c1583d52157a"
+                    },
+                    {
+                        "path":  "Classes\\Extract.cs",
+                        "export_path":  "Classes\\Extract.cs",
+                        "raw_sha256":  "241f6227617530110e037f149d76b8085dab3dabb2536403ffb2477f59a582a4"
+                    },
+                    {
+                        "path":  "Classes\\HeaderExtract.cs",
+                        "export_path":  "Classes\\HeaderExtract.cs",
+                        "raw_sha256":  "4b3ed1fbfbbd97f9ccac0f4056e279fd5e3bbbe482be267a1d38565bfcc6ce42"
+                    },
+                    {
+                        "path":  "Classes\\Transaction.cs",
+                        "export_path":  "Classes\\Transaction.cs",
+                        "raw_sha256":  "b32f55c6f578709647c5ec62ad4cddf0b9459128a9d3ec57c2f3809e6eadf5a6"
+                    },
+                    {
+                        "path":  "ParserSettings.cs",
+                        "export_path":  "ParserSettings.cs",
+                        "raw_sha256":  "82209ff827e7ae1e5a09c31c3658199f32b546719dd0c3fc4fde3687ec67a7af"
+                    },
+                    {
+                        "path":  "Properties\\AssemblyInfo.cs",
+                        "export_path":  "Properties\\AssemblyInfo.cs",
+                        "raw_sha256":  "50696989f3e80f0c593ff1318cd7e4f065e1aaccdd4d34ba9a784ae70b5819b2"
+                    },
+                    {
+                        "path":  "Types\\PartDateTime.cs",
+                        "export_path":  "Types\\PartDateTime.cs",
+                        "raw_sha256":  "85462ab4d1c6587b9bc5d93f3a02453dc8d8d2abc1b49a987013ef8dfa2bc61c"
+                    }
+                ],
+    "output_type":  "Library",
+    "repairs":  [
+                    "Replaced malformed generated ComputeStringHash dispatch with direct equality checks for the same OFX tags. Qualified System.IO.File to avoid collision with the sibling File namespace."
+                ],
+    "original_resources":  [
+
+                           ],
+    "generated_stubs":  false
+}

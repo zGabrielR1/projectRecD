@@ -1,0 +1,10 @@
+{
+  "assembly": "System.Reactive.PlatformServices, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Reactive.Core",
+    "System.Reactive.Interfaces",
+    "System.Reactive.Linq"
+  ]
+}

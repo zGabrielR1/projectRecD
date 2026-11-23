@@ -1,0 +1,15 @@
+{
+  "assembly": "NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.ServiceModel",
+    "System.Xml",
+    "System.Core",
+    "System.Data",
+    "System.Configuration",
+    "System.Runtime.Serialization",
+    "System.Transactions",
+    "System.IO.Compression"
+  ]
+}

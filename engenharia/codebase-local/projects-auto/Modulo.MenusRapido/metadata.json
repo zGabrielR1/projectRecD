@@ -1,0 +1,33 @@
+{
+  "artifactSha256": "7f8ed2456fd3b36ba7d8976a9a4ea9f221eba3762526c90c95d46ad2cf982536",
+  "mvid": "bea2afe3-2988-4ba6-b728-d3eb8d8b3110",
+  "assembly": "Modulo.MenusRapido, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "PresentationFramework",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.MenusRapido.g.resources",
+      "file": "0000.bin",
+      "bytes": 58258,
+      "sha256": "98f0777e1795ec34954ee5791bb8d6c2764231c089f968d8a8e64d3e57606f79"
+    }
+  ]
+}

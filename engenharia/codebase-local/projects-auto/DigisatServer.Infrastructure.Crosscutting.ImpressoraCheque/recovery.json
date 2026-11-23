@@ -1,0 +1,155 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.ImpressoraCheque",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.ImpressoraCheque.dll",
+  "baseline_sha256": "fac89c6c197bda4eac07d6f1331837166278fbaebeced631bc51446ed1281cb0",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ImpressoraCheque\\DigisatServer.Infrastructure.Crosscutting.ImpressoraCheque.csproj",
+  "sources": [
+    {
+      "path": "Classes\\Bematech\\Bematech.cs",
+      "export_path": "Classes\\Bematech\\Bematech.cs",
+      "raw_sha256": "62a4e754bafc2620ef0e82edbd7a8a824926809951b0e5a00ee18aae3c4fae08"
+    },
+    {
+      "path": "Classes\\Bematech\\BematechDeclaracoes.cs",
+      "export_path": "Classes\\Bematech\\BematechDeclaracoes.cs",
+      "raw_sha256": "af3d67fbf90076f4d93a8903812af6e617a387018bfb69c1f4265f03bc4cf36e"
+    },
+    {
+      "path": "Classes\\Bematech\\BematechDefault.cs",
+      "export_path": "Classes\\Bematech\\BematechDefault.cs",
+      "raw_sha256": "2dfbe1fc14e65f21235e3210547d499a9e6bea86a126d37afba4cca039fa9d7e"
+    },
+    {
+      "path": "Classes\\ChequeBanco.cs",
+      "export_path": "Classes\\ChequeBanco.cs",
+      "raw_sha256": "934346d34a3d953faea1c4a281200479bf07d2684a64509458bf4aafa4c67d33"
+    },
+    {
+      "path": "Classes\\ChequeDefault.cs",
+      "export_path": "Classes\\ChequeDefault.cs",
+      "raw_sha256": "bac97302743637be75ccb4dda6df497b5fb3f13dc02be779316707036101763f"
+    },
+    {
+      "path": "Classes\\ChequeDocumento.cs",
+      "export_path": "Classes\\ChequeDocumento.cs",
+      "raw_sha256": "d9dc556c28ce127eee0b6dc885d36fefe8a13bc955d441e1f0a703262b000cfd"
+    },
+    {
+      "path": "Classes\\ChequeFactory.cs",
+      "export_path": "Classes\\ChequeFactory.cs",
+      "raw_sha256": "6b4d1948fdb6012651e2ab3ceb476d503fcaa29165357d962786bc9a6e889024"
+    },
+    {
+      "path": "Classes\\Elgin\\Elgin.cs",
+      "export_path": "Classes\\Elgin\\Elgin.cs",
+      "raw_sha256": "77ed8d33d2bc1ee816c61c14dbce14a5cd16798fc139773b0047e5ec616c725b"
+    },
+    {
+      "path": "Classes\\Elgin\\ElginDeclaracoes.cs",
+      "export_path": "Classes\\Elgin\\ElginDeclaracoes.cs",
+      "raw_sha256": "6974bf94313ed139ca2cc602668dd09f7ebb7fa08ccd4d09c547bc518e2d0f52"
+    },
+    {
+      "path": "Classes\\Elgin\\ElginDefault.cs",
+      "export_path": "Classes\\Elgin\\ElginDefault.cs",
+      "raw_sha256": "25c43257e31eeb9eeb001e91a4000d54fd28f7937fb9112854be06d20b9be89e"
+    },
+    {
+      "path": "Exceptions\\ChequeArquivoNaoExisteException.cs",
+      "export_path": "Exceptions\\ChequeArquivoNaoExisteException.cs",
+      "raw_sha256": "0597f5eff07deb5e712f7998557989babc48cf8bb2bcf680d5eadfef776212d2"
+    },
+    {
+      "path": "Exceptions\\ChequeBancoNaoLocalizadoException.cs",
+      "export_path": "Exceptions\\ChequeBancoNaoLocalizadoException.cs",
+      "raw_sha256": "6e804d105ada248e8e875c350b3fcc8ae7f856ed9c4157d0fa6e6fed04622c3c"
+    },
+    {
+      "path": "Exceptions\\ChequeBaseException.cs",
+      "export_path": "Exceptions\\ChequeBaseException.cs",
+      "raw_sha256": "799b02f9559cff4b909681c4e26f74868b774c6c581bcdb40e8578a3c68ce21f"
+    },
+    {
+      "path": "Exceptions\\ChequeErroComunicacaoException.cs",
+      "export_path": "Exceptions\\ChequeErroComunicacaoException.cs",
+      "raw_sha256": "6b02d33c040a674d83c736e92b1796c810b3871a1d316e4f6d1e6acb81d68cc1"
+    },
+    {
+      "path": "Exceptions\\ChequeErroImprimirException.cs",
+      "export_path": "Exceptions\\ChequeErroImprimirException.cs",
+      "raw_sha256": "ea15ed816de647397e820b9ead25f6bbf8bbf3e2c4ff98016b8863f56de153af"
+    },
+    {
+      "path": "Exceptions\\ChequeParametroInvalidoException.cs",
+      "export_path": "Exceptions\\ChequeParametroInvalidoException.cs",
+      "raw_sha256": "c0b66da45baa0d08001d02d2350a2a7a3f9e27d0e1e85b1483c49abaae836df8"
+    },
+    {
+      "path": "Exceptions\\ChequeStatusLigadoOperacionalException.cs",
+      "export_path": "Exceptions\\ChequeStatusLigadoOperacionalException.cs",
+      "raw_sha256": "f539d7a441d869159a2789925577f603eb87ae27bf989c2832b89e60389bbc9f"
+    },
+    {
+      "path": "Exceptions\\ChequeStatusPapelException.cs",
+      "export_path": "Exceptions\\ChequeStatusPapelException.cs",
+      "raw_sha256": "136c3171a6da776e22d3041fc32123f5089790a9d866d977d91f76394b905fa9"
+    },
+    {
+      "path": "Interfaces\\ICheque.cs",
+      "export_path": "Interfaces\\ICheque.cs",
+      "raw_sha256": "9b76a50eafe07c1797adc1a1eab7eb8edab08401803568be460e0cedb10ebfd2"
+    },
+    {
+      "path": "Interfaces\\IChequeBanco.cs",
+      "export_path": "Interfaces\\IChequeBanco.cs",
+      "raw_sha256": "ba17fda8a978d0eb076d696a6dc9e31294af807935cc9033d0f86c235e174e8b"
+    },
+    {
+      "path": "Interfaces\\IChequeDocumento.cs",
+      "export_path": "Interfaces\\IChequeDocumento.cs",
+      "raw_sha256": "03f72f90c654acae542a742542470568b32c197a83eb55aa5f432f32c2a50803"
+    },
+    {
+      "path": "Interfaces\\IChequeFactory.cs",
+      "export_path": "Interfaces\\IChequeFactory.cs",
+      "raw_sha256": "c19da6eb761a1c2358c85cacd12d3d289a395fde70b345962538c35e917754d2"
+    },
+    {
+      "path": "Interfaces\\IChequeMarcaFactory.cs",
+      "export_path": "Interfaces\\IChequeMarcaFactory.cs",
+      "raw_sha256": "417cccae1c6020161fd0ddfffe8b32835556ba8a7bd90a68cd489b202614da5f"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "01832b9d56bfb4275bbc28cfb3f402f43b4f8048f4ad4ae9bec9ab5bdffac4ac"
+    },
+    {
+      "path": "Types\\CampoCheque.cs",
+      "export_path": "Types\\CampoCheque.cs",
+      "raw_sha256": "d269766106833337657dbaa5926769355a830c42a1a4a1758a576ef19400bd18"
+    },
+    {
+      "path": "Types\\ChequeTipo.cs",
+      "export_path": "Types\\ChequeTipo.cs",
+      "raw_sha256": "0e156afe4acf4bc91cff00529273c67754dadf78abd7ed9139e6ce34a309e26a"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 8
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 2,
+      "types": [
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass12_1"
+      ]
+    }
+  ],
+  "original_resources": [],
+  "generated_stubs": false
+}

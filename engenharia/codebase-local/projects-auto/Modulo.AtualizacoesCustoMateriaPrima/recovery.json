@@ -1,0 +1,97 @@
+{
+  "name": "Modulo.AtualizacoesCustoMateriaPrima",
+  "baseline": "baseline\\Modulo.AtualizacoesCustoMateriaPrima.dll",
+  "baseline_sha256": "e53d41ca11d58cb0b48055a3125919ab70350d267584fa41862355071793bd32",
+  "export_project": "recovered\\SuiteG6\\Modulo.AtualizacoesCustoMateriaPrima\\Modulo.AtualizacoesCustoMateriaPrima.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "163e3f916070511d0e044052092439fd8a0536a06f48b66af4721f6e87918e4e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "e53d41ca11d58cb0b48055a3125919ab70350d267584fa41862355071793bd32"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 10
+    },
+    {
+      "kind": "Resolve UI helper/validation aliases and protected object-navigation access",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException"
+      }
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.AtualizacoesCustoMateriaPrima.g.resources",
+      "file": "0000.bin",
+      "bytes": 11050,
+      "sha256": "f72b1c6b739592e8229f3814dabd9a388b227f49250b49e9d91b93428df4a4ed"
+    },
+    {
+      "name": "Otus.Modulo.AtualizacoesCustoMateriaPrima.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "AtualizacaoCustoMateriaPrimaModulo.cs",
+      "export_path": "AtualizacaoCustoMateriaPrimaModulo.cs",
+      "raw_sha256": "d96ef41c7255561759d5bc85751546e37010f77287be2cbbdcc0f3efc1fa0470"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "7bcd405c7850627e8b203616529ce8d18a7f5a215c1968f1f71162053e7e887f"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "e0178f4bf48d7f49b9f569eb707d53ab716f4e1265fab822ec1921bfa552fef1"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "61dab1faf0bfa006455f6502de74188cf0acad0c133c73b03838fc0a9cd6f192"
+    },
+    {
+      "path": "ViewModels\\AtualizacaoCustoMateriaPrimaFichaViewModel.cs",
+      "export_path": "ViewModels\\AtualizacaoCustoMateriaPrimaFichaViewModel.cs",
+      "raw_sha256": "5d41e1ebe3da30483fedb0c310c739384abe6388f91177fc96ec94a2405ec016"
+    },
+    {
+      "path": "ViewModels\\AtualizacoesCustoMateriaPrimaViewModel.cs",
+      "export_path": "ViewModels\\AtualizacoesCustoMateriaPrimaViewModel.cs",
+      "raw_sha256": "7bb908b87411461548eb435edf5fdec1dc0767dde391ab6741055698fbf41576"
+    },
+    {
+      "path": "ViewModels\\MateriaPrimaViewModel.cs",
+      "export_path": "ViewModels\\MateriaPrimaViewModel.cs",
+      "raw_sha256": "2e4cf1e4d3717cc2636b8a9c8e4531ce3a3aee1cfee9dc63a5a2fdd743d577a4"
+    },
+    {
+      "path": "ViewModels\\ProdutoProduzidoViewModel.cs",
+      "export_path": "ViewModels\\ProdutoProduzidoViewModel.cs",
+      "raw_sha256": "2d52dcd451ddef1a150115af68044b293b0f882a82e3ac01f308268d8abc21b6"
+    },
+    {
+      "path": "Views\\AtualizacaoCustoMateriaPrimaFichaView.cs",
+      "export_path": "Views\\AtualizacaoCustoMateriaPrimaFichaView.cs",
+      "raw_sha256": "4a598242af7045eb8a6c216bf1d9160db357d73cf55f5e2d3448aab1f9b7b426"
+    },
+    {
+      "path": "Views\\AtualizacoesCustoMateriaPrimaView.cs",
+      "export_path": "Views\\AtualizacoesCustoMateriaPrimaView.cs",
+      "raw_sha256": "0781f1670f9b01ccaeb47d8bac82cc0c62810610b024d4e56f362f3a55eac902"
+    }
+  ]
+}

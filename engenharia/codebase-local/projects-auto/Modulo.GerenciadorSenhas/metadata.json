@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "889d321bc4da5cf4dcfc16ce966f39eaae0281b021e8368b0c29a52c3616a09a",
+  "mvid": "d9d3d92e-02c2-4635-8d22-7f75f6a7be1d",
+  "assembly": "Modulo.GerenciadorSenhas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Infraestrutura",
+    "System.Reactive.Linq",
+    "System.Reactive.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GerenciadorSenhas.g.resources",
+      "file": "0000.bin",
+      "bytes": 7430,
+      "sha256": "f6d4b20890ee43db796f457b3b876afacc7084601eb75e147956694fc7f7c41b"
+    },
+    {
+      "name": "Otus.Modulo.GerenciadorSenhas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "name": "Modulo.Turnos",
+  "baseline": "baseline\\Modulo.Turnos.dll",
+  "baseline_sha256": "1a4073f0dabd1aa3a6831255c3a228870e68f6bfd970157c04fa4f9627279fa7",
+  "export_project": "recovered\\SuiteG6\\Modulo.Turnos\\Modulo.Turnos.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "cf6ba4932ea6a33d6ef2155a2bb6fdbf9eafde3b2bc25881520c5083e9a4fc1e"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "ee620062a04699078f6575ca8dd302cbd0361ddd2ccfa44d2246ddea8c54020f"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "7c96a829e3f20607da4969f628d4e35cf7ba69797546d1471fd7a45699319fc3"
+    },
+    {
+      "path": "Reports\\ResumoConferenciaTurno.cs",
+      "export_path": "Reports\\ResumoConferenciaTurno.cs",
+      "raw_sha256": "fb86760d679ab5728a84525e8e18be603d2dc66944830ef3e4455cdc1b7211b8"
+    },
+    {
+      "path": "Reports\\ResumoTurno.cs",
+      "export_path": "Reports\\ResumoTurno.cs",
+      "raw_sha256": "8fbb0f1a7a38d9b196781def510e9d1e04986e022af69969bfa19857a108ce6a"
+    },
+    {
+      "path": "TurnoModulo.cs",
+      "export_path": "TurnoModulo.cs",
+      "raw_sha256": "d67079530a4df99c432165e42ef8e67da4513e32cae2ad99522eea98e61b566a"
+    },
+    {
+      "path": "ViewModels\\JornadaAberturaFichaViewModel.cs",
+      "export_path": "ViewModels\\JornadaAberturaFichaViewModel.cs",
+      "raw_sha256": "b993963d2225a095a7c19fe8d9ef433eda36d295cee830c23a76e30cc8b4a411"
+    },
+    {
+      "path": "ViewModels\\JornadaFechamentoFichaViewModel.cs",
+      "export_path": "ViewModels\\JornadaFechamentoFichaViewModel.cs",
+      "raw_sha256": "2f467de02ff746c945d6909860c7c8480b7b8b4dcd41456ca55d6714de7accdf"
+    },
+    {
+      "path": "ViewModels\\JornadaListaViewModel.cs",
+      "export_path": "ViewModels\\JornadaListaViewModel.cs",
+      "raw_sha256": "f7a6f002c23dcd19accc8c5fc2dea0cf352e638b1837824fa1769c54b7866598"
+    },
+    {
+      "path": "ViewModels\\Jornadas\\BicoJornadaViewModel.cs",
+      "export_path": "ViewModels\\Jornadas\\BicoJornadaViewModel.cs",
+      "raw_sha256": "deacedd9da446bf3be5e22ef821ff5d19a13ef1c239fe806bc53f3e2b6c6b6ec"
+    },
+    {
+      "path": "ViewModels\\Jornadas\\JornadaAberturaAbaViewModel.cs",
+      "export_path": "ViewModels\\Jornadas\\JornadaAberturaAbaViewModel.cs",
+      "raw_sha256": "a37a4375298093d7fee1d9c46c6f1894ae2480aaba70e64df9b42a180a920723"
+    },
+    {
+      "path": "ViewModels\\Jornadas\\JornadaAberturaFormulario.cs",
+      "export_path": "ViewModels\\Jornadas\\JornadaAberturaFormulario.cs",
+      "raw_sha256": "f96867c917352d6928132ae5732d108d7ae83a1e0083ea70c9098e7350c49298"
+    },
+    {
+      "path": "ViewModels\\Jornadas\\JornadaAberturaViewModel.cs",
+      "export_path": "ViewModels\\Jornadas\\JornadaAberturaViewModel.cs",
+      "raw_sha256": "245c1066ba054315cc01d7bd67567df8c6b89beb8ca393f01e593ceceae66423"
+    },
+    {
+      "path": "ViewModels\\Jornadas\\JornadaFechamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\Jornadas\\JornadaFechamentoAbaViewModel.cs",
+      "raw_sha256": "dadd6371a8760c135259ea1477edf152c5d07f16b00bf9ba30a9e3a172c402a8"
+    },
+    {
+      "path": "ViewModels\\Jornadas\\JornadaFechamentoFormulario.cs",
+      "export_path": "ViewModels\\Jornadas\\JornadaFechamentoFormulario.cs",
+      "raw_sha256": "7c9eac8c6498663660f7d6a256438004b2d859d7d4dca092d173127a90c7076b"
+    },
+    {
+      "path": "ViewModels\\Jornadas\\JornadaFechamentoViewModel.cs",
+      "export_path": "ViewModels\\Jornadas\\JornadaFechamentoViewModel.cs",
+      "raw_sha256": "525efa1bdfcb65a481cd711a525c38197f8971715763a4b8ebe6687d0cf25536"
+    },
+    {
+      "path": "ViewModels\\JornadaViewModel.cs",
+      "export_path": "ViewModels\\JornadaViewModel.cs",
+      "raw_sha256": "7277766d0d8da05b4fe044379263646fc96d5096695de0eb6897ad0e7e302891"
+    },
+    {
+      "path": "ViewModels\\TurnoConferenciaFechamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\TurnoConferenciaFechamentoAbaViewModel.cs",
+      "raw_sha256": "431d2d9038fbeacf502d791f32dde849a4d6acfe3e62b8feaea01d5dae8e69c1"
+    },
+    {
+      "path": "ViewModels\\TurnoConferenciaFechamentoFichaViewModel.cs",
+      "export_path": "ViewModels\\TurnoConferenciaFechamentoFichaViewModel.cs",
+      "raw_sha256": "2b6964706b8ced78c11a74af8e7f37e5517e0cbc7717c26dbe3955765641a0e2"
+    },
+    {
+      "path": "ViewModels\\TurnoConferenciaFechamentoFormulario.cs",
+      "export_path": "ViewModels\\TurnoConferenciaFechamentoFormulario.cs",
+      "raw_sha256": "c85a8a57b9fe8c15fa795ad59206fbf4ad81a667e911465ac88e70202871a87e"
+    },
+    {
+      "path": "ViewModels\\TurnoConferenciaFechamentoViewModel.cs",
+      "export_path": "ViewModels\\TurnoConferenciaFechamentoViewModel.cs",
+      "raw_sha256": "1fb6f20ffd6ffdeb6f8807ccb3fd5bb570315a128c5b4b8e29b3488a7318a6b3"
+    },
+    {
+      "path": "ViewModels\\TurnoFechamentoFichaViewModel.cs",
+      "export_path": "ViewModels\\TurnoFechamentoFichaViewModel.cs",
+      "raw_sha256": "5e19eb08505bec349452b9dc6baabeb717cba7a2bf9a6320084183425a330830"
+    },
+    {
+      "path": "ViewModels\\TurnoFechamentoFormulario.cs",
+      "export_path": "ViewModels\\TurnoFechamentoFormulario.cs",
+      "raw_sha256": "8e04f7c689a567d5017591a5eabbe8bb4ff16d58e2984788c32e1eca4401711a"
+    },
+    {
+      "path": "ViewModels\\TurnoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TurnoFichaAdicionarViewModel.cs",
+      "raw_sha256": "ecf0e64096528f834222b5ba1a7e4ac216ff55c6df571370dd8bbe5e0017bc18"
+    },
+    {
+      "path": "ViewModels\\TurnoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\TurnoFichaAtualizarViewModel.cs",
+      "raw_sha256": "bbe9b15f393ade0088ca99487555e9d24518843550b50334dd1066c8d1ac798b"
+    },
+    {
+      "path": "ViewModels\\TurnoFormulario.cs",
+      "export_path": "ViewModels\\TurnoFormulario.cs",
+      "raw_sha256": "88f749f8cd547a337c6ec558724069b21b36e4943f43ae581aa98b47d2898536"
+    },
+    {
+      "path": "ViewModels\\TurnoListaViewModel.cs",
+      "export_path": "ViewModels\\TurnoListaViewModel.cs",
+      "raw_sha256": "aa1126fc82c5cc9cb928e958127b7eb57cd979c0f4b1b040f43b781ab2580e69"
+    },
+    {
+      "path": "ViewModels\\TurnoMovimentacoesFichaViewModel.cs",
+      "export_path": "ViewModels\\TurnoMovimentacoesFichaViewModel.cs",
+      "raw_sha256": "0795bb1843f57727065b01d4f17290d3175bdc461bc185ec51920e8e034570c8"
+    },
+    {
+      "path": "ViewModels\\TurnoMovimentacoesFormulario.cs",
+      "export_path": "ViewModels\\TurnoMovimentacoesFormulario.cs",
+      "raw_sha256": "d8ac4a7b6cd51eaae687631b1856b66df2a1335a94e99372997b22d4d48a92b2"
+    },
+    {
+      "path": "ViewModels\\TurnosViewModel.cs",
+      "export_path": "ViewModels\\TurnosViewModel.cs",
+      "raw_sha256": "3c5e6ed6732beddb2a3c96e63cb559dd22dd041c04ac64b31ad242fe33c33069"
+    },
+    {
+      "path": "ViewModels\\Turnos\\ContagemDeCedulasMoedas.cs",
+      "export_path": "ViewModels\\Turnos\\ContagemDeCedulasMoedas.cs",
+      "raw_sha256": "64604d246bb37d34f4dd39cf97ad67592123d6a191f836862b3c3cb59643b89b"
+    },
+    {
+      "path": "ViewModels\\Turnos\\TurnoAberturaAbaViewModel.cs",
+      "export_path": "ViewModels\\Turnos\\TurnoAberturaAbaViewModel.cs",
+      "raw_sha256": "335a35b614e0f8a44a4920bf1b9824a3505a3d5d734abbce99bd365d292be2f4"
+    },
+    {
+      "path": "ViewModels\\Turnos\\TurnoAberturaViewModel.cs",
+      "export_path": "ViewModels\\Turnos\\TurnoAberturaViewModel.cs",
+      "raw_sha256": "134ccc8df3f6a6c7c7459e72a26345762c3ff8feb5cd7bffa0c2a7f94dd3139b"
+    },
+    {
+      "path": "ViewModels\\Turnos\\TurnoFechamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\Turnos\\TurnoFechamentoAbaViewModel.cs",
+      "raw_sha256": "d8c7b15a76ffe9b3bb02d55a714c4ac29280acc87882de45232701a5dc3097cf"
+    },
+    {
+      "path": "ViewModels\\Turnos\\TurnoFechamentoViewModel.cs",
+      "export_path": "ViewModels\\Turnos\\TurnoFechamentoViewModel.cs",
+      "raw_sha256": "5e09b04e404541de008e29b20b50ab675e127f5ba53f925d2f728df97cd3aeaa"
+    },
+    {
+      "path": "ViewModels\\Turnos\\TurnoMovimentacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\Turnos\\TurnoMovimentacaoAbaViewModel.cs",
+      "raw_sha256": "1102ac2aa87413e1abaf515301178f3f96d028417bad871780743d8f49b571fb"
+    },
+    {
+      "path": "ViewModels\\Turnos\\TurnoMovimentacaoFichaViewModel.cs",
+      "export_path": "ViewModels\\Turnos\\TurnoMovimentacaoFichaViewModel.cs",
+      "raw_sha256": "63c817be969691247308a736d83c404c834968df93ef81b48b5ad98f0778c108"
+    },
+    {
+      "path": "ViewModels\\Turnos\\TurnoMovimentacaoListaViewModel.cs",
+      "export_path": "ViewModels\\Turnos\\TurnoMovimentacaoListaViewModel.cs",
+      "raw_sha256": "cf8683220cf683cc14156c43624adef14fb4c601e85f2aa741d87522d2a31f99"
+    },
+    {
+      "path": "ViewModels\\Turnos\\TurnoMovimentacaoViewModel.cs",
+      "export_path": "ViewModels\\Turnos\\TurnoMovimentacaoViewModel.cs",
+      "raw_sha256": "588483ba380f0166ec5d01ad7c5069ef71b6c5922010e1448ac1ef95a1ff4595"
+    },
+    {
+      "path": "ViewModels\\TurnoViewModel.cs",
+      "export_path": "ViewModels\\TurnoViewModel.cs",
+      "raw_sha256": "df27177840edd57a2ca3c59c027b02da32a891c14a05d1c27cb826df7a417b97"
+    },
+    {
+      "path": "Views\\JornadaAberturaFichaView.cs",
+      "export_path": "Views\\JornadaAberturaFichaView.cs",
+      "raw_sha256": "95fb78307484e6b9d697c729944ae47e23563fd2d153d853a455af9828aada50"
+    },
+    {
+      "path": "Views\\JornadaFechamentoFichaView.cs",
+      "export_path": "Views\\JornadaFechamentoFichaView.cs",
+      "raw_sha256": "64c6bb48a5ef64ab8e117bb2f226f4a2c7ea17544f693cbd7ecbaca8cee90459"
+    },
+    {
+      "path": "Views\\JornadaListaView.cs",
+      "export_path": "Views\\JornadaListaView.cs",
+      "raw_sha256": "60f8cf1d40e325bdff89b76bc409eb1f5fa5dea5ffcad96f53b75513b8f684ac"
+    },
+    {
+      "path": "Views\\Links\\LinkFecharTurno.cs",
+      "export_path": "Views\\Links\\LinkFecharTurno.cs",
+      "raw_sha256": "045ea533e20e312771f89d6db26b0cd70dc28a08ab020c348950a91063d6ec70"
+    },
+    {
+      "path": "Views\\Links\\LinkImprimir.cs",
+      "export_path": "Views\\Links\\LinkImprimir.cs",
+      "raw_sha256": "006b00e7242691daa9bebc30cc1e588721d1cea231c10ee26cf4551aeb495657"
+    },
+    {
+      "path": "Views\\Links\\LinkImprimirResumoConferencia.cs",
+      "export_path": "Views\\Links\\LinkImprimirResumoConferencia.cs",
+      "raw_sha256": "6f4eba9c8b5a08ef9b4476b2a34c941d129a3973419a50b3018fecd8d2bb6d79"
+    },
+    {
+      "path": "Views\\Links\\LinkMovimentacoesTurno.cs",
+      "export_path": "Views\\Links\\LinkMovimentacoesTurno.cs",
+      "raw_sha256": "1d307f9bbb67b74b7e72bc5624c43d0f4e530021b736dc2a6ee58385dc684836"
+    },
+    {
+      "path": "Views\\TurnoConferenciaFechamentoFichaView.cs",
+      "export_path": "Views\\TurnoConferenciaFechamentoFichaView.cs",
+      "raw_sha256": "2e74f795f710ec02fcc861fbbe67a40f33d5368a65a5b77e0e6f3bdb460d1ab5"
+    },
+    {
+      "path": "Views\\TurnoConferenciaFechamentoView.cs",
+      "export_path": "Views\\TurnoConferenciaFechamentoView.cs",
+      "raw_sha256": "db1abb19ac16cb8f77b4b6da0c717ab049ddbe185d7752537ba951aed1281549"
+    },
+    {
+      "path": "Views\\TurnoFechamentoFichaView.cs",
+      "export_path": "Views\\TurnoFechamentoFichaView.cs",
+      "raw_sha256": "0abab1ea7b8156de84fa37c115c2d2affddc69e262f3c9e43ea9149346e7e66b"
+    },
+    {
+      "path": "Views\\TurnoFichaAdicionarView.cs",
+      "export_path": "Views\\TurnoFichaAdicionarView.cs",
+      "raw_sha256": "cebae73b0c8777d973b19222db7a9002328d6462b996ae03c5d15f0a11a1b149"
+    },
+    {
+      "path": "Views\\TurnoFichaAtualizarView.cs",
+      "export_path": "Views\\TurnoFichaAtualizarView.cs",
+      "raw_sha256": "c4609d96f18fecb75027829f19d668a299a74e97f0fec9615acf25688f9af9ed"
+    },
+    {
+      "path": "Views\\TurnoFichaViewDetalhes\\TurnoAberturaView.cs",
+      "export_path": "Views\\TurnoFichaViewDetalhes\\TurnoAberturaView.cs",
+      "raw_sha256": "04ccf05b18fb2b5e215fafe9da4c9d566f786d4d42ba8f77eeef0e6ff1f6228f"
+    },
+    {
+      "path": "Views\\TurnoFichaViewDetalhes\\TurnoFechamentoView.cs",
+      "export_path": "Views\\TurnoFichaViewDetalhes\\TurnoFechamentoView.cs",
+      "raw_sha256": "480f8dc40faed6fc73e7d30a11918828db0e3393fef79d259c1709f543a257d5"
+    },
+    {
+      "path": "Views\\TurnoFichaViewDetalhes\\TurnoMovimentacaoFichaView.cs",
+      "export_path": "Views\\TurnoFichaViewDetalhes\\TurnoMovimentacaoFichaView.cs",
+      "raw_sha256": "998aa807994a4cb0320fa400358126d703fdce0ccbe31dd2ff449429d78345bd"
+    },
+    {
+      "path": "Views\\TurnoFichaViewDetalhes\\TurnoMovimentacaoListaView.cs",
+      "export_path": "Views\\TurnoFichaViewDetalhes\\TurnoMovimentacaoListaView.cs",
+      "raw_sha256": "40df7214fbb3245044ddaaec42e6141035503f16f21ab06b56b4d3baf16d4152"
+    },
+    {
+      "path": "Views\\TurnoListaView.cs",
+      "export_path": "Views\\TurnoListaView.cs",
+      "raw_sha256": "c0f42bd899fdcc9f13edc9e6e3fd7a9dc265723a0e8b015eba29af63f27fa185"
+    },
+    {
+      "path": "Views\\TurnoMovimentacoesFichaView.cs",
+      "export_path": "Views\\TurnoMovimentacoesFichaView.cs",
+      "raw_sha256": "5ec4306bafbeace7d0f7b83b096ae4be9f0d239aac2205f90862dae89102669d"
+    },
+    {
+      "path": "Views\\TurnosView.cs",
+      "export_path": "Views\\TurnosView.cs",
+      "raw_sha256": "a9469e5f7e587aba1121e6c126b6fa032124840baca489f1ca88524a7d4149be"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Turnos.g.resources",
+      "file": "0000.bin",
+      "bytes": 82223,
+      "sha256": "75b89e53a4c89f061068d987229f4051006f6de7b309548fdefa960d59efafda"
+    },
+    {
+      "name": "Otus.Modulo.Turnos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Turnos.Reports.ResumoConferenciaTurno.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Turnos.Reports.ResumoTurno.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Turnos.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 277,
+      "sha256": "89a9a7705f22b81486e23fa241089d6ca389799e76234e934df3352dd4faa685"
+    }
+  ],
+  "generated_stubs": false
+}

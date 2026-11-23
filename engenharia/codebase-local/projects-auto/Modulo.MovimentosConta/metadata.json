@@ -1,0 +1,44 @@
+{
+  "artifactSha256": "0e262f2873a5d615711907b2ca9020dc81eb4eb774cdb8573c5ab49e2ab770d4",
+  "mvid": "85e2ace0-6d34-4670-8ef3-610833e96423",
+  "assembly": "Modulo.MovimentosConta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "PresentationCore",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Windows.Forms",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoOfx",
+    "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural",
+    "System.ComponentModel.DataAnnotations",
+    "WindowsBase",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.MovimentosConta.g.resources",
+      "file": "0000.bin",
+      "bytes": 65819,
+      "sha256": "f009891bf931efc85e67c5961e32847666299dd6b97ab05aba493bb696158f2e"
+    },
+    {
+      "name": "Otus.Modulo.MovimentosConta.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

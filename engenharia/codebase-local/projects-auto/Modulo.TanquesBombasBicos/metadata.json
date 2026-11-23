@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "8e69b56dcbe97326688f4ee0b079b99e69204403c50bc26d6cea29b1f1728d15",
+  "mvid": "e5e0c529-c6b5-4535-b4a5-1d9304c59465",
+  "assembly": "Modulo.TanquesBombasBicos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.TanquesBombasBicos.g.resources",
+      "file": "0000.bin",
+      "bytes": 55763,
+      "sha256": "f62a4ea40d0ff5dddaf07a2bf6141f110e1e1028a22df54cd763a3a0a13cc9cd"
+    },
+    {
+      "name": "Otus.Modulo.TanquesBombasBicos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

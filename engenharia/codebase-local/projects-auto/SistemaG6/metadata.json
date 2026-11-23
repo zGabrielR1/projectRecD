@@ -1,0 +1,29 @@
+{
+  "artifactSha256": "cdc797ad4c3cdd2b382ef4bc061a1d2e8f94f9e360f2bac16df0254a3be21e16",
+  "mvid": "0e87a62f-7f0c-4415-bf43-0c36fa2442e5",
+  "assembly": "SistemaG6, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": "Sistema.App",
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "PresentationCore",
+    "Boot",
+    "WindowsBase",
+    "System",
+    "Prism.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "SistemaG6.g.resources",
+      "file": "0000.bin",
+      "bytes": 370286,
+      "sha256": "ef2d59b790fc5afcb56cedc18e477855ed38b9dc30310a41c8bb7e10de3ffa6e"
+    },
+    {
+      "name": "Sistema.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "artifactSha256": "95c19501415cd7beb2d44b25aba418b95e63828090377a39252d5f42d2b47790",
+  "mvid": "e90fc55f-4f0f-4d4f-9adf-70b921dc94ca",
+  "assembly": "Modulo.RelacoesVendedorCliente, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "PresentationFramework",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.RelacoesVendedorCliente.g.resources",
+      "file": "0000.bin",
+      "bytes": 12988,
+      "sha256": "1c031cb262177f22e31a489c98f8f3602ee90536f1bef46a672eaaf2e5278331"
+    },
+    {
+      "name": "Modulo.RelacoesVendedorCliente.dll.licenses",
+      "file": "0001.bin",
+      "bytes": 294,
+      "sha256": "dee4a29f082740479416e543290c115d033fb34fded2e8963c04ad6d8e8d0303"
+    }
+  ]
+}

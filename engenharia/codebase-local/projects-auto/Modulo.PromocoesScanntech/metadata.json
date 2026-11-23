@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "3e3ccd48e9c502438df8cb18b3d97702b9ee27c87da663262cf9800496b4db65",
+  "mvid": "92553e98-503e-495d-99d1-834518f3f0b8",
+  "assembly": "Modulo.PromocoesScanntech, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "PresentationCore",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.PromocoesScanntech.g.resources",
+      "file": "0000.bin",
+      "bytes": 35880,
+      "sha256": "f3d4ebb3f8821f64f4a28e76f5a4c93346096d03ad81ce453180acf331971b83"
+    },
+    {
+      "name": "Otus.Modulo.PromocoesScanntech.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "name": "Modulo.AnunciosMercadoLivre",
+  "baseline": "baseline\\Modulo.AnunciosMercadoLivre.dll",
+  "baseline_sha256": "37e87a72fdb2592c68ba42277335fb6091601a7f08288b80a67de40c3184beff",
+  "export_project": "recovered\\SuiteG6\\Modulo.AnunciosMercadoLivre\\Modulo.AnunciosMercadoLivre.csproj",
+  "sources": [
+    {
+      "path": "AnuncioMercadoLivreModulo.cs",
+      "export_path": "AnuncioMercadoLivreModulo.cs",
+      "raw_sha256": "6c2d65d07196679f59d97963bdd2a29861dd9b4bbfbbcf6866c0f481f7e1227e"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "2f0efd5b4cfd176edb0ff1d60b36e14320b652687acc52119690bcc9ca684080"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "813ca81c222feeef6c31dda0ce4d2a3e0dc944c1d90760526dc3c23ceed994ba"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "51ebf921a30f0d626c576aef154520e95c288aeaac3d3ca0aac82c8f99e9395e"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreAbaViewModel.cs",
+      "raw_sha256": "99c3b1e3ad672910f91e6e16fc2bd252e7db4e5978059adc3e98253728150cd3"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreCategoriaAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreCategoriaAbaViewModel.cs",
+      "raw_sha256": "7c3089c1458f26a0d6401c8a4a04f668909cba29a3a822b395d36f37302543bb"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreCategoriaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreCategoriaViewModel.cs",
+      "raw_sha256": "31d68393a240dc4b6c260fc6fa282f6542212d204b338e400aa945b5a2e72f46"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreFichaAdicionarViewModel.cs",
+      "raw_sha256": "53d6b90992c417e3a7ea253a4e553759955aa9fce0306e16248a3e1b33d4756d"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreFichaAtualizarViewModel.cs",
+      "raw_sha256": "59009ccd87009dbe0214e0b440d8b613275e1aa673ad3c54b0b1239e1e8f3530"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreFormulario.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreFormulario.cs",
+      "raw_sha256": "1e631be885de47ae5fd76482b45b4c2b1cc523a84ff19a2283bafa07f7aaa2a7"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreGarantiaAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreGarantiaAbaViewModel.cs",
+      "raw_sha256": "459ee9499094bd35c2c584da7a871cff7083f4021b6a8173ba048423a7f23e48"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreGarantiaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreGarantiaViewModel.cs",
+      "raw_sha256": "13881f52ac1ae88488948b1e082f2df78f39c5eb6081ae17185a49daec0df21e"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreImagensAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreImagensAbaViewModel.cs",
+      "raw_sha256": "f00a789e4f4d90a58122eeaf06f03cb4916cc83a15141f7ecbbbc5e15eebdc76"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreImagensViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreImagensViewModel.cs",
+      "raw_sha256": "61addd145000d9222b8667d39adef48722988b4e689fc82082f404f04f8cd77a"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreImportarAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreImportarAbaViewModel.cs",
+      "raw_sha256": "ce81095e973bb61c2201e680147b62f4c9a2ae7ebaca3b98241aa0e42c0c6d39"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreImportarFichaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreImportarFichaViewModel.cs",
+      "raw_sha256": "014f8f58fb598d89b837ac6516d6c23b9140395958a31145e41a588512435bd0"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreImportarFormulario.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreImportarFormulario.cs",
+      "raw_sha256": "af2b8768e2ad731c5d3a70a8bcaece64331b98a661629138a6cf3daff41b21b8"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreImportarViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreImportarViewModel.cs",
+      "raw_sha256": "11e7ef5d17f9f5fb8fa0839e474afcb296f85f2495e2fa86a21395a254ae067c"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreListaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreListaViewModel.cs",
+      "raw_sha256": "9a5b6b24d71725e5b6887b6c09e6de3370afdad7363cb659c1b43501c70db2f1"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreTabelaMedidasAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreTabelaMedidasAbaViewModel.cs",
+      "raw_sha256": "97531c1b22c6ab8ef8baa084e93b9428b647c4ee489ffc56de171d9b8b8af478"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreTabelaMedidasViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreTabelaMedidasViewModel.cs",
+      "raw_sha256": "de883176255579a97c4ad2ba909e0a7ffbda28106a1def1886b0fd494709f748"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreVariacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreVariacaoAbaViewModel.cs",
+      "raw_sha256": "07150b142337eb485d02e32266da88f365e810dcd78cc589bc0e3199fc164b33"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreVariacaoViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreVariacaoViewModel.cs",
+      "raw_sha256": "2a8f58e4e291a0420d1061c7d0709439a9bc35f735af91152afe6385ac9bd9d9"
+    },
+    {
+      "path": "ViewModels\\AnuncioMercadoLivreViewModel.cs",
+      "export_path": "ViewModels\\AnuncioMercadoLivreViewModel.cs",
+      "raw_sha256": "c803376b6fc7bc38a33f9a4c8bf45ea5904ed32b3f5d575ab14700d07bc2e6c5"
+    },
+    {
+      "path": "ViewModels\\AnunciosMercadoLivreViewModel.cs",
+      "export_path": "ViewModels\\AnunciosMercadoLivreViewModel.cs",
+      "raw_sha256": "1b68d4d89e64adeba054f6d3f2feec28ef36a23b3123533500b60b0fc48821ad"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoBoleanoViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoBoleanoViewModel.cs",
+      "raw_sha256": "e1247b75518494e0bfd232146fd520803c88eb6e2a703cfdd8456e84d134b509"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoFactory.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoFactory.cs",
+      "raw_sha256": "bb1e1a50c1ca1ed811ad047ac0dcc770040d3a1435f384502a5d78bac58d99c1"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoInteiroViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoInteiroViewModel.cs",
+      "raw_sha256": "7901938c3be6c51877affec58b5f373fc262f6744baca24c7e0c8af36f8afbeb"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoListaViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoListaViewModel.cs",
+      "raw_sha256": "020a5feac15b4a1c140339824dc1803064863856ce07e38617dc45e65c29096e"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoTextoViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoTextoViewModel.cs",
+      "raw_sha256": "356bf1adc5fc4da7cb90129b75dba2b87315c627369feb67af5b5903445cf38a"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoUnidadeViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoUnidadeViewModel.cs",
+      "raw_sha256": "725a5a1828cba63116ffc8957c7b36243ab4e256c0556c82232d186b8aea7b60"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoViewModel.cs",
+      "raw_sha256": "8a4be9fe3dc39ea7a6f2ca95d4bcfd6fb02639b9e3fd6d31d01a4aa6c530b96c"
+    },
+    {
+      "path": "ViewModels\\Variacoes\\TamanhoTabelaMedidasViewModel.cs",
+      "export_path": "ViewModels\\Variacoes\\TamanhoTabelaMedidasViewModel.cs",
+      "raw_sha256": "de4010e7bdba03f85acf6c55d4478343382c0baeacb899dc9a4f2b171396ce67"
+    },
+    {
+      "path": "ViewModels\\Variacoes\\ValorVariacaoViewModel.cs",
+      "export_path": "ViewModels\\Variacoes\\ValorVariacaoViewModel.cs",
+      "raw_sha256": "c4a21ac10ecbc87fee86a71e7d516a51fa6401e1991d826f8c6263038e0f2e0e"
+    },
+    {
+      "path": "ViewModels\\Variacoes\\VariacaoMercadoLivreViewModel.cs",
+      "export_path": "ViewModels\\Variacoes\\VariacaoMercadoLivreViewModel.cs",
+      "raw_sha256": "29a366d77f9ac6e3b72010167d27e2793f7c03a7a9059c123bdc3dbd69294046"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreFichaAdicionarView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreFichaAdicionarView.cs",
+      "raw_sha256": "fdb888edd0d4cf980cc8869ca179c5251e7ae365da269327c1ca2f791a9d8e40"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreFichaAtualizarView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreFichaAtualizarView.cs",
+      "raw_sha256": "c5020468003a2d65f8a1019a10530882fc76ed672f81a068e985020b926d0f74"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreCategoriaView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreCategoriaView.cs",
+      "raw_sha256": "d211a85a4bad1f14eb78750d087450cde41fec842b92347c7b392309c1c1ca0d"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreGarantiaView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreGarantiaView.cs",
+      "raw_sha256": "c0cf90ff0ae4af59ac4eedd5b6db0f1e627489a911c1102323c0a7b5e4495261"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreImagensView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreImagensView.cs",
+      "raw_sha256": "124e0ed62599245e7470e79e30e49bd0b00d548d7e4998dea202edd877a770e4"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreTabelaMedidasView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreTabelaMedidasView.cs",
+      "raw_sha256": "d14a70e977a73f1d4013a66dfd2a0d79b016a8a9fa484d9b1aafdd107a5423a6"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreVariacaoView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreVariacaoView.cs",
+      "raw_sha256": "be619f89d3a5529fe4b88475fb30cad483cd4d9464624cb42615e6cb373d19a7"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreFichaViewDetalhes\\AnuncioMercadoLivreView.cs",
+      "raw_sha256": "f973372eae5ee8035b307bd757c24377de705f218384af3f0b2dc50804abafff"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreImportarFichaView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreImportarFichaView.cs",
+      "raw_sha256": "fba61f8d312ae27cbb415fe3b0d3e79f362526caabb3d59f5b2e2e51df3c7b2d"
+    },
+    {
+      "path": "Views\\AnuncioMercadoLivreListaView.cs",
+      "export_path": "Views\\AnuncioMercadoLivreListaView.cs",
+      "raw_sha256": "235abb55efb79a0dcdcd1dc3c95d3e8e45599e06ac148b9d6c0fba45218fcbb6"
+    },
+    {
+      "path": "Views\\AnunciosMercadoLivreView.cs",
+      "export_path": "Views\\AnunciosMercadoLivreView.cs",
+      "raw_sha256": "82c55a4895b3f0cff23a599ed15687c07d9a5481f499b59069538bb08681c75f"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.AnunciosMercadoLivre.g.resources",
+      "file": "0000.bin",
+      "bytes": 66647,
+      "sha256": "d8a0d3dd5aae2f947888aedacf9094aad5c977c2ea2f8fa0b3ac6309159bb55c"
+    },
+    {
+      "name": "Otus.Modulo.AnunciosMercadoLivre.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,15 @@
+{
+  "assembly": "DevExpress.PivotGrid.v15.2.Core, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "DevExpress.Data.v15.2",
+    "System",
+    "System.Data",
+    "System.Core",
+    "System.Windows.Forms",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Drawing",
+    "System.Xml",
+    "System.Xml.Linq"
+  ]
+}

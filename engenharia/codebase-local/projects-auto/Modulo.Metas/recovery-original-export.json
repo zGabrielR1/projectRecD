@@ -1,0 +1,84 @@
+{
+  "name": "Modulo.Metas",
+  "baseline": "baseline\\Modulo.Metas.dll",
+  "baseline_sha256": "e65ec2d047bcedf03998f411a4629ba92571acd399d33b5cead5a7da0019cd19",
+  "export_project": "recovered\\SuiteG6\\Modulo.Metas\\Modulo.Metas.csproj",
+  "sources": [
+    {
+      "path": "MetaModulo.cs",
+      "export_path": "MetaModulo.cs",
+      "raw_sha256": "efc4fdb717e733105e3fd31328af0ac788db13936801772bbb5ef65612206bfb"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c4ea665a9e1d026a81f0397f975c242a4837ed9870329a07b03ede17a6f96574"
+    },
+    {
+      "path": "ViewModels\\MetaFichaViewModel.cs",
+      "export_path": "ViewModels\\MetaFichaViewModel.cs",
+      "raw_sha256": "f802ed6694b956956c2a0f985188152074142605f86f42d3eb91cd60533703d5"
+    },
+    {
+      "path": "ViewModels\\MetaFormulario.cs",
+      "export_path": "ViewModels\\MetaFormulario.cs",
+      "raw_sha256": "dacf285d1a3426560df15b205714e53102319b670ea921be603dc3637947ecd1"
+    },
+    {
+      "path": "ViewModels\\MetaGeralAbaViewModel.cs",
+      "export_path": "ViewModels\\MetaGeralAbaViewModel.cs",
+      "raw_sha256": "8fc9c7234109a6a5c2821d3e01adf9ab7580e9fa8d94c6b36e0677117b14cac1"
+    },
+    {
+      "path": "ViewModels\\MetaGeralViewModel.cs",
+      "export_path": "ViewModels\\MetaGeralViewModel.cs",
+      "raw_sha256": "46278990d80ab9b391d4e2f35580717c6f02a01a3a669473ea1ca69522205fdd"
+    },
+    {
+      "path": "ViewModels\\MetaPorVendedorAbaViewModel.cs",
+      "export_path": "ViewModels\\MetaPorVendedorAbaViewModel.cs",
+      "raw_sha256": "53f54213c6f7d981226ce77164c2ab3b8f658a32a912bdc1466e49bee2045dad"
+    },
+    {
+      "path": "ViewModels\\MetaPorVendedorViewModel.cs",
+      "export_path": "ViewModels\\MetaPorVendedorViewModel.cs",
+      "raw_sha256": "00686a9e54b503b3b8d480717503894c9ec7c8369a855a35abcd185420cfe3f1"
+    },
+    {
+      "path": "ViewModels\\MetasViewModel.cs",
+      "export_path": "ViewModels\\MetasViewModel.cs",
+      "raw_sha256": "f73c5a978d4708fc9d69ce5055a059f537901d5c8aea7a7ca65cafce612ff50a"
+    },
+    {
+      "path": "Views\\MetaFichaView.cs",
+      "export_path": "Views\\MetaFichaView.cs",
+      "raw_sha256": "444cc8225be576d49fe875ca9deefa6da8548d653413bbbd67ce7b11bdc58f20"
+    },
+    {
+      "path": "Views\\MetaFichaViewDetalhes\\MetaGeralView.cs",
+      "export_path": "Views\\MetaFichaViewDetalhes\\MetaGeralView.cs",
+      "raw_sha256": "63b88543716f77b29fce541cde2108963f5b3fbf5b25f2eea11050d17b0fb669"
+    },
+    {
+      "path": "Views\\MetaFichaViewDetalhes\\MetaPorVendedorView.cs",
+      "export_path": "Views\\MetaFichaViewDetalhes\\MetaPorVendedorView.cs",
+      "raw_sha256": "42c6810c5714648809b240a929d7353ecd2c78b31753559c0ae9b7020dc8e7a1"
+    },
+    {
+      "path": "Views\\MetasView.cs",
+      "export_path": "Views\\MetasView.cs",
+      "raw_sha256": "79bd759627082c9ce305ebfe891b510ea3b36b4448da436a8eba1a1acc7e8342"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Metas.g.resources",
+      "file": "0000.bin",
+      "bytes": 21513,
+      "sha256": "73c9e062626b72ad1700a80bdb44ed0b6c8273b8f0c7c760a112c564b9831ce9"
+    }
+  ],
+  "generated_stubs": false
+}

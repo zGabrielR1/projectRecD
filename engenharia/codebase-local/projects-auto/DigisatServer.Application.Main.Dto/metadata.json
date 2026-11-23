@@ -1,0 +1,25 @@
+{
+  "artifactSha256": "aaa1a59a0cbdd0480e6ef74a4e60b0daad208f0b068572ba889218d91275eb34",
+  "mvid": "7126e146-cca1-4646-81b0-1d998ef459db",
+  "assembly": "DigisatServer.Application.Main.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "System.Runtime.Serialization",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "NClone",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "System.Core",
+    "System.Drawing",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "DigisatServer.Infrastructure.Crosscutting.Inventario",
+    "DigisatServer.Infrastructure.Crosscutting.EfdContribuicao",
+    "DigisatServer.Infrastructure.Crosscutting.Sintegra"
+  ],
+  "resources": []
+}

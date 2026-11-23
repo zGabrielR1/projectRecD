@@ -1,0 +1,136 @@
+{
+  "name": "Modulo.RenegociacaoECobrancas",
+  "baseline": "baseline\\Modulo.RenegociacaoECobrancas.dll",
+  "baseline_sha256": "c4dc55446e4d21408f728593048896e9f89a387258a3a22d15c20566393f062b",
+  "export_project": "recovered\\SuiteG6\\Modulo.RenegociacaoECobrancas\\Modulo.RenegociacaoECobrancas.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "24abea311cce1696fd974888f646f6dd2867297597085e5343b8254dc1c4c3d2"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "96db2e91b17cee06b618ce44b0aad5e7af506e08be5d09e786f7c0bee281a7da"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "c4a9ba6bbdc5e8a18b984940079217ddeee9a3099b01df1ac18f1a90b5bb0d70"
+    },
+    {
+      "path": "RenegociacaoECobrancaModulo.cs",
+      "export_path": "RenegociacaoECobrancaModulo.cs",
+      "raw_sha256": "98846666313a159c76593c13290497edd5f359d124cef390b354a69959dc67ce"
+    },
+    {
+      "path": "ViewModels\\CobrancaAbaViewModel.cs",
+      "export_path": "ViewModels\\CobrancaAbaViewModel.cs",
+      "raw_sha256": "5fa1d83eb8d8e6d33a2307bc4a37c9d8482d4fc58e9ddcaeffcce3667b272bfb"
+    },
+    {
+      "path": "ViewModels\\CobrancaViewModel.cs",
+      "export_path": "ViewModels\\CobrancaViewModel.cs",
+      "raw_sha256": "9d030a5b41f77f98d2a1a2f66e74d3994d2aafb9c11e1970395ac3d156b210ad"
+    },
+    {
+      "path": "ViewModels\\ComissaoAbaViewModel.cs",
+      "export_path": "ViewModels\\ComissaoAbaViewModel.cs",
+      "raw_sha256": "f1df9f5d37b0fc5b2743d7bd24cb181a25181ed0deef4895b9d9dbbb6f555207"
+    },
+    {
+      "path": "ViewModels\\ComissaoViewModel.cs",
+      "export_path": "ViewModels\\ComissaoViewModel.cs",
+      "raw_sha256": "8625fae7c3afbcc97a72eff1a4e6436ad3ea9bee8da8beadd79eba025048fbee"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\RenegociacaoAbaViewModel.cs",
+      "raw_sha256": "de8b078ecd606ea9db8db735c120803fc4e0abaa2de57bb0c292822c3a6ab53a"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoECobranca.cs",
+      "export_path": "ViewModels\\RenegociacaoECobranca.cs",
+      "raw_sha256": "b7a754f37615e477987d18650370a4fd797ded4b8876d1f017bbb0c6d3531230"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoECobrancaFichaViewModel.cs",
+      "export_path": "ViewModels\\RenegociacaoECobrancaFichaViewModel.cs",
+      "raw_sha256": "5111ed94877fa37843eab605fe34b4af6d8f7b58c32cf2618ee54df405f4788d"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoECobrancaFormulario.cs",
+      "export_path": "ViewModels\\RenegociacaoECobrancaFormulario.cs",
+      "raw_sha256": "b3ee2fe6c5b3fb984f14a207ddb7b771111ee10e291e652c354b7b88b3eb45d7"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoECobrancasViewModel.cs",
+      "export_path": "ViewModels\\RenegociacaoECobrancasViewModel.cs",
+      "raw_sha256": "d16dc82795fba0d04c073292734b3bb85f9c916363aca3db96b30836e730acca"
+    },
+    {
+      "path": "ViewModels\\RenegociacaoViewModel.cs",
+      "export_path": "ViewModels\\RenegociacaoViewModel.cs",
+      "raw_sha256": "9d23f230c3e99d489cfd3acb2a309e7080d50e5c1e192926ff645281027a61b8"
+    },
+    {
+      "path": "ViewModels\\SituacaoCliente.cs",
+      "export_path": "ViewModels\\SituacaoCliente.cs",
+      "raw_sha256": "80e7bbabd2c4c8719d93e2f6c19325d269c1c69e2a2bc441c6a47d745876fd99"
+    },
+    {
+      "path": "Views\\RenegociacaoECobrancaFichaView.cs",
+      "export_path": "Views\\RenegociacaoECobrancaFichaView.cs",
+      "raw_sha256": "8c66a89cf391ba5a066cdc27f4cd917795e0ca1c369a6a607ed511c7dd38f79a"
+    },
+    {
+      "path": "Views\\RenegociacaoECobrancasFichaViewDetalhes\\CobrancaView.cs",
+      "export_path": "Views\\RenegociacaoECobrancasFichaViewDetalhes\\CobrancaView.cs",
+      "raw_sha256": "e705636ad5f00bc594731ec1b9da9d4d9376f3b1df906ea9bec50c40b90450c5"
+    },
+    {
+      "path": "Views\\RenegociacaoECobrancasFichaViewDetalhes\\ComissaoView.cs",
+      "export_path": "Views\\RenegociacaoECobrancasFichaViewDetalhes\\ComissaoView.cs",
+      "raw_sha256": "fe05b53dcb8a01afce7feb222a8b5db989f87f821a898cbc3df775a02df2cb21"
+    },
+    {
+      "path": "Views\\RenegociacaoECobrancasFichaViewDetalhes\\RenegociacaoView.cs",
+      "export_path": "Views\\RenegociacaoECobrancasFichaViewDetalhes\\RenegociacaoView.cs",
+      "raw_sha256": "0f3c95dfddb887da77cce26b98b071a315b79a49bb215a2259dfc3451c7c5def"
+    },
+    {
+      "path": "Views\\RenegociacaoECobrancasFichaViewDetalhes\\ReparcelarView.cs",
+      "export_path": "Views\\RenegociacaoECobrancasFichaViewDetalhes\\ReparcelarView.cs",
+      "raw_sha256": "cfb2f5211207d9c3575158713333ea804d6cfcf0b37e3cb8f0fe16fc8ddad956"
+    },
+    {
+      "path": "Views\\RenegociacaoECobrancasView.cs",
+      "export_path": "Views\\RenegociacaoECobrancasView.cs",
+      "raw_sha256": "ad024952dba3dc4d1d1e97f59b4b1ffbb3f3a4744cbb5e32bd9011f9df2b73ba"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.RenegociacaoECobrancas.g.resources",
+      "file": "0000.bin",
+      "bytes": 35457,
+      "sha256": "f3fcf05ce0b6f4c46243f363c95b7832563984b2349afba3b8578c2c3f5caf42"
+    },
+    {
+      "name": "Otus.Modulo.RenegociacaoECobrancas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.RenegociacaoECobrancas.dll.licenses",
+      "file": "0002.bin",
+      "bytes": 293,
+      "sha256": "84e09f31606a10131a27fea00adee2e49061567c52dd380ec7aeb271bbdc2529"
+    }
+  ],
+  "generated_stubs": false
+}

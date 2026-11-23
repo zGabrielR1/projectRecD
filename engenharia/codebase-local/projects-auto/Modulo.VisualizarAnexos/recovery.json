@@ -1,0 +1,80 @@
+{
+  "name": "Modulo.VisualizarAnexos",
+  "baseline": "baseline\\Modulo.VisualizarAnexos.dll",
+  "baseline_sha256": "0347c7bcf3b55b8baddbfa58ba60bd61c806bd9f0569c11c9049781c22ebc055",
+  "export_project": "recovered\\SuiteG6\\Modulo.VisualizarAnexos\\Modulo.VisualizarAnexos.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "13295aee5eccdb97373874fdd43196731807e29afa569b4b1c768b6741be9161"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "318d612cc15f7ff88371c79923d7224b15046488c1babd9f6a56cf30eb90d4ec"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "a61b6625a1aa68ae52da381d364cffc3b474555035380a10f7a84874bae69569"
+    },
+    {
+      "path": "ViewModels\\Anexos.cs",
+      "export_path": "ViewModels\\Anexos.cs",
+      "raw_sha256": "ae1fe9823ac073d81e209f852e030b3987e0c02107631dedf37762d4a1a2d186"
+    },
+    {
+      "path": "ViewModels\\VisualizarAnexoAbaViewModel.cs",
+      "export_path": "ViewModels\\VisualizarAnexoAbaViewModel.cs",
+      "raw_sha256": "9c96db950fad746a923dda6481c168cd2442c905cc6f426961b81e4f2dcb9879"
+    },
+    {
+      "path": "ViewModels\\VisualizarAnexoFichaViewModel.cs",
+      "export_path": "ViewModels\\VisualizarAnexoFichaViewModel.cs",
+      "raw_sha256": "d1a7b0b2f8033f5632e8907eed357e7ac401e1c0915447339fe4d494277fdf1a"
+    },
+    {
+      "path": "ViewModels\\VisualizarAnexoFormulario.cs",
+      "export_path": "ViewModels\\VisualizarAnexoFormulario.cs",
+      "raw_sha256": "1da87d2f30bbc37458cc304a49a7e36b0e71d30da276655741d986c7deddf79a"
+    },
+    {
+      "path": "ViewModels\\VisualizarAnexoViewModel.cs",
+      "export_path": "ViewModels\\VisualizarAnexoViewModel.cs",
+      "raw_sha256": "8c350f956e40205ab5c082107b66ab4916cfaa029d6ed0a75caac61f14a1e0b3"
+    },
+    {
+      "path": "Views\\VisualizarAnexoFichaView.cs",
+      "export_path": "Views\\VisualizarAnexoFichaView.cs",
+      "raw_sha256": "99edf0013ea4dfc6e317311ab706735f4202f847a23d530f3b356df0fa502555"
+    },
+    {
+      "path": "Views\\VisualizarAnexoView.cs",
+      "export_path": "Views\\VisualizarAnexoView.cs",
+      "raw_sha256": "383729676ceea9146209878670883c3bc010bac3f2843e196ea4393613c5efc7"
+    },
+    {
+      "path": "VisualizarAnexosModulo.cs",
+      "export_path": "VisualizarAnexosModulo.cs",
+      "raw_sha256": "f014fd00a032ab8fd39ca005dd7a34703302bba6f0c922053332172f4eaa9543"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.VisualizarAnexos.g.resources",
+      "file": "0000.bin",
+      "bytes": 8625,
+      "sha256": "43d2b2584e7b7db92159de525c25ecea654915eff2d01d56dd85f067c51aaf53"
+    },
+    {
+      "name": "Otus.Modulo.VisualizarAnexos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

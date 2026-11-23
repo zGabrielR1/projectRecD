@@ -1,0 +1,45 @@
+{
+  "name": "SistemaG6",
+  "baseline": "baseline\\SistemaG6.exe",
+  "baseline_sha256": "cdc797ad4c3cdd2b382ef4bc061a1d2e8f94f9e360f2bac16df0254a3be21e16",
+  "export_project": "recovered\\SuiteG6\\SistemaG6\\SistemaG6.csproj",
+  "sources": [
+    {
+      "path": "App.cs",
+      "export_path": "App.cs",
+      "raw_sha256": "8e0af868b171434f1c47b61c897ad091b0f02f971973763b14c97ae8ce05d1e3"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "598907eb8caf8bb0f63f92951a4d4013da0ab0e4cd9a3060be0e97c99dd1fbbc"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "c4a6050a77146705a16a604bfb13ab661039c06ff13d159a767f5afe1004a73a"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d9a4cd69626a4975a8ac2edf5526f609c2663ada28ea1d0e85beb922043af127"
+    }
+  ],
+  "output_type": "WinExe",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "SistemaG6.g.resources",
+      "file": "0000.bin",
+      "bytes": 370286,
+      "sha256": "ef2d59b790fc5afcb56cedc18e477855ed38b9dc30310a41c8bb7e10de3ffa6e"
+    },
+    {
+      "name": "Sistema.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

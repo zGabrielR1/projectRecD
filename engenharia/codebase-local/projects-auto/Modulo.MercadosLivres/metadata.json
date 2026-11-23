@@ -1,0 +1,35 @@
+{
+  "artifactSha256": "e8993c3b2f82ccb365bce6e95c07a6fedecc0141db6a1370ac11a62de828fb17",
+  "mvid": "ceebe693-7800-4912-b9e0-0eacc4842232",
+  "assembly": "Modulo.MercadosLivres, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.MercadosLivres.g.resources",
+      "file": "0000.bin",
+      "bytes": 9364,
+      "sha256": "9b1be7f9e0f453fb503fa5d6acd88fba475857b1b5f01f20bd3042b5ef98a156"
+    },
+    {
+      "name": "Otus.Modulo.MercadosLivres.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

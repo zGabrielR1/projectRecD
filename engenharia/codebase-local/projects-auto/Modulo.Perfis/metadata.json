@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "47afb4edf00ce84bed996d8dbc4451293725bc92caa3f93f82d95b21078c7f0a",
+  "mvid": "bc766a66-606b-4cc9-8ce7-219ff5f00c79",
+  "assembly": "Modulo.Perfis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Perfis.g.resources",
+      "file": "0000.bin",
+      "bytes": 17106,
+      "sha256": "4ac6120b556e5cd8d339a33d25504b5471608c6316258ea2c8bd30bcd1a64d02"
+    },
+    {
+      "name": "Otus.Modulo.Perfis.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

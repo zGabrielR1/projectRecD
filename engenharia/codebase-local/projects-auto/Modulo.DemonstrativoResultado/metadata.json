@@ -1,0 +1,60 @@
+{
+  "artifactSha256": "6636a7d44147f6fef37e1fc4f71f92e95bfb9e5b0e00ae2c41f7b77c848f0a9f",
+  "mvid": "07050db4-1cb6-484f-b482-497b3c4caed9",
+  "assembly": "Modulo.DemonstrativoResultado, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "PresentationCore",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.DemonstrativoResultado.g.resources",
+      "file": "0000.bin",
+      "bytes": 111848,
+      "sha256": "b8e41f507f3f185438cf134baa61b06f8b813b13becdd6cec9eedef75a78d138"
+    },
+    {
+      "name": "Otus.Modulo.DemonstrativoResultado.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.DemonstrativoResultado.Reports.AnaliseGeral.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.DemonstrativoResultado.Reports.AnaliseFinanceira.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.DemonstrativoResultado.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 293,
+      "sha256": "3dbda632a66ad012dea2cd04838b64ea4fe4802febca7abc82738a9609899c41"
+    }
+  ]
+}

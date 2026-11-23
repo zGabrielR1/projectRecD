@@ -1,0 +1,8 @@
+{
+  "assembly": "TuesPechkin.Wkhtmltox.AnyCPU, Version=0.12.4.1, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "TuesPechkin",
+    "System"
+  ]
+}

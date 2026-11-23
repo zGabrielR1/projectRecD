@@ -1,0 +1,169 @@
+{
+  "name": "Modulo.ValesPresente",
+  "baseline": "baseline\\Modulo.ValesPresente.dll",
+  "baseline_sha256": "03393108077ae47f57400313c9dad7eb39b3a4c3e024284ce07c7e03c84c78e1",
+  "export_project": "recovered\\SuiteG6\\Modulo.ValesPresente\\Modulo.ValesPresente.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "9c8e33e41720280f38a90574b5ee7bef213b13015fe4d831ff95b387d40b1a88"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "02877d9d421a6dbab2dd17bf644cda0975f2846cdb39c798fba10d03684181e8"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "86e3b810127aab740d7effb6e1d860109dc5235a277452b4886b7f60a3c3a700"
+    },
+    {
+      "path": "Reports\\Comprovante.cs",
+      "export_path": "Reports\\Comprovante.cs",
+      "raw_sha256": "43de0a984bc9da29343fce4714e879008c121ddc6194895f7e3ccc9aec26b37d"
+    },
+    {
+      "path": "Reports\\Comprovante40Colunas.cs",
+      "export_path": "Reports\\Comprovante40Colunas.cs",
+      "raw_sha256": "aa974f9b30f783d3174fed2f4d8c8cb3c66277aec880380770f79988fec013d6"
+    },
+    {
+      "path": "ValePresenteModulo.cs",
+      "export_path": "ValePresenteModulo.cs",
+      "raw_sha256": "708f8da69d2f34d10f355c36e7d7d5a0cc97a017681fb067f1117e4553c413e3"
+    },
+    {
+      "path": "ViewModels\\PagamentoViewModel.cs",
+      "export_path": "ViewModels\\PagamentoViewModel.cs",
+      "raw_sha256": "46bd33fb9f3a308c263d408bffffc463f4c76a305bb18581c87285305ca82336"
+    },
+    {
+      "path": "ViewModels\\Parcela.cs",
+      "export_path": "ViewModels\\Parcela.cs",
+      "raw_sha256": "235d5537a8abfd0f0fdb08ba39220cc76d87301c82db89cf6ea7c16f658f7fde"
+    },
+    {
+      "path": "ViewModels\\ValePresenteAbaViewModel.cs",
+      "export_path": "ViewModels\\ValePresenteAbaViewModel.cs",
+      "raw_sha256": "16c4fb1fbd68a77122b15471591afd5cc6c392e308a004f09b67060f3762510d"
+    },
+    {
+      "path": "ViewModels\\ValePresenteFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\ValePresenteFichaAdicionarViewModel.cs",
+      "raw_sha256": "819c460dbacda8a667d37baabf03c14103146471b181f07f33abe7fe019702cf"
+    },
+    {
+      "path": "ViewModels\\ValePresenteFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ValePresenteFichaAtualizarViewModel.cs",
+      "raw_sha256": "ac58a2addcbd0a8e345a88ae9878c5c0d3a30fcabb73a578d38ab1fa93402219"
+    },
+    {
+      "path": "ViewModels\\ValePresenteFormulario.cs",
+      "export_path": "ViewModels\\ValePresenteFormulario.cs",
+      "raw_sha256": "b617e5c616edc92eb0f4d97a648d353d7c92c31542580bee56cb11f0ab0183a3"
+    },
+    {
+      "path": "ViewModels\\ValePresenteListaViewModel.cs",
+      "export_path": "ViewModels\\ValePresenteListaViewModel.cs",
+      "raw_sha256": "f50b46b186e6428beac906b63efa794a4a37a43576f1c78ba5c2e0b7aafaabf1"
+    },
+    {
+      "path": "ViewModels\\ValePresenteViewModel.cs",
+      "export_path": "ViewModels\\ValePresenteViewModel.cs",
+      "raw_sha256": "3c5ccaa9469dc7d255813c95a5bb099bafc1c19febe8a7297ccfc476a129ddee"
+    },
+    {
+      "path": "ViewModels\\ValesPresenteViewModel.cs",
+      "export_path": "ViewModels\\ValesPresenteViewModel.cs",
+      "raw_sha256": "773571774bd35c568a82e35addd0a350d7c6f608516e73214aee785a49e97d84"
+    },
+    {
+      "path": "Views\\Cancelar.cs",
+      "export_path": "Views\\Cancelar.cs",
+      "raw_sha256": "37a922a2d05ad4f8269b9e49a87a131fbead9077344456e3e2af3b12396577b5"
+    },
+    {
+      "path": "Views\\Efetivar.cs",
+      "export_path": "Views\\Efetivar.cs",
+      "raw_sha256": "9fd7444700e3c890d30652d6fe27d3efba14ec8ea302f941e31de0030b6dceef"
+    },
+    {
+      "path": "Views\\Imprimir.cs",
+      "export_path": "Views\\Imprimir.cs",
+      "raw_sha256": "2288f67aba1da31238c383f70ca650a36e7ef1976dca427afb295f8c6e7d5c25"
+    },
+    {
+      "path": "Views\\ValePresenteFichaAdicionarView.cs",
+      "export_path": "Views\\ValePresenteFichaAdicionarView.cs",
+      "raw_sha256": "7e3f48cd2300165360d349407ed768d44ef9515ca525f42a712ec364b651e7c3"
+    },
+    {
+      "path": "Views\\ValePresenteFichaAtualizarView.cs",
+      "export_path": "Views\\ValePresenteFichaAtualizarView.cs",
+      "raw_sha256": "e2d1d6d5dac253225fca1eedc22f336319d2c3b86e095b9481beaf67047157dc"
+    },
+    {
+      "path": "Views\\ValePresenteFichaViewDetalhes\\ValePresentePagamentoView.cs",
+      "export_path": "Views\\ValePresenteFichaViewDetalhes\\ValePresentePagamentoView.cs",
+      "raw_sha256": "3228d85048bee68c771075e38b0037b6c5eebe40aac7ca34a2854b96c21f66b2"
+    },
+    {
+      "path": "Views\\ValePresenteFichaViewDetalhes\\ValePresenteView.cs",
+      "export_path": "Views\\ValePresenteFichaViewDetalhes\\ValePresenteView.cs",
+      "raw_sha256": "40f750a6ee487a8fac9ba209324d1ba64caaebfff2a319e2c0dcadd6b351c927"
+    },
+    {
+      "path": "Views\\ValePresenteListaView.cs",
+      "export_path": "Views\\ValePresenteListaView.cs",
+      "raw_sha256": "f723f1e510986c902b9ec5eec23870d21578b35e524cd20d4aa279b7683a6693"
+    },
+    {
+      "path": "Views\\ValesPresenteView.cs",
+      "export_path": "Views\\ValesPresenteView.cs",
+      "raw_sha256": "8d4670373185d6f0c0e7364fcefab8de0eeeb4b96fb29955b56c1be2031b0af8"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Select original overload explicitly: ThreadStart or IRelatorio",
+      "occurrences": 1,
+      "evidence": "engenharia\\codebase-local\\overload-evidence\\Modulo.ValesPresente\\Modulo.ValesPresente.il"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.ValesPresente.g.resources",
+      "file": "0000.bin",
+      "bytes": 30156,
+      "sha256": "1939da28c22af4e1f6771d7b904fef62a66c223237ff2e94926a38723b85ae5b"
+    },
+    {
+      "name": "Otus.Modulo.ValesPresente.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ValesPresente.Reports.Comprovante40Colunas.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ValesPresente.Reports.Comprovante.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ValesPresente.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 284,
+      "sha256": "4277adfe90090105231e3889a008436326b6fb301334e996cbb9896b66ff299e"
+    }
+  ],
+  "generated_stubs": false
+}

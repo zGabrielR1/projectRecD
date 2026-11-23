@@ -1,0 +1,16 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Style, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DevExpress.Xpf.Core.v15.2",
+    "PresentationCore",
+    "PresentationFramework",
+    "DevExpress.Xpf.Grid.v15.2",
+    "System",
+    "DevExpress.Xpf.Grid.v15.2.Core",
+    "WindowsBase",
+    "System.Windows.Interactivity",
+    "DevExpress.Data.v15.2",
+    "System.Core"
+  ]
+}

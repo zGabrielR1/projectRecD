@@ -1,0 +1,137 @@
+{
+  "name": "Modulo.GestaoPainelContabeis",
+  "baseline": "baseline\\Modulo.GestaoPainelContabeis.dll",
+  "baseline_sha256": "cebc0f013b5148148261a1156a7c6c0c065afc17a9780fcff1dd517443a67f52",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoPainelContabeis\\Modulo.GestaoPainelContabeis.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "e7a521c2f6c514afc7c67ef1c9c3981b5527c25d953aa6dc8e710e78a1d71d9a"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "cebc0f013b5148148261a1156a7c6c0c065afc17a9780fcff1dd517443a67f52"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 16
+    },
+    {
+      "kind": "Resolve UI exception/report alignment aliases and protected report disposal",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException"
+      }
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoPainelContabeis.g.resources",
+      "file": "0000.bin",
+      "bytes": 24177,
+      "sha256": "e8ea86f7e4ca9c29e1605918c4106764e08d39f85ffa0599457107773f43670f"
+    },
+    {
+      "name": "Otus.Modulo.GestaoPainelContabeis.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "GestaoPainelContabilModulo.cs",
+      "export_path": "GestaoPainelContabilModulo.cs",
+      "raw_sha256": "44925242f1b32cde74cf30fe7066fbbf7fb7a28399b76926b6f19bd3e90c36b5"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "8f6f4228ae2af0657e721dda78bf0b395d1f4e0af6646e5c6bc0986d03a7c97b"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "4b6e3eee140b2a56ddff6514b445b1f90db0309fdde82319d45bfc68579c3e69"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "314387560e16da6e9a8de2d571b03626c03e161f8268c3ef1e3647c224e4522c"
+    },
+    {
+      "path": "ViewModels\\EnviarArquivoFiscalAbaViewModel.cs",
+      "export_path": "ViewModels\\EnviarArquivoFiscalAbaViewModel.cs",
+      "raw_sha256": "09ea7533ebcf9ca7bbb214a74b9f116df1c95a4864aaa572855a161786d5f039"
+    },
+    {
+      "path": "ViewModels\\EnviarArquivoFiscalViewModel.cs",
+      "export_path": "ViewModels\\EnviarArquivoFiscalViewModel.cs",
+      "raw_sha256": "88b53c52314fb4a91a2020b87b04c991be08f68b043206e42b100ee907a40aeb"
+    },
+    {
+      "path": "ViewModels\\EnviarRelatorioAbaViewModel.cs",
+      "export_path": "ViewModels\\EnviarRelatorioAbaViewModel.cs",
+      "raw_sha256": "b5ea16fd45c4e66c00c0bacbc4a59bc3e6edf03ad3e71ff3a197f30f7de7e92d"
+    },
+    {
+      "path": "ViewModels\\EnviarRelatorioViewModel.cs",
+      "export_path": "ViewModels\\EnviarRelatorioViewModel.cs",
+      "raw_sha256": "06d6b957f6efd42fe8f1f197b9b1b3b6ab4d1f668ca315b5fe7640b290616b24"
+    },
+    {
+      "path": "ViewModels\\GestaoPainelContabeisViewModel.cs",
+      "export_path": "ViewModels\\GestaoPainelContabeisViewModel.cs",
+      "raw_sha256": "f6fc1961d50b5c2a805b9305f2caeb540e39f566c2b9b7d31e6ec1a7649c617f"
+    },
+    {
+      "path": "ViewModels\\GestaoPainelContabilFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoPainelContabilFichaViewModel.cs",
+      "raw_sha256": "41084a408bea458ba3d66393aa082cfbec368e569aaf8ee63cfcb106d94a7948"
+    },
+    {
+      "path": "ViewModels\\GestaoPainelContabilFormulario.cs",
+      "export_path": "ViewModels\\GestaoPainelContabilFormulario.cs",
+      "raw_sha256": "8334896e732e8cda3364e8e9c20731edb8f3961178a8c5963b9eac6a38541f75"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "raw_sha256": "f5c78b4713e81e429f2e77275cf415a91af0f64b3f68f3cbf3549a8149b0ac4b"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoViewModel.cs",
+      "raw_sha256": "5e0f1a41a29b04ed172203a43e5820d4859c0dbdb2122cceea468ab971042213"
+    },
+    {
+      "path": "Views\\GestaoPainelContabeisView.cs",
+      "export_path": "Views\\GestaoPainelContabeisView.cs",
+      "raw_sha256": "f3147cb76e38d21db15ed78dc648488b00165836b0fd69e8d0dd2f8626d07d42"
+    },
+    {
+      "path": "Views\\GestaoPainelContabilFichaView.cs",
+      "export_path": "Views\\GestaoPainelContabilFichaView.cs",
+      "raw_sha256": "3f00784eff7f41710ce04275cbadac358fe1d0ede061681beb400d95c15b055e"
+    },
+    {
+      "path": "Views\\GestaoPainelContabilFichaViewDetalhes\\EnviarArquivoFiscalView.cs",
+      "export_path": "Views\\GestaoPainelContabilFichaViewDetalhes\\EnviarArquivoFiscalView.cs",
+      "raw_sha256": "a5d0c6ec56af9100db35c1ced3578166feed0a8cec8e7da7ef9dd9372601a35d"
+    },
+    {
+      "path": "Views\\GestaoPainelContabilFichaViewDetalhes\\EnviarRelatorioView.cs",
+      "export_path": "Views\\GestaoPainelContabilFichaViewDetalhes\\EnviarRelatorioView.cs",
+      "raw_sha256": "2d4dff05fdc0896989c4177082814a7261299255e915ef183c4eb11f407b0dac"
+    },
+    {
+      "path": "Views\\GestaoPainelContabilFichaViewDetalhes\\SincronizacaoView.cs",
+      "export_path": "Views\\GestaoPainelContabilFichaViewDetalhes\\SincronizacaoView.cs",
+      "raw_sha256": "1189ba3660f9fd8ff0ef0213f0dd211b2ce7f419921ab454bc4c2b50cd306bd5"
+    }
+  ]
+}

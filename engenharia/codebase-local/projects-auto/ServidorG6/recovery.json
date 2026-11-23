@@ -1,0 +1,45 @@
+{
+  "name": "ServidorG6",
+  "baseline": "baseline\\ServidorG6.exe",
+  "baseline_sha256": "cffa5e250c870636489994d725a7d4810de06c457d20e87e6750ab02b1d4a94e",
+  "export_project": "recovered\\SuiteG6\\ServidorG6\\ServidorG6.csproj",
+  "sources": [
+    {
+      "path": "App.cs",
+      "export_path": "App.cs",
+      "raw_sha256": "f49eee9159e47f9a57d64c38564f3a3a64660a348ec3ccbe8cca24c5a03798bc"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "fe3326c5235c9e1963c5964dfcba152b8b79042264777d56045e03c1c2c85c0c"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "6efbed98a99cc342c9dcb7f3edda3d832623da3ad2d56c18b4c7f5f6dc4bd7da"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "110d6aa877fe48fd3035cff9a790f79b0ffdf85f89bd20995b98fc72997932de"
+    }
+  ],
+  "output_type": "WinExe",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "ServidorG6.g.resources",
+      "file": "0000.bin",
+      "bytes": 109480,
+      "sha256": "3ce3246b4fe2b2cf06d03a1d101e3c3d0f57de3d0960caa5b2cac5c37f4a0320"
+    },
+    {
+      "name": "Servidor.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

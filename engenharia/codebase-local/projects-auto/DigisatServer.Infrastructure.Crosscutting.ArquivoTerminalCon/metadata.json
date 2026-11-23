@@ -1,0 +1,22 @@
+{
+  "artifactSha256": "357650b2034fdb9bda08514795a1b5c3fb98f16c1f37ef42fceaa7589a7c62fe",
+  "mvid": "a7a5c3f4-3d02-48ca-8f64-cbbf9beea4fe",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalConsulta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalConsulta.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

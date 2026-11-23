@@ -1,0 +1,14 @@
+{
+  "assembly": "Prism.Unity.Wpf, Version=6.3.0.0, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59",
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "Microsoft.Practices.ServiceLocation",
+    "System",
+    "Prism",
+    "WindowsBase",
+    "System.Core"
+  ]
+}

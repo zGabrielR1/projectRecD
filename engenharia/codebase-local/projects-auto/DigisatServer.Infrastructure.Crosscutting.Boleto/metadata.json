@@ -1,0 +1,417 @@
+{
+  "artifactSha256": "83440ea58589392e2102ec973fb255a03496c55804c5817e60810c2bcd37873d",
+  "mvid": "03422c9e-c087-4211-bf41-b8ae8906bef8",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Boleto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "System.Web",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Pechkin",
+    "TuesPechkin",
+    "System",
+    "System.Drawing",
+    "QRCoder",
+    "System.Design",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Core",
+    "TuesPechkin.Wkhtmltox.AnyCPU",
+    "Microsoft.VisualBasic",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.BoletoImpressao.Boleto79Mm80Mm.resources",
+      "file": "0000.bin",
+      "bytes": 14441,
+      "sha256": "3e4c1c7f51aa8350d5171accd8e25989f760ba6cdb01cf5e7180bf7a9c9b3a36"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Html.resources",
+      "file": "0001.bin",
+      "bytes": 22175,
+      "sha256": "6cfd88395bff3c5e96b1df636aaf4505bd13f498cf1a58dc684817b29841c9cc"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.136.jpg",
+      "file": "0002.bin",
+      "bytes": 4068,
+      "sha256": "7e175c020a1dd0d296a7106c61a315fe90825f28f1002fc8f7fbd3eaa0ba1db5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.133.jpg",
+      "file": "0003.bin",
+      "bytes": 4246,
+      "sha256": "b92c9cff7b59c91b224ffdaa7610c5fc4ec5738a7fa9b3c71d6a4fcf5eb7b7a2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.077.jpg",
+      "file": "0004.bin",
+      "bytes": 4695,
+      "sha256": "dd6e1b5376a10a7b542ef3a2d55b2bfe877c9906aa7b152bad2b666e58285ec8"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.085.jpg",
+      "file": "0005.bin",
+      "bytes": 3868,
+      "sha256": "8bf1a3585c604e14ae16f8e37608d967eca8aee35a6c764ebf825fba0b1f4673"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.208.jpg",
+      "file": "0006.bin",
+      "bytes": 4045,
+      "sha256": "c53538581df3cf7612ea160454403368b60846b769f083985760b676dea2c3c5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.097.jpg",
+      "file": "0007.bin",
+      "bytes": 2817,
+      "sha256": "ad2f6768dbda3bef71392e584e9002ffad83506378d9d0f1662bc2c16e1ca2fa"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.001.jpg",
+      "file": "0008.bin",
+      "bytes": 4353,
+      "sha256": "dbbc930ae972e65d60d679b8cbf7bcd9de5d4ff903ad07260233ff7c099a93a5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.003.jpg",
+      "file": "0009.bin",
+      "bytes": 13357,
+      "sha256": "6385f9ce1b594003132edb744c89e5e39d3b05351c9ac7f1ad6abef8e7e44bc0"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.004.jpg",
+      "file": "0010.bin",
+      "bytes": 5649,
+      "sha256": "afdc22598a83e724d57f0500b1a4922b2c3131bc15240d65f0d53429383acc37"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.008.jpg",
+      "file": "0011.bin",
+      "bytes": 16653,
+      "sha256": "cf3edce7ca550c071963e8ea9d3a329d8d3eef06aa972c41684470770b806a60"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.021.jpg",
+      "file": "0012.bin",
+      "bytes": 19878,
+      "sha256": "c0d825f073c4031f0c3d8218af4eb678a09031e5c373434660bf7aff673749df"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.024.jpg",
+      "file": "0013.bin",
+      "bytes": 15988,
+      "sha256": "ba850427641fcfbc07be42f4841ec21a008fa309c936f8df36533df46e694aea"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.027.jpg",
+      "file": "0014.bin",
+      "bytes": 17027,
+      "sha256": "61b7ca1d40e5592e4d2c0afad51c21b5bcbf26eecc5ead2191b25ebf0a3ad286"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.029.jpg",
+      "file": "0015.bin",
+      "bytes": 12541,
+      "sha256": "da5a3d376cfb327d7b1e16fa3483ad9c1ded9bad5cb7aed93f4736049a47c190"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.033.jpg",
+      "file": "0016.bin",
+      "bytes": 6204,
+      "sha256": "78e8c87038a9c8b39ca54621dc31637c8b3a7ff42f1618df1386c2c4155cda35"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.041.jpg",
+      "file": "0017.bin",
+      "bytes": 79178,
+      "sha256": "076045b3b8035bf6ce63057900caaaabc02bbd628f2a21f1de247d7c20e8f471"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.047.jpg",
+      "file": "0018.bin",
+      "bytes": 4292,
+      "sha256": "4cd7be4fadbb865765614c182518b64f9bd6185c3672bb4e7a78224190bc504c"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.070.jpg",
+      "file": "0019.bin",
+      "bytes": 4937,
+      "sha256": "241c27b9cae0dcf9e2c3a04698d33cbc8ca448bf8d783bc9a4ee46bacf4ee0ce"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.104.jpg",
+      "file": "0020.bin",
+      "bytes": 22205,
+      "sha256": "a5b9152b9c4cadccb38ab99aeec49a1f6b3a05590ad62970a2464a0d2f0f97c5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.151.jpg",
+      "file": "0021.bin",
+      "bytes": 19771,
+      "sha256": "243a178cd61d209714c77126000063d16b731c46c98fd11179ccdf9f88b94ba3"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.237.jpg",
+      "file": "0022.bin",
+      "bytes": 3853,
+      "sha256": "b3714e832bab7e035d90232be21925a637248909e067718f07ec2868167c5c6a"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.244.jpg",
+      "file": "0023.bin",
+      "bytes": 18033,
+      "sha256": "0e5c5fc776dd22c10446ff51754cee5cdd6bdce6e6b6c3f8162d7718df510a78"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.246.jpg",
+      "file": "0024.bin",
+      "bytes": 19154,
+      "sha256": "cc7c955f17fff90df9f83577c64eaec9ab38220a9e4b534346886ab4db351581"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.263.jpg",
+      "file": "0025.bin",
+      "bytes": 22451,
+      "sha256": "8bc25b4bed33290288cea62c6f3e6e6766a822ed1872e0f81f8e7ee6bb666d1e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.266.jpg",
+      "file": "0026.bin",
+      "bytes": 18486,
+      "sha256": "19c8f16c53fb89a8b1edbd2a976a191f7f0099f1f19a39c57c12329fd715c067"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.275.jpg",
+      "file": "0027.bin",
+      "bytes": 18015,
+      "sha256": "8defe7bf4c94bdb3d402b8c3877f9d161d984626a84002f7df318e7db3e21e57"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.291.jpg",
+      "file": "0028.bin",
+      "bytes": 13926,
+      "sha256": "c220f1e529290cbe76b35385e8f1167c5fcf4bf2f15fd9df3dc9044f613ca208"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.320.jpg",
+      "file": "0029.bin",
+      "bytes": 16342,
+      "sha256": "bf10a905d01f839019bc99f36684cd85a8376829108885fd3efdb9f858425112"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.341.jpg",
+      "file": "0030.bin",
+      "bytes": 15490,
+      "sha256": "b5ceab0a52051e74d6e53ecfaca66c30ca6c1e4bc095ca19ba17da46adf55ef5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.347.jpg",
+      "file": "0031.bin",
+      "bytes": 16938,
+      "sha256": "fbdb00169b0eef13ac1f1ae40e2dd448ade51b16f803ec4c048ed5438760c72a"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.353.jpg",
+      "file": "0032.bin",
+      "bytes": 16088,
+      "sha256": "dcf78a5ff6b361eb7452d1420b648674c2ad360b59a2f4fd97052464d9035855"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.356.jpg",
+      "file": "0033.bin",
+      "bytes": 13780,
+      "sha256": "993bedd63dfbc6540f9e53b35eb319ab0ea72c6c5c263ab015373e2b61084e1d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.389.jpg",
+      "file": "0034.bin",
+      "bytes": 19328,
+      "sha256": "a670677bf2078152c6a45b4e88d152ba9991218a318967f28241ca65ce2a1a0b"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.392.jpg",
+      "file": "0035.bin",
+      "bytes": 17894,
+      "sha256": "07d76274b3843f2ccaa0de2057c688a3506aa1ee155a67ce07598c39b94dfb39"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.399.jpg",
+      "file": "0036.bin",
+      "bytes": 13977,
+      "sha256": "6449bc542803024de0ae0876f45857ef4e552f4bc1688fdb983e9662ad4a4f63"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.409.jpg",
+      "file": "0037.bin",
+      "bytes": 15971,
+      "sha256": "6c7d9262f113335203743095c0ddb4e9cf6ca4992ffc484147812e896f2e704e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.422.jpg",
+      "file": "0038.bin",
+      "bytes": 18878,
+      "sha256": "0a090280b9e78c3ddb2537b0d756ae69a5edb81f655c7932f20270366d52cd6e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.424.jpg",
+      "file": "0039.bin",
+      "bytes": 16088,
+      "sha256": "1726cc94cd4bc95bd930efd6d5f9ba30b6f7ef54484b5a20786377f4d2e9f7ac"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.453.jpg",
+      "file": "0040.bin",
+      "bytes": 19353,
+      "sha256": "be000015e810826076cd83a4e23f0ae743b6cc2f8765f6cbd9d0b1014ba13a06"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.479.jpg",
+      "file": "0041.bin",
+      "bytes": 13397,
+      "sha256": "3a4e81525723202c7393002dd5fe06e98609fedeedc3d3fc963492cf1b4fe4c0"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.600.jpg",
+      "file": "0042.bin",
+      "bytes": 15453,
+      "sha256": "b766b21bbe8db41be361f36b6f8ce934a4be2efefc3844759f9e608193bd9ed1"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.604.jpg",
+      "file": "0043.bin",
+      "bytes": 17585,
+      "sha256": "d61744ca40d70097f3fb22a6d8998c3ddcf64731bbe302ed6b1516511c1c40d2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.610.jpg",
+      "file": "0044.bin",
+      "bytes": 16220,
+      "sha256": "dccdd32723b43c8c32f1395b933686e3393d583d4e26c33b3cfd7217ca2f241f"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.623.jpg",
+      "file": "0045.bin",
+      "bytes": 20026,
+      "sha256": "486640675c8d9cae73d084a3ef4e9fc6b3837d710c4eab86d1eb3f2a0c03ebc1"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.633.jpg",
+      "file": "0046.bin",
+      "bytes": 20681,
+      "sha256": "5bef07c4c1a75e5b4097a52c2f7186ad6def28069b2a329165001b14c6b6d28c"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.637.jpg",
+      "file": "0047.bin",
+      "bytes": 17495,
+      "sha256": "7e91328dcc07ad4faeae5009f297a946c04012c541f8de6f3a300c9e9bab67a9"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.641.jpg",
+      "file": "0048.bin",
+      "bytes": 18903,
+      "sha256": "366ceb6135d2fc2ecd1272ee716dfba6632e61f67874ff8733fa1f1343d503e8"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.643.jpg",
+      "file": "0049.bin",
+      "bytes": 13890,
+      "sha256": "a7ed16b115b856091751da4bad1fd54fbba9d940e6db4c1d0e64433639c0f2c2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.702.jpg",
+      "file": "0050.bin",
+      "bytes": 21031,
+      "sha256": "44f2a0daefc64bc77653ee5ace4786c622365fd37ead7e47d3ca8095b6685009"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.707.jpg",
+      "file": "0051.bin",
+      "bytes": 3303,
+      "sha256": "e4381d59d78bb494c2aa507a2c34d91b4ab6b42ab5bd1475306c1dc2f879f665"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.721.jpg",
+      "file": "0052.bin",
+      "bytes": 14993,
+      "sha256": "1c5475c15bf8a4fb2acbc7dd9b623a03d669accedc9c5cbf6a4cb276cc330ca6"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.738.jpg",
+      "file": "0053.bin",
+      "bytes": 19001,
+      "sha256": "53439d87c99705e117a7d1d2e4d54cd305d6c49b75099f6dc345fdaa75ccf5aa"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.741.jpg",
+      "file": "0054.bin",
+      "bytes": 16534,
+      "sha256": "7d4f9ef78ff885f9282edd376bfe79e811aee3719615dc55b88d1af7e8742d9e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.745.jpg",
+      "file": "0055.bin",
+      "bytes": 21176,
+      "sha256": "40232dae933abe71b0e3e5d4b191b86e61f7dcc87f520d370a12e9b80a1edaf2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.748.jpg",
+      "file": "0056.bin",
+      "bytes": 3572,
+      "sha256": "8574fc489858524e412e95dec95c54540036ef5c84f1e60df839348bc4222448"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.749.jpg",
+      "file": "0057.bin",
+      "bytes": 15779,
+      "sha256": "523313b88150a1132020799fcb7ed6a5e6125e0437ccb6373cc28234098447d1"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.756.jpg",
+      "file": "0058.bin",
+      "bytes": 5379,
+      "sha256": "6768ebd8b51be6851dafeb1e433333a4cb402730e3a79cb2a5a3a03aa9ce8547"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.BoletoImpressao.BoletoNet.css",
+      "file": "0059.bin",
+      "bytes": 4513,
+      "sha256": "e4f077b4a4aa73649133fabee0f1559ceaa4f18ff4d40aa3bf02254447dab2cb"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.barra.gif",
+      "file": "0060.bin",
+      "bytes": 46,
+      "sha256": "c38965b65258d174ccf68ff74f5c307a9d42976d35884061c12e166c91d7d54b"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.barrainterna.gif",
+      "file": "0061.bin",
+      "bytes": 45,
+      "sha256": "2080f82ecc7c39e9c15ea4c23a86781204de477dbaa97605d4e3508d6a78ffac"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.corte.gif",
+      "file": "0062.bin",
+      "bytes": 150,
+      "sha256": "ddf57caecd0307676ef587f6a68487f1ee07592682754881fa4a223ce9eed9dd"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.ponto.gif",
+      "file": "0063.bin",
+      "bytes": 43,
+      "sha256": "e4c8efe0cd4a34ef45c313760fe5bd92c0d0d61cf444ca99d53519d9d3657608"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.BoletoBancario.bmp",
+      "file": "0064.bin",
+      "bytes": 248,
+      "sha256": "368f7c6a83fe4563ea3a4c1ecd53802790389dd3a42e363865eecf8ece44235f"
+    }
+  ]
+}

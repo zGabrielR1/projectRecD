@@ -1,0 +1,13 @@
+{
+  "artifactSha256": "577a809ab1c44267c4003617119f3098b6a686cf2eb4f947678590a7c82cce7b",
+  "mvid": "3f20f5ea-4d5c-4cd0-bf46-e6fde90cec24",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Sintegra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Core"
+  ],
+  "resources": []
+}

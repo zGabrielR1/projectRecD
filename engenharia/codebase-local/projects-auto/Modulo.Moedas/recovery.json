@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.Moedas",
+  "baseline": "baseline\\Modulo.Moedas.dll",
+  "baseline_sha256": "86cb2348b5f3bada70e072b8a6e656fffc8c660083c9bd393391d1f7b3b2275e",
+  "export_project": "recovered\\SuiteG6\\Modulo.Moedas\\Modulo.Moedas.csproj",
+  "sources": [
+    {
+      "path": "MoedasModulo.cs",
+      "export_path": "MoedasModulo.cs",
+      "raw_sha256": "c56872f8cfd1c4022b3993edf8946274e246975d1b67de28ddb13198241babea"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "8934783a2d46c9289463a21248304e6742f095adad1c86dd0eb4ea670ee76aa6"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "c606a0c685e57edc58274b47594006b266529192155761584be643f6065abb11"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8c77473dba1da11ff3cda706b4437026cef3cb00fc687e08b342a9f3771ab103"
+    },
+    {
+      "path": "ViewModels\\MoedaAbaViewModel.cs",
+      "export_path": "ViewModels\\MoedaAbaViewModel.cs",
+      "raw_sha256": "ef2db0bc507a19e31e57f80fa20a333420315e78eeb6acc1f9b6ff21ec561515"
+    },
+    {
+      "path": "ViewModels\\MoedaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\MoedaFichaAdicionarViewModel.cs",
+      "raw_sha256": "ff9246cbc696d819be0278c2534458962032b11ae0bb457b76449f5c401114c1"
+    },
+    {
+      "path": "ViewModels\\MoedaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\MoedaFichaAtualizarViewModel.cs",
+      "raw_sha256": "1bd70917f2a85dd2d6c4e319704695e85b8d3384155c7c9f912c0bae1f5ff41a"
+    },
+    {
+      "path": "ViewModels\\MoedaFormulario.cs",
+      "export_path": "ViewModels\\MoedaFormulario.cs",
+      "raw_sha256": "d0feb56298fc3106c4b736c8e2d2c345958e7a566d75cdb1964267c11a0165dc"
+    },
+    {
+      "path": "ViewModels\\MoedaListaViewModel.cs",
+      "export_path": "ViewModels\\MoedaListaViewModel.cs",
+      "raw_sha256": "903f000b14f4efc37ee8bd494dadeccd8d6e5f9874e94d52b74348daf7613777"
+    },
+    {
+      "path": "ViewModels\\MoedasViewModel.cs",
+      "export_path": "ViewModels\\MoedasViewModel.cs",
+      "raw_sha256": "88700bd859599ad33590bad6c660cd68ede092bbdc7b41ce0d425688351f9825"
+    },
+    {
+      "path": "ViewModels\\MoedaViewModel.cs",
+      "export_path": "ViewModels\\MoedaViewModel.cs",
+      "raw_sha256": "cb82893b0099daf6e563e481e09df54057fd1eca607d7a436c9d87a2aa8eca43"
+    },
+    {
+      "path": "Views\\MoedaFichaAdicionarView.cs",
+      "export_path": "Views\\MoedaFichaAdicionarView.cs",
+      "raw_sha256": "62934ec586fd682b3812a7ff419645fbbe3b3ad0b6950c1ef3f20d26350d9e87"
+    },
+    {
+      "path": "Views\\MoedaFichaAtualizarView.cs",
+      "export_path": "Views\\MoedaFichaAtualizarView.cs",
+      "raw_sha256": "ca65f1271d64e546ab8ecf7570a9c868c4de23348dd5bb02529457dce18c7e22"
+    },
+    {
+      "path": "Views\\MoedaListaView.cs",
+      "export_path": "Views\\MoedaListaView.cs",
+      "raw_sha256": "1c351707d36ca920c2e333d8c82cb8a1d592820c8e11e10bf13ed1f14e4b64c8"
+    },
+    {
+      "path": "Views\\MoedasView.cs",
+      "export_path": "Views\\MoedasView.cs",
+      "raw_sha256": "4c2861e439c32b428188adb7a45fcac21210893b2cc05146e279698b3234fce7"
+    },
+    {
+      "path": "Views\\MoedaViewDetalhes\\MoedaView.cs",
+      "export_path": "Views\\MoedaViewDetalhes\\MoedaView.cs",
+      "raw_sha256": "151abd5d4e16b56057c07aa594710bbd9f97c01c6fbe54701310e90ce68c01cc"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Moedas.g.resources",
+      "file": "0000.bin",
+      "bytes": 11994,
+      "sha256": "92098821bbf63748bcac4371afe65dc86b100bd52ec7db14eb1610920996da3a"
+    },
+    {
+      "name": "Otus.Modulo.Moedas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

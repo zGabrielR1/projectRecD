@@ -1,0 +1,8 @@
+{
+  "assembly": "MediaToolkit, Version=1.1.0.1, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Configuration"
+  ]
+}

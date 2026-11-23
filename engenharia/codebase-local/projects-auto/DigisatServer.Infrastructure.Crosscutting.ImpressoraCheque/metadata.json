@@ -1,0 +1,13 @@
+{
+  "artifactSha256": "fac89c6c197bda4eac07d6f1331837166278fbaebeced631bc51446ed1281cb0",
+  "mvid": "340b2210-d85d-41f2-a46e-1a0ca013198b",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.ImpressoraCheque, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Core"
+  ],
+  "resources": []
+}

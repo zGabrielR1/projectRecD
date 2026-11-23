@@ -1,0 +1,42 @@
+{
+  "artifactSha256": "fadeafb533e183a530ef9957ca0e74d60a2c9b9fac2e60bbee6bc7c29ca575e1",
+  "mvid": "52e7dec4-bc2c-4fdf-bee3-3db6d78fd400",
+  "assembly": "Modulo.Agendamentos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DevExpress.Xpf.Scheduler.v15.2",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.XtraScheduler.v15.2.Core",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Data.v15.2",
+    "PresentationCore",
+    "DevExpress.Mvvm.v15.2",
+    "WindowsBase"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Agendamentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 28342,
+      "sha256": "dfebc575820317af46538ea608e228902f0ea8abc1cf7bbacc6992459e6fe6ed"
+    },
+    {
+      "name": "Otus.Modulo.Agendamentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

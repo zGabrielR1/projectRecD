@@ -1,0 +1,441 @@
+﻿{
+    "name":  "DigisatServer.Infrastructure.Crosscutting.Tef",
+    "baseline":  "baseline\\DigisatServer.Infrastructure.Crosscutting.Tef.dll",
+    "baseline_sha256":  "81c34e735df862b2aa741a08ccb7afa57c4e2bb8f418d891e1748823518b6c2e",
+    "export_project":  "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Tef\\DigisatServer.Infrastructure.Crosscutting.Tef.csproj",
+    "sources":  [
+                    {
+                        "path":  "Classes\\AguardarRespEventHandler.cs",
+                        "export_path":  "Classes\\AguardarRespEventHandler.cs",
+                        "raw_sha256":  "ecd953f153c06f100cc679cef4770621132dde5c9c2b9048e8567598feef2813"
+                    },
+                    {
+                        "path":  "Classes\\AntesCancelarTransacoesEventHandler.cs",
+                        "export_path":  "Classes\\AntesCancelarTransacoesEventHandler.cs",
+                        "raw_sha256":  "994db323c838f3d50a6acd903759c9aa80d2d61fd6708b398bdf7b16d70078ca"
+                    },
+                    {
+                        "path":  "Classes\\AntesFinalizarRequisicaoEventHandler.cs",
+                        "export_path":  "Classes\\AntesFinalizarRequisicaoEventHandler.cs",
+                        "raw_sha256":  "5c4cb50e7f925496566567dcc04bc5795b37e9637d927ab0d365c14683cf9cbe"
+                    },
+                    {
+                        "path":  "Classes\\BloquearMouseTecladoEventHandler.cs",
+                        "export_path":  "Classes\\BloquearMouseTecladoEventHandler.cs",
+                        "raw_sha256":  "89ce007db6371311c52fa554825eba0db1e1faccf0af8f79c4d77d4991a1512a"
+                    },
+                    {
+                        "path":  "Classes\\ComandarEcfAbrirVinculadoEventHandler.cs",
+                        "export_path":  "Classes\\ComandarEcfAbrirVinculadoEventHandler.cs",
+                        "raw_sha256":  "ddc0e82ff6a267e9153ba268bc0e470f8fccfad289b7bf58acf2e614e7c18b36"
+                    },
+                    {
+                        "path":  "Classes\\ComandarEcfEventHandler.cs",
+                        "export_path":  "Classes\\ComandarEcfEventHandler.cs",
+                        "raw_sha256":  "e5e1e8a7c374ab6577de98b1a55cbd8eb4d47de4f43dbe8230f452bef290cf1c"
+                    },
+                    {
+                        "path":  "Classes\\ComandarEcfImprimirViaEventHandler.cs",
+                        "export_path":  "Classes\\ComandarEcfImprimirViaEventHandler.cs",
+                        "raw_sha256":  "fc96794b821ea18bc23d06079f05f80a3e2d0a92257af4bcede793409bed839e"
+                    },
+                    {
+                        "path":  "Classes\\ComandarEcfPagamentoEventHandler.cs",
+                        "export_path":  "Classes\\ComandarEcfPagamentoEventHandler.cs",
+                        "raw_sha256":  "45ee86563c1ab400ef20ba9446e253cf6a3b4ca4a92f3050fef6007aa1dd4a09"
+                    },
+                    {
+                        "path":  "Classes\\ComandarEcfSubtotalizaEventHandler.cs",
+                        "export_path":  "Classes\\ComandarEcfSubtotalizaEventHandler.cs",
+                        "raw_sha256":  "ea8ba0432b7c0363c93a55c0e696360e0b24c7a1ad817514a71ff475984c0a55"
+                    },
+                    {
+                        "path":  "Classes\\ComandarNaoFiscalEventHandler.cs",
+                        "export_path":  "Classes\\ComandarNaoFiscalEventHandler.cs",
+                        "raw_sha256":  "806ad118a2e9aa6b8befe785233dc970ecffa672b3aa79d247ffe3c9339987e4"
+                    },
+                    {
+                        "path":  "Classes\\ComandarNaoFiscalImprimirViaEventHandler.cs",
+                        "export_path":  "Classes\\ComandarNaoFiscalImprimirViaEventHandler.cs",
+                        "raw_sha256":  "617ba960e18211bf6e42fbf28b2839d41f9892acb713494dc284c3915f80e036"
+                    },
+                    {
+                        "path":  "Classes\\DepoisCancelarTransacoesEventHandler.cs",
+                        "export_path":  "Classes\\DepoisCancelarTransacoesEventHandler.cs",
+                        "raw_sha256":  "754bcf0068be731f118eca7e3379d02cfe243c6c4cc758a677c11e993b3f6f3d"
+                    },
+                    {
+                        "path":  "Classes\\DepoisConfirmarTransacoesEventHandler.cs",
+                        "export_path":  "Classes\\DepoisConfirmarTransacoesEventHandler.cs",
+                        "raw_sha256":  "b880158737bfda8602f7f43a696ade8529ae994b322e11113239a255f326c0a7"
+                    },
+                    {
+                        "path":  "Classes\\ExibirMensagemEventHandler.cs",
+                        "export_path":  "Classes\\ExibirMensagemEventHandler.cs",
+                        "raw_sha256":  "92a8fb1bdb72db32384a0b94adc22fa98124cea441e9b6e389c3018cd52aee0e"
+                    },
+                    {
+                        "path":  "Classes\\InfoEcfEventHandler.cs",
+                        "export_path":  "Classes\\InfoEcfEventHandler.cs",
+                        "raw_sha256":  "ed506b86604b782c4612b73224d85db2e3777194c02acc035d564b34184f35f3"
+                    },
+                    {
+                        "path":  "Classes\\InfoNaoFiscalEventHandler.cs",
+                        "export_path":  "Classes\\InfoNaoFiscalEventHandler.cs",
+                        "raw_sha256":  "6680a002c21011773aa8739d172c7fcc50eca99dbc1040d61acdc7317e38f282"
+                    },
+                    {
+                        "path":  "Classes\\LimparTecladoMouseEventHandler.cs",
+                        "export_path":  "Classes\\LimparTecladoMouseEventHandler.cs",
+                        "raw_sha256":  "ecf3b234c414734bde8ccbfd9a094324ac58ec53ca06baebd0f50ce158035090"
+                    },
+                    {
+                        "path":  "Classes\\MudarEstadoReqEventHandler.cs",
+                        "export_path":  "Classes\\MudarEstadoReqEventHandler.cs",
+                        "raw_sha256":  "3a29374cdf6183e05641817d95c5558db486b32aecfe638199f5241d1b0b089e"
+                    },
+                    {
+                        "path":  "Classes\\MudarEstadoRespEventHandler.cs",
+                        "export_path":  "Classes\\MudarEstadoRespEventHandler.cs",
+                        "raw_sha256":  "601e55cc51e85924fee7d534b6d1a7ea824553b6fc9f2dc53b1967e96183d6f7"
+                    },
+                    {
+                        "path":  "Classes\\PagamentoEventHandler.cs",
+                        "export_path":  "Classes\\PagamentoEventHandler.cs",
+                        "raw_sha256":  "bd60db0d9b67f694f15ab4448c2fd645941ce29938c4d8f06f04a7617a41f416"
+                    },
+                    {
+                        "path":  "Classes\\RestaurarFocoAplicacaoEventHandler.cs",
+                        "export_path":  "Classes\\RestaurarFocoAplicacaoEventHandler.cs",
+                        "raw_sha256":  "f4bc0c30f8591c91b0527a7ea09076d94dfa1607ae0f6410a2f5c9111dfcbbba"
+                    },
+                    {
+                        "path":  "Classes\\Tef.cs",
+                        "export_path":  "Classes\\Tef.cs",
+                        "raw_sha256":  "782789328d62db7b0d74b26ed71644990b5388474f66de80fd1f417d730bf11a"
+                    },
+                    {
+                        "path":  "Classes\\TefArquivo.cs",
+                        "export_path":  "Classes\\TefArquivo.cs",
+                        "raw_sha256":  "d464dcde82deacfc4de3c7296b923fa877561dc1216afdd18e300368858a1fb8"
+                    },
+                    {
+                        "path":  "Classes\\TefArrayGrupoRespostasPendentes.cs",
+                        "export_path":  "Classes\\TefArrayGrupoRespostasPendentes.cs",
+                        "raw_sha256":  "b4063a55e8983d91def614712f7c1ba872817105a364975f4edeea2d410c1c5f"
+                    },
+                    {
+                        "path":  "Classes\\TefAuttarClass.cs",
+                        "export_path":  "Classes\\TefAuttarClass.cs",
+                        "raw_sha256":  "866477c737ce9ab21e0b6689a5f61c5535821ff601423f844cc3aa6ebfae997c"
+                    },
+                    {
+                        "path":  "Classes\\TefBase.cs",
+                        "export_path":  "Classes\\TefBase.cs",
+                        "raw_sha256":  "c565c5b87c231a2a996f333be1d2f33e9a2a1b6ced254030aba3c6baf85ee167"
+                    },
+                    {
+                        "path":  "Classes\\TefCapptaClass.cs",
+                        "export_path":  "Classes\\TefCapptaClass.cs",
+                        "raw_sha256":  "963d21cbad09067718a69927354531d8467786098df76edc2d7062b48b1ded0c"
+                    },
+                    {
+                        "path":  "Classes\\TefCombustivel.cs",
+                        "export_path":  "Classes\\TefCombustivel.cs",
+                        "raw_sha256":  "c8dd0ec513a35564f77fb3e8c5a8e1c401201a3c068960700f27e75a38316cb8"
+                    },
+                    {
+                        "path":  "Classes\\TefComnectGpTefClass.cs",
+                        "export_path":  "Classes\\TefComnectGpTefClass.cs",
+                        "raw_sha256":  "e5ab7dd9c546009b09446bd9e61291d785c0f0ba2f3fb996dae6190636c9b604"
+                    },
+                    {
+                        "path":  "Classes\\TefDefault.cs",
+                        "export_path":  "Classes\\TefDefault.cs",
+                        "raw_sha256":  "38bcf31d23c5960298d6755f8d1f792288e51ca639be633b7f9b95fbfee29656"
+                    },
+                    {
+                        "path":  "Classes\\TefDestaxaClass.cs",
+                        "export_path":  "Classes\\TefDestaxaClass.cs",
+                        "raw_sha256":  "535891cbab91f02f2627328d1d6780d4fab3ce3b33ba7171ed86bdef7096c464"
+                    },
+                    {
+                        "path":  "Classes\\TefDialClass.cs",
+                        "export_path":  "Classes\\TefDialClass.cs",
+                        "raw_sha256":  "781f7d577e00e29c40503d4a3e33cc8149d4b37cb533e0873221f735a11e365d"
+                    },
+                    {
+                        "path":  "Classes\\TefEcf.cs",
+                        "export_path":  "Classes\\TefEcf.cs",
+                        "raw_sha256":  "a554613f50597d22dd842956499afb2003133d148ea74368c4f29f1f369f8888"
+                    },
+                    {
+                        "path":  "Classes\\TefElginClass.cs",
+                        "export_path":  "Classes\\TefElginClass.cs",
+                        "raw_sha256":  "a2121c17742c5f1e16cea5b5db2381b2e0df751aa83a8f03def536809fe25f92"
+                    },
+                    {
+                        "path":  "Classes\\TefEvents.cs",
+                        "export_path":  "Classes\\TefEvents.cs",
+                        "raw_sha256":  "4880ec819ca4a36d3d5db68a484b288e2437cfc650200f113655b415b3bf51c3"
+                    },
+                    {
+                        "path":  "Classes\\TefGetcardClass.cs",
+                        "export_path":  "Classes\\TefGetcardClass.cs",
+                        "raw_sha256":  "4fab18bbebfd4c3e54cd5eb0242d77a922146e67c631363f44020465a69cd16a"
+                    },
+                    {
+                        "path":  "Classes\\TefIdentificacao.cs",
+                        "export_path":  "Classes\\TefIdentificacao.cs",
+                        "raw_sha256":  "895880cdcc93aa246f741aa847beae4501ba0eee38fc69548c51028edb633931"
+                    },
+                    {
+                        "path":  "Classes\\TefImpressaoFactory.cs",
+                        "export_path":  "Classes\\TefImpressaoFactory.cs",
+                        "raw_sha256":  "f82896a00a43899049aebb4d942e5dffd6369120162c44c11663acaab33c20be"
+                    },
+                    {
+                        "path":  "Classes\\TefImpressoraNaoFiscal.cs",
+                        "export_path":  "Classes\\TefImpressoraNaoFiscal.cs",
+                        "raw_sha256":  "69c8954c2382598aad453f9a40003c3710ee080e75a1d36ca3f2915235b6e490"
+                    },
+                    {
+                        "path":  "Classes\\TefInformacao.cs",
+                        "export_path":  "Classes\\TefInformacao.cs",
+                        "raw_sha256":  "afab596df1a44a797c9bc500d16f090ebcb2e6086a2bae3609021f3903f2088b"
+                    },
+                    {
+                        "path":  "Classes\\TefLinha.cs",
+                        "export_path":  "Classes\\TefLinha.cs",
+                        "raw_sha256":  "45054fbd77dd673b760ba54e3e7a86925a2b8eb26eb8fb5d54f0185f472f6585"
+                    },
+                    {
+                        "path":  "Classes\\TefPayGoClass.cs",
+                        "export_path":  "Classes\\TefPayGoClass.cs",
+                        "raw_sha256":  "0157aa812c39ff8e30819949e1bf81275497fe8121d6e856888a87eddb4d447d"
+                    },
+                    {
+                        "path":  "Classes\\TefReq.cs",
+                        "export_path":  "Classes\\TefReq.cs",
+                        "raw_sha256":  "69691d371db093fdbbb662d96921d9f335fc1f902f7d7b38cbb22b9a0a427c71"
+                    },
+                    {
+                        "path":  "Classes\\TefResp.cs",
+                        "export_path":  "Classes\\TefResp.cs",
+                        "raw_sha256":  "11e00d184132e4573cd41736790e3ae5ab80adb82d4d6c458a08ed462708158a"
+                    },
+                    {
+                        "path":  "Classes\\TefRespostasPendentes.cs",
+                        "export_path":  "Classes\\TefRespostasPendentes.cs",
+                        "raw_sha256":  "16c8ab88e9ece9882566a2b328c4276516ac3a66bd5f900c05433667d996ab32"
+                    },
+                    {
+                        "path":  "Classes\\TefRespParcela.cs",
+                        "export_path":  "Classes\\TefRespParcela.cs",
+                        "raw_sha256":  "510b9f6819ebbfca55f5b897425895b42cdf65129150c95b6e11022d7545a53e"
+                    },
+                    {
+                        "path":  "Classes\\TefRespTxt.cs",
+                        "export_path":  "Classes\\TefRespTxt.cs",
+                        "raw_sha256":  "4ee74866fa55f01a2ad560bbffec40fb48d11430610b668840685b7d415e2584"
+                    },
+                    {
+                        "path":  "Classes\\TefSitefClass.cs",
+                        "export_path":  "Classes\\TefSitefClass.cs",
+                        "raw_sha256":  "a41419e795a7301a18f2f78769c3562ff75337d08bd1dd39a4dbc52e266481cf"
+                    },
+                    {
+                        "path":  "Classes\\TefTxt.cs",
+                        "export_path":  "Classes\\TefTxt.cs",
+                        "raw_sha256":  "06b355a4ced8d4243c24dbcbc68be9b5b120b25755c8282ecc9175714d2568fb"
+                    },
+                    {
+                        "path":  "Classes\\TefUtil.cs",
+                        "export_path":  "Classes\\TefUtil.cs",
+                        "raw_sha256":  "cf33beb42b3694b407970952f0e9c14d128378f4e891345698115a735506b67e"
+                    },
+                    {
+                        "path":  "Constants\\TefConstante.cs",
+                        "export_path":  "Constants\\TefConstante.cs",
+                        "raw_sha256":  "35b87d8bc7ed73dc1897d5a0f5701352adb0f52f9752f8d6b3ffa48cab1f38d0"
+                    },
+                    {
+                        "path":  "Events\\TefAguardarRespEventArgs.cs",
+                        "export_path":  "Events\\TefAguardarRespEventArgs.cs",
+                        "raw_sha256":  "daf39c488277c9d339d3a338884e14b8927f54318f18139ba84ec33a94ef0e38"
+                    },
+                    {
+                        "path":  "Events\\TefAntesCancelarTransacaoEventArgs.cs",
+                        "export_path":  "Events\\TefAntesCancelarTransacaoEventArgs.cs",
+                        "raw_sha256":  "6531b87dd09e8386d3e5c60f4c3797b1f4b462689a619a6f26b5a46920ffe17b"
+                    },
+                    {
+                        "path":  "Events\\TefAntesFinalizarRequisicaoEventArgs.cs",
+                        "export_path":  "Events\\TefAntesFinalizarRequisicaoEventArgs.cs",
+                        "raw_sha256":  "2ee678a651d5ebb2f434255a3d53174d457f4bad1bf82eec85fe841dff60434c"
+                    },
+                    {
+                        "path":  "Events\\TefBloquearMouseTecladoEventArgs.cs",
+                        "export_path":  "Events\\TefBloquearMouseTecladoEventArgs.cs",
+                        "raw_sha256":  "d0d5156777e0dd1b684d330971c9e650593ed0f095a6b09b0806eb0c6a55f450"
+                    },
+                    {
+                        "path":  "Events\\TefComandarEcfAbrirVinculadoEventArgs.cs",
+                        "export_path":  "Events\\TefComandarEcfAbrirVinculadoEventArgs.cs",
+                        "raw_sha256":  "0dab0631b06732365e6239499ad41987bf0ba640344fc92eb8604a4386bf7447"
+                    },
+                    {
+                        "path":  "Events\\TefComandarEcfEventArgs.cs",
+                        "export_path":  "Events\\TefComandarEcfEventArgs.cs",
+                        "raw_sha256":  "59e61eee910673f74fcd2554892cacca69f783a20cab59c8ef69e628bb148942"
+                    },
+                    {
+                        "path":  "Events\\TefComandarEcfImprimirViaEventArgs.cs",
+                        "export_path":  "Events\\TefComandarEcfImprimirViaEventArgs.cs",
+                        "raw_sha256":  "3e3db1ae1072281fe9698b1ef74d6976cd6dd0b27e6c24feb2869977a17cc8e2"
+                    },
+                    {
+                        "path":  "Events\\TefComandarEcfPagamentoEventArgs.cs",
+                        "export_path":  "Events\\TefComandarEcfPagamentoEventArgs.cs",
+                        "raw_sha256":  "08e4d5901514aefa6059d0daabe1ccc2d74339a934fc0b9188d0bd90e523e6ca"
+                    },
+                    {
+                        "path":  "Events\\TefComandarEcfSubtotalizaEventArgs.cs",
+                        "export_path":  "Events\\TefComandarEcfSubtotalizaEventArgs.cs",
+                        "raw_sha256":  "dd88a89e1808c0c3cef1a6e172d4f0eec1deea9d34d36b9e2c76384397a40945"
+                    },
+                    {
+                        "path":  "Events\\TefComandarNaoFiscalEventArgs.cs",
+                        "export_path":  "Events\\TefComandarNaoFiscalEventArgs.cs",
+                        "raw_sha256":  "6372f8c02b9c8e30af2a753c8d228b75fe43d27680cd797f15600208098ed690"
+                    },
+                    {
+                        "path":  "Events\\TefComandarNaoFiscalImprimirViaEventArgs.cs",
+                        "export_path":  "Events\\TefComandarNaoFiscalImprimirViaEventArgs.cs",
+                        "raw_sha256":  "ca10fe92e536c5c8d6f3cf1ba7bc084b311854dbdbde82e20119fe82670c236c"
+                    },
+                    {
+                        "path":  "Events\\TefDepoisCancelarTransacoesEventArgs.cs",
+                        "export_path":  "Events\\TefDepoisCancelarTransacoesEventArgs.cs",
+                        "raw_sha256":  "6a8e6a96a02489a2c5919cf4bb769165fc2fe5a49767d74583fc2d0be516b5ca"
+                    },
+                    {
+                        "path":  "Events\\TefDepoisConfirmarTransacoesEventArgs.cs",
+                        "export_path":  "Events\\TefDepoisConfirmarTransacoesEventArgs.cs",
+                        "raw_sha256":  "9e18a425032d48876810cc24c78fb733fea625f145237aaf3fc7ed647f36465e"
+                    },
+                    {
+                        "path":  "Events\\TefExibirMensagemEventArgs.cs",
+                        "export_path":  "Events\\TefExibirMensagemEventArgs.cs",
+                        "raw_sha256":  "b533a30baea9a06986a54c60f50425cb492a0750b39c24b7b41d4d466f6ef3e9"
+                    },
+                    {
+                        "path":  "Events\\TefInfoEcfEventArgs.cs",
+                        "export_path":  "Events\\TefInfoEcfEventArgs.cs",
+                        "raw_sha256":  "50a521cd4e6377e982363e553abd43050a7973c56020453ce97ae95d181c9dbe"
+                    },
+                    {
+                        "path":  "Events\\TefInfoNaoFiscalEventArgs.cs",
+                        "export_path":  "Events\\TefInfoNaoFiscalEventArgs.cs",
+                        "raw_sha256":  "8a6cad8ecad2909e48909589d6e2dc56f545dd26d6880be89e5a9c08253ba3d2"
+                    },
+                    {
+                        "path":  "Events\\TefLimparTecladoMouseEventArgs.cs",
+                        "export_path":  "Events\\TefLimparTecladoMouseEventArgs.cs",
+                        "raw_sha256":  "04a4e617a97df589b55ffa306375bb8a46573976873f56ae36489655bed59157"
+                    },
+                    {
+                        "path":  "Events\\TefMudarEstadoReqEventArgs.cs",
+                        "export_path":  "Events\\TefMudarEstadoReqEventArgs.cs",
+                        "raw_sha256":  "ee1e08b7fc341bad08d5bf7325cd92f85e3aed92905fbcb829cf3fb702741d21"
+                    },
+                    {
+                        "path":  "Events\\TefMudarEstadoRespEventArgs.cs",
+                        "export_path":  "Events\\TefMudarEstadoRespEventArgs.cs",
+                        "raw_sha256":  "720984e7fb1036c01c7ecf4ea6ab7420701d91d577fd4232cdd9dc9f5c72faed"
+                    },
+                    {
+                        "path":  "Events\\TefPagamentoEventArgs.cs",
+                        "export_path":  "Events\\TefPagamentoEventArgs.cs",
+                        "raw_sha256":  "9a01fb2ec86372c66d7c06827458905711f44851c1d859b08aa233b7b8181219"
+                    },
+                    {
+                        "path":  "Events\\TefRestaurarFocoAplicacaoEventArgs.cs",
+                        "export_path":  "Events\\TefRestaurarFocoAplicacaoEventArgs.cs",
+                        "raw_sha256":  "93c4f8c365ad8fa98056e3aa2c2565b830adbc7edf8eb6d92f199e99d1978315"
+                    },
+                    {
+                        "path":  "Exceptions\\TefArquivoNaoEncontradoException.cs",
+                        "export_path":  "Exceptions\\TefArquivoNaoEncontradoException.cs",
+                        "raw_sha256":  "4ba0e3c07402f9f174919bd94f4e36310af9630064dc81dc7b0c16118e2e691c"
+                    },
+                    {
+                        "path":  "Exceptions\\TefArquivoNaoRenomeadoException.cs",
+                        "export_path":  "Exceptions\\TefArquivoNaoRenomeadoException.cs",
+                        "raw_sha256":  "d3dcbbd753d2ba3d583f906cd4c4d715944f9826010f493dc43dd417cbdbc67f"
+                    },
+                    {
+                        "path":  "Exceptions\\TefBaseException.cs",
+                        "export_path":  "Exceptions\\TefBaseException.cs",
+                        "raw_sha256":  "510a339e6e953e7e6ca5f311e3cfb4700c21ad348d4ddc100fc89cf8b55ef6ab"
+                    },
+                    {
+                        "path":  "Exceptions\\TefEcfException.cs",
+                        "export_path":  "Exceptions\\TefEcfException.cs",
+                        "raw_sha256":  "6a4c08c1a32ff23a0bb2e31888f5a66016e7f2662462e641a33d219de96fb738"
+                    },
+                    {
+                        "path":  "Exceptions\\TefErroException.cs",
+                        "export_path":  "Exceptions\\TefErroException.cs",
+                        "raw_sha256":  "04fc07ec668b4607cb652e75a99573bafd651a57c58b678ab9f1f45d4658f5ff"
+                    },
+                    {
+                        "path":  "Exceptions\\TefGerenciadorPadraoNaoInicializadoException.cs",
+                        "export_path":  "Exceptions\\TefGerenciadorPadraoNaoInicializadoException.cs",
+                        "raw_sha256":  "db05f775fc9fa2ab19f3ce27bf6d4b7f36daaaf47927449694dd06e9715daa26"
+                    },
+                    {
+                        "path":  "Exceptions\\TefGerenciadorPadraoNaoRespondeException.cs",
+                        "export_path":  "Exceptions\\TefGerenciadorPadraoNaoRespondeException.cs",
+                        "raw_sha256":  "420f304cd7d04a0078a54519d4045a68726835eae2a9722fa5ff595af995f982"
+                    },
+                    {
+                        "path":  "Exceptions\\TefNaoFiscalException.cs",
+                        "export_path":  "Exceptions\\TefNaoFiscalException.cs",
+                        "raw_sha256":  "0c08566925462c76a9b22d9201577963f31507262e34cec4b0ff15465e0f7100"
+                    },
+                    {
+                        "path":  "Exceptions\\TefStsInvalidoException.cs",
+                        "export_path":  "Exceptions\\TefStsInvalidoException.cs",
+                        "raw_sha256":  "bc591a0c3761160ebba99d2b69eaa66f339b43fde3bec503b400d58ebd54908d"
+                    },
+                    {
+                        "path":  "Interfaces\\IImpressaoFactory.cs",
+                        "export_path":  "Interfaces\\IImpressaoFactory.cs",
+                        "raw_sha256":  "de396d0dc2cc4af73001294855d9edaa6e898eac2c73a77361d49106edae57f3"
+                    },
+                    {
+                        "path":  "Interfaces\\ITef.cs",
+                        "export_path":  "Interfaces\\ITef.cs",
+                        "raw_sha256":  "845cab25918f4d1149e121f65221b8c234bb9fbce33e816fb35d63fa108c16ca"
+                    },
+                    {
+                        "path":  "Properties\\AssemblyInfo.cs",
+                        "export_path":  "Properties\\AssemblyInfo.cs",
+                        "raw_sha256":  "ca95541d9623b53834b605e2139774d3bf9b26019df8f762ba333a069f793a4a"
+                    },
+                    {
+                        "path":  "Types\\TefTipo.cs",
+                        "export_path":  "Types\\TefTipo.cs",
+                        "raw_sha256":  "90937d08b5bcc5f53f44e9b4f53d27f69f9b7feec16ae00b046e1d2ffea8b1dd"
+                    }
+                ],
+    "output_type":  "Library",
+    "repairs":  [
+                    "Repaired invalid cached predicate and immediate anonymous-delegate syntax, removed redundant decompiler-generated iterator cleanup locals that conflicted with using declarations, qualified the Tef class against its same-named namespace, and qualified System.IO.File references."
+                ],
+    "original_resources":  [
+
+                           ],
+    "generated_stubs":  false
+}

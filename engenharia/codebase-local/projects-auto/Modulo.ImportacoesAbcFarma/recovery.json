@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.ImportacoesAbcFarma",
+  "baseline": "baseline\\Modulo.ImportacoesAbcFarma.dll",
+  "baseline_sha256": "14fbf46bb364222f4ca9706d033e0b7a32d9d96885c180f78ee6a745e46ec1df",
+  "export_project": "recovered\\SuiteG6\\Modulo.ImportacoesAbcFarma\\Modulo.ImportacoesAbcFarma.csproj",
+  "sources": [
+    {
+      "path": "ImportacaoAbcFarmaModulo.cs",
+      "export_path": "ImportacaoAbcFarmaModulo.cs",
+      "raw_sha256": "17f4926bcc60626d52eb29dfbfc0774bc3a9653952e9a67a3816dc8eee866f6d"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "76f4eac462d3e392cd476793e9b3c73e402a1b1518c9d85267abcb702a58734b"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "744baec51b01b3dc1744eafae79d67fd828ff3706bd61d90c8d8faebcc067e31"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "9eb500d20f4ecab7dd84db4809f04fa4d0730141bdbececc69378eb67f55f85a"
+    },
+    {
+      "path": "ViewModels\\HistoricoConsultaAbaViewModel.cs",
+      "export_path": "ViewModels\\HistoricoConsultaAbaViewModel.cs",
+      "raw_sha256": "75089b14511084ea0ced5be83ab09c8e1074ff6acf5cb093f1fab3dd14c06448"
+    },
+    {
+      "path": "ViewModels\\HistoricoConsultaViewModel.cs",
+      "export_path": "ViewModels\\HistoricoConsultaViewModel.cs",
+      "raw_sha256": "3729b382a94316b3c4f6d90ff3024cf16e5282b3ef7202e8cd5fbf968fd660cb"
+    },
+    {
+      "path": "ViewModels\\ImportacaoAbcFarmaAbaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoAbcFarmaAbaViewModel.cs",
+      "raw_sha256": "02488bb554ea7067da8ff77f96a64e848f727b3a45e2772665d1366e210a13e4"
+    },
+    {
+      "path": "ViewModels\\ImportacaoAbcFarmaFichaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoAbcFarmaFichaViewModel.cs",
+      "raw_sha256": "4d994e3ee2e859e2f8c5f8581fb172968cca77f48e0d037d7851fec6581c89cf"
+    },
+    {
+      "path": "ViewModels\\ImportacaoAbcFarmaFormulario.cs",
+      "export_path": "ViewModels\\ImportacaoAbcFarmaFormulario.cs",
+      "raw_sha256": "1761e297020ea59b81b432aee83a4676d865b77074eaa3ca738da064d59f5fea"
+    },
+    {
+      "path": "ViewModels\\ImportacaoAbcFarmaViewModel.cs",
+      "export_path": "ViewModels\\ImportacaoAbcFarmaViewModel.cs",
+      "raw_sha256": "a4696a64f22ab23071d3ef1fc31c4c327d374be2d75c84ca12cb849935b8cab1"
+    },
+    {
+      "path": "ViewModels\\ImportacoesAbcFarmaViewModel.cs",
+      "export_path": "ViewModels\\ImportacoesAbcFarmaViewModel.cs",
+      "raw_sha256": "34419a59905dfe509c38d515112f88eb36df9b97875bcfdff8f427539acbeb25"
+    },
+    {
+      "path": "Views\\ImportacaoAbcFarmaFichaView.cs",
+      "export_path": "Views\\ImportacaoAbcFarmaFichaView.cs",
+      "raw_sha256": "52858f777541a825141bdcec579418be4f43012ccb3ac57a1d65ff4d26d7c830"
+    },
+    {
+      "path": "Views\\ImportacoesAbcFarmaFichaViewDetalhes\\HistoricoConsultaView.cs",
+      "export_path": "Views\\ImportacoesAbcFarmaFichaViewDetalhes\\HistoricoConsultaView.cs",
+      "raw_sha256": "8d3b23354b031a3fa347b9d03341d6f99776ef71444c818468e3d2e706515004"
+    },
+    {
+      "path": "Views\\ImportacoesAbcFarmaFichaViewDetalhes\\ImportacaoAbcFarmaView.cs",
+      "export_path": "Views\\ImportacoesAbcFarmaFichaViewDetalhes\\ImportacaoAbcFarmaView.cs",
+      "raw_sha256": "61ba88a2609caeda8e01b500874dcd8e141ef8ae5f2c93d54295d5cab5d10352"
+    },
+    {
+      "path": "Views\\ImportacoesAbcFarmaView.cs",
+      "export_path": "Views\\ImportacoesAbcFarmaView.cs",
+      "raw_sha256": "23aae7a60af0168cf2cf6b39218b58b1e1f29c0a4bb550bf4cbf6937f0779ad7"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 6
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.ImportacoesAbcFarma.g.resources",
+      "file": "0000.bin",
+      "bytes": 13735,
+      "sha256": "3f4610d4dd9a2c1aedb48dcd69908979f7f7f08def01d8b8e9cbbd27a13d8db2"
+    },
+    {
+      "name": "Otus.Modulo.ImportacoesAbcFarma.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

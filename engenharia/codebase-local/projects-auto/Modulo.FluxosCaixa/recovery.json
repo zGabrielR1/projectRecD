@@ -1,0 +1,101 @@
+{
+  "name": "Modulo.FluxosCaixa",
+  "baseline": "baseline\\Modulo.FluxosCaixa.dll",
+  "baseline_sha256": "51d6849812ffa8696b88ec38b79d167a8f4e9f8c62a86673200b0630141d93f5",
+  "export_project": "recovered\\SuiteG6\\Modulo.FluxosCaixa\\Modulo.FluxosCaixa.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "0496a145ce9002c02d05b60b2c80b0d8b74798a6a9a9568f7c50f5859bc62058"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "51d6849812ffa8696b88ec38b79d167a8f4e9f8c62a86673200b0630141d93f5"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 16
+    },
+    {
+      "kind": "Resolve report alignment/disposal, consistent anonymous GroupBy lambda typing, or boxed enum ref-cast syntax"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.FluxosCaixa.g.resources",
+      "file": "0000.bin",
+      "bytes": 13367,
+      "sha256": "f3a427942ca9726d378761b1a4d4254eb73917c32cd7dcf349387ed35fe2b329"
+    },
+    {
+      "name": "Otus.Modulo.FluxosCaixa.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.FluxosCaixa.Reports.Relatorio.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.FluxosCaixa.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 282,
+      "sha256": "359aff654a7f8679d85ac8147871604d585145cd37169f90c392cd95329281d2"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "FluxoCaixaModulo.cs",
+      "export_path": "FluxoCaixaModulo.cs",
+      "raw_sha256": "8b87611eb9f5b6980a3ae429cb508a8228c88b46e28cb348cf8dd344bdc3eda6"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "e34dc1b0969d78ae96f66fdab380d1973d21fd0c64303f8c335c8e782242e9a6"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "2baa816b56bca256ac4572afbe130576e1e5fb51822d79e77e0273c7564864e2"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d1da2d37fa9a26702a0290f8d52e585e679ff591e561a6984e5198f31abea4b6"
+    },
+    {
+      "path": "Reports\\Relatorio.cs",
+      "export_path": "Reports\\Relatorio.cs",
+      "raw_sha256": "1940081edc157589f482cc0a5ab87ff02df45f72c352961a9fb9c5aa7793d90b"
+    },
+    {
+      "path": "ViewModels\\FluxoCaixaFichaViewModel.cs",
+      "export_path": "ViewModels\\FluxoCaixaFichaViewModel.cs",
+      "raw_sha256": "db56c85bd44a402a4c43e0dd751322b85019fa1961beb15f5185d4d6602fa221"
+    },
+    {
+      "path": "ViewModels\\FluxosCaixaViewModel.cs",
+      "export_path": "ViewModels\\FluxosCaixaViewModel.cs",
+      "raw_sha256": "2a33959781cbf4b0ef5974b43e20caf79ff42ea9037614ee1d53cde76425730f"
+    },
+    {
+      "path": "Views\\FluxoCaixaFichaView.cs",
+      "export_path": "Views\\FluxoCaixaFichaView.cs",
+      "raw_sha256": "02ed961d3af82effc9c8a8b6a4740fc7cae55a4c4926437cf17dee7030541e69"
+    },
+    {
+      "path": "Views\\FluxosCaixaView.cs",
+      "export_path": "Views\\FluxosCaixaView.cs",
+      "raw_sha256": "7040b95cbbeae23241cbf1aae23047997bf19dd6376476d035dc44b18dc8d732"
+    }
+  ]
+}

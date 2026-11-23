@@ -1,0 +1,193 @@
+{
+  "name": "Modulo.EntregasDelivery",
+  "baseline": "baseline\\Modulo.EntregasDelivery.dll",
+  "baseline_sha256": "3c6e16c26e09b75b966a402707b4ee5ff008f4912c57b62ab6f7bbfb66f21a9e",
+  "export_project": "recovered\\SuiteG6\\Modulo.EntregasDelivery\\Modulo.EntregasDelivery.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "6fc97559a20e7fa943c0e746011f5228714bb91c4846b72ad91b1ebc10fc6b9b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "3c6e16c26e09b75b966a402707b4ee5ff008f4912c57b62ab6f7bbfb66f21a9e"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 94
+    },
+    {
+      "kind": "Resolve report/UI aliases or express boxed ObjectId conversion without invalid ref syntax",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException",
+        "TextAlignment": "DevExpress.XtraPrinting.TextAlignment",
+        "Validation": "DigisatServer.Infrastructure.Crosscutting.Mvvm.Validation",
+        "Container": "System.ComponentModel.Container"
+      }
+    },
+    {
+      "kind": "Resolve remaining local model aliases, protected navigation, PointFloat operator syntax or exact original Prism/DevExpress command references",
+      "aliases": {
+        "Pessoa": "Otus.Infraestrutura.Models.Sessoes.Pessoa"
+      }
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.EntregasDelivery.g.resources",
+      "file": "0000.bin",
+      "bytes": 40871,
+      "sha256": "24c25d2b6e5fff1e1bf3e6764fda8e203013ed8149e69242bcf8084089a06632"
+    },
+    {
+      "name": "Otus.Modulo.EntregasDelivery.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.EntregasDelivery.Reports.ImpressoEndereco.resources",
+      "file": "0002.bin",
+      "bytes": 97469,
+      "sha256": "72b1ff75284449943c3f33c6486884f082d215344113e069db712274303a133b"
+    },
+    {
+      "name": "Modulo.EntregasDelivery.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 287,
+      "sha256": "1fd29603aa76ad290310364b3f96601b6e836579f7f4eb3fa036aca6756434bf"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "EntregaDeliveryModulo.cs",
+      "export_path": "EntregaDeliveryModulo.cs",
+      "raw_sha256": "f646a37a5d3c3db958e64a05a1c72e10d02d92803f34c2d4fd422389075ae635"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f3ba434c04780401b5e48a8cd23bd3d292f60eb9c3f3a9015c7248b5ea5d05aa"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "dbd48dc41d1b4bea2d8e3d58a0c62c2f7637a2bda59d8a3072abb6b6b2cf17ec"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d4bb27008213c4776a32aa6996e829c56460aba7be8117fadd47e4517caf23b1"
+    },
+    {
+      "path": "Reports\\ImpressoEndereco.cs",
+      "export_path": "Reports\\ImpressoEndereco.cs",
+      "raw_sha256": "20b97dfea934ba4871ac1a093e9ebe917e7568af703c93c8c6228ab684c92ac1"
+    },
+    {
+      "path": "ViewModels\\AlterarFocoEvent.cs",
+      "export_path": "ViewModels\\AlterarFocoEvent.cs",
+      "raw_sha256": "c11648f19f8caad5953f8d957315a470328bed95e72914325ce3ab5ae7fe3abe"
+    },
+    {
+      "path": "ViewModels\\CadastroRotaViewModel.cs",
+      "export_path": "ViewModels\\CadastroRotaViewModel.cs",
+      "raw_sha256": "190159113eb50b5bc9b17c032f17604cb93390e6863adef9961b05155f5da70c"
+    },
+    {
+      "path": "ViewModels\\Cartao.cs",
+      "export_path": "ViewModels\\Cartao.cs",
+      "raw_sha256": "6cffd0b4a322eed463e7d86a0d57260bc0e262d28150303cc9d1ed125ef86027"
+    },
+    {
+      "path": "ViewModels\\ControleDeEntregaFormulario.cs",
+      "export_path": "ViewModels\\ControleDeEntregaFormulario.cs",
+      "raw_sha256": "f39138837902aae862a2b06b0a354167f249d96fa2e18507323d790326577dad"
+    },
+    {
+      "path": "ViewModels\\DadosEnderecoViewModel.cs",
+      "export_path": "ViewModels\\DadosEnderecoViewModel.cs",
+      "raw_sha256": "a1180296442e170e373e5977c76f7567bc103a310bd064b1e212453c08b5581f"
+    },
+    {
+      "path": "ViewModels\\Dinheiro.cs",
+      "export_path": "ViewModels\\Dinheiro.cs",
+      "raw_sha256": "cc415e6a22d76bb9566ce3417ae466d2fbeccba4e1f740077a4e76910962b41f"
+    },
+    {
+      "path": "ViewModels\\EntregasAbaViewModel.cs",
+      "export_path": "ViewModels\\EntregasAbaViewModel.cs",
+      "raw_sha256": "35be2de54ae914532a96b8216136833a0c67967548d8dbffc1183c6305de892e"
+    },
+    {
+      "path": "ViewModels\\EntregasDeliveryFichaPrincipalViewModel.cs",
+      "export_path": "ViewModels\\EntregasDeliveryFichaPrincipalViewModel.cs",
+      "raw_sha256": "2351c5ddf8fe09ba2a16f5aee32ce2956f5fc730ed066df2c8f8ffe1078788a8"
+    },
+    {
+      "path": "ViewModels\\EntregasDeliveryViewModel.cs",
+      "export_path": "ViewModels\\EntregasDeliveryViewModel.cs",
+      "raw_sha256": "42ffced95539c7507d1a205dea3bea5505933dfc27b71d116b124da3d107134b"
+    },
+    {
+      "path": "ViewModels\\EntregasViewModel.cs",
+      "export_path": "ViewModels\\EntregasViewModel.cs",
+      "raw_sha256": "5b7c308dd1de2c87d687a8f7c37f43d4410a5ba59c4ee0061e5b2d8f65ff735b"
+    },
+    {
+      "path": "ViewModels\\EntregaViewModel.cs",
+      "export_path": "ViewModels\\EntregaViewModel.cs",
+      "raw_sha256": "0b9a3c98c9544f5b46983a310ee7dfda96464429eda402d0e466c43e7234a996"
+    },
+    {
+      "path": "ViewModels\\IBasePagamento.cs",
+      "export_path": "ViewModels\\IBasePagamento.cs",
+      "raw_sha256": "05d1e93f2070ac2ec34adaf0a77d23acc4de30b779ae96457935224cabb442a9"
+    },
+    {
+      "path": "ViewModels\\MapasAbaViewModel.cs",
+      "export_path": "ViewModels\\MapasAbaViewModel.cs",
+      "raw_sha256": "183701fa2c1a7a340c383b5bd3fe49f0e8ab595ddf7becf6a3e69715d91bdfbf"
+    },
+    {
+      "path": "ViewModels\\MapasViewModel.cs",
+      "export_path": "ViewModels\\MapasViewModel.cs",
+      "raw_sha256": "41f5eb975d945139e01a17ab6d89d1af4de5b0174bb866a8841acb1203df8b3b"
+    },
+    {
+      "path": "ViewModels\\Outros.cs",
+      "export_path": "ViewModels\\Outros.cs",
+      "raw_sha256": "f36e13e067b0aa598c28f86b1b7d28f917c82f4f57171d80dcef7970a3674d34"
+    },
+    {
+      "path": "ViewModels\\Pix.cs",
+      "export_path": "ViewModels\\Pix.cs",
+      "raw_sha256": "5326d2a3c0bd6f6b0da834b7339fefdac4d9b9f7b41f8b92926f2b0ff5bf28ca"
+    },
+    {
+      "path": "Views\\EntregasDeliveryFichaPrincipalView.cs",
+      "export_path": "Views\\EntregasDeliveryFichaPrincipalView.cs",
+      "raw_sha256": "5786e37fc4b98bddd4912cffede12f864d3756ce26c562167ea0e461bec9377c"
+    },
+    {
+      "path": "Views\\EntregasDeliveryView.cs",
+      "export_path": "Views\\EntregasDeliveryView.cs",
+      "raw_sha256": "d1e84e5a0292cd7a7a39f60a6a5a4cd3e65dec261edadcdf8d663640437b652f"
+    },
+    {
+      "path": "Views\\EntregasView.cs",
+      "export_path": "Views\\EntregasView.cs",
+      "raw_sha256": "c487d6f3be1d9190248558dba4197019db89d63032dd54f87a0a466f7ceff269"
+    },
+    {
+      "path": "Views\\MapasView.cs",
+      "export_path": "Views\\MapasView.cs",
+      "raw_sha256": "7beeef6b8fda93b6b2f04ebe3e4e2f47518482a2553c81ba234e820057958eac"
+    }
+  ]
+}

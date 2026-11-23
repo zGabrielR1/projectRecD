@@ -1,0 +1,3037 @@
+{
+  "name": "Modulo.PontoDeVendas",
+  "baseline": "baseline\\Modulo.PontoDeVendas.dll",
+  "baseline_sha256": "3eb00e176ba3e6e78481ba9ded8934c7acbb6695dad520e7cb331bce79be3f7c",
+  "export_project": "recovered\\SuiteG6\\Modulo.PontoDeVendas\\Modulo.PontoDeVendas.csproj",
+  "sources": [
+    {
+      "path": "Actors\\CfeClientActor.cs",
+      "export_path": "Actors\\CfeClientActor.cs",
+      "raw_sha256": "35905dac067f14b60b66bd5343e30877d6789c69fa6c719ffca1c931992427ca"
+    },
+    {
+      "path": "Actors\\ConexaoClientActor.cs",
+      "export_path": "Actors\\ConexaoClientActor.cs",
+      "raw_sha256": "71741d7139b52058bb0d1cca2c14edd3f8a471bdea8025f20f3237f382089680"
+    },
+    {
+      "path": "Actors\\MfeClientActor.cs",
+      "export_path": "Actors\\MfeClientActor.cs",
+      "raw_sha256": "f4774b2cf44de5236935ac52a00c129d1fa3e2107dfc7fb6dedd940240a27e51"
+    },
+    {
+      "path": "Actors\\PontoDeVendaClientActorSystem.cs",
+      "export_path": "Actors\\PontoDeVendaClientActorSystem.cs",
+      "raw_sha256": "362e19f6844d369fa2559d3258b16d33f2ca3cbe32b82bcb7d5f4680ef9d4301"
+    },
+    {
+      "path": "Actors\\PostoClientActor.cs",
+      "export_path": "Actors\\PostoClientActor.cs",
+      "raw_sha256": "b5ba15d14047abf79cc8671921975c9b76746f0fe4a9376fd316812c1f1cd162"
+    },
+    {
+      "path": "Actors\\SatClientActor.cs",
+      "export_path": "Actors\\SatClientActor.cs",
+      "raw_sha256": "270eaca47d17d5b6db6e89632ee85168e07c59a7b372be4e202cd2e965d48ce4"
+    },
+    {
+      "path": "Aggregates\\AdministradoraCartaoLocal.cs",
+      "export_path": "Aggregates\\AdministradoraCartaoLocal.cs",
+      "raw_sha256": "866f116f070836f6813c431097b9a26f48ad913598144eb8f876f3131548a3cc"
+    },
+    {
+      "path": "Aggregates\\CarteiraDigitalLocal.cs",
+      "export_path": "Aggregates\\CarteiraDigitalLocal.cs",
+      "raw_sha256": "d935c08c8aa6cd4a6bfbbaf6c3db920408fb0894d38d499d1b9e22be5783596b"
+    },
+    {
+      "path": "Aggregates\\CarteiraDigitalShipayLocal.cs",
+      "export_path": "Aggregates\\CarteiraDigitalShipayLocal.cs",
+      "raw_sha256": "9a883643b17dba7fce392cfa6ced1cf3a3f81f96d6ef9242b54ad53d544da36f"
+    },
+    {
+      "path": "Aggregates\\ConsumidorLocal.cs",
+      "export_path": "Aggregates\\ConsumidorLocal.cs",
+      "raw_sha256": "c4662091b0ec1976c416e2fc7d3598b53b83d93fa80d4b29fb8fba49f36e86b4"
+    },
+    {
+      "path": "Aggregates\\ConvenioLocal.cs",
+      "export_path": "Aggregates\\ConvenioLocal.cs",
+      "raw_sha256": "d5970d91b596b9f7211c2c9c84f64e914f77f351fc0417b940f09b9d5d020a3a"
+    },
+    {
+      "path": "Aggregates\\ConvenioLocalPadrao.cs",
+      "export_path": "Aggregates\\ConvenioLocalPadrao.cs",
+      "raw_sha256": "be59b8a35d7a747bb07f6cb582a99408cad1ea950c0cda68b18d5e0d5670fac6"
+    },
+    {
+      "path": "Aggregates\\DocumentoFiscalLocal.cs",
+      "export_path": "Aggregates\\DocumentoFiscalLocal.cs",
+      "raw_sha256": "068680024cd8fbc5d03820962cfc6bef2585efb46ae51fa461e976c75a430192"
+    },
+    {
+      "path": "Aggregates\\GrupoLocal.cs",
+      "export_path": "Aggregates\\GrupoLocal.cs",
+      "raw_sha256": "d0d0b54b4a3c43864f5ba81ab2d25403b764191b5e112d6ac6ed81e59b9d25f5"
+    },
+    {
+      "path": "Aggregates\\ItemDocumentoFiscalLocal.cs",
+      "export_path": "Aggregates\\ItemDocumentoFiscalLocal.cs",
+      "raw_sha256": "deb7f3825f40db36e2f98e669c40298a10805a460e827e969cc100f1308047db"
+    },
+    {
+      "path": "Aggregates\\ItemMovimentacaoFactory.cs",
+      "export_path": "Aggregates\\ItemMovimentacaoFactory.cs",
+      "raw_sha256": "02edd96a6047c15c0caaefd0a294b50fa649270a5ce3d278eeed98e922346c3d"
+    },
+    {
+      "path": "Aggregates\\ItemPagamentoFactory.cs",
+      "export_path": "Aggregates\\ItemPagamentoFactory.cs",
+      "raw_sha256": "03b6694b1c554ab6bd9b838f17b9c198858f7ccc4db2615c2229db0777dfd24c"
+    },
+    {
+      "path": "Aggregates\\ItemPromocaoScanntech.cs",
+      "export_path": "Aggregates\\ItemPromocaoScanntech.cs",
+      "raw_sha256": "65a15928c20336ebacc99c967045db054444643dfe95b30173e8435724a4b689"
+    },
+    {
+      "path": "Aggregates\\ItemTicket.cs",
+      "export_path": "Aggregates\\ItemTicket.cs",
+      "raw_sha256": "4e1f7d2088428387d980a734b8adba595ca72bfd5975b286553d28d8aeab6319"
+    },
+    {
+      "path": "Aggregates\\MapaResumoAliquotaLocal.cs",
+      "export_path": "Aggregates\\MapaResumoAliquotaLocal.cs",
+      "raw_sha256": "e0e2819947b8765acd89c4795462fd33d1d383356bc79d65d329520b31ce8937"
+    },
+    {
+      "path": "Aggregates\\MapaResumoLocal.cs",
+      "export_path": "Aggregates\\MapaResumoLocal.cs",
+      "raw_sha256": "6b393e7664f5bb1ad1ede7ff07a3bceae4b2f8569256db7b17c96a420d517c45"
+    },
+    {
+      "path": "Aggregates\\MapaResumoLocalSpecifications.cs",
+      "export_path": "Aggregates\\MapaResumoLocalSpecifications.cs",
+      "raw_sha256": "3fc562fbce4f4748841f79eaea5acb57122f8938e8e5f06caa8023df3c3a621f"
+    },
+    {
+      "path": "Aggregates\\MedicamentoFarmaciaPopularLocal.cs",
+      "export_path": "Aggregates\\MedicamentoFarmaciaPopularLocal.cs",
+      "raw_sha256": "cf367b8c2b57986e3d408a421b96d88fd55a9efb69c3f6a1d7b95ea04586905c"
+    },
+    {
+      "path": "Aggregates\\MedicamentoLocal.cs",
+      "export_path": "Aggregates\\MedicamentoLocal.cs",
+      "raw_sha256": "9a80611ea4c0e405b76ca31138f308bf8fdd22540d21f4d5c80e4e3ec9d3e924"
+    },
+    {
+      "path": "Aggregates\\MedicamentoPbmLocal.cs",
+      "export_path": "Aggregates\\MedicamentoPbmLocal.cs",
+      "raw_sha256": "a5b51991e4d6beedf4cfbdb610a12f15cd8c0b7d0da2b85b64ab29c25cae00b7"
+    },
+    {
+      "path": "Aggregates\\MeioPagamentoTerminalPosLocal.cs",
+      "export_path": "Aggregates\\MeioPagamentoTerminalPosLocal.cs",
+      "raw_sha256": "16278656682554038ba41168514e4f982b3477bbdd65acdd3249c73d897bca0e"
+    },
+    {
+      "path": "Aggregates\\Moeda.cs",
+      "export_path": "Aggregates\\Moeda.cs",
+      "raw_sha256": "e5a76a96f2cbdb99fd99a1768ca104cca5061724b78c7f22807794f158467c12"
+    },
+    {
+      "path": "Aggregates\\NcmNbsLocal.cs",
+      "export_path": "Aggregates\\NcmNbsLocal.cs",
+      "raw_sha256": "000c5364caa74e107ef5977dc6f2c6b5a0bd10ced94db859b2c993c44c30210d"
+    },
+    {
+      "path": "Aggregates\\OperacaoRedePos.cs",
+      "export_path": "Aggregates\\OperacaoRedePos.cs",
+      "raw_sha256": "32268cd5d6a34b7b0e0a89872feeb0cdaf61652972e68338509ad46a491daf79"
+    },
+    {
+      "path": "Aggregates\\PerdaComunicacaoTotal.cs",
+      "export_path": "Aggregates\\PerdaComunicacaoTotal.cs",
+      "raw_sha256": "92eafd8f560cef5ccaa8311ad1697e77c73db952fd6fc317542183822aae71ad"
+    },
+    {
+      "path": "Aggregates\\PreDocumentoFiscal.cs",
+      "export_path": "Aggregates\\PreDocumentoFiscal.cs",
+      "raw_sha256": "e29bc8004753d51a80ba965ee55869c1bce2c4ba02d0d957dff53c8617924e79"
+    },
+    {
+      "path": "Aggregates\\PreDocumentoFiscalNotaManualPosto.cs",
+      "export_path": "Aggregates\\PreDocumentoFiscalNotaManualPosto.cs",
+      "raw_sha256": "0b6b776d5ef1c42943792088c02c09ede3537589031a8203ca7bcaccb1bc2e6e"
+    },
+    {
+      "path": "Aggregates\\PreDocumentoFiscalPausado.cs",
+      "export_path": "Aggregates\\PreDocumentoFiscalPausado.cs",
+      "raw_sha256": "dc6f9b105ed6747c82ebe5c0ed9463d7fd79d1533425695575a9f2c54377aad9"
+    },
+    {
+      "path": "Aggregates\\PreDocumentoFiscalPausadoLocal.cs",
+      "export_path": "Aggregates\\PreDocumentoFiscalPausadoLocal.cs",
+      "raw_sha256": "2fb6f5343cc68c06d39b833bf6ec86fe21a08f7f1c625827fe09cbc7d097d3ba"
+    },
+    {
+      "path": "Aggregates\\ProdutoCatalogoLocal.cs",
+      "export_path": "Aggregates\\ProdutoCatalogoLocal.cs",
+      "raw_sha256": "b805da4e39790ea4bf4b043d449d97bbe88ac9b6934a16419a52aab7e23579bb"
+    },
+    {
+      "path": "Aggregates\\ProdutoLocal.cs",
+      "export_path": "Aggregates\\ProdutoLocal.cs",
+      "raw_sha256": "c904bada71f620e9c79f0090e8b67e8fb67abd53b4ddf52e9dd3eb961a87e455"
+    },
+    {
+      "path": "Aggregates\\ProdutoServicoCatalogoLocal.cs",
+      "export_path": "Aggregates\\ProdutoServicoCatalogoLocal.cs",
+      "raw_sha256": "18d5dc34cb74ff1b543057faf9cc98cf7466f8dc76fd3ea1a63272a84e63abe0"
+    },
+    {
+      "path": "Aggregates\\ProdutoServicoLocal.cs",
+      "export_path": "Aggregates\\ProdutoServicoLocal.cs",
+      "raw_sha256": "74ab8582e913a26c065f21df329852f88a2f8489c7980b87b042c2f003f69e81"
+    },
+    {
+      "path": "Aggregates\\ProdutoServicoLocalFactory.cs",
+      "export_path": "Aggregates\\ProdutoServicoLocalFactory.cs",
+      "raw_sha256": "c5120e1ab6fb47a7b42b07b61c5ee09961a0dcbd39559de6764aaeee64a8bc57"
+    },
+    {
+      "path": "Aggregates\\RedePosLocal.cs",
+      "export_path": "Aggregates\\RedePosLocal.cs",
+      "raw_sha256": "ae21b46afcdd7d927e7988fbf1b018cf44f46fd5f46762d7713085536169928a"
+    },
+    {
+      "path": "Aggregates\\Scanntech\\Autor.cs",
+      "export_path": "Aggregates\\Scanntech\\Autor.cs",
+      "raw_sha256": "4ca102e7088b7ec4cd7de9435d9835a1725334acc4683ffc59aa5fc39a6f5fcb"
+    },
+    {
+      "path": "Aggregates\\Scanntech\\Beneficio.cs",
+      "export_path": "Aggregates\\Scanntech\\Beneficio.cs",
+      "raw_sha256": "25ef49a06205b83f3fbdec9587cf2a4348bb016bff1dcde2cbd25a1641051ed1"
+    },
+    {
+      "path": "Aggregates\\Scanntech\\Condicao.cs",
+      "export_path": "Aggregates\\Scanntech\\Condicao.cs",
+      "raw_sha256": "f213607acdfa2444914e6ebc5c3e6d75d0cf2a72ea139a24635b595a0b593bee"
+    },
+    {
+      "path": "Aggregates\\Scanntech\\Detalhe.cs",
+      "export_path": "Aggregates\\Scanntech\\Detalhe.cs",
+      "raw_sha256": "6cf6e076ccfc58d20d5a09e3d2bd2fe1654efada3a645289d93b7749506cdde8"
+    },
+    {
+      "path": "Aggregates\\Scanntech\\FormaPagamento.cs",
+      "export_path": "Aggregates\\Scanntech\\FormaPagamento.cs",
+      "raw_sha256": "9940e1fc960516a3b23c5f56d55a8793203fd799e4a0c41fa2dba38822c09c16"
+    },
+    {
+      "path": "Aggregates\\Scanntech\\Item.cs",
+      "export_path": "Aggregates\\Scanntech\\Item.cs",
+      "raw_sha256": "0fc001c08ce742166586face9de337772dfc2666a02b9fe6ea6f9d406ba01c04"
+    },
+    {
+      "path": "Aggregates\\Scanntech\\Produto.cs",
+      "export_path": "Aggregates\\Scanntech\\Produto.cs",
+      "raw_sha256": "ae3e27e902eca8c60ad75838d56a1a483ad823973866809e0c19fa976d78ed4d"
+    },
+    {
+      "path": "Aggregates\\Scanntech\\PromocaoScanntech.cs",
+      "export_path": "Aggregates\\Scanntech\\PromocaoScanntech.cs",
+      "raw_sha256": "28e3d0f9de50714d3996cd2bd78f48068b4d96f201699169091ac51a67a146dc"
+    },
+    {
+      "path": "Aggregates\\Scanntech\\PromocaoScanntechSpecifications.cs",
+      "export_path": "Aggregates\\Scanntech\\PromocaoScanntechSpecifications.cs",
+      "raw_sha256": "d7645d2fe97879711c523a8cf1b96e9853270ae5892bf71ad23ebd5844e5d9fb"
+    },
+    {
+      "path": "Aggregates\\ServicoCatalogoLocal.cs",
+      "export_path": "Aggregates\\ServicoCatalogoLocal.cs",
+      "raw_sha256": "77b708d30fe56a28418f2dd676307f1a5cf1f1500e057cfcabc794e4a7a3b746"
+    },
+    {
+      "path": "Aggregates\\ServicoLocal.cs",
+      "export_path": "Aggregates\\ServicoLocal.cs",
+      "raw_sha256": "a95cb801cd2581fffb61f9d523bb51df049b5e6e97f74fab80e9fd1db7265687"
+    },
+    {
+      "path": "Aggregates\\TabelaPrecoLocal.cs",
+      "export_path": "Aggregates\\TabelaPrecoLocal.cs",
+      "raw_sha256": "13cfd575fd2e430442307026424717630b6c31306b158c65d9b475d360adde34"
+    },
+    {
+      "path": "Aggregates\\TipoDeVale.cs",
+      "export_path": "Aggregates\\TipoDeVale.cs",
+      "raw_sha256": "e296825b79fea620cb9fec326583a86c9b80321f3ec3e79414e76959eefde7fe"
+    },
+    {
+      "path": "Aggregates\\TipoVale.cs",
+      "export_path": "Aggregates\\TipoVale.cs",
+      "raw_sha256": "ce1f86867541284b345e6c548d0fcce226767d06bd0f525a8e01d4956e22e190"
+    },
+    {
+      "path": "Aggregates\\ValorSangriaLocal.cs",
+      "export_path": "Aggregates\\ValorSangriaLocal.cs",
+      "raw_sha256": "84193b68ca3c6a594f56ac42fff9b2f447c7c21fc07e8c5e33b3fdf47f18e370"
+    },
+    {
+      "path": "Aggregates\\ValorSangriaLocalSpecifications.cs",
+      "export_path": "Aggregates\\ValorSangriaLocalSpecifications.cs",
+      "raw_sha256": "5d4e6d159cb5d8233ebc2d91f48a46c3a6ed85f6444e836a677e6de3660d420b"
+    },
+    {
+      "path": "Aggregates\\VendedorLocal.cs",
+      "export_path": "Aggregates\\VendedorLocal.cs",
+      "raw_sha256": "c55f7a2d41241d1c97aa8afa3aba20432f80f7dc5d9aa92fe4a0d69900145a23"
+    },
+    {
+      "path": "Controls\\DateEditExt.cs",
+      "export_path": "Controls\\DateEditExt.cs",
+      "raw_sha256": "3de9c91e3cff4cd12e14ab2871168601890feec239177bbb8367335784ac54db"
+    },
+    {
+      "path": "Enums\\RelatoriosGerenciais.cs",
+      "export_path": "Enums\\RelatoriosGerenciais.cs",
+      "raw_sha256": "a6cd557086c7a8ae32d7343b285d1de4f03d8ff524bb3ddfd7ea060dfcddcb16"
+    },
+    {
+      "path": "Events\\CancelouItemEvent.cs",
+      "export_path": "Events\\CancelouItemEvent.cs",
+      "raw_sha256": "2fad3105e831cfbddc2720c62db565756bed876c1c5e10af68b7b9cfb40147bb"
+    },
+    {
+      "path": "Events\\CancelouPreDocumentoFiscalEvent.cs",
+      "export_path": "Events\\CancelouPreDocumentoFiscalEvent.cs",
+      "raw_sha256": "4250ec502fac2796102556b8c3651938597c19edd65b0c28d8331977c9edddf6"
+    },
+    {
+      "path": "Events\\ComunicandoServidorEvent.cs",
+      "export_path": "Events\\ComunicandoServidorEvent.cs",
+      "raw_sha256": "5eeda1602bfff5256bc0903456d8b1f5a65c26bb3acac1cf8c6f13e28021ce1f"
+    },
+    {
+      "path": "Events\\FalhaAoTransmitirDocumentoFiscalEventArgs.cs",
+      "export_path": "Events\\FalhaAoTransmitirDocumentoFiscalEventArgs.cs",
+      "raw_sha256": "e980e1830c1053543a505523ed6888868c9babc5c717b9b995cd9f4fc8b76369"
+    },
+    {
+      "path": "Events\\FiltrandoAbastecimentosEvent.cs",
+      "export_path": "Events\\FiltrandoAbastecimentosEvent.cs",
+      "raw_sha256": "e689fbfa48af5e8c04f52c7b46b63c12208f7937db1685a2a7939cc800b18785"
+    },
+    {
+      "path": "Events\\LimparImagemEvent.cs",
+      "export_path": "Events\\LimparImagemEvent.cs",
+      "raw_sha256": "b362b0c0f622f746fba658b9a6dff1d7185b152ac562cea7254e34f739a6727a"
+    },
+    {
+      "path": "Events\\ParouFiltroAbastecimentosEvent.cs",
+      "export_path": "Events\\ParouFiltroAbastecimentosEvent.cs",
+      "raw_sha256": "4ef34eacbfd6dd8d5e09d6cdc5020398723c90d811087c5f49dee0d83bf4ee93"
+    },
+    {
+      "path": "Events\\SelecionouItemDocumentoFiscalProdutoEvent.cs",
+      "export_path": "Events\\SelecionouItemDocumentoFiscalProdutoEvent.cs",
+      "raw_sha256": "7214f7e0520d50708d65191b0eea16c9f2c17eaa3a88b6a634e10295e761d0f0"
+    },
+    {
+      "path": "Events\\SemComunicacaoPostoServiceEvent.cs",
+      "export_path": "Events\\SemComunicacaoPostoServiceEvent.cs",
+      "raw_sha256": "82ac30a046fac116cd86d1a8149d6bf15e9fd9cedbd11f4c46246e6331243b07"
+    },
+    {
+      "path": "Events\\SemComunicacaoServidorEvent.cs",
+      "export_path": "Events\\SemComunicacaoServidorEvent.cs",
+      "raw_sha256": "2ce18dfd7c8d49e886e949515f5bf91e3a956ee0ff25c975aafb2d4bdd675e8c"
+    },
+    {
+      "path": "Events\\SemConfiguracaoPostoServiceEvent.cs",
+      "export_path": "Events\\SemConfiguracaoPostoServiceEvent.cs",
+      "raw_sha256": "2d74bc8af5cf059dd0523e3de5104dc66b5519b5f8e050ed8151d492a75b72aa"
+    },
+    {
+      "path": "Events\\TerminouNotaFiscalManualPostoEvent.cs",
+      "export_path": "Events\\TerminouNotaFiscalManualPostoEvent.cs",
+      "raw_sha256": "894ff25eafa95c5b93000adc95a82de586cd12b9b73f8b998a68ff72ea101f15"
+    },
+    {
+      "path": "Exceptions\\DocumentoFiscalAbertoException.cs",
+      "export_path": "Exceptions\\DocumentoFiscalAbertoException.cs",
+      "raw_sha256": "039cf263f71e1832cf575202da346574ccd3998b831912b252410dc52d92a653"
+    },
+    {
+      "path": "Helper\\PopupHelper.cs",
+      "export_path": "Helper\\PopupHelper.cs",
+      "raw_sha256": "13dcf51124749f729e4d58e8fb7faa100b727d9944ea662d782231415cbcee4c"
+    },
+    {
+      "path": "Interfaces\\BarrasEmissor.cs",
+      "export_path": "Interfaces\\BarrasEmissor.cs",
+      "raw_sha256": "634542023926162b159e43c53ca0d9553ebe41b2a6ba1ad1499ca83b9cde5193"
+    },
+    {
+      "path": "Interfaces\\IAtalhos.cs",
+      "export_path": "Interfaces\\IAtalhos.cs",
+      "raw_sha256": "0caa8e141c03ba775493dc47018bda8b5cb66bc54e80a5ebbde6d7cbe53ff32d"
+    },
+    {
+      "path": "Interfaces\\IBackupPontoDeVendaService.cs",
+      "export_path": "Interfaces\\IBackupPontoDeVendaService.cs",
+      "raw_sha256": "8240a28363fffc897cb1217c9524e0bc522b8c6a7835b2020bac0c31ab74af0e"
+    },
+    {
+      "path": "Interfaces\\IBarrasEmissor.cs",
+      "export_path": "Interfaces\\IBarrasEmissor.cs",
+      "raw_sha256": "b71f554ed83a1518b5671058e60569d107b6ee1ccaa2bb56f9e97185c7d55239"
+    },
+    {
+      "path": "Interfaces\\ICFeService.cs",
+      "export_path": "Interfaces\\ICFeService.cs",
+      "raw_sha256": "ddc052f86d78fd49a5485d06383b6353f761499090a30d91a36b43cbcc9c137f"
+    },
+    {
+      "path": "Interfaces\\IDadoEmissor.cs",
+      "export_path": "Interfaces\\IDadoEmissor.cs",
+      "raw_sha256": "0a811f3d60df240bdaedb71204a9c5e85d9df5f3a3a2c1bf033e419cb9fa3794"
+    },
+    {
+      "path": "Interfaces\\IDisplayService.cs",
+      "export_path": "Interfaces\\IDisplayService.cs",
+      "raw_sha256": "ee4c6edde83e4888f33e25b7df433eb3e778d1b8f067d87fb1a09e24af1be47d"
+    },
+    {
+      "path": "Interfaces\\IEcfService.cs",
+      "export_path": "Interfaces\\IEcfService.cs",
+      "raw_sha256": "7ae5d7081b55770bef8b8b481dba9743def1a044faff28c58e114e4eb958c72f"
+    },
+    {
+      "path": "Interfaces\\IEmissorService.cs",
+      "export_path": "Interfaces\\IEmissorService.cs",
+      "raw_sha256": "920f363cd5ae65cadf16f11e7e470210a19c1b2914768c0b832e827c1350a644"
+    },
+    {
+      "path": "Interfaces\\IFarmaciaService.cs",
+      "export_path": "Interfaces\\IFarmaciaService.cs",
+      "raw_sha256": "f70d287b217b3638fdbf7fc3ea5f64cbe4108bbf99a557982b61ddf9f8c86109"
+    },
+    {
+      "path": "Interfaces\\IInformacao.cs",
+      "export_path": "Interfaces\\IInformacao.cs",
+      "raw_sha256": "fb4a9091a662483a36b1e6889b6f745668e5975f3389dda96d28c8a613d88652"
+    },
+    {
+      "path": "Interfaces\\IItem.cs",
+      "export_path": "Interfaces\\IItem.cs",
+      "raw_sha256": "42520515d821bae64f000bbe5fac344aeb85faaa8a3d7da538cb80b0880af54a"
+    },
+    {
+      "path": "Interfaces\\IItemDocumentoFiscal.cs",
+      "export_path": "Interfaces\\IItemDocumentoFiscal.cs",
+      "raw_sha256": "7c0cbb37a93c2a07e5d17f65d35208ecc7f021426ae4ed6d33bbe80f8c65f1f3"
+    },
+    {
+      "path": "Interfaces\\IItemInteracao.cs",
+      "export_path": "Interfaces\\IItemInteracao.cs",
+      "raw_sha256": "a8f09857deaa04391b40c77b72d6c24708fd3629ec2569e299ca3c39e10b1ebd"
+    },
+    {
+      "path": "Interfaces\\IItemMenuRibbon.cs",
+      "export_path": "Interfaces\\IItemMenuRibbon.cs",
+      "raw_sha256": "00b6c106896f650efec53f999f04f46939c696b0693c52566c5993c9f772c2f3"
+    },
+    {
+      "path": "Interfaces\\IMensagemPromocional.cs",
+      "export_path": "Interfaces\\IMensagemPromocional.cs",
+      "raw_sha256": "4664f73e558a2fff617a653641ee2a38cad747d9a1328d5c71bee96f76157046"
+    },
+    {
+      "path": "Interfaces\\IMensagemPromocionalNegrito.cs",
+      "export_path": "Interfaces\\IMensagemPromocionalNegrito.cs",
+      "raw_sha256": "86fcbff0b8a2cdd7d024c80af1ee22738e81067e1d9789d0c15a64f6561092de"
+    },
+    {
+      "path": "Interfaces\\IMenuRibbon.cs",
+      "export_path": "Interfaces\\IMenuRibbon.cs",
+      "raw_sha256": "aa6df33b13257091f16dedc752c05e3b3741e059a4ba02dea296835215821c4f"
+    },
+    {
+      "path": "Interfaces\\IMFePontoVendaService.cs",
+      "export_path": "Interfaces\\IMFePontoVendaService.cs",
+      "raw_sha256": "12252ef128bbdad78022033abe2c46c026f8f758e64ccb41cd43180e7fc78c1f"
+    },
+    {
+      "path": "Interfaces\\IModoFuncionamento.cs",
+      "export_path": "Interfaces\\IModoFuncionamento.cs",
+      "raw_sha256": "ea9a01372793c956d1e04a12ea34eb8edaa3d489092455808bbcab1e42702ebc"
+    },
+    {
+      "path": "Interfaces\\IModoFuncionamentoService.cs",
+      "export_path": "Interfaces\\IModoFuncionamentoService.cs",
+      "raw_sha256": "a7b36590e108dbc7c96c0239e28ca6dbae8da529273565b3193a7684da0da25e"
+    },
+    {
+      "path": "Interfaces\\IMoeda.cs",
+      "export_path": "Interfaces\\IMoeda.cs",
+      "raw_sha256": "769e06d075b698a816bf194cb2ae6d8cb6432ed47ffc084a0acd49c14b390304"
+    },
+    {
+      "path": "Interfaces\\INfceService.cs",
+      "export_path": "Interfaces\\INfceService.cs",
+      "raw_sha256": "24b2c7a0b2c7e760b48370a896145c6b3c7f625e267ea77ce648e951f075486b"
+    },
+    {
+      "path": "Interfaces\\INotaManualService.cs",
+      "export_path": "Interfaces\\INotaManualService.cs",
+      "raw_sha256": "4e5ec3c9136703e5f6ea25a8ba5236c5cf4fa825a46c952c446d5754674c78dc"
+    },
+    {
+      "path": "Interfaces\\IPafEcfService.cs",
+      "export_path": "Interfaces\\IPafEcfService.cs",
+      "raw_sha256": "883926cc75a88343439826468447dcf2efb3d722c7b929faa82c90f33e1e6dfa"
+    },
+    {
+      "path": "Interfaces\\IPainelBusca.cs",
+      "export_path": "Interfaces\\IPainelBusca.cs",
+      "raw_sha256": "9b8f8625116167f350745863762044ab73620fb07e21649aa107fbf38406f87f"
+    },
+    {
+      "path": "Interfaces\\IPainelBuscaConsumidorService.cs",
+      "export_path": "Interfaces\\IPainelBuscaConsumidorService.cs",
+      "raw_sha256": "d2b89e952b5e12916d42843531245136a30da73cf50c52b83acb6b43e3bd49b5"
+    },
+    {
+      "path": "Interfaces\\IPainelBuscaService.cs",
+      "export_path": "Interfaces\\IPainelBuscaService.cs",
+      "raw_sha256": "d4a55a7a4d3ec968aebe5960ff17de030b4ce726bf048a497b0865bdfe3ab16e"
+    },
+    {
+      "path": "Interfaces\\IPainelDireito.cs",
+      "export_path": "Interfaces\\IPainelDireito.cs",
+      "raw_sha256": "d4c3ddd7e628b852426b0bc624ead0080bc4e339bc7537b9afcdfded755c80f0"
+    },
+    {
+      "path": "Interfaces\\IPainelDocumentoFiscal.cs",
+      "export_path": "Interfaces\\IPainelDocumentoFiscal.cs",
+      "raw_sha256": "605686f86a9706c2c29b9ef657428e38c2a1a0e71797708dcbaf69bd0af1a1e1"
+    },
+    {
+      "path": "Interfaces\\IPainelEsquerdo.cs",
+      "export_path": "Interfaces\\IPainelEsquerdo.cs",
+      "raw_sha256": "0f4b94efe2eb0dab35f02513fddd263f020bc19147f5336bf00102c7093ce359"
+    },
+    {
+      "path": "Interfaces\\IPainelIndicaConsumidor.cs",
+      "export_path": "Interfaces\\IPainelIndicaConsumidor.cs",
+      "raw_sha256": "1aafe704e21492ef991743699f0091075b23742491a8c2620c57a0a60a0686b5"
+    },
+    {
+      "path": "Interfaces\\IPainelLista.cs",
+      "export_path": "Interfaces\\IPainelLista.cs",
+      "raw_sha256": "d031412e950b1f698a0b7115381085514026fcf669823226f7138845876b92ea"
+    },
+    {
+      "path": "Interfaces\\IPainelObservacao.cs",
+      "export_path": "Interfaces\\IPainelObservacao.cs",
+      "raw_sha256": "f1555fd1aa33511725a69ed76e50546128f2cad97c6d16f3e62929f121f4782b"
+    },
+    {
+      "path": "Interfaces\\IPostoService.cs",
+      "export_path": "Interfaces\\IPostoService.cs",
+      "raw_sha256": "39da9aa1a7681e534bd8865487f4ee6e23910d432db1326c5bf02b9a67863d17"
+    },
+    {
+      "path": "Interfaces\\IRegistrosPafNfceService.cs",
+      "export_path": "Interfaces\\IRegistrosPafNfceService.cs",
+      "raw_sha256": "8471e710531c2684170e3932fec8cad5859bee2b6e9c86d1dfa157a4cd161250"
+    },
+    {
+      "path": "Interfaces\\IRegistroVendaService.cs",
+      "export_path": "Interfaces\\IRegistroVendaService.cs",
+      "raw_sha256": "b73ba790808f7a3f803166224e1c9df99fec8bf3aff51c009618b36f22c3e382"
+    },
+    {
+      "path": "Interfaces\\ISatService.cs",
+      "export_path": "Interfaces\\ISatService.cs",
+      "raw_sha256": "09094bd3f3d4dbfa3fbcec195407d468ae09e4bd3af1f0758967ba045800f0bf"
+    },
+    {
+      "path": "Interfaces\\IShipayService.cs",
+      "export_path": "Interfaces\\IShipayService.cs",
+      "raw_sha256": "db8d500dbf00b07e76375917b3a634f98743904da77235cd4e6c11a88c3338a2"
+    },
+    {
+      "path": "Interfaces\\ITefService.cs",
+      "export_path": "Interfaces\\ITefService.cs",
+      "raw_sha256": "2d2e6fb76932db59f13f33706a2dfa8cc8557f1c645b26c80378357b8be6e870"
+    },
+    {
+      "path": "Interfaces\\ItemMenuAtalho.cs",
+      "export_path": "Interfaces\\ItemMenuAtalho.cs",
+      "raw_sha256": "fda74d7683fbd06c008656e99318f13575d4e4446aa8b73a01a367aa00ceba48"
+    },
+    {
+      "path": "Interfaces\\ITextoEmissor.cs",
+      "export_path": "Interfaces\\ITextoEmissor.cs",
+      "raw_sha256": "33d05cbee3562d7d6fe480684d15568a5dcfc0dc37545e655ec7195fcb1437ed"
+    },
+    {
+      "path": "Interfaces\\ITitulo.cs",
+      "export_path": "Interfaces\\ITitulo.cs",
+      "raw_sha256": "70ca7b75852b3ca4ce6dc4667179b2a91ead7bda04c89a27cc905dfedbc6090f"
+    },
+    {
+      "path": "Interfaces\\LinhaEmBrancoEcfEmissor.cs",
+      "export_path": "Interfaces\\LinhaEmBrancoEcfEmissor.cs",
+      "raw_sha256": "b342aa3ffed9c479b76a6063466adbcb540618036fcdd3128b399b5340baa6d7"
+    },
+    {
+      "path": "Interfaces\\TextoEmissor.cs",
+      "export_path": "Interfaces\\TextoEmissor.cs",
+      "raw_sha256": "fdd4cc3f035d61195ee14a3461ea47d3d14b4be0c41307980cb8e00e3c040807"
+    },
+    {
+      "path": "PontoDeVendaModulo.cs",
+      "export_path": "PontoDeVendaModulo.cs",
+      "raw_sha256": "fee902c1c9e9cb086924b075319a4ee492bf806d00df3150b033f7a6da14e7b6"
+    },
+    {
+      "path": "Projections\\NfceProjections.cs",
+      "export_path": "Projections\\NfceProjections.cs",
+      "raw_sha256": "95e53b9fcfee3211b820a0db89cf6654515820382885489bb4d7d7f6d960b955"
+    },
+    {
+      "path": "Projections\\PainelTotalizacaoSatProjections.cs",
+      "export_path": "Projections\\PainelTotalizacaoSatProjections.cs",
+      "raw_sha256": "061f1dffbe114826918e256c4ca91b449930fdbb5bedc45b13bc260344afc9d4"
+    },
+    {
+      "path": "Projections\\PreDocumentoFiscalProjections.cs",
+      "export_path": "Projections\\PreDocumentoFiscalProjections.cs",
+      "raw_sha256": "56936229776bd1c51a7a808bf6e6187f0a7c9cb57bcb20c1aad3847cd767f0ee"
+    },
+    {
+      "path": "Projections\\Shipay\\BuyerProjection.cs",
+      "export_path": "Projections\\Shipay\\BuyerProjection.cs",
+      "raw_sha256": "8564ba6f2e9b1f9849ee35471991c614cbba0551d07c041dbeb1cbc7d42845a4"
+    },
+    {
+      "path": "Projections\\Shipay\\OrderItemProjection.cs",
+      "export_path": "Projections\\Shipay\\OrderItemProjection.cs",
+      "raw_sha256": "c34d0ca1e7fe13edb367cad9ffb4c6988b33ab6a73e38fa032ac8f8874421d5c"
+    },
+    {
+      "path": "Projections\\Shipay\\OrderProjection.cs",
+      "export_path": "Projections\\Shipay\\OrderProjection.cs",
+      "raw_sha256": "69338180e68608b0d787e694b3131b195e957933d7369f99574b233905d78d79"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "3adf811fe5f38baf971ad8d6a728dcd6d42534e677aad66428815454992acaed"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a73e88e9381a549fb708af1b43725f33b1e58221c76b5e526cf5ca35ba4cf1ee"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "4ae7867d9a798dfcf3af8bece85f0eaf4b8dc86497ccaeab83b3297c2de2cfe6"
+    },
+    {
+      "path": "Reports\\ParcelamentoViaCliente56Mm57Mm58Mm.cs",
+      "export_path": "Reports\\ParcelamentoViaCliente56Mm57Mm58Mm.cs",
+      "raw_sha256": "a38b91b8f500575ae0f4726c07926f635a7132f4c521cf0c9496162b2d3dc677"
+    },
+    {
+      "path": "Reports\\ParcelamentoViaCliente79Mm80Mm.cs",
+      "export_path": "Reports\\ParcelamentoViaCliente79Mm80Mm.cs",
+      "raw_sha256": "0b2870581deb168b09b02d7695c7e0c7838f8879f90139be63ab97dc0ffe1971"
+    },
+    {
+      "path": "Reports\\ParcelamentoViaEstabelecimento56Mm57Mm58Mm.cs",
+      "export_path": "Reports\\ParcelamentoViaEstabelecimento56Mm57Mm58Mm.cs",
+      "raw_sha256": "5425911e41cfe31e353ea7dd1829b30403db69e6f9af00cda8d16a7ebeb3ac9c"
+    },
+    {
+      "path": "Reports\\ParcelamentoViaEstabelecimento79Mm80Mm.cs",
+      "export_path": "Reports\\ParcelamentoViaEstabelecimento79Mm80Mm.cs",
+      "raw_sha256": "47029389ac74b6940a77e922b3f469b0cca6e610bed581257c0d766ffaa61d85"
+    },
+    {
+      "path": "Reports\\RelatorioMapaResumo.cs",
+      "export_path": "Reports\\RelatorioMapaResumo.cs",
+      "raw_sha256": "bf089e6eb14ef37a39ba48ed38e728c6a1f0f4b1f2ef998cd0183866fd03de52"
+    },
+    {
+      "path": "Reports\\RelatorioQrCodePagamentoDigital.cs",
+      "export_path": "Reports\\RelatorioQrCodePagamentoDigital.cs",
+      "raw_sha256": "591dd8a4c00fa44c177675bdbf087abc61af961d34328e54c7ad714350cf4dfe"
+    },
+    {
+      "path": "Repositories\\IMapaResumoLocalRepositoryRead.cs",
+      "export_path": "Repositories\\IMapaResumoLocalRepositoryRead.cs",
+      "raw_sha256": "3e75acafd16c0e971775c6582064f643f4157f08ebcf0f83616c91be35b972ea"
+    },
+    {
+      "path": "Repositories\\IValorSangriaLocalRepositoryRead.cs",
+      "export_path": "Repositories\\IValorSangriaLocalRepositoryRead.cs",
+      "raw_sha256": "5cb249f6c33befdc069a6fb400d35aea41168ebce704e43dbbc0d4a721dd6557"
+    },
+    {
+      "path": "Repositories\\MapaResumoLocalRepositoryRead.cs",
+      "export_path": "Repositories\\MapaResumoLocalRepositoryRead.cs",
+      "raw_sha256": "5580b30faa4f151827de4494e128df095e1d906dec2173a3f725cd215389a75f"
+    },
+    {
+      "path": "Repositories\\ValorSangriaLocalRepositoryRead.cs",
+      "export_path": "Repositories\\ValorSangriaLocalRepositoryRead.cs",
+      "raw_sha256": "de7105da432326395cb4bc8d603dc703a5db2c00eaf7260962cd8d903d78ec38"
+    },
+    {
+      "path": "Services\\BackupPontoDeVendaService.cs",
+      "export_path": "Services\\BackupPontoDeVendaService.cs",
+      "raw_sha256": "ca7951a205a1f229dddf5999ef3fac84b78a3f2402a4bcc0c7b5abea8ea96204"
+    },
+    {
+      "path": "Services\\CFeService.cs",
+      "export_path": "Services\\CFeService.cs",
+      "raw_sha256": "1c49a4bb21669772612a4e51209bbabb641720d39a23a440bbfd7ab8e8066e68"
+    },
+    {
+      "path": "Services\\DisplayService.cs",
+      "export_path": "Services\\DisplayService.cs",
+      "raw_sha256": "8c0d7b881c53c12e97523e4c9b090de7ea9954422e053f22eb7f609fe68ec139"
+    },
+    {
+      "path": "Services\\EcfService.cs",
+      "export_path": "Services\\EcfService.cs",
+      "raw_sha256": "f4ef3c065436e1808fdb988ab8dd512c72c8fd7aff588b010af9ca10809effea"
+    },
+    {
+      "path": "Services\\EmissorNaoFiscalService.cs",
+      "export_path": "Services\\EmissorNaoFiscalService.cs",
+      "raw_sha256": "e1a8f5393dceb8a6e83cebfc56aa872ca1101c7458762e00ec6dd668268265b4"
+    },
+    {
+      "path": "Services\\EmissorService.cs",
+      "export_path": "Services\\EmissorService.cs",
+      "raw_sha256": "db9c8fd61de414b1b892ad5348196f7e739f2a3b2662cd3bddc8a14206372a42"
+    },
+    {
+      "path": "Services\\FarmaciaService.cs",
+      "export_path": "Services\\FarmaciaService.cs",
+      "raw_sha256": "a48390ec45a16e6d315ecd391aa748d9337cca53c28320c2c9028fc6a0d9b9c2"
+    },
+    {
+      "path": "Services\\InformacaoTransacao.cs",
+      "export_path": "Services\\InformacaoTransacao.cs",
+      "raw_sha256": "7dfbb350111d3a736fb624ec40778ffc3ce25f90623354ebf86d8629e1bbd2cb"
+    },
+    {
+      "path": "Services\\MFePontoVendaService.cs",
+      "export_path": "Services\\MFePontoVendaService.cs",
+      "raw_sha256": "9b1e93286cacbbb639f8e30da61fb198859ae5c8ddc2eea342d9a56391a469a0"
+    },
+    {
+      "path": "Services\\ModoFuncionamentoService.cs",
+      "export_path": "Services\\ModoFuncionamentoService.cs",
+      "raw_sha256": "df54e8d38841e15e9227dc0dc346d3c28798d6c0b8ee742bc0279fc94db6ae07"
+    },
+    {
+      "path": "Services\\MovimentacaoJsonService.cs",
+      "export_path": "Services\\MovimentacaoJsonService.cs",
+      "raw_sha256": "e5946b864b4c6b1d454b919f4cb3219b3da2bddd52ec87972e80e66f26c54af2"
+    },
+    {
+      "path": "Services\\NfceService.cs",
+      "export_path": "Services\\NfceService.cs",
+      "raw_sha256": "9fb77b1d9064c1cdc221e1418881e3e106a4edf1e60c5c1b730252b5448e03fe"
+    },
+    {
+      "path": "Services\\NotaManualService.cs",
+      "export_path": "Services\\NotaManualService.cs",
+      "raw_sha256": "9d661a42fd87d91d7cf42547c2cf7f98a4cf6ad650ed95be28e041c96368ff3d"
+    },
+    {
+      "path": "Services\\PafEcfService.cs",
+      "export_path": "Services\\PafEcfService.cs",
+      "raw_sha256": "f94b45c06c6c44bb49e27c6450f6042561eca1c8ff3245eed719f5d74157bdc3"
+    },
+    {
+      "path": "Services\\PafNfceService.cs",
+      "export_path": "Services\\PafNfceService.cs",
+      "raw_sha256": "36e2e15489e5639068582d1b062fcb41d45dcacf23895d916b97c8655bcda086"
+    },
+    {
+      "path": "Services\\PostoService.cs",
+      "export_path": "Services\\PostoService.cs",
+      "raw_sha256": "28a02a8277f0d85a89041c5a40f55d2792d189d517a5a7b88bb3a408c9b8251f"
+    },
+    {
+      "path": "Services\\PreDocumentoFiscalLogService.cs",
+      "export_path": "Services\\PreDocumentoFiscalLogService.cs",
+      "raw_sha256": "b9a86ed61279199a7f8b5c45f2a011de4975722e2463e009171cd1dace47bccd"
+    },
+    {
+      "path": "Services\\RegistrosPafNfceService.cs",
+      "export_path": "Services\\RegistrosPafNfceService.cs",
+      "raw_sha256": "2ea7910999874cab7fe40cd21b263be557d605e126b7a362900e1127cc8aa015"
+    },
+    {
+      "path": "Services\\RegistroVendaService.cs",
+      "export_path": "Services\\RegistroVendaService.cs",
+      "raw_sha256": "5be9d7862880a6f9c0a7a677bd0550a5ebc933d87920ba9c923da3de7c1b0300"
+    },
+    {
+      "path": "Services\\RelatorioGerencialRestauranteService.cs",
+      "export_path": "Services\\RelatorioGerencialRestauranteService.cs",
+      "raw_sha256": "e835374c2bd4641ed3ded730478933cf71dec9df6443fe8b4d6c02aa5342d88c"
+    },
+    {
+      "path": "Services\\SatService.cs",
+      "export_path": "Services\\SatService.cs",
+      "raw_sha256": "85db66d094b916c64e5309c759d9439620b63b2d7a4273fbdc8ed2a9ea7b45eb"
+    },
+    {
+      "path": "Services\\ShipayService.cs",
+      "export_path": "Services\\ShipayService.cs",
+      "raw_sha256": "da63ffd8ac523f93a1897d788ba93e0e8eb6f4e4d82715a9fb41eeb6d9ee42b9"
+    },
+    {
+      "path": "Services\\SincronizacaoService.cs",
+      "export_path": "Services\\SincronizacaoService.cs",
+      "raw_sha256": "a8df8d5fe8817a77756662d57a59fa6fd12be4576d15210fde83b435fc506217"
+    },
+    {
+      "path": "Services\\TefService.cs",
+      "export_path": "Services\\TefService.cs",
+      "raw_sha256": "d9af3d4c20edec8f7bd8fe1c60fc4a0fa889af17ea4a1b748e768f87aacaa932"
+    },
+    {
+      "path": "Services\\UsuarioIdentity.cs",
+      "export_path": "Services\\UsuarioIdentity.cs",
+      "raw_sha256": "071d2b4d6e09e27db5aa3e81e0f83af78aa5b57cb3a10fd2cdcf1bc85721a223"
+    },
+    {
+      "path": "Services\\ValorSangriaService.cs",
+      "export_path": "Services\\ValorSangriaService.cs",
+      "raw_sha256": "fd151633a5c3cd8cc195a93512a4a03477eb5c5bc1ffd01072a714559dde84af"
+    },
+    {
+      "path": "ViewModels\\AbastecimentoViewModel.cs",
+      "export_path": "ViewModels\\AbastecimentoViewModel.cs",
+      "raw_sha256": "324a59f8bc8c6bfcb60e36fc8fa2e741fa78f6adab34749afce23bbf0c754f19"
+    },
+    {
+      "path": "ViewModels\\Acrescimo.cs",
+      "export_path": "ViewModels\\Acrescimo.cs",
+      "raw_sha256": "b917bb7b5c3dad6e48e33108492eba7aa10d8a34d0f0990c3f12dd33ff45f7b7"
+    },
+    {
+      "path": "ViewModels\\AcrescimoDesconto.cs",
+      "export_path": "ViewModels\\AcrescimoDesconto.cs",
+      "raw_sha256": "15a78e1e882f95a5d5549ff9f4c4dc95f784a4d3e63aa1ebb96f0c6f9f8b680a"
+    },
+    {
+      "path": "ViewModels\\Aliquota.cs",
+      "export_path": "ViewModels\\Aliquota.cs",
+      "raw_sha256": "73876b6b8db3a456d6d281d46ea24ec59cb3f44ed049886d6fd54ae7f06f507d"
+    },
+    {
+      "path": "ViewModels\\BicoViewModel.cs",
+      "export_path": "ViewModels\\BicoViewModel.cs",
+      "raw_sha256": "fd226f341d9d9adc89b009eb03d68b95b70a20c34cacaa80531f4c3ef3115f83"
+    },
+    {
+      "path": "ViewModels\\Cnpj.cs",
+      "export_path": "ViewModels\\Cnpj.cs",
+      "raw_sha256": "60f747020b297e657387909770428cef98f676d4f52d5b1bc9c5a1b5b6022a23"
+    },
+    {
+      "path": "ViewModels\\ContaViewModel.cs",
+      "export_path": "ViewModels\\ContaViewModel.cs",
+      "raw_sha256": "df4ba4d5fa9f015afa70fdfab4249d69c893fc564ebaf1b93c3c90326a7f4bb2"
+    },
+    {
+      "path": "ViewModels\\Cpf.cs",
+      "export_path": "ViewModels\\Cpf.cs",
+      "raw_sha256": "0af03603343c374af563f95ef450f8126db2639d330834f0fe083f8cce84c19b"
+    },
+    {
+      "path": "ViewModels\\Desconto.cs",
+      "export_path": "ViewModels\\Desconto.cs",
+      "raw_sha256": "197272c06893af8fed06dbde128690c159f7eea4554c36047c5b8a81c03305c1"
+    },
+    {
+      "path": "ViewModels\\Especie.cs",
+      "export_path": "ViewModels\\Especie.cs",
+      "raw_sha256": "534fb8fbac7c411aa215c771a6f7d8d6fd087dd2110ccae57bed69c15dc63818"
+    },
+    {
+      "path": "ViewModels\\FormaPagamento.cs",
+      "export_path": "ViewModels\\FormaPagamento.cs",
+      "raw_sha256": "bf3d8509faf2c9913bfea9b58ed7faee4e0a7b6ba10884705955077c9c169e57"
+    },
+    {
+      "path": "ViewModels\\FrentistaViewModel.cs",
+      "export_path": "ViewModels\\FrentistaViewModel.cs",
+      "raw_sha256": "33019aacc3f72f8109f15436a1d5974d995415c7425648cccfa51a6b63c809e2"
+    },
+    {
+      "path": "ViewModels\\ICartao.cs",
+      "export_path": "ViewModels\\ICartao.cs",
+      "raw_sha256": "ad134a5693c31c840074fde803c66164d9bf6abaa49d0ab16f5358dbb0c9c589"
+    },
+    {
+      "path": "ViewModels\\ICartaoConvenio.cs",
+      "export_path": "ViewModels\\ICartaoConvenio.cs",
+      "raw_sha256": "e2d0e373e4431b4ebb187eb0bdb58e3f2128600a445b71929f99310eb1f9a962"
+    },
+    {
+      "path": "ViewModels\\ICartaoPos.cs",
+      "export_path": "ViewModels\\ICartaoPos.cs",
+      "raw_sha256": "5c2a420af69b6380a8cd6bb10aed050702833944ea1bd943763f60d198a2af54"
+    },
+    {
+      "path": "ViewModels\\ICarteiraDigital.cs",
+      "export_path": "ViewModels\\ICarteiraDigital.cs",
+      "raw_sha256": "465ac78c8aad76f5abbba469b8864965609fac7090ce47098291902f22015d01"
+    },
+    {
+      "path": "ViewModels\\ICheque.cs",
+      "export_path": "ViewModels\\ICheque.cs",
+      "raw_sha256": "638062c5d3776685e00b0b00a940a54e41853a26976ce2e0094d877db9df918f"
+    },
+    {
+      "path": "ViewModels\\ICreditoLoja.cs",
+      "export_path": "ViewModels\\ICreditoLoja.cs",
+      "raw_sha256": "246d678b313659f7c5e0b553cec20ae8ed27e423bd623d85310d201d2b84b2a3"
+    },
+    {
+      "path": "ViewModels\\IDepositoBancario.cs",
+      "export_path": "ViewModels\\IDepositoBancario.cs",
+      "raw_sha256": "0e2d8c44782e50ee67e6433626ac694942d69ee63400ea94f18428d50c5ec65d"
+    },
+    {
+      "path": "ViewModels\\IDinheiro.cs",
+      "export_path": "ViewModels\\IDinheiro.cs",
+      "raw_sha256": "c74e73b9f8c7e1cf70588b17aa322143bfd0c7abecec6b9b37f83e86baf535a9"
+    },
+    {
+      "path": "ViewModels\\IDoc.cs",
+      "export_path": "ViewModels\\IDoc.cs",
+      "raw_sha256": "7f15d7989011d64e049819d60d0b6e4f5c6283107056d9beb8491d8c226eb3a2"
+    },
+    {
+      "path": "ViewModels\\IItemPagamento.cs",
+      "export_path": "ViewModels\\IItemPagamento.cs",
+      "raw_sha256": "1f8edbb7173c0c132a5f06990b7649cbe68c0fb350494a619a3a4257712d8a73"
+    },
+    {
+      "path": "ViewModels\\Informacao.cs",
+      "export_path": "ViewModels\\Informacao.cs",
+      "raw_sha256": "0769f6d45ec04b3fb4537c81868ae83a569ace93253844d1b20640c405d24ef4"
+    },
+    {
+      "path": "ViewModels\\InformacaoBusca.cs",
+      "export_path": "ViewModels\\InformacaoBusca.cs",
+      "raw_sha256": "4b6533cf579952cff3ecdc5f21690517d7cc87b0d3bdbaa30249ca02b17a57d8"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaConsumidor.cs",
+      "export_path": "ViewModels\\InformacaoBuscaConsumidor.cs",
+      "raw_sha256": "494207187989b386a51e36bfeb8db4fd90359b0e1ed1c0195218b5719df76de5"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaCupomFiscal.cs",
+      "export_path": "ViewModels\\InformacaoBuscaCupomFiscal.cs",
+      "raw_sha256": "97b9d3cbf7b73266202db1274d908788cdfd9b40e81b3d80af3eb05ac619689d"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaCupomFiscalEletronico.cs",
+      "export_path": "ViewModels\\InformacaoBuscaCupomFiscalEletronico.cs",
+      "raw_sha256": "f4213279d7ff64ce074e67d94d3978e9e7462024b4d055580032c436fdeb8007"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaDocumentoAuxiliarVenda.cs",
+      "export_path": "ViewModels\\InformacaoBuscaDocumentoAuxiliarVenda.cs",
+      "raw_sha256": "07d934082de5b8ad5f16c1b2fd7d0a37ad356f45eeb3e0b39f99a2d70c255f8b"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaKit.cs",
+      "export_path": "ViewModels\\InformacaoBuscaKit.cs",
+      "raw_sha256": "35f796c946022a2183666b9683bf8f554daeb6b79b355e510268287aa8e8ca7a"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaNotaFiscalConsumidorEletronica.cs",
+      "export_path": "ViewModels\\InformacaoBuscaNotaFiscalConsumidorEletronica.cs",
+      "raw_sha256": "4bd279ce9a3085b88adbce3c1c264b659f6787c5e3855e4247ea88e2d3a12607"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaNotaFiscalEletronica.cs",
+      "export_path": "ViewModels\\InformacaoBuscaNotaFiscalEletronica.cs",
+      "raw_sha256": "1bb40d25faf277fba9a0b41be3850cbc8db270f4ee0c222eaf500a81a1ebf7ee"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaPedidoIfood.cs",
+      "export_path": "ViewModels\\InformacaoBuscaPedidoIfood.cs",
+      "raw_sha256": "efad86b6aa41eb09314c04e4009e2a96d6c2b2fe67975a47c14510fbd54b1961"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaProdutoServico.cs",
+      "export_path": "ViewModels\\InformacaoBuscaProdutoServico.cs",
+      "raw_sha256": "3157d3f2cf7b1a377451eb30d77aedacb47fe2f44cf70805ca6f89a90f7d8651"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaRegistroVenda.cs",
+      "export_path": "ViewModels\\InformacaoBuscaRegistroVenda.cs",
+      "raw_sha256": "b34ae21d94b58464de846275cada11ff1da6b48d15a7532f8afb9d480d632cab"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaRequisicaoExterna.cs",
+      "export_path": "ViewModels\\InformacaoBuscaRequisicaoExterna.cs",
+      "raw_sha256": "0352fba8494c924e930d9320cd9d59e22f909cd2f7f20baee5bd4f724eb8eb34"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaValePresente.cs",
+      "export_path": "ViewModels\\InformacaoBuscaValePresente.cs",
+      "raw_sha256": "cd4569183a3dbde8e2cd250f7ce1ac6a6cc1a87e49cc42129875914f1228a9e7"
+    },
+    {
+      "path": "ViewModels\\InformacaoBuscaVendedor.cs",
+      "export_path": "ViewModels\\InformacaoBuscaVendedor.cs",
+      "raw_sha256": "05f6a5ced1e16d0d9b1af34d48b1728b21b761e5420f6203f13c4147b487d151"
+    },
+    {
+      "path": "ViewModels\\InformacaoDocumentoFiscal.cs",
+      "export_path": "ViewModels\\InformacaoDocumentoFiscal.cs",
+      "raw_sha256": "b8df30ce996da88f1af1f617db9c9968e696569a3f8d3b7004cb2e1dcfacdbec"
+    },
+    {
+      "path": "ViewModels\\InformacaoDocumentoFiscalBase.cs",
+      "export_path": "ViewModels\\InformacaoDocumentoFiscalBase.cs",
+      "raw_sha256": "a37b0cb4bc4a230dbeba1aebeb2398636dfecf78138f9ef2f0b0fad5b70627a3"
+    },
+    {
+      "path": "ViewModels\\InformacaoTotalizacaoDocumentoFiscal.cs",
+      "export_path": "ViewModels\\InformacaoTotalizacaoDocumentoFiscal.cs",
+      "raw_sha256": "527d986cab67a825917ace93a0b6d1d1c0c9fd30924467c93991530862fb8174"
+    },
+    {
+      "path": "ViewModels\\InteracaoComando.cs",
+      "export_path": "ViewModels\\InteracaoComando.cs",
+      "raw_sha256": "1b0453647a8813df269e377c2e7dad5e1539ca0a9af5e995c1cd8fc05ac89e13"
+    },
+    {
+      "path": "ViewModels\\IPagamentoPosterior.cs",
+      "export_path": "ViewModels\\IPagamentoPosterior.cs",
+      "raw_sha256": "b7b29fbf2d6389a6ce7a68ff7a0ca4023353016f2ef985eefd184c756eb50689"
+    },
+    {
+      "path": "ViewModels\\IPrazo.cs",
+      "export_path": "ViewModels\\IPrazo.cs",
+      "raw_sha256": "57db8bc4779e596e0286d52b1035ca31d146f75942d4e1605b895bf8fdc5fcb7"
+    },
+    {
+      "path": "ViewModels\\ITed.cs",
+      "export_path": "ViewModels\\ITed.cs",
+      "raw_sha256": "760a23d7d9cd3fe3b90bcf7ca161572a432d5a0987521272221d412049f48c45"
+    },
+    {
+      "path": "ViewModels\\ItemAbastecimento.cs",
+      "export_path": "ViewModels\\ItemAbastecimento.cs",
+      "raw_sha256": "a581adfc3b30117779a81fde6ab6b90170a504a879189ed40b5992a8d3799113"
+    },
+    {
+      "path": "ViewModels\\ItemBase.cs",
+      "export_path": "ViewModels\\ItemBase.cs",
+      "raw_sha256": "ae1302c57d529d7cd73b03ac9adbb05dddfd3eb981d3b1637f84cc43cf2d737a"
+    },
+    {
+      "path": "ViewModels\\ItemBaseFactory.cs",
+      "export_path": "ViewModels\\ItemBaseFactory.cs",
+      "raw_sha256": "e5ac1378aae18ae6e8a5cbb39c640847c093bb3fe92192b36df606615ee883fe"
+    },
+    {
+      "path": "ViewModels\\ItemCheckBox.cs",
+      "export_path": "ViewModels\\ItemCheckBox.cs",
+      "raw_sha256": "4f3be4503081a79dcbc90ebc93f1ad43ee3a6a492697cd278bcca0ebaf59cb2f"
+    },
+    {
+      "path": "ViewModels\\ItemDocumentoFiscal.cs",
+      "export_path": "ViewModels\\ItemDocumentoFiscal.cs",
+      "raw_sha256": "407abffd8468a2edc89aaad72c941274923e6dca596606070e0ad132e089290f"
+    },
+    {
+      "path": "ViewModels\\ItemDocumentoFiscalCombustivel.cs",
+      "export_path": "ViewModels\\ItemDocumentoFiscalCombustivel.cs",
+      "raw_sha256": "9b9de142a01182031fd482fbc3bc63665da35c8b2926d6e6610683f5535f3883"
+    },
+    {
+      "path": "ViewModels\\ItemDocumentoFiscalFactory.cs",
+      "export_path": "ViewModels\\ItemDocumentoFiscalFactory.cs",
+      "raw_sha256": "176fad227051e777f9ddef185839180ab046c7532f2c1d2a7c557fbec5a7d7a6"
+    },
+    {
+      "path": "ViewModels\\ItemDocumentoFiscalFarmaciaPopular.cs",
+      "export_path": "ViewModels\\ItemDocumentoFiscalFarmaciaPopular.cs",
+      "raw_sha256": "3363618a41def05dd331cf9f67461acb306da37fd21983aad9019205dbbc87b4"
+    },
+    {
+      "path": "ViewModels\\ItemDocumentoFiscalPbm.cs",
+      "export_path": "ViewModels\\ItemDocumentoFiscalPbm.cs",
+      "raw_sha256": "a190639060cae7284dede100d8b868761e381be86fa8f928af1b253967c876f8"
+    },
+    {
+      "path": "ViewModels\\ItemDocumentoFiscalProduto.cs",
+      "export_path": "ViewModels\\ItemDocumentoFiscalProduto.cs",
+      "raw_sha256": "8fff3cfae9eb841ebf7131da0402f447c701a1b4fa1fafb2dc24ad63ee4f9cb9"
+    },
+    {
+      "path": "ViewModels\\ItemDocumentoFiscalServico.cs",
+      "export_path": "ViewModels\\ItemDocumentoFiscalServico.cs",
+      "raw_sha256": "6aaa33c06774f6a842db0acec6691a3faaf3071257686aa90196d46135831426"
+    },
+    {
+      "path": "ViewModels\\ItemEstoque.cs",
+      "export_path": "ViewModels\\ItemEstoque.cs",
+      "raw_sha256": "1081f670a7be3c6e2ad575914ea7250e8fd2aac834f06b865d3c401b60ba62d7"
+    },
+    {
+      "path": "ViewModels\\ItemEstornarMesaContaCredito.cs",
+      "export_path": "ViewModels\\ItemEstornarMesaContaCredito.cs",
+      "raw_sha256": "768e8317c07dd95f3c86be65621603b0db26a2d0473545951843b642f76cbacb"
+    },
+    {
+      "path": "ViewModels\\ItemGrade.cs",
+      "export_path": "ViewModels\\ItemGrade.cs",
+      "raw_sha256": "b84f2babf4e62d65aa026bd0990858eb255ae1b2a61b966e1a774648ddad3330"
+    },
+    {
+      "path": "ViewModels\\ItemGradeLista.cs",
+      "export_path": "ViewModels\\ItemGradeLista.cs",
+      "raw_sha256": "6248318151eadf87e53997d95e85ba993726e6b64da9d3c78bd144596febc8f0"
+    },
+    {
+      "path": "ViewModels\\ItemListaBase.cs",
+      "export_path": "ViewModels\\ItemListaBase.cs",
+      "raw_sha256": "96d0f3c2becb7a860ba63d373f937ac4cf0efb4c4c78fabe6d7fc8f251926524"
+    },
+    {
+      "path": "ViewModels\\ItemLote.cs",
+      "export_path": "ViewModels\\ItemLote.cs",
+      "raw_sha256": "9a1acbbd7d6670684bdd78a9f3091c7c4bb6cba6d7d902ed3d4975a1f84703d8"
+    },
+    {
+      "path": "ViewModels\\ItemLoteLista.cs",
+      "export_path": "ViewModels\\ItemLoteLista.cs",
+      "raw_sha256": "c5ab0d40e61ad5f317a69e9cd928c01f9b369ca8cb3a7fe9b6a4b3c76a394dd1"
+    },
+    {
+      "path": "ViewModels\\ItemMapaResumo.cs",
+      "export_path": "ViewModels\\ItemMapaResumo.cs",
+      "raw_sha256": "07edff2ea265e957da75892dc5ebe1834e93000053f6b702a79c0ddae6582303"
+    },
+    {
+      "path": "ViewModels\\ItemMenu.cs",
+      "export_path": "ViewModels\\ItemMenu.cs",
+      "raw_sha256": "315f3d6502184dcdeb2c9c6ff9b34524a7b84242d1f20cfa16315c633524d786"
+    },
+    {
+      "path": "ViewModels\\ItemMesaContaCredito.cs",
+      "export_path": "ViewModels\\ItemMesaContaCredito.cs",
+      "raw_sha256": "004031cd3557658d0580d5ecaf4f87322033a7efc66017d8e947a06cebab3be9"
+    },
+    {
+      "path": "ViewModels\\ItemPagamentoRestaurante.cs",
+      "export_path": "ViewModels\\ItemPagamentoRestaurante.cs",
+      "raw_sha256": "37005a562209b2e3581897504cd20d8b3c844c8e39f23180cf231a91ecafa2c8"
+    },
+    {
+      "path": "ViewModels\\ItemPagamentoViewModel.cs",
+      "export_path": "ViewModels\\ItemPagamentoViewModel.cs",
+      "raw_sha256": "fd6ba657d3adbfd0ae0cbb746ab5a5021be0ecfb222cbc75c6a8c49a7be3d8f7"
+    },
+    {
+      "path": "ViewModels\\ItemPessoaAutorizada.cs",
+      "export_path": "ViewModels\\ItemPessoaAutorizada.cs",
+      "raw_sha256": "c68421224bb918fb2aaa4eea77381e2e00882f24f1dc9fd9862a7753086e66c2"
+    },
+    {
+      "path": "ViewModels\\ItemResumoNfce.cs",
+      "export_path": "ViewModels\\ItemResumoNfce.cs",
+      "raw_sha256": "8e62a6ad613bc4b4891c56c97412931d859a4f3806682089d9f1841168a7a382"
+    },
+    {
+      "path": "ViewModels\\ItemSerial.cs",
+      "export_path": "ViewModels\\ItemSerial.cs",
+      "raw_sha256": "6af045ec26232f2719b279c38a34bf39efaeb8710644026792f00a461c798210"
+    },
+    {
+      "path": "ViewModels\\ItemTurno.cs",
+      "export_path": "ViewModels\\ItemTurno.cs",
+      "raw_sha256": "fed07c6085b70a87fb6d71fbcceeeb9b5180678a18d0aba46af7c82aa070d41f"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\Documento.cs",
+      "export_path": "ViewModels\\ItensInteracao\\Documento.cs",
+      "raw_sha256": "63ee4db6c6bc3f26a89cefe2ca2bcce6f451028340609a19065bee237eb379e0"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoBase.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoBase.cs",
+      "raw_sha256": "e329d0983f8133da2c6152d8ed43c10483b02e2178e42a7f3dcd11900b3aac8e"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoBoleano.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoBoleano.cs",
+      "raw_sha256": "01d2146cfa270e8ac84d3643394d8b2a3d7ec2a694f463a92504f769bd0dbf02"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoButton.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoButton.cs",
+      "raw_sha256": "e131433131172c250cf6430e8b394d976b7a2b5e1a4403a9ebe1b22a7c37b4e6"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoButtonDecimal.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoButtonDecimal.cs",
+      "raw_sha256": "fd270cead578d4119d83a53e44572fc5a647fcf8ec6a73907c4465d422af8417"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoButtonEditConsumidor.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoButtonEditConsumidor.cs",
+      "raw_sha256": "6df194b741573fea7a3eb0e4c95860408d8a195bac4194f03d73e592dcd80ddd"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoButtonEditConsumidorReadOnly.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoButtonEditConsumidorReadOnly.cs",
+      "raw_sha256": "9c8f7c24151235ec5c0e47646af8375a95e2c86aaa08173764000c81cbe41794"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoCnpj.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoCnpj.cs",
+      "raw_sha256": "1b70436f9f675d3c0a40e444d0db5da3c2dfed45c6fbd4fd8f0c588dcbb2da6b"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoCnpjFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoCnpjFocusable.cs",
+      "raw_sha256": "ab83835374d80e5acc30f5bac0f988465cdc706533c44bfb8836ab21c313986d"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoCnpjSemValidacao.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoCnpjSemValidacao.cs",
+      "raw_sha256": "7c68b966e1899e64078996113634b4b4de52c05b58ff61c896bb3ceb4071a8f5"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoComboBox.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoComboBox.cs",
+      "raw_sha256": "97ccef2151577c26a770e7fac6a2eb7f4f2747c1fa769854d100117bbc6043f8"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoComboBoxFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoComboBoxFocusable.cs",
+      "raw_sha256": "ed22f1778174bf3927446791dce5b20da00b581ff0f8688d6aac64f5fe138fb9"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoConsultaCnpjFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoConsultaCnpjFocusable.cs",
+      "raw_sha256": "f2ba3a93c00b32924839e5c96901d91b901934e10287b637e896572372f7b0ed"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoConta.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoConta.cs",
+      "raw_sha256": "6fa73f660cb1951c36023aaf0e340f9e9d2dc4c3fbf61dd72ee1c2d2a3e249fe"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoCpf.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoCpf.cs",
+      "raw_sha256": "c9280a01c5a74989bc1618e32a64f45c5c02eba08cdec9af3411c5249caf504d"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoCpfFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoCpfFocusable.cs",
+      "raw_sha256": "d62801edbbb4a2982b73da007d31be10242630b1598b43e2bf0e59058e220fcd"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoCpfSemValidacao.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoCpfSemValidacao.cs",
+      "raw_sha256": "f81221362203b199c277dbc9a775689caa28652361eea18099692c83c8d75855"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoData.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoData.cs",
+      "raw_sha256": "9917557b285016b87ccdce8cc6c7eb4f1050c17b0134045eba823154c9b7ecf4"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoDataFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoDataFocusable.cs",
+      "raw_sha256": "b3cadbc959563db1bd38da873871d8529987ca9fbb2f3826f079c7f3cb37299b"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoDataHora.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoDataHora.cs",
+      "raw_sha256": "89f463d40aa86a4cb252ced3c82cc083528d51d26cdf20e925a8ba266df5317e"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoDataHoraFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoDataHoraFocusable.cs",
+      "raw_sha256": "fa1eec3649a6d27456d9a1903c01b3aa7215b4e34a01185c6d31a0334f537069"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoDecimal.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoDecimal.cs",
+      "raw_sha256": "95036351a3d3c96a62ff1e04c54bdd02ecfa1916a69bb473850d98d32fd91680"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoDecimalFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoDecimalFocusable.cs",
+      "raw_sha256": "41f89324745b40eeb356f5f5bae36b10327492a67100ce7d6c4657a490a5eeeb"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoDecimalReadOnly.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoDecimalReadOnly.cs",
+      "raw_sha256": "109aefc9297cb3fb75f980b451931608feacb939e107ff2191478cbb4e244f7f"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoDecimalTresCasas.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoDecimalTresCasas.cs",
+      "raw_sha256": "f98f77f70097484f98f52b9ed94c38f7ba8a819cb7a79af403bff1b5653ae17c"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoEmail.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoEmail.cs",
+      "raw_sha256": "41fcbd7c632674c0b582d8b4c4604599318706c8b1faf11120945506b749307f"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoEndereco.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoEndereco.cs",
+      "raw_sha256": "8c24ba084b59cd438d2d164a9875c30a800481787ce639a684b3343562612c0b"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoEspecie.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoEspecie.cs",
+      "raw_sha256": "5bd41b78fb34be098cdea8806e8e22d4c0187ba6aed98ea5ee82e4c677449115"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoEstoqueFisicoCombustivel.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoEstoqueFisicoCombustivel.cs",
+      "raw_sha256": "8ed6bc5c942b02d7270443130de98a8df56c5321a5da06346219298264c24712"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoFormaPagamento.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoFormaPagamento.cs",
+      "raw_sha256": "b731c3a8c47f489e3080cdeb2e93d0bbc6567a22184587c231d33f2d7d0ae318"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoFormaPagamentoNenhuma.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoFormaPagamentoNenhuma.cs",
+      "raw_sha256": "54ff15dc671bfe6f5e0d13768eb7e8794136743fd22e721b6401ddf39b9b537f"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoFormaPagamentoPersonalizada.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoFormaPagamentoPersonalizada.cs",
+      "raw_sha256": "e9cec58b38805d277280a76ba207cebd4443d3be949c8921b883e5dffe158b2e"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiro.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiro.cs",
+      "raw_sha256": "83af234bf06ab9ce34ba6c75a3a67b59d755e5e31374f77bdf16da63293c69d3"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiroComandoFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiroComandoFocusable.cs",
+      "raw_sha256": "304216fcd51f50788e243da621475d79b7e97c45966d9598099148950dcf50f8"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiroFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiroFocusable.cs",
+      "raw_sha256": "3f36497b2fa9d46449078913bbab20a2fa9ac796977c6c54cafbf458f0cd4960"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiroLimitado.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiroLimitado.cs",
+      "raw_sha256": "3eef4450dc685a03989c84be5a7ee8ddb7a1bd878c21c3e59bfe495383db4ea4"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiroValorMinimoFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoInteiroValorMinimoFocusable.cs",
+      "raw_sha256": "21b379fc96e433d22f17e2c537f7a6ec489e104547dc00dbfdc65d6be913b526"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaAbastecimento.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaAbastecimento.cs",
+      "raw_sha256": "9d0945f9582262923e0bdd4040068575aa6dd791e9a5b45a2511e522788c029b"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaAliquota.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaAliquota.cs",
+      "raw_sha256": "6157cb47a4c0953baad4e81bcef5a6e3d0e5d939926af5526b71212c428ce9a8"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaEspecie.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaEspecie.cs",
+      "raw_sha256": "c4fd1b918ecac4e74d988385cd2c9ebf052cbf3a81c19c10942fdfffb2fc109d"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaEstoque.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaEstoque.cs",
+      "raw_sha256": "b2537e764c5054ad62aae815549254f1bc4deb863d677e7693c70e4ef54d308b"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaEstornarMesaContaCredito.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaEstornarMesaContaCredito.cs",
+      "raw_sha256": "405908c28adf10830c0f5d7f79cc0026c202e46602c72ad49c2a478b30d75fce"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaItemMesaConta.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaItemMesaConta.cs",
+      "raw_sha256": "b7b317f0bff61b716924b9aaa061c663937c09b26e0b2a846bcfb86d122b77ac"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaMapaResumo.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaMapaResumo.cs",
+      "raw_sha256": "4db31b8d24cd4388336a5663c5a36260b8e3176217f8a82c8f016cf1401bdbec"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaMesaConta.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaMesaConta.cs",
+      "raw_sha256": "3c5c90fd9e85a552d62b0d29beb59a315a240a03c53a8ef50b73e8b4efb3d658"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaMesaContaCredito.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaMesaContaCredito.cs",
+      "raw_sha256": "dd56dc9bea6f6f0b5e87c73cca29f744cb0191383b3bdc8fecf41b0b571965d2"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaParcelamento.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaParcelamento.cs",
+      "raw_sha256": "6c1e90a1ff12d8fa98a6bdeb7f677434575b3daa1097639ba39d2d462a4e0bb9"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaPessoaAutorizada.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaPessoaAutorizada.cs",
+      "raw_sha256": "45dd56b6d9937b85466122a8df091e5928c4200cde0a53f24745cd3d8a396a86"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaPreVenda.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaPreVenda.cs",
+      "raw_sha256": "1618dc31f43661b61d9cb953e8ad4c191e511de0376cc766f01ed1b69d7d1b3d"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaRecebimento.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaRecebimento.cs",
+      "raw_sha256": "369702dda4de8aa1d1ecfcf0aca8d855ddc14c0e3b70c02d041b551cd14c9e6c"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaRecebimentoQuitacao.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaRecebimentoQuitacao.cs",
+      "raw_sha256": "9e5ba65174fffa22184edba1d055f30297aa0d3b05f6faa22e3ef7a9ffdd87e5"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaRegistrosPafEcf.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaRegistrosPafEcf.cs",
+      "raw_sha256": "b1d75bb591033f8637cb5ac20c15a47cc80716f2772bcdca79e691700a47995a"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaRelatorioGerencial.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaRelatorioGerencial.cs",
+      "raw_sha256": "6ef037a757da5be4b45b438f1b84c8ef3a7ae8f720d7918675712aa2cd9b9789"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaResumoNfce.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaResumoNfce.cs",
+      "raw_sha256": "2fe904ae5fa67679ff42f127a7ab198f0b1bf4975cacf20999a81e537c6d9042"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaResumoNfceEmitidaEmContingencia.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaResumoNfceEmitidaEmContingencia.cs",
+      "raw_sha256": "abcb2c22d9eab4d1bd077c891b583eb9a4640d62d6000daf12cda7a4e444b79d"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaSenha.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaSenha.cs",
+      "raw_sha256": "3cecfe81a38f17484f705af49d71e0d8e117ac827a7474d427b1b3aba6717c1f"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaTotalizadorNaoFiscal.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaTotalizadorNaoFiscal.cs",
+      "raw_sha256": "39cce6f28910376c9086ecf08170a88f1bf428e99e96e19d5f3dd422389abdbe"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoListaTurno.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoListaTurno.cs",
+      "raw_sha256": "27042f1448f8090ff7ebc55735457ef470d54cd5abdca9451993b5c13b650960"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoLongComandoFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoLongComandoFocusable.cs",
+      "raw_sha256": "797d0049b9144ebd81372ea5a1a5b69775f72e141c11ee534a81c9831e16e537"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoMesAno.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoMesAno.cs",
+      "raw_sha256": "31df2508c38c365cd3d27dc0a41cbd8deb55de36917ee4b29e4130e11fff7837"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoMesAnoFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoMesAnoFocusable.cs",
+      "raw_sha256": "0d4137cd6b1267bc2d5262a8dfdf4ecebe179ce296b7cb031ac3b8c797a365cb"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoObservacao.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoObservacao.cs",
+      "raw_sha256": "5da76ce5202c692beb0e42186ac34bf49e1c9d10cdb26cadbd0b5c0a076e513f"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoOperadoraPortalDrogaria.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoOperadoraPortalDrogaria.cs",
+      "raw_sha256": "14e4107722fddf3e4e6d41a3a8d4a1b2e160267e95eb16da074f4cd17869b35d"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoTextBlock.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoTextBlock.cs",
+      "raw_sha256": "4eff385d052797d50eac878760f45c313f0a54e23eaa1e0dd587e5d5356f1985"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoTextBlockDescricaoValorMesmaLinha.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoTextBlockDescricaoValorMesmaLinha.cs",
+      "raw_sha256": "84b9a1f85e24edfb9025444ea9cd342f8c1f3bbd96675277259a28c14e1e0772"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoTexto.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoTexto.cs",
+      "raw_sha256": "cb2742524f5e75187694f36a0ea885ff0ff07ddc93ebadc1052a60ff05ace470"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoComando.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoComando.cs",
+      "raw_sha256": "0731ff143a69ec4cbb9e5b1c295b990ac838b7e7b7343c9b99acf3de0870d3be"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoComandoFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoComandoFocusable.cs",
+      "raw_sha256": "1aaf3c152a1ae6dca9aae5ebbf6f6efb2d3a7e0f7fc1e5f12a7d2c04899c08b3"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoFocusable.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoFocusable.cs",
+      "raw_sha256": "110d9c30fbacaf36b8f91ffa4af373ca7ffab1f0bf20c233e57748b2cb820af8"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoLimitado.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoLimitado.cs",
+      "raw_sha256": "00607aebd122b2e46da57e5b98e0bda5d991e244074d02c26e89550b59a3adb3"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoRequired.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemInteracaoTextoRequired.cs",
+      "raw_sha256": "fd38856fe3d9fe25c8feafc31efb847ca8576e2bc3fa974e96dfa61c28b2913b"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\ItemMesaConta.cs",
+      "export_path": "ViewModels\\ItensInteracao\\ItemMesaConta.cs",
+      "raw_sha256": "9dd71851ed780c73d618acd7d18c8a83dac32cd622d172e9e4b02f5d00b317c4"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\MesaConta.cs",
+      "export_path": "ViewModels\\ItensInteracao\\MesaConta.cs",
+      "raw_sha256": "955b40010ea44a45da55763c002e68d78b969ed715334ec1a99575d8240df19e"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\PreVenda.cs",
+      "export_path": "ViewModels\\ItensInteracao\\PreVenda.cs",
+      "raw_sha256": "4f71163e4f266a64d25243a0c6b9e783e2a42f1a03d31eac69d632602774a20d"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\Recebimento.cs",
+      "export_path": "ViewModels\\ItensInteracao\\Recebimento.cs",
+      "raw_sha256": "a8c65816dd0063055abe48d484dc028a818bddf848013934fd0ee952884774b0"
+    },
+    {
+      "path": "ViewModels\\ItensInteracao\\Senha.cs",
+      "export_path": "ViewModels\\ItensInteracao\\Senha.cs",
+      "raw_sha256": "72252f733745eaae6163c6b4c7d992f7598ef29d83a905638341318d006f7051"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CartaoConvenioViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CartaoConvenioViewModel.cs",
+      "raw_sha256": "8f273631453b90e2fc044356b0aa3005cecf5b6b94ff9eca0e57e87c251e1b96"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CartaoPosRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CartaoPosRestauranteViewModel.cs",
+      "raw_sha256": "70b68451d485a246c3eb3d44247c566612e800759ca89d899b8d48f17933afe8"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CartaoPosViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CartaoPosViewModel.cs",
+      "raw_sha256": "1d65f306b91db5c8b545a2e71af9078a1dc7875202dcd8efadbb9f7ccc09fa3f"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CartaoRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CartaoRestauranteViewModel.cs",
+      "raw_sha256": "e2d56c76001beffa64a4a39b586f44e8f3fb6d27da5b96ddcfe3592403148eec"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CartaoViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CartaoViewModel.cs",
+      "raw_sha256": "3d270df6e93178059780bccd8112c9f7e4f01511fb1df49c08060c57ec3c9885"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CarteiraDigitalRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CarteiraDigitalRestauranteViewModel.cs",
+      "raw_sha256": "8bcb83baa66fb6e56d16391960426df4d78038430d7adbfbf67f87ee01468dad"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CarteiraDigitalShipayRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CarteiraDigitalShipayRestauranteViewModel.cs",
+      "raw_sha256": "91bf87a6c4df12e57c94b3c51ec3f75061dc6b645d63c9c398e0c1fa111bd89e"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CarteiraDigitalShipayViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CarteiraDigitalShipayViewModel.cs",
+      "raw_sha256": "8741c23c15d7a309f25f6693caaafdcb1c054d47e8547577113c4492b4549e8e"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CarteiraDigitalTefRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CarteiraDigitalTefRestauranteViewModel.cs",
+      "raw_sha256": "545bd13610f32d0b1933327f6abca0168b95c2cea8bfdb323173ebf1c50fa132"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CarteiraDigitalTefViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CarteiraDigitalTefViewModel.cs",
+      "raw_sha256": "0fc91d8dc1f268bb90d59c6f40882ba05572208dd88db0a360012eb73833f4ea"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\CarteiraDigitalViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\CarteiraDigitalViewModel.cs",
+      "raw_sha256": "07389610626f4324d30af6c50a8e1eb0ecc94810cd6656b3ed166f5fa9199044"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ChequeRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ChequeRestauranteViewModel.cs",
+      "raw_sha256": "91ad1ac458cf10ae7f9089cd6f18ef6431b1e599bdc62fb73d8fc57675903b6d"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ChequeViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ChequeViewModel.cs",
+      "raw_sha256": "eabd241a4221e6d2709a56d75d91dac89cd81fd48408581898a05064c5931ec0"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ConvenioFarmaciaPopularViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ConvenioFarmaciaPopularViewModel.cs",
+      "raw_sha256": "c2c1b169c0328d5c6e0c71d6a63b67c35a19de0a8ae79127b53acb18f99dd6ea"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ConvenioPbmViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ConvenioPbmViewModel.cs",
+      "raw_sha256": "7fd5346943b846f85248c5e3aa12a552f249a1b28219fa639837353a636d07d0"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\DepositoBancarioRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\DepositoBancarioRestauranteViewModel.cs",
+      "raw_sha256": "95b1298201f72aefe157248b70b0640bb9742178a527507e402a56de45b94af6"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\DepositoBancarioViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\DepositoBancarioViewModel.cs",
+      "raw_sha256": "60cc54c09a52b43bd0f3533947b1dcacf12737b5c171110ca0e4067c5c4895c8"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\DinheiroRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\DinheiroRestauranteViewModel.cs",
+      "raw_sha256": "4fe4929a12641e0d9a7a7788b12fe8d52f2a4b73418a7eb58f170499457e1cc4"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\DinheiroViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\DinheiroViewModel.cs",
+      "raw_sha256": "ba9500d727589dda22329a671cfbb9d5ce8c93b428dc4e728f1a2dfcdb8d0da3"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\DocRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\DocRestauranteViewModel.cs",
+      "raw_sha256": "b5f98e7a103dd7c566a0a68d98fe0ece006ba64b57a9f8a699cfd0ef1ea98666"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\DocViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\DocViewModel.cs",
+      "raw_sha256": "c668c9adf0200fc849317a9e4540fb2ac64fb2b0582b03b24ebe76fd7d5ccd42"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\PagamentoPosteriorRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\PagamentoPosteriorRestauranteViewModel.cs",
+      "raw_sha256": "31f424517af0c79aa76e41a37d2b56ad7fe691f0cd50f37fee9e9c6730b5f206"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\PagamentoPosteriorViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\PagamentoPosteriorViewModel.cs",
+      "raw_sha256": "7691ffbe08336763d6ff8a4c5bb65631448b6bde359c54f33883a059d83aa648"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\PrazoRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\PrazoRestauranteViewModel.cs",
+      "raw_sha256": "6f4a3d11e95e653457493b16cec7e13bbe565395a63fef3dc9a1554bc75ad55a"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\PrazoViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\PrazoViewModel.cs",
+      "raw_sha256": "1f69f48136401d35cedabb298858cf671a0390bb628187acdc6eec615d35e1ab"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\TedRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\TedRestauranteViewModel.cs",
+      "raw_sha256": "f953640b88968961680cb01136d7b66667bbd50b77bde624a0c85f54e7e7940d"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\TedViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\TedViewModel.cs",
+      "raw_sha256": "edc5260510d77830e57e4fb93978a921bce1c387295de2ebc77b7a169321a7ad"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\TerminalPosRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\TerminalPosRestauranteViewModel.cs",
+      "raw_sha256": "6abde0d7bd091adde87924d67fd8f2eb83d3a40ecea49bbe54b304b17d4abd1b"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\TerminalPosViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\TerminalPosViewModel.cs",
+      "raw_sha256": "1331ebd5d7553ef5d9f525feabc7d303efa3e0ca500eddcc78ee51ee23482377"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ValeDetalhadoRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ValeDetalhadoRestauranteViewModel.cs",
+      "raw_sha256": "bb4a04e52577659e026b9768b664fde7790806478db96b9e9309f7908b493c68"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ValeDetalhadoViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ValeDetalhadoViewModel.cs",
+      "raw_sha256": "4755eb3caa50e771ef3ff4b668f4affeb5436c0dfb23ecff1d043772b75b84ee"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ValePresenteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ValePresenteViewModel.cs",
+      "raw_sha256": "bea542cc226f1612d6d8a35439513f5a7ca3f0378f2137db6995b3cb93e776a6"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ValeRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ValeRestauranteViewModel.cs",
+      "raw_sha256": "c64e9d277706c9f5b7470a8c95ca86bcaafa4702853d566e2b4f5c1d003f3617"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ValeTrocaRestauranteViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ValeTrocaRestauranteViewModel.cs",
+      "raw_sha256": "4cd120604fa66c1b1b2ab07243f1ff93c04dbad72f580852de22e0dcda333fec"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ValeTrocaViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ValeTrocaViewModel.cs",
+      "raw_sha256": "e64f319067494279e402742023cccef874c9cb5886c673838fdefa99124f3d91"
+    },
+    {
+      "path": "ViewModels\\ItensPagamentos\\ValeViewModel.cs",
+      "export_path": "ViewModels\\ItensPagamentos\\ValeViewModel.cs",
+      "raw_sha256": "e472d0023f9de0a9f031c476038452864e38257003bcc8410acddae9b90f65b8"
+    },
+    {
+      "path": "ViewModels\\ITerminalPos.cs",
+      "export_path": "ViewModels\\ITerminalPos.cs",
+      "raw_sha256": "813be051a928a5d1f4d36ba209502eda360d2feab02052fa08afea8f94d5ad3b"
+    },
+    {
+      "path": "ViewModels\\IVale.cs",
+      "export_path": "ViewModels\\IVale.cs",
+      "raw_sha256": "2eebf3a6a0e305e9fb969402a941e9d30971ef61d2046dfe4fcc44cf9ffa12ca"
+    },
+    {
+      "path": "ViewModels\\IValeDetalhado.cs",
+      "export_path": "ViewModels\\IValeDetalhado.cs",
+      "raw_sha256": "b858ea9888258f419976fd2f358e25f631e309bdbcc9931d8bdc10642a2170e7"
+    },
+    {
+      "path": "ViewModels\\IValePresente.cs",
+      "export_path": "ViewModels\\IValePresente.cs",
+      "raw_sha256": "a1e9887ebdc4df40c243742e4f300be68433e38b1c78b6ed451dab549cef29d1"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\AutoAtendimentoPedidoMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\AutoAtendimentoPedidoMensagemPromocional.cs",
+      "raw_sha256": "febe648f6773211c4f8ba58ded1c50376bd43ce9e42260c34ded08ba1b0ce4ed"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\DavMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\DavMensagemPromocional.cs",
+      "raw_sha256": "59899d195d0249c64981d186169bf797e80fbcb5fb7f4db57725a23099f780b8"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\DavOsMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\DavOsMensagemPromocional.cs",
+      "raw_sha256": "7a097d235170474a613accc0709622762d18b83ca995dfe0bbb7920aaf5acb39"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\DescontoPbm.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\DescontoPbm.cs",
+      "raw_sha256": "589a26044c3884bf02765a7db6aeff10b702f656ec0bbce2d0d8fa29923e77fa"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\DistritoFederalMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\DistritoFederalMensagemPromocional.cs",
+      "raw_sha256": "6b978b12493372a50f71ed1731f71718a3bf94338f48ee06cbc33b0d5149315c"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\MensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\MensagemPromocional.cs",
+      "raw_sha256": "94f252968c1627e6e0d450987999c4e8507d1bac011f9e84f39be898664213d4"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\MesaContaMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\MesaContaMensagemPromocional.cs",
+      "raw_sha256": "6409e5d67dc5814ee02d6fde442776f0be37ebf02d56694799a5ff028245ca95"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\NotaManualMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\NotaManualMensagemPromocional.cs",
+      "raw_sha256": "bb696f3c8e4417f3f7dfff34089d71cb1a5e34d39d3c1d862dd855bf8346c253"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\NotaManualPostoMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\NotaManualPostoMensagemPromocional.cs",
+      "raw_sha256": "43fefbe82e30f69079c70ca47778f1bf767ec558a4d11f0a27782db89cb0573f"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\ObservacaoMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\ObservacaoMensagemPromocional.cs",
+      "raw_sha256": "790f5a870784f97ad297ca69edeab6ba0fc3051c8bd7332ce5b718628e1b7b34"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\ObservacaoPostoMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\ObservacaoPostoMensagemPromocional.cs",
+      "raw_sha256": "f40bfd28b1ccd5b5012aec1f162141db31a8aac16d5e83e2836207232c951ce4"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\OperadorMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\OperadorMensagemPromocional.cs",
+      "raw_sha256": "3b874e09bbfd5318d3859c3cfd348a05b4b248b145bb2d87c421149448fe05a5"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\ParaibaLegalMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\ParaibaLegalMensagemPromocional.cs",
+      "raw_sha256": "a18a9d55bcc0e0a16a0fc4c12a9f181428aba71211d46ec07d95be1fcc3ba14e"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\PreVendaMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\PreVendaMensagemPromocional.cs",
+      "raw_sha256": "61d7ba63b4c91cef901994324b95e1299fe638861b4eff8851a0a1b56cd8eb11"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\ReferenciaSistemaAbastecimentoMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\ReferenciaSistemaAbastecimentoMensagemPromocional.cs",
+      "raw_sha256": "4b0c13a2f7072ae48415879aa4ec9c0c5852f3ff535c41785b840f88fb44e32f"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\RioDeJaneiroMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\RioDeJaneiroMensagemPromocional.cs",
+      "raw_sha256": "45cccc2c4c9cfb50c057822f1b2ddc322bc69969360e28845c2350ce336c6a3d"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\SenhaPedidoMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\SenhaPedidoMensagemPromocional.cs",
+      "raw_sha256": "91b0110827cbfd59132c15b0afe5852a6bfbe8a66c8d0911459d977110e737ee"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\TefMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\TefMensagemPromocional.cs",
+      "raw_sha256": "8b52772d1002c3dfd395d2cb94fdc8e6517beb0fb7623648735bc41e90388568"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\TextoLivreMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\TextoLivreMensagemPromocional.cs",
+      "raw_sha256": "07a1c68ccdb94b4cfd7880b4315341d7e00c4b5c82d79734a2c7cf7711a3ce57"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\TributoMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\TributoMensagemPromocional.cs",
+      "raw_sha256": "444c2c5f7b5418a593e580fea47e9eeeb4a4a290766b86ea7b913cc8bc67cc68"
+    },
+    {
+      "path": "ViewModels\\MensagensPromocionais\\VendedorMensagemPromocional.cs",
+      "export_path": "ViewModels\\MensagensPromocionais\\VendedorMensagemPromocional.cs",
+      "raw_sha256": "4b791a276d46b920412e1fb6cb7181ec438b5b2638c3dc0a06e51115d3dd7159"
+    },
+    {
+      "path": "ViewModels\\ModoFuncionamentoBase.cs",
+      "export_path": "ViewModels\\ModoFuncionamentoBase.cs",
+      "raw_sha256": "f42cb698f4fdf968f673b54711e9364ce4efae1862a50742a9d77c6ebcfce081"
+    },
+    {
+      "path": "ViewModels\\ModoFuncionamentoCupomFiscal.cs",
+      "export_path": "ViewModels\\ModoFuncionamentoCupomFiscal.cs",
+      "raw_sha256": "ff221441d8b6286d7c607053c35a50c8cdfbf187bc5c52f41f2c19a26e81309e"
+    },
+    {
+      "path": "ViewModels\\ModoFuncionamentoMFe.cs",
+      "export_path": "ViewModels\\ModoFuncionamentoMFe.cs",
+      "raw_sha256": "9c536c4e5d3deb32f600e2f0ace746fadf02ac1e506f80c81b1c40121faa7ec0"
+    },
+    {
+      "path": "ViewModels\\ModoFuncionamentoNfce.cs",
+      "export_path": "ViewModels\\ModoFuncionamentoNfce.cs",
+      "raw_sha256": "1a5fcc72000ad1d09ff35f540ae7075ef91f8d2aa42c6f53d39a33a4834cf89d"
+    },
+    {
+      "path": "ViewModels\\ModoFuncionamentoNotaManual.cs",
+      "export_path": "ViewModels\\ModoFuncionamentoNotaManual.cs",
+      "raw_sha256": "b411c3e0ba074cb6caadca44db46693d1acb736c1288ce9e2507874eb9d34143"
+    },
+    {
+      "path": "ViewModels\\ModoFuncionamentoNotaManualPosto.cs",
+      "export_path": "ViewModels\\ModoFuncionamentoNotaManualPosto.cs",
+      "raw_sha256": "1181bfc6c4b19c68790b9cb4b1f0e39b48c45214a5d203379b20f59cf1b10a17"
+    },
+    {
+      "path": "ViewModels\\ModoFuncionamentoPafNfce.cs",
+      "export_path": "ViewModels\\ModoFuncionamentoPafNfce.cs",
+      "raw_sha256": "1490bc5f5fc41b9738281c90aa2ddd5f1dc4ea96bd6398770267f79bc3018d78"
+    },
+    {
+      "path": "ViewModels\\ModoFuncionamentoRegistroVenda.cs",
+      "export_path": "ViewModels\\ModoFuncionamentoRegistroVenda.cs",
+      "raw_sha256": "2c104771734344f9dc79177603937e391a945c807f9136d30b6e8f02334492a9"
+    },
+    {
+      "path": "ViewModels\\ModoFuncionamentoSat.cs",
+      "export_path": "ViewModels\\ModoFuncionamentoSat.cs",
+      "raw_sha256": "4780d4970528368a981e32b1b47a3da598a3eebdfc72471d0d03761baeb027c2"
+    },
+    {
+      "path": "ViewModels\\Moeda.cs",
+      "export_path": "ViewModels\\Moeda.cs",
+      "raw_sha256": "e42c64c58405cd4dca68065d6d88be0f2eb0d3904cfda36c402dc29d42937aa8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\AbastecimentoValidoItemInteracao.cs",
+      "export_path": "ViewModels\\Paineis\\AbastecimentoValidoItemInteracao.cs",
+      "raw_sha256": "f740a069598c23f8b6cab6a854f187d9903094412f13c25fc79ecfe4f5632352"
+    },
+    {
+      "path": "ViewModels\\Paineis\\Acao.cs",
+      "export_path": "ViewModels\\Paineis\\Acao.cs",
+      "raw_sha256": "1c9df25f13e11996a84eac01a6fc28329d5f97157b50aa50f36347468d522c8a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\AntesRegistrarDescontinuidadeEncerrante.cs",
+      "export_path": "ViewModels\\Paineis\\AntesRegistrarDescontinuidadeEncerrante.cs",
+      "raw_sha256": "d7cac14d9b80a5b23e9955bbe8d30bbd1069c8a38bda57cd7d4a060c8237a70f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\BackgroundWorkerArgument.cs",
+      "export_path": "ViewModels\\Paineis\\BackgroundWorkerArgument.cs",
+      "raw_sha256": "bd9ce4cbdc7469b41a275a7db8bea63f486145f8eefb943af415d4768b1aba41"
+    },
+    {
+      "path": "ViewModels\\Paineis\\BicoStatusViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\BicoStatusViewModel.cs",
+      "raw_sha256": "b49c48a0921590cb3e705a04200c81e991a85b8b2797fbc29acf9a091dc80361"
+    },
+    {
+      "path": "ViewModels\\Paineis\\Cabecalho.cs",
+      "export_path": "ViewModels\\Paineis\\Cabecalho.cs",
+      "raw_sha256": "8f065b01a63c53bb7a0ea1f10dfc25af5ef8c93b1a226832c6c4bf5b8d1dc89c"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoAdministradoraLocal.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoAdministradoraLocal.cs",
+      "raw_sha256": "c56867fb4d31bf0ff435bd9bfc20f82d5c30f78bed53764280e66307feadf568"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoConsumidor.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoConsumidor.cs",
+      "raw_sha256": "aaadd73fc69c9bb643dda38f2ea9f08010285a5b7fb73d2cd73ab86b0e744bfd"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoDocumentoAuxiliarVenda.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoDocumentoAuxiliarVenda.cs",
+      "raw_sha256": "4d8f8b41705409734da0dc2a8e7430df73201c2f60d2bc5dc789f886cee1bbf8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoDocumentoFiscalEletronico.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoDocumentoFiscalEletronico.cs",
+      "raw_sha256": "7481ea3c60d5d8d6f25974dc01138a44239069a0eb1cdf2efbe32831947cb716"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoFarmaciaPopular.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoFarmaciaPopular.cs",
+      "raw_sha256": "0603421526113bd4327f04f171dbdd9f0e88149c928a578241a3fd9685af011c"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoKit.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoKit.cs",
+      "raw_sha256": "2a9e95b36e4892a0354cf9fb17254077d7bc30d2a0959ba7f8910c0c0ddbab25"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoPbm.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoPbm.cs",
+      "raw_sha256": "95ba1d279b26abda0ebb0b48fb81d7007615e7be0715b196f26475d0f4e201a8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoPedidoIfood.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoPedidoIfood.cs",
+      "raw_sha256": "fe2cb0f2e88129779d662498026b788d399769b579549100d08d689435e12dc9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoProdutoServico.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoProdutoServico.cs",
+      "raw_sha256": "89a18774e0000b8af79587991745143204af2f1a9e2ffa4a3ef7f2f5578d0a91"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoRedePos.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoRedePos.cs",
+      "raw_sha256": "4db95d16d6dab9b87acdb32e425e2ca16fae4ca673cc064888bdafa8b5cce1e5"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoRequisicaoExterna.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoRequisicaoExterna.cs",
+      "raw_sha256": "326be198b689130520610718766790f46bf1bc52b3d22d3a26cbf8623496d478"
+    },
+    {
+      "path": "ViewModels\\Paineis\\CabecalhoResumoNfceTurno.cs",
+      "export_path": "ViewModels\\Paineis\\CabecalhoResumoNfceTurno.cs",
+      "raw_sha256": "1d9df24bc00fe0034ea15f87120416f9d45787626f0ed00b609c27293eb2624d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DadosConsumidorRelatorioCarne.cs",
+      "export_path": "ViewModels\\Paineis\\DadosConsumidorRelatorioCarne.cs",
+      "raw_sha256": "d368dab5f4df7314ed7c873c050a7ab91e5a6061b185431302a54a46d6056f17"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DadosParcelaRelatorioCarne.cs",
+      "export_path": "ViewModels\\Paineis\\DadosParcelaRelatorioCarne.cs",
+      "raw_sha256": "a7206af5d1564f92c994d4e7e6bb2fc84b52133fbdc2f9da909f34d6339ee554"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DadosPortalDrogariaApi.cs",
+      "export_path": "ViewModels\\Paineis\\DadosPortalDrogariaApi.cs",
+      "raw_sha256": "a33c3c8f702b9453c15eec01ab80fbc12489546e1083d1a9be6bc1eb6a3a85a3"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DescontinuidadeEncerranteItemInteracao.cs",
+      "export_path": "ViewModels\\Paineis\\DescontinuidadeEncerranteItemInteracao.cs",
+      "raw_sha256": "b77dbf21635f567706128c65666b019b1b93714fef96d2e383f49c4415ac138c"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DocumentoAuxiliarVendaLocal.cs",
+      "export_path": "ViewModels\\Paineis\\DocumentoAuxiliarVendaLocal.cs",
+      "raw_sha256": "31c173ba617d51ce8508dc9ed08f932bfc8dfe3420477097e5de7491567f4bd1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DocumentoFiscalAberto.cs",
+      "export_path": "ViewModels\\Paineis\\DocumentoFiscalAberto.cs",
+      "raw_sha256": "650c6ec3c2af45a41a6eec9322649df16fbf004cf218d6e2bb7f19cad0e444e1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DocumentoFiscalCarregando.cs",
+      "export_path": "ViewModels\\Paineis\\DocumentoFiscalCarregando.cs",
+      "raw_sha256": "8c0702d51f092c769de7f159b003ac7523f115f0ea1c9da4a109a1b7cac4bbd2"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DocumentoFiscalEletronicoLocal.cs",
+      "export_path": "ViewModels\\Paineis\\DocumentoFiscalEletronicoLocal.cs",
+      "raw_sha256": "044e663f83ad6770d1b7cbe3d3cf2f621f0a6850f2bec85daa7ba2873cafc079"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DocumentoFiscalEmissorAviso.cs",
+      "export_path": "ViewModels\\Paineis\\DocumentoFiscalEmissorAviso.cs",
+      "raw_sha256": "5b4af3ff910149042b679e535a25a42d20cb1f6d7a22e01bc61d2b2f13b7b510"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DocumentoFiscalEmissorEmErro.cs",
+      "export_path": "ViewModels\\Paineis\\DocumentoFiscalEmissorEmErro.cs",
+      "raw_sha256": "7d6ad7500f9e1c9e5f224a7e5f843aff150b59cdcf50417da07aed7d9f8abc51"
+    },
+    {
+      "path": "ViewModels\\Paineis\\DocumentoFiscalFechado.cs",
+      "export_path": "ViewModels\\Paineis\\DocumentoFiscalFechado.cs",
+      "raw_sha256": "38140eb0feb96ad122b56f8d7a3d44655ce2d38d8a97725ca4b7bb7cf8a1f28f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\Endereco.cs",
+      "export_path": "ViewModels\\Paineis\\Endereco.cs",
+      "raw_sha256": "6c4ca3da2ad5850c26fbce6f9aba94f18d490339591ff7fb76674f2005933c88"
+    },
+    {
+      "path": "ViewModels\\Paineis\\EstadoDocumentoFiscalBase.cs",
+      "export_path": "ViewModels\\Paineis\\EstadoDocumentoFiscalBase.cs",
+      "raw_sha256": "1c62c62c9c0599949881656ba72bfbbdae6920051eb95412f47164dcb9d686f1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\EstoqueFisicoCombustivel.cs",
+      "export_path": "ViewModels\\Paineis\\EstoqueFisicoCombustivel.cs",
+      "raw_sha256": "c67da341a694d6eb74cfcdd818d014a6eed0ce7f2e8fa5407121cb497ac4a034"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ICabecalho.cs",
+      "export_path": "ViewModels\\Paineis\\ICabecalho.cs",
+      "raw_sha256": "b35097d97a877bd40fd82df3aa8799502b8066aca327a2f3cb014b7f132695ed"
+    },
+    {
+      "path": "ViewModels\\Paineis\\Imagem.cs",
+      "export_path": "ViewModels\\Paineis\\Imagem.cs",
+      "raw_sha256": "4958ecebb0bfb01b5c1726535ae41e6452d71bd080a014a50d6db1c1d1cf41df"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ImpressaoTurnoService.cs",
+      "export_path": "ViewModels\\Paineis\\ImpressaoTurnoService.cs",
+      "raw_sha256": "9d8dd26b95c426d69a986d68bbc8e23b264b5f3db6c9dd86fcfb67067d11ede3"
+    },
+    {
+      "path": "ViewModels\\Paineis\\InformacaoBuscaFarmaciaPopular.cs",
+      "export_path": "ViewModels\\Paineis\\InformacaoBuscaFarmaciaPopular.cs",
+      "raw_sha256": "e25cc56ac84f153576f5251e6427adcd1b998b135603e9563456548d55ca51dc"
+    },
+    {
+      "path": "ViewModels\\Paineis\\InformacaoPainelResumoNfceTurno.cs",
+      "export_path": "ViewModels\\Paineis\\InformacaoPainelResumoNfceTurno.cs",
+      "raw_sha256": "958ebd7e8dec24b55d62b2a285bb8a0a87d8753d3c788a9a631c0a35a09f0380"
+    },
+    {
+      "path": "ViewModels\\Paineis\\IQuebraContinuidadeEncerrante.cs",
+      "export_path": "ViewModels\\Paineis\\IQuebraContinuidadeEncerrante.cs",
+      "raw_sha256": "96665830a52a4dd2aa42cb5ae3f52f72637e6dca98257018d6ce9e1fda995298"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ItemComissaoLocal.cs",
+      "export_path": "ViewModels\\Paineis\\ItemComissaoLocal.cs",
+      "raw_sha256": "057a1a9f8fcd1345b57e142204e167d53863c62a2a658637caa5e6ba43c09630"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ItemDivisaoConta.cs",
+      "export_path": "ViewModels\\Paineis\\ItemDivisaoConta.cs",
+      "raw_sha256": "889ef00bc21157ca7ec5c9a9e5df1d87fc3ffd046829b0d135ce171c1431c3ac"
+    },
+    {
+      "path": "ViewModels\\Paineis\\KitLocal.cs",
+      "export_path": "ViewModels\\Paineis\\KitLocal.cs",
+      "raw_sha256": "1693f57d8175bba175a047dac550572165571e5d75033760e0efad97bbfa5804"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ListaCabecalho.cs",
+      "export_path": "ViewModels\\Paineis\\ListaCabecalho.cs",
+      "raw_sha256": "34207d9434c46797ff84236f6c59490f2e2ab05de70fde682a2ece31e076edfe"
+    },
+    {
+      "path": "ViewModels\\Paineis\\MotivoDescontinuidadeEncerrante.cs",
+      "export_path": "ViewModels\\Paineis\\MotivoDescontinuidadeEncerrante.cs",
+      "raw_sha256": "054f37ef5d56751d4aba2cf4938bd2b7066b55d3c9c9e05d7dce066d7509bc64"
+    },
+    {
+      "path": "ViewModels\\Paineis\\MotivoDescontinuidadeEncerranteSubstituicaoPlaca.cs",
+      "export_path": "ViewModels\\Paineis\\MotivoDescontinuidadeEncerranteSubstituicaoPlaca.cs",
+      "raw_sha256": "1ba8d617d2a782fe147cf3d0a2809b2e4846565e7066429d756aff80cf1ed54b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\NotaManualAbastecimento.cs",
+      "export_path": "ViewModels\\Paineis\\NotaManualAbastecimento.cs",
+      "raw_sha256": "1c9d96cb99813ff5c67c505d5c61c66dc5c66d5ffdf15f77d9b88f5f52de2e32"
+    },
+    {
+      "path": "ViewModels\\Paineis\\NotaManualItemInteracao.cs",
+      "export_path": "ViewModels\\Paineis\\NotaManualItemInteracao.cs",
+      "raw_sha256": "e1d762d2399c36b311a41233afe413d2b9607d5229c8bd06a0cfbfc6c11b3ed0"
+    },
+    {
+      "path": "ViewModels\\Paineis\\NotaManualVolumeViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\NotaManualVolumeViewModel.cs",
+      "raw_sha256": "d961930cf7c947606ffd0b378648adcc5c9f29a581711617462a2c57100824a8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\NotificacaoComunicacaoAcao.cs",
+      "export_path": "ViewModels\\Paineis\\NotificacaoComunicacaoAcao.cs",
+      "raw_sha256": "33b60a90cfefc2fcf1c416be47025a26e1e55895ab4575aaf338b6a31abec605"
+    },
+    {
+      "path": "ViewModels\\Paineis\\Operadora.cs",
+      "export_path": "ViewModels\\Paineis\\Operadora.cs",
+      "raw_sha256": "815af5b9ebbd8fd3f2379dab61e6a76dadd841b591f90e46f20ea3916f670210"
+    },
+    {
+      "path": "ViewModels\\Paineis\\OperadoraFactory.cs",
+      "export_path": "ViewModels\\Paineis\\OperadoraFactory.cs",
+      "raw_sha256": "ac1f220397fe2e7b82e2e8dd40558f4f6c10fd654323e515a8025dc14d42ac10"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelAberturaTurno.cs",
+      "export_path": "ViewModels\\Paineis\\PainelAberturaTurno.cs",
+      "raw_sha256": "3c836a286c54b944acfbb380ae7a835037476ed6420ec626dd8a17edcc89e3e9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelAbrirJornada.cs",
+      "export_path": "ViewModels\\Paineis\\PainelAbrirJornada.cs",
+      "raw_sha256": "01e6652f7d8380ef810712d2fe7d4bac11332ae528df4d9838f298b2fe8ba219"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelAdicionaisPontoVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelAdicionaisPontoVenda.cs",
+      "raw_sha256": "ea0db78a601c4eb0e16ee991bbf921293196d6718f14f3d856262eff281377f2"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelAdicionarMesaContaCreditoCliente.cs",
+      "export_path": "ViewModels\\Paineis\\PainelAdicionarMesaContaCreditoCliente.cs",
+      "raw_sha256": "9d1adddcb3bfe77c7ad74ad0b0251d3c6cd0f11cf734e917109ee0d58820576e"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelAfericaoManual.cs",
+      "export_path": "ViewModels\\Paineis\\PainelAfericaoManual.cs",
+      "raw_sha256": "e93633b9ccb93fdcf7909f6fa82c6d9f11516e5684926a4c835ed731059e610b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelAliquota.cs",
+      "export_path": "ViewModels\\Paineis\\PainelAliquota.cs",
+      "raw_sha256": "22f071e9dd9ac1aa6c24c7464baea241628ebf695c6b12f41b78b11767059812"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelArquivoAtoCotepe1704.cs",
+      "export_path": "ViewModels\\Paineis\\PainelArquivoAtoCotepe1704.cs",
+      "raw_sha256": "c9ba0e1806078932cf20764be67efbf240f19720b0843e8ee0f81b876509aa04"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelAtalho.cs",
+      "export_path": "ViewModels\\Paineis\\PainelAtalho.cs",
+      "raw_sha256": "6f85f0dc0c48a3b7fb682b5d011a10a5c1f1405948e50cc975953b7bfbfeff04"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBase.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBase.cs",
+      "raw_sha256": "6a76b0f1dd5720542e865947a6d6e449ecfa79f2a8495d68e6a05b74838a8ca7"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBicosValor.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBicosValor.cs",
+      "raw_sha256": "bb72f67e5488108190d2700a6b9b538217a52893955bd7a027031ab19dbcdaef"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaAdministradoraCartao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaAdministradoraCartao.cs",
+      "raw_sha256": "3228c4a2faa092007a9072f71ffcc7a51d0e3380158642675d40107ee2f4b385"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaBase.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaBase.cs",
+      "raw_sha256": "e0fccf7b10e4d00878df402196c22cee13fa1de4000962851ac90be2cf6c4802"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaCarteiraDigital.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaCarteiraDigital.cs",
+      "raw_sha256": "86926469048993465ce21115675657e47935c56fcf4caf0c5cd82c6358dfd97f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaCarteiraDigitalShipay.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaCarteiraDigitalShipay.cs",
+      "raw_sha256": "9b68aac4236bd85e1027f8f9d80fdfb0c2f4f9d7cdb5ca8b6d1110ad5b4159b1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaConsumidor.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaConsumidor.cs",
+      "raw_sha256": "99cdd6d2980d91b76bd5cb38ab90a63fa25082b9be38367d6dc37622e323fb32"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaConsumidorCheque.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaConsumidorCheque.cs",
+      "raw_sha256": "6724b850bb20ea7f3c0bef30808f9cc69f049fe2922822f4f559327e575e663f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaConsumidorGenerico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaConsumidorGenerico.cs",
+      "raw_sha256": "2a76bcc15b71400c9c3899c89229d46d30e53be7054c2d6d2bc1327a13d58a4f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaConsumidorObservacaoPosto.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaConsumidorObservacaoPosto.cs",
+      "raw_sha256": "bf08ceff69b69ae5139a2b5e8761500ea1b04621af74dde86409880e121e7155"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaConsumidorRecebimento.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaConsumidorRecebimento.cs",
+      "raw_sha256": "49f4295443595b58a4ad0ac93ba8ff3844daf0b7a9ed5b599028108c5805ad9c"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaCupomFiscal.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaCupomFiscal.cs",
+      "raw_sha256": "ec01950d8eecd372120249a7c2c738f09d52e389f20f85d761a3c4f0a047a3dc"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaCupomFiscalEletronico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaCupomFiscalEletronico.cs",
+      "raw_sha256": "e4175e3a99f9a3f849fe8836b8e641dd4721ed5978035cb73fa73d078f5ea9df"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaDocumentoAuxiliarVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaDocumentoAuxiliarVenda.cs",
+      "raw_sha256": "0b239b497e935953949114f5c5586c40bfeec21216c389e7bc9c0a892920f0be"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaFarmaciaPopular.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaFarmaciaPopular.cs",
+      "raw_sha256": "151c407765a371a9861a4f790268ee662a5d1b410d1652a4964bbaa92a574b8f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaKit.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaKit.cs",
+      "raw_sha256": "fa936c416f59472609cd8453af884d7817108bb292c640e94197abe9a2117058"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscalPedidoIfood.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscalPedidoIfood.cs",
+      "raw_sha256": "605781c08243ae0b4425744afb19268cc6592f5bb788aa890714fdb61484eebb"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaMeioPagamentoTerminalPos.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaMeioPagamentoTerminalPos.cs",
+      "raw_sha256": "f9c05bc7cfddaa1df4910e62f22e16f7b0952be8f790e739200c3a1604a4f82a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaNotaFiscalConsumidorEletronica.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaNotaFiscalConsumidorEletronica.cs",
+      "raw_sha256": "5e011adc362450fe5faff65f8cec7c455436e1e27c0a417b3f43bb3cb064b47d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaNotaFiscalEletronica.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaNotaFiscalEletronica.cs",
+      "raw_sha256": "e8d773b6c860e597b2080d1e214909014b9780d13d46460a3653dc9814cb351f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaPreVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaPreVenda.cs",
+      "raw_sha256": "157f5bf9bf579888d4b2d30444aab2c55c8d8b3709d2923d458a4115d4e3a820"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaProdutoServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaProdutoServico.cs",
+      "raw_sha256": "334aabde53aa6830c0b7da3f90a6509e959aecfacb03220be3a34a3e4e8500ba"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaRecebimento.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaRecebimento.cs",
+      "raw_sha256": "2b883a038df8e1182bb035dfd712182889c2f427ef0aac5a6416b7a68bd82417"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaRedePos.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaRedePos.cs",
+      "raw_sha256": "20d8277c4e4bcd24326df25170fdcd0ac9d4537a1736c42331c48204983ed169"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaRegistroVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaRegistroVenda.cs",
+      "raw_sha256": "a4cc35dd04b02e47dab08a98853fb6f057c500dca08edda5c15ebb5f2ca7640a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaTabelaPreco.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaTabelaPreco.cs",
+      "raw_sha256": "1c3304f1d981215564480790b44de59cd45c06c32272057805a5dbb8896966d1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaTaxas.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaTaxas.cs",
+      "raw_sha256": "ae4517dc70a148c840ad4a84ba1d57a6729da5a0aed8f8a1959d0537221ff12d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaTaxasCarteiraDigital.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaTaxasCarteiraDigital.cs",
+      "raw_sha256": "0c3bd059ece3f5c333513946ca3a3bafa9418c1f26ab204fb3930f1f1203b7b4"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaTicket.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaTicket.cs",
+      "raw_sha256": "f18e377dd8c5454f78ffc329686dcabc0d37041a7fda75acd83305aa61badbc6"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaTipoDeVale.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaTipoDeVale.cs",
+      "raw_sha256": "40067005ae7712f5950b586b7108b949fa657a5e8385e3cf62a9c0384bfe8167"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaValePresente.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaValePresente.cs",
+      "raw_sha256": "10b7c7f31177328c2f90fa8dfbbd1d917b3e30b53bae574956c1e7d858be703e"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaVendaPausada.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaVendaPausada.cs",
+      "raw_sha256": "db66d6f93a39803431a10e4698bc5aa31cfb1b610b6af38f2bb92aa3a314dc28"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelBuscaVendedor.cs",
+      "export_path": "ViewModels\\Paineis\\PainelBuscaVendedor.cs",
+      "raw_sha256": "8ee9994e53a0ce8b70716429a3e0584d11da3bdcc8a342e4722248ea515c0711"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelCardapioAdicionaisPontoVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelCardapioAdicionaisPontoVenda.cs",
+      "raw_sha256": "2e1794be8fe8186b53a5dc50f0baea8f803d68d90165f58ba827589159058576"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelCardapioPontoDeVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelCardapioPontoDeVenda.cs",
+      "raw_sha256": "0cbaf8431705985ac32f4fe593559760bb83cecb2d7c0ea82cdc960aea5896ea"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelCartaoConvenio.cs",
+      "export_path": "ViewModels\\Paineis\\PainelCartaoConvenio.cs",
+      "raw_sha256": "74fa9650cc616f03d196bda1eccc429086fa277fdf8740886b39c12aed52dc95"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelCatalogoGrupo.cs",
+      "export_path": "ViewModels\\Paineis\\PainelCatalogoGrupo.cs",
+      "raw_sha256": "1caef1a27dc227c45366d1c388c27f81c2614f63ff331ac9dbff70b42f17d725"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelCatalogoProdutoServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelCatalogoProdutoServico.cs",
+      "raw_sha256": "4e93cc35ad4063b6895cc747deff89363f5a55649b02c048828eb748583be2d9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelChamarSenha.cs",
+      "export_path": "ViewModels\\Paineis\\PainelChamarSenha.cs",
+      "raw_sha256": "26904877d70a368efe3206b6abc1edf370970cc7c4ad119fcdb811e6e851aa80"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelCheque.cs",
+      "export_path": "ViewModels\\Paineis\\PainelCheque.cs",
+      "raw_sha256": "a49fbef9ddbb7ae36e4fa43d4c586d678ea7127d8cd1ab917f75560b8ebef371"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelComponentesPontoVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelComponentesPontoVenda.cs",
+      "raw_sha256": "1cfcc273a093f651f021059e2aa7af97ac652adb3672644fc1cb811c2a3d9e7f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelConferencia.cs",
+      "export_path": "ViewModels\\Paineis\\PainelConferencia.cs",
+      "raw_sha256": "90c00363e751f0f5148644a7128c5e2f4a6569ac19341b3460af73079a4f76be"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelConsultaAutorizacaoPbm.cs",
+      "export_path": "ViewModels\\Paineis\\PainelConsultaAutorizacaoPbm.cs",
+      "raw_sha256": "c91e596dc691ac3b38e7c6b5e93866e49110464271796983ed1d33295f1ad1d8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelConvenio.cs",
+      "export_path": "ViewModels\\Paineis\\PainelConvenio.cs",
+      "raw_sha256": "96ed3518ee35f0fd8a2af00f8aafa1068ef77387554981913474c687443dbf3e"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDocumentoFiscal.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDocumentoFiscal.cs",
+      "raw_sha256": "0a0347860a4def5761cd6e64a66142bd48b042096c66dc3a8203d9e6ccaf1eda"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEspecie.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEspecie.cs",
+      "raw_sha256": "0d6e18a854cbcf79eac0b8c92bb189b1d744f7def8d0e3cf051f698734cf0e45"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEspelhoMemoriaFitaDetalhe.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEspelhoMemoriaFitaDetalhe.cs",
+      "raw_sha256": "dadf9c7dd33e079fe326a13023d54bc2cf876a3c5334ec0ded983abc77b9889f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoBicos.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoBicos.cs",
+      "raw_sha256": "1de1a50db1f8b0a37d545cf1f2a73a8f4b6d15e569a34e6a1e7992e6564823b6"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoComercio.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoComercio.cs",
+      "raw_sha256": "35d9ada049f7fa690e61ab4fd1cb4cb9de62ac26d8d3d50591b3cf158f092a43"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoPosto.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoPosto.cs",
+      "raw_sha256": "2a803209f9eb59b50255f8a726b8a12c16d24ddc0290191eb889b96e87df8a62"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoQrCode.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoQrCode.cs",
+      "raw_sha256": "3990640187aeb95dfe0d2a55573cbecf5085b623f4a9c59eae8f0d268277ddd9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoTanques.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoTanques.cs",
+      "raw_sha256": "25337df3d4a319d16d6ab1a90de455e9379bab52be34b7f756f3c75ad9fd7d72"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoTotalizacao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoTotalizacao.cs",
+      "raw_sha256": "64e017a8fa938e45216ffe6dd382847ecdba935fe3405401fe97501e624ab508"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEstoque.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEstoque.cs",
+      "raw_sha256": "a83402c7855b6d1133266e1d3a5b67a3bd52cdab9422d597220a8fc556a2730f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEstoqueFisicoCombustivel.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEstoqueFisicoCombustivel.cs",
+      "raw_sha256": "f6465762a71ca16ae35075395dc11ecc704fd4120a19f022a48349c0d3e8a9e1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEstornarMesaContaCredito.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEstornarMesaContaCredito.cs",
+      "raw_sha256": "96765286f9063842b037fa8acde9420bba05c19e264da70a2039939c43b49f98"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelFechamentoTurno.cs",
+      "export_path": "ViewModels\\Paineis\\PainelFechamentoTurno.cs",
+      "raw_sha256": "7ac71995b32f3835f0f2e5a73352b3699e1380bf2636296971781e7c6b26291b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelGestaoAbastecimento.cs",
+      "export_path": "ViewModels\\Paineis\\PainelGestaoAbastecimento.cs",
+      "raw_sha256": "a7d8f7cbf314ffd61768f034394e319db9c565b3106553b10225eafa07a71fb9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelHabilitarShipay.cs",
+      "export_path": "ViewModels\\Paineis\\PainelHabilitarShipay.cs",
+      "raw_sha256": "e709cd901929d1a58ff15e93db4f50f0378a971a58c2900de9ee4b74f6846ce1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelIdentificacaoPafNfce.cs",
+      "export_path": "ViewModels\\Paineis\\PainelIdentificacaoPafNfce.cs",
+      "raw_sha256": "35ec86b41141875ef6c6255f63cabe11eab14af4d8c620935ea7decbefc34663"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelImportacaoParcialMesaConta.cs",
+      "export_path": "ViewModels\\Paineis\\PainelImportacaoParcialMesaConta.cs",
+      "raw_sha256": "cd7f8d283b9dfadf1f0ae1892c5c6afdff2d4d0f34be973b5baed3753c8e880a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelImportarMesaConta.cs",
+      "export_path": "ViewModels\\Paineis\\PainelImportarMesaConta.cs",
+      "raw_sha256": "f459ae5d290cee6ab8cfe3cde860c5aaa4840f6f820c9b9dd12edf12ec1e5a4d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelImpressaoResumoFechamentoTurno.cs",
+      "export_path": "ViewModels\\Paineis\\PainelImpressaoResumoFechamentoTurno.cs",
+      "raw_sha256": "1817307ac39a4977b91e6d79b2a616a5bc2b8a0965d9f1ca94ca26972760a06d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelIndicaConsumidor.cs",
+      "export_path": "ViewModels\\Paineis\\PainelIndicaConsumidor.cs",
+      "raw_sha256": "dd51fa676b4dbf0345aa0fa1a0f32d10bc2fce494bf7b6871f5d3bb0531bf09e"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelInformacao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelInformacao.cs",
+      "raw_sha256": "76cb9e85133a0a2d9caef570f11a4b0a7cf42ce8944efa4f06aed01b4cf86e36"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelInformacoesNfce.cs",
+      "export_path": "ViewModels\\Paineis\\PainelInformacoesNfce.cs",
+      "raw_sha256": "0541843ff9da9cd9e0dbf9c9714f47bd752e5d155c09c3c7eec1cd5148918e5d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelInteracao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelInteracao.cs",
+      "raw_sha256": "94033b44da1f2569e4722530e33e0d3c3669dbbfcb1443ef5a8b8c00d7dbc997"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelLancamentoCodigoPontoDeVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelLancamentoCodigoPontoDeVenda.cs",
+      "raw_sha256": "2409c5ac9ea99a9339cd0b05d15859a730190b149baa731b6c800914d4518c8a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelLeituraMemoriaFiscal.cs",
+      "export_path": "ViewModels\\Paineis\\PainelLeituraMemoriaFiscal.cs",
+      "raw_sha256": "fb3f4095f3353302cc85526473f410af20cbda66ce1c851f2d3fdd02f16003d0"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelListaBase.cs",
+      "export_path": "ViewModels\\Paineis\\PainelListaBase.cs",
+      "raw_sha256": "916bac05215ef70979b73301838da1b58d793f99dc3b0c57ee5485a7320aab36"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMapaResumo.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMapaResumo.cs",
+      "raw_sha256": "cac0f8b97cd3b4b8e825bf673f8b1e78b01ae96b498b4bcaf7fcc83ce0fcf0fb"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMensagem.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMensagem.cs",
+      "raw_sha256": "dfa8c45ba60f19c705b7c7b544dee2bc169782809508deb9cd2f786af403010b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuAdministrativo.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuAdministrativo.cs",
+      "raw_sha256": "8a971c457c6613130ce13e2a6c1e7b5813349ac77eb0e5db60797ff5611c1f67"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuAdministrativoCupomFiscal.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuAdministrativoCupomFiscal.cs",
+      "raw_sha256": "155ad6c3c786ac51ce5765002b06d18e5eb94bc90842333b80288e672f8ec4d9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuAdministrativoPafNfce.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuAdministrativoPafNfce.cs",
+      "raw_sha256": "071bfe6faec07633f37e3ccf28d5ec292de577db4c9d44d876370318a6a9fe81"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuFiscal.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuFiscal.cs",
+      "raw_sha256": "9aaff332a94b3116a279b84a73ebe780815b8df440fc7627a54221be0a8dd00d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuFiscalPafNfce.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuFiscalPafNfce.cs",
+      "raw_sha256": "a04be8187c2299d9848f8f0b69c9925b5edce63815679d167ef058426494c25e"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuFiscalPafNfcePosto.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuFiscalPafNfcePosto.cs",
+      "raw_sha256": "d94e6e29263d1c6340324e9e7d4e900c24388dd8175386c6979fba7407fe298f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuFiscalPafNfceRestaurante.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuFiscalPafNfceRestaurante.cs",
+      "raw_sha256": "328b9d7702795f24bcde11059c430b32f62a7efebfa5403f778d2f52de893cd7"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuFiscalPosto.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuFiscalPosto.cs",
+      "raw_sha256": "c8e9c87439897e0ca6032da3b921b8ef0863978bfa3a78a2c8cafbb6c34cb4b4"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuFiscalRestaurante.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuFiscalRestaurante.cs",
+      "raw_sha256": "f008b7ef477286f16a46cab4faf24031ae636a62b619acf4bde720222ccc5af8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuRapidoAdicionaisPontoVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuRapidoAdicionaisPontoVenda.cs",
+      "raw_sha256": "de2a3a18a835cffdcc30346d071b2abedb40028dda6a33f00123c17387c5e98a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuRapidoComponentesPontoVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuRapidoComponentesPontoVenda.cs",
+      "raw_sha256": "4db3102a4c29a6932d97df91a019ca15d9aeb9efd3ac6b364e9a6da915d62d09"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuRapidoPontoDeVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuRapidoPontoDeVenda.cs",
+      "raw_sha256": "ed2598fd00f774bf0c4e24b0b5fb4de45e72c0d854ed240b79de4083a9650b5a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMesasAbertasPafNfce.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMesasAbertasPafNfce.cs",
+      "raw_sha256": "6e6164c35e6605417ace2e7c9b8dd0612f7a15714464301c30a65c64d78d5d60"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMesasContasAbertasPontoDeVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMesasContasAbertasPontoDeVenda.cs",
+      "raw_sha256": "e6ec1f49aa001221f9fc42ac380215aee8040348347e820b07a288b49c75bcd9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelModuloRequisicoesExternas.cs",
+      "export_path": "ViewModels\\Paineis\\PainelModuloRequisicoesExternas.cs",
+      "raw_sha256": "7eb43d23f5b80f0ce8fbec5f190395bcbfbd3afe0a6bf9b597a916a2f6da7c14"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMoeda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMoeda.cs",
+      "raw_sha256": "d483bdf48d77c6138ac4e0ef58fa2f4b732a5f50942d7859be259aef8048b112"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelObservacao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelObservacao.cs",
+      "raw_sha256": "2d6669e83996a72d728541aacfe39e95e3c13200854993a252b8d7fe3c3592bb"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelObservacaoPosto.cs",
+      "export_path": "ViewModels\\Paineis\\PainelObservacaoPosto.cs",
+      "raw_sha256": "a7074b60c3a9f0fe28785f59d8f81fea9942c0f858387e0fad657c094e6712e1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelParcelamento.cs",
+      "export_path": "ViewModels\\Paineis\\PainelParcelamento.cs",
+      "raw_sha256": "380fbc4e21c503e7eb3ea8ceefc1c2455749ecf61ca87b2a85f12e25739e664a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelPbm.cs",
+      "export_path": "ViewModels\\Paineis\\PainelPbm.cs",
+      "raw_sha256": "3ab8def8f46add28c16692d80cf656a2242e564622e61fb817b3b1ed597cff45"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelPesquisarMesasContas.cs",
+      "export_path": "ViewModels\\Paineis\\PainelPesquisarMesasContas.cs",
+      "raw_sha256": "68eff523a0a7f94f91684d67c199c7678f648a916558f5a727f82c5bf9f6b1b5"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelPesquisarPreVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelPesquisarPreVenda.cs",
+      "raw_sha256": "303ba9ad1b222043c5889d6ee2066a2d4269fe81fa2eb0403a606d6327f24515"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelPreset.cs",
+      "export_path": "ViewModels\\Paineis\\PainelPreset.cs",
+      "raw_sha256": "73655e5d01e630dc9f8cf3f62ce5f36e55a01bf01598330484f028c4066cd6b9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelPromocaoScanntechMeioPagamento.cs",
+      "export_path": "ViewModels\\Paineis\\PainelPromocaoScanntechMeioPagamento.cs",
+      "raw_sha256": "8d54afb77616b2188b4a474e5527b430f137c215a72544e5d45f4d6849cb71e8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelQuebraContinuidadeEncerrante.cs",
+      "export_path": "ViewModels\\Paineis\\PainelQuebraContinuidadeEncerrante.cs",
+      "raw_sha256": "9afeb38197f1b5f520782fa20f19fcad66bc7c1c20ec0654aaaba5e4334940bd"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRecebimento.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRecebimento.cs",
+      "raw_sha256": "8500ba4f33472173eec52c32b82300d502014c15e9b618eb66c440f17d8b5ff4"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRegistroAbastecimentoDocumentoFiscalEletronicoManual.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRegistroAbastecimentoDocumentoFiscalEletronicoManual.cs",
+      "raw_sha256": "000a4c051f988b679346441704e14725db8ac91f539ac0e0571318a833292299"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRegistroAbastecimentoDocumentoFiscalManual.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRegistroAbastecimentoDocumentoFiscalManual.cs",
+      "raw_sha256": "69024e29faa87ffa1a881e7fc14b92ad20e2ca7cdf8fc7703ca23fda7d474846"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRegistroAbastecimentoNotaFiscalManual.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRegistroAbastecimentoNotaFiscalManual.cs",
+      "raw_sha256": "710a4f422b93f45e80a9a1700c19b300ed639dc8ef41a98b5bef1df26590b4c5"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRegistroAutorizacaoPagamentoPix.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRegistroAutorizacaoPagamentoPix.cs",
+      "raw_sha256": "0c465efbd6efad4250302728afad4934966194c48b7e0a3b6d99c026a5d819b2"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRegistroAutorizacaoPagamentoPos.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRegistroAutorizacaoPagamentoPos.cs",
+      "raw_sha256": "12e3c6374a00b7eba9412219e76079dfc64ba968db87e2cc63663659c64c3868"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRegistroPafEcf.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRegistroPafEcf.cs",
+      "raw_sha256": "fb4b5be5788926d86ee7cf1291b376de962882729d77040fd7aee208e139edca"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRegistrosPafNfce.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRegistrosPafNfce.cs",
+      "raw_sha256": "351a09739dfb7e57fb03f92d9baa41e5a4bc7e86c4e6e16159ef6f4338da3a09"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelReimpressaoFechamentoTurno.cs",
+      "export_path": "ViewModels\\Paineis\\PainelReimpressaoFechamentoTurno.cs",
+      "raw_sha256": "9517fef5eb92588aaddf904c6081e1b1afbab170ad177446444d10534fcd965b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRelatorioEncerrantesPorPeriodo.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRelatorioEncerrantesPorPeriodo.cs",
+      "raw_sha256": "9d9b5fd08a18b1e21a62c6b75a9b03b4a485d07457ffefec4a1e5f9134a61e82"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRelatorioGerencial.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRelatorioGerencial.cs",
+      "raw_sha256": "29573c9b46e43899446e8713d7b6f8337dfe124c44b12ee95b438ecdf2b191a9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRelatorioGerencialComercio.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRelatorioGerencialComercio.cs",
+      "raw_sha256": "fbecc21a53046527b43813bf5548e64d8f485c0823b03e1b8cbd931c3b3e5dcd"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRelatorioGerencialFarmacia.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRelatorioGerencialFarmacia.cs",
+      "raw_sha256": "ad66f38813fd3e4fbf9adce88d8400b3ad3fb1f58d6bc78768a1a0655554de45"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRelatorioGerencialPosto.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRelatorioGerencialPosto.cs",
+      "raw_sha256": "0fe2c866e12aa1113258170f63869971e0972905ddf9a2547a08b53f0ade418d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRelatorioGerencialRestaurante.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRelatorioGerencialRestaurante.cs",
+      "raw_sha256": "38b2d7b88e999a542f7062c73bd34a0356225f7d3afeb0f6193d5a066973e261"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelRequisicoesExternasRegistradas.cs",
+      "export_path": "ViewModels\\Paineis\\PainelRequisicoesExternasRegistradas.cs",
+      "raw_sha256": "5bdc1a5a0753dc7a42ca4a7ba6e1d97efbca7b8069a8ccdc495c3719601e931e"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelResumoNfceEmitidaEmContingencia.cs",
+      "export_path": "ViewModels\\Paineis\\PainelResumoNfceEmitidaEmContingencia.cs",
+      "raw_sha256": "50460f9ef2649b544e6270a864d1c87787ce806014c5028f359af143fafdb470"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelResumoNfceTurno.cs",
+      "export_path": "ViewModels\\Paineis\\PainelResumoNfceTurno.cs",
+      "raw_sha256": "9f40f89aaa1c3446a1e6647fcd568aca9e0093f4115679947c09593d5b034eda"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelSangria.cs",
+      "export_path": "ViewModels\\Paineis\\PainelSangria.cs",
+      "raw_sha256": "65bb955735b6c7bea193fdfa7e609a978e64288329ba8ffec77a4b536b1e5999"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelSincronizar.cs",
+      "export_path": "ViewModels\\Paineis\\PainelSincronizar.cs",
+      "raw_sha256": "b92f94e04286566cb018e8e04634405f78276e92862dee10d501b70a8a25b49f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelSincronizarRejeitadas.cs",
+      "export_path": "ViewModels\\Paineis\\PainelSincronizarRejeitadas.cs",
+      "raw_sha256": "6739dd6fbaf6bbbdd0b6ad503ca1f3ac12adc80e33f8d8115ea4296f707e291f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelSuprimento.cs",
+      "export_path": "ViewModels\\Paineis\\PainelSuprimento.cs",
+      "raw_sha256": "d66af8fd1c047421df18f31c4a2183970a7f52435b8c93e27b8d7c7439844af9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoBase.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoBase.cs",
+      "raw_sha256": "054489e8b41ddb658910d14d7fd184fe16ec80ea05187d2603de531384a60f26"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoCupomFiscal.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoCupomFiscal.cs",
+      "raw_sha256": "58d3a1a6446a5b8725e72794ae2629bbd72ff7cbe299894fcf8ad057aaf6ae3f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoEmissorBase.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoEmissorBase.cs",
+      "raw_sha256": "3e96d8f715158521e2d5219944402cfbe648f5b777c2dbb54b7327afde848d06"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoEmissorBaseValeDetalhado.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoEmissorBaseValeDetalhado.cs",
+      "raw_sha256": "f8885fb10ffec9eb3f8ee5f1df2993d1cb26dc70059cea4f8cee3ac9aa568865"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoMFe.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoMFe.cs",
+      "raw_sha256": "0e3137be2fe1cdc24effa846a20b8ae9d34dff15ed5c4d283bd7027bb6e17fe9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoNfce.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoNfce.cs",
+      "raw_sha256": "d4d18bc1cd44f6e03953e3e2188aa6ef7537399aa46c2846ee53af89edd399c0"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoNotaManual.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoNotaManual.cs",
+      "raw_sha256": "1eaf18b4fb39b622122eadc8a16697e477df54f530d885da02b69932345ddd3e"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoNotaManualPosto.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoNotaManualPosto.cs",
+      "raw_sha256": "53adbd4258d8401e2b41b487d09fde61510410dbcc129385a839d45a2df76489"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoPorEspecie.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoPorEspecie.cs",
+      "raw_sha256": "9650e15ef1558c925546b520c4dbf48a67b1a8aa93b4534565823be6c489a60a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoRegistroVenda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoRegistroVenda.cs",
+      "raw_sha256": "e987a5e2f316d4c12e6ef574e6c5dfe03a28d748fbad04ed69573ea14f3b5662"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizacaoSat.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizacaoSat.cs",
+      "raw_sha256": "2ab7b8a21c25938b5ba6b7a66062f79b2b07ec362acb8e78a2901403d84075fe"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTotalizadorNaoFiscal.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTotalizadorNaoFiscal.cs",
+      "raw_sha256": "e033d47dbd6b8e98fe04cc715c7e7bce81d918f3528330da00de54189fa7af80"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTransmissaoArquivosRequisitoXXVI.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTransmissaoArquivosRequisitoXXVI.cs",
+      "raw_sha256": "b2a04cd56a5c5ff484192d2ee459692d118d13a976cc40d136f8fdfa52917d9b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelVendasIdentificadasPeloCpfCnpj.cs",
+      "export_path": "ViewModels\\Paineis\\PainelVendasIdentificadasPeloCpfCnpj.cs",
+      "raw_sha256": "a30be8e30343df481adbf9211b6dd437fbf1d81e413f3cbdaa0690912261c021"
+    },
+    {
+      "path": "ViewModels\\Paineis\\Pbm.2.cs",
+      "export_path": "ViewModels\\Paineis\\Pbm.2.cs",
+      "raw_sha256": "ccccd58872884954b4e5099c71b0d2af220a6b880a6c69e23793deb8f82137a1"
+    },
+    {
+      "path": "ViewModels\\Paineis\\Pbm.cs",
+      "export_path": "ViewModels\\Paineis\\Pbm.cs",
+      "raw_sha256": "87b8c37b489add364b7ccc86c9480cc915dc9d3f61599002a7e8b71929d69f24"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PedidoIfoodLocal.cs",
+      "export_path": "ViewModels\\Paineis\\PedidoIfoodLocal.cs",
+      "raw_sha256": "382d94f23cd635da6017f0e2a40db67f06a6fbda7debb013c6e220c23e41d86b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\RegistroDescontinuidadeEncerrante.cs",
+      "export_path": "ViewModels\\Paineis\\RegistroDescontinuidadeEncerrante.cs",
+      "raw_sha256": "7c0da8fa5f4197016c0b510c092caab9360d67a2f90a0163f6dcb41fd06a7e22"
+    },
+    {
+      "path": "ViewModels\\Paineis\\RegistroNotaManualQuebraContinuidadeEncerrante.cs",
+      "export_path": "ViewModels\\Paineis\\RegistroNotaManualQuebraContinuidadeEncerrante.cs",
+      "raw_sha256": "80088cd5fe5ec1efecae0f4f2673f63f14a43dde7487bab10b446c215b2770e7"
+    },
+    {
+      "path": "ViewModels\\Paineis\\RelatoriosEmissor.cs",
+      "export_path": "ViewModels\\Paineis\\RelatoriosEmissor.cs",
+      "raw_sha256": "e20ed0487560be5923edfb5849d2a35f67b2acaf1143c677fa6fa1cdb8094bcf"
+    },
+    {
+      "path": "ViewModels\\Paineis\\RequisicaoExternaLocal.cs",
+      "export_path": "ViewModels\\Paineis\\RequisicaoExternaLocal.cs",
+      "raw_sha256": "aafe476596e432f66cbe323a8357c3d73d227f611f8abf86f0d1a5e4ac3d4444"
+    },
+    {
+      "path": "ViewModels\\Paineis\\TanqueStatusViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\TanqueStatusViewModel.cs",
+      "raw_sha256": "fe5d0da95d6aeeca8e3fd99c086e2eee03db95514a30ba98c1af53c0b3e69732"
+    },
+    {
+      "path": "ViewModels\\Paineis\\TaxaViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\TaxaViewModel.cs",
+      "raw_sha256": "d7f127b9249821cc9ba6235ea49a6cdcf6cd505e846ffce7edfc245aeb494448"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ValePresenteLocal.cs",
+      "export_path": "ViewModels\\Paineis\\ValePresenteLocal.cs",
+      "raw_sha256": "ac10853feb8c3e2a7c69a241958a5e4141763c71b1287d0cb932c3f27cfe1bf1"
+    },
+    {
+      "path": "ViewModels\\Parcela.cs",
+      "export_path": "ViewModels\\Parcela.cs",
+      "raw_sha256": "bc74e804c86a01fb4d5993ddcc76d47fa493ed7fb0dc126037eb0205fecd22fe"
+    },
+    {
+      "path": "ViewModels\\PontoDeVendasViewModel.cs",
+      "export_path": "ViewModels\\PontoDeVendasViewModel.cs",
+      "raw_sha256": "6fcc12e736b4b85a07f75e966b487368f840fe4258de4cc8ea35c579c04dd1d5"
+    },
+    {
+      "path": "ViewModels\\PontoDeVendaViewModel.cs",
+      "export_path": "ViewModels\\PontoDeVendaViewModel.cs",
+      "raw_sha256": "ee60d2f20c509edfe76b1f17336f936a83ecbcff0bfcd5a691f435087998496e"
+    },
+    {
+      "path": "ViewModels\\RelatorioGerencial.cs",
+      "export_path": "ViewModels\\RelatorioGerencial.cs",
+      "raw_sha256": "edfc65357fbe3bab38a5a959737ba805ce597f1d2569d850314ef9d85d5aafbc"
+    },
+    {
+      "path": "ViewModels\\ResultadoPesquisa.cs",
+      "export_path": "ViewModels\\ResultadoPesquisa.cs",
+      "raw_sha256": "a8234521887e588c0ca2ca2b60abda16de8501ae55e2926f9058b1f187633ece"
+    },
+    {
+      "path": "ViewModels\\TotalizadorNaoFiscal.cs",
+      "export_path": "ViewModels\\TotalizadorNaoFiscal.cs",
+      "raw_sha256": "57bc084dbeb29c3f63750d835f3590a1ff1f2e21b075fc6c04229363b73867d8"
+    },
+    {
+      "path": "Views\\PontoDeVendasView.cs",
+      "export_path": "Views\\PontoDeVendasView.cs",
+      "raw_sha256": "ca15c8a03a388b1d9b2fbe47b8891ab81103bb3edc0f3a8a9cec3c902b4ff3d2"
+    },
+    {
+      "path": "Views\\PontoDeVendaView.cs",
+      "export_path": "Views\\PontoDeVendaView.cs",
+      "raw_sha256": "683ef457059795d82822e261cebf321f45da28ea8d45ef7310bc2620a33d6bf0"
+    },
+    {
+      "path": "__PrivateImplementationDetails.cs",
+      "export_path": "__PrivateImplementationDetails.cs",
+      "raw_sha256": "bb23b9b67103a92a5a071df9062dba40c1959eb1eed3dc1d58250f88fdd090da",
+      "generated": true
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 822
+    },
+    {
+      "kind": "synthesized ComputeStringHash helper",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.PontoDeVendas.g.resources",
+      "file": "0000.bin",
+      "bytes": 1130943,
+      "sha256": "327dd3affb5a67a57829fb8edaf24d8a8629b974dc75fd4535dc7ec1a5daf30a"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.ParcelamentoViaCliente56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 2478,
+      "sha256": "a675897d62610acee05a3d127b2835a366b2ec680ea1f5e25cf4a36fb0a19ca0"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.ParcelamentoViaEstabelecimento56Mm57Mm58Mm.resources",
+      "file": "0003.bin",
+      "bytes": 4630,
+      "sha256": "47081cb8b1dc26b92fd82296b612f86a0f3608e192d6b6065071ae20206ba950"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.ParcelamentoViaEstabelecimento79Mm80Mm.resources",
+      "file": "0004.bin",
+      "bytes": 4630,
+      "sha256": "47081cb8b1dc26b92fd82296b612f86a0f3608e192d6b6065071ae20206ba950"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.ParcelamentoViaCliente79Mm80Mm.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.RelatorioMapaResumo.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.RelatorioQrCodePagamentoDigital.resources",
+      "file": "0007.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.PontoDeVendas.dll.licenses",
+      "file": "0008.bin",
+      "bytes": 284,
+      "sha256": "6d8146721e14e9c3e8eba1378a8e5ae75aaddb10c20741403c63d34be64ee58a"
+    }
+  ],
+  "generated_stubs": false
+}

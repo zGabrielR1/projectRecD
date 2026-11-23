@@ -1,0 +1,6 @@
+{
+  "assembly": "CIDBio, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib"
+  ]
+}

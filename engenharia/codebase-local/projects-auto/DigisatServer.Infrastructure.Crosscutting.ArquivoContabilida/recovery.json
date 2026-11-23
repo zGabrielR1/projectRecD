@@ -1,0 +1,2172 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoContabilida",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.ArquivoContabilidade.dll",
+  "baseline_sha256": "b03e1df6b2003b1d7c11940c5450734a5acc92a3a9d963e90ec8e30072ebd9a5",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ArquivoContabilida\\DigisatServer.Infrastructure.Crosscutting.ArquivoContabilida.csproj",
+  "sources": [
+    {
+      "path": "AlterdataContabil\\Classes\\ArquivoAlterdataContabil.cs",
+      "export_path": "AlterdataContabil\\Classes\\ArquivoAlterdataContabil.cs",
+      "raw_sha256": "c0ae1887be065bae02f3fcd3ac84847e91cc8bd27a6ba9b60e7f8fe2485572ab"
+    },
+    {
+      "path": "AlterdataContabil\\Classes\\Lancamento.cs",
+      "export_path": "AlterdataContabil\\Classes\\Lancamento.cs",
+      "raw_sha256": "c9b13f081fbf6112d9286d68f6e9ffd8adc029ff2d6c5d5d27645743ff916083"
+    },
+    {
+      "path": "AlterdataContabil\\Formatos.cs",
+      "export_path": "AlterdataContabil\\Formatos.cs",
+      "raw_sha256": "1ee78fa7b30b0eb81872f54afde43c1c572c5cc9c974eb7452d3a466e649c930"
+    },
+    {
+      "path": "AlterdataContabil\\Interfaces\\IRegistro.cs",
+      "export_path": "AlterdataContabil\\Interfaces\\IRegistro.cs",
+      "raw_sha256": "22b5f7e86b2a7f393a6ac3a686a7c125cc2ba3d5ee73027f8e15f8d5311eb79f"
+    },
+    {
+      "path": "ArquivoCsv\\Classes\\ArquivoCsv.cs",
+      "export_path": "ArquivoCsv\\Classes\\ArquivoCsv.cs",
+      "raw_sha256": "765fed42197d968ba6dc6ed892f19b42f63a81a5d6276d29c26ba3fb9cc72a7f"
+    },
+    {
+      "path": "ArquivoCsv\\Classes\\MovimentoContaArquivoCsv.cs",
+      "export_path": "ArquivoCsv\\Classes\\MovimentoContaArquivoCsv.cs",
+      "raw_sha256": "c36444064fcb459c862be9282cf6de03a8ab26806908ca7e446a399b3fec5f02"
+    },
+    {
+      "path": "ArquivoCsv\\Classes\\MovimentoContaRegistroCsv.cs",
+      "export_path": "ArquivoCsv\\Classes\\MovimentoContaRegistroCsv.cs",
+      "raw_sha256": "c1ee224dee62600a299e429ea62074497ebcd826219a13fbb67c509b73e1124d"
+    },
+    {
+      "path": "ArquivoCsv\\Classes\\PropriedadeCsv.cs",
+      "export_path": "ArquivoCsv\\Classes\\PropriedadeCsv.cs",
+      "raw_sha256": "d3a362f27658766e9ba19865f2acc7df3fa176a75c757a6b073feca1a06535db"
+    },
+    {
+      "path": "ArquivoCsv\\Classes\\RegistroCsv.cs",
+      "export_path": "ArquivoCsv\\Classes\\RegistroCsv.cs",
+      "raw_sha256": "eac116021e73487d92af6af7fffd65f270ad18d86aaade54fd06c506c7e2aa18"
+    },
+    {
+      "path": "Dominio\\Classes\\ArquivoDominioSistemas.cs",
+      "export_path": "Dominio\\Classes\\ArquivoDominioSistemas.cs",
+      "raw_sha256": "0c2dbf7fd4650f9a9f74c73e792a457dbd0cf0e679e46c1baedc0452fb0e2f2a"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0000.cs",
+      "export_path": "Dominio\\Classes\\Registro0000.cs",
+      "raw_sha256": "dc93f4bc95a88b825d0064db18fda18cb3ee00e90bc66238d85c6c8b79b839a0"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0010.cs",
+      "export_path": "Dominio\\Classes\\Registro0010.cs",
+      "raw_sha256": "535a0ccb02ab2fc3040ec23d898281eb9d781d8c9ad46d1cc1dcedde2bb574ab"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0011.cs",
+      "export_path": "Dominio\\Classes\\Registro0011.cs",
+      "raw_sha256": "7f524bfe9617d59ea3394aa07af36c42ddae558e77ebd1dfa549d3681eb26423"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0020.cs",
+      "export_path": "Dominio\\Classes\\Registro0020.cs",
+      "raw_sha256": "4b0c6f35c47ae0bb4ab6ab65f1079a301af47440d1cdc9cf2edb611777a88663"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0021.cs",
+      "export_path": "Dominio\\Classes\\Registro0021.cs",
+      "raw_sha256": "8f31d9b8ab013ed393d5ed76612f9c3a97affbc5d7f2502955ebdb68dd56bb8f"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0030.cs",
+      "export_path": "Dominio\\Classes\\Registro0030.cs",
+      "raw_sha256": "650c5a799bfe0012c3f6028132aed920e7bff7d5c040be5cc9ad624e1633a63e"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0100.cs",
+      "export_path": "Dominio\\Classes\\Registro0100.cs",
+      "raw_sha256": "c53b3b6cc0c4fc9e1d1c28a3431aca1917cf3aba3c119379da4b9476ab717d69"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0110.cs",
+      "export_path": "Dominio\\Classes\\Registro0110.cs",
+      "raw_sha256": "c70427cf6749d3d42c889f890b054399088ab27832170da097fd6c103f77e3af"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0115.cs",
+      "export_path": "Dominio\\Classes\\Registro0115.cs",
+      "raw_sha256": "29991a6f1d6f4a277d290b7ac2dfcd22354e4599b1518a38910a1665c22b63ea"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0116.cs",
+      "export_path": "Dominio\\Classes\\Registro0116.cs",
+      "raw_sha256": "b67ad0698bbf6546683c3065fb1fb571bb063b95fd1f27340fbd3bfbad6c2321"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0120.cs",
+      "export_path": "Dominio\\Classes\\Registro0120.cs",
+      "raw_sha256": "3b77756869c930f4d3a1b90bcd49098b50285f4783a77239f3b1fb9fcb8aabb5"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0130.cs",
+      "export_path": "Dominio\\Classes\\Registro0130.cs",
+      "raw_sha256": "85613ad25e831d4e713ef1f7c6c4687aa62557743e816c65ea917a405ad9d600"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0135.cs",
+      "export_path": "Dominio\\Classes\\Registro0135.cs",
+      "raw_sha256": "b7fa572b8ce6d4281373d5efc708125d79a6a10d460b0ffe7e360bcb761d8019"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0140.cs",
+      "export_path": "Dominio\\Classes\\Registro0140.cs",
+      "raw_sha256": "c802cc591cdb216db2379d350c33a7fea857367ff62d00c43ff8a2aeee5be468"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0145.cs",
+      "export_path": "Dominio\\Classes\\Registro0145.cs",
+      "raw_sha256": "77e81813db92e36ca1eb6191eb4f75bd3785435ea268954e19303a586868ff60"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0150.cs",
+      "export_path": "Dominio\\Classes\\Registro0150.cs",
+      "raw_sha256": "d57adb07b4b74799001f44f54e35cf7d710f355128c13c040b26a4bc6de3cae3"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0160.cs",
+      "export_path": "Dominio\\Classes\\Registro0160.cs",
+      "raw_sha256": "4b9c0632a76015ad27f4f188f3d427e97cb64eb99892f5764e200da1979eef96"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0200.cs",
+      "export_path": "Dominio\\Classes\\Registro0200.cs",
+      "raw_sha256": "e5114bcc23cb2e28c68719586e56cce8e7dc50f8352381c91a85f63ae60526cb"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0220.cs",
+      "export_path": "Dominio\\Classes\\Registro0220.cs",
+      "raw_sha256": "243f93b88847fb2e6b9a451670a039026b4a23513f25196f5b73afa1ef70d5a8"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0230.cs",
+      "export_path": "Dominio\\Classes\\Registro0230.cs",
+      "raw_sha256": "6aeff4c78c42da0a6bde69d8cc18a7600ce6df138b61e16648fc92617af7c102"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0240.cs",
+      "export_path": "Dominio\\Classes\\Registro0240.cs",
+      "raw_sha256": "f1bdf910031f07f575a470cc845d7f84064a90c22c07ac1f8fb3ee3ce6a5763d"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0250.cs",
+      "export_path": "Dominio\\Classes\\Registro0250.cs",
+      "raw_sha256": "ca181bc3c822d0a16efb2a3bea6f5f2fd0f7a5e130ee19d3d091353423fb0fc0"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0300.cs",
+      "export_path": "Dominio\\Classes\\Registro0300.cs",
+      "raw_sha256": "3f4950ac252ae85894681a35085c611ce33c814941c8a8d0537d3e7e1627bf63"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0420.cs",
+      "export_path": "Dominio\\Classes\\Registro0420.cs",
+      "raw_sha256": "26d5ab69539a4f4b3cee6fc7329201262c063a29a31a78170c810dcdec0bc697"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro0451.cs",
+      "export_path": "Dominio\\Classes\\Registro0451.cs",
+      "raw_sha256": "6343b3e10480a9a93c6abebbbd56853ecee3e50a156e127e97b141766a7482cd"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1000.cs",
+      "export_path": "Dominio\\Classes\\Registro1000.cs",
+      "raw_sha256": "7521541442103618d5dd4d23a11ec737d63a1cbab8fff463d72e973e94b96dd7"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1010.cs",
+      "export_path": "Dominio\\Classes\\Registro1010.cs",
+      "raw_sha256": "ff44464cc48b3273c8e2f1a44131b8e22945bfc58a3489a8f8d36609c7f3dd0f"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1020.cs",
+      "export_path": "Dominio\\Classes\\Registro1020.cs",
+      "raw_sha256": "60f13f8ad1dfce605444791f0275dc75ef54d599f77ac4d6e9160dc6ea48ee5b"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1030.cs",
+      "export_path": "Dominio\\Classes\\Registro1030.cs",
+      "raw_sha256": "b53dfab3575b78eba3925ff4f4384eaa6075cbf9b693bee985d50999b61b5ece"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1060.cs",
+      "export_path": "Dominio\\Classes\\Registro1060.cs",
+      "raw_sha256": "943e46a96b1e15215f42a4c704e9ba0954bfc83446327b934268372707f9a09c"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1081.cs",
+      "export_path": "Dominio\\Classes\\Registro1081.cs",
+      "raw_sha256": "56cbf329484162506f2f2e8d1353ccc0b7535c7bb1519cd332cc4df71714d58a"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1082.cs",
+      "export_path": "Dominio\\Classes\\Registro1082.cs",
+      "raw_sha256": "ba6ff33f24054f4e800cf12f04588e655b1d70a968f760a0c623e14cfab4f428"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1090.cs",
+      "export_path": "Dominio\\Classes\\Registro1090.cs",
+      "raw_sha256": "ee833deeffdec88a15c9ebee28a952a1625293fcad53423beea5c1c93b5b3c78"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1097.cs",
+      "export_path": "Dominio\\Classes\\Registro1097.cs",
+      "raw_sha256": "e853d13f72945d39673d64e16e981199acb151455af8b7b5e52c2421e5a4b167"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1120.cs",
+      "export_path": "Dominio\\Classes\\Registro1120.cs",
+      "raw_sha256": "0ef11c7e9ae57e378e2d5347342dca8a3fe104fb9b0416c1ea568c3bb305ac33"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1200.cs",
+      "export_path": "Dominio\\Classes\\Registro1200.cs",
+      "raw_sha256": "32dd64943271a75afb5f1fab5b528371bf5a11de2e0974139e3c548669f49e85"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1300.cs",
+      "export_path": "Dominio\\Classes\\Registro1300.cs",
+      "raw_sha256": "ac4f7d7977eb3d6c344ea6aac4fde99cb107f858295f52e21539da35942dd5d1"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1310.cs",
+      "export_path": "Dominio\\Classes\\Registro1310.cs",
+      "raw_sha256": "4c4a2762623336fb5c0d953a0f4b90cc6d5a36ea2566f6dff56282825f7d5ff1"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1330.cs",
+      "export_path": "Dominio\\Classes\\Registro1330.cs",
+      "raw_sha256": "01fbf8989a0b76f706c34249e1f063cfe142b6f72c7f8fad331d5d5ac6f3f89a"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro1500.cs",
+      "export_path": "Dominio\\Classes\\Registro1500.cs",
+      "raw_sha256": "27fab7962436d4fc5da63a0d5682ac1e281b43636712119119b64427041d5746"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2000.cs",
+      "export_path": "Dominio\\Classes\\Registro2000.cs",
+      "raw_sha256": "e79f1d0df3bb437d724e893d47044e9aed7c9e070043164b5d67b93a598684a1"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2010.cs",
+      "export_path": "Dominio\\Classes\\Registro2010.cs",
+      "raw_sha256": "bed2581cab089d37619a8a85537f5226997bf3958ffe41b2212d92aaee67d85b"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2020.cs",
+      "export_path": "Dominio\\Classes\\Registro2020.cs",
+      "raw_sha256": "8d69f7615a6e66070ffd2c297b87d6a0842445b12d96bc107ff26a222758b79a"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2030.cs",
+      "export_path": "Dominio\\Classes\\Registro2030.cs",
+      "raw_sha256": "80ee1601147cf09c7f521b9dacf272a224562417c787a2a84bb532c4d066a3ec"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2050.cs",
+      "export_path": "Dominio\\Classes\\Registro2050.cs",
+      "raw_sha256": "b56e59c26aebe1e24388929968416bafea859682ba1ee76a975cdec3f0d553e9"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2060.cs",
+      "export_path": "Dominio\\Classes\\Registro2060.cs",
+      "raw_sha256": "71762de87cc6671b343ae263216007dc7e20d78c366e7699ba7dc6eaa1d57005"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2081.cs",
+      "export_path": "Dominio\\Classes\\Registro2081.cs",
+      "raw_sha256": "7b0c75d1d803a7f5b1c9694dea651c480bbc8b1850508f0c5d81a046c246bba2"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2082.cs",
+      "export_path": "Dominio\\Classes\\Registro2082.cs",
+      "raw_sha256": "57520730b6f4c7cc69367f92b9e9a5dcee090e39bfe5ea266a423fff942ddd1f"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2090.cs",
+      "export_path": "Dominio\\Classes\\Registro2090.cs",
+      "raw_sha256": "2ef62530c976a9d9bb09adada943d7bf6cedab86b8fe5a5d5dc8ded7917740ba"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2091.cs",
+      "export_path": "Dominio\\Classes\\Registro2091.cs",
+      "raw_sha256": "4056b13dea27071c384bbd3c73cec7788feb1bb9b2a32429978c694e998b2080"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2094.cs",
+      "export_path": "Dominio\\Classes\\Registro2094.cs",
+      "raw_sha256": "8d699969996d96ab5be24dba26e7644c4ebdcb1b560c553ea6e04002d43e7691"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2095.cs",
+      "export_path": "Dominio\\Classes\\Registro2095.cs",
+      "raw_sha256": "f1c2f925b191503984d1e6849ae4508e62bcd13597e0a80d6fe541f8582431c1"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2096.cs",
+      "export_path": "Dominio\\Classes\\Registro2096.cs",
+      "raw_sha256": "7b13c77c8285b5980a770dd9ac4462a71728970b59a3548082ed4e724e5e84c5"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2097.cs",
+      "export_path": "Dominio\\Classes\\Registro2097.cs",
+      "raw_sha256": "5686e83fc04f45d79b9676869967e1a293799431349f8fe41ba64e7a7a5b3364"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2098.cs",
+      "export_path": "Dominio\\Classes\\Registro2098.cs",
+      "raw_sha256": "d64514da3cf9bda09f855bc548929fb038d93c67a684d7e3de7efc34743aa89a"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2100.cs",
+      "export_path": "Dominio\\Classes\\Registro2100.cs",
+      "raw_sha256": "45b78a132a5393241c4717f061c721cbfc1e66de67d31fa21cf1cd3c51fd8f83"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2101.cs",
+      "export_path": "Dominio\\Classes\\Registro2101.cs",
+      "raw_sha256": "3279a70459b626ad9d7da5a0208c40aef55c95bc85a247d23e4ad19c0b754c05"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2110.cs",
+      "export_path": "Dominio\\Classes\\Registro2110.cs",
+      "raw_sha256": "d47cddcf5ff0a134b376303f16ed73e8706518ccabb3c947939f16179c7cba15"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2120.cs",
+      "export_path": "Dominio\\Classes\\Registro2120.cs",
+      "raw_sha256": "66092a205394a4186194aedb710a3787718764bf487bc0f7c47c5b9bb9282477"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2130.cs",
+      "export_path": "Dominio\\Classes\\Registro2130.cs",
+      "raw_sha256": "a3cc0fd24383fdb7b7514434e357f6df0f750ad38c5c266031cc01115a54eeef"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2150.cs",
+      "export_path": "Dominio\\Classes\\Registro2150.cs",
+      "raw_sha256": "8ae3a8381c8e09049ef50c0d7a1b4ff102c37b5348c4fb15fcf4d8f5ea14b590"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2180.cs",
+      "export_path": "Dominio\\Classes\\Registro2180.cs",
+      "raw_sha256": "ac2af1fbc7ba44ecfc17fa5e48e11ed709375911135deeaee7b30562d3bc0552"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2190.cs",
+      "export_path": "Dominio\\Classes\\Registro2190.cs",
+      "raw_sha256": "b4fe4f3cb5c8014ab8370e480fdeafc6eceb54703dcd8f3b6e83c29b1ba82ead"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2200.cs",
+      "export_path": "Dominio\\Classes\\Registro2200.cs",
+      "raw_sha256": "5863d4450ce9e01fabb5b82f001bc89a73c1c308c7035326f2f869b68287a0c4"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2300.cs",
+      "export_path": "Dominio\\Classes\\Registro2300.cs",
+      "raw_sha256": "f46adfa11fcc47eda2007f9b11b88acfa00a5388e51c8bb4895135626f6089d2"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2310.cs",
+      "export_path": "Dominio\\Classes\\Registro2310.cs",
+      "raw_sha256": "e166a3693eb1ca04238d8a2029066060bbabfc6289817ffc5829bd161c6b1bde"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2330.cs",
+      "export_path": "Dominio\\Classes\\Registro2330.cs",
+      "raw_sha256": "bbd329d39f87a46b4cfcdc82af1fe7d79f491e7e94c4d640285b9ddd194ff6b9"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro2500.cs",
+      "export_path": "Dominio\\Classes\\Registro2500.cs",
+      "raw_sha256": "a0e5e4d270375fa7754b61c9c11a2407e89b5d445145671849bb2d09e5377688"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3000.cs",
+      "export_path": "Dominio\\Classes\\Registro3000.cs",
+      "raw_sha256": "81df84412fb12152aa56f131edf46210a6217f25ae83c14bf8ca19b07894b0bc"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3010.cs",
+      "export_path": "Dominio\\Classes\\Registro3010.cs",
+      "raw_sha256": "5bac230590c0e33fc5928a415fb4b740099d745dfd71526a06b7593f30788161"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3020.cs",
+      "export_path": "Dominio\\Classes\\Registro3020.cs",
+      "raw_sha256": "3879ffaa4122d02a418b101d5eb97c571c21d7f295b623fc19776cee4214f15c"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3030.cs",
+      "export_path": "Dominio\\Classes\\Registro3030.cs",
+      "raw_sha256": "0597a12d8bc045e40c729abfa1aa8a596f61446cc8735034793fb0d8b6b72411"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3060.cs",
+      "export_path": "Dominio\\Classes\\Registro3060.cs",
+      "raw_sha256": "f2578108801d5a9d2e1cd729fe629a45546946c55e7f80395c47a053dcb61bc6"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3090.cs",
+      "export_path": "Dominio\\Classes\\Registro3090.cs",
+      "raw_sha256": "20f777e2068687d2d87daad813d682e169e9d1d64a817db5f554e1c4afb61bc6"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3091.cs",
+      "export_path": "Dominio\\Classes\\Registro3091.cs",
+      "raw_sha256": "ed99ec912ae75a07adec45b80134d4567ad74d9e0c3117fbe346a10244eda0b1"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3300.cs",
+      "export_path": "Dominio\\Classes\\Registro3300.cs",
+      "raw_sha256": "e5fa207dac1fb9604a398c3a9fc93babc469f1894947539b680ea6308b023edb"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3310.cs",
+      "export_path": "Dominio\\Classes\\Registro3310.cs",
+      "raw_sha256": "50533fcfba528cb6a76085bc44eb2c923c3397446306f2a3f95d433fb500c3eb"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3330.cs",
+      "export_path": "Dominio\\Classes\\Registro3330.cs",
+      "raw_sha256": "685ac05819ddea96c2a1aa9338e6a4ad046e2701cd16d0b5acfdb030feddbfdc"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro3500.cs",
+      "export_path": "Dominio\\Classes\\Registro3500.cs",
+      "raw_sha256": "a9277b60e67d0b9585b3e7695391dc7ed5fc246b151ffd7d1f3f672d891ddbc5"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4000.cs",
+      "export_path": "Dominio\\Classes\\Registro4000.cs",
+      "raw_sha256": "5abb3aaf527d7052678f44f3fb41a5b1b6e0e206de653e65b162bef37c34df30"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4010.cs",
+      "export_path": "Dominio\\Classes\\Registro4010.cs",
+      "raw_sha256": "3cb792cd5c888dbff56262d60fe2f700ca6ff589d3678c57f3a2aaeb18baca16"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4030.cs",
+      "export_path": "Dominio\\Classes\\Registro4030.cs",
+      "raw_sha256": "774d64cc33922d11df7c366712eb3f635267351c3a2d6bc05c86175d28786d78"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4060.cs",
+      "export_path": "Dominio\\Classes\\Registro4060.cs",
+      "raw_sha256": "33f2a82cc787e8e9784b2873bd80da6b57b43579ce0a2fb32b7bb05d577003ee"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4120.cs",
+      "export_path": "Dominio\\Classes\\Registro4120.cs",
+      "raw_sha256": "5eea856c82bd8ab53a40d62a48e96aaff2c450f39729afca474765ce19723a84"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4150.cs",
+      "export_path": "Dominio\\Classes\\Registro4150.cs",
+      "raw_sha256": "6ffbe71bb345229a67148fc048441469f18b7dd7075c6d2cd6b1dcd5de2db396"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4300.cs",
+      "export_path": "Dominio\\Classes\\Registro4300.cs",
+      "raw_sha256": "b04f02c6f1f2a01d8bfc0d3dd3f629e5e5084bf66b8fa50ea3258899c76e398c"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4310.cs",
+      "export_path": "Dominio\\Classes\\Registro4310.cs",
+      "raw_sha256": "c6f0121b23a24e81215e25feee1266bda020f141fac92919309ed4ce17f2a319"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4700.cs",
+      "export_path": "Dominio\\Classes\\Registro4700.cs",
+      "raw_sha256": "31808224e6751d85d828798f6a179d36d2847f72ced00b275f98209ab5bb74c3"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4710.cs",
+      "export_path": "Dominio\\Classes\\Registro4710.cs",
+      "raw_sha256": "281e72a3488f8a1c3b759e66e1cd25d80518518edc68ee5b3df51c2694cd2c0a"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4720.cs",
+      "export_path": "Dominio\\Classes\\Registro4720.cs",
+      "raw_sha256": "871d967645e0adb7d61c6b28baa78657ad5ac57ec324e898040fbdc0199a7c1c"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4750.cs",
+      "export_path": "Dominio\\Classes\\Registro4750.cs",
+      "raw_sha256": "34b5ec14ffa60d6f0f3ee8976e6521b967257da2fa3e47b09582df3cc2486b44"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro4760.cs",
+      "export_path": "Dominio\\Classes\\Registro4760.cs",
+      "raw_sha256": "b8fe75038aca0b22f8927a89f95e2d39eb5d2815ba2b5fd6741b65cea741e28c"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5100.cs",
+      "export_path": "Dominio\\Classes\\Registro5100.cs",
+      "raw_sha256": "cf3b925e9599ad03e2c1c154e55c67e9fe8adebabd3edc1eee8910fe589be794"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5110.cs",
+      "export_path": "Dominio\\Classes\\Registro5110.cs",
+      "raw_sha256": "699169253656ffaa45179ad010c0ca58337e53014f4c96927ab1d8beb771d3fc"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5120.cs",
+      "export_path": "Dominio\\Classes\\Registro5120.cs",
+      "raw_sha256": "c0bd51dfd8eaae5ce9a81dab97911ff470bc4a7024ad4e32a36c54f8d63946fe"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5130.cs",
+      "export_path": "Dominio\\Classes\\Registro5130.cs",
+      "raw_sha256": "0c3cab474d98e8b7beb0c64f9fb0d6c3edf6c3cff24aab5718f3da37204a06c9"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5200.cs",
+      "export_path": "Dominio\\Classes\\Registro5200.cs",
+      "raw_sha256": "2439897717b4cffae430204c654fc20de2909ee9878d20cd3d4501b7ec99bcb4"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5210.cs",
+      "export_path": "Dominio\\Classes\\Registro5210.cs",
+      "raw_sha256": "530da945323098ccb2569cb5800eb00b360145536f8e15418d7e9ac235bf7712"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5220.cs",
+      "export_path": "Dominio\\Classes\\Registro5220.cs",
+      "raw_sha256": "0cf4bfc6add6f63ab406d2adf7899021ec5d54f800f53928adac66dc3e26efde"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5230.cs",
+      "export_path": "Dominio\\Classes\\Registro5230.cs",
+      "raw_sha256": "2619c867bf37a05e4957462eee71e0fe10cb28cc844df8a1ff3a669747ae7913"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5300.cs",
+      "export_path": "Dominio\\Classes\\Registro5300.cs",
+      "raw_sha256": "a2cf91d3b92058f4356785159797799897cf1e595a7ce80fa81fc19198913126"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5310.cs",
+      "export_path": "Dominio\\Classes\\Registro5310.cs",
+      "raw_sha256": "154ccc03737cbb8031b25d39a0abff09637a326f461f97669b29e8dffb2345a3"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5320.cs",
+      "export_path": "Dominio\\Classes\\Registro5320.cs",
+      "raw_sha256": "0abff0d3f99a2d58d831124b5f8f50e8d18eaa69ec87ad6296b75f2b73534b49"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5330.cs",
+      "export_path": "Dominio\\Classes\\Registro5330.cs",
+      "raw_sha256": "a01bb9e2837088857756b18ce5c0c055f2bdd8293b3f7ddf42715bfdc7e6add2"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5400.cs",
+      "export_path": "Dominio\\Classes\\Registro5400.cs",
+      "raw_sha256": "2547872475ba05b6ae59ec7000c4383f84940bf14aeec29b859082b570e2a0ba"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5410.cs",
+      "export_path": "Dominio\\Classes\\Registro5410.cs",
+      "raw_sha256": "c8825847f957a2048e526d5f4c720d52096b3281b22a27b0693534d448e96034"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5420.cs",
+      "export_path": "Dominio\\Classes\\Registro5420.cs",
+      "raw_sha256": "5f8b1395b10fd7bd373e7ad1619e1b38a61c7109c9c266a27456df578ac786a4"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5430.cs",
+      "export_path": "Dominio\\Classes\\Registro5430.cs",
+      "raw_sha256": "636958d158bf63205368f07a1e578d6b91ed359107762fe920a36a542af35894"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5500.cs",
+      "export_path": "Dominio\\Classes\\Registro5500.cs",
+      "raw_sha256": "a6533bc8d39042a1fafacb813f34520f0974f20f63efe33204715b4b99137287"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5510.cs",
+      "export_path": "Dominio\\Classes\\Registro5510.cs",
+      "raw_sha256": "25b5ee2864fc9cf63a72510e3497c0c2d2b270addfcc72f55d809ff556156b33"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5520.cs",
+      "export_path": "Dominio\\Classes\\Registro5520.cs",
+      "raw_sha256": "08b98bf286c7db79bbc6a5a0066d66ec134dc2c48d4f827010995bbad77ecce6"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro5530.cs",
+      "export_path": "Dominio\\Classes\\Registro5530.cs",
+      "raw_sha256": "58064575546235c529fafc1822121ca7fcb046d20f55b07f2649ee51f4464edf"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro6000.cs",
+      "export_path": "Dominio\\Classes\\Registro6000.cs",
+      "raw_sha256": "4c7a3cc2883421ec9d51ab27e08b70defcc032c2758508be93b5697fdf3bd5e6"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro6100.cs",
+      "export_path": "Dominio\\Classes\\Registro6100.cs",
+      "raw_sha256": "43949f22c73407d86c9245004b9fe1557d2b7c00560c80254491412f9eb39667"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7500.cs",
+      "export_path": "Dominio\\Classes\\Registro7500.cs",
+      "raw_sha256": "e1d7cd59e6fe69d94e2e34165a9358f3a1881ab84166696de657b2eeac6cde4d"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7510.cs",
+      "export_path": "Dominio\\Classes\\Registro7510.cs",
+      "raw_sha256": "4856961dc41d9999d6861b7eea6e6372b9c386b7a98b86784467008d0162f5d5"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7600.cs",
+      "export_path": "Dominio\\Classes\\Registro7600.cs",
+      "raw_sha256": "41402382af62d5e6e34f9f91de7bd0dc0ddc75fdf3c64181fdbe070ea077d4f0"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7610.cs",
+      "export_path": "Dominio\\Classes\\Registro7610.cs",
+      "raw_sha256": "94389ced3e4453947e4ceadaba3a84f43d8ea0d3ea95429f55b762bafd4875f7"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7611.cs",
+      "export_path": "Dominio\\Classes\\Registro7611.cs",
+      "raw_sha256": "3ef6dd1e448e77ac42dba61e897dcc416fa76fed8e8b75cf2b8c9ecf91849fe2"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7612.cs",
+      "export_path": "Dominio\\Classes\\Registro7612.cs",
+      "raw_sha256": "2e56e40bd2380cf59095265bd1dec3dc51c5dd61268daf1c198cccd41b93a993"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7620.cs",
+      "export_path": "Dominio\\Classes\\Registro7620.cs",
+      "raw_sha256": "9f59ef709257acb33461b21b85472cb83968ca62859c489a22dac28539369252"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7630.cs",
+      "export_path": "Dominio\\Classes\\Registro7630.cs",
+      "raw_sha256": "30a12df63492834f1b9bdbd8a0bc96f7393b4530e9c904ecffe34daca4e33160"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7631.cs",
+      "export_path": "Dominio\\Classes\\Registro7631.cs",
+      "raw_sha256": "c3f990c0f5ff102c5e0f9125b25797868386bf0536cfc601f54db1304c488636"
+    },
+    {
+      "path": "Dominio\\Classes\\Registro7632.cs",
+      "export_path": "Dominio\\Classes\\Registro7632.cs",
+      "raw_sha256": "c1939de9294164d6d46ee352e59c7102656def6302ffe817f9c4dd8d6868674e"
+    },
+    {
+      "path": "Dominio\\Formatos.cs",
+      "export_path": "Dominio\\Formatos.cs",
+      "raw_sha256": "da07084e1ccbc919f418cc8ff61d164b7019d48cca70dc204537829c0b42e8e6"
+    },
+    {
+      "path": "Dominio\\Helpers\\HelperBaseCredito.cs",
+      "export_path": "Dominio\\Helpers\\HelperBaseCredito.cs",
+      "raw_sha256": "6bb8d85bcd5f2003c8b604b41d77a3f1f58e642ca4656830ae691d6a02851092"
+    },
+    {
+      "path": "Dominio\\Helpers\\HelperModelo.cs",
+      "export_path": "Dominio\\Helpers\\HelperModelo.cs",
+      "raw_sha256": "a5d17c007213204224c82071e969f84a8024a971ce36a7c3fa1954bb2285d607"
+    },
+    {
+      "path": "Dominio\\Interfaces\\IRegistro.cs",
+      "export_path": "Dominio\\Interfaces\\IRegistro.cs",
+      "raw_sha256": "f9ea41b8ce6101814b80561a7c98dc1a8ca0c3866ab7567ca488403d0947c47b"
+    },
+    {
+      "path": "Dominio\\Types\\CampoAlteracao.cs",
+      "export_path": "Dominio\\Types\\CampoAlteracao.cs",
+      "raw_sha256": "6f73dc2d87f1c65827380caf48419811827333efce56db04cf0c1aa696fd6f3a"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ArquivoFortesFiscal.cs",
+      "export_path": "FortesFiscal\\Classes\\ArquivoFortesFiscal.cs",
+      "raw_sha256": "0efdef67c40b6a71c9dbd577cf4f5298b8cd189b5ed25e4be5dc3fbb2486e383"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Cab.cs",
+      "export_path": "FortesFiscal\\Classes\\Cab.cs",
+      "raw_sha256": "b5952f3cfb4eea9f5a864cef4c5160d9eef97bce0135e0d267428ec4189d0a70"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Cdf.cs",
+      "export_path": "FortesFiscal\\Classes\\Cdf.cs",
+      "raw_sha256": "35a617516b0f9ef934e4cec3c669f1daba424d78f46c37a87db00d70af463ec4"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Btc.cs",
+      "export_path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Btc.cs",
+      "raw_sha256": "3524a3be37e31017ae1959745bc4da6829416cbeee23ca77d7680487df07fcb0"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Ctc.cs",
+      "export_path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Ctc.cs",
+      "raw_sha256": "aa4b60acd525b72685b6051199eb1f6188468d219788f56ec3bb86242a36ba1b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Ftc.cs",
+      "export_path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Ftc.cs",
+      "raw_sha256": "c2a11bf837cc28cfe9e95abdbe12ea3c8cb3db1db2f74f4c285fafd3d3fb816d"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Nct.cs",
+      "export_path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Nct.cs",
+      "raw_sha256": "888f26fe3d1163f6f7c014e7775fa15092487d1e83319f26f9747da3f0bdbeff"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Ovt.cs",
+      "export_path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Ovt.cs",
+      "raw_sha256": "6513c0cf09558bd0e976e2600406f2f3f91ffc750023b462853389d1fb5cc9d1"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Prg.cs",
+      "export_path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Prg.cs",
+      "raw_sha256": "dafb962dce90f821b9798e04aa9129904a928ac8a482341978adc3e105b4a35a"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Rtc.cs",
+      "export_path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Rtc.cs",
+      "raw_sha256": "1cd02c3d8f8ff4578b7a453eed4fdb22a6408a2f8365f63229e098c2f6992862"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Ttc.cs",
+      "export_path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Ttc.cs",
+      "raw_sha256": "0bd89944a701997ffb0bd396565193e0f53f3694dc9f595a3f220754f2c3443b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Xtc.cs",
+      "export_path": "FortesFiscal\\Classes\\ConhecimentosTransporte\\Xtc.cs",
+      "raw_sha256": "fde1a0337ced2a02c64f7b98831fb21669de98571bfe63063d5654d0287d79aa"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Bcp.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Bcp.cs",
+      "raw_sha256": "cb65c4cbc2157e46ed63dfe0914f5aa8f1ab34f1d1a0cb01e90892b60fa65e3a"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Cfi.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Cfi.cs",
+      "raw_sha256": "1013c6b9d7ece9ec42dd5124f50e932f9a7012af69c13f52aa5036d3d35d3245"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Cpe.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Cpe.cs",
+      "raw_sha256": "2c60d6be243793a34f47c819f6237342b6771f77bc917c91c4f02633c504cb62"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Fcp.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Fcp.cs",
+      "raw_sha256": "6247dc1a60ac013062d210b9eeecf72c0258e5024ef53963246bf55299d3270f"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Fpc.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Fpc.cs",
+      "raw_sha256": "ec4a311dd7f33403f51208d9e518cc9d679321e108f778a919fdd47ad104969b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Ocf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Ocf.cs",
+      "raw_sha256": "e6ac8ce4e2b3fdb7032af1567eec16db2991e55da20e2422773b1f8016a498dd"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Pce.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Pce.cs",
+      "raw_sha256": "4fc2be7fa67436383fd5427b474bb6f8da141baca9d4a71d228ca94e2b90688b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Prt.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Prt.cs",
+      "raw_sha256": "11e80166408843a196ae5ba14eb2808b5bfc2f129135ebed4ccece9d62d152d9"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Rcp.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Rcp.cs",
+      "raw_sha256": "c5ca845017e9b34df185f76ac40e2fded80523a7307d3660a2dc7c45fc82c802"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Sce.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Sce.cs",
+      "raw_sha256": "8489e122de1677ea8805cb9f672f975fe5e4bccb21d6db7738782267cfd788aa"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Tce.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Tce.cs",
+      "raw_sha256": "8b9ddf14e8ec1436f9adbe69a8f17dcc0fb462f2ed1724f7749fc7723766aaae"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Tcp.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Tcp.cs",
+      "raw_sha256": "3a5ff692fb7f878bf08f830a210be0410713cdc846e4e63ca0af361af4d28137"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Xcp.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscaisEletronicos\\Xcp.cs",
+      "raw_sha256": "10e27c5db2d80261b4a6557808f7987ac47e1a24eea6d288d73a1dfdadbd4d61"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Bcf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Bcf.cs",
+      "raw_sha256": "70daaff58c59aa0d610b33c13d58051ac419104a5601bff58623db83ff16aa9c"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Ccf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Ccf.cs",
+      "raw_sha256": "188d43ffd6326eae774058b71e2cdf3f9f3bffac97582813e3fea9b4765fa283"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Cfc.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Cfc.cs",
+      "raw_sha256": "ab6fc33ab5701fdf257e3c0af1975d7e145a2c952e528db14bf713a8a473f2d7"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Fcf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Fcf.cs",
+      "raw_sha256": "a78c5508a2fe0f5ea8b899355047dc2d6268424c19abb240470afeb58c45d720"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Icf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Icf.cs",
+      "raw_sha256": "0266fd7cc73ea0c30c9b9cbbe23397862f2298ed3db19a78109fb515f1773dd2"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Ovf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Ovf.cs",
+      "raw_sha256": "a6879c1ced0cfb8e3c39a5f2cb6128b489ff4c0db6127e82ff2cb201a8920499"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Pcc.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Pcc.cs",
+      "raw_sha256": "324f055fae269e7327bb9364f06b8d4594f39eda7c2b704a9e63b6e22c4f5627"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Pcf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Pcf.cs",
+      "raw_sha256": "bf6ea1589529eec8d63cb912802b659d817be438e23206e21f349b6063312bc9"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Prc.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Prc.cs",
+      "raw_sha256": "a10638f6c5e0bc3c0bebba7e4780a367d0f52d2b6182d617659a50914ec85c99"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Prp.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Prp.cs",
+      "raw_sha256": "00fd0584e49650658d4633a2e67cd006c472f74d34e38a7cc7ac932794e26263"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Rcf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Rcf.cs",
+      "raw_sha256": "dcaa3fa5540e02ac580014f6e996508cbc951dd4950d16a55e8c9d7472a30e74"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Scf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Scf.cs",
+      "raw_sha256": "0abf547ab40257a559c7ce4ec3f4d110c06b40ebe434149287bcf8d42b808340"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Tcf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Tcf.cs",
+      "raw_sha256": "dbff22259c474bcf8f62c63008490a950a163faba486620679cbfb35a2a35f24"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\CuponsFiscais\\Xcf.cs",
+      "export_path": "FortesFiscal\\Classes\\CuponsFiscais\\Xcf.cs",
+      "raw_sha256": "4c919a2da0d9f06808c595ff68ab92f87048a38a1c0806f7787aa063e0c28f26"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\DesmontagensMercadorias\\Dmd.cs",
+      "export_path": "FortesFiscal\\Classes\\DesmontagensMercadorias\\Dmd.cs",
+      "raw_sha256": "8e15dbd31cc22c9028a48690f09ac22b3d4258d644dcee87aa7d6c558f2194c2"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\DesmontagensMercadorias\\Dmo.cs",
+      "export_path": "FortesFiscal\\Classes\\DesmontagensMercadorias\\Dmo.cs",
+      "raw_sha256": "38d1a43b4c2407f904290ae4976a9bc54e294f1fec3bdafae946981d00d0395e"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Ecp.cs",
+      "export_path": "FortesFiscal\\Classes\\Ecp.cs",
+      "raw_sha256": "f7c40454158220572307cd58f236283f4442c05e87ca86d152521bea3094fcb6"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\EntradasServicos\\Bes.cs",
+      "export_path": "FortesFiscal\\Classes\\EntradasServicos\\Bes.cs",
+      "raw_sha256": "89f29003f12efe888207a76a7271bd199192e66608666b7dabfa388bb8e8f886"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\EntradasServicos\\Des.cs",
+      "export_path": "FortesFiscal\\Classes\\EntradasServicos\\Des.cs",
+      "raw_sha256": "0eb5a768d2eacb6579305d1b1ab12bf4d34486dc9ca1282f8dc32dfbff2ac2f7"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\EntradasServicos\\Esi.cs",
+      "export_path": "FortesFiscal\\Classes\\EntradasServicos\\Esi.cs",
+      "raw_sha256": "2e0772cf362d33499fb670424a21334cc824ba02daa326c6b5355797c6db23fa"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\EntradasServicos\\Fes.cs",
+      "export_path": "FortesFiscal\\Classes\\EntradasServicos\\Fes.cs",
+      "raw_sha256": "766c3296d84aaa7751a923198abc7db509c99391733f9e8adca14b0121510950"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\EntradasServicos\\Ies.cs",
+      "export_path": "FortesFiscal\\Classes\\EntradasServicos\\Ies.cs",
+      "raw_sha256": "e2313c20faf4515a63b42c748d1b5db1bd7f84e95a9bc750f99c15b369a057b1"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\EntradasServicos\\Ove.cs",
+      "export_path": "FortesFiscal\\Classes\\EntradasServicos\\Ove.cs",
+      "raw_sha256": "3db01eb8106ad986424812dc618937b63b683176669251ec5dbc281492a9573a"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\EntradasServicos\\Pes.cs",
+      "export_path": "FortesFiscal\\Classes\\EntradasServicos\\Pes.cs",
+      "raw_sha256": "af3ba5cd973916723b9d860957050a68042e47441cb027e947b8d728f397fc03"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\EntradasServicos\\Tes.cs",
+      "export_path": "FortesFiscal\\Classes\\EntradasServicos\\Tes.cs",
+      "raw_sha256": "f1202b1e57768e8436d5284711ca36b5c35fe0367dae71989317e3fba07b9981"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Grp.cs",
+      "export_path": "FortesFiscal\\Classes\\Grp.cs",
+      "raw_sha256": "e41f0ff20280a4817423186a7d01a331b7df337b54dae76a27247944ac3a3e47"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Iiv.cs",
+      "export_path": "FortesFiscal\\Classes\\Iiv.cs",
+      "raw_sha256": "e24d52653f3f76f4a4eb9f72b755000d4c1ba95235b767168a6ad17832f85a17"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ItensProduzidos\\Ics.cs",
+      "export_path": "FortesFiscal\\Classes\\ItensProduzidos\\Ics.cs",
+      "raw_sha256": "bdf3bd7a65add881f8efabce2e76767b28f80485dbff6faace4daca89d2b96b5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ItensProduzidos\\Ipr.cs",
+      "export_path": "FortesFiscal\\Classes\\ItensProduzidos\\Ipr.cs",
+      "raw_sha256": "fcba77e205dc87710b65ce57001e4115092650d4c7c232cf17c3b36b5dc88be5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\MovimentosDiariosCombustivel\\Mdc.cs",
+      "export_path": "FortesFiscal\\Classes\\MovimentosDiariosCombustivel\\Mdc.cs",
+      "raw_sha256": "79424b4faae19c1b0b277f8c2c502726ada654ec3b78df14c85f0a31c5128ca9"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\MovimentosDiariosCombustivel\\Mdt.cs",
+      "export_path": "FortesFiscal\\Classes\\MovimentosDiariosCombustivel\\Mdt.cs",
+      "raw_sha256": "f1aed3473adbeb6f17c07eea53971efd2229b2fdf6b29adfcc654ea1fba0827f"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\MovimentosDiariosCombustivel\\Vdt.cs",
+      "export_path": "FortesFiscal\\Classes\\MovimentosDiariosCombustivel\\Vdt.cs",
+      "raw_sha256": "5474ba05036f835fba01272dda835eaa25629b5a1b60bf909ae9223387880a19"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Mre.cs",
+      "export_path": "FortesFiscal\\Classes\\Mre.cs",
+      "raw_sha256": "6d226c76b7aaef410f7ec23ee67ad9f07436c190c63bfb6fc4985b2c6a16e09b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Nop.cs",
+      "export_path": "FortesFiscal\\Classes\\Nop.cs",
+      "raw_sha256": "53ff2de328e3e548bb02c379313d27af1c6de1c5af8c5ee841ce4002181ac089"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Bfa.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Bfa.cs",
+      "raw_sha256": "65f1a3e01a5df2ff890c659f7ffee764e5ca44d639e1d8101b951d3998e15645"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Cfa.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Cfa.cs",
+      "raw_sha256": "28212d114032d79affe6d44ec32be5878854e3529894913a43bce2c562802e78"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Ffa.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Ffa.cs",
+      "raw_sha256": "ac2098a891e5bd968cdf265d189b30ba6285604c26b7e6837192d7e664b21c24"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Pfa.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Pfa.cs",
+      "raw_sha256": "f18a967b84839cd68c64c5dd4f42f665bd58ed448a22a7792cf9df48361fa11a"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Tfa.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisAguaCanalizada\\Tfa.cs",
+      "raw_sha256": "fe83fcb7ed046aa95a3824696db8c58704b7d7d3acb2f3a7f3c1a95f6007f4a6"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Bee.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Bee.cs",
+      "raw_sha256": "126a9543a4999afed36595cb544a16b93b7a6718e061f4b441125a68dcbf5ac6"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Cee.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Cee.cs",
+      "raw_sha256": "db599fe8a933064ec025fb01cda542c83d123c696460d3df4c50fb8ca7a0ffe7"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Fee.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Fee.cs",
+      "raw_sha256": "481d8e87dfc8b9a602633409490059b29fd5bcdfebf3aa4129f4ba4e68fba010"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Ice.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Ice.cs",
+      "raw_sha256": "32c13d5537e5b3d067bba8c7d39d2f72c58d93f7eb17fb8c915b18a06020ba7d"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Prl.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Prl.cs",
+      "raw_sha256": "2361f6bcfd31886bbb9b127fa52276e2ff3d97bdaa5b9cafbe7a92b48a9748b5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Tee.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisEnergiaEletrica\\Tee.cs",
+      "raw_sha256": "a3c669f52c7e97d30d74ea4d60d34c8ca8a4e85d3e63d055b53cf8b0c865481b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Bgc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Bgc.cs",
+      "raw_sha256": "73bd41f3190e77277011f5a005fe20001ae668c4aef84d71824f1056716020fd"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Cgc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Cgc.cs",
+      "raw_sha256": "4855685204caecb4f0dbd14990669736c596a4a96b0d361876165128adb137be"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Fgc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Fgc.cs",
+      "raw_sha256": "b951370298da5c7921afff6a0b9ed75c921e49b6c09a06e152fc7f2e94675225"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Pgg.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Pgg.cs",
+      "raw_sha256": "9b1853c0e9eb8258b0bb9e6cd6799310a5a26c482e362bb41da6d5c3794b66f5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Tgc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisGasCanalizado\\Tgc.cs",
+      "raw_sha256": "783918884aee6d5cb7e16eaef55c914ee327e877636ae6c96014f4a430339fe0"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Aip.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Aip.cs",
+      "raw_sha256": "94be9f2bae574b34067f5f33e1637c57e305bf391940ea25df4546fe4878fdd1"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Anm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Anm.cs",
+      "raw_sha256": "fba1b18ff7ebcb38f692413e7605cdd97c24a2015ba4a15c9ff75325e6adfa80"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Btd.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Btd.cs",
+      "raw_sha256": "8179e5dc7e1d21a46579882ceb70a05ae2b0bca6c51939650cf0a4c7f70675cc"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Cei.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Cei.cs",
+      "raw_sha256": "69423dbc11528ca00dee3d5d3e2144d19ecf57ae254fb17911f1e157b2a1dd8b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Cnm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Cnm.cs",
+      "raw_sha256": "9321cbe382c094a802604aeeb8abec8dec77c6401bd25892c8bdc9fc2576adfc"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Cvn.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Cvn.cs",
+      "raw_sha256": "6e66e5f95402a5d216de04c998bd7c7dd7fd1d8f846cc6f3ac19169377b245e5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dal.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dal.cs",
+      "raw_sha256": "a07c85ce17e6a9e2c02597a0885c195a27010357d22a3ea44bc78fd7908c3ac7"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Ddf.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Ddf.cs",
+      "raw_sha256": "dfcbeb182ba99769835480f46f736da58332f7395bc2e88069aae560b430a1a5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dfr.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dfr.cs",
+      "raw_sha256": "ed500b1ae99431a77ec7c8201e9c5b3a0805eabec74499dfb06219c032f5eec1"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dip.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dip.cs",
+      "raw_sha256": "4cd10bb4462f34247af02d7ac8e36c7fd10d3ed107edaf8d9f24d56b09bf6958"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dnm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dnm.cs",
+      "raw_sha256": "1d2ddeeb383bfeba7f372f21506af0c8cff4c4d87bf040a9a594f3adcb6afaf4"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dtr.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Dtr.cs",
+      "raw_sha256": "6336ab20301dc164ac535c8700a0a23271be89974df9cdb48cb7bbd2af9c1a0d"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Fdf.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Fdf.cs",
+      "raw_sha256": "18ac042966366c589a34156729128363c6a25b1d611028eb38ee3a46d0ab8a90"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Inm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Inm.cs",
+      "raw_sha256": "7a3d6274bb612476be4546fd456460183418887335a1853d6a9e4dac6c233846"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Itm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Itm.cs",
+      "raw_sha256": "0029557f5d2fc540867de4a00fbdb5497482e233b2dd1c15b350e543e380c02d"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Nfm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Nfm.cs",
+      "raw_sha256": "55c5110398edfeb3ec7c32fa621c5065f777002a5575bf3243325b13fe95f682"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Onm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Onm.cs",
+      "raw_sha256": "dd44e486445333edb5f1e46057a6da86b8c586071c6759743008c73a605cffa5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Ovn.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Ovn.cs",
+      "raw_sha256": "70a45a2dc56985ae0517b6ce2a81e72d71b2fc07a3ea9e56d7ecd80a05f489c2"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Pnm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Pnm.cs",
+      "raw_sha256": "cf711eee84c3099ac522ed65064c218a84ea39b49cd2623585b0831e64bb44f9"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Prm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Prm.cs",
+      "raw_sha256": "4f44891acb71827c653863ab4b21fd9fd63743d41370f7ff09bbcfa135e4365f"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Rtd.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Rtd.cs",
+      "raw_sha256": "ba1f6e00955f0bbe210ebb63bb96e67860bd4a7d179ba42453a2bb07a671ccf4"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Snm.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Snm.cs",
+      "raw_sha256": "5d75711d39b453b8dc10ef2f49898dd3a7fdf5a66f2be8c198fa37217078cf7f"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Svn.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Svn.cs",
+      "raw_sha256": "0ed3390df3789b0480feded61f50bd903efd65c5237b48c69c31bd369c27c784"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Tdf.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Tdf.cs",
+      "raw_sha256": "83a313bca1b9fe07db66a9e4b541349dd92fd2f27564ab112c9c3aedffe9b4cd"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Tsn.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Tsn.cs",
+      "raw_sha256": "acfa1361e47ab9c297a8bca9b2c3cb14f9c3f18ddc19cd94d1ae926e5c41e19f"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Xtd.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisMercadoria\\Xtd.cs",
+      "raw_sha256": "b1780074e0331c22cc0b47756af1f3e2fb00b6cff7ec61638f3e79b582add731"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Bdc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Bdc.cs",
+      "raw_sha256": "8b623ee320c48e037ea978f29bd7b80be747514ff3cfbbc6722fc657d306439b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Ddc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Ddc.cs",
+      "raw_sha256": "9412051f4fb00668acaedfe816921f41b28fb9336dac59a201b6b995c852f6f6"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Fdc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Fdc.cs",
+      "raw_sha256": "86d844c22ce4f1ae43d2cbba4b2160020df668845ea175875b3ffbb24e03fc80"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Nsc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Nsc.cs",
+      "raw_sha256": "dff4ee7e2fed3cf409871ea92fea877161af2b91a821fdf30214ec3b177b24cb"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Ovr.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Ovr.cs",
+      "raw_sha256": "7147792edd897fb4aa11f544321a2746fb60fd2e88dd57ded3d276e9e76d902a"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Prq.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Prq.cs",
+      "raw_sha256": "8fb398584272f0770d5ec3b3be4e518e13c76b8d727a30a6abf7997fdb72e3c9"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Rdc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Rdc.cs",
+      "raw_sha256": "0b33aaf8ffb7d394e6f480379c6ecfaa84c100c01ea6ab3d242ba8ddcc75505e"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Snc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Snc.cs",
+      "raw_sha256": "bb4a9c9757b1097aaffd97c6681f0d4d7b5e820a0306ddc2a0f20169e583711d"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Tdc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Tdc.cs",
+      "raw_sha256": "3fbb2af6b043534e5a622afe77983352f7d12c0927f8c9ee3225074bf8838813"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Xdc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoComunicacao\\Xdc.cs",
+      "raw_sha256": "48b2f3c38dae32099d69a1cf619efc58a9c9d0c415e9229ecf2b463323e5d283"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Bdt.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Bdt.cs",
+      "raw_sha256": "5a8acd022440f73a598fbe1728b3fa28a6fde3d920c39b7c3a55322bd7b5e242"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Ddt.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Ddt.cs",
+      "raw_sha256": "33770322c68fe5332cf8d387c088bbcf71019a81d328eaa559d36453c012c1d9"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Fdt.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Fdt.cs",
+      "raw_sha256": "4ec94846a66e4bc0b0271e8828266c73534d7ec441dce0fe7c94322fca9f358f"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Ntc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Ntc.cs",
+      "raw_sha256": "f01d517bb2f0bc9f562963a7af9cf6156e1f06002a8b35d8b4dd53c5bf87f89b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Ovs.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Ovs.cs",
+      "raw_sha256": "d7b6160f8fb3cae77fbd4f8fbdd87985d4533e811675d88ec6b825279e7dba66"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Prn_.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Prn_.cs",
+      "raw_sha256": "56656ae88384093c5322e4efcbee729bdae18e2454fd21c1dbe79d7379ee14f3"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Rdt.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Rdt.cs",
+      "raw_sha256": "73bc9f98e718d1df21e4a3a782b75710628da6252880519d430698d9784a8a1d"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Snt.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Snt.cs",
+      "raw_sha256": "265ebc92c9042251eaf9e85a22d0ebc5ab889ec25b8c5dbf2d802c8826a340c5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Tdt.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Tdt.cs",
+      "raw_sha256": "12cd4524ac5927b218f54938e96648bef8eb6057c690549386f618d7407d3442"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Xdt.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisServicoTransporte\\Xdt.cs",
+      "raw_sha256": "1b50a9a31cbc54d04d6824fd9dd6fe0af3465b9a1e7cb71cebe40f25df363e4f"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Bst.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Bst.cs",
+      "raw_sha256": "e67b1a9683d9dcc2506435911872a5d5c04c20b0c1089b124a703020f1e7ab2b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Fst.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Fst.cs",
+      "raw_sha256": "5932901a97978973b27b358f122ff08073db6d99525793f871b7eecc2cbdbf7f"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Nst.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Nst.cs",
+      "raw_sha256": "15f81224b59f685f9eb10d693f8300cac6d5b491f7d3d9ca123fed22651e731b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Ovl.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Ovl.cs",
+      "raw_sha256": "8d83743d9ad63cacfdaab5ee994111f5645a53e0233a0539361499af034f5110"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Pra.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Pra.cs",
+      "raw_sha256": "dd8f369c19758218c53b1a16f965f23ab09eab42aca50b9750ee8b5c3362d094"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Rst.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Rst.cs",
+      "raw_sha256": "d6ed14d87bf7bb6f02d7ca2341bb45794557921f4bd26e94740e5e67dd866c2b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Stl.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Stl.cs",
+      "raw_sha256": "5e74ac547a7c1a06e1e5407a4b8f7171f0b8a8f5d7e1667e40e48e482f1db7db"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Tst.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Tst.cs",
+      "raw_sha256": "92246587293161c8054791bc2877b00ac3ab2a29e32bbb59fd699c0d0a1301d3"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Xst.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisTelecomunicacao\\Xst.cs",
+      "raw_sha256": "49a2e55a7ababb33699718c3ecfac533baa96577500740c0d1f231984599c4d5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Bce.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Bce.cs",
+      "raw_sha256": "5e15fd14d53bb82a0969004e28b98d32ecbaea8bc6277a4306eb3239c6c738f5"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Bvc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Bvc.cs",
+      "raw_sha256": "648a84d077ab5fbb0e6f6f1967f094f5161c0537678e98a0514cb36a06a9f1c2"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Fvc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Fvc.cs",
+      "raw_sha256": "2c868de2a817d89742e22d25363a9a6d57c1c34089bcaee771fc12fb5e2944a1"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Ivc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Ivc.cs",
+      "raw_sha256": "88d487f5a341fa60159876bf0e95b82a6510948666184b5885ef2ceb57259a5c"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Nfp.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Nfp.cs",
+      "raw_sha256": "fd59490b9169b76f240983d01b4f45ad1a294fecfe125b0b430cb1823af21d3c"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Nvc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Nvc.cs",
+      "raw_sha256": "0749d01f89a4aefded649dda34f64e658c4231e2d6b0d0a9bf70dac1192ec186"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Ovc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Ovc.cs",
+      "raw_sha256": "34a8ebf411424a7aa23e8e9145810cc5dbe66d1bad8fac0ebb3cab521d348d8a"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Pnc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Pnc.cs",
+      "raw_sha256": "8d91885f0ee55d8b93687c28ee68df33c0751140143eb0d05504e256675ceb8d"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Pru.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Pru.cs",
+      "raw_sha256": "0a505de4a0544a54d6ca928dd04946c3ef8e6f9031e47928560e90010be103e4"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Rvc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Rvc.cs",
+      "raw_sha256": "586b0d104158fb306487abb5eb46fe69aa33f74da492a80d39a79cc492fdaf27"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Svc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Svc.cs",
+      "raw_sha256": "3ccc8414022eb23b6e15d3c502ab25d1ae3c629de39922cc9aa7357fc26d4458"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Tsc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Tsc.cs",
+      "raw_sha256": "71876a429ae6694e13def68133e0f1f340e1f800439543cbd404052beeca9354"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Tvc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Tvc.cs",
+      "raw_sha256": "2dcb61220a6c2535d77f906f3f8c69f9560b834edbad2da3e34f515ec7a7a00a"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Xvc.cs",
+      "export_path": "FortesFiscal\\Classes\\NotasFiscaisVendaConsumidor\\Xvc.cs",
+      "raw_sha256": "37362ef155ecaed7b283b665bf7ce833e17b8184bd3cd45e53cd4f04b7117279"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Occ.cs",
+      "export_path": "FortesFiscal\\Classes\\Occ.cs",
+      "raw_sha256": "e4a1d0eff568e6b45da8c88b7319593ba2dc45f600f399e61ddb3b42d8915924"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Omi.cs",
+      "export_path": "FortesFiscal\\Classes\\Omi.cs",
+      "raw_sha256": "76ff5a461266edbdf16fe9d87b55e3109ac96a4640f1db792270e2fe8b564a91"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Oum.cs",
+      "export_path": "FortesFiscal\\Classes\\Oum.cs",
+      "raw_sha256": "1f7245d96138cd2ee0c7de04c47b8affdf0135b2a018fa37412c39fbf37a6a10"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Par.cs",
+      "export_path": "FortesFiscal\\Classes\\Par.cs",
+      "raw_sha256": "520bdec4b20bf405bd7c33c2c1c4cd9e3927b2d75e48dc13911c0094224b9d92"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Pco.cs",
+      "export_path": "FortesFiscal\\Classes\\Pco.cs",
+      "raw_sha256": "d3b68f20aac77a31c5fd87bf0b701553f2e4b9820edb5c3359338068563c7fff"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Pro.cs",
+      "export_path": "FortesFiscal\\Classes\\Pro.cs",
+      "raw_sha256": "e89b20dee17987543a1ac213a6be2d80b6f03ca25f1da00e1cfdfc83727abbce"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\RegistrosInformacaoExportacao\\Dfe.cs",
+      "export_path": "FortesFiscal\\Classes\\RegistrosInformacaoExportacao\\Dfe.cs",
+      "raw_sha256": "5edf60f0edc6fbe5e25cc2d7556a2ae9988a626d08e69440e62e6c2fcb57441b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\RegistrosInformacaoExportacao\\Oei.cs",
+      "export_path": "FortesFiscal\\Classes\\RegistrosInformacaoExportacao\\Oei.cs",
+      "raw_sha256": "1ef555bd839ae535f6b85cbd830ab4039e0b990fc0412b34d61fd86c3316aa46"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\RegistrosInformacaoExportacao\\Rex.cs",
+      "export_path": "FortesFiscal\\Classes\\RegistrosInformacaoExportacao\\Rex.cs",
+      "raw_sha256": "b3ef0cd34b5559698e254248428aa4604598b2d42da4db7e4fd13d10a903569a"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ResumosMovimentoDiario\\Pmd.cs",
+      "export_path": "FortesFiscal\\Classes\\ResumosMovimentoDiario\\Pmd.cs",
+      "raw_sha256": "9f1fd05da3257a80cb0f983ab90475dcb9da0c084e581ee48dd7a33ccc62bbbd"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ResumosMovimentoDiario\\Rmd.cs",
+      "export_path": "FortesFiscal\\Classes\\ResumosMovimentoDiario\\Rmd.cs",
+      "raw_sha256": "0b0627f54116693ba3330f08349ffc089e610a5f62122e2fb81290136394cd69"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\ResumosMovimentoDiario\\Rrm.cs",
+      "export_path": "FortesFiscal\\Classes\\ResumosMovimentoDiario\\Rrm.cs",
+      "raw_sha256": "519f712060830534a150a5f178c4e8095470713eaf44cc724cbfab3e89148369"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Bds.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Bds.cs",
+      "raw_sha256": "61a47f71fcd87387697b8856ac4daac8f5f2979f40d75a31d3dc03e726e5bf92"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Bnf.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Bnf.cs",
+      "raw_sha256": "6948e03191b299024d552dfd47a457181ad4f05a44ee2f1a8f090f8a0d60fe8b"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Dss.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Dss.cs",
+      "raw_sha256": "a2283b0d3ee19d5ba3970a3680d4e8eda3a369ae3ff359531ab4f862b71240a9"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Fds.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Fds.cs",
+      "raw_sha256": "e5505173564e0da1bde0fb4d0a925ab352604a37b581a640fea063125647aea6"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Its.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Its.cs",
+      "raw_sha256": "86ec1b8d519db607edd4690dc59c939a2e77f868ad9cc5171f07a1969e684970"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Ovd.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Ovd.cs",
+      "raw_sha256": "3bc4b4d25b84d7abf1a076e615a75c4b19f1a5b396e854e8592ec3f7a0fe8e18"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Pss.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Pss.cs",
+      "raw_sha256": "d0e90b6c01fe5136b2bc77576d965df895d383b951ecda61cf236f9796fb23b2"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Rds.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Rds.cs",
+      "raw_sha256": "440547eea2cd9633d2b1eb027cb67aab318ccb31bce95a218fcfa716b750afa3"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Tds.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Tds.cs",
+      "raw_sha256": "e74892c1ea1dadc1a97363161a729fcc495d949f546d8ac79eb73eb85ce0f2c0"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\SaidasServicos\\Xds.cs",
+      "export_path": "FortesFiscal\\Classes\\SaidasServicos\\Xds.cs",
+      "raw_sha256": "73e0b7c46b025d0a5ec678d5333cd7270e521c2956ae8ae57f9eae17de65f5c8"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Tra.cs",
+      "export_path": "FortesFiscal\\Classes\\Tra.cs",
+      "raw_sha256": "38fb704a6cc5e2ff0f47336f0e5a0f246c1564b293de87cb2cd3a45ffca97dbe"
+    },
+    {
+      "path": "FortesFiscal\\Classes\\Und.cs",
+      "export_path": "FortesFiscal\\Classes\\Und.cs",
+      "raw_sha256": "bcb70071f36440655fa2fb243cea5db47c5db0ec610b32cb0cfb94a0ba41726f"
+    },
+    {
+      "path": "FortesFiscal\\Formatos.cs",
+      "export_path": "FortesFiscal\\Formatos.cs",
+      "raw_sha256": "2d743acce5e26983fc90993d81ad3f026627fe55b79c915cac105d478e78ec55"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperEspecies.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperEspecies.cs",
+      "raw_sha256": "afe51bcb82dbe1edbd2ca2fe4d5bf9bdedd4e229129aacaaab2a6fe21ec32009"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperFormaPagamento.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperFormaPagamento.cs",
+      "raw_sha256": "afa6d8ed333f645a59b660d1b3a813a950f37aa9f899e9d1ebdb524fb972af50"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperFrete.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperFrete.cs",
+      "raw_sha256": "81fdddb94a31787a24db859bba36681e4615f2184c5765ecd2176537fcbfdbe1"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperIndicadorPresencaComprador.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperIndicadorPresencaComprador.cs",
+      "raw_sha256": "e35a3c082afbb9d039ef08da26eea2015864cde4f755962c0108cb991bfb15fb"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperNaturezaReceita.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperNaturezaReceita.cs",
+      "raw_sha256": "cee609115404ca9519621a70b37368eca09d1dfb78fd82b514fad378729d8d9f"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperNumeroFinalSaidaServico.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperNumeroFinalSaidaServico.cs",
+      "raw_sha256": "3309087280c4400c4aab3d4c9dabd9e27cc223e4bbdea5cfee7c7657fb4b4d17"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperSerieSaidaServico.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperSerieSaidaServico.cs",
+      "raw_sha256": "dfdaea8cad006ef1062fb581b59eafa5f8c26497d2ab31c262f3e3f349c929cc"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperTiposBairro.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperTiposBairro.cs",
+      "raw_sha256": "824d94f7747388ee3fc4c2213f53a94a70c81a1fa42f58d27e5dd2df2c0721f8"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperTiposCombustivel.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperTiposCombustivel.cs",
+      "raw_sha256": "e1f46dff013ad1c833097b61b258e0a722727885c745c966058b75a908692458"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperTiposLogradouro.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperTiposLogradouro.cs",
+      "raw_sha256": "5af574dcc7fd1197532ee39b07cff0aab8749d69b854e2145bf743cbd7abfbbd"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperTiposUnidadeMedida.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperTiposUnidadeMedida.cs",
+      "raw_sha256": "43a5bcd5ad7df92ec57d3660c98c8610a2ebf858b5fac99ae20d087208527aaa"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\HelperTributacoes.cs",
+      "export_path": "FortesFiscal\\Helpers\\HelperTributacoes.cs",
+      "raw_sha256": "8d0c742bf5a866c7f2ff812089be76ec3e6b842e114bb9204f80893f21eed351"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\NaturezaReceitaFortes.cs",
+      "export_path": "FortesFiscal\\Helpers\\NaturezaReceitaFortes.cs",
+      "raw_sha256": "40f3949495c7458c00922111dc478269d21b0bac8e53c4576c44de7b85edf832"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\TipoCombustivelAnp.cs",
+      "export_path": "FortesFiscal\\Helpers\\TipoCombustivelAnp.cs",
+      "raw_sha256": "1ca564690b2df51b41dc144209d5d1ed118ee6d9f0352df6e6892b6c82eb70d2"
+    },
+    {
+      "path": "FortesFiscal\\Helpers\\UnidadeMedida.cs",
+      "export_path": "FortesFiscal\\Helpers\\UnidadeMedida.cs",
+      "raw_sha256": "46e14f51f57731a9764a1ee93e53d8f58f7c633be86a80b82830bb8a33bd5360"
+    },
+    {
+      "path": "FortesFiscal\\Interfaces\\IRegistro.cs",
+      "export_path": "FortesFiscal\\Interfaces\\IRegistro.cs",
+      "raw_sha256": "ddf42f8960891c0474e590ae711e38e8907c7f96892fd89d79d8dafb8e3579e1"
+    },
+    {
+      "path": "FortesFiscal\\Types\\IndicadorIcms.cs",
+      "export_path": "FortesFiscal\\Types\\IndicadorIcms.cs",
+      "raw_sha256": "88c4b3424c9858e9da4cd554e0136aa76c82b7b7bdac66a6d42689c531ee9930"
+    },
+    {
+      "path": "FortesFiscal\\Types\\MotivoInventario.cs",
+      "export_path": "FortesFiscal\\Types\\MotivoInventario.cs",
+      "raw_sha256": "5abe5058e052bd975cfdebff54ca307d31152434df5f9f554581a049eb69a2a7"
+    },
+    {
+      "path": "FortesFiscal\\Types\\ProdutoEspecifico.cs",
+      "export_path": "FortesFiscal\\Types\\ProdutoEspecifico.cs",
+      "raw_sha256": "73d43c02c8af9c0b06fce6c87f4b3cab27c3b96c5a37083db7b922c14e18ced1"
+    },
+    {
+      "path": "FortesFiscal\\Types\\SituacaoDocumento.cs",
+      "export_path": "FortesFiscal\\Types\\SituacaoDocumento.cs",
+      "raw_sha256": "bb9b7ed15ce15b32ab7c0e35fb7fa959676b7ac64a1f2ec6650bc268c925c146"
+    },
+    {
+      "path": "FortesFiscal\\Types\\TipoFatura.cs",
+      "export_path": "FortesFiscal\\Types\\TipoFatura.cs",
+      "raw_sha256": "1ef291f66cf20344c1b343859a1d037da26b86654135adc7f68a18c8c491e3f5"
+    },
+    {
+      "path": "FortesFiscal\\Types\\TipoMedicamento.cs",
+      "export_path": "FortesFiscal\\Types\\TipoMedicamento.cs",
+      "raw_sha256": "c83a9a982cd6dfd868491286f8ea1b4fe452ed1af756431577759c270365b05c"
+    },
+    {
+      "path": "FortesFiscal\\Types\\TipoOperacao.cs",
+      "export_path": "FortesFiscal\\Types\\TipoOperacao.cs",
+      "raw_sha256": "62ab8773b879867c911f8bdc2ec604e14e2c16a59ffbeafa8e6b79833004a655"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\ArquivoEfph.cs",
+      "export_path": "PhSoftwares\\Classes\\ArquivoEfph.cs",
+      "raw_sha256": "2a2df7a11d430ce0a08e5731279655dc9232294ca92b9964a1db814453b39aa5"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro10.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro10.cs",
+      "raw_sha256": "6ff819c093e6fd7049ce8c904c8fa3580804dd0ee27dd595769a27f1eae490a2"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro20.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro20.cs",
+      "raw_sha256": "93ff6158fe42b9f5aaa7747afe7de38fde0a1175f2efdbb34e3ce69b21bb1d71"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro20C.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro20C.cs",
+      "raw_sha256": "c88d87b0d561c2211d75dcd1c91000b1add9fc1c74a387a4fc843d443a486bb6"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro20E.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro20E.cs",
+      "raw_sha256": "df05ce173097086d9677cb082b01b0a939d19c6c7b781a0cb7a55c9b8b593953"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro20S.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro20S.cs",
+      "raw_sha256": "8d065692ba87213943da0b991bc468b475a19df81d2a1700fe0f94d18f927917"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro21.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro21.cs",
+      "raw_sha256": "c65a0ff9d1d42b8ff7e2ee2c3087aa14155f8795d3c68a854b9bec3ccfb4e4b8"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro21C.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro21C.cs",
+      "raw_sha256": "0d2061ecca0d9106de331a182f880744bcc1bf0026750f701c46543fdd6c39de"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro21E.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro21E.cs",
+      "raw_sha256": "608ece9e3cba3856a9422cd7e427d371ccd87f76f0492282c0ce6aef8b3a28c6"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro21S.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro21S.cs",
+      "raw_sha256": "82c73e27904c482f11b0f9f58230e60448c0088aaef1527726b66cd3e642a9d1"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro22.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro22.cs",
+      "raw_sha256": "aab5579f0176a0f49f91c22c2968e260a908a5fe0b0e499317422f4173cc98bd"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro23E.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro23E.cs",
+      "raw_sha256": "fd52a585d39e2ea284bb932ecf06ca4f03a335703754aab92f431e0c5849b685"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro23S.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro23S.cs",
+      "raw_sha256": "eddaa8fed9ce05fa332e2bc4739e0b415fb0ee78744ebf83c74bb221794cfad6"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro24.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro24.cs",
+      "raw_sha256": "3a36c6cf6ca1b887005ad6280dbd259ae783a8a91033361712f05199689ee999"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro25.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro25.cs",
+      "raw_sha256": "9bc4194841cbd0bfaf069d7885f74b8830273362bc56e1e1f4511733e9367e9e"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro26.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro26.cs",
+      "raw_sha256": "0c71f6e5039bc3b2ded0573163a75909456c137847ba0e8a212d42bb629c7d65"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro27.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro27.cs",
+      "raw_sha256": "8720bcfa84aaa0b0c69fd519e8f54f1f0ede6a339471b0065f2ec6aba4668e9f"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro28.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro28.cs",
+      "raw_sha256": "67daa5d21422e7ec39fcfa8cdb6fd1f2a5be1c57e56c7dd349a65fca7f9abd50"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro29.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro29.cs",
+      "raw_sha256": "cd272e5e94b89cd411f0ab1042de7b08107c3aac9c7b48da9773d4c7d48d8741"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro30.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro30.cs",
+      "raw_sha256": "6bb03326ca78947f358eaf86f8cd0864fbb0fe18139fdc2ec4449691de075315"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro31.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro31.cs",
+      "raw_sha256": "5ab371037ac30b494b809325484d45ef5068f2632e927af0c8e73ca854822584"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro32.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro32.cs",
+      "raw_sha256": "574642b7c0a44477b1e03f5a84b34ff1a12961951162fac921378d7f56bc9b53"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro33.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro33.cs",
+      "raw_sha256": "dae819601445e3f6f729e7395f85f8b87ab0b5ae0954dfa02dec155c49f69d72"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro34.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro34.cs",
+      "raw_sha256": "1bd2598560a5f73197a4604a64a308d20179df08a4ebff601f6bb8c0510d1821"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro35.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro35.cs",
+      "raw_sha256": "fcf1f08d1b956ddf3af86053e3c40cb398819a732572870930989e660f9ba051"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro36E.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro36E.cs",
+      "raw_sha256": "f5b88bba606ba5737aee67f965701bdb632d5cb0bec7ba29ed315c4902aff9f9"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro36S.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro36S.cs",
+      "raw_sha256": "e1f30de43263b2563cbdecb0a74822ba0daeaf6feab744162155d4328da3ae1e"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro37.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro37.cs",
+      "raw_sha256": "e28e89286de04fc90a8fc5b96e44f052b16d150d667253576964c6f5a101fd7d"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro38.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro38.cs",
+      "raw_sha256": "4cf3b193d2fa024015410eb310b74da561dbbc8b686985be0f867709f548ea66"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro41.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro41.cs",
+      "raw_sha256": "627b877181b7ed8b6f0aca3bde163427ce2225269927e0e15b7bea68d0ca32b4"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro42.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro42.cs",
+      "raw_sha256": "8a5dc456efcbf02ad05b3c4afafb96576502e4cdacc00b385065836c953d1ac3"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro44.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro44.cs",
+      "raw_sha256": "8b94e265f9282f86373e22c85f08c631cdc4e6e88456031e910e1c4df0d06574"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro45.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro45.cs",
+      "raw_sha256": "75b033e87667f59faa4f0a3b395ab9e32e28cd252001a7837aad797f71d009e1"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro46.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro46.cs",
+      "raw_sha256": "1afe4314615d45c4051847f129bc429c5ad63792a4cd529b189ee38ad36b6b74"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro47E.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro47E.cs",
+      "raw_sha256": "f32b0d0ef88f969801f0e4cdf3c8be77d884dc594680ab27c98a17deda1badbb"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro47S.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro47S.cs",
+      "raw_sha256": "d69d49918cbbb7c520b5f33349ee741fbe8e9985bc8f85ee7a50821538c826c3"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro47SAereo.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro47SAereo.cs",
+      "raw_sha256": "33b499b40a3795c1a6ea74b7a5b087cd833b62300612cba85bc5b2099c7de8d5"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro47SAquaviario.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro47SAquaviario.cs",
+      "raw_sha256": "56add7208742d953a7b8b2f1341b16631c34e7fdfac4b87be86280005ceda3b2"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro47SMultimodal.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro47SMultimodal.cs",
+      "raw_sha256": "e10d44c858c0f91c92ab03337be44132bc0b91e6f569d6769502080b16d912d8"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro47SRodoviario.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro47SRodoviario.cs",
+      "raw_sha256": "e3739f0947a6f37aa03c54f25d8d016552651972ef56adf0aa7f533f7e0dd5d2"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro48.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro48.cs",
+      "raw_sha256": "550323bf61f5339aaf09f7de65adfec5765a626502b799eddd794e6bf5289db9"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro49.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro49.cs",
+      "raw_sha256": "6293159bbe89a612109368957ea8935ee1d2bcc93db210c0a7f303725db403ed"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro50.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro50.cs",
+      "raw_sha256": "40cc3c427c998704d7826858c45818a1b87be21928a439219df3c9b664c61e13"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro51.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro51.cs",
+      "raw_sha256": "118a97828cd1ed916fd98f81fdbaca2ee3743d2fe22db8b588b4962938d7939b"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro52.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro52.cs",
+      "raw_sha256": "9427c63a07dc5f1f2a4b72961d6c075d881756e54403e280ab9b5a2581fb396c"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro53.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro53.cs",
+      "raw_sha256": "8e472397d4764c8f223ce784b112454c1cc0cc313ff3fdaab815b4507695b32b"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro54.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro54.cs",
+      "raw_sha256": "a6cd56e5fa7fe5966703167367ecf556dd0631a7ed43af8de846978d95f59ac9"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro55.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro55.cs",
+      "raw_sha256": "c009bf55aee82b801c85799130f2ac30fa4b7d8081432bf34328494a70fc70ff"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro58.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro58.cs",
+      "raw_sha256": "80bd4e6fd8f9110b4b25b00b16d0a52fcf932a4aa726f1ba6077961bda250bd1"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro59.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro59.cs",
+      "raw_sha256": "5283ba408965087bfe270145631a76fdaab4e538dbf867e4bccc1542a5d1e67a"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro60.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro60.cs",
+      "raw_sha256": "3556a54a131dee68b1cf69674358412c1c8c5d6ed66243697f993514866fe82a"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro61.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro61.cs",
+      "raw_sha256": "974852f81b17b75068a28648726d5fd47b1947b683796e23801d0a995e1f8fbf"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro61A.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro61A.cs",
+      "raw_sha256": "8401b2d6d062c67696ec9245bc17fb2c096826c025c63918bb10ead733f9a4c5"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro62.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro62.cs",
+      "raw_sha256": "06d9e764a44a5e28f03d9df8c7aab9723b5a743fc7855944a97a8cc1e3e9f677"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro63.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro63.cs",
+      "raw_sha256": "7b116694b23c8cefe3d354fda7028a71a151f2eaf50a00aa2459491cefa0bdbb"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro63A.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro63A.cs",
+      "raw_sha256": "edb75b92cecb54bdb60b0f2a9820f53169be52db3e6d18851b723955c32994d7"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro64.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro64.cs",
+      "raw_sha256": "1416d5693e00719599d9bf5cb6a63506d6fd0e406dde08779a8742d9a8ed7374"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro65.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro65.cs",
+      "raw_sha256": "bd1d8699bd7f745e8388bd0f5c777dec7bb18456966650fd231176505086db01"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro66.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro66.cs",
+      "raw_sha256": "81202c32a843b853557525ef1f5e75634214527c36b94574cde333849dceeadd"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro67.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro67.cs",
+      "raw_sha256": "f9801b9e6b8d1a03272c6a59728b7298647b345ec44ff2f3497fd7a49f29b427"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro68.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro68.cs",
+      "raw_sha256": "feabca30db01fbc4cb4057474773fb4078a14cb9014aeb1d986a08b999adb8b0"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro69.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro69.cs",
+      "raw_sha256": "eb6d3f7cb9093fd8b1320090818d81f1da09491c9085f570ced6d3091ce5876a"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro75.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro75.cs",
+      "raw_sha256": "339842ff8df0d6a4de3c6443a035dfd6178486c7eba58f1e7e9560fb72f42336"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro75A.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro75A.cs",
+      "raw_sha256": "1a60e90041ea376bb757ba5f45491a4f9524f1065fca71674d773e78a875f62a"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro76.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro76.cs",
+      "raw_sha256": "7510e5f6269a0e0c2ef0346a0e11ce4270279b06d050321e4eed6592c07f15d6"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro77.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro77.cs",
+      "raw_sha256": "c7234ed3549f94b69763fe66fa0a48af8828e0fdac5b686e7503707f703e5ec8"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro78.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro78.cs",
+      "raw_sha256": "fa1179459a5fad40190b9a12deddc47fb6d897f0eeed94d577eceff28bcb0c83"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro79.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro79.cs",
+      "raw_sha256": "69577086804d3ebf2e6c24090cb6057dbfa4c64015f603ef4d9dc910ef55333c"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro80.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro80.cs",
+      "raw_sha256": "79cb92f77d899bf89a8b39bde218540be24c86468a7114965d1c18f447f50e27"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro81.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro81.cs",
+      "raw_sha256": "8bc81df26bf0007cae06b02e62957a5e79920b4cedfc06b990af744a4a2fea9d"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro82.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro82.cs",
+      "raw_sha256": "e88c34d21b4b2f9bf505f906272a55b5979bd779613ad052d77d74992c1b4772"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro83.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro83.cs",
+      "raw_sha256": "da60f309b12f90d65f4aae73a3bd32042dbae0510573270fdd5a33cbd76b9125"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro84.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro84.cs",
+      "raw_sha256": "bbf11318f2e0fa94a919dcf08ac0e433a2e6f543b6af3da93a043ae3371e8933"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro85.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro85.cs",
+      "raw_sha256": "64064327bd296d7efbc10b5167b81f449fda8cdd5bb75e254ad48dacdcc2f516"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\Registro90.cs",
+      "export_path": "PhSoftwares\\Classes\\Registro90.cs",
+      "raw_sha256": "57dc3f759cf9cec49c1638b4c2412bd54fcd8fe781a2b1f89f0364812b04b220"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\RegistroItem.cs",
+      "export_path": "PhSoftwares\\Classes\\RegistroItem.cs",
+      "raw_sha256": "6491b82a863df780fcb430e98cf7d74bb9d515b4b0d9d19a6a0478514f0e5d1e"
+    },
+    {
+      "path": "PhSoftwares\\Classes\\RegistroParticipante.cs",
+      "export_path": "PhSoftwares\\Classes\\RegistroParticipante.cs",
+      "raw_sha256": "b58fd66c4cd5e99a5859c6989a37eb2d19d5878a06d626d57e6107466efb07d6"
+    },
+    {
+      "path": "PhSoftwares\\Formatos.cs",
+      "export_path": "PhSoftwares\\Formatos.cs",
+      "raw_sha256": "6ff2efa5dc83caabf36b8a2a44a5dbb7119d71b0ccd40a49f649b7d445d9357f"
+    },
+    {
+      "path": "PhSoftwares\\Helpers\\HelperModalidadeFrete.cs",
+      "export_path": "PhSoftwares\\Helpers\\HelperModalidadeFrete.cs",
+      "raw_sha256": "5b5b186c76e604752a7c9010b692bb2956d66aeac5f3417d389e581a70795cea"
+    },
+    {
+      "path": "PhSoftwares\\Helpers\\HelperModalidadeST.cs",
+      "export_path": "PhSoftwares\\Helpers\\HelperModalidadeST.cs",
+      "raw_sha256": "4758f3726ef1b69d940a4ea2e2bdb51f2790de54c414b1efdeb0dff4447bd257"
+    },
+    {
+      "path": "PhSoftwares\\Helpers\\HelperModeloDocumento.cs",
+      "export_path": "PhSoftwares\\Helpers\\HelperModeloDocumento.cs",
+      "raw_sha256": "4b9e630285dc2e35f86914d7eab63aed25a745bef76f2e01e3d5fa72df079823"
+    },
+    {
+      "path": "PhSoftwares\\Helpers\\HelperSituacao.cs",
+      "export_path": "PhSoftwares\\Helpers\\HelperSituacao.cs",
+      "raw_sha256": "1b477ea26b905fb3eb3fc5a3500cff7746dc118d48fc004789b7cd8ad8534a20"
+    },
+    {
+      "path": "PhSoftwares\\Helpers\\HeperEspecieDocumento.cs",
+      "export_path": "PhSoftwares\\Helpers\\HeperEspecieDocumento.cs",
+      "raw_sha256": "204ac39679218307d30f0c2a612a2c2a62735124c5991f55e4e210c43be08eb7"
+    },
+    {
+      "path": "PhSoftwares\\Interfaces\\IRegistro.cs",
+      "export_path": "PhSoftwares\\Interfaces\\IRegistro.cs",
+      "raw_sha256": "ef010b6853fba85313bd03d106c65021cc89da3f6b3e402528c1c3c50bd796e4"
+    },
+    {
+      "path": "PhSoftwares\\Interfaces\\IRegistro20.cs",
+      "export_path": "PhSoftwares\\Interfaces\\IRegistro20.cs",
+      "raw_sha256": "c7e833590070b0fc06280c1a23ca1aa4a794f9fb1dd415276ba1cf5470901593"
+    },
+    {
+      "path": "PhSoftwares\\Interfaces\\IRegistro47.cs",
+      "export_path": "PhSoftwares\\Interfaces\\IRegistro47.cs",
+      "raw_sha256": "1620955e7e95b2316f87f520d35f518b20e50511124b9d363b76ad8cf83f1569"
+    },
+    {
+      "path": "PhSoftwares\\Types\\TipoProduto.cs",
+      "export_path": "PhSoftwares\\Types\\TipoProduto.cs",
+      "raw_sha256": "3b3d7ab8403c0ff4263809f56ba50ca508681833ae931147728d8c338a430225"
+    },
+    {
+      "path": "PhSoftwares\\Types\\TipoProduto2.cs",
+      "export_path": "PhSoftwares\\Types\\TipoProduto2.cs",
+      "raw_sha256": "e9b7f1b6bbaf9aba50d0e4a034a5eb327b6b19844e4969d544aaedfb9d7a93da"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "82575e7eeb3dd318b9887c6e40ab616e2ac0e662ecce07776fdb876d7b8cde7b"
+    },
+    {
+      "path": "QuestorContabil\\Classes\\ArquivoQuestorContabil.cs",
+      "export_path": "QuestorContabil\\Classes\\ArquivoQuestorContabil.cs",
+      "raw_sha256": "9b5501a6a959e308957c16268da1c2128f93a4be2cfa09f763ebc1e6cb73296d"
+    },
+    {
+      "path": "QuestorContabil\\Classes\\LancamentoContabil.cs",
+      "export_path": "QuestorContabil\\Classes\\LancamentoContabil.cs",
+      "raw_sha256": "ae53a887dd033e4fac5bdf91e9d5f5012074a98e54e3e9c791c76e5ee9e9a965"
+    },
+    {
+      "path": "QuestorContabil\\Classes\\LancamentoGerencial.cs",
+      "export_path": "QuestorContabil\\Classes\\LancamentoGerencial.cs",
+      "raw_sha256": "39238f175f157db0faceafa8dbfa140b782d4f67df67ac92d5f188ac787e2b15"
+    },
+    {
+      "path": "QuestorContabil\\Formatos.cs",
+      "export_path": "QuestorContabil\\Formatos.cs",
+      "raw_sha256": "04737723ea825bf3d0c1c506a3353cfd090c5e4c4bd56fd656e8ac14e1e1d2b9"
+    },
+    {
+      "path": "QuestorContabil\\Interfaces\\IRegistro.cs",
+      "export_path": "QuestorContabil\\Interfaces\\IRegistro.cs",
+      "raw_sha256": "a60c41fe287aed9df7cc3104166082e912bbd2492f489e170aee80ad29f34b5a"
+    },
+    {
+      "path": "Siescon\\Classes\\ArquivoSiescon.cs",
+      "export_path": "Siescon\\Classes\\ArquivoSiescon.cs",
+      "raw_sha256": "40b38aacf41aec6cde574e40005894a008f2431a22d421e938694ca795ea6e73"
+    },
+    {
+      "path": "Siescon\\Classes\\Lancamento.cs",
+      "export_path": "Siescon\\Classes\\Lancamento.cs",
+      "raw_sha256": "6d200a2dd98aa25231998cca50750a11e53d0994a38b87850a532f800455ca71"
+    },
+    {
+      "path": "Siescon\\Formatos.cs",
+      "export_path": "Siescon\\Formatos.cs",
+      "raw_sha256": "a6adc85466d22f147e280176ce614d18f6b35c0f844c5e362e2d7670168e047f"
+    },
+    {
+      "path": "Siescon\\Interfaces\\IRegistro.cs",
+      "export_path": "Siescon\\Interfaces\\IRegistro.cs",
+      "raw_sha256": "7fe11bf3ee1ca9d7850bfbdbbc76b1db0c5e6a866e7dc9c37cf63128aa1a2014"
+    },
+    {
+      "path": "__PrivateImplementationDetails.cs",
+      "export_path": "__PrivateImplementationDetails.cs",
+      "raw_sha256": "bb23b9b67103a92a5a071df9062dba40c1959eb1eed3dc1d58250f88fdd090da",
+      "generated": true
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 8
+    },
+    {
+      "kind": "synthesized ComputeStringHash helper",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [],
+  "generated_stubs": false
+}

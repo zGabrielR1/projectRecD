@@ -1,0 +1,116 @@
+{
+  "name": "Modulo.TiposPersonalizado",
+  "baseline": "baseline\\Modulo.TiposPersonalizado.dll",
+  "baseline_sha256": "8a9114e00e880c3e33676f26b2087f6e80404cdb33102e9e5a2216d7b9fc5658",
+  "export_project": "recovered\\SuiteG6\\Modulo.TiposPersonalizado\\Modulo.TiposPersonalizado.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "e6d1113cc94ec350b53ca4af6dbf66833615f165dc180b926c7fabf7974c5f12"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "e7e86ae906eccb97c9094cf71dc1743f3d320f95e31172586763c6e4404a2fd2"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "87fca517852eff7218689ae41bd26c3e1152d78cb4daaf1f053b1de654a27604"
+    },
+    {
+      "path": "TipoPersonalizadoModulo.cs",
+      "export_path": "TipoPersonalizadoModulo.cs",
+      "raw_sha256": "d7b9754820885667755f630cb68e63332fb6ef0c13923e08947d099246b97a3b"
+    },
+    {
+      "path": "ViewModels\\ModuloComboBoxViewModel.cs",
+      "export_path": "ViewModels\\ModuloComboBoxViewModel.cs",
+      "raw_sha256": "4d4c65faf09f704edb15e7ed0827526d031588300a89163dd437467fc4e272fb"
+    },
+    {
+      "path": "ViewModels\\ModuloItem.cs",
+      "export_path": "ViewModels\\ModuloItem.cs",
+      "raw_sha256": "96dc8e144319911bbf71353437a59e777f95576b57e0d5d0e434fe2267e61a05"
+    },
+    {
+      "path": "ViewModels\\TipoPersonalizadoAbaViewModel.cs",
+      "export_path": "ViewModels\\TipoPersonalizadoAbaViewModel.cs",
+      "raw_sha256": "6888bfa93256acc32ad7392ddd8d7b0e2cde7734dbf524bf9e8c25802872a717"
+    },
+    {
+      "path": "ViewModels\\TipoPersonalizadoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TipoPersonalizadoFichaAdicionarViewModel.cs",
+      "raw_sha256": "32e2dcc7ccef8c51dd1cac839362042a21b7b7f882940bc28087e5f74f4b2fed"
+    },
+    {
+      "path": "ViewModels\\TipoPersonalizadoFormulario.cs",
+      "export_path": "ViewModels\\TipoPersonalizadoFormulario.cs",
+      "raw_sha256": "7d3a623da451dc4900c5978df775a433699e09f59a000de47ade28f12060cc99"
+    },
+    {
+      "path": "ViewModels\\TipoPersonalizadoListaViewModel.cs",
+      "export_path": "ViewModels\\TipoPersonalizadoListaViewModel.cs",
+      "raw_sha256": "dd42cdd38e9b98f05f8787ed7db9c3743dd426f92c062e21a76eb046d0772c23"
+    },
+    {
+      "path": "ViewModels\\TipoPersonalizadoViewModel.cs",
+      "export_path": "ViewModels\\TipoPersonalizadoViewModel.cs",
+      "raw_sha256": "46eeade5606af66a4da0406ed5a04b90241090af9932212375ef9bd73e99ec2b"
+    },
+    {
+      "path": "ViewModels\\TiposPersonalizadoViewModel.cs",
+      "export_path": "ViewModels\\TiposPersonalizadoViewModel.cs",
+      "raw_sha256": "a03e50a807c36a498cb30276f2e1d5463b618bcc18f6f5067ade95923af6ae04"
+    },
+    {
+      "path": "ViewModels\\TipoValorComboBoxViewModel.cs",
+      "export_path": "ViewModels\\TipoValorComboBoxViewModel.cs",
+      "raw_sha256": "46314be9373f8efb6badd6bd8f3829284368fe5215930299478b09951d6b4c0b"
+    },
+    {
+      "path": "views\\TipoPersonalizadoFichaAdicionarView.cs",
+      "export_path": "views\\TipoPersonalizadoFichaAdicionarView.cs",
+      "raw_sha256": "433f6f68683200e6bd00c41ecc190ccd7a401b08f64f2805d62f198e8bc090f7"
+    },
+    {
+      "path": "views\\TipoPersonalizadoFichaViewDetalhes\\TipoPersonalizadoView.cs",
+      "export_path": "views\\TipoPersonalizadoFichaViewDetalhes\\TipoPersonalizadoView.cs",
+      "raw_sha256": "3d0e126cbf85864c33cfaa716d052dac20810c82e02f41cacb8c6ced38cfb3e0"
+    },
+    {
+      "path": "views\\TipoPersonalizadoListaView.cs",
+      "export_path": "views\\TipoPersonalizadoListaView.cs",
+      "raw_sha256": "0b0c074346452d9850aea80e89537348c199f91b9216c46d9d868567dd856704"
+    },
+    {
+      "path": "views\\TiposPersonalizadoView.cs",
+      "export_path": "views\\TiposPersonalizadoView.cs",
+      "raw_sha256": "526eee219f87c24e950e32c0d806c159cb7387b4b451b8b99a0b0b8445e0a314"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Restore original family getter/private setter visibility or qualify original Modulo parameter type",
+      "occurrences": 1,
+      "evidence": "accessor-evidence/Modulo.TiposPersonalizado/Modulo.TiposPersonalizado.il"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.TiposPersonalizado.g.resources",
+      "file": "0000.bin",
+      "bytes": 10836,
+      "sha256": "272115f82e832cb575f6688510fdeac8e3b0beec015dd921034d0f36a847062b"
+    },
+    {
+      "name": "Otus.Modulo.TiposPersonalizado.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

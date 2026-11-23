@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "46abdecc4981ff8bda8e44d3e28b05d1cc11e8553b321685c5fdf6172284dcfa",
+  "mvid": "87fed77d-b681-4545-80d4-9f25fd9bbbc2",
+  "assembly": "Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional.g.resources",
+      "file": "0000.bin",
+      "bytes": 17436,
+      "sha256": "10d2954c8db9bacc43956104b337020150b3da1884dee6b3ad3e554a839c9ee6"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

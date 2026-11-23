@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "197d3e4842f79317cb570c26d6f42a2ebfc5ed6a04f9c2ff8ce902cb878da6c1",
+  "mvid": "f210ee71-9a13-4177-94a8-2f6870f01aa4",
+  "assembly": "Modulo.TabelasPreco, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "PresentationCore",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.TabelasPreco.g.resources",
+      "file": "0000.bin",
+      "bytes": 33083,
+      "sha256": "101e38110bc76e70e8fed75d74a5cadc340355a490ea9750bd3e8cc5fed1304f"
+    },
+    {
+      "name": "Otus.Modulo.TabelasPreco.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

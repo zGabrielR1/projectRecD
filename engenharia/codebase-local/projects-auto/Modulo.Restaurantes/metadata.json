@@ -1,0 +1,66 @@
+{
+  "artifactSha256": "3771ea2782c22e44159311f6264df311ad3e77a75effa5430f30b119d2c2ee56",
+  "mvid": "4c0b5a17-e8f2-48ae-937e-29a2efffac50",
+  "assembly": "Modulo.Restaurantes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Domain.Main",
+    "MongoDB.Bson",
+    "System.Core",
+    "PresentationCore",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Data.Core",
+    "WindowsBase",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "System.Drawing",
+    "Prism.Unity.Wpf",
+    "DigisatServer.Domain.Core",
+    "System.Reactive.Core",
+    "DevExpress.Data.v15.2",
+    "NClone"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Restaurantes.g.resources",
+      "file": "0000.bin",
+      "bytes": 49762,
+      "sha256": "e72336e87b567afdf2e1d02de65bd1287010c456d6717a3eff7697d14291e754"
+    },
+    {
+      "name": "Otus.Modulo.Restaurantes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Restaurantes.Reports.RelatorioDemonstrativoDeConsumo56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 10970,
+      "sha256": "0fb431490e9e82fc543ba232adde6d10d56c1c55303327f28543c35e83beaaa3"
+    },
+    {
+      "name": "Otus.Modulo.Restaurantes.Reports.RelatorioDemonstrativoDeConsumo79Mm80Mm.resources",
+      "file": "0003.bin",
+      "bytes": 10970,
+      "sha256": "0fb431490e9e82fc543ba232adde6d10d56c1c55303327f28543c35e83beaaa3"
+    },
+    {
+      "name": "Modulo.Restaurantes.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 283,
+      "sha256": "83b17560db4c512b0aa8c1a3429480901f448a639ce76d3dbffe05b0f8f725b6"
+    }
+  ]
+}

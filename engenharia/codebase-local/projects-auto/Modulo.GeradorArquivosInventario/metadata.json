@@ -1,0 +1,75 @@
+{
+  "artifactSha256": "090c3a6691caead79240a6be7d5beba4638cd67f8f69e1e05435d7e53b65c304",
+  "mvid": "80dede7f-e2c7-4a47-a4b8-0c5e24d1685a",
+  "assembly": "Modulo.GeradorArquivosInventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting.Inventario",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.Xpf.Printing.v15.2",
+    "DevExpress.Data.v15.2",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GeradorArquivosInventario.g.resources",
+      "file": "0000.bin",
+      "bytes": 17051,
+      "sha256": "148e8d40351c94b89fbae0121d58963b881be12ca66d0e27fc80e04678a6a8a2"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Reports.RelatorioInventarioPaisagem.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Reports.RelatorioInventario.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Reports.TotalizacaoPorAliquota.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosInventario.Reports.TotalizacaoPorTributacao.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.GeradorArquivosInventario.dll.licenses",
+      "file": "0006.bin",
+      "bytes": 296,
+      "sha256": "eaf2fdad8dcbcb5c13be3efb33a64fa608e45632f1502f8ebf524d14a0dd9d7b"
+    }
+  ]
+}

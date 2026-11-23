@@ -1,0 +1,104 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalCon",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalConsulta.dll",
+  "baseline_sha256": "357650b2034fdb9bda08514795a1b5c3fb98f16c1f37ef42fceaa7589a7c62fe",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalCon\\DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalCon.csproj",
+  "sources": [
+    {
+      "path": "ConsultaPrecoArquivoDefault.cs",
+      "export_path": "ConsultaPrecoArquivoDefault.cs",
+      "raw_sha256": "8b551203ace92afbb5d6bc285690cd1e6d8e4be37bc779347b77f229d7c3a7f3"
+    },
+    {
+      "path": "Elgin\\ConsultaPrecoArquivoElgin.cs",
+      "export_path": "Elgin\\ConsultaPrecoArquivoElgin.cs",
+      "raw_sha256": "0f0ed4297796991c4a5bc291e74d9ee69a4abdc41832a6bd15f847bee4b9ca08"
+    },
+    {
+      "path": "Elgin\\Elgin.cs",
+      "export_path": "Elgin\\Elgin.cs",
+      "raw_sha256": "7194f93c7c6af28a81c7d560d432e9cf4966ef6d6db736c060688afc483a7cc1"
+    },
+    {
+      "path": "Functions\\Formatos.cs",
+      "export_path": "Functions\\Formatos.cs",
+      "raw_sha256": "54aac069273cff34f4c0b6ac35fae4777355cae74f205fedceadaf88567d6b22"
+    },
+    {
+      "path": "Gertec\\ConsultaPrecoArquivoGertec.cs",
+      "export_path": "Gertec\\ConsultaPrecoArquivoGertec.cs",
+      "raw_sha256": "c143115b28b1cc2da3db41e132793f83f4c431d0c57d15e0b6761b1eac49069b"
+    },
+    {
+      "path": "Gertec\\Gertec.cs",
+      "export_path": "Gertec\\Gertec.cs",
+      "raw_sha256": "88dc049eb263442ac2a011ab7ef225fe3a85956c36ac69ceeef80c9e57a56f6e"
+    },
+    {
+      "path": "Interfaces\\Elgin\\IElgin.cs",
+      "export_path": "Interfaces\\Elgin\\IElgin.cs",
+      "raw_sha256": "df880b75ecf25e952c9436d9db78597e233079f49889ae11412624740e7af2d6"
+    },
+    {
+      "path": "Interfaces\\Gertec\\IGertec.cs",
+      "export_path": "Interfaces\\Gertec\\IGertec.cs",
+      "raw_sha256": "58360f3f03ee3cc61ff3cbc46409cd5b5ee718a0761de1fc3223620644d7552d"
+    },
+    {
+      "path": "Interfaces\\Sweda\\ISweda.cs",
+      "export_path": "Interfaces\\Sweda\\ISweda.cs",
+      "raw_sha256": "c54ccbe2f60fc27010b46088900f80d884a9b7f72d9526117265f6e2301e5bf8"
+    },
+    {
+      "path": "Interfaces\\Sweda\\ITanca.cs",
+      "export_path": "Interfaces\\Sweda\\ITanca.cs",
+      "raw_sha256": "73e4d9ed2b6dbb85e61ce1e26748e50efeb7a0c004e289928764560a1f4b110d"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "770475c0f408b05ea0364595034b5ccf98157e3501d38e419691f90dafffa16d"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "f775beb1190f4cf89dddb42ed2c8410d40a30c965c83cba2a2fb76cc79865811"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "408936bfed6238c2f36d22688647137f53f903395c5698464c1adf6d593ac22f"
+    },
+    {
+      "path": "Sweda\\ConsultaPrecoArquivoSweda.cs",
+      "export_path": "Sweda\\ConsultaPrecoArquivoSweda.cs",
+      "raw_sha256": "6ebb94494a3011d93fdf240a26e9a12b495c9db0bab0aa8854cc0165faa9bb5d"
+    },
+    {
+      "path": "Sweda\\ConsultaPrecoArquivoTanca.cs",
+      "export_path": "Sweda\\ConsultaPrecoArquivoTanca.cs",
+      "raw_sha256": "165b7ce7aa4bb5273d6c957226c13a9d69f5fe03e80906c38c8b7228aa86bcb2"
+    },
+    {
+      "path": "Sweda\\Sweda.cs",
+      "export_path": "Sweda\\Sweda.cs",
+      "raw_sha256": "27a0fc30bdf86d495e56e4fd13ad8d8dcf5ec8295fd0bff4b8cdb690eca01926"
+    },
+    {
+      "path": "Sweda\\Tanca.cs",
+      "export_path": "Sweda\\Tanca.cs",
+      "raw_sha256": "1e4bda178d1bbeec8001ec7515d4b042a9d0492e9e2284f0853d27ad3e69b49b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalConsulta.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

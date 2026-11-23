@@ -1,0 +1,17 @@
+{
+  "assembly": "DevExpress.Xpf.Ribbon.v15.2, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "DevExpress.Xpf.Core.v15.2",
+    "PresentationFramework",
+    "mscorlib",
+    "UIAutomationProvider",
+    "PresentationCore",
+    "System",
+    "System.Xaml",
+    "WindowsBase",
+    "DevExpress.Data.v15.2",
+    "UIAutomationTypes",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2"
+  ]
+}

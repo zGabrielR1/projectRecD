@@ -1,0 +1,37 @@
+{
+  "artifactSha256": "2156e8fa1afe3680a2427ef7fa5b757e6a40e834025d0b5ed54785b8ed62549c",
+  "mvid": "6792d20c-70b9-46b9-baa9-912021e0d818",
+  "assembly": "Modulo.AgrupamentoQuartos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.AgrupamentoQuartos.g.resources",
+      "file": "0000.bin",
+      "bytes": 54013,
+      "sha256": "040130f1b9794ff0f3061cbe57bafee8b63515d30fb1cd7c72c592de1ca6e729"
+    },
+    {
+      "name": "Otus.Modulo.AgrupamentoQuartos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

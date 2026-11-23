@@ -1,0 +1,137 @@
+{
+  "name": "Modulo.ProgramacoesIndustria",
+  "baseline": "baseline\\Modulo.ProgramacoesIndustria.dll",
+  "baseline_sha256": "d231df9f37aabe6b03db6c5286554ee3e43a7d68d9d028526823e01712665df0",
+  "export_project": "recovered\\SuiteG6\\Modulo.ProgramacoesIndustria\\Modulo.ProgramacoesIndustria.csproj",
+  "sources": [
+    {
+      "path": "ProgramacaoIndustriaModulo.cs",
+      "export_path": "ProgramacaoIndustriaModulo.cs",
+      "raw_sha256": "e20ce37db244e2ec7b91bf5901766f77f3a6d74085fe698eb80fab7555738684"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "2ca38c3c3ab5a4f56a9290b34c3798d956167f546a4bc277fb77216002ee22fb"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "bf9040e11c00d0c665a910529e2ccc654a0d151b656c6a421593b2d9a6f6f3f1"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "af546f05e4f8745d280fb62b456def23ee54acff7714f43fcfe7c74fcafeb065"
+    },
+    {
+      "path": "Reports\\ImpressoProgramacao.cs",
+      "export_path": "Reports\\ImpressoProgramacao.cs",
+      "raw_sha256": "2dff90789fb27d9560eb960ad803dd53c28d8ee5fe785a3bf3690b66d98ed0f2"
+    },
+    {
+      "path": "ViewModels\\InterrupcaoViewModel.cs",
+      "export_path": "ViewModels\\InterrupcaoViewModel.cs",
+      "raw_sha256": "35677a3dcb0049ba09dca33525ee76ff3790d7e4d4417d15158141e78d0afef4"
+    },
+    {
+      "path": "ViewModels\\InterrupcoesAbaViewModel.cs",
+      "export_path": "ViewModels\\InterrupcoesAbaViewModel.cs",
+      "raw_sha256": "4ee6568946de7189b559490fc64241302d74da3d2e8dbb57c716b177323d67b4"
+    },
+    {
+      "path": "ViewModels\\ProgramacaoIndustriaAbaViewModel.cs",
+      "export_path": "ViewModels\\ProgramacaoIndustriaAbaViewModel.cs",
+      "raw_sha256": "933fdc3e2fdbb4ce85c87fcbaf86c8219e831739905e7bfe85c070e00d0642ba"
+    },
+    {
+      "path": "ViewModels\\ProgramacaoIndustriaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\ProgramacaoIndustriaFichaAdicionarViewModel.cs",
+      "raw_sha256": "ebe0260f8e538535183f8dbc0ad844dd8eda938ac62f77b4a10ee4f11d617b9b"
+    },
+    {
+      "path": "ViewModels\\ProgramacaoIndustriaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ProgramacaoIndustriaFichaAtualizarViewModel.cs",
+      "raw_sha256": "b17d74ae245ab63ba77ece6eac151f7ccc1e6fcf360fa8fd41b75d34896548d6"
+    },
+    {
+      "path": "ViewModels\\ProgramacaoIndustriaFormulario.cs",
+      "export_path": "ViewModels\\ProgramacaoIndustriaFormulario.cs",
+      "raw_sha256": "8449117b11eb41b3c8e608642971174417819f438d9291421e3ef05d5862a11c"
+    },
+    {
+      "path": "ViewModels\\ProgramacaoIndustriaListaViewModel.cs",
+      "export_path": "ViewModels\\ProgramacaoIndustriaListaViewModel.cs",
+      "raw_sha256": "da2d263e327eb7ba6fe9cf051a63aad19feb63190c77dc7d8a530eba837a0b55"
+    },
+    {
+      "path": "ViewModels\\ProgramacaoIndustriaTimeLineViewModel.cs",
+      "export_path": "ViewModels\\ProgramacaoIndustriaTimeLineViewModel.cs",
+      "raw_sha256": "10abfde0a9aa88101c73ffbc1f8e46f0270a480d651512265d9d4082335e4839"
+    },
+    {
+      "path": "ViewModels\\ProgramacaoIndustriaViewModel.cs",
+      "export_path": "ViewModels\\ProgramacaoIndustriaViewModel.cs",
+      "raw_sha256": "24cf48edcf4e18b3344b454870a688ffa5fe0ae1ca6da75ee4889eb3050e0ea0"
+    },
+    {
+      "path": "ViewModels\\ProgramacoesIndustriaViewModel.cs",
+      "export_path": "ViewModels\\ProgramacoesIndustriaViewModel.cs",
+      "raw_sha256": "a9b707348f11dee8323df431e2e5c6bf94d40c7b6ff23dfb804f7c5c6a5f54ec"
+    },
+    {
+      "path": "Views\\ProgramacaoIndustriaFichaAdicionarView.cs",
+      "export_path": "Views\\ProgramacaoIndustriaFichaAdicionarView.cs",
+      "raw_sha256": "d5811a453c848922489eee2c7f985c7e9af546888d9c16b57fe8e14ee279373f"
+    },
+    {
+      "path": "Views\\ProgramacaoIndustriaFichaAtualizarView.cs",
+      "export_path": "Views\\ProgramacaoIndustriaFichaAtualizarView.cs",
+      "raw_sha256": "8996eceecd7157783cca824126b3af6ff08bca19f5598c13ec779a3ef8c1db82"
+    },
+    {
+      "path": "Views\\ProgramacaoIndustriaListaView.cs",
+      "export_path": "Views\\ProgramacaoIndustriaListaView.cs",
+      "raw_sha256": "6104b41302e5b0879aafe0af439c80e372bbdc9ce2e68a67de945a6da94ca3c3"
+    },
+    {
+      "path": "Views\\ProgramacaoIndustriaTimeLineView.cs",
+      "export_path": "Views\\ProgramacaoIndustriaTimeLineView.cs",
+      "raw_sha256": "2b35efdd51c0de827feeb2b41755ff9f20c425e259d073cf4d57a322a17c2121"
+    },
+    {
+      "path": "Views\\ProgramacoesIndustriaView.cs",
+      "export_path": "Views\\ProgramacoesIndustriaView.cs",
+      "raw_sha256": "c76e938a8a783b7a9f01f96120699654a836d688f291c675851dffd0d5e0a515"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.ProgramacoesIndustria.g.resources",
+      "file": "0000.bin",
+      "bytes": 30713,
+      "sha256": "65a9d9af4af5f83b75facc55c30f11608349b86a80487f02dbedd08e0cd08461"
+    },
+    {
+      "name": "Otus.Modulo.ProgramacoesIndustria.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProgramacoesIndustria.Reports.ImpressoProgramacao.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ProgramacoesIndustria.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 292,
+      "sha256": "92970eac5c37000bb16dfc28bd37106fd319b0f69edde73deb186be6b10bef16"
+    }
+  ],
+  "generated_stubs": false
+}

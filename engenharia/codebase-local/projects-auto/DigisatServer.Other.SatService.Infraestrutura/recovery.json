@@ -1,0 +1,55 @@
+{
+  "name": "DigisatServer.Other.SatService.Infraestrutura",
+  "baseline": "baseline\\DigisatServer.Other.SatService.Infraestrutura.dll",
+  "baseline_sha256": "3a295dd17b8d21e84ababa4fa6c45f241d66561fd797695eeae554a6b33133ed",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Other.SatService.Infraestrutura\\DigisatServer.Other.SatService.Infraestrutura.csproj",
+  "sources": [
+    {
+      "path": "ConfiguracaoSat.cs",
+      "raw_sha256": "eabc7299108f82378ef26e8be7928f2eb0c0c69009413e875e1c7a1fc89ffa48"
+    },
+    {
+      "path": "Events\\SatErro.cs",
+      "raw_sha256": "c836842e06e5207275ac2e824feb0a4249c3136ced3fbc7241933cb5d6f7e79e"
+    },
+    {
+      "path": "Events\\SatNaoConfigurado.cs",
+      "raw_sha256": "1ee3021701b2e4f23eb7f10c77859668a96bb028f220d858f78d1e4771299aeb"
+    },
+    {
+      "path": "ISatService.cs",
+      "raw_sha256": "d592e5fcd6cf809c90adf4a7208379cab7fe2285da310299caa1f2caf5aff22a"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f4578ef25b49c0afad793ca1d4397b4bade6191dac491ca465e4ed8ee02a5703"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "raw_sha256": "39d6f755530b8b0d924f329a0b8a8f089d1230f3bafeb093ef609010f41924f4"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "0a55e8bd67b170947ac4cf5f6a2d5c3414f19cc0bda159d732ad7cbff4868f48"
+    },
+    {
+      "path": "SatService.cs",
+      "raw_sha256": "b4265501ad1a896f1f0e1f81c14255ad2ae55aef07b95c318e9aa2568cc4d379"
+    },
+    {
+      "path": "Types\\NomeDasRegioes.cs",
+      "raw_sha256": "2c663fa51f3f022161f3642efb36d4300ba2584a96c2ae02cfb4c2acd850546e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Other.SatService.Infraestrutura.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

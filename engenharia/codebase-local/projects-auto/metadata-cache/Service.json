@@ -1,0 +1,17 @@
+{
+  "assembly": "Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Infraestrutura",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Application.Main.Dto",
+    "System",
+    "System.Reactive.Core",
+    "System.Reactive.Linq",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "PresentationFramework",
+    "DevExpress.Xpf.Core.v15.2"
+  ]
+}

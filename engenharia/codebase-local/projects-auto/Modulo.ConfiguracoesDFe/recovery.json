@@ -1,0 +1,85 @@
+{
+  "name": "Modulo.ConfiguracoesDFe",
+  "baseline": "baseline\\Modulo.ConfiguracoesDFe.dll",
+  "baseline_sha256": "037f3a9034b23225af6b4a5e65c2879b5b111dcd7e947be8ac1c572a3672c294",
+  "export_project": "recovered\\SuiteG6\\Modulo.ConfiguracoesDFe\\Modulo.ConfiguracoesDFe.csproj",
+  "sources": [
+    {
+      "path": "ConfiguracaoDFeModulo.cs",
+      "export_path": "ConfiguracaoDFeModulo.cs",
+      "raw_sha256": "c892762f7b754702ab85be5e4c8eb31ba1e577fb6db946b6a9438d04c26afe88"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "cb8f0848455cac543d871f834beb0ef32d8d09d69fbe82bf9963fc2183a3572d"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "11652a44dbf65cd8b048f5e5bb926b0f6a7bee0465f94f31968bd8bb84419770"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "7036dd4187a992659c773031049b43e77f98eaad2faa0ee13b02b3b082e83c97"
+    },
+    {
+      "path": "ViewModels\\ConfiguracaoDFeFichaViewModel.cs",
+      "export_path": "ViewModels\\ConfiguracaoDFeFichaViewModel.cs",
+      "raw_sha256": "7f708beb4958af757d6adb83d0a1dddddb3446b7b18e406030c77309da42ad71"
+    },
+    {
+      "path": "ViewModels\\ConfiguracaoDFeFormulario.cs",
+      "export_path": "ViewModels\\ConfiguracaoDFeFormulario.cs",
+      "raw_sha256": "00ebc9e2aa3f2a21e0323ac5e205cebfed231c5d02abd8a8b37026bf0007e5c7"
+    },
+    {
+      "path": "ViewModels\\ConfiguracoesDFeViewModel.cs",
+      "export_path": "ViewModels\\ConfiguracoesDFeViewModel.cs",
+      "raw_sha256": "4ab0913298dc27acf42ca2ac7b09dbee79a7e04f54c40100abe5484f1e3fd293"
+    },
+    {
+      "path": "ViewModels\\GeralAbaViewModel.cs",
+      "export_path": "ViewModels\\GeralAbaViewModel.cs",
+      "raw_sha256": "c753aa7bc71b6ed70d9a9b62514fd64607e5a233277dbdb7ceebb6e5fb29d46f"
+    },
+    {
+      "path": "ViewModels\\GeralViewModel.cs",
+      "export_path": "ViewModels\\GeralViewModel.cs",
+      "raw_sha256": "5890659fa31fc412d404f86ede1f02bdd3617f89169ebae7e4cd15915c5c3bff"
+    },
+    {
+      "path": "Views\\ConfiguracaoDFeFichaView.cs",
+      "export_path": "Views\\ConfiguracaoDFeFichaView.cs",
+      "raw_sha256": "8a60339fcc0edd1bdf27c9e1348d2b1d732aa8ab65499e7add20b752c87e184c"
+    },
+    {
+      "path": "Views\\ConfiguracaoDFeFichaViewDetalhes\\GeralView.cs",
+      "export_path": "Views\\ConfiguracaoDFeFichaViewDetalhes\\GeralView.cs",
+      "raw_sha256": "77fce8cfd197da06923451117c82c3171e4b6e0ef2096fc128f154ac653a8519"
+    },
+    {
+      "path": "Views\\ConfiguracoesDFeView.cs",
+      "export_path": "Views\\ConfiguracoesDFeView.cs",
+      "raw_sha256": "21c01223a7e51f62fc33b12b33a27e5053ecd3654a397e95b7bd1696044bff9e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.ConfiguracoesDFe.g.resources",
+      "file": "0000.bin",
+      "bytes": 7430,
+      "sha256": "c74f4326edb0ed64e248541f7cfdf2468b4bc3e49e397e7135716cfe547b2a9c"
+    },
+    {
+      "name": "Otus.Modulo.ConfiguracoesDFe.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

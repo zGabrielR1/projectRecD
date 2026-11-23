@@ -1,0 +1,145 @@
+{
+  "name": "Modulo.NsCMNsBS",
+  "baseline": "baseline\\Modulo.NsCMNsBS.dll",
+  "baseline_sha256": "d7cc6e7bad578c908171d86067e9f98dbac47a5a260e08eeb3965be80d94dff1",
+  "export_project": "recovered\\SuiteG6\\Modulo.NsCMNsBS\\Modulo.NsCMNsBS.csproj",
+  "sources": [
+    {
+      "path": "NCMNBSModulo.cs",
+      "export_path": "NCMNBSModulo.cs",
+      "raw_sha256": "b4ef731e5966d28723e8f4cd3d65f0555145c1e412965cf1ddecb0536774d5fe"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "81151e6a05f088db4894b9963b3140a9fd24f59f7c9e357886e078b2287f7002"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "6cbcddba94be22e08ffc1bb5a7ff032a9bd0daf03db985a449188c780013a691"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "94332091120d1798de6d3460b981499abc67eebd0e2348d614a04c0b948ff007"
+    },
+    {
+      "path": "ViewModels\\NBSAbaViewModel.cs",
+      "export_path": "ViewModels\\NBSAbaViewModel.cs",
+      "raw_sha256": "5ec7290fa738bc7c3aaf2a911c85254da74e6d69890fda39ca4b54f6babaccb9"
+    },
+    {
+      "path": "ViewModels\\NBSListaViewModel.cs",
+      "export_path": "ViewModels\\NBSListaViewModel.cs",
+      "raw_sha256": "c5da080efcb1d0775c0fd040c0289d795564a8e69edfebf9d8749b84db63ff4d"
+    },
+    {
+      "path": "ViewModels\\NBSViewModel.cs",
+      "export_path": "ViewModels\\NBSViewModel.cs",
+      "raw_sha256": "24403a78aab89064ccb28f2586dec52c1f31c2fff1418ec49cc0fc0d47a6e64b"
+    },
+    {
+      "path": "ViewModels\\NCMAbaViewModel.cs",
+      "export_path": "ViewModels\\NCMAbaViewModel.cs",
+      "raw_sha256": "6acccf7d50434d5cb98da2ef70ed1bd4345c97ed2eb88b601d96f7d89383b374"
+    },
+    {
+      "path": "ViewModels\\NCMListaViewModel.cs",
+      "export_path": "ViewModels\\NCMListaViewModel.cs",
+      "raw_sha256": "28661356fb790ff9ee3cafe9e779ed8340294dcf27e05e30594453b6fb74b817"
+    },
+    {
+      "path": "ViewModels\\NCMNBSAbaViewModel.cs",
+      "export_path": "ViewModels\\NCMNBSAbaViewModel.cs",
+      "raw_sha256": "1e89de3968114c422212b76fa96baf8c859b5408fb62640e37df32d77ca5d0d4"
+    },
+    {
+      "path": "ViewModels\\NCMNBSFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\NCMNBSFichaAtualizarViewModel.cs",
+      "raw_sha256": "d413c5239357fdae19c7e636f76e9acd51d4fd392c876b3f7da079268bb3fe84"
+    },
+    {
+      "path": "ViewModels\\NCMNBSFormulario.cs",
+      "export_path": "ViewModels\\NCMNBSFormulario.cs",
+      "raw_sha256": "a79e88f44eb23c5082c1d17add1878820a9bbc0775a4d657351f2d5a8797cb42"
+    },
+    {
+      "path": "ViewModels\\NCMNBSListaViewModel.cs",
+      "export_path": "ViewModels\\NCMNBSListaViewModel.cs",
+      "raw_sha256": "40940c45d67789c9b9d46cd177bf488bc6874fddbe546117666b645ebbc53685"
+    },
+    {
+      "path": "ViewModels\\NCMNBSViewModel.cs",
+      "export_path": "ViewModels\\NCMNBSViewModel.cs",
+      "raw_sha256": "fd52d8c36f727de6a3c37cdece4fdc86e7de955ffa50b0a69ae3f15756e5aed6"
+    },
+    {
+      "path": "ViewModels\\NCMViewModel.cs",
+      "export_path": "ViewModels\\NCMViewModel.cs",
+      "raw_sha256": "50678670fb5979712d73ad3ba02bbbc0b28b83bcd0fbf621ab5f7cca86996db9"
+    },
+    {
+      "path": "ViewModels\\NsCMNsBSViewModel.cs",
+      "export_path": "ViewModels\\NsCMNsBSViewModel.cs",
+      "raw_sha256": "5dde704df23d855c7274ea64a6e6477c0625cd5a3aed00fb84a8909adaaa1e3f"
+    },
+    {
+      "path": "Views\\NBSListaView.cs",
+      "export_path": "Views\\NBSListaView.cs",
+      "raw_sha256": "852c7c7ad775cb005ce9e04ed7a782fe466ee6dae646e5531c027b0ea13e33e8"
+    },
+    {
+      "path": "Views\\NCMListaView.cs",
+      "export_path": "Views\\NCMListaView.cs",
+      "raw_sha256": "77a22f791a61720d1f1f128c03aee25c90082f28e4d388647fd6c7d764f26695"
+    },
+    {
+      "path": "Views\\NCMNBSFichaAtualizarView.cs",
+      "export_path": "Views\\NCMNBSFichaAtualizarView.cs",
+      "raw_sha256": "98e43919ca0b737cfbcc3f32178f8ba63d829a76a442023e0fe48973d6cb3a7b"
+    },
+    {
+      "path": "Views\\NCMNBSFichaViewDetalhes\\NBSView.cs",
+      "export_path": "Views\\NCMNBSFichaViewDetalhes\\NBSView.cs",
+      "raw_sha256": "94529a542fbca2a1a40c8184b335d0328b1680000136df99a1cdb28b9a2c602b"
+    },
+    {
+      "path": "Views\\NCMNBSFichaViewDetalhes\\NCMNBSView.cs",
+      "export_path": "Views\\NCMNBSFichaViewDetalhes\\NCMNBSView.cs",
+      "raw_sha256": "37411b64d922b4bd156065b1230a4272e0fe690a98734b63ccfff433c484c51e"
+    },
+    {
+      "path": "Views\\NCMNBSFichaViewDetalhes\\NCMView.cs",
+      "export_path": "Views\\NCMNBSFichaViewDetalhes\\NCMView.cs",
+      "raw_sha256": "d67d4ce450f4f5aaafca006e1605a23f6f5ebed07858312e22f8b5c377e934a9"
+    },
+    {
+      "path": "Views\\NCMNBSListaView.cs",
+      "export_path": "Views\\NCMNBSListaView.cs",
+      "raw_sha256": "ad41c3dc68624cad370e65750cc48b2cef2d62232f767e07fd697d72c033a982"
+    },
+    {
+      "path": "Views\\NsCMNsBSView.cs",
+      "export_path": "Views\\NsCMNsBSView.cs",
+      "raw_sha256": "fc15ba2509134652ed2e6803aac26d5dcf6064fa5e73eb42c06ca704f8b4f0da"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.NsCMNsBS.g.resources",
+      "file": "0000.bin",
+      "bytes": 20169,
+      "sha256": "ad1d9f25f91083dad28318f02cc68ff9ceced2891c14d9d1b08082789b705b97"
+    },
+    {
+      "name": "Otus.Modulo.NsCMNsBS.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

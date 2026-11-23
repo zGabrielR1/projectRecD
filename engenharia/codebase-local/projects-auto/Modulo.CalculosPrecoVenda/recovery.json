@@ -1,0 +1,135 @@
+{
+  "name": "Modulo.CalculosPrecoVenda",
+  "baseline": "baseline\\Modulo.CalculosPrecoVenda.dll",
+  "baseline_sha256": "5b943c07cdfc4952ce6098fd80cfb1f249643160b378b25e677be6a53750061d",
+  "export_project": "recovered\\SuiteG6\\Modulo.CalculosPrecoVenda\\Modulo.CalculosPrecoVenda.csproj",
+  "sources": [
+    {
+      "path": "CalculoPrecoVendaModulo.cs",
+      "export_path": "CalculoPrecoVendaModulo.cs",
+      "raw_sha256": "05c3593db7678398d770ed6057615a59d1b2dc89ab5a7e38370c0cb8a0b25b6a"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "72ea5d42d9e353b447038ec1d5b7ab785aef99ab276fb4410a75bbd449c74dca"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "779374dc034c1e19dacd914da1cd5d111c45cba69f486a678748d1e61d97e41d"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "6dea1160bc9016f2f30114f5742db6a8cd0a520f917679375fb697fcc68c1847"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoVendaAbaViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoVendaAbaViewModel.cs",
+      "raw_sha256": "124baa48ce0994faae11e7723ea457198a91f2bb10ff59712af742e0b73ca32f"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoVendaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoVendaFichaAdicionarViewModel.cs",
+      "raw_sha256": "78653afd8be4591b6137409632434719f0c6e041dfdf9b0cd7b6d16d473b2a18"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoVendaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoVendaFichaAtualizarViewModel.cs",
+      "raw_sha256": "07bfdcb480f056c8df97428e64b8638637cbdbf3b48bb6d65c0878b57aa3ff77"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoVendaFormulario.cs",
+      "export_path": "ViewModels\\CalculoPrecoVendaFormulario.cs",
+      "raw_sha256": "29e1aa8bca2887040edc2deef19f60c202c006602d2f6d7da086058ee0300481"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoVendaListaViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoVendaListaViewModel.cs",
+      "raw_sha256": "d422873e3ff5013766a824253e39147e51af3186241273513be109db6dc6460f"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoVendaViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoVendaViewModel.cs",
+      "raw_sha256": "ae02694e5beb65339f9beaca0bacd16ac6904ba1e9ad1e2921cdeaecf0de6b9d"
+    },
+    {
+      "path": "ViewModels\\CalculosPrecoVendaViewModel.cs",
+      "export_path": "ViewModels\\CalculosPrecoVendaViewModel.cs",
+      "raw_sha256": "2899fbeafbe767980e27fea596d2d8c59f0d0fa9b5dc527325e8a9699d40be6b"
+    },
+    {
+      "path": "ViewModels\\MarkupViewModel.cs",
+      "export_path": "ViewModels\\MarkupViewModel.cs",
+      "raw_sha256": "3fedec1ae80818bf40ba9044020ad048fe0bd02cb62213a79650338bcc99bb09"
+    },
+    {
+      "path": "ViewModels\\TiposPrecificacao\\MargemBruta.cs",
+      "export_path": "ViewModels\\TiposPrecificacao\\MargemBruta.cs",
+      "raw_sha256": "69d9cefb22bf74c4abf55c66f344ce49a23d9152bd422ec44ed6b9e71a3bb0ea"
+    },
+    {
+      "path": "ViewModels\\TiposPrecificacao\\Markup.cs",
+      "export_path": "ViewModels\\TiposPrecificacao\\Markup.cs",
+      "raw_sha256": "8eca9c58ed3da6f0317ec046c01b56aa95348069e33bf7f9db1caade1de61427"
+    },
+    {
+      "path": "ViewModels\\TiposPrecificacao\\TipoPrecificacao.cs",
+      "export_path": "ViewModels\\TiposPrecificacao\\TipoPrecificacao.cs",
+      "raw_sha256": "fc367d695943610f8d7171fdbcfc645807c0d0a0348c831574e2766373cb7d01"
+    },
+    {
+      "path": "ViewModels\\TiposPrecificacao\\TipoPrecificacaoComboBox.cs",
+      "export_path": "ViewModels\\TiposPrecificacao\\TipoPrecificacaoComboBox.cs",
+      "raw_sha256": "29297691a3db4ad09500967def67b516fb3dbb5330fbfeedb241b357532b0f08"
+    },
+    {
+      "path": "Views\\CalculoPrecoVendaFichaAdicionarView.cs",
+      "export_path": "Views\\CalculoPrecoVendaFichaAdicionarView.cs",
+      "raw_sha256": "12075f7c47123505ef49b4c488e95c39bd076586858fc58aa24cedb70500201a"
+    },
+    {
+      "path": "Views\\CalculoPrecoVendaFichaAtualizarView.cs",
+      "export_path": "Views\\CalculoPrecoVendaFichaAtualizarView.cs",
+      "raw_sha256": "81077561d9b528b57cb4a00b8dab218dd4ac545c611de35a4ec34d9a6f74cee5"
+    },
+    {
+      "path": "Views\\CalculoPrecoVendaFichaViewDetalhes\\CalculoPrecoVendaView.cs",
+      "export_path": "Views\\CalculoPrecoVendaFichaViewDetalhes\\CalculoPrecoVendaView.cs",
+      "raw_sha256": "dedd90078d1830eb84bac6f36d84dc553851a5d8cefbd35a079cecb20701e77a"
+    },
+    {
+      "path": "Views\\CalculoPrecoVendaFichaViewDetalhes\\MarkupView.cs",
+      "export_path": "Views\\CalculoPrecoVendaFichaViewDetalhes\\MarkupView.cs",
+      "raw_sha256": "bf240139c74ab12b3b551fbc977640b2a5c5d2c0cf2e264f6cfd9b675697b1e1"
+    },
+    {
+      "path": "Views\\CalculoPrecoVendaListaView.cs",
+      "export_path": "Views\\CalculoPrecoVendaListaView.cs",
+      "raw_sha256": "70d1609a4361eed5ee34ad4e19de4bb9c822f264912cad8501c197e12c4e93c4"
+    },
+    {
+      "path": "Views\\CalculosPrecoVendaView.cs",
+      "export_path": "Views\\CalculosPrecoVendaView.cs",
+      "raw_sha256": "fd6e3ac3a5c9c3320765527a27887ab2d0137e56b2e41abe82b246e9806d338b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.CalculosPrecoVenda.g.resources",
+      "file": "0000.bin",
+      "bytes": 15437,
+      "sha256": "19e8d3abddd52104575737daadc5616f8c890608a4b6ea36aed92c16f5f485cf"
+    },
+    {
+      "name": "Otus.Modulo.CalculosPrecoVenda.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

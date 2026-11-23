@@ -1,0 +1,22 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Data.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Domain.Main",
+    "MongoDB.Bson",
+    "System.Core",
+    "MongoDB.Driver",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "MongoDB.Driver.Core",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DigisatServer.Domain.Core",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "Microsoft.CSharp",
+    "DigisatServer.Infrastructure.Crosscutting.Criptografia"
+  ]
+}

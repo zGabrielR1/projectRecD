@@ -1,0 +1,4356 @@
+{
+  "name": "Modulo.Relatorios",
+  "baseline": "baseline\\Modulo.Relatorios.dll",
+  "baseline_sha256": "b232e81a2f99475dc071de8e3e3c7b4f2a26dcdb9532e9a4d343c8a72340da62",
+  "export_project": "recovered\\SuiteG6\\Modulo.Relatorios\\Modulo.Relatorios.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "22756eb3b71b25e385b4c501f6805e0f94295baa566f346c6a1da0e5594a4ef3"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "53eb96e5d909e93b3d8d628973bd467059577c8c954a5e0b0dcdf3b888363b01"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "e0524067c0c740b117faa05afc574d3e2f8a56184b15d453648eeff385ea3675"
+    },
+    {
+      "path": "RelatorioModulo.cs",
+      "export_path": "RelatorioModulo.cs",
+      "raw_sha256": "cafc1a0db094cf990fb6364c672856ae55fc2eb9fec13f0b17348fb7614426ad"
+    },
+    {
+      "path": "Reports\\Agendamento\\ListaAgendamentos.cs",
+      "export_path": "Reports\\Agendamento\\ListaAgendamentos.cs",
+      "raw_sha256": "dca0caa6316fccbbb5c8f9aff665c77e382d177c3a29e8e8b8b88ef651d2ac37"
+    },
+    {
+      "path": "Reports\\AgrupamentoQuarto\\ListaAgrupamentosQuarto.cs",
+      "export_path": "Reports\\AgrupamentoQuarto\\ListaAgrupamentosQuarto.cs",
+      "raw_sha256": "8b8c4f111d784841e47e5fabf82c91e6b5c557675c6fd9ba2ce0b4a0201cdfa5"
+    },
+    {
+      "path": "Reports\\AgrupamentoQuarto\\ListaPacotesPendentesAtualizacaoHunit.cs",
+      "export_path": "Reports\\AgrupamentoQuarto\\ListaPacotesPendentesAtualizacaoHunit.cs",
+      "raw_sha256": "778659179de23ad35b2689731de76a0a168dbe435a381a73ffea77394dd4e3b5"
+    },
+    {
+      "path": "Reports\\AgrupamentoQuarto\\ListaPortaisIntegradosHunit.cs",
+      "export_path": "Reports\\AgrupamentoQuarto\\ListaPortaisIntegradosHunit.cs",
+      "raw_sha256": "20a3f5638acfff7613ac8c66af2aa71a67b0ee81268b05f4553ecd578434c21c"
+    },
+    {
+      "path": "Reports\\AgrupamentoQuarto\\ListaQuartosSincronizadosHunit.cs",
+      "export_path": "Reports\\AgrupamentoQuarto\\ListaQuartosSincronizadosHunit.cs",
+      "raw_sha256": "43b3d8dc8bb8a84a364efc88298492f709d0ef934b12c232f393e3dafc7e7826"
+    },
+    {
+      "path": "Reports\\Animal\\Aniversariantes.cs",
+      "export_path": "Reports\\Animal\\Aniversariantes.cs",
+      "raw_sha256": "2d18d64af6ff024bccafd22e9223a3b42a6a841ee6f47a3d7b9f4fc324399b3f"
+    },
+    {
+      "path": "Reports\\Animal\\ListaAnimais.cs",
+      "export_path": "Reports\\Animal\\ListaAnimais.cs",
+      "raw_sha256": "c54f9bf8db7124af7ad9c1753f6cc566aa9db2f6fdfeeafbd10ccfe3d3b550b4"
+    },
+    {
+      "path": "Reports\\Animal\\ListaConsultas.cs",
+      "export_path": "Reports\\Animal\\ListaConsultas.cs",
+      "raw_sha256": "d31ab600c62a95473ed6c7779b515628f75040976621f2dce54111b2d7b7d08b"
+    },
+    {
+      "path": "Reports\\Animal\\ListaInternacoes.cs",
+      "export_path": "Reports\\Animal\\ListaInternacoes.cs",
+      "raw_sha256": "54e836c41e262a9d241fd5a0b8ae112121de7796e90b259a1936f2114c1701ea"
+    },
+    {
+      "path": "Reports\\Animal\\ListaVacinacoes.cs",
+      "export_path": "Reports\\Animal\\ListaVacinacoes.cs",
+      "raw_sha256": "3b2c4c2dad96a24487419bec08aca1583fbca6df4c30b7e287f49d3bfbea8e89"
+    },
+    {
+      "path": "Reports\\Auxiliares\\BackupsRestaurados.cs",
+      "export_path": "Reports\\Auxiliares\\BackupsRestaurados.cs",
+      "raw_sha256": "082efd48514152a29c0c13b2ba71f5535fac6619e3abbcc0a15b86c325cf05af"
+    },
+    {
+      "path": "Reports\\Boletos\\ListaBoletos.cs",
+      "export_path": "Reports\\Boletos\\ListaBoletos.cs",
+      "raw_sha256": "109a1bed78b48a711700a447a2a01b49b518f2379e0e7b9e5e76d7c483a64155"
+    },
+    {
+      "path": "Reports\\Cfop\\ItensMovimentadosPorCfop.cs",
+      "export_path": "Reports\\Cfop\\ItensMovimentadosPorCfop.cs",
+      "raw_sha256": "d20386dbb4a65424936e2d54f27031255f9d1ebbc4333fb8bd992fdaab670d8e"
+    },
+    {
+      "path": "Reports\\Cfop\\ListaCadastroCfop.cs",
+      "export_path": "Reports\\Cfop\\ListaCadastroCfop.cs",
+      "raw_sha256": "e8ea583b86d0bbb51b4b7cf314a49ec423c18b7bccce4f5fa44c0ba7849df362"
+    },
+    {
+      "path": "Reports\\Cfop\\TotalizacaoPorCfop.cs",
+      "export_path": "Reports\\Cfop\\TotalizacaoPorCfop.cs",
+      "raw_sha256": "659b342e30c6915f78f56f6e7e96f3b53a3cf4e204f9d7930d4786ec0201c8b9"
+    },
+    {
+      "path": "Reports\\Cheque\\ChequesEmitidosPorSituacao.cs",
+      "export_path": "Reports\\Cheque\\ChequesEmitidosPorSituacao.cs",
+      "raw_sha256": "1693a8b991618827c15c2300882b1b209d96acd0d122a7a7e9761f3d11ac8b27"
+    },
+    {
+      "path": "Reports\\Cheque\\ChequesRecebidosPorSituacao.cs",
+      "export_path": "Reports\\Cheque\\ChequesRecebidosPorSituacao.cs",
+      "raw_sha256": "ce832a26a13173554acc59b254c8c8e3fa11f9033f1f961261a4985df5504ab3"
+    },
+    {
+      "path": "Reports\\Cheque\\ResumoChequesPorSituacao.cs",
+      "export_path": "Reports\\Cheque\\ResumoChequesPorSituacao.cs",
+      "raw_sha256": "e891a8ef2c74a23dd252e10384d607e0f6730600cb6a3405935d8994d8a980a7"
+    },
+    {
+      "path": "Reports\\ConhecimentoTransporteEletronico\\ApuracaoIcms.cs",
+      "export_path": "Reports\\ConhecimentoTransporteEletronico\\ApuracaoIcms.cs",
+      "raw_sha256": "2439763258ec5e5f1dc74ffdae3a9c86bd83829b563ad5ba11b8e0f20119d7c6"
+    },
+    {
+      "path": "Reports\\ConhecimentoTransporteEletronico\\ApuracaoIcmsPorMovimentacao.cs",
+      "export_path": "Reports\\ConhecimentoTransporteEletronico\\ApuracaoIcmsPorMovimentacao.cs",
+      "raw_sha256": "e16c56f0d2e1e28d719f32174d0f424e699f1b286673e1e2989c8e7da4fac23b"
+    },
+    {
+      "path": "Reports\\ConhecimentoTransporteEletronico\\ListaConhecimentoTransporteEletronico.cs",
+      "export_path": "Reports\\ConhecimentoTransporteEletronico\\ListaConhecimentoTransporteEletronico.cs",
+      "raw_sha256": "6b4fbfa59ab8ee00105884be2618c83c9eb5a48d68b9b0168472407f2cdd4eeb"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\ContaMovimentacao.cs",
+      "export_path": "Reports\\ContaMovimentacao\\ContaMovimentacao.cs",
+      "raw_sha256": "021905d9e72418d808cbebe414147aa7dad882490191588eda984f1e1e8cc0d1"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\FluxoConta.cs",
+      "export_path": "Reports\\ContaMovimentacao\\FluxoConta.cs",
+      "raw_sha256": "16786da5b19cd8ed33cb45c001e208806291bb99e8402bbe51ab0fa21ed7e057"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\LivroCaixa.cs",
+      "export_path": "Reports\\ContaMovimentacao\\LivroCaixa.cs",
+      "raw_sha256": "244aa7b32a87c2632f3653a2cbc86a0459e85ef3a42f5f65cb847bcdecd2929b"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\LivroCaixa40Colunas.cs",
+      "export_path": "Reports\\ContaMovimentacao\\LivroCaixa40Colunas.cs",
+      "raw_sha256": "528f6f6d750852eac6f09faebfbbbf39d899a2b2fdc14f15495a556ba61260e7"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\LivroCaixaComDadosEspeciePagamento.cs",
+      "export_path": "Reports\\ContaMovimentacao\\LivroCaixaComDadosEspeciePagamento.cs",
+      "raw_sha256": "81b85a23b7fc89ac7e78911deea4c643dbe3a0253d1bd930c4b930a19e607cd7"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\LivroCaixaResumoMensal.cs",
+      "export_path": "Reports\\ContaMovimentacao\\LivroCaixaResumoMensal.cs",
+      "raw_sha256": "2a2b15b16f31b9e1b9db6c546a79d5e0339942781c836bb368e3748886397c7e"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\ResumoDiario.cs",
+      "export_path": "Reports\\ContaMovimentacao\\ResumoDiario.cs",
+      "raw_sha256": "d85dd0397ab7c343e46af0362bed2ad993de80217d27eff461191a6b35d8e9a3"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\ResumoFinanceiro.cs",
+      "export_path": "Reports\\ContaMovimentacao\\ResumoFinanceiro.cs",
+      "raw_sha256": "7e972f4310eac7abe9f825e28d562c173a3ef8815e2b2b078bddac0f4b973319"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\ResumoFinanceiro40Colunas.cs",
+      "export_path": "Reports\\ContaMovimentacao\\ResumoFinanceiro40Colunas.cs",
+      "raw_sha256": "7f28f3d2a355f2c355e873a1ae0876651815405f9a90fd4e90e59f8a715b7bde"
+    },
+    {
+      "path": "Reports\\ContaMovimentacao\\ResumoFormaDePagamento.cs",
+      "export_path": "Reports\\ContaMovimentacao\\ResumoFormaDePagamento.cs",
+      "raw_sha256": "7823b54cceddac565f3de9f3cc705924944eab91c5ff144baeb354baab5c92f5"
+    },
+    {
+      "path": "Reports\\ControleEntrega\\ControlesEntregaPorProduto.cs",
+      "export_path": "Reports\\ControleEntrega\\ControlesEntregaPorProduto.cs",
+      "raw_sha256": "36c082de9677b723a3b12950c97e22ba3db510a8e85556a7407837bcbc2afdc5"
+    },
+    {
+      "path": "Reports\\ControleEntrega\\ListaControleEntrega.cs",
+      "export_path": "Reports\\ControleEntrega\\ListaControleEntrega.cs",
+      "raw_sha256": "5d9932cbcac6a299be58085ecf390296d82a1f02df8644147b861717c11aac8e"
+    },
+    {
+      "path": "Reports\\Delivery\\EntregasPorEntregador.cs",
+      "export_path": "Reports\\Delivery\\EntregasPorEntregador.cs",
+      "raw_sha256": "60c9ae412ae92f8970e20dbca1107b3dda4ded5703d30f0d3d03d9a5384495a0"
+    },
+    {
+      "path": "Reports\\Delivery\\EntregasProgramadas.cs",
+      "export_path": "Reports\\Delivery\\EntregasProgramadas.cs",
+      "raw_sha256": "5c793aa5715f199f87c461fe1350c0acba30fbe525b338126a7ddd724f4e419d"
+    },
+    {
+      "path": "Reports\\Delivery\\ItensLancadosNoDelivery.cs",
+      "export_path": "Reports\\Delivery\\ItensLancadosNoDelivery.cs",
+      "raw_sha256": "69bb29dbcf0e6336c8d5be6ac6bcfc6be6ad135d9ae0ab629c2e1cb90035b27c"
+    },
+    {
+      "path": "Reports\\Delivery\\ResumoEntregasPorEntregador.cs",
+      "export_path": "Reports\\Delivery\\ResumoEntregasPorEntregador.cs",
+      "raw_sha256": "a17cc56ee248a4360b19cbce1ef278c319fe1a7ca1918baafc59cefad9979ec1"
+    },
+    {
+      "path": "Reports\\Delivery\\ResumoEspecie.cs",
+      "export_path": "Reports\\Delivery\\ResumoEspecie.cs",
+      "raw_sha256": "46c86c74b36ff515ed595438943e49838b2c0cb741915d9a86b65db9e8a1f09f"
+    },
+    {
+      "path": "Reports\\Devolucao\\DevolucoesPorPeriodo.cs",
+      "export_path": "Reports\\Devolucao\\DevolucoesPorPeriodo.cs",
+      "raw_sha256": "05d510f04e60772d5e4771bd124272a982b6dd6bfbb304f4066937237827c7ae"
+    },
+    {
+      "path": "Reports\\Farmacia\\BalancoAquisicaoMedicamentoLivroDefinitivo.cs",
+      "export_path": "Reports\\Farmacia\\BalancoAquisicaoMedicamentoLivroDefinitivo.cs",
+      "raw_sha256": "1538c0a943496640ea0cfbb5e4e4850f966546ffb4165baf78e94691201cb926"
+    },
+    {
+      "path": "Reports\\Farmacia\\BalancoAquisicaoMedicamentoParaConferencia.cs",
+      "export_path": "Reports\\Farmacia\\BalancoAquisicaoMedicamentoParaConferencia.cs",
+      "raw_sha256": "005beb5a36b287d89baadb08ee57ac36db7a1cf711a3d688c0f484af87905b7d"
+    },
+    {
+      "path": "Reports\\Farmacia\\BalancoAquisicaoMedicamentoSemClasseTerapeutica.cs",
+      "export_path": "Reports\\Farmacia\\BalancoAquisicaoMedicamentoSemClasseTerapeutica.cs",
+      "raw_sha256": "a400b51af9f11ceca080f1b94b3c3a40d0fabe69710272b82458dfc9eb929dd7"
+    },
+    {
+      "path": "Reports\\Farmacia\\RelacaoMensalNotificacaoReceitaA.cs",
+      "export_path": "Reports\\Farmacia\\RelacaoMensalNotificacaoReceitaA.cs",
+      "raw_sha256": "70173e055940d32d7523d7fd8a8d2677958cc7320045b3a532d7a0799aba7198"
+    },
+    {
+      "path": "Reports\\Farmacia\\RelacaoMensalNotificacaoReceitaB.cs",
+      "export_path": "Reports\\Farmacia\\RelacaoMensalNotificacaoReceitaB.cs",
+      "raw_sha256": "d6872b9949f0d30c8793e0c211532817cd1cdf0186885e7f234193737d1684d9"
+    },
+    {
+      "path": "Reports\\Farmacia\\RelacaoMensalVendasMedicamentosSujeitosControleEspecial.cs",
+      "export_path": "Reports\\Farmacia\\RelacaoMensalVendasMedicamentosSujeitosControleEspecial.cs",
+      "raw_sha256": "e807a523cffb6e1f5c16003b0a72a0a785840313001528429df6a026d332e30c"
+    },
+    {
+      "path": "Reports\\Farmacia\\TransacoesPbm.cs",
+      "export_path": "Reports\\Farmacia\\TransacoesPbm.cs",
+      "raw_sha256": "98f30376af5861943df7d0569beac7a93884e10a90e22c2b1b369de37f7c58be"
+    },
+    {
+      "path": "Reports\\GestaoContrato\\ListaContratos.cs",
+      "export_path": "Reports\\GestaoContrato\\ListaContratos.cs",
+      "raw_sha256": "25d0844b48ef4d0b062b8217e151058f7fe03b212f28a858f1e417eaa6534f82"
+    },
+    {
+      "path": "Reports\\GestaoContrato\\ListaContratosPorVencimento.cs",
+      "export_path": "Reports\\GestaoContrato\\ListaContratosPorVencimento.cs",
+      "raw_sha256": "fe294f16e4b2a107e029317cdb2cdf981a7ac0fdc1b7537ac6683402b5ba1c45"
+    },
+    {
+      "path": "Reports\\GestaoContrato\\ListaContratosSintetico.cs",
+      "export_path": "Reports\\GestaoContrato\\ListaContratosSintetico.cs",
+      "raw_sha256": "4e6d25540441d042d230f4b6ce01d6ac99cbe1f26d24e0fe11a7a26d54010892"
+    },
+    {
+      "path": "Reports\\Grupo\\GrupoCurvaAbc.cs",
+      "export_path": "Reports\\Grupo\\GrupoCurvaAbc.cs",
+      "raw_sha256": "ef86c10df2f7af425ee3e3e969103aaf7e1e785bd135f7e0dca976a22eff786a"
+    },
+    {
+      "path": "Reports\\Grupo\\ItensCompradosPorSubGrupo.cs",
+      "export_path": "Reports\\Grupo\\ItensCompradosPorSubGrupo.cs",
+      "raw_sha256": "e60a19dc36e5c8212d1d217824761c19acff4174d149f381e405efd7681466c6"
+    },
+    {
+      "path": "Reports\\Grupo\\ItensVendidosPorSubGrupo.cs",
+      "export_path": "Reports\\Grupo\\ItensVendidosPorSubGrupo.cs",
+      "raw_sha256": "30571856df7a0ccf2f2d8344563bee2e1593ca7f4f82f625f23d5b5b0a5ffe84"
+    },
+    {
+      "path": "Reports\\Grupo\\ListaPrecoProdutosSubGrupos.cs",
+      "export_path": "Reports\\Grupo\\ListaPrecoProdutosSubGrupos.cs",
+      "raw_sha256": "edc650f4216d75f37fae47a905a9703135d79af7009891283aa95523c40f29c6"
+    },
+    {
+      "path": "Reports\\Grupo\\ListaProdutosGrupos.cs",
+      "export_path": "Reports\\Grupo\\ListaProdutosGrupos.cs",
+      "raw_sha256": "00fa0d0753697879abafc70ad286a54e7966d16c9386340c2cfc2a6e99826ea1"
+    },
+    {
+      "path": "Reports\\Grupo\\ListaProdutosSubGrupos.cs",
+      "export_path": "Reports\\Grupo\\ListaProdutosSubGrupos.cs",
+      "raw_sha256": "7f51376ad55adda052650f11afbd256f074289a8d18ae9bb3317155e7978ebe3"
+    },
+    {
+      "path": "Reports\\Grupo\\VendasPorDiaSemanaSubgrupo.cs",
+      "export_path": "Reports\\Grupo\\VendasPorDiaSemanaSubgrupo.cs",
+      "raw_sha256": "e18fee55a7a8779d1493a5b65994fe3f9d644af5bf75dac6cfaeb46b175ef956"
+    },
+    {
+      "path": "Reports\\Grupo\\VendasPorGrupo.cs",
+      "export_path": "Reports\\Grupo\\VendasPorGrupo.cs",
+      "raw_sha256": "4fb1535825d3d97397730fac784a166aada456cc4e8ef1148c5632f5dae8ac04"
+    },
+    {
+      "path": "Reports\\Grupo\\VendasPorSubgrupo.cs",
+      "export_path": "Reports\\Grupo\\VendasPorSubgrupo.cs",
+      "raw_sha256": "f1d950267350541ecf69ee0834009f40511bf585270f1113b7e654cd4070035a"
+    },
+    {
+      "path": "Reports\\Hospedagem\\FechamentoQuartos.cs",
+      "export_path": "Reports\\Hospedagem\\FechamentoQuartos.cs",
+      "raw_sha256": "22cde1966d40fd67304184fd94e8b655669784558d5be8cce709e309de76c2b4"
+    },
+    {
+      "path": "Reports\\Hospedagem\\HistoricoManutencoes.cs",
+      "export_path": "Reports\\Hospedagem\\HistoricoManutencoes.cs",
+      "raw_sha256": "53afb75e71eca5c9806812d9d39929150677ee296623fb7cba5425f06ef5b7cb"
+    },
+    {
+      "path": "Reports\\Hospedagem\\HospedagensCanceladas.cs",
+      "export_path": "Reports\\Hospedagem\\HospedagensCanceladas.cs",
+      "raw_sha256": "877cc5bcb61a964cd27d454a0a43ab5eda133b550887dd40799fb240f9ceb315"
+    },
+    {
+      "path": "Reports\\Hospedagem\\HospedagensFinalizadas.cs",
+      "export_path": "Reports\\Hospedagem\\HospedagensFinalizadas.cs",
+      "raw_sha256": "146cd63717b9aa3fe806800cc6fe41ec5f8fda59e84c949b154c4b017bab1a57"
+    },
+    {
+      "path": "Reports\\Hospedagem\\ListaQuartos.cs",
+      "export_path": "Reports\\Hospedagem\\ListaQuartos.cs",
+      "raw_sha256": "eb5a9e4e774052807565c7fbd375f82d2228f9c139098083d0cf13109027c008"
+    },
+    {
+      "path": "Reports\\Hospedagem\\ListaQuartosPorDia.cs",
+      "export_path": "Reports\\Hospedagem\\ListaQuartosPorDia.cs",
+      "raw_sha256": "c87443e7d95184dd5574c7df154d54af1ce1db43bd8d56777f6e38afacf0f822"
+    },
+    {
+      "path": "Reports\\Hospedagem\\OcupacaoDiaria.cs",
+      "export_path": "Reports\\Hospedagem\\OcupacaoDiaria.cs",
+      "raw_sha256": "fa640ce48e18d12ebe999fd50c1b7f77a9e49781484193a0e8f011f8b15063a8"
+    },
+    {
+      "path": "Reports\\Hospedagem\\OcupacaoDiariaResumido.cs",
+      "export_path": "Reports\\Hospedagem\\OcupacaoDiariaResumido.cs",
+      "raw_sha256": "42c0b5a5205fc899e3ebf37657ec00a4d9299b92c952c94b3b293c5295bc2630"
+    },
+    {
+      "path": "Reports\\Hospedagem\\PrevisaoCheckIn.cs",
+      "export_path": "Reports\\Hospedagem\\PrevisaoCheckIn.cs",
+      "raw_sha256": "fa16edfc75c9455f1258bbd9992a487597bf90403d1b5ac9e0aec708388ee387"
+    },
+    {
+      "path": "Reports\\Hospedagem\\PrevisaoCheckOut.cs",
+      "export_path": "Reports\\Hospedagem\\PrevisaoCheckOut.cs",
+      "raw_sha256": "8169eab10653ff93bf2b61ffd48035c2e03745a14ce3586e1e95688158e2e31b"
+    },
+    {
+      "path": "Reports\\Hospedagem\\PrevisaoRefeicao.cs",
+      "export_path": "Reports\\Hospedagem\\PrevisaoRefeicao.cs",
+      "raw_sha256": "b200d32593c3cebea0cd34a9e92f7726ad13acd6cc4ebc3e62db820b7646c83a"
+    },
+    {
+      "path": "Reports\\Hospedagem\\PrevisaoRefeicaoDiaria.cs",
+      "export_path": "Reports\\Hospedagem\\PrevisaoRefeicaoDiaria.cs",
+      "raw_sha256": "da015f0a3eab7913992cd22777e3f393c6c126e9cfcbcd5ac09a5896eae90dcb"
+    },
+    {
+      "path": "Reports\\Hospedagem\\QuartosAbertosPorPessoa.cs",
+      "export_path": "Reports\\Hospedagem\\QuartosAbertosPorPessoa.cs",
+      "raw_sha256": "686b3a27b09fa1e3ee27bc9b9d15bac5439dae171ada5c8a5c48c3e87cf5dbc5"
+    },
+    {
+      "path": "Reports\\Industria\\Colaboradores.cs",
+      "export_path": "Reports\\Industria\\Colaboradores.cs",
+      "raw_sha256": "b28b5d5f0460580e90f21e3768ac75671edcc71c7d360d70b2f0058c07ea96b6"
+    },
+    {
+      "path": "Reports\\Industria\\CustosDiretos.cs",
+      "export_path": "Reports\\Industria\\CustosDiretos.cs",
+      "raw_sha256": "b1320ba038921952903dbd69fd9ffbc8dd6eed405de78fcef2bf23cd94a5cdb6"
+    },
+    {
+      "path": "Reports\\Industria\\CustosIndiretos.cs",
+      "export_path": "Reports\\Industria\\CustosIndiretos.cs",
+      "raw_sha256": "01b3ab5f74624c5ef7c6de287184cabab6de4c2bb475e9f95f92932a9c108020"
+    },
+    {
+      "path": "Reports\\Industria\\Desmontagens.cs",
+      "export_path": "Reports\\Industria\\Desmontagens.cs",
+      "raw_sha256": "807a3b9a31031a5c4cf1ed1e7fb4f0446dc5d518bf2debe5f3f7b99baab7d749"
+    },
+    {
+      "path": "Reports\\Industria\\HistoricoProdutosPorEstoqueFisico.cs",
+      "export_path": "Reports\\Industria\\HistoricoProdutosPorEstoqueFisico.cs",
+      "raw_sha256": "d0ba22ea05adf81fb1e53617614ef0c25939d1487489b40376205130e0979a69"
+    },
+    {
+      "path": "Reports\\Industria\\InsumosConsumidos.cs",
+      "export_path": "Reports\\Industria\\InsumosConsumidos.cs",
+      "raw_sha256": "4438de91555ffa46f3315c14c350a9f4c0ddc2ed36a3c2930ffcd1778f672f9d"
+    },
+    {
+      "path": "Reports\\Industria\\InsumosConsumidosPorInsumo.cs",
+      "export_path": "Reports\\Industria\\InsumosConsumidosPorInsumo.cs",
+      "raw_sha256": "c5aaec29a31fba4cc24b6daeb084f1710785cacdb9b243012f28a6e1109ea9ce"
+    },
+    {
+      "path": "Reports\\Industria\\InsumosNecessariosOrdensProducao.cs",
+      "export_path": "Reports\\Industria\\InsumosNecessariosOrdensProducao.cs",
+      "raw_sha256": "4c37f561fa5160ffafadb736184613b4f32fee4a8e4adffb03659a6c018f6761"
+    },
+    {
+      "path": "Reports\\Industria\\InsumosNecessariosProgramacoes.cs",
+      "export_path": "Reports\\Industria\\InsumosNecessariosProgramacoes.cs",
+      "raw_sha256": "73f616c319a015dbfb61fc0f127935b598bbc0661d038f3bee7cd7a972039941"
+    },
+    {
+      "path": "Reports\\Industria\\ItensProduzidos.cs",
+      "export_path": "Reports\\Industria\\ItensProduzidos.cs",
+      "raw_sha256": "dfb9b6f52c50ae0df3a954ac26e11faab3823f5f2afc8ea02300163ebd71b105"
+    },
+    {
+      "path": "Reports\\Industria\\ItensProduzidosComInsumosUtilizados.cs",
+      "export_path": "Reports\\Industria\\ItensProduzidosComInsumosUtilizados.cs",
+      "raw_sha256": "715bdca0e41cd3dcd6e20b4661b7f63fd75aed9bad75d40f502430976de4bfd3"
+    },
+    {
+      "path": "Reports\\Industria\\MovimentacoesInternas.cs",
+      "export_path": "Reports\\Industria\\MovimentacoesInternas.cs",
+      "raw_sha256": "620e5de8455a4c9dbacacf583bc2bc2410cff049771cff8b7f930a02c9cccea3"
+    },
+    {
+      "path": "Reports\\Industria\\Orcamentos.cs",
+      "export_path": "Reports\\Industria\\Orcamentos.cs",
+      "raw_sha256": "612584465ccada309bb9bb2377ee15080dd65c28fbf67db73ce3ce0f4db80c28"
+    },
+    {
+      "path": "Reports\\Industria\\OrdensProducao.cs",
+      "export_path": "Reports\\Industria\\OrdensProducao.cs",
+      "raw_sha256": "16940fe06c8c775cf104cb7191b96d7e24220cdefce5cacac149b5e0437a6a8b"
+    },
+    {
+      "path": "Reports\\Industria\\ProdutosPorEstoqueFisico.cs",
+      "export_path": "Reports\\Industria\\ProdutosPorEstoqueFisico.cs",
+      "raw_sha256": "23e87673cba645e3b68f87811542781db9ec853e7efcccf29e7ae9f6a74b9574"
+    },
+    {
+      "path": "Reports\\Industria\\ProdutosPorMateriaPrima.cs",
+      "export_path": "Reports\\Industria\\ProdutosPorMateriaPrima.cs",
+      "raw_sha256": "938d831a49e092f910a0da4a9b9b4684aac43f0ac220bd69d740b6af8b32c5ed"
+    },
+    {
+      "path": "Reports\\Industria\\ProdutosProduzidosComInsumosUtilizados.cs",
+      "export_path": "Reports\\Industria\\ProdutosProduzidosComInsumosUtilizados.cs",
+      "raw_sha256": "7f4c9dccfbdf3eb2cb1c90096c869cc5e48dc15b3a6e5e5baac2481c23232a27"
+    },
+    {
+      "path": "Reports\\Industria\\Programacoes.cs",
+      "export_path": "Reports\\Industria\\Programacoes.cs",
+      "raw_sha256": "e446410d8e7cb5efc1b74111b33150aae0654f2dba873e66d59e95681010c941"
+    },
+    {
+      "path": "Reports\\Industria\\TempoOrdensProducao.cs",
+      "export_path": "Reports\\Industria\\TempoOrdensProducao.cs",
+      "raw_sha256": "2deaf89f583545736a402ccc1c7c2f1e1a71c2e6b8d1d334ae4db33ef829a925"
+    },
+    {
+      "path": "Reports\\Kit\\ItensPorKit.cs",
+      "export_path": "Reports\\Kit\\ItensPorKit.cs",
+      "raw_sha256": "488d60d8eff7b62ee4d8ab646893f9ee3682443d3ce761c687c5de98edf382db"
+    },
+    {
+      "path": "Reports\\Locacao\\LocacoesPorData.cs",
+      "export_path": "Reports\\Locacao\\LocacoesPorData.cs",
+      "raw_sha256": "ed2c69bb985d3bc8e7ff277ab18195552130747a0b153229eadf3219aa5a7725"
+    },
+    {
+      "path": "Reports\\Locacao\\LocacoesPorObjeto.cs",
+      "export_path": "Reports\\Locacao\\LocacoesPorObjeto.cs",
+      "raw_sha256": "96ef78a73c00bf82849b8399d842e20afd8e36e9d6b4750ec1e495a1a9e4ece9"
+    },
+    {
+      "path": "Reports\\Locacao\\PrevisaoDevolucaoLocacao.cs",
+      "export_path": "Reports\\Locacao\\PrevisaoDevolucaoLocacao.cs",
+      "raw_sha256": "b5162b41b0e72b3cbfacbbc3c7642ef5e98c50745cd93028d629fe2da0e48298"
+    },
+    {
+      "path": "Reports\\Locacao\\PrevisaoInicioLocacao.cs",
+      "export_path": "Reports\\Locacao\\PrevisaoInicioLocacao.cs",
+      "raw_sha256": "581deb3dcc79d533e7c9750857996f25b2eaee22006bd8fdee5cb8b642cea3da"
+    },
+    {
+      "path": "Reports\\ManifestacaoDestinatario\\ListaManifestacaoDestinatario.cs",
+      "export_path": "Reports\\ManifestacaoDestinatario\\ListaManifestacaoDestinatario.cs",
+      "raw_sha256": "3f6c40dd77319b059033d4046415fb54878ebbb90e62d1734d11c396bf81005c"
+    },
+    {
+      "path": "Reports\\ManifestoEletronicoDocumentoFiscal\\ListaManifestoEletronicoDocumentoFiscal.cs",
+      "export_path": "Reports\\ManifestoEletronicoDocumentoFiscal\\ListaManifestoEletronicoDocumentoFiscal.cs",
+      "raw_sha256": "2d76efc6a3eb49989df0854be9caa999e822c759534c755e406709e6d36d4afd"
+    },
+    {
+      "path": "Reports\\MenuRapido\\ListaGrupoMenu.cs",
+      "export_path": "Reports\\MenuRapido\\ListaGrupoMenu.cs",
+      "raw_sha256": "f54c5ef38d99460dd86502744185c0e7c444792174c220f6b0e974fbbd6ffadb"
+    },
+    {
+      "path": "Reports\\MenuRapido\\ListaMenus.cs",
+      "export_path": "Reports\\MenuRapido\\ListaMenus.cs",
+      "raw_sha256": "d9ea1cd756e242ed60ebac08af761b91a3b22d26eb32c8db81e37736b09fa348"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ApuracaoIcms.cs",
+      "export_path": "Reports\\Movimentacao\\ApuracaoIcms.cs",
+      "raw_sha256": "3223b0fc85f2f9b3523ea470014e49b516739d41456ecf3652df3e015085ca11"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ApuracaoIcmsPorMovimentacao.cs",
+      "export_path": "Reports\\Movimentacao\\ApuracaoIcmsPorMovimentacao.cs",
+      "raw_sha256": "0ab84774c804be8c1c4135bf870277649c6f3dde7951a062ba3887345679a486"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ApuracaoPisCofins.cs",
+      "export_path": "Reports\\Movimentacao\\ApuracaoPisCofins.cs",
+      "raw_sha256": "e2a3e7b1df60f7b36b0770dba3da9f6d4086ccd10a8b2c8a4cba5ddc1d441cba"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ApuracaoPisCofinsItens.cs",
+      "export_path": "Reports\\Movimentacao\\ApuracaoPisCofinsItens.cs",
+      "raw_sha256": "97a6d760b0d9c98c00fd8c03d7d69551fe6479c34b06a2185de68761859bdb08"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ApuracaoPisCofinsItensDetalhado.cs",
+      "export_path": "Reports\\Movimentacao\\ApuracaoPisCofinsItensDetalhado.cs",
+      "raw_sha256": "a3c41b4417e0dc8cd0ea3b61f0a580ab7f726e3439bcbc1a54b21659b80bd420"
+    },
+    {
+      "path": "Reports\\Movimentacao\\DocumentosFiscaisEletronicosSemXml.cs",
+      "export_path": "Reports\\Movimentacao\\DocumentosFiscaisEletronicosSemXml.cs",
+      "raw_sha256": "5442a24f790f80e6670ab205d4e962d9db9a9cc8f710b421e28b12fc5164d73e"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\ComprasPorFornecedor.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\ComprasPorFornecedor.cs",
+      "raw_sha256": "d155d2f6537c1eabb74a1c0e9e8e12b7de60acb757a69a7e0e83182e98a6f0de"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\CtrcsPorPeriodo.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\CtrcsPorPeriodo.cs",
+      "raw_sha256": "dc0ed6d9f3049457ebc8e73d7d06a87cfeb68cb9c75da4a0b4d38ec269df45a2"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\EntradasSubstituicaoTributariaPorProduto.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\EntradasSubstituicaoTributariaPorProduto.cs",
+      "raw_sha256": "0ed8d5376f553ea436296832df6e72ac1af71a2ba73fe04c2bf854e37bb3d2c8"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\EntradasSubstituicaoTributariaPorProdutoCfopCstCsosn.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\EntradasSubstituicaoTributariaPorProdutoCfopCstCsosn.cs",
+      "raw_sha256": "c0cb22660129fa08084626d41e749ca21776b9c512f59b265f74c133e77b8ab6"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorFornecedor.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorFornecedor.cs",
+      "raw_sha256": "4af446b821296a12ee9ba21831ea00ea13328e303a776647c84b7020a06233dd"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorLinha.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorLinha.cs",
+      "raw_sha256": "2c377b2ef4fbe2c6a8898943e46aec577653be58a7edd1f70cdefa70bb53a2b3"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorMarca.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorMarca.cs",
+      "raw_sha256": "e3a655c5fb0ef24d2f68e8ca209b5d19de4db26d2dc2d5a42689c0d34d7536c5"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorPessoa.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorPessoa.cs",
+      "raw_sha256": "b73f91be58ef15ebffb3f74849c9cd5b1f739de7239f4270d00012ad5b238e2b"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorSegmentacao.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\ItensCompradosPorSegmentacao.cs",
+      "raw_sha256": "cd5efdff383e842943605bee013ddc5fe03053e90256374d10fd87d6a7747f54"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\ListaPedidosDeCompra.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\ListaPedidosDeCompra.cs",
+      "raw_sha256": "162f6cf2944d1bd14c9c7a2ec6fe3cc4da6d73b9636fd7bbaa4aa53719dbfc3d"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\MedicamentosControladosComprados.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\MedicamentosControladosComprados.cs",
+      "raw_sha256": "f435959da97ffc8d868f621fd962c6e6f3f4cfe84e5527492e7b39b54ecbc699"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\ProdutosComercializadosPorFornecedor.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\ProdutosComercializadosPorFornecedor.cs",
+      "raw_sha256": "5dadb3416d5e6aa99c7d7bcfcfb5bc4488121fc06743701bd55202032836644f"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Entrada\\RelacaoNotasEntrada.cs",
+      "export_path": "Reports\\Movimentacao\\Entrada\\RelacaoNotasEntrada.cs",
+      "raw_sha256": "96616b0f720b7cf484eb233f2f4c46b5d7d387a50775b400ed46765150add51b"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ItensMovimentadosPorOrigem.cs",
+      "export_path": "Reports\\Movimentacao\\ItensMovimentadosPorOrigem.cs",
+      "raw_sha256": "5d903e0fbe1a011523eb5a70fec2d7a61d38f32cba206f2da79c978e5ccfb6cd"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ItensVendidosComTributacaoFcp.cs",
+      "export_path": "Reports\\Movimentacao\\ItensVendidosComTributacaoFcp.cs",
+      "raw_sha256": "47fc87a8ca39ed1dfc0da852f6c942634c2717ca8acb296c67e1396b2f221aa2"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoDiario.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoDiario.cs",
+      "raw_sha256": "31e3b029ba325dc4283d851fd1b6f3df025ca8e6064d1c9c99c502c27f747c09"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoFormaDePagamento.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoFormaDePagamento.cs",
+      "raw_sha256": "7130ad4226f5dcac06bed66fdbff0ef9ee20b17e9d5e08288428b5841dbb41fb"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoOrigemSituacao.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoOrigemSituacao.cs",
+      "raw_sha256": "5ab1596b041f200a9891144c86302aa81ee735d193b6ad630f83b6a1cde5a685"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoOrigemSituacao40Colunas.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoOrigemSituacao40Colunas.cs",
+      "raw_sha256": "1592bb706af885408236420e9790e02c1e1381675d397f49d1b24e78686f4589"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoPessoa.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacaoPorOrigemETipoResumoPessoa.cs",
+      "raw_sha256": "42ac11f26c78bf6dd93f3c64464e3b9f8696c92059666bb555fc0313b5cdb69d"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacoesPorInformacaoPesquisa.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacoesPorInformacaoPesquisa.cs",
+      "raw_sha256": "42a0eed0f285422b1af3787528b78ea1a23b1672a94f05bc5334dda3a2dd00d8"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemETipo.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemETipo.cs",
+      "raw_sha256": "5141490e7d869d66dadd1aa5c2ca2ddfafdf42ac0f514f83fdc416d1b3c7f9d1"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemETipoComImpostos.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemETipoComImpostos.cs",
+      "raw_sha256": "edd8231f97804fbec4208fc028dab404edc557922ad3f6cfd1d4f38246c933a8"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemETipoDifal.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemETipoDifal.cs",
+      "raw_sha256": "502c6f671769ac3f4018f87f40d2e6af6402eb02d2063c4c143b8f46291be1c3"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemETipoSimplificado.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemETipoSimplificado.cs",
+      "raw_sha256": "c213c3951d19726618a11977629745a3d7388e7a211632e8c5889c12c4577a89"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemTipo40Colunas.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemTipo40Colunas.cs",
+      "raw_sha256": "3f9a3ddf4ba0da0ad16a4fe0c071173e0abcfbfec152a6ae39b5e8b30d76ad47"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemTipoESegmentacao.cs",
+      "export_path": "Reports\\Movimentacao\\ListaMovimentacoesPorOrigemTipoESegmentacao.cs",
+      "raw_sha256": "c9670642ac8f4ab7cbf5a01f908f65d096bcba2157a13265e33c52015885a928"
+    },
+    {
+      "path": "Reports\\Movimentacao\\MovimentacaoRelatorioExportarDto.cs",
+      "export_path": "Reports\\Movimentacao\\MovimentacaoRelatorioExportarDto.cs",
+      "raw_sha256": "5d6ac2791b4371cf4a7f19da8ff6ce073244296756bca69f81f2010004e1e3e3"
+    },
+    {
+      "path": "Reports\\Movimentacao\\RankingMovimentacoesPorProduto.cs",
+      "export_path": "Reports\\Movimentacao\\RankingMovimentacoesPorProduto.cs",
+      "raw_sha256": "1d5ec7feab49180558ff3735492ad0ee1b9c1fcdcc8e59a9fd760bf189e223fa"
+    },
+    {
+      "path": "Reports\\Movimentacao\\RelacaoDeNotasFiscais.cs",
+      "export_path": "Reports\\Movimentacao\\RelacaoDeNotasFiscais.cs",
+      "raw_sha256": "11decd4901075ebf3bbbac935485808288a64522e8d72e8551b8dfbdc307a5e8"
+    },
+    {
+      "path": "Reports\\Movimentacao\\RelatorioCartasCorrecao.cs",
+      "export_path": "Reports\\Movimentacao\\RelatorioCartasCorrecao.cs",
+      "raw_sha256": "5fbf38e4d7577657a65dba763745bce8a1a453bb646f63132ed3984a8f409c34"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoDiarioPorCfopCst.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoDiarioPorCfopCst.cs",
+      "raw_sha256": "e6b4f936005a848ed950b5292e44fe0ecc7f8ffbedb423dcd4e3e06ed23d9524"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoDiarioPorCfopCstCofins.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoDiarioPorCfopCstCofins.cs",
+      "raw_sha256": "2a4cef9395fa3d523e37cc62b4b186097d8af561164a34fffa92dca59c0c2e1b"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoDiarioPorCfopCstPis.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoDiarioPorCfopCstPis.cs",
+      "raw_sha256": "fd5c9a735712367f025db747da7e57d7a0ab99b7f13d3da558a453f809d00591"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoDocumentosCanceladosInutilizados.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoDocumentosCanceladosInutilizados.cs",
+      "raw_sha256": "0cb75c9a3d61ce497944b4e1ee67bc2bbdfe3153e0965031b8af78bc775b7ef3"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoPisCofins.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoPisCofins.cs",
+      "raw_sha256": "0161a76754e350f6137aba40d8534e40eb9e02b77f1cb91b93660d69189eff70"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoPisCofinsDiario.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoPisCofinsDiario.cs",
+      "raw_sha256": "3271ea368cc11ae7dfc9e596565d438809f14f5a02d6cf785ca409a72e3fac9b"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoPisCofinsMovimentacao.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoPisCofinsMovimentacao.cs",
+      "raw_sha256": "eef19e5ad5469e4e958efd724a3d5167d96d8c05bdba40455858b3292a6b55d1"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoPorCfop.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoPorCfop.cs",
+      "raw_sha256": "f194fbcf5be6f789f74128946cbba0e0bc26ea3f4571a3911c97619552d13002"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoPorMovimentacao.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoPorMovimentacao.cs",
+      "raw_sha256": "34f70316486fc385040d0e8328dac06ebffda91b59c4292afd369016b3c0bea7"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoTotalPorCfop.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoTotalPorCfop.cs",
+      "raw_sha256": "0251efecee5eb544c37921d1a443031734aeb6395850bc0116cf9654b963cf0c"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoTotalPorCfopCofins.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoTotalPorCfopCofins.cs",
+      "raw_sha256": "c95d7dd8d50ad0fc8bca527f9ee27a1d788a122d5fd450a84e5e2cea46fa26ca"
+    },
+    {
+      "path": "Reports\\Movimentacao\\ResumoTotalPorCfopPis.cs",
+      "export_path": "Reports\\Movimentacao\\ResumoTotalPorCfopPis.cs",
+      "raw_sha256": "bbcfbb2f91519b7a13499080f778bfcbafa596ced88de05b1a996119fe937cca"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ApuracaoSintegra.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ApuracaoSintegra.cs",
+      "raw_sha256": "88e88e19b19a2be06f5a86c883ece90c140a8f49e11611b6c21cb80803703dbb"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ComponentesComposicoesVendidas.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ComponentesComposicoesVendidas.cs",
+      "raw_sha256": "6e5559a67e605cde2abb1689bcd8bf48fce9326ee6c29595c6363859f702cbae"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ComposicoesVendidas.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ComposicoesVendidas.cs",
+      "raw_sha256": "533f207c145e0b71d849ceec466efb8322ee190bef233ba9a0ffc9edd3fe561c"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\DavsEspecificasPorNumero.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\DavsEspecificasPorNumero.cs",
+      "raw_sha256": "f032eddbffa0e555fa8b056a575b705198dd948591476c877995f69bcd4c7cdd"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\DavsEspecificasPorNumeroSemValores.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\DavsEspecificasPorNumeroSemValores.cs",
+      "raw_sha256": "87ac741400faff362154d2213f7024b78795bf34f414c5d0f1489159764b0707"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\DavsOsPorPeriodo.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\DavsOsPorPeriodo.cs",
+      "raw_sha256": "bf2c472c48770e541466834e5452d811691feb9caf83a1fe20d7a12b248248a0"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\DavsPorPeriodo.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\DavsPorPeriodo.cs",
+      "raw_sha256": "d40c9151f6b169709ca8847fa6d5d59346bd8ee2cedd9bc3f10fb7fa761f5408"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\HistoricoObjeto.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\HistoricoObjeto.cs",
+      "raw_sha256": "2ab1403d9904fae0ebdfd4c9a4034829bb1159b04da709d8b48031dac71d176e"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorDepartamento.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorDepartamento.cs",
+      "raw_sha256": "acbf676571a55f0462a454a95a4b7fba8ec8e653618f2efa2e10dc80eb8473d0"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorLinha.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorLinha.cs",
+      "raw_sha256": "2d69cc7ea95ecc12feeef414201dc146f3bc7df711b76cfcc8d441581b3d7d90"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorMarca.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorMarca.cs",
+      "raw_sha256": "fee4be01f803f55e2a77f0b00c7f7e2ba0d66d0f4ea8576f8b251b3a56eabcc4"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorMarcaAgrupadoPorSubgrupo.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorMarcaAgrupadoPorSubgrupo.cs",
+      "raw_sha256": "5381c2297661780681a1915693e26dbd9b20efd7e170a144e1f7cb31cec33035"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorPromocao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorPromocao.cs",
+      "raw_sha256": "1bc037fa675ca1722954234896b443a37fa23a9f41b172bd899531c8466221ea"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorVendedor.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensMovimentadosPorVendedor.cs",
+      "raw_sha256": "593562a264134e16ec1caca0ecf5074a92bcf65c5ef436fb732c98f6ec4d6fe4"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidos.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidos.cs",
+      "raw_sha256": "9f25d5334ec5b7a14bb3944f3be9f66955890f5274f56361acdc016197b8dc8c"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidos40Colunas.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidos40Colunas.cs",
+      "raw_sha256": "3a9a5d5bffbc22f7768775b982483b020550179d39c9457b594253fa33557b79"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosAgrupadosPorPessoa.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosAgrupadosPorPessoa.cs",
+      "raw_sha256": "fb1fe24b43d2ff36009dad83411d5a8f8c629acb2cdf3a2f48f6b3316c1eab29"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosComDadosPessoa.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosComDadosPessoa.cs",
+      "raw_sha256": "28910678dffdb377a41d1b00099cb7aa7f7a4366c28c09688f00980e871fbdc2"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosComTributacao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosComTributacao.cs",
+      "raw_sha256": "07bda4714f2ad7197b9b482cfc404fde967f2f56420f839fdabaa012d532b7ca"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosComTributacaoPisCofins.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosComTributacaoPisCofins.cs",
+      "raw_sha256": "043948243eb3a7f14d6478169dc067df79b08e3cecfe51e0be790d0b9529dfaa"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorFornecedor.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorFornecedor.cs",
+      "raw_sha256": "842e57bf2e98ebeb2470a7dd6eefc287ddff9e2bf2ab75c57563201f4ce13842"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorLinhaResumo.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorLinhaResumo.cs",
+      "raw_sha256": "f91705a6bdb2a169edc68d502473f8de361995a4458eeafae8af1814aad09cd1"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorLocalizacao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorLocalizacao.cs",
+      "raw_sha256": "3713f9aeb666a5f29421d76119d1e0d72fccac5b27e1541a94e5db64f461d78f"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorMarcaResumo.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorMarcaResumo.cs",
+      "raw_sha256": "69d7362beb1287f8810cff659920f435d9147f18f6868526f776314c8e7ddf3f"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorPessoa.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorPessoa.cs",
+      "raw_sha256": "f3f20337fe13e9647fa81e35a3501169348fdc43e5019202eae0d46cade6430d"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorSegmentacao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosPorSegmentacao.cs",
+      "raw_sha256": "28bb947bc06717dce91cdd9680e9ba055bac0ec480039bf5bb419e92d7417e20"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ItensVendidosTotalizadosPorPessoa.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ItensVendidosTotalizadosPorPessoa.cs",
+      "raw_sha256": "dbce122edfea8509f9d90b90fef893df4b3d087bf87a0a2609a53e3ecc314490"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\MedicamentosControladosVendidos.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\MedicamentosControladosVendidos.cs",
+      "raw_sha256": "b54ca67786eace25450700f06164bf892403206bec1b79720f912dc48a691e8f"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\MovimentacaoLucro.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\MovimentacaoLucro.cs",
+      "raw_sha256": "60ab6eab6f7a98cb8f3edb753c949a184eadae7c2a948ddda7da7041131c9224"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\MovimentacoesComDescontoCashback.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\MovimentacoesComDescontoCashback.cs",
+      "raw_sha256": "1eed4901a16d79398665d0f68e1b63ca4365e91896f688c4bce81c0d741613cb"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\MovimentacoesPorConvenio.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\MovimentacoesPorConvenio.cs",
+      "raw_sha256": "fac14823961c1d9484bac9082fa8a869a69c4d5a20685f8ca30e9ff1a4f40a50"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\MovimentacoesPorMunicipio.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\MovimentacoesPorMunicipio.cs",
+      "raw_sha256": "83ef5673f9ae282c904013af425c8020085a05fe6c84c2661e834f6842b0166a"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\MovimentacoesPorOperador.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\MovimentacoesPorOperador.cs",
+      "raw_sha256": "b45fa3412813bf2ae226b9005b05a8517866de2f82f3c9f85c0cc707e04bac4c"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\MovimentacoesPorVendedor.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\MovimentacoesPorVendedor.cs",
+      "raw_sha256": "4a89ab5984812218d7665d202fa4e07f15483f04f6faf48a94887cd5b8a0f7ab"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\MovimentacoesSemReceita.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\MovimentacoesSemReceita.cs",
+      "raw_sha256": "1ea8a1f3f1764bcc03d59ea3bebeda5fda4d75ad1221c2c0c35dbce6e65ac9cc"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ObjetosPorDataGarantia.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ObjetosPorDataGarantia.cs",
+      "raw_sha256": "91e2f22616c575b6228b78db86c844794c133532d35c0f2552a36f79a75a6877"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\OrcamentosPorPeriodo.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\OrcamentosPorPeriodo.cs",
+      "raw_sha256": "fa1ce146f0bdc59c8e20aa3456f6152e1aa1870f5eb7eb1158b7427064d3e74c"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\PreVendasPorPeriodo.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\PreVendasPorPeriodo.cs",
+      "raw_sha256": "d0303af316d606a30b927d9bb52ee4de805e6c578188508cfe0edc13373607f9"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\RelatorioCreditoPresumidoSistematicaAtacadista.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\RelatorioCreditoPresumidoSistematicaAtacadista.cs",
+      "raw_sha256": "ea7f8c3ade34aefac246c242333ff89b9bae948ea6bbd116ab797f1ddd357e83"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\RelatorioCreditoPresumidoSistematicaAtacadistaSubReport.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\RelatorioCreditoPresumidoSistematicaAtacadistaSubReport.cs",
+      "raw_sha256": "5e8fc7a19b9df2637c8043bec15ef0c65b3acfeb249a342c07b9b8ac99817068"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ResumoPorParcelamentoEmCartao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ResumoPorParcelamentoEmCartao.cs",
+      "raw_sha256": "339c5ce912adc49795326d53a16c8a5a6ea115200c9baa6c2f7210e2d714af20"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\ResumoVendas40Colunas.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\ResumoVendas40Colunas.cs",
+      "raw_sha256": "c23f104b9241d669ea8efe7cf7ed42f80dcce0b797a44030ef4d88ec20958fbb"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\SaidasSubstituicaoTributariaPorProduto.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\SaidasSubstituicaoTributariaPorProduto.cs",
+      "raw_sha256": "1b0456c91a4bf247a8cae62be0c2886ab7befb58e4678514ee960da18be33ca3"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\SaldoEstoqueEntregasFuturas.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\SaldoEstoqueEntregasFuturas.cs",
+      "raw_sha256": "f4ae44f193c3e95ef5c29f156d598252dd5484707f43d7d81865b812ad6b15d9"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TicketMedioPorOrigemETipo.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TicketMedioPorOrigemETipo.cs",
+      "raw_sha256": "12d94e85851cc62ad85ed1d5be818def81ea87d334fffe04923f655afa6d51c6"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TicketMedioPorOrigemETipoItens.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TicketMedioPorOrigemETipoItens.cs",
+      "raw_sha256": "bf1acfba781b77cab11c2629fdcfcb0c88d1db4fe41d32836fe276c095276200"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotaisItensVendidosComTributacaoCfop.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotaisItensVendidosComTributacaoCfop.cs",
+      "raw_sha256": "0a8f412ba34ff2fc836a6ebb32fdb27fb64affebd90dfb551f16190804a5106d"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotaisItensVendidosComTributacaoCofins.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotaisItensVendidosComTributacaoCofins.cs",
+      "raw_sha256": "a883b0efb99a3088634bffba35b0416caa1c455d59f483583455e79be626a7be"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotaisItensVendidosComTributacaoCst.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotaisItensVendidosComTributacaoCst.cs",
+      "raw_sha256": "fae4fb43839a6f64010498380654c57dfbb7108312d39297dcc8a8ff76f6f1ac"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotaisItensVendidosComTributacaoPis.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotaisItensVendidosComTributacaoPis.cs",
+      "raw_sha256": "5ca2a2c30e7da4d9203b1cea69178cde8bceed5acfeaf51568829228c6da20c5"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEcf.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEcf.cs",
+      "raw_sha256": "00e283bcbc5b2d5124edc29342c8c732f92a9bdc9031153651b2622647b88663"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEspeciePdv.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEspeciePdv.cs",
+      "raw_sha256": "619e494e2e8e592aa33bb638d2d18109be19fbf130008ba52857f1298d8941d9"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEspeciePdv40Colunas.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEspeciePdv40Colunas.cs",
+      "raw_sha256": "f2bdbe79d6ed5ac89a33802b1d171330581a34ec465146382efa0f377e6dc07f"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEspeciePdvVendedor.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEspeciePdvVendedor.cs",
+      "raw_sha256": "46b9872c9e5327f4582ec774d35d99e3a2026924234158c8100f17267cead01c"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEspeciePdvVendedor40Colunas.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorEspeciePdvVendedor40Colunas.cs",
+      "raw_sha256": "b67e658ad36bf5f34228f1c41cdfb2bee70b220200f078009e2b4b1987557824"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorParcelamentoEmCartao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalizacaoPorParcelamentoEmCartao.cs",
+      "raw_sha256": "808fcdf41468639401ec4df5c78436cd2dff6fd8fd40e41487f56426fcc3405b"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalizacaoVendas.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalizacaoVendas.cs",
+      "raw_sha256": "ebeb727712465c9491301b89d7537952960ece38f9cdff7065569f3c0cb3f24e"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalMovimentacoesPorMesPorTipo.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalMovimentacoesPorMesPorTipo.cs",
+      "raw_sha256": "cc715983768872be3be9fcca559cfce79b29b2e5dd53381e11caf55b674be1fa"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalMovimentacoesPorMesPorVendedor.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalMovimentacoesPorMesPorVendedor.cs",
+      "raw_sha256": "3d0c6c8a50c79d33ee7c387af1277abdd05eae13d4d85bf8d585eff9ced97364"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalMovimentadoPorTributacao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalMovimentadoPorTributacao.cs",
+      "raw_sha256": "c7c1c9ba90b0ea4fe9a4160f44c129792bad60e1696cdcb4c29b61f9def54891"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\TotalMovimentadoPorVendedor.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\TotalMovimentadoPorVendedor.cs",
+      "raw_sha256": "20764b2eb5fbae65c98d97d92dd0a004eae2fb457a3d49c83cfdf66a8708856a"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasCartao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasCartao.cs",
+      "raw_sha256": "2907aeeee619f71d87d036dce8f61163e43128190a968a05c7e61eab3ba0d75b"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasComLucro.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasComLucro.cs",
+      "raw_sha256": "b5be7edc02ec5a02d50604967d88207a087c78b418abe32506f0629409537661"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasComLucroProduto.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasComLucroProduto.cs",
+      "raw_sha256": "cdec395d1d1e8651df36e457fc77c7bd8f92b18fb9731d21e139845801234840"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorAdministradoraCartao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorAdministradoraCartao.cs",
+      "raw_sha256": "fc7f89f52923f162ce8b4c78e069dbabcc96ce8f69ce1010bea0b7b8e3274c42"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorCliente.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorCliente.cs",
+      "raw_sha256": "b810de6e253354458a3b42d30a9235b2f6fc0315c178dd2f7a4371a6711ec12e"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorEcf.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorEcf.cs",
+      "raw_sha256": "228f8591360389c6b7b09a9ffa50e94e7bcd6326b7938df5995960ece1df85d0"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorOperador.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorOperador.cs",
+      "raw_sha256": "36a0991cf3527e2616788cc25f858a0057c1e498948911f80f85c879d6574057"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorProduto.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorProduto.cs",
+      "raw_sha256": "2f21e818f2314cf403808c2479b7a411c1e6c6e5680ad0d8c0d3c53e4aa04b31"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorProdutoMensal.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorProdutoMensal.cs",
+      "raw_sha256": "7502a349b65cde7277b4caa2e2bdc4254df03ee62ad2ffdbe092add0eddd42b0"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorProdutoPorOperador.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorProdutoPorOperador.cs",
+      "raw_sha256": "0351518fcd93ca5b66122e41ec0e7ddc2d91c960ee4fc119cc218de9083a5f98"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorTipoSegmentacao.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorTipoSegmentacao.cs",
+      "raw_sha256": "82e5bbad61b476a30113535dedafb0ca6c6b69b606a2cb2971038f6973ccf47b"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorUf.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorUf.cs",
+      "raw_sha256": "be9875909a82ae8e4b473271281cd4b4e9e9e70669010686418d7ff8ae52774e"
+    },
+    {
+      "path": "Reports\\Movimentacao\\Saida\\VendasPorUfDetalhado.cs",
+      "export_path": "Reports\\Movimentacao\\Saida\\VendasPorUfDetalhado.cs",
+      "raw_sha256": "0dc4581472314a7f0d5cebada0c0ba414742869ee8b8c035e136f564f7908daf"
+    },
+    {
+      "path": "Reports\\Movimentacao\\TotalizacaoPorNcm.cs",
+      "export_path": "Reports\\Movimentacao\\TotalizacaoPorNcm.cs",
+      "raw_sha256": "ccc83cee0c96c143646a3fb231f795af9bff4c20d30147241e874e4d81f87567"
+    },
+    {
+      "path": "Reports\\Movimentacao\\TotalMovimentadoPorCfop.cs",
+      "export_path": "Reports\\Movimentacao\\TotalMovimentadoPorCfop.cs",
+      "raw_sha256": "52c71c736210f0f689822653d452fc8811004137c48622796cbcb13bfda4a869"
+    },
+    {
+      "path": "Reports\\Movimentacao\\TotalPorCfop.cs",
+      "export_path": "Reports\\Movimentacao\\TotalPorCfop.cs",
+      "raw_sha256": "797388171db7e0486cca85afe3421ada666bd6b0a6ce63a3f158ad3a3947c868"
+    },
+    {
+      "path": "Reports\\PagamentoRecebimento\\PagamentosRecebimentos.cs",
+      "export_path": "Reports\\PagamentoRecebimento\\PagamentosRecebimentos.cs",
+      "raw_sha256": "efa513cdb50e08f3c8c4e2474501f118afec9ee8b5be60d41ef5e49edf4698fc"
+    },
+    {
+      "path": "Reports\\PagamentoRecebimento\\PagamentosRecebimentosSintetico.cs",
+      "export_path": "Reports\\PagamentoRecebimento\\PagamentosRecebimentosSintetico.cs",
+      "raw_sha256": "05c4057c1545c93e809f078a3415a6682c27b37f430837580714191df907f95b"
+    },
+    {
+      "path": "Reports\\PagamentoRecebimento\\ResumoEspecies.cs",
+      "export_path": "Reports\\PagamentoRecebimento\\ResumoEspecies.cs",
+      "raw_sha256": "1d14edb4e64bf81824da9ebf4fc755bfc7650424d6d30493d71e24e162f5397b"
+    },
+    {
+      "path": "Reports\\Pagamento\\PagamentosEmAberto.cs",
+      "export_path": "Reports\\Pagamento\\PagamentosEmAberto.cs",
+      "raw_sha256": "10d1e1d73dd648fb17be87cb3c0e265044c922775f173c40074be5129d9fa106"
+    },
+    {
+      "path": "Reports\\Pagamento\\PagamentosPorDiaVencimento.cs",
+      "export_path": "Reports\\Pagamento\\PagamentosPorDiaVencimento.cs",
+      "raw_sha256": "8a77186d55fa1fad7a2c8e169af183befdc0b2a1363da900e79f7c19706005c3"
+    },
+    {
+      "path": "Reports\\Pagamento\\PagamentosPorPessoa.cs",
+      "export_path": "Reports\\Pagamento\\PagamentosPorPessoa.cs",
+      "raw_sha256": "aa1a5867ec05cb2ff143cc15f17b6558c1f47096acec2a1704d74f55f418d409"
+    },
+    {
+      "path": "Reports\\Pagamento\\PagamentosPorSegmentacao.cs",
+      "export_path": "Reports\\Pagamento\\PagamentosPorSegmentacao.cs",
+      "raw_sha256": "b21ea10742578a95d68c05cce395ff810a2b0f0957f9c721cdf63605ef05f783"
+    },
+    {
+      "path": "Reports\\Pagamento\\PagamentosQuitados.cs",
+      "export_path": "Reports\\Pagamento\\PagamentosQuitados.cs",
+      "raw_sha256": "5b635ad08db3d17e80d7f4b9cd343ec5d3c6b004e43a135149406f4a48c1a57e"
+    },
+    {
+      "path": "Reports\\Pagamento\\PagamentosQuitadosPorDataCompetencia.cs",
+      "export_path": "Reports\\Pagamento\\PagamentosQuitadosPorDataCompetencia.cs",
+      "raw_sha256": "5e4c05faf8a4c4af0516920dc7da66c2f1952322c5f789e2ecf17e275504789a"
+    },
+    {
+      "path": "Reports\\PedidoIfood\\PedidosIfoodPorPeriodo.cs",
+      "export_path": "Reports\\PedidoIfood\\PedidosIfoodPorPeriodo.cs",
+      "raw_sha256": "9e32229037e7014a05fd3626331643ce4303c171b1142bd25956c3d721befb0b"
+    },
+    {
+      "path": "Reports\\Pessoa\\Aniversariantes.cs",
+      "export_path": "Reports\\Pessoa\\Aniversariantes.cs",
+      "raw_sha256": "3d04c694624a483159f3a8b0bec823526061311125d008431e96202d1f44d059"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesCashbackDisponivel.cs",
+      "export_path": "Reports\\Pessoa\\ClientesCashbackDisponivel.cs",
+      "raw_sha256": "d62626cdd41b8af0844f6b98afc649b1f4b428ca411f3414011b3a698337ca81"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesCreditoDisponivel.cs",
+      "export_path": "Reports\\Pessoa\\ClientesCreditoDisponivel.cs",
+      "raw_sha256": "3d95373210d730f96b04dc03bd3c3f6a5a9b96b41d907ce16bc77abe9485d3ba"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesCreditoServico.cs",
+      "export_path": "Reports\\Pessoa\\ClientesCreditoServico.cs",
+      "raw_sha256": "3e3a9afcb3150b72f00cdcd285a02da0bda9eedf6d8b8277e8085718d9d70a1a"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesCurvaAbc.cs",
+      "export_path": "Reports\\Pessoa\\ClientesCurvaAbc.cs",
+      "raw_sha256": "40dd4a0a496ac15e47de94c33522a0925da7e68923f02ce9d7a64aa2f0a14c76"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesCurvaAbcPorProduto.cs",
+      "export_path": "Reports\\Pessoa\\ClientesCurvaAbcPorProduto.cs",
+      "raw_sha256": "e0901491e80af948be339ac00e00e4928ac4ad3742361e4ae716fe0676637903"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesCurvaAbcPorTipoMovimentacao.cs",
+      "export_path": "Reports\\Pessoa\\ClientesCurvaAbcPorTipoMovimentacao.cs",
+      "raw_sha256": "e8d2329d7bbea565a7a875789bc342a0682b2dff7bfb4a504c7f3b7a4962ec7f"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesInadimplentes.cs",
+      "export_path": "Reports\\Pessoa\\ClientesInadimplentes.cs",
+      "raw_sha256": "fa669d0aebb76b76f0a859c5f14e3b9192ce0eee90cd263350b1c64caf798c8a"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesNaoComprarPorPeriodo.cs",
+      "export_path": "Reports\\Pessoa\\ClientesNaoComprarPorPeriodo.cs",
+      "raw_sha256": "0c97f03435d4e405b33c0196901b19866f204dd878073671af50f4d597b1917c"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesPorPrescritor.cs",
+      "export_path": "Reports\\Pessoa\\ClientesPorPrescritor.cs",
+      "raw_sha256": "eee89e743f7de83347e50e9c1c67862304135fb232634c8bc7db4010d78877be"
+    },
+    {
+      "path": "Reports\\Pessoa\\ClientesQueDeixaramDeComprar.cs",
+      "export_path": "Reports\\Pessoa\\ClientesQueDeixaramDeComprar.cs",
+      "raw_sha256": "8ca44e5ba70c176c1f2e560312a6e396f03ebd55bdf5ea7587d4eb83d4a05e12"
+    },
+    {
+      "path": "Reports\\Pessoa\\ComissoesPorColaborador.cs",
+      "export_path": "Reports\\Pessoa\\ComissoesPorColaborador.cs",
+      "raw_sha256": "6d72d29d49d1749bac8588a5a525c75796af1c206962eaca717a87bc6710443b"
+    },
+    {
+      "path": "Reports\\Pessoa\\ComissoesPorColaborador40Colunas.cs",
+      "export_path": "Reports\\Pessoa\\ComissoesPorColaborador40Colunas.cs",
+      "raw_sha256": "a35a460013a2491277e014c2031461769bff5bbc10b8f831b0abd0e5905d24a1"
+    },
+    {
+      "path": "Reports\\Pessoa\\HistoricoPessoa.cs",
+      "export_path": "Reports\\Pessoa\\HistoricoPessoa.cs",
+      "raw_sha256": "014c239704f093e828f23f44c4c987bc707b7f39fc487a92b23ce10b5c674839"
+    },
+    {
+      "path": "Reports\\Pessoa\\HistoricoPessoa40Colunas.cs",
+      "export_path": "Reports\\Pessoa\\HistoricoPessoa40Colunas.cs",
+      "raw_sha256": "35baffdfa57349eacb73baf3d33ca043ff0173201de3cc9604f05dff821b7c84"
+    },
+    {
+      "path": "Reports\\Pessoa\\InformacoesOticasPorPessoa.cs",
+      "export_path": "Reports\\Pessoa\\InformacoesOticasPorPessoa.cs",
+      "raw_sha256": "1774a13274454b3b2f33c8351928b1ae20a158e34eb9e5c9b8788e26a27f2111"
+    },
+    {
+      "path": "Reports\\Pessoa\\LivroRegistroAviamentoReceituarioOptico.cs",
+      "export_path": "Reports\\Pessoa\\LivroRegistroAviamentoReceituarioOptico.cs",
+      "raw_sha256": "fa3db8b82db80e4a066560fa272a59d393875a28606ce75de0faf59b8cc6f20f"
+    },
+    {
+      "path": "Reports\\Pessoa\\ObjetosPorPessoa.cs",
+      "export_path": "Reports\\Pessoa\\ObjetosPorPessoa.cs",
+      "raw_sha256": "dd5995ed6ef2e55cec049d4aa9ed8a22f46670a3004e2869b7c572cbeba61551"
+    },
+    {
+      "path": "Reports\\Pessoa\\PerfilUsuario.cs",
+      "export_path": "Reports\\Pessoa\\PerfilUsuario.cs",
+      "raw_sha256": "84c7b3f127869aa5258d9423580fdd7faa6e0bf5680b1a29d8549539e28aed76"
+    },
+    {
+      "path": "Reports\\Pessoa\\PessoasPorBairro.cs",
+      "export_path": "Reports\\Pessoa\\PessoasPorBairro.cs",
+      "raw_sha256": "e94a140cd43c60c032c66b1504d228806b3c9217985c636c9e17c57486da0de7"
+    },
+    {
+      "path": "Reports\\Pessoa\\PessoasPorCampoPesquisa.cs",
+      "export_path": "Reports\\Pessoa\\PessoasPorCampoPesquisa.cs",
+      "raw_sha256": "a719cb4e52552730b5af7855505ce92efabe81901034f5e339476b1b90d1015b"
+    },
+    {
+      "path": "Reports\\Pessoa\\PessoasPorMunicipio.cs",
+      "export_path": "Reports\\Pessoa\\PessoasPorMunicipio.cs",
+      "raw_sha256": "96d61ac1ddd3a32f8733e392f32ea8871b6e03a8e9e0974f31f474fcfe8561fa"
+    },
+    {
+      "path": "Reports\\Pessoa\\PessoasPorSegmentacao.cs",
+      "export_path": "Reports\\Pessoa\\PessoasPorSegmentacao.cs",
+      "raw_sha256": "78bee9f7ec1284d51b24ea9342fa3e6c306a23dfcfef444012e3a622863bc7d5"
+    },
+    {
+      "path": "Reports\\Pessoa\\PessoasPorTabelaPreco.cs",
+      "export_path": "Reports\\Pessoa\\PessoasPorTabelaPreco.cs",
+      "raw_sha256": "cbee91901ce9655ae8c80927db9e5d8ada840a953600795ac3a4cca8bbe6e745"
+    },
+    {
+      "path": "Reports\\Pessoa\\PessoasPorTipoCadastro.cs",
+      "export_path": "Reports\\Pessoa\\PessoasPorTipoCadastro.cs",
+      "raw_sha256": "108e2dac4ed8e1ad30b950e53e24b6a2d6f5df72e2b181f9b1d7e2f0f0c7b8a5"
+    },
+    {
+      "path": "Reports\\Pessoa\\PessoasPorUf.cs",
+      "export_path": "Reports\\Pessoa\\PessoasPorUf.cs",
+      "raw_sha256": "834e1d6e0fa95ce59fa4af72c3e22f8c42cb7c023cadcc80dd542b4ee73f9386"
+    },
+    {
+      "path": "Reports\\Pessoa\\ServicosPorTecnico.cs",
+      "export_path": "Reports\\Pessoa\\ServicosPorTecnico.cs",
+      "raw_sha256": "9a8a851044b26788d6f01393fa025e52fdf553ad7aed036ffacbcbacb04a48b3"
+    },
+    {
+      "path": "Reports\\Pessoa\\ServicosPorTecnicoComComissao.cs",
+      "export_path": "Reports\\Pessoa\\ServicosPorTecnicoComComissao.cs",
+      "raw_sha256": "6b69aedb97fec4d3bcbf4ea7296f3618a68afe85799f52cc8450722943d6ec52"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\AbastecimentoPorClientePlaca.cs",
+      "export_path": "Reports\\PostoCombustivel\\AbastecimentoPorClientePlaca.cs",
+      "raw_sha256": "a97ee293a003a33e7c21b335fa8df668c90b00795950d42aa1f2498033aba335"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\AbastecimentosPorBico.cs",
+      "export_path": "Reports\\PostoCombustivel\\AbastecimentosPorBico.cs",
+      "raw_sha256": "4ec35187fd6bda224568a00f3da576c5d9a5bbb70799de8e9d8d341761c6d6b3"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\AbastecimentosPorFrentista.cs",
+      "export_path": "Reports\\PostoCombustivel\\AbastecimentosPorFrentista.cs",
+      "raw_sha256": "f1c32710ab1e003ae67f31090c8282aba5987a99d2ba1c45399c61ba9d8c3413"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\AbastecimentosPorFrentista40Colunas.cs",
+      "export_path": "Reports\\PostoCombustivel\\AbastecimentosPorFrentista40Colunas.cs",
+      "raw_sha256": "42b6f2262ef6dc2d9fed2ff7aaa82685874ff96991e303549ca43b88ceaa87c2"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\Afericoes.cs",
+      "export_path": "Reports\\PostoCombustivel\\Afericoes.cs",
+      "raw_sha256": "125c3c712a24bfb8d771e772ae69076b447775236384af7a5624ec577cbeca6f"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\MovimentacoesPorAbastecimento.cs",
+      "export_path": "Reports\\PostoCombustivel\\MovimentacoesPorAbastecimento.cs",
+      "raw_sha256": "49da79824151aba7a1a1eab962ef7f17cb36b3242358c5bd5839dd940917498f"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\ResumoPerdasGanhos.cs",
+      "export_path": "Reports\\PostoCombustivel\\ResumoPerdasGanhos.cs",
+      "raw_sha256": "731a714bcacdc1bcb7f149f86ee800451ab2caac4d3481e33fcdc41c563eb895"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\ResumoPeriodo.cs",
+      "export_path": "Reports\\PostoCombustivel\\ResumoPeriodo.cs",
+      "raw_sha256": "12d5cf6443fc33aa13afe1506cbdda0ee84ca5da0ba7898bb9e3aea51258d96b"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\ResumoPeriodoTanques.cs",
+      "export_path": "Reports\\PostoCombustivel\\ResumoPeriodoTanques.cs",
+      "raw_sha256": "ea1de19ed537756fa056f61c9244be46fe681aef16ad8aae6d23ecaf35999602"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\ResumoTanques.cs",
+      "export_path": "Reports\\PostoCombustivel\\ResumoTanques.cs",
+      "raw_sha256": "065e2fa3cab4bc16bcbd9df74fd1273d621e7f9269e377499207738764e203bc"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\TanquesBombasBicos.cs",
+      "export_path": "Reports\\PostoCombustivel\\TanquesBombasBicos.cs",
+      "raw_sha256": "a0fa87def8669a601819b06ba993d88b43913007da4697e309d6adb57ce54ea1"
+    },
+    {
+      "path": "Reports\\PostoCombustivel\\VolumesRegistradosEFaturados.cs",
+      "export_path": "Reports\\PostoCombustivel\\VolumesRegistradosEFaturados.cs",
+      "raw_sha256": "4e94364af911483f1b9ab0f313e7eabcb564073571df6459825ff0e3bb1473f3"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\AlteracaoEstoqueMei.cs",
+      "export_path": "Reports\\ProdutoServico\\AlteracaoEstoqueMei.cs",
+      "raw_sha256": "564c5f86407267bf6ebea22f766dcf8defec98078fe30157f50785f9cd841caa"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\CadastroProdutosServicos.cs",
+      "export_path": "Reports\\ProdutoServico\\CadastroProdutosServicos.cs",
+      "raw_sha256": "57059f3509cb3f7c16f9586259b2829f60814e39e3acc123c008db9e6d83a676"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\Catalogo1Coluna.cs",
+      "export_path": "Reports\\ProdutoServico\\Catalogo1Coluna.cs",
+      "raw_sha256": "665ba25c316ab8f36c04da9397fce00ae9e98ed10be78eba65166b910af3a1fe"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\Catalogo2Colunas.cs",
+      "export_path": "Reports\\ProdutoServico\\Catalogo2Colunas.cs",
+      "raw_sha256": "4c3270d05a80d92dc774e942350756d171defbc02cee62769b53bed74775582e"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ComparativoAnualSaidasPorProduto.cs",
+      "export_path": "Reports\\ProdutoServico\\ComparativoAnualSaidasPorProduto.cs",
+      "raw_sha256": "2be87a55336cecd7a594e61d2292ea8586e65ae933e37b7628ad5adc3134024c"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ComponentesUtilizadosMontagemComposicao.cs",
+      "export_path": "Reports\\ProdutoServico\\ComponentesUtilizadosMontagemComposicao.cs",
+      "raw_sha256": "6e64fb2945f8bff2b9834c357eeccfb606abf5ca43fb554189b80987ac1e024e"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\Composicao.cs",
+      "export_path": "Reports\\ProdutoServico\\Composicao.cs",
+      "raw_sha256": "dda8cf39bab14e4a7680da9e2e21efa798407d08557191036a37da36569a69a3"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ConferenciaEstoque.cs",
+      "export_path": "Reports\\ProdutoServico\\ConferenciaEstoque.cs",
+      "raw_sha256": "a2737109e1416ba452f895b16ad03a090a4a35222a30c89098fa262956a66681"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ConsultaProdutoIMendesLog.cs",
+      "export_path": "Reports\\ProdutoServico\\ConsultaProdutoIMendesLog.cs",
+      "raw_sha256": "cc6dfb5ec6440de837511c55e5491b9e26d9da79858176533168a2378151c8a4"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ConsultaProdutoLog.cs",
+      "export_path": "Reports\\ProdutoServico\\ConsultaProdutoLog.cs",
+      "raw_sha256": "d5609d077eeb367a94cff619e522de5f82c83dec0f2a811191d73d5f19f55618"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\HistoricoMovimentacaoLote.cs",
+      "export_path": "Reports\\ProdutoServico\\HistoricoMovimentacaoLote.cs",
+      "raw_sha256": "823dafa24c19198f7bf49bf396aa8703971729e65d18ee76321d0612b01d718f"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\HistoricoMovimentacaoSerial.cs",
+      "export_path": "Reports\\ProdutoServico\\HistoricoMovimentacaoSerial.cs",
+      "raw_sha256": "febda08962f79bb26c1def26eb33f6957cf0812e2ddfacac98561a53d294967c"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\IntegridadeEstoque.cs",
+      "export_path": "Reports\\ProdutoServico\\IntegridadeEstoque.cs",
+      "raw_sha256": "6f22efd13a37a804b446baa896ee2fb4c1a4de7a9b360dd0053941040160e25f"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaPrecosProdutoServicoConsolidado.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaPrecosProdutoServicoConsolidado.cs",
+      "raw_sha256": "dc4ce2992478bc5c1e269b5af51423035e55a14b09d80e4f8cb1bcd2a064637b"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutos.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutos.cs",
+      "raw_sha256": "823b6fe897e285a9c89536dcc922779aa57d69036b7bdc0dbe8470124f7d623d"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosAlteracaoPreco.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosAlteracaoPreco.cs",
+      "raw_sha256": "d927747e37c8868aefc9336ddc6b10b0e27dc321ecf46c2599d905188f3908a3"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosCatalogo.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosCatalogo.cs",
+      "raw_sha256": "5eaba7ea13457b2bcd2ea815cbbcf7dcc6fcc53e4f57e41c201df13b92f0e7bc"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutoServicosCondicaoEspecial.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutoServicosCondicaoEspecial.cs",
+      "raw_sha256": "892eeb9fb2ac3de0dbe4dfa503f2877741cdf3acce8750b97a649555427505a7"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosGtinInvalido.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosGtinInvalido.cs",
+      "raw_sha256": "699a5962839be0f36af51c5fc3049f50cd2f617c3cb44b3a67db2c5746d9a584"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosLinhas.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosLinhas.cs",
+      "raw_sha256": "8e37b974ad6f8c7c56468b6cf3d22def70c83756b65cadc0180422eda93cd974"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosLotes.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosLotes.cs",
+      "raw_sha256": "1211c53f1e7433103e96b22362a4df21f8be1500addeda84d84b7776d0311ed7"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosLotesValidade.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosLotesValidade.cs",
+      "raw_sha256": "bf64adeb74bb9ff475313efc631f1b020fd3e4dbf37fdd85ad0948afd9b446ef"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosMarcas.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosMarcas.cs",
+      "raw_sha256": "24eaea62f63b2c143082d2cb87a0987a0929b42e9680fd641b15f8fbce774c12"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosNcmInvalido.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosNcmInvalido.cs",
+      "raw_sha256": "932c48c8aaf759492e128555647c69d28eec2d643ee90194043680382e6b06a2"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosPorIndicePrecoVendaMarcaSubgrupo.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosPorIndicePrecoVendaMarcaSubgrupo.cs",
+      "raw_sha256": "a2662099b7bda78ba6820f7ca9c0eddbea0eb444ece24a122c8299fc5ad4b979"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosSeriais.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosSeriais.cs",
+      "raw_sha256": "cc2576443cf286c793beb6467ca07bec62e2a861d92fb8c086a72d5da8b4c143"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosTributacoesEstaduais.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosTributacoesEstaduais.cs",
+      "raw_sha256": "2230c893c819d096b1898872c1f89ce3fd14dbe62d34fab3825ebc6d0f5e6544"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosTributacoesEstaduaisComCestENcm.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosTributacoesEstaduaisComCestENcm.cs",
+      "raw_sha256": "470c0095013b2036e3b5f4f44592cbb678989db6dbc1c4ce6ba3facfa5b78b0c"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosTributacoesFederais.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosTributacoesFederais.cs",
+      "raw_sha256": "971b2fb6c0c04f65d0c0712409a6860779fd6071fe4b1faa5468d7ca4467442e"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosTributacoesFederaisComCestENcm.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosTributacoesFederaisComCestENcm.cs",
+      "raw_sha256": "a10b0203e6f723b730b69f5678e82b95c46ac5a5ae10528d788e35675e393c2a"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosTributacoesIbsCbsComCestENcm.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosTributacoesIbsCbsComCestENcm.cs",
+      "raw_sha256": "b360cf0e8d14b22634a54f696ebe6b9e48a7c2e5012874471c02f5ee1c971a1b"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosTributos.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosTributos.cs",
+      "raw_sha256": "711f860fb0ca87b39ccd6d78478f6b117ecba0b503e48a75f1446c41b8c2180d"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaProdutosTributosEstaduais.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaProdutosTributosEstaduais.cs",
+      "raw_sha256": "b975e1a60d1fa9e911e296ea3ddc682f02d70f55c3ed93ddcb42374027f6e43e"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaSaldoIcmsStRetidoPorProduto.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaSaldoIcmsStRetidoPorProduto.cs",
+      "raw_sha256": "b8bfe8f81325660eb17eb42d19d2d661b6d5cb654893bcadd7280462664a4dbb"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ListaServicos.cs",
+      "export_path": "Reports\\ProdutoServico\\ListaServicos.cs",
+      "raw_sha256": "f14e8a70a75e91efffe5730c8f2e739ca4bcf1dd63cda041bf45101b11483d84"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\LogAlteracaoComposicao.cs",
+      "export_path": "Reports\\ProdutoServico\\LogAlteracaoComposicao.cs",
+      "raw_sha256": "36dcb65271101c769e886c644a6ad56eff4b19eab3044f99f6d56a0d6086fa33"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\LucroMovimentacaoProduto.cs",
+      "export_path": "Reports\\ProdutoServico\\LucroMovimentacaoProduto.cs",
+      "raw_sha256": "cc9de6ae6e838f4ea6009074f9169f0208bbae22cd5fb530e7b105b0fa5635c3"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\MedicamentosControlados.cs",
+      "export_path": "Reports\\ProdutoServico\\MedicamentosControlados.cs",
+      "raw_sha256": "a6d66d19b63dcff3324242da627cdd0c54ea67a4c62fbb8cee3411dd1c1c0d7d"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\MontagemDesmontagemComposicao.cs",
+      "export_path": "Reports\\ProdutoServico\\MontagemDesmontagemComposicao.cs",
+      "raw_sha256": "c500f0619a94b06f41776d67706dec539e1c4ba113ec88c844cf4eb636b069b4"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\MovimentacaoProdutoServico.cs",
+      "export_path": "Reports\\ProdutoServico\\MovimentacaoProdutoServico.cs",
+      "raw_sha256": "50ad073210608fd5a985af9ef24a4b3d725f19a7c8158f308d4bba7c5f9c53c2"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ProdutoCurvaAbc.cs",
+      "export_path": "Reports\\ProdutoServico\\ProdutoCurvaAbc.cs",
+      "raw_sha256": "d4aca81ebffd9f9f7b3a6fd74d4b89e117997986f439626b44dd3164fe43ae4a"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ProdutoGrade.cs",
+      "export_path": "Reports\\ProdutoServico\\ProdutoGrade.cs",
+      "raw_sha256": "9744ccd51177d1e7775b6dd1976d1acb15b34e56717b055d6e6b5b3628b35ca0"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ProdutosPorFornecedor.cs",
+      "export_path": "Reports\\ProdutoServico\\ProdutosPorFornecedor.cs",
+      "raw_sha256": "2148d11a1a90f8e6f812d65a4a117e2c6b51f1bf2892349c43b33efdbbf2a58f"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ProdutosServicosTabelaPreco.cs",
+      "export_path": "Reports\\ProdutoServico\\ProdutosServicosTabelaPreco.cs",
+      "raw_sha256": "610f8b7bdd7822bc25a93c67b204e5110c77d472aca54753079f7e83c42793ee"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\ProdutosServicosTabelaPrecoComQuantidade.cs",
+      "export_path": "Reports\\ProdutoServico\\ProdutosServicosTabelaPrecoComQuantidade.cs",
+      "raw_sha256": "820799c5946da798561f97e7e5549b059fbea22f69cacda38f7d4d4396b0910a"
+    },
+    {
+      "path": "Reports\\ProdutoServico\\Rotatividade.cs",
+      "export_path": "Reports\\ProdutoServico\\Rotatividade.cs",
+      "raw_sha256": "9ad818b4fa4e630457f1d93c07bf20260381f4094a15a4e345ea714188dc38c1"
+    },
+    {
+      "path": "Reports\\PromocaoScanntech\\ItensVendidosComPromocaoScanntech.cs",
+      "export_path": "Reports\\PromocaoScanntech\\ItensVendidosComPromocaoScanntech.cs",
+      "raw_sha256": "47c241a804a320193eb2f9494b35bb8bd85414061a4d3c8fb7a36216d2b8f0b2"
+    },
+    {
+      "path": "Reports\\PromocaoScanntech\\ListaMovimentacaoScanntechResumoDiario.cs",
+      "export_path": "Reports\\PromocaoScanntech\\ListaMovimentacaoScanntechResumoDiario.cs",
+      "raw_sha256": "061d747ad43719d1ed69d38da3ee883fe312e78ac42637960f8ae524f0ff665e"
+    },
+    {
+      "path": "Reports\\PromocaoScanntech\\ListaMovimentacoesScanntech.cs",
+      "export_path": "Reports\\PromocaoScanntech\\ListaMovimentacoesScanntech.cs",
+      "raw_sha256": "070df997fd20ce9574be2b731e2ac2cf6afe02ae89cfc6593e569674f88402e0"
+    },
+    {
+      "path": "Reports\\PromocaoScanntech\\VendasPorProdutoComPromocaoScanntech.cs",
+      "export_path": "Reports\\PromocaoScanntech\\VendasPorProdutoComPromocaoScanntech.cs",
+      "raw_sha256": "ca9075f2ba2da34d610571e9c1ca3588c34f02f6bc3e27c61be20d97970b4d1d"
+    },
+    {
+      "path": "Reports\\Promocao\\ItensPorPromocao.cs",
+      "export_path": "Reports\\Promocao\\ItensPorPromocao.cs",
+      "raw_sha256": "5dbfb88be260048f770a8e26db95216e81f2d08b5fbd0bc4dbdc5afdb05a7113"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosCartao.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosCartao.cs",
+      "raw_sha256": "9afa990aaf0b255af670d14f38555014e525f044cf0adfe6e21306fb550b5506"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosEmAberto.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosEmAberto.cs",
+      "raw_sha256": "b902a4466057d6a42e6d0757c615a93ab488fb2f057188d63d91c15d95baafc9"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosEmAbertoSintetico.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosEmAbertoSintetico.cs",
+      "raw_sha256": "f0443718b1a6afcc34578289068d143fbce2c33a180801d8fd315967943f24d7"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosPorPessoa.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosPorPessoa.cs",
+      "raw_sha256": "779a8cd01cd364d96f73d25fb66d091d6b15273f2f3354a68ffb8a8de68fe588"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosPorPessoa40Colunas.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosPorPessoa40Colunas.cs",
+      "raw_sha256": "fce024f9a43028f5f95715551f1ed0d52800b7f8bfa7ec5bbca2cc872ca38afb"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosPorSegmentacao.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosPorSegmentacao.cs",
+      "raw_sha256": "24d3daec54a36a8fccf0a0069fb60c3b4b47f24ecd7fbea197fb152e3691e014"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosPorSegmentacao40Colunas.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosPorSegmentacao40Colunas.cs",
+      "raw_sha256": "a9a7178b63dfe8baf53f630ddf682604fedec9f84bebb91efccef26e438296b9"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosPorVendedor.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosPorVendedor.cs",
+      "raw_sha256": "33dba3b00df3b65633f0f66cd3ae6f98075987b894269cb2b9e1ed500bb3b011"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosQuitados.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosQuitados.cs",
+      "raw_sha256": "af6331c11d4eb436ac8a2f2818a06fecf5c8291389ddfe936617a691559e9aad"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosQuitadosPorDataCompetencia.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosQuitadosPorDataCompetencia.cs",
+      "raw_sha256": "6c24d8c3d7ac8971f137c8b16a8297c0866c93f52b3c43a580d8d7b89482a180"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosResumoEspecies.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosResumoEspecies.cs",
+      "raw_sha256": "891683b458dd158dacd4d5637624c620fe2f7babeb19eff423cf33433ced279e"
+    },
+    {
+      "path": "Reports\\Recebimento\\RecebimentosTaxas.cs",
+      "export_path": "Reports\\Recebimento\\RecebimentosTaxas.cs",
+      "raw_sha256": "92a9e716109ed9e39e6900f957d33128e743b1a610f0bf3da885a31e4f8561ce"
+    },
+    {
+      "path": "Reports\\RelacaoVendedorCliente\\ClientesPorVendedor.cs",
+      "export_path": "Reports\\RelacaoVendedorCliente\\ClientesPorVendedor.cs",
+      "raw_sha256": "f330459ba70933bb0ccafc49dbfb81dd6ab2d6cb9d3de1c8e9f25679c2657f80"
+    },
+    {
+      "path": "Reports\\RelacaoVendedorCliente\\RelacaoVendedorClientes.cs",
+      "export_path": "Reports\\RelacaoVendedorCliente\\RelacaoVendedorClientes.cs",
+      "raw_sha256": "54cb906ace95f52f59d3e38ec297490956fcb794c43ea54c3f54894eafb43670"
+    },
+    {
+      "path": "Reports\\Restaurante\\HistoricoBloqueioMesaConta.cs",
+      "export_path": "Reports\\Restaurante\\HistoricoBloqueioMesaConta.cs",
+      "raw_sha256": "75c4b12a8f159ebc988a02e11751eaec87f16aebf6450ffb4449fb5378f6c344"
+    },
+    {
+      "path": "Reports\\Restaurante\\ItensCancelados.cs",
+      "export_path": "Reports\\Restaurante\\ItensCancelados.cs",
+      "raw_sha256": "3e4836713abaf0823cff9d2814ca5ba86a0c049b06a642e99a4ee14735695a34"
+    },
+    {
+      "path": "Reports\\Restaurante\\ListaCardapios.cs",
+      "export_path": "Reports\\Restaurante\\ListaCardapios.cs",
+      "raw_sha256": "538d744552a93a000502a7b1c3aca336f520cab9e2dc21331a694b2cce0c6632"
+    },
+    {
+      "path": "Reports\\Restaurante\\MesasContasClientePorPeriodo.cs",
+      "export_path": "Reports\\Restaurante\\MesasContasClientePorPeriodo.cs",
+      "raw_sha256": "d7b2e7d7e14baf1e32728406797e9abfac6128152f9f0e740ffc1897fca23cc2"
+    },
+    {
+      "path": "Reports\\Restaurante\\MesasContasClientePorPeriodoEHorario.cs",
+      "export_path": "Reports\\Restaurante\\MesasContasClientePorPeriodoEHorario.cs",
+      "raw_sha256": "775c78e8f8c71c8ef8344dc570d549ed081f76f8176294c07ae94e80892a704b"
+    },
+    {
+      "path": "Reports\\Restaurante\\MesasContasClientePorSituacao.cs",
+      "export_path": "Reports\\Restaurante\\MesasContasClientePorSituacao.cs",
+      "raw_sha256": "c9dec1629a0fb0015ce391d9b96be7726499efd88b73ae8f7503537877f8b899"
+    },
+    {
+      "path": "Reports\\Restaurante\\TempoDePermanenciaEConsumo.cs",
+      "export_path": "Reports\\Restaurante\\TempoDePermanenciaEConsumo.cs",
+      "raw_sha256": "12ff9cc3dd5cd4632666e64ddd379397852aa8767863dce8708f220b8166bc5d"
+    },
+    {
+      "path": "Reports\\Restaurante\\VendasPorCardapio.cs",
+      "export_path": "Reports\\Restaurante\\VendasPorCardapio.cs",
+      "raw_sha256": "f877baaf6f81b0f1e00e5faf2d65e68b858aee5c39f4a5db343217782c8cc41b"
+    },
+    {
+      "path": "Reports\\RomaneioCarga\\RomaneiosCargaPorCidadeBairro.cs",
+      "export_path": "Reports\\RomaneioCarga\\RomaneiosCargaPorCidadeBairro.cs",
+      "raw_sha256": "74907571c4c6ce9b6fec01618cdef87529b24335fca881d44a66af174afc736a"
+    },
+    {
+      "path": "Reports\\RomaneioCarga\\RomaneiosCargaPorPeriodoSituacaoEVendedor.cs",
+      "export_path": "Reports\\RomaneioCarga\\RomaneiosCargaPorPeriodoSituacaoEVendedor.cs",
+      "raw_sha256": "952e64f00dca7ac24c10199a7eb1c469b79f0c66ed190bf4ae65d9d1f11fbbf8"
+    },
+    {
+      "path": "Reports\\RomaneioCarga\\RomaneiosCargaTotalPorBairro.cs",
+      "export_path": "Reports\\RomaneioCarga\\RomaneiosCargaTotalPorBairro.cs",
+      "raw_sha256": "cc3fc749e65b67f2343788753bb4f314e8293af10b091baec4998710960b81c4"
+    },
+    {
+      "path": "Reports\\RomaneioConhecimentoTransporteEletronico\\RomaneiosConhecimentoTransporteEletronicoPorCidadeBairro.cs",
+      "export_path": "Reports\\RomaneioConhecimentoTransporteEletronico\\RomaneiosConhecimentoTransporteEletronicoPorCidadeBairro.cs",
+      "raw_sha256": "b389095619026c2e3ade340c059140d2c16e85fe847d7d0dc5e769b11b308d0e"
+    },
+    {
+      "path": "Reports\\RomaneioConhecimentoTransporteEletronico\\RomaneiosConhecimentoTransporteEletronicoPorPeriodoSituacao.cs",
+      "export_path": "Reports\\RomaneioConhecimentoTransporteEletronico\\RomaneiosConhecimentoTransporteEletronicoPorPeriodoSituacao.cs",
+      "raw_sha256": "34ba4dda130ab6800c4ce94e44716e95fe35cdedb6c0af6bca08ce22a9ea6e6c"
+    },
+    {
+      "path": "Reports\\RomaneioConhecimentoTransporteEletronico\\RomaneiosConhecimentoTransporteEletronicoTotalPorBairro.cs",
+      "export_path": "Reports\\RomaneioConhecimentoTransporteEletronico\\RomaneiosConhecimentoTransporteEletronicoTotalPorBairro.cs",
+      "raw_sha256": "9dc000b98f19d798c1c49432c2f1fdf49b9c36e724566428daf3ec81380575ed"
+    },
+    {
+      "path": "Reports\\Ticket\\ResumoDoTicket.cs",
+      "export_path": "Reports\\Ticket\\ResumoDoTicket.cs",
+      "raw_sha256": "12a684202685003d5074922d5031f1af21f223a0c444d20adbee329abd18642c"
+    },
+    {
+      "path": "Reports\\Ticket\\TicketsPorSituacao.cs",
+      "export_path": "Reports\\Ticket\\TicketsPorSituacao.cs",
+      "raw_sha256": "28f2bb73751190b6b43f215ecdc2bf5c52562cf8fa2233c43a8102f97a894787"
+    },
+    {
+      "path": "Reports\\Transferencia\\Transferencias.cs",
+      "export_path": "Reports\\Transferencia\\Transferencias.cs",
+      "raw_sha256": "74ebb86985035568ff7d2d766aa75b90ad7bfb0bea93222b672225f2b29d72c9"
+    },
+    {
+      "path": "Reports\\Turno\\ConferenciaFaltasSobrasPeriodo.cs",
+      "export_path": "Reports\\Turno\\ConferenciaFaltasSobrasPeriodo.cs",
+      "raw_sha256": "b8f0f94e5ba743d916fc3e5db4afca8ce5411d35a8c92a006b15c73393aba6a9"
+    },
+    {
+      "path": "Reports\\Turno\\ConferenciaTurno.cs",
+      "export_path": "Reports\\Turno\\ConferenciaTurno.cs",
+      "raw_sha256": "7117b24364eac5105bf0da19bb7a910c34e9437c47f10ff5ab9b3ad436e1603d"
+    },
+    {
+      "path": "Reports\\Turno\\ConferenciaTurno40Colunas.cs",
+      "export_path": "Reports\\Turno\\ConferenciaTurno40Colunas.cs",
+      "raw_sha256": "706fba2c47b26bc0defca49beb923406b21eb8290896345c5547dfde1253789e"
+    },
+    {
+      "path": "Reports\\Turno\\ConferenciaTurnoResumoCaixa.cs",
+      "export_path": "Reports\\Turno\\ConferenciaTurnoResumoCaixa.cs",
+      "raw_sha256": "771f661dabce99b382c61ae3a45b594173e89d5ccd65d6a88b29853e1fc62656"
+    },
+    {
+      "path": "Reports\\Turno\\ConferenciaTurnoResumoCaixa40Colunas.cs",
+      "export_path": "Reports\\Turno\\ConferenciaTurnoResumoCaixa40Colunas.cs",
+      "raw_sha256": "d06ee16a47e13d121f67bda429a60b156a4c8c944eff61613c7a85a6856ad358"
+    },
+    {
+      "path": "Reports\\Turno\\ConferenciaTurnoSintetico.cs",
+      "export_path": "Reports\\Turno\\ConferenciaTurnoSintetico.cs",
+      "raw_sha256": "fc964caedf57c9d680029aae2a2eea6d8bd04bcd613f22d3f2510e5548f5bc3e"
+    },
+    {
+      "path": "Reports\\Turno\\ResumoJornada.cs",
+      "export_path": "Reports\\Turno\\ResumoJornada.cs",
+      "raw_sha256": "24d5cd5167521d9161f1608a767adcf101c67151b0ef0b3c77f6ab21c66c9533"
+    },
+    {
+      "path": "Reports\\Turno\\SangriasSuprimentosPeriodo.cs",
+      "export_path": "Reports\\Turno\\SangriasSuprimentosPeriodo.cs",
+      "raw_sha256": "4b0cab78f13ccb0f079e629f9e330dcdd597d29c55e0a57fde4aac6d273951e0"
+    },
+    {
+      "path": "Reports\\Turno\\SangriasSuprimentosPeriodo40Colunas.cs",
+      "export_path": "Reports\\Turno\\SangriasSuprimentosPeriodo40Colunas.cs",
+      "raw_sha256": "856344232e91dce47ac2a98f907fce2eee39e78f47718176cd575d3175e65f3a"
+    },
+    {
+      "path": "Services\\GeracaoAutomaticaRelatoriosService.cs",
+      "export_path": "Services\\GeracaoAutomaticaRelatoriosService.cs",
+      "raw_sha256": "58e30539c5138f863087260b22119c403bf8dae8a7f5a07f1c99c6f3696b1353"
+    },
+    {
+      "path": "Services\\RelatorioCatalogoService.cs",
+      "export_path": "Services\\RelatorioCatalogoService.cs",
+      "raw_sha256": "44ed7bd0596e4c4145dfd1da1b8e8b5c0c1ed48d99180afef18761bc8387d704"
+    },
+    {
+      "path": "ViewModels\\AgendamentoItemModulo.cs",
+      "export_path": "ViewModels\\AgendamentoItemModulo.cs",
+      "raw_sha256": "a3e786e9f9e3e86eaaa198b75402b9f69eb0b7ac6ed31f232a3fbb59debddd73"
+    },
+    {
+      "path": "ViewModels\\AgrupamentoQuartosItemModulo.cs",
+      "export_path": "ViewModels\\AgrupamentoQuartosItemModulo.cs",
+      "raw_sha256": "ea53437f2b98c5166afa285e6e72968caf8b431899fc97f9755b559607d52636"
+    },
+    {
+      "path": "ViewModels\\AnimaisItemModulo.cs",
+      "export_path": "ViewModels\\AnimaisItemModulo.cs",
+      "raw_sha256": "7b31f047f333a3411963f6ed49eed9f759a97337ffd2eea49c1a70d0a8e711be"
+    },
+    {
+      "path": "ViewModels\\AuxiliaresItemModulo.cs",
+      "export_path": "ViewModels\\AuxiliaresItemModulo.cs",
+      "raw_sha256": "2d143017fe8031319d507bc40427c120f389561d1b7998600695baf058d63152"
+    },
+    {
+      "path": "ViewModels\\BoletosItemModulo.cs",
+      "export_path": "ViewModels\\BoletosItemModulo.cs",
+      "raw_sha256": "a3f9ce7cb3ae7e867e106f629df725f41a61502e26595010b08b534865718c48"
+    },
+    {
+      "path": "ViewModels\\ChequeItemModulo.cs",
+      "export_path": "ViewModels\\ChequeItemModulo.cs",
+      "raw_sha256": "58b3ee90538554ec2ef8adeb6a9dbb273e1dc0eac75e427b478d2325efb26ae2"
+    },
+    {
+      "path": "ViewModels\\ConhecimentoTransporteEletronicoItemModulo.cs",
+      "export_path": "ViewModels\\ConhecimentoTransporteEletronicoItemModulo.cs",
+      "raw_sha256": "c640bf6c685d1a45a2f2a0ad70ca2ef6263866a892dc33d5b3a2380978b05352"
+    },
+    {
+      "path": "ViewModels\\ControleEntregaItemModulo.cs",
+      "export_path": "ViewModels\\ControleEntregaItemModulo.cs",
+      "raw_sha256": "9e165ac2ba86dc37b76cbf54bf3ca2b051463bd1abef5184e48a2d58c4f30e56"
+    },
+    {
+      "path": "ViewModels\\CtrcItemModulo.cs",
+      "export_path": "ViewModels\\CtrcItemModulo.cs",
+      "raw_sha256": "a28e44b9aafca46fac96e53b634199b39198ec4218480f3f594e0c49e899c8ca"
+    },
+    {
+      "path": "ViewModels\\DeliveryItemModulo.cs",
+      "export_path": "ViewModels\\DeliveryItemModulo.cs",
+      "raw_sha256": "88ce02601feb7997dc89a96d1408572b233425704c93ab64197709d765a90d8b"
+    },
+    {
+      "path": "ViewModels\\DevolucaoItemModulo.cs",
+      "export_path": "ViewModels\\DevolucaoItemModulo.cs",
+      "raw_sha256": "03d55fbb8e4bd4d01501a588286560c6ae93230a94736af9734d0a2cf10772ea"
+    },
+    {
+      "path": "ViewModels\\FarmaciaItemModulo.cs",
+      "export_path": "ViewModels\\FarmaciaItemModulo.cs",
+      "raw_sha256": "4d9ad1c9c4c69bfe9762308b8b9c7db360396cbe444766d2beaf527a243c4d9a"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketItemModulo.cs",
+      "export_path": "ViewModels\\GerenciadorTicketItemModulo.cs",
+      "raw_sha256": "152b826b695e31b55f0c555f1f4f706ec0007d4b011707f61cef3e27e3d37d64"
+    },
+    {
+      "path": "ViewModels\\GestaoContratoItemModulo.cs",
+      "export_path": "ViewModels\\GestaoContratoItemModulo.cs",
+      "raw_sha256": "d5a83878d3edf9e0209ebaeae0343a28e6056f48ddbcec3d93eb36f9c3da34bd"
+    },
+    {
+      "path": "ViewModels\\GrupoItemModulo.cs",
+      "export_path": "ViewModels\\GrupoItemModulo.cs",
+      "raw_sha256": "0fa404e8c367ae7aab7a762a9ba2c6480e29a599343bc1903e467a72676c8bc3"
+    },
+    {
+      "path": "ViewModels\\HospedagemItemModulo.cs",
+      "export_path": "ViewModels\\HospedagemItemModulo.cs",
+      "raw_sha256": "27c49a0b0e311605388208b4147484e9c7e9ee03da7aba1133ce9b14a301b07b"
+    },
+    {
+      "path": "ViewModels\\IndustriaItemModulo.cs",
+      "export_path": "ViewModels\\IndustriaItemModulo.cs",
+      "raw_sha256": "aceed2037868044b8ada2dd4d4e5efc849d5a01ffa0a3b7bd931ed2b8748fe41"
+    },
+    {
+      "path": "ViewModels\\ItemModulo.cs",
+      "export_path": "ViewModels\\ItemModulo.cs",
+      "raw_sha256": "8be23590afeebb618fc57211c0124d66ced61762f549484fb0ca6753499f0fba"
+    },
+    {
+      "path": "ViewModels\\ItemModuloDisponibilidadeResolver.cs",
+      "export_path": "ViewModels\\ItemModuloDisponibilidadeResolver.cs",
+      "raw_sha256": "cc629ee644f7a75a792e4069efb63ee727fdbac0a6a5c93f8e9bbeea6bf37605"
+    },
+    {
+      "path": "ViewModels\\ItemModuloValueObject.cs",
+      "export_path": "ViewModels\\ItemModuloValueObject.cs",
+      "raw_sha256": "d0c925b72b83c5560c52cd86668f34f1acc8e619cb82c37bd7b0476b13080692"
+    },
+    {
+      "path": "ViewModels\\KitItemModulo.cs",
+      "export_path": "ViewModels\\KitItemModulo.cs",
+      "raw_sha256": "86ac20446a3b856a1de823da6fa427e5a3027b4a51aff0592b8a59564e13a60a"
+    },
+    {
+      "path": "ViewModels\\LocacaoItemModulo.cs",
+      "export_path": "ViewModels\\LocacaoItemModulo.cs",
+      "raw_sha256": "31ad876ac1aa3d4c49fd7d7dfd6cac013339c9c9960069628a7af96a6b622305"
+    },
+    {
+      "path": "ViewModels\\ManifestacaoDestinatarioItemModulo.cs",
+      "export_path": "ViewModels\\ManifestacaoDestinatarioItemModulo.cs",
+      "raw_sha256": "48e86a5e80c110542132f8c415558b5101d22f3729f7faa892dc00600e429caa"
+    },
+    {
+      "path": "ViewModels\\ManifestoEletronicoDocumentoFiscalItemModulo.cs",
+      "export_path": "ViewModels\\ManifestoEletronicoDocumentoFiscalItemModulo.cs",
+      "raw_sha256": "7f20d54a0d3e5ecf99857ea96a8f6cd70f174ff93c4286e4be913b18b855721d"
+    },
+    {
+      "path": "ViewModels\\MenuRapidoItemModulo.cs",
+      "export_path": "ViewModels\\MenuRapidoItemModulo.cs",
+      "raw_sha256": "43aeae402cc50b9d32d11b449dace7982f501a2beca7cf780d32c2a4e6ced889"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoEntradaItemModulo.cs",
+      "export_path": "ViewModels\\MovimentacaoEntradaItemModulo.cs",
+      "raw_sha256": "458caede528636bb9f1d3db417de99428d673624a71bd79cce19709d7a0a4173"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoSaidaItemModulo.cs",
+      "export_path": "ViewModels\\MovimentacaoSaidaItemModulo.cs",
+      "raw_sha256": "c475f5fea8b3f651a9d1e19473d481b9d1471e21561ab287ee6ef1746b0357c0"
+    },
+    {
+      "path": "ViewModels\\MovimentoContaItemModulo.cs",
+      "export_path": "ViewModels\\MovimentoContaItemModulo.cs",
+      "raw_sha256": "ce17a3505cb82767261d07700741638b7fbbc450c480cb4f0d3e2fdda71a3736"
+    },
+    {
+      "path": "ViewModels\\OperacaoFiscalItemModulo.cs",
+      "export_path": "ViewModels\\OperacaoFiscalItemModulo.cs",
+      "raw_sha256": "ae95b90ff1f6f1008ebd1bb573edef25189d77e8648e8067507be519bc7e68b8"
+    },
+    {
+      "path": "ViewModels\\PagamentoItemModulo.cs",
+      "export_path": "ViewModels\\PagamentoItemModulo.cs",
+      "raw_sha256": "857942f10170e79c6a9c66774936dab8a564661de64962aaaae6ab99f5e66f1e"
+    },
+    {
+      "path": "ViewModels\\PedidoIfoodItemModulo.cs",
+      "export_path": "ViewModels\\PedidoIfoodItemModulo.cs",
+      "raw_sha256": "679567afce75e41ae845e5542ab73f0ffccc146cdb15eb263871c7aabee9754c"
+    },
+    {
+      "path": "ViewModels\\PessoaItemModulo.cs",
+      "export_path": "ViewModels\\PessoaItemModulo.cs",
+      "raw_sha256": "78255fb5f642f45ac493984646ee141a3a69a35cd5fdc37bdfd28d147b2e0b75"
+    },
+    {
+      "path": "ViewModels\\PostoItemModulo.cs",
+      "export_path": "ViewModels\\PostoItemModulo.cs",
+      "raw_sha256": "d3b97b40feb39f726abe4c50ce45d9863dd39cb5acb98e5edcfe2fa6f97fe43a"
+    },
+    {
+      "path": "ViewModels\\ProdutoServicoItemModulo.cs",
+      "export_path": "ViewModels\\ProdutoServicoItemModulo.cs",
+      "raw_sha256": "fd9db33031268f65e7aa3643168e3c29363eb25298a8db9c42387067b3628f7d"
+    },
+    {
+      "path": "ViewModels\\PromocaoItemModulo.cs",
+      "export_path": "ViewModels\\PromocaoItemModulo.cs",
+      "raw_sha256": "6a1ba593c6edc230d6e1a785b9d04bcb36ff67bcd0de7fe1dfe9ab569861afef"
+    },
+    {
+      "path": "ViewModels\\PromocaoScanntechItemModulo.cs",
+      "export_path": "ViewModels\\PromocaoScanntechItemModulo.cs",
+      "raw_sha256": "04925c704de2f1b1fdd56cf787bf3f88c0c31c95ff14fe2920ba8c243a3d9273"
+    },
+    {
+      "path": "ViewModels\\RecebimentoItemModulo.cs",
+      "export_path": "ViewModels\\RecebimentoItemModulo.cs",
+      "raw_sha256": "2be48dcfc1cb1e87ef7c6c8cfb38b3c0fad6a76ac1d736e6df5975217cb7de28"
+    },
+    {
+      "path": "ViewModels\\RelacaoVendedorClienteItemModulo.cs",
+      "export_path": "ViewModels\\RelacaoVendedorClienteItemModulo.cs",
+      "raw_sha256": "bbe3639aa56335d6b883c69e44a8c3165f6c1729647e95f976f70043535d42e8"
+    },
+    {
+      "path": "ViewModels\\RelatorioFichaViewModel.cs",
+      "export_path": "ViewModels\\RelatorioFichaViewModel.cs",
+      "raw_sha256": "5ea11df22aea226b00ac141c6af234675055c8d7acdf228741afef7c615d40c2"
+    },
+    {
+      "path": "ViewModels\\RelatorioListaViewModel.cs",
+      "export_path": "ViewModels\\RelatorioListaViewModel.cs",
+      "raw_sha256": "232996bdb458b8571b4b7aa1c276ee99572560e6ba1a859911b422737f94e96f"
+    },
+    {
+      "path": "ViewModels\\RelatorioMalaDiretaFichaViewModel.cs",
+      "export_path": "ViewModels\\RelatorioMalaDiretaFichaViewModel.cs",
+      "raw_sha256": "1420992f7424d3a3b16d40ab239526e97d5e043a3404ce79bb378e97138bb28c"
+    },
+    {
+      "path": "ViewModels\\RelatoriosViewModel.cs",
+      "export_path": "ViewModels\\RelatoriosViewModel.cs",
+      "raw_sha256": "4618ece6a23ebd3bbe9d5105d6ebf2935c94d5f93e5d2b104c0187d842883802"
+    },
+    {
+      "path": "ViewModels\\RestauranteItemModulo.cs",
+      "export_path": "ViewModels\\RestauranteItemModulo.cs",
+      "raw_sha256": "6af93f1ab8a596d935c9adef0654ab6155c9d4cfbeafd0cd807c8df2bed1dd8f"
+    },
+    {
+      "path": "ViewModels\\RomaneioCargaItemModulo.cs",
+      "export_path": "ViewModels\\RomaneioCargaItemModulo.cs",
+      "raw_sha256": "1f87aba8fa7b9b958397347d9390c61aec06f714bf3f1d5755e4107c9fd18d21"
+    },
+    {
+      "path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoItemModulo.cs",
+      "export_path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoItemModulo.cs",
+      "raw_sha256": "d3629bbd1d0c9104c9b117af5384f67a72ddc672cd77b697f13fb49a7cff4c68"
+    },
+    {
+      "path": "ViewModels\\TemplateParametros.cs",
+      "export_path": "ViewModels\\TemplateParametros.cs",
+      "raw_sha256": "a80e52d590ec87ff3485279a26644dcc2719abcb1665f6025f40ef6258340f54"
+    },
+    {
+      "path": "ViewModels\\TransferenciaItemModulo.cs",
+      "export_path": "ViewModels\\TransferenciaItemModulo.cs",
+      "raw_sha256": "9c35f8105f02aea5e5eaa36861064d85f7550c1497a6b7789538531f5f73dea6"
+    },
+    {
+      "path": "ViewModels\\TurnoItemModulo.cs",
+      "export_path": "ViewModels\\TurnoItemModulo.cs",
+      "raw_sha256": "1e4ea3093b397fbb5fa9a67384e1547ef88f175bb25d5e46f5b1b5648757b154"
+    },
+    {
+      "path": "Views\\RelatorioFichaView.cs",
+      "export_path": "Views\\RelatorioFichaView.cs",
+      "raw_sha256": "6b4a1f028ca25c931719b9c750a90d90c13fdd72d3cd92b3ee37d9eaaa8597ee"
+    },
+    {
+      "path": "Views\\RelatorioListaView.cs",
+      "export_path": "Views\\RelatorioListaView.cs",
+      "raw_sha256": "936bdda04ea42fe681b9ac01732d7734175957f0d7c3c5a829731b4f3ca5a7b3"
+    },
+    {
+      "path": "Views\\RelatorioMalaDiretaFichaView.cs",
+      "export_path": "Views\\RelatorioMalaDiretaFichaView.cs",
+      "raw_sha256": "d547093aa95aafc2f7acbfaa7716fa7f52384d8501ff4015cbd656751a277319"
+    },
+    {
+      "path": "Views\\RelatoriosView.cs",
+      "export_path": "Views\\RelatoriosView.cs",
+      "raw_sha256": "7a5113c713ea7fdf3443680a73202ab44e97745a03b457532f3acb742adaa1f7"
+    },
+    {
+      "path": "__PrivateImplementationDetails.cs",
+      "export_path": "__PrivateImplementationDetails.cs",
+      "raw_sha256": "bb23b9b67103a92a5a071df9062dba40c1959eb1eed3dc1d58250f88fdd090da",
+      "generated": true
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 43
+    },
+    {
+      "kind": "synthesized ComputeStringHash helper",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Relatorios.g.resources",
+      "file": "0000.bin",
+      "bytes": 24215,
+      "sha256": "de1d3df966c3c33d315836985fca9de44b0de61988c61c5748fd584466a7fa45"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Agendamento.ListaAgendamentos.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.AgrupamentoQuarto.ListaPacotesPendentesAtualizacaoHunit.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.AgrupamentoQuarto.ListaQuartosSincronizadosHunit.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.AgrupamentoQuarto.ListaPortaisIntegradosHunit.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.AgrupamentoQuarto.ListaAgrupamentosQuarto.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Animal.ListaInternacoes.resources",
+      "file": "0007.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Animal.ListaConsultas.resources",
+      "file": "0008.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Animal.ListaVacinacoes.resources",
+      "file": "0009.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Animal.Aniversariantes.resources",
+      "file": "0010.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Animal.ListaAnimais.resources",
+      "file": "0011.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Auxiliares.BackupsRestaurados.resources",
+      "file": "0012.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Boletos.ListaBoletos.resources",
+      "file": "0013.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Cfop.ListaCadastroCfop.resources",
+      "file": "0014.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ConhecimentoTransporteEletronico.ApuracaoIcms.resources",
+      "file": "0015.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ConhecimentoTransporteEletronico.ApuracaoIcmsPorMovimentacao.resources",
+      "file": "0016.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.LivroCaixaComDadosEspeciePagamento.resources",
+      "file": "0017.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.ResumoFormaDePagamento.resources",
+      "file": "0018.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.LivroCaixaResumoMensal.resources",
+      "file": "0019.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Delivery.EntregasProgramadas.resources",
+      "file": "0020.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Delivery.ResumoEspecie.resources",
+      "file": "0021.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Grupo.GrupoCurvaAbc.resources",
+      "file": "0022.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.OcupacaoDiariaResumido.resources",
+      "file": "0023.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.OcupacaoDiaria.resources",
+      "file": "0024.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.HospedagensCanceladas.resources",
+      "file": "0025.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.FechamentoQuartos.resources",
+      "file": "0026.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.ListaQuartosPorDia.resources",
+      "file": "0027.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.InsumosNecessariosOrdensProducao.resources",
+      "file": "0028.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.InsumosConsumidosPorInsumo.resources",
+      "file": "0029.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.TempoOrdensProducao.resources",
+      "file": "0030.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Locacao.LocacoesPorObjeto.resources",
+      "file": "0031.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Locacao.PrevisaoInicioLocacao.resources",
+      "file": "0032.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Locacao.PrevisaoDevolucaoLocacao.resources",
+      "file": "0033.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Locacao.LocacoesPorData.resources",
+      "file": "0034.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ManifestacaoDestinatario.ListaManifestacaoDestinatario.resources",
+      "file": "0035.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.MenuRapido.ListaGrupoMenu.resources",
+      "file": "0036.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.MenuRapido.ListaMenus.resources",
+      "file": "0037.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.EntradasSubstituicaoTributariaPorProdutoCfopCstCsosn.resources",
+      "file": "0038.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.ItensCompradosPorSegmentacao.resources",
+      "file": "0039.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacoesPorInformacaoPesquisa.resources",
+      "file": "0040.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.ItensCompradosPorPessoa.resources",
+      "file": "0041.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.DavsEspecificasPorNumeroSemValores.resources",
+      "file": "0042.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.SaldoEstoqueEntregasFuturas.resources",
+      "file": "0043.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosTotalizadosPorPessoa.resources",
+      "file": "0044.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.RelatorioCreditoPresumidoSistematicaAtacadista.resources",
+      "file": "0045.bin",
+      "bytes": 476,
+      "sha256": "d24514b78e88382d70561dd1814385a3b890a45bd674ce3ee27f6bbbb4ccf072"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacaoPorOrigemETipoResumoFormaDePagamento.resources",
+      "file": "0046.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacoesPorOrigemETipoDifal.resources",
+      "file": "0047.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacoesPorOrigemTipoESegmentacao.resources",
+      "file": "0048.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacaoPorOrigemETipoResumoPessoa.resources",
+      "file": "0049.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoDiarioPorCfopCstCofins.resources",
+      "file": "0050.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoDiarioPorCfopCstPis.resources",
+      "file": "0051.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoTotalPorCfopCofins.resources",
+      "file": "0052.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoTotalPorCfopPis.resources",
+      "file": "0053.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensMovimentadosPorMarcaAgrupadoPorSubgrupo.resources",
+      "file": "0054.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensMovimentadosPorPromocao.resources",
+      "file": "0055.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosPorFornecedor.resources",
+      "file": "0056.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosPorSegmentacao.resources",
+      "file": "0057.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.RelatorioCreditoPresumidoSistematicaAtacadistaSubReport.resources",
+      "file": "0058.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalizacaoPorParcelamentoEmCartao.resources",
+      "file": "0059.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ResumoPorParcelamentoEmCartao.resources",
+      "file": "0060.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalMovimentadoPorVendedor.resources",
+      "file": "0061.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorUfDetalhado.resources",
+      "file": "0062.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TicketMedioPorOrigemETipoItens.resources",
+      "file": "0063.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TicketMedioPorOrigemETipo.resources",
+      "file": "0064.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.MovimentacoesComDescontoCashback.resources",
+      "file": "0065.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalMovimentacoesPorMesPorTipo.resources",
+      "file": "0066.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PagamentoRecebimento.PagamentosRecebimentosSintetico.resources",
+      "file": "0067.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pagamento.PagamentosPorSegmentacao.resources",
+      "file": "0068.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesNaoComprarPorPeriodo.resources",
+      "file": "0069.bin",
+      "bytes": 1052,
+      "sha256": "88f72182fdfb5b068ce862e7b27a0dd6b173ab0de315f9c1df31a9a933cf34a4"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ComissoesPorColaborador40Colunas.resources",
+      "file": "0070.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesPorPrescritor.resources",
+      "file": "0071.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.PerfilUsuario.resources",
+      "file": "0072.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.LivroRegistroAviamentoReceituarioOptico.resources",
+      "file": "0073.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ServicosPorTecnicoComComissao.resources",
+      "file": "0074.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.ResumoPeriodo.resources",
+      "file": "0075.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.ResumoPeriodoTanques.resources",
+      "file": "0076.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosTributacoesIbsCbsComCestENcm.resources",
+      "file": "0077.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.LogAlteracaoComposicao.resources",
+      "file": "0078.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosNcmInvalido.resources",
+      "file": "0079.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosTributosEstaduais.resources",
+      "file": "0080.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ProdutosServicosTabelaPrecoComQuantidade.resources",
+      "file": "0081.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ComparativoAnualSaidasPorProduto.resources",
+      "file": "0082.bin",
+      "bytes": 21142,
+      "sha256": "a8b09ac365816ca7354e8ce88363e847f9f853231186e5a3aa87040cbc4e2543"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosTaxas.resources",
+      "file": "0083.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosEmAbertoSintetico.resources",
+      "file": "0084.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosPorSegmentacao40Colunas.resources",
+      "file": "0085.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosPorSegmentacao.resources",
+      "file": "0086.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.InformacoesOticasPorPessoa.resources",
+      "file": "0087.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Restaurante.ListaCardapios.resources",
+      "file": "0088.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Cheque.ResumoChequesPorSituacao.resources",
+      "file": "0089.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Cheque.ChequesEmitidosPorSituacao.resources",
+      "file": "0090.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Cheque.ChequesRecebidosPorSituacao.resources",
+      "file": "0091.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ConhecimentoTransporteEletronico.ListaConhecimentoTransporteEletronico.resources",
+      "file": "0092.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.ContaMovimentacao.resources",
+      "file": "0093.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.FluxoConta.resources",
+      "file": "0094.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.LivroCaixa40Colunas.resources",
+      "file": "0095.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.LivroCaixa.resources",
+      "file": "0096.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.ResumoDiario.resources",
+      "file": "0097.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.ResumoFinanceiro.resources",
+      "file": "0098.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ContaMovimentacao.ResumoFinanceiro40Colunas.resources",
+      "file": "0099.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ControleEntrega.ListaControleEntrega.resources",
+      "file": "0100.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ControleEntrega.ControlesEntregaPorProduto.resources",
+      "file": "0101.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Devolucao.DevolucoesPorPeriodo.resources",
+      "file": "0102.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Farmacia.BalancoAquisicaoMedicamentoSemClasseTerapeutica.resources",
+      "file": "0103.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Farmacia.RelacaoMensalNotificacaoReceitaB.resources",
+      "file": "0104.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Farmacia.RelacaoMensalNotificacaoReceitaA.resources",
+      "file": "0105.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.GestaoContrato.ListaContratosSintetico.resources",
+      "file": "0106.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.GestaoContrato.ListaContratosPorVencimento.resources",
+      "file": "0107.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.GestaoContrato.ListaContratos.resources",
+      "file": "0108.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Delivery.ItensLancadosNoDelivery.resources",
+      "file": "0109.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Delivery.ResumoEntregasPorEntregador.resources",
+      "file": "0110.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Delivery.EntregasPorEntregador.resources",
+      "file": "0111.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Farmacia.RelacaoMensalVendasMedicamentosSujeitosControleEspecial.resources",
+      "file": "0112.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Farmacia.TransacoesPbm.resources",
+      "file": "0113.bin",
+      "bytes": 432,
+      "sha256": "d368ab60d0862961e62679f549b6b1d341d9b4925e46ffc28f3930c2c755610f"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Grupo.ItensCompradosPorSubGrupo.resources",
+      "file": "0114.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Grupo.ItensVendidosPorSubGrupo.resources",
+      "file": "0115.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Grupo.ListaProdutosGrupos.resources",
+      "file": "0116.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Grupo.VendasPorGrupo.resources",
+      "file": "0117.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Grupo.VendasPorSubgrupo.resources",
+      "file": "0118.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Grupo.VendasPorDiaSemanaSubgrupo.resources",
+      "file": "0119.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.HistoricoManutencoes.resources",
+      "file": "0120.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.HospedagensFinalizadas.resources",
+      "file": "0121.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.PrevisaoRefeicaoDiaria.resources",
+      "file": "0122.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.QuartosAbertosPorPessoa.resources",
+      "file": "0123.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.PrevisaoRefeicao.resources",
+      "file": "0124.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.PrevisaoCheckOut.resources",
+      "file": "0125.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.PrevisaoCheckIn.resources",
+      "file": "0126.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Hospedagem.ListaQuartos.resources",
+      "file": "0127.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.Colaboradores.resources",
+      "file": "0128.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.CustosIndiretos.resources",
+      "file": "0129.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.CustosDiretos.resources",
+      "file": "0130.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.Desmontagens.resources",
+      "file": "0131.bin",
+      "bytes": 3090,
+      "sha256": "31c6ede5be253393b39cfab242131b23ebb1e7b601aee1b3b638cee8eef05ebe"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.HistoricoProdutosPorEstoqueFisico.resources",
+      "file": "0132.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.ProdutosPorMateriaPrima.resources",
+      "file": "0133.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.ProdutosProduzidosComInsumosUtilizados.resources",
+      "file": "0134.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.MovimentacoesInternas.resources",
+      "file": "0135.bin",
+      "bytes": 858,
+      "sha256": "1cd844c64e66bedad804684ee9cee609606eeaba7888e78684dfefd38bb57f39"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.OrdensProducao.resources",
+      "file": "0136.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.ProdutosPorEstoqueFisico.resources",
+      "file": "0137.bin",
+      "bytes": 852,
+      "sha256": "ece2427aef19564b7dba010a73bea8218f5872bdeba61dfd4a2b20306728253d"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.Orcamentos.resources",
+      "file": "0138.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.InsumosNecessariosProgramacoes.resources",
+      "file": "0139.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.Programacoes.resources",
+      "file": "0140.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Kit.ItensPorKit.resources",
+      "file": "0141.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ManifestoEletronicoDocumentoFiscal.ListaManifestoEletronicoDocumentoFiscal.resources",
+      "file": "0142.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ApuracaoIcmsPorMovimentacao.resources",
+      "file": "0143.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ApuracaoIcms.resources",
+      "file": "0144.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ApuracaoPisCofins.resources",
+      "file": "0145.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ApuracaoPisCofinsItensDetalhado.resources",
+      "file": "0146.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.DocumentosFiscaisEletronicosSemXml.resources",
+      "file": "0147.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.CtrcsPorPeriodo.resources",
+      "file": "0148.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Cfop.ItensMovimentadosPorCfop.resources",
+      "file": "0149.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.EntradasSubstituicaoTributariaPorProduto.resources",
+      "file": "0150.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.ItensCompradosPorLinha.resources",
+      "file": "0151.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.ItensCompradosPorMarca.resources",
+      "file": "0152.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.ItensCompradosPorFornecedor.resources",
+      "file": "0153.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.ListaPedidosDeCompra.resources",
+      "file": "0154.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.ComprasPorFornecedor.resources",
+      "file": "0155.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.MedicamentosControladosComprados.resources",
+      "file": "0156.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.ProdutosComercializadosPorFornecedor.resources",
+      "file": "0157.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Entrada.RelacaoNotasEntrada.resources",
+      "file": "0158.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ItensVendidosComTributacaoFcp.resources",
+      "file": "0159.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacaoPorOrigemETipoResumoDiario.resources",
+      "file": "0160.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacaoPorOrigemETipoResumoOrigemSituacao40Colunas.resources",
+      "file": "0161.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacaoPorOrigemETipoResumoOrigemSituacao.resources",
+      "file": "0162.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoPorMovimentacao.resources",
+      "file": "0163.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacoesPorOrigemETipoSimplificado.resources",
+      "file": "0164.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacoesPorOrigemTipo40Colunas.resources",
+      "file": "0165.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacoesPorOrigemETipoComImpostos.resources",
+      "file": "0166.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ListaMovimentacoesPorOrigemETipo.resources",
+      "file": "0167.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Cfop.TotalizacaoPorCfop.resources",
+      "file": "0168.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.RankingMovimentacoesPorProduto.resources",
+      "file": "0169.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.RelacaoDeNotasFiscais.resources",
+      "file": "0170.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.RelatorioCartasCorrecao.resources",
+      "file": "0171.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoDiarioPorCfopCst.resources",
+      "file": "0172.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoDocumentosCanceladosInutilizados.resources",
+      "file": "0173.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoPisCofins.resources",
+      "file": "0174.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoPisCofinsDiario.resources",
+      "file": "0175.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ApuracaoPisCofinsItens.resources",
+      "file": "0176.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoPisCofinsMovimentacao.resources",
+      "file": "0177.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoPorCfop.resources",
+      "file": "0178.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ComponentesComposicoesVendidas.resources",
+      "file": "0179.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.DavsEspecificasPorNumero.resources",
+      "file": "0180.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensMovimentadosPorDepartamento.resources",
+      "file": "0181.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosPorPessoa.resources",
+      "file": "0182.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidos40Colunas.resources",
+      "file": "0183.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosAgrupadosPorPessoa.resources",
+      "file": "0184.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosComDadosPessoa.resources",
+      "file": "0185.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosPorLinhaResumo.resources",
+      "file": "0186.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosPorMarcaResumo.resources",
+      "file": "0187.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotaisItensVendidosComTributacaoCfop.resources",
+      "file": "0188.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotaisItensVendidosComTributacaoCst.resources",
+      "file": "0189.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotaisItensVendidosComTributacaoCofins.resources",
+      "file": "0190.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotaisItensVendidosComTributacaoPis.resources",
+      "file": "0191.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosComTributacaoPisCofins.resources",
+      "file": "0192.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosComTributacao.resources",
+      "file": "0193.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ResumoVendas40Colunas.resources",
+      "file": "0194.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalMovimentacoesPorMesPorVendedor.resources",
+      "file": "0195.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensMovimentadosPorLinha.resources",
+      "file": "0196.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensMovimentadosPorMarca.resources",
+      "file": "0197.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensMovimentadosPorVendedor.resources",
+      "file": "0198.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.MovimentacoesSemReceita.resources",
+      "file": "0199.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.OrcamentosPorPeriodo.resources",
+      "file": "0200.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.PreVendasPorPeriodo.resources",
+      "file": "0201.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorTipoSegmentacao.resources",
+      "file": "0202.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.MovimentacoesPorMunicipio.resources",
+      "file": "0203.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalizacaoVendas.resources",
+      "file": "0204.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PedidoIfood.PedidosIfoodPorPeriodo.resources",
+      "file": "0205.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesCreditoServico.resources",
+      "file": "0206.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesCreditoDisponivel.resources",
+      "file": "0207.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesCashbackDisponivel.resources",
+      "file": "0208.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.PessoasPorSegmentacao.resources",
+      "file": "0209.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.PessoasPorBairro.resources",
+      "file": "0210.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.PessoasPorTabelaPreco.resources",
+      "file": "0211.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.ResumoPerdasGanhos.resources",
+      "file": "0212.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.ResumoTanques.resources",
+      "file": "0213.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosSeriais.resources",
+      "file": "0214.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosPorIndicePrecoVendaMarcaSubgrupo.resources",
+      "file": "0215.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.Catalogo2Colunas.resources",
+      "file": "0216.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.Catalogo1Coluna.resources",
+      "file": "0217.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ConsultaProdutoIMendesLog.resources",
+      "file": "0218.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.IntegridadeEstoque.resources",
+      "file": "0219.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosAlteracaoPreco.resources",
+      "file": "0220.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosGtinInvalido.resources",
+      "file": "0221.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosCatalogo.resources",
+      "file": "0222.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosLotes.resources",
+      "file": "0223.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosTributacoesFederaisComCestENcm.resources",
+      "file": "0224.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.AlteracaoEstoqueMei.resources",
+      "file": "0225.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PromocaoScanntech.ListaMovimentacaoScanntechResumoDiario.resources",
+      "file": "0226.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PromocaoScanntech.ListaMovimentacoesScanntech.resources",
+      "file": "0227.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PromocaoScanntech.VendasPorProdutoComPromocaoScanntech.resources",
+      "file": "0228.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PromocaoScanntech.ItensVendidosComPromocaoScanntech.resources",
+      "file": "0229.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosPorPessoa40Colunas.resources",
+      "file": "0230.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosPorVendedor.resources",
+      "file": "0231.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosResumoEspecies.resources",
+      "file": "0232.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.RelacaoVendedorCliente.ClientesPorVendedor.resources",
+      "file": "0233.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Restaurante.ItensCancelados.resources",
+      "file": "0234.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Restaurante.MesasContasClientePorPeriodoEHorario.resources",
+      "file": "0235.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Restaurante.TempoDePermanenciaEConsumo.resources",
+      "file": "0236.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Restaurante.VendasPorCardapio.resources",
+      "file": "0237.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.RomaneioCarga.RomaneiosCargaTotalPorBairro.resources",
+      "file": "0238.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.RomaneioCarga.RomaneiosCargaPorCidadeBairro.resources",
+      "file": "0239.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.RomaneioCarga.RomaneiosCargaPorPeriodoSituacaoEVendedor.resources",
+      "file": "0240.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.SaidasSubstituicaoTributariaPorProduto.resources",
+      "file": "0241.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorAdministradoraCartao.resources",
+      "file": "0242.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorProdutoPorOperador.resources",
+      "file": "0243.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.TotalMovimentadoPorCfop.resources",
+      "file": "0244.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.HistoricoPessoa40Colunas.resources",
+      "file": "0245.bin",
+      "bytes": 1052,
+      "sha256": "88f72182fdfb5b068ce862e7b27a0dd6b173ab0de315f9c1df31a9a933cf34a4"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ObjetosPorPessoa.resources",
+      "file": "0246.bin",
+      "bytes": 710,
+      "sha256": "0413368e5276070dc4f5bad894e226d10beb557a667cf5e17f1db8de931c051a"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.AbastecimentoPorClientePlaca.resources",
+      "file": "0247.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorProdutoMensal.resources",
+      "file": "0248.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.TotalPorCfop.resources",
+      "file": "0249.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ResumoTotalPorCfop.resources",
+      "file": "0250.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ApuracaoSintegra.resources",
+      "file": "0251.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ComposicoesVendidas.resources",
+      "file": "0252.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.DavsOsPorPeriodo.resources",
+      "file": "0253.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.HistoricoObjeto.resources",
+      "file": "0254.bin",
+      "bytes": 454,
+      "sha256": "0f17eba4c67b7fafe9aba783cfd94029e4ef853cec6038f65c79126be1e218f2"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.ItensMovimentadosPorOrigem.resources",
+      "file": "0255.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidos.resources",
+      "file": "0256.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ItensVendidosPorLocalizacao.resources",
+      "file": "0257.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.MovimentacaoLucro.resources",
+      "file": "0258.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.ObjetosPorDataGarantia.resources",
+      "file": "0259.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.DavsPorPeriodo.resources",
+      "file": "0260.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalizacaoPorEcf.resources",
+      "file": "0261.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalizacaoPorEspeciePdv40Colunas.resources",
+      "file": "0262.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasComLucro.resources",
+      "file": "0263.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasComLucroProduto.resources",
+      "file": "0264.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.MovimentacoesPorOperador.resources",
+      "file": "0265.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorUf.resources",
+      "file": "0266.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorEcf.resources",
+      "file": "0267.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.MedicamentosControladosVendidos.resources",
+      "file": "0268.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.MovimentacoesPorConvenio.resources",
+      "file": "0269.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.MovimentacoesPorVendedor.resources",
+      "file": "0270.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalizacaoPorEspeciePdv.resources",
+      "file": "0271.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalizacaoPorEspeciePdvVendedor.resources",
+      "file": "0272.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalizacaoPorEspeciePdvVendedor40Colunas.resources",
+      "file": "0273.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.TotalMovimentadoPorTributacao.resources",
+      "file": "0274.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorCliente.resources",
+      "file": "0275.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorOperador.resources",
+      "file": "0276.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasPorProduto.resources",
+      "file": "0277.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.Saida.VendasCartao.resources",
+      "file": "0278.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Movimentacao.TotalizacaoPorNcm.resources",
+      "file": "0279.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PagamentoRecebimento.PagamentosRecebimentos.resources",
+      "file": "0280.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PagamentoRecebimento.ResumoEspecies.resources",
+      "file": "0281.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pagamento.PagamentosEmAberto.resources",
+      "file": "0282.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pagamento.PagamentosPorDiaVencimento.resources",
+      "file": "0283.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pagamento.PagamentosQuitados.resources",
+      "file": "0284.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pagamento.PagamentosPorPessoa.resources",
+      "file": "0285.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pagamento.PagamentosQuitadosPorDataCompetencia.resources",
+      "file": "0286.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesCurvaAbcPorTipoMovimentacao.resources",
+      "file": "0287.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesCurvaAbc.resources",
+      "file": "0288.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesCurvaAbcPorProduto.resources",
+      "file": "0289.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesQueDeixaramDeComprar.resources",
+      "file": "0290.bin",
+      "bytes": 1052,
+      "sha256": "88f72182fdfb5b068ce862e7b27a0dd6b173ab0de315f9c1df31a9a933cf34a4"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.PessoasPorCampoPesquisa.resources",
+      "file": "0291.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.PessoasPorMunicipio.resources",
+      "file": "0292.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.AbastecimentosPorBico.resources",
+      "file": "0293.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.AbastecimentosPorFrentista40Colunas.resources",
+      "file": "0294.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.AbastecimentosPorFrentista.resources",
+      "file": "0295.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.TanquesBombasBicos.resources",
+      "file": "0296.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.MovimentacoesPorAbastecimento.resources",
+      "file": "0297.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.VolumesRegistradosEFaturados.resources",
+      "file": "0298.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.PostoCombustivel.Afericoes.resources",
+      "file": "0299.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ConferenciaEstoque.resources",
+      "file": "0300.bin",
+      "bytes": 1532,
+      "sha256": "3433f8235faad56bdf7bc767fcf8da4fbc7473292d7482fc1effefa1c6ec093d"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.InsumosConsumidos.resources",
+      "file": "0301.bin",
+      "bytes": 858,
+      "sha256": "1cd844c64e66bedad804684ee9cee609606eeaba7888e78684dfefd38bb57f39"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.ItensProduzidos.resources",
+      "file": "0302.bin",
+      "bytes": 858,
+      "sha256": "1cd844c64e66bedad804684ee9cee609606eeaba7888e78684dfefd38bb57f39"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Industria.ItensProduzidosComInsumosUtilizados.resources",
+      "file": "0303.bin",
+      "bytes": 1536,
+      "sha256": "f012c768ee45cbccbbeca76ad189e56dc6cd743ee26efe37d9f4d3c6a9c92e1c"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Grupo.ListaPrecoProdutosSubGrupos.resources",
+      "file": "0304.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaPrecosProdutoServicoConsolidado.resources",
+      "file": "0305.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ConsultaProdutoLog.resources",
+      "file": "0306.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaServicos.resources",
+      "file": "0307.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosLinhas.resources",
+      "file": "0308.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosMarcas.resources",
+      "file": "0309.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosTributacoesEstaduaisComCestENcm.resources",
+      "file": "0310.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosTributacoesEstaduais.resources",
+      "file": "0311.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosTributacoesFederais.resources",
+      "file": "0312.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosLotesValidade.resources",
+      "file": "0313.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutoServicosCondicaoEspecial.resources",
+      "file": "0314.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.HistoricoMovimentacaoLote.resources",
+      "file": "0315.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.HistoricoMovimentacaoSerial.resources",
+      "file": "0316.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutos.resources",
+      "file": "0317.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Grupo.ListaProdutosSubGrupos.resources",
+      "file": "0318.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaProdutosTributos.resources",
+      "file": "0319.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ListaSaldoIcmsStRetidoPorProduto.resources",
+      "file": "0320.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.MedicamentosControlados.resources",
+      "file": "0321.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ComponentesUtilizadosMontagemComposicao.resources",
+      "file": "0322.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.MontagemDesmontagemComposicao.resources",
+      "file": "0323.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.MovimentacaoProdutoServico.resources",
+      "file": "0324.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ProdutoCurvaAbc.resources",
+      "file": "0325.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ProdutoGrade.resources",
+      "file": "0326.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ProdutosPorFornecedor.resources",
+      "file": "0327.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.ProdutosServicosTabelaPreco.resources",
+      "file": "0328.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.Rotatividade.resources",
+      "file": "0329.bin",
+      "bytes": 31907,
+      "sha256": "a5167de00a731faab82fb353302abfe3ba6f852c87d595f896a1da56c17216ce"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Promocao.ItensPorPromocao.resources",
+      "file": "0330.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosCartao.resources",
+      "file": "0331.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosPorPessoa.resources",
+      "file": "0332.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ServicosPorTecnico.resources",
+      "file": "0333.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosQuitadosPorDataCompetencia.resources",
+      "file": "0334.bin",
+      "bytes": 4878,
+      "sha256": "0cc683e936a97fdf04da5a173cbfd70a930a8aa8d221d18a03b0874511d2f615"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosQuitados.resources",
+      "file": "0335.bin",
+      "bytes": 4878,
+      "sha256": "0cc683e936a97fdf04da5a173cbfd70a930a8aa8d221d18a03b0874511d2f615"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ComissoesPorColaborador.resources",
+      "file": "0336.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Recebimento.RecebimentosEmAberto.resources",
+      "file": "0337.bin",
+      "bytes": 2580,
+      "sha256": "b22fa0e52976490099ad009cb4a676fbba9bc310b0586831997fc6a9a2bcc7e7"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.Composicao.resources",
+      "file": "0338.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.Aniversariantes.resources",
+      "file": "0339.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.ClientesInadimplentes.resources",
+      "file": "0340.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.HistoricoPessoa.resources",
+      "file": "0341.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.PessoasPorTipoCadastro.resources",
+      "file": "0342.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Pessoa.PessoasPorUf.resources",
+      "file": "0343.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.CadastroProdutosServicos.resources",
+      "file": "0344.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.ProdutoServico.LucroMovimentacaoProduto.resources",
+      "file": "0345.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.RelacaoVendedorCliente.RelacaoVendedorClientes.resources",
+      "file": "0346.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Restaurante.HistoricoBloqueioMesaConta.resources",
+      "file": "0347.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Restaurante.MesasContasClientePorSituacao.resources",
+      "file": "0348.bin",
+      "bytes": 525,
+      "sha256": "e059bb630ab3e8ec87287f2d2c8635dd7e44d9515d3582b96d650a86b7a7c009"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Restaurante.MesasContasClientePorPeriodo.resources",
+      "file": "0349.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Farmacia.BalancoAquisicaoMedicamentoLivroDefinitivo.resources",
+      "file": "0350.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Farmacia.BalancoAquisicaoMedicamentoParaConferencia.resources",
+      "file": "0351.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.RomaneioConhecimentoTransporteEletronico.RomaneiosConhecimentoTransporteEletronicoPorCidadeBairro.resources",
+      "file": "0352.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.RomaneioConhecimentoTransporteEletronico.RomaneiosConhecimentoTransporteEletronicoPorPeriodoSituacao.resources",
+      "file": "0353.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.RomaneioConhecimentoTransporteEletronico.RomaneiosConhecimentoTransporteEletronicoTotalPorBairro.resources",
+      "file": "0354.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Ticket.ResumoDoTicket.resources",
+      "file": "0355.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Ticket.TicketsPorSituacao.resources",
+      "file": "0356.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Transferencia.Transferencias.resources",
+      "file": "0357.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Turno.ConferenciaFaltasSobrasPeriodo.resources",
+      "file": "0358.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Turno.ConferenciaTurno40Colunas.resources",
+      "file": "0359.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Turno.ConferenciaTurnoResumoCaixa40Colunas.resources",
+      "file": "0360.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Turno.ConferenciaTurnoSintetico.resources",
+      "file": "0361.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Turno.SangriasSuprimentosPeriodo40Colunas.resources",
+      "file": "0362.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Turno.SangriasSuprimentosPeriodo.resources",
+      "file": "0363.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Turno.ConferenciaTurnoResumoCaixa.resources",
+      "file": "0364.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Turno.ConferenciaTurno.resources",
+      "file": "0365.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Relatorios.Reports.Turno.ResumoJornada.resources",
+      "file": "0366.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Relatorios.dll.licenses",
+      "file": "0367.bin",
+      "bytes": 281,
+      "sha256": "5d5622a7fd52be7d567bd4e1a7cba649b4dac567633bfd51b2737d7e3f15db78"
+    }
+  ],
+  "generated_stubs": false
+}

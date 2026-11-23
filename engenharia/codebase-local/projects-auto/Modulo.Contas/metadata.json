@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "2377bcd250d13cbcf495d8ca663bec055a3ed9777e7887f064a412fed34d6755",
+  "mvid": "dc52c7db-5050-4fe9-9fc6-7df2dcff966c",
+  "assembly": "Modulo.Contas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Windows.Forms",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Distributed.Wcf.Main",
+    "PresentationCore",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Contas.g.resources",
+      "file": "0000.bin",
+      "bytes": 43995,
+      "sha256": "0da9fdf5aee09a11d5a603552540eae6b31f511ff14b739841dff13c56352264"
+    },
+    {
+      "name": "Otus.Modulo.Contas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

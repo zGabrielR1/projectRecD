@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "6c4c3bbc6ed3a6f7086f23dda9887c2ce569656e5b68f2922831df2dd5f38408",
+  "mvid": "0dfe6eb5-724d-4488-b845-5b477e09eedd",
+  "assembly": "Modulo.GestaoSincronizacoesScanntech, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Xpf.Grid.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoSincronizacoesScanntech.g.resources",
+      "file": "0000.bin",
+      "bytes": 11903,
+      "sha256": "92c55939eda8239e83a82181113de1bc01634886e3ee0b3c45b809a9709190b2"
+    },
+    {
+      "name": "Otus.Modulo.GestaoSincronizacoesScanntech.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

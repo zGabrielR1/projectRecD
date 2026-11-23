@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.Fretes",
+  "baseline": "baseline\\Modulo.Fretes.dll",
+  "baseline_sha256": "c57c1a578b938d23b1bec1fd4f6b04cd3b615fe37c5c598be65aa000fbf4c90f",
+  "export_project": "recovered\\SuiteG6\\Modulo.Fretes\\Modulo.Fretes.csproj",
+  "sources": [
+    {
+      "path": "FreteModulo.cs",
+      "export_path": "FreteModulo.cs",
+      "raw_sha256": "72a2307fa1e87d6b864d10eacec3e0370e8c7c35f515d32bdeceb114360280f5"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "5824e5028640ea07fe0ce2e0053229a480ad9bf2440a2c1168561f54125173c5"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "cdff0543cbf6226e9d4a123c31350ed99620c3fe9d37babb07c69f54ba8502e6"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "544440bee71be9c093e30106119c72cd8a010ecf0bdc43e194e8c39adfeba8c4"
+    },
+    {
+      "path": "ViewModels\\FreteAbaViewModel.cs",
+      "export_path": "ViewModels\\FreteAbaViewModel.cs",
+      "raw_sha256": "593f8f843ca3d629453eb37ef7bf406e2056454374680a06c8ee3a976d9925fd"
+    },
+    {
+      "path": "ViewModels\\FreteFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\FreteFichaAdicionarViewModel.cs",
+      "raw_sha256": "754c5b4aaaefc0171210552af9fb99ce66f9822563c28c1003f6c4382977f430"
+    },
+    {
+      "path": "ViewModels\\FreteFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\FreteFichaAtualizarViewModel.cs",
+      "raw_sha256": "e97ed640686303c2486197a8e55f473dbbf997552507aecb40814fe8828bef15"
+    },
+    {
+      "path": "ViewModels\\FreteFormulario.cs",
+      "export_path": "ViewModels\\FreteFormulario.cs",
+      "raw_sha256": "0ae3428e86a208d11ce2f8f64e5aacab65696245bd158dea92c3c77890a627f4"
+    },
+    {
+      "path": "ViewModels\\FreteListaViewModel.cs",
+      "export_path": "ViewModels\\FreteListaViewModel.cs",
+      "raw_sha256": "a973447e8d3daa145832a7122feb136649a1a8d3ce7a35b4ae289e4a6cb72d5a"
+    },
+    {
+      "path": "ViewModels\\FretesViewModel.cs",
+      "export_path": "ViewModels\\FretesViewModel.cs",
+      "raw_sha256": "12e3900d2b4d3dde9168c72fe9b4cbd17cf958d03fae3d38021cce1cded40972"
+    },
+    {
+      "path": "ViewModels\\FreteViewModel.cs",
+      "export_path": "ViewModels\\FreteViewModel.cs",
+      "raw_sha256": "9fe935073d26dec9590b5bec16d48f9dc2325b37d2b1d6eb37af8648cb8bbbdb"
+    },
+    {
+      "path": "Views\\FreteFichaAdicionarView.cs",
+      "export_path": "Views\\FreteFichaAdicionarView.cs",
+      "raw_sha256": "6dc1e3020d92155967c7c5cb1b1675361492964223af297940eff83c07494697"
+    },
+    {
+      "path": "Views\\FreteFichaAtualizarView.cs",
+      "export_path": "Views\\FreteFichaAtualizarView.cs",
+      "raw_sha256": "fa6bf33acc311de9d36910f40af0c53f448e21c515fa3199a42051bf8a98533f"
+    },
+    {
+      "path": "Views\\FreteFichaViewDetalhes\\FreteView.cs",
+      "export_path": "Views\\FreteFichaViewDetalhes\\FreteView.cs",
+      "raw_sha256": "3819df6fb29ba01d5146ca3776809450875f1b654d6e0bdcb15f1e1f869bd5ac"
+    },
+    {
+      "path": "Views\\FreteListaView.cs",
+      "export_path": "Views\\FreteListaView.cs",
+      "raw_sha256": "cc498a49f3532b453b7e23ed928008ab011cf657efe664fe8799cad72e9bc956"
+    },
+    {
+      "path": "Views\\FretesView.cs",
+      "export_path": "Views\\FretesView.cs",
+      "raw_sha256": "d0cced347dd8364af44b3329a92f41b5a7a80425eeef0cde738e2f49fb1881bf"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Fretes.g.resources",
+      "file": "0000.bin",
+      "bytes": 11400,
+      "sha256": "eeafdf21fd4493d38113093feafd021099391288dba819dad6cd51a4b9ec27e0"
+    },
+    {
+      "name": "Otus.Modulo.Fretes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

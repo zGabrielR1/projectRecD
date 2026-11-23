@@ -1,0 +1,104 @@
+{
+  "name": "Modulo.GestaoSincronizacoesHospedagemFNRH",
+  "baseline": "baseline\\Modulo.GestaoSincronizacoesHospedagemFNRH.dll",
+  "baseline_sha256": "ef58699b17defe9107196f7967fe90cced958df5aafe8b05c1d6026f82babd62",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacoesHospedagemFNRH\\Modulo.GestaoSincronizacoesHospedagemFNRH.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "cc4182be589d1a2c4b4c4b238e8439fef38dac1c86715addb45217c631d394e6"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "ef58699b17defe9107196f7967fe90cced958df5aafe8b05c1d6026f82babd62"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 8
+    },
+    {
+      "kind": "Resolve UI ShowLastException helper to Mvvm type"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoSincronizacoesHospedagemFNRH.g.resources",
+      "file": "0000.bin",
+      "bytes": 12136,
+      "sha256": "36b05f30b4c87f3274d30863b7df4e251f0a29904ff9ad3801d9ade27b92f106"
+    },
+    {
+      "name": "Otus.Modulo.GestaoSincronizacoesHospedagemFNRH.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "GestaoSincronizacaoHospedagemFNRHModulo.cs",
+      "export_path": "GestaoSincronizacaoHospedagemFNRHModulo.cs",
+      "raw_sha256": "df52ce285d60325fd5c71be942c49788ef96916a9c1d088ab1f858ea1eafa403"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "ed962b8991bea92869377fd58a2e0772499a663de34806c7839d50ce0afbb696"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "080829d51b2c87be3577fa4f6118d0a84aff9a32f10a1d8cc39646043d6b7623"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "99fcaa76cc0905bffffa9c8bb9c2daa5517f2488910c027d82e66cfdea4bc189"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoHospedagemFNRHFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoHospedagemFNRHFichaViewModel.cs",
+      "raw_sha256": "21752c0e57afc39d71349f98ae905f49d1b06552ba38abf9101480f77bdacda6"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoHospedagemFNRHFormulario.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoHospedagemFNRHFormulario.cs",
+      "raw_sha256": "d8ed3c21c6ebb4b3cc0b18b996e4980ebc78cafea50b09bcfebfcc4bd27b864e"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacoesHospedagemFNRHViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacoesHospedagemFNRHViewModel.cs",
+      "raw_sha256": "f79d0d8f464fa6f7fee5fa074baf6d00d2d9193a7bdf1edab21e2132f96fc409"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "raw_sha256": "ce6124a7d8e502f3b4a0b7ffd9986a712dc3e4d7460b11848eb8645d04a3ec09"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoViewModel.cs",
+      "raw_sha256": "08f3c45533cee9800a369981b1591993ce2aff61a41b4e055211937e3ba1edfa"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoHospedagemFNRHFichaView.cs",
+      "export_path": "Views\\GestaoSincronizacaoHospedagemFNRHFichaView.cs",
+      "raw_sha256": "8ec6b604ee37ee68ee4a6ff724c31ec82d5745d0c28d890988399292dac9e5e6"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoHospedagemFNRHFichaVi\\SincronizacaoView.cs",
+      "export_path": "Views\\GestaoSincronizacaoHospedagemFNRHFichaVi\\SincronizacaoView.cs",
+      "raw_sha256": "a226b0caff2df30140f48ab29723bad7604fc9fd45d34a3ea4e73300eebf3b1e"
+    },
+    {
+      "path": "Views\\GestaoSincronizacoesHospedagemFNRHView.cs",
+      "export_path": "Views\\GestaoSincronizacoesHospedagemFNRHView.cs",
+      "raw_sha256": "beb213c9ce65cf3c9ac22614654a0d41315d39d1ce9b4f6f573caf86333fa56f"
+    }
+  ]
+}

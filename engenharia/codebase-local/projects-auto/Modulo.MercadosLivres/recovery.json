@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.MercadosLivres",
+  "baseline": "baseline\\Modulo.MercadosLivres.dll",
+  "baseline_sha256": "e8993c3b2f82ccb365bce6e95c07a6fedecc0141db6a1370ac11a62de828fb17",
+  "export_project": "recovered\\SuiteG6\\Modulo.MercadosLivres\\Modulo.MercadosLivres.csproj",
+  "sources": [
+    {
+      "path": "MercadoLivreModulo.cs",
+      "export_path": "MercadoLivreModulo.cs",
+      "raw_sha256": "f40ae433b7bcdb1f19fa9a18e9feb8c55cd5792c36697631574e237c67e28572"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "1c771a908dc3dd44cb5b05ad4a826ffc5f6fa8416ae665bcedec318bb8f34bed"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "3261be3104053d5d8f38f318d45a6df2f4be822f12e2470a9cd5ca3b5c6f300e"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "e0af95df24842c09720adf585fa08f55f371ca85ea96926c06fa7c88d316e76e"
+    },
+    {
+      "path": "Services\\ModoFuncionamentoMercadoLivreService.cs",
+      "export_path": "Services\\ModoFuncionamentoMercadoLivreService.cs",
+      "raw_sha256": "bfd491f5fa6dff04ca19e8acce124ca638c66aaa1e65fb60b66cdf80672654fb"
+    },
+    {
+      "path": "ViewModels\\MercadoLivreViewModel.cs",
+      "export_path": "ViewModels\\MercadoLivreViewModel.cs",
+      "raw_sha256": "4e6c5bfc1d8d40f743ff3275d93e9d37945296381a16e1d2ce88d291ce097ba2"
+    },
+    {
+      "path": "ViewModels\\MercadosLivresViewModel.cs",
+      "export_path": "ViewModels\\MercadosLivresViewModel.cs",
+      "raw_sha256": "ef51612bf1f864b5c3ec53cbfd51dcd444309db82cb86459facda87c4cff9d6a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelObterToken.cs",
+      "export_path": "ViewModels\\Paineis\\PainelObterToken.cs",
+      "raw_sha256": "617b86f5ba4ddabfebeb1c8bb712175d2230f71dbd20d5ea90e962200bf8e0b6"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelUsuario.cs",
+      "export_path": "ViewModels\\Paineis\\PainelUsuario.cs",
+      "raw_sha256": "bf610bfde7edf0c0f4cdd4185c0e55a0252aad359878daef7253be2cb6625797"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelValidarToken.cs",
+      "export_path": "ViewModels\\Paineis\\PainelValidarToken.cs",
+      "raw_sha256": "9b7e3ba525a290ab7525e44f4e8ccf00f5cb6caabce7b660b3d3fc3b088f8988"
+    },
+    {
+      "path": "Views\\MercadoLivreView.cs",
+      "export_path": "Views\\MercadoLivreView.cs",
+      "raw_sha256": "2de45d017ae69fe1b807e1ebb84f4295314a182df2bcbb44feb933b98e569837"
+    },
+    {
+      "path": "Views\\MercadosLivresView.cs",
+      "export_path": "Views\\MercadosLivresView.cs",
+      "raw_sha256": "f6ed96c903b8f3c1c3002297b2213dfeb2b8902bc41cf49e4eed5e3ecaa2747e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Select original overload explicitly: ThreadStart or IRelatorio",
+      "occurrences": 1,
+      "evidence": "engenharia\\codebase-local\\overload-evidence\\Modulo.MercadosLivres\\Modulo.MercadosLivres.il"
+    },
+    {
+      "kind": "Explicit parameterless anonymous method selects original ThreadStart overload",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.MercadosLivres.g.resources",
+      "file": "0000.bin",
+      "bytes": 9364,
+      "sha256": "9b1be7f9e0f453fb503fa5d6acd88fba475857b1b5f01f20bd3042b5ef98a156"
+    },
+    {
+      "name": "Otus.Modulo.MercadosLivres.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

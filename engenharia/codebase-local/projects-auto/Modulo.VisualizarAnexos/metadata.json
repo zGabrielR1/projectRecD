@@ -1,0 +1,35 @@
+{
+  "artifactSha256": "0347c7bcf3b55b8baddbfa58ba60bd61c806bd9f0569c11c9049781c22ebc055",
+  "mvid": "7170d7b4-fb49-439f-825d-aefcb49a3148",
+  "assembly": "Modulo.VisualizarAnexos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "PresentationCore",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.VisualizarAnexos.g.resources",
+      "file": "0000.bin",
+      "bytes": 8625,
+      "sha256": "43d2b2584e7b7db92159de525c25ecea654915eff2d01d56dd85f067c51aaf53"
+    },
+    {
+      "name": "Otus.Modulo.VisualizarAnexos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

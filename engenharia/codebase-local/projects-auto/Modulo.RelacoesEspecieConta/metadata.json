@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "1d8e5dcca75cdc5e5a36dd904eb83258c184c47dd46db09d82dc37e470f627da",
+  "mvid": "02727b77-37e9-4bc2-ba48-aef6c2661fda",
+  "assembly": "Modulo.RelacoesEspecieConta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "Infraestrutura",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.RelacoesEspecieConta.g.resources",
+      "file": "0000.bin",
+      "bytes": 17444,
+      "sha256": "8f5ec5ccc7df823095e0be65623b2d7c7100ca248a222c2c1f10b4f787241ef4"
+    },
+    {
+      "name": "Otus.Modulo.RelacoesEspecieConta.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

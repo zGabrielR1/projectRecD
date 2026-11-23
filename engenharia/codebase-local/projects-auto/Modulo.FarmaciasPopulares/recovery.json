@@ -1,0 +1,160 @@
+{
+  "name": "Modulo.FarmaciasPopulares",
+  "baseline": "baseline\\Modulo.FarmaciasPopulares.dll",
+  "baseline_sha256": "2adbefde3af7da3ddd31c33b844037b1472954c6f07eb594ce321b90a839bc0e",
+  "export_project": "recovered\\SuiteG6\\Modulo.FarmaciasPopulares\\Modulo.FarmaciasPopulares.csproj",
+  "sources": [
+    {
+      "path": "FarmaciaPopularModulo.cs",
+      "export_path": "FarmaciaPopularModulo.cs",
+      "raw_sha256": "4290806919c4d4cbc8f089a331cee58d811043e8cb22635622fcc58846ab0bc7"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "08a10e0e3b01bc1f483adabe71f4cc4e8780231278c6cda9c6ffeef23baa6b1f"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "0daebd72ad6b715340ec718f613ac56774044a21f218e697b9259a48cae19ac9"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "e5e1f02e73f138dc9c529ca5258157df220cee426fbb70a99adde0a04f7905b7"
+    },
+    {
+      "path": "ViewModels\\FarmaciaPopularAbaViewModel.cs",
+      "export_path": "ViewModels\\FarmaciaPopularAbaViewModel.cs",
+      "raw_sha256": "dbcc15690c37efb571e2fb579026ef7e8c1316633ac57b5a7f214b70f50df51c"
+    },
+    {
+      "path": "ViewModels\\FarmaciaPopularFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\FarmaciaPopularFichaAdicionarViewModel.cs",
+      "raw_sha256": "ef19f8d26fe2b6e49fdcd666c08310b4ed3f8bf2ee4a05008d4fe1c9e7d59e0d"
+    },
+    {
+      "path": "ViewModels\\FarmaciaPopularFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\FarmaciaPopularFichaAtualizarViewModel.cs",
+      "raw_sha256": "5b1b8f996d93367f2c817e84e59765dd6a5603e5f5cd773d220f78fa8edd7c95"
+    },
+    {
+      "path": "ViewModels\\FarmaciaPopularFormulario.cs",
+      "export_path": "ViewModels\\FarmaciaPopularFormulario.cs",
+      "raw_sha256": "94ff4d617a146c1d6a7efa2393ed6bb572764f6f724bc889ab0a38237b877d47"
+    },
+    {
+      "path": "ViewModels\\FarmaciaPopularListaViewModel.cs",
+      "export_path": "ViewModels\\FarmaciaPopularListaViewModel.cs",
+      "raw_sha256": "b32a9642f539d515653d39bebf0423e83ed30945a5136cfef5eb8681898b9839"
+    },
+    {
+      "path": "ViewModels\\FarmaciaPopularResumoViewModel.cs",
+      "export_path": "ViewModels\\FarmaciaPopularResumoViewModel.cs",
+      "raw_sha256": "0863fb567cc34632cbac5f2a8a234c8e69ad8457dc24a06189074cdaebccad54"
+    },
+    {
+      "path": "ViewModels\\FarmaciaPopularViewModel.cs",
+      "export_path": "ViewModels\\FarmaciaPopularViewModel.cs",
+      "raw_sha256": "d16b4b2d9413adcbdbb37c196edf3c46234403e5811bc1178c5b05344b18e515"
+    },
+    {
+      "path": "ViewModels\\FarmaciasPopularesViewModel.cs",
+      "export_path": "ViewModels\\FarmaciasPopularesViewModel.cs",
+      "raw_sha256": "327631ebc630adce87670c21fd37f7bbb6e421e3fd5fafbf8d9f93f1a9807993"
+    },
+    {
+      "path": "ViewModels\\ItemMinisterioSaudeViewModel.cs",
+      "export_path": "ViewModels\\ItemMinisterioSaudeViewModel.cs",
+      "raw_sha256": "2f289dcd1b9af425fc579b9e6f5a333c8987dde3dd492c9a332964201adaefca"
+    },
+    {
+      "path": "ViewModels\\MinisterioSaude.cs",
+      "export_path": "ViewModels\\MinisterioSaude.cs",
+      "raw_sha256": "b1e72a8dae6b38cf71487dc43c6640f02d90f93ae5e6f316c95a6c349e50c50a"
+    },
+    {
+      "path": "ViewModels\\MinisterioSaudeAbaViewModel.cs",
+      "export_path": "ViewModels\\MinisterioSaudeAbaViewModel.cs",
+      "raw_sha256": "ed37e1ed1af2802a61a6ced7fe8e02a2b7211f6f5efb3ad8e5b2b8e19cf1f4d5"
+    },
+    {
+      "path": "ViewModels\\MinisterioSaudeFichaViewModel.cs",
+      "export_path": "ViewModels\\MinisterioSaudeFichaViewModel.cs",
+      "raw_sha256": "e04362a18aeb594b6252654b2e0f6e30098dfbd85054813f6eb4cfcbc1e4b22e"
+    },
+    {
+      "path": "ViewModels\\MinisterioSaudeFormulario.cs",
+      "export_path": "ViewModels\\MinisterioSaudeFormulario.cs",
+      "raw_sha256": "58aa4e917840dedcd8e42be85fc000d36a08d83ac3ab87b7e4438789e1bd5aa7"
+    },
+    {
+      "path": "ViewModels\\MinisterioSaudeViewModel.cs",
+      "export_path": "ViewModels\\MinisterioSaudeViewModel.cs",
+      "raw_sha256": "e92500ce79a2c0d331cc6420f32a2d56ece1794fa0b1f14fec96752e44afcf15"
+    },
+    {
+      "path": "ViewModels\\PesquisarMedicamentoFarmaciaPopular.cs",
+      "export_path": "ViewModels\\PesquisarMedicamentoFarmaciaPopular.cs",
+      "raw_sha256": "afb8c5ee1fef0bae7a1598ebc9f176e047b3bd46d9c6b4ca97f9a3ac575665fa"
+    },
+    {
+      "path": "Views\\FarmaciaPopularFichaAdicionarView.cs",
+      "export_path": "Views\\FarmaciaPopularFichaAdicionarView.cs",
+      "raw_sha256": "ee2c617b9edb7902c5598eb807187255eb5dbdacdaf683ec51099428f47a6cc9"
+    },
+    {
+      "path": "Views\\FarmaciaPopularFichaAtualizarView.cs",
+      "export_path": "Views\\FarmaciaPopularFichaAtualizarView.cs",
+      "raw_sha256": "11407433c22e6b01aed11e600d4acc50a46750242e6791ecdb9bb2a311b00ce6"
+    },
+    {
+      "path": "Views\\FarmaciaPopularFichaViewDetalhes\\FarmaciaPopularView.cs",
+      "export_path": "Views\\FarmaciaPopularFichaViewDetalhes\\FarmaciaPopularView.cs",
+      "raw_sha256": "a446ac886c7f6bb4afb066c799e696bf57d347c62b49a282bda3fc07db02fe3f"
+    },
+    {
+      "path": "Views\\FarmaciaPopularListaView.cs",
+      "export_path": "Views\\FarmaciaPopularListaView.cs",
+      "raw_sha256": "9a243c0344dff5bbd8ec29bbfaa22fb8d149f103f2d0a907611e28537b061127"
+    },
+    {
+      "path": "Views\\FarmaciaPopularResumoView.cs",
+      "export_path": "Views\\FarmaciaPopularResumoView.cs",
+      "raw_sha256": "702eefe1acda6f0e727bdcc03556446b92af18473f0524ec098329b6f75b0c21"
+    },
+    {
+      "path": "Views\\FarmaciasPopularesView.cs",
+      "export_path": "Views\\FarmaciasPopularesView.cs",
+      "raw_sha256": "0addfdacf4d7eb2a985ad8267b5c01bd26235566d34ae4dc46bf364beec292bf"
+    },
+    {
+      "path": "Views\\MinisterioSaudeFichaView.cs",
+      "export_path": "Views\\MinisterioSaudeFichaView.cs",
+      "raw_sha256": "11afb3f32a4de2fd15cd577e4556f2889eef46bb5b42efe74607ad40cc049cb8"
+    },
+    {
+      "path": "Views\\MinisterioSaudeView.cs",
+      "export_path": "Views\\MinisterioSaudeView.cs",
+      "raw_sha256": "9fbf4e15e18a00ddcca143025ad8c8087f378e7fbdb9bfaf3d21ef9874eab3ef"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.FarmaciasPopulares.g.resources",
+      "file": "0000.bin",
+      "bytes": 39852,
+      "sha256": "721f254c7d96ce0567ba690495c63731f329849c51854a7598bdd31ccd53c546"
+    },
+    {
+      "name": "Otus.Modulo.FarmaciasPopulares.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

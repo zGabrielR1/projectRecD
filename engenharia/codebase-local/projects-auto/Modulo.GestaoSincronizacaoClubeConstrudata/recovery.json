@@ -1,0 +1,103 @@
+{
+  "name": "Modulo.GestaoSincronizacaoClubeConstrudata",
+  "baseline": "baseline\\Modulo.GestaoSincronizacaoClubeConstrudata.dll",
+  "baseline_sha256": "6f2758cab21bc5b77c8296bca29d52bba8032e87303c2515ae5842192114cd07",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacaoClubeConstrudata\\Modulo.GestaoSincronizacaoClubeConstrudata.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "baa6d054c32a884f78862727985051b1aafacac2e97af0eb833c4d98cd039615"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "6f2758cab21bc5b77c8296bca29d52bba8032e87303c2515ae5842192114cd07"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 12
+    },
+    {
+      "kind": "Resolve four-argument UI ShowLastException helper to Mvvm type"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoSincronizacaoClubeConstrudata.g.resources",
+      "file": "0000.bin",
+      "bytes": 15647,
+      "sha256": "09d82151405a308e63eb17add90433890f6a8b7e81af22163cda01ba6562daf2"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "GestaoSincronizacaoClubeConstrudataModulo.cs",
+      "export_path": "GestaoSincronizacaoClubeConstrudataModulo.cs",
+      "raw_sha256": "9a7bd44443e6a56d6e4f7e4979921afd0ca01f3868672c7faf931d0a28d4ec11"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "08b1250dcc3b72d1faf872e23a67b54640bac53a09d9238a92fd2f0edaef5cdf"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoClubeConstrudataFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoClubeConstrudataFichaViewModel.cs",
+      "raw_sha256": "13b6656a171dcbe5418f0180472807ae1147ee07ac24874db9eabd99212ca93b"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoClubeConstrudataFormulario.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoClubeConstrudataFormulario.cs",
+      "raw_sha256": "e60208bd6a76a747543fc778fef734309d5c485a88c54b9ae70dc1f3d36c5e48"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacoesClubeConstrudataViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacoesClubeConstrudataViewModel.cs",
+      "raw_sha256": "ad9e755a5e4b7e0d29dd3cee52c37881892897c397e842bc892c8fa79d95ae48"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesRetroativasAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesRetroativasAbaViewModel.cs",
+      "raw_sha256": "2a8b7cb3dd1ab42b0f288fe5f549f2096318964d4490c01ec8ff3cc73fffd450"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesRetroativasViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesRetroativasViewModel.cs",
+      "raw_sha256": "efa2bdedc666a8e97012db6ed3c8b4a14cc6d244caa94c8ff1d36e76e95fdb51"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "raw_sha256": "9ea328e0d497138f9ad12ba02cf091e5a10638def137aa1c188e43eb7af13a13"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoViewModel.cs",
+      "raw_sha256": "f2ef401f6afea0d6857d7def473f2af4909f80134383a7da5f47d9d3258123de"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoClubeConstrudataFichaView.cs",
+      "export_path": "Views\\GestaoSincronizacaoClubeConstrudataFichaView.cs",
+      "raw_sha256": "fea161f1cc0a418de3d364c04dcb78c92417054c0bc83e60b921d76ba3f460ea"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoClubeConstrudataFicha\\MovimentacoesRetroativasView.cs",
+      "export_path": "Views\\GestaoSincronizacaoClubeConstrudataFicha\\MovimentacoesRetroativasView.cs",
+      "raw_sha256": "f0d5c8b0d286bfd9296fca6b96433891b9d317bb51c2fd4d01f3974bfc430aad"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoClubeConstrudataFicha\\SincronizacaoView.cs",
+      "export_path": "Views\\GestaoSincronizacaoClubeConstrudataFicha\\SincronizacaoView.cs",
+      "raw_sha256": "59ce93e6b3f645396a5ead6ab0f6175c24654a7249108aaf441c948caa0ecd90"
+    },
+    {
+      "path": "Views\\GestaoSincronizacoesClubeConstrudataView.cs",
+      "export_path": "Views\\GestaoSincronizacoesClubeConstrudataView.cs",
+      "raw_sha256": "b6d34deb634172a4035d061c8e30b380680504ea2416b3a0cfdc4a6a32994fb9"
+    }
+  ]
+}

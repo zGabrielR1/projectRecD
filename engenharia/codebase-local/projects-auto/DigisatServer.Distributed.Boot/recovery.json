@@ -1,0 +1,27 @@
+{
+  "name": "DigisatServer.Distributed.Boot",
+  "baseline": "baseline\\DigisatServer.Distributed.Boot.dll",
+  "baseline_sha256": "1c8196fdc474cf69d32e9d2ea5fb3863dc6290b94b3be376536ed3cf1aa2f29c",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Distributed.Boot\\DigisatServer.Distributed.Boot.csproj",
+  "sources": [
+    {
+      "path": "Bootstrapper.cs",
+      "export_path": "Bootstrapper.cs",
+      "raw_sha256": "712ad07ae247311d2c4ae7265257d6e7beed43dc3b965b4708d550b898837546"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "4b306ed34c67b972bc8548d9f10a974fd93bf8dbcf571c5b34d88a59b70abdd3"
+    },
+    {
+      "path": "SimpleInjectorEventContainer.cs",
+      "export_path": "SimpleInjectorEventContainer.cs",
+      "raw_sha256": "20e000a2a82921f66acfaca937f93f5489d27616484b2f181a282610a0af8fdd"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [],
+  "generated_stubs": false
+}

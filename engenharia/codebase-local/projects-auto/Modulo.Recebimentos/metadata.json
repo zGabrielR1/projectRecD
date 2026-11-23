@@ -1,0 +1,52 @@
+{
+  "artifactSha256": "11006f8242ba8a1d60b9f741adee845b806249b691888fe6280354d71be48337",
+  "mvid": "228c3f58-48fa-471e-a153-438fbb9f0827",
+  "assembly": "Modulo.Recebimentos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "System.Windows.Forms",
+    "PresentationCore",
+    "System.Core",
+    "DevExpress.XtraReports.v15.2",
+    "itextsharp",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Boleto"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Recebimentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 40951,
+      "sha256": "75d2b19be8888e01ce2b4906cd1af8a5c1e0e76e2eea14439fed2566af67bc4a"
+    },
+    {
+      "name": "Otus.Modulo.Recebimentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Recebimentos.dll.licenses",
+      "file": "0002.bin",
+      "bytes": 283,
+      "sha256": "2d3b6757e439710d7057df3d34df73511170d8f7015ae3af6f883db3b784e77b"
+    }
+  ]
+}

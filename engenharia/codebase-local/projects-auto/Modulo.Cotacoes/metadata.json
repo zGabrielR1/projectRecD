@@ -1,0 +1,45 @@
+{
+  "artifactSha256": "07fa07b4595cb79115e1d9e87b724cf803e6d85da54a9acc4c4dedaf6ba24ab6",
+  "mvid": "ab0cef0a-4c16-4d2f-bcdb-d477063d9e72",
+  "assembly": "Modulo.Cotacoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "Infraestrutura",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "System.Drawing",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.Data.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "Newtonsoft.Json"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Cotacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 52268,
+      "sha256": "6ea3d9177f0ee734816ee136788de74861f08e32a78cbeb2a9f02926105b24e0"
+    },
+    {
+      "name": "Otus.Modulo.Cotacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "assembly": "Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f",
+  "references": [
+    "System.Runtime",
+    "System.Reflection",
+    "Microsoft.Practices.ServiceLocation",
+    "System.Collections",
+    "System.Linq.Expressions",
+    "System.Resources.ResourceManager",
+    "System.Globalization",
+    "System.Diagnostics.Tools",
+    "System.Linq",
+    "System.Diagnostics.Debug",
+    "System.Runtime.Extensions",
+    "System.Threading",
+    "System.Reflection.Extensions"
+  ]
+}

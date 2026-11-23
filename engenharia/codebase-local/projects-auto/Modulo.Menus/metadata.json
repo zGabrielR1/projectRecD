@@ -1,0 +1,42 @@
+{
+  "artifactSha256": "49dfeafb9d3908a2e3ad62cb102ec8a969943e284e94b1b018d091d1241f32b2",
+  "mvid": "e1d0b309-f88a-422c-b896-062e19023915",
+  "assembly": "Modulo.Menus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "Prism",
+    "DigisatServer.Domain.Main",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "WindowsBase",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Menus.g.resources",
+      "file": "0000.bin",
+      "bytes": 24103,
+      "sha256": "f1f9df6bf1c8895411b6fe215e034609576c8daac65be7326c457bd46c41f770"
+    },
+    {
+      "name": "Otus.Modulo.Menus.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

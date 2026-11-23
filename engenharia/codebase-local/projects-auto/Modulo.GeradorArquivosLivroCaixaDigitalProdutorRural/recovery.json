@@ -1,0 +1,100 @@
+{
+  "name": "Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural",
+  "baseline": "baseline\\Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural.dll",
+  "baseline_sha256": "8ef973c9c5ac47ea1f793d9ebdc3f05569a46b699f450da61612264329041404",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural\\Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural.csproj",
+  "sources": [
+    {
+      "path": "GeradorArquivoLivroCaixaDigitalProdutorRuralModulo.cs",
+      "export_path": "GeradorArquivoLivroCaixaDigitalProdutorRuralModulo.cs",
+      "raw_sha256": "8d63f30b25ead3f723a97d6c44b32fd349ca898d5b157ecdcafc8306f54824ee"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "b03c996f8eec06e9ef280cc3731fa4a38290702f3aad2219a3aa231adce68898"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a24d30a138b87763b018e83f20c0cd7f2adead2e1a4a424769e39da50ffcbf9f"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "4585eac88d967b058e163ed258ed43d964a5b203c2c86da25bcb16cc34319521"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoLivroCaixaDigitalProdutorRuralFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoLivroCaixaDigitalProdutorRuralFichaViewModel.cs",
+      "raw_sha256": "35fe8931e4471efc2016d221e70724f02891817b721326eadb717f4c7d9039a0"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoLivroCaixaDigitalProdutorRuralFormulario.cs",
+      "export_path": "ViewModels\\GeradorArquivoLivroCaixaDigitalProdutorRuralFormulario.cs",
+      "raw_sha256": "20ec727c53dbe48186a46d9f9d730397cdab11e7ecd0ddba3083c2e087da5b15"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosLivroCaixaDigitalProdutorRuralViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosLivroCaixaDigitalProdutorRuralViewModel.cs",
+      "raw_sha256": "7f1e4e1c7f8532b4fa66d84d6f97b00cbb1c3dcfdc37a41023a4d5ac35793767"
+    },
+    {
+      "path": "ViewModels\\Passo1AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo1AbaViewModel.cs",
+      "raw_sha256": "155385b3318515740d8447ec1c50ad6290cc0ce6df4f7b887ff9d82a123e13f3"
+    },
+    {
+      "path": "ViewModels\\Passo1ViewModel.cs",
+      "export_path": "ViewModels\\Passo1ViewModel.cs",
+      "raw_sha256": "f0d4d93be9c4bafd2254f60123d6aa8fdbe0e8331c8ee979d622160a440c418c"
+    },
+    {
+      "path": "ViewModels\\Passo2AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo2AbaViewModel.cs",
+      "raw_sha256": "84605f0fb8ec73240ec9480a6d586698b8607435ec240c3310d7c38a211a4d3b"
+    },
+    {
+      "path": "ViewModels\\Passo2ViewModel.cs",
+      "export_path": "ViewModels\\Passo2ViewModel.cs",
+      "raw_sha256": "6ab12946b5665fd6e2077657bab630b722a36c3af0e0d23804bd9bd9dfc6ad84"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo1View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo1View.cs",
+      "raw_sha256": "f8442d20960e9aaa89ae279336a85124acdb13033d31e15f44118a7cea06d05e"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo2View.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\Passo2View.cs",
+      "raw_sha256": "f5f4115340d22381c425775eaf0437dc86b96b0ecedd550329225d25c1aa64f4"
+    },
+    {
+      "path": "Views\\GeradorArquivoLivroCaixaDigitalProdutorRuralFichaView.cs",
+      "export_path": "Views\\GeradorArquivoLivroCaixaDigitalProdutorRuralFichaView.cs",
+      "raw_sha256": "38bd01f59d08412370097fdc7d388fb6c62497e739e50730794a6cbf1405ccd9"
+    },
+    {
+      "path": "Views\\GeradorArquivosLivroCaixaDigitalProdutorRuralView.cs",
+      "export_path": "Views\\GeradorArquivosLivroCaixaDigitalProdutorRuralView.cs",
+      "raw_sha256": "4a8dcacfb48487d299e01d934851121843b63be6aa94e16594864908d3b0d625"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural.g.resources",
+      "file": "0000.bin",
+      "bytes": 13155,
+      "sha256": "a32fd0adc4f12078a0307e1ac060c2ab3ba7a028b7db8650295008bdddf8a7b7"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

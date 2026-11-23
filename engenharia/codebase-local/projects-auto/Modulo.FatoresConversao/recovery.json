@@ -1,0 +1,125 @@
+{
+  "name": "Modulo.FatoresConversao",
+  "baseline": "baseline\\Modulo.FatoresConversao.dll",
+  "baseline_sha256": "15a23ce0e103bf2113bb0203397d0b787d0a4788a70aa99e613c7ebef0f2f50f",
+  "export_project": "recovered\\SuiteG6\\Modulo.FatoresConversao\\Modulo.FatoresConversao.csproj",
+  "sources": [
+    {
+      "path": "FatorConversaoModulo.cs",
+      "export_path": "FatorConversaoModulo.cs",
+      "raw_sha256": "e16112547357571b947af549e88f626046edcf3f3cf48faabb108950d0b4d12b"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "8590c1025e0a2cb992ecb14f85970a0fb24dc084a7606bf8fb6a135599cf5c54"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "f947a94c4dc4b2278beebacffd41535d2eb9b3ff0353ae451b07fb6560ccd3c3"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "73614a5a4cbc33a60b9ee821025c045ce49b2084b8ba06ba5234d0f6c37bb8e9"
+    },
+    {
+      "path": "ViewModels\\Divisao.cs",
+      "export_path": "ViewModels\\Divisao.cs",
+      "raw_sha256": "2c339e2db5211cd87bc4ea3880de807303993f8cb5b08f3d899d7f9bde7899f6"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoAbaViewModel.cs",
+      "export_path": "ViewModels\\FatorConversaoAbaViewModel.cs",
+      "raw_sha256": "9de0514e60090d3434ef9b12b357c291bda4df8acf46a45488222f5306b1e130"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\FatorConversaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "68ba97865536aacdef80a6994e0ef09729f2bc753bed85bf0afb6c84ee637888"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\FatorConversaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "7faadb19963d0e6efa5482ca5ad0455b9d09b3c3747b48bb0bf8b23100b3846b"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoFormulario.cs",
+      "export_path": "ViewModels\\FatorConversaoFormulario.cs",
+      "raw_sha256": "434725d8d8e6d24e05cdd8281b6d10f5317d259b79e26af827726df1e59305bb"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoListaViewModel.cs",
+      "export_path": "ViewModels\\FatorConversaoListaViewModel.cs",
+      "raw_sha256": "6cac65c5221b010e5cc22098a63a85a36ede1581cd2a8fca4c03dadef623b7e9"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoViewModel.cs",
+      "export_path": "ViewModels\\FatorConversaoViewModel.cs",
+      "raw_sha256": "00d18034833c78ef4a350dfea81fcb233f02fd6d0f3309be331bb836ddf5579a"
+    },
+    {
+      "path": "ViewModels\\FatoresConversaoViewModel.cs",
+      "export_path": "ViewModels\\FatoresConversaoViewModel.cs",
+      "raw_sha256": "fc7c59c81843a5f69e41f3b904923bc464847cc080aa99ccb6a802c09e35333d"
+    },
+    {
+      "path": "ViewModels\\Multiplicacao.cs",
+      "export_path": "ViewModels\\Multiplicacao.cs",
+      "raw_sha256": "a83e2e5221f298e09c5a73463e11f8b101cb4c873932f0c01572d0f2d382308e"
+    },
+    {
+      "path": "ViewModels\\Opcao.cs",
+      "export_path": "ViewModels\\Opcao.cs",
+      "raw_sha256": "6d78f7b17c09a1fecd17298af282537492269a71521fc253c9c51a55c333c67d"
+    },
+    {
+      "path": "ViewModels\\Operacao.cs",
+      "export_path": "ViewModels\\Operacao.cs",
+      "raw_sha256": "6d9a1f2a134d7fb603e14d0b64bda54bd040873e920a140575763306d97767a5"
+    },
+    {
+      "path": "Views\\FatorConversaoFichaAdicionarView.cs",
+      "export_path": "Views\\FatorConversaoFichaAdicionarView.cs",
+      "raw_sha256": "ebad9e9c50311dff519b8c62aff9291527ae6a8e69a61c84efa9123812e90b32"
+    },
+    {
+      "path": "Views\\FatorConversaoFichaAtualizarView.cs",
+      "export_path": "Views\\FatorConversaoFichaAtualizarView.cs",
+      "raw_sha256": "42acaa870e14657e45814307add74fad4acc3e2eaf6aee0d05e84f862a8b3901"
+    },
+    {
+      "path": "Views\\FatorConversaoListaView.cs",
+      "export_path": "Views\\FatorConversaoListaView.cs",
+      "raw_sha256": "8aaaa66aeff6c3fe6b1d874e135a746ac26a325cd7cd69670e1de028a85c9405"
+    },
+    {
+      "path": "Views\\FatorConversaoViewDetalhes\\FatorConversaoView.cs",
+      "export_path": "Views\\FatorConversaoViewDetalhes\\FatorConversaoView.cs",
+      "raw_sha256": "4ddf936ca124c908d690967ebeb75970e0639ab5bb6a9c6e1cef1ddb49e145b2"
+    },
+    {
+      "path": "Views\\FatoresConversaoView.cs",
+      "export_path": "Views\\FatoresConversaoView.cs",
+      "raw_sha256": "10927528df79c47851e92cae87ba4801826f7bc297321152c67078211092c755"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.FatoresConversao.g.resources",
+      "file": "0000.bin",
+      "bytes": 12523,
+      "sha256": "8c6dac19589f47386805ce9f50c6734a4e10c1fa8d78b98d0c47aa2d0edef216"
+    },
+    {
+      "name": "Otus.Modulo.FatoresConversao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.SimuladorCustos",
+  "baseline": "baseline\\Modulo.SimuladorCustos.dll",
+  "baseline_sha256": "467ccd533fdea006b769b4c7875cfef03aa9bd1d0c0137bf40ade8ea22a3206e",
+  "export_project": "recovered\\SuiteG6\\Modulo.SimuladorCustos\\Modulo.SimuladorCustos.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "d1353940b74206ab4974a36ae2521abe614453b65c8b7c72941a5d3a420e98a8"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "f42c1728a9d9a0a039f58220c7730ba1c31eb8f5398cff0bd8b2dc68d7b68cd8"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "1c884a7d34bb8875cbfcc41d685cc2b81685859a7acbfc3539796b631cfbb8d8"
+    },
+    {
+      "path": "Reports\\RelatorioSimuladorCusto.cs",
+      "export_path": "Reports\\RelatorioSimuladorCusto.cs",
+      "raw_sha256": "3e06f27e01f92e6d11f6753f39d4b6f1aa570b42e08542139f076f0f70e4f8d0"
+    },
+    {
+      "path": "SimuladorCustoModulo.cs",
+      "export_path": "SimuladorCustoModulo.cs",
+      "raw_sha256": "d8adedcf2a9ab8d4ec9c0cca556c7c79fc8cb7f2d5d086513bd2361138b851eb"
+    },
+    {
+      "path": "ViewModels\\SimuladorCustoFichaViewModel.cs",
+      "export_path": "ViewModels\\SimuladorCustoFichaViewModel.cs",
+      "raw_sha256": "e90e1410f387280d30dc3f91cda6ec671a153782334240087054000d21e0ac1c"
+    },
+    {
+      "path": "ViewModels\\SimuladorCustosViewModel.cs",
+      "export_path": "ViewModels\\SimuladorCustosViewModel.cs",
+      "raw_sha256": "a3134dd5ee60dc36aa89418febbda8f8d0c36c6157cffdf1ffb591fb06612181"
+    },
+    {
+      "path": "Views\\SimuladorCustoFichaView.cs",
+      "export_path": "Views\\SimuladorCustoFichaView.cs",
+      "raw_sha256": "fdac31cee8b3ed4922376d9d5e12f26a7949e2b63e9b0e8dd72e0af3393d0a16"
+    },
+    {
+      "path": "Views\\SimuladorCustosView.cs",
+      "export_path": "Views\\SimuladorCustosView.cs",
+      "raw_sha256": "00c38871c0fc01384da313b68d951d5145d8c8a6c8460c275029e7a71a799abe"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 11
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 2,
+      "types": [
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass21_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.SimuladorCustos.g.resources",
+      "file": "0000.bin",
+      "bytes": 20709,
+      "sha256": "f17a0923317c79ece1f21c86de162f8bf765775965c915b4b397ab85f6d61725"
+    },
+    {
+      "name": "Otus.Modulo.SimuladorCustos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.SimuladorCustos.Reports.RelatorioSimuladorCusto.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.SimuladorCustos.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 286,
+      "sha256": "b767517c285ca78079857ec0d6b907e0ddf0846d41d69dbb3919260e934e23a5"
+    }
+  ],
+  "generated_stubs": false
+}

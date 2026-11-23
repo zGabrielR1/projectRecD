@@ -1,0 +1,156 @@
+{
+  "name": "DigisatServer.Domain.Core",
+  "baseline": "baseline\\DigisatServer.Domain.Core.dll",
+  "baseline_sha256": "fcd29ec09a65eaa8397ccc6b63f6630c61b6fb99293c4a863162d7382928d9ff",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Domain.Core\\DigisatServer.Domain.Core.csproj",
+  "sources": [
+    {
+      "path": "-Module-{4245238C-C1B8-4DAC-8D1E-A411B53EDB14}.cs",
+      "export_path": "-Module-{4245238C-C1B8-4DAC-8D1E-A411B53EDB14}.cs",
+      "raw_sha256": "c735fd033b222e8f775201fd4af14ef87f0c8b412f2a4079e930a561fd3ddd33"
+    },
+    {
+      "path": "Entity.cs",
+      "export_path": "Entity.cs",
+      "raw_sha256": "5757608cfc3d14a6f3cb5414e92e77fa148a1dc2731276e397c42ef419f36f28"
+    },
+    {
+      "path": "EntityBase.cs",
+      "export_path": "EntityBase.cs",
+      "raw_sha256": "2e4fcd0b6be0781e086ad31b9a5bf7d8e35c7811c60cef01ca7ee4c6e0c27c31"
+    },
+    {
+      "path": "EntityBaseEmpresaSpecification.cs",
+      "export_path": "EntityBaseEmpresaSpecification.cs",
+      "raw_sha256": "dc131cf6b72e85789c540ee4f4208b18f1f1834923061bacdcccd8749fb47f69"
+    },
+    {
+      "path": "EntityBaseSpecification.cs",
+      "export_path": "EntityBaseSpecification.cs",
+      "raw_sha256": "f0e3817090ce3a853993325e8f03759a6e440e842c19c848adf33d6e95137098"
+    },
+    {
+      "path": "EntityEmpresaSpecification.cs",
+      "export_path": "EntityEmpresaSpecification.cs",
+      "raw_sha256": "a7923c50911ec88c5afd8258c771730671690ee695cb6156fef2fb2fc70bc8f5"
+    },
+    {
+      "path": "EntitySpecification.cs",
+      "export_path": "EntitySpecification.cs",
+      "raw_sha256": "825d25775faa7d2b3649253c17980adc196f5d483e2829b085ca55b25cd91ac7"
+    },
+    {
+      "path": "EntityTree.cs",
+      "export_path": "EntityTree.cs",
+      "raw_sha256": "228e00816bf0f6bfd0876c1b8b520746834d5497f0ce036891312891165e1cc5"
+    },
+    {
+      "path": "EntityVersao.cs",
+      "export_path": "EntityVersao.cs",
+      "raw_sha256": "d0940d2de1f3ba0362f41858d014b0c8e57cd15a5f3a96531749b3a060ddcd0a"
+    },
+    {
+      "path": "Events\\DepoisAdicionarEntityEvent.cs",
+      "export_path": "Events\\DepoisAdicionarEntityEvent.cs",
+      "raw_sha256": "54eab0935698792459509af3fd7254244ac867b4afcc6fc17b0d2e211479cde1"
+    },
+    {
+      "path": "Events\\DepoisAtualizarEntityEvent.cs",
+      "export_path": "Events\\DepoisAtualizarEntityEvent.cs",
+      "raw_sha256": "7f76c38e6a7c33a19d6d44bb4333643f1272537e5986e498b1538599a4bb00d8"
+    },
+    {
+      "path": "Events\\DomainEvent.cs",
+      "export_path": "Events\\DomainEvent.cs",
+      "raw_sha256": "0422e92c49703beac787078a2d6fa36048c210cbf66b5fe128e4d8a344175608"
+    },
+    {
+      "path": "Events\\EntityEvent.cs",
+      "export_path": "Events\\EntityEvent.cs",
+      "raw_sha256": "88da4e3173cb86b72b0a30acc1d5030af6c906713fcc92c910404a939b423de0"
+    },
+    {
+      "path": "Events\\IDomainEvent.cs",
+      "export_path": "Events\\IDomainEvent.cs",
+      "raw_sha256": "11dfc9c13717664052235a05a782daec883cb1bfe745a36858e7fd584326a439"
+    },
+    {
+      "path": "Events\\IDomainEventHandler.cs",
+      "export_path": "Events\\IDomainEventHandler.cs",
+      "raw_sha256": "12c45ba83c51b9a461fcfe615667c40b09bd0e50424f9487f5d16d66cfbc95f7"
+    },
+    {
+      "path": "Events\\IEventContainer.cs",
+      "export_path": "Events\\IEventContainer.cs",
+      "raw_sha256": "c9e4a7cb1986fdacf25de99dec0ea0e9a4d3e9d111737e126d55f509624f39a0"
+    },
+    {
+      "path": "HelperObjectId.cs",
+      "export_path": "HelperObjectId.cs",
+      "raw_sha256": "b32d532baa00c1c28fb1b1630d2382348659f1ed1b2ddb0fe22fa532ca9e8858"
+    },
+    {
+      "path": "IItemAgrupamento.cs",
+      "export_path": "IItemAgrupamento.cs",
+      "raw_sha256": "6162250443bd2ac114fd5ae0899067c5db398fcbc15f83f3e7356a5a41dbeb4b"
+    },
+    {
+      "path": "IItemEntityTreeValor.cs",
+      "export_path": "IItemEntityTreeValor.cs",
+      "raw_sha256": "1968865074f79c30903e433ef6b7649989534d21d13029d0b0b8c26d449bec26"
+    },
+    {
+      "path": "JC4f4JafBUq3fNbMvd\\CVyPDAoVmbgwxotFko.cs",
+      "export_path": "JC4f4JafBUq3fNbMvd\\CVyPDAoVmbgwxotFko.cs",
+      "raw_sha256": "7b77a21a9a39a992a458f4a7e722171889f35f3e53e55b195ae92c9a753eecb8"
+    },
+    {
+      "path": "JCR2L3MAOJkV1ICmY5\\IYWM0aVpfC53gw7Uj2.cs",
+      "export_path": "JCR2L3MAOJkV1ICmY5\\IYWM0aVpfC53gw7Uj2.cs",
+      "raw_sha256": "3ea545f7ce9f9383014b3b612602cbd6cc67193b323a9f19b34bfe87849c1590"
+    },
+    {
+      "path": "jmvaIPxi7ar7Sl8uOk\\CkWRbk2EftNA16p4Ja.cs",
+      "export_path": "jmvaIPxi7ar7Sl8uOk\\CkWRbk2EftNA16p4Ja.cs",
+      "raw_sha256": "942bf0442c9d43986eeabf62b6b7031e67bde93ef6a89e0cad500a607c2b94e4"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "4760e35272341c42ee98e4ecf41bc9602944e55eba4d620538e1572b2ca716f7"
+    },
+    {
+      "path": "UCflwNTe7cPEp3Tm5f\\ffE65Be3sHFoumqO80.cs",
+      "export_path": "UCflwNTe7cPEp3Tm5f\\ffE65Be3sHFoumqO80.cs",
+      "raw_sha256": "b48d22ce1c6d92e771f24c0142957f9ee3ebbc7cd6c0d9f13611f16102912890"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 13
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Domain.Core.g.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "file": "0001.bin",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "file": "0002.bin",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    }
+  ],
+  "generated_stubs": false
+}

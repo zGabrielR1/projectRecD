@@ -1,0 +1,123 @@
+{
+  "artifactSha256": "55a88376e582fd5f50329850ed5b9f0e63be0eae1c02dfca1834b867d5c4d72f",
+  "mvid": "353098f6-18ab-415d-bf3f-7cd690d370a8",
+  "assembly": "Modulo.ProdutosServicos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.Xpf.Grid.v15.2",
+    "System.ComponentModel.DataAnnotations",
+    "WindowsBase",
+    "MongoDB.Bson",
+    "DevExpress.DataAccess.v15.2",
+    "DevExpress.XtraCharts.v15.2",
+    "System.Drawing",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca",
+    "System.Windows.Forms",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.Xpf.Grid.v15.2.Core",
+    "DevExpress.Data.v15.2",
+    "MoreLinq",
+    "NClone"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ProdutosServicos.g.resources",
+      "file": "0000.bin",
+      "bytes": 490904,
+      "sha256": "6bc3d41dd9d07066072bc4424499afaf851cb8f2ff8d6c050df9d4483dc9a17e"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.Reports.CompartilharProduto.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.Reports.ListaItensComparacaoPedidoCompraENota.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.Reports.ProdutoProduzidoFichaTecnica.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.ControleVasilhames.Reports.TicketVasilhame.resources",
+      "file": "0005.bin",
+      "bytes": 3336,
+      "sha256": "472160f09be93958898b66491eccb7924d3d968fef0355f247eaa24eb411ba48"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.MovimentacaoMensal.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.Rastreabilidade.resources",
+      "file": "0007.bin",
+      "bytes": 858,
+      "sha256": "1cd844c64e66bedad804684ee9cee609606eeaba7888e78684dfefd38bb57f39"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.EstoquesFisicosQuantidade.resources",
+      "file": "0008.bin",
+      "bytes": 786,
+      "sha256": "00afb698cf8e074e3328cd6cac96e42dbee7799e0fde78c2e52bdac67a5f6906"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.Precos.resources",
+      "file": "0009.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.EstoquesEmpresa.resources",
+      "file": "0010.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.Rotatividade.resources",
+      "file": "0011.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ProdutosServicos.dll.licenses",
+      "file": "0012.bin",
+      "bytes": 287,
+      "sha256": "13b54a1353d00828a561118fa1cab42aac5821b006f2906ca9df334939cd553c"
+    }
+  ]
+}

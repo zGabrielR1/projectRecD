@@ -1,0 +1,187 @@
+{
+  "name": "Modulo.Usuarios",
+  "baseline": "baseline\\Modulo.Usuarios.dll",
+  "baseline_sha256": "c8c28da6d913361afacbbecc4f277bcb173785d3ca540cb12d86de6bff261e8a",
+  "export_project": "recovered\\SuiteG6\\Modulo.Usuarios\\Modulo.Usuarios.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "57a349d1d668e821cda717ff814bd9e3f1dc7b73d57739a5bbcf63fc224d8009"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "62930d82a9412b8483321c5a2fc63d8a7d2306e44fce59b4e04abd77780485ab"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "ca9eeb98349791134b32094cc3bc8166cff06590a7a7c74e082c947e56699764"
+    },
+    {
+      "path": "Reports\\Cracha.cs",
+      "export_path": "Reports\\Cracha.cs",
+      "raw_sha256": "2c664da4f5422448f1669a1e2ce9c86ce19d546a1d155f9be81ba84e3e8ff03e"
+    },
+    {
+      "path": "UsuarioModulo.cs",
+      "export_path": "UsuarioModulo.cs",
+      "raw_sha256": "2381d94f418a33c7ec63db2f55da69da998dff67a5b564ae9080ccc8e2b89a8d"
+    },
+    {
+      "path": "ViewModels\\DigiWebAbaViewModel.cs",
+      "export_path": "ViewModels\\DigiWebAbaViewModel.cs",
+      "raw_sha256": "4b45741e31f828f8c61154137f9282ab02834aa859046836aa8772e06537b461"
+    },
+    {
+      "path": "ViewModels\\DigiWebViewModel.cs",
+      "export_path": "ViewModels\\DigiWebViewModel.cs",
+      "raw_sha256": "46f61b81b8f9528a8372ccbe04c4af1eb8ab9437d28fce1f8f05203056b1cbb3"
+    },
+    {
+      "path": "ViewModels\\PerfilEmpresaAbaViewModel.cs",
+      "export_path": "ViewModels\\PerfilEmpresaAbaViewModel.cs",
+      "raw_sha256": "22139c35509850bb75ae4edb948a05e9f1dcf20434993c4e3ceaceec4bf6f47e"
+    },
+    {
+      "path": "ViewModels\\PerfilEmpresaFichaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\PerfilEmpresaFichaManutencaoDetalhe.cs",
+      "raw_sha256": "c5ba0236776f2a6bf706f99ca5b1fefa19c28a28fe106a23f0cbcd768b43fa59"
+    },
+    {
+      "path": "ViewModels\\PerfilEmpresaListaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\PerfilEmpresaListaManutencaoDetalhe.cs",
+      "raw_sha256": "4c132acab76c700eba0da55363d68180600c26b442bdbc11b04c8e3b3a7bc4e1"
+    },
+    {
+      "path": "ViewModels\\PerfilEmpresaViewModel.cs",
+      "export_path": "ViewModels\\PerfilEmpresaViewModel.cs",
+      "raw_sha256": "139f9f745afbfb4a1d8f686c018c4aaeb988c16c2b5614885a955fa79e9e1283"
+    },
+    {
+      "path": "ViewModels\\UsuarioAbaViewModel.cs",
+      "export_path": "ViewModels\\UsuarioAbaViewModel.cs",
+      "raw_sha256": "d5553f321fdcc798d8436c1e6f173af9f8f668531cf66b275bbb75c554a8d84a"
+    },
+    {
+      "path": "ViewModels\\UsuarioFarmaciaPopularAbaViewModel.cs",
+      "export_path": "ViewModels\\UsuarioFarmaciaPopularAbaViewModel.cs",
+      "raw_sha256": "e6ef12a3dca1815ca675b138ea5e28469b6fa89e2e3267ade56cc69add6a83ec"
+    },
+    {
+      "path": "ViewModels\\UsuarioFarmaciaPopularViewModel.cs",
+      "export_path": "ViewModels\\UsuarioFarmaciaPopularViewModel.cs",
+      "raw_sha256": "99e1e07b3cac17bede0d07d4d5d60bc70bce4179cb5bad5175c961a6e019c56b"
+    },
+    {
+      "path": "ViewModels\\UsuarioFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\UsuarioFichaAdicionarViewModel.cs",
+      "raw_sha256": "a703d01af4d216d35ca5676eda44cf7d7bdc9526609161d47ab2f7f7c941893f"
+    },
+    {
+      "path": "ViewModels\\UsuarioFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\UsuarioFichaAtualizarViewModel.cs",
+      "raw_sha256": "f4c2a1eedbb234ae09a1319010b23bfd6a394269a86b727588423a7e0cdacd80"
+    },
+    {
+      "path": "ViewModels\\UsuarioFormulario.cs",
+      "export_path": "ViewModels\\UsuarioFormulario.cs",
+      "raw_sha256": "8d3a7eeac897037b8615a8b2d02c0b9f259e362f3359464842c1e6f3dcd1ff34"
+    },
+    {
+      "path": "ViewModels\\UsuarioListaViewModel.cs",
+      "export_path": "ViewModels\\UsuarioListaViewModel.cs",
+      "raw_sha256": "407679095503b996911831d592044c7384837dcfabf1ba4cc95cae99937dc655"
+    },
+    {
+      "path": "ViewModels\\UsuariosViewModel.cs",
+      "export_path": "ViewModels\\UsuariosViewModel.cs",
+      "raw_sha256": "8a224b9e9a9fb8816bfea458066607e7344c2245b42d15c78d5ccdf0509f9c90"
+    },
+    {
+      "path": "ViewModels\\UsuarioViewModel.cs",
+      "export_path": "ViewModels\\UsuarioViewModel.cs",
+      "raw_sha256": "3db4d6103f82608be08562f6404e9f4b41434ecaf208251c1e2c95ee874a7bf0"
+    },
+    {
+      "path": "Views\\ImpressaoDigitalPathDefault.cs",
+      "export_path": "Views\\ImpressaoDigitalPathDefault.cs",
+      "raw_sha256": "9437b8f8549c055a3be22a9ecebab1c6ea73aaff5d29cff0f44770709db6c6cd"
+    },
+    {
+      "path": "Views\\UsuarioFichaAdicionarView.cs",
+      "export_path": "Views\\UsuarioFichaAdicionarView.cs",
+      "raw_sha256": "5b9f0caa0710a187a8a4cb5889e023b0024dc0715155b6400159341bab4b00fe"
+    },
+    {
+      "path": "Views\\UsuarioFichaAtualizarView.cs",
+      "export_path": "Views\\UsuarioFichaAtualizarView.cs",
+      "raw_sha256": "b23f2a09cfb6ef4c8c73d897d2925fde780604c1f181097d724b33b139dfc5e6"
+    },
+    {
+      "path": "Views\\UsuarioFichaViewDetalhes\\DigiWebView.cs",
+      "export_path": "Views\\UsuarioFichaViewDetalhes\\DigiWebView.cs",
+      "raw_sha256": "13e1a368d7d710f91cfd9af7eef6fdb08641d82a411a0ed7a0c3a57d5f964d22"
+    },
+    {
+      "path": "Views\\UsuarioFichaViewDetalhes\\PerfilEmpresaFichaView.cs",
+      "export_path": "Views\\UsuarioFichaViewDetalhes\\PerfilEmpresaFichaView.cs",
+      "raw_sha256": "8d68ae7645bc70615864a84b6ba5203af05bd34ec596cd4907bf11cbdc68fae0"
+    },
+    {
+      "path": "Views\\UsuarioFichaViewDetalhes\\PerfilEmpresaListaView.cs",
+      "export_path": "Views\\UsuarioFichaViewDetalhes\\PerfilEmpresaListaView.cs",
+      "raw_sha256": "333e3d5cb8f110ec720df79d763487aa218300641f0eccf07c340d69c01af5e5"
+    },
+    {
+      "path": "Views\\UsuarioFichaViewDetalhes\\UsuarioFarmaciaPopularView.cs",
+      "export_path": "Views\\UsuarioFichaViewDetalhes\\UsuarioFarmaciaPopularView.cs",
+      "raw_sha256": "f9143c4336b89bb43b7e35200cfe9f90f3e150bf108b0235410a60af8d87298d"
+    },
+    {
+      "path": "Views\\UsuarioFichaViewDetalhes\\UsuarioView.cs",
+      "export_path": "Views\\UsuarioFichaViewDetalhes\\UsuarioView.cs",
+      "raw_sha256": "59b902030533efeee0183d3da909e6a53484218b5505e5de042af16b72e4c799"
+    },
+    {
+      "path": "Views\\UsuarioListaView.cs",
+      "export_path": "Views\\UsuarioListaView.cs",
+      "raw_sha256": "d20b1e9a3876502b80c51898d12e0fcce4228c49dc0beea7ecb7084a7b397b15"
+    },
+    {
+      "path": "Views\\UsuariosView.cs",
+      "export_path": "Views\\UsuariosView.cs",
+      "raw_sha256": "7d5d1a91f135329259fcd8aee040bd6ee28fc558beb2d5dd83eabeb2d9e306cc"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Usuarios.g.resources",
+      "file": "0000.bin",
+      "bytes": 35416,
+      "sha256": "301a9a3175b8a0f1853792d1aae84379380b2eabb66affcdcfc3ec5b47dc7198"
+    },
+    {
+      "name": "Otus.Modulo.Usuarios.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Usuarios.Reports.Cracha.resources",
+      "file": "0002.bin",
+      "bytes": 547,
+      "sha256": "671fd3fe3c30f90deb6486bc955a6a19e5ebd1c16ce19e671a498092c9ed895a"
+    },
+    {
+      "name": "Modulo.Usuarios.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 279,
+      "sha256": "00244af8e7d9b45e84dc21efd55d4c0cdba5bd69a1d1d31270d78db01bdf741c"
+    }
+  ],
+  "generated_stubs": false
+}

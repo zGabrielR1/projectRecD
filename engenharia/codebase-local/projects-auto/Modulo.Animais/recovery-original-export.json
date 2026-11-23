@@ -1,0 +1,665 @@
+{
+  "name": "Modulo.Animais",
+  "baseline": "baseline\\Modulo.Animais.dll",
+  "baseline_sha256": "3fe68ade1ec02b3dcd508779b49dd4855e1d2eaa5feba5c3d13d483e037aabbd",
+  "export_project": "recovered\\SuiteG6\\Modulo.Animais\\Modulo.Animais.csproj",
+  "sources": [
+    {
+      "path": "AnimalModulo.cs",
+      "export_path": "AnimalModulo.cs",
+      "raw_sha256": "947e942074bc681ab3104a6583bd0caeeab3fb857348424564cddcdc3a1aef49"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "9e6f554baaf161a018a006adca605bce29640d3ab45f2de214c63fac69a674ca"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "999e0e4d9c1289c0e69bd939bcf87e0182ee615dd4a4c6760cb61cf28b564ad5"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "da33ba5dbc611dc438e49ec1b451ae2710cb58857e5e47de196d146d51462123"
+    },
+    {
+      "path": "Reports\\ImpressoAtestadoGenerico.cs",
+      "export_path": "Reports\\ImpressoAtestadoGenerico.cs",
+      "raw_sha256": "39acbe4fdc14494ef4b085a5df2feda7454e84381c62e4def73e6eb060f2e8fb"
+    },
+    {
+      "path": "Reports\\ImpressoAtestadoTransito.cs",
+      "export_path": "Reports\\ImpressoAtestadoTransito.cs",
+      "raw_sha256": "1c67cc7dd5ae5572d64527f040ac7c58b283c1c11c6f9e050a7cfccd68e6f46b"
+    },
+    {
+      "path": "Reports\\ImpressoAtestadoVacinacao.cs",
+      "export_path": "Reports\\ImpressoAtestadoVacinacao.cs",
+      "raw_sha256": "cd78a1fd84ba5b666192fd965814bf951419ecd93e5aaa039828caa8e59ab5fe"
+    },
+    {
+      "path": "Reports\\ImpressoConsulta.cs",
+      "export_path": "Reports\\ImpressoConsulta.cs",
+      "raw_sha256": "b49e6ceb6108730da2b5180dedeb1082969c70b25e170817a3fb91cc8919ef29"
+    },
+    {
+      "path": "Reports\\ImpressoFichaCadastral.cs",
+      "export_path": "Reports\\ImpressoFichaCadastral.cs",
+      "raw_sha256": "7f48800bf326414c551584a49c5ae09952304230403ea610423ae36dd6505499"
+    },
+    {
+      "path": "Reports\\ImpressoFichaClinicaAnimal.cs",
+      "export_path": "Reports\\ImpressoFichaClinicaAnimal.cs",
+      "raw_sha256": "6f4b8bb6403a3ebf02b0e3a02bc87b8fbed3e1a24ddecba7be89c899cc608ed5"
+    },
+    {
+      "path": "Reports\\ImpressoReceiturario.cs",
+      "export_path": "Reports\\ImpressoReceiturario.cs",
+      "raw_sha256": "0ae947d41289665c5f6872e94afb819f5a05cd0b5319becb91882ee3f7b01dc1"
+    },
+    {
+      "path": "Reports\\ImpressoTermoCirurgicoAnestesico.cs",
+      "export_path": "Reports\\ImpressoTermoCirurgicoAnestesico.cs",
+      "raw_sha256": "e3f5098d436f82d64ca2b9d49678d854fc4874280886e7860a3562ae08e851c9"
+    },
+    {
+      "path": "Reports\\ImpressoTermoEutanasia.cs",
+      "export_path": "Reports\\ImpressoTermoEutanasia.cs",
+      "raw_sha256": "27af9fef84960b4ff38efcef830fed83ab147e11968565bb457e637fcb857166"
+    },
+    {
+      "path": "Reports\\ImpressoTermoRetiradaSemAlta.cs",
+      "export_path": "Reports\\ImpressoTermoRetiradaSemAlta.cs",
+      "raw_sha256": "66a1dcbf4566a34ad07454a3c89e875b75ee255b6977f817d8b5562b009d4c7a"
+    },
+    {
+      "path": "ViewModels\\AgendamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\AgendamentoAbaViewModel.cs",
+      "raw_sha256": "b432346b471901e1ef89122e9fa0c02bda95e263b8e17addc174c8bc4bf654bd"
+    },
+    {
+      "path": "ViewModels\\AgendamentoViewModel.cs",
+      "export_path": "ViewModels\\AgendamentoViewModel.cs",
+      "raw_sha256": "e957a0c81885c9565d866c94ab9b703a120ce024c5a347bc348db8045ac80706"
+    },
+    {
+      "path": "ViewModels\\AnexoAbaViewModel.cs",
+      "export_path": "ViewModels\\AnexoAbaViewModel.cs",
+      "raw_sha256": "a4961e069cb6a5157adcbbc7e47072e6272ac6d42fcfd36560184f78bebc5af3"
+    },
+    {
+      "path": "ViewModels\\AnexoViewModel.cs",
+      "export_path": "ViewModels\\AnexoViewModel.cs",
+      "raw_sha256": "81e9f8371d80e1bb598dc0c9d45f0abe1d0fe15b340219ec21f3cc6eb33b03b8"
+    },
+    {
+      "path": "ViewModels\\AnimaisViewModel.cs",
+      "export_path": "ViewModels\\AnimaisViewModel.cs",
+      "raw_sha256": "9bf4ded7abfb4b84f435d467e7c5d8b90f3aa469435851d8da50022a18693a44"
+    },
+    {
+      "path": "ViewModels\\AnimalAbaViewModel.cs",
+      "export_path": "ViewModels\\AnimalAbaViewModel.cs",
+      "raw_sha256": "bbad36ce2c6ac2174533e2f9223ef3e86e0fc6c630a5633903318753a30e7dae"
+    },
+    {
+      "path": "ViewModels\\AnimalFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\AnimalFichaAdicionarViewModel.cs",
+      "raw_sha256": "84a6916b80605bc2033c93652471de62f52939dc6f7d611c45ece59ec275a41d"
+    },
+    {
+      "path": "ViewModels\\AnimalFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\AnimalFichaAtualizarViewModel.cs",
+      "raw_sha256": "1c31519661c4c5f098ea2226914f690fcbf6a6b8cc8f727f3b9f7a13cca47aee"
+    },
+    {
+      "path": "ViewModels\\AnimalFichaViewModel.cs",
+      "export_path": "ViewModels\\AnimalFichaViewModel.cs",
+      "raw_sha256": "6f41cca30f5d56d3215eaafacb161aca2f5f45019d80de27163a6b2b969b0b9e"
+    },
+    {
+      "path": "ViewModels\\AnimalFormulario.cs",
+      "export_path": "ViewModels\\AnimalFormulario.cs",
+      "raw_sha256": "0745c1a81ca1443f0624fc3efb1b459b2f7cb579687fcf5dc5014e4b30ebf018"
+    },
+    {
+      "path": "ViewModels\\AnimalListaViewModel.cs",
+      "export_path": "ViewModels\\AnimalListaViewModel.cs",
+      "raw_sha256": "1a892e8186092f8d33b55cd2ef748c67335be2680e394ad4997dbd7771e37bc1"
+    },
+    {
+      "path": "ViewModels\\AnimalViewModel.cs",
+      "export_path": "ViewModels\\AnimalViewModel.cs",
+      "raw_sha256": "81db0ac463dfd8bdd3134937d26ba316cb14ab3822e7516aba5a1090749476b9"
+    },
+    {
+      "path": "ViewModels\\ConsultaAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultaAbaViewModel.cs",
+      "raw_sha256": "7a54dbe590bfec54bee1902fcf7a32eb4eff8f83401955a28bf3b3c8e6b68c0a"
+    },
+    {
+      "path": "ViewModels\\ConsultaFichaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\ConsultaFichaManutencaoViewModel.cs",
+      "raw_sha256": "5cc099cf03da58b045f06eff49013a960992317ece967e84f7a897900c3001cf"
+    },
+    {
+      "path": "ViewModels\\ConsultaListaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\ConsultaListaManutencaoViewModel.cs",
+      "raw_sha256": "de45e9c077ccef58027f93bf2311d1b74fcfc864e8f78bf6585bd119c86dabaf"
+    },
+    {
+      "path": "ViewModels\\ConsultaViewModel.cs",
+      "export_path": "ViewModels\\ConsultaViewModel.cs",
+      "raw_sha256": "f541733801bcb3820f4e3c4262d1cbe86db62074064039992ca4fc87e8cbd3a8"
+    },
+    {
+      "path": "ViewModels\\Dose\\DoseAbaViewModel.cs",
+      "export_path": "ViewModels\\Dose\\DoseAbaViewModel.cs",
+      "raw_sha256": "d4772ad247f49bdd0f2dbe399c939f525ee190d4ad4c80866cf08d659c1f4f65"
+    },
+    {
+      "path": "ViewModels\\Dose\\DoseFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\Dose\\DoseFichaAdicionarViewModel.cs",
+      "raw_sha256": "540e35f3f671cbdcc2513c10c33cce090b9adab7f491af8bc8f26e2a1caa04d5"
+    },
+    {
+      "path": "ViewModels\\Dose\\DoseFormulario.cs",
+      "export_path": "ViewModels\\Dose\\DoseFormulario.cs",
+      "raw_sha256": "014d93b00d006d1f6284362d5d38226d8905ceca8c61ddda7c7e9dc22ad7d968"
+    },
+    {
+      "path": "ViewModels\\Dose\\DosesViewModel.cs",
+      "export_path": "ViewModels\\Dose\\DosesViewModel.cs",
+      "raw_sha256": "58ce57c87432bfd351ccd4d86edf043165a666f9351d66d73e344ffa8de12dab"
+    },
+    {
+      "path": "ViewModels\\Dose\\DoseViewModel.cs",
+      "export_path": "ViewModels\\Dose\\DoseViewModel.cs",
+      "raw_sha256": "1b5533d7ef18ae103b4f4d84d8a924866e643d52fee461b48a199d9f2653dcc9"
+    },
+    {
+      "path": "ViewModels\\EspecieAnimal\\EspecieAbaViewModel.cs",
+      "export_path": "ViewModels\\EspecieAnimal\\EspecieAbaViewModel.cs",
+      "raw_sha256": "acebded36362f18d8080481a0571982fa5f51203aed4a40d63146a50116fad37"
+    },
+    {
+      "path": "ViewModels\\EspecieAnimal\\EspecieAnimalFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\EspecieAnimal\\EspecieAnimalFichaAdicionarViewModel.cs",
+      "raw_sha256": "7e7b6b4f953bc89cd2b46a516e24c2d0a760a8154bd37b55aae396a94a48c5bc"
+    },
+    {
+      "path": "ViewModels\\EspecieAnimal\\EspecieAnimalListaViewModel.cs",
+      "export_path": "ViewModels\\EspecieAnimal\\EspecieAnimalListaViewModel.cs",
+      "raw_sha256": "2a26d6260257ac5da59e542ece9974c1b261ba742db06be931f8cdae9adb76a7"
+    },
+    {
+      "path": "ViewModels\\EspecieAnimal\\EspecieAnimalViewModel.cs",
+      "export_path": "ViewModels\\EspecieAnimal\\EspecieAnimalViewModel.cs",
+      "raw_sha256": "99b9a981aa8d468f50512e6a5f6b3040a107e3da6a0b42a8454b87e07a3a3b2f"
+    },
+    {
+      "path": "ViewModels\\EspecieAnimal\\EspecieFormulario.cs",
+      "export_path": "ViewModels\\EspecieAnimal\\EspecieFormulario.cs",
+      "raw_sha256": "e389a1eaa5da5263a010e0b2338a882590bf2ca4d17fc63694d2351996d26816"
+    },
+    {
+      "path": "ViewModels\\EspecieAnimal\\EspeciesAnimaisViewModel.cs",
+      "export_path": "ViewModels\\EspecieAnimal\\EspeciesAnimaisViewModel.cs",
+      "raw_sha256": "166d1cee826848635dbf71de41c1c8cd038d7c1b3ed2f8be06c289ae3c7a32de"
+    },
+    {
+      "path": "ViewModels\\ImpressoAbaViewModel.cs",
+      "export_path": "ViewModels\\ImpressoAbaViewModel.cs",
+      "raw_sha256": "25510b314eefcbdbb2d4bcd8fed6dc9ca581d68d333c0a19f87ef32dbb7ee89a"
+    },
+    {
+      "path": "ViewModels\\ImpressoFichaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\ImpressoFichaManutencaoViewModel.cs",
+      "raw_sha256": "4d8f4be52acbbffc07d6de41e0c51cf0b4f74ed9f4023539b0e77fe556ebfe93"
+    },
+    {
+      "path": "ViewModels\\ImpressoListaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\ImpressoListaManutencaoViewModel.cs",
+      "raw_sha256": "85f1ab20f230e692b1385137bbeb8bde25d70b9c36cb3aa4ad7e6e805c3826d4"
+    },
+    {
+      "path": "ViewModels\\ImpressoViewModel.cs",
+      "export_path": "ViewModels\\ImpressoViewModel.cs",
+      "raw_sha256": "b51f8ed5f7582cc40f1e2838a6d048e574f8490754dbba13ebc2329e43fad37b"
+    },
+    {
+      "path": "ViewModels\\InternacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\InternacaoAbaViewModel.cs",
+      "raw_sha256": "a8d74f36a4f6cec6ef736ff9e0befdf070a8c9ecb4d2c7d8d1e7d1d8e9d97d32"
+    },
+    {
+      "path": "ViewModels\\InternacaoViewModel.cs",
+      "export_path": "ViewModels\\InternacaoViewModel.cs",
+      "raw_sha256": "6f326867b142f154feadb5f64458ecd497c839ff422ea47eb4b502c1d63ac506"
+    },
+    {
+      "path": "ViewModels\\MedicamentoReceituarioViewModel.cs",
+      "export_path": "ViewModels\\MedicamentoReceituarioViewModel.cs",
+      "raw_sha256": "073ed82a90cf1d73a4e0ea294bd30d9bb2416df31deb90871ef0f30c1ff523b0"
+    },
+    {
+      "path": "ViewModels\\PesagemAbaViewModel.cs",
+      "export_path": "ViewModels\\PesagemAbaViewModel.cs",
+      "raw_sha256": "52ac43dfcd6d32954294c2784ff37af646a339e0a7ad2f6a9ed63dcc5361461c"
+    },
+    {
+      "path": "ViewModels\\PesagemFichaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\PesagemFichaManutencaoViewModel.cs",
+      "raw_sha256": "b830930d2070a4e9be0f1cdcb602bbbb5a7d9181bffd1399c22814850071ede8"
+    },
+    {
+      "path": "ViewModels\\PesagemListaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\PesagemListaManutencaoViewModel.cs",
+      "raw_sha256": "89e17c9327affeaea3732764e6685f03db78d936b9bae132dd37c294192edc2f"
+    },
+    {
+      "path": "ViewModels\\PesagemViewModel.cs",
+      "export_path": "ViewModels\\PesagemViewModel.cs",
+      "raw_sha256": "1d546ec745c2c8fa966de47b5d31b2573297f9db6aed309fc2a1395c368abd45"
+    },
+    {
+      "path": "ViewModels\\Posologia\\PosologiaAbaViewModel.cs",
+      "export_path": "ViewModels\\Posologia\\PosologiaAbaViewModel.cs",
+      "raw_sha256": "6172e9e87954dbfbdd0d657ec8fdbeee8a6fd97902c3941b0f018f26f59ce098"
+    },
+    {
+      "path": "ViewModels\\Posologia\\PosologiaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\Posologia\\PosologiaFichaAdicionarViewModel.cs",
+      "raw_sha256": "baad1271048e2ee6fe8618068421f8ca390381e8c1092a62bbdab1573d89da19"
+    },
+    {
+      "path": "ViewModels\\Posologia\\PosologiaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\Posologia\\PosologiaFichaAtualizarViewModel.cs",
+      "raw_sha256": "c093e2ebdb391dffa3304d3236d9cec8f92b60cb998ed8a92ddbb2a054fb687c"
+    },
+    {
+      "path": "ViewModels\\Posologia\\PosologiaFormulario.cs",
+      "export_path": "ViewModels\\Posologia\\PosologiaFormulario.cs",
+      "raw_sha256": "e3ee54295a650032de600c35cb966e7ef90d6ff632e449fc34f57fb97440e3f2"
+    },
+    {
+      "path": "ViewModels\\Posologia\\PosologiaListaViewModel.cs",
+      "export_path": "ViewModels\\Posologia\\PosologiaListaViewModel.cs",
+      "raw_sha256": "5bb52bd473fc87ee029f7d48b8b86cce2a4531aa3f83e55f60b1cbce3ebf5ab8"
+    },
+    {
+      "path": "ViewModels\\Posologia\\PosologiasViewModel.cs",
+      "export_path": "ViewModels\\Posologia\\PosologiasViewModel.cs",
+      "raw_sha256": "663b782b72a5b0ffddef775f4fe28624556499d26dcf2f39e2a3372989f8e5d9"
+    },
+    {
+      "path": "ViewModels\\Posologia\\PosologiaViewModel.cs",
+      "export_path": "ViewModels\\Posologia\\PosologiaViewModel.cs",
+      "raw_sha256": "bb1043d74960c7cf7c36862bd286f60df5c47a771844f91c8250311477dda23d"
+    },
+    {
+      "path": "ViewModels\\ProximasAplicacoes\\AplicacaoGeradaViewModel.cs",
+      "export_path": "ViewModels\\ProximasAplicacoes\\AplicacaoGeradaViewModel.cs",
+      "raw_sha256": "88d2032dd754ef346a8b6389f4bc0a60bf4a1a2d2132328d39ba7f9886b74749"
+    },
+    {
+      "path": "ViewModels\\ProximasAplicacoes\\DataAplicacaoAlteradaEventArgs.cs",
+      "export_path": "ViewModels\\ProximasAplicacoes\\DataAplicacaoAlteradaEventArgs.cs",
+      "raw_sha256": "697bb899fa347a7b62ddb6746671fce44b1229a687a606f56710f1f173c82c28"
+    },
+    {
+      "path": "ViewModels\\ProximasAplicacoes\\ProximasAplicacoesAbaViewModel.cs",
+      "export_path": "ViewModels\\ProximasAplicacoes\\ProximasAplicacoesAbaViewModel.cs",
+      "raw_sha256": "90ec7a91e1a3dcf1c870caefde778a4cc3d1f058817bb36db0d80e1831718e44"
+    },
+    {
+      "path": "ViewModels\\ProximasAplicacoes\\ProximasAplicacoesFichaViewModel.cs",
+      "export_path": "ViewModels\\ProximasAplicacoes\\ProximasAplicacoesFichaViewModel.cs",
+      "raw_sha256": "f97a83a33552d81a05ff2dd1e215078b6578f1377826ffe288cc6a5b671d96c7"
+    },
+    {
+      "path": "ViewModels\\ProximasAplicacoes\\ProximasAplicacoesFormulario.cs",
+      "export_path": "ViewModels\\ProximasAplicacoes\\ProximasAplicacoesFormulario.cs",
+      "raw_sha256": "23923296687557bea249269bb899f69b681bc4bc9c513b73c7f0f3ee6f68d73b"
+    },
+    {
+      "path": "ViewModels\\ProximasAplicacoes\\ProximasAplicacoesViewModel.cs",
+      "export_path": "ViewModels\\ProximasAplicacoes\\ProximasAplicacoesViewModel.cs",
+      "raw_sha256": "fe234e158cdd3ce483e3f5a07b8b39713d8d263c58057ad75dc08f6241eac386"
+    },
+    {
+      "path": "ViewModels\\RacaAnimal\\RacaAnimalAbaViewModel.cs",
+      "export_path": "ViewModels\\RacaAnimal\\RacaAnimalAbaViewModel.cs",
+      "raw_sha256": "0a821cb1ef11cc023983d47b22f8b7e9191cecff9dc44429e18a41a4dddf923f"
+    },
+    {
+      "path": "ViewModels\\RacaAnimal\\RacaAnimalFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\RacaAnimal\\RacaAnimalFichaAdicionarViewModel.cs",
+      "raw_sha256": "9d746e433d470fda432b5d664dc15cd3b9eb0eff771ac60c57a96cdfe0324159"
+    },
+    {
+      "path": "ViewModels\\RacaAnimal\\RacaAnimalFormulario.cs",
+      "export_path": "ViewModels\\RacaAnimal\\RacaAnimalFormulario.cs",
+      "raw_sha256": "80f33f492cd9ff46c39099431ee874bc9b0c0b2ac09ec1ec5d2156b56471f656"
+    },
+    {
+      "path": "ViewModels\\RacaAnimal\\RacaAnimalListaViewModel.cs",
+      "export_path": "ViewModels\\RacaAnimal\\RacaAnimalListaViewModel.cs",
+      "raw_sha256": "3f5fe608f71486e5857cd07c5092a81e6e948a4d4cfe6ad48f4ac706666af6b5"
+    },
+    {
+      "path": "ViewModels\\RacaAnimal\\RacaAnimalViewModel.cs",
+      "export_path": "ViewModels\\RacaAnimal\\RacaAnimalViewModel.cs",
+      "raw_sha256": "a71fc20e595d6bd5a26a04e266eb465f71e090c001ef0f02e6b36f7398934259"
+    },
+    {
+      "path": "ViewModels\\RacaAnimal\\RacasAnimaisViewModel.cs",
+      "export_path": "ViewModels\\RacaAnimal\\RacasAnimaisViewModel.cs",
+      "raw_sha256": "56b3ec978703aa495251ad2c6985ad6658af13c1786c82706c1b2263c57cc51b"
+    },
+    {
+      "path": "ViewModels\\ReceituarioAbaViewModel.cs",
+      "export_path": "ViewModels\\ReceituarioAbaViewModel.cs",
+      "raw_sha256": "a5a34ccaf87ad4e4b3684f90ba0c3e92919bc0594c45b7a12e288824016b2723"
+    },
+    {
+      "path": "ViewModels\\ReceituarioFichaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\ReceituarioFichaManutencaoViewModel.cs",
+      "raw_sha256": "54e61556508c91f878cd8729d315368b4e6470b3d400804fb3c6e3a3fe6c870a"
+    },
+    {
+      "path": "ViewModels\\ReceituarioListaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\ReceituarioListaManutencaoViewModel.cs",
+      "raw_sha256": "6ee09c8f3140d2ddf1fc0e97646083ee4a515e67461fb0017fd468ee4ea30f58"
+    },
+    {
+      "path": "ViewModels\\ReceituarioViewModel.cs",
+      "export_path": "ViewModels\\ReceituarioViewModel.cs",
+      "raw_sha256": "4df8c985eeca689b4229821b962c1215193ca5f44b5b1a72feba72db650a4f91"
+    },
+    {
+      "path": "ViewModels\\TipoAdministracao\\TipoAdministracaoAbaViewModel.cs",
+      "export_path": "ViewModels\\TipoAdministracao\\TipoAdministracaoAbaViewModel.cs",
+      "raw_sha256": "b136acbdf5da1541f38092bda970edc302bbe70708c90cf9f4fa4eede583a560"
+    },
+    {
+      "path": "ViewModels\\TipoAdministracao\\TipoAdministracaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TipoAdministracao\\TipoAdministracaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "47f572900c46738e68f83e13cc779a5f748a49f8d1789eb55caec1f8bc74018e"
+    },
+    {
+      "path": "ViewModels\\TipoAdministracao\\TipoAdministracaoFormulario.cs",
+      "export_path": "ViewModels\\TipoAdministracao\\TipoAdministracaoFormulario.cs",
+      "raw_sha256": "45203cf7136f8d93ebd735999150254f12c340d3c195a2d4180aa556e3d02cef"
+    },
+    {
+      "path": "ViewModels\\TipoAdministracao\\TipoAdministracaoViewModel.cs",
+      "export_path": "ViewModels\\TipoAdministracao\\TipoAdministracaoViewModel.cs",
+      "raw_sha256": "d9ce71e888b816000be08c35423680e27e576825c67fb80f5f761327ab5dcdba"
+    },
+    {
+      "path": "ViewModels\\TipoAdministracao\\TiposAdministracaoViewModel.cs",
+      "export_path": "ViewModels\\TipoAdministracao\\TiposAdministracaoViewModel.cs",
+      "raw_sha256": "7d3ff7d7d9fb2d08c7d68d7b8799414136fc6e60bf25bc10945797595c011829"
+    },
+    {
+      "path": "ViewModels\\VacinacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\VacinacaoAbaViewModel.cs",
+      "raw_sha256": "cba628ae6f732a907dd979ecbddeeb77fd2835391611be6b26744313b56a0880"
+    },
+    {
+      "path": "ViewModels\\VacinacaoFichaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\VacinacaoFichaManutencaoViewModel.cs",
+      "raw_sha256": "404aed590c5c2b68b9c284d2c18203d6a67117adc82724c3cfe9e5091e125af4"
+    },
+    {
+      "path": "ViewModels\\VacinacaoListaManutencaoViewModel.cs",
+      "export_path": "ViewModels\\VacinacaoListaManutencaoViewModel.cs",
+      "raw_sha256": "07f40c9be8e367efcdfe3c8ec2b12094a82288199ed766f6f3a6df2815320b23"
+    },
+    {
+      "path": "ViewModels\\VacinacaoViewModel.cs",
+      "export_path": "ViewModels\\VacinacaoViewModel.cs",
+      "raw_sha256": "53fb3f02426d5c621581ef94a564f58828f583fc1518d36de633b30452af7c2a"
+    },
+    {
+      "path": "Views\\AnimaisView.cs",
+      "export_path": "Views\\AnimaisView.cs",
+      "raw_sha256": "41e8f8960c87d27e45723c2a64584fe763908c9ef1b5a27039d39bf55e2e8a7e"
+    },
+    {
+      "path": "Views\\AnimalFichaAdicionarView.cs",
+      "export_path": "Views\\AnimalFichaAdicionarView.cs",
+      "raw_sha256": "25ff3e0c14a20e4c59d0cdb6fcee0dc7fdfa136ef6cae983bb0401eaf3262aff"
+    },
+    {
+      "path": "Views\\AnimalFichaAtualizarView.cs",
+      "export_path": "Views\\AnimalFichaAtualizarView.cs",
+      "raw_sha256": "d9f1c6ee926b7c1e4bf1a9592c1f84db128c4f42f5629ffa58c1561714521385"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\AgendamentoView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\AgendamentoView.cs",
+      "raw_sha256": "fe8b1783d469987d6325adddcf8d4260864d8fa04d93cfd98beda8f790316d2c"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\AnexoView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\AnexoView.cs",
+      "raw_sha256": "85323d7c24bb5c4f40ea6d008309cbb80353fd8437f18ad5909762622c9e593a"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\AnimalView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\AnimalView.cs",
+      "raw_sha256": "8b26d9fa3f8b09942b4b49ec9fc5cf82e7cb5111f4ff2455f4ea8d6cb92fc90e"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\ConsultaListaView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\ConsultaListaView.cs",
+      "raw_sha256": "73af5182c5712c66901509ff0ba3b6026e07a06c1a48538eb15cdfde344b5a76"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\ConsultaView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\ConsultaView.cs",
+      "raw_sha256": "32a325ebbf667748d6e1799d262d0f15e5ded985f61aef871944e586a86b0827"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\ImpressoListaView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\ImpressoListaView.cs",
+      "raw_sha256": "75b1b26af0112657ba8490204df107bb4106fe4121f2a1b272d0c23276693c3b"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\ImpressoView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\ImpressoView.cs",
+      "raw_sha256": "2c882eaaf9c7be1c3ac5d520949314f7ab85154a0919e2456a77e866b4b60ed6"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\InternacaoView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\InternacaoView.cs",
+      "raw_sha256": "660fe6b85156cdab5c7a3199c1aa64a06eeb73c039abd70d4fcddd47b935f28e"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\PesagemListaView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\PesagemListaView.cs",
+      "raw_sha256": "37bfd13a32ee4605ba84857be33b3265d00455439aab6e4bf052854fc56ad0bc"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\PesagemView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\PesagemView.cs",
+      "raw_sha256": "2d5344127d0f85a0b2b4b7aff145ff49f9c1b2d60f2642d83af358368fe5c47a"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\ReceituarioListaView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\ReceituarioListaView.cs",
+      "raw_sha256": "7366dfc6b0ba6cf51274f1ba39eb5d4b973e9408d9f949cebdf490cd1d2b2ed8"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\ReceituarioView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\ReceituarioView.cs",
+      "raw_sha256": "60bef3d8738b05686c74fafee12dea7c8a1e3cb62f365698d8f5da68a40ca766"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\VacinacaoListaView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\VacinacaoListaView.cs",
+      "raw_sha256": "0641a6aea8d5edbda674e46f6784b0153a1830548e108abc4235c6ba0ade0cc3"
+    },
+    {
+      "path": "Views\\AnimalFichaViewDetalhes\\VacinacaoView.cs",
+      "export_path": "Views\\AnimalFichaViewDetalhes\\VacinacaoView.cs",
+      "raw_sha256": "8f35b9780d8276e37cfb8728cee7068c910ce12700dc21e9192c47edec378549"
+    },
+    {
+      "path": "Views\\AnimalListaView.cs",
+      "export_path": "Views\\AnimalListaView.cs",
+      "raw_sha256": "c9aef18d624ffb03e9c00fb52898b53c9c86ea160ba67e06b92139f6ec0116f0"
+    },
+    {
+      "path": "Views\\Dose\\DoseFichaAdicionarView.cs",
+      "export_path": "Views\\Dose\\DoseFichaAdicionarView.cs",
+      "raw_sha256": "b9d18180889478cf58ddc8a1e3fdfa581e21d105c707ea381a7c465f2096661d"
+    },
+    {
+      "path": "Views\\Dose\\DoseFichaViewDetalhes\\DoseView.cs",
+      "export_path": "Views\\Dose\\DoseFichaViewDetalhes\\DoseView.cs",
+      "raw_sha256": "3a23aa4d169453c08cd5d079ee46c028bd8e1710e58fedb4f5ba1ee24b6e15c5"
+    },
+    {
+      "path": "Views\\EspecieAnimal\\EspecieAnimalFichaAdicionarView.cs",
+      "export_path": "Views\\EspecieAnimal\\EspecieAnimalFichaAdicionarView.cs",
+      "raw_sha256": "f86e5a303e12a1bf5fcbf8389d0ba0f5c562304f8329883ebc9b3e8998626eb9"
+    },
+    {
+      "path": "Views\\EspecieAnimal\\EspecieAnimalListaView.cs",
+      "export_path": "Views\\EspecieAnimal\\EspecieAnimalListaView.cs",
+      "raw_sha256": "1dc3759062e3970f27a584e016735a20288296818ef6d49b9d09202806ca5c29"
+    },
+    {
+      "path": "Views\\Posologia\\PosologiaFichaAdicionarView.cs",
+      "export_path": "Views\\Posologia\\PosologiaFichaAdicionarView.cs",
+      "raw_sha256": "434bccbc7b176963740b7f706bf0f760df67097fd0fccbe9f1d15bc99ecc701b"
+    },
+    {
+      "path": "Views\\Posologia\\PosologiaFichaAtualizarView.cs",
+      "export_path": "Views\\Posologia\\PosologiaFichaAtualizarView.cs",
+      "raw_sha256": "2b98ec63c9edf70046a755884d3e952ea4a392d38643e4735dfc043b65f0d4b2"
+    },
+    {
+      "path": "Views\\Posologia\\PosologiaFichaViewDetalhes\\PosologiaView.cs",
+      "export_path": "Views\\Posologia\\PosologiaFichaViewDetalhes\\PosologiaView.cs",
+      "raw_sha256": "f168fcfcfe1a8b047b9272784d886bc9a117b74303318ec8f3201b919927516f"
+    },
+    {
+      "path": "Views\\Posologia\\PosologiaListaView.cs",
+      "export_path": "Views\\Posologia\\PosologiaListaView.cs",
+      "raw_sha256": "215857e13397eb2364c1c0068ad175ee990747d2ee87e3fb1b29da99f3ce71ea"
+    },
+    {
+      "path": "Views\\ProximasAplicacoes\\ProximasAplicacoesFichaView.cs",
+      "export_path": "Views\\ProximasAplicacoes\\ProximasAplicacoesFichaView.cs",
+      "raw_sha256": "073f89e2127e604ff80e4fafef8288a3385b77847c6b6914ae7af1cc22bfa818"
+    },
+    {
+      "path": "Views\\ProximasAplicacoes\\ProximasAplicacoesView.cs",
+      "export_path": "Views\\ProximasAplicacoes\\ProximasAplicacoesView.cs",
+      "raw_sha256": "9df0a4d9e2c49079e95e8f1929b80b697be486a391be3ca4746df494f4225546"
+    },
+    {
+      "path": "Views\\RacaAnimal\\RacaAnimalFichaAdicionarView.cs",
+      "export_path": "Views\\RacaAnimal\\RacaAnimalFichaAdicionarView.cs",
+      "raw_sha256": "9a24e46e859f1ae65225c759123711c31d7923eab5ec34fc7d09fc137cbe83f4"
+    },
+    {
+      "path": "Views\\RacaAnimal\\RacaAnimalListaView.cs",
+      "export_path": "Views\\RacaAnimal\\RacaAnimalListaView.cs",
+      "raw_sha256": "2243f461d86a92707b8e80887f81a356665a7fb497d30472a97c2360105d2829"
+    },
+    {
+      "path": "Views\\tipoadministracao\\TipoAdministracaoFichaAdicionarView.cs",
+      "export_path": "Views\\tipoadministracao\\TipoAdministracaoFichaAdicionarView.cs",
+      "raw_sha256": "61411d34eaa66bceced1707f3c0eb02154620387f3e9ce6f5bbbadbfc3c72a3f"
+    },
+    {
+      "path": "Views\\tipoadministracao\\TipoAdministracaoFichaViewDetalhes\\TipoAdministracaoView.cs",
+      "export_path": "Views\\tipoadministracao\\TipoAdministracaoFichaViewDetalhes\\TipoAdministracaoView.cs",
+      "raw_sha256": "0aa1ebbfaddd4ad2c9ba21ede707b8e06072f7e6f2b14eb46836dbdebf5f6eda"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Animais.g.resources",
+      "file": "0000.bin",
+      "bytes": 185862,
+      "sha256": "a31952c1f4262870b75389dbdb650248aa00850307619f4266e5ed8af067e49d"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoAtestadoTransito.resources",
+      "file": "0002.bin",
+      "bytes": 867,
+      "sha256": "509df1bba54400439a9b5b8b38fb59bbf5d3aee4d86aac0f83079220e1530466"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoAtestadoGenerico.resources",
+      "file": "0003.bin",
+      "bytes": 2304,
+      "sha256": "41fd014b0a43baae79fc211e8e21dea13f9e85ea9e6230c836b525876d5f71fd"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoConsulta.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoFichaCadastral.resources",
+      "file": "0005.bin",
+      "bytes": 616,
+      "sha256": "c8e025c715c5bdd7a58d6132c0720547e2b0ad15d160e8fb50f8e8007f6294d5"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoReceiturario.resources",
+      "file": "0006.bin",
+      "bytes": 2424,
+      "sha256": "01bc194299d720a1dcdf2b8db24ea87bd349fc2c049fbd745290d2ce5c4e79f4"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoTermoRetiradaSemAlta.resources",
+      "file": "0007.bin",
+      "bytes": 1222,
+      "sha256": "32a970d9bcf41acbeaeada156487b46d515638dc996b0b094b7735d9412f8919"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoTermoEutanasia.resources",
+      "file": "0008.bin",
+      "bytes": 1168,
+      "sha256": "65281e10758a2c6a24359f5a322ac85804d0ef1b50721afcbbb7f131baa80f49"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoTermoCirurgicoAnestesico.resources",
+      "file": "0009.bin",
+      "bytes": 1762,
+      "sha256": "f55c13ff1c296bb2f5258b8e029895eca40900e548b3cb973322d2321825b560"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoAtestadoVacinacao.resources",
+      "file": "0010.bin",
+      "bytes": 2304,
+      "sha256": "41fd014b0a43baae79fc211e8e21dea13f9e85ea9e6230c836b525876d5f71fd"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoFichaClinicaAnimal.resources",
+      "file": "0011.bin",
+      "bytes": 616,
+      "sha256": "c8e025c715c5bdd7a58d6132c0720547e2b0ad15d160e8fb50f8e8007f6294d5"
+    }
+  ],
+  "generated_stubs": false
+}

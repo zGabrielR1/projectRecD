@@ -1,0 +1,24 @@
+{
+  "artifactSha256": "26ffed48484bdd9e9210034d2076c07f713fed969c9dd877039d28133c7e5386",
+  "mvid": "91c0799e-4f08-465f-aa32-5796302826d9",
+  "assembly": "SincronizadorG6, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": "Sincronizador.Program",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "Akka.DI.SimpleInjector",
+    "Akka",
+    "SimpleInjector",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Data.Core",
+    "NLog",
+    "Topshelf",
+    "System.ServiceProcess",
+    "MongoDB.Driver.Core",
+    "DigisatServer.Infrastructure.Crosscutting.RegistroSistema",
+    "MongoDB.Driver",
+    "System.Core",
+    "Topshelf.NLog"
+  ],
+  "resources": []
+}

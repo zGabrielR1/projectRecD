@@ -1,0 +1,234 @@
+{
+  "name": "Modulo.Devolucoes",
+  "baseline": "baseline\\Modulo.Devolucoes.dll",
+  "baseline_sha256": "caa9da2b7b00accf8d5676c8d0783bdf92b1c4de68e88db07f82d396d6b23a1d",
+  "export_project": "recovered\\SuiteG6\\Modulo.Devolucoes\\Modulo.Devolucoes.csproj",
+  "sources": [
+    {
+      "path": "DevolucaoModulo.cs",
+      "export_path": "DevolucaoModulo.cs",
+      "raw_sha256": "c420928f9172bb6f69552061c449da1afdb94a7b6089084bb5928af5ce29de23"
+    },
+    {
+      "path": "Interfaces\\IDevolucaoViewModel.cs",
+      "export_path": "Interfaces\\IDevolucaoViewModel.cs",
+      "raw_sha256": "aee32986503a3ef304fed2456369f90cfffd6b7570803a62f8d240442aab7cc6"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f5caecb81c043f9fa9b5bcbe9cdd1da0089a6b494baddd83cead51ffbf9e4d88"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "2de7826d47c50647d60a92316e6ebb26c1ddb88e25ca3f8600dbd1f170a918da"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "dc61dd148e89b8b24c76278b928df371a87a37b2cc42214b48d83379a9d3e990"
+    },
+    {
+      "path": "Reports\\DevolucaoRelatorio.cs",
+      "export_path": "Reports\\DevolucaoRelatorio.cs",
+      "raw_sha256": "eaf6c3a212fbd34781acf178eb399a74f90cd0318ecc289cd6b64671f9dffc41"
+    },
+    {
+      "path": "Reports\\ImpressoCredito.cs",
+      "export_path": "Reports\\ImpressoCredito.cs",
+      "raw_sha256": "3f6e583d5630a6150e650bf0242916311dcc6463700a35f574f9b9c3d5d1279e"
+    },
+    {
+      "path": "Reports\\ImpressoCredito56Mm57Mm58Mm.cs",
+      "export_path": "Reports\\ImpressoCredito56Mm57Mm58Mm.cs",
+      "raw_sha256": "8b3908e8f2513d74fe7662e0357882828c794c23418ab433a6e0389a8c74f69a"
+    },
+    {
+      "path": "Reports\\ImpressoCredito79Mm80Mm.cs",
+      "export_path": "Reports\\ImpressoCredito79Mm80Mm.cs",
+      "raw_sha256": "ee06dfa57d396ea52e5e7be2f5d280c34f94cf32649f449957b515b6b561e363"
+    },
+    {
+      "path": "ViewModels\\DevolucaoAbaViewModel.cs",
+      "export_path": "ViewModels\\DevolucaoAbaViewModel.cs",
+      "raw_sha256": "2762a6a7561e19732dd64f8d06c35aeb21cecb1dee0e714f813706294237c596"
+    },
+    {
+      "path": "ViewModels\\DevolucaoDavViewModel.cs",
+      "export_path": "ViewModels\\DevolucaoDavViewModel.cs",
+      "raw_sha256": "ffd989970a369b97d11ec9d1193ec59c527b8013ba9fb34f192a1b15b38ffc37"
+    },
+    {
+      "path": "ViewModels\\DevolucaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\DevolucaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "e28abba3502463e9cfb4617866f3c1f6204b0751f72a975131129217f9986e0c"
+    },
+    {
+      "path": "ViewModels\\DevolucaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\DevolucaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "0fdc2639a905e9c95d3a1520d43f2f393e948892451be579ca4d7c8a5907a777"
+    },
+    {
+      "path": "ViewModels\\DevolucaoFormulario.cs",
+      "export_path": "ViewModels\\DevolucaoFormulario.cs",
+      "raw_sha256": "252067441d9c43ce04e046f51aa8115981c8b779f1fcb82e965345c078e7ca11"
+    },
+    {
+      "path": "ViewModels\\DevolucaoListaViewModel.cs",
+      "export_path": "ViewModels\\DevolucaoListaViewModel.cs",
+      "raw_sha256": "e10efbe85d735a58bd62b9006890ce9afef74a9f5d83e1a632661ab467db105d"
+    },
+    {
+      "path": "ViewModels\\DevolucaoPadraoViewModel.cs",
+      "export_path": "ViewModels\\DevolucaoPadraoViewModel.cs",
+      "raw_sha256": "5018a089df2be251dbc80f4dfdbbff2f957ac29f11a102249ea42f48046632f9"
+    },
+    {
+      "path": "ViewModels\\DevolucaoViewModel.cs",
+      "export_path": "ViewModels\\DevolucaoViewModel.cs",
+      "raw_sha256": "5abe56f02c750cba2f3467ee501fe30ac023b69bb2bb73bfe85012761c8e3c40"
+    },
+    {
+      "path": "ViewModels\\DevolucoesViewModel.cs",
+      "export_path": "ViewModels\\DevolucoesViewModel.cs",
+      "raw_sha256": "c65d3587cd0e11c490c365d24c5d2f190ba705d12d4e2fe90c5bde8f1ae7c562"
+    },
+    {
+      "path": "ViewModels\\ItemDevolvidoDavViewModel.cs",
+      "export_path": "ViewModels\\ItemDevolvidoDavViewModel.cs",
+      "raw_sha256": "3b298ac9900099e0a777b4186a27dddb095f0c8847e66f3af2e0c59651976e10"
+    },
+    {
+      "path": "ViewModels\\ItemDevolvidoViewModel.cs",
+      "export_path": "ViewModels\\ItemDevolvidoViewModel.cs",
+      "raw_sha256": "e48598d36ab74cadc35f1dd837fa9a5f023bf298dae79b08b17b8e4ab30970e0"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DevolucaoDav.cs",
+      "export_path": "ViewModels\\Tipos\\DevolucaoDav.cs",
+      "raw_sha256": "2b41b4c209fba44cebb03505977769beaecd68be9da5c9b19cbdd262182e98cf"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DevolucaoVenda.cs",
+      "export_path": "ViewModels\\Tipos\\DevolucaoVenda.cs",
+      "raw_sha256": "7a5874b9a9b3ea11c0599d93f8306340b4da9e67c96a939c1d12229d68c1eebf"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TipoDevolucao.cs",
+      "export_path": "ViewModels\\Tipos\\TipoDevolucao.cs",
+      "raw_sha256": "621623d1fff7ada756c957db7d3e96463762e06339071f0f663dca2036151e35"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TiposDevolucaoComboboxViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\TiposDevolucaoComboboxViewModel.cs",
+      "raw_sha256": "1c324af4576192f320415f03acff33d74afb597f0f869f8e04007b25f0887c69"
+    },
+    {
+      "path": "Views\\DevolucaoFichaAdicionarView.cs",
+      "export_path": "Views\\DevolucaoFichaAdicionarView.cs",
+      "raw_sha256": "e28fd6bde131dd59eb5b13b3a4919ef11363e863f38b656994f8dfcd53390df5"
+    },
+    {
+      "path": "Views\\DevolucaoFichaAtualizarView.cs",
+      "export_path": "Views\\DevolucaoFichaAtualizarView.cs",
+      "raw_sha256": "fa7c3bd6bb1cf94f58c8372e1b61f312a7bbe733e476fe2df8667f2ef4d8e8c4"
+    },
+    {
+      "path": "Views\\DevolucaoListaView.cs",
+      "export_path": "Views\\DevolucaoListaView.cs",
+      "raw_sha256": "2b57dadbe3cebc6efad6739b559084609ffc92d4b250b3ab29222f6a40c3ce4e"
+    },
+    {
+      "path": "Views\\DevolucaoViewDetalhes\\DevolucaoView.cs",
+      "export_path": "Views\\DevolucaoViewDetalhes\\DevolucaoView.cs",
+      "raw_sha256": "a669af635cbbbd065d9ab5d90c1ee1addbf0c9cf25bcd1f2fc1bdcee520d8a49"
+    },
+    {
+      "path": "Views\\DevolucoesView.cs",
+      "export_path": "Views\\DevolucoesView.cs",
+      "raw_sha256": "18bea01a070179d80d506e3f3b3bd4f548d41a6f802d765497d008c4b967a447"
+    },
+    {
+      "path": "Views\\LinkAjustarEstoqueDevolucaoDav.cs",
+      "export_path": "Views\\LinkAjustarEstoqueDevolucaoDav.cs",
+      "raw_sha256": "1d880b61a4ce695dd4d78b046ca103cb6940ccd37b6b694d893ffaef8683fc4a"
+    },
+    {
+      "path": "Views\\LinkAjustarEstoqueMei.cs",
+      "export_path": "Views\\LinkAjustarEstoqueMei.cs",
+      "raw_sha256": "7740aef4dc9f71d43a6f94a44f1d4007acd2ef11164964babadd10187942c23d"
+    },
+    {
+      "path": "Views\\LinkCancelar.cs",
+      "export_path": "Views\\LinkCancelar.cs",
+      "raw_sha256": "0710b9e571b849210df1b22c5fd5298417e4ed2321aa17ec9cbe089443a69e16"
+    },
+    {
+      "path": "Views\\LinkGerarCredito.cs",
+      "export_path": "Views\\LinkGerarCredito.cs",
+      "raw_sha256": "5b682c3ce7d871f7386f2f5d25acdad81c60d67f756c01b9b08c7144853b7c15"
+    },
+    {
+      "path": "Views\\LinkGerarNotaCompraDevolucao.cs",
+      "export_path": "Views\\LinkGerarNotaCompraDevolucao.cs",
+      "raw_sha256": "f9ec8e14adcc5cabdd121c5a7ff258cd1f36d2355523a0c9c674ce9a4a08fb8c"
+    },
+    {
+      "path": "Views\\LinkGerarNotaDevolucao.cs",
+      "export_path": "Views\\LinkGerarNotaDevolucao.cs",
+      "raw_sha256": "7db26d3c6ff8ddc89af72a4b9116bd7d9106e60627bd46b5620888c387bfbd45"
+    },
+    {
+      "path": "Views\\LinkImprimir.cs",
+      "export_path": "Views\\LinkImprimir.cs",
+      "raw_sha256": "e3dfde03b98654ae14b1705c55defbb666f79b8e0ccff206bc3b163507d3f786"
+    },
+    {
+      "path": "Views\\LinkImprimir40Colunas.cs",
+      "export_path": "Views\\LinkImprimir40Colunas.cs",
+      "raw_sha256": "c576a0ae8a85588841f6956b2d19d43a91a48c86ecc3b466f891b97cb2049999"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Devolucoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 44988,
+      "sha256": "a9acb39f78e61b28ebfec41bb4dfe089224486f86f0ec4231ad77a1c3c634db1"
+    },
+    {
+      "name": "Otus.Modulo.Devolucoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Devolucoes.Reports.ImpressoCredito56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Devolucoes.Reports.ImpressoCredito79Mm80Mm.resources",
+      "file": "0003.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Otus.Modulo.Devolucoes.Reports.ImpressoCredito.resources",
+      "file": "0004.bin",
+      "bytes": 2486,
+      "sha256": "6ae3f05a6375ba56235e22bfc7aa8d8966f5ae16c09d8a4ecc01d4d06c8d0d69"
+    },
+    {
+      "name": "Modulo.Devolucoes.dll.licenses",
+      "file": "0005.bin",
+      "bytes": 281,
+      "sha256": "5603f77728d1c631c8146c308ef57ee398b104b0eaee6dcd0790b08036732ec0"
+    }
+  ],
+  "generated_stubs": false
+}

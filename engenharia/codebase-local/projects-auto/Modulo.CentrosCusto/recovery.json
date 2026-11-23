@@ -1,0 +1,132 @@
+{
+  "name": "Modulo.CentrosCusto",
+  "baseline": "baseline\\Modulo.CentrosCusto.dll",
+  "baseline_sha256": "41271cb752c850b2305bf75cf0e970a00bc8791b182f9ff1a07dd664d73806d9",
+  "export_project": "recovered\\SuiteG6\\Modulo.CentrosCusto\\Modulo.CentrosCusto.csproj",
+  "sources": [
+    {
+      "path": "CentroCustoModulo.cs",
+      "export_path": "CentroCustoModulo.cs",
+      "raw_sha256": "091140512c650785bbff872793f79ff7fed3daeb88b77aed866609040908cd4d"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "3b352938f1ca247582362d7e8ba78723b7174f05940e9e129d50a6c0afcf42af"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "6aa1ed380df82060050915aa938785b8b8fd49109af34ac1b32efe24adfcaccf"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "c6c36b45489db8031fbbfb96b116d4532dc9093f71f5b79e7223e3f91a36e75c"
+    },
+    {
+      "path": "Reports\\Relatorio.cs",
+      "export_path": "Reports\\Relatorio.cs",
+      "raw_sha256": "db1f7870ba5ba0338e5ed15315cd7994a5fd648eb7d02cad17dcaf29a0df19c9"
+    },
+    {
+      "path": "ViewModels\\CentroCustoAbaViewModel.cs",
+      "export_path": "ViewModels\\CentroCustoAbaViewModel.cs",
+      "raw_sha256": "18cb701defb0a8d7f22ebe1e62db26e157328038337f8df86a2117ea0038b0cd"
+    },
+    {
+      "path": "ViewModels\\CentroCustoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\CentroCustoFichaAdicionarViewModel.cs",
+      "raw_sha256": "617548bd439350b092e908a4bd0ec33a2b5b2493857859284baf68574c3180b1"
+    },
+    {
+      "path": "ViewModels\\CentroCustoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\CentroCustoFichaAtualizarViewModel.cs",
+      "raw_sha256": "107718fa1085ce02159aec166066db5e0203a8b666d2bd91ba7198e9c7467385"
+    },
+    {
+      "path": "ViewModels\\CentroCustoFormulario.cs",
+      "export_path": "ViewModels\\CentroCustoFormulario.cs",
+      "raw_sha256": "1a59d28255cfd2215c793f0fc8ade8a00fcdf77d53e66754e14b84ba9768a3d3"
+    },
+    {
+      "path": "ViewModels\\CentroCustoListaViewModel.cs",
+      "export_path": "ViewModels\\CentroCustoListaViewModel.cs",
+      "raw_sha256": "84960dd041fdd4b416fca6fa61012a912bc7a2a95a20742902ddd14d98096dc0"
+    },
+    {
+      "path": "ViewModels\\CentroCustoPrincipal.cs",
+      "export_path": "ViewModels\\CentroCustoPrincipal.cs",
+      "raw_sha256": "72bda4ad58447e20596557ffce342d980e697a5b93d20425ef291f9aa8ae03c3"
+    },
+    {
+      "path": "ViewModels\\CentroCustoViewModel.cs",
+      "export_path": "ViewModels\\CentroCustoViewModel.cs",
+      "raw_sha256": "f13c27a11c14e27bbc7af5cceaa8faa86531ae4a5f541260bc397c94e92be5b0"
+    },
+    {
+      "path": "ViewModels\\CentrosCustoViewModel.cs",
+      "export_path": "ViewModels\\CentrosCustoViewModel.cs",
+      "raw_sha256": "e970e11864390004249c2ba75e0bf1988b8b6a23097e26e08a56a1bbe9064303"
+    },
+    {
+      "path": "Views\\CentroCustoFichaAdicionarView.cs",
+      "export_path": "Views\\CentroCustoFichaAdicionarView.cs",
+      "raw_sha256": "702a66fb5a265ca16cdbc52bb95f979b53ec569a7075547b13617195bf0e54a8"
+    },
+    {
+      "path": "Views\\CentroCustoFichaAtualizarView.cs",
+      "export_path": "Views\\CentroCustoFichaAtualizarView.cs",
+      "raw_sha256": "d76e7a7396fda72280fad964242141fd56d5987aa55b02fd6070fc0370ee8f14"
+    },
+    {
+      "path": "Views\\CentroCustoFichaViewDetalhes\\CentroCustoView.cs",
+      "export_path": "Views\\CentroCustoFichaViewDetalhes\\CentroCustoView.cs",
+      "raw_sha256": "80186eb8986d40de500c0d7b2311471f1ffe95eb81855718773040f624fbd8ef"
+    },
+    {
+      "path": "Views\\CentroCustoListaView.cs",
+      "export_path": "Views\\CentroCustoListaView.cs",
+      "raw_sha256": "69ee71e992ee43d7326f725b3926ac9dde0b8a0515ac00815909eebb5086a75b"
+    },
+    {
+      "path": "Views\\CentrosCustoView.cs",
+      "export_path": "Views\\CentrosCustoView.cs",
+      "raw_sha256": "89a54c3b49bbc8905208840951dad17167073f469346f12807fbf560e6e25522"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Qualify report enum types shadowed by WPF imports or instance properties",
+      "occurrences": 11
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.CentrosCusto.g.resources",
+      "file": "0000.bin",
+      "bytes": 11127,
+      "sha256": "58ceb396db237362ec0a275d483a83cd7fc1f12bd03c10d87f0cc12fedcbedba"
+    },
+    {
+      "name": "Otus.Modulo.CentrosCusto.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.CentrosCusto.Reports.Relatorio.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.CentrosCusto.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 283,
+      "sha256": "071738f2a3e13b6684e7d8adf8b6623517e0250c2c4f87603c2e3c11c746a550"
+    }
+  ],
+  "generated_stubs": false
+}

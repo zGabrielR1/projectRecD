@@ -1,0 +1,18 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Report, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DevExpress.XtraReports.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "System.Windows.Forms",
+    "System.Drawing",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DevExpress.Data.v15.2",
+    "System.Core",
+    "PresentationFramework"
+  ]
+}

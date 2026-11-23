@@ -1,0 +1,41 @@
+{
+  "artifactSha256": "b85607cf5e5b33048a1e811d741e2d790529b247abe7aad6f8c66c6749bf0643",
+  "mvid": "4ac499a0-d43c-4cd8-b28f-410515553797",
+  "assembly": "Modulo.GerenciadorTickets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Windows.Forms",
+    "QRCoder",
+    "System.Drawing",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GerenciadorTickets.g.resources",
+      "file": "0000.bin",
+      "bytes": 30695,
+      "sha256": "3ee19ab59b2f2b4d80b7a14111dda780c5b0a448ad5c3c8a374b35f2f27d2ce7"
+    },
+    {
+      "name": "Otus.Modulo.GerenciadorTickets.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

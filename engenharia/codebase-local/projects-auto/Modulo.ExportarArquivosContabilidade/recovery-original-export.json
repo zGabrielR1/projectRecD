@@ -1,0 +1,130 @@
+{
+  "name": "Modulo.ExportarArquivosContabilidade",
+  "baseline": "baseline\\Modulo.ExportarArquivosContabilidade.dll",
+  "baseline_sha256": "b94aa8fbfab3508a568e0b4972121f1a7bfad54a363a1656e9b92e15359bfc00",
+  "export_project": "recovered\\SuiteG6\\Modulo.ExportarArquivosContabilidade\\Modulo.ExportarArquivosContabilidade.csproj",
+  "sources": [
+    {
+      "path": "ExportarArquivoContabilidadeModulo.cs",
+      "export_path": "ExportarArquivoContabilidadeModulo.cs",
+      "raw_sha256": "82869975e5a8b2e92b1d91612e9def031e4e92ecc0e5baa1a7e10fb655902c16"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "3a7eaca9d2f2804d31ed69df6fb3184f9152ee0e9a02f0f8fec5834aa2a65ac0"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "360b9d86e5f6b97a00d7c83130f13928fce39b3802a2709939e84dffe98d8c5a"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "89521dba7326a9726838f5b84f0d985c8504d1373e824b811cd34c5f6e60d302"
+    },
+    {
+      "path": "ViewModels\\ExportarArquivoContabilidadeAbaViewModel.cs",
+      "export_path": "ViewModels\\ExportarArquivoContabilidadeAbaViewModel.cs",
+      "raw_sha256": "a735fca9e72c3e1cb19e410f0c48aa7b2c4c11774961333ee875977e07c5d4fd"
+    },
+    {
+      "path": "ViewModels\\ExportarArquivoContabilidadeFichaViewModel.cs",
+      "export_path": "ViewModels\\ExportarArquivoContabilidadeFichaViewModel.cs",
+      "raw_sha256": "7845aa5b1163fd17ee1bad235903fcdb86ef06e0a25a9247bb36a5ebeb820afc"
+    },
+    {
+      "path": "ViewModels\\ExportarArquivoContabilidadeFormulario.cs",
+      "export_path": "ViewModels\\ExportarArquivoContabilidadeFormulario.cs",
+      "raw_sha256": "2c14b105408dd69473628d99b67eada08bae0453154d38cbb4b0755cea1e41cd"
+    },
+    {
+      "path": "ViewModels\\ExportarArquivoContabilidadeViewModel.cs",
+      "export_path": "ViewModels\\ExportarArquivoContabilidadeViewModel.cs",
+      "raw_sha256": "277a3fe7380c370c7b2e0e8f5e895dbbb9d1d6df30789c392fc37f12cccd426b"
+    },
+    {
+      "path": "ViewModels\\ExportarArquivosContabilidadeViewModel.cs",
+      "export_path": "ViewModels\\ExportarArquivosContabilidadeViewModel.cs",
+      "raw_sha256": "72b6d32853ca2f71e32d7c47016a27ac9ec35aa2a233f4b9a5a4ec4e2593daee"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\AlterdataContabilViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\AlterdataContabilViewModel.cs",
+      "raw_sha256": "7158cb0a3b4bd9c266a9511991105a361e7712f389a0d8436fc3b1474e616def"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\ArquivoCsvViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\ArquivoCsvViewModel.cs",
+      "raw_sha256": "6f0e95f7f7febf1ac05ecab4e1d87a5be1d0d2232354a3ab648c9583d8baeca7"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\DominioViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\DominioViewModel.cs",
+      "raw_sha256": "4257ec0bc05c793e8403048fbe4b81da2234c200d12f93d20da6e8c41db6d495"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\EfphViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\EfphViewModel.cs",
+      "raw_sha256": "6f6266c46c33381980a32d21189496544ba1414aa4bf3b56bc94c84009f9e9f4"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\FortesFiscalViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\FortesFiscalViewModel.cs",
+      "raw_sha256": "eb8465e313dc72b8b2a43bd1f565dbc7d2369b76592ed1a4431c1755e03c2727"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\ILayoutArquivoViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\ILayoutArquivoViewModel.cs",
+      "raw_sha256": "c3e5951d6283d55eafd67f50e69ec2cb701c0e67d287d6257185d6c6f2acf853"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\LeiauteArquivoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\LeiauteArquivoComboBoxViewModel.cs",
+      "raw_sha256": "234f4cc1c113eeaacd3514bd056be7163bb9d0a3d27a953b3b6b4e737cacb91a"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\LeiauteArquivoViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\LeiauteArquivoViewModel.cs",
+      "raw_sha256": "33a1b9020fef8ca7a9fc8df8bd1a5e64a48f55ca97fbb981d21e16f7b14fdb4e"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\QuestorContabilViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\QuestorContabilViewModel.cs",
+      "raw_sha256": "bbcf6473116dbcfc4c79a3023bbb4bdd902d95f0928ad1c2bb189352b0c953a0"
+    },
+    {
+      "path": "ViewModels\\LeiautesArquivo\\SiesconViewModel.cs",
+      "export_path": "ViewModels\\LeiautesArquivo\\SiesconViewModel.cs",
+      "raw_sha256": "4695b54534f212c8d15f1b587c67d6cdbd6c4ea7f36b6fa22b1b125c8e32c6a6"
+    },
+    {
+      "path": "Views\\ExportarArquivoContabilidadeFichaView.cs",
+      "export_path": "Views\\ExportarArquivoContabilidadeFichaView.cs",
+      "raw_sha256": "7a1dcb776b7c5bc4d3968063d7bbd7d24073b94aaad8a5ef8ab6013c38c59780"
+    },
+    {
+      "path": "Views\\ExportarArquivosContabilidadeView.cs",
+      "export_path": "Views\\ExportarArquivosContabilidadeView.cs",
+      "raw_sha256": "402e4f0358dfa133b6a451e16885e42198c52afdb83eea2580ed5a97d55badc7"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.ExportarArquivosContabilidade.g.resources",
+      "file": "0000.bin",
+      "bytes": 16931,
+      "sha256": "940ec2332a85e390a9887b2bea52148e8c169f549b2ae523fff9655eae3ff620"
+    },
+    {
+      "name": "Otus.Modulo.ExportarArquivosContabilidade.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

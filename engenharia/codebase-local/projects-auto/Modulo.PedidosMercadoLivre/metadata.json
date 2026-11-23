@@ -1,0 +1,56 @@
+{
+  "artifactSha256": "1a744b74db6bbb9b98b13cde1a3029e31d4f9ace60abb6a943e440c9c0784fbc",
+  "mvid": "7c2c3e5d-cc9f-40e3-a248-03dd0e35b4f9",
+  "assembly": "Modulo.PedidosMercadoLivre, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Infraestrutura",
+    "System.Windows.Forms",
+    "DigisatServer.Application.Main.Dto",
+    "DevExpress.XtraReports.v15.2",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "System.Net.Http",
+    "System.Drawing",
+    "System.IO.Compression",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.PedidosMercadoLivre.g.resources",
+      "file": "0000.bin",
+      "bytes": 11076,
+      "sha256": "71868673bd85866d7c07284e326b8d689e3a7bcddd371772f855063d7df019b3"
+    },
+    {
+      "name": "Otus.Modulo.PedidosMercadoLivre.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PedidosMercadoLivre.Reports.PedidoMercadoLivre.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.PedidosMercadoLivre.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 290,
+      "sha256": "2b38951011d164884b5a61b7c03a687677eefaee7042f1928af3836347506b5d"
+    }
+  ]
+}

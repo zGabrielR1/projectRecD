@@ -1,0 +1,84 @@
+{
+  "name": "Modulo.SubstituicoesMateriaPrima",
+  "baseline": "baseline\\Modulo.SubstituicoesMateriaPrima.dll",
+  "baseline_sha256": "9537861341c1174255ae7c03823e49e14522f7b50756dbe7eba009052a89ce70",
+  "export_project": "recovered\\SuiteG6\\Modulo.SubstituicoesMateriaPrima\\Modulo.SubstituicoesMateriaPrima.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "a8892b984b055e9fb6265d0cb6229c0c8955a81e01cf33b0c669b88256372ce3"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "11d635000a56b8638c39ab27084e071ca79567e04e7ce2a7f723feb307d7ff36"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "2095689b98529f4272091d6f92671943c0b72a5fae8f0b898e4de73fa6d8d5f6"
+    },
+    {
+      "path": "SubstituicaoMateriaPrimaModulo.cs",
+      "export_path": "SubstituicaoMateriaPrimaModulo.cs",
+      "raw_sha256": "12375946cb3f54e4f93aee786fd4191c2a46918629942b2b3d119093af5fb20c"
+    },
+    {
+      "path": "ViewModels\\MateriaPrimaViewModel.cs",
+      "export_path": "ViewModels\\MateriaPrimaViewModel.cs",
+      "raw_sha256": "07a6088127f2492683a8d677ff3bf0a3a3a2807240e7c126604e833cfdcd3f34"
+    },
+    {
+      "path": "ViewModels\\ProdutoProduzidoViewModel.cs",
+      "export_path": "ViewModels\\ProdutoProduzidoViewModel.cs",
+      "raw_sha256": "ea9fcc505585dcc5554e53fc7088deabba88f7aa89fa75e1c7b4083e9e02ce73"
+    },
+    {
+      "path": "ViewModels\\SubstituicaoMateriaPrimaFichaViewModel.cs",
+      "export_path": "ViewModels\\SubstituicaoMateriaPrimaFichaViewModel.cs",
+      "raw_sha256": "bd46634871faba57809b96a5c7854ae870d78d71c872fac414730da6a42444bb"
+    },
+    {
+      "path": "ViewModels\\SubstituicoesMateriaPrimaViewModel.cs",
+      "export_path": "ViewModels\\SubstituicoesMateriaPrimaViewModel.cs",
+      "raw_sha256": "87955e20e056bbef3fd83fe05d94636dc9e798689d3e37e636bf2605c37530ee"
+    },
+    {
+      "path": "Views\\SubstituicaoMateriaPrimaFichaView.cs",
+      "export_path": "Views\\SubstituicaoMateriaPrimaFichaView.cs",
+      "raw_sha256": "637da86437e5bcaf348977ce9544e4d8821f9c5cb8612d45ec200b17b4544f0b"
+    },
+    {
+      "path": "Views\\SubstituicoesMateriaPrimaView.cs",
+      "export_path": "Views\\SubstituicoesMateriaPrimaView.cs",
+      "raw_sha256": "a048917eefd8798ee9b3bf3d1fc981f14c33715f38f8c5a27cfc3bac5e8da457"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 6
+    },
+    {
+      "kind": "generated local initialisation",
+      "occurrences": 2
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.SubstituicoesMateriaPrima.g.resources",
+      "file": "0000.bin",
+      "bytes": 13872,
+      "sha256": "3375fb50413ce48686468245755373186e5ec1ee676d795008edb987faf14d24"
+    },
+    {
+      "name": "Otus.Modulo.SubstituicoesMateriaPrima.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

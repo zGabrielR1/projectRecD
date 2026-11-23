@@ -1,0 +1,19 @@
+{
+  "assembly": "DevExpress.DataAccess.v15.2, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "DevExpress.Xpo.v15.2",
+    "System",
+    "DevExpress.Data.v15.2",
+    "DevExpress.CodeParser.v15.2",
+    "System.Core",
+    "System.Xml.Linq",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Data",
+    "System.Xml",
+    "System.Drawing",
+    "System.Configuration",
+    "System.Data.Entity",
+    "System.Windows.Forms"
+  ]
+}

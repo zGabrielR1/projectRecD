@@ -1,0 +1,147 @@
+{
+  "name": "Modulo.AlteracoesPrecoAgendadas",
+  "baseline": "baseline\\Modulo.AlteracoesPrecoAgendadas.dll",
+  "baseline_sha256": "9c3272e89e883322574e5603ab906d120913e3baa013a2c3bed431eefea654c1",
+  "export_project": "recovered\\SuiteG6\\Modulo.AlteracoesPrecoAgendadas\\Modulo.AlteracoesPrecoAgendadas.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "bdc86e8728587d1ec89fa05ae7b109c2ebc5f356a3dd4cc87265df471e1e4ac0"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "9c3272e89e883322574e5603ab906d120913e3baa013a2c3bed431eefea654c1"
+    },
+    {
+      "kind": "Use lambda value parameter directly for Retorno.Referencia; remove invalid ref cast emitted by ILSpy",
+      "occurrences": 3
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 29
+    },
+    {
+      "kind": "Qualify Mvvm.HelperException four-argument UI error helper"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.AlteracoesPrecoAgendadas.g.resources",
+      "file": "0000.bin",
+      "bytes": 29785,
+      "sha256": "9bc564f888079d70a67f951d3bc67e4c3ee904636646dd48178607c8906216dc"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "AlteracaoPrecoAgendadaModulo.cs",
+      "export_path": "AlteracaoPrecoAgendadaModulo.cs",
+      "raw_sha256": "c7e11a3b0bbdda8c54e58d5077d35a32edcac3ba826c7627e3cee298eba02590"
+    },
+    {
+      "path": "Models\\ItemAgendamento.cs",
+      "export_path": "Models\\ItemAgendamento.cs",
+      "raw_sha256": "1b4f2467a92c065f388366d813bf73904780a55526aed68257938e90228bafe8"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "6a3fec978429a2805a10049b49b7249ac0484c3cbc10c8e862036674bf7c0e93"
+    },
+    {
+      "path": "ViewModels\\AgendamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\AgendamentoAbaViewModel.cs",
+      "raw_sha256": "820e35ebeeaf1bcade2fff8a44cc2d362a9017c879db80aa411047f620e98180"
+    },
+    {
+      "path": "ViewModels\\AgendamentoFichaViewModel.cs",
+      "export_path": "ViewModels\\AgendamentoFichaViewModel.cs",
+      "raw_sha256": "4c57eb0f6869c22d29b0943cea63593ed5f29f602a2e32a416118efa0d90b38a"
+    },
+    {
+      "path": "ViewModels\\AgendamentoFormulario.cs",
+      "export_path": "ViewModels\\AgendamentoFormulario.cs",
+      "raw_sha256": "77d0efec08e42ebcf0f38edc523d940b8a24ffc0e4a11c9e29a131136c36ee6c"
+    },
+    {
+      "path": "ViewModels\\AgendamentoViewModel.cs",
+      "export_path": "ViewModels\\AgendamentoViewModel.cs",
+      "raw_sha256": "066ecaa201325134702eff04f1f75ea1c2effc489eb27b83e51e7e67f1b6f825"
+    },
+    {
+      "path": "ViewModels\\AlteracaoPrecoAgendadaFichaViewModel.cs",
+      "export_path": "ViewModels\\AlteracaoPrecoAgendadaFichaViewModel.cs",
+      "raw_sha256": "aa2bc1c472439f024b2fcd47e3d2da13c152c01251a4390b15eca6649c240b6b"
+    },
+    {
+      "path": "ViewModels\\AlteracaoPrecoAgendadaFormulario.cs",
+      "export_path": "ViewModels\\AlteracaoPrecoAgendadaFormulario.cs",
+      "raw_sha256": "d671ad8657c89dc699f41f4a4320402d36c70182657ab1a89baca55c517b4be6"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPrecoAgendadasViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPrecoAgendadasViewModel.cs",
+      "raw_sha256": "46840a0761d43bbe0cf5d6e746774cdd371a16de354b31bafc9cb4db4b4a374f"
+    },
+    {
+      "path": "ViewModels\\HistoricoAbaViewModel.cs",
+      "export_path": "ViewModels\\HistoricoAbaViewModel.cs",
+      "raw_sha256": "a328d27f629613a059169d6b5b8e8daef5c1df31676cb67a063ca2cf4d3312d6"
+    },
+    {
+      "path": "ViewModels\\HistoricoViewModel.cs",
+      "export_path": "ViewModels\\HistoricoViewModel.cs",
+      "raw_sha256": "b51dde82d0f4ea26606b13fe6b7b8e588d9d52813d3b74d0f6e8984dc9633785"
+    },
+    {
+      "path": "ViewModels\\ItemAgendamentoViewModel.cs",
+      "export_path": "ViewModels\\ItemAgendamentoViewModel.cs",
+      "raw_sha256": "0b6591e33a28c187c1829dc9636f532054cba26341235e3f4094e9ddc175837e"
+    },
+    {
+      "path": "ViewModels\\PendentesAbaViewModel.cs",
+      "export_path": "ViewModels\\PendentesAbaViewModel.cs",
+      "raw_sha256": "af40b405e2432e0898ffb194258456561eb6cef8d4d81497eb7ca729410ca454"
+    },
+    {
+      "path": "ViewModels\\PendentesViewModel.cs",
+      "export_path": "ViewModels\\PendentesViewModel.cs",
+      "raw_sha256": "16046458f029f923d270709163aceaf3be79ab5491ba6075d778ca6065a00842"
+    },
+    {
+      "path": "Views\\AgendamentoFichaView.cs",
+      "export_path": "Views\\AgendamentoFichaView.cs",
+      "raw_sha256": "79088d5b8b983035a7d20a25866e9736ce6a828d3a75a4529ee1648df366cfa5"
+    },
+    {
+      "path": "Views\\AgendamentoFichaViewDetalhes\\AgendamentoView.cs",
+      "export_path": "Views\\AgendamentoFichaViewDetalhes\\AgendamentoView.cs",
+      "raw_sha256": "f31df82cc6beb331e7e524e882949f566079e4163de319c268d9224011f0df7f"
+    },
+    {
+      "path": "Views\\AlteracaoPrecoAgendadaFichaView.cs",
+      "export_path": "Views\\AlteracaoPrecoAgendadaFichaView.cs",
+      "raw_sha256": "22fc3c0a5ed7cab6ac04bc1e8ac780c9cb622ae6d5cdc19da1420b9bad8250b7"
+    },
+    {
+      "path": "Views\\AlteracaoPrecoAgendadaFichaViewDetalhes\\HistoricoView.cs",
+      "export_path": "Views\\AlteracaoPrecoAgendadaFichaViewDetalhes\\HistoricoView.cs",
+      "raw_sha256": "c229d2b5c735adf7a49fcf8fad2292c5f6397785019b91ce39190ba85acfaa50"
+    },
+    {
+      "path": "Views\\AlteracaoPrecoAgendadaFichaViewDetalhes\\PendentesView.cs",
+      "export_path": "Views\\AlteracaoPrecoAgendadaFichaViewDetalhes\\PendentesView.cs",
+      "raw_sha256": "34b63963d286524c2128b3f3e28f3eb8bb32a4fac290a1afa5f270eadbc5d008"
+    },
+    {
+      "path": "Views\\AlteracoesPrecoAgendadasView.cs",
+      "export_path": "Views\\AlteracoesPrecoAgendadasView.cs",
+      "raw_sha256": "c62112b5101e789284a90950593677d684caba616438b5848192355ba97342b8"
+    }
+  ]
+}

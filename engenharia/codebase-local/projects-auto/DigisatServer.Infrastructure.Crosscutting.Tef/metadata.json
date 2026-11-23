@@ -1,0 +1,17 @@
+{
+  "artifactSha256": "81c34e735df862b2aa741a08ccb7afa57c4e2bb8f418d891e1748823518b6c2e",
+  "mvid": "fdb11080-d6d1-43bc-a2e5-af676591e6f6",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Tef, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "System.Reactive.Linq",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "PresentationFramework",
+    "WindowsBase"
+  ],
+  "resources": []
+}

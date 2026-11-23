@@ -1,0 +1,21 @@
+{
+  "artifactSha256": "2bb25b204f1e0faa07f1f6a92601e8174b0aafeb079adfccbeb18cca39e35f3b",
+  "mvid": "8e781b49-75b9-4241-9861-1f68e64d9c8d",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Inventario.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

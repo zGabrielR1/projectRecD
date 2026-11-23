@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.GestaoCodigosIdentificadoresOperacoesTransporte",
+  "baseline": "baseline\\Modulo.GestaoCodigosIdentificadoresOperacoesTransporte.dll",
+  "baseline_sha256": "220b78cbba6a707d4d14b10282197349b2e03344c0dd533d5868132d225de383",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoCodigosIdentificadoresOperacoesTransporte\\Modulo.GestaoCodigosIdentificadoresOperacoesTransporte.csproj",
+  "sources": [
+    {
+      "path": "GestaoCodigoIdentificadorOperacaoTransporteModulo.cs",
+      "export_path": "GestaoCodigoIdentificadorOperacaoTransporteModulo.cs",
+      "raw_sha256": "a443ccde68a0fb1f4526dda0e04d29fa03740113772fbf9c8dcd8b7441a98cc1"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "867a20c0caaa4de2c71e94511f8617d3981b2cd5508f84b73637000ea9253ab2"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a40406427b188f0432d3d629b2b6accc4c9cb5593734bab57dc8a9c7ffa63336"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "681562874867e3185f200e3a5f8068fcc98c6f2b8fca9ef323ae150d19082b15"
+    },
+    {
+      "path": "ViewModels\\CodigoIdentificadorOperacaoTransporteAbaViewModel.cs",
+      "export_path": "ViewModels\\CodigoIdentificadorOperacaoTransporteAbaViewModel.cs",
+      "raw_sha256": "dcd9c1eb58c11cdf860f9e7ab3189a504dcdd35629b43b64eef9dc3d5f0ac3e3"
+    },
+    {
+      "path": "ViewModels\\CodigoIdentificadorOperacaoTransporteViewModel.cs",
+      "export_path": "ViewModels\\CodigoIdentificadorOperacaoTransporteViewModel.cs",
+      "raw_sha256": "ae617a258ae54296f1722d20787cbd6ab6f73cc4820a234ce151fc2401086132"
+    },
+    {
+      "path": "ViewModels\\EncerrarCodigoIdentificadorOperacaoTransporteAbaViewModel.cs",
+      "export_path": "ViewModels\\EncerrarCodigoIdentificadorOperacaoTransporteAbaViewModel.cs",
+      "raw_sha256": "00e1b64e445fbaab584a412978ec2a63d6460d2125a0782408cf70119cfcb305"
+    },
+    {
+      "path": "ViewModels\\EncerrarCodigoIdentificadorOperacaoTransporteViewModel.cs",
+      "export_path": "ViewModels\\EncerrarCodigoIdentificadorOperacaoTransporteViewModel.cs",
+      "raw_sha256": "d12d6cc9d5242523a8c4f1f6b2029ce6ac0ab07b1cc24748d0c37a8bbc57ce8c"
+    },
+    {
+      "path": "ViewModels\\GestaoCodigoIdentificadorOperacaoTransporteFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoCodigoIdentificadorOperacaoTransporteFichaViewModel.cs",
+      "raw_sha256": "1e7a39dca51ec2fa6318acb6313265261f418183e45f3f2d4c49634ee5f137a3"
+    },
+    {
+      "path": "ViewModels\\GestaoCodigoIdentificadorOperacaoTransporteFormulario.cs",
+      "export_path": "ViewModels\\GestaoCodigoIdentificadorOperacaoTransporteFormulario.cs",
+      "raw_sha256": "121fa81f20d8c6a7aac8e333a9b306069a08cb60d9c2c8b9b04b343319c4ea48"
+    },
+    {
+      "path": "ViewModels\\GestaoCodigosIdentificadoresOperacoesTransporteViewModel.cs",
+      "export_path": "ViewModels\\GestaoCodigosIdentificadoresOperacoesTransporteViewModel.cs",
+      "raw_sha256": "b46a83382be7143d839392ceced6fb44186bdd71af1032f24c9c714681c651be"
+    },
+    {
+      "path": "Views\\GestaoCodigoIdentificadorOperacaoTransporteFichaView.cs",
+      "export_path": "Views\\GestaoCodigoIdentificadorOperacaoTransporteFichaView.cs",
+      "raw_sha256": "936627444e75f6f455ececca4369a62e9072488b43e2a18ab3a237a85566a3d5"
+    },
+    {
+      "path": "_long\\f834c642555e3796.cs",
+      "export_path": "Views\\GestaoCodigoIdentificadorOperacaoTranspo\\CodigoIdentificadorOperacaoTransporteView.cs",
+      "raw_sha256": "a4428818de5242d98d2cefa33be94255bf8dd899955a61cc4d67a0a9e97da0f6"
+    },
+    {
+      "path": "_long\\b389b86febee1859.cs",
+      "export_path": "Views\\GestaoCodigoIdentificadorOperacaoTranspo\\EncerrarCodigoIdentificadorOperacaoTransporteView.cs",
+      "raw_sha256": "e4e37a1095e2606fa6b0fad112481b4041795ff3fe51818a7e3a8d222ed183be"
+    },
+    {
+      "path": "Views\\GestaoCodigosIdentificadoresOperacoesTransporteView.cs",
+      "export_path": "Views\\GestaoCodigosIdentificadoresOperacoesTransporteView.cs",
+      "raw_sha256": "133d96d63934dad31914cb340210677c21025679e7cf790bd6026e388e62f444"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 5
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoCodigosIdentificadoresOperacoesTransporte.g.resources",
+      "file": "0000.bin",
+      "bytes": 20676,
+      "sha256": "c3d46aba7ecfadb01d4a76f3b890b3e91e174ad8fa644bbbf8d748addd5d70b6"
+    },
+    {
+      "name": "Otus.Modulo.GestaoCodigosIdentificadoresOperacoesTransporte.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,59 @@
+{
+  "artifactSha256": "41271cb752c850b2305bf75cf0e970a00bc8791b182f9ff1a07dd664d73806d9",
+  "mvid": "5cfdbbf2-7db4-4e47-b39b-7951d7ad2ed5",
+  "assembly": "Modulo.CentrosCusto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Domain.Main",
+    "MongoDB.Bson",
+    "DevExpress.Mvvm.v15.2",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "Prism.Unity.Wpf",
+    "DigisatServer.Domain.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Core",
+    "DevExpress.Data.v15.2",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.CentrosCusto.g.resources",
+      "file": "0000.bin",
+      "bytes": 11127,
+      "sha256": "58ceb396db237362ec0a275d483a83cd7fc1f12bd03c10d87f0cc12fedcbedba"
+    },
+    {
+      "name": "Otus.Modulo.CentrosCusto.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.CentrosCusto.Reports.Relatorio.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.CentrosCusto.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 283,
+      "sha256": "071738f2a3e13b6684e7d8adf8b6623517e0250c2c4f87603c2e3c11c746a550"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Modulo.PedidosShopee",
+  "baseline": "baseline\\Modulo.PedidosShopee.dll",
+  "baseline_sha256": "58155d79ea5c892c72b3ca748e7d9965ee7e2cedef818a857756634d8d1a6566",
+  "export_project": "recovered\\SuiteG6\\Modulo.PedidosShopee\\Modulo.PedidosShopee.csproj",
+  "sources": [
+    {
+      "path": "PedidoShopeeModulo.cs",
+      "export_path": "PedidoShopeeModulo.cs",
+      "raw_sha256": "9ee8adcdcde9fe09a53ad263dd19b709cd1da79a9d68bfdc1956b01a3ee7eb33"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c42cd7879a99c779405b9bc8ccdff82b33278be513730c46e76bd3e3526a108c"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "ebdee5d505483e0bc7c720f116d24a2c08bcacabc57adc0fd3504d00b898f453"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "c828a9f668d31cd14d8bec538cda98241923222ee0791c2a6944d40b8e8b79d8"
+    },
+    {
+      "path": "Reports\\PedidoShopee.cs",
+      "export_path": "Reports\\PedidoShopee.cs",
+      "raw_sha256": "f13b98abad3c09a9381866f3ba9902b2b1cfc0362c263983fc75e83353aadfa4"
+    },
+    {
+      "path": "ViewModels\\PedidoShopeeAbaViewModel.cs",
+      "export_path": "ViewModels\\PedidoShopeeAbaViewModel.cs",
+      "raw_sha256": "8b0e3963b9ecdfc7cadebecba7cc70a7fff0a26bf3c69a0d04ae83c722717b77"
+    },
+    {
+      "path": "ViewModels\\PedidoShopeeFormularioViewModel.cs",
+      "export_path": "ViewModels\\PedidoShopeeFormularioViewModel.cs",
+      "raw_sha256": "3253a9b50b6a7ee9b0c7500336dd9047a7fde830f9feb1905a966ccf06eb4e33"
+    },
+    {
+      "path": "ViewModels\\PedidoShopeeListaViewModel.cs",
+      "export_path": "ViewModels\\PedidoShopeeListaViewModel.cs",
+      "raw_sha256": "d6d4ea02dbbdf4ada141d869a6efc88d75a5f3b838f05253b4dbfea80aecaead"
+    },
+    {
+      "path": "ViewModels\\PedidoShopeeViewModel.cs",
+      "export_path": "ViewModels\\PedidoShopeeViewModel.cs",
+      "raw_sha256": "617b01cd69433d7e911c9f2d70f58a198c646f855d9b6717d60e1f49a493f4a2"
+    },
+    {
+      "path": "ViewModels\\PedidosShopeeViewModel.cs",
+      "export_path": "ViewModels\\PedidosShopeeViewModel.cs",
+      "raw_sha256": "1ec868fad6895811a8fff99a59c7537ca0ab61383c376f2b4423824a95cc0837"
+    },
+    {
+      "path": "Views\\PedidoShopeeListaView.cs",
+      "export_path": "Views\\PedidoShopeeListaView.cs",
+      "raw_sha256": "747c8716ae32597acb4c80bf780bd5c47d7be24b795d51923cec2364cc2f84a9"
+    },
+    {
+      "path": "Views\\PedidosShopeeView.cs",
+      "export_path": "Views\\PedidosShopeeView.cs",
+      "raw_sha256": "aa43f94af2eda07d2dc589d29717e8003b75717fd0468fb4e969ac0779f9c043"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 64
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 8,
+      "types": [
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass11_0",
+        "__c_DisplayClass16_0",
+        "__c_DisplayClass16_1",
+        "__c_DisplayClass23_0",
+        "__c_DisplayClass23_1",
+        "__c_DisplayClass24_0",
+        "__c_DisplayClass25_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.PedidosShopee.g.resources",
+      "file": "0000.bin",
+      "bytes": 10239,
+      "sha256": "8256c961a096ca2f206f8700c0878c7ddb11ea66f314f12b4bd90460e399b36b"
+    },
+    {
+      "name": "Otus.Modulo.PedidosShopee.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PedidosShopee.Reports.PedidoShopee.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.PedidosShopee.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 284,
+      "sha256": "82193e030ab349e1aa0af62bb7cec401f982e8ca688eaf5b56ed93efd9d826ea"
+    }
+  ],
+  "generated_stubs": false
+}

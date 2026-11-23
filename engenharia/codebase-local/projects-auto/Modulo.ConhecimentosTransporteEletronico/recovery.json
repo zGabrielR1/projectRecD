@@ -1,0 +1,753 @@
+{
+  "name": "Modulo.ConhecimentosTransporteEletronico",
+  "baseline": "baseline\\Modulo.ConhecimentosTransporteEletronico.dll",
+  "baseline_sha256": "c03e1ef9198ef33f12a2f0bae30a4b37e20efd63850651a55ff3c9d364c4b318",
+  "export_project": "recovered\\SuiteG6\\Modulo.ConhecimentosTransporteEletronico\\Modulo.ConhecimentosTransporteEletronico.csproj",
+  "sources": [
+    {
+      "path": "ConhecimentoTransporteEletronicoModulo.cs",
+      "export_path": "ConhecimentoTransporteEletronicoModulo.cs",
+      "raw_sha256": "84357c1c48a6dd088d74d0f054fab7e144954390cfc1977a5a57bb10b3d643c5"
+    },
+    {
+      "path": "Events\\ImportouXmlDiretorioEvent.cs",
+      "export_path": "Events\\ImportouXmlDiretorioEvent.cs",
+      "raw_sha256": "708ea4f7e9c02373ec675b8a45106e98723f5173687b24c3015f8fa4a2491c3d"
+    },
+    {
+      "path": "Interfaces\\IConhecimentoTransporteEletronicoViewModel.cs",
+      "export_path": "Interfaces\\IConhecimentoTransporteEletronicoViewModel.cs",
+      "raw_sha256": "83bc1e597e984ab5ed20fbfbf77a1122610d853423a40b53cc7d2029526eb153"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "4d6e84cf6e69c374bc08c27a1817a99dfbe8841d525f9abf762aa86f929411bb"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "7233f33febfb2917c231d0eb9c3ea69a45212580b9a296d69c04159b680d39da"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "bf95c125157d919236d738e82f0db1ddf06ac0f042128b8af5b1a948ad6d56b8"
+    },
+    {
+      "path": "Reports\\EspelhoCte\\RelatorioEspelhoCte.cs",
+      "export_path": "Reports\\EspelhoCte\\RelatorioEspelhoCte.cs",
+      "raw_sha256": "1d4ada957871a3ed631e436fdc09540e4ae5e94130e8b7d4654ddc2a0f87f202"
+    },
+    {
+      "path": "Reports\\EspelhoCte\\RelatorioEspelhoCteOs.cs",
+      "export_path": "Reports\\EspelhoCte\\RelatorioEspelhoCteOs.cs",
+      "raw_sha256": "0ae47bf9d68c351d21157f170d4f46311686a38af5776d43430a03b0fb060fa5"
+    },
+    {
+      "path": "Reports\\EspelhoCte\\RelatorioParcialEspelhoComponentes.cs",
+      "export_path": "Reports\\EspelhoCte\\RelatorioParcialEspelhoComponentes.cs",
+      "raw_sha256": "15664a71df6cc47a0dbf0fa4dfda2f19f9a461bfa6ac1b4c2562b3aab8fbf257"
+    },
+    {
+      "path": "Services\\CarregarXmlService.cs",
+      "export_path": "Services\\CarregarXmlService.cs",
+      "raw_sha256": "d24eb194c63e96c65b6d4444b83c5cf9e3f7ae846afc20f63e51552ecd6503db"
+    },
+    {
+      "path": "ViewModels\\Base\\ConhecimentoTransporteEletronicoBaseViewModel.cs",
+      "export_path": "ViewModels\\Base\\ConhecimentoTransporteEletronicoBaseViewModel.cs",
+      "raw_sha256": "9946ebec8d283fd7bb6a67518bc4f1d030d3f7b5eeb0a26ef9bf0557f570b93d"
+    },
+    {
+      "path": "ViewModels\\Base\\ValoresViewModel.cs",
+      "export_path": "ViewModels\\Base\\ValoresViewModel.cs",
+      "raw_sha256": "5c53bd136d7ade6a4bbc7c212fa55be16ee1d78c95a0fddbe887f796e7dd533e"
+    },
+    {
+      "path": "ViewModels\\CargaAbaViewModel.cs",
+      "export_path": "ViewModels\\CargaAbaViewModel.cs",
+      "raw_sha256": "4b14890f4e8c7a69393d8c12674cb4a06eea0c989699b46239f768f4f4a2b6fa"
+    },
+    {
+      "path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeAbaViewModel.cs",
+      "export_path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeAbaViewModel.cs",
+      "raw_sha256": "bff6eeef05d06238db76674ac3eac56f42d1cf04db312e1ec52042b8e916044b"
+    },
+    {
+      "path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeFichaViewModel.cs",
+      "export_path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeFichaViewModel.cs",
+      "raw_sha256": "8998cf0dd84eddfdc759a75796d8420f72866408e8dea462d7e66774b8892329"
+    },
+    {
+      "path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeFormulario.cs",
+      "export_path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeFormulario.cs",
+      "raw_sha256": "58cd0065256fd41f6922a519af39285d41430de80834d12eddc19dbb54d79ade"
+    },
+    {
+      "path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeListaViewModel.cs",
+      "export_path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeListaViewModel.cs",
+      "raw_sha256": "8db4ccd4d95870ce11d5a91c7f0171b0ebfe90021d01cb11e5c13a357d6839cf"
+    },
+    {
+      "path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeViewModel.cs",
+      "export_path": "ViewModels\\CartasCorrecao\\CartaCorrecaoCTeViewModel.cs",
+      "raw_sha256": "dbe1d2c1a9a55f7ef6754349e2c43c7b1caf7b38e751495f41460e10621693d5"
+    },
+    {
+      "path": "ViewModels\\ConhecimentosTransporteEletronicoViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentosTransporteEletronicoViewModel.cs",
+      "raw_sha256": "7d674b4f9e1904addf5cc2e36cc7dce366988431f7d638a3e132f75f8ae7364d"
+    },
+    {
+      "path": "ViewModels\\ConhecimentoTransporteEletronicoAbaViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentoTransporteEletronicoAbaViewModel.cs",
+      "raw_sha256": "1fb48e83120f4ed5ad0812f6a5bbf4e703d05bb8445c8f39ef04bea93a6602f5"
+    },
+    {
+      "path": "ViewModels\\ConhecimentoTransporteEletronicoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentoTransporteEletronicoFichaAdicionarViewModel.cs",
+      "raw_sha256": "c3b575e4bc8dab9a87b2c8517a6937e83f1632153941fcb81222d18c06558933"
+    },
+    {
+      "path": "ViewModels\\ConhecimentoTransporteEletronicoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentoTransporteEletronicoFichaAtualizarViewModel.cs",
+      "raw_sha256": "0e8537dc68159766a262dca71c8a48ee76716a9842e6ecd13bc1bf73713663ca"
+    },
+    {
+      "path": "ViewModels\\ConhecimentoTransporteEletronicoFormulario.cs",
+      "export_path": "ViewModels\\ConhecimentoTransporteEletronicoFormulario.cs",
+      "raw_sha256": "84d1990553c2dc233afc9d140337e51e31bf4249b61340ade3b6fa17eb009168"
+    },
+    {
+      "path": "ViewModels\\ConhecimentoTransporteEletronicoListaViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentoTransporteEletronicoListaViewModel.cs",
+      "raw_sha256": "dd23861778c3efb55acc25382154813ad50e743a87a4b9bde5a9716d3748e4b3"
+    },
+    {
+      "path": "ViewModels\\ConhecimentoTransporteEletronicoViewModel.cs",
+      "export_path": "ViewModels\\ConhecimentoTransporteEletronicoViewModel.cs",
+      "raw_sha256": "b9dcc53a16cfedc65a7dd4017f450c34418edaa6b75d4a3fe4acbac3b66734d6"
+    },
+    {
+      "path": "ViewModels\\DocumentoAnteriorAbaViewModel.cs",
+      "export_path": "ViewModels\\DocumentoAnteriorAbaViewModel.cs",
+      "raw_sha256": "772085d60ba9e6a4ffafe4b0e99028c5f626931e0fbbc3d2fd450c3028a98f42"
+    },
+    {
+      "path": "ViewModels\\DocumentoAnteriorFichaViewModel.cs",
+      "export_path": "ViewModels\\DocumentoAnteriorFichaViewModel.cs",
+      "raw_sha256": "0da53667f3f50ac7b1eba7257433466d3eb888eaec03971495baeba7760eba08"
+    },
+    {
+      "path": "ViewModels\\DocumentoAnteriorListaViewModel.cs",
+      "export_path": "ViewModels\\DocumentoAnteriorListaViewModel.cs",
+      "raw_sha256": "cfa3be458b290def47ea8650653d268bb7dd71f73ea0dc194a24d52ea8b937ff"
+    },
+    {
+      "path": "ViewModels\\EntregaAbaViewModel.cs",
+      "export_path": "ViewModels\\EntregaAbaViewModel.cs",
+      "raw_sha256": "7a861a31d159710c65a2816eb04f67782c94fa09e52c5bf388d5cc374117233c"
+    },
+    {
+      "path": "ViewModels\\Entregas\\ComDataViewModel.cs",
+      "export_path": "ViewModels\\Entregas\\ComDataViewModel.cs",
+      "raw_sha256": "00f69f4a924ea4e5cd99e16c1ad04c02350b41d201bd4fcb0bac9e06018ac1cd"
+    },
+    {
+      "path": "ViewModels\\Entregas\\ComHoraViewModel.cs",
+      "export_path": "ViewModels\\Entregas\\ComHoraViewModel.cs",
+      "raw_sha256": "e6bb42e3b9ae1432cc07a320a181b1eb97310c79ca0aadfa64a307ac23f39504"
+    },
+    {
+      "path": "ViewModels\\Entregas\\DataEntregaViewModel.cs",
+      "export_path": "ViewModels\\Entregas\\DataEntregaViewModel.cs",
+      "raw_sha256": "374127bf97a74c70dc3ed676d340c57748ab3806094f9eae219704756deabbe4"
+    },
+    {
+      "path": "ViewModels\\Entregas\\HoraEntregaViewModel.cs",
+      "export_path": "ViewModels\\Entregas\\HoraEntregaViewModel.cs",
+      "raw_sha256": "d76b97294bbcd138e3b22aeee4b9e95cab44133f6630c0f2d10705ab10dcd099"
+    },
+    {
+      "path": "ViewModels\\Entregas\\NoIntervaloViewModel.cs",
+      "export_path": "ViewModels\\Entregas\\NoIntervaloViewModel.cs",
+      "raw_sha256": "d73766266097d5d8b8330a9b31dbfe65abde006438b9b57034158899abad86b1"
+    },
+    {
+      "path": "ViewModels\\Entregas\\NoPeriodoViewModel.cs",
+      "export_path": "ViewModels\\Entregas\\NoPeriodoViewModel.cs",
+      "raw_sha256": "5b35113e3cd4551c7cf15e1ab5ca2a97acae67945ea0a988011b77253bfb9524"
+    },
+    {
+      "path": "ViewModels\\ImpostosReformaTributaria\\ImpostoAliquotaReduzidaViewModel.cs",
+      "export_path": "ViewModels\\ImpostosReformaTributaria\\ImpostoAliquotaReduzidaViewModel.cs",
+      "raw_sha256": "1c9ef9eb56db843c76d075c1e2bcc34e2965e6cb7813d404c8b994e87ba3de30"
+    },
+    {
+      "path": "ViewModels\\ImpostosReformaTributaria\\ImpostoIbsCbsFactory.cs",
+      "export_path": "ViewModels\\ImpostosReformaTributaria\\ImpostoIbsCbsFactory.cs",
+      "raw_sha256": "06edbec7d6e43c9881434750a86184c38d0472eec3231c9fe4f718f7b4e9917e"
+    },
+    {
+      "path": "ViewModels\\ImpostosReformaTributaria\\ImpostoIbsCbsViewModel.cs",
+      "export_path": "ViewModels\\ImpostosReformaTributaria\\ImpostoIbsCbsViewModel.cs",
+      "raw_sha256": "9f73a4b7dd1d16749e503841c2e5517d7a05df69625557fff0f93d000808b15c"
+    },
+    {
+      "path": "ViewModels\\ImpostosReformaTributaria\\ImpostoIsencaoViewModel.cs",
+      "export_path": "ViewModels\\ImpostosReformaTributaria\\ImpostoIsencaoViewModel.cs",
+      "raw_sha256": "3a121e0d4926d0f89279d5b936739ca70bca17a3e3c2c30c5ac32ac367f8ba85"
+    },
+    {
+      "path": "ViewModels\\ImpostosReformaTributaria\\ImpostoTributadoViewModel.cs",
+      "export_path": "ViewModels\\ImpostosReformaTributaria\\ImpostoTributadoViewModel.cs",
+      "raw_sha256": "0279b23f50a853f81cb8edef9268ba5a12da1b85daa6f669ef27eea22ee75c95"
+    },
+    {
+      "path": "ViewModels\\ImpostosReformaTributaria\\TributadoRegularViewModel.cs",
+      "export_path": "ViewModels\\ImpostosReformaTributaria\\TributadoRegularViewModel.cs",
+      "raw_sha256": "e10fc94aed376ea8bd2d5f597d9e8e0c1c658c6712bf8bc4363fc7d0bbd9e78c"
+    },
+    {
+      "path": "ViewModels\\Impostos\\ImpostoFactory.cs",
+      "export_path": "ViewModels\\Impostos\\ImpostoFactory.cs",
+      "raw_sha256": "2cfaadc49b8e3ef030fae934b063ddf668f44b99e9f2b8b5c8c68887b0a9a650"
+    },
+    {
+      "path": "ViewModels\\Impostos\\ImpostoPartilhaViewModel.cs",
+      "export_path": "ViewModels\\Impostos\\ImpostoPartilhaViewModel.cs",
+      "raw_sha256": "02b655298ca9fc9629b051b151bf527c190107b885ba40f3b621beb95caceefc"
+    },
+    {
+      "path": "ViewModels\\Impostos\\ImpostoSimplesNacionalViewModel.cs",
+      "export_path": "ViewModels\\Impostos\\ImpostoSimplesNacionalViewModel.cs",
+      "raw_sha256": "0eaa81f88c84849b848ba55f5c1b0fb95d7e11b8b45a0f80bc04d391449b0b4a"
+    },
+    {
+      "path": "ViewModels\\Impostos\\ImpostoSubstituicaoTributariaRetidoViewModel.cs",
+      "export_path": "ViewModels\\Impostos\\ImpostoSubstituicaoTributariaRetidoViewModel.cs",
+      "raw_sha256": "43f2772d39654d504240ca9cebd2ddb883887b597186e56ab723adf1e2340ed2"
+    },
+    {
+      "path": "ViewModels\\Impostos\\ImpostoTributadoComReducaoValorCreditoViewModel.cs",
+      "export_path": "ViewModels\\Impostos\\ImpostoTributadoComReducaoValorCreditoViewModel.cs",
+      "raw_sha256": "ed1783718c68c7836921304c18f1f555b79b5c2b4270890cf4e432a33fc02fe6"
+    },
+    {
+      "path": "ViewModels\\Impostos\\ImpostoTributadoComReducaoViewModel.cs",
+      "export_path": "ViewModels\\Impostos\\ImpostoTributadoComReducaoViewModel.cs",
+      "raw_sha256": "4b30c3e35219d8f79a7b9b68189fcea423cc35faa41a2f3625ea8fc6406fdb67"
+    },
+    {
+      "path": "ViewModels\\Impostos\\ImpostoTributadoViewModel.cs",
+      "export_path": "ViewModels\\Impostos\\ImpostoTributadoViewModel.cs",
+      "raw_sha256": "a051005800ece14e812d253e51d8c04ea348714bb9eef7a631762f3f5cbf8ab7"
+    },
+    {
+      "path": "ViewModels\\Impostos\\ImpostoViewModel.cs",
+      "export_path": "ViewModels\\Impostos\\ImpostoViewModel.cs",
+      "raw_sha256": "72e71b605cc3b9baabf3db52bd6c9e0bfb71943d1dc7821d073d812593d4d4a7"
+    },
+    {
+      "path": "ViewModels\\InformacaoDocumentoReferenciadoAbaViewModel.cs",
+      "export_path": "ViewModels\\InformacaoDocumentoReferenciadoAbaViewModel.cs",
+      "raw_sha256": "57c8457ff5cd362238ed4afd481d7e2fe479033910d9d0df5537f47de3b93baf"
+    },
+    {
+      "path": "ViewModels\\InformacaoDocumentoReferenciadoFichaViewModel.cs",
+      "export_path": "ViewModels\\InformacaoDocumentoReferenciadoFichaViewModel.cs",
+      "raw_sha256": "d7847ab7b7ca860a7caf317179490ccd73f6aa4324c614aef7e1730e9ebfb7d1"
+    },
+    {
+      "path": "ViewModels\\InformacaoDocumentoReferenciadoFormularioViewModel.cs",
+      "export_path": "ViewModels\\InformacaoDocumentoReferenciadoFormularioViewModel.cs",
+      "raw_sha256": "0ca2e6108bea35c7356e7ca91108ee369068b948cbf7a6cdd1fe5e0b8196b536"
+    },
+    {
+      "path": "ViewModels\\InformacaoDocumentoReferenciadoViewModel.cs",
+      "export_path": "ViewModels\\InformacaoDocumentoReferenciadoViewModel.cs",
+      "raw_sha256": "9a3c076c34c5d28279660964de5dcf52619799708918ada2814cb91743b58065"
+    },
+    {
+      "path": "ViewModels\\InformacaoSeguroAbaViewModel.cs",
+      "export_path": "ViewModels\\InformacaoSeguroAbaViewModel.cs",
+      "raw_sha256": "43b4a069090d3a70901034ed6c8f024b0898568b58fd5d905b054ff04c09ad58"
+    },
+    {
+      "path": "ViewModels\\InformacaoSeguroFichaViewModel.cs",
+      "export_path": "ViewModels\\InformacaoSeguroFichaViewModel.cs",
+      "raw_sha256": "da158fc42d8664cec63cd6f1accbe60860c44fd2221fd33925babc503c4610bb"
+    },
+    {
+      "path": "ViewModels\\InformacaoSeguroFormularioViewModel.cs",
+      "export_path": "ViewModels\\InformacaoSeguroFormularioViewModel.cs",
+      "raw_sha256": "8fe4befd9511c94d6dfd1d03d26452352ae33144d5bd0f13e0e5829cb5004571"
+    },
+    {
+      "path": "ViewModels\\InformacaoSeguroViewModel.cs",
+      "export_path": "ViewModels\\InformacaoSeguroViewModel.cs",
+      "raw_sha256": "0411f077858bce54375c65a7e9fb903eb7e83bdfd1a0d7fe03d3643a61b7254b"
+    },
+    {
+      "path": "ViewModels\\InformacoesConhecimentoTransporteOutrosServicosAbaViewModel.cs",
+      "export_path": "ViewModels\\InformacoesConhecimentoTransporteOutrosServicosAbaViewModel.cs",
+      "raw_sha256": "d40b5538801d518caadb53b8553d8e51a6be8c9bb9756e365c4505bc6eeb9d4b"
+    },
+    {
+      "path": "ViewModels\\ModalAbaViewModel.cs",
+      "export_path": "ViewModels\\ModalAbaViewModel.cs",
+      "raw_sha256": "f5d8d06aa9be3d19a0373168c322776bb4a762af2e83645e7b2edc2c622173ed"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoReferenciadaAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacaoReferenciadaAbaViewModel.cs",
+      "raw_sha256": "2ee2725d4d383e375b5678b389bec9972fa387f244e2da665cb8059ef9bdf683"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoReferenciadaFichaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacaoReferenciadaFichaViewModel.cs",
+      "raw_sha256": "5177df1c759a45b4964b241e898c4eb4aaf9c36b6094f7766efad756c2de6009"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoReferenciadaListaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacaoReferenciadaListaViewModel.cs",
+      "raw_sha256": "0ec6558e59da9e06b1438cdd0d745d64ef1808d87abff9c0312953d2a4144b1a"
+    },
+    {
+      "path": "ViewModels\\ObservacoesAbaViewModel.cs",
+      "export_path": "ViewModels\\ObservacoesAbaViewModel.cs",
+      "raw_sha256": "df8af03761fe0fe9e8a12c5833c650c93bcc8174a917053c80a7816315eff49b"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoeAbaViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoeAbaViewModel.cs",
+      "raw_sha256": "a112820f84f22b08800a129f7baa9d7fb4eda6077883f039eb375f4187bf9192"
+    },
+    {
+      "path": "ViewModels\\PagamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\PagamentoAbaViewModel.cs",
+      "raw_sha256": "84ec833697f419c379c74401376255de5c8d5fb8455bcfaf2bfaa547197bd6b3"
+    },
+    {
+      "path": "ViewModels\\Pagamentos\\LimiteCreditoViewModel.cs",
+      "export_path": "ViewModels\\Pagamentos\\LimiteCreditoViewModel.cs",
+      "raw_sha256": "f72d5406ceedbbe8bd7ddb5ef542bee6e207f6ee740be7bfe7eb4ea49cc2f94a"
+    },
+    {
+      "path": "ViewModels\\Pagamentos\\PagamentoViewModel.cs",
+      "export_path": "ViewModels\\Pagamentos\\PagamentoViewModel.cs",
+      "raw_sha256": "12a9ae44394ce8a27b08c72ee4de50e70503afc4a67509b2a394ebbf77011a74"
+    },
+    {
+      "path": "ViewModels\\Pagamentos\\Parcela.cs",
+      "export_path": "ViewModels\\Pagamentos\\Parcela.cs",
+      "raw_sha256": "b1ec29f4514943187d9c91d12b029187d21ab4262d9e3a4a2651a5b0c7005ffd"
+    },
+    {
+      "path": "ViewModels\\Pagamentos\\Parcelas.cs",
+      "export_path": "ViewModels\\Pagamentos\\Parcelas.cs",
+      "raw_sha256": "231686bcf5196b136b1c1b479bd085fa43404b4b5a17b6300e80bfc61c168da2"
+    },
+    {
+      "path": "ViewModels\\PercursoAbaViewModel.cs",
+      "export_path": "ViewModels\\PercursoAbaViewModel.cs",
+      "raw_sha256": "f2cae7b91508473f6d0d8fa654b40640abe966eb5b3fbeb1e5d1dbe35ba6b2e5"
+    },
+    {
+      "path": "ViewModels\\ServicoMultimodalAbaViewModel.cs",
+      "export_path": "ViewModels\\ServicoMultimodalAbaViewModel.cs",
+      "raw_sha256": "8f11e3c27155ba6a5da731d60b5389fbf6e8f460cc3bd5d926619989af8464e4"
+    },
+    {
+      "path": "ViewModels\\ServicoMultimodalFichaViewModel.cs",
+      "export_path": "ViewModels\\ServicoMultimodalFichaViewModel.cs",
+      "raw_sha256": "660b50aea833d2b18e149bcb10e439ab6ff6521e3071cf6648f0ae1a9098eed5"
+    },
+    {
+      "path": "ViewModels\\ServicoMultimodalListaViewModel.cs",
+      "export_path": "ViewModels\\ServicoMultimodalListaViewModel.cs",
+      "raw_sha256": "b9801fe1aa8525a25fb9c0cd9e1d21ec4d5262813853c33f02725559437d5957"
+    },
+    {
+      "path": "ViewModels\\Tipos\\ConhecimentoTransporteEletronico.cs",
+      "export_path": "ViewModels\\Tipos\\ConhecimentoTransporteEletronico.cs",
+      "raw_sha256": "b19547b063a1c215f5cabc6d36692c673237f12f03c1094713ce8552ce75cff6"
+    },
+    {
+      "path": "ViewModels\\Tipos\\ConhecimentoTransporteEletronicoOutrosServicos.cs",
+      "export_path": "ViewModels\\Tipos\\ConhecimentoTransporteEletronicoOutrosServicos.cs",
+      "raw_sha256": "103d01873fcbaa9c66678f7e2941284c69e35c9837ca6a7d7397ad3922a9644a"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TipoCte.cs",
+      "export_path": "ViewModels\\Tipos\\TipoCte.cs",
+      "raw_sha256": "e8d2e409352bcc74f167460a176740f5b3e2abd4622137f8592fc0c8e38ccafd"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TiposCteComboboxViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\TiposCteComboboxViewModel.cs",
+      "raw_sha256": "4e810002867112aa03fb22f31137cc9a18236a1146281bc31e78d64ccdcf3aa7"
+    },
+    {
+      "path": "ViewModels\\ValoresAbaViewModel.cs",
+      "export_path": "ViewModels\\ValoresAbaViewModel.cs",
+      "raw_sha256": "7d132ffcc1d45630902bc533335a7e50ab53889152d4d1eb383c1bc5f9324fd9"
+    },
+    {
+      "path": "ViewModels\\ViewModelsOutrosServicos\\ConhecimentoTransporteEletronicoOutrosServicosViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsOutrosServicos\\ConhecimentoTransporteEletronicoOutrosServicosViewModel.cs",
+      "raw_sha256": "cd6a0639248d03ef37caac8380d0954e81b0a0f6a10ee388d48321c96bb4b4aa"
+    },
+    {
+      "path": "ViewModels\\ViewModelsOutrosServicos\\DadosConhecimentoTransporteOutrosServicosViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsOutrosServicos\\DadosConhecimentoTransporteOutrosServicosViewModel.cs",
+      "raw_sha256": "70d2b43b7419eda9ddb1067d1ff05dd1b5d5d7bc17613c804521d9ac9f57cca4"
+    },
+    {
+      "path": "ViewModels\\ViewModelsOutrosServicos\\ImpostoFederalOutrosServicosViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsOutrosServicos\\ImpostoFederalOutrosServicosViewModel.cs",
+      "raw_sha256": "2cf48e1ae1e5070e404645feb885e4990f7eb18d10609b655c57995c21bd44fe"
+    },
+    {
+      "path": "ViewModels\\ViewModelsOutrosServicos\\InicioFimOutrosServicosViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsOutrosServicos\\InicioFimOutrosServicosViewModel.cs",
+      "raw_sha256": "b490083087d305f9a27745a5b49b984496476c540e0a021eaa2791dca2d307c0"
+    },
+    {
+      "path": "ViewModels\\ViewModelsOutrosServicos\\ModalOutrosServicosViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsOutrosServicos\\ModalOutrosServicosViewModel.cs",
+      "raw_sha256": "385b347ec9b6d65d132f40087aa03d669040c1a677459bd8873061fd600e2e06"
+    },
+    {
+      "path": "ViewModels\\ViewModelsOutrosServicos\\PercursoOutrosServicosViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsOutrosServicos\\PercursoOutrosServicosViewModel.cs",
+      "raw_sha256": "61eb3522d4c8faaac34ad110bfd23198defa15530524ede9b2bc34904a31f1e4"
+    },
+    {
+      "path": "ViewModels\\ViewModelsOutrosServicos\\ProprietarioVeiculoViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsOutrosServicos\\ProprietarioVeiculoViewModel.cs",
+      "raw_sha256": "d2c1cb91bce244ec52da5a7be783a9b8bfc6c3f4c34a00941c1e90dabce24667"
+    },
+    {
+      "path": "ViewModels\\ViewModelsOutrosServicos\\ValoresOutrosServicosViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsOutrosServicos\\ValoresOutrosServicosViewModel.cs",
+      "raw_sha256": "7c63d3a1b4755881f03554c30f4c162596f59a0f43efc73a59dc8d4a09c7e6aa"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\AnulacaoViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\AnulacaoViewModel.cs",
+      "raw_sha256": "c30987d202647058fdf2880afd30b84c009fd75db0ab6dd29c92c776de400872"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\CargaViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\CargaViewModel.cs",
+      "raw_sha256": "d625cf6a8464b8bf4cd1a7456d3d07d25ecdac0d3dda537dabb1a5c36cca41f0"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\ComplementoViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\ComplementoViewModel.cs",
+      "raw_sha256": "26c562c30cd02fbf7914efa9215d101d0ed3a1f237f1c37e3b2412ce74ccb235"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\ConhecimentoTransporteEletronicoPadraoViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\ConhecimentoTransporteEletronicoPadraoViewModel.cs",
+      "raw_sha256": "395ba7bc3f23c93da3e5a87e1ce9cde4c5232e70a5c41f0e2b26cdaa75f4a96a"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\DocumentoAnteriorViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\DocumentoAnteriorViewModel.cs",
+      "raw_sha256": "192f1d24f44d2d443e3cc63c5b846446a2d0c34e5cf5c66d3c72162da3a879da"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\EntregaViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\EntregaViewModel.cs",
+      "raw_sha256": "722cb9cee43950b81222142116ace0bef037732cf6da917a1a02bd332437b7c7"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\ModalViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\ModalViewModel.cs",
+      "raw_sha256": "219a139e202871e62040e76c4d3feaa728c8f573febbbea2ab22abe94e36eb30"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaBaseViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaBaseViewModel.cs",
+      "raw_sha256": "4abeb5695e9bda9f3cb5453cd0d24d66b39ffef35f78c71929e569fc1c7ea2ca"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaNfAvulsaViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaNfAvulsaViewModel.cs",
+      "raw_sha256": "ba3e35e7da6a8326ee2ec236e9a724d838656ee653e6a2c00106002c80d6c188"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaNFeProdutorRuralViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaNFeProdutorRuralViewModel.cs",
+      "raw_sha256": "efe40c04fd74e20a4af28d98203158fa6de9dbcade357789068b05a3405a2b71"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaNFeViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaNFeViewModel.cs",
+      "raw_sha256": "5aa90b8b0819f4ed9358471d9615672406c979d2cc18541fbfef3799a33cd189"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaOutrosViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaOutrosViewModel.cs",
+      "raw_sha256": "ac4387327bdea3c50cc2b374cb378ddba78dc9fbbbae3d0517dbde7b9a15629c"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\MovimentacaoReferenciadaViewModel.cs",
+      "raw_sha256": "984c007222f612ba05d33ce2cdc46882bf6bbaa6898680777191ed290706d6b2"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\ObservacoesViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\ObservacoesViewModel.cs",
+      "raw_sha256": "ce7c5571699af70a3c671d770f53eae71fe918c3d35e1e1dc2a057ecbcf6829f"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\OutrasInformacoesViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\OutrasInformacoesViewModel.cs",
+      "raw_sha256": "8398a08d5a5b97761c53d715bd3c4a379d61396064a701a90964ba0b1cf0f6c4"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\ServicoMultimodalViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\ServicoMultimodalViewModel.cs",
+      "raw_sha256": "1e3243e063db62882962c031c886d824cab4bf6dba9f335c412bf72abca370a7"
+    },
+    {
+      "path": "ViewModels\\ViewModelsPadroes\\SubstituidoViewModel.cs",
+      "export_path": "ViewModels\\ViewModelsPadroes\\SubstituidoViewModel.cs",
+      "raw_sha256": "c02e060f3d0ea524d6f96c4170fff62e0684b312ff4a9aec6192414f01837635"
+    },
+    {
+      "path": "Views\\CartasCorrecao\\CartaCorrecaoCTeFichaView.cs",
+      "export_path": "Views\\CartasCorrecao\\CartaCorrecaoCTeFichaView.cs",
+      "raw_sha256": "c811ab84babe8536d3c286a8875bf39a03e3493c167197a02e565ecefbf5d63f"
+    },
+    {
+      "path": "Views\\CartasCorrecao\\CartaCorrecaoCTeListaView.cs",
+      "export_path": "Views\\CartasCorrecao\\CartaCorrecaoCTeListaView.cs",
+      "raw_sha256": "45f2c31e1ba2d6819b35474c331228e27ffa6e610b517aeaae2c9ef6cde69f33"
+    },
+    {
+      "path": "Views\\CartasCorrecao\\CartaCorrecaoCTeView.cs",
+      "export_path": "Views\\CartasCorrecao\\CartaCorrecaoCTeView.cs",
+      "raw_sha256": "8b7f00014438398679ba3c8394a3ce96ab78a1843d3b455080a5da32926410a5"
+    },
+    {
+      "path": "Views\\ConhecimentosTransporteEletronicoView.cs",
+      "export_path": "Views\\ConhecimentosTransporteEletronicoView.cs",
+      "raw_sha256": "e1f81c9e27c23c6e1bb3c93f881d2b1c53ce3a31c9d201d892db6ebdb32245b5"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaAdicionarView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaAdicionarView.cs",
+      "raw_sha256": "5e72481d7a5d039aa86dcfd460f4e80e0ac1cd3bdd5e0c88f5a0499965cee639"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaAtualizarView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaAtualizarView.cs",
+      "raw_sha256": "c3e4c95f08deaf452896fdf2f7e7a1ca02b49f6762590c473b3d18136dd6d3dd"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\CargaView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\CargaView.cs",
+      "raw_sha256": "f0641cc43bab2310d1035242f66e23699afb6369ac461b05c0e09f2259fbfdeb"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ConhecimentoTransporteEletronicoView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ConhecimentoTransporteEletronicoView.cs",
+      "raw_sha256": "f5032e9b5d5bf6cbb00029dc70eb21008e1f168994e6bf839b5d5b4cb6890765"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\DocumentoAnteriorFichaView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\DocumentoAnteriorFichaView.cs",
+      "raw_sha256": "5108f8d3a623493797f667495e2fa3ab3783ae86dd067ab7195037cb03d4b010"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\DocumentoAnteriorListaView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\DocumentoAnteriorListaView.cs",
+      "raw_sha256": "dd59ac79ee2cd3127691037dd3fce4ff01cd548e7d67301bc1f6b0940c863c9e"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\EntregaView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\EntregaView.cs",
+      "raw_sha256": "3297e05222d05d66ba74e2c9c347b4de9c9b3d0543583ddef1bf674712dc1d2b"
+    },
+    {
+      "path": "_long\\b995e86997eb52ba.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\InformacoesConhecimentoTransporteOutrosServicosView.cs",
+      "raw_sha256": "387cc150143533caabf5fbd22cc7f70a5f8d5a3bd3361bc4f2d33f071f49d0f1"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ModalView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ModalView.cs",
+      "raw_sha256": "eb81f1d1b6eb34df8b8718cb366eac590760b8f9a8d929e6803aef790dab346f"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\MovimentacaoReferenciadaFichaView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\MovimentacaoReferenciadaFichaView.cs",
+      "raw_sha256": "5a72e61de64836e7816c1d8fd0fcd1398fb791c9e79dcc44e871b7d9a1983144"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\MovimentacaoReferenciadaListaView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\MovimentacaoReferenciadaListaView.cs",
+      "raw_sha256": "95c64325135209723d47b3ec30cfb37774038b4ded652340ac9e9669bc10233f"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ObservacoesView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ObservacoesView.cs",
+      "raw_sha256": "68badd1c6c663bfbbf340a40b19ae788594015f491d2326998c6b8d123d959a8"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\OutrasInformacoesView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\OutrasInformacoesView.cs",
+      "raw_sha256": "47ded4159b90a71f951c3a83d59e93866677c525969b2a66ab1d20ed2a0546ae"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\PagamentoView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\PagamentoView.cs",
+      "raw_sha256": "75c6c2d50c7deabcdb1d6a859621e99fce7adfc0dc740cceb53a780150ccab58"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\PercursoView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\PercursoView.cs",
+      "raw_sha256": "6258e53d9f5b3683310290c54bf398e058ded5f7a664b8462aa34fde3ae208ed"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ServicoMultimodalFichaView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ServicoMultimodalFichaView.cs",
+      "raw_sha256": "18a3694949be2ad2d32008937505c4c887826da3b4720cee5a2d8c680df9e870"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ServicoMultimodalListaView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ServicoMultimodalListaView.cs",
+      "raw_sha256": "644789ea87ff81094b895cdc57a1f5e86c91d82a5f543c3b872466f7c61d54ff"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ValoresView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoFichaVie\\ValoresView.cs",
+      "raw_sha256": "44fbadcb3aec21e0aa1809a8d7aa26ba2e51273492e3d630131d455a1041bd1a"
+    },
+    {
+      "path": "Views\\ConhecimentoTransporteEletronicoListaView.cs",
+      "export_path": "Views\\ConhecimentoTransporteEletronicoListaView.cs",
+      "raw_sha256": "e3a2c4e226336bcb3b84fb86906eb66bfeec55beea80578fafc2b0ff582ba64d"
+    },
+    {
+      "path": "Views\\InformacaoDocumentoReferenciadoFichaView.cs",
+      "export_path": "Views\\InformacaoDocumentoReferenciadoFichaView.cs",
+      "raw_sha256": "036c4cea697086609288396b48eafe87ef7d27245333e0ff62bce151a80eadbd"
+    },
+    {
+      "path": "Views\\InformacaoSeguroFichaView.cs",
+      "export_path": "Views\\InformacaoSeguroFichaView.cs",
+      "raw_sha256": "2e9b4ad609a80bd117926dab2dfd5fc8a0cc8b562ca6f0a9a7da337446e02ea8"
+    },
+    {
+      "path": "Views\\InformacoesDocumentosReferenciadosFichaV\\InformacaoDocumentoReferenciadoView.cs",
+      "export_path": "Views\\InformacoesDocumentosReferenciadosFichaV\\InformacaoDocumentoReferenciadoView.cs",
+      "raw_sha256": "c413323f79cfd55bcf32d198d95c1030e2e1691fee62659b08cdfb6c49d0bc76"
+    },
+    {
+      "path": "Views\\InformacoesSegurosFichaViewDetalhes\\InformacaoSeguroView.cs",
+      "export_path": "Views\\InformacoesSegurosFichaViewDetalhes\\InformacaoSeguroView.cs",
+      "raw_sha256": "b8de2f1067e36d0b31ece27e9bd91891ac8d827264749a5b49d7b6ccc06109fe"
+    },
+    {
+      "path": "Views\\LinkDuplicarMovimentacao.cs",
+      "export_path": "Views\\LinkDuplicarMovimentacao.cs",
+      "raw_sha256": "a30146910e04d16f0e507f3b4c93d027b11cc78f96d4613a0ee109ef052dedff"
+    },
+    {
+      "path": "Views\\LinkTransmitir.cs",
+      "export_path": "Views\\LinkTransmitir.cs",
+      "raw_sha256": "3dce8d617cc1cb7fb13521ecbdd6b34ad6199e78d6a88f06207b0d614feaf09e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 94
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 33,
+      "types": [
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass8_0",
+        "__c_DisplayClass8_1",
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass34_0",
+        "__c_DisplayClass37_0",
+        "__c_DisplayClass38_0",
+        "__c_DisplayClass43_0",
+        "__c_DisplayClass1_0",
+        "__c_DisplayClass3_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass9_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass4_0",
+        "__c_DisplayClass3_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass8_0",
+        "__c_DisplayClass5_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass21_0",
+        "__c_DisplayClass75_0",
+        "__c_DisplayClass1_0",
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass65_0",
+        "__c_DisplayClass72_0",
+        "__c_DisplayClass73_0",
+        "__c_DisplayClass75_0",
+        "__c_DisplayClass47_0",
+        "__c_DisplayClass47_1",
+        "__c_DisplayClass48_0",
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass4_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.ConhecimentosTransporteEletronico.g.resources",
+      "file": "0000.bin",
+      "bytes": 212407,
+      "sha256": "4f62daaf9111852fd415bcadba92b71df2707b9308a9056346157a39b9f2e08f"
+    },
+    {
+      "name": "Otus.Modulo.ConhecimentosTransporteEletronico.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ConhecimentosTransporteEletronico.Reports.EspelhoCte.RelatorioEspelhoCteOs.resources",
+      "file": "0002.bin",
+      "bytes": 12019,
+      "sha256": "55ca179eac4796ac95a2856128e17c8ce28e7e9d9cc6b2e3be35fb816989fbbd"
+    },
+    {
+      "name": "Otus.Modulo.ConhecimentosTransporteEletronico.Reports.EspelhoCte.RelatorioEspelhoCte.resources",
+      "file": "0003.bin",
+      "bytes": 13706,
+      "sha256": "fe8d24f52b3c2485d1738235b5f8a882fe252164e7f6b0111a0f55394571c470"
+    },
+    {
+      "name": "Otus.Modulo.ConhecimentosTransporteEletronico.Reports.EspelhoCte.RelatorioParcialEspelhoComponentes.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ConhecimentosTransporteEletronico.dll.licenses",
+      "file": "0005.bin",
+      "bytes": 304,
+      "sha256": "2bf35898dc3de3ae0dac4ab2052151c353be089f2c274261f512623f52b7a34d"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.RelacoesVendedorCliente",
+  "baseline": "baseline\\Modulo.RelacoesVendedorCliente.dll",
+  "baseline_sha256": "95c19501415cd7beb2d44b25aba418b95e63828090377a39252d5f42d2b47790",
+  "export_project": "recovered\\SuiteG6\\Modulo.RelacoesVendedorCliente\\Modulo.RelacoesVendedorCliente.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "1c065cdcaaccd1d232d5fd77ad84a3f85c8a483d0839e9de9dee06c3acd0ec16"
+    },
+    {
+      "path": "RelacaoVendedorClienteModulo.cs",
+      "export_path": "RelacaoVendedorClienteModulo.cs",
+      "raw_sha256": "312590167a1fbe9e578bbec35a566d72098d192f6233ed2fc3c2343736946703"
+    },
+    {
+      "path": "ViewModels\\ItemClienteViewModel.cs",
+      "export_path": "ViewModels\\ItemClienteViewModel.cs",
+      "raw_sha256": "51ed49c8b7e6f815151315c24618bc2551faaef3779f059ef50fec71ba14dd45"
+    },
+    {
+      "path": "ViewModels\\ListaClienteViewModel.cs",
+      "export_path": "ViewModels\\ListaClienteViewModel.cs",
+      "raw_sha256": "7578a2a950949db2017b2d9287299cdc0931bfde29ccd940ff29c311394385bd"
+    },
+    {
+      "path": "ViewModels\\RelacaoVendedorClienteAbaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoVendedorClienteAbaViewModel.cs",
+      "raw_sha256": "ed3f6a921730f742bcaad6b82f334d24f6f3ae229c001eabee05a6d8f0742b9a"
+    },
+    {
+      "path": "ViewModels\\RelacaoVendedorClienteFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\RelacaoVendedorClienteFichaAtualizarViewModel.cs",
+      "raw_sha256": "e561b077714118b355a6684d190c4e61d450f6ae20e56693a910c57c9e2c1e0b"
+    },
+    {
+      "path": "ViewModels\\RelacaoVendedorClienteFormulario.cs",
+      "export_path": "ViewModels\\RelacaoVendedorClienteFormulario.cs",
+      "raw_sha256": "e3770ee2b7b5a9b743c07b4e7227e7a5cf1f4ef97343f85827a8b4ab7bdabaf3"
+    },
+    {
+      "path": "ViewModels\\RelacaoVendedorClienteListaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoVendedorClienteListaViewModel.cs",
+      "raw_sha256": "35b6457f8ffb53d8974331f10b28e8f37de7d1dd54eda2ab81bcf75b11e6dbfd"
+    },
+    {
+      "path": "ViewModels\\RelacaoVendedorClienteViewModel.cs",
+      "export_path": "ViewModels\\RelacaoVendedorClienteViewModel.cs",
+      "raw_sha256": "ec21c3f55941de375ea8928fbbab9736bdae2f996ffd22046112841c17156869"
+    },
+    {
+      "path": "ViewModels\\RelacoesVendedorClienteViewModel.cs",
+      "export_path": "ViewModels\\RelacoesVendedorClienteViewModel.cs",
+      "raw_sha256": "9a544f4e282a5fc23f3c08aa3c467fb63aa3ed9b36a9ad8d0efe392785125fc5"
+    },
+    {
+      "path": "Views\\RelacaoVendedorClienteFichaAtualizarView.cs",
+      "export_path": "Views\\RelacaoVendedorClienteFichaAtualizarView.cs",
+      "raw_sha256": "b959cacb9d51b4dddd55811deda8c6baeaf630af99a472aa4efc50aacf8b4dea"
+    },
+    {
+      "path": "Views\\RelacaoVendedorClienteFichaViewDetalhes\\RelacaoVendedorClienteView.cs",
+      "export_path": "Views\\RelacaoVendedorClienteFichaViewDetalhes\\RelacaoVendedorClienteView.cs",
+      "raw_sha256": "2255169ec5e6b2e294e13e56fb1981d6efe5bbfcf0bca81cc3649b44067ad6c9"
+    },
+    {
+      "path": "Views\\RelacaoVendedorClienteListaView.cs",
+      "export_path": "Views\\RelacaoVendedorClienteListaView.cs",
+      "raw_sha256": "023e318242ba61a5fe7befa6a535d4b0d8b4d69e59b0285808bdef7af8cf5c24"
+    },
+    {
+      "path": "Views\\RelacoesVendedorClienteView.cs",
+      "export_path": "Views\\RelacoesVendedorClienteView.cs",
+      "raw_sha256": "8d88fca87c8345b34b9de1a18c94af37374e59ffc2b036738389c448862644cb"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.RelacoesVendedorCliente.g.resources",
+      "file": "0000.bin",
+      "bytes": 12988,
+      "sha256": "1c031cb262177f22e31a489c98f8f3602ee90536f1bef46a672eaaf2e5278331"
+    },
+    {
+      "name": "Modulo.RelacoesVendedorCliente.dll.licenses",
+      "file": "0001.bin",
+      "bytes": 294,
+      "sha256": "dee4a29f082740479416e543290c115d033fb34fded2e8963c04ad6d8e8d0303"
+    }
+  ],
+  "generated_stubs": false
+}

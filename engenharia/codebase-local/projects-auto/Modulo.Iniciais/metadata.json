@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "ecc3ccba31d02c4dd4f934ac20f54287740e9d6c2d94731fc90f92f084fcdbdc",
+  "mvid": "72c711af-68ce-41b4-bda4-ebb91dcf3b34",
+  "assembly": "Modulo.Iniciais, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "Infraestrutura",
+    "System.Reactive.Core",
+    "PresentationCore",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Drawing",
+    "WindowsBase"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Iniciais.g.resources",
+      "file": "0000.bin",
+      "bytes": 19598064,
+      "sha256": "1ac16c0ea8ca54986c81850118c5d7e2619388072b762347866868421b758d25"
+    },
+    {
+      "name": "Otus.Modulo.Iniciais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

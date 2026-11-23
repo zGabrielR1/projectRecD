@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "f576f45789def7a15b8fa26a7cc1feec7f1447744ec7e7b60167ab18979d07d9",
+  "mvid": "e4b12f1f-22f2-4b72-a783-60d3bf73ef68",
+  "assembly": "Modulo.AnunciosShopee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "MediaToolkit",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.AnunciosShopee.g.resources",
+      "file": "0000.bin",
+      "bytes": 70339,
+      "sha256": "562ce728e1d1d5d72786583fe207a589efea5efedf644b81ef4dd8b55c838b56"
+    },
+    {
+      "name": "Otus.Modulo.AnunciosShopee.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

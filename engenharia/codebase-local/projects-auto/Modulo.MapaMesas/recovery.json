@@ -1,0 +1,108 @@
+{
+  "name": "Modulo.MapaMesas",
+  "baseline": "baseline\\Modulo.MapaMesas.dll",
+  "baseline_sha256": "87663712cfdfedebb9fafe6af46f9bb43df382f5ac5b1cd320d7a8fba9cc9215",
+  "export_project": "recovered\\SuiteG6\\Modulo.MapaMesas\\Modulo.MapaMesas.csproj",
+  "sources": [
+    {
+      "path": "MapaMesaModulo.cs",
+      "export_path": "MapaMesaModulo.cs",
+      "raw_sha256": "8904029bced84a74adc21936997f0ba7907fd4c7d3a6a27ef8c1674984e0848a"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c93320c02fe3a1ebe34ca140a57841f55505ade12ced885da137a65e266384e8"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "b8af475043be0804cecb0039fbcc10cc25d458363dd908017665c8b8ade59eda"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d49888ee5a075e49d5cde7c790d128b2445ba0ba8c29c157c35ab3e8cb5024c1"
+    },
+    {
+      "path": "ViewModels\\MapaMesasViewModel.cs",
+      "export_path": "ViewModels\\MapaMesasViewModel.cs",
+      "raw_sha256": "e3fda68811f5b49ce661bc7cca3e0744baae345213e2f3780db3e6bf4c8d2a5d"
+    },
+    {
+      "path": "ViewModels\\MapaMesaViewModel.cs",
+      "export_path": "ViewModels\\MapaMesaViewModel.cs",
+      "raw_sha256": "8bdb7d1aac4cf254922524650d2230e6c32ad331bbe57c4f7b370229b27b101f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelFichaReserva.cs",
+      "export_path": "ViewModels\\Paineis\\PainelFichaReserva.cs",
+      "raw_sha256": "0394d22b2ab0848032c02a7d64fc1a6dfa0ef7101a287e607eecd63b4ece6c88"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelListaReserva.cs",
+      "export_path": "ViewModels\\Paineis\\PainelListaReserva.cs",
+      "raw_sha256": "c89a36f477a3a6f8153de5f7b57309d671f207ed17607ce05718646aa8ac3f5d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMapa.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMapa.cs",
+      "raw_sha256": "fa938f66128b73944bd74084ccd73b8a1eac3ffc7ebb17755d5f2eb797e334fb"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ReservaViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\ReservaViewModel.cs",
+      "raw_sha256": "15d76ec43317cb09b3282b7905ffa94914aa1bfff5b2bb484ad80135a39e02e0"
+    },
+    {
+      "path": "Views\\LinkExcluir.cs",
+      "export_path": "Views\\LinkExcluir.cs",
+      "raw_sha256": "19f872ffb5ebdbebe735a717320206522f27fc0e15bb192cf6c0e59183c007de"
+    },
+    {
+      "path": "Views\\MapaMesasView.cs",
+      "export_path": "Views\\MapaMesasView.cs",
+      "raw_sha256": "7f214a24bb4ca4184d18717eeba4bd91223e96ba88c9cc8961dbe463d6d8e788"
+    },
+    {
+      "path": "Views\\MapaMesaView.cs",
+      "export_path": "Views\\MapaMesaView.cs",
+      "raw_sha256": "06dcaf7545c6b61586bcf6afd4a8e4fbb6a618a67d835b6b70423439f27a1749"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 20
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 7,
+      "types": [
+        "__c_DisplayClass8_0",
+        "__c_DisplayClass26_0",
+        "__c_DisplayClass4_0",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass37_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.MapaMesas.g.resources",
+      "file": "0000.bin",
+      "bytes": 31207,
+      "sha256": "e79249ec247a25162087c3c0e81e5d5a114ea0af9fdad66fcb8b730c9d960d96"
+    },
+    {
+      "name": "Otus.Modulo.MapaMesas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

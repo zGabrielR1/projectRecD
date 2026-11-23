@@ -1,0 +1,85 @@
+{
+  "name": "Modulo.MaosObra",
+  "baseline": "baseline\\Modulo.MaosObra.dll",
+  "baseline_sha256": "3a6f719fa42e6b9cec86c0ac5f9f50d4bb0458667833a076554512063ab6a142",
+  "export_project": "recovered\\SuiteG6\\Modulo.MaosObra\\Modulo.MaosObra.csproj",
+  "sources": [
+    {
+      "path": "MaoObraModulo.cs",
+      "export_path": "MaoObraModulo.cs",
+      "raw_sha256": "be2fa6248c80dc53f29f4650375816566116d14811fe348babbf1e81e02190fc"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "611dd6df5c55aaec56be0ecc30b139033a8555d96f22b2e40291bbdf73c10e8c"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "a30a9b2b9647f4865042038ab46e77dd9f87a98a26299e46d1aa992a6af47287"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "cec534ae6d59adc77aeb599035f18a80351a52d55729eab189a7bfd1721eb82f"
+    },
+    {
+      "path": "ViewModels\\MaoObraAbaViewModel.cs",
+      "export_path": "ViewModels\\MaoObraAbaViewModel.cs",
+      "raw_sha256": "7f48c318f6e8d9a9f4940b38b19e806f649e2651cffca835e2af864c8ffaa26f"
+    },
+    {
+      "path": "ViewModels\\MaoObraFichaViewModel.cs",
+      "export_path": "ViewModels\\MaoObraFichaViewModel.cs",
+      "raw_sha256": "675f303de251ca36910c8be6d318fa2a7bb655bc5e65b5782caf560033177264"
+    },
+    {
+      "path": "ViewModels\\MaoObraFormulario.cs",
+      "export_path": "ViewModels\\MaoObraFormulario.cs",
+      "raw_sha256": "83172c14e28b817a692e2310dc30f1a12d047bbe633c7242edef559d2b47859d"
+    },
+    {
+      "path": "ViewModels\\MaoObraViewModel.cs",
+      "export_path": "ViewModels\\MaoObraViewModel.cs",
+      "raw_sha256": "90256ffb9f388709998331bb325f590bda1f59da4318089f38e940e36d91fcce"
+    },
+    {
+      "path": "ViewModels\\MaosObraViewModel.cs",
+      "export_path": "ViewModels\\MaosObraViewModel.cs",
+      "raw_sha256": "2eb0150f5e247e630236979ea9a2bd0df787e10e382b965711e540477e35669a"
+    },
+    {
+      "path": "Views\\FichaViewDetalhes\\MaoObraView.cs",
+      "export_path": "Views\\FichaViewDetalhes\\MaoObraView.cs",
+      "raw_sha256": "658200488a172a34b82cf96e0a0c3f7a350ec8e92d7905b1726c8c861ce16904"
+    },
+    {
+      "path": "Views\\MaoObraFichaView.cs",
+      "export_path": "Views\\MaoObraFichaView.cs",
+      "raw_sha256": "b9bad0e13899e04c6e4f5d8926c507a77bdb7e2171667fcf1571c3970cd4ef8c"
+    },
+    {
+      "path": "Views\\MaosObraView.cs",
+      "export_path": "Views\\MaosObraView.cs",
+      "raw_sha256": "13c0ea9962405754f81f9c73784f5f21652693c62115435ad85d12cd3a5f1bd8"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.MaosObra.g.resources",
+      "file": "0000.bin",
+      "bytes": 8044,
+      "sha256": "9327f6730841305eb8b78c0d99bd9d998f42c4d00486bafafba402340b37161e"
+    },
+    {
+      "name": "Otus.Modulo.MaosObra.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

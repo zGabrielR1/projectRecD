@@ -1,0 +1,430 @@
+{
+  "name": "Modulo.TributacoesFederais",
+  "baseline": "baseline\\Modulo.TributacoesFederais.dll",
+  "baseline_sha256": "f188490d45dd9c75f081280d34656e382b2166b9aa2f9dcabd99349c47124e88",
+  "export_project": "recovered\\SuiteG6\\Modulo.TributacoesFederais\\Modulo.TributacoesFederais.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c1ec4c91afd214f800e6df63e0b253abcaae55230ae66734437a9fb233764969"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "9de5c0cfa949ecf8188f74a4f3179568ffdaf65a43bce79028682c4bee280231"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8738554fe7cff6971b008b57e1a1b0f95d0e3f2a8519b06f4969c2f84b28234e"
+    },
+    {
+      "path": "TributacaoFederalModulo.cs",
+      "export_path": "TributacaoFederalModulo.cs",
+      "raw_sha256": "ca51e2d1ae55e5cd05b3f5c54fb88768d7f78b9ecc2b0df5c2e84e3fcae40582"
+    },
+    {
+      "path": "ViewModels\\Ipi\\IPINaoTributadoViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\IPINaoTributadoViewModel.cs",
+      "raw_sha256": "26b2cd1a23b0bbab8414df6edb41787b3d59de756e1b91e15e5a9590a639a262"
+    },
+    {
+      "path": "ViewModels\\Ipi\\IPITributadoViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\IPITributadoViewModel.cs",
+      "raw_sha256": "2fbc1e81474da2ba35cd3bb46aab09bf8152f38c8356ddba058fa09059509462"
+    },
+    {
+      "path": "ViewModels\\Ipi\\IPIViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\IPIViewModel.cs",
+      "raw_sha256": "026c4eb22791ad27cf466ab4f3e8fbfaccadfe514cbdd7e96ac39bb9af58e442"
+    },
+    {
+      "path": "ViewModels\\Ipi\\PercentualIPICst90ViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\PercentualIPICst90ViewModel.cs",
+      "raw_sha256": "54383e5315d4d15d9b1cfa185f61f5173b2fcd30a23737189be51a37d581078e"
+    },
+    {
+      "path": "ViewModels\\Ipi\\PercentualIPIViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\PercentualIPIViewModel.cs",
+      "raw_sha256": "5f53933ff78f0bbc2f7b13afc0c744bdb51d7418e2d733371935166429a0685c"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TipoIPI.cs",
+      "export_path": "ViewModels\\Ipi\\TipoIPI.cs",
+      "raw_sha256": "4cc7d0d1ae31de8490cd6c7c8c2dd3c58e2f241cbdf77ed23213fc950e9abee2"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TipoIPIComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TipoIPIComboBoxViewModel.cs",
+      "raw_sha256": "d0419b0e88378e7953436ac24f268599815118e6e4cff50408fc73851b4779fa"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiAbaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiAbaViewModel.cs",
+      "raw_sha256": "09dd1d90d4918d82d3adb8496402b0bdcfa5bc8f51e9566780726fd0302c5824"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiBaseViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiBaseViewModel.cs",
+      "raw_sha256": "603d96805ea7e54e1872a1141bcf97510db8a0b58294ba52c88a7618cd1fa5a4"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiEntradaAbaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiEntradaAbaViewModel.cs",
+      "raw_sha256": "0d1e04b57297494eddd45b41dd0b51d2e48030630d4bfdfad9e6c4a06f46680f"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiEntradaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiEntradaViewModel.cs",
+      "raw_sha256": "cb1672e49db32406b697cc3764ea1d0e8b9e3cd1ebee14d1d8d2bcd783eda427"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiFichaAdicionarViewModel.cs",
+      "raw_sha256": "ff3def7bf4e1f08dfc92b62dc3ff8bc1609e5c7fa4e6095ff35a2520c7189f14"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiFichaAtualizarViewModel.cs",
+      "raw_sha256": "525cedf3687512f84b12d5b455e0fb74b969a876fa3f2921dcd459749967a2c1"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiFormulario.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiFormulario.cs",
+      "raw_sha256": "b901cd7b8184e14b07edf3b5e675d27304b42b71a2ee0e6b3e1dceab3e134464"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiListaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiListaViewModel.cs",
+      "raw_sha256": "350fb56e87745e6c3e6936698b4912bff8a3ab41ff47cc96b56cf7ff0360cc5f"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiRemessaAbaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiRemessaAbaViewModel.cs",
+      "raw_sha256": "1fd0c0960cc2f95f43ec1615f6934515a4bbe95d349d82b9ac120d63c9a44156"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiRemessaEntradaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiRemessaEntradaViewModel.cs",
+      "raw_sha256": "43e9f69a7ba4277159824b5f0839eb25dd8cad3fa24f6b954ad1e2fa11761878"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiRemessaSaidaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiRemessaSaidaViewModel.cs",
+      "raw_sha256": "dd7b48201f60ec0ac2cb52db5688655c6eac7b10be776e430a76b1e80002a186"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiRemessaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiRemessaViewModel.cs",
+      "raw_sha256": "5364b17dbcfd9626afd49d06a1cbcb1b67becf0bf9d8d7435c0de5742930ffa3"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiSaidaAbaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiSaidaAbaViewModel.cs",
+      "raw_sha256": "3f04dd03246f843b08485d2910e7b1ea700205a60763a15827bfb3ab1dfb97a3"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiSaidaViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiSaidaViewModel.cs",
+      "raw_sha256": "de4631d7dc740faa415537ba7f68596234683b95b368a72e24d723522c85a8b8"
+    },
+    {
+      "path": "ViewModels\\Ipi\\TributacaoIpiViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\TributacaoIpiViewModel.cs",
+      "raw_sha256": "e189e55d988543699a4f3286bbbca46fc10e8b27118dab5ad4a702c80ce9d245"
+    },
+    {
+      "path": "ViewModels\\Ipi\\UnidadeIPIViewModel.cs",
+      "export_path": "ViewModels\\Ipi\\UnidadeIPIViewModel.cs",
+      "raw_sha256": "646017555875308b0ff6c30ba8d38c7fc41336780f88490a4a5bf425f374a9a2"
+    },
+    {
+      "path": "ViewModels\\Percentual.cs",
+      "export_path": "ViewModels\\Percentual.cs",
+      "raw_sha256": "7c4e16de748fea25985dfc57686a772277d6c6f4e3ea25038be90efb534ae6ea"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\COFINSEntradaAbaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\COFINSEntradaAbaViewModel.cs",
+      "raw_sha256": "5f8b1a91f6e7bbd42765572af4c99ae1b78aef13fff9b999676861312216aca8"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\COFINSEntradaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\COFINSEntradaViewModel.cs",
+      "raw_sha256": "f0fad2744768bf5735104395a523f1e71d6cda1429b216c1ac9b4c53893acf73"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\COFINSSaidaAbaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\COFINSSaidaAbaViewModel.cs",
+      "raw_sha256": "8689144f753854f943c16976154d64bde657e1480088cd558e7d970f12e603f5"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\COFINSSaidaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\COFINSSaidaViewModel.cs",
+      "raw_sha256": "03a173b73049b3c91707e9ce60c618c080279cd0ebda76d6558c1ac956bb585e"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSFactory.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSFactory.cs",
+      "raw_sha256": "d09375442ef525bf689fca43e834061299d55597819917e62aa05cf6367173b2"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSNaoTributadoComNaturezaReceitaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSNaoTributadoComNaturezaReceitaViewModel.cs",
+      "raw_sha256": "dbfec2d3b4876490f3e23bcebab74e7d9e26ead0eed49903a6509b5a000d99a4"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSNaoTributadoViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSNaoTributadoViewModel.cs",
+      "raw_sha256": "88496cbf34e0d5401801b73df042d82812beb8b080843f34b3df5cba0ed58f50"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSOutrasViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSOutrasViewModel.cs",
+      "raw_sha256": "be5709aecf8f93058fb3a12189482a9fdf9b8566a6dc13d0b90ca00f28736af1"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSSubstituicaoTributariaComNaturezaReceitaViewMode.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSSubstituicaoTributariaComNaturezaReceitaViewMode.cs",
+      "raw_sha256": "9a77c6f8227e6a8ea0175607f78bbdf9c23cc8d551212b884cbf49ff5b8d486e"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSSubstituicaoTributariaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSSubstituicaoTributariaViewModel.cs",
+      "raw_sha256": "bb142fb629d67bc346fccb50e19e593374fad12859c1b8bf565929e5d6b6d750"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSTributadoViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSTributadoViewModel.cs",
+      "raw_sha256": "ff97b17de3eb9c59914a369c58787d241acfa48a8db530e50c62998abb004e82"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\CSTPISCOFINSViewModel.cs",
+      "raw_sha256": "a6daca0dd2d0d7e12b1d5a787fd20d499bd89e850dd84ca78034bf06288980f8"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\NaturezaReceitaComboBoxViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\NaturezaReceitaComboBoxViewModel.cs",
+      "raw_sha256": "04ee060b5d97fd3f8698b7d2b6a04cecf0f73978f1ceea797bf8d4e220895dbc"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\TiposTributado\\ITributadoPISCOFINS.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\TiposTributado\\ITributadoPISCOFINS.cs",
+      "raw_sha256": "18a4d93469217a44b11ceefefe2aea817dc98de5cb4f9efc1f9c9f8aa6071207"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\TiposTributado\\PercentualPISCOFINSViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\TiposTributado\\PercentualPISCOFINSViewModel.cs",
+      "raw_sha256": "8d5c2a03c81156f34256a43e5e9ee5a46f281cd7bec6171e54cf96b3c68543d3"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\CsSTPisCofins\\TiposTributado\\UnidadePISCOFINSViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\CsSTPisCofins\\TiposTributado\\UnidadePISCOFINSViewModel.cs",
+      "raw_sha256": "cc23e2ead6c3927841ed2d5aa5873251a82d53731edfae9b77401b1600c63af9"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\PISCOFINSBaseViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\PISCOFINSBaseViewModel.cs",
+      "raw_sha256": "fcffbaefefea92fdd0ec25ae13458066c48ca93ec328d6105b2f9b3d0c4cac2b"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\PISEntradaAbaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\PISEntradaAbaViewModel.cs",
+      "raw_sha256": "9a4f81058ddab31b9f01defb4b517fb98857171446e7cfc4b83a7aa81c16f14c"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\PISEntradaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\PISEntradaViewModel.cs",
+      "raw_sha256": "32435050c637722287dcbd4d1d6092843751fe44ef5b104b624d90a736e3c199"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\PISSaidaAbaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\PISSaidaAbaViewModel.cs",
+      "raw_sha256": "2e096d5248be084c6b35ecb1a29927be1031b366238b6af67242d9810d27a8b3"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\PISSaidaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\PISSaidaViewModel.cs",
+      "raw_sha256": "6a9045b75564e301d81fec1456d8bd952ad38d817233c4fefd4fb82f90e86315"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\TributacaoPISCOFINSAbaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\TributacaoPISCOFINSAbaViewModel.cs",
+      "raw_sha256": "e8cb9f906019bb4366d9c7670c518b74c2dd285a83065a40aa6db4e90ca04ab3"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\TributacaoPISCOFINSFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\TributacaoPISCOFINSFichaAdicionarViewModel.cs",
+      "raw_sha256": "7eb5dde9064e4b6106555c325796b225ac229e186746a692d702d8d1c65b1097"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\TributacaoPISCOFINSFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\TributacaoPISCOFINSFichaAtualizarViewModel.cs",
+      "raw_sha256": "bc38a753ccc02d7a63df42452e36f0c4334bec50f51ccd8baa80b83b4e212353"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\TributacaoPISCOFINSFormulario.cs",
+      "export_path": "ViewModels\\PisCofins\\TributacaoPISCOFINSFormulario.cs",
+      "raw_sha256": "97c17870c4277e9283cba7bf5c2d206bfdf32920d87a831ffcf642511c4b77c5"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\TributacaoPISCOFINSListaViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\TributacaoPISCOFINSListaViewModel.cs",
+      "raw_sha256": "ddc996a9c2b6c38ac3fb5b06b28d64f4dc5063bfdde2990f09b9bf80ff55de7d"
+    },
+    {
+      "path": "ViewModels\\PisCofins\\TributacaoPISCOFINSViewModel.cs",
+      "export_path": "ViewModels\\PisCofins\\TributacaoPISCOFINSViewModel.cs",
+      "raw_sha256": "ca4f776dfbd7aa47d1cc71ba6503097f42421293c099fc763a50c9658a7b2f78"
+    },
+    {
+      "path": "ViewModels\\TipoTributado.cs",
+      "export_path": "ViewModels\\TipoTributado.cs",
+      "raw_sha256": "62084cc9f18cb191fd002338ebd4f8c56220b5137775111a20cdd6d4daa41315"
+    },
+    {
+      "path": "ViewModels\\TipoTributadoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\TipoTributadoComboBoxViewModel.cs",
+      "raw_sha256": "c31e077959786c4ae0f1fc31d5968dd6f9412f5e63edd85efb66ab4b76b319e6"
+    },
+    {
+      "path": "ViewModels\\TributacaoFederalAbaViewModel.cs",
+      "export_path": "ViewModels\\TributacaoFederalAbaViewModel.cs",
+      "raw_sha256": "a930a5582f3ac4b556ab50422e0f7a8f88f49389c447e091846f4e502fb86402"
+    },
+    {
+      "path": "ViewModels\\TributacaoFederalFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TributacaoFederalFichaAdicionarViewModel.cs",
+      "raw_sha256": "c16793eb6c421af3143d911b4e6d8a9ab8cddc2a9071e09ffade2bfe43a70c7b"
+    },
+    {
+      "path": "ViewModels\\TributacaoFederalFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\TributacaoFederalFichaAtualizarViewModel.cs",
+      "raw_sha256": "1ede8565c77ae646888bc50b0375098ba5debfe317728df07bf9889a3639969b"
+    },
+    {
+      "path": "ViewModels\\TributacaoFederalFormulario.cs",
+      "export_path": "ViewModels\\TributacaoFederalFormulario.cs",
+      "raw_sha256": "c424f9de99c1c86df7231f10089c7d0f05daef216179a78ec9e16e5f9f59176b"
+    },
+    {
+      "path": "ViewModels\\TributacaoFederalListaViewModel.cs",
+      "export_path": "ViewModels\\TributacaoFederalListaViewModel.cs",
+      "raw_sha256": "9b6d367970931e588145936e095783eb315acafdeeeae4ba9ced7a25f2f4de18"
+    },
+    {
+      "path": "ViewModels\\TributacaoFederalViewModel.cs",
+      "export_path": "ViewModels\\TributacaoFederalViewModel.cs",
+      "raw_sha256": "9fa67c6742353ce41624f1f60705219a9036bdfed39bcf80123f1adec6dea1b7"
+    },
+    {
+      "path": "ViewModels\\TributacoesFederaisViewModel.cs",
+      "export_path": "ViewModels\\TributacoesFederaisViewModel.cs",
+      "raw_sha256": "6e834e164feab377c5e8840f3c3f59a5bc41771ed401398970c5ac494cbaf756"
+    },
+    {
+      "path": "ViewModels\\Unidade.cs",
+      "export_path": "ViewModels\\Unidade.cs",
+      "raw_sha256": "9eb1aa7ecf7c1478cd920d0c364afaf434f7f68ed6a91d1e3ed05d1987ac0e12"
+    },
+    {
+      "path": "views\\ipi\\TributacaoIpiFichaAdicionarView.cs",
+      "export_path": "views\\ipi\\TributacaoIpiFichaAdicionarView.cs",
+      "raw_sha256": "59170197aed880469577eee3a3a84ccf2f71e67d8af18874f396a163331b57c3"
+    },
+    {
+      "path": "views\\ipi\\TributacaoIpiFichaAtualizarView.cs",
+      "export_path": "views\\ipi\\TributacaoIpiFichaAtualizarView.cs",
+      "raw_sha256": "72520e90011b9a85ad7840cb9e3421ec4098c9a2b1f209623caa6e3dfe7fe619"
+    },
+    {
+      "path": "views\\ipi\\TributacaoIpiFichaViewDetalhes\\TributacaoIpiEntradaSaidaView.cs",
+      "export_path": "views\\ipi\\TributacaoIpiFichaViewDetalhes\\TributacaoIpiEntradaSaidaView.cs",
+      "raw_sha256": "33eddc68aa80495981391c2b1ff1dfbd18f745efc348399acdf428ac77120a4a"
+    },
+    {
+      "path": "views\\ipi\\TributacaoIpiFichaViewDetalhes\\TributacaoIpiRemessaView.cs",
+      "export_path": "views\\ipi\\TributacaoIpiFichaViewDetalhes\\TributacaoIpiRemessaView.cs",
+      "raw_sha256": "e8b584974fc788f8c8c6ffeb3e1f1dbfdb56d5a49d8356354d5bed8bb63ac054"
+    },
+    {
+      "path": "views\\ipi\\TributacaoIpiFichaViewDetalhes\\TributacaoIpiView.cs",
+      "export_path": "views\\ipi\\TributacaoIpiFichaViewDetalhes\\TributacaoIpiView.cs",
+      "raw_sha256": "dd8c669562add20538e91d397d08ed558b267735a7c00faff7bfea808db2c137"
+    },
+    {
+      "path": "views\\ipi\\TributacaoIpiListaView.cs",
+      "export_path": "views\\ipi\\TributacaoIpiListaView.cs",
+      "raw_sha256": "1eb9069aef411434095d4b419faf2666ced8e532c8a487b3778dae131a2adf7a"
+    },
+    {
+      "path": "views\\piscofins\\TributacaoPISCOFINSFichaAdicionarView.cs",
+      "export_path": "views\\piscofins\\TributacaoPISCOFINSFichaAdicionarView.cs",
+      "raw_sha256": "c5b42b2c93061352c65ef620eaa6c11f8d9659e6368113007488a5c967406cc6"
+    },
+    {
+      "path": "views\\piscofins\\TributacaoPISCOFINSFichaAtualizarView.cs",
+      "export_path": "views\\piscofins\\TributacaoPISCOFINSFichaAtualizarView.cs",
+      "raw_sha256": "bd145e67ea4f3574f9e189ddb78cc2072d370b3a9b564f0931301d4de8000185"
+    },
+    {
+      "path": "views\\piscofins\\TributacaoPISCOFINSFichaViewDetalhes\\PISCOFINSView.cs",
+      "export_path": "views\\piscofins\\TributacaoPISCOFINSFichaViewDetalhes\\PISCOFINSView.cs",
+      "raw_sha256": "0404990bc4a33d53c4985433207a458556b6e142f64acc7f85898877b7607240"
+    },
+    {
+      "path": "views\\piscofins\\TributacaoPISCOFINSFichaViewDetalhes\\TributacaoPISCOFINSView.cs",
+      "export_path": "views\\piscofins\\TributacaoPISCOFINSFichaViewDetalhes\\TributacaoPISCOFINSView.cs",
+      "raw_sha256": "38f77e1281b73224dc163d26a21ddb4dc886ccd9326c80b789e817ac434d7926"
+    },
+    {
+      "path": "views\\piscofins\\TributacaoPISCOFINSListaView.cs",
+      "export_path": "views\\piscofins\\TributacaoPISCOFINSListaView.cs",
+      "raw_sha256": "b4f7cfde577f6cc92f5a7e07d6f5a22b48089c5a39ba1aa73f82d44f320718ea"
+    },
+    {
+      "path": "views\\TributacaoFederalFichaAdicionarView.cs",
+      "export_path": "views\\TributacaoFederalFichaAdicionarView.cs",
+      "raw_sha256": "f179cb8768a95a665c905688010558addda03e291fb0462d23bee881cbfd698c"
+    },
+    {
+      "path": "views\\TributacaoFederalFichaAtualizarView.cs",
+      "export_path": "views\\TributacaoFederalFichaAtualizarView.cs",
+      "raw_sha256": "7aa5aa3f154ede49bba3a96fc75ea6c7a4c5ca6e53dac3296c77d94b1176590d"
+    },
+    {
+      "path": "views\\TributacaoFederalListaView.cs",
+      "export_path": "views\\TributacaoFederalListaView.cs",
+      "raw_sha256": "f01731b575ec016fa0de36675cca672c8716b9570437627772db114f25c0847c"
+    },
+    {
+      "path": "views\\TributacaoFederalView.cs",
+      "export_path": "views\\TributacaoFederalView.cs",
+      "raw_sha256": "06413ed5004a455ac8d1972a4d855ee2e05b269564c11a2500d4ea3f451ea8b5"
+    },
+    {
+      "path": "views\\TributacoesFederaisView.cs",
+      "export_path": "views\\TributacoesFederaisView.cs",
+      "raw_sha256": "b76563f7e1f403f7e223e6a0aaa0b7d0e60f47a849e9c5fe76a379bcd4ec3e63"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.TributacoesFederais.g.resources",
+      "file": "0000.bin",
+      "bytes": 61803,
+      "sha256": "d96527be2427081ae08a8ac6834750d74acfb918d0cd9d20241d32a886da10e5"
+    },
+    {
+      "name": "Otus.Modulo.TributacoesFederais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

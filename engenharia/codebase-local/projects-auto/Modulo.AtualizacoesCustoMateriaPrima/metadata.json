@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "e53d41ca11d58cb0b48055a3125919ab70350d267584fa41862355071793bd32",
+  "mvid": "ffd5c3da-5d9d-46a0-8a9f-eca4c6b4d945",
+  "assembly": "Modulo.AtualizacoesCustoMateriaPrima, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Mvvm.v15.2",
+    "PresentationCore",
+    "Infraestrutura",
+    "Prism.Unity.Wpf",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.AtualizacoesCustoMateriaPrima.g.resources",
+      "file": "0000.bin",
+      "bytes": 11050,
+      "sha256": "f72b1c6b739592e8229f3814dabd9a388b227f49250b49e9d91b93428df4a4ed"
+    },
+    {
+      "name": "Otus.Modulo.AtualizacoesCustoMateriaPrima.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

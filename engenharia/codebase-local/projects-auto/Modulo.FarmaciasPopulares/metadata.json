@@ -1,0 +1,44 @@
+{
+  "artifactSha256": "2adbefde3af7da3ddd31c33b844037b1472954c6f07eb594ce321b90a839bc0e",
+  "mvid": "f5acd581-5b58-42c5-82fa-4267ebe8674d",
+  "assembly": "Modulo.FarmaciasPopulares, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Domain.Main",
+    "MongoDB.Bson",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "System.Reactive.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Domain.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.FarmaciasPopulares.g.resources",
+      "file": "0000.bin",
+      "bytes": 39852,
+      "sha256": "721f254c7d96ce0567ba690495c63731f329849c51854a7598bdd31ccd53c546"
+    },
+    {
+      "name": "Otus.Modulo.FarmaciasPopulares.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

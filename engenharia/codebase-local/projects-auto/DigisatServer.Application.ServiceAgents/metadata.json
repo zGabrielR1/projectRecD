@@ -1,0 +1,13 @@
+{
+  "artifactSha256": "c2386d2da83ced57f50cfb965bc7fade293604fc8c0dc13197f71711a8f39f57",
+  "mvid": "fb04879c-edef-47f8-bd81-6f226c5f29bd",
+  "assembly": "DigisatServer.Application.ServiceAgents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Runtime.Serialization",
+    "System.ServiceModel"
+  ],
+  "resources": []
+}

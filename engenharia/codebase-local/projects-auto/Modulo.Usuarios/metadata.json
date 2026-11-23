@@ -1,0 +1,59 @@
+{
+  "artifactSha256": "c8c28da6d913361afacbbecc4f277bcb173785d3ca540cb12d86de6bff261e8a",
+  "mvid": "17f7b292-35ed-4b9d-bc64-fbbe4cd201fb",
+  "assembly": "Modulo.Usuarios, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "PresentationCore",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "DevExpress.Utils.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "System.Drawing",
+    "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+    "DevExpress.Data.v15.2",
+    "DevExpress.XtraPrinting.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Usuarios.g.resources",
+      "file": "0000.bin",
+      "bytes": 35416,
+      "sha256": "301a9a3175b8a0f1853792d1aae84379380b2eabb66affcdcfc3ec5b47dc7198"
+    },
+    {
+      "name": "Otus.Modulo.Usuarios.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Usuarios.Reports.Cracha.resources",
+      "file": "0002.bin",
+      "bytes": 547,
+      "sha256": "671fd3fe3c30f90deb6486bc955a6a19e5ebd1c16ce19e671a498092c9ed895a"
+    },
+    {
+      "name": "Modulo.Usuarios.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 279,
+      "sha256": "00244af8e7d9b45e84dc21efd55d4c0cdba5bd69a1d1d31270d78db01bdf741c"
+    }
+  ]
+}

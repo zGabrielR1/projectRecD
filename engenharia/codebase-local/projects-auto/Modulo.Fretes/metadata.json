@@ -1,0 +1,37 @@
+{
+  "artifactSha256": "c57c1a578b938d23b1bec1fd4f6b04cd3b615fe37c5c598be65aa000fbf4c90f",
+  "mvid": "e6bc399e-19dd-4a40-9200-cd781308dc68",
+  "assembly": "Modulo.Fretes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Fretes.g.resources",
+      "file": "0000.bin",
+      "bytes": 11400,
+      "sha256": "eeafdf21fd4493d38113093feafd021099391288dba819dad6cd51a4b9ec27e0"
+    },
+    {
+      "name": "Otus.Modulo.Fretes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

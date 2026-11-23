@@ -1,0 +1,11 @@
+{
+  "assembly": "MailKit, Version=2.10.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b",
+  "references": [
+    "mscorlib",
+    "MimeKit",
+    "System",
+    "BouncyCastle.Crypto",
+    "System.Core",
+    "System.Buffers"
+  ]
+}

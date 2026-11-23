@@ -1,0 +1,220 @@
+{
+  "name": "Modulo.Objetos",
+  "baseline": "baseline\\Modulo.Objetos.dll",
+  "baseline_sha256": "16562ae139732d8d6f092c1669921e3b3f73d6e967f934ed45cc33c518be219f",
+  "export_project": "recovered\\SuiteG6\\Modulo.Objetos\\Modulo.Objetos.csproj",
+  "sources": [
+    {
+      "path": "ObjetoModulo.cs",
+      "export_path": "ObjetoModulo.cs",
+      "raw_sha256": "3df23db49924d6560401facde1e1eb7194fdb4774bafbb215386f4b663fce1cf"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "571196f02ae20cdf6c3c7fca0aadef2289201eb58a98b0aac338756fe56fd902"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "8df41329d42af01be85f6b40170a40e7fd765401002bb6a7b4d184be1a548ff2"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "b1e11975128122f785d04ae9dc81309a0e5e7dfefe159b6769ed5def7a1cfa17"
+    },
+    {
+      "path": "ViewModels\\ObjetoAbaViewModel.cs",
+      "export_path": "ViewModels\\ObjetoAbaViewModel.cs",
+      "raw_sha256": "b38b30cfcf3f3675ab0e0ed5c4f40502dcf212bcdb3e0e73de0dd2e76189b1b5"
+    },
+    {
+      "path": "ViewModels\\ObjetoBase.cs",
+      "export_path": "ViewModels\\ObjetoBase.cs",
+      "raw_sha256": "d494d575f7c50bed6e765edfef4fc92823a9111857c1d3170d42f6328480c1ba"
+    },
+    {
+      "path": "ViewModels\\ObjetoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\ObjetoFichaAdicionarViewModel.cs",
+      "raw_sha256": "cb62299235e1598b5b8cfe731bf37045d7338f04ed1d0892520cb3fcbf7a9042"
+    },
+    {
+      "path": "ViewModels\\ObjetoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ObjetoFichaAtualizarViewModel.cs",
+      "raw_sha256": "18226e75fcd44bc037c1056b11291a4da26703c635de34e6593388e40a36124b"
+    },
+    {
+      "path": "ViewModels\\ObjetoFormulario.cs",
+      "export_path": "ViewModels\\ObjetoFormulario.cs",
+      "raw_sha256": "fdc18a5daaeda08337a4957ffd19eb797788ec46940bf4de594feb878cf3e1de"
+    },
+    {
+      "path": "ViewModels\\ObjetoListaViewModel.cs",
+      "export_path": "ViewModels\\ObjetoListaViewModel.cs",
+      "raw_sha256": "fda46f8af9ed816b215073c4276f81bc5173976d87b5bcdcf157793f73a533d3"
+    },
+    {
+      "path": "ViewModels\\ObjetoOutroViewModel.cs",
+      "export_path": "ViewModels\\ObjetoOutroViewModel.cs",
+      "raw_sha256": "8a535de9a2699e82fb9fd1e03da5fb8922d3b94bf7b5b8c121d8959609159d99"
+    },
+    {
+      "path": "ViewModels\\ObjetoSerialViewModel.cs",
+      "export_path": "ViewModels\\ObjetoSerialViewModel.cs",
+      "raw_sha256": "878e3ae1fa36e6f49950ee0e93e26fb544d039c5f3d3df57dcdbd2b372c96068"
+    },
+    {
+      "path": "ViewModels\\ObjetosViewModel.cs",
+      "export_path": "ViewModels\\ObjetosViewModel.cs",
+      "raw_sha256": "a72257a8897a5fde06e4d406598d1f8ff16e37364e20cd6af34a58260096597f"
+    },
+    {
+      "path": "ViewModels\\ObjetoVeiculoViewModel.cs",
+      "export_path": "ViewModels\\ObjetoVeiculoViewModel.cs",
+      "raw_sha256": "8be2d2f88f4969b952f29c27869ea1dfa0c68f14e211de98ae9910b375028f1c"
+    },
+    {
+      "path": "ViewModels\\ObjetoViewModel.cs",
+      "export_path": "ViewModels\\ObjetoViewModel.cs",
+      "raw_sha256": "3fc237713c6338cf454c60070ee8f2bd4703c9cc49496bc72ac5f5214043df3b"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\DavOsViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\DavOsViewModel.cs",
+      "raw_sha256": "209822f72ad96cabbec3724b8cdc239189b8d7bccda22cec38cf87677ba1ded6"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ObjetosOutrasInformacoesFichaViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ObjetosOutrasInformacoesFichaViewModel.cs",
+      "raw_sha256": "eaf14dfacde6eb9298b75ad6eafcd3855b01d2cbd7a97e61ab50394228caa54e"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ObjetosOutrasInformacoesFormulario.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ObjetosOutrasInformacoesFormulario.cs",
+      "raw_sha256": "325de3fddd0ce3e34485a52d8dd46a475741e477d3ccb106e843067989eaf6c3"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ObjetosOutrasInformacoesViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ObjetosOutrasInformacoesViewModel.cs",
+      "raw_sha256": "2d7a98c13f9f8a2fb11520cd2a97053cca278651f154188506c1023e36a48845"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\PesquisaViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\PesquisaViewModel.cs",
+      "raw_sha256": "bb58c63ccf2b24ff84e04def376b97a409d6105cce7ae44795a0c2c6910ce85a"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ProdutoViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ProdutoViewModel.cs",
+      "raw_sha256": "894aab7a09c39781244ea9167088d3fb25eb057142bb94962a59bc7acfd0f1c0"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ServicoViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ServicoViewModel.cs",
+      "raw_sha256": "cff1a026137a9d90fc4eeb469db001f177e622d81bdadb73c732b0b0a52c9f92"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\TecnicoViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\TecnicoViewModel.cs",
+      "raw_sha256": "97dca03765506fe667b10471dd2bde9270409c822c4e9967a5083ef8b9b59f85"
+    },
+    {
+      "path": "ViewModels\\TipoCombustivelComboBoxViewModel.cs",
+      "export_path": "ViewModels\\TipoCombustivelComboBoxViewModel.cs",
+      "raw_sha256": "731b93baeac12f3ebe27e032a5549ca7eaa0f2f53711ee8535ab33d52aa7af30"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Outro.cs",
+      "export_path": "ViewModels\\Tipos\\Outro.cs",
+      "raw_sha256": "d49dfe8e0912673fbaaa54555bb419db9c375ddd1c7b535b9dbbe66279252f12"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Serial.cs",
+      "export_path": "ViewModels\\Tipos\\Serial.cs",
+      "raw_sha256": "2e5c855f4dbd32fad0ce5e6485f77e691d37f6a26df6f84294ab653acfc2319e"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Tipo.cs",
+      "export_path": "ViewModels\\Tipos\\Tipo.cs",
+      "raw_sha256": "6399ae7799eab083f0c91a26124c4b617f0c68101da324608e0268f778935dfb"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TipoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\TipoComboBoxViewModel.cs",
+      "raw_sha256": "0f51f729327030a63d08354419b7da4a41f274bb3019d8d384dfc9a8a26e46f0"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Veiculo.cs",
+      "export_path": "ViewModels\\Tipos\\Veiculo.cs",
+      "raw_sha256": "e443be19c3daad0a4e4d0f940f80b65a7730075767c35e469e8b4c6cda517ecc"
+    },
+    {
+      "path": "Views\\ObjetoFichaAdicionarView.cs",
+      "export_path": "Views\\ObjetoFichaAdicionarView.cs",
+      "raw_sha256": "34af7c9512013ccda928b60548511896481e91106afc5229ac9d80023400f1fd"
+    },
+    {
+      "path": "Views\\ObjetoFichaAtualizarView.cs",
+      "export_path": "Views\\ObjetoFichaAtualizarView.cs",
+      "raw_sha256": "94f18e0d578c83813657e5431f9f41ee73788302e6cff691aec5b4b4bb99a0bc"
+    },
+    {
+      "path": "Views\\ObjetoFichaViewDetalhes\\ObjetoView.cs",
+      "export_path": "Views\\ObjetoFichaViewDetalhes\\ObjetoView.cs",
+      "raw_sha256": "bda9cd4b4593288ddd0029406106e8d9a5c241cb207c78bddc1c0c73bf3ea007"
+    },
+    {
+      "path": "Views\\ObjetoListaView.cs",
+      "export_path": "Views\\ObjetoListaView.cs",
+      "raw_sha256": "eff7c45894c4b554bd0d3c40edc8e05ba6fa3ddfb362d40b17480f1e491d8498"
+    },
+    {
+      "path": "Views\\ObjetosView.cs",
+      "export_path": "Views\\ObjetosView.cs",
+      "raw_sha256": "241342e4cd00a8e3b1231b637c54a1f1d39c9915158e2cc91c88ffda7e242eaf"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\DavOsView.cs",
+      "export_path": "Views\\OutrasInformacoes\\DavOsView.cs",
+      "raw_sha256": "efd15a3ab721c94887ea2c880ac26fc53a2e47e81d635e87530537fa7916ad9c"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\ObjetosOutrasInformacoesFichaView.cs",
+      "export_path": "Views\\OutrasInformacoes\\ObjetosOutrasInformacoesFichaView.cs",
+      "raw_sha256": "75e816903ddab430f72d51c8f3c3aca01ae72683035034351eb6fa5ea7580311"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\ProdutoView.cs",
+      "export_path": "Views\\OutrasInformacoes\\ProdutoView.cs",
+      "raw_sha256": "81381385af60221dfe33b9ca00c01f1f727440bcfbee31dbee7297bebcec60c6"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\ServicoView.cs",
+      "export_path": "Views\\OutrasInformacoes\\ServicoView.cs",
+      "raw_sha256": "a2ebd44470bfb5b901967a0e68ce80df0775c096cca9d9754ebd323003bea81c"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\TecnicoView.cs",
+      "export_path": "Views\\OutrasInformacoes\\TecnicoView.cs",
+      "raw_sha256": "adf6f800eef2f7c7afb7072aa0f603640b95009d0fb03a9621f89ba6d4b84418"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Objetos.g.resources",
+      "file": "0000.bin",
+      "bytes": 42175,
+      "sha256": "303313728bb339b70cfabddb6dfb33e6e972b8c8f7fd0dfa40a1d8a6d26ef69b"
+    },
+    {
+      "name": "Otus.Modulo.Objetos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,12 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.RegistroSistema, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "mscorlib",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+    "System"
+  ]
+}

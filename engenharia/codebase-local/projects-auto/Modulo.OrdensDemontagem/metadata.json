@@ -1,0 +1,62 @@
+{
+  "artifactSha256": "016b4abcddb578eba2646d67771bdb06d7d49806e463fa5749d4e78217caa087",
+  "mvid": "fe84c81e-8cdd-4497-a291-f5d7b27da10b",
+  "assembly": "Modulo.OrdensDemontagem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "Infraestrutura",
+    "System.Xaml",
+    "System",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "System.Drawing",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "NClone",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Printing.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.OrdensDemontagem.g.resources",
+      "file": "0000.bin",
+      "bytes": 35033,
+      "sha256": "8665a4d1b41144a0ca4286db766aee5949c9766f8af66369a2f775a39e0f204b"
+    },
+    {
+      "name": "Otus.Modulo.OrdensDemontagem.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensDemontagem.Reports.ImpressoOrdemDesmontagem.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensDemontagem.Reports.ImpressoOrdemProducao.resources",
+      "file": "0003.bin",
+      "bytes": 928,
+      "sha256": "74b52f0357d756d32b64089b0bc9126eb7857e699e67dcfdb8af8527284f2ace"
+    },
+    {
+      "name": "Modulo.OrdensDemontagem.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 287,
+      "sha256": "66a9a4836fec182e2e7133abdf1c1cd6348fda53afa8ccd7baa82d0e37d94b80"
+    }
+  ]
+}

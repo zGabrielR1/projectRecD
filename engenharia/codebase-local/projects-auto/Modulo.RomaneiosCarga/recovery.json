@@ -1,0 +1,190 @@
+{
+  "name": "Modulo.RomaneiosCarga",
+  "baseline": "baseline\\Modulo.RomaneiosCarga.dll",
+  "baseline_sha256": "d13986c6583122431cb6966875cf6312d800b3973cc11174be49c4776e27e68d",
+  "export_project": "recovered\\SuiteG6\\Modulo.RomaneiosCarga\\Modulo.RomaneiosCarga.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "dbea6d8ec73599b03128bb5bfa66a9642ae343a3ce092d5efb4c5195e495a8c9"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "67177484e90072837e6dd2b02b395f1473c336e1cc7f20d3feb186c147a924f5"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "e86e23867c7d6703be1df34d933f34a7e2626fa50d599bca56697282b6502b4d"
+    },
+    {
+      "path": "Reports\\CanhotosNfeReferenciadas.cs",
+      "export_path": "Reports\\CanhotosNfeReferenciadas.cs",
+      "raw_sha256": "b2c9566b4d4638723aff11446ff318934b6c6e0aa93c553b0c45996b88535a02"
+    },
+    {
+      "path": "Reports\\RomaneioCarga.cs",
+      "export_path": "Reports\\RomaneioCarga.cs",
+      "raw_sha256": "48d0823460c26359bfbd6ac310542f24ec9b6d06ad28d00721af8d9979a0e84b"
+    },
+    {
+      "path": "RomaneioCargaModulo.cs",
+      "export_path": "RomaneioCargaModulo.cs",
+      "raw_sha256": "6c4adf80c8506bf715dbab2f9c676cb22875c6397d4f3bef4e3ab4d3ca7a5556"
+    },
+    {
+      "path": "ViewModels\\ItemRomaneioCargaAbaViewModel.cs",
+      "export_path": "ViewModels\\ItemRomaneioCargaAbaViewModel.cs",
+      "raw_sha256": "8029ac6d3eb29fa70d168945ce3bb0ab4ba0778eadec44bcf9046b25549b3ad7"
+    },
+    {
+      "path": "ViewModels\\ItemRomaneioCargaViewModel.cs",
+      "export_path": "ViewModels\\ItemRomaneioCargaViewModel.cs",
+      "raw_sha256": "8c6acdef7006511d0fc0ff03b73fe0afdd1d5ac8f5d40a09ea13df98a4c97e8b"
+    },
+    {
+      "path": "ViewModels\\RomaneioCargaAbaViewModel.cs",
+      "export_path": "ViewModels\\RomaneioCargaAbaViewModel.cs",
+      "raw_sha256": "febb8a8ebaeb82bb3d5131b04fd4b9a9166982f172be268a461d4ff43e534267"
+    },
+    {
+      "path": "ViewModels\\RomaneioCargaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\RomaneioCargaFichaAdicionarViewModel.cs",
+      "raw_sha256": "0384471f42607e609adaf2b0c748766f13999c99aa962154e29625b4bd12a19f"
+    },
+    {
+      "path": "ViewModels\\RomaneioCargaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\RomaneioCargaFichaAtualizarViewModel.cs",
+      "raw_sha256": "da0d93c58d27070cae0352b34a7eb2ed5492c32b0d8f9933c99c4351849a8a84"
+    },
+    {
+      "path": "ViewModels\\RomaneioCargaFormulario.cs",
+      "export_path": "ViewModels\\RomaneioCargaFormulario.cs",
+      "raw_sha256": "0a6f79aa8c14ea47397f35e03804b9dd741718f0f3d4c5bed278770911b657ad"
+    },
+    {
+      "path": "ViewModels\\RomaneioCargaListaViewModel.cs",
+      "export_path": "ViewModels\\RomaneioCargaListaViewModel.cs",
+      "raw_sha256": "07cd602dd6e5cc50f30ed68f2a626abcd8a7dac2bf7fadb98d490e8f07f425c5"
+    },
+    {
+      "path": "ViewModels\\RomaneioCargaViewModel.cs",
+      "export_path": "ViewModels\\RomaneioCargaViewModel.cs",
+      "raw_sha256": "4f4a65e54f2af0d392296baa29c0e063bf8287cd3f9bca1bf681efce6e55ab2b"
+    },
+    {
+      "path": "ViewModels\\RomaneiosCargaViewModel.cs",
+      "export_path": "ViewModels\\RomaneiosCargaViewModel.cs",
+      "raw_sha256": "82239d49489a00150d1c1d91eadefb2948a6530c8d0b6ea06fa5731b8bf85946"
+    },
+    {
+      "path": "ViewModels\\VolumeTransporteAbaViewModel.cs",
+      "export_path": "ViewModels\\VolumeTransporteAbaViewModel.cs",
+      "raw_sha256": "37ae1148bdbcce6e8e97b75755e050bb6ef4c792130274c67a99c659423131e4"
+    },
+    {
+      "path": "ViewModels\\VolumeTransporteViewModel.cs",
+      "export_path": "ViewModels\\VolumeTransporteViewModel.cs",
+      "raw_sha256": "49049f029fcd09aeed5026dc57ab40050870cd2976c64853ccad1be020daba41"
+    },
+    {
+      "path": "ViewModels\\VolumeViewModel.cs",
+      "export_path": "ViewModels\\VolumeViewModel.cs",
+      "raw_sha256": "221f08725ff741ed1fe5b726682b96c314539874e6d11f5b0802f292fb032a4b"
+    },
+    {
+      "path": "views\\RomaneioCargaFichaAdicionarView.cs",
+      "export_path": "views\\RomaneioCargaFichaAdicionarView.cs",
+      "raw_sha256": "d36ecf3138abf636f966c77964bf2b2260399968a4f6a090adbe92e956438769"
+    },
+    {
+      "path": "views\\RomaneioCargaFichaAtualizarView.cs",
+      "export_path": "views\\RomaneioCargaFichaAtualizarView.cs",
+      "raw_sha256": "b97e10f57dcbf5c9d2f3fe2e9fbd6335e7bd5721fe9c6990898b55737468ae9b"
+    },
+    {
+      "path": "views\\RomaneioCargaFichaViewDetalhes\\ItensRomaneioCargaView.cs",
+      "export_path": "views\\RomaneioCargaFichaViewDetalhes\\ItensRomaneioCargaView.cs",
+      "raw_sha256": "57732aaaad965324a8b1fd8877278d265549f1ef2cc456b38e0b1a31f5310e94"
+    },
+    {
+      "path": "views\\RomaneioCargaFichaViewDetalhes\\RomaneioCargaView.cs",
+      "export_path": "views\\RomaneioCargaFichaViewDetalhes\\RomaneioCargaView.cs",
+      "raw_sha256": "c1a2710a7a574992a2f8339243eb26aa64a5fe20a65074993e8140f84ba243b4"
+    },
+    {
+      "path": "views\\RomaneioCargaFichaViewDetalhes\\VolumeTransporteView.cs",
+      "export_path": "views\\RomaneioCargaFichaViewDetalhes\\VolumeTransporteView.cs",
+      "raw_sha256": "d4793d034fcec103f23c52f54fcfa3789873e1b9bd613877b2d139a87a13b020"
+    },
+    {
+      "path": "views\\RomaneioCargaListaView.cs",
+      "export_path": "views\\RomaneioCargaListaView.cs",
+      "raw_sha256": "2e4c72a9e3919ddfd1a871e1d383f0fc3fea9e93ac627f3dcbc4245e5f0cab88"
+    },
+    {
+      "path": "views\\RomaneiosCargaView.cs",
+      "export_path": "views\\RomaneiosCargaView.cs",
+      "raw_sha256": "b9c2491dec5efc09d557ad67bbeac86bb09d79960f4eff61fa1dfc46c8615084"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 37
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 11,
+      "types": [
+        "__c_DisplayClass20_0",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass11_0",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass14_1",
+        "__c_DisplayClass14_2",
+        "__c_DisplayClass16_0",
+        "__c_DisplayClass50_0",
+        "__c_DisplayClass20_0",
+        "__c_DisplayClass8_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.RomaneiosCarga.g.resources",
+      "file": "0000.bin",
+      "bytes": 36876,
+      "sha256": "dcbb5673972451b0e898cfb3c1e1492a1df9766889c0daab40a32a32b6851e24"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosCarga.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosCarga.Reports.CanhotosNfeReferenciadas.resources",
+      "file": "0002.bin",
+      "bytes": 6040,
+      "sha256": "1fa55b8dae221264bafb249fd7f3a3a880a4f616eae13d99d52bffd1b901e3a7"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosCarga.Reports.RomaneioCarga.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.RomaneiosCarga.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 285,
+      "sha256": "4296f38af22a5b74b576bb5275597c72879f273936f393937742a73d3414e6b1"
+    }
+  ],
+  "generated_stubs": false
+}

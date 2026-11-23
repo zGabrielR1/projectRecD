@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.SequenciasMovimentacoes",
+  "baseline": "baseline\\Modulo.SequenciasMovimentacoes.dll",
+  "baseline_sha256": "cb9bb8cfe3c74b175cdbd1dbf0e12d4b1625e64841df8c4eedad83d02d499348",
+  "export_project": "recovered\\SuiteG6\\Modulo.SequenciasMovimentacoes\\Modulo.SequenciasMovimentacoes.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "5e968799b8ae1ec1f8b21232a0b469445530f9bef42ef3ca8713d559d7f5c05c"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "47d8aaa2b09d3f531548ea683a16677f5f384804131cc5e4b9ef7978127d5a4b"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "b6ce62040658f86972da5655234b771002e2c3e764ad04a634df7a743e6a7882"
+    },
+    {
+      "path": "SequenciaMovimentacaoModulo.cs",
+      "export_path": "SequenciaMovimentacaoModulo.cs",
+      "raw_sha256": "9142e98f6c001764437f92b669b075892fefd49d66620bbda330e895626d1cda"
+    },
+    {
+      "path": "ViewModels\\SequenciaMovimentacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\SequenciaMovimentacaoAbaViewModel.cs",
+      "raw_sha256": "a3b0dffe7d32ea532ce6028af2f59826c3d88509b5fdb709f313f1d9e48e0045"
+    },
+    {
+      "path": "ViewModels\\SequenciaMovimentacaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\SequenciaMovimentacaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "25f102735b85a6c8ded1a51f0697a96393b73d7c2e8a8c391c49f07511174580"
+    },
+    {
+      "path": "ViewModels\\SequenciaMovimentacaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\SequenciaMovimentacaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "234340eaaa4734e9d00598aa4624fc862354c8c80304c1aae2dde1c20e3a1c56"
+    },
+    {
+      "path": "ViewModels\\SequenciaMovimentacaoFormulario.cs",
+      "export_path": "ViewModels\\SequenciaMovimentacaoFormulario.cs",
+      "raw_sha256": "09958584163637b10242339a65255a9ecd68accbd5dc4ba769a02e52e4f083ab"
+    },
+    {
+      "path": "ViewModels\\SequenciaMovimentacaoListaViewModel.cs",
+      "export_path": "ViewModels\\SequenciaMovimentacaoListaViewModel.cs",
+      "raw_sha256": "8c840d79d5dd5111362965c225b375f110c77be30d121cd6a103caf38fb6c1d7"
+    },
+    {
+      "path": "ViewModels\\SequenciaMovimentacaoViewModel.cs",
+      "export_path": "ViewModels\\SequenciaMovimentacaoViewModel.cs",
+      "raw_sha256": "c01868db892755c9c61f8e314a20ecba6a0a1870800c6c932f243448bdba7654"
+    },
+    {
+      "path": "ViewModels\\SequenciasMovimentacoesViewModel.cs",
+      "export_path": "ViewModels\\SequenciasMovimentacoesViewModel.cs",
+      "raw_sha256": "c329d485c42b2580a3180fec079ceb908047f522d9f92374bf6785423eaac683"
+    },
+    {
+      "path": "views\\SequenciaMovimentacaoFichaAdicionarView.cs",
+      "export_path": "views\\SequenciaMovimentacaoFichaAdicionarView.cs",
+      "raw_sha256": "dafed06708e619d82c8fa88cce628b931489178f1f35c897fa1221b02fd40261"
+    },
+    {
+      "path": "views\\SequenciaMovimentacaoFichaAtualizarView.cs",
+      "export_path": "views\\SequenciaMovimentacaoFichaAtualizarView.cs",
+      "raw_sha256": "bb3c65ccf74c4f5e55b686ca79faffca49ecc8316e9babd72b178fa21bfe50f3"
+    },
+    {
+      "path": "views\\SequenciaMovimentacaoFichaViewDetalhes\\SequenciaMovimentacaoView.cs",
+      "export_path": "views\\SequenciaMovimentacaoFichaViewDetalhes\\SequenciaMovimentacaoView.cs",
+      "raw_sha256": "288170e3126c2823b1cda3705f995967dfbf1f6b911a87d05ceec4e1a67f1934"
+    },
+    {
+      "path": "views\\SequenciaMovimentacaoListaView.cs",
+      "export_path": "views\\SequenciaMovimentacaoListaView.cs",
+      "raw_sha256": "3834708aa27fe878a808d45c747d293ac78ba671d051ae7c10164fc13a870d4c"
+    },
+    {
+      "path": "views\\SequenciasMovimentacoesView.cs",
+      "export_path": "views\\SequenciasMovimentacoesView.cs",
+      "raw_sha256": "62cb3c0f7e722cf4fb0c62a87c82cbe24cb9f854f3fd72d53075dc4898f3538c"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.SequenciasMovimentacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 12958,
+      "sha256": "d0c14308e8c883caaf9506ab8a518d884054f59c951a202345ecfcaf03f0ba3c"
+    },
+    {
+      "name": "Otus.Modulo.SequenciasMovimentacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

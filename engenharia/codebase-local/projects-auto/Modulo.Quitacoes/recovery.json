@@ -1,0 +1,126 @@
+{
+  "name": "Modulo.Quitacoes",
+  "baseline": "baseline\\Modulo.Quitacoes.dll",
+  "baseline_sha256": "4e2c4687dfaeb5fff2d8e88bfc9d7d73263ba98cb82fbd590d439785a8b8d656",
+  "export_project": "recovered\\SuiteG6\\Modulo.Quitacoes\\Modulo.Quitacoes.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "a07254cb4f00b3a2159b054d4164e49897fda457ee3828dc3060b04f4f1a8a15"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "6aaff70c6055e2fd74ae9010d780d3d384e75b3880afd78341a4e9c50332da7e"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "71ce5a5f872a1393a8936569925fce6bd3437312449fec4f49f7cf86fe35b031"
+    },
+    {
+      "path": "QuitacaoModulo.cs",
+      "export_path": "QuitacaoModulo.cs",
+      "raw_sha256": "81c9dfc8282f9d5771cd984c77c709e205dd929f4999694b8fac8cc63078ec05"
+    },
+    {
+      "path": "ViewModels\\QuitacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\QuitacaoAbaViewModel.cs",
+      "raw_sha256": "d613fd89277bf2683d0221101980e59cf4333012dfab0d1099c08297079f9b40"
+    },
+    {
+      "path": "ViewModels\\QuitacaoPagamentoFichaViewModel.cs",
+      "export_path": "ViewModels\\QuitacaoPagamentoFichaViewModel.cs",
+      "raw_sha256": "c4d405a84e8e0f7433b73653be2ad40f9c99c3a28bd4b22481e52c3a2ae78f42"
+    },
+    {
+      "path": "ViewModels\\QuitacaoPagamentoFormulario.cs",
+      "export_path": "ViewModels\\QuitacaoPagamentoFormulario.cs",
+      "raw_sha256": "e3b979aa53cbdbfc667efa156fc7122a5ed2c8fdd27d004649ae54af2ead92c7"
+    },
+    {
+      "path": "ViewModels\\QuitacaoPagamentoViewModel.cs",
+      "export_path": "ViewModels\\QuitacaoPagamentoViewModel.cs",
+      "raw_sha256": "58d65596d34e384905089246b1cb347597b9d6921e4fd0b77699d79482c0d32c"
+    },
+    {
+      "path": "ViewModels\\QuitacaoRecebimentoFichaViewModel.cs",
+      "export_path": "ViewModels\\QuitacaoRecebimentoFichaViewModel.cs",
+      "raw_sha256": "4a82263568b2fcf2237db409c4f80328e499df4ae1f7973ff4b263393e0224e1"
+    },
+    {
+      "path": "ViewModels\\QuitacaoRecebimentoFormulario.cs",
+      "export_path": "ViewModels\\QuitacaoRecebimentoFormulario.cs",
+      "raw_sha256": "567cc0b033325dc5f6d679fdf28a205677e9e72db89f97494a1f141f9d0e1a41"
+    },
+    {
+      "path": "ViewModels\\QuitacaoRecebimentoViewModel.cs",
+      "export_path": "ViewModels\\QuitacaoRecebimentoViewModel.cs",
+      "raw_sha256": "49d35367184eeecf1a3d194995a7eba9c990d08bf6feab8bd59ba470a23131d3"
+    },
+    {
+      "path": "ViewModels\\QuitacaoViewModel.cs",
+      "export_path": "ViewModels\\QuitacaoViewModel.cs",
+      "raw_sha256": "59df17adec848aa1f803d664840e0a3a441845577cc0d67831ef14e6c41f7522"
+    },
+    {
+      "path": "ViewModels\\TotalizacaoPagamentoViewModel.cs",
+      "export_path": "ViewModels\\TotalizacaoPagamentoViewModel.cs",
+      "raw_sha256": "eeda95ec095976f6f40636faa9e5a1b40b848a35b1cabec2aae7948d4fb1a18f"
+    },
+    {
+      "path": "ViewModels\\TotalizacaoRecebimentoViewModel.cs",
+      "export_path": "ViewModels\\TotalizacaoRecebimentoViewModel.cs",
+      "raw_sha256": "9550d4d676bfa7e6428a8f455d2cfc66f20fd3c1b9275782b53363f4ec239187"
+    },
+    {
+      "path": "ViewModels\\TotalizacaoViewModel.cs",
+      "export_path": "ViewModels\\TotalizacaoViewModel.cs",
+      "raw_sha256": "d899619c96a6a8899874f11c48199aa5df069dd83f970ce3cc039fca7ce1ea3e"
+    },
+    {
+      "path": "Views\\FichaBaseQuitacao.cs",
+      "export_path": "Views\\FichaBaseQuitacao.cs",
+      "raw_sha256": "2a8ef5b0fd90245d7c021ea5ecd25b12508705e58e38ce5ffe1cc61051c31653"
+    },
+    {
+      "path": "Views\\QuitacaoPagamentoFichaView.cs",
+      "export_path": "Views\\QuitacaoPagamentoFichaView.cs",
+      "raw_sha256": "f09b5dac8f469889f41bbb9a4cb5001d4782afe61b4077249ef09d72c1229273"
+    },
+    {
+      "path": "Views\\QuitacaoRecebimentoFichaView.cs",
+      "export_path": "Views\\QuitacaoRecebimentoFichaView.cs",
+      "raw_sha256": "94b9deb7bb63ee8c26734c91c218eba7000760344171c71f1d8781e0fa73d8bf"
+    },
+    {
+      "path": "Views\\QuitacaoView.cs",
+      "export_path": "Views\\QuitacaoView.cs",
+      "raw_sha256": "2970e9ac309e634c2a26f44d7d26c3665b2a9411bb1c954ae1317f6440ed296b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Represent original Select result pop as discard; preserve lazy evaluation",
+      "occurrences": 1,
+      "evidence": "local-evidence/Modulo.Quitacoes/Modulo.Quitacoes.il"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Quitacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 22934,
+      "sha256": "ad50501c2c10a2f31f82ec20730e61b6617484029740c6366bb0296960520075"
+    },
+    {
+      "name": "Otus.Modulo.Quitacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

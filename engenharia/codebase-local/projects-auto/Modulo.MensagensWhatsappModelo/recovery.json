@@ -1,0 +1,89 @@
+{
+  "name": "Modulo.MensagensWhatsappModelo",
+  "baseline": "baseline\\Modulo.MensagensWhatsappModelo.dll",
+  "baseline_sha256": "17d331909d6429cd266d5e6c3e4273646ad3c1da831883c57ceef6868b9f4e94",
+  "export_project": "recovered\\SuiteG6\\Modulo.MensagensWhatsappModelo\\Modulo.MensagensWhatsappModelo.csproj",
+  "sources": [
+    {
+      "path": "MensagemWhatsappModeloModulo.cs",
+      "export_path": "MensagemWhatsappModeloModulo.cs",
+      "raw_sha256": "761b01f4032dac57ed07b228f85faa9d163d62b6531fbae263973dba1c7bbb09"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c32da04b0748afe8b711e225ae1684a651604a6c69709dcf0d695c13e319b246"
+    },
+    {
+      "path": "ViewModels\\MensagemWhatsappModeloAbaViewModel.cs",
+      "export_path": "ViewModels\\MensagemWhatsappModeloAbaViewModel.cs",
+      "raw_sha256": "02d142845131f4965bf1efe8a404c9583b02b3de639085afec4e99cc1648008b"
+    },
+    {
+      "path": "ViewModels\\MensagemWhatsappModeloFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\MensagemWhatsappModeloFichaAdicionarViewModel.cs",
+      "raw_sha256": "1525319f8d767fe7b8c2be44694d3133ed2d6c403de9286e4661ec39dfc12c9a"
+    },
+    {
+      "path": "ViewModels\\MensagemWhatsappModeloFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\MensagemWhatsappModeloFichaAtualizarViewModel.cs",
+      "raw_sha256": "69651dcca677d03e0ea68cb01bf04ca92660cdd49f3ff9d3fc3b076f70f4026b"
+    },
+    {
+      "path": "ViewModels\\MensagemWhatsappModeloFormulario.cs",
+      "export_path": "ViewModels\\MensagemWhatsappModeloFormulario.cs",
+      "raw_sha256": "a0f537158d6ba7f84974552ad97e095be0caa571ce8d3f0d4bb3d02450467ec7"
+    },
+    {
+      "path": "ViewModels\\MensagemWhatsappModeloListaViewModel.cs",
+      "export_path": "ViewModels\\MensagemWhatsappModeloListaViewModel.cs",
+      "raw_sha256": "dbe17aeaf680cc844d144b992b20c6245c5a17582747a9716ebf2d6e21229631"
+    },
+    {
+      "path": "ViewModels\\MensagemWhatsappViewModel.cs",
+      "export_path": "ViewModels\\MensagemWhatsappViewModel.cs",
+      "raw_sha256": "f84d9b2041559a329685368a6428b1790838203b8650ca961d72054033edea17"
+    },
+    {
+      "path": "ViewModels\\MensagensWhatsappModeloViewModel.cs",
+      "export_path": "ViewModels\\MensagensWhatsappModeloViewModel.cs",
+      "raw_sha256": "0c58e61d8bcc723cb94357ccb7058e814a0c835806d16819f1ffe51ae690e86f"
+    },
+    {
+      "path": "Views\\MensagemWhatsappModeloFichaAdicionarView.cs",
+      "export_path": "Views\\MensagemWhatsappModeloFichaAdicionarView.cs",
+      "raw_sha256": "d945167bdfe71dc0508b4b2ae0887d57df22b9d217c6a6b06fe5a548e3c98696"
+    },
+    {
+      "path": "Views\\MensagemWhatsappModeloFichaAtualizarView.cs",
+      "export_path": "Views\\MensagemWhatsappModeloFichaAtualizarView.cs",
+      "raw_sha256": "cb95650a9c49afe1f334a09bab22eaa1000529bc091b8110b6463154055c7487"
+    },
+    {
+      "path": "Views\\MensagemWhatsappModeloListaView.cs",
+      "export_path": "Views\\MensagemWhatsappModeloListaView.cs",
+      "raw_sha256": "5c7a561ef94b9bd3743a0dac8563252406134f1f76c0996d758dcac40f9c054d"
+    },
+    {
+      "path": "Views\\MensagemWhatsappModeloViewDetalhes\\MensagemWhatsappModeloView.cs",
+      "export_path": "Views\\MensagemWhatsappModeloViewDetalhes\\MensagemWhatsappModeloView.cs",
+      "raw_sha256": "7269d232c4ddba89a5c39d8e1a0e23c0f208a198d4190d9410c1ade3e824a1f3"
+    },
+    {
+      "path": "Views\\MensagensWhatsappModeloView.cs",
+      "export_path": "Views\\MensagensWhatsappModeloView.cs",
+      "raw_sha256": "eadd6fba3f879762e13df96d83b331e75335fed256fdab748787c1e73eabcc25"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.MensagensWhatsappModelo.g.resources",
+      "file": "0000.bin",
+      "bytes": 12387,
+      "sha256": "f1bb252f5ff14c082a8f2b643dfd2879ed71395fc3441ea849dd6473833da313"
+    }
+  ],
+  "generated_stubs": false
+}

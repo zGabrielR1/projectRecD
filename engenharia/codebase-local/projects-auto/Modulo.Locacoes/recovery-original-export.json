@@ -1,0 +1,156 @@
+{
+  "name": "Modulo.Locacoes",
+  "baseline": "baseline\\Modulo.Locacoes.dll",
+  "baseline_sha256": "266a4489900056bddf3e4a45c5ec77c61993ac4e6f0ca152a2d702da86ae6807",
+  "export_project": "recovered\\SuiteG6\\Modulo.Locacoes\\Modulo.Locacoes.csproj",
+  "sources": [
+    {
+      "path": "LocacaoModulo.cs",
+      "export_path": "LocacaoModulo.cs",
+      "raw_sha256": "3defd185de56e5ef39d1f29520ad45a2c4f0bbe94a99c9f24f7d6b3d9b6954f6"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "83408c577caf835c5f97a1a7dcd08983eb2d3b19973047ca45016136e441455b"
+    },
+    {
+      "path": "Reports\\ImpressoContratoFinalizado.cs",
+      "export_path": "Reports\\ImpressoContratoFinalizado.cs",
+      "raw_sha256": "6c8fc4e52327601f0f66d5d4d56699e4913b57e7665a41127448da8605e18c26"
+    },
+    {
+      "path": "Reports\\ImpressoContratoLocacao.cs",
+      "export_path": "Reports\\ImpressoContratoLocacao.cs",
+      "raw_sha256": "ca72255ebd81a2b0fbde85d989b40ea5b93180690e299658c6e6fccd17e38239"
+    },
+    {
+      "path": "Reports\\LocacaoRelatorioContrato.cs",
+      "export_path": "Reports\\LocacaoRelatorioContrato.cs",
+      "raw_sha256": "64470599c72854bf0853ac691876a56faef6db4d45847d5f505e3a7d446b6854"
+    },
+    {
+      "path": "Styles\\SchedulerControls\\SchedulerControlCustomLocacao.cs",
+      "export_path": "Styles\\SchedulerControls\\SchedulerControlCustomLocacao.cs",
+      "raw_sha256": "344454fa659b585d8afbb625bb5d56527968ff3d6f534aa9b695dab6985e6b9d"
+    },
+    {
+      "path": "ViewModels\\LocacaoViewModel.cs",
+      "export_path": "ViewModels\\LocacaoViewModel.cs",
+      "raw_sha256": "1cebe9508b81ea17242b75b9417c7f4b457a4c3616665099e4d0bb87110bda3b"
+    },
+    {
+      "path": "ViewModels\\LocacoesFinalizadas\\LocacoesFinalizadasAbaViewModel.cs",
+      "export_path": "ViewModels\\LocacoesFinalizadas\\LocacoesFinalizadasAbaViewModel.cs",
+      "raw_sha256": "f7d648a4c58bb540d2d47af15026dcd4023a2fc27b61f71d7fc583faff6dfbcd"
+    },
+    {
+      "path": "ViewModels\\LocacoesFinalizadas\\LocacoesFinalizadasFichaViewModel.cs",
+      "export_path": "ViewModels\\LocacoesFinalizadas\\LocacoesFinalizadasFichaViewModel.cs",
+      "raw_sha256": "c35985ca5fdc025de47cdce25d0e97b4c7c7eba1266717c2cf58fd5f26f968ef"
+    },
+    {
+      "path": "ViewModels\\LocacoesFinalizadas\\LocacoesFinalizadasFormulario.cs",
+      "export_path": "ViewModels\\LocacoesFinalizadas\\LocacoesFinalizadasFormulario.cs",
+      "raw_sha256": "55da5f9d37691abe02d387ed529bb630db64b58a533933f4416ba5d605608151"
+    },
+    {
+      "path": "ViewModels\\LocacoesFinalizadas\\LocacoesFinalizadasViewModel.cs",
+      "export_path": "ViewModels\\LocacoesFinalizadas\\LocacoesFinalizadasViewModel.cs",
+      "raw_sha256": "d5959db308323c8e82f171ba3fc96496eea55a9fc879033a4c3ac42294b10cb6"
+    },
+    {
+      "path": "ViewModels\\LocacoesViewModel.cs",
+      "export_path": "ViewModels\\LocacoesViewModel.cs",
+      "raw_sha256": "2dd595b4ed67eaf81c33c50ceb7c0a750f107c4c0499185f1e363bf58135c07b"
+    },
+    {
+      "path": "ViewModels\\MapaLocacoes\\LocacaoAlugadoViewModel.cs",
+      "export_path": "ViewModels\\MapaLocacoes\\LocacaoAlugadoViewModel.cs",
+      "raw_sha256": "3c51f5fd61d92268021748cc7ac74a80d8922a5bffb7f331aa5f45ad4a48c7cc"
+    },
+    {
+      "path": "ViewModels\\MapaLocacoes\\LocacaoMapaViewModel.cs",
+      "export_path": "ViewModels\\MapaLocacoes\\LocacaoMapaViewModel.cs",
+      "raw_sha256": "1b054977d27eb345b89a8fec677f42acf5b682d5cf8f2cb2be4e4d3329dada2e"
+    },
+    {
+      "path": "ViewModels\\MapaLocacoes\\LocacaoReservadoViewModel.cs",
+      "export_path": "ViewModels\\MapaLocacoes\\LocacaoReservadoViewModel.cs",
+      "raw_sha256": "061bc14fef1fc43cb77d8f78e5744715ded16606b75012bf8d486ca1e5ba01e3"
+    },
+    {
+      "path": "ViewModels\\MapaLocacoes\\LocacoesAgrupadasViewModel.cs",
+      "export_path": "ViewModels\\MapaLocacoes\\LocacoesAgrupadasViewModel.cs",
+      "raw_sha256": "f453445cd85dce2bc5b6c446675d6674eab3adbcc30cb607b45fae76c6a22b54"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoHistorico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoHistorico.cs",
+      "raw_sha256": "976696fc2330b1c3d7a9051a69c689d958ef4a2a92075dbd33a9d763677dd340"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoImprimir.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoImprimir.cs",
+      "raw_sha256": "e44f48247f99c9b854860a716a007ad31f4b5b6333911ea917b7ccb367788171"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoLocacao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoLocacao.cs",
+      "raw_sha256": "176ebdfee8462f46352a560130a2192049c7ca605cbb46d912c862a799514770"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoMapaLocacoes.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoMapaLocacoes.cs",
+      "raw_sha256": "069430a6d1464cf11f61a09dc8daadbafe0d3c4fdaf34f692f31cece9f89811f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelFichaLocacao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelFichaLocacao.cs",
+      "raw_sha256": "37890516468cf38d7c3f166da1b9ba058a0e84827ee80a7dd8e1eb8cdfd6fc7c"
+    },
+    {
+      "path": "Views\\LocacaoView.cs",
+      "export_path": "Views\\LocacaoView.cs",
+      "raw_sha256": "123da870de7a811da6c5eebfda2fec909d63387765570ca86bfa58d2ad06d5a8"
+    },
+    {
+      "path": "Views\\LocacoesFinalizadas\\LocacoesFinalizadasFichaView.cs",
+      "export_path": "Views\\LocacoesFinalizadas\\LocacoesFinalizadasFichaView.cs",
+      "raw_sha256": "a29a6f68eb1c0da927c460830738c43220d9faf0539085b7118af13e4b0bcced"
+    },
+    {
+      "path": "Views\\LocacoesFinalizadas\\LocacoesFinalizadasView.cs",
+      "export_path": "Views\\LocacoesFinalizadas\\LocacoesFinalizadasView.cs",
+      "raw_sha256": "9f53750fe4848ac49e26644387249fe87a3094e30dea3e456d3f7741aa2dc449"
+    },
+    {
+      "path": "Views\\LocacoesView.cs",
+      "export_path": "Views\\LocacoesView.cs",
+      "raw_sha256": "57ddf52d048658779c78e364667a1910cf9c4a1e81a3988ef9af1127b7a9f9ec"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Locacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 55076,
+      "sha256": "b253900e25e2a57c59fc9c0760e83c24a0dd356f1d48f3fa634158bb9fbeeea7"
+    },
+    {
+      "name": "Otus.Modulo.Locacoes.Reports.ImpressoContratoFinalizado.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Locacoes.Reports.ImpressoContratoLocacao.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

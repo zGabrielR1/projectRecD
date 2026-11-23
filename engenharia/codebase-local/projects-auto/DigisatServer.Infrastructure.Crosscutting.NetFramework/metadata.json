@@ -1,0 +1,44 @@
+{
+  "artifactSha256": "cea6965fe80382ff896426427953c1841f1a4bd696b062353bc542f46b698b11",
+  "mvid": "0c5ee6bf-8197-4969-ac60-2ccbcb9f452d",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.NetFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "System.Runtime.Serialization",
+    "System.Xml",
+    "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+    "System",
+    "Newtonsoft.Json",
+    "PresentationFramework",
+    "Ionic.Zip",
+    "System.Reactive.Interfaces",
+    "System.Reactive.Linq",
+    "System.Reactive.Core",
+    "Akka",
+    "Akka.DI.Core"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.NetFramework.g.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "file": "0001.bin",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "file": "0002.bin",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    }
+  ]
+}

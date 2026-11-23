@@ -1,0 +1,67 @@
+{
+  "artifactSha256": "785489e546e4f6d47c671a330f3f2c26400cd3fc809b2454941d9513da4daea5",
+  "mvid": "cf9ed3d4-3656-40b2-bfc9-1b125a7db459",
+  "assembly": "DigisatServer.Domain.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Domain.Core",
+    "DigisatServer.Application.Main.Dto",
+    "MongoDB.Bson",
+    "mscorlib",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.XtraReports.v15.2",
+    "System.Drawing",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting.Boleto",
+    "DigisatServer.Infrastructure.Crosscutting.SpedFiscal",
+    "DigisatServer.Infrastructure.Crosscutting.Sintegra",
+    "DigisatServer.Infrastructure.Crosscutting.EfdContribuicao",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoContabilidade",
+    "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural",
+    "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca",
+    "MongoDB.Driver",
+    "MoreLinq",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "System.Numerics",
+    "DigisatServer.Infrastructure.Crosscutting.RegistroSistema",
+    "DigisatServer.Infrastructure.Crosscutting.Inventario",
+    "System.Runtime.Serialization"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Domain.Main.Resources.Messages.resources",
+      "file": "0000.bin",
+      "bytes": 2022,
+      "sha256": "4f4dce01bc2f56ca400fe5882da1b21a558ae6864ba0c739f755df9185bc19c2"
+    },
+    {
+      "name": "DigisatServer.Domain.Main.g.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "file": "0002.bin",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "file": "0003.bin",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    }
+  ]
+}

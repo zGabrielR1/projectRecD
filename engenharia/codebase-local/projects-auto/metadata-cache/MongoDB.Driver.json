@@ -1,0 +1,10 @@
+{
+  "assembly": "MongoDB.Driver, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "MongoDB.Driver.Core",
+    "MongoDB.Bson",
+    "System.Core",
+    "System"
+  ]
+}

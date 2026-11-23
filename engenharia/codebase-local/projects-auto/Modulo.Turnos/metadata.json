@@ -1,0 +1,63 @@
+{
+  "artifactSha256": "1a4073f0dabd1aa3a6831255c3a228870e68f6bfd970157c04fa4f9627279fa7",
+  "mvid": "69984f79-4d98-402c-8646-20d577a92081",
+  "assembly": "Modulo.Turnos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "PresentationCore",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "DevExpress.Data.v15.2",
+    "System.Drawing",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Turnos.g.resources",
+      "file": "0000.bin",
+      "bytes": 82223,
+      "sha256": "75b89e53a4c89f061068d987229f4051006f6de7b309548fdefa960d59efafda"
+    },
+    {
+      "name": "Otus.Modulo.Turnos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Turnos.Reports.ResumoConferenciaTurno.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Turnos.Reports.ResumoTurno.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Turnos.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 277,
+      "sha256": "89a9a7705f22b81486e23fa241089d6ca389799e76234e934df3352dd4faa685"
+    }
+  ]
+}

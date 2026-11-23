@@ -1,0 +1,32 @@
+{
+  "artifactSha256": "79320dc288c290806e10845a129897cf9bf59e071241306d75ea6c1c0d199dc9",
+  "mvid": "7f4b344d-a772-4eb0-a0e1-073769ceba02",
+  "assembly": "DigisatServer.Distributed.Wcf.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ServiceModel",
+    "System",
+    "SimpleInjector.Integration.Wcf",
+    "SimpleInjector",
+    "DigisatServer.Distributed.Wcf.Core",
+    "System.IdentityModel",
+    "System.ServiceModel.Web",
+    "DigisatServer.Application.Core",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "System.Xml.Linq",
+    "DigisatServer.Domain.Main",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "DigisatServer.Distributed.Boot",
+    "System.ServiceModel.Activation",
+    "System.Runtime.Serialization",
+    "System.Web.Extensions",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Xml",
+    "Newtonsoft.Json"
+  ],
+  "resources": []
+}

@@ -1,0 +1,313 @@
+{
+  "name": "Modulo.OrdensProducao",
+  "baseline": "baseline\\Modulo.OrdensProducao.dll",
+  "baseline_sha256": "99583c312ede87c360e8f7ff77d45059123787657835b6e56d767fcf9eac0786",
+  "export_project": "recovered\\SuiteG6\\Modulo.OrdensProducao\\Modulo.OrdensProducao.csproj",
+  "sources": [
+    {
+      "path": "OrdemProducaoModulo.cs",
+      "export_path": "OrdemProducaoModulo.cs",
+      "raw_sha256": "c9f471023f9d4f281d9c5b0cfab4bfcd92a07c07b3861b0dbbef00c16e9a1f32"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "1dab2a0a6cf466bf30fec5b49a64090a99f5d8b3ae48afdfd38cff94436d0b0b"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "5a388ca490312fb122cb9c5db21d2a076a40482ae0d19f203bcfdb20636249b7"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "521f3ab60e79069e884ac1a818c38daca8c46d3a61aec923e228f3a4af5badad"
+    },
+    {
+      "path": "Reports\\ImpressoControleEtapa.cs",
+      "export_path": "Reports\\ImpressoControleEtapa.cs",
+      "raw_sha256": "726156e25958044044ee31062da71decc8562af86176b502a59476871c8d1bc7"
+    },
+    {
+      "path": "Reports\\ImpressoOrdemDesmontagem.cs",
+      "export_path": "Reports\\ImpressoOrdemDesmontagem.cs",
+      "raw_sha256": "18ff73d68e812720a9c75d21d808ecee02151702665fc26d58dd8ca56c9ecf82"
+    },
+    {
+      "path": "Reports\\ImpressoOrdemProducao.cs",
+      "export_path": "Reports\\ImpressoOrdemProducao.cs",
+      "raw_sha256": "15e14ca74553ad47405a8d4dfa846cebceea06daa56d6a2ff7b84937a757b2cf"
+    },
+    {
+      "path": "Reports\\ImpressoOrdensProducaoCadeia.cs",
+      "export_path": "Reports\\ImpressoOrdensProducaoCadeia.cs",
+      "raw_sha256": "026e98cf5aeed9c427f3edfa861e5384a51e82ef7f0db8fae024e5292ec47c71"
+    },
+    {
+      "path": "Reports\\ListaMateriasPrimasFalta.cs",
+      "export_path": "Reports\\ListaMateriasPrimasFalta.cs",
+      "raw_sha256": "31bf28f43a036b326fb14d167a75cbd7193e971944e486cb8dc48650706b104f"
+    },
+    {
+      "path": "Reports\\MateriasPrimasFalta.cs",
+      "export_path": "Reports\\MateriasPrimasFalta.cs",
+      "raw_sha256": "16b7537179396a24105b0c16d109e807d05b950dbd9006a665cc210b36db2cc2"
+    },
+    {
+      "path": "Reports\\ResumoMateriaPrima.cs",
+      "export_path": "Reports\\ResumoMateriaPrima.cs",
+      "raw_sha256": "e886a8a1345e1a97370993315f7685c649753e118d4a720a8306a1a9485d33e9"
+    },
+    {
+      "path": "ViewModels\\ColaboradoresViewModel.cs",
+      "export_path": "ViewModels\\ColaboradoresViewModel.cs",
+      "raw_sha256": "37a97b66750385d938a3863d8a813c8a7173632f2f9063d0b53e50296b1f01f1"
+    },
+    {
+      "path": "ViewModels\\ControleEtapaAbaViewModel.cs",
+      "export_path": "ViewModels\\ControleEtapaAbaViewModel.cs",
+      "raw_sha256": "a0c90789e40d5e9b914af325e589a047762518a85a27eacbcbc3cd168a152aa3"
+    },
+    {
+      "path": "ViewModels\\ControleEtapaFichaViewModel.cs",
+      "export_path": "ViewModels\\ControleEtapaFichaViewModel.cs",
+      "raw_sha256": "ce5afff4983cdae618eadb77c394a3abea5a9c35b57d88dd8ac31548d4198111"
+    },
+    {
+      "path": "ViewModels\\ControleEtapaFormulario.cs",
+      "export_path": "ViewModels\\ControleEtapaFormulario.cs",
+      "raw_sha256": "c51655c7ba63eef1b7467bc2bcae548e864c3f3e7b19c40de6726c6c0ccc18ee"
+    },
+    {
+      "path": "ViewModels\\ControleEtapaViewModel.cs",
+      "export_path": "ViewModels\\ControleEtapaViewModel.cs",
+      "raw_sha256": "cea3bb5e94c315f2cf472756b441513bd87296d0995a8d2b5ed8ac837de1cd4f"
+    },
+    {
+      "path": "ViewModels\\DesmontarAbaViewModel.cs",
+      "export_path": "ViewModels\\DesmontarAbaViewModel.cs",
+      "raw_sha256": "1500bc07468b3169c875ed5285b429b7ad5c61469f98c953c095d26654f95b7f"
+    },
+    {
+      "path": "ViewModels\\DesmontarFichaViewModel.cs",
+      "export_path": "ViewModels\\DesmontarFichaViewModel.cs",
+      "raw_sha256": "39c377a7697850b5b71d3f04a4c58b6dfaf94b58b34dcc93b2b751925c3127d5"
+    },
+    {
+      "path": "ViewModels\\DesmontarFormulario.cs",
+      "export_path": "ViewModels\\DesmontarFormulario.cs",
+      "raw_sha256": "682755ffe6f61f255d0d67ef25698c4c35f9400c9055e9ab4aadfbbc166605c3"
+    },
+    {
+      "path": "ViewModels\\DesmontarViewModel.cs",
+      "export_path": "ViewModels\\DesmontarViewModel.cs",
+      "raw_sha256": "e3db7ed53526222a5169be369e88773d5fd334f8a6bea0d40fab5bce457c08d4"
+    },
+    {
+      "path": "ViewModels\\EstoqueOrdemProducaoAbaViewModel.cs",
+      "export_path": "ViewModels\\EstoqueOrdemProducaoAbaViewModel.cs",
+      "raw_sha256": "61b6c322d37008269eb1b826bbae2bec16f2ca89840f7803a9372a56b6d82b12"
+    },
+    {
+      "path": "ViewModels\\EstoqueOrdemProducaoFichaViewModel.cs",
+      "export_path": "ViewModels\\EstoqueOrdemProducaoFichaViewModel.cs",
+      "raw_sha256": "6c967c3e7a5de98df485d454fd9ac7fd229b6060e4695624d2aa1688e75abbeb"
+    },
+    {
+      "path": "ViewModels\\EstoqueOrdemProducaoFormulario.cs",
+      "export_path": "ViewModels\\EstoqueOrdemProducaoFormulario.cs",
+      "raw_sha256": "6c0f7198f2668110d643a208c37b1e45979bacd22d3064333798d3e971486d1c"
+    },
+    {
+      "path": "ViewModels\\EstoqueOrdemProducaoViewModel.cs",
+      "export_path": "ViewModels\\EstoqueOrdemProducaoViewModel.cs",
+      "raw_sha256": "92ce82cf9ada7de7cb8099c239b367ee1c4ca85aa576e7c6278af43204591643"
+    },
+    {
+      "path": "ViewModels\\EstoqueProdutoProduzidoViewModel.cs",
+      "export_path": "ViewModels\\EstoqueProdutoProduzidoViewModel.cs",
+      "raw_sha256": "5dd571aceb04b77196f8c8311de78c75eec900a286c3a88541cd62fbad860664"
+    },
+    {
+      "path": "ViewModels\\EtapaProducaoViewModel.cs",
+      "export_path": "ViewModels\\EtapaProducaoViewModel.cs",
+      "raw_sha256": "28d9ad97ae4b9dfd0b6e8b5edf2455cfdf5c7b6f3e49a282f22c0234ff872c46"
+    },
+    {
+      "path": "ViewModels\\IItemEstoqueOrdemProducaoViewModel.cs",
+      "export_path": "ViewModels\\IItemEstoqueOrdemProducaoViewModel.cs",
+      "raw_sha256": "200817bcf647d02df7f422c50cdc944203865b1f7ad1e48901ca0513b8f5bbc0"
+    },
+    {
+      "path": "ViewModels\\ItemDesmontagemViewModel.cs",
+      "export_path": "ViewModels\\ItemDesmontagemViewModel.cs",
+      "raw_sha256": "f12929656c3e22ef28d575502302879bc55181f6d17295956ae2d0c3d57b0fe7"
+    },
+    {
+      "path": "ViewModels\\ItemEstoqueOrdemProducaoViewModel.cs",
+      "export_path": "ViewModels\\ItemEstoqueOrdemProducaoViewModel.cs",
+      "raw_sha256": "4ab83f7172a1080672dfe47b9919082d438afff3c25900e23bd2a26933b0e6f0"
+    },
+    {
+      "path": "ViewModels\\ItemEstoqueOrdemProducaoVinculadaViewModel.cs",
+      "export_path": "ViewModels\\ItemEstoqueOrdemProducaoVinculadaViewModel.cs",
+      "raw_sha256": "528d14d10a6689810b6de268d5983284d0aaacf4bd9fa47af6fb3971f0a9ebc7"
+    },
+    {
+      "path": "ViewModels\\ItensDesmontagemViewModel.cs",
+      "export_path": "ViewModels\\ItensDesmontagemViewModel.cs",
+      "raw_sha256": "e6758fa6ba9c9c64343deefbd7b390d62ca70adca1eb0998a23f1241ad9a2fc3"
+    },
+    {
+      "path": "ViewModels\\IValidoAttribute.cs",
+      "export_path": "ViewModels\\IValidoAttribute.cs",
+      "raw_sha256": "c76f18c9a0ac1c00b05ea3bf1f3cf33590f1313a79ac1bab69ad3980e9315aab"
+    },
+    {
+      "path": "ViewModels\\MateriaPrimaViewModel.cs",
+      "export_path": "ViewModels\\MateriaPrimaViewModel.cs",
+      "raw_sha256": "0a26046d149b9ba4b947ed07de422a51180a97a9d7c2d89a227ff2e55f0ebe18"
+    },
+    {
+      "path": "ViewModels\\OrdemProducaoAbaViewModel.cs",
+      "export_path": "ViewModels\\OrdemProducaoAbaViewModel.cs",
+      "raw_sha256": "9d1c555a3b5a80c4512b18d1d9a25ca525cba12679bdab41f30be9af9c826924"
+    },
+    {
+      "path": "ViewModels\\OrdemProducaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\OrdemProducaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "9e74116414cbf068a48216f265effbbabbf35d3cb678b2373f169e7962173008"
+    },
+    {
+      "path": "ViewModels\\OrdemProducaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\OrdemProducaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "b2bb8055e4174efb4cf9ff023c328358c97095e1b597ccf4fabe30c16ef00ad3"
+    },
+    {
+      "path": "ViewModels\\OrdemProducaoFormulario.cs",
+      "export_path": "ViewModels\\OrdemProducaoFormulario.cs",
+      "raw_sha256": "799f4afcefdd0f1f673f917c29d410693deaa03cdae258c3b9cba99bb1d4b915"
+    },
+    {
+      "path": "ViewModels\\OrdemProducaoListaViewModel.cs",
+      "export_path": "ViewModels\\OrdemProducaoListaViewModel.cs",
+      "raw_sha256": "c3cafadbab0fc30521f8c12d4465d435035abbc8745f1e5c22286f54eca96fa3"
+    },
+    {
+      "path": "ViewModels\\OrdemProducaoViewModel.cs",
+      "export_path": "ViewModels\\OrdemProducaoViewModel.cs",
+      "raw_sha256": "84e0c8c0c829c78a2197e1f53d2d47e82616899f3b210c4037e75b81f86d19a1"
+    },
+    {
+      "path": "ViewModels\\OrdensProducaoViewModel.cs",
+      "export_path": "ViewModels\\OrdensProducaoViewModel.cs",
+      "raw_sha256": "1b2bf1d8340497fe3969bf152deb33d82a81bf0e5ed698450e7a10e578da6bfa"
+    },
+    {
+      "path": "ViewModels\\ValidoAttribute.cs",
+      "export_path": "ViewModels\\ValidoAttribute.cs",
+      "raw_sha256": "fc3a472b4f550aae28863ed62912a884755aea2a6bec29d21fa9b3c47ecf5aa0"
+    },
+    {
+      "path": "Views\\ControleEtapaFichaView.cs",
+      "export_path": "Views\\ControleEtapaFichaView.cs",
+      "raw_sha256": "221a8b6f99e630c2a7e5bdd9c61d0f8f0544909d783defb6601451085c978760"
+    },
+    {
+      "path": "Views\\DesmontarFichaView.cs",
+      "export_path": "Views\\DesmontarFichaView.cs",
+      "raw_sha256": "3bdd33f35a205703ee8bf905372452854e9e0a5c05759ec744966a2ef05030da"
+    },
+    {
+      "path": "Views\\EstoqueOrdemProducaoFichaView.cs",
+      "export_path": "Views\\EstoqueOrdemProducaoFichaView.cs",
+      "raw_sha256": "a9ac6fe0e063a85c226fd70af132e117cc9c05d50cc2488eef7387933a1bde7c"
+    },
+    {
+      "path": "Views\\OrdemProducaoFichaAdicionarView.cs",
+      "export_path": "Views\\OrdemProducaoFichaAdicionarView.cs",
+      "raw_sha256": "8c3a56c108835469ab0b53fe2079e97c040bdc91c19c828d66e19603fd644059"
+    },
+    {
+      "path": "Views\\OrdemProducaoFichaAtualizarView.cs",
+      "export_path": "Views\\OrdemProducaoFichaAtualizarView.cs",
+      "raw_sha256": "26b0237ffbdda5561bee3bc9f191d249e5f40ca8451792c86171d00d856bba49"
+    },
+    {
+      "path": "Views\\OrdemProducaoListaView.cs",
+      "export_path": "Views\\OrdemProducaoListaView.cs",
+      "raw_sha256": "64deb907e7aca812e533f906bd438f8ad5f07be2af4344e3a831e8974298f4e6"
+    },
+    {
+      "path": "Views\\OrdensProducaoView.cs",
+      "export_path": "Views\\OrdensProducaoView.cs",
+      "raw_sha256": "c30cb9bdcca26ebfcc97f87fb9895704949b52629fc5214bb1574ac80a48b426"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.OrdensProducao.g.resources",
+      "file": "0000.bin",
+      "bytes": 47892,
+      "sha256": "ea275b0da50ce1424ae1dfc6f72d9e92880eeb3ec501890ae178355ba52a7f85"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ImpressoOrdensProducaoCadeia.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ImpressoControleEtapa.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ImpressoOrdemDesmontagem.resources",
+      "file": "0004.bin",
+      "bytes": 1574,
+      "sha256": "bdd49d5a540d0b2b52b1873cc5af100efe9ed92a2de84fbf55cfd87e429f8d99"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ImpressoOrdemProducao.resources",
+      "file": "0005.bin",
+      "bytes": 3010,
+      "sha256": "76218266c8a327984e85908832f212040117c2342dbad39a057ce2480b2a96f2"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ListaMateriasPrimasFalta.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ResumoMateriaPrima.resources",
+      "file": "0007.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.MateriasPrimasFalta.resources",
+      "file": "0008.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.OrdensProducao.dll.licenses",
+      "file": "0009.bin",
+      "bytes": 285,
+      "sha256": "4fd7c0889b907296d44c7e3a50ad1ba26955e0826393d99a8ace67d5961ce0f3"
+    }
+  ],
+  "generated_stubs": false
+}

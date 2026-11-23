@@ -1,0 +1,135 @@
+{
+  "name": "Modulo.FormasPagamento",
+  "baseline": "baseline\\Modulo.FormasPagamento.dll",
+  "baseline_sha256": "619c69b1f4bc116911d840b7d682db6021b265d2c51e229d9a4f00193342b6cd",
+  "export_project": "recovered\\SuiteG6\\Modulo.FormasPagamento\\Modulo.FormasPagamento.csproj",
+  "sources": [
+    {
+      "path": "FormaPagamentoModulo.cs",
+      "export_path": "FormaPagamentoModulo.cs",
+      "raw_sha256": "76b5a3ab0888ed2530426356249a4776ae52e527c7875766d514015c142837c0"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c46e2a24fa509f6bdf30d31a0ebe7e4517820d06906f9f6c5d9fb6e586615026"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "786bb948d9c5929ef1d9c6671cc9b70ea9b8f9e615dc43c83be16c22ff60b10d"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "dc756ce6c46448987574f2585a2b95ca8c21abb6ce1a2f0105944a7b14624026"
+    },
+    {
+      "path": "ViewModels\\Dias.cs",
+      "export_path": "ViewModels\\Dias.cs",
+      "raw_sha256": "4da30a2a491215189d971d913d908ed3e0eeb67d640d28bf34b7aab6a6a1675c"
+    },
+    {
+      "path": "ViewModels\\DiasDinamicos.cs",
+      "export_path": "ViewModels\\DiasDinamicos.cs",
+      "raw_sha256": "30d5560912d285b1f0def096c250b17b36a76c0c85c0c6424cbecb7ebe74d790"
+    },
+    {
+      "path": "ViewModels\\FormaPagamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\FormaPagamentoAbaViewModel.cs",
+      "raw_sha256": "7fbb9444d537facb8cf595ca8c20732364b34fdb2386a2d6cfba44ea627acc3e"
+    },
+    {
+      "path": "ViewModels\\FormaPagamentoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\FormaPagamentoFichaAdicionarViewModel.cs",
+      "raw_sha256": "581d5dff1577991b487564a519105fc9aafe77c667956cd87ede9a8803d23333"
+    },
+    {
+      "path": "ViewModels\\FormaPagamentoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\FormaPagamentoFichaAtualizarViewModel.cs",
+      "raw_sha256": "07d5dc969218a4605ee4f8545a0ea7de8d1669cad0bdfd03f893dc6d55450987"
+    },
+    {
+      "path": "ViewModels\\FormaPagamentoFormulario.cs",
+      "export_path": "ViewModels\\FormaPagamentoFormulario.cs",
+      "raw_sha256": "67f4f46e2c322a1d0870da084538051e42197e53fcd74d574fc3b12ac2dc8613"
+    },
+    {
+      "path": "ViewModels\\FormaPagamentoListaViewModel.cs",
+      "export_path": "ViewModels\\FormaPagamentoListaViewModel.cs",
+      "raw_sha256": "1ea7a41620376266dadd56ee01df36c5dd6316148ec9175bc14c29fc08fb6f69"
+    },
+    {
+      "path": "ViewModels\\FormaPagamentoViewModel.cs",
+      "export_path": "ViewModels\\FormaPagamentoViewModel.cs",
+      "raw_sha256": "44d51f8bd197088ccfb66947d8dc9a1969c04e6372a0cc56869396de52d48f4d"
+    },
+    {
+      "path": "ViewModels\\FormasPagamentoViewModel.cs",
+      "export_path": "ViewModels\\FormasPagamentoViewModel.cs",
+      "raw_sha256": "b4ef9a72e4d482ab635263161cc10bfc554fe3b555860a5a127c1e7e95961d8c"
+    },
+    {
+      "path": "ViewModels\\IBaseVencimento.cs",
+      "export_path": "ViewModels\\IBaseVencimento.cs",
+      "raw_sha256": "f5bc696f3a3bfc581bf4f9f13b38a6829d4b180c1502c1456deb64d84aaa8b71"
+    },
+    {
+      "path": "ViewModels\\ItemIntervalo.cs",
+      "export_path": "ViewModels\\ItemIntervalo.cs",
+      "raw_sha256": "f9bac159ff90b72b0505c088d7df8f8049a0c27fcfbc522e9d65b5753a8ba205"
+    },
+    {
+      "path": "ViewModels\\ItemMes.cs",
+      "export_path": "ViewModels\\ItemMes.cs",
+      "raw_sha256": "a054f746c8c7cddc881f4406f7ceae33485513c067f7aa57b02e534db75e1831"
+    },
+    {
+      "path": "ViewModels\\Mes.cs",
+      "export_path": "ViewModels\\Mes.cs",
+      "raw_sha256": "1a967c688c1e839fc433312cad7e217d20fbc6dfe1862a3e54c428383502d88f"
+    },
+    {
+      "path": "Views\\FormaPagamentoFichaAdicionarView.cs",
+      "export_path": "Views\\FormaPagamentoFichaAdicionarView.cs",
+      "raw_sha256": "f808e764d208f01f7c4766b5c0f841b47425e5026918c1db66e78a6dd68f2e22"
+    },
+    {
+      "path": "Views\\FormaPagamentoFichaAtualizarView.cs",
+      "export_path": "Views\\FormaPagamentoFichaAtualizarView.cs",
+      "raw_sha256": "67f9fb6936214181a6ba720bb09f92092953201144148a113c3ab60d005aab06"
+    },
+    {
+      "path": "Views\\FormaPagamentoListaView.cs",
+      "export_path": "Views\\FormaPagamentoListaView.cs",
+      "raw_sha256": "6a009f2651fffc94632cc29f06f523e99564592e09fbefaa9c8f52d2bb513964"
+    },
+    {
+      "path": "Views\\FormaPagamentoViewDetalhes\\FormaPagamentoView.cs",
+      "export_path": "Views\\FormaPagamentoViewDetalhes\\FormaPagamentoView.cs",
+      "raw_sha256": "e85fd11bfeb9ed3b205d8b8554fe0043fb31ca7103b9cb83248d433caaf4cf32"
+    },
+    {
+      "path": "Views\\FormasPagamentoView.cs",
+      "export_path": "Views\\FormasPagamentoView.cs",
+      "raw_sha256": "e6a1cac414c5663e9ac550e1c1040abff462acab579b539877e47c90fda35c29"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.FormasPagamento.g.resources",
+      "file": "0000.bin",
+      "bytes": 17605,
+      "sha256": "b493178611213859037f3dea74a180f3120d39ce485d2ca0610c9b587b01f798"
+    },
+    {
+      "name": "Otus.Modulo.FormasPagamento.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

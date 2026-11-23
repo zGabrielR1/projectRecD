@@ -1,0 +1,25 @@
+{
+  "assembly": "DigisatServer.Application.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Domain.Core",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Domain.Main",
+    "MongoDB.Bson",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoContabilidade",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural",
+    "Newtonsoft.Json",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca",
+    "DigisatServer.Infrastructure.Crosscutting.EfdContribuicao",
+    "DigisatServer.Infrastructure.Crosscutting.Inventario",
+    "DigisatServer.Infrastructure.Crosscutting.Sintegra"
+  ]
+}

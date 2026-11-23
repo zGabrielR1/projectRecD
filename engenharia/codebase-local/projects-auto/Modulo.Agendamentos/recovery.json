@@ -1,0 +1,112 @@
+{
+  "name": "Modulo.Agendamentos",
+  "baseline": "baseline\\Modulo.Agendamentos.dll",
+  "baseline_sha256": "fadeafb533e183a530ef9957ca0e74d60a2c9b9fac2e60bbee6bc7c29ca575e1",
+  "export_project": "recovered\\SuiteG6\\Modulo.Agendamentos\\Modulo.Agendamentos.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "b1a19e430919de71bedb9d0415638674cb6fcb540dffc2199d67765ad78479d0"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Replace invalid closure-class C# export with fresh whole-module ILSpy decompilation; original export retained",
+      "source": "source-ilspy/WholeModule.cs"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base access and qualify HelperException",
+      "base_qualifiers": 42
+    },
+    {
+      "kind": "Complete base access qualification including object-this casts and protected Navegar(object); qualify Mvvm.HelperException preserving four-argument call"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Agendamentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 28342,
+      "sha256": "dfebc575820317af46538ea608e228902f0ea8abc1cf7bbacc6992459e6fe6ed"
+    },
+    {
+      "name": "Otus.Modulo.Agendamentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "AgendamentoModulo.cs",
+      "raw_sha256": "5963e36bbdcce23d48a319a7647391bf3ae32180e3f93acb629c3bd9b163b700"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "2ba29b67d1acd699249d889a849d5fb101fea29704f7b2b2b42c680440cdf987"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "raw_sha256": "a01e6312bc7a4256381ea64530e40f0ec74188aebee018f72b1f1e6a28bc6752"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "3c891243a6afbf5ace82014108a66877910bfb8dc659add27ea5ffeeecaeb37b"
+    },
+    {
+      "path": "ViewModels\\AgendamentoAbaViewModel.cs",
+      "raw_sha256": "09011f453383faf5ff4c376b56f73ec8624b72b602099af0d5cbaba8efbe836a"
+    },
+    {
+      "path": "ViewModels\\AgendamentoFichaAdicionarViewModel.cs",
+      "raw_sha256": "6154a7a003fe269a693e71d7b084fcf886e02d0e16cd789a0db3f76414f090d4"
+    },
+    {
+      "path": "ViewModels\\AgendamentoFichaAtualizarViewModel.cs",
+      "raw_sha256": "894a0bc8540d576d34cc0023acc9519382cd989a11b22b12bb96a1a742e5d7f2"
+    },
+    {
+      "path": "ViewModels\\AgendamentoFormulario.cs",
+      "raw_sha256": "ae8dd8369d9475833dfa3d1269669632eff760235c7bbd204309afc99ebe8778"
+    },
+    {
+      "path": "ViewModels\\AgendamentoListaViewModel.cs",
+      "raw_sha256": "a2ba829ed867da3c8232fad911c179e9087563aa08fca28b146ed1b1b7fcabaa"
+    },
+    {
+      "path": "ViewModels\\AgendamentosViewModel.cs",
+      "raw_sha256": "766c112a159a9629d34b48e7fcaa473f18d4b554e46a0bb4cfdc0397b3a26cb3"
+    },
+    {
+      "path": "ViewModels\\AgendamentoViewModel.cs",
+      "raw_sha256": "5de99332dd7f0fe5a2013e29450a26af133cf3a8b3de9ac0dc08dae74c12849e"
+    },
+    {
+      "path": "ViewModels\\UsuarioFiltroItem.cs",
+      "raw_sha256": "a0ea205005bd525b6c65bce7426018d5e77b9cee0b245b2b44270f9f3a62a34b"
+    },
+    {
+      "path": "Views\\AgendamentoFichaAdicionarView.cs",
+      "raw_sha256": "ab10a1349e3213ae91c9d15fe00172cd52fba75f54abc11c5f56123eb20218eb"
+    },
+    {
+      "path": "Views\\AgendamentoFichaAtualizarView.cs",
+      "raw_sha256": "91a40698a4788bd2c4184f7d94cbd0fee00e3c0899953ff57e77046ad1895ba1"
+    },
+    {
+      "path": "Views\\AgendamentoFichaViewDetalhes\\AgendamentoView.cs",
+      "raw_sha256": "ebe4dde84da16b752ed2202fc7f8864559d66bdc91307579f086411d208e853c"
+    },
+    {
+      "path": "Views\\AgendamentoListaView.cs",
+      "raw_sha256": "221ad4cf9d0f7b7e01da220f6d7dde27636523eebaa7e932aafb14bc83a22b94"
+    },
+    {
+      "path": "Views\\AgendamentosView.cs",
+      "raw_sha256": "a92962d39a02a91e218b4164d8fdf1b20733b2379240836d9ebc397f87305599"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Modulo.ManifestacoesDestinatarioCte",
+  "baseline": "baseline\\Modulo.ManifestacoesDestinatarioCte.dll",
+  "baseline_sha256": "77c065314b068e8cda9f6de1dae5d9275335399faa72ed5934f89bf1583e2572",
+  "export_project": "recovered\\SuiteG6\\Modulo.ManifestacoesDestinatarioCte\\Modulo.ManifestacoesDestinatarioCte.csproj",
+  "sources": [
+    {
+      "path": "ManifestacaoDestinatarioCteModulo.cs",
+      "export_path": "ManifestacaoDestinatarioCteModulo.cs",
+      "raw_sha256": "38b45acf925d3e7dc404c109e024941d809b1e6671dea407f224b43d25a5f746"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "d4cb62faa78b7a5c43b6e14b09d55be0886687389f4ab317bac536eef820984e"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "0dc10840a0d800b4e5f958685f6cca7259dbd04e4dea4d16b0ab2c5d9e44ecb9"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "fe848a8e23494afafba9b941afb53995b43e3d4daa04f96f12eff3f63564e97d"
+    },
+    {
+      "path": "ViewModels\\ManifestacaoDestinatarioCteListaViewModel.cs",
+      "export_path": "ViewModels\\ManifestacaoDestinatarioCteListaViewModel.cs",
+      "raw_sha256": "965266c2322ecc77d6dd62ab1f403a56127bc73e0c1ae9f8b725a8f4b916cfc0"
+    },
+    {
+      "path": "ViewModels\\ManifestacaoDestinatarioCteViewModel.cs",
+      "export_path": "ViewModels\\ManifestacaoDestinatarioCteViewModel.cs",
+      "raw_sha256": "a49a90a71306fe851ad26fa92778398b8176ba7384d85de166f2598d1cfde939"
+    },
+    {
+      "path": "ViewModels\\ManifestacoesDestinatarioCteViewModel.cs",
+      "export_path": "ViewModels\\ManifestacoesDestinatarioCteViewModel.cs",
+      "raw_sha256": "ed6c365986284aeb2c604540df3210d50a9399d91906fb20f49ae836a6f86039"
+    },
+    {
+      "path": "Views\\ManifestacaoDestinatarioCteListaView.cs",
+      "export_path": "Views\\ManifestacaoDestinatarioCteListaView.cs",
+      "raw_sha256": "1bbbcce38f9ff9de92806d18d31a73a7995da12951d076a8a3a7f4e2fe4b2dde"
+    },
+    {
+      "path": "Views\\ManifestacoesDestinatarioCteView.cs",
+      "export_path": "Views\\ManifestacoesDestinatarioCteView.cs",
+      "raw_sha256": "d5fb7ea1a53646af88b9c626f12407dc561bc035bf9e7918e8fe62e79c0a77ce"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.ManifestacoesDestinatarioCte.g.resources",
+      "file": "0000.bin",
+      "bytes": 14010,
+      "sha256": "dde7bf906df92931cef92dc3c2a14cca8038472c2fa8ccfebe67539315a32dce"
+    },
+    {
+      "name": "Otus.Modulo.ManifestacoesDestinatarioCte.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

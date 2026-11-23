@@ -1,0 +1,103 @@
+{
+  "name": "Modulo.GestaoSincronizacaoRodoilPro",
+  "baseline": "baseline\\Modulo.GestaoSincronizacaoRodoilPro.dll",
+  "baseline_sha256": "83312097aff3831ceebedac78123d4798a7723f359ab5ed85d95dddc0fbf4eb6",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacaoRodoilPro\\Modulo.GestaoSincronizacaoRodoilPro.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "e7c6f9cbdff52365d0a73ac5760e4621b532ce35b2ded2e52fa2925a2f4c17b3"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "83312097aff3831ceebedac78123d4798a7723f359ab5ed85d95dddc0fbf4eb6"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 12
+    },
+    {
+      "kind": "Resolve four-argument UI ShowLastException helper to Mvvm type"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoSincronizacaoRodoilPro.g.resources",
+      "file": "0000.bin",
+      "bytes": 15459,
+      "sha256": "02086e965da72eaecfbb25c907b4c09e60633b27b8da59c68832b4d091b4e7b4"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "GestaoSincronizacaoRodoilProModulo.cs",
+      "export_path": "GestaoSincronizacaoRodoilProModulo.cs",
+      "raw_sha256": "1297781c9600cd0d5e899a6d65217a7e66027e01a43fe9a5f03cfa39307f82c9"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "6cc96321003a6bd5bc1d847bac35119d6d29378310cdfae1808aae01bd29088c"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoRodoilProFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoRodoilProFichaViewModel.cs",
+      "raw_sha256": "02dbf59d6a50887e742e2ecd927fa0b906d1f1228d3c22b932fc1b485fddc500"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacaoRodoilProFormulario.cs",
+      "export_path": "ViewModels\\GestaoSincronizacaoRodoilProFormulario.cs",
+      "raw_sha256": "0616ba0f569019c56e0d0152ae64cff938368e2fda3c5e467064be58a36a1b9c"
+    },
+    {
+      "path": "ViewModels\\GestaoSincronizacoesRodoilProViewModel.cs",
+      "export_path": "ViewModels\\GestaoSincronizacoesRodoilProViewModel.cs",
+      "raw_sha256": "8e027f42079063acc5be0dc477e1093e57f86575991aa768a177430226d7301e"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesRetroativasAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesRetroativasAbaViewModel.cs",
+      "raw_sha256": "bb4b3fee687af92aa3c748cdc787b654f1ad5061b2498f71a3b627cd17e47981"
+    },
+    {
+      "path": "ViewModels\\MovimentacoesRetroativasViewModel.cs",
+      "export_path": "ViewModels\\MovimentacoesRetroativasViewModel.cs",
+      "raw_sha256": "8158efdfec8e120a97b984e42942408b4f727c486fe9000b00f0788290af7dff"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "raw_sha256": "03890001d10a649e5cf5ec87d525528ce490d3cfaeb0a4cf25a5bc4a80c324e2"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoViewModel.cs",
+      "raw_sha256": "45f3dee4d7bd9d352d830701ad5ef63ee5810fa823c72391f1f1110031a15344"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoRodoilProFichaView.cs",
+      "export_path": "Views\\GestaoSincronizacaoRodoilProFichaView.cs",
+      "raw_sha256": "c167ec0a93e4453d3e38f6f9d59c49140ecd61a294c1ac8240b24f4aa394ff89"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoRodoilProFichaViewDet\\MovimentacoesRetroativasView.cs",
+      "export_path": "Views\\GestaoSincronizacaoRodoilProFichaViewDet\\MovimentacoesRetroativasView.cs",
+      "raw_sha256": "585881371ae1e9cff22d5826372f8900035205538f52eaab32fcbbf253005f7a"
+    },
+    {
+      "path": "Views\\GestaoSincronizacaoRodoilProFichaViewDet\\SincronizacaoView.cs",
+      "export_path": "Views\\GestaoSincronizacaoRodoilProFichaViewDet\\SincronizacaoView.cs",
+      "raw_sha256": "cc0487922249cd15f5af2db5e314a0a21a26aa9921e4d2e0937c5dcc8bdd5dca"
+    },
+    {
+      "path": "Views\\GestaoSincronizacoesRodoilProView.cs",
+      "export_path": "Views\\GestaoSincronizacoesRodoilProView.cs",
+      "raw_sha256": "3201bfb145e5444b684e52811e0eefceab11a178b5533c1b14abc9ead8158913"
+    }
+  ]
+}

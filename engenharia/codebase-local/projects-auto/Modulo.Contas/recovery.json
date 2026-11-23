@@ -1,0 +1,301 @@
+{
+  "name": "Modulo.Contas",
+  "baseline": "baseline\\Modulo.Contas.dll",
+  "baseline_sha256": "2377bcd250d13cbcf495d8ca663bec055a3ed9777e7887f064a412fed34d6755",
+  "export_project": "recovered\\SuiteG6\\Modulo.Contas\\Modulo.Contas.csproj",
+  "sources": [
+    {
+      "path": "ContaModulo.cs",
+      "export_path": "ContaModulo.cs",
+      "raw_sha256": "662cd65281cf1aa2d588276b82c478d3ed8d3438beed8d709e24ee2d8dfef9c0"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "bb1995f5eae8cc9422b1362f7d5cdad1c45a92e91f6083967bc029f8121663aa"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "d4ba4e8eb900930247621f27140d524c4ef03f12d8df8f86728d4de1cdffa1b4"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "e5684428522e301dde0cf7cff5e77a57570b439ed8883a0713fe50526793e17d"
+    },
+    {
+      "path": "ViewModels\\AgenciaViewModel.cs",
+      "export_path": "ViewModels\\AgenciaViewModel.cs",
+      "raw_sha256": "017fedec12c30b52d93823a8239a50e440745dd0d201c07439b9528d15c9cade"
+    },
+    {
+      "path": "ViewModels\\BoletoAbaViewModel.cs",
+      "export_path": "ViewModels\\BoletoAbaViewModel.cs",
+      "raw_sha256": "01fc4b01cc6f617f0e1181a644fbc37d323bf504ace0bc63f7800d16d1f4c56d"
+    },
+    {
+      "path": "ViewModels\\BoletoViewModel.cs",
+      "export_path": "ViewModels\\BoletoViewModel.cs",
+      "raw_sha256": "096fe384f970a00d437c2c2d39cbdc4600462c5ab62fc6a410e7069d41e6fb0e"
+    },
+    {
+      "path": "ViewModels\\Carteiras\\CarteiraComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\Carteiras\\CarteiraComboBoxNullViewModel.cs",
+      "raw_sha256": "ada00ac2555fe23f34ad71e027b77db009605ad27e33d977bd0120c88f2e8cd1"
+    },
+    {
+      "path": "ViewModels\\Carteiras\\CarteiraComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Carteiras\\CarteiraComboBoxViewModel.cs",
+      "raw_sha256": "7ff6c0c188f120196b3abeb68870893e850fb159bea952733dda863ca1850527"
+    },
+    {
+      "path": "ViewModels\\ComboBoxViewModel.cs",
+      "export_path": "ViewModels\\ComboBoxViewModel.cs",
+      "raw_sha256": "2b4b9798d4f1880b11128d44b2ed93d24f55316f55a62d5d642179b8127f590e"
+    },
+    {
+      "path": "ViewModels\\ContaAbaViewModel.cs",
+      "export_path": "ViewModels\\ContaAbaViewModel.cs",
+      "raw_sha256": "23d98dec9c4aacc9ae93aea96fe4fe9aeb8419ed30e4399a6b75dc2097437f34"
+    },
+    {
+      "path": "ViewModels\\ContaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\ContaFichaAdicionarViewModel.cs",
+      "raw_sha256": "467ed426ded7518924346a366eb0757848f6052024c84b71a503012edd27a33b"
+    },
+    {
+      "path": "ViewModels\\ContaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ContaFichaAtualizarViewModel.cs",
+      "raw_sha256": "313bd5f879abcc94b1189f094ab8b1764bb6228761b8628a7db5c4dc9b465104"
+    },
+    {
+      "path": "ViewModels\\ContaFormulario.cs",
+      "export_path": "ViewModels\\ContaFormulario.cs",
+      "raw_sha256": "54656bc1caafd26557cbf09c444da17cd37ef146ec4698e2813baae0a8ad90b9"
+    },
+    {
+      "path": "ViewModels\\ContaListaViewModel.cs",
+      "export_path": "ViewModels\\ContaListaViewModel.cs",
+      "raw_sha256": "6bfe9b86ea689eb95d22ecf6b8993e45a426d5687b7df89d8a4f8dfd7804123f"
+    },
+    {
+      "path": "ViewModels\\ContasViewModel.cs",
+      "export_path": "ViewModels\\ContasViewModel.cs",
+      "raw_sha256": "cbf310ad0a56b952fc7126a4dac1d0d5ea93b7f60d0a168587d47209c4d01c48"
+    },
+    {
+      "path": "ViewModels\\ContaViewModel.cs",
+      "export_path": "ViewModels\\ContaViewModel.cs",
+      "raw_sha256": "5ef4655483107dfdb44b16d41d1ca61fdcfbb6baf94b71312c4f5279507aff23"
+    },
+    {
+      "path": "ViewModels\\DadosBancoAbaViewModel.cs",
+      "export_path": "ViewModels\\DadosBancoAbaViewModel.cs",
+      "raw_sha256": "78e55d0ee183e6b3aa24d765bf1b13f7d4f4bbc406d9ee7bcd1c4dd6fe20af68"
+    },
+    {
+      "path": "ViewModels\\DadosBancoViewModel.cs",
+      "export_path": "ViewModels\\DadosBancoViewModel.cs",
+      "raw_sha256": "ea8a75e65ddf5b9771dfff258bfa94eeb15bf9ffae09b2f6ec8ed1c76fc1a3cc"
+    },
+    {
+      "path": "ViewModels\\EspeciesTitulo\\EspecieTituloComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\EspeciesTitulo\\EspecieTituloComboBoxNullViewModel.cs",
+      "raw_sha256": "26e057e4db6aa60fb596493d08aa4c6c9023bd3c809e42c8c004a9eb175d76ea"
+    },
+    {
+      "path": "ViewModels\\EspeciesTitulo\\EspecieTituloComboBoxViewModel.cs",
+      "export_path": "ViewModels\\EspeciesTitulo\\EspecieTituloComboBoxViewModel.cs",
+      "raw_sha256": "b86498a213143080fd08e36f23f675ba8f0b1b16d837af165d806ff79edb7a60"
+    },
+    {
+      "path": "ViewModels\\FinalidadesArquivo\\FinalidadeArquivoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\FinalidadesArquivo\\FinalidadeArquivoComboBoxViewModel.cs",
+      "raw_sha256": "0b31a14605ca11f7006eb6fad93c76148f6dec8d696f86d36f34b073c41493f0"
+    },
+    {
+      "path": "ViewModels\\FormasCadastramento\\FormaCadastramentoComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\FormasCadastramento\\FormaCadastramentoComboBoxNullViewModel.cs",
+      "raw_sha256": "d8a99e2d6bea87340cee31a3dae8e610b3132e34c09ffc195d19d4585376559d"
+    },
+    {
+      "path": "ViewModels\\FormasCadastramento\\FormaCadastramentoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\FormasCadastramento\\FormaCadastramentoComboBoxViewModel.cs",
+      "raw_sha256": "d26de21722e1580b3cd3d8915078555aa96a8622a95f08f3a74e15666f10bab3"
+    },
+    {
+      "path": "ViewModels\\IdentificacoesAceite\\IdentificacaoAceiteComboBoxViewModel.cs",
+      "export_path": "ViewModels\\IdentificacoesAceite\\IdentificacaoAceiteComboBoxViewModel.cs",
+      "raw_sha256": "cd0ae39f89c60ecc0b9c4a34f58773edab72c4b8b66dc971aabe1e5da6428c4a"
+    },
+    {
+      "path": "ViewModels\\Instrucoes\\InstrucaoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Instrucoes\\InstrucaoComboBoxViewModel.cs",
+      "raw_sha256": "fb54fccb2b30053224d41daf54e30a81a2b957620f6a4957a758c27b221cb9e4"
+    },
+    {
+      "path": "ViewModels\\Instrucoes\\PrimeiraInstrucaoComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\Instrucoes\\PrimeiraInstrucaoComboBoxNullViewModel.cs",
+      "raw_sha256": "2eece16bc1e99e2f30f5d38010040cdac8c946637e5ba55e865067bc85de1ae8"
+    },
+    {
+      "path": "ViewModels\\Instrucoes\\PrimeiraInstrucaoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Instrucoes\\PrimeiraInstrucaoComboBoxViewModel.cs",
+      "raw_sha256": "8f9a2e38a2c243f3486fda57dbc2b1135088ff3e96174d8fed9f86624194aab1"
+    },
+    {
+      "path": "ViewModels\\Instrucoes\\SegundaInstrucaoComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\Instrucoes\\SegundaInstrucaoComboBoxNullViewModel.cs",
+      "raw_sha256": "94681144ecfdc137f0df1b6dc430229ed52f22fea8f80589f7f83286c70a5503"
+    },
+    {
+      "path": "ViewModels\\Instrucoes\\SegundaInstrucaoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Instrucoes\\SegundaInstrucaoComboBoxViewModel.cs",
+      "raw_sha256": "c426905b74c6b966f013ef7ca1600a3ab475fb2414e28b89ddbf298632291299"
+    },
+    {
+      "path": "ViewModels\\LayoutsArquivo\\LayoutArquivoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\LayoutsArquivo\\LayoutArquivoComboBoxViewModel.cs",
+      "raw_sha256": "95437aac9063ebec3bd59fd9bae984d88e04ff59a9f960ae0a9aa76b729692f1"
+    },
+    {
+      "path": "ViewModels\\SolucoesCef\\SolucaoComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\SolucoesCef\\SolucaoComboBoxNullViewModel.cs",
+      "raw_sha256": "6eedd59909fd571d29ea9077e72ca71a8bcdd805ae89b93608d320a317b065ff"
+    },
+    {
+      "path": "ViewModels\\SolucoesCef\\SolucaoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\SolucoesCef\\SolucaoComboBoxViewModel.cs",
+      "raw_sha256": "b4b2d724921e6c9ffeb1336455aa926c5ac2883222a2bded9c31cb10cf199754"
+    },
+    {
+      "path": "ViewModels\\TiposCobranca\\TipoCobrancaComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\TiposCobranca\\TipoCobrancaComboBoxNullViewModel.cs",
+      "raw_sha256": "8d3d478631326702bf20e0233a4bfc6d8fb2a30f0b18f9a8f5446c5bea3348d9"
+    },
+    {
+      "path": "ViewModels\\TiposCobranca\\TipoCobrancaComboBoxViewModel.cs",
+      "export_path": "ViewModels\\TiposCobranca\\TipoCobrancaComboBoxViewModel.cs",
+      "raw_sha256": "ec0094518f38d9b60f7f0178ff1a31934ddeb847f29848dd1bd7a36661c43a04"
+    },
+    {
+      "path": "ViewModels\\TiposDistribuicao\\TipoDistribuicaoComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\TiposDistribuicao\\TipoDistribuicaoComboBoxNullViewModel.cs",
+      "raw_sha256": "2e1dfce2ea57e1232966a9ded359ab0e5023c7a8dd6e41071b5395a26d5d967a"
+    },
+    {
+      "path": "ViewModels\\TiposDistribuicao\\TipoDistribuicaoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\TiposDistribuicao\\TipoDistribuicaoComboBoxViewModel.cs",
+      "raw_sha256": "3ae62e21e12730823e5363dc9caacc4526515851f97e294f2cc160d0abf7435a"
+    },
+    {
+      "path": "ViewModels\\TiposEmissao\\TipoEmissaoComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\TiposEmissao\\TipoEmissaoComboBoxNullViewModel.cs",
+      "raw_sha256": "4a0592bc4699b9eec8950c994f2421ed31b541de344109ef3c368f67a6546c1d"
+    },
+    {
+      "path": "ViewModels\\TiposEmissao\\TipoEmissaoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\TiposEmissao\\TipoEmissaoComboBoxViewModel.cs",
+      "raw_sha256": "ae8573dc49a5128e6c6b930e1e48f243a6fcfa36cce97abf490a3878baf4e706"
+    },
+    {
+      "path": "ViewModels\\TiposTransmissao\\TipoTransmissaoComboBoxNullViewModel.cs",
+      "export_path": "ViewModels\\TiposTransmissao\\TipoTransmissaoComboBoxNullViewModel.cs",
+      "raw_sha256": "879f8a314f550b15110921c2e4847933254ab8a100242e4967acb3b03fb85267"
+    },
+    {
+      "path": "ViewModels\\TiposTransmissao\\TipoTransmissaoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\TiposTransmissao\\TipoTransmissaoComboBoxViewModel.cs",
+      "raw_sha256": "36de59a23f3bbf969b1d5a24eb40114365e45214d9d597fe77c7906f090326b0"
+    },
+    {
+      "path": "ViewModels\\Tipos\\BancoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\BancoViewModel.cs",
+      "raw_sha256": "484187b926710bea56464bfb7e3645d376116cd7139b5921cc660d8f2caa49e4"
+    },
+    {
+      "path": "ViewModels\\Tipos\\EmiteBoletoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\EmiteBoletoViewModel.cs",
+      "raw_sha256": "a95c154d13de7ec03531785606e1aa7434f6cbcc74046130e7152d5e6991b231"
+    },
+    {
+      "path": "ViewModels\\Tipos\\LivroCaixaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\LivroCaixaViewModel.cs",
+      "raw_sha256": "92b5edb7f2aaea410cd210b9f22d8a5eda94436b439b7216f545b42cf59d433e"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Tipo.cs",
+      "export_path": "ViewModels\\Tipos\\Tipo.cs",
+      "raw_sha256": "bf1b13bf5ad97c74189846a39b0596867dd29a91b32c299cc7f077dfe301100b"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TipoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\TipoComboBoxViewModel.cs",
+      "raw_sha256": "dddd81303d5860e075060ecf7ed10b80e6f4555f6a699fb256d05809b5863c1d"
+    },
+    {
+      "path": "Views\\ContaFichaAdicionarView.cs",
+      "export_path": "Views\\ContaFichaAdicionarView.cs",
+      "raw_sha256": "b8678ff2ab9a7f58c3940e3289d0d0b5a6fc210193f3e3ae5140aa1f8cafd2c1"
+    },
+    {
+      "path": "Views\\ContaFichaAtualizarView.cs",
+      "export_path": "Views\\ContaFichaAtualizarView.cs",
+      "raw_sha256": "3c1cbc1b5652781175f149c08a0262fd45859e1e38760b31d41e433c2ea7aac1"
+    },
+    {
+      "path": "Views\\ContaFichaViewDetalhes\\AgenciaView.cs",
+      "export_path": "Views\\ContaFichaViewDetalhes\\AgenciaView.cs",
+      "raw_sha256": "e8cc6ace3ffbfad0328e90d0afe765b3498e220448b841082b553891b99a0313"
+    },
+    {
+      "path": "Views\\ContaFichaViewDetalhes\\BoletoView.cs",
+      "export_path": "Views\\ContaFichaViewDetalhes\\BoletoView.cs",
+      "raw_sha256": "b8c2b4c93c4545679e455b88c13c65b4104910ed233b48da31a3c6bb13a5e88d"
+    },
+    {
+      "path": "Views\\ContaFichaViewDetalhes\\ContaView.cs",
+      "export_path": "Views\\ContaFichaViewDetalhes\\ContaView.cs",
+      "raw_sha256": "cba71bf0e036a26b3cb344c05a033bb380ab504b5b1b45ac40168529d66ca486"
+    },
+    {
+      "path": "Views\\ContaFichaViewDetalhes\\DadosBancoView.cs",
+      "export_path": "Views\\ContaFichaViewDetalhes\\DadosBancoView.cs",
+      "raw_sha256": "fe06b5f171b6f0f195a07de3facead3f051848a17a1dbfb6e1f189042c64d1ca"
+    },
+    {
+      "path": "Views\\ContaListaView.cs",
+      "export_path": "Views\\ContaListaView.cs",
+      "raw_sha256": "b61fd2dc5a7078e2b290a75c49d9645caf06ecd86fdf156a405d21cd1faef9da"
+    },
+    {
+      "path": "Views\\ContasView.cs",
+      "export_path": "Views\\ContasView.cs",
+      "raw_sha256": "a90d529f5ea13a4dc0b813bb788f2e6b7ab96d943a7e4d728721ce8e3c44948f"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Restore Parameter(typeof(ContasDto), x) initialization shown at original IL_0323 through IL_0337",
+      "occurrences": 1,
+      "evidence": "local-evidence/Modulo.Contas/Modulo.Contas.il"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Contas.g.resources",
+      "file": "0000.bin",
+      "bytes": 43995,
+      "sha256": "0da9fdf5aee09a11d5a603552540eae6b31f511ff14b739841dff13c56352264"
+    },
+    {
+      "name": "Otus.Modulo.Contas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,2051 @@
+{
+  "name": "Modulo.ProdutosServicos",
+  "baseline": "baseline\\Modulo.ProdutosServicos.dll",
+  "baseline_sha256": "55a88376e582fd5f50329850ed5b9f0e63be0eae1c02dfca1834b867d5c4d72f",
+  "export_project": "recovered\\SuiteG6\\Modulo.ProdutosServicos\\Modulo.ProdutosServicos.csproj",
+  "sources": [
+    {
+      "path": "Events\\ConsultouProdutoSimilarEvent.cs",
+      "export_path": "Events\\ConsultouProdutoSimilarEvent.cs",
+      "raw_sha256": "896f23b38f6d8e803b3f4c41107cc5a6b5f4ffd95ab08fe403ff8c3e3fcc8df3"
+    },
+    {
+      "path": "Events\\GerouCodigoBarrasEvent.cs",
+      "export_path": "Events\\GerouCodigoBarrasEvent.cs",
+      "raw_sha256": "e113b03e6a4b886e9edf22092d51fd10a51670dd490b97c0c1711824bd514022"
+    },
+    {
+      "path": "ProdutoServicoModulo.cs",
+      "export_path": "ProdutoServicoModulo.cs",
+      "raw_sha256": "f2df232d0f8c72c69462744db2659b9c686d189d92311d304574c7babce2861b"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "3f2b5187f92f7e1193202cf8295bef9307d986d738e5ddfdd67e3d831ca357b6"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "952c4fd1272cd2cacbb7ec001429172ccfd2946b9d9e34cefe7596bb6d6ea1ed"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "9a70ab4be0fcab2a75b135293a8d040ce979c8f6747633d0b91fa3ddbf204676"
+    },
+    {
+      "path": "Reports\\CompartilharProduto.cs",
+      "export_path": "Reports\\CompartilharProduto.cs",
+      "raw_sha256": "f7bceb8f98b254c15fd968ff45790a555f14b9fd04cbf6dc7e2c073f7814328f"
+    },
+    {
+      "path": "Reports\\Imagem.cs",
+      "export_path": "Reports\\Imagem.cs",
+      "raw_sha256": "dbefa964525f6e6f5e2e5aac625333b148d912d25157da9e59f8f227f469a766"
+    },
+    {
+      "path": "Reports\\ListaItensComparacaoPedidoCompraENota.cs",
+      "export_path": "Reports\\ListaItensComparacaoPedidoCompraENota.cs",
+      "raw_sha256": "48420ccdf359052f6e24f55e69870b20135c735da73dc0a9ddb894f75d8832fc"
+    },
+    {
+      "path": "Reports\\ProdutoProduzidoFichaTecnica.cs",
+      "export_path": "Reports\\ProdutoProduzidoFichaTecnica.cs",
+      "raw_sha256": "1fbc4fd8048ff0fe96d269614c7a2f05f6e2177537a167f109d2e43c1353c7db"
+    },
+    {
+      "path": "Services\\ConsultaProdutoDigisatIMendesService.cs",
+      "export_path": "Services\\ConsultaProdutoDigisatIMendesService.cs",
+      "raw_sha256": "bc9ef59cc7d297abae484c5b8657f7ead0013f61294e3274ab4ff0e8f4278cdf"
+    },
+    {
+      "path": "Services\\ConsultaProdutoDigisatParametrizaService.cs",
+      "export_path": "Services\\ConsultaProdutoDigisatParametrizaService.cs",
+      "raw_sha256": "fe5838e3742133f096f51a1b8d1af66379646b49d3b19feb34d04766f6569ca3"
+    },
+    {
+      "path": "Services\\ConsultaProdutoDigisatService.cs",
+      "export_path": "Services\\ConsultaProdutoDigisatService.cs",
+      "raw_sha256": "7666bf3be1cecfb603b42416eca201964d9b66a0f070a4c38537dbeff0401ef9"
+    },
+    {
+      "path": "Services\\ConsultaProdutoServiceFactory.cs",
+      "export_path": "Services\\ConsultaProdutoServiceFactory.cs",
+      "raw_sha256": "cf1514533f0eeb99fd1e99f099d9fb0d512c2d6da5ed6e0cf220848be6917947"
+    },
+    {
+      "path": "Services\\IConsultaProdutoInclusaoXmlService.cs",
+      "export_path": "Services\\IConsultaProdutoInclusaoXmlService.cs",
+      "raw_sha256": "18ee2fe88abd13acf67cfa5e0f9420ee2596948d7c8c2636032b24f4265321cb"
+    },
+    {
+      "path": "Services\\IConsultaProdutoService.cs",
+      "export_path": "Services\\IConsultaProdutoService.cs",
+      "raw_sha256": "d85eff49478b4185d09c41ecf9e8d7174beb157318b7cc9d844a9f2109fa9e88"
+    },
+    {
+      "path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalAbaViewModel.cs",
+      "export_path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalAbaViewModel.cs",
+      "raw_sha256": "1b0fbc2b5ec5458491f2ca78c6062dd1c60bc4aaaed41d41b0973cebbc598494"
+    },
+    {
+      "path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFichaAdicion.cs",
+      "export_path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFichaAdicion.cs",
+      "raw_sha256": "412e0205ec836cb4ceecc3803394dbaeb3d3de7d9ab4c5e20c35c4f95aae7171"
+    },
+    {
+      "path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFichaAtualiz.cs",
+      "export_path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFichaAtualiz.cs",
+      "raw_sha256": "536611e913570570575b9657e483beaa8dd190836ec3513e33b0fc0e1adc4500"
+    },
+    {
+      "path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFormulario.cs",
+      "export_path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFormulario.cs",
+      "raw_sha256": "3d28ecad540eccf268fc0981343a46a2879a5b5214150f24ef7b15565feaab7a"
+    },
+    {
+      "path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalListaViewMod.cs",
+      "export_path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalListaViewMod.cs",
+      "raw_sha256": "62b08b204a5384786a5c81cf67cc6acad9e19929ca2d7d9f9a0fe7cfc9f4248d"
+    },
+    {
+      "path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalViewModel.cs",
+      "export_path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalViewModel.cs",
+      "raw_sha256": "2de1276aa9722074328b5867bf55d91eb72292de28ac5a2254d93180b225960d"
+    },
+    {
+      "path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjustesEInformacoesValoresProvenientesDocumentoFiscalViewMod.cs",
+      "export_path": "ViewModels\\AjustesEInformacoesValoresProvenientesDo\\AjustesEInformacoesValoresProvenientesDocumentoFiscalViewMod.cs",
+      "raw_sha256": "c45e9ddfb3a7652fc18333b4a836d0b5becbc223142faedbfc0206148bb17f3f"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoAbaViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoAbaViewModel.cs",
+      "raw_sha256": "1bbd3acaf730c4b847193a617ad2e70399155ae8ca009a21240c17c91b1f18e3"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoFichaAtualizarViewModel.cs",
+      "raw_sha256": "fd73b863dcf0ffe5e23cdb9d36ce212c62a9ccf5b43bd77224eefc95f09aecf6"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoFormulario.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoFormulario.cs",
+      "raw_sha256": "0d702063cd962c8ebb2e2a3d12dbad091bb01c65aa160663cacb960b3030b9c4"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoItensAbaViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoItensAbaViewModel.cs",
+      "raw_sha256": "9411bdfcd4fd87907156d655e4e603e60679577858a95c7aa57cf403afd8c5f3"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoItensViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoItensViewModel.cs",
+      "raw_sha256": "166f0fde8b029452bcd007e2edd10a652ca6e73f06ccc011156bcc147bc6dfa3"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\AlteracaoPrecoViewModel.cs",
+      "raw_sha256": "f180cbf32ca44808ba62b935dfb915061d0b57ee4a23ca9dcbcb72bf230f8518"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\CalculoPrecoVendaViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\CalculoPrecoVendaViewModel.cs",
+      "raw_sha256": "a6fda6c361b28e391a7992d908b5681044c855f490a85442304b803af1520167"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Itens\\ItemAlteracaoPrecoCustoViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Itens\\ItemAlteracaoPrecoCustoViewModel.cs",
+      "raw_sha256": "f5f06bc4eff70d15fcaebd425d65f12ddac1e80db035d53c7ec36cfa972eca42"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Itens\\ItemAlteracaoPrecoVendaViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Itens\\ItemAlteracaoPrecoVendaViewModel.cs",
+      "raw_sha256": "6a6bcbdc14fcc92770fdcf9b56ecbcb8c781e86011972a1de1826dbb832e61a8"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Itens\\ItemAlteracaoPrecoViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Itens\\ItemAlteracaoPrecoViewModel.cs",
+      "raw_sha256": "db4b585fa445a63fa7636f23584a52e593741ba5fc71ad453968e4f38af424a7"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Itens\\ItensCustoViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Itens\\ItensCustoViewModel.cs",
+      "raw_sha256": "e1c96da0b92b48d0d22ddb5fcd28897812a4238f6e603d0d105a926c5192c222"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Itens\\ItensVendaViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Itens\\ItensVendaViewModel.cs",
+      "raw_sha256": "9d713d2cfc20344c1e6a96371923fd86e3bfc6607525a03a4673f379ebd957bf"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Itens\\ItensViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Itens\\ItensViewModel.cs",
+      "raw_sha256": "3fe708b1ba425461f6be461fe34e1abd4f30b837251bed19b72c7c6556b1bc3d"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\LocaisAlteracao\\LocalAlteracao.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\LocaisAlteracao\\LocalAlteracao.cs",
+      "raw_sha256": "9d061e9ccb3a699119f26d220532bc75c018b797253e775ded95095671ede56d"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\LocaisAlteracao\\PrecoCusto.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\LocaisAlteracao\\PrecoCusto.cs",
+      "raw_sha256": "74fe43a597bac8d8021ca6f21dbb644b82b07dd236b70e93f527238957324c03"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\LocaisAlteracao\\PrecoVenda.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\LocaisAlteracao\\PrecoVenda.cs",
+      "raw_sha256": "11f674c9fe9579a1dd2d5e561f27cb188190d712311039923b27d1a83878a132"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\PercentualViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\PercentualViewModel.cs",
+      "raw_sha256": "2f8141aaa59e2957171b3cce0dbc2b4495b1ef285be0d1e97d2ae987f2ae9fdd"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\TiposOperacao\\Acrescimo.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\TiposOperacao\\Acrescimo.cs",
+      "raw_sha256": "962d6cb85eae36fa198c4569a9140e11b8f76ed5996275d916614a5a0d427765"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\TiposOperacao\\Desconto.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\TiposOperacao\\Desconto.cs",
+      "raw_sha256": "75aa9f1fad959504e467b32bdfe7145916bcdc67f21b7fc529c3247c9f7fdb0a"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\TiposOperacao\\TipoOperacao.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\TiposOperacao\\TipoOperacao.cs",
+      "raw_sha256": "94c4c5a013085e2e466c6afd00c8d352cd3452b7f34fc6860238c4d3d947123c"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Tipos\\CalculoPrecoVenda.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Tipos\\CalculoPrecoVenda.cs",
+      "raw_sha256": "4098d3e4048560dd2d4174fa22640dea036fb0047a2c6b7d25ee558d6f2b3903"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Tipos\\Percentual.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Tipos\\Percentual.cs",
+      "raw_sha256": "8906186e8239325f9ca04bd74f574aa21ca974d1e0c9531c2ea4d28473effd1a"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Tipos\\Tipo.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Tipos\\Tipo.cs",
+      "raw_sha256": "e9d661a011f05238c1d54ddbe42bc2eafc49c546eb0172d1ec3e406605b522b3"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\Tipos\\TipoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\Tipos\\TipoComboBoxViewModel.cs",
+      "raw_sha256": "0c4f36453976e09846086dbb334260e7a54cdc37c369c7aa1c69814b17922289"
+    },
+    {
+      "path": "ViewModels\\AlteracoesPreco\\TipoViewModel.cs",
+      "export_path": "ViewModels\\AlteracoesPreco\\TipoViewModel.cs",
+      "raw_sha256": "c6c2f8fb73131d9c9ee751e18b04642b3822b4b714d75eebd7dc94d41fe0d465"
+    },
+    {
+      "path": "ViewModels\\AmbienteProducaoAbaViewModel.cs",
+      "export_path": "ViewModels\\AmbienteProducaoAbaViewModel.cs",
+      "raw_sha256": "bcd8c68c9dcabe6ae0f37dde1cd1cc50f11e24ccccf28fda611bd34c8697fa7c"
+    },
+    {
+      "path": "ViewModels\\AmbienteProducaoViewModel.cs",
+      "export_path": "ViewModels\\AmbienteProducaoViewModel.cs",
+      "raw_sha256": "9cb81d88e5068337a6089e909131ddef45e235872241c469b590a873ce36e173"
+    },
+    {
+      "path": "ViewModels\\CodigosBarrasAlternativos\\CodigoBarrasAlternativoAbaViewModel.cs",
+      "export_path": "ViewModels\\CodigosBarrasAlternativos\\CodigoBarrasAlternativoAbaViewModel.cs",
+      "raw_sha256": "073cce53746f7508deed2a9e6919626ef7ed4e7b7e822fa2c2a4071fcb3f2a07"
+    },
+    {
+      "path": "ViewModels\\CodigosBarrasAlternativos\\CodigoBarrasAlternativoViewModel.cs",
+      "export_path": "ViewModels\\CodigosBarrasAlternativos\\CodigoBarrasAlternativoViewModel.cs",
+      "raw_sha256": "15581ab06f284918e03f92c2699be0243025fc2394047820f82c07d3b5a75af9"
+    },
+    {
+      "path": "ViewModels\\CodigosBarrasAlternativos\\ItemCodigoBarrasAlternativo.cs",
+      "export_path": "ViewModels\\CodigosBarrasAlternativos\\ItemCodigoBarrasAlternativo.cs",
+      "raw_sha256": "7bf04f842b48ead7cc4488ac62b531cc26e391df254c330d26d7b37c724902e3"
+    },
+    {
+      "path": "ViewModels\\Combustiveis\\DerivadoPetroleoAbaViewModel.cs",
+      "export_path": "ViewModels\\Combustiveis\\DerivadoPetroleoAbaViewModel.cs",
+      "raw_sha256": "ed5dbcbdd7ec3a9b8dbe963ae3affff378633eab7add35e385ae723d3b438d25"
+    },
+    {
+      "path": "ViewModels\\Combustiveis\\DerivadoPetroleoViewModel.cs",
+      "export_path": "ViewModels\\Combustiveis\\DerivadoPetroleoViewModel.cs",
+      "raw_sha256": "50dac0e8f99a45fdec74882fbbfeaf04a102d1e51f8e1a1ce35b39532697478a"
+    },
+    {
+      "path": "ViewModels\\Combustiveis\\GlpAbaViewModel.cs",
+      "export_path": "ViewModels\\Combustiveis\\GlpAbaViewModel.cs",
+      "raw_sha256": "50915ff79ba97a1d58eed005bc83cce73b33b3a66bca560570251a27238a8236"
+    },
+    {
+      "path": "ViewModels\\Combustiveis\\GlpViewModel.cs",
+      "export_path": "ViewModels\\Combustiveis\\GlpViewModel.cs",
+      "raw_sha256": "ae5ad11bb0b79b74f46e2e57e708c734f1387d0fee4b026aeae42c7c605194d4"
+    },
+    {
+      "path": "ViewModels\\Combustiveis\\OrigemUfViewModel.cs",
+      "export_path": "ViewModels\\Combustiveis\\OrigemUfViewModel.cs",
+      "raw_sha256": "c8cea99f155de7ae819b6c9054d2fbdd29d7ae5d8d3ecd5bbe55af2b1c639eff"
+    },
+    {
+      "path": "ViewModels\\Componentes\\ComponenteBaseFichaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\Componentes\\ComponenteBaseFichaManutencaoDetalhe.cs",
+      "raw_sha256": "6b56ec090d9f85fe3457ff0eb2445d16ca1232bb4a9a3346f975cae97cc47d5c"
+    },
+    {
+      "path": "ViewModels\\Componentes\\ComponenteBaseListaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\Componentes\\ComponenteBaseListaManutencaoDetalhe.cs",
+      "raw_sha256": "348094a2e34b42fc03908a1307736baea19462a01b9ed5a1f55234371db854db"
+    },
+    {
+      "path": "ViewModels\\Composicoes\\ComponenteFichaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\Composicoes\\ComponenteFichaManutencaoDetalhe.cs",
+      "raw_sha256": "dc10346cea90d3ede4ac610783ef05636078446402a913ed1130334182ac5133"
+    },
+    {
+      "path": "ViewModels\\Composicoes\\ComponenteListaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\Composicoes\\ComponenteListaManutencaoDetalhe.cs",
+      "raw_sha256": "3c6b55fa920f8e5ffbecbeb07ea41170f651e967f6d4331e9c92b0a418239834"
+    },
+    {
+      "path": "ViewModels\\Composicoes\\ComposicaoAbaViewModel.cs",
+      "export_path": "ViewModels\\Composicoes\\ComposicaoAbaViewModel.cs",
+      "raw_sha256": "c03342c9f979ab4e1ccebc2081fcbdc8af4272523076aca0b46d0a4d4f575df7"
+    },
+    {
+      "path": "ViewModels\\Composicoes\\ComposicaoViewModel.cs",
+      "export_path": "ViewModels\\Composicoes\\ComposicaoViewModel.cs",
+      "raw_sha256": "edd660d82f008d2b23aee692ea8dcf165c8f8280a5a48a40a176551395345d27"
+    },
+    {
+      "path": "ViewModels\\CondicoesEspecial\\CondicaoEspecialAbaViewModel.cs",
+      "export_path": "ViewModels\\CondicoesEspecial\\CondicaoEspecialAbaViewModel.cs",
+      "raw_sha256": "1f5d1dfe34c531fed17487d1f7319796510656ed1afffe84ff4e8447f6051c63"
+    },
+    {
+      "path": "ViewModels\\CondicoesEspecial\\CondicaoEspecialViewModel.cs",
+      "export_path": "ViewModels\\CondicoesEspecial\\CondicaoEspecialViewModel.cs",
+      "raw_sha256": "1a6682d4b59fe3113494f3250959430e95cf9cf1e2e83dbed4d509e70cf3c90b"
+    },
+    {
+      "path": "ViewModels\\CondicoesEspecial\\Tipos\\PercentualDescontoTodosOsItensAPartirDeterminadaQuantidade.cs",
+      "export_path": "ViewModels\\CondicoesEspecial\\Tipos\\PercentualDescontoTodosOsItensAPartirDeterminadaQuantidade.cs",
+      "raw_sha256": "260cde3cab96b2d5973e786cf37b7c4ac3951404b2623f6955313f52e0540003"
+    },
+    {
+      "path": "ViewModels\\CondicoesEspecial\\Tipos\\PrecoDiferenciadoTodosOsItens.cs",
+      "export_path": "ViewModels\\CondicoesEspecial\\Tipos\\PrecoDiferenciadoTodosOsItens.cs",
+      "raw_sha256": "880824a3d99820390795ae5e7bdb5469dd1e3781b1ae0e40afc343e8ef62605b"
+    },
+    {
+      "path": "ViewModels\\CondicoesEspecial\\Tipos\\PrecoDiferenciadoTodosOsItensAPartirDeterminadaQuantidade.cs",
+      "export_path": "ViewModels\\CondicoesEspecial\\Tipos\\PrecoDiferenciadoTodosOsItensAPartirDeterminadaQuantidade.cs",
+      "raw_sha256": "3813275019a8d186116af9a8bcaa98c79c27433c6981d3adf2582192b8b03e70"
+    },
+    {
+      "path": "ViewModels\\CondicoesEspecial\\Tipos\\PrecoDiferenciadoUltimoItem.cs",
+      "export_path": "ViewModels\\CondicoesEspecial\\Tipos\\PrecoDiferenciadoUltimoItem.cs",
+      "raw_sha256": "0c4daf4db08fa2b03bb11071229c914bd75f47404c7e563fd6d59d5f0d8204ab"
+    },
+    {
+      "path": "ViewModels\\CondicoesEspecial\\Tipos\\Tipo.cs",
+      "export_path": "ViewModels\\CondicoesEspecial\\Tipos\\Tipo.cs",
+      "raw_sha256": "41762ed4275b20745419a57275d7869294305443754fb6da0c6a8a7191dd27fa"
+    },
+    {
+      "path": "ViewModels\\CondicoesEspecial\\Tipos\\TipoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\CondicoesEspecial\\Tipos\\TipoComboBoxViewModel.cs",
+      "raw_sha256": "40445cd1c9fa19c5936b338073e2a41b4c269408b436f59c42c515ba7d5bf017"
+    },
+    {
+      "path": "ViewModels\\ConsultarProdutoSimilarAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarProdutoSimilarAbaViewModel.cs",
+      "raw_sha256": "1393f44316696348343e7a4c7651c55d72d84eb6d149567961e1b7da04b70b71"
+    },
+    {
+      "path": "ViewModels\\ConsultarProdutoSimilarFichaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarProdutoSimilarFichaViewModel.cs",
+      "raw_sha256": "4da8e8109b9d0905fd14319afe98b0dd8469b43c2c8dc2cf8947f3e54c041d86"
+    },
+    {
+      "path": "ViewModels\\ConsultarProdutoSimilarFormulario.cs",
+      "export_path": "ViewModels\\ConsultarProdutoSimilarFormulario.cs",
+      "raw_sha256": "c03e05ea25ee567668819f5f7a0bd6b264b93c3eb0d9b19ca325cff6a74baf54"
+    },
+    {
+      "path": "ViewModels\\ConsultarProdutoSimilarViewModel.cs",
+      "export_path": "ViewModels\\ConsultarProdutoSimilarViewModel.cs",
+      "raw_sha256": "4c943650bf775197349cefa007c91fb5a2c3c8db975d20d4407a0fa1fce65d57"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoEstadualIMendesAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoEstadualIMendesAbaViewModel.cs",
+      "raw_sha256": "0930c0527683ad22528d5ff8919b7bca98599b27e02111f8661117d8949d7eda"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoEstadualIMendesFichaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoEstadualIMendesFichaViewModel.cs",
+      "raw_sha256": "4b1096df553951b17b09db45e8e1164efe4e4e16a0c3ed1f9fa1c6c2a19a1317"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoEstadualIMendesFormulario.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoEstadualIMendesFormulario.cs",
+      "raw_sha256": "2e6604fc76468799f4c8248e49d9bc2d0a0d86b7f065df481772541abae05b6a"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoEstadualIMendesViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoEstadualIMendesViewModel.cs",
+      "raw_sha256": "2662318c1b2cf72a02b6e78fde979af975f1867c75eebc481cec9d5d09096837"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoFederalIMendesAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoFederalIMendesAbaViewModel.cs",
+      "raw_sha256": "a4b921817c537464a2d027fd93500b4dbb71cb59fc0698ce679fc8323741f5a3"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoFederalIMendesFichaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoFederalIMendesFichaViewModel.cs",
+      "raw_sha256": "5fe635738e77feb61708e4f5dd64b4fd3f39b2970522e5aee122701c2a996aa6"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoFederalIMendesFormulario.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoFederalIMendesFormulario.cs",
+      "raw_sha256": "1fb39e58ed2eaab5d875810ae0464b61cb088a3a8d10668b3293cf6932d271cc"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoFederalIMendesViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoFederalIMendesViewModel.cs",
+      "raw_sha256": "4b6de42503e4cb1658677984a94ce9aa46b7bbc70bd0e9d3008f9c0097ce9320"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoIbsCbsIMendesAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoIbsCbsIMendesAbaViewModel.cs",
+      "raw_sha256": "dd53a6864de62f83b9e57eb3ad858523101811cdb321fd6cf90b0ba9fbffb261"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoIbsCbsIMendesFichaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoIbsCbsIMendesFichaViewModel.cs",
+      "raw_sha256": "1e00c3ab03d02082429b4f04343ea697fce61c91ea060195cf13b79f6107d1a0"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoIbsCbsIMendesFormulario.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoIbsCbsIMendesFormulario.cs",
+      "raw_sha256": "c3168a8e97a31212fa9cbbf9a4d1c3944ed37f340797f2e749f35a005961c23d"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoIbsCbsIMendesViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoIbsCbsIMendesViewModel.cs",
+      "raw_sha256": "1945d0617ea91fcb035b993bb01aa8baf81d1f9a69f83e695d9de7f7472ffed7"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoIsIMendesAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoIsIMendesAbaViewModel.cs",
+      "raw_sha256": "da387735a7090c6e1aa02aa5bdb6740ba111d3775a87b409f90f889d70568ce6"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoIsIMendesFichaViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoIsIMendesFichaViewModel.cs",
+      "raw_sha256": "db2c619b24ae42f9a473a51818315be1175c3bcb23e30868e1765908d3687b21"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoIsIMendesFormulario.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoIsIMendesFormulario.cs",
+      "raw_sha256": "4016c73cb7a881ea7865313147fea3bd470c35bdbec9e467d802b2217fa91900"
+    },
+    {
+      "path": "ViewModels\\ConsultarTributacaoIsIMendesViewModel.cs",
+      "export_path": "ViewModels\\ConsultarTributacaoIsIMendesViewModel.cs",
+      "raw_sha256": "4f12ab7a9984207cfb3d2f7790ba76d61f1caf7caf7e07ff76f90ec6319c5890"
+    },
+    {
+      "path": "ViewModels\\ConsultasProdutos\\ConsultaProdutoAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultasProdutos\\ConsultaProdutoAbaViewModel.cs",
+      "raw_sha256": "527040285e47c3f45595a0fa6098561c7ce254c2dd9f9633aac214ca38f4a896"
+    },
+    {
+      "path": "ViewModels\\ConsultasProdutos\\ConsultaProdutoFormulario.cs",
+      "export_path": "ViewModels\\ConsultasProdutos\\ConsultaProdutoFormulario.cs",
+      "raw_sha256": "e6b0eb036491b24e04a028e1fb9ef63212ceb3d080a6661404d6c67b51152843"
+    },
+    {
+      "path": "ViewModels\\ConsultasProdutos\\ConsultaProdutoViewModel.cs",
+      "export_path": "ViewModels\\ConsultasProdutos\\ConsultaProdutoViewModel.cs",
+      "raw_sha256": "2243d670d0171c12d8ffe994d55ea2f17a8d9aa3afd52efddf2ca2bf90b2fe3f"
+    },
+    {
+      "path": "ViewModels\\ControleVasilhames\\ControleVasilhameAjusteViewModel.cs",
+      "export_path": "ViewModels\\ControleVasilhames\\ControleVasilhameAjusteViewModel.cs",
+      "raw_sha256": "09d9f5fa7a9cb6e9dcc2e34c71bc7e847f4b72acfc44774e40ca3752163cb011"
+    },
+    {
+      "path": "ViewModels\\ControleVasilhames\\ControleVasilhameImpressoViewModel.cs",
+      "export_path": "ViewModels\\ControleVasilhames\\ControleVasilhameImpressoViewModel.cs",
+      "raw_sha256": "2a12f5e1c713f54e6ca53f61b78f49644d1131a1fba8239af9609e50b27c377c"
+    },
+    {
+      "path": "ViewModels\\ControleVasilhames\\ControleVasilhamesFichaViewModel.cs",
+      "export_path": "ViewModels\\ControleVasilhames\\ControleVasilhamesFichaViewModel.cs",
+      "raw_sha256": "1633cb160ce584cfc741198bf5a651b65ecd63dcb425c1b677668e0d312ea69b"
+    },
+    {
+      "path": "ViewModels\\ControleVasilhames\\ControleVasilhamesFormulario.cs",
+      "export_path": "ViewModels\\ControleVasilhames\\ControleVasilhamesFormulario.cs",
+      "raw_sha256": "e82397ea8358549fbb0bdb1161cde535f368fe833f237c0c8f2b72c2e3d13aa0"
+    },
+    {
+      "path": "ViewModels\\ControleVasilhames\\ControleVasilhamesViewModel.cs",
+      "export_path": "ViewModels\\ControleVasilhames\\ControleVasilhamesViewModel.cs",
+      "raw_sha256": "907b8acdd823d4e3e9a12d14f171db344307e1ed9e6e457c20ff7f9a502f0f6a"
+    },
+    {
+      "path": "ViewModels\\ControleVasilhames\\Reports\\TicketVasilhame.cs",
+      "export_path": "ViewModels\\ControleVasilhames\\Reports\\TicketVasilhame.cs",
+      "raw_sha256": "e18bede571600c6714f5a9b364443cfb0849cfb30533444e9159df4e16f004ec"
+    },
+    {
+      "path": "ViewModels\\ControleVasilhames\\Reports\\TicketVasilhameRelatorio.cs",
+      "export_path": "ViewModels\\ControleVasilhames\\Reports\\TicketVasilhameRelatorio.cs",
+      "raw_sha256": "085af46c41c23f2ec1e97782abd693f4c247e019dbb25a182a56ee85097770ac"
+    },
+    {
+      "path": "ViewModels\\Decomposicoes\\ComponentePercentualFichaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\Decomposicoes\\ComponentePercentualFichaManutencaoDetalhe.cs",
+      "raw_sha256": "c7bdebbf98ccecd4bf248aefae63c1837d158eec9687b340d6e604a68ed1b8f8"
+    },
+    {
+      "path": "ViewModels\\Decomposicoes\\ComponentePercentualListaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\Decomposicoes\\ComponentePercentualListaManutencaoDetalhe.cs",
+      "raw_sha256": "ca52fb04f9182edb08f25c09129a586d682ca8122c400642f7074de8f28321f8"
+    },
+    {
+      "path": "ViewModels\\Decomposicoes\\DecomposicaoAbaViewModel.cs",
+      "export_path": "ViewModels\\Decomposicoes\\DecomposicaoAbaViewModel.cs",
+      "raw_sha256": "96d445ee9219d303002ce7a589029d8653de32819e2338fabff277556336ba2f"
+    },
+    {
+      "path": "ViewModels\\Decomposicoes\\DecomposicaoViewModel.cs",
+      "export_path": "ViewModels\\Decomposicoes\\DecomposicaoViewModel.cs",
+      "raw_sha256": "d8c170d86f1da2d9e5482b10a2c730c658926788a651a9ce07d725bd84b2a509"
+    },
+    {
+      "path": "ViewModels\\Estoques\\EstoqueAbaViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\EstoqueAbaViewModel.cs",
+      "raw_sha256": "1a6e7ac525a193816f7000bea0d5988387fe4360803e5ae615d362bc7e82a116"
+    },
+    {
+      "path": "ViewModels\\Estoques\\EstoqueBaseViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\EstoqueBaseViewModel.cs",
+      "raw_sha256": "872bbae2091e47bfff34c257401934712200828628c2c652a914104a810d81bc"
+    },
+    {
+      "path": "ViewModels\\Estoques\\EstoqueMedicamentoViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\EstoqueMedicamentoViewModel.cs",
+      "raw_sha256": "65611ba6838b2964d39a9b2d553a9e5e45d876fbb7d17640f856b70d7f2d60f2"
+    },
+    {
+      "path": "ViewModels\\Estoques\\EstoqueNormalViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\EstoqueNormalViewModel.cs",
+      "raw_sha256": "65a442f33b03fa1fdcb4af826a814048a646c7e911f02472296ac0724afb6623"
+    },
+    {
+      "path": "ViewModels\\Estoques\\EstoqueViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\EstoqueViewModel.cs",
+      "raw_sha256": "b584dd9697a708b1c7c040c9830c4603d63020726fdd6b8c34941a1ba8a87bbc"
+    },
+    {
+      "path": "ViewModels\\Estoques\\ProdutosServicosVisualizarEstoqueFichaViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\ProdutosServicosVisualizarEstoqueFichaViewModel.cs",
+      "raw_sha256": "2a45f772c59df603079c2dad24f758b7567785f5be9c01374655ba5836f35ee1"
+    },
+    {
+      "path": "ViewModels\\Estoques\\ProdutosServicosVisualizarEstoqueFormulario.cs",
+      "export_path": "ViewModels\\Estoques\\ProdutosServicosVisualizarEstoqueFormulario.cs",
+      "raw_sha256": "5b592345c43f78b88ff1d4c0b7cab76c086e610966598e9395eb332120260560"
+    },
+    {
+      "path": "ViewModels\\Estoques\\ProdutosServicosVisualizarEstoqueViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\ProdutosServicosVisualizarEstoqueViewModel.cs",
+      "raw_sha256": "e680e40d0e3c0455ed34842d232ce58daffe332ffbacb4a3488d52f0fc24a62a"
+    },
+    {
+      "path": "ViewModels\\Estoques\\VisualizarComposicaoViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\VisualizarComposicaoViewModel.cs",
+      "raw_sha256": "84059da55d8225f2b0f56b76331c9af91d9675a1a87e6e1313d447cb7402a8e7"
+    },
+    {
+      "path": "ViewModels\\Estoques\\VisualizarFatoresConversaoSaidaViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\VisualizarFatoresConversaoSaidaViewModel.cs",
+      "raw_sha256": "f30f37cbc4c5e952764f329744668ab150efcfb81ce21d449b87b27051d6b047"
+    },
+    {
+      "path": "ViewModels\\Estoques\\VisualizarGradeViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\VisualizarGradeViewModel.cs",
+      "raw_sha256": "58f092e4c91ff06a0894fc43ab50b49b1df04064f8448590962d1222848a5b82"
+    },
+    {
+      "path": "ViewModels\\Estoques\\VisualizarLoteViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\VisualizarLoteViewModel.cs",
+      "raw_sha256": "18ad29654fce2978f8791022bb5f539bfff165f2fb49bb7162d048caa4302217"
+    },
+    {
+      "path": "ViewModels\\Estoques\\VisualizarProdutoProduzidoViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\VisualizarProdutoProduzidoViewModel.cs",
+      "raw_sha256": "d97336e63901a59f81e824c083f35a9ef57e7961b23ece88ae9f1bc07be3977f"
+    },
+    {
+      "path": "ViewModels\\Estoques\\VisualizarSerialViewModel.cs",
+      "export_path": "ViewModels\\Estoques\\VisualizarSerialViewModel.cs",
+      "raw_sha256": "6b1f8d823528b75184fcc1cf2ecbf77857ae1482f45fb72a14768f95ed4a369e"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoSaida\\Divisao.cs",
+      "export_path": "ViewModels\\FatorConversaoSaida\\Divisao.cs",
+      "raw_sha256": "d6594adf3a6a8c12be7ade02dbc51eda36cb8889cdbc87fbfe79ac2af89c8188"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoSaida\\FatorConversaoSaidaAbaViewModel.cs",
+      "export_path": "ViewModels\\FatorConversaoSaida\\FatorConversaoSaidaAbaViewModel.cs",
+      "raw_sha256": "7ab0dcef2d2382e9fa34ab78c3c0ab7eaa4a8f5818bb3abeffba546cba58e66a"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoSaida\\FatorConversaoSaidaViewModel.cs",
+      "export_path": "ViewModels\\FatorConversaoSaida\\FatorConversaoSaidaViewModel.cs",
+      "raw_sha256": "9bf96caeaf8e544d56cddc7ff94617e91b98521a6613d96f3e2cb74a50a61145"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoSaida\\ItemFatorConversaoSaida.cs",
+      "export_path": "ViewModels\\FatorConversaoSaida\\ItemFatorConversaoSaida.cs",
+      "raw_sha256": "4636cccaeb64c4e82c8668d298d707e0b917f0a68462c2324578d4cc0fe77185"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoSaida\\Multiplicacao.cs",
+      "export_path": "ViewModels\\FatorConversaoSaida\\Multiplicacao.cs",
+      "raw_sha256": "2da2e624ed5c4676c44e135c4e1e53309366f0e82c75b26b321301e9e5a69eda"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoSaida\\Opcao.cs",
+      "export_path": "ViewModels\\FatorConversaoSaida\\Opcao.cs",
+      "raw_sha256": "8d8413926d8b2bb30036324ad2649600c7f93e18baff29a0dcbbc6e5fe9b7310"
+    },
+    {
+      "path": "ViewModels\\FatorConversaoSaida\\Operacao.cs",
+      "export_path": "ViewModels\\FatorConversaoSaida\\Operacao.cs",
+      "raw_sha256": "7d6e69048ed30cb1c1eaa1a92647df6b8c1ccef92c60c8b52952e099d9b7d6fb"
+    },
+    {
+      "path": "ViewModels\\Imagens\\ImagemViewModel.cs",
+      "export_path": "ViewModels\\Imagens\\ImagemViewModel.cs",
+      "raw_sha256": "b824373e8974d2755dd81b8d113774ce567ac69f766f28550631e212537f0290"
+    },
+    {
+      "path": "ViewModels\\Imagens\\ProdutosServicosImagemFichaViewModel.cs",
+      "export_path": "ViewModels\\Imagens\\ProdutosServicosImagemFichaViewModel.cs",
+      "raw_sha256": "9b2652b4719312dc31beb36d57d7bff928f970fe224c11734b375f21d2dd4bec"
+    },
+    {
+      "path": "ViewModels\\Imagens\\ProdutosServicosImagemFormulario.cs",
+      "export_path": "ViewModels\\Imagens\\ProdutosServicosImagemFormulario.cs",
+      "raw_sha256": "628e8da7f6dfde893ba7d664377b4cbda10d96be811bd6777cc10500667d6b98"
+    },
+    {
+      "path": "ViewModels\\Imagens\\ProdutosServicosImagemViewModel.cs",
+      "export_path": "ViewModels\\Imagens\\ProdutosServicosImagemViewModel.cs",
+      "raw_sha256": "2239cbf2e68cea8c7a3e2fccabb9acde3329d0f88b3ea4fa0821a2b09236224c"
+    },
+    {
+      "path": "ViewModels\\IMendes\\IMendesAbaViewModel.cs",
+      "export_path": "ViewModels\\IMendes\\IMendesAbaViewModel.cs",
+      "raw_sha256": "0668f1152810ea88059e92b93115bd8b6c923e36eb572c88ce7774b9c666127e"
+    },
+    {
+      "path": "ViewModels\\IMendes\\IMendesViewModel.cs",
+      "export_path": "ViewModels\\IMendes\\IMendesViewModel.cs",
+      "raw_sha256": "d68d53b6a505d3f335d3824fb95da8ad03dd9407cb4f92340b0b4a055d502b2b"
+    },
+    {
+      "path": "ViewModels\\Impressoras\\DiaFuncionamentoViewModel.cs",
+      "export_path": "ViewModels\\Impressoras\\DiaFuncionamentoViewModel.cs",
+      "raw_sha256": "bfef3e87019a850641987b815fa2514df03a0474e885c58c3d82930c5f692d5d"
+    },
+    {
+      "path": "ViewModels\\Impressoras\\HorarioFuncionamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\Impressoras\\HorarioFuncionamentoAbaViewModel.cs",
+      "raw_sha256": "0eff6faf82b7a4e9d3abad72ecd34b57b4e19c2895b5782f5c675a93280c8e33"
+    },
+    {
+      "path": "ViewModels\\Impressoras\\HorarioFuncionamentoViewModel.cs",
+      "export_path": "ViewModels\\Impressoras\\HorarioFuncionamentoViewModel.cs",
+      "raw_sha256": "c65c5fc9484e80c211d4e262d4cf385ef0767e1104676c585da0099671d92fd8"
+    },
+    {
+      "path": "ViewModels\\Impressoras\\ImpressoraAbaViewModel.cs",
+      "export_path": "ViewModels\\Impressoras\\ImpressoraAbaViewModel.cs",
+      "raw_sha256": "9edaeb36254fdc0c1f46162894309bfc9a1f9791acf0431a2e4ec8964b492b15"
+    },
+    {
+      "path": "ViewModels\\Impressoras\\ImpressoraFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\Impressoras\\ImpressoraFichaAdicionarViewModel.cs",
+      "raw_sha256": "e10e63cf7045fb544976218efafa02b171403cb285d1411dec3a1dc2779ad4be"
+    },
+    {
+      "path": "ViewModels\\Impressoras\\ImpressoraFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\Impressoras\\ImpressoraFichaAtualizarViewModel.cs",
+      "raw_sha256": "8fbaaeaca537bc594f476e28c80416eb524ad819fefa7b5d1127f707b79bc641"
+    },
+    {
+      "path": "ViewModels\\Impressoras\\ImpressoraFormulario.cs",
+      "export_path": "ViewModels\\Impressoras\\ImpressoraFormulario.cs",
+      "raw_sha256": "6eb9dfe42c3b6ae86b93a2acd010d7f3ebbf5bd25e7cb2995196ec76ad558b54"
+    },
+    {
+      "path": "ViewModels\\Impressoras\\ImpressoraListaViewModel.cs",
+      "export_path": "ViewModels\\Impressoras\\ImpressoraListaViewModel.cs",
+      "raw_sha256": "38ca666a36a19a2c9e22e21ef152dc0fb2148429d856ff71606472ecb745d5ba"
+    },
+    {
+      "path": "ViewModels\\Impressoras\\ImpressoraViewModel.cs",
+      "export_path": "ViewModels\\Impressoras\\ImpressoraViewModel.cs",
+      "raw_sha256": "c035bf2f593935957510b2b257b2fe265683b60173f45f0a0bd0383bfadfae2a"
+    },
+    {
+      "path": "ViewModels\\IndicadorArredondamentoTruncamentoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\IndicadorArredondamentoTruncamentoComboBoxViewModel.cs",
+      "raw_sha256": "414250a78e6d2e29068cd4f77128aab1cc95f7779002a3e0f2c07c315a6fb1fa"
+    },
+    {
+      "path": "ViewModels\\IndicadorProducaoPropriaTerceiroComboBoxViewModel.cs",
+      "export_path": "ViewModels\\IndicadorProducaoPropriaTerceiroComboBoxViewModel.cs",
+      "raw_sha256": "d977e5ce22cacd4358a42d5d635cc3653db85e585dc6376ae843c9997d09f072"
+    },
+    {
+      "path": "ViewModels\\InformacoesExtras\\InformacaoExtraAbaViewModel.cs",
+      "export_path": "ViewModels\\InformacoesExtras\\InformacaoExtraAbaViewModel.cs",
+      "raw_sha256": "622d8e544a273c5cad3b6da5c69ae1630ff82569dfa4e1d8ea652840d8ca670c"
+    },
+    {
+      "path": "ViewModels\\InformacoesExtras\\InformacaoExtraFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\InformacoesExtras\\InformacaoExtraFichaAdicionarViewModel.cs",
+      "raw_sha256": "fedd7b704d5c6a6a45a868f866d4c9f34e19c8f3e2f1949b23c0ee9616767073"
+    },
+    {
+      "path": "ViewModels\\InformacoesExtras\\InformacaoExtraFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\InformacoesExtras\\InformacaoExtraFichaAtualizarViewModel.cs",
+      "raw_sha256": "b78c90c7cf928143053ee45e6b9b4e538061c926b3b6f329e6cf389e82e62af1"
+    },
+    {
+      "path": "ViewModels\\InformacoesExtras\\InformacaoExtraFormulario.cs",
+      "export_path": "ViewModels\\InformacoesExtras\\InformacaoExtraFormulario.cs",
+      "raw_sha256": "07078c95be6d44c006872da39674dd78d8284cf75454d8936f31fbeb3c37a5d9"
+    },
+    {
+      "path": "ViewModels\\InformacoesExtras\\InformacaoExtraListaViewModel.cs",
+      "export_path": "ViewModels\\InformacoesExtras\\InformacaoExtraListaViewModel.cs",
+      "raw_sha256": "0d2d5e5f760ed23018dc99e81cb65262b68ffdedaecc4b76223f330163d9ff1c"
+    },
+    {
+      "path": "ViewModels\\InformacoesExtras\\InformacaoExtraViewModel.cs",
+      "export_path": "ViewModels\\InformacoesExtras\\InformacaoExtraViewModel.cs",
+      "raw_sha256": "188223d113bdf54b8398928dc066a07c2ad0e3e8665682efb2aab50cacd656df"
+    },
+    {
+      "path": "ViewModels\\InformacoesExtras\\InformacoesExtrasViewModel.cs",
+      "export_path": "ViewModels\\InformacoesExtras\\InformacoesExtrasViewModel.cs",
+      "raw_sha256": "e39b70f5663a46d8a7eb6ef75b4adc201b35959ecc96e69633991fcd2ecf1a2c"
+    },
+    {
+      "path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalAbaViewModel.cs",
+      "export_path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalAbaViewModel.cs",
+      "raw_sha256": "d67f4972e262d826c6fe8cb500e9ebc7c83045b19a707521b4bdac942fdb8c2f"
+    },
+    {
+      "path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalFichaAdicionarViewModel.cs",
+      "raw_sha256": "5854eb5c9e6f562d9b4a54b7410d0f2f51673c23ab3b74c0fa01186df8a6b988"
+    },
+    {
+      "path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalFichaAtualizarViewModel.cs",
+      "raw_sha256": "b5478cdc86b33e942fb77468a1d7152a766a501e9836ec7a2d2b153fa80206cb"
+    },
+    {
+      "path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalFormulario.cs",
+      "export_path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalFormulario.cs",
+      "raw_sha256": "312b70c2ea2622312a8e6535c6698c62a4fda3c90fb7de3853a9faef255a7329"
+    },
+    {
+      "path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalListaViewModel.cs",
+      "export_path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalListaViewModel.cs",
+      "raw_sha256": "f46c40df7a8721ce5b1da5ecddf211f66b88e9b9069c452acb12802ff09bf628"
+    },
+    {
+      "path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalViewModel.cs",
+      "export_path": "ViewModels\\InformacoesNutricionais\\InformacaoNutricionalViewModel.cs",
+      "raw_sha256": "1746921d02b1a35b597bc2f9c621a132dd4e75df09a4b55a2e1b61c96a30408c"
+    },
+    {
+      "path": "ViewModels\\InformacoesNutricionais\\InformacoesNutricionaisViewModel.cs",
+      "export_path": "ViewModels\\InformacoesNutricionais\\InformacoesNutricionaisViewModel.cs",
+      "raw_sha256": "4546bf754273bdc0c2561301ef683e455923c3ce0c5f8bfc7c16f7768abf47c3"
+    },
+    {
+      "path": "ViewModels\\IntervalosValidade\\Dias.cs",
+      "export_path": "ViewModels\\IntervalosValidade\\Dias.cs",
+      "raw_sha256": "2f42f9526e57ee5757a17c46e4c1156d72354817768ff4d77e60d04b23b172e0"
+    },
+    {
+      "path": "ViewModels\\IntervalosValidade\\IntervaloValidade.cs",
+      "export_path": "ViewModels\\IntervalosValidade\\IntervaloValidade.cs",
+      "raw_sha256": "1b3e6ac08c4e9c915f39f90523d0b53293f5eee96f85051c8c28f84d3f170c91"
+    },
+    {
+      "path": "ViewModels\\IntervalosValidade\\IntervaloValidadeComboBoxViewModel.cs",
+      "export_path": "ViewModels\\IntervalosValidade\\IntervaloValidadeComboBoxViewModel.cs",
+      "raw_sha256": "e31cc62c183ddf1e282e71cdfc08ec17e10dbe5b958dc539d036959d597db531"
+    },
+    {
+      "path": "ViewModels\\IntervalosValidade\\Meses.cs",
+      "export_path": "ViewModels\\IntervalosValidade\\Meses.cs",
+      "raw_sha256": "eea2ac17d91e0c948c154892582a58af4acc5b1d50f046205afd69cd8facf3a7"
+    },
+    {
+      "path": "ViewModels\\Linhas\\LinhaAbaViewModel.cs",
+      "export_path": "ViewModels\\Linhas\\LinhaAbaViewModel.cs",
+      "raw_sha256": "c98c586e52c1e592530a126aa783f9309beb9b137c927ecbd5dac2073a9af542"
+    },
+    {
+      "path": "ViewModels\\Linhas\\LinhaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\Linhas\\LinhaFichaAdicionarViewModel.cs",
+      "raw_sha256": "279fca02261c76811f50ae74ec26db1041060abf4f6311198e609c170b7365c7"
+    },
+    {
+      "path": "ViewModels\\Linhas\\LinhaFormulario.cs",
+      "export_path": "ViewModels\\Linhas\\LinhaFormulario.cs",
+      "raw_sha256": "b74a544258b2674401ff32aea84fc47746187d50160c524db69497ba95a68ee5"
+    },
+    {
+      "path": "ViewModels\\Linhas\\LinhaListaViewModel.cs",
+      "export_path": "ViewModels\\Linhas\\LinhaListaViewModel.cs",
+      "raw_sha256": "dc1791be82e0b69af4a1d2664920451411062fcf2f8ea90f1878f88f232d7d2f"
+    },
+    {
+      "path": "ViewModels\\Linhas\\LinhaViewModel.cs",
+      "export_path": "ViewModels\\Linhas\\LinhaViewModel.cs",
+      "raw_sha256": "f53564d5df124cd811a0b5fac80bffd551daa281ac3e52adc8165d3bc1986439"
+    },
+    {
+      "path": "ViewModels\\Localizacoes\\LocalizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\Localizacoes\\LocalizacaoAbaViewModel.cs",
+      "raw_sha256": "e4d620af88db105c34dbd1622be987e53a029dc5b8bdd34f428315f2ece1840f"
+    },
+    {
+      "path": "ViewModels\\Localizacoes\\LocalizacaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\Localizacoes\\LocalizacaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "a0f02fd2ff00256929717aeb8858ec1912432e2d1a2909056a31f08d8835d9e4"
+    },
+    {
+      "path": "ViewModels\\Localizacoes\\LocalizacaoFormulario.cs",
+      "export_path": "ViewModels\\Localizacoes\\LocalizacaoFormulario.cs",
+      "raw_sha256": "ff418540cd38248abde27b55a1d85763ca1831bcbe0290852b198deee5611e43"
+    },
+    {
+      "path": "ViewModels\\Localizacoes\\LocalizacaoListaViewModel.cs",
+      "export_path": "ViewModels\\Localizacoes\\LocalizacaoListaViewModel.cs",
+      "raw_sha256": "4134cb4482e4c00f02e347be7c7925a6263457d4b1be47a6924a47861a2a7681"
+    },
+    {
+      "path": "ViewModels\\Localizacoes\\LocalizacaoViewModel.cs",
+      "export_path": "ViewModels\\Localizacoes\\LocalizacaoViewModel.cs",
+      "raw_sha256": "6495921951dd9c39511ceb459620d71e9b955cdc818136bcde5bc8388ed8eb18"
+    },
+    {
+      "path": "ViewModels\\Localizacoes\\LocalizacoesViewModel.cs",
+      "export_path": "ViewModels\\Localizacoes\\LocalizacoesViewModel.cs",
+      "raw_sha256": "1214602d6f1b9e169dee7dc44ce6d2c7e66c8cac7672fd4e726c47a122efb54c"
+    },
+    {
+      "path": "ViewModels\\Medicamentos\\ClasseTerapeuticaComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Medicamentos\\ClasseTerapeuticaComboBoxViewModel.cs",
+      "raw_sha256": "97d3fa710a090b9d6dde685610cae75bf04b10ca38f24ce8635bb256a1a3c27e"
+    },
+    {
+      "path": "ViewModels\\Medicamentos\\MedicamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\Medicamentos\\MedicamentoAbaViewModel.cs",
+      "raw_sha256": "3611c545074d82a1fb3b1192142783f88f24b1474add70eb6f5fe67f48e23b43"
+    },
+    {
+      "path": "ViewModels\\Medicamentos\\MedicamentoViewModel.cs",
+      "export_path": "ViewModels\\Medicamentos\\MedicamentoViewModel.cs",
+      "raw_sha256": "4d506f62ae5cf0d4a7447992950a2c3768aa0488e0efaed4af09b7b76c4f8937"
+    },
+    {
+      "path": "ViewModels\\Medicamentos\\TipoMedicamentoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Medicamentos\\TipoMedicamentoComboBoxViewModel.cs",
+      "raw_sha256": "454871ad09794a703a458479e2dadc06963f8c988c1d13c08e236ef49b8ccdca"
+    },
+    {
+      "path": "ViewModels\\Medicamentos\\UnidadeFarmacotecnicaComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Medicamentos\\UnidadeFarmacotecnicaComboBoxViewModel.cs",
+      "raw_sha256": "53e86a45fe010cf807f2c8d02554589365094501ea3a1ed96daf4a94975b33a1"
+    },
+    {
+      "path": "ViewModels\\Medicamentos\\UnidadeMedidaMedicamentoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Medicamentos\\UnidadeMedidaMedicamentoComboBoxViewModel.cs",
+      "raw_sha256": "1c3b6a7d1248fa77790423b102458704f47c248a6698df3aaff625b1451e3dfb"
+    },
+    {
+      "path": "ViewModels\\Medicamentos\\UsoProlongadoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\Medicamentos\\UsoProlongadoComboBoxViewModel.cs",
+      "raw_sha256": "007555d77b5c42dbdc4600bce584ac64a1e9867002f3880ff152d968c749879d"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\EstoqueEmpresaViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\EstoqueEmpresaViewModel.cs",
+      "raw_sha256": "5e06f12c7cf32ac7531c87c58bafd6600ef7aa4d3b4a012187f6504cc17b5bdf"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\EstoqueFisicoViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\EstoqueFisicoViewModel.cs",
+      "raw_sha256": "e12a1db11230279ad93f98010000602413076fe050b6d0efd8b05276620468b5"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\EstoqueReferencia.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\EstoqueReferencia.cs",
+      "raw_sha256": "63cd49fdadcd0c4ffcfd8f4c7314f88937c19b6479b85be5b111e9ec4ba09ee8"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\EstoqueReferenciaLista.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\EstoqueReferenciaLista.cs",
+      "raw_sha256": "44e60025e957185f8a38a40371fe648293024edb4e0ac65a8462c7bfe05ec176"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\HistoricoEstoqueViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\HistoricoEstoqueViewModel.cs",
+      "raw_sha256": "20e4f2c158f70b184aac68a8b2996de305b499d00872ca9079d9be84c72f0530"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\HistoricoMovimentacaoViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\HistoricoMovimentacaoViewModel.cs",
+      "raw_sha256": "eb9de7a1b09a5a4347714e1a7f276fedf099364d23b3b236ed3e8d080ffe012a"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ItemRotatividade.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ItemRotatividade.cs",
+      "raw_sha256": "fe3fbbae7738cba9ae2151405d9294efc652fd7b14778c51ab3aaa60bbc1232a"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\MovimentacaoAcumuladaPessoaViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\MovimentacaoAcumuladaPessoaViewModel.cs",
+      "raw_sha256": "e00654203c908020aa0392dd454d0a059bd4a15079942949f30cb32ec13f33b8"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\MovimentacaoMensalViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\MovimentacaoMensalViewModel.cs",
+      "raw_sha256": "0f92aa1aded16d6cea83fee8702e19b77ae70824811f6f719cbf4aea6c29558b"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\MovimentacaoReservasViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\MovimentacaoReservasViewModel.cs",
+      "raw_sha256": "b1c7b3448b99abf6325cf83dc0261cc0a6fda96216f3d1896c04e2f6081e7869"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\PesquisaHistoricoMovimentacaoViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\PesquisaHistoricoMovimentacaoViewModel.cs",
+      "raw_sha256": "a69312a61fa71f6ec989887b21399bc195efd8f2d67b31e17639673892086810"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\PesquisaViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\PesquisaViewModel.cs",
+      "raw_sha256": "ac9aa3037394b0094938d33ebb61d4aa9b6eff62e37bf77524ad6462d1b5f9e7"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\PrecosViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\PrecosViewModel.cs",
+      "raw_sha256": "eb387e0414c3fdf4810c012d22f90640c62fec5cff8509f2487724d7e3b0e72a"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ProdutosServicosOutrasInformacoesFichaViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ProdutosServicosOutrasInformacoesFichaViewModel.cs",
+      "raw_sha256": "4435dc62202b892d5bf1cc0a68d2705fde5d0a6a9bd6a86c15c3dbdc3394df50"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ProdutosServicosOutrasInformacoesFormulario.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ProdutosServicosOutrasInformacoesFormulario.cs",
+      "raw_sha256": "068d5d3be385006f7e5a2b703bbfd85d74f55a0b70b1b976d6e4fc3db2bcfbe0"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\ProdutosServicosOutrasInformacoesViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\ProdutosServicosOutrasInformacoesViewModel.cs",
+      "raw_sha256": "04eff785c1de6e4e19e5a46ea8398348facacb0320601a1f51036100fa2ea3e1"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\RastreabilidadeViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\RastreabilidadeViewModel.cs",
+      "raw_sha256": "27b772e18d7e30acc115b74b19acf26784a51e927096c973f2997769dff2fddd"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\Reports\\EstoquesEmpresa.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\Reports\\EstoquesEmpresa.cs",
+      "raw_sha256": "70a49f939199238c3fe5360ac54a74436635acb572530fdb249f7d19c4867bb2"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\Reports\\EstoquesFisicosQuantidade.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\Reports\\EstoquesFisicosQuantidade.cs",
+      "raw_sha256": "5a7000b5bb062cae2598eb14834af941599851c729b62686a6be381281f7d136"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\Reports\\MovimentacaoMensal.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\Reports\\MovimentacaoMensal.cs",
+      "raw_sha256": "daefe9d43ed8fa5d882ffa391052113c032f0a5183eb3b04b08eb4c61d278946"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\Reports\\Precos.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\Reports\\Precos.cs",
+      "raw_sha256": "4f52d34f68fca7c14d90bc4ae9ac4055bff00ee54ffa49716f7b6a5cb07076da"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\Reports\\Rastreabilidade.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\Reports\\Rastreabilidade.cs",
+      "raw_sha256": "fe967f4f8feddd7147359db9f1a147f34de9fe4080205529621f6bd6297e8236"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\Reports\\Rotatividade.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\Reports\\Rotatividade.cs",
+      "raw_sha256": "a4d172b41c202f01c6b9bbb4f42fafb021d82df0a2d0d386253be0584f636ee1"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\RotatividadeViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\RotatividadeViewModel.cs",
+      "raw_sha256": "9ffe188d8d63a3f39fc34c9f28c8737d46af864ac85e012083c3648976947335"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\TecnicoViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\TecnicoViewModel.cs",
+      "raw_sha256": "ec3f1b99c8667b389c1f53f59eaef194bb90312323393e8610b250facf5d87ca"
+    },
+    {
+      "path": "ViewModels\\OutrasInformacoes\\VendedorViewModel.cs",
+      "export_path": "ViewModels\\OutrasInformacoes\\VendedorViewModel.cs",
+      "raw_sha256": "f6e9771ffa8e704d1eb37e268810a904fc38ac077148d0087cdcf46cec1f7136"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\Analitico.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\Analitico.cs",
+      "raw_sha256": "119429c22ebc57f0e6b4b8b11cf8e0dca8cc8b2b5b7ddb0a8a0ec3601b9658db"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\IndicadorPlanoContaContabil.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\IndicadorPlanoContaContabil.cs",
+      "raw_sha256": "4cab8f2e3024238c3a9ea12275387fa0351491378e2ae2c286134efe97ad5dbd"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilAbaViewModel.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilAbaViewModel.cs",
+      "raw_sha256": "b5f63f81aa19170f0918446b6d70aa83a5c3aade1fd2440a1ad18013d1409479"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilFichaAdicionarViewModel.cs",
+      "raw_sha256": "4f4979d88e2fe71c598fb1cd21e8792725b06babd4a618a8d7dc774e5e35db21"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilFichaAtualizarViewModel.cs",
+      "raw_sha256": "fa373e4a1bbb67b9ab2c5f3a611cf0b80ae1d0f7b604227ac9ffae0bbca85ce9"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilFormulario.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilFormulario.cs",
+      "raw_sha256": "46c4e287c40d56d7a0c9fc6c28f011f7d5448e39ea53e313e1627969b2cde68b"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilListaViewModel.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilListaViewModel.cs",
+      "raw_sha256": "6c031142b1b82939b46a72a8f788c5460b2bf89629d182b116f8160078b39733"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilViewModel.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\PlanoContaContabilViewModel.cs",
+      "raw_sha256": "d17b18ab1fbc56bb15fa6eac3a69056dc8a6ea9871639f4c3da944acdb6f52b5"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\PlanosContaContabilViewModel.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\PlanosContaContabilViewModel.cs",
+      "raw_sha256": "f770a1c7065b40c8156e8463957ffb848a39a3ec1f2e2dfa0c8c0cc65aab3868"
+    },
+    {
+      "path": "ViewModels\\PlanosContaContabil\\Sintetico.cs",
+      "export_path": "ViewModels\\PlanosContaContabil\\Sintetico.cs",
+      "raw_sha256": "52fe735d0ab5dd4ec066cfd9429ba012467be345955922c5cb149a4bc3a31fab"
+    },
+    {
+      "path": "ViewModels\\Precos\\PrecoAbaViewModel.cs",
+      "export_path": "ViewModels\\Precos\\PrecoAbaViewModel.cs",
+      "raw_sha256": "96706f97c8d17d0dc8d638d983cfff177799a866b78c4efe4caae8a5127b4137"
+    },
+    {
+      "path": "ViewModels\\Precos\\PrecoMedicamentoViewModel.cs",
+      "export_path": "ViewModels\\Precos\\PrecoMedicamentoViewModel.cs",
+      "raw_sha256": "b6060348dfcc2c80e573451935d4c33d4dab56d570c84ae0093c6e0d5a8360d3"
+    },
+    {
+      "path": "ViewModels\\Precos\\PrecoProdutoProduzidoViewModel.cs",
+      "export_path": "ViewModels\\Precos\\PrecoProdutoProduzidoViewModel.cs",
+      "raw_sha256": "329268ee81fddafd66e4be6f0caa79be2ebea15feed88865cf2afbf9a3d97c77"
+    },
+    {
+      "path": "ViewModels\\Precos\\PrecoProdutoViewModel.cs",
+      "export_path": "ViewModels\\Precos\\PrecoProdutoViewModel.cs",
+      "raw_sha256": "9419933ea3ced9ef5d9d81bfa82471a20b3316f6a80b00e8d5bea22e12ded44b"
+    },
+    {
+      "path": "ViewModels\\Precos\\PrecoServicoViewModel.cs",
+      "export_path": "ViewModels\\Precos\\PrecoServicoViewModel.cs",
+      "raw_sha256": "1c88490221bc3c677a35e8b6f342924fa7b2645d363cbcb8eac6f4b89473b3b5"
+    },
+    {
+      "path": "ViewModels\\Precos\\PrecoViewModel.cs",
+      "export_path": "ViewModels\\Precos\\PrecoViewModel.cs",
+      "raw_sha256": "838beb8022b3c616f640ee2a2637262c2d75ff873e0e22e4e2e6b1049dbc0c2e"
+    },
+    {
+      "path": "ViewModels\\ProdutoServicoAbaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoServicoAbaViewModel.cs",
+      "raw_sha256": "ea22df85c3d1335e872a7713d2739ec847a2772040230a5fc671bf5ccfd86c0c"
+    },
+    {
+      "path": "ViewModels\\ProdutoServicoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\ProdutoServicoFichaAdicionarViewModel.cs",
+      "raw_sha256": "c6b0f40193011bf75ede637775d2046a553fe24c5f843db5e72106e2df1ce5a3"
+    },
+    {
+      "path": "ViewModels\\ProdutoServicoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ProdutoServicoFichaAtualizarViewModel.cs",
+      "raw_sha256": "5f64a957d6fafa695f4c2ec1b07d970b77de10da8132f04fcada2c007e10a2a6"
+    },
+    {
+      "path": "ViewModels\\ProdutoServicoFichaConsultaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoServicoFichaConsultaViewModel.cs",
+      "raw_sha256": "6e8d4d447aeddb9aa48d110b88342db0c9fc55e53e8bd09f13bdeaea22d188a5"
+    },
+    {
+      "path": "ViewModels\\ProdutoServicoFichaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoServicoFichaViewModel.cs",
+      "raw_sha256": "ea3af4f8afda2bd8fd9d0465ff8e148b46c4dbe98469508c5fc906b388fe9d79"
+    },
+    {
+      "path": "ViewModels\\ProdutoServicoFormulario.cs",
+      "export_path": "ViewModels\\ProdutoServicoFormulario.cs",
+      "raw_sha256": "87b5db1090af395ce023da56258f571c530f9c2d6cee5c0df2fa94c8263dbdd7"
+    },
+    {
+      "path": "ViewModels\\ProdutoServicoListaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoServicoListaViewModel.cs",
+      "raw_sha256": "f96cdee9d274703fabb65ba168053b2bb6c683e30efa4f51137dee17f38a0d68"
+    },
+    {
+      "path": "ViewModels\\ProdutoServicoViewModel.cs",
+      "export_path": "ViewModels\\ProdutoServicoViewModel.cs",
+      "raw_sha256": "94235b437434cebdeec5eb27e46d023179dac69acbe7571ba4a09367c1f9a85c"
+    },
+    {
+      "path": "ViewModels\\ProdutosServicosViewModel.cs",
+      "export_path": "ViewModels\\ProdutosServicosViewModel.cs",
+      "raw_sha256": "c29b54d0608a1fdc6e374f2c062f586a5e058b08b1e33469c79e894edfd6d61c"
+    },
+    {
+      "path": "ViewModels\\Produtos\\ProdutoAbaViewModel.cs",
+      "export_path": "ViewModels\\Produtos\\ProdutoAbaViewModel.cs",
+      "raw_sha256": "9f6df74c901574f8233428fd11ed620deb3d59d10530a294048b3dcf87db219d"
+    },
+    {
+      "path": "ViewModels\\Produtos\\ProdutoViewModel.cs",
+      "export_path": "ViewModels\\Produtos\\ProdutoViewModel.cs",
+      "raw_sha256": "243b02b08312f402341d397d11b364e70a0a5dd9114025dc6a5549c601b01864"
+    },
+    {
+      "path": "ViewModels\\Produtos\\ReferenciaPretoEtiquetaCombobox.cs",
+      "export_path": "ViewModels\\Produtos\\ReferenciaPretoEtiquetaCombobox.cs",
+      "raw_sha256": "7a9639a584fe999ecd7ffca20c39d6c009634869e39c282057caecce1d3eff3b"
+    },
+    {
+      "path": "ViewModels\\ProdutoVinculado.cs",
+      "export_path": "ViewModels\\ProdutoVinculado.cs",
+      "raw_sha256": "d57830b62ac0d9a919ccee7539395cffedc626b0c80e0e99b6f9215b8d8d97fb"
+    },
+    {
+      "path": "ViewModels\\ReformasTributaria\\ReformaTributariaAbaViewModel.cs",
+      "export_path": "ViewModels\\ReformasTributaria\\ReformaTributariaAbaViewModel.cs",
+      "raw_sha256": "10062a31769cc1ad3f6823eaf799f13b78fa9a0d523ccb6d9744513cdcc19b28"
+    },
+    {
+      "path": "ViewModels\\ReformasTributaria\\ReformaTributariaViewModel.cs",
+      "export_path": "ViewModels\\ReformasTributaria\\ReformaTributariaViewModel.cs",
+      "raw_sha256": "428ce5e612e9eba65198887c79030fea4fa2cbe34af922c9e8e336fc369cf689"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedor\\ComparacaoPedidoCompraFichaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedor\\ComparacaoPedidoCompraFichaViewModel.cs",
+      "raw_sha256": "cf04813d6291c4c17b660b602bde13a15723dce84b7147401231a1dc31f6551d"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedor\\ComparacaoPedidoCompraItem.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedor\\ComparacaoPedidoCompraItem.cs",
+      "raw_sha256": "b6e724a0782233db87fb4b581660ea3d6be2fe199708131fc47ecbe4daa3a758"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorFichaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorFichaViewModel.cs",
+      "raw_sha256": "56c5e043a3fd5d8ea5f93b5963af6394b5dc81415951983ebc8054d6f0a9fe27"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorViewModel.cs",
+      "raw_sha256": "91fec29025bf19f3e1089883bb060a1a67f524e152a125e213536cb7b956528b"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorViewModelItem.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorViewModelItem.cs",
+      "raw_sha256": "7fe1e42a7b0615c6d976c227ce31b8204897fc13d8ecf66cc0e5b713b08fef60"
+    },
+    {
+      "path": "ViewModels\\SaldosIcmsStRetido\\GerenciarIcmsStRetidoFichaViewModel.cs",
+      "export_path": "ViewModels\\SaldosIcmsStRetido\\GerenciarIcmsStRetidoFichaViewModel.cs",
+      "raw_sha256": "beb2f84fa3df463d2e0808cc65650977ca54634bb870443b96bb711ce2c5685d"
+    },
+    {
+      "path": "ViewModels\\SaldosIcmsStRetido\\SaldoIcmsStRetidoAbaViewModel.cs",
+      "export_path": "ViewModels\\SaldosIcmsStRetido\\SaldoIcmsStRetidoAbaViewModel.cs",
+      "raw_sha256": "3b239c080598962949c3916ff37c57abd94a7d67c7a132db4a41cda52640209e"
+    },
+    {
+      "path": "ViewModels\\SaldosIcmsStRetido\\SaldoIcmsStRetidoFormulario.cs",
+      "export_path": "ViewModels\\SaldosIcmsStRetido\\SaldoIcmsStRetidoFormulario.cs",
+      "raw_sha256": "3f4ae08f006b2a237bc6e1802bfe239a356c86dc57f6fd9cbc60026cb98d5f52"
+    },
+    {
+      "path": "ViewModels\\SaldosIcmsStRetido\\SaldoIcmsStRetidoViewModel.cs",
+      "export_path": "ViewModels\\SaldosIcmsStRetido\\SaldoIcmsStRetidoViewModel.cs",
+      "raw_sha256": "801af37206a8df6491f71f234f6ccc0e9c122d7848cbd10f2e5ce40322f2362a"
+    },
+    {
+      "path": "ViewModels\\Servicos\\InformacoesExtrasNfse.cs",
+      "export_path": "ViewModels\\Servicos\\InformacoesExtrasNfse.cs",
+      "raw_sha256": "9f8d525de02eebe70a3d3f506bf7fabfa6bf159a97496068b5a0d25810904481"
+    },
+    {
+      "path": "ViewModels\\Servicos\\InformacoesExtrasPadrao.cs",
+      "export_path": "ViewModels\\Servicos\\InformacoesExtrasPadrao.cs",
+      "raw_sha256": "a576bd3f3ef4643cd897785274ce4a421ce91d98aee1d552e9971c32969a1cf7"
+    },
+    {
+      "path": "ViewModels\\Servicos\\ServicoAbaViewModel.cs",
+      "export_path": "ViewModels\\Servicos\\ServicoAbaViewModel.cs",
+      "raw_sha256": "013d53f7b81f64e82026dc5562301dd928f4775a5fc0c05a22ca25d73b2060f5"
+    },
+    {
+      "path": "ViewModels\\Servicos\\ServicoViewModel.cs",
+      "export_path": "ViewModels\\Servicos\\ServicoViewModel.cs",
+      "raw_sha256": "568e5247b8dafac4c2c7cb7507dd24970de461d5a80ad99a1cb2a067b9d24a9e"
+    },
+    {
+      "path": "ViewModels\\SubGrupos\\ProdutoServicoSubGrupoListaViewModel.cs",
+      "export_path": "ViewModels\\SubGrupos\\ProdutoServicoSubGrupoListaViewModel.cs",
+      "raw_sha256": "d72f533cb20c04d8feda92189f79b724b85af54f206886a60d1b40180939e78c"
+    },
+    {
+      "path": "ViewModels\\SubGrupos\\ProdutoServicoSubGrupoViewModel.cs",
+      "export_path": "ViewModels\\SubGrupos\\ProdutoServicoSubGrupoViewModel.cs",
+      "raw_sha256": "ddd271f34daf4f6537243e1a4e343647092a0d4d151708dfaccb0437b7a71a93"
+    },
+    {
+      "path": "ViewModels\\TipoCadastroComboBoxViewModel.cs",
+      "export_path": "ViewModels\\TipoCadastroComboBoxViewModel.cs",
+      "raw_sha256": "47a197eba8bab98408b25cca1f1f4e814c39298a9bc5a934c778009aabfc11ed"
+    },
+    {
+      "path": "ViewModels\\TipoItemComboBoxViewModel.cs",
+      "export_path": "ViewModels\\TipoItemComboBoxViewModel.cs",
+      "raw_sha256": "9e58cd0a32e0b2180899ecac62578aa38992d304aeabe5c6ef8adccac41c2e1a"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\Combustivel.cs",
+      "export_path": "ViewModels\\TiposCadastro\\Combustivel.cs",
+      "raw_sha256": "99571a96dc959ddc41032f75ba768ac9e1d3f1745272af037d12611bbf6dc3bc"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\Composicao.cs",
+      "export_path": "ViewModels\\TiposCadastro\\Composicao.cs",
+      "raw_sha256": "4f0cf81783704cc7039c877fa9e0f05f0830542a4055ac3db62ed096272f4803"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\Decomposicao.cs",
+      "export_path": "ViewModels\\TiposCadastro\\Decomposicao.cs",
+      "raw_sha256": "b9640344347de4c795d32a701e0a7be17df5225b817fd741d23fa2806e9659f4"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\DerivadoPetroleo.cs",
+      "export_path": "ViewModels\\TiposCadastro\\DerivadoPetroleo.cs",
+      "raw_sha256": "6ffc49e265338324e063488755066182132e95ced3c48b009cf00fdb954dc43d"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\Glp.cs",
+      "export_path": "ViewModels\\TiposCadastro\\Glp.cs",
+      "raw_sha256": "8c5caa168f09276edf06917f442b91fdc9f1baa359dcc57121b7a0d2d0a0e957"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\Medicamento.cs",
+      "export_path": "ViewModels\\TiposCadastro\\Medicamento.cs",
+      "raw_sha256": "f4410f25593381df0e2864b986408756b9e16d9fda4b753817cdee49a0777943"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\Normal.cs",
+      "export_path": "ViewModels\\TiposCadastro\\Normal.cs",
+      "raw_sha256": "0ef013e84771fe6e9ad8b9f1161c23ac80b2cab0bb0c327d0ea2b81b5f4d2297"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\ProdutoProduzido.cs",
+      "export_path": "ViewModels\\TiposCadastro\\ProdutoProduzido.cs",
+      "raw_sha256": "40aa53b2e3bf9236492af7b6681e50ffdb8cda4ece9dc62cfe9c500ea3f2a613"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\TipoCadastro.cs",
+      "export_path": "ViewModels\\TiposCadastro\\TipoCadastro.cs",
+      "raw_sha256": "8b72be7e083b95408e54d8088bc9085e76468e662bcd13664de6790dfa03dd0f"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\TipoProduto.cs",
+      "export_path": "ViewModels\\TiposCadastro\\TipoProduto.cs",
+      "raw_sha256": "9a9cb96c77108cf3139dc3fc79f37079aae3124b3a17697729c73b5c0f17b9f6"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\TipoServico.cs",
+      "export_path": "ViewModels\\TiposCadastro\\TipoServico.cs",
+      "raw_sha256": "3b963777af0a588f7f1c43d42d92e2f0f0d2075a7792bc471be3ddfa745f746a"
+    },
+    {
+      "path": "ViewModels\\TiposCadastro\\Vasilhame.cs",
+      "export_path": "ViewModels\\TiposCadastro\\Vasilhame.cs",
+      "raw_sha256": "0cbb764e01b648ab928d5a303f29799661e5899605b834de59368356102c0de8"
+    },
+    {
+      "path": "ViewModels\\Tributacoes\\TributacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\Tributacoes\\TributacaoAbaViewModel.cs",
+      "raw_sha256": "24c25b684ea6e8e3c91405635aac3838cab0e581904ff588409f05138843f07d"
+    },
+    {
+      "path": "ViewModels\\Tributacoes\\TributacaoProdutoViewModel.cs",
+      "export_path": "ViewModels\\Tributacoes\\TributacaoProdutoViewModel.cs",
+      "raw_sha256": "32d037f7b7d7f3ae524e036886ebe9640781223b88cb6619b4b6fe33a96ec307"
+    },
+    {
+      "path": "ViewModels\\Tributacoes\\TributacaoServicoViewModel.cs",
+      "export_path": "ViewModels\\Tributacoes\\TributacaoServicoViewModel.cs",
+      "raw_sha256": "ec7b8e62cf27da7d727792e9eaf3989cd12273b08c316e0580702dbdf74058d1"
+    },
+    {
+      "path": "ViewModels\\Tributacoes\\TributacaoViewModel.cs",
+      "export_path": "ViewModels\\Tributacoes\\TributacaoViewModel.cs",
+      "raw_sha256": "b7622fcf732baa88b5634b3beb7befa7265d294108161e4834d41bfbd0426c1e"
+    },
+    {
+      "path": "ViewModels\\UnidadeMedida\\UnidadeMedidaAbaViewModel.cs",
+      "export_path": "ViewModels\\UnidadeMedida\\UnidadeMedidaAbaViewModel.cs",
+      "raw_sha256": "dd26d14dd67463b5761dcf35749b40d0f62ed20ff11dac87edce78bbbfd7e82a"
+    },
+    {
+      "path": "ViewModels\\UnidadeMedida\\UnidadeMedidaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\UnidadeMedida\\UnidadeMedidaFichaAdicionarViewModel.cs",
+      "raw_sha256": "2e17e0b5a7525e864e7ac1aac6b177bc9642624247060fa61150e73f31f4bc0f"
+    },
+    {
+      "path": "ViewModels\\UnidadeMedida\\UnidadeMedidaFormulario.cs",
+      "export_path": "ViewModels\\UnidadeMedida\\UnidadeMedidaFormulario.cs",
+      "raw_sha256": "df1d968de0e9fa54d19996cce89c1dc92e66a698b4202e2079a507b2b8ad0670"
+    },
+    {
+      "path": "ViewModels\\UnidadeMedida\\UnidadeMedidaViewModel.cs",
+      "export_path": "ViewModels\\UnidadeMedida\\UnidadeMedidaViewModel.cs",
+      "raw_sha256": "f53eac7881687253059a171619e83273265b2042f3834b00057a5e698161dd67"
+    },
+    {
+      "path": "ViewModels\\UnidadeMedida\\UnidadesMedidaViewModel.cs",
+      "export_path": "ViewModels\\UnidadeMedida\\UnidadesMedidaViewModel.cs",
+      "raw_sha256": "863a93876685bcfd0a233545ce6daf1e1e1bca01a2b6c2847cbc456926cb24dd"
+    },
+    {
+      "path": "Views\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFichaAdicion.cs",
+      "export_path": "Views\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFichaAdicion.cs",
+      "raw_sha256": "670e088ceca19fbbc31f8b9d52469ffbbb9a5f259d4428760c0b682949e27edb"
+    },
+    {
+      "path": "Views\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFichaAtualiz.cs",
+      "export_path": "Views\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalFichaAtualiz.cs",
+      "raw_sha256": "d9ce00c222e30fa47ce6c0d998b5995f388987d6bcf3213e0c1f8f7ea1bdc716"
+    },
+    {
+      "path": "Views\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalListaView.cs",
+      "export_path": "Views\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumentoFiscalListaView.cs",
+      "raw_sha256": "2a77ece8f07919466270ec7287759d01002b34d4f327b8900e292ee429a512f2"
+    },
+    {
+      "path": "_long\\baad6d64edbeb179.cs",
+      "export_path": "Views\\AjustesEInformacoesValoresProvenientesDo\\AjusteEInformacaoValorProvenienteDocumen\\AjusteEInformacaoValorProvenienteDocumentoFiscalView.cs",
+      "raw_sha256": "4f5c47837198a820a35e035ca278fd975e264e2479a3165b0738d4c2a3e787db"
+    },
+    {
+      "path": "Views\\AlteracoesPreco\\AlteracaoPrecoFichaAtualizarView.cs",
+      "export_path": "Views\\AlteracoesPreco\\AlteracaoPrecoFichaAtualizarView.cs",
+      "raw_sha256": "fb74be7182895cc0ca9041475199281fadb5977d8bfcd99a491b3787ac8f654c"
+    },
+    {
+      "path": "Views\\AlteracoesPreco\\AlteracaoPrecoItensView.cs",
+      "export_path": "Views\\AlteracoesPreco\\AlteracaoPrecoItensView.cs",
+      "raw_sha256": "d23a19d7ce2a0c9ef33c4e592c0e180a40d17b7ad1a53cfb69d9f6fbc5df8f40"
+    },
+    {
+      "path": "Views\\AlteracoesPreco\\AlteracaoPrecoView.cs",
+      "export_path": "Views\\AlteracoesPreco\\AlteracaoPrecoView.cs",
+      "raw_sha256": "adf3e39fa3932abff73d8f27f9536365ec2f4ed3169f3a7c6f756b8cbed62b8d"
+    },
+    {
+      "path": "Views\\AlteracoesPreco\\TipoView.cs",
+      "export_path": "Views\\AlteracoesPreco\\TipoView.cs",
+      "raw_sha256": "a1408acb1abebd2c140a6d4a62eb6f39f25157e833c997e0915e31ff3354f301"
+    },
+    {
+      "path": "Views\\ConsultarProdutoSimilarFichaView.cs",
+      "export_path": "Views\\ConsultarProdutoSimilarFichaView.cs",
+      "raw_sha256": "351cd1a854017d227c75e89c74ea28a19f73cbca603ef20a77946a3c4bf66be8"
+    },
+    {
+      "path": "Views\\ConsultarProdutoSimilarView.cs",
+      "export_path": "Views\\ConsultarProdutoSimilarView.cs",
+      "raw_sha256": "6b485f8e1ec32535040f0721b444d96aec138c5589613fa3162b2fd123568a42"
+    },
+    {
+      "path": "Views\\ConsultarTributacaoEstadualIMendesFichaView.cs",
+      "export_path": "Views\\ConsultarTributacaoEstadualIMendesFichaView.cs",
+      "raw_sha256": "e552954d10d08ab0ebbe25dc6738dd72d99e2882c8248d9e7262f214a857a9a0"
+    },
+    {
+      "path": "Views\\ConsultarTributacaoEstadualIMendesView.cs",
+      "export_path": "Views\\ConsultarTributacaoEstadualIMendesView.cs",
+      "raw_sha256": "43b42dc6c4258b3f50347f0f5e9911974f103862c2feb0dcf8e81a4ab46bc4e3"
+    },
+    {
+      "path": "Views\\ConsultarTributacaoFederalIMendesFichaView.cs",
+      "export_path": "Views\\ConsultarTributacaoFederalIMendesFichaView.cs",
+      "raw_sha256": "4f43f28855af9a593e139ac1c1ca813527b7a7855e4323202c3553221bcdcaf8"
+    },
+    {
+      "path": "Views\\ConsultarTributacaoFederalIMendesView.cs",
+      "export_path": "Views\\ConsultarTributacaoFederalIMendesView.cs",
+      "raw_sha256": "a762b2ef1dce059ff14b3c1b417734e2539a47f72ba2e05ce7aa4425a5854667"
+    },
+    {
+      "path": "Views\\ConsultarTributacaoIbsCbsIMendesFichaView.cs",
+      "export_path": "Views\\ConsultarTributacaoIbsCbsIMendesFichaView.cs",
+      "raw_sha256": "d44b0311ca00e886d08f97be8154a7ad5367af8bcc3ae3c3bcf3890d72e171e2"
+    },
+    {
+      "path": "Views\\ConsultarTributacaoIbsCbsIMendesView.cs",
+      "export_path": "Views\\ConsultarTributacaoIbsCbsIMendesView.cs",
+      "raw_sha256": "a52c6b9689f59c9c8b54b19ee2fd87579286f21fbc03f1b6e880bd4b933c6cb7"
+    },
+    {
+      "path": "Views\\ConsultarTributacaoIsIMendesFichaView.cs",
+      "export_path": "Views\\ConsultarTributacaoIsIMendesFichaView.cs",
+      "raw_sha256": "5dd1f7f03dfa3b4255849bb6dac59cedbecd93eef867f01a3e9bc34b0a078e8c"
+    },
+    {
+      "path": "Views\\ConsultarTributacaoIsIMendesView.cs",
+      "export_path": "Views\\ConsultarTributacaoIsIMendesView.cs",
+      "raw_sha256": "b1f114bc31fe2573c9fb451fddfd030d16c4a4868f84a1abfce8defe8af429cc"
+    },
+    {
+      "path": "Views\\ConsultasProdutos\\ConsultaProdutoView.cs",
+      "export_path": "Views\\ConsultasProdutos\\ConsultaProdutoView.cs",
+      "raw_sha256": "c463d9937a31fd976d68f550bc84ea71b382b9f7b611c851d4acb2e1d09fa122"
+    },
+    {
+      "path": "Views\\ControleVasilhames\\ControleVasilhameAjusteView.cs",
+      "export_path": "Views\\ControleVasilhames\\ControleVasilhameAjusteView.cs",
+      "raw_sha256": "2726323cd775fa5621f576b398085faff3f131a0a6f26451368c692693cec6fc"
+    },
+    {
+      "path": "Views\\ControleVasilhames\\ControleVasilhameImpressoView.cs",
+      "export_path": "Views\\ControleVasilhames\\ControleVasilhameImpressoView.cs",
+      "raw_sha256": "f11f2a79114071b888281aff2b2a778f87b6451e0b8904c3e6d8508d8a97ae78"
+    },
+    {
+      "path": "Views\\ControleVasilhames\\ControleVasilhamesFichaView.cs",
+      "export_path": "Views\\ControleVasilhames\\ControleVasilhamesFichaView.cs",
+      "raw_sha256": "47c5008926262f00f521286b1258788d29b33025dbded43bd3e81be87ca6c5fa"
+    },
+    {
+      "path": "Views\\Estoques\\ProdutosServicosVisualizarEstoqueFichaView.cs",
+      "export_path": "Views\\Estoques\\ProdutosServicosVisualizarEstoqueFichaView.cs",
+      "raw_sha256": "4499dc649be0ae59b919812bf5a2fca553e89ccc545a0e566d39c21c2ee014d9"
+    },
+    {
+      "path": "Views\\Estoques\\VisualizarComposicaoView.cs",
+      "export_path": "Views\\Estoques\\VisualizarComposicaoView.cs",
+      "raw_sha256": "b9758af572da565cfd793433e15433bb546da3de35833438cf25f46699eca9eb"
+    },
+    {
+      "path": "Views\\Estoques\\VisualizarFatorConversaoSaidaView.cs",
+      "export_path": "Views\\Estoques\\VisualizarFatorConversaoSaidaView.cs",
+      "raw_sha256": "7a23fa3c3f61645d2ad549a06bf12bbe7e629a3969581e56773711eb87a323cd"
+    },
+    {
+      "path": "Views\\Estoques\\VisualizarGradeView.cs",
+      "export_path": "Views\\Estoques\\VisualizarGradeView.cs",
+      "raw_sha256": "3ce781c670690bbd9443ae017c3fc5a4ff6c1ea8d0c7e84465d05800f9028e7f"
+    },
+    {
+      "path": "Views\\Estoques\\VisualizarLoteView.cs",
+      "export_path": "Views\\Estoques\\VisualizarLoteView.cs",
+      "raw_sha256": "cf561196edd3d513f81be968e180491dcde680a138fe126377b415c03001aae4"
+    },
+    {
+      "path": "Views\\Estoques\\VisualizarProdutoProduzidoView.cs",
+      "export_path": "Views\\Estoques\\VisualizarProdutoProduzidoView.cs",
+      "raw_sha256": "87723ebaa71a3a5d7b8f8e7add5eef6791655a70a9f50617b1c59270e8d4c073"
+    },
+    {
+      "path": "Views\\Estoques\\VisualizarSerialView.cs",
+      "export_path": "Views\\Estoques\\VisualizarSerialView.cs",
+      "raw_sha256": "32eab6b9aa047f5ad53318547004bb43cfce5c897a4c76b7c65e7a77ab5382a5"
+    },
+    {
+      "path": "Views\\Imagens\\ImagemView.cs",
+      "export_path": "Views\\Imagens\\ImagemView.cs",
+      "raw_sha256": "a7900c608aa5c24090d8591daafb2cef6d13fba83393fe1a476ce6e569a724c1"
+    },
+    {
+      "path": "Views\\Imagens\\ProdutosServicosImagemFichaView.cs",
+      "export_path": "Views\\Imagens\\ProdutosServicosImagemFichaView.cs",
+      "raw_sha256": "b1a4355a604c319104aeeeb94752e365af7a7dd361a7b2b9b2cc2a501629fd51"
+    },
+    {
+      "path": "Views\\Impressoras\\HorarioFuncionamentoView.cs",
+      "export_path": "Views\\Impressoras\\HorarioFuncionamentoView.cs",
+      "raw_sha256": "4dec3282ebdd5bb5aade945effc3c3b4d5882d34835071c86533dff96002ed66"
+    },
+    {
+      "path": "Views\\Impressoras\\ImpressoraFichaAdicionarView.cs",
+      "export_path": "Views\\Impressoras\\ImpressoraFichaAdicionarView.cs",
+      "raw_sha256": "e89bd09babb884eab7914229bf25920fd521b00d7c59c60fc9a24cf218ef02d1"
+    },
+    {
+      "path": "Views\\Impressoras\\ImpressoraFichaAtualizarView.cs",
+      "export_path": "Views\\Impressoras\\ImpressoraFichaAtualizarView.cs",
+      "raw_sha256": "28848579c3a27abcfd3ab7c86d0848bd9f48f0e16f01f88196ac14dcfb7a6537"
+    },
+    {
+      "path": "Views\\Impressoras\\ImpressoraListaView.cs",
+      "export_path": "Views\\Impressoras\\ImpressoraListaView.cs",
+      "raw_sha256": "b852d06c7ee92b229334fbe0147c10f07674c4e24f200a14c8c2506dd3a83644"
+    },
+    {
+      "path": "Views\\Impressoras\\ImpressoraView.cs",
+      "export_path": "Views\\Impressoras\\ImpressoraView.cs",
+      "raw_sha256": "e085c87a0aff3d18b06fdf537058387c156b8460a53d03430ff5d060ef9c904c"
+    },
+    {
+      "path": "Views\\InformacoesExtras\\InformacaoExtraFichaAdicionarView.cs",
+      "export_path": "Views\\InformacoesExtras\\InformacaoExtraFichaAdicionarView.cs",
+      "raw_sha256": "1d045cd113b2bcc106348042979ee532236592ede43df90c2caf610a1090692e"
+    },
+    {
+      "path": "Views\\InformacoesExtras\\InformacaoExtraFichaAtualizarView.cs",
+      "export_path": "Views\\InformacoesExtras\\InformacaoExtraFichaAtualizarView.cs",
+      "raw_sha256": "d8b9751f1ac888d01f2ce1db82418b61a81f13cf816de671f2459f64927ea5d1"
+    },
+    {
+      "path": "Views\\InformacoesExtras\\InformacaoExtraFichaViewDetalhes\\InformacaoExtraView.cs",
+      "export_path": "Views\\InformacoesExtras\\InformacaoExtraFichaViewDetalhes\\InformacaoExtraView.cs",
+      "raw_sha256": "226f65abf0c4d117d9973827ba119f57612b67af443e83f40c998d9e376d9fe8"
+    },
+    {
+      "path": "Views\\InformacoesExtras\\InformacaoExtraListaView.cs",
+      "export_path": "Views\\InformacoesExtras\\InformacaoExtraListaView.cs",
+      "raw_sha256": "0a8b9cf8ccc8100a2a5496b7df23bdad8f1c311d7dd18c78ca3ef28097d9b173"
+    },
+    {
+      "path": "Views\\InformacoesNutricionais\\InformacaoNutricionalFichaAdicionarView.cs",
+      "export_path": "Views\\InformacoesNutricionais\\InformacaoNutricionalFichaAdicionarView.cs",
+      "raw_sha256": "cbeb2fddf1b0a712833e7c5ddf5721e9144d944740e7f5edc1d19301ab6502b2"
+    },
+    {
+      "path": "Views\\InformacoesNutricionais\\InformacaoNutricionalFichaAtualizarView.cs",
+      "export_path": "Views\\InformacoesNutricionais\\InformacaoNutricionalFichaAtualizarView.cs",
+      "raw_sha256": "b1950a8a0073bf341b18991485c5c2be8ced2b835bc1acf990178c0ebf5ac04e"
+    },
+    {
+      "path": "Views\\InformacoesNutricionais\\InformacaoNutricionalFichaViewDetalhes\\InformacaoNutricionalView.cs",
+      "export_path": "Views\\InformacoesNutricionais\\InformacaoNutricionalFichaViewDetalhes\\InformacaoNutricionalView.cs",
+      "raw_sha256": "05aa6b03165313dca083fa4e6eb800f16263d662376b77929e4d9eb533edda45"
+    },
+    {
+      "path": "Views\\InformacoesNutricionais\\InformacaoNutricionalListaView.cs",
+      "export_path": "Views\\InformacoesNutricionais\\InformacaoNutricionalListaView.cs",
+      "raw_sha256": "5e80435c336118669171075f1aeaccdab9885ada8f5a7d13ca49a1eae48e5247"
+    },
+    {
+      "path": "Views\\Linhas\\LinhaFichaAdicionarView.cs",
+      "export_path": "Views\\Linhas\\LinhaFichaAdicionarView.cs",
+      "raw_sha256": "6e492fdb79ce72bf588f1a65c41f3b46fb69fbef12470aaded659b57b482151e"
+    },
+    {
+      "path": "Views\\Linhas\\LinhaListaView.cs",
+      "export_path": "Views\\Linhas\\LinhaListaView.cs",
+      "raw_sha256": "efae574dac74ac8ed3600a7be523eabd999745443a3d9cb0d2bbbf2f83d5b41f"
+    },
+    {
+      "path": "Views\\Localizacoes\\LocalizacaoFichaAdicionarView.cs",
+      "export_path": "Views\\Localizacoes\\LocalizacaoFichaAdicionarView.cs",
+      "raw_sha256": "92788ed92a923409cc68e10f87a001b4af0d4c977b148c6466414037ccc02ff8"
+    },
+    {
+      "path": "Views\\Localizacoes\\LocalizacaoListaView.cs",
+      "export_path": "Views\\Localizacoes\\LocalizacaoListaView.cs",
+      "raw_sha256": "baf5300399cc0aea2459f0705c20024aa47ad4ff0d2f1a835265dff9a876bf69"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\EstoqueFisicoView.cs",
+      "export_path": "Views\\OutrasInformacoes\\EstoqueFisicoView.cs",
+      "raw_sha256": "39cd88bac1cebfdcb9ab8b215f426b90acd3fbdb572c5cb995a4bcf376cc69fc"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\EstoquesEmpresaView.cs",
+      "export_path": "Views\\OutrasInformacoes\\EstoquesEmpresaView.cs",
+      "raw_sha256": "57bd4a2753e65970237c68a06ac2080009b7e8b63f0cc989bbea79cd3a699579"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\HistoricoEstoqueView.cs",
+      "export_path": "Views\\OutrasInformacoes\\HistoricoEstoqueView.cs",
+      "raw_sha256": "b0f0eebcab3e32ebe82fd5b7604d1d3f137ea4ba2fed90c887e79957d93624da"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\HistoricoMovimentacaoView.cs",
+      "export_path": "Views\\OutrasInformacoes\\HistoricoMovimentacaoView.cs",
+      "raw_sha256": "60d8d08ac8c22528cb925be18308d741cc92c55d7009c50d05883be67476bd3f"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\MovimentacaoAcumuladaPessoaView.cs",
+      "export_path": "Views\\OutrasInformacoes\\MovimentacaoAcumuladaPessoaView.cs",
+      "raw_sha256": "ff4a35d6642ec009240d974824a6a9e013b436497611e60ff13d1474bd8e2671"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\MovimentacaoMensalView.cs",
+      "export_path": "Views\\OutrasInformacoes\\MovimentacaoMensalView.cs",
+      "raw_sha256": "174ffa4cc5637feec45695675bff456354087195e8651d4a30b71e69573e8ea8"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\MovimentacaoReservasView.cs",
+      "export_path": "Views\\OutrasInformacoes\\MovimentacaoReservasView.cs",
+      "raw_sha256": "a8f4c893c1abc20824ded4ae4fb382700604eec6b6601b1bcd0581d37ac45953"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\PrecosView.cs",
+      "export_path": "Views\\OutrasInformacoes\\PrecosView.cs",
+      "raw_sha256": "0c9bad83fe85d6bf955c7b576e402ee10efa6d568af81b62204f6e44edee52bd"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\ProdutosServicosOutrasInformacoesFichaView.cs",
+      "export_path": "Views\\OutrasInformacoes\\ProdutosServicosOutrasInformacoesFichaView.cs",
+      "raw_sha256": "cd7c7b7b79ac40d803baa7ab8626c5bdc3d4f5a39d2a74a523997fc925d07697"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\RastreabilidadeView.cs",
+      "export_path": "Views\\OutrasInformacoes\\RastreabilidadeView.cs",
+      "raw_sha256": "2df7c16903a46ec55ef907aeeb9f4de2e7187c9bb577d7def4132ca149d1c4a8"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\RotatividadeView.cs",
+      "export_path": "Views\\OutrasInformacoes\\RotatividadeView.cs",
+      "raw_sha256": "3a7c60d78440a0de995ee98d035c4cfa2c37d16bd0beca38551d3d21a09f33aa"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\TecnicoView.cs",
+      "export_path": "Views\\OutrasInformacoes\\TecnicoView.cs",
+      "raw_sha256": "8651733f5c60138cca56c59940b1c813bca6663557afda6c85a8bf50a5b58236"
+    },
+    {
+      "path": "Views\\OutrasInformacoes\\VendedorView.cs",
+      "export_path": "Views\\OutrasInformacoes\\VendedorView.cs",
+      "raw_sha256": "83400e095fec905cc06893650a5f986fddbd0e837bc36a5d565f5cd54f5f92ff"
+    },
+    {
+      "path": "Views\\PlanosContaContabil\\PlanoContaContabilFichaAdicionarView.cs",
+      "export_path": "Views\\PlanosContaContabil\\PlanoContaContabilFichaAdicionarView.cs",
+      "raw_sha256": "b481c7e0cecbe50bac307a654b2a66917dfced5033aa6061952369f344980615"
+    },
+    {
+      "path": "Views\\PlanosContaContabil\\PlanoContaContabilFichaAtualizarView.cs",
+      "export_path": "Views\\PlanosContaContabil\\PlanoContaContabilFichaAtualizarView.cs",
+      "raw_sha256": "04f06cc273bd45ead5bc64d8cc507938d5c34e9a7465d79e741b1e06cc042713"
+    },
+    {
+      "path": "Views\\PlanosContaContabil\\PlanoContaContabilFichaViewDetalhes\\PlanoContaContabilView.cs",
+      "export_path": "Views\\PlanosContaContabil\\PlanoContaContabilFichaViewDetalhes\\PlanoContaContabilView.cs",
+      "raw_sha256": "5feac99ce2ae7b1a2104aa235040ee597cab76888b8a4a51af06ec4a7ccd3a75"
+    },
+    {
+      "path": "Views\\PlanosContaContabil\\PlanoContaContabilListaView.cs",
+      "export_path": "Views\\PlanosContaContabil\\PlanoContaContabilListaView.cs",
+      "raw_sha256": "578f7f0d7012549b6366108ba9749593c25da10ddd1ba79e1a7659a716c62a12"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaAdicionarView.cs",
+      "export_path": "Views\\ProdutoServicoFichaAdicionarView.cs",
+      "raw_sha256": "8b630465cdffbe4367231145c10052236cb8645d0a57a41b2b3bad4c3e785fbd"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaAtualizarView.cs",
+      "export_path": "Views\\ProdutoServicoFichaAtualizarView.cs",
+      "raw_sha256": "0396d5e56a492010801e9cef513ae721bd931bc5ee555c140d2aa0b38e9d7bdf"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaConsultaView.cs",
+      "export_path": "Views\\ProdutoServicoFichaConsultaView.cs",
+      "raw_sha256": "0aac43431f55fcccdff9323b2517b2652f779d1c6a8b7ec6c6781cbf3f713805"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\CodigoBarrasAlternativoView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\CodigoBarrasAlternativoView.cs",
+      "raw_sha256": "1c275b00f849917ee690fb6e9471238288f7490c46ba2867c7874e181efebb97"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\CombustivelView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\CombustivelView.cs",
+      "raw_sha256": "71bdde52e7b3ad7929cff896b932eb554fcf8e1a4cffedcf6e667a4e6e256954"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\ComponenteFichaView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\ComponenteFichaView.cs",
+      "raw_sha256": "c68b26492023d16dc459d010269bc5032ca49a71dd1cb75419d4401c566adbb8"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\ComponenteListaView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\ComponenteListaView.cs",
+      "raw_sha256": "968567ca002fe30ecad4665d7e18e50856d394d07b7c2c40a222d14ae7b0652e"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\CondicaoEspecialView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\CondicaoEspecialView.cs",
+      "raw_sha256": "e987396be70e8e136aa2ddebeda33597c5ecb39af071c37416033e2a8b2066f8"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\EstoqueView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\EstoqueView.cs",
+      "raw_sha256": "d9fb1459bc44075bc91920602c255e4f4587e8236be302b17bb08abaa5cf08f1"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\FatorConversaoSaidaView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\FatorConversaoSaidaView.cs",
+      "raw_sha256": "bed673e98e8387aa69bee6bee0af4947f26ac1101520846cb11fbd3c3349e789"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\GlpView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\GlpView.cs",
+      "raw_sha256": "b8989524708bc06b00e2b33c497426308d804515eaddafe79451e7e8eeaa5b55"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\IMendesView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\IMendesView.cs",
+      "raw_sha256": "11c9f78cdd3bf90b2b63151cba5ac8f0e9950d1acc69f210fec4d713b84296da"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\ImpressoraAmbienteProducaoView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\ImpressoraAmbienteProducaoView.cs",
+      "raw_sha256": "747844a71e0cf2a58f2a762419cd0ae1493fd2a759f5693f7fe03359e3e78bf2"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\MedicamentoView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\MedicamentoView.cs",
+      "raw_sha256": "6d8b51bbdd2b03fa03059e1c5254f1d0a7f9ce5494c4c83fbc9b345ab28f4b80"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\PrecoView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\PrecoView.cs",
+      "raw_sha256": "eafcbd39820bc5188dc140b7d0e8fe90253e5aa2f0fada83626f480dc1dd66d3"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\ProdutoServicoView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\ProdutoServicoView.cs",
+      "raw_sha256": "f4308b6b556f45cc243ec02c8ea9cc78c2a98085394eaea6868be708df01dac9"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\ProdutoView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\ProdutoView.cs",
+      "raw_sha256": "94a127b89dd924f988b7e65c67211fd7c5240656498f2ae798e1aea5396682e8"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\ReformaTributariaView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\ReformaTributariaView.cs",
+      "raw_sha256": "5d39be4618f6a413c29ef438c7f7359bd82773383961b4f9304c69e9521d3b6e"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\ServicoView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\ServicoView.cs",
+      "raw_sha256": "0edb92752d66114a3906dd67976e3dbc4b8dd726d9f6c4675fbac24e733ff110"
+    },
+    {
+      "path": "Views\\ProdutoServicoFichaViewDetalhes\\TributacaoView.cs",
+      "export_path": "Views\\ProdutoServicoFichaViewDetalhes\\TributacaoView.cs",
+      "raw_sha256": "d65237fee0bac279bad269ce54e9319261a9d131832bc29c55f5b63aaf1841c5"
+    },
+    {
+      "path": "Views\\ProdutoServicoListaView.cs",
+      "export_path": "Views\\ProdutoServicoListaView.cs",
+      "raw_sha256": "2139b1e8ab80dd6183d12f188e6b4cb9c20b089e7aa1483d204c9046ce1aa3d7"
+    },
+    {
+      "path": "Views\\ProdutosServicosView.cs",
+      "export_path": "Views\\ProdutosServicosView.cs",
+      "raw_sha256": "f59d57ea50e635e377490ffc0f85e68d213a5c808c34feb08834fa7fcf9710ff"
+    },
+    {
+      "path": "Views\\RelacaoProdutoFornecedor\\ComparacaoPedidoCompraFichaView.cs",
+      "export_path": "Views\\RelacaoProdutoFornecedor\\ComparacaoPedidoCompraFichaView.cs",
+      "raw_sha256": "6d12c7514eb18a50707efb4c4d999d592d4b5bbf8ed2f1f809eae439021a2cb6"
+    },
+    {
+      "path": "Views\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorFichaView.cs",
+      "export_path": "Views\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorFichaView.cs",
+      "raw_sha256": "343a378631f1f1f9f9bfc644c924bb41a3a81704b093f42d57f22a2640e916dc"
+    },
+    {
+      "path": "Views\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorView.cs",
+      "export_path": "Views\\RelacaoProdutoFornecedor\\RelacaoProdutoFornecedorView.cs",
+      "raw_sha256": "5f23428d1f487a8382c4aa772185cac3d9400e0c5fed27ec02c64f0550b96252"
+    },
+    {
+      "path": "Views\\SaldosIcmsStRetido\\GerenciarIcmsStRetidoFichaView.cs",
+      "export_path": "Views\\SaldosIcmsStRetido\\GerenciarIcmsStRetidoFichaView.cs",
+      "raw_sha256": "77cf1ff31124ffad81c0bdd1429829f845be90b554193a2f575fb30ecf7d3a0e"
+    },
+    {
+      "path": "Views\\SubGrupos\\ProdutoServicoSubGrupoListaView.cs",
+      "export_path": "Views\\SubGrupos\\ProdutoServicoSubGrupoListaView.cs",
+      "raw_sha256": "c768a05daccbe81e481575dc58cd4a757977049ea16d13b178c5e34e4f8c5816"
+    },
+    {
+      "path": "Views\\unidademedida\\UnidadeMedidaFichaAdicionarView.cs",
+      "export_path": "Views\\unidademedida\\UnidadeMedidaFichaAdicionarView.cs",
+      "raw_sha256": "75d171a6d9b3608d5092aefb0cb26c2017c408d7976627f11de3c964189c91f2"
+    },
+    {
+      "path": "Views\\unidademedida\\UnidadeMedidaFichaViewDetalhes\\UnidadeMedidaView.cs",
+      "export_path": "Views\\unidademedida\\UnidadeMedidaFichaViewDetalhes\\UnidadeMedidaView.cs",
+      "raw_sha256": "4cc76f76a863b984e3a821ffb27ad3a96d10602477c58ce10e51eb15fe74638c"
+    },
+    {
+      "path": "__PrivateImplementationDetails.cs",
+      "export_path": "__PrivateImplementationDetails.cs",
+      "raw_sha256": "bb23b9b67103a92a5a071df9062dba40c1959eb1eed3dc1d58250f88fdd090da",
+      "generated": true
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 116
+    },
+    {
+      "kind": "synthesized ComputeStringHash helper",
+      "occurrences": 1
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 94,
+      "types": [
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass0_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass6_1",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass19_0",
+        "__c_DisplayClass19_1",
+        "__c_DisplayClass20_0",
+        "__c_DisplayClass63_0",
+        "__c_DisplayClass77_0",
+        "__c_DisplayClass117_0",
+        "__c_DisplayClass124_0",
+        "__c_DisplayClass31_0",
+        "__c_DisplayClass32_0",
+        "__c_DisplayClass108_0",
+        "__c_DisplayClass109_0",
+        "__c_DisplayClass8_0",
+        "__c_DisplayClass57_0",
+        "__c_DisplayClass60_0",
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass23_0",
+        "__c_DisplayClass9_0",
+        "__c_DisplayClass33_0",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass0_0",
+        "__c_DisplayClass39_0",
+        "__c_DisplayClass40_0",
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass10_1",
+        "__c_DisplayClass11_0",
+        "__c_DisplayClass11_1",
+        "__c_DisplayClass11_2",
+        "__c_DisplayClass11_3",
+        "__c_DisplayClass11_4",
+        "__c_DisplayClass11_5",
+        "__c_DisplayClass11_6",
+        "__c_DisplayClass11_7",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass14_1",
+        "__c_DisplayClass16_0",
+        "__c_DisplayClass26_0",
+        "__c_DisplayClass9_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass11_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass15_0",
+        "__c_DisplayClass17_0",
+        "__c_DisplayClass18_0",
+        "__c_DisplayClass19_0",
+        "__c_DisplayClass20_0",
+        "__c_DisplayClass32_0",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass13_1",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass15_0",
+        "__c_DisplayClass66_0",
+        "__c_DisplayClass68_0",
+        "__c_DisplayClass73_0",
+        "__c_DisplayClass74_0",
+        "__c_DisplayClass75_0",
+        "__c_DisplayClass78_0",
+        "__c_DisplayClass82_0`1",
+        "__c_DisplayClass85_0",
+        "__c_DisplayClass86_0",
+        "__c_DisplayClass87_0",
+        "__c_DisplayClass176_0",
+        "__c_DisplayClass21_0",
+        "__c_DisplayClass26_0",
+        "__c_DisplayClass28_0",
+        "__c_DisplayClass33_0",
+        "__c_DisplayClass43_0",
+        "__c_DisplayClass0_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass16_0",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass34_0",
+        "__c_DisplayClass3_0",
+        "__c_DisplayClass4_0",
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass4_0",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass6_1",
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass1_0",
+        "__c_DisplayClass3_0",
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass0_0",
+        "__c_DisplayClass4_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.ProdutosServicos.g.resources",
+      "file": "0000.bin",
+      "bytes": 490904,
+      "sha256": "6bc3d41dd9d07066072bc4424499afaf851cb8f2ff8d6c050df9d4483dc9a17e"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.Reports.CompartilharProduto.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.Reports.ListaItensComparacaoPedidoCompraENota.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.Reports.ProdutoProduzidoFichaTecnica.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.ControleVasilhames.Reports.TicketVasilhame.resources",
+      "file": "0005.bin",
+      "bytes": 3336,
+      "sha256": "472160f09be93958898b66491eccb7924d3d968fef0355f247eaa24eb411ba48"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.MovimentacaoMensal.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.Rastreabilidade.resources",
+      "file": "0007.bin",
+      "bytes": 858,
+      "sha256": "1cd844c64e66bedad804684ee9cee609606eeaba7888e78684dfefd38bb57f39"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.EstoquesFisicosQuantidade.resources",
+      "file": "0008.bin",
+      "bytes": 786,
+      "sha256": "00afb698cf8e074e3328cd6cac96e42dbee7799e0fde78c2e52bdac67a5f6906"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.Precos.resources",
+      "file": "0009.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.EstoquesEmpresa.resources",
+      "file": "0010.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProdutosServicos.ViewModels.OutrasInformacoes.Reports.Rotatividade.resources",
+      "file": "0011.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ProdutosServicos.dll.licenses",
+      "file": "0012.bin",
+      "bytes": 287,
+      "sha256": "13b54a1353d00828a561118fa1cab42aac5821b006f2906ca9df334939cd553c"
+    }
+  ],
+  "generated_stubs": false
+}

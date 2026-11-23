@@ -1,0 +1,106 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Criptografia.dll",
+  "baseline_sha256": "d6622036678217841eb29de91e94735381c2ac097591e5b8cbda54ecdc89f2a1",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\DigisatServer.Infrastructure.Crosscutting.Criptografia.csproj",
+  "sources": [
+    {
+      "path": "-Module-{0450401D-F43E-4BFB-A04D-65B5DD653261}.cs",
+      "export_path": "-Module-{0450401D-F43E-4BFB-A04D-65B5DD653261}.cs",
+      "raw_sha256": "d1b7bb5a5851ed2410560517b120386e317f5fea4536fcc2b6e3f5c4f212fcbb"
+    },
+    {
+      "path": "AlgoritimoHash.cs",
+      "export_path": "AlgoritimoHash.cs",
+      "raw_sha256": "be1ed8c797b243d4d05402659c0ad3570258327eb30cde86cb8f8afce7a8174e"
+    },
+    {
+      "path": "Criptografias.cs",
+      "export_path": "Criptografias.cs",
+      "raw_sha256": "7cbdf6963af2cf4544d2ddb9b25cb2359721b3b20cc26ba72a6bf7c0d0c973c9"
+    },
+    {
+      "path": "Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+      "export_path": "Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+      "raw_sha256": "fe4b415bf09967a532243ea2aeb5d83b45598f637d66929eeacd846c462ad8cb"
+    },
+    {
+      "path": "Hash.cs",
+      "export_path": "Hash.cs",
+      "raw_sha256": "75b7f3fc860e91ddeda41b405249e02a231589e75a2f9a7fe304fa0f4998c0c0"
+    },
+    {
+      "path": "n8LYe4JDtqglvlmCUl\\sDBFi52ldX7M1feYXi.cs",
+      "export_path": "n8LYe4JDtqglvlmCUl\\sDBFi52ldX7M1feYXi.cs",
+      "raw_sha256": "a11a5e70162612112038c1a7c5c6af0c2949169a926536c25216b2bce4195293"
+    },
+    {
+      "path": "OpenRsa.cs",
+      "export_path": "OpenRsa.cs",
+      "raw_sha256": "d3091b105c9a43fbe25e8a7890ea93f95d64a90628149e9d6c7b0f9c8cafd243"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "7fc672c629b05ba26dfb071cded52462b05b65283ddcdeb55de858d029c20196"
+    },
+    {
+      "path": "Q8iD6Z8J912U8Lv59K\\JaXgnlrIdBvPdZ02OL.cs",
+      "export_path": "Q8iD6Z8J912U8Lv59K\\JaXgnlrIdBvPdZ02OL.cs",
+      "raw_sha256": "69b776520995a853e296ad89236239181bab7e7dcb951b038030109a0c89df25"
+    },
+    {
+      "path": "TamanhoChave.cs",
+      "export_path": "TamanhoChave.cs",
+      "raw_sha256": "e19395b8909942a87541c0359589a1158da8eceba410bb67045571653e5cb650"
+    },
+    {
+      "path": "TripleDes.cs",
+      "export_path": "TripleDes.cs",
+      "raw_sha256": "ac9148a2d8ffad4143644a99745d3c8e7ba2e0ab157b2aa49b08119c3d16473a"
+    },
+    {
+      "path": "uKfkrqhUKC8mZXGOOh\\wsUoRQOeBF69fyAoBO.cs",
+      "export_path": "uKfkrqhUKC8mZXGOOh\\wsUoRQOeBF69fyAoBO.cs",
+      "raw_sha256": "10a608c791699267daf7c50ee90f9f6fa0d2bef3b4fbf3192dc79b6078bcc040"
+    },
+    {
+      "path": "__PrivateImplementationDetails.cs",
+      "export_path": "__PrivateImplementationDetails.cs",
+      "raw_sha256": "bb23b9b67103a92a5a071df9062dba40c1959eb1eed3dc1d58250f88fdd090da",
+      "generated": true
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 3
+    },
+    {
+      "kind": "synthesized ComputeStringHash helper",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Criptografia.g.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "file": "0001.bin",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "file": "0002.bin",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    }
+  ],
+  "generated_stubs": false
+}

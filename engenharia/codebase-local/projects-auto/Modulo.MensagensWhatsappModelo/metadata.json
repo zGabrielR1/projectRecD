@@ -1,0 +1,31 @@
+{
+  "artifactSha256": "17d331909d6429cd266d5e6c3e4273646ad3c1da831883c57ceef6868b9f4e94",
+  "mvid": "46ac7acc-62d6-4bf4-9f81-37e8bc771d46",
+  "assembly": "Modulo.MensagensWhatsappModelo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "PresentationFramework",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.MensagensWhatsappModelo.g.resources",
+      "file": "0000.bin",
+      "bytes": 12387,
+      "sha256": "f1bb252f5ff14c082a8f2b643dfd2879ed71395fc3441ea849dd6473833da313"
+    }
+  ]
+}

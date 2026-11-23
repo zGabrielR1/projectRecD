@@ -1,0 +1,61 @@
+{
+  "artifactSha256": "71ffc5cfb286c19ac71f0803bcb2163464b75029326ad55638919674a9dc36d9",
+  "mvid": "e672170b-40cb-4df8-accb-9487bb1e7790",
+  "assembly": "Modulo.Composicoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Reactive.Core",
+    "NClone",
+    "DevExpress.Data.v15.2",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Composicoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 36083,
+      "sha256": "8ca73d8899d78afe9bd710b799be589c8ac2a41916a093742da11f697ddcc4ea"
+    },
+    {
+      "name": "Otus.Modulo.Composicoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Composicoes.Reports.MontagemComposicao.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Composicoes.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 282,
+      "sha256": "9aabaf85d4cfe4707bb6dbd0b02b3430ef848b60f87f62b7c54a318dd0aa3676"
+    }
+  ]
+}

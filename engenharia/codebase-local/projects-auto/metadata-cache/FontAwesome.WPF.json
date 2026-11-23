@@ -1,0 +1,12 @@
+{
+  "assembly": "FontAwesome.WPF, Version=4.7.0.37774, Culture=neutral, PublicKeyToken=0758b07a11a4f466",
+  "references": [
+    "mscorlib",
+    "System.Core",
+    "System.Xaml",
+    "PresentationCore",
+    "WindowsBase",
+    "PresentationFramework",
+    "System"
+  ]
+}

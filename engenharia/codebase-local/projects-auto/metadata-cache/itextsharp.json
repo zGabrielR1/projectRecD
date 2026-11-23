@@ -1,0 +1,11 @@
+{
+  "assembly": "itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Xml",
+    "BouncyCastle.Crypto",
+    "System.Drawing",
+    "System.Security"
+  ]
+}

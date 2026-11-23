@@ -1,0 +1,6 @@
+{
+  "assembly": "Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e",
+  "references": [
+    "mscorlib"
+  ]
+}

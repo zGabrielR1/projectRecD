@@ -1,0 +1,120 @@
+{
+  "name": "Modulo.RelacoesProdutoFornecedor",
+  "baseline": "baseline\\Modulo.RelacoesProdutoFornecedor.dll",
+  "baseline_sha256": "40624043a06eb1be7ffb8fe34d39a4496a6462c0087f3e2730608cf884299ccd",
+  "export_project": "recovered\\SuiteG6\\Modulo.RelacoesProdutoFornecedor\\Modulo.RelacoesProdutoFornecedor.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "477dea2b0a1845013bad99d79db351b5ae275edb8a5190daacf30c0ee070ea15"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "983d34dd78979320e7a9ce2a4df0439d92ad08df6a5be61817393233ba5f3ae2"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "5c6bfc874ad4b7a3f80a95aa67b0080aa7d7d0304edcd9f0ca615683113b264c"
+    },
+    {
+      "path": "RelacaoProdutoFornecedorModulo.cs",
+      "export_path": "RelacaoProdutoFornecedorModulo.cs",
+      "raw_sha256": "6616ff4157abc39f01f2c622a025a0c276555363886c84bc5d07cdcac2efaea8"
+    },
+    {
+      "path": "ViewModels\\ItemRelacaoProdutoFornecedorViewModel.cs",
+      "export_path": "ViewModels\\ItemRelacaoProdutoFornecedorViewModel.cs",
+      "raw_sha256": "75e71a5051a6fcb594685f64ce4b499b8076930fd7baf3612b6786b3084250ff"
+    },
+    {
+      "path": "ViewModels\\ListaItemRelacaoProdutoFornecedorViewModel.cs",
+      "export_path": "ViewModels\\ListaItemRelacaoProdutoFornecedorViewModel.cs",
+      "raw_sha256": "a127dac9750a9b8670a406f8ed08bcd759e4dad9f581c8ce2829d5be8e3eee77"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedorAbaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedorAbaViewModel.cs",
+      "raw_sha256": "7a681745ea9d2aa07765baae5b24fa72360aceb3abc162e51f3269c94d5772cd"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedorFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedorFichaAtualizarViewModel.cs",
+      "raw_sha256": "4e689cbc63abd1652c33952a43d77867ec52519aae34c87690db7699de9eedde"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedorFormulario.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedorFormulario.cs",
+      "raw_sha256": "e3688e19d76e729ee7f9b5ca170eb1f0fa5cdd92dc307e4dd75e081965c9bf9a"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedorItensAbaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedorItensAbaViewModel.cs",
+      "raw_sha256": "787d9d5b17dab54f4021fda50c7ec927dc69eb6fdfb13eebcf9c1054523f913d"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedorItensViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedorItensViewModel.cs",
+      "raw_sha256": "e0ae394a6571464d6f61df4dc54492e9e09fc7eb07453ac5357175150f5faaf1"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedorListaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedorListaViewModel.cs",
+      "raw_sha256": "966da6c504552c28ab9d329861ca322b0f76271176ba39f26b55570fdd9cfa82"
+    },
+    {
+      "path": "ViewModels\\RelacaoProdutoFornecedorViewModel.cs",
+      "export_path": "ViewModels\\RelacaoProdutoFornecedorViewModel.cs",
+      "raw_sha256": "103731652d954ef3f3aaffde15c4507ece12d64bb46d8ff5f7e4a9bd45dbbaf5"
+    },
+    {
+      "path": "ViewModels\\RelacoesProdutoFornecedorViewModel.cs",
+      "export_path": "ViewModels\\RelacoesProdutoFornecedorViewModel.cs",
+      "raw_sha256": "5b3247204727117ce457413ab08d290cd92c37277a058ff21288c380ec111650"
+    },
+    {
+      "path": "Views\\RelacaoProdutoFornecedorFichaAtualizarView.cs",
+      "export_path": "Views\\RelacaoProdutoFornecedorFichaAtualizarView.cs",
+      "raw_sha256": "a1b308e14d7109d4eb3ff391f9109cd6d85fd0967d949c7074e31b5796f99b50"
+    },
+    {
+      "path": "Views\\RelacaoProdutoFornecedorFichaViewDetalhe\\RelacaoProdutoFornecedorItensView.cs",
+      "export_path": "Views\\RelacaoProdutoFornecedorFichaViewDetalhe\\RelacaoProdutoFornecedorItensView.cs",
+      "raw_sha256": "7267c7d996f9586c904270d9a67cf4d2cf161aa9b87a006b0fcd9296743ed7ba"
+    },
+    {
+      "path": "Views\\RelacaoProdutoFornecedorFichaViewDetalhe\\RelacaoProdutoFornecedorView.cs",
+      "export_path": "Views\\RelacaoProdutoFornecedorFichaViewDetalhe\\RelacaoProdutoFornecedorView.cs",
+      "raw_sha256": "d1865c7a2654402ce90ef748740cfe3dc080eac70d03ed98d807011b42d23e36"
+    },
+    {
+      "path": "Views\\RelacaoProdutoFornecedorListaView.cs",
+      "export_path": "Views\\RelacaoProdutoFornecedorListaView.cs",
+      "raw_sha256": "876cf53c7b80dbf2bdb48e94684481ce1f3d67a9e249611b276b94000b004566"
+    },
+    {
+      "path": "Views\\RelacoesProdutoFornecedorView.cs",
+      "export_path": "Views\\RelacoesProdutoFornecedorView.cs",
+      "raw_sha256": "d992af5a09e54e97be31c03e48b424bdc1fd3f1efd3e6a7a589466a667cb899f"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.RelacoesProdutoFornecedor.g.resources",
+      "file": "0000.bin",
+      "bytes": 18426,
+      "sha256": "c3725891247aa7f8457dae55558ba87baed004aa095ad8965548e5272141b7f6"
+    },
+    {
+      "name": "Otus.Modulo.RelacoesProdutoFornecedor.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

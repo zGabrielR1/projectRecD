@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "6a5a4f0a01de901027081cb7bac5a1e2b57e165ef875e6ad8ec70f49cbb1be0f",
+  "mvid": "3ff6c967-ff3b-4edf-8eb1-8b53da894c12",
+  "assembly": "Modulo.EnderecosServidor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "Infraestrutura",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "System.ServiceProcess",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core",
+    "WindowsBase"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.EnderecosServidor.g.resources",
+      "file": "0000.bin",
+      "bytes": 16912,
+      "sha256": "2df460cbcfa66b5b2d907646bd5e3c53b18763fbf92161ccbfe221d2042df06e"
+    },
+    {
+      "name": "Otus.Modulo.EnderecosServidor.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "ef58699b17defe9107196f7967fe90cced958df5aafe8b05c1d6026f82babd62",
+  "mvid": "a688d2a6-8c55-4ad3-87a5-c5e0936e1ea9",
+  "assembly": "Modulo.GestaoSincronizacoesHospedagemFNRH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System",
+    "System.Xaml",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Xpf.Grid.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoSincronizacoesHospedagemFNRH.g.resources",
+      "file": "0000.bin",
+      "bytes": 12136,
+      "sha256": "36b05f30b4c87f3274d30863b7df4e251f0a29904ff9ad3801d9ade27b92f106"
+    },
+    {
+      "name": "Otus.Modulo.GestaoSincronizacoesHospedagemFNRH.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

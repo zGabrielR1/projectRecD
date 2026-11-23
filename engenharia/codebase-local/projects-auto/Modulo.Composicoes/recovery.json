@@ -1,0 +1,198 @@
+{
+  "name": "Modulo.Composicoes",
+  "baseline": "baseline\\Modulo.Composicoes.dll",
+  "baseline_sha256": "71ffc5cfb286c19ac71f0803bcb2163464b75029326ad55638919674a9dc36d9",
+  "export_project": "recovered\\SuiteG6\\Modulo.Composicoes\\Modulo.Composicoes.csproj",
+  "sources": [
+    {
+      "path": "ComposicaoModulo.cs",
+      "export_path": "ComposicaoModulo.cs",
+      "raw_sha256": "5f7417a8eace4c1961032d2c2e5256743f10b00955504faf9fab9c2e630eadeb"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "190a187d2fa1a79d0dbca1fd1bce20d6b4b19b7f1d86049267245cb2cd83f11d"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "731ca74c3174343abe9ec5bcdee1759bfc03e9616116c51eb8387949347a10bd"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8f9127d4c0b7ac3ac6d17a4cb77dae105670e49458849f567cb979dd55c965ad"
+    },
+    {
+      "path": "Reports\\MontagemComposicao.cs",
+      "export_path": "Reports\\MontagemComposicao.cs",
+      "raw_sha256": "4495c2fc1832d8fa7ea22635ff533f9f6fd5b0b6a50bc9eef8bd9b69b18c7aad"
+    },
+    {
+      "path": "ViewModels\\ComponentesAbaViewModel.cs",
+      "export_path": "ViewModels\\ComponentesAbaViewModel.cs",
+      "raw_sha256": "cc8d29753274d9f61dd6ec94a5bc3c0ccd292db0ee96bc1e91127e6d7b8aed0e"
+    },
+    {
+      "path": "ViewModels\\ComponentesViewModel.cs",
+      "export_path": "ViewModels\\ComponentesViewModel.cs",
+      "raw_sha256": "5c2c1e467f25e58682fc5d10455d10d7c8ee9bebcdb9707c626f55cc676baf6a"
+    },
+    {
+      "path": "ViewModels\\ComposicaoAbaViewModel.cs",
+      "export_path": "ViewModels\\ComposicaoAbaViewModel.cs",
+      "raw_sha256": "2b1697ccd71226f868172becdd8baafc6bcf68fbb2e4b5533c002c51f05195bd"
+    },
+    {
+      "path": "ViewModels\\ComposicaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\ComposicaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "362d88a6c24d22c8c4e1c58e954b2d7b94cf793e7c44bb055c3b0d2d4eadfafd"
+    },
+    {
+      "path": "ViewModels\\ComposicaoFormacaoPrecoVendaFichaViewModel.cs",
+      "export_path": "ViewModels\\ComposicaoFormacaoPrecoVendaFichaViewModel.cs",
+      "raw_sha256": "b54a9529cdf0c28ca00155ef0478433e12dbf5d4e5e6facfc4127fb9864f2463"
+    },
+    {
+      "path": "ViewModels\\ComposicaoFormacaoPrecoVendaItem.cs",
+      "export_path": "ViewModels\\ComposicaoFormacaoPrecoVendaItem.cs",
+      "raw_sha256": "6bf99ee518c4dcb5eb9e0ea546a35c98463596b86b62d194d8431b8b5f383c90"
+    },
+    {
+      "path": "ViewModels\\ComposicaoFormacaoPrecoVendaViewModel.cs",
+      "export_path": "ViewModels\\ComposicaoFormacaoPrecoVendaViewModel.cs",
+      "raw_sha256": "34fb8706862de50552a58163232591790d862d329e73b780771050eeafdbf662"
+    },
+    {
+      "path": "ViewModels\\ComposicaoFormulario.cs",
+      "export_path": "ViewModels\\ComposicaoFormulario.cs",
+      "raw_sha256": "6bde49eb58091f008640befdeba9acf1e0244f4c9f26e650f9dd16d09ec3790b"
+    },
+    {
+      "path": "ViewModels\\ComposicaoListaViewModel.cs",
+      "export_path": "ViewModels\\ComposicaoListaViewModel.cs",
+      "raw_sha256": "5ad16778cd024062ba95c423c24661a73cd180d5eafacaa73701d03870901f3d"
+    },
+    {
+      "path": "ViewModels\\ComposicaoViewModel.cs",
+      "export_path": "ViewModels\\ComposicaoViewModel.cs",
+      "raw_sha256": "79a83d0898797fae3171ac85cbaedd3601df361cb9225767d7e86f38140087e2"
+    },
+    {
+      "path": "ViewModels\\ComposicoesViewModel.cs",
+      "export_path": "ViewModels\\ComposicoesViewModel.cs",
+      "raw_sha256": "8ca51de05bf793c9b44f4e78e2bc7d426c6925fc00f2fa604e18d6afc196d403"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Desmontagem.cs",
+      "export_path": "ViewModels\\Tipos\\Desmontagem.cs",
+      "raw_sha256": "9d79152f334c013320ed288f02cee66834b3be180c685b1b42d138a40c7e5cf5"
+    },
+    {
+      "path": "ViewModels\\Tipos\\DesmontarComposicao.cs",
+      "export_path": "ViewModels\\Tipos\\DesmontarComposicao.cs",
+      "raw_sha256": "5630e9b0e19aacc0556c559428c80f47bc2206ac165d803cf7f511a42c064fbd"
+    },
+    {
+      "path": "ViewModels\\Tipos\\LoteListaViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\LoteListaViewModel.cs",
+      "raw_sha256": "2b9b72128ce63aba99154a74fb6dd657444b05853e42e28009e2ae2e6311692f"
+    },
+    {
+      "path": "ViewModels\\Tipos\\LoteViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\LoteViewModel.cs",
+      "raw_sha256": "3e6edb08b10e45022cda8ce63e9d6d76d92ca7796f3f75ebd68ffea92a32af91"
+    },
+    {
+      "path": "ViewModels\\Tipos\\ManutencaoViewModel.cs",
+      "export_path": "ViewModels\\Tipos\\ManutencaoViewModel.cs",
+      "raw_sha256": "4ed3c8813231089e0ccd9e6f93e99b4ca5a182ef9b11e4456a09067ab3e805a7"
+    },
+    {
+      "path": "ViewModels\\Tipos\\Montagem.cs",
+      "export_path": "ViewModels\\Tipos\\Montagem.cs",
+      "raw_sha256": "f87db4d8ccb1e2a4b44fa55acd8059b0bb722115bbb7867d93aed13b8799801d"
+    },
+    {
+      "path": "ViewModels\\Tipos\\MontarComposicao.cs",
+      "export_path": "ViewModels\\Tipos\\MontarComposicao.cs",
+      "raw_sha256": "001d78e066429b25250fce8338ff22b9b443784ae1ab4ce15d9a1488ff625bc1"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TipoManutencao.cs",
+      "export_path": "ViewModels\\Tipos\\TipoManutencao.cs",
+      "raw_sha256": "d516dd3c2c9dadc0bf5a57c2c39a6f5f0490b764ad286c1841a9261ddd759d86"
+    },
+    {
+      "path": "ViewModels\\Tipos\\TipoManutencaoComboBox.cs",
+      "export_path": "ViewModels\\Tipos\\TipoManutencaoComboBox.cs",
+      "raw_sha256": "3bfb64ff1bfd72bc35fddbcc73f0822b0c71394d2a4ffce32341bdabd27b1654"
+    },
+    {
+      "path": "Views\\ComposicaoFichaAtualizarView.cs",
+      "export_path": "Views\\ComposicaoFichaAtualizarView.cs",
+      "raw_sha256": "3ae8e7275a8a1d36b3a9ed942259c2e71ee4706f941dd5b5153d710f7b190681"
+    },
+    {
+      "path": "Views\\ComposicaoFichaViewDetalhes\\ComponentesView.cs",
+      "export_path": "Views\\ComposicaoFichaViewDetalhes\\ComponentesView.cs",
+      "raw_sha256": "f4947ebe081c80690aeeb727b25548313690be5a70df24694a337f63be38ba62"
+    },
+    {
+      "path": "Views\\ComposicaoFichaViewDetalhes\\ComposicaoView.cs",
+      "export_path": "Views\\ComposicaoFichaViewDetalhes\\ComposicaoView.cs",
+      "raw_sha256": "e3337929fe78aea511297c221206eb58c309b83d37a2e266ebb79e7226d2ca62"
+    },
+    {
+      "path": "Views\\ComposicaoFormacaoPrecoVendaView.cs",
+      "export_path": "Views\\ComposicaoFormacaoPrecoVendaView.cs",
+      "raw_sha256": "fc2f68cd26d66a58369c9328673439285fa4f4564ce0701125fce425579b46af"
+    },
+    {
+      "path": "Views\\ComposicaoListaView.cs",
+      "export_path": "Views\\ComposicaoListaView.cs",
+      "raw_sha256": "f69de107c1297cb25bcfd342936b07bec251fc10db13a1d395742e3560462c65"
+    },
+    {
+      "path": "Views\\ComposicoesView.cs",
+      "export_path": "Views\\ComposicoesView.cs",
+      "raw_sha256": "4865840157bc9a86fefc9eb241422ecfff81ce64b279c1706e239ca1ec769f5e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Represent async state-machine iteration field as mutable per-iteration local",
+      "occurrences": 1,
+      "evidence": "local-evidence/Modulo.Composicoes/Modulo.Composicoes.il"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Composicoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 36083,
+      "sha256": "8ca73d8899d78afe9bd710b799be589c8ac2a41916a093742da11f697ddcc4ea"
+    },
+    {
+      "name": "Otus.Modulo.Composicoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Composicoes.Reports.MontagemComposicao.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Composicoes.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 282,
+      "sha256": "9aabaf85d4cfe4707bb6dbd0b02b3430ef848b60f87f62b7c54a318dd0aa3676"
+    }
+  ],
+  "generated_stubs": false
+}

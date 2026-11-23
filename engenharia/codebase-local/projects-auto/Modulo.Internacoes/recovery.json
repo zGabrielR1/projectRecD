@@ -1,0 +1,221 @@
+{
+  "name": "Modulo.Internacoes",
+  "baseline": "baseline\\Modulo.Internacoes.dll",
+  "baseline_sha256": "f9886f5b5959a3c7f13da51df84027ade46320e44a6504811c680b08f7747912",
+  "export_project": "recovered\\SuiteG6\\Modulo.Internacoes\\Modulo.Internacoes.csproj",
+  "sources": [
+    {
+      "path": "InternacaoModulo.cs",
+      "export_path": "InternacaoModulo.cs",
+      "raw_sha256": "c04dbdabedf741bc966f1e15e8c02c3b894e5f14cc413777b367dc8f72186ab7"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "6307e4250c87f7726445d03f95247a7f7b0ef61b0f3ae785c9f3437168a9d291"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "f7cd9f793cffe010926512d6cda6187bf90e08640473e88fce637c50e8c87c5f"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "c3b17be9ec7e22b935a0f9e49b903b71d9cdc7f5342648135fa719462210e8c9"
+    },
+    {
+      "path": "Reports\\InternacaoRelatorio.cs",
+      "export_path": "Reports\\InternacaoRelatorio.cs",
+      "raw_sha256": "98303773b1f3ced43b0c14d4ca33a128558f419fd0ed6ac81ac45b32b4825128"
+    },
+    {
+      "path": "Reports\\MapaDeExecucoes.cs",
+      "export_path": "Reports\\MapaDeExecucoes.cs",
+      "raw_sha256": "5317983c5eb46b17994dbfb5e9e6bf2e9950a9b38e3c66154097134e1574fbbd"
+    },
+    {
+      "path": "Reports\\ResumoDeInternacao.cs",
+      "export_path": "Reports\\ResumoDeInternacao.cs",
+      "raw_sha256": "65e43ca049632cf5f3bba4b8bff36330577a781638878351b60d0ebcc61c0a40"
+    },
+    {
+      "path": "Services\\HistoricoService.cs",
+      "export_path": "Services\\HistoricoService.cs",
+      "raw_sha256": "f793a59521e9501f161525603734da20798ea059e5073302a75ba233926890eb"
+    },
+    {
+      "path": "ViewModels\\InternacaoViewModel.cs",
+      "export_path": "ViewModels\\InternacaoViewModel.cs",
+      "raw_sha256": "3bb58c1bbb189582e6ed5b8e998d903717089b916eda0c793dafb84f55bf89dd"
+    },
+    {
+      "path": "ViewModels\\InternacoesViewModel.cs",
+      "export_path": "ViewModels\\InternacoesViewModel.cs",
+      "raw_sha256": "2231c4c5b78f5e678bf96f3c8693baa689e72b776fb5fcc44dab78ea61e8a985"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ExecucaoItemViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\ExecucaoItemViewModel.cs",
+      "raw_sha256": "63c95eee7fc92be0ab4c24eccabe5754f76399dc9a359531ca20eea3c5725e32"
+    },
+    {
+      "path": "ViewModels\\Paineis\\Historico.cs",
+      "export_path": "ViewModels\\Paineis\\Historico.cs",
+      "raw_sha256": "ee8f2ed719f1c3aaf9de49ba8ca723bc99ed29db73bd775a3c38517f9c732e80"
+    },
+    {
+      "path": "ViewModels\\Paineis\\InternacaoItemViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\InternacaoItemViewModel.cs",
+      "raw_sha256": "49436583c70e1eca9fa63c9f991108e43250f3cc7de8831e1ba490f590521308"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoAlta.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoAlta.cs",
+      "raw_sha256": "7cc928cf46ef24a84769f8ea8249eacf41c0a6fa0da14ef5ce3725bae5c3313c"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoBox.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoBox.cs",
+      "raw_sha256": "69b3be286860e046409f87d2d2b4c9e2b76e39f1629fcc009ae63eb99550e512"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoFichaInternacao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoFichaInternacao.cs",
+      "raw_sha256": "230b32ff7332e8358920d6dab5650df4a85858ab665cb022aa108d35fac087b4"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoHistorico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoHistorico.cs",
+      "raw_sha256": "85d532c6e06bea21d2e4adeb2e5edbe18c0914e7f0f23c477eec2844a0c1b693"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoImprimir.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoImprimir.cs",
+      "raw_sha256": "c87415c05b6935962b37ba3684a2b20bbc4021e4a4a5c71b61d39e37b014c745"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoInternacao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoInternacao.cs",
+      "raw_sha256": "72b9e6ef28206360911fc83564060a795fca4049f496fc1ba5ccba55f3a79e7b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoMapaExecucao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoMapaExecucao.cs",
+      "raw_sha256": "24f1a486558f5684f56da62559a1894d97b052312619a58723faaaa0f2cee83d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoObito.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoObito.cs",
+      "raw_sha256": "d701f589446526281faaff072103257dbffaee3f05999228b334b472f896ae31"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoOcorrencia.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoOcorrencia.cs",
+      "raw_sha256": "3b05471ea7f061fbc5f286bfac4fabe8c9051881d058ef1ed9c0917ffe7a93c3"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoPesagem.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoPesagem.cs",
+      "raw_sha256": "a21946284040bd41968df78db798b841b90d05e994d46b79c0216127bc6929af"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoPrescricaoMedica.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoPrescricaoMedica.cs",
+      "raw_sha256": "528f6b36a88dca4a9ccfd6b9da824ad13f96c3f61c7d95e318f11c12f1222924"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoProdutosServicosInternacao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoProdutosServicosInternacao.cs",
+      "raw_sha256": "25dacfb0f8723bbeaf5cca6cd7344a24145efaf163d3f44ee064f627a9033f2f"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoRelatoMedico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoRelatoMedico.cs",
+      "raw_sha256": "d86f54e9756de1fd97f6fc11b8da5dc5a0991930dd27668187c07b46d8851d66"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoInternacao.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoInternacao.cs",
+      "raw_sha256": "092f1fc6de7978ee7391bf5ebb4476f1493940449a2dbbaa732ecab59e15e5f0"
+    },
+    {
+      "path": "Views\\InternacaoView.cs",
+      "export_path": "Views\\InternacaoView.cs",
+      "raw_sha256": "f70faa9aed6f08f7a86f9f219d0a885c43c3b402cf6676279a688f2243e59112"
+    },
+    {
+      "path": "Views\\InternacoesView.cs",
+      "export_path": "Views\\InternacoesView.cs",
+      "raw_sha256": "3e900915438105412d2e58edea434cccc599909968b662b50a3305a0fd340567"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 43
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 28,
+      "types": [
+        "__c_DisplayClass19_0",
+        "__c_DisplayClass3_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass4_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass9_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass43_0",
+        "__c_DisplayClass45_0",
+        "__c_DisplayClass32_0",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass20_0",
+        "__c_DisplayClass25_0",
+        "__c_DisplayClass30_0",
+        "__c_DisplayClass32_0",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass36_0",
+        "__c_DisplayClass85_0",
+        "__c_DisplayClass5_0",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass35_1",
+        "__c_DisplayClass35_2",
+        "__c_DisplayClass37_0",
+        "__c_DisplayClass38_0",
+        "__c_DisplayClass0_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Internacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 62843,
+      "sha256": "9b73c0deae0ccb369f6116e329fc625557f43fe3b0d2c7948dd1ef8c9ca42f54"
+    },
+    {
+      "name": "Otus.Modulo.Internacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Internacoes.Reports.MapaDeExecucoes.resources",
+      "file": "0002.bin",
+      "bytes": 3590,
+      "sha256": "f9119aa95522697927c27b84fb0b46f82a3149d1835b5a719b13d870056464fe"
+    },
+    {
+      "name": "Otus.Modulo.Internacoes.Reports.ResumoDeInternacao.resources",
+      "file": "0003.bin",
+      "bytes": 3590,
+      "sha256": "f9119aa95522697927c27b84fb0b46f82a3149d1835b5a719b13d870056464fe"
+    }
+  ],
+  "generated_stubs": false
+}

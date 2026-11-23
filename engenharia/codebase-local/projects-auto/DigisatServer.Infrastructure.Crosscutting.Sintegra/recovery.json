@@ -1,0 +1,351 @@
+﻿{
+    "name":  "DigisatServer.Infrastructure.Crosscutting.Sintegra",
+    "baseline":  "baseline\\DigisatServer.Infrastructure.Crosscutting.Sintegra.dll",
+    "baseline_sha256":  "577a809ab1c44267c4003617119f3098b6a686cf2eb4f947678590a7c82cce7b",
+    "export_project":  "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Sintegra\\DigisatServer.Infrastructure.Crosscutting.Sintegra.csproj",
+    "sources":  [
+                    {
+                        "path":  "Classes\\Registro10Default.cs",
+                        "export_path":  "Classes\\Registro10Default.cs",
+                        "raw_sha256":  "061062099fe5c06ead03fe476c257361aaee4a1b99a1e9e17dc982032699f5de"
+                    },
+                    {
+                        "path":  "Classes\\Registro11Default.cs",
+                        "export_path":  "Classes\\Registro11Default.cs",
+                        "raw_sha256":  "477366f25ea88076182751228de4bad3a4e0274005d0193937f6e7ec1b10aec3"
+                    },
+                    {
+                        "path":  "Classes\\Registro50Default.cs",
+                        "export_path":  "Classes\\Registro50Default.cs",
+                        "raw_sha256":  "9fd1fe76623743efe3f8d0c0c6da08b5bc8de6c9f81e34e1baa3170b09581ab5"
+                    },
+                    {
+                        "path":  "Classes\\Registro51Default.cs",
+                        "export_path":  "Classes\\Registro51Default.cs",
+                        "raw_sha256":  "54d8fc26747482a4ee86ca7ed10107cf62f4ea34a7214dbdeee976ba4542dfb1"
+                    },
+                    {
+                        "path":  "Classes\\Registro53Default.cs",
+                        "export_path":  "Classes\\Registro53Default.cs",
+                        "raw_sha256":  "b2a99c7eca04d56219b31327c9dc159bafc7f16eb445087d88b2062664bb1200"
+                    },
+                    {
+                        "path":  "Classes\\Registro54Default.cs",
+                        "export_path":  "Classes\\Registro54Default.cs",
+                        "raw_sha256":  "8d71dd68c935774b1fcfe6ab782908ffcdc29fbebe03e3850984610b32f857db"
+                    },
+                    {
+                        "path":  "Classes\\Registro55Default.cs",
+                        "export_path":  "Classes\\Registro55Default.cs",
+                        "raw_sha256":  "60ae903b27fb76bc3655f9850f221be76973e8551755b364e6676d7dd1a82c8a"
+                    },
+                    {
+                        "path":  "Classes\\Registro56Default.cs",
+                        "export_path":  "Classes\\Registro56Default.cs",
+                        "raw_sha256":  "0c02903f1fe50f170236c35412d31f3d1176ae8c3558fcf783f8ade817c8fe7d"
+                    },
+                    {
+                        "path":  "Classes\\Registro57Default.cs",
+                        "export_path":  "Classes\\Registro57Default.cs",
+                        "raw_sha256":  "03a763d6d1cd1db97d9457c9f5dffb46f8ddd62ccaf0df4ae29a72021f02aaf9"
+                    },
+                    {
+                        "path":  "Classes\\Registro60ADefault.cs",
+                        "export_path":  "Classes\\Registro60ADefault.cs",
+                        "raw_sha256":  "25413187811872aa2d26ac0ab2d4d05e24cf2a2c7a2730c312ccc60eea2c584e"
+                    },
+                    {
+                        "path":  "Classes\\Registro60DDefault.cs",
+                        "export_path":  "Classes\\Registro60DDefault.cs",
+                        "raw_sha256":  "8ccd422d7cdf596534a5d8029922d192792585a6c146555f773ff76eb27b57a3"
+                    },
+                    {
+                        "path":  "Classes\\Registro60IDefault.cs",
+                        "export_path":  "Classes\\Registro60IDefault.cs",
+                        "raw_sha256":  "7105257971bb7f309edf91a94fe62590a60ba3fa62a9cf4830f97a176807bde2"
+                    },
+                    {
+                        "path":  "Classes\\Registro60MDefault.cs",
+                        "export_path":  "Classes\\Registro60MDefault.cs",
+                        "raw_sha256":  "6c366a0188555598d364f45947c1d92218483291f040263e284b9bba3451341b"
+                    },
+                    {
+                        "path":  "Classes\\Registro60RDefault.cs",
+                        "export_path":  "Classes\\Registro60RDefault.cs",
+                        "raw_sha256":  "95f985dfb3c9bf1ccda5465d636eee2071b3e51d4d8d61589d0f7a3f1fd8d39c"
+                    },
+                    {
+                        "path":  "Classes\\Registro61Default.cs",
+                        "export_path":  "Classes\\Registro61Default.cs",
+                        "raw_sha256":  "b0890bab3f90532e9660ce96cc27b8c16115ad0ef5679e3885b1cb9ed010c2c8"
+                    },
+                    {
+                        "path":  "Classes\\Registro61RDefault.cs",
+                        "export_path":  "Classes\\Registro61RDefault.cs",
+                        "raw_sha256":  "b8355dae46015cb0769c30da2766d70c3456c6bd6d8f8a31541fe576bd09659a"
+                    },
+                    {
+                        "path":  "Classes\\Registro70Default.cs",
+                        "export_path":  "Classes\\Registro70Default.cs",
+                        "raw_sha256":  "86acba9b4e635b7a70d6a466d4ebf01a55ffcaf83915ea3d68b6f22dee52a9d6"
+                    },
+                    {
+                        "path":  "Classes\\Registro71Default.cs",
+                        "export_path":  "Classes\\Registro71Default.cs",
+                        "raw_sha256":  "f1b73b04e4d03b15652d3a912eee0c8868232719f708aca76b4eac9e36bd1b57"
+                    },
+                    {
+                        "path":  "Classes\\Registro74Default.cs",
+                        "export_path":  "Classes\\Registro74Default.cs",
+                        "raw_sha256":  "59c101458770c8bc29d1eedcd240d059f3fc200d26337aa964c5ab40623d47e8"
+                    },
+                    {
+                        "path":  "Classes\\Registro75Default.cs",
+                        "export_path":  "Classes\\Registro75Default.cs",
+                        "raw_sha256":  "f53e51d710fd08cb77227a77828b68ed1dd72a1fc41cbf3ed64924ea13e8cf57"
+                    },
+                    {
+                        "path":  "Classes\\Registro76Default.cs",
+                        "export_path":  "Classes\\Registro76Default.cs",
+                        "raw_sha256":  "afc235eb954709e3d2f253ac6a9f54059508c8fc8c7726c7dfd4741d8964e19a"
+                    },
+                    {
+                        "path":  "Classes\\Registro77Default.cs",
+                        "export_path":  "Classes\\Registro77Default.cs",
+                        "raw_sha256":  "3cb61377523d239353c1cbcbc3814107b479f4eb91d4c54d08f583dcb8a80de0"
+                    },
+                    {
+                        "path":  "Classes\\Registro85Default.cs",
+                        "export_path":  "Classes\\Registro85Default.cs",
+                        "raw_sha256":  "4edd45f05efe38cc99d47152b5d2ad06a1fcfbb899831b889731f4b16c7d80ce"
+                    },
+                    {
+                        "path":  "Classes\\Registro86Default.cs",
+                        "export_path":  "Classes\\Registro86Default.cs",
+                        "raw_sha256":  "006953c9fc8f8426eab641f151757144dd171cbf799dfec4106272144979ee16"
+                    },
+                    {
+                        "path":  "Classes\\Registro88EanDefault.cs",
+                        "export_path":  "Classes\\Registro88EanDefault.cs",
+                        "raw_sha256":  "00ef32b2b8cd7d97837aa7d450738699ea701a6d0c3a4d80f49478642582f283"
+                    },
+                    {
+                        "path":  "Classes\\Registro90Default.cs",
+                        "export_path":  "Classes\\Registro90Default.cs",
+                        "raw_sha256":  "220f36cca8bce7e46325316a88168f778e6969b62062cfde3dcfb094da186a3c"
+                    },
+                    {
+                        "path":  "Classes\\SintegraArquivoNacional.cs",
+                        "export_path":  "Classes\\SintegraArquivoNacional.cs",
+                        "raw_sha256":  "d2269925ed1500e9d8b675691ae6f9a75ea87f2319a478ff463aa2e0c5ae84e6"
+                    },
+                    {
+                        "path":  "Classes\\SintegraDefault.cs",
+                        "export_path":  "Classes\\SintegraDefault.cs",
+                        "raw_sha256":  "e9e51176b53e8bb985ad7ce625548bbb434f36c457032308ea42ffae35ed0e7c"
+                    },
+                    {
+                        "path":  "Classes\\SintegraFactory.cs",
+                        "export_path":  "Classes\\SintegraFactory.cs",
+                        "raw_sha256":  "fb258328f7e6ae3dae4be404fd2c658da0c7c88bc73772471bc78464f265d8b0"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro10.cs",
+                        "export_path":  "Interfaces\\IRegistro10.cs",
+                        "raw_sha256":  "800df0c135b52c972c33251ec37970add4d8e92c0990369b42aedb8c1a7e2cf7"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro11.cs",
+                        "export_path":  "Interfaces\\IRegistro11.cs",
+                        "raw_sha256":  "59427093a6513ff28689ddd36e56e9c7518547e87abbcb2c3de98b224a08293f"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro50.cs",
+                        "export_path":  "Interfaces\\IRegistro50.cs",
+                        "raw_sha256":  "c133c2b19006842a9966f1c25723d962d82f784c418ddfe666acbe6d6c568cba"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro51.cs",
+                        "export_path":  "Interfaces\\IRegistro51.cs",
+                        "raw_sha256":  "d372fe24028ec1f20c5a80f569fdf4213f217cbc69f6b91210a98d340a3a4dcf"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro53.cs",
+                        "export_path":  "Interfaces\\IRegistro53.cs",
+                        "raw_sha256":  "f3f04f43dc38ad738cf278f01b9668acdba9d4d2038d7d9e2990c44a895bfa61"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro54.cs",
+                        "export_path":  "Interfaces\\IRegistro54.cs",
+                        "raw_sha256":  "06a7c3900add33466df27e89328e2d09b831bf73ff8cdbbe88f5b37f3da2cf0e"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro55.cs",
+                        "export_path":  "Interfaces\\IRegistro55.cs",
+                        "raw_sha256":  "d759cade14ab97cb9f45bf6af58402f3b2725dbe978d562b7277687ce810eba7"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro56.cs",
+                        "export_path":  "Interfaces\\IRegistro56.cs",
+                        "raw_sha256":  "f749abd503e7a0b5b70bbd564265d10a5d5bf21f6663aa67a83dd7b36149fb41"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro57.cs",
+                        "export_path":  "Interfaces\\IRegistro57.cs",
+                        "raw_sha256":  "e9dbc6adfb1cc7373ba6c7ec27ba887f45c718b63b61312f0863108b468fb204"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro60A.cs",
+                        "export_path":  "Interfaces\\IRegistro60A.cs",
+                        "raw_sha256":  "58216738e7a97b9eaeabb98488cf2566c23eafa1c0466e7b5d5a1b5b51975b26"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro60D.cs",
+                        "export_path":  "Interfaces\\IRegistro60D.cs",
+                        "raw_sha256":  "b7eb15091d1ef06f86e6c25bcf2f09a1028bba59930f0f9210687cd71e11e0fc"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro60I.cs",
+                        "export_path":  "Interfaces\\IRegistro60I.cs",
+                        "raw_sha256":  "c1f69b0eab93ca74db09f9715addf49c743b265fdde0ff934d4d453e5be86d30"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro60M.cs",
+                        "export_path":  "Interfaces\\IRegistro60M.cs",
+                        "raw_sha256":  "6eca0fd0d57ef7aaf861fc6b83efd8fdb11ff2273e294cc3ca64abedc19e27d3"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro60R.cs",
+                        "export_path":  "Interfaces\\IRegistro60R.cs",
+                        "raw_sha256":  "42538d8acade13ab24ba2775010715f2303cb6fcc394c2a4b55b428b3d29f93e"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro61.cs",
+                        "export_path":  "Interfaces\\IRegistro61.cs",
+                        "raw_sha256":  "fd91ba84f1b1598d763c4075eccc5479d3b3992dd21664144f81835ee8be0725"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro61R.cs",
+                        "export_path":  "Interfaces\\IRegistro61R.cs",
+                        "raw_sha256":  "c23e8e73bbb6173b6cf4992381d0d3f37ccf0a59a8b2c534609f76a66bdaede9"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro70.cs",
+                        "export_path":  "Interfaces\\IRegistro70.cs",
+                        "raw_sha256":  "40ce40787abae104c3cda82139582210210a88da2cf65ae17a679c67114a79a9"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro71.cs",
+                        "export_path":  "Interfaces\\IRegistro71.cs",
+                        "raw_sha256":  "fa4b556fae398777e4dadeb0fb2107a91d9488e74ac478943e934c6ca84652cc"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro74.cs",
+                        "export_path":  "Interfaces\\IRegistro74.cs",
+                        "raw_sha256":  "6e4d8d20dc004b7226981e2bb7d761f718f0a4f4b53b0983e878a9bcb5d825fc"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro75.cs",
+                        "export_path":  "Interfaces\\IRegistro75.cs",
+                        "raw_sha256":  "93190fd459fbbaf5a6021fcee8a76e8de19698d6624153e389228d1c8886c16e"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro76.cs",
+                        "export_path":  "Interfaces\\IRegistro76.cs",
+                        "raw_sha256":  "bfbd69523ed35c0d91c072b71f597cff27478db9aee35135baeeb696cfc50c44"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro77.cs",
+                        "export_path":  "Interfaces\\IRegistro77.cs",
+                        "raw_sha256":  "c84c02df61280444705e055fe10941f8b682dc007f1bbc86aa992f20e88ed59b"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro85.cs",
+                        "export_path":  "Interfaces\\IRegistro85.cs",
+                        "raw_sha256":  "07f1b40d5aaf73052a7854e95aa5ced3aa591064864b1a11f0c8e3440d537b8a"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro86.cs",
+                        "export_path":  "Interfaces\\IRegistro86.cs",
+                        "raw_sha256":  "e92684cc8e71aac21880035257ff0a70d285fa8b83afc42c7a21dae76c0a5538"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro88Ean.cs",
+                        "export_path":  "Interfaces\\IRegistro88Ean.cs",
+                        "raw_sha256":  "91f59082633996c9bf7dba234d9987707c1844c3b209c39b2079d223bfc78c9e"
+                    },
+                    {
+                        "path":  "Interfaces\\IRegistro90.cs",
+                        "export_path":  "Interfaces\\IRegistro90.cs",
+                        "raw_sha256":  "b38ba8b36894257ff77c16e2c65a3e93feeeede75a51f622faded72b66e5daa9"
+                    },
+                    {
+                        "path":  "Properties\\AssemblyInfo.cs",
+                        "export_path":  "Properties\\AssemblyInfo.cs",
+                        "raw_sha256":  "bb923799f40dd57e990cd2dcb44f4ca6b2568104ac0f5e88e11fd499cab1d369"
+                    },
+                    {
+                        "path":  "Types\\CodigoDaAntecipacao.cs",
+                        "export_path":  "Types\\CodigoDaAntecipacao.cs",
+                        "raw_sha256":  "6fa7c42f60de10198bd721de143e750ec7189a5fb7903985efd71e2ca553518d"
+                    },
+                    {
+                        "path":  "Types\\DescricaoDoCodigoDaNaturezaDasOperacoes.cs",
+                        "export_path":  "Types\\DescricaoDoCodigoDaNaturezaDasOperacoes.cs",
+                        "raw_sha256":  "734c1f76b88c0f59ab58fe6ce284f093ef3603092f3fdce5825c5103770786ad"
+                    },
+                    {
+                        "path":  "Types\\Finalidade.cs",
+                        "export_path":  "Types\\Finalidade.cs",
+                        "raw_sha256":  "69d419455f2ad7c61eea5b14bcfbadb65f51e88957295d90e6b0c8888f001656"
+                    },
+                    {
+                        "path":  "Types\\Formatos.cs",
+                        "export_path":  "Types\\Formatos.cs",
+                        "raw_sha256":  "5ce1e516866719a0bb8b0a612f2f67bc263ac7af67c1535beda2451dc6aec521"
+                    },
+                    {
+                        "path":  "Types\\IdentificacaoDaEstruturaDoArquivoMagneticoEntregue.cs",
+                        "export_path":  "Types\\IdentificacaoDaEstruturaDoArquivoMagneticoEntregue.cs",
+                        "raw_sha256":  "10f0d1e7f8e9b6935bbc6f16dbad8b41192e37c606a2ac86c010bccf76993d96"
+                    },
+                    {
+                        "path":  "Types\\IndicadorDePropriedade.cs",
+                        "export_path":  "Types\\IndicadorDePropriedade.cs",
+                        "raw_sha256":  "0b8476993f69f7219c0a7fbe40a0f93411d79319b86d427896460e1ce2b46eec"
+                    },
+                    {
+                        "path":  "Types\\ModalidadeDoFrete.cs",
+                        "export_path":  "Types\\ModalidadeDoFrete.cs",
+                        "raw_sha256":  "9d5a56c4d10bc31077b2aa1ffa73686eb47f009ab904e5b7dc4682bbdae9fe48"
+                    },
+                    {
+                        "path":  "Types\\SituacaoDaNotaFiscal.cs",
+                        "export_path":  "Types\\SituacaoDaNotaFiscal.cs",
+                        "raw_sha256":  "00eaec84f61092db377d896ca625786ba919746f8f6d8b621b7d461994296b85"
+                    },
+                    {
+                        "path":  "Types\\TipoDeExportacao.cs",
+                        "export_path":  "Types\\TipoDeExportacao.cs",
+                        "raw_sha256":  "b14e0b9af5824b914f97e6b15c54275273a8b10dc1cc7548635ee681c0b28a89"
+                    },
+                    {
+                        "path":  "Types\\TipoDeOperacao.cs",
+                        "export_path":  "Types\\TipoDeOperacao.cs",
+                        "raw_sha256":  "120ebba039a9e7c9c69dd8fb17ef6bd63d6f0f72a025f4904ad9bf2be199afcf"
+                    },
+                    {
+                        "path":  "Types\\TipoDeReceita.cs",
+                        "export_path":  "Types\\TipoDeReceita.cs",
+                        "raw_sha256":  "98bafa75cca3fb404463a2a67557f685d2a058f9cdc5bdc6b244b3d3b12a3f9c"
+                    }
+                ],
+    "output_type":  "Library",
+    "repairs":  [
+                    "Replaced malformed generated ComputeStringHash dispatch with the equivalent string comparisons for the six Sintegra classification codes."
+                ],
+    "original_resources":  [
+
+                           ],
+    "generated_stubs":  false
+}

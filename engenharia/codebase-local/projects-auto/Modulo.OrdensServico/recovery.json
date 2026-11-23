@@ -1,0 +1,152 @@
+{
+  "name": "Modulo.OrdensServico",
+  "baseline": "baseline\\Modulo.OrdensServico.dll",
+  "baseline_sha256": "dead8c2fb5e9a9b465c360b3c5908c7bbf56c24e10897ab6af7fdde57a30581f",
+  "export_project": "recovered\\SuiteG6\\Modulo.OrdensServico\\Modulo.OrdensServico.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "a2f8b26e7450b0d5085c3424e46186deba400acbf497233dd64e444a6cb29aba"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "dead8c2fb5e9a9b465c360b3c5908c7bbf56c24e10897ab6af7fdde57a30581f"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 211
+    },
+    {
+      "kind": "Resolve movement status types and static registries from original IL; restore protected navigation delegate and report type",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException",
+        "Relatorio": "DigisatServer.Infrastructure.Crosscutting.Report.Models.Relatorio",
+        "Aprovado": "DigisatServer.Infrastructure.Crosscutting.Model.SituacoesMovimentacao.Aprovado",
+        "Inutilizado": "DigisatServer.Infrastructure.Crosscutting.Model.SituacoesMovimentacao.Inutilizado",
+        "Pendente": "DigisatServer.Infrastructure.Crosscutting.Model.SituacoesMovimentacao.Pendente",
+        "Todos": "DigisatServer.Infrastructure.Crosscutting.Model.SituacoesMovimentacao.Todos"
+      },
+      "registries": {
+        "Prioridades": "DigisatServer.Infrastructure.Crosscutting.Model.Prioridades.Prioridades",
+        "Atendimentos": "DigisatServer.Infrastructure.Crosscutting.Model.Atendimentos.Atendimentos",
+        "TiposDavOs": "DigisatServer.Infrastructure.Crosscutting.Model.TipoDavOs.TiposDavOs",
+        "IndicadoresOperacaoConsumidorFinal": "DigisatServer.Infrastructure.Crosscutting.Model.IndicadoresOperacaoConsumidorFinal.IndicadoresOperacaoConsumidorFinal"
+      },
+      "evidence": "type-evidence/Modulo.OrdensServico/Modulo.OrdensServico.il"
+    },
+    {
+      "kind": "Qualify static IndicadoresPresencaComprador registry from original get_Dados reference"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.OrdensServico.g.resources",
+      "file": "0000.bin",
+      "bytes": 62445,
+      "sha256": "7e45f5bcbb4f10e6856bb7209fcd84894aad3583a44983dd587f48e605e44313"
+    },
+    {
+      "name": "Otus.Modulo.OrdensServico.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "OrdemServicoModulo.cs",
+      "export_path": "OrdemServicoModulo.cs",
+      "raw_sha256": "f31ab553bf5b154cde24979785163f1b37ab70c7d28e7eb1d05ba4282f065162"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "9ed5ea8cfaea963f557dfad14fc1622e3a37cbfed1fb560e78b52e7aad1197e3"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "af885509e996a649f438481656c06cc3052ae8e8832ec85bda662a11947f8874"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d5ba8dafaa7527e17346d02ad11b18f3807f43836f3e743807ea071a99dc82ee"
+    },
+    {
+      "path": "ViewModels\\OrdemServicoViewModel.cs",
+      "export_path": "ViewModels\\OrdemServicoViewModel.cs",
+      "raw_sha256": "f88896b22482bd5e695474d15d849c56dfd93766bda1ee9687c015c7c137cd3d"
+    },
+    {
+      "path": "ViewModels\\OrdensServicoViewModel.cs",
+      "export_path": "ViewModels\\OrdensServicoViewModel.cs",
+      "raw_sha256": "4be37e3f1d7c3b7668b44bd43049c2a3d68528fa0e9c35546b03723f22c1ac13"
+    },
+    {
+      "path": "ViewModels\\Paineis\\OrdemServicoItemViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\OrdemServicoItemViewModel.cs",
+      "raw_sha256": "e299f3532e397b3da8b3a5ba931725264a4960ba3755c85c6e86188e8d9e3f70"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoAnexosOrdemServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoAnexosOrdemServico.cs",
+      "raw_sha256": "c4e6a5ff45470dcfd1cf339bce49ffdc07a9bd957844220f4b7e5ce857ed3ec9"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoContratoLocacaoOrdemServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoContratoLocacaoOrdemServico.cs",
+      "raw_sha256": "dc5ed5a24b1af54a1753a3a1e678aa355d756ffb9827db4022b1e0eb3f453b50"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoDetalhesOrdemServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoDetalhesOrdemServico.cs",
+      "raw_sha256": "49059830148a8e6a52e87e5d7e35bd24c54eb7923fb849f56d6c608c953ba853"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoFichaOrdemServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoFichaOrdemServico.cs",
+      "raw_sha256": "63566a1af2895c3db7457281206a94311ff9f0b34714dbd997775f9ec01f7017"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoFichaOrdemServicoAnimal.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoFichaOrdemServicoAnimal.cs",
+      "raw_sha256": "ae030ce5484e57930056ab86e4ecf04dcc8677e2198353dc4db1feaeb1c7552b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoOrdemServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoOrdemServico.cs",
+      "raw_sha256": "444de217cfd9c66a0d4e2428db6ec50572225f05eeb0c0c8ee2418f75ae90765"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoOutrasInformacoesOrdemServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoOutrasInformacoesOrdemServico.cs",
+      "raw_sha256": "b2a9eff17b2a5ade34ffd3542b2114e426da563141634d17ff9c063cbfd5b88b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelDireitoProdutosServicosOrdemServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelDireitoProdutosServicosOrdemServico.cs",
+      "raw_sha256": "4be6572f0253543454d1e533b36dff4a82ef66305c6995a363c9b424b13c1542"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEsquerdoOrdemServico.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEsquerdoOrdemServico.cs",
+      "raw_sha256": "15c84dff005413b407e5c50cce21737879807ca28418f99c7956e976b8cf07f2"
+    },
+    {
+      "path": "Views\\OrdemServicoView.cs",
+      "export_path": "Views\\OrdemServicoView.cs",
+      "raw_sha256": "11f5c3ed18a5da650d458e75f3ded13d946ea0a349324bbe534e3fa9c9777bad"
+    },
+    {
+      "path": "Views\\OrdensServicoView.cs",
+      "export_path": "Views\\OrdensServicoView.cs",
+      "raw_sha256": "39cf618ccb7d97a8e7389e00816d8af9dd832ebdc53fd646a168f1699e00add6"
+    }
+  ]
+}

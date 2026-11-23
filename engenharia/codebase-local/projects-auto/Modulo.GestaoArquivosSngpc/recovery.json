@@ -1,0 +1,107 @@
+{
+  "name": "Modulo.GestaoArquivosSngpc",
+  "baseline": "baseline\\Modulo.GestaoArquivosSngpc.dll",
+  "baseline_sha256": "8fe2420c092263d667e4da0b8c2e798b065ff2c4ba5282b9b3c5387ab05e70d6",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoArquivosSngpc\\Modulo.GestaoArquivosSngpc.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "806850cee8399486a977f89a19e43363c2809ebdaf430b3710b43348eecf8b05"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "8fe2420c092263d667e4da0b8c2e798b065ff2c4ba5282b9b3c5387ab05e70d6"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 8
+    },
+    {
+      "kind": "Resolve remaining local model aliases, protected navigation, PointFloat operator syntax or exact original Prism/DevExpress command references",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException"
+      }
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoArquivosSngpc.g.resources",
+      "file": "0000.bin",
+      "bytes": 11096,
+      "sha256": "a69823f9a06f1c46c21ecee48a648e78aeeeb93ff60bbed1bce8fc393ba1a1b9"
+    },
+    {
+      "name": "Otus.Modulo.GestaoArquivosSngpc.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "GestaoArquivoSngpcModulo.cs",
+      "export_path": "GestaoArquivoSngpcModulo.cs",
+      "raw_sha256": "755323a483b8e3314ffd5eab53e503304ddd5c746025f5084904464164d79354"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "1fc1594fe02ec90eb67db7802c71f7663096f9f339d4acbeef48a0f5dffb14ed"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "9c93fac6e0ffab85a22b9abb98797e951832b667862e618defc0945e1efe9148"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d97a2c197273daef10dcbd430872e389dc30fae0fcd0b000c44007f05eb531fc"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoSngpcFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivoSngpcFichaViewModel.cs",
+      "raw_sha256": "d5382c4b34adb377d130245dba34c9d8beaec7fd6f7733b819c7e4e27bdd12ce"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivoSngpcFormulario.cs",
+      "export_path": "ViewModels\\GestaoArquivoSngpcFormulario.cs",
+      "raw_sha256": "6d6fbeea45725158416b69eb50da3c3637749a0f7b21b279aa144a70dc1165c3"
+    },
+    {
+      "path": "ViewModels\\GestaoArquivosSngpcViewModel.cs",
+      "export_path": "ViewModels\\GestaoArquivosSngpcViewModel.cs",
+      "raw_sha256": "27c22dee675b69b302c49caa4cd9c7cb29a80b474150758ad3f2f23df7942c66"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoAbaViewModel.cs",
+      "raw_sha256": "93740c9e4029f639b19e07c266b3013fed8cf89505307588d1c5614fafe1c6b3"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoViewModel.cs",
+      "raw_sha256": "4697184a1425a349a02df5a3f92d4cf441d963b1f7c5ea2a1b075d824802818e"
+    },
+    {
+      "path": "Views\\GestaoArquivoSngpcFichaView.cs",
+      "export_path": "Views\\GestaoArquivoSngpcFichaView.cs",
+      "raw_sha256": "6a7077106c76338780252b19459067f000d2e22215159cd68fc0215d1ef791e4"
+    },
+    {
+      "path": "Views\\GestaoArquivoSngpcFichaViewDetalhes\\SincronizacaoView.cs",
+      "export_path": "Views\\GestaoArquivoSngpcFichaViewDetalhes\\SincronizacaoView.cs",
+      "raw_sha256": "7c6f6651653a3992f6fc38593fefcfb3db87dec03aa27deb01efa744b3a0cb3a"
+    },
+    {
+      "path": "Views\\GestaoArquivosSngpcView.cs",
+      "export_path": "Views\\GestaoArquivosSngpcView.cs",
+      "raw_sha256": "88bafc62bc13c12e820b96bb6d3da5f05eeb28d6c8367bf6dee108510e128906"
+    }
+  ]
+}

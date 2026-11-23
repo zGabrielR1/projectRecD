@@ -1,0 +1,167 @@
+{
+  "name": "Modulo.RomaneiosConhecimentoTransporteEletronico",
+  "baseline": "baseline\\Modulo.RomaneiosConhecimentoTransporteEletronico.dll",
+  "baseline_sha256": "f6d3f2ea8240784759f5c3f9202bcc22ca6ea9a2126df8345fb10f4704b5df63",
+  "export_project": "recovered\\SuiteG6\\Modulo.RomaneiosConhecimentoTransporteEletronico\\Modulo.RomaneiosConhecimentoTransporteEletronico.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "59812a3c64db01e368a78b42101d286e575c6d80ce812dad129e96827ecf8112"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "f583106bf3cdc4ef97bed6cb512828457be96e3850919f4be67a710c92b87823"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "c7bf789decd6347918200ed5816fa3285681483233052b5e82745989da4e1d94"
+    },
+    {
+      "path": "Reports\\CanhotosConhecimentoTransporteEletronicoReferenciado.cs",
+      "export_path": "Reports\\CanhotosConhecimentoTransporteEletronicoReferenciado.cs",
+      "raw_sha256": "8bd1e0e7204ea16dfc4e159793080dd1d95ddad4626342b829e247e5336cb984"
+    },
+    {
+      "path": "Reports\\RomaneioConhecimentoTransporteEletronico.cs",
+      "export_path": "Reports\\RomaneioConhecimentoTransporteEletronico.cs",
+      "raw_sha256": "670932331c29255ec0e529791db1da1ea619b1edf777310bdb997f2938dc802c"
+    },
+    {
+      "path": "RomaneioConhecimentoTransporteEletronicoModulo.cs",
+      "export_path": "RomaneioConhecimentoTransporteEletronicoModulo.cs",
+      "raw_sha256": "900736e6dc31212deee1a816e68254ee1baf2354d0e90c69f3d84f6c78883abe"
+    },
+    {
+      "path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoAbaViewModel.cs",
+      "export_path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoAbaViewModel.cs",
+      "raw_sha256": "c7866f42fb5364e9a01f05bb10ead57b028fd71fbf7db81a653c95367db4f51a"
+    },
+    {
+      "path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoFichaAdicionarViewMo.cs",
+      "export_path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoFichaAdicionarViewMo.cs",
+      "raw_sha256": "48bdafd56aba4cb780e19ba1ff7e6df9b8991e028edfbef2ceec945220f02234"
+    },
+    {
+      "path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoFichaAtualizarViewMo.cs",
+      "export_path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoFichaAtualizarViewMo.cs",
+      "raw_sha256": "753ddd73d1da036f5654cd6ff08cde8dddb68b9cd58353ade0c27c7022714818"
+    },
+    {
+      "path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoFormulario.cs",
+      "export_path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoFormulario.cs",
+      "raw_sha256": "dcd6b96916124746483a190492bd83872a34ee7de79ed230600225a97c839956"
+    },
+    {
+      "path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoListaViewModel.cs",
+      "export_path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoListaViewModel.cs",
+      "raw_sha256": "0627f593a0409e9155287fb5b7e7c7acbc0e5417e0764c39cc1ac991ed70f26b"
+    },
+    {
+      "path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoViewModel.cs",
+      "export_path": "ViewModels\\RomaneioConhecimentoTransporteEletronicoViewModel.cs",
+      "raw_sha256": "cc3aa01844495803f5b11a7808c0d88963a7aba0d71e52c5b4d040c734b90d0c"
+    },
+    {
+      "path": "ViewModels\\RomaneiosConhecimentoTransporteEletronicoViewModel.cs",
+      "export_path": "ViewModels\\RomaneiosConhecimentoTransporteEletronicoViewModel.cs",
+      "raw_sha256": "837ee63ef304c2acbcf398b25e768d8ac6a6c883ec4df94ae7bed305f8d8b300"
+    },
+    {
+      "path": "ViewModels\\VolumeTransporteAbaViewModel.cs",
+      "export_path": "ViewModels\\VolumeTransporteAbaViewModel.cs",
+      "raw_sha256": "c42868c22fe8548110ca45c6b7c416f0fe1e157b81dfcbfab5707548d113c475"
+    },
+    {
+      "path": "ViewModels\\VolumeTransporteViewModel.cs",
+      "export_path": "ViewModels\\VolumeTransporteViewModel.cs",
+      "raw_sha256": "9b2b1d0159920c11040108c2b907783ae0a37af0961b082c07fa17f44faff04d"
+    },
+    {
+      "path": "ViewModels\\VolumeViewModel.cs",
+      "export_path": "ViewModels\\VolumeViewModel.cs",
+      "raw_sha256": "a651486a99609dbf69c649710b81cbf424b7110741d230b93134e490d197ceb3"
+    },
+    {
+      "path": "views\\RomaneioConhecimentoTransporteEletronicoFichaAdicionarView.cs",
+      "export_path": "views\\RomaneioConhecimentoTransporteEletronicoFichaAdicionarView.cs",
+      "raw_sha256": "5000d742955e7605627713cd7326455b668925be3c58f76443a98502c5a1a2eb"
+    },
+    {
+      "path": "views\\RomaneioConhecimentoTransporteEletronicoFichaAtualizarView.cs",
+      "export_path": "views\\RomaneioConhecimentoTransporteEletronicoFichaAtualizarView.cs",
+      "raw_sha256": "b40da8a2ead31f166fa9dcc64a934f39a29ff41429eea542d53f77632c03082a"
+    },
+    {
+      "path": "views\\RomaneioConhecimentoTransporteEletronicoListaView.cs",
+      "export_path": "views\\RomaneioConhecimentoTransporteEletronicoListaView.cs",
+      "raw_sha256": "ee9200a146a7079772abb660092dc1a2398466acbf18d170cb0a6922d9ca3853"
+    },
+    {
+      "path": "_long\\5e4e16095e2f680b.cs",
+      "export_path": "views\\RomaneioConhecimentoTransporteEletronico\\RomaneioConhecimentoTransporteEletronicoView.cs",
+      "raw_sha256": "b265da60ffb1beb3f1c80896c68d6ae23f1f90b363a86c70c3d2db82be55ac3b"
+    },
+    {
+      "path": "views\\RomaneioConhecimentoTransporteEletronico\\VolumeTransporteView.cs",
+      "export_path": "views\\RomaneioConhecimentoTransporteEletronico\\VolumeTransporteView.cs",
+      "raw_sha256": "a11580c2d6a671f3d6102cf6351af15a716d8acabdf045cb0b6de14ffce2ca91"
+    },
+    {
+      "path": "views\\RomaneiosConhecimentoTransporteEletronicoView.cs",
+      "export_path": "views\\RomaneiosConhecimentoTransporteEletronicoView.cs",
+      "raw_sha256": "43cda4093475dce528c865e848cc8b661634c8ce5dd3913868ced4f8412b7d35"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 40
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 9,
+      "types": [
+        "__c_DisplayClass1_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass11_0",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass13_1",
+        "__c_DisplayClass13_2",
+        "__c_DisplayClass15_0",
+        "__c_DisplayClass52_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.RomaneiosConhecimentoTransporteEletronico.g.resources",
+      "file": "0000.bin",
+      "bytes": 33003,
+      "sha256": "123c7c139889e51c83d07c6bfced6a220fc7326016b3fbf048ae71d64eff8807"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosConhecimentoTransporteEletronico.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosConhecimentoTransporteEletronico.Reports.CanhotosConhecimentoTransporteEletronicoReferenciado.resources",
+      "file": "0002.bin",
+      "bytes": 5546,
+      "sha256": "2e606aae5388ee58f4110c47f73d50f1bd9e0e3007f2ebc40e50e8fdfe8dbbe2"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosConhecimentoTransporteEletronico.Reports.RomaneioConhecimentoTransporteEletronico.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

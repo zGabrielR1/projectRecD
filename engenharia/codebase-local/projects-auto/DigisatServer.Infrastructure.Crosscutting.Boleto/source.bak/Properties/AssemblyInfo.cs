@@ -1,0 +1,45 @@
+﻿using System;
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
+using System.Web.UI;
+
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.479.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.041.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.003.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.104.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.097.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.707.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.237.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.001.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.070.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.077.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.004.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.047.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.133.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.085.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.208.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.136.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.399.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.341.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.356.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.422.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.033.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.756.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.748.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.347.jpg", "image/jpg")]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.BoletoImpressao.BoletoNet.css", "text/css", PerformSubstitution = true)]
+[assembly: WebResource("DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.barra.gif", "image/gif")]
+[assembly: AssemblyTitle("DigisatServer.Infrastructure.Crosscutting.Boleto")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Digisat Tecnologia Ltda")]
+[assembly: AssemblyProduct("DigisatServer.Infrastructure.Crosscutting.Boleto")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyTrademark("")]
+[assembly: ComVisible(false)]
+[assembly: Guid("ebcc5172-a026-46b3-8a03-3ed9af8376a9")]
+[assembly: AssemblyFileVersion("2.0.26307.4")]

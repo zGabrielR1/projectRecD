@@ -1,0 +1,55 @@
+{
+  "artifactSha256": "3c6e16c26e09b75b966a402707b4ee5ff008f4912c57b62ab6f7bbfb66f21a9e",
+  "mvid": "97b02f5b-525d-4e8a-8d2f-9311763878c2",
+  "assembly": "Modulo.EntregasDelivery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "Infraestrutura",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "PresentationCore",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.EntregasDelivery.g.resources",
+      "file": "0000.bin",
+      "bytes": 40871,
+      "sha256": "24c25d2b6e5fff1e1bf3e6764fda8e203013ed8149e69242bcf8084089a06632"
+    },
+    {
+      "name": "Otus.Modulo.EntregasDelivery.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.EntregasDelivery.Reports.ImpressoEndereco.resources",
+      "file": "0002.bin",
+      "bytes": 97469,
+      "sha256": "72b1ff75284449943c3f33c6486884f082d215344113e069db712274303a133b"
+    },
+    {
+      "name": "Modulo.EntregasDelivery.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 287,
+      "sha256": "1fd29603aa76ad290310364b3f96601b6e836579f7f4eb3fa036aca6756434bf"
+    }
+  ]
+}

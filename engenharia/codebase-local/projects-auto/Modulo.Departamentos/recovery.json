@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.Departamentos",
+  "baseline": "baseline\\Modulo.Departamentos.dll",
+  "baseline_sha256": "69d086dd438dd99a19068507152ffc688e93e766c7e2c7ef5887b189d4006610",
+  "export_project": "recovered\\SuiteG6\\Modulo.Departamentos\\Modulo.Departamentos.csproj",
+  "sources": [
+    {
+      "path": "DepartamentoModulo.cs",
+      "export_path": "DepartamentoModulo.cs",
+      "raw_sha256": "d01956b46155d656ef487701a549c7ff21ab9873fbadc52b97c69e4fe6f35856"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "3580ddcdbce8bd1e96a0ed9add39cdb13fb99900e89bfb528cac82c06e79fb21"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "6608f64f25720b24d15740c6eb1edeef8c27f5b42fc1747fe408d383300613e4"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "c12fc43a4811aa92ef5abefae704a5e123de652b14b1f418fc19b41cb2444b3e"
+    },
+    {
+      "path": "ViewModels\\DepartamentoAbaViewModel.cs",
+      "export_path": "ViewModels\\DepartamentoAbaViewModel.cs",
+      "raw_sha256": "549d775fa793430b9ea15137c37ab1953f9e328d0890606977463bd2b970c22e"
+    },
+    {
+      "path": "ViewModels\\DepartamentoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\DepartamentoFichaAdicionarViewModel.cs",
+      "raw_sha256": "99c2a9a8ef26f11dd266e131c5345b35b97998b1126c3b968b5364eb0b713d45"
+    },
+    {
+      "path": "ViewModels\\DepartamentoFormulario.cs",
+      "export_path": "ViewModels\\DepartamentoFormulario.cs",
+      "raw_sha256": "b9c16685c97f6d3834147c0da63435073751a1f4ad2f1409ac26441224df9ec8"
+    },
+    {
+      "path": "ViewModels\\DepartamentoListaViewModel.cs",
+      "export_path": "ViewModels\\DepartamentoListaViewModel.cs",
+      "raw_sha256": "73701527a8a3e16329a381f33665cccf60b08fb420ce9b8a45717d7722e6116c"
+    },
+    {
+      "path": "ViewModels\\DepartamentosViewModel.cs",
+      "export_path": "ViewModels\\DepartamentosViewModel.cs",
+      "raw_sha256": "4229bb621074f01b69f5f77e8b5d72f837dc64518737c33b4494d4cad31d778d"
+    },
+    {
+      "path": "ViewModels\\DepartamentoViewModel.cs",
+      "export_path": "ViewModels\\DepartamentoViewModel.cs",
+      "raw_sha256": "7ec3ee0c6d73174b4006fb68e86587f53536f88b43914463651224b09a3e9e43"
+    },
+    {
+      "path": "Views\\DepartamentoFichaAdicionarView.cs",
+      "export_path": "Views\\DepartamentoFichaAdicionarView.cs",
+      "raw_sha256": "d086961e1eafa517e6270153847e64e05efd98a1a8f0e0050f68f2bae21adc86"
+    },
+    {
+      "path": "Views\\DepartamentoFichaViewDetalhes\\DepartamentoView.cs",
+      "export_path": "Views\\DepartamentoFichaViewDetalhes\\DepartamentoView.cs",
+      "raw_sha256": "7a56300ef5b25cdd3b3bac2f7ad7dc2acf23b2960a853e3954bb2fd9a0dbe45e"
+    },
+    {
+      "path": "Views\\DepartamentoListaView.cs",
+      "export_path": "Views\\DepartamentoListaView.cs",
+      "raw_sha256": "642dac3db5a058e735f0ec0a0381d6cc7bcfd4a0a05c6c81ee694ee467a20570"
+    },
+    {
+      "path": "Views\\DepartamentosView.cs",
+      "export_path": "Views\\DepartamentosView.cs",
+      "raw_sha256": "2fecf7286f47895f430e818e985db98e0c46b65d9b591a7be838b6fc7062b3dc"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Departamentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 9697,
+      "sha256": "802c4021c53465cff0477c8cbd5c6b706c9b8bf10df45fd60a872e5dd62021bf"
+    },
+    {
+      "name": "Otus.Modulo.Departamentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

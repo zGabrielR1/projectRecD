@@ -1,0 +1,277 @@
+{
+  "name": "Modulo.Restaurantes",
+  "baseline": "baseline\\Modulo.Restaurantes.dll",
+  "baseline_sha256": "3771ea2782c22e44159311f6264df311ad3e77a75effa5430f30b119d2c2ee56",
+  "export_project": "recovered\\SuiteG6\\Modulo.Restaurantes\\Modulo.Restaurantes.csproj",
+  "sources": [
+    {
+      "path": "Events\\ChamarDeliveryEvent.cs",
+      "export_path": "Events\\ChamarDeliveryEvent.cs",
+      "raw_sha256": "3a0c33a27cfd6f25c3ded6f3e33246c72d012ff07b8fbf26835a454ffb9ddac3"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "4574529cc7132579dfcce13eb18bc67c6f4c4ba389df4e0961fab858b75d7e7d"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "faf178e810bdac4c69bcb8dc10c844081f976eb3019392f63a469a75b15170ff"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "5d500567c1579cb87379d6ebcd8093a7c7d7b62049c6373d04e61c1e99c4a39a"
+    },
+    {
+      "path": "Reports\\DemonstrativoConsumo.cs",
+      "export_path": "Reports\\DemonstrativoConsumo.cs",
+      "raw_sha256": "29cd20d486dcd177c610cd06dda162c69d3eb7539c0ddc5764d7cb75078b2e52"
+    },
+    {
+      "path": "Reports\\ItemDemonstrativoConsumo.cs",
+      "export_path": "Reports\\ItemDemonstrativoConsumo.cs",
+      "raw_sha256": "912b4502268907359a04aec3c87b582affba5f208497e8ff37e86ad71a4ae435"
+    },
+    {
+      "path": "Reports\\RelatorioDemonstrativoDeConsumo56Mm57Mm58Mm.cs",
+      "export_path": "Reports\\RelatorioDemonstrativoDeConsumo56Mm57Mm58Mm.cs",
+      "raw_sha256": "77759a4d403eb3881d0f557433f78a42e1ca475065d86fb7bc6985672021d257"
+    },
+    {
+      "path": "Reports\\RelatorioDemonstrativoDeConsumo79Mm80Mm.cs",
+      "export_path": "Reports\\RelatorioDemonstrativoDeConsumo79Mm80Mm.cs",
+      "raw_sha256": "9e78f35be24bed5be2c1f4a05e40fa621117870e361141a8db150e2ffafa3405"
+    },
+    {
+      "path": "RestauranteModulo.cs",
+      "export_path": "RestauranteModulo.cs",
+      "raw_sha256": "fd9cea8f955d22c76958ce0d167c7fd383f64e021b0e539fa5d3faaa6b83090a"
+    },
+    {
+      "path": "Services\\ModoFuncionamentoRestauranteService.cs",
+      "export_path": "Services\\ModoFuncionamentoRestauranteService.cs",
+      "raw_sha256": "602a4040bd0790e7d863215a9beb5027bb8892a22d41062b42b62d851c40a07b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\Garcom.cs",
+      "export_path": "ViewModels\\Paineis\\Garcom.cs",
+      "raw_sha256": "f7f450bc5dffe44f2479a8992d24f5314e7ac751f840bd4f48266aaf461c1ad4"
+    },
+    {
+      "path": "ViewModels\\Paineis\\GarcomNenhum.cs",
+      "export_path": "ViewModels\\Paineis\\GarcomNenhum.cs",
+      "raw_sha256": "c30fa710d38554c2b4547a86741ac43b6b7f0cc41c85560d5e7816fb2f1d845a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ItemMesaContaConfirmadoViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\ItemMesaContaConfirmadoViewModel.cs",
+      "raw_sha256": "3ff68815530b4db1b3c185e1cd806ef193957b753f2526f7e4e157fabe864db2"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ItemMesaContaNaoConfirmadoViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\ItemMesaContaNaoConfirmadoViewModel.cs",
+      "raw_sha256": "41c25048531a300ca3101ac1b3f5196c2f07d3b08f0635d2b8caccf0f0c5982b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ItemMesaContaProjection.cs",
+      "export_path": "ViewModels\\Paineis\\ItemMesaContaProjection.cs",
+      "raw_sha256": "63f4804ab37462a49d935747a1d9779aa22a05eaf1273198b31a8408c34d2ee8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\ItemMesaContaViewModel.cs",
+      "export_path": "ViewModels\\Paineis\\ItemMesaContaViewModel.cs",
+      "raw_sha256": "3266ccb17d815f3106a5994b013450fb1f42fda203f966ff3053661916a8427c"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelCardapioAdicionaisRetaguarda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelCardapioAdicionaisRetaguarda.cs",
+      "raw_sha256": "ddb76b50218dabf809fb218ac67037654841d1c0a93888a42fc4bf0b79a9baf0"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelCardapioRetaguarda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelCardapioRetaguarda.cs",
+      "raw_sha256": "43a8d074a5fe8ed94cd317824131bb092e2e4aa6f196a2c115287c2a46db81f8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelComponentesMenuRapidoRetaguarda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelComponentesMenuRapidoRetaguarda.cs",
+      "raw_sha256": "dd96e094e7eac27ecbd356cc13892979d7ad4c0457a4a0afefc5722bc7f0c350"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelComponentesRetaguarda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelComponentesRetaguarda.cs",
+      "raw_sha256": "0a8553160f42bd220485fd315dd825287981d57d0f534eaf1e390b061c4b4494"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelEntregaRetirada.cs",
+      "export_path": "ViewModels\\Paineis\\PainelEntregaRetirada.cs",
+      "raw_sha256": "da2ff6de1a47cc6b910750e9430fd0ea03b9e855c28ffc0f0fa28fd409b7b445"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelGarcom.cs",
+      "export_path": "ViewModels\\Paineis\\PainelGarcom.cs",
+      "raw_sha256": "735f52bcc7ff112d2899eef75b283579c1e0596ca1c9e150a9bd1807e57020d7"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelIndicarMesa.cs",
+      "export_path": "ViewModels\\Paineis\\PainelIndicarMesa.cs",
+      "raw_sha256": "1395e571f07b498e4714f9df6245ee9baf65afd37ab2632b87e537ed6546f8db"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelInformarMesaConta.cs",
+      "export_path": "ViewModels\\Paineis\\PainelInformarMesaConta.cs",
+      "raw_sha256": "2b450e4346ff8f95d2ea6408139074eaaee9b99a5b9386cfcaf6caf2ed2b1adf"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelLancamentoCodigoRetaguarda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelLancamentoCodigoRetaguarda.cs",
+      "raw_sha256": "74e237d987c84bc72236ecfc86ff25d5a3727a2f870c347a1f44196ed4a75bbe"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuRapidoAdicionaisRetaguarda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuRapidoAdicionaisRetaguarda.cs",
+      "raw_sha256": "f6abec72c4d44d2f30261ebe35ea3b001763dd264f5ee62179775b14612db2aa"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMenuRapidoRetaguarda.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMenuRapidoRetaguarda.cs",
+      "raw_sha256": "708ac20e24caff94db68e1982ec372f3798bfe064c8ad312aa1d155723f89036"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelMesaConta.cs",
+      "export_path": "ViewModels\\Paineis\\PainelMesaConta.cs",
+      "raw_sha256": "d4d5ea1be6080a8c44bfdd39c138fadad1f2202a9ff4ff2fe83f2246ee487e0a"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelPesquisarMesaConta.cs",
+      "export_path": "ViewModels\\Paineis\\PainelPesquisarMesaConta.cs",
+      "raw_sha256": "f66f5e6a9d8785308fa92be5ab7b54f721e7c0b6213332d17f46f9bf961d18e3"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelPesquisarUltimasMesaConta.cs",
+      "export_path": "ViewModels\\Paineis\\PainelPesquisarUltimasMesaConta.cs",
+      "raw_sha256": "ad291aa15d69f09c5fc0752c6291f16f79667cc25b49cb59b7d3d54ba221636d"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelPessoa.cs",
+      "export_path": "ViewModels\\Paineis\\PainelPessoa.cs",
+      "raw_sha256": "f6deb30ecd4c51b565c51f39517a4998659598b15a96ca62185941a63d33134b"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PainelTransferir.cs",
+      "export_path": "ViewModels\\Paineis\\PainelTransferir.cs",
+      "raw_sha256": "a19590beee771e8c05223a369cafc6f37ae3103a3bb3ad13341536a58a10d9b8"
+    },
+    {
+      "path": "ViewModels\\Paineis\\PessoaRestaurante.cs",
+      "export_path": "ViewModels\\Paineis\\PessoaRestaurante.cs",
+      "raw_sha256": "6fa6f2a3939a6f46478604818616588559f2181f40f3c8478e274fba880e0639"
+    },
+    {
+      "path": "ViewModels\\RestaurantesViewModel.cs",
+      "export_path": "ViewModels\\RestaurantesViewModel.cs",
+      "raw_sha256": "b042aa4982a87f35beb4e3d2a4680b509815c91c3821c7bc8a3620fa95f3449e"
+    },
+    {
+      "path": "ViewModels\\RestauranteViewModel.cs",
+      "export_path": "ViewModels\\RestauranteViewModel.cs",
+      "raw_sha256": "d3068899f23b2bb054c8df9c0e8298f2857806ed5e27dcdb574abccbedc8d64a"
+    },
+    {
+      "path": "views\\RestaurantesView.cs",
+      "export_path": "views\\RestaurantesView.cs",
+      "raw_sha256": "869c9f37fb3a142a644659ed05a684264ab4f3861ca82f1866653cc724258f11"
+    },
+    {
+      "path": "views\\RestauranteView.cs",
+      "export_path": "views\\RestauranteView.cs",
+      "raw_sha256": "57b959a4e1803857fc5ff56527e3028f3fbc71e22923634c30720820b952020f"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 117
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 38,
+      "types": [
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass111_0",
+        "__c_DisplayClass0_0",
+        "__c_DisplayClass9_0",
+        "__c_DisplayClass23_0",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass14_1",
+        "__c_DisplayClass14_2",
+        "__c_DisplayClass14_3",
+        "__c_DisplayClass14_4",
+        "__c_DisplayClass14_5",
+        "__c_DisplayClass14_6",
+        "__c_DisplayClass14_7",
+        "__c_DisplayClass14_8",
+        "__c_DisplayClass14_9",
+        "__c_DisplayClass21_0",
+        "__c_DisplayClass22_0",
+        "__c_DisplayClass32_0",
+        "__c_DisplayClass32_1",
+        "__c_DisplayClass33_0",
+        "__c_DisplayClass34_0",
+        "__c_DisplayClass52_0",
+        "__c_DisplayClass65_0",
+        "__c_DisplayClass65_1",
+        "__c_DisplayClass66_0",
+        "__c_DisplayClass66_1",
+        "__c_DisplayClass66_2",
+        "__c_DisplayClass67_0",
+        "__c_DisplayClass67_1",
+        "__c_DisplayClass68_0",
+        "__c_DisplayClass69_0",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass11_0",
+        "__c_DisplayClass22_0",
+        "__c_DisplayClass23_0",
+        "__c_DisplayClass3_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Restaurantes.g.resources",
+      "file": "0000.bin",
+      "bytes": 49762,
+      "sha256": "e72336e87b567afdf2e1d02de65bd1287010c456d6717a3eff7697d14291e754"
+    },
+    {
+      "name": "Otus.Modulo.Restaurantes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Restaurantes.Reports.RelatorioDemonstrativoDeConsumo56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 10970,
+      "sha256": "0fb431490e9e82fc543ba232adde6d10d56c1c55303327f28543c35e83beaaa3"
+    },
+    {
+      "name": "Otus.Modulo.Restaurantes.Reports.RelatorioDemonstrativoDeConsumo79Mm80Mm.resources",
+      "file": "0003.bin",
+      "bytes": 10970,
+      "sha256": "0fb431490e9e82fc543ba232adde6d10d56c1c55303327f28543c35e83beaaa3"
+    },
+    {
+      "name": "Modulo.Restaurantes.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 283,
+      "sha256": "83b17560db4c512b0aa8c1a3429480901f448a639ce76d3dbffe05b0f8f725b6"
+    }
+  ],
+  "generated_stubs": false
+}

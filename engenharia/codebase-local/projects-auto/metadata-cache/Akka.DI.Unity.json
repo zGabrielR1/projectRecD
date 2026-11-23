@@ -1,0 +1,9 @@
+{
+  "assembly": "Akka.DI.Unity, Version=1.2.3.3, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "Akka.DI.Core",
+    "Akka",
+    "Microsoft.Practices.Unity"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Modulo.GestaoCashback",
+  "baseline": "baseline\\Modulo.GestaoCashback.dll",
+  "baseline_sha256": "a605d217b4cd7b151b22bf304e898cbf5d6d40817fdf22e1aa5acdb8989e3b54",
+  "export_project": "recovered\\SuiteG6\\Modulo.GestaoCashback\\Modulo.GestaoCashback.csproj",
+  "sources": [
+    {
+      "path": "GestaoCashbackModulo.cs",
+      "export_path": "GestaoCashbackModulo.cs",
+      "raw_sha256": "c21cf9be3b08fe25417986b7261b4f3fc824206f99c8afb348622dfbdf090b4d"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "da9ac41cc1412e08a36a05f66e52a6859d605326ec52f7daed4fdcd5fbd1a680"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "0aa7ed246f4d0fc76d0c459e505c8b6b9ce1fd4b94fd313a5aeb6554d5b01d75"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "6184fc6569737c7716f0b96b8eddd7fc4c5d3737b19db55000e48decef9251dc"
+    },
+    {
+      "path": "Resources\\Messages.cs",
+      "export_path": "Resources\\Messages.cs",
+      "raw_sha256": "572fa659d135ab53286372849050f51378365905ea5b897b947dc9f788b02597"
+    },
+    {
+      "path": "ViewModels\\CreditoCashbackAbaViewModel.cs",
+      "export_path": "ViewModels\\CreditoCashbackAbaViewModel.cs",
+      "raw_sha256": "6dcf562d413e68bfa489d9ee54fa257179217cb2608f758f6aa4d649e0d71fac"
+    },
+    {
+      "path": "ViewModels\\CreditoCashbackViewModel.cs",
+      "export_path": "ViewModels\\CreditoCashbackViewModel.cs",
+      "raw_sha256": "6be7dd34427e28b623247b6abb2cde562e29da7eab13e14108c7d156a0ab1d25"
+    },
+    {
+      "path": "ViewModels\\DebitoCashbackAbaViewModel.cs",
+      "export_path": "ViewModels\\DebitoCashbackAbaViewModel.cs",
+      "raw_sha256": "4d6724737e2e6ff432c9c146d75d09f330233cc3482cb627a812d75a0e1f5546"
+    },
+    {
+      "path": "ViewModels\\DebitoCashbackViewModel.cs",
+      "export_path": "ViewModels\\DebitoCashbackViewModel.cs",
+      "raw_sha256": "67e07ff9aa711d6231ff83a3678ea6a9c0b6932f01cd15a36d018688f63dc925"
+    },
+    {
+      "path": "ViewModels\\GestaoCashbackFichaViewModel.cs",
+      "export_path": "ViewModels\\GestaoCashbackFichaViewModel.cs",
+      "raw_sha256": "e0d9988d3355d868927f8b0da86b3f7bf1034163c4c3b7bc9ae69447dc6021bb"
+    },
+    {
+      "path": "ViewModels\\GestaoCashbackFormulario.cs",
+      "export_path": "ViewModels\\GestaoCashbackFormulario.cs",
+      "raw_sha256": "3d6a92bfe3a7ee7fabde54aa69e2a612eae4c75cdf25e0483fee683f540a9ee4"
+    },
+    {
+      "path": "ViewModels\\GestaoCashbacksViewModel.cs",
+      "export_path": "ViewModels\\GestaoCashbacksViewModel.cs",
+      "raw_sha256": "cd129787f06efcdab44a838cbbfec87d1aa9708a625b16332e21e847e96f631f"
+    },
+    {
+      "path": "ViewModels\\TransferenciaCashbackAbaViewModel.cs",
+      "export_path": "ViewModels\\TransferenciaCashbackAbaViewModel.cs",
+      "raw_sha256": "1b29387d48c677117fab9eae6bb14121dee43b6c6cd9e3f5568e77dbf2c6970d"
+    },
+    {
+      "path": "ViewModels\\TransferenciaCashbackViewModel.cs",
+      "export_path": "ViewModels\\TransferenciaCashbackViewModel.cs",
+      "raw_sha256": "51f83efb00a0d66f5e1255368492ca133dc3b7dc7a3a9d0270a84ece109b7e39"
+    },
+    {
+      "path": "Views\\GestaoCashbackFichaView.cs",
+      "export_path": "Views\\GestaoCashbackFichaView.cs",
+      "raw_sha256": "bfbd6b8bec85ae71675a34ef9d4f764f1228e208bda4f559b9e4ceddde850c6c"
+    },
+    {
+      "path": "Views\\GestaoCashbackFichaViewDetalhes\\CreditoCashbackView.cs",
+      "export_path": "Views\\GestaoCashbackFichaViewDetalhes\\CreditoCashbackView.cs",
+      "raw_sha256": "f1a72d76d9176305fb52a06f5633311639ae4dee1d1510cde76fb455640cb22a"
+    },
+    {
+      "path": "Views\\GestaoCashbackFichaViewDetalhes\\DebitoCashbackView.cs",
+      "export_path": "Views\\GestaoCashbackFichaViewDetalhes\\DebitoCashbackView.cs",
+      "raw_sha256": "48ec8b1c68703dffb48461a36f71aa09ae33abd19af04c6fab10fbc13a33ffb0"
+    },
+    {
+      "path": "Views\\GestaoCashbackFichaViewDetalhes\\TransferenciaCashbackView.cs",
+      "export_path": "Views\\GestaoCashbackFichaViewDetalhes\\TransferenciaCashbackView.cs",
+      "raw_sha256": "09b663e068926c1705fc6d6df6265a2e7fb43a7ce98907ff61a9d8fd597efc81"
+    },
+    {
+      "path": "Views\\GestaoCashbacksView.cs",
+      "export_path": "Views\\GestaoCashbacksView.cs",
+      "raw_sha256": "338a88c38477ff1abcf7e26ae7e9e40d03e8fa4fe218cabde97f0dc388e909ee"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GestaoCashback.g.resources",
+      "file": "0000.bin",
+      "bytes": 20152,
+      "sha256": "a9880d76e03884d7abd654e69122c759a1b216115161116c5a5aa11c5016c684"
+    },
+    {
+      "name": "Otus.Modulo.GestaoCashback.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoCashback.Resources.Messages.resources",
+      "file": "0002.bin",
+      "bytes": 273,
+      "sha256": "dd2a7094c167cead8b84c834bdef667ab8c42d06049bc3f62005c471a7249f81"
+    }
+  ],
+  "generated_stubs": false
+}

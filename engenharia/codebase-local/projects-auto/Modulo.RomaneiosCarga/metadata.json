@@ -1,0 +1,61 @@
+{
+  "artifactSha256": "d13986c6583122431cb6966875cf6312d800b3973cc11174be49c4776e27e68d",
+  "mvid": "183f2872-5b4c-4a6b-9752-1d2e1440ab45",
+  "assembly": "Modulo.RomaneiosCarga, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "NClone",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.RomaneiosCarga.g.resources",
+      "file": "0000.bin",
+      "bytes": 36876,
+      "sha256": "dcbb5673972451b0e898cfb3c1e1492a1df9766889c0daab40a32a32b6851e24"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosCarga.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosCarga.Reports.CanhotosNfeReferenciadas.resources",
+      "file": "0002.bin",
+      "bytes": 6040,
+      "sha256": "1fa55b8dae221264bafb249fd7f3a3a880a4f616eae13d99d52bffd1b901e3a7"
+    },
+    {
+      "name": "Otus.Modulo.RomaneiosCarga.Reports.RomaneioCarga.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.RomaneiosCarga.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 285,
+      "sha256": "4296f38af22a5b74b576bb5275597c72879f273936f393937742a73d3414e6b1"
+    }
+  ]
+}

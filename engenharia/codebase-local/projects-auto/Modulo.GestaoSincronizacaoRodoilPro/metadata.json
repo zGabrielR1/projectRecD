@@ -1,0 +1,32 @@
+{
+  "artifactSha256": "83312097aff3831ceebedac78123d4798a7723f359ab5ed85d95dddc0fbf4eb6",
+  "mvid": "d54de730-dcba-4496-8a95-5e3113e3a314",
+  "assembly": "Modulo.GestaoSincronizacaoRodoilPro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "PresentationFramework",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Xpf.Grid.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoSincronizacaoRodoilPro.g.resources",
+      "file": "0000.bin",
+      "bytes": 15459,
+      "sha256": "02086e965da72eaecfbb25c907b4c09e60633b27b8da59c68832b4d091b4e7b4"
+    }
+  ]
+}

@@ -1,0 +1,2378 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Boleto",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Boleto.dll",
+  "baseline_sha256": "83440ea58589392e2102ec973fb255a03496c55804c5817e60810c2bcd37873d",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Boleto\\DigisatServer.Infrastructure.Crosscutting.Boleto.csproj",
+  "sources": [
+    {
+      "path": "Arquivo\\AbstractArquivoRemessa.cs",
+      "export_path": "Arquivo\\AbstractArquivoRemessa.cs",
+      "raw_sha256": "1e309a9007498b0c0db94ab821478cdea461d8c946bbf5dedde77a1c27d33701"
+    },
+    {
+      "path": "Arquivo\\AbstractArquivoRetorno.cs",
+      "export_path": "Arquivo\\AbstractArquivoRetorno.cs",
+      "raw_sha256": "a366a1493845e94e758f88875e9d41428990a86679c83f629d484b8fd09c31d3"
+    },
+    {
+      "path": "Arquivo\\ArquivoRemessa.cs",
+      "export_path": "Arquivo\\ArquivoRemessa.cs",
+      "raw_sha256": "831f00891c39fe5c44c0d7dbfcfbd216b4614e513d8ea278d11d02a7bd7fce51"
+    },
+    {
+      "path": "Arquivo\\ArquivoRemessaCNAB240.cs",
+      "export_path": "Arquivo\\ArquivoRemessaCNAB240.cs",
+      "raw_sha256": "615ef045959714ab08cd0af0f13ab4d8b14da2390e91f863d260c9495b710141"
+    },
+    {
+      "path": "Arquivo\\ArquivoRemessaCNAB400.cs",
+      "export_path": "Arquivo\\ArquivoRemessaCNAB400.cs",
+      "raw_sha256": "81799b8c2c08f2674f0990f529ce76a69d92fa1afdda325c29535364f1db201b"
+    },
+    {
+      "path": "Arquivo\\ArquivoRetorno.cs",
+      "export_path": "Arquivo\\ArquivoRetorno.cs",
+      "raw_sha256": "55daad030f3f775f62dbbb8c851a8020ad7185dd4d1e717527136b402cf62aa6"
+    },
+    {
+      "path": "Arquivo\\ArquivoRetornoCNAB240.cs",
+      "export_path": "Arquivo\\ArquivoRetornoCNAB240.cs",
+      "raw_sha256": "5bcf2e042ba9f9c2d40a0bdd315502a44b8a127051154ee2be14721864207634"
+    },
+    {
+      "path": "Arquivo\\ArquivoRetornoCNAB400.cs",
+      "export_path": "Arquivo\\ArquivoRetornoCNAB400.cs",
+      "raw_sha256": "e69da5fe6b2c972daf65df157f00906157f85247d82547b011d48c4442b6fba3"
+    },
+    {
+      "path": "Arquivo\\DetalheRetornoCNAB240.cs",
+      "export_path": "Arquivo\\DetalheRetornoCNAB240.cs",
+      "raw_sha256": "b77a0b226dc24b8d21769d1fcdb20742350c7c5089b41442f2e1975e0d2a8f66"
+    },
+    {
+      "path": "Arquivo\\DetalheRetornoCNAB400.cs",
+      "export_path": "Arquivo\\DetalheRetornoCNAB400.cs",
+      "raw_sha256": "9a554f531352dfd90fbbd8a55e9d3bf5a75a7d353887c7d8c0b04eb30af6235b"
+    },
+    {
+      "path": "Arquivo\\DetalheSegmentoERetornoCNAB240.cs",
+      "export_path": "Arquivo\\DetalheSegmentoERetornoCNAB240.cs",
+      "raw_sha256": "e22e7e75aad36bfa3cc2f7128bb7b4ca705b287bf72d6befff7ba0b4e90775bc"
+    },
+    {
+      "path": "Arquivo\\DetalheSegmentoTRetornoCNAB240.cs",
+      "export_path": "Arquivo\\DetalheSegmentoTRetornoCNAB240.cs",
+      "raw_sha256": "d0298dbc5013bed88b4d398d6113abc2d48dae10affde03d226e0fe8e8f03013"
+    },
+    {
+      "path": "Arquivo\\DetalheSegmentoURetornoCNAB240.cs",
+      "export_path": "Arquivo\\DetalheSegmentoURetornoCNAB240.cs",
+      "raw_sha256": "f2cff2f7c7e7ed5f214c593c1ca6ba62d2db240c061e8cb44044030922348eff"
+    },
+    {
+      "path": "Arquivo\\DetalheSegmentoWRetornoCNAB240.cs",
+      "export_path": "Arquivo\\DetalheSegmentoWRetornoCNAB240.cs",
+      "raw_sha256": "437e21dfc49f74d381dc225a16a5d41534388fd997fe87f7bb38f0a0731d7ffc"
+    },
+    {
+      "path": "Arquivo\\EnumTipodeLinha.cs",
+      "export_path": "Arquivo\\EnumTipodeLinha.cs",
+      "raw_sha256": "085a3e3918a3d1b96a8d47608f82f1c038caf68f54d84bbc7db88e7915dfec52"
+    },
+    {
+      "path": "Arquivo\\EnumTipodeLinhaLida.cs",
+      "export_path": "Arquivo\\EnumTipodeLinhaLida.cs",
+      "raw_sha256": "1374964016d73a6f07d5a2bcb415e226a4578ade3de7f535bc4259316b8f4952"
+    },
+    {
+      "path": "Arquivo\\HeaderDeArquivoCNAB240.cs",
+      "export_path": "Arquivo\\HeaderDeArquivoCNAB240.cs",
+      "raw_sha256": "85b88cb3450f832d807c278fc11befee31d4b369db2380ffbd4c8fbcc8a62aec"
+    },
+    {
+      "path": "Arquivo\\IArquivoRemessa.cs",
+      "export_path": "Arquivo\\IArquivoRemessa.cs",
+      "raw_sha256": "71e7c0c7a3fad73c848044c47bfb749bada2d4efc212569c90fefdc015869f42"
+    },
+    {
+      "path": "Arquivo\\IArquivoRetorno.cs",
+      "export_path": "Arquivo\\IArquivoRetorno.cs",
+      "raw_sha256": "4cae7255ddffceec34483ca096b853c15ee4e0626b24f528536bae3e697960fd"
+    },
+    {
+      "path": "Arquivo\\LinhaDeArquivoGeradaArgs.cs",
+      "export_path": "Arquivo\\LinhaDeArquivoGeradaArgs.cs",
+      "raw_sha256": "243f56d1c332e2abe2f7373e10d15e7a1ce705b60feb575b9548dfb7e8ae9959"
+    },
+    {
+      "path": "Arquivo\\LinhaDeArquivoLidaArgs.cs",
+      "export_path": "Arquivo\\LinhaDeArquivoLidaArgs.cs",
+      "raw_sha256": "734ecb2d692f7983f80d594a23980fc4e65e4b09d366f914e97c64ce5055e4df"
+    },
+    {
+      "path": "Banco\\AbstractBanco.cs",
+      "export_path": "Banco\\AbstractBanco.cs",
+      "raw_sha256": "5d13aa60af670435bd8d84e7698e15f38448d98eeaa7bda3ff1c787d2d4b449b"
+    },
+    {
+      "path": "Banco\\Banco.cs",
+      "export_path": "Banco\\Banco.cs",
+      "raw_sha256": "3d8e5cc77fe6324e88bfdb06822966035c244ca8ea7f16de68b9befa35484896"
+    },
+    {
+      "path": "Banco\\BancoAilos.cs",
+      "export_path": "Banco\\BancoAilos.cs",
+      "raw_sha256": "5227ed02368c35131c6b3cf298a1ecd644208bdb81246aa6ba04cc551b87c6e9"
+    },
+    {
+      "path": "Banco\\BancoAsaas.cs",
+      "export_path": "Banco\\BancoAsaas.cs",
+      "raw_sha256": "b3d4830971363f1afd8e34fc7596cd820f4ef3b997436a24384a210b602c6ce2"
+    },
+    {
+      "path": "Banco\\BancoBanese.cs",
+      "export_path": "Banco\\BancoBanese.cs",
+      "raw_sha256": "f8c655fbf11035acf092ee83bef5feb49864267531fae6aff2ca62aa19cc2472"
+    },
+    {
+      "path": "Banco\\BancoBankBoston.cs",
+      "export_path": "Banco\\BancoBankBoston.cs",
+      "raw_sha256": "4e0de1f4b13a5afad9ab2cacdaa439068613dcf6f389322dfcb0532aedaaaec7"
+    },
+    {
+      "path": "Banco\\BancoBanrisul.cs",
+      "export_path": "Banco\\BancoBanrisul.cs",
+      "raw_sha256": "9974c9c3088699ea549e1f73682289ea030216aeb12e617ceee5a228d0562abd"
+    },
+    {
+      "path": "Banco\\BancoBasa.cs",
+      "export_path": "Banco\\BancoBasa.cs",
+      "raw_sha256": "82966345446e448ef2b91532d8919185a7dd4b2b695b92ea7e2ccf21546c5215"
+    },
+    {
+      "path": "Banco\\BancoBradesco.cs",
+      "export_path": "Banco\\BancoBradesco.cs",
+      "raw_sha256": "764b48866c0fef19f4acd03f9467f45670805d73ff7e832c1abc9f6f3fe6e333"
+    },
+    {
+      "path": "Banco\\BancoBrasil.cs",
+      "export_path": "Banco\\BancoBrasil.cs",
+      "raw_sha256": "00b10656cab5b96f43102e8f5306061445a1bdac497f245764fc5037e0b7492d"
+    },
+    {
+      "path": "Banco\\BancoBrb.cs",
+      "export_path": "Banco\\BancoBrb.cs",
+      "raw_sha256": "610d35af0969a10bb2f416d6a20e4249205bd9a9e571292ec60b44712ddc1e93"
+    },
+    {
+      "path": "Banco\\BancoBtg.cs",
+      "export_path": "Banco\\BancoBtg.cs",
+      "raw_sha256": "159c2b937b891600af9065c1c520980f8440dfcf1c934613493e6775b6f2e2cc"
+    },
+    {
+      "path": "Banco\\BancoC6bank.cs",
+      "export_path": "Banco\\BancoC6bank.cs",
+      "raw_sha256": "510e61c148db30f8c728b29a66be63785db6a860a8f0a33a9ba3b0b8b3cad913"
+    },
+    {
+      "path": "Banco\\BancoCaixa.cs",
+      "export_path": "Banco\\BancoCaixa.cs",
+      "raw_sha256": "52c28c57e6ca597a91c0642c45d1b13e8806e977812f2c74a33e3f95d3758d94"
+    },
+    {
+      "path": "Banco\\BancoCora.cs",
+      "export_path": "Banco\\BancoCora.cs",
+      "raw_sha256": "3d470fb17c904befebc029f257f8d8afe4a3b8642981c432024d9f578b53cbb5"
+    },
+    {
+      "path": "Banco\\BancoCredisis.cs",
+      "export_path": "Banco\\BancoCredisis.cs",
+      "raw_sha256": "64c046cf895238a2919a6f422f4e3c9460d1aacc8135bbd4700f0559499a650e"
+    },
+    {
+      "path": "Banco\\BancoCresol.cs",
+      "export_path": "Banco\\BancoCresol.cs",
+      "raw_sha256": "0873ea98c7179271be60d3143cdc04be826f52eb11ab0792e3de5a3cfe649824"
+    },
+    {
+      "path": "Banco\\BancoDaycoval.cs",
+      "export_path": "Banco\\BancoDaycoval.cs",
+      "raw_sha256": "e02f3cb1e2218a476aaa1ff9372dc0a5aade1dbffea8a2d6c8e5ecc483ce51a0"
+    },
+    {
+      "path": "Banco\\BancoEfi.cs",
+      "export_path": "Banco\\BancoEfi.cs",
+      "raw_sha256": "fbe2461746585406317bd4bf562386a51704ea5b9c8fe13d526fb2322a90ed1d"
+    },
+    {
+      "path": "Banco\\BancoHsbc.cs",
+      "export_path": "Banco\\BancoHsbc.cs",
+      "raw_sha256": "f7e3d5a642d3072404e92168c4dedc746d79767daae9e5df80dd5f2a5eba7305"
+    },
+    {
+      "path": "Banco\\BancoIntermedium.cs",
+      "export_path": "Banco\\BancoIntermedium.cs",
+      "raw_sha256": "a44400687e5d64e1cd7939ca2c2b892b353ef69f1e4f7d19d8124f420ac429af"
+    },
+    {
+      "path": "Banco\\BancoItau.cs",
+      "export_path": "Banco\\BancoItau.cs",
+      "raw_sha256": "0ed40a94241e860172b695f02b60e402c1ba551dc485ba246bd8ff4d003ccdc0"
+    },
+    {
+      "path": "Banco\\BancoMercadoPago.cs",
+      "export_path": "Banco\\BancoMercadoPago.cs",
+      "raw_sha256": "16a07c6ea5e2d3534173b5366c71a438f506fff9e0985b6cba3f6376c1e8758c"
+    },
+    {
+      "path": "Banco\\BancoNordeste.cs",
+      "export_path": "Banco\\BancoNordeste.cs",
+      "raw_sha256": "e24ca01348525f421ac9832c3736ea872afe74a35ee8afc7bd511ceae8829145"
+    },
+    {
+      "path": "Banco\\BancoPagbank.cs",
+      "export_path": "Banco\\BancoPagbank.cs",
+      "raw_sha256": "92d4cedadc577d2fff288e9f58e713002e302c37d23f5c2e7b0d5ce55fd5a964"
+    },
+    {
+      "path": "Banco\\BancoReal.cs",
+      "export_path": "Banco\\BancoReal.cs",
+      "raw_sha256": "756043329642de7be9b28e8135e74c50d86c2c1604d67bbbfb6538a254145f6a"
+    },
+    {
+      "path": "Banco\\BancoSafra.cs",
+      "export_path": "Banco\\BancoSafra.cs",
+      "raw_sha256": "248b9987aabee87744c8344e4f2db96ff24df1516d6f742b5175040c0a2bb458"
+    },
+    {
+      "path": "Banco\\BancoSantander.cs",
+      "export_path": "Banco\\BancoSantander.cs",
+      "raw_sha256": "3e5af99654d68c2eaa10f84f166ba4444b89933489fcf86377fe08fd13eecf4b"
+    },
+    {
+      "path": "Banco\\BancoSicoob.cs",
+      "export_path": "Banco\\BancoSicoob.cs",
+      "raw_sha256": "c01c78b8c69bed11581069703a0607b9b9510d0af6206361bc573c1cdd40dbcc"
+    },
+    {
+      "path": "Banco\\BancoSicredi.cs",
+      "export_path": "Banco\\BancoSicredi.cs",
+      "raw_sha256": "9de1f90b2cbed80fac5816e2a56a70eee8ef136729194a90e86d8ce494c671f6"
+    },
+    {
+      "path": "Banco\\BancoSudameris.cs",
+      "export_path": "Banco\\BancoSudameris.cs",
+      "raw_sha256": "921f246c90560ba6aceae2f715583a3601d3fc13e7a311d350cb9d7fdd89a3c9"
+    },
+    {
+      "path": "Banco\\BancoUnicred.cs",
+      "export_path": "Banco\\BancoUnicred.cs",
+      "raw_sha256": "7828af8ad979fa2cb6ded5dbc0a05f35bbc509f15a883954d9847691bdce1b1b"
+    },
+    {
+      "path": "Banco\\IBanco.cs",
+      "export_path": "Banco\\IBanco.cs",
+      "raw_sha256": "b6d108c3ae1553a96bc939b2b3d532e987be9ccfdc1c4000aa576c0e433f6059"
+    },
+    {
+      "path": "BoletoDePagarService.cs",
+      "export_path": "BoletoDePagarService.cs",
+      "raw_sha256": "ac4069a7f659233d9c8f8a33f270d0e03cd3d862a4fbc8cb36524d0cc399e517"
+    },
+    {
+      "path": "BoletoImpressao\\Boleto79Mm80Mm.cs",
+      "export_path": "BoletoImpressao\\Boleto79Mm80Mm.cs",
+      "raw_sha256": "30cb5ab9fdf10bf03958f91b3a47b5bea466397487ea96ea933f620459c0751f"
+    },
+    {
+      "path": "BoletoImpressao\\BoletoBancario.cs",
+      "export_path": "BoletoImpressao\\BoletoBancario.cs",
+      "raw_sha256": "4d153090684116bf66d9f7a8d676cc21c7eafa680f40e4244fdf9ace31410ed5"
+    },
+    {
+      "path": "BoletoImpressao\\BoletoBancarioDesigner.cs",
+      "export_path": "BoletoImpressao\\BoletoBancarioDesigner.cs",
+      "raw_sha256": "7e6f7461e42fd74c8ba4c8dfd4ddb469f306aacc272bbcf0d9695ca5ab008085"
+    },
+    {
+      "path": "BoletoImpressao\\ImagemCodigoBarraHandler.cs",
+      "export_path": "BoletoImpressao\\ImagemCodigoBarraHandler.cs",
+      "raw_sha256": "da6864ffb86553d3199f5a2d7b3878557c5658ae03c5ce5d25ae54921cbc686d"
+    },
+    {
+      "path": "BoletoPagamentoImagemService.cs",
+      "export_path": "BoletoPagamentoImagemService.cs",
+      "raw_sha256": "f063b84f1470d2eb6822eb1c7bb0e6d4946bd22fe72654442a54be809a1ff792"
+    },
+    {
+      "path": "BoletoService.cs",
+      "export_path": "BoletoService.cs",
+      "raw_sha256": "ef1ba50041f4d5c2f567c3b9a874d4cc2c31224f392c93345fcd277d82d88d8f"
+    },
+    {
+      "path": "Boleto\\Boleto.cs",
+      "export_path": "Boleto\\Boleto.cs",
+      "raw_sha256": "f52ef5116a910edb28caca00f9120d4a7d60114ad3e52fdee30f84264610b247"
+    },
+    {
+      "path": "Boleto\\Boletos.cs",
+      "export_path": "Boleto\\Boletos.cs",
+      "raw_sha256": "34ec1b128808c1bd08a9ba04c2e6365cb304f47d1aca92e30dbe6ee774fcdb02"
+    },
+    {
+      "path": "Boleto\\Carteira\\AbstractCarteira.cs",
+      "export_path": "Boleto\\Carteira\\AbstractCarteira.cs",
+      "raw_sha256": "f21a86705074462fa9c265b1db83b2a970501d72a618713097837e2dad33977d"
+    },
+    {
+      "path": "Boleto\\Carteira\\Carteira.cs",
+      "export_path": "Boleto\\Carteira\\Carteira.cs",
+      "raw_sha256": "22ebf182d5044ab3236ac47bd148a87e8e459f9d31ffb9f76aab076209a7e81a"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraAilos.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraAilos.cs",
+      "raw_sha256": "d0803e0c9b26cd491241bf5d68744e0543a8904ff7bade219ac2e58c764d5a86"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraBancoBrasil.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraBancoBrasil.cs",
+      "raw_sha256": "63810fb2831c34a039008f312274a6edf961cea307aba1165d388116cb30d557"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraBanese.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraBanese.cs",
+      "raw_sha256": "c0c3f2aac6e7e0072dafac11aa0a16f92b72fec18ff198628bb9d96ea05ff3a4"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraBankBoston.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraBankBoston.cs",
+      "raw_sha256": "003f4b6cb618a852992e1834fac4180d774db5322179b86b2f4aed5c0489f8c5"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraBanrisul.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraBanrisul.cs",
+      "raw_sha256": "e9629c95f9df781b955a1fc615c66e3d6748fb40e1dbc2a2d1308c29b37dd272"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraBradesco.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraBradesco.cs",
+      "raw_sha256": "981379dd4498f0d1951f5e035c6a6931bf62db6f0219bdfd8bdbaf7f58e7985f"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraBtg.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraBtg.cs",
+      "raw_sha256": "feebaa5e82a9506c88d3470fd0348c3ecc953a1a4684234ddfe217ddcb892bf3"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraCaixa.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraCaixa.cs",
+      "raw_sha256": "160ea4f10a3ce47e17c7ee37fc4da3e1516066de024406d59012fb7459895813"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraCredisis.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraCredisis.cs",
+      "raw_sha256": "1174f6348e7e0215c505a2420fd10fbb10dcbf6872f5833bc421940d88b57c4c"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraCresol.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraCresol.cs",
+      "raw_sha256": "6a0db2e6a3afc04ba938090f82f18c7cb14b2e19d31e09e317923421c62cc606"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraDaycoval.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraDaycoval.cs",
+      "raw_sha256": "8e706792bf44f818d254725abdc120c92cff404e069c4500a358b41de911e199"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraHsbc.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraHsbc.cs",
+      "raw_sha256": "659cdf517241541370072f30a4e721d8dfc43362745116c216cdac0a1e9d6602"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraIntermedium.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraIntermedium.cs",
+      "raw_sha256": "ce96f99fa34faccab79ca4024bec9e3d36127ec9679534eb10ed49bc4a78bb0e"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraItau.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraItau.cs",
+      "raw_sha256": "236ae1c5f9de06047f053573d9ab50cf191ee6db1ef64be1e0ed6dbbe66bd5d5"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraNordeste.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraNordeste.cs",
+      "raw_sha256": "3b4d5b7cb9ceaef4bba9a8bbe24aa5ce60df4c8b6405d1162d5668f864b7e04b"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraPagbank.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraPagbank.cs",
+      "raw_sha256": "7c61fbe40a46c21a1606aec271f94484f13b58da0f0b7184f94090514e841b16"
+    },
+    {
+      "path": "Boleto\\Carteira\\Carteiras.cs",
+      "export_path": "Boleto\\Carteira\\Carteiras.cs",
+      "raw_sha256": "dfedbb6350c6db35f35fa6c8d23ecb0ad760ca0232db51b17a9f0d51d8a021e3"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraSafra.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraSafra.cs",
+      "raw_sha256": "d24579eb61e6048d2932be6e0f67ca68819dbb8903f9bbc411ce81de009420fd"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraSantander.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraSantander.cs",
+      "raw_sha256": "54b67b1cc916ba704be353f655d438a2f7f440d791288fe708fd1e95851f0d5f"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraSicoob.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraSicoob.cs",
+      "raw_sha256": "d5b96267496c5a79a156c61ef9e1ff1bd6f043f4db2a6d67cef24651695554b3"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraSicredi.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraSicredi.cs",
+      "raw_sha256": "f89a3a19bb125f9caf3af05a9c9e09b5195430d0284215bfa2ac7b031b6d47b8"
+    },
+    {
+      "path": "Boleto\\Carteira\\CarteiraUnicred.cs",
+      "export_path": "Boleto\\Carteira\\CarteiraUnicred.cs",
+      "raw_sha256": "57d13f0dbbf826a7ec429ea0dded43c5fbb89417b50a7b053da818bd5a55a7d0"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasAilos.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasAilos.cs",
+      "raw_sha256": "79882d58554cbef98d597d8e602babd0335d8d672cb38c53662d4bbd2ade3a76"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasBancoBrasil.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasBancoBrasil.cs",
+      "raw_sha256": "29752f56212e69bbe8aedca7722bb7be528385b90a9ad34f27f67408392e1100"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasBanese.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasBanese.cs",
+      "raw_sha256": "81b55dc82b43c4ca2e657e430fea29f8fdf28f6fd55fc4f779c68e6c21b4c1e7"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasBankBoston.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasBankBoston.cs",
+      "raw_sha256": "d7af3aefe8c5aede8377fe4555b80b9f2fd152cec8d0b0b1286a9d6a3376ee5c"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasBanrisul.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasBanrisul.cs",
+      "raw_sha256": "7475f8d7b8062ebf9100966ff56c2fd01a8f0b063a4d58ebd87cb33c285996b1"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasBradesco.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasBradesco.cs",
+      "raw_sha256": "3b8ddda0b764bfcd711ef9f38eb8c5e193554f61ecec292b4b6cfad4c1a757eb"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasBtg.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasBtg.cs",
+      "raw_sha256": "02a034b7fa10c78067a099a6db1819d00c402fb835a616d865811d3ac29a5d04"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasCaixa.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasCaixa.cs",
+      "raw_sha256": "59a845d249d1ad0d1d68dc900b498ab8a00680b73b1e9aa62f3aa2ba9509a95f"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasCredisis.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasCredisis.cs",
+      "raw_sha256": "181ca296d4f74fc9d6bf84f75fa9540567b655f7dbb5d80ad090f2a1101d0967"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasCresol.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasCresol.cs",
+      "raw_sha256": "eaf04585a2d46c1cdf7bde6a06fe6aab0be17670b4a0ce0936483f6ca61355e3"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasDaycoval.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasDaycoval.cs",
+      "raw_sha256": "5d30e20f3d50b5f083ccc9dc3633fc9a258ab8834ac05627709fc06ea8729a3d"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasHsbc.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasHsbc.cs",
+      "raw_sha256": "4c091311473c655db58df3bcc915a847cc556fdd51a02f913aed420bf4289c17"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasIntermedium.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasIntermedium.cs",
+      "raw_sha256": "32be0c18c4549e4df47bad474ec21376e9762387e2f1cf38d2e5ce5222b92d3d"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasItau.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasItau.cs",
+      "raw_sha256": "a8fba1abf77b435c5e0e98716e453a2ce9ad679c80bf9e53955998c47c0c42ee"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasNordeste.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasNordeste.cs",
+      "raw_sha256": "75133e1485981caba9941e1d64fc8e62c0899cac09b7f2b9d1077e1faf5cad03"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasPagbank.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasPagbank.cs",
+      "raw_sha256": "c284fc57cb606583af254079913879323530b2c01e15ecb2076de01494f9bec3"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasSafra.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasSafra.cs",
+      "raw_sha256": "0de2c5e5058cf20ee83a8ee0376b56715ccc9af46ddf0b0f1f7b0272004059ff"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasSantander.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasSantander.cs",
+      "raw_sha256": "b8fd8ce0b2c6291a5ff7e0fea1b42503120d6fc9371ce8c6a27167c14f525f17"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasSicoob.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasSicoob.cs",
+      "raw_sha256": "983f785512f7c053aa2097ecc5d0c6ad46f6c0b9ab7285bf9d9d807b75e7f4b1"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasSicredi.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasSicredi.cs",
+      "raw_sha256": "19f01f683305c6c28af9b128a7c0a01ea13fc0c636235345d1692606e0c9a4ba"
+    },
+    {
+      "path": "Boleto\\Carteira\\EnumCarteirasUnicred.cs",
+      "export_path": "Boleto\\Carteira\\EnumCarteirasUnicred.cs",
+      "raw_sha256": "e390afb7df73a742835fabce3b264d35bc11d78409d186b476244ff5b493666f"
+    },
+    {
+      "path": "Boleto\\Carteira\\ICarteira.cs",
+      "export_path": "Boleto\\Carteira\\ICarteira.cs",
+      "raw_sha256": "9b921b4a82815ace79649a9f13b2c69969e53e37b5607ddf9ac866fc1688b477"
+    },
+    {
+      "path": "Boleto\\Cedente.cs",
+      "export_path": "Boleto\\Cedente.cs",
+      "raw_sha256": "70870e7ecd08bf1a71bbfc64f927a5cdc5e957ac1edfbaa239c30721b50ec1a0"
+    },
+    {
+      "path": "Boleto\\CodigoBarra.cs",
+      "export_path": "Boleto\\CodigoBarra.cs",
+      "raw_sha256": "6cced60d06c5d6066d22491ab4b703e816a2267fb8fe5eb1347028c76ea16b94"
+    },
+    {
+      "path": "Boleto\\CodigoLiquidacao\\AbstractCodigoLiquidacao.cs",
+      "export_path": "Boleto\\CodigoLiquidacao\\AbstractCodigoLiquidacao.cs",
+      "raw_sha256": "36968b3b46b4240e56a2cb3de998142e34fe4ff91156e719eb127eb194cc633b"
+    },
+    {
+      "path": "Boleto\\CodigoLiquidacao\\CodigoLiquidacao.cs",
+      "export_path": "Boleto\\CodigoLiquidacao\\CodigoLiquidacao.cs",
+      "raw_sha256": "b83df8f0af9f4aa324bd23823e80294fa78dbf5d28c9a4a9aaaeae8864abd737"
+    },
+    {
+      "path": "Boleto\\CodigoLiquidacao\\CodigoLiquidacaoBancoBrasil.cs",
+      "export_path": "Boleto\\CodigoLiquidacao\\CodigoLiquidacaoBancoBrasil.cs",
+      "raw_sha256": "743f68c33805d5fe387b83b32ba2c950466511fa1dabd98c2bbb5eb1bc4924f8"
+    },
+    {
+      "path": "Boleto\\CodigoLiquidacao\\CodigoLiquidacaoItau.cs",
+      "export_path": "Boleto\\CodigoLiquidacao\\CodigoLiquidacaoItau.cs",
+      "raw_sha256": "bb69b069e43717cfca731446dfd7b5e1e482fc15e7b94fa6ed75d7aa6a5a059a"
+    },
+    {
+      "path": "Boleto\\CodigoLiquidacao\\EnumCodigoLiquidacaoBancoBrasil.cs",
+      "export_path": "Boleto\\CodigoLiquidacao\\EnumCodigoLiquidacaoBancoBrasil.cs",
+      "raw_sha256": "df1bbf17a5942b9710edab482bc47831ab9e7282af431c2512e7555df399b030"
+    },
+    {
+      "path": "Boleto\\CodigoLiquidacao\\EnumCodigoLiquidacaoItau.cs",
+      "export_path": "Boleto\\CodigoLiquidacao\\EnumCodigoLiquidacaoItau.cs",
+      "raw_sha256": "d9f6e36ff6fe3bd6af63183868cde415a2acee5fe60da8f2d7e3bf0cd8629a57"
+    },
+    {
+      "path": "Boleto\\CodigoLiquidacao\\ICodigoLiquidacao.cs",
+      "export_path": "Boleto\\CodigoLiquidacao\\ICodigoLiquidacao.cs",
+      "raw_sha256": "c359e6d4f2721fb680f3dae41aaba73e81e3fcb3c41e7f7e7768a579b4e69d01"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\AbstractCodigoMovimento.cs",
+      "export_path": "Boleto\\CodigoMovimento\\AbstractCodigoMovimento.cs",
+      "raw_sha256": "6a26a5f7a4879de97152b68b2b9671ba34bd7d2220889304cd06bf642ddf1ed6"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\CodigoMovimento.cs",
+      "export_path": "Boleto\\CodigoMovimento\\CodigoMovimento.cs",
+      "raw_sha256": "e35a0a874fd6953cf1ed60d094ed53acc335b04cfa31dc1709684e2d03b7ffae"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\CodigoMovimentoBancoBrasil.cs",
+      "export_path": "Boleto\\CodigoMovimento\\CodigoMovimentoBancoBrasil.cs",
+      "raw_sha256": "49e8d4cf62e5710c203ce4d536b6c835186b53371b439020bafc17618b027056"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\CodigoMovimentoBtg.cs",
+      "export_path": "Boleto\\CodigoMovimento\\CodigoMovimentoBtg.cs",
+      "raw_sha256": "a7216f8cac7f8f581c183c1d3e379e06490af831875376be60e767a96031b406"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\CodigoMovimentoCaixaSicob.cs",
+      "export_path": "Boleto\\CodigoMovimento\\CodigoMovimentoCaixaSicob.cs",
+      "raw_sha256": "51673f4ef9f85e56b13cfec8810caff3063e650ab0f3986d6a53b92012ceef95"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\CodigoMovimentoCaixaSigcb.cs",
+      "export_path": "Boleto\\CodigoMovimento\\CodigoMovimentoCaixaSigcb.cs",
+      "raw_sha256": "61936abc1836da0b70d7a377cbe80fc5fedff9f7d2497800480375453d3a161b"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\CodigoMovimentoDaycoval.cs",
+      "export_path": "Boleto\\CodigoMovimento\\CodigoMovimentoDaycoval.cs",
+      "raw_sha256": "be50860f5ce801693086b73060413a1971fa18e5aa7f368155f1af9cf39a7a6b"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\CodigoMovimentoSantander.cs",
+      "export_path": "Boleto\\CodigoMovimento\\CodigoMovimentoSantander.cs",
+      "raw_sha256": "67058c2918675a99ef069bfda8792ef378feb5284947c10c8ea0ec655932e3f5"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\CodigoMovimentoSicoob.cs",
+      "export_path": "Boleto\\CodigoMovimento\\CodigoMovimentoSicoob.cs",
+      "raw_sha256": "c96d99c90d85b2a27f31f7dfbb85ffd68e35677ccc3a999804398790176b61c4"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\CodigoMovimentoSicredi.cs",
+      "export_path": "Boleto\\CodigoMovimento\\CodigoMovimentoSicredi.cs",
+      "raw_sha256": "6fde4661ea159622a94a9c3526259cea603779546b1bdaf4a17e280b77cd23cb"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoBancoBrasil.cs",
+      "export_path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoBancoBrasil.cs",
+      "raw_sha256": "61a8cdd95c4215cd11f700767c5cd151bc477e8eac7f2826739408206a65e0f9"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoBtg.cs",
+      "export_path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoBtg.cs",
+      "raw_sha256": "f6ced090ac17f526fb348bb87495f9dbfa373dcdb7835b26a90fd633e1327318"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoCaixaSicob.cs",
+      "export_path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoCaixaSicob.cs",
+      "raw_sha256": "e6e3b85479efda37ab67fad251ce05ff0e687ef8fb0ae3855ee293a2fc7e0962"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoCaixaSigcb.cs",
+      "export_path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoCaixaSigcb.cs",
+      "raw_sha256": "5c5f681f712e99af45c9a0e33c46124bd1336d7eb8493105d54f5bc4166503be"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoDaycoval.cs",
+      "export_path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoDaycoval.cs",
+      "raw_sha256": "9626f32a3f1dac197ad5f450d48e20f4610d50f57adf45621de018dc27c85543"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoSantander.cs",
+      "export_path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoSantander.cs",
+      "raw_sha256": "0d120bb59dd85fa110b6e4e7d73aebd6a67524919b80e49df1509ab6464607cb"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoSicoob.cs",
+      "export_path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoSicoob.cs",
+      "raw_sha256": "ceaefdd7ecc83dc41dfc8bd44c6a1bea754923f62cf08f5f2e81c9f1a4702d2f"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoSicredi.cs",
+      "export_path": "Boleto\\CodigoMovimento\\EnumCodigoMovimentoSicredi.cs",
+      "raw_sha256": "85cb4feaa2f3b19c91091527b119186a70e0780532ac162d057d2e9ba6ac3cd4"
+    },
+    {
+      "path": "Boleto\\CodigoMovimento\\ICodigoMovimento.cs",
+      "export_path": "Boleto\\CodigoMovimento\\ICodigoMovimento.cs",
+      "raw_sha256": "ba7dade137c2474992c5b91dc23bb7c67d241a8204f8dbda6c2d77168081dea5"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\AbstractCodigoRejeicao.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\AbstractCodigoRejeicao.cs",
+      "raw_sha256": "157fce2425b0ae51a962d5c7dabbffe71569a3263cec14c7243e381e2b73138b"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicao.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicao.cs",
+      "raw_sha256": "258786513cb581512b43f83e1e727bc8960a98fc70562845d46758e35561ab31"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoBancoBrasil.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoBancoBrasil.cs",
+      "raw_sha256": "02199a931706cce485c5d983dd44b7b3c47435744824b27d7c27843e35ea45a3"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoBanrisul.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoBanrisul.cs",
+      "raw_sha256": "9603215474fee8b50b27497a7fa60e30bc92ad8b1c9deb4ece82304ce338f5c8"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoBtg.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoBtg.cs",
+      "raw_sha256": "ae8617847fe07c7a048655c13c81058502bc16580c1de5aaf4782b113f5c1803"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoCaixaSicob.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoCaixaSicob.cs",
+      "raw_sha256": "16edc3d07cc9cbdbd3f1a6761745073ac28710397320cd0841ca9e07e411d958"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoCaixaSigcb.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoCaixaSigcb.cs",
+      "raw_sha256": "0e28758be69db385570a367add81707ab35b976ca208b821d9182164240cc6f4"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoDaycoval.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoDaycoval.cs",
+      "raw_sha256": "23299b9ed0ca50fa093c9e79d8c1c67383fe5e2f0e790f60c86049788bebb60f"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoSantander.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoSantander.cs",
+      "raw_sha256": "066dc3337ea6633c0d6b47e53846e98161b9ed4b0b46cfd83a6af79e54c2a897"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoSicoob.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoSicoob.cs",
+      "raw_sha256": "3c9bbb19bd84b9fc137218dd2bb78333798da900ec740e5d3ebf18ccab12df29"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoSicredi.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\CodigoRejeicaoSicredi.cs",
+      "raw_sha256": "12cb2d0745489d72dcd879c712740201e8737431fe43a27786179cf05c14e089"
+    },
+    {
+      "path": "Boleto\\CodigoRejeicao\\ICodigoRejeicao.cs",
+      "export_path": "Boleto\\CodigoRejeicao\\ICodigoRejeicao.cs",
+      "raw_sha256": "1111212d3881a69a84ebfcde5660fa6a3a2f8c0eff5e8ae66b556f8baa0d57c6"
+    },
+    {
+      "path": "Boleto\\CodigoTarifas\\AbstractCodigoTarifas.cs",
+      "export_path": "Boleto\\CodigoTarifas\\AbstractCodigoTarifas.cs",
+      "raw_sha256": "db66e671c307379a522b5a7a3aea8ab5f4573756d5939a499594ee8a0a72664e"
+    },
+    {
+      "path": "Boleto\\CodigoTarifas\\CodigoTarifas.cs",
+      "export_path": "Boleto\\CodigoTarifas\\CodigoTarifas.cs",
+      "raw_sha256": "bba4426558d76645e805067c4df4d93664943c3caeb38987d520e181607945d3"
+    },
+    {
+      "path": "Boleto\\CodigoTarifas\\CodigoTarifasBancoBrasil.cs",
+      "export_path": "Boleto\\CodigoTarifas\\CodigoTarifasBancoBrasil.cs",
+      "raw_sha256": "1390a6358e4c7bc523697e77eb4950f6f989e884fb64052a4df34b8f4d8a5691"
+    },
+    {
+      "path": "Boleto\\CodigoTarifas\\EnumCodigoTarifasBancoBrasil.cs",
+      "export_path": "Boleto\\CodigoTarifas\\EnumCodigoTarifasBancoBrasil.cs",
+      "raw_sha256": "b50dcc56c10eddfc3037583312591ee5205ab9f61d864cf9fbb040adcb152bd1"
+    },
+    {
+      "path": "Boleto\\CodigoTarifas\\ICodigoTarifas.cs",
+      "export_path": "Boleto\\CodigoTarifas\\ICodigoTarifas.cs",
+      "raw_sha256": "6d28152b21f06bd04157771aa615fd5acb1aeb278edf66bfe8976efdfd29d05a"
+    },
+    {
+      "path": "Boleto\\ContaBancaria.cs",
+      "export_path": "Boleto\\ContaBancaria.cs",
+      "raw_sha256": "fdc937dedaf5194ee0986a6fc36a800f37e847291e75d8a83380651ed4d36933"
+    },
+    {
+      "path": "Boleto\\Endereco.cs",
+      "export_path": "Boleto\\Endereco.cs",
+      "raw_sha256": "76f482c83f4bd763fa6c965f7c362464bb855878651647ec1410c138f4fccf20"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\AbstractEspecieDocumento.cs",
+      "export_path": "Boleto\\EspecieDocumento\\AbstractEspecieDocumento.cs",
+      "raw_sha256": "9641fecb97566e3eeb13c6ff7ca4c2859ed35ec4c677660883c57b59bce752cd"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoAilos.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoAilos.cs",
+      "raw_sha256": "f62eb55667c8d5b677755abbcd6263d69187c7495dad457d22e70e1676b46c7f"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBancoBrasil.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBancoBrasil.cs",
+      "raw_sha256": "28f9c85c9367af161c15bbfe7421b8f6b0f727231e361ee4b93d91258240bd50"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBanese.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBanese.cs",
+      "raw_sha256": "976c718174b3c778fba87fe86561deb2cac06b11220b99c604de2508a6c099b6"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBankBoston.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBankBoston.cs",
+      "raw_sha256": "d854d790c2b0c4f843bdf1e9ac3603c84689cf6a4143c83829e36cd2b5756cd0"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBanrisul.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBanrisul.cs",
+      "raw_sha256": "9994623852af6f7c6443c921bb9f56b821a7f80280a1fc40483101a12535c769"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBradesco.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBradesco.cs",
+      "raw_sha256": "cfc1c66c18468fb55edd30657701f379f94d8e48a618f2cb967f15b2facba0ff"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBtg.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoBtg.cs",
+      "raw_sha256": "6a8e733c99f315ae63c4f960ead22eb09b9f0121e880e2aed5efdcbf4577a177"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoCaixa.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoCaixa.cs",
+      "raw_sha256": "4c91aa8b046fe62c11e105a82080adc45235f3a4f062aaaa4740c206a898f7aa"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoCredisis.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoCredisis.cs",
+      "raw_sha256": "f1fbd0db55b2836c52d9b24cd896def7e421480b04b432447154b5e31a23b7c0"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoCresol.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoCresol.cs",
+      "raw_sha256": "16c04e343ba6714d6466871531fc3b152edfcc1d09e093f9a0c649d0a0830ac4"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoDaycoval.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoDaycoval.cs",
+      "raw_sha256": "8fe6db6779da5d62c850260cb00d8063dd8eb285c82c8b164b955be3115a5375"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoHsbc.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoHsbc.cs",
+      "raw_sha256": "6b8cbd04f2358326526bf52155f0f668300100153f5ac0de2a63b4331d332019"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoIntermedium.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoIntermedium.cs",
+      "raw_sha256": "2f93181a2dabcd7438a60a137a438a173ce095e01c9b044f0b90521b4a99635f"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoItau.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoItau.cs",
+      "raw_sha256": "b08510ac6f7bf1aa8afbf71e51ab83ea59f6dfd9f0482bc2e6741e8388c69e39"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoNordeste.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoNordeste.cs",
+      "raw_sha256": "343180dad3eec89d7dc1f801623983909ead21384112e9c61e73173b6b4cdd3a"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoReal.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoReal.cs",
+      "raw_sha256": "ad7ee8b6c497dea0e4a46fc505c6e7c3ecbc173faf225c4247526919525100bb"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSafra.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSafra.cs",
+      "raw_sha256": "ce3d897400ee6ef3c77e1706037e411afd408d980404fa77824369b1d9c47730"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSantander.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSantander.cs",
+      "raw_sha256": "424567e03c3cc12da4a586e0d123f0834a75f9d5cf003debb986763d0a0523f1"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSicoob.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSicoob.cs",
+      "raw_sha256": "1fece07699f51bb4857d21cf1e5dec901d66c18d9ef83c8982bf0d2fe2a104c4"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSicredi.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSicredi.cs",
+      "raw_sha256": "50b62449bf3f4b8225678875572574a45306870180e281ce9d1439ba4e01708c"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSudameris.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoSudameris.cs",
+      "raw_sha256": "ddd54939a46089255e65f12a866ba6b417e855308f132263c05291a054e1688f"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoUnicred.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EnumEspecieDocumentoUnicred.cs",
+      "raw_sha256": "a0acb8de827c54185f4e33c485b804d3ab4b7676efb4de80845bc3131639ebf4"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumento.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumento.cs",
+      "raw_sha256": "c8d260e0f3ea6d29cd256a0d8437b2ad05c46de28d7410489d1e204dfc26ef32"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoAilos.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoAilos.cs",
+      "raw_sha256": "96d5ae7bdb21de7cc7f07c10f12a86c2327bc8c94b3f96cd30e615effc0c7483"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoBancoBrasil.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoBancoBrasil.cs",
+      "raw_sha256": "794d7d945f796b4f3d6a92a662b216a05855cffc183461efbf2b3f2fafd3d568"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoBanese.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoBanese.cs",
+      "raw_sha256": "1388d0ecd343cac54bffd29783f482438db7e3f34fdc0608e302b18844dcb73d"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoBankBoston.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoBankBoston.cs",
+      "raw_sha256": "fa50346b5650bfc8fb1f7e90b87ebfb5c060f1e7168406219aadd2238fffdc2e"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoBanrisul.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoBanrisul.cs",
+      "raw_sha256": "ab6e5ed407c03e85a7f6d548d9309c24430b42f00edff3a1c8a2154af992dbfa"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoBradesco.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoBradesco.cs",
+      "raw_sha256": "c02851c72687ae8e905291f16f60e5a431e9b037eae643019478988560973982"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoBtg.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoBtg.cs",
+      "raw_sha256": "acce665b4b8fa6d2c0d6e4ab94db3e03e21088c95085ba966572a63ec335731f"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoCaixa.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoCaixa.cs",
+      "raw_sha256": "86201728b1e56927e4061e45978ecae9de75aeb59c5d1548844b0471baf828ee"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoCredisis.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoCredisis.cs",
+      "raw_sha256": "ee29b4a1fd6a5fa6e17e5dc31fa4b30df7d0e240934e026583864a57b69268fc"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoCresol.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoCresol.cs",
+      "raw_sha256": "8e109a829ba35824ba699fe7bcc6351ba30b2c62ab94ef9a3a15a030e69b9459"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoDaycoval.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoDaycoval.cs",
+      "raw_sha256": "3234961625f5fda0a6199a0bec17ddb433f53dd5098f7e6d4b9bea5de032a1f9"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoHsbc.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoHsbc.cs",
+      "raw_sha256": "5c766012d5748a738040eec819f6beb92c3a4bb7ae66d3d02029b6c35f8c589a"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoIntermedium.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoIntermedium.cs",
+      "raw_sha256": "024e976b92acb2ebb86bf96f5cfaa2b9c927e5ede72d958c7a0de3c31c1b16b4"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoItau.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoItau.cs",
+      "raw_sha256": "26e8b2a79cd109c76f3f4ec0f844ff0bb1804b80271a0f9618d31c96626be1be"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoNordeste.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoNordeste.cs",
+      "raw_sha256": "dff461438bf3604e058669c9ece84c94fba4db10bcbfb8c8d13d5bd97338df90"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoReal.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoReal.cs",
+      "raw_sha256": "16fe952a5435b299f01cede530296b165a5400e8fd66f7fb96ec6eeca18c1ff9"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoSafra.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoSafra.cs",
+      "raw_sha256": "0e3cd1bb14b554336238c7554502305abc5c26b3a6c0629d4f79a96e408c05af"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoSantander.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoSantander.cs",
+      "raw_sha256": "b22350520877e8956ec170c5d2b9577849923b01dea4a40be66322a8d80eaf8e"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoSicoob.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoSicoob.cs",
+      "raw_sha256": "73a38abfad63accd067b979f19f342709b72e86e1a3c94397f7368847bcd7347"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoSicredi.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoSicredi.cs",
+      "raw_sha256": "f86746772fd0ca1b791e1b227fa585e748f1d2a25c2c024b262dcdceafa7126e"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoSudameris.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoSudameris.cs",
+      "raw_sha256": "9f0042beac7e4684cfa0b53449fcb0ed5216b63d3bbfdaa19f0e38516ff13360"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspecieDocumentoUnicred.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspecieDocumentoUnicred.cs",
+      "raw_sha256": "d6e10a358f7f22caa60a73f8c3ae0895076e62639db5632be43f17e19ea2e4ac"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\EspeciesDocumento.cs",
+      "export_path": "Boleto\\EspecieDocumento\\EspeciesDocumento.cs",
+      "raw_sha256": "889b95ce87a778e32e82e3f4f7857e4ae2938340ebfd78ccdd470dabb846a85a"
+    },
+    {
+      "path": "Boleto\\EspecieDocumento\\IEspecieDocumento.cs",
+      "export_path": "Boleto\\EspecieDocumento\\IEspecieDocumento.cs",
+      "raw_sha256": "e61ea67288c2e32c96ac2d3b54ceec2adcf8a0baff9513cedf8153285662c73c"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\AbstractFormaCadastramento.cs",
+      "export_path": "Boleto\\FormaCadastramento\\AbstractFormaCadastramento.cs",
+      "raw_sha256": "5cb93138383e18bc0ca1e3313a54d7ad2db01db339a24e86ae8efec1ccb07042"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoAilos.cs",
+      "export_path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoAilos.cs",
+      "raw_sha256": "77d74476cf2cf52aa85a373e9c3e488b972cf4503cb6caa7ab43791b0df4e1f2"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoBancoBrasil.cs",
+      "export_path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoBancoBrasil.cs",
+      "raw_sha256": "7c150908309dd60ea0954611b155d81ff5e821e0573ba3e1c70de3b0a360a01c"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoBanese.cs",
+      "export_path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoBanese.cs",
+      "raw_sha256": "793d50cfd8b5d8d5deb29fd675bebc36e8868d372d0b84d8d3c74bfc573e23d5"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoBanrisul.cs",
+      "export_path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoBanrisul.cs",
+      "raw_sha256": "bbff1f86dfa635b942a0c9a85cc0ea33177de3f506fd3f5eea26fcb75c735050"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoCaixa.cs",
+      "export_path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoCaixa.cs",
+      "raw_sha256": "cb63b9fa76d119e7759efa1affc1d20a0c4141af285f6c44b8cb22ed47c103f6"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoSafra.cs",
+      "export_path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoSafra.cs",
+      "raw_sha256": "0ac7565a2d8c648a1037568ab822cd28192bbdc2c37dc027813221a9286562ba"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoSantander.cs",
+      "export_path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoSantander.cs",
+      "raw_sha256": "2f02219cd443d0fcb38175ad9935eadfa3457168f3f58e460bd689c2cf99ff4b"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoSicredi.cs",
+      "export_path": "Boleto\\FormaCadastramento\\EnumFormaCadastramentoSicredi.cs",
+      "raw_sha256": "bb734d7a76033eaa0e00391a98af1622239ac62592a5f1b98f4720e64dc3df95"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\FormaCadastramento.cs",
+      "export_path": "Boleto\\FormaCadastramento\\FormaCadastramento.cs",
+      "raw_sha256": "0fdc811450abffb685d1f00225060a6f686a47a79e5e13e6dedce33116053b94"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\FormaCadastramentoAilos.cs",
+      "export_path": "Boleto\\FormaCadastramento\\FormaCadastramentoAilos.cs",
+      "raw_sha256": "7eb3251b2eea59a15f8048df06e407282867186ab1ebb4034adb35d06902b29b"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\FormaCadastramentoBancoBrasil.cs",
+      "export_path": "Boleto\\FormaCadastramento\\FormaCadastramentoBancoBrasil.cs",
+      "raw_sha256": "71e56d28cc320506583bc83197342270bffa1968227d7556ad7dd5f5d75fb3a0"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\FormaCadastramentoBanese.cs",
+      "export_path": "Boleto\\FormaCadastramento\\FormaCadastramentoBanese.cs",
+      "raw_sha256": "7ecb0c70af5afff40cee4d00edf292a958d36dfbbfcd85561f5a360b4f6b6b14"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\FormaCadastramentoBanrisul.cs",
+      "export_path": "Boleto\\FormaCadastramento\\FormaCadastramentoBanrisul.cs",
+      "raw_sha256": "89e188de0bfb38eb0ab4673894676bd2537b89cb5b5ae9189ff8b5a34b0f7d21"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\FormaCadastramentoCaixa.cs",
+      "export_path": "Boleto\\FormaCadastramento\\FormaCadastramentoCaixa.cs",
+      "raw_sha256": "0ae7490c2fae5799c748fea75aa1bee73f1ef89f5666f8f56e3f33dc6c184889"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\FormaCadastramentoSafra.cs",
+      "export_path": "Boleto\\FormaCadastramento\\FormaCadastramentoSafra.cs",
+      "raw_sha256": "31254bfd100ba74f526337e390d069c7ecd42b460789f9cfff3c858d3fdeebbc"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\FormaCadastramentoSantander.cs",
+      "export_path": "Boleto\\FormaCadastramento\\FormaCadastramentoSantander.cs",
+      "raw_sha256": "52a8bf96fd59bfc3a22ecb3e674582a5027f1ec7b969ecae33f2daa00bbd36bf"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\FormaCadastramentoSicredi.cs",
+      "export_path": "Boleto\\FormaCadastramento\\FormaCadastramentoSicredi.cs",
+      "raw_sha256": "03f4c071e29c8fd38eb3ca9e91b9a07591a4e14f16025b629627acb3d966eef3"
+    },
+    {
+      "path": "Boleto\\FormaCadastramento\\IFormaCadastramento.cs",
+      "export_path": "Boleto\\FormaCadastramento\\IFormaCadastramento.cs",
+      "raw_sha256": "1c60681c7adf9988a475fac7f45f60f6c4d9245d8e976c212ef666c7347d827a"
+    },
+    {
+      "path": "Boleto\\ICedente.cs",
+      "export_path": "Boleto\\ICedente.cs",
+      "raw_sha256": "b2c3e522a902af267b0c1bfa58d899de0d06d345164ee4f2f945a8217aacbcb8"
+    },
+    {
+      "path": "Boleto\\Instrucao\\AbstractInstrucao.cs",
+      "export_path": "Boleto\\Instrucao\\AbstractInstrucao.cs",
+      "raw_sha256": "75541f6fb7fcc53263a5ee5e6788a473cf936dfcb916c0f72b9b059fc467d969"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesAilos.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesAilos.cs",
+      "raw_sha256": "64fa7362d1b7fe419c836f8c80880f39367c5ecfa8924531edba2af5fe796ae1"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesBancoBrasil.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesBancoBrasil.cs",
+      "raw_sha256": "5d7cd2ff1a15bf4a9777b3d573a05192477f6c8c756fe55681815b22d6b49447"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesBanese.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesBanese.cs",
+      "raw_sha256": "19add7c4af8a1fb0f80e8cd37aa736b72818c5a5fd61d9b3f997474aa5ead3ef"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesBankBoston.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesBankBoston.cs",
+      "raw_sha256": "94581c9f68b5c9c1ce34bdde3afe42ab5778367290d26eaa137a705bfcc8626c"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesBanrisul.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesBanrisul.cs",
+      "raw_sha256": "bd4fb0e0e408785b9ac81904552a5d85233e69f16da0a0b92b57e1d9275a99b9"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesBradesco.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesBradesco.cs",
+      "raw_sha256": "3454bbd72bfdbd3fcfe25b9db094c37f831329206d19c84afd1e2b50370efe08"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesBtg.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesBtg.cs",
+      "raw_sha256": "a4f184b40e3195a0370dc3d710155a03b1a23b9e30df7b4a840299db3f54e375"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesCaixa.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesCaixa.cs",
+      "raw_sha256": "8a11b6039c2528637193e18da873ffe4fff77a6e27bc710511797d9224df55df"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesCredisis.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesCredisis.cs",
+      "raw_sha256": "7dda6954e3d5eac5bb30587e8099ebdbea0145f00e1fb1b23804db4ee72787bb"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesCresol.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesCresol.cs",
+      "raw_sha256": "7157bc0a4b76c8b4eb6e2ea2b969c3692cf36ab79c4b22fa82e5a69541e4b2f7"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesDaycoval.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesDaycoval.cs",
+      "raw_sha256": "e2bb4a9569cf39471530f2cca814187b26d3ce78292fa61554f8624b1aaa6df3"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesHsbc.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesHsbc.cs",
+      "raw_sha256": "e0ca7efa68a2206ce531900ff666dbf62bc6343fc971c110bfa6fb5dad385cfc"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesIntermedium.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesIntermedium.cs",
+      "raw_sha256": "d0acb2b1e5941d623973cfca0c586a56d88acf90e38b489548284c7071d5444b"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesItau.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesItau.cs",
+      "raw_sha256": "05b3e8cf845103b5737d95203057e18688fd9fd28373e34afb22adf12683b017"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesNordeste.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesNordeste.cs",
+      "raw_sha256": "dbc9eafb9b40e7dc2330cac77e6445d17d51507f64b2c41a73f394d2df41f434"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesReal.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesReal.cs",
+      "raw_sha256": "7e1c2a48b60743e761a57e495f63f2e28622f2a9639db45099a09701b590bb01"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesSafra.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesSafra.cs",
+      "raw_sha256": "3e8b2cb5073c5e860cfe2ce7a72d15b133cd21e4986acb8a1c2ede0cb96f194e"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesSantander.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesSantander.cs",
+      "raw_sha256": "1c44b9a98efeacc7b1ef57ef31549e27ba73f95e5203f7c159e36dd6c35122c3"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesSicoob.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesSicoob.cs",
+      "raw_sha256": "10010a5bab0aadcfbc62277247c6108ffed24dab74df71b67aac54e361f6a5cc"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesSicredi.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesSicredi.cs",
+      "raw_sha256": "30e8bf395178adda25a92deab2809264b346208e71b920a56db3285d0ba7b20b"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesSudameris.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesSudameris.cs",
+      "raw_sha256": "317730a8639534768ff9f8cf80b3aff828cfa0cdd2cbc501bdfd52441087fcd6"
+    },
+    {
+      "path": "Boleto\\Instrucao\\EnumInstrucoesUnicred.cs",
+      "export_path": "Boleto\\Instrucao\\EnumInstrucoesUnicred.cs",
+      "raw_sha256": "eb02eb7178759db261914ad9a753929e2f3b5ab6b80ee5797d8e0a4ed5fba18d"
+    },
+    {
+      "path": "Boleto\\Instrucao\\IInstrucao.cs",
+      "export_path": "Boleto\\Instrucao\\IInstrucao.cs",
+      "raw_sha256": "704e2c7ab7d5f6c7326274d788d6e45f5ce33a6e580c1f68ae34407b96c1dc8f"
+    },
+    {
+      "path": "Boleto\\Instrucao\\Instrucao.cs",
+      "export_path": "Boleto\\Instrucao\\Instrucao.cs",
+      "raw_sha256": "88be0cdfc7e5baca37e50eb88c3a54a35f57f19d1604294fb2adef3d499134f1"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoAilos.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoAilos.cs",
+      "raw_sha256": "e92a30b165978dec41ed5453d8ae149246812396f6001f7533c514cdecf01660"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoBancoBrasil.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoBancoBrasil.cs",
+      "raw_sha256": "14d5030407d474b39179e8908f6e38725a22fceff5c7fe6e3093ad99939d7fef"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoBanese.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoBanese.cs",
+      "raw_sha256": "164e07f88cdf16a1db891734150eea91501cab49c6274f85b68f32c065bba37e"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoBankBoston.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoBankBoston.cs",
+      "raw_sha256": "ad1c77f69ca04f322818f0fa5b389389f19ef0a7515b6fe9ba83ac702bc90c0f"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoBanrisul.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoBanrisul.cs",
+      "raw_sha256": "8947fa16a2d63cef31bab3f749e7807030c47c7ba0fe8efdafa9182bc9320e1f"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoBradesco.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoBradesco.cs",
+      "raw_sha256": "e3b5350b872cb5fd154e2b32f802c5f135936a012c2bbe0ac5207de20af73732"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoBrb.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoBrb.cs",
+      "raw_sha256": "1b4aeea9b139451dd219766969d77682f5b213a3d59fa2013639e562bdc38e95"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoBtg.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoBtg.cs",
+      "raw_sha256": "d48e02a1617ba4ede3532f9fa3d098d79dbe6335931bbae7bdebec45898e4ce4"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoCaixa.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoCaixa.cs",
+      "raw_sha256": "bdab0174183ee2f282604f93949c99f9dff9ef2e9087d91685f99d40ee852e31"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoCredisis.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoCredisis.cs",
+      "raw_sha256": "5744cc9a529895b48845f6179670ed498bc0a7aa3c9416142782297a1ed6fa85"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoCresol.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoCresol.cs",
+      "raw_sha256": "295b89dbae9c1ffeff48c26704f003dbd908dab0efc06e4c0272f6321534d76c"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoDaycoval.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoDaycoval.cs",
+      "raw_sha256": "bd63f10f42308ce713f4f9a0241abef91d4769c5bce84b950f75c87af5c66dc5"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoHsbc.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoHsbc.cs",
+      "raw_sha256": "9e925e3854afb361d067d54e2849d9accec98b84dff28f204d86803a4cc5c1e2"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoIntermedium.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoIntermedium.cs",
+      "raw_sha256": "bf80a3895cb1963e9e8568df43adc6f408b835c991a0e5e63e6ce568d9d36687"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoItau.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoItau.cs",
+      "raw_sha256": "53994166176365fdf43f7f1461cdbe6bdfc18f1b9bd14cb78fc431247b68073a"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoNordeste.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoNordeste.cs",
+      "raw_sha256": "3931feb2e0ab23214d7d1df16a5e2d426f8dcbed5588d3b836009531d690539c"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoReal.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoReal.cs",
+      "raw_sha256": "036a187bdf0e0025db6f5437b93f86ac1a477d8d72a1564e85193030174752b0"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoSafra.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoSafra.cs",
+      "raw_sha256": "4f8aa75c7197effc7fec891efd14556ce4a19779751082fbcf8d5c0ff5e109e5"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoSantander.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoSantander.cs",
+      "raw_sha256": "8641f18e8465e9dcc2cfc61b65d851eea389ee28138ce2efd7abe2d2bdbd1cbf"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoSicoob.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoSicoob.cs",
+      "raw_sha256": "72e3d04b205293f547e1d1253fe4f7a2693e737130e86101919438fba3d610d3"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoSicredi.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoSicredi.cs",
+      "raw_sha256": "63c1f374b284074d926ae8b9cd5a2ee6904784055655300706273abbc274287e"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoSudameris.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoSudameris.cs",
+      "raw_sha256": "bb2fab0241f97c5206a0d94f8ba302c4563d623ef89ef31472d0f1e6824abb4d"
+    },
+    {
+      "path": "Boleto\\Instrucao\\InstrucaoUnicred.cs",
+      "export_path": "Boleto\\Instrucao\\InstrucaoUnicred.cs",
+      "raw_sha256": "3fb5bfd950cd0a2301599c0550730063ccb36c86cacd8251b3a60bf742c9c8cc"
+    },
+    {
+      "path": "Boleto\\Instrucao\\Instrucoes.cs",
+      "export_path": "Boleto\\Instrucao\\Instrucoes.cs",
+      "raw_sha256": "50cadd5e3ef1c1c39d61d2c0569aa00a46dcccfcfe08cedb3cf8cdb5bf056f9f"
+    },
+    {
+      "path": "Boleto\\Sacado\\InformacoesSacado.cs",
+      "export_path": "Boleto\\Sacado\\InformacoesSacado.cs",
+      "raw_sha256": "3c932b5639ea36f4343f91f7165cbbac0dd88407ea2961cefa4d8132f78b448d"
+    },
+    {
+      "path": "Boleto\\Sacado\\InfoSacado.cs",
+      "export_path": "Boleto\\Sacado\\InfoSacado.cs",
+      "raw_sha256": "d451e1e6164e5a0c2262c4313c2db016a6444c57fd815f1cfd671d2000baf0c3"
+    },
+    {
+      "path": "Boleto\\Sacado\\ISacado.cs",
+      "export_path": "Boleto\\Sacado\\ISacado.cs",
+      "raw_sha256": "cae759561c91d3a6f20bbd433de8de0111c2c23c921a18461bbc285c773878bd"
+    },
+    {
+      "path": "Boleto\\Sacado\\Sacado.cs",
+      "export_path": "Boleto\\Sacado\\Sacado.cs",
+      "raw_sha256": "38ae7a3baced256336aa71de02c50cc676bd4dbfbbe46b4fb9dca97fe7bba368"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\AbstractTipoCobranca.cs",
+      "export_path": "Boleto\\TipoCobranca\\AbstractTipoCobranca.cs",
+      "raw_sha256": "e586fb26f4bd0b85ef656e978d1b1939ed540f35a0ae5814bc388ce2abb70c96"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaAilos.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaAilos.cs",
+      "raw_sha256": "3c90d8d510d2739d33935521793daca1fe4eba8f8e3b4d3e0e45f9ce096f6d7e"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaBancoBrasil.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaBancoBrasil.cs",
+      "raw_sha256": "df882be16002f1b10a126121a346f1708cb8fc7993fe95b72560117bd9b6fedc"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaBanrisul.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaBanrisul.cs",
+      "raw_sha256": "04f406d9e134ebb4b6954d13472f8dbbbad4a17a30042ea4cf56382ab4a5a214"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaBtg.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaBtg.cs",
+      "raw_sha256": "fa698afc75266e7881b7fb142de586023e988ca54b6074dc111cf10c2fa11ccf"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaCaixa.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaCaixa.cs",
+      "raw_sha256": "ed31121e7e1024e06f4a3d7269fba3a0a54fbc201e7a664da92ad25defabc921"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaNordeste.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaNordeste.cs",
+      "raw_sha256": "fda8b49f67da1fc7b96436e4fddcb02ce017ffc4a41fdc03f9547d72eb16a07a"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaSafra.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaSafra.cs",
+      "raw_sha256": "18f6c61e10c0e587df3404ba376326fd3cd8307e4dd16feddba837bf76cf1711"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaSantander.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaSantander.cs",
+      "raw_sha256": "93139e674fdf34bfa7874d4584830702d3b6339071655ddcf8bafb844301206c"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaSicoob.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaSicoob.cs",
+      "raw_sha256": "a380d0b01a899f11cc6f2234298eb44174bdd09e249cf3ffb774a06f0a01903b"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\EnumTipoCobrancaSicredi.cs",
+      "export_path": "Boleto\\TipoCobranca\\EnumTipoCobrancaSicredi.cs",
+      "raw_sha256": "cd3498306fdd676d9db8596c995650b6e94841ac7348942e4cb9e0c2a2a9da85"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\ITipoCobranca.cs",
+      "export_path": "Boleto\\TipoCobranca\\ITipoCobranca.cs",
+      "raw_sha256": "c5c5632bd8a5c1a381187a8e38e75ae43db54fe40a094d6b9c94d6c9ca10236e"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobranca.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobranca.cs",
+      "raw_sha256": "ad335ad556a4d0431de769427b26cddc78a84fa11c3b2f339800352fdf0a9baf"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaAilos.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaAilos.cs",
+      "raw_sha256": "2dc91feb8527a963fad8994eacd06b6859ecb8c1d657e00a1dbbf0eea9cb9a09"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaBancoBrasil.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaBancoBrasil.cs",
+      "raw_sha256": "1ea2e409702c9a3d4c3a010aa6cf7a7b90140f98e15b098d8096b835de0bd094"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaBanrisul.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaBanrisul.cs",
+      "raw_sha256": "c1aa510673c064c2a3b035ccdebfe5e20c9a647b71c132823288db46168f1558"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaBtg.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaBtg.cs",
+      "raw_sha256": "b529e1319047779edf040868d91ba8de55b7fd4adff992656fa4921d48ef1354"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaCaixa.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaCaixa.cs",
+      "raw_sha256": "35a11e992e6b8e4bc5a3f1e7a315de3b5d945f80154f72ad261b6d094267b0cc"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaNordeste.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaNordeste.cs",
+      "raw_sha256": "84a32545479606b4144343e82943f9b938c27d2ea4ee5129a93702ce47d033d2"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaSafra.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaSafra.cs",
+      "raw_sha256": "8d159f5f53196fa55fb00a37e0676aa592e2144a00e252dfc0923a9b1d602145"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaSantander.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaSantander.cs",
+      "raw_sha256": "e66599dfa849e564687c71e5de0e4a9cdd25c8ef41688651689d8b08ac214c5f"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaSicoob.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaSicoob.cs",
+      "raw_sha256": "ef02d487f8010731e748ec596eb5affcb917f0ed78759c41a0d4e378775f7d84"
+    },
+    {
+      "path": "Boleto\\TipoCobranca\\TipoCobrancaSicredi.cs",
+      "export_path": "Boleto\\TipoCobranca\\TipoCobrancaSicredi.cs",
+      "raw_sha256": "e72cfcc95ac39aff8fc67d3951a6af12dc516c6d5bdda57a239db7a2b40155a9"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\AbstractTipoDistribuicao.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\AbstractTipoDistribuicao.cs",
+      "raw_sha256": "574ab209c1b647250028120efe111aa3ba6df5ae750f1879d81eeada22ca481a"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoAilos.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoAilos.cs",
+      "raw_sha256": "a4017e5280a3e6a812771b9e364b291b2bf271285b79d2af09ba28fc57b6179a"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoBancoBrasil.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoBancoBrasil.cs",
+      "raw_sha256": "2ebdb2954c768f781d98db5221b9a4aa2a9e195648da4e93929b79478e4425d7"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoBanese.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoBanese.cs",
+      "raw_sha256": "741a3c0adbf74d9695c16b422cbe949f9823cd6cf45b95b8c6b239cbd7804bab"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoBanrisul.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoBanrisul.cs",
+      "raw_sha256": "d4b647b4003427ca0d857c421484b3f05e731de4973bf242ab88c327c5b5a3ad"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoBtg.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoBtg.cs",
+      "raw_sha256": "a99236850dfa26c3efdd14ecdc2ac972eac0235bf1dbc3e90064cc48db597a8c"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoCaixaSicob.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoCaixaSicob.cs",
+      "raw_sha256": "86e5a34751888151f29b0e4f3f7cbf74fd8fef4befb35b5bef3fa8d916fb35b0"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoCaixaSigcb.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoCaixaSigcb.cs",
+      "raw_sha256": "c3d09a5df80f3e1128ca99175b87626270478aaf3f1d64f13df5d46f05c4e1af"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoCredisis.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoCredisis.cs",
+      "raw_sha256": "e60e9e466c147bb681b2af0133bb233b408a4e8f0792cffa5c1eba64c958835f"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoDaycoval.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoDaycoval.cs",
+      "raw_sha256": "ef087ee5de1542f343ef10d9ff5cc616f8a42b03745f598e4f573b9297eacba2"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoSafra.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoSafra.cs",
+      "raw_sha256": "dc7c096ee38e6acdf949b489c82c772740f65c7df9dc700250799ae5b29bd79f"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoSicoob.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoSicoob.cs",
+      "raw_sha256": "f6d2f583e6103993d3a9c9492c73372779e5e1f12a94370da99e46add8dca6d6"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoSicredi.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\EnumTipoDistribuicaoSicredi.cs",
+      "raw_sha256": "5de1bde729600486782b95fe2db24dc77e3e3a00220bda2cffa311512b8bf098"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\ITipoDistribuicao.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\ITipoDistribuicao.cs",
+      "raw_sha256": "aba8665071aff1fb45a5189e8f61969a17eab34ff8163855945d08cff015ef2a"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicao.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicao.cs",
+      "raw_sha256": "7026c14a1aa4c9ca6efff52a701a2e77376e3e60b5e29ed4c5fd0244ae8c1d33"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoAilos.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoAilos.cs",
+      "raw_sha256": "3029107d3d940edbe37a52fc19fb4f6af255fa73f65887d06cb40b067f3f2403"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoBancoBrasil.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoBancoBrasil.cs",
+      "raw_sha256": "09062255b19f023db88d8a1ab7faf39214f213511ed2519dcc047a7e1998f387"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoBanese.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoBanese.cs",
+      "raw_sha256": "9fba0a51e5eebf2244cb4862f558184b970ecda38ee380f083856e9ff9ec7f27"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoBanrisul.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoBanrisul.cs",
+      "raw_sha256": "4864896e0068505a6ab2a24bf871fca8bb44a7d87e670772f23db6c1ce3d43f7"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoBtg.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoBtg.cs",
+      "raw_sha256": "aa44211c2f528454edf9caf3101a6dbe070ba18b10d8329c128c1494e49e3cd9"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoCaixaSicob.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoCaixaSicob.cs",
+      "raw_sha256": "9888847f387320902c187e87303e93f56fc5d244466dba2cd1500cfb59c897fc"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoCaixaSigcb.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoCaixaSigcb.cs",
+      "raw_sha256": "94c45ea7881f481264bf3771c3ecafbe8d000fe4e0ca4bd3f7bf12d0c51d320c"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoCredisis.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoCredisis.cs",
+      "raw_sha256": "b06ea342f26b9677adbd5f7890c6bc08fad714a36d4a5fb4c43730685d7ddabc"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoDaycoval.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoDaycoval.cs",
+      "raw_sha256": "4b0365c2475aa20c935ac1e8867f1aaff31050b37344dc9bdacb4b9f535d5233"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoSafra.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoSafra.cs",
+      "raw_sha256": "9e3bdb3ee81226a49ebe1e227094ff45ebe38d9ac6345f54e11ab33f37ee4524"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoSicoob.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoSicoob.cs",
+      "raw_sha256": "951eb961bac29b613616ca5d74ed38402bbe4d4d3ab00bf8a72807fa6cae0f2b"
+    },
+    {
+      "path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoSicredi.cs",
+      "export_path": "Boleto\\TipoDistribuicao\\TipoDistribuicaoSicredi.cs",
+      "raw_sha256": "f5a72893c787c97a8d1d8186be35dee5fba696692ce4637d0875b6a6a6533b19"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\AbstractTipoEmissao.cs",
+      "export_path": "Boleto\\TipoEmissao\\AbstractTipoEmissao.cs",
+      "raw_sha256": "4fe7f43f8d496a501bf9a243e1dee8bc1e8b65b779daa9aee08ab522add485de"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoAilos.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoAilos.cs",
+      "raw_sha256": "216b4d77830ab03c364b560e9fc9e24db54117c61d30bf3f41731176168fbc6f"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBancoBrasil.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBancoBrasil.cs",
+      "raw_sha256": "b7d76f3f5b72416ae1d1d44fb9cffbe4dfe0f0132b881546ecfe60e6457dc8f2"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBanese.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBanese.cs",
+      "raw_sha256": "d2d3291d8f8c53eadf079d222226906a5407eb6fe28866c99fc535a0ea03f599"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBanrisul.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBanrisul.cs",
+      "raw_sha256": "0f94dc97c490433eea9ff0f0deb95b1bb562bdc8861f1c085226840e76b704bf"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBradesco.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBradesco.cs",
+      "raw_sha256": "9d702b6f31c254fd408ed79c15f5a040137ecc1135369c6835b86eaef5eafa61"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBtg.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoBtg.cs",
+      "raw_sha256": "6f15d5ebfe69afdabd72d16755a0135041b978a87b860cd3ae955c56198fa9df"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoCaixa.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoCaixa.cs",
+      "raw_sha256": "cffe8be8688bbda6f57128e1d6be155485227c367b14fdc5cff382e360570524"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoCredisis.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoCredisis.cs",
+      "raw_sha256": "d1d58411e2f333262df072e987cca92c524c9cdfc3bad79512f0f97717a0acd5"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoCresol.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoCresol.cs",
+      "raw_sha256": "28e6d7db8783b2ef9e5f2cbb739b634ee50f8f472437bd532261fd99661b51a3"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoDaycoval.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoDaycoval.cs",
+      "raw_sha256": "80dae4c41be62be799228a1beec3a84e46be2cd4bb12c233e53cc3d6d0dd5e12"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoSafra.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoSafra.cs",
+      "raw_sha256": "ab556eaf358d65d43c3bc54be855a3315169c78c43620a8f75cc54987abfd239"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoSicoob.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoSicoob.cs",
+      "raw_sha256": "945b3df3e14bff77092cd652bcce7ae73e57af53cbc0ba7d7884d11d8814e708"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\EnumTipoEmissaoSicredi.cs",
+      "export_path": "Boleto\\TipoEmissao\\EnumTipoEmissaoSicredi.cs",
+      "raw_sha256": "74de8184adb739a12082f161a4380e9f38b75100771d809396f847ede60f6596"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\ITipoEmissao.cs",
+      "export_path": "Boleto\\TipoEmissao\\ITipoEmissao.cs",
+      "raw_sha256": "94a1ac84a71f8667f2c3201a21442264bdf230a924df1d18dabfabc35bee4d40"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissao.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissao.cs",
+      "raw_sha256": "54de8732b9f971a38ad8d47ffb281ca802726cf34177105cae2438f221f484bf"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoAilos.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoAilos.cs",
+      "raw_sha256": "f7e755af642f85ced0436dfb1383f0f7aa2e5f2f255dedef365623e110dc6014"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoBancoBrasil.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoBancoBrasil.cs",
+      "raw_sha256": "123193c32f883328f4b93dbe497c3e1f9b1c7b59a4918a3189dccd384e2704b6"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoBanese.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoBanese.cs",
+      "raw_sha256": "09dd1f09efe75781f8c0cf32ab14b67159e68696d979d40f63c24b94b2c1a0e8"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoBanrisul.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoBanrisul.cs",
+      "raw_sha256": "71f15bb087ec02b472fada9da29649705962861b71445cc9b5044759bb876f42"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoBradesco.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoBradesco.cs",
+      "raw_sha256": "1040eff7a2202af59c94c99b9b5763cf88c278d304a208e3063b7dd34d5a18da"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoBtg.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoBtg.cs",
+      "raw_sha256": "577c738862a90942e71002a1db87274276f22d0d08566afc22cb0ff3d5fe0a67"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoCaixa.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoCaixa.cs",
+      "raw_sha256": "611b796c5bd699f00e7024701a6aecc60297e08eb3737b6ebd7299498848047c"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoCredisis.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoCredisis.cs",
+      "raw_sha256": "9ae7f4926dfac8e101642054be9b63a90c1fd666d66ab4f3dedea5483f072cd4"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoCresol.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoCresol.cs",
+      "raw_sha256": "fbd2b68670cd37a6d029682a3611ba93c5ec1adbd2d0ee70277de3656d37e92d"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoDaycoval.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoDaycoval.cs",
+      "raw_sha256": "a37e41ad81df262995aebc6a271468e5a028bf393ecdaff5626796eedb368e64"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoSafra.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoSafra.cs",
+      "raw_sha256": "dd2ac00ed8b8cc7efba77bacc1673dea1b4504164016e7787e9ebde112da5aa4"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoSicoob.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoSicoob.cs",
+      "raw_sha256": "eb14e5cba474003e26f5678f0a4300cd264eadaf1c864806e43096cd1880ec5d"
+    },
+    {
+      "path": "Boleto\\TipoEmissao\\TipoEmissaoSicredi.cs",
+      "export_path": "Boleto\\TipoEmissao\\TipoEmissaoSicredi.cs",
+      "raw_sha256": "5adf35fbbdba2136023a4b93c0869731807d4b7216d64aeec9c376ac546006b1"
+    },
+    {
+      "path": "Boleto\\TipoTransmissao\\AbstractTipoTransmissao.cs",
+      "export_path": "Boleto\\TipoTransmissao\\AbstractTipoTransmissao.cs",
+      "raw_sha256": "d71856f528840084c9b3a70fd7dbb74af9bd61ffba12f0f064753211246974d0"
+    },
+    {
+      "path": "Boleto\\TipoTransmissao\\EnumTipoTransmissaomissao.cs",
+      "export_path": "Boleto\\TipoTransmissao\\EnumTipoTransmissaomissao.cs",
+      "raw_sha256": "201f20d74baa56cfbac5372b8269cabff9ca03160b01de36ad52579757938bb7"
+    },
+    {
+      "path": "Boleto\\TipoTransmissao\\ITipoTransmissao.cs",
+      "export_path": "Boleto\\TipoTransmissao\\ITipoTransmissao.cs",
+      "raw_sha256": "a1b149aad5cce25bf9294066436d7f24b1de2631156104acd17831d27a4dbb87"
+    },
+    {
+      "path": "Boleto\\TipoTransmissao\\TiposTransmissao.cs",
+      "export_path": "Boleto\\TipoTransmissao\\TiposTransmissao.cs",
+      "raw_sha256": "7b5a4f09fc5d87b4a6191ffa962357e63d8fea0a0d52bb710798e47396bf34df"
+    },
+    {
+      "path": "Boleto\\TipoTransmissao\\TipoTransmissao.cs",
+      "export_path": "Boleto\\TipoTransmissao\\TipoTransmissao.cs",
+      "raw_sha256": "6e53b161887605638aa3c88bc29d27af8bdbcb2ca8b1f93a581ead7e763c3138"
+    },
+    {
+      "path": "ConversorHtmlPdfTuesPechkin.cs",
+      "export_path": "ConversorHtmlPdfTuesPechkin.cs",
+      "raw_sha256": "af63cb9a80de9b2de06f4136965daab599097042b5368c4afa7d7aecd8ae98b6"
+    },
+    {
+      "path": "Enums\\CategoriaLancamento.cs",
+      "export_path": "Enums\\CategoriaLancamento.cs",
+      "raw_sha256": "581091c087c4657d2b43912caaa2f23d9d56f4d8369ea44e9efa13c9adadd8c4"
+    },
+    {
+      "path": "Enums\\FinalidadeArquivoRemessaRetorno.cs",
+      "export_path": "Enums\\FinalidadeArquivoRemessaRetorno.cs",
+      "raw_sha256": "3b1db33d14d413d41b3b227497d61845248013a11086b303f387c5e4d2271e40"
+    },
+    {
+      "path": "Enums\\IsencaoCpmf.cs",
+      "export_path": "Enums\\IsencaoCpmf.cs",
+      "raw_sha256": "a0a7fb1dc71e3a9b6f56d2e9a1d409fcca8bd14e8946594b1cca3c494a77bbec"
+    },
+    {
+      "path": "Enums\\TipoComplementoLancamento.cs",
+      "export_path": "Enums\\TipoComplementoLancamento.cs",
+      "raw_sha256": "92c30912ae017f9a8e34d9b9e01ecb9a53c11a45fb95f653c15a7c4001ad413c"
+    },
+    {
+      "path": "Enums\\TipoInscricao.cs",
+      "export_path": "Enums\\TipoInscricao.cs",
+      "raw_sha256": "fcb798bbe4a921214469729a0339eeeee76ce544d4f89c7548aa0280b06ca8c8"
+    },
+    {
+      "path": "Enums\\TipoLancamento.cs",
+      "export_path": "Enums\\TipoLancamento.cs",
+      "raw_sha256": "109a698faf2b9dda63b7903150c8617e2a06b8112f8faacde7385e515c74676b"
+    },
+    {
+      "path": "Enums\\TipoMovimento.cs",
+      "export_path": "Enums\\TipoMovimento.cs",
+      "raw_sha256": "fb0fe5b9fcc09ecf8a6823e308c6879b6c61021aec566b7b750fc13d8c51e43d"
+    },
+    {
+      "path": "Enums\\TipoOcorrencia.cs",
+      "export_path": "Enums\\TipoOcorrencia.cs",
+      "raw_sha256": "c7a03f46b3d1f035e22dba21db813e1e13da91272ecb7b70732a5a89fa039bba"
+    },
+    {
+      "path": "Enums\\TipoPessoa.cs",
+      "export_path": "Enums\\TipoPessoa.cs",
+      "raw_sha256": "c066040b883f25ecd6aeb4795336aaa4c10d50b78435ee9f557f70e3324fedc6"
+    },
+    {
+      "path": "Enums\\TipoSolucao.cs",
+      "export_path": "Enums\\TipoSolucao.cs",
+      "raw_sha256": "3b684006b0c9b80788b9231ab68e2a5966185568e5bb00e47b1bc16f6a456b8c"
+    },
+    {
+      "path": "Facade\\ArquivoRemessaFacade.cs",
+      "export_path": "Facade\\ArquivoRemessaFacade.cs",
+      "raw_sha256": "d4186e500ddaf72e0101184c496971fffb243e7701a6044003d7b9802addeeab"
+    },
+    {
+      "path": "Facade\\BancoFacade.cs",
+      "export_path": "Facade\\BancoFacade.cs",
+      "raw_sha256": "fd487b67eff6f328b49185a20eb74001a7ff60c7fbd771ea6787ebc7469dccf0"
+    },
+    {
+      "path": "Facade\\BancoFacadeFactory.cs",
+      "export_path": "Facade\\BancoFacadeFactory.cs",
+      "raw_sha256": "4cdb18ddb446f5c70e6c759a5d9cf844ff2edfb8f7e5c7c02d29521341b089a0"
+    },
+    {
+      "path": "Facade\\BoletoFacade.cs",
+      "export_path": "Facade\\BoletoFacade.cs",
+      "raw_sha256": "3efa5857656cb3e67d7162da97f3837ca4c03ea317594b653c43b976dc3fdcac"
+    },
+    {
+      "path": "Facade\\BoletoFacadeFactory.cs",
+      "export_path": "Facade\\BoletoFacadeFactory.cs",
+      "raw_sha256": "0c082b772f3ab6733c42c57d79ca3c568163f35fad848180b4fae91d710eed5a"
+    },
+    {
+      "path": "Facade\\CedenteFacade.cs",
+      "export_path": "Facade\\CedenteFacade.cs",
+      "raw_sha256": "091359212f433d56e7c286cf1e243593b6756a289133044547ad68d0642fb23d"
+    },
+    {
+      "path": "Facade\\CedenteFacadeFactory.cs",
+      "export_path": "Facade\\CedenteFacadeFactory.cs",
+      "raw_sha256": "c1ac7bc5d9066cf5c6098960231c49abe61c94f986726549b38ac94a1aa35f6e"
+    },
+    {
+      "path": "Facade\\ContaBancariaFacade.cs",
+      "export_path": "Facade\\ContaBancariaFacade.cs",
+      "raw_sha256": "c33d6bdeaae0c4c858aeed0ff08e1fda37e2d6f3407a6307e06cc6dba204943b"
+    },
+    {
+      "path": "Facade\\ContaBancariaFacadeFactory.cs",
+      "export_path": "Facade\\ContaBancariaFacadeFactory.cs",
+      "raw_sha256": "e7e5136d93734d1ee001e99b2480c41bbc213546ff3d74f21f1dca2d781cc43c"
+    },
+    {
+      "path": "Facade\\EnderecoFacade.cs",
+      "export_path": "Facade\\EnderecoFacade.cs",
+      "raw_sha256": "d5f39ee9a6eb1a60d7e161e08cdff42a2f720ef53155b520a0f1db814a24fa7e"
+    },
+    {
+      "path": "Facade\\EnderecoFacadeFactory.cs",
+      "export_path": "Facade\\EnderecoFacadeFactory.cs",
+      "raw_sha256": "6a940934e5c447d73aa164df3aa8c64dd101ee1db623450674598a2bf0840d61"
+    },
+    {
+      "path": "Facade\\InstrucaoFacade.cs",
+      "export_path": "Facade\\InstrucaoFacade.cs",
+      "raw_sha256": "44fcce7c3bd7c75e945c0e88dd21a61406124cca9860b41ad6865f3273d3db95"
+    },
+    {
+      "path": "Facade\\InstrucaoFacadeFactory.cs",
+      "export_path": "Facade\\InstrucaoFacadeFactory.cs",
+      "raw_sha256": "b41c1e377ecae932bd6e602d37c082d6461023297bbd83310d12ec97338c888d"
+    },
+    {
+      "path": "Facade\\SacadoFacade.cs",
+      "export_path": "Facade\\SacadoFacade.cs",
+      "raw_sha256": "c06727633bb12f807bc87b6842ff7a32f5ac77983a1f1ca980cf56bc57359298"
+    },
+    {
+      "path": "Facade\\SacadoFacadeFactory.cs",
+      "export_path": "Facade\\SacadoFacadeFactory.cs",
+      "raw_sha256": "018f9a9e53fc4a7d32088e3d1ccb372ab7eeda10d117bceb13fdb9a09512614d"
+    },
+    {
+      "path": "Html.cs",
+      "export_path": "Html.cs",
+      "raw_sha256": "1fa6124afee4329a251585870949ab5583e0835878c7e1a413eff6de0e27bdbc"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "4ae29526c1c31cc44ce9e9e4f2e5d1d14960cb368b847d2637419319533327b1"
+    },
+    {
+      "path": "Util\\BarCodeBase.cs",
+      "export_path": "Util\\BarCodeBase.cs",
+      "raw_sha256": "79c22ed7e8129f36c79bda4a0003e9228d503eb27b143fd574bd6bd1b530ac7c"
+    },
+    {
+      "path": "Util\\C2of5i.cs",
+      "export_path": "Util\\C2of5i.cs",
+      "raw_sha256": "1f39c677a01d9c35af20cba3e0ce8b350369c5a318ca4ed8a65f0d20a2993e53"
+    },
+    {
+      "path": "Util\\DateInterval.cs",
+      "export_path": "Util\\DateInterval.cs",
+      "raw_sha256": "00dd355d64ee3e557ff4c29f720bff6eeabbd1f2d64ea9badb10f1b6ca3734b7"
+    },
+    {
+      "path": "Util\\Extensions.cs",
+      "export_path": "Util\\Extensions.cs",
+      "raw_sha256": "b1c72e9d3ca86579dc750157539942a2fc211f4c59cbba0c734d8226bee2d865"
+    },
+    {
+      "path": "Util\\LeitorLinhaPosicao.cs",
+      "export_path": "Util\\LeitorLinhaPosicao.cs",
+      "raw_sha256": "a2a965c4638f803747b7c3340b7bfbb2dcd6cb28b9c5a82f53e7baa14f2ed8df"
+    },
+    {
+      "path": "Util\\Utils.cs",
+      "export_path": "Util\\Utils.cs",
+      "raw_sha256": "2030fbe7d010a55083403b859fb9a0f34a7d6218642b9b5dfa95a8f9870153ed"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.BoletoImpressao.Boleto79Mm80Mm.resources",
+      "file": "0000.bin",
+      "bytes": 14441,
+      "sha256": "3e4c1c7f51aa8350d5171accd8e25989f760ba6cdb01cf5e7180bf7a9c9b3a36"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Html.resources",
+      "file": "0001.bin",
+      "bytes": 22175,
+      "sha256": "6cfd88395bff3c5e96b1df636aaf4505bd13f498cf1a58dc684817b29841c9cc"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.136.jpg",
+      "file": "0002.bin",
+      "bytes": 4068,
+      "sha256": "7e175c020a1dd0d296a7106c61a315fe90825f28f1002fc8f7fbd3eaa0ba1db5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.133.jpg",
+      "file": "0003.bin",
+      "bytes": 4246,
+      "sha256": "b92c9cff7b59c91b224ffdaa7610c5fc4ec5738a7fa9b3c71d6a4fcf5eb7b7a2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.077.jpg",
+      "file": "0004.bin",
+      "bytes": 4695,
+      "sha256": "dd6e1b5376a10a7b542ef3a2d55b2bfe877c9906aa7b152bad2b666e58285ec8"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.085.jpg",
+      "file": "0005.bin",
+      "bytes": 3868,
+      "sha256": "8bf1a3585c604e14ae16f8e37608d967eca8aee35a6c764ebf825fba0b1f4673"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.208.jpg",
+      "file": "0006.bin",
+      "bytes": 4045,
+      "sha256": "c53538581df3cf7612ea160454403368b60846b769f083985760b676dea2c3c5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.097.jpg",
+      "file": "0007.bin",
+      "bytes": 2817,
+      "sha256": "ad2f6768dbda3bef71392e584e9002ffad83506378d9d0f1662bc2c16e1ca2fa"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.001.jpg",
+      "file": "0008.bin",
+      "bytes": 4353,
+      "sha256": "dbbc930ae972e65d60d679b8cbf7bcd9de5d4ff903ad07260233ff7c099a93a5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.003.jpg",
+      "file": "0009.bin",
+      "bytes": 13357,
+      "sha256": "6385f9ce1b594003132edb744c89e5e39d3b05351c9ac7f1ad6abef8e7e44bc0"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.004.jpg",
+      "file": "0010.bin",
+      "bytes": 5649,
+      "sha256": "afdc22598a83e724d57f0500b1a4922b2c3131bc15240d65f0d53429383acc37"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.008.jpg",
+      "file": "0011.bin",
+      "bytes": 16653,
+      "sha256": "cf3edce7ca550c071963e8ea9d3a329d8d3eef06aa972c41684470770b806a60"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.021.jpg",
+      "file": "0012.bin",
+      "bytes": 19878,
+      "sha256": "c0d825f073c4031f0c3d8218af4eb678a09031e5c373434660bf7aff673749df"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.024.jpg",
+      "file": "0013.bin",
+      "bytes": 15988,
+      "sha256": "ba850427641fcfbc07be42f4841ec21a008fa309c936f8df36533df46e694aea"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.027.jpg",
+      "file": "0014.bin",
+      "bytes": 17027,
+      "sha256": "61b7ca1d40e5592e4d2c0afad51c21b5bcbf26eecc5ead2191b25ebf0a3ad286"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.029.jpg",
+      "file": "0015.bin",
+      "bytes": 12541,
+      "sha256": "da5a3d376cfb327d7b1e16fa3483ad9c1ded9bad5cb7aed93f4736049a47c190"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.033.jpg",
+      "file": "0016.bin",
+      "bytes": 6204,
+      "sha256": "78e8c87038a9c8b39ca54621dc31637c8b3a7ff42f1618df1386c2c4155cda35"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.041.jpg",
+      "file": "0017.bin",
+      "bytes": 79178,
+      "sha256": "076045b3b8035bf6ce63057900caaaabc02bbd628f2a21f1de247d7c20e8f471"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.047.jpg",
+      "file": "0018.bin",
+      "bytes": 4292,
+      "sha256": "4cd7be4fadbb865765614c182518b64f9bd6185c3672bb4e7a78224190bc504c"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.070.jpg",
+      "file": "0019.bin",
+      "bytes": 4937,
+      "sha256": "241c27b9cae0dcf9e2c3a04698d33cbc8ca448bf8d783bc9a4ee46bacf4ee0ce"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.104.jpg",
+      "file": "0020.bin",
+      "bytes": 22205,
+      "sha256": "a5b9152b9c4cadccb38ab99aeec49a1f6b3a05590ad62970a2464a0d2f0f97c5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.151.jpg",
+      "file": "0021.bin",
+      "bytes": 19771,
+      "sha256": "243a178cd61d209714c77126000063d16b731c46c98fd11179ccdf9f88b94ba3"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.237.jpg",
+      "file": "0022.bin",
+      "bytes": 3853,
+      "sha256": "b3714e832bab7e035d90232be21925a637248909e067718f07ec2868167c5c6a"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.244.jpg",
+      "file": "0023.bin",
+      "bytes": 18033,
+      "sha256": "0e5c5fc776dd22c10446ff51754cee5cdd6bdce6e6b6c3f8162d7718df510a78"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.246.jpg",
+      "file": "0024.bin",
+      "bytes": 19154,
+      "sha256": "cc7c955f17fff90df9f83577c64eaec9ab38220a9e4b534346886ab4db351581"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.263.jpg",
+      "file": "0025.bin",
+      "bytes": 22451,
+      "sha256": "8bc25b4bed33290288cea62c6f3e6e6766a822ed1872e0f81f8e7ee6bb666d1e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.266.jpg",
+      "file": "0026.bin",
+      "bytes": 18486,
+      "sha256": "19c8f16c53fb89a8b1edbd2a976a191f7f0099f1f19a39c57c12329fd715c067"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.275.jpg",
+      "file": "0027.bin",
+      "bytes": 18015,
+      "sha256": "8defe7bf4c94bdb3d402b8c3877f9d161d984626a84002f7df318e7db3e21e57"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.291.jpg",
+      "file": "0028.bin",
+      "bytes": 13926,
+      "sha256": "c220f1e529290cbe76b35385e8f1167c5fcf4bf2f15fd9df3dc9044f613ca208"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.320.jpg",
+      "file": "0029.bin",
+      "bytes": 16342,
+      "sha256": "bf10a905d01f839019bc99f36684cd85a8376829108885fd3efdb9f858425112"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.341.jpg",
+      "file": "0030.bin",
+      "bytes": 15490,
+      "sha256": "b5ceab0a52051e74d6e53ecfaca66c30ca6c1e4bc095ca19ba17da46adf55ef5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.347.jpg",
+      "file": "0031.bin",
+      "bytes": 16938,
+      "sha256": "fbdb00169b0eef13ac1f1ae40e2dd448ade51b16f803ec4c048ed5438760c72a"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.353.jpg",
+      "file": "0032.bin",
+      "bytes": 16088,
+      "sha256": "dcf78a5ff6b361eb7452d1420b648674c2ad360b59a2f4fd97052464d9035855"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.356.jpg",
+      "file": "0033.bin",
+      "bytes": 13780,
+      "sha256": "993bedd63dfbc6540f9e53b35eb319ab0ea72c6c5c263ab015373e2b61084e1d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.389.jpg",
+      "file": "0034.bin",
+      "bytes": 19328,
+      "sha256": "a670677bf2078152c6a45b4e88d152ba9991218a318967f28241ca65ce2a1a0b"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.392.jpg",
+      "file": "0035.bin",
+      "bytes": 17894,
+      "sha256": "07d76274b3843f2ccaa0de2057c688a3506aa1ee155a67ce07598c39b94dfb39"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.399.jpg",
+      "file": "0036.bin",
+      "bytes": 13977,
+      "sha256": "6449bc542803024de0ae0876f45857ef4e552f4bc1688fdb983e9662ad4a4f63"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.409.jpg",
+      "file": "0037.bin",
+      "bytes": 15971,
+      "sha256": "6c7d9262f113335203743095c0ddb4e9cf6ca4992ffc484147812e896f2e704e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.422.jpg",
+      "file": "0038.bin",
+      "bytes": 18878,
+      "sha256": "0a090280b9e78c3ddb2537b0d756ae69a5edb81f655c7932f20270366d52cd6e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.424.jpg",
+      "file": "0039.bin",
+      "bytes": 16088,
+      "sha256": "1726cc94cd4bc95bd930efd6d5f9ba30b6f7ef54484b5a20786377f4d2e9f7ac"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.453.jpg",
+      "file": "0040.bin",
+      "bytes": 19353,
+      "sha256": "be000015e810826076cd83a4e23f0ae743b6cc2f8765f6cbd9d0b1014ba13a06"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.479.jpg",
+      "file": "0041.bin",
+      "bytes": 13397,
+      "sha256": "3a4e81525723202c7393002dd5fe06e98609fedeedc3d3fc963492cf1b4fe4c0"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.600.jpg",
+      "file": "0042.bin",
+      "bytes": 15453,
+      "sha256": "b766b21bbe8db41be361f36b6f8ce934a4be2efefc3844759f9e608193bd9ed1"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.604.jpg",
+      "file": "0043.bin",
+      "bytes": 17585,
+      "sha256": "d61744ca40d70097f3fb22a6d8998c3ddcf64731bbe302ed6b1516511c1c40d2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.610.jpg",
+      "file": "0044.bin",
+      "bytes": 16220,
+      "sha256": "dccdd32723b43c8c32f1395b933686e3393d583d4e26c33b3cfd7217ca2f241f"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.623.jpg",
+      "file": "0045.bin",
+      "bytes": 20026,
+      "sha256": "486640675c8d9cae73d084a3ef4e9fc6b3837d710c4eab86d1eb3f2a0c03ebc1"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.633.jpg",
+      "file": "0046.bin",
+      "bytes": 20681,
+      "sha256": "5bef07c4c1a75e5b4097a52c2f7186ad6def28069b2a329165001b14c6b6d28c"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.637.jpg",
+      "file": "0047.bin",
+      "bytes": 17495,
+      "sha256": "7e91328dcc07ad4faeae5009f297a946c04012c541f8de6f3a300c9e9bab67a9"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.641.jpg",
+      "file": "0048.bin",
+      "bytes": 18903,
+      "sha256": "366ceb6135d2fc2ecd1272ee716dfba6632e61f67874ff8733fa1f1343d503e8"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.643.jpg",
+      "file": "0049.bin",
+      "bytes": 13890,
+      "sha256": "a7ed16b115b856091751da4bad1fd54fbba9d940e6db4c1d0e64433639c0f2c2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.702.jpg",
+      "file": "0050.bin",
+      "bytes": 21031,
+      "sha256": "44f2a0daefc64bc77653ee5ace4786c622365fd37ead7e47d3ca8095b6685009"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.707.jpg",
+      "file": "0051.bin",
+      "bytes": 3303,
+      "sha256": "e4381d59d78bb494c2aa507a2c34d91b4ab6b42ab5bd1475306c1dc2f879f665"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.721.jpg",
+      "file": "0052.bin",
+      "bytes": 14993,
+      "sha256": "1c5475c15bf8a4fb2acbc7dd9b623a03d669accedc9c5cbf6a4cb276cc330ca6"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.738.jpg",
+      "file": "0053.bin",
+      "bytes": 19001,
+      "sha256": "53439d87c99705e117a7d1d2e4d54cd305d6c49b75099f6dc345fdaa75ccf5aa"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.741.jpg",
+      "file": "0054.bin",
+      "bytes": 16534,
+      "sha256": "7d4f9ef78ff885f9282edd376bfe79e811aee3719615dc55b88d1af7e8742d9e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.745.jpg",
+      "file": "0055.bin",
+      "bytes": 21176,
+      "sha256": "40232dae933abe71b0e3e5d4b191b86e61f7dcc87f520d370a12e9b80a1edaf2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.748.jpg",
+      "file": "0056.bin",
+      "bytes": 3572,
+      "sha256": "8574fc489858524e412e95dec95c54540036ef5c84f1e60df839348bc4222448"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.749.jpg",
+      "file": "0057.bin",
+      "bytes": 15779,
+      "sha256": "523313b88150a1132020799fcb7ed6a5e6125e0437ccb6373cc28234098447d1"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.756.jpg",
+      "file": "0058.bin",
+      "bytes": 5379,
+      "sha256": "6768ebd8b51be6851dafeb1e433333a4cb402730e3a79cb2a5a3a03aa9ce8547"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.BoletoImpressao.BoletoNet.css",
+      "file": "0059.bin",
+      "bytes": 4513,
+      "sha256": "e4f077b4a4aa73649133fabee0f1559ceaa4f18ff4d40aa3bf02254447dab2cb"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.barra.gif",
+      "file": "0060.bin",
+      "bytes": 46,
+      "sha256": "c38965b65258d174ccf68ff74f5c307a9d42976d35884061c12e166c91d7d54b"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.barrainterna.gif",
+      "file": "0061.bin",
+      "bytes": 45,
+      "sha256": "2080f82ecc7c39e9c15ea4c23a86781204de477dbaa97605d4e3508d6a78ffac"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.corte.gif",
+      "file": "0062.bin",
+      "bytes": 150,
+      "sha256": "ddf57caecd0307676ef587f6a68487f1ee07592682754881fa4a223ce9eed9dd"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.ponto.gif",
+      "file": "0063.bin",
+      "bytes": 43,
+      "sha256": "e4c8efe0cd4a34ef45c313760fe5bd92c0d0d61cf444ca99d53519d9d3657608"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto.Imagens.BoletoBancario.bmp",
+      "file": "0064.bin",
+      "bytes": 248,
+      "sha256": "368f7c6a83fe4563ea3a4c1ecd53802790389dd3a42e363865eecf8ece44235f"
+    }
+  ],
+  "generated_stubs": false
+}

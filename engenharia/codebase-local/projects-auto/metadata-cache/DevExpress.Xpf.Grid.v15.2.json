@@ -1,0 +1,22 @@
+{
+  "assembly": "DevExpress.Xpf.Grid.v15.2, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "DevExpress.Xpf.Core.v15.2",
+    "mscorlib",
+    "DevExpress.Data.v15.2",
+    "PresentationCore",
+    "DevExpress.Xpf.Grid.v15.2.Core",
+    "WindowsBase",
+    "PresentationFramework",
+    "System.Xaml",
+    "DevExpress.Printing.v15.2.Core",
+    "System",
+    "UIAutomationProvider",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "System.Drawing",
+    "UIAutomationTypes",
+    "System.Data",
+    "System.Windows.Forms"
+  ]
+}

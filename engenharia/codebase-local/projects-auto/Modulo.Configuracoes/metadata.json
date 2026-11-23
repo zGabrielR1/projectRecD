@@ -1,0 +1,47 @@
+{
+  "artifactSha256": "064eb92c6068c3ce66d217df3edd9118da7b9b403d3fc36bc36edca730d1dfd3",
+  "mvid": "d7ce8811-63b9-45b5-8525-52b5ea0bda82",
+  "assembly": "Modulo.Configuracoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "System.Drawing",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Balanca",
+    "DigisatServer.Infrastructure.Crosscutting.RegistroSistema",
+    "System.Management",
+    "DigisatServer.Infrastructure.Crosscutting.ImpressoraCheque",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DevExpress.Printing.v15.2.Core",
+    "Microsoft.CSharp"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Configuracoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 143313,
+      "sha256": "83fdf723a4dfb2f6ae0f102e0e9f234fc4bc6aa22db1542e36ec13aef77576b1"
+    },
+    {
+      "name": "Otus.Modulo.Configuracoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

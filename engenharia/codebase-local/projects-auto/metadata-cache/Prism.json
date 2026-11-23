@@ -1,0 +1,18 @@
+{
+  "assembly": "Prism, Version=6.3.0.0, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59",
+  "references": [
+    "System.Runtime",
+    "System.Resources.ResourceManager",
+    "System.Diagnostics.Tools",
+    "System.Diagnostics.Debug",
+    "System.Globalization",
+    "System.ObjectModel",
+    "System.Linq.Expressions",
+    "System.Collections",
+    "System.Reflection",
+    "System.Threading",
+    "System.Linq",
+    "System.Threading.Tasks",
+    "System.Reflection.Extensions"
+  ]
+}

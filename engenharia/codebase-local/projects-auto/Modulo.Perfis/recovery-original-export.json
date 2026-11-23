@@ -1,0 +1,145 @@
+{
+  "name": "Modulo.Perfis",
+  "baseline": "baseline\\Modulo.Perfis.dll",
+  "baseline_sha256": "47afb4edf00ce84bed996d8dbc4451293725bc92caa3f93f82d95b21078c7f0a",
+  "export_project": "recovered\\SuiteG6\\Modulo.Perfis\\Modulo.Perfis.csproj",
+  "sources": [
+    {
+      "path": "PerfilModulo.cs",
+      "export_path": "PerfilModulo.cs",
+      "raw_sha256": "a0eef869dbf349d3da5f46cde22f7d987013761ba1cf4b9eb24912eccfd09217"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f52fcccbf9b2fff9fb9da711f14605e50b5413e2b2e07b42c7856e8f6257072a"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "9a66040c027adf032d33e28f37c19a52c4ef6b398356fe52b21cddf6a4f16aec"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "124b2f42bf34c0982afce783372de43a35200d005767f7ef74ac4759b8fe09ab"
+    },
+    {
+      "path": "ViewModels\\DireitoDetalheViewModel.cs",
+      "export_path": "ViewModels\\DireitoDetalheViewModel.cs",
+      "raw_sha256": "26d9029ee16856eca47559ff953fb9b3668466db38f69cd60cb1b1b9d02b0f3d"
+    },
+    {
+      "path": "ViewModels\\ListaDireitoDetalheViewModel.cs",
+      "export_path": "ViewModels\\ListaDireitoDetalheViewModel.cs",
+      "raw_sha256": "dbf20adcf9add7cb4350d38f41d2916b01f717bd3077b2182ecbdecf9bc56f58"
+    },
+    {
+      "path": "ViewModels\\ListaRestricaoDetalheViewModel.cs",
+      "export_path": "ViewModels\\ListaRestricaoDetalheViewModel.cs",
+      "raw_sha256": "86ac80d3a4e28bfc2af2bb3f4c7ddaaa0080e8c390968381b8eb4e7929c8448d"
+    },
+    {
+      "path": "ViewModels\\PerfilAbaViewModel.cs",
+      "export_path": "ViewModels\\PerfilAbaViewModel.cs",
+      "raw_sha256": "8346180e0742c9099b520d077942a21f470cbda178a494756786c1898bace062"
+    },
+    {
+      "path": "ViewModels\\PerfilFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\PerfilFichaAdicionarViewModel.cs",
+      "raw_sha256": "2700edc8ca5bd5197b96bc0cc8479870e073cf721f08631481840820fe3e7610"
+    },
+    {
+      "path": "ViewModels\\PerfilFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\PerfilFichaAtualizarViewModel.cs",
+      "raw_sha256": "782b1cb6b7e6be320f046af6fb3aab2ead8099448e495c8189c3230331075da6"
+    },
+    {
+      "path": "ViewModels\\PerfilFormulario.cs",
+      "export_path": "ViewModels\\PerfilFormulario.cs",
+      "raw_sha256": "5cdbcb1d978728280b04e03d73ef499383c6ed0cdbc7b602b60305bb8094b990"
+    },
+    {
+      "path": "ViewModels\\PerfilListaViewModel.cs",
+      "export_path": "ViewModels\\PerfilListaViewModel.cs",
+      "raw_sha256": "d55cf34b0a50bd0f9afc8526211071cab19a09caac5df259b29e9271548df0e0"
+    },
+    {
+      "path": "ViewModels\\PerfilViewModel.cs",
+      "export_path": "ViewModels\\PerfilViewModel.cs",
+      "raw_sha256": "2565ca2e394fb6209cbc827e1c7101e32ccd4daa8745efb2c297c89a34f1bb09"
+    },
+    {
+      "path": "ViewModels\\PerfisViewModel.cs",
+      "export_path": "ViewModels\\PerfisViewModel.cs",
+      "raw_sha256": "9f52c83e6bdbb22d26f5a51fc1a5ee8f340925d001ac6f21aa2459d50221ba96"
+    },
+    {
+      "path": "ViewModels\\RestricaoAbaViewModel.cs",
+      "export_path": "ViewModels\\RestricaoAbaViewModel.cs",
+      "raw_sha256": "7480c74bc9fbfbd7279cc345cf73252270a46d5ba3e33cc4953eb35c9c5d9874"
+    },
+    {
+      "path": "ViewModels\\RestricaoDetalheViewModel.cs",
+      "export_path": "ViewModels\\RestricaoDetalheViewModel.cs",
+      "raw_sha256": "ab8697f8627ef8922697f8f1497887ab47ab6687f9cedb98c7d3b7bc73ef00c3"
+    },
+    {
+      "path": "ViewModels\\RestricaoViewModel.cs",
+      "export_path": "ViewModels\\RestricaoViewModel.cs",
+      "raw_sha256": "95d42d28ca7153083e46625caf7bfa9af5a659189fdda8b3b19a705d0ce90942"
+    },
+    {
+      "path": "Views\\LinkDuplicar.cs",
+      "export_path": "Views\\LinkDuplicar.cs",
+      "raw_sha256": "6094ea4c72313cdf0670eb3e09bf6d94bc1a72c76f3996422d11131922161c16"
+    },
+    {
+      "path": "Views\\PerfilFichaAdicionarView.cs",
+      "export_path": "Views\\PerfilFichaAdicionarView.cs",
+      "raw_sha256": "7d98591405cfacd0f8b9400febb78f235a7fa973fec279d427697ef2cd9f8bfb"
+    },
+    {
+      "path": "Views\\PerfilFichaAtualizarView.cs",
+      "export_path": "Views\\PerfilFichaAtualizarView.cs",
+      "raw_sha256": "3e59e0b04074a24a07e9a113f02514c2dda0477d1b55568daa89b230f0e6f944"
+    },
+    {
+      "path": "Views\\PerfilFichaViewDetalhes\\PerfilView.cs",
+      "export_path": "Views\\PerfilFichaViewDetalhes\\PerfilView.cs",
+      "raw_sha256": "74a9d757bda6e2ad82ca8f4a14710d048b8a84a474f902138376e989bcc936d1"
+    },
+    {
+      "path": "Views\\PerfilFichaViewDetalhes\\RestricaoView.cs",
+      "export_path": "Views\\PerfilFichaViewDetalhes\\RestricaoView.cs",
+      "raw_sha256": "fd2bd5ed35cb80b0cb1a4d9b9ec34a6a8c96322850bb10086111b8c07165cd3a"
+    },
+    {
+      "path": "Views\\PerfilListaView.cs",
+      "export_path": "Views\\PerfilListaView.cs",
+      "raw_sha256": "0fe1a3360dc1972c55cc3535de54e582e79e1ab31d26aa0f62988884830c79dc"
+    },
+    {
+      "path": "Views\\PerfisView.cs",
+      "export_path": "Views\\PerfisView.cs",
+      "raw_sha256": "f7cf21eed41fd4f0d2ded8c8ddd1232f465d03ea1cdc92bcca9aec795bd25634"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Perfis.g.resources",
+      "file": "0000.bin",
+      "bytes": 17106,
+      "sha256": "4ac6120b556e5cd8d339a33d25504b5471608c6316258ea2c8bd30bcd1a64d02"
+    },
+    {
+      "name": "Otus.Modulo.Perfis.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

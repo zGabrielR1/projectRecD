@@ -1,0 +1,371 @@
+{
+  "name": "DigisatServer.Infrastructure.Data.Core",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Data.Core.dll",
+  "baseline_sha256": "51fb587ae4a006c95cf4bd7b36ba9fb65951f6893fbdadc76fdcb04f849c983b",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Data.Core\\DigisatServer.Infrastructure.Data.Core.csproj",
+  "sources": [
+    {
+      "path": "CollectionReplicator.cs",
+      "export_path": "CollectionReplicator.cs",
+      "raw_sha256": "2c1352dcc3f49a5f8b239c1e8c1006141054b471e1f3a2f3b63329ebf319ed0a"
+    },
+    {
+      "path": "Interfaces\\IDescricao.cs",
+      "export_path": "Interfaces\\IDescricao.cs",
+      "raw_sha256": "3bd7025871617fcbf56746a8dfc48ee749c96dc88c1c52a7d80528a036d8fbf2"
+    },
+    {
+      "path": "Interfaces\\IEntity.2.cs",
+      "export_path": "Interfaces\\IEntity.2.cs",
+      "raw_sha256": "d8ba65971f432263a86f3027c5624434bc0ad493f77c56761a72b04c26280c54"
+    },
+    {
+      "path": "Interfaces\\IEntity.cs",
+      "export_path": "Interfaces\\IEntity.cs",
+      "raw_sha256": "440e159369a8a60152a78ea9917d5900f3031b92be7d3305da172014f38b2268"
+    },
+    {
+      "path": "Interfaces\\IEntityBase.cs",
+      "export_path": "Interfaces\\IEntityBase.cs",
+      "raw_sha256": "cf85f82b277b3b7ab6938e072975a889e90fce384d8b16bac2ce81e505e36b23"
+    },
+    {
+      "path": "Interfaces\\IEntityEmpresa.cs",
+      "export_path": "Interfaces\\IEntityEmpresa.cs",
+      "raw_sha256": "acbc153ac41fdb1cd06734682c69a14964b65b7e1a01ccd9d752d86b75cef8b4"
+    },
+    {
+      "path": "Interfaces\\IEntityPaf.cs",
+      "export_path": "Interfaces\\IEntityPaf.cs",
+      "raw_sha256": "c73e2a683fd0c4da68a4aa65103bb39302e838a146477f76b197f2569467d1a2"
+    },
+    {
+      "path": "Interfaces\\IEntityTree.cs",
+      "export_path": "Interfaces\\IEntityTree.cs",
+      "raw_sha256": "7ebb7aa41af9e7432e52cc192b4635c099843523967d9597026b40c1c102be43"
+    },
+    {
+      "path": "Interfaces\\IEntityVersao.cs",
+      "export_path": "Interfaces\\IEntityVersao.cs",
+      "raw_sha256": "20a8cbee97b880acc4a32b6e4842f31cd049394f6fbed0aa555489b6b95b630c"
+    },
+    {
+      "path": "Interfaces\\IPage.cs",
+      "export_path": "Interfaces\\IPage.cs",
+      "raw_sha256": "6596176163c910ef32d98e2e3901000cace9ed05250473611c9019fba069d27b"
+    },
+    {
+      "path": "Interfaces\\IRepositoryBaseWrite.cs",
+      "export_path": "Interfaces\\IRepositoryBaseWrite.cs",
+      "raw_sha256": "efa77c46f3f9371e4eecf5404575fd6fe8b40fa10183999e4c5ee1db14f14b1a"
+    },
+    {
+      "path": "Interfaces\\IRepositoryEmpresaRead.cs",
+      "export_path": "Interfaces\\IRepositoryEmpresaRead.cs",
+      "raw_sha256": "aa92dc614fead40123cab4937da7e50b8fec06659e0367216eabf501067c4988"
+    },
+    {
+      "path": "Interfaces\\IRepositoryManager.2.cs",
+      "export_path": "Interfaces\\IRepositoryManager.2.cs",
+      "raw_sha256": "a0a66ccad3655082c1b101cc605ad2a054b74240096504ab745c40fe490aa626"
+    },
+    {
+      "path": "Interfaces\\IRepositoryManager.cs",
+      "export_path": "Interfaces\\IRepositoryManager.cs",
+      "raw_sha256": "cc8dc2c398f87608559ed7b51ef78c79ec5afb68cb8225aebb115c24b42ad409"
+    },
+    {
+      "path": "Interfaces\\IRepositoryPafBaseWrite.cs",
+      "export_path": "Interfaces\\IRepositoryPafBaseWrite.cs",
+      "raw_sha256": "da5c191cfd180591891cd2f470ed093c837a93cca5dc5eda973cb3b82358d779"
+    },
+    {
+      "path": "Interfaces\\IRepositoryPafWrite.cs",
+      "export_path": "Interfaces\\IRepositoryPafWrite.cs",
+      "raw_sha256": "e8fb9dbf1806b1dd9d562fab7fb76042fbfc597579aab3a2c27c4c38bd327de0"
+    },
+    {
+      "path": "Interfaces\\IRepositoryRead.cs",
+      "export_path": "Interfaces\\IRepositoryRead.cs",
+      "raw_sha256": "75e33eeadbc6f8adf3d974764d4fff1a39e12917d99a4e49e451d76396035fd9"
+    },
+    {
+      "path": "Interfaces\\IRepositoryTreeRead.cs",
+      "export_path": "Interfaces\\IRepositoryTreeRead.cs",
+      "raw_sha256": "853d00c9e103625a75d1012776ac0d96aa81037a5317454d64dadaa1e9a75e27"
+    },
+    {
+      "path": "Interfaces\\IRepositoryTreeWrite.cs",
+      "export_path": "Interfaces\\IRepositoryTreeWrite.cs",
+      "raw_sha256": "1a458a4f2f7fdf77d27cc603dd416ee42ad8da00e4599d2a161ef5fd70ded369"
+    },
+    {
+      "path": "Interfaces\\IRepositoryWrite.cs",
+      "export_path": "Interfaces\\IRepositoryWrite.cs",
+      "raw_sha256": "2abe07cb6a128cf58617d7528a69857aa8e28001e6e6d204640ead4a58c02e47"
+    },
+    {
+      "path": "Interfaces\\ISequentialEntity.cs",
+      "export_path": "Interfaces\\ISequentialEntity.cs",
+      "raw_sha256": "052329f8bc71ea209c45e12fdccc8ce77ba1d3429c9305de44e336b909178ec7"
+    },
+    {
+      "path": "Interfaces\\ISpecification.cs",
+      "export_path": "Interfaces\\ISpecification.cs",
+      "raw_sha256": "3c6b9b61b07573a6473fe71b6853d51c6666b42affa6408921d18c5ba0ab4acd"
+    },
+    {
+      "path": "LocalDatabaseNotFoundException.cs",
+      "export_path": "LocalDatabaseNotFoundException.cs",
+      "raw_sha256": "3e14481fdcd5c380c93adf76c81b34c3220bef792efa56906dc726eaf845f924"
+    },
+    {
+      "path": "Mappings\\DateTimeSerializerEx.cs",
+      "export_path": "Mappings\\DateTimeSerializerEx.cs",
+      "raw_sha256": "e054619bc75a0cf1f0e418d6cf481741d653e77a73d94678dd4b123229945fc3"
+    },
+    {
+      "path": "Mappings\\DecimalSerializerEx.cs",
+      "export_path": "Mappings\\DecimalSerializerEx.cs",
+      "raw_sha256": "b4c3e0a72c013698b5310bb06bd5d96aae3ec1329f6c8adf15fd5d66afe03fff"
+    },
+    {
+      "path": "Mappings\\EntityMongoMap.cs",
+      "export_path": "Mappings\\EntityMongoMap.cs",
+      "raw_sha256": "829faa30362d05f1c06510d294e4c9f7ac0a3356237488f29ffa8c83007f42fe"
+    },
+    {
+      "path": "Mappings\\EntityMongoMapServidor.cs",
+      "export_path": "Mappings\\EntityMongoMapServidor.cs",
+      "raw_sha256": "0952aca1873b771f89af12889e01ecd0c1de1bdd0909989642f822edcfb0b8f5"
+    },
+    {
+      "path": "Mappings\\MongoMap.cs",
+      "export_path": "Mappings\\MongoMap.cs",
+      "raw_sha256": "7862a916a8b156667f3b8e6638face40c19322454293fc07caa96973bacd1d4c"
+    },
+    {
+      "path": "Mappings\\StringOrInt32Serializer.cs",
+      "export_path": "Mappings\\StringOrInt32Serializer.cs",
+      "raw_sha256": "97d0a1f133c4048a48a338d4f62331132c82ed43fbadc2ff525d8642c682b1fb"
+    },
+    {
+      "path": "MongoClientIsNullException.cs",
+      "export_path": "MongoClientIsNullException.cs",
+      "raw_sha256": "84b0d8cd3ce081ff674214abb3d8817cb2c6e275ed303fc80a565146a96bf499"
+    },
+    {
+      "path": "MongoExtensions.cs",
+      "export_path": "MongoExtensions.cs",
+      "raw_sha256": "90c5dfe6c15266b5b3089de064404e6259c21d1c9b3cfef609b4dbd0236bce7c"
+    },
+    {
+      "path": "MongoOperation.cs",
+      "export_path": "MongoOperation.cs",
+      "raw_sha256": "7d7c45c5c8ac54ebf1b40885bf62c9050ba7372561946cc08cb0ebadbd2dfb3a"
+    },
+    {
+      "path": "MongoRepositoryManager.2.cs",
+      "export_path": "MongoRepositoryManager.2.cs",
+      "raw_sha256": "4c12a30bba2bbc09ceca29a0a0384e7ae24eb020c2e619e23404b466e48a2ef0"
+    },
+    {
+      "path": "MongoRepositoryManager.cs",
+      "export_path": "MongoRepositoryManager.cs",
+      "raw_sha256": "ce03d8b7f35cfd6144b1320a4c56e21eb7e4ab4387cfde43e692f437e74f04af"
+    },
+    {
+      "path": "Operations.cs",
+      "export_path": "Operations.cs",
+      "raw_sha256": "94cd8323623bb7124e30a2c20d532fd491557b717c426d86ef4212e7e6cf5443"
+    },
+    {
+      "path": "OpLog.cs",
+      "export_path": "OpLog.cs",
+      "raw_sha256": "2c55b57aada7e4222a2f2dfb3058dd8f6c46037101b9671810600128e8610a6a"
+    },
+    {
+      "path": "OpLogCollectionNotFoundException.cs",
+      "export_path": "OpLogCollectionNotFoundException.cs",
+      "raw_sha256": "bea16cf7da87ddd3ef4fe1e02d988368e3f269dfdabb8b8d2e32213dd271acde"
+    },
+    {
+      "path": "OpLogTail.cs",
+      "export_path": "OpLogTail.cs",
+      "raw_sha256": "fe70b743ad2a0955cefbdaf1e97829601733d7d39eaa01f1eafd359a145adb86"
+    },
+    {
+      "path": "OpLogTailIsNullException.cs",
+      "export_path": "OpLogTailIsNullException.cs",
+      "raw_sha256": "7d2ac1a45a9738aa64e86ed813da4a5301cad7494c5d90d25a123484eb4de3aa"
+    },
+    {
+      "path": "Page.cs",
+      "export_path": "Page.cs",
+      "raw_sha256": "a8a2f919e19a5b77d4677e100897a2b0e8209b0a4d9eeaa4c0a71417b4078d58"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "195ff03f5c8b67bbd99c63df8448d0fbcae07cf7bc8fb352ca0068ade5f2ec8d"
+    },
+    {
+      "path": "RepositoryBaseWrite.cs",
+      "export_path": "RepositoryBaseWrite.cs",
+      "raw_sha256": "b4fa365542d5f2207e975afa53499d7178f5e8ba1fd31f51abed550b5d6bc4ad"
+    },
+    {
+      "path": "RepositoryEmpresaRead.cs",
+      "export_path": "RepositoryEmpresaRead.cs",
+      "raw_sha256": "7f09cd989dd9a97c31e3d6ed4f9fb62562c9177d41a310bae22e2977adfa0bb1"
+    },
+    {
+      "path": "RepositoryMongo.cs",
+      "export_path": "RepositoryMongo.cs",
+      "raw_sha256": "30df2affe0dfaa842a21a8a02d95f298f3579438f1d5185ce51357d85022f5c4"
+    },
+    {
+      "path": "RepositoryPafBaseWrite.cs",
+      "export_path": "RepositoryPafBaseWrite.cs",
+      "raw_sha256": "f30192d1afadf5e9cf5da084a63ffd3a233bf2acf6e27974b1af97016817e608"
+    },
+    {
+      "path": "RepositoryPafWrite.cs",
+      "export_path": "RepositoryPafWrite.cs",
+      "raw_sha256": "f0859e9b6a29fe0733c57923527009884000e8cd360dc4119c7d0f3fab8302f2"
+    },
+    {
+      "path": "RepositoryRead.cs",
+      "export_path": "RepositoryRead.cs",
+      "raw_sha256": "fad4568a5355c0cb00fc07a413c13ef393200ce8fa8da1490a5247416b2fd79a"
+    },
+    {
+      "path": "RepositorySincronizacao.cs",
+      "export_path": "RepositorySincronizacao.cs",
+      "raw_sha256": "a2c26739f64574644f0180cffabafaefe59a7538cd1a00feb58028cafce96d26"
+    },
+    {
+      "path": "RepositoryTreeRead.cs",
+      "export_path": "RepositoryTreeRead.cs",
+      "raw_sha256": "803e5eff576acdd71bfa95abd321d0e4a1c4040a2323823c4f076879003792f0"
+    },
+    {
+      "path": "RepositoryTreeWrite.cs",
+      "export_path": "RepositoryTreeWrite.cs",
+      "raw_sha256": "bf1761ee2ada29db2e645e6cd046aa6414041f598e4ae31b7db4c35b6add7752"
+    },
+    {
+      "path": "RepositoryWrite.cs",
+      "export_path": "RepositoryWrite.cs",
+      "raw_sha256": "c68df412694e3065887f4b4360800157682550b85a533407c3ebc5b0b77e6c27"
+    },
+    {
+      "path": "Resources\\Messages.cs",
+      "export_path": "Resources\\Messages.cs",
+      "raw_sha256": "9c0b1193594ce985817367cbd86bb284f6b77eefdec3f4f86908d11019b4f9be"
+    },
+    {
+      "path": "Sequencia.cs",
+      "export_path": "Sequencia.cs",
+      "raw_sha256": "7f5f351cdd15c6ae3aee744bd2e91979f0ae2fe63b86d6dbada432f7dd29ae88"
+    },
+    {
+      "path": "SourceIdIsNullOrEmptyException.cs",
+      "export_path": "SourceIdIsNullOrEmptyException.cs",
+      "raw_sha256": "b54f472b0cff9aff8fcb4610f2aca02c2a7ad73309fa0b4dc486dcacb68e9743"
+    },
+    {
+      "path": "Specification\\AndSpecification.cs",
+      "export_path": "Specification\\AndSpecification.cs",
+      "raw_sha256": "0576915ceb1562b4c6ee1f0eb78be86305d1d5bb5bfc389ed0136760c1bf7f2c"
+    },
+    {
+      "path": "Specification\\CompositeSpecification.cs",
+      "export_path": "Specification\\CompositeSpecification.cs",
+      "raw_sha256": "08000574a3e6177b4a0f980d432d42be859ed26e6702abc418499de07dd4cc3d"
+    },
+    {
+      "path": "Specification\\DirectSpecification.cs",
+      "export_path": "Specification\\DirectSpecification.cs",
+      "raw_sha256": "f32ffa369282500d725f168824510de3eae9af4332951081e06ed4156a0e070b"
+    },
+    {
+      "path": "Specification\\EspecificacaoMongo.cs",
+      "export_path": "Specification\\EspecificacaoMongo.cs",
+      "raw_sha256": "57d84f7c408f1dab7bc1f80db9692a98dadde0576080c69f02dafa5650cdc447"
+    },
+    {
+      "path": "Specification\\ExpressionBuilder.cs",
+      "export_path": "Specification\\ExpressionBuilder.cs",
+      "raw_sha256": "286439d368f8526e6d5fc3c530487d596a1d70f9532862b2e5aa36a016a137f7"
+    },
+    {
+      "path": "Specification\\FilterDefinitionSpecification.cs",
+      "export_path": "Specification\\FilterDefinitionSpecification.cs",
+      "raw_sha256": "467d2f312a3a27eb39934494915ef9c5b9dd03e9174378cad8edb1b8bbc3fc42"
+    },
+    {
+      "path": "Specification\\NotSpecification.cs",
+      "export_path": "Specification\\NotSpecification.cs",
+      "raw_sha256": "ccd9808f89876602e7ec8c60599937a1955110308f8423d3f82b144cbd5ed9c6"
+    },
+    {
+      "path": "Specification\\OrSpecification.cs",
+      "export_path": "Specification\\OrSpecification.cs",
+      "raw_sha256": "4212d18cc28ca183b5ec98ca992188009b4832a6f1304b1fba20d3bf3ad76d06"
+    },
+    {
+      "path": "Specification\\ParameterRebinder.cs",
+      "export_path": "Specification\\ParameterRebinder.cs",
+      "raw_sha256": "4b950efc7ea49326174d4cf382ddf64ee8f5884755149e61aed7cc8e93f2a22b"
+    },
+    {
+      "path": "Specification\\Specification.cs",
+      "export_path": "Specification\\Specification.cs",
+      "raw_sha256": "7a8516e6019a9d77359f07d5d1f1ddd261a9f3c6a749a892c370ac6df2074699"
+    },
+    {
+      "path": "Specification\\TrueSpecification.cs",
+      "export_path": "Specification\\TrueSpecification.cs",
+      "raw_sha256": "ba7671e73430376354bff781cace49f818e7a72971a232ae9e527f762abd6354"
+    },
+    {
+      "path": "Util.cs",
+      "export_path": "Util.cs",
+      "raw_sha256": "a5165e4124a8d7d0cb0ef81bb7d139b59813df674a2ec783a8cd67bf10584ff7"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 17
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 11,
+      "types": [
+        "__c_DisplayClass5_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass19_0",
+        "__c_DisplayClass20_0",
+        "__c_DisplayClass0_0`1",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass23_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Resources.Messages.resources",
+      "file": "0000.bin",
+      "bytes": 697,
+      "sha256": "f517eee17be47802031c2329243d74ebee3279464fefcdb8749563683d7f916f"
+    }
+  ],
+  "generated_stubs": false
+}

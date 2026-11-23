@@ -1,0 +1,29 @@
+{
+  "artifactSha256": "f0cae4e37b786355493dd03d971e8747e4288887fcd08f56f2fc1ac43ab56f6f",
+  "mvid": "3a600217-dba0-458e-8f70-d05d0f4e9e22",
+  "assembly": "DigisatServer.Distributed.Akka.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "Akka.DI.SimpleInjector",
+    "Akka",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Domain.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "MongoDB.Bson",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DigisatServer.Application.Core",
+    "DigisatServer.Distributed.Boot",
+    "SimpleInjector",
+    "System.Reactive.Core",
+    "DigisatServer.Domain.Core",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "System.Reactive.Linq",
+    "MongoDB.Driver",
+    "MongoDB.Driver.Core"
+  ],
+  "resources": []
+}

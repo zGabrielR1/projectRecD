@@ -1,0 +1,25 @@
+{
+  "assembly": "DigisatServer.Distributed.Akka.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "Akka.DI.SimpleInjector",
+    "Akka",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Domain.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "MongoDB.Bson",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DigisatServer.Application.Core",
+    "DigisatServer.Distributed.Boot",
+    "SimpleInjector",
+    "System.Reactive.Core",
+    "DigisatServer.Domain.Core",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "System.Reactive.Linq",
+    "MongoDB.Driver",
+    "MongoDB.Driver.Core"
+  ]
+}

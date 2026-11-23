@@ -1,0 +1,42 @@
+{
+  "artifactSha256": "717fa0a35c13f2ab424aa93af9987724dd82e5639e70aa65c365b9b02e75fa1b",
+  "mvid": "e86d887b-4f6e-4893-8b00-cff9f933742e",
+  "assembly": "Modulo.PainelPedidos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "DevExpress.Xpf.Docking.v15.2",
+    "System",
+    "System.Runtime.Serialization",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "Akka.DI.Unity",
+    "Akka",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.PainelPedidos.g.resources",
+      "file": "0000.bin",
+      "bytes": 14966,
+      "sha256": "55a872ff539e709ddfe128e249d769f5ba53338753c66982f9b29aa22aa2a992"
+    },
+    {
+      "name": "Otus.Modulo.PainelPedidos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

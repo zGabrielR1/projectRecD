@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "08dd49fb2c964642b822560c96d885637e65a8f93fbf60e9dd386be99b8c18ff",
+  "mvid": "b90560d5-7d5e-4c86-a1b3-4ff5c0971ece",
+  "assembly": "Modulo.RelacoesCfopDevolucao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.RelacoesCfopDevolucao.g.resources",
+      "file": "0000.bin",
+      "bytes": 13816,
+      "sha256": "f2056b384694ba585828cf744341ea4fd6f31661a7144cf4cc910a9153a3ca68"
+    },
+    {
+      "name": "Otus.Modulo.RelacoesCfopDevolucao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

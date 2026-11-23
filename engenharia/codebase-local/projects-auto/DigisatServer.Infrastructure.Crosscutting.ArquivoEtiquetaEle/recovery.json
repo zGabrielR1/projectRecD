@@ -1,0 +1,57 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoEtiquetaEle",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.ArquivoEtiquetaEletronica.dll",
+  "baseline_sha256": "5436d2ac3e31085505046c884e18f045f7399e7515b79e949e1de6c164413f13",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ArquivoEtiquetaEle\\DigisatServer.Infrastructure.Crosscutting.ArquivoEtiquetaEle.csproj",
+  "sources": [
+    {
+      "path": "EtiquetaEletronicaArquivoDefault.cs",
+      "export_path": "EtiquetaEletronicaArquivoDefault.cs",
+      "raw_sha256": "360a15aa3a842f98fa4da1012aa68abc98d53a5ea0e583d9ee968e3584e90848"
+    },
+    {
+      "path": "Functions\\PricerFormatos.cs",
+      "export_path": "Functions\\PricerFormatos.cs",
+      "raw_sha256": "c980786770523162d9f7397d67b93390e36d6b466a488a2ffc5b7cf0db829588"
+    },
+    {
+      "path": "Interfaces\\Pricer\\IPricerItem.cs",
+      "export_path": "Interfaces\\Pricer\\IPricerItem.cs",
+      "raw_sha256": "e1a687e7005a70e39669dce3902932e1b5879021432e11321f16db1c698d2213"
+    },
+    {
+      "path": "Pricer\\EtiquetaArquivoPricer.cs",
+      "export_path": "Pricer\\EtiquetaArquivoPricer.cs",
+      "raw_sha256": "2647a46c79fc0fb1fe24530ccbed961783eccaa66ffd27cd78eed50bac33f3fd"
+    },
+    {
+      "path": "Pricer\\EtiquetaArquivoPricerMensagem.cs",
+      "export_path": "Pricer\\EtiquetaArquivoPricerMensagem.cs",
+      "raw_sha256": "8c0fcc1b6db76520aaf352776c7048d7d13ef3ec7d35b00ecd2be8d7f014d3ad"
+    },
+    {
+      "path": "Pricer\\PricerItem.cs",
+      "export_path": "Pricer\\PricerItem.cs",
+      "raw_sha256": "b7d9994e546363d92a5a9fe6cead03bcd72749a884f9256c60166d31312750ac"
+    },
+    {
+      "path": "Pricer\\PricerMensagem.cs",
+      "export_path": "Pricer\\PricerMensagem.cs",
+      "raw_sha256": "dbfd57f6740eae0e89ca1e39bb9386588065621bff81f0f1974c64af44b81eee"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "33dcf5b5805b80371e2a7638176558dcfffd98d23010e1ba2f963bf6e33639d7"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Qualify System.IO.File methods shadowed by sibling File namespace",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [],
+  "generated_stubs": false
+}

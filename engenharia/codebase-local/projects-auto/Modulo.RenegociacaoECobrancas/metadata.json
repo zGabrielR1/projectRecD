@@ -1,0 +1,51 @@
+{
+  "artifactSha256": "c4dc55446e4d21408f728593048896e9f89a387258a3a22d15c20566393f062b",
+  "mvid": "428ec04e-4657-4a6e-aff9-692e08e37374",
+  "assembly": "Modulo.RenegociacaoECobrancas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Xpf.Grid.v15.2",
+    "DevExpress.Xpf.Grid.v15.2.Core",
+    "itextsharp",
+    "DevExpress.XtraReports.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Boleto"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.RenegociacaoECobrancas.g.resources",
+      "file": "0000.bin",
+      "bytes": 35457,
+      "sha256": "f3fcf05ce0b6f4c46243f363c95b7832563984b2349afba3b8578c2c3f5caf42"
+    },
+    {
+      "name": "Otus.Modulo.RenegociacaoECobrancas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.RenegociacaoECobrancas.dll.licenses",
+      "file": "0002.bin",
+      "bytes": 293,
+      "sha256": "84e09f31606a10131a27fea00adee2e49061567c52dd380ec7aeb271bbdc2529"
+    }
+  ]
+}

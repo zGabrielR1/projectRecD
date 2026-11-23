@@ -1,0 +1,80 @@
+{
+  "name": "Modulo.GeradorArquivosEtiquetas",
+  "baseline": "baseline\\Modulo.GeradorArquivosEtiquetas.dll",
+  "baseline_sha256": "159d3ea86c7d39f1720d9d3bfe56cadf3e3bdcdbc9ebc79053548b766471e46b",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosEtiquetas\\Modulo.GeradorArquivosEtiquetas.csproj",
+  "sources": [
+    {
+      "path": "GeradorArquivoEtiquetasModulo.cs",
+      "export_path": "GeradorArquivoEtiquetasModulo.cs",
+      "raw_sha256": "93eeb6d401a6cbb1991a52324c4e14ffe746dca3f2b2086e4b08777e13e4020e"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "716b809cdaabddba38b284dc9fc9f2665cf7ae6364fdb062a1b00dd3d4240187"
+    },
+    {
+      "path": "Services\\GeradorArquivosEtiquetasService.cs",
+      "export_path": "Services\\GeradorArquivosEtiquetasService.cs",
+      "raw_sha256": "3d68587a0a1bc4d24ff9509e97f3e2e9531feb1af7aa4f999657a43689971675"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoAbaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoAbaViewModel.cs",
+      "raw_sha256": "b8f3581a117e5ec4fea46147b67e1f3af3ffe6c24a22358ea6ec7ef811f42ccc"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoEtiquetasFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoEtiquetasFichaViewModel.cs",
+      "raw_sha256": "96336924255722c2c512963acbcba5cbd5932ee3500b27e34dbf8d07b0612505"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoEtiquetasFormulario.cs",
+      "export_path": "ViewModels\\GeradorArquivoEtiquetasFormulario.cs",
+      "raw_sha256": "e48de102c5e760be56d8d4adbad2f143882726f2bc5a5c1d024a4503d6897165"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoEtiquetasViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoEtiquetasViewModel.cs",
+      "raw_sha256": "05fd0bbba15edddbcc5a63981fd270ae281513ef1c611e5168ac11c51ccbc964"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosEtiquetasViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosEtiquetasViewModel.cs",
+      "raw_sha256": "0eef248af1d01d24913a42c63db99e001086cdab49be669ebbb05eb0ccca4e0f"
+    },
+    {
+      "path": "Views\\GeradorArquivoEtiquetasFichaView.cs",
+      "export_path": "Views\\GeradorArquivoEtiquetasFichaView.cs",
+      "raw_sha256": "23ed00b3f3bb3aa2b12af47b9032d2c5ba3d7da09f8440c76fac466cd9bf2e1c"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\GeradorArquivoView.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\GeradorArquivoView.cs",
+      "raw_sha256": "54e9fb374ad435e416bcb141fae7d17d4826245774356d98a05a18f9e0ce8f79"
+    },
+    {
+      "path": "Views\\GeradorArquivosEtiquetasView.cs",
+      "export_path": "Views\\GeradorArquivosEtiquetasView.cs",
+      "raw_sha256": "2cf0b4f7999ec923c63e38e415e1d86d398cbe4e348aca0f1785f33cbf9ca7d7"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Restore exception catch assignment to outer retry local, supported by original stloc.0/ldloc.0 IL",
+      "occurrences": 1,
+      "evidence": "engenharia\\codebase-local\\retry-evidence\\Modulo.GeradorArquivosEtiquetas\\Modulo.GeradorArquivosEtiquetas.il"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosEtiquetas.g.resources",
+      "file": "0000.bin",
+      "bytes": 9423,
+      "sha256": "1cc745e7aaec57fff89b33a04298fca44f17547c3157db4a00f81b86c142f363"
+    }
+  ],
+  "generated_stubs": false
+}

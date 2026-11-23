@@ -1,0 +1,155 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Notificacao",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Notificacao.dll",
+  "baseline_sha256": "fe0feacde377f54fc2849791b6b3dfc74e3835da7c50bb36b5fe66c220093c78",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Notificacao\\DigisatServer.Infrastructure.Crosscutting.Notificacao.csproj",
+  "sources": [
+    {
+      "path": "BalloonIcon.cs",
+      "export_path": "BalloonIcon.cs",
+      "raw_sha256": "0b16978398c738cc8e04f6ee9b99c49400a7f0423ef039c8e97b8f4b2ed091fd"
+    },
+    {
+      "path": "Interop\\AppBarInfo.cs",
+      "export_path": "Interop\\AppBarInfo.cs",
+      "raw_sha256": "fe37a2a88ba1fd9616b43467022bd7ee2360cf5dae519ff496e795aa3c2335f3"
+    },
+    {
+      "path": "Interop\\BalloonFlags.cs",
+      "export_path": "Interop\\BalloonFlags.cs",
+      "raw_sha256": "e1077533cea97a13ac59ae96d48705dbb0d2ae2dd2ff33bdcff22c13ed523610"
+    },
+    {
+      "path": "Interop\\IconDataMembers.cs",
+      "export_path": "Interop\\IconDataMembers.cs",
+      "raw_sha256": "c833e2dd577cab809bb3ecd25acb4cb6e2cdd3fc8cf0a2e1b268b7493310aff7"
+    },
+    {
+      "path": "Interop\\IconState.cs",
+      "export_path": "Interop\\IconState.cs",
+      "raw_sha256": "2b61f8bc8a1e334191804da1d085a20a84182d77555c358ec1070224853b3d65"
+    },
+    {
+      "path": "Interop\\MouseEvent.cs",
+      "export_path": "Interop\\MouseEvent.cs",
+      "raw_sha256": "658aaaded3db0c38b84987d45a2d8ff6855102e35a62dbc548ef84c223404734"
+    },
+    {
+      "path": "Interop\\NotifyCommand.cs",
+      "export_path": "Interop\\NotifyCommand.cs",
+      "raw_sha256": "775a1feba0f994016e3648c77af12f5e69d6358e80a39efffc37ad92aa145c06"
+    },
+    {
+      "path": "Interop\\NotifyIconData.cs",
+      "export_path": "Interop\\NotifyIconData.cs",
+      "raw_sha256": "7c38747521f9374deb02a1b35ebfeb6aea7fb85053902cc224a917b6b0922e86"
+    },
+    {
+      "path": "Interop\\NotifyIconVersion.cs",
+      "export_path": "Interop\\NotifyIconVersion.cs",
+      "raw_sha256": "a9560312008a11c664d68a22165224fa1371e5e2f1c6bdd7187a3f8e48d7b2eb"
+    },
+    {
+      "path": "Interop\\Point.cs",
+      "export_path": "Interop\\Point.cs",
+      "raw_sha256": "8de2fba46045eae6fd08f0788244d91be65f3d352681ffbc80786e4354d8832b"
+    },
+    {
+      "path": "Interop\\TrayInfo.cs",
+      "export_path": "Interop\\TrayInfo.cs",
+      "raw_sha256": "037a0acbc764c1aa178c2e10498d428d44afe0cec1160b7c0aa172d7cbc8ea89"
+    },
+    {
+      "path": "Interop\\WinApi.cs",
+      "export_path": "Interop\\WinApi.cs",
+      "raw_sha256": "f737903cc67e133944e259bf20a2f3a74befa0969f1c06dae50b18b9546aa797"
+    },
+    {
+      "path": "Interop\\WindowClass.cs",
+      "export_path": "Interop\\WindowClass.cs",
+      "raw_sha256": "e3154f3e7730f387975e3a9aeeca1a8e09e1d160a74ae6ae5f9937097513b8d4"
+    },
+    {
+      "path": "Interop\\WindowMessageSink.cs",
+      "export_path": "Interop\\WindowMessageSink.cs",
+      "raw_sha256": "4530b11592f1c78f617d8f4926132f188ab6f1d7c0ec35c980e1662ca7d5725e"
+    },
+    {
+      "path": "Interop\\WindowProcedureHandler.cs",
+      "export_path": "Interop\\WindowProcedureHandler.cs",
+      "raw_sha256": "c3d6fe9750a99b16c08e588a94da40069f2f35a261b3f8169f1c5b07a7152d07"
+    },
+    {
+      "path": "PopupActivationMode.cs",
+      "export_path": "PopupActivationMode.cs",
+      "raw_sha256": "9ecec06f8fc1458496d98c4989b5d724f82f01525bb24ce0874d662f30528dd2"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "90829235a75cfb3f9d1f731997a44d05e6f19d3943213177ade11ff0e9138f8f"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "3a0bad24b2dad46ee837b40c918e7efcc510d1ef9c2fd2b88ffe656f9a2043b6"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "5ffa2b5598f364e3c8ae43ecdeac6fbb5fd10ebe876f8f715c28c1f7751be0ad"
+    },
+    {
+      "path": "RoutedEventHelper.cs",
+      "export_path": "RoutedEventHelper.cs",
+      "raw_sha256": "95420951e36d2e2732cf304bbac7c5b5fb1c27c2f0d9bf0c7201ca255d69e736"
+    },
+    {
+      "path": "Services\\INotificacaoService.cs",
+      "export_path": "Services\\INotificacaoService.cs",
+      "raw_sha256": "17a40c646ba28c9eb698b3b16923b949043c49a95a4c5f8dae67d42a3fda2902"
+    },
+    {
+      "path": "Services\\NotificacaoService.cs",
+      "export_path": "Services\\NotificacaoService.cs",
+      "raw_sha256": "3be3b06da5c6e54ef371322391d78d82dcec66b32b2f308e1a638ce6754e248c"
+    },
+    {
+      "path": "TaskbarIcon.cs",
+      "export_path": "TaskbarIcon.cs",
+      "raw_sha256": "62ce4d59def6d3bc6bc52650891a503727a5f76c8b8ccb2c9de8a9aff08c63d0"
+    },
+    {
+      "path": "Util.cs",
+      "export_path": "Util.cs",
+      "raw_sha256": "92cd32d54828cd97683d4fe79e5f80d2f32b6f0d9de6d87b0cae4836b5108aa0"
+    },
+    {
+      "path": "Views\\MenuPopUp.cs",
+      "export_path": "Views\\MenuPopUp.cs",
+      "raw_sha256": "a092f90fbee4fe8cb0b896926c0341b0b7d4667f290e880eb9266fe55df48542"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Qualify System.IO.File methods shadowed by sibling File namespace",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Notificacao.g.resources",
+      "file": "0000.bin",
+      "bytes": 2008,
+      "sha256": "7ba5a6b2c62af636ef8b6dbe4fdb970b6938b01a6006a017c9f7de093a92dcbe"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Notificacao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

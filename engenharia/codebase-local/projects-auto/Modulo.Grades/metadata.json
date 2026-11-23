@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "87b3cebd493424b49a8195e38a369c1b19381f0a6cd3b7e392799f8ec184895a",
+  "mvid": "ca2487bf-fa76-42a6-96d8-667a6c95d66b",
+  "assembly": "Modulo.Grades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "System",
+    "WindowsBase",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Grades.g.resources",
+      "file": "0000.bin",
+      "bytes": 22600,
+      "sha256": "d5da2a1bbc7ff78dfdcc6ef8dac08950f6f972175a2a4e76fc610150e171adfb"
+    },
+    {
+      "name": "Otus.Modulo.Grades.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

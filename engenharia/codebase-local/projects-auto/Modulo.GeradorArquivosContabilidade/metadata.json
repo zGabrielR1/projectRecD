@@ -1,0 +1,59 @@
+{
+  "artifactSha256": "2772e0107ce3a6e5db28f0f87fefbe60b14f35f33a5338f199f1ee9a78eade28",
+  "mvid": "f84deb1c-1f4d-4a98-b5e5-ee2b120a40be",
+  "assembly": "Modulo.GeradorArquivosContabilidade, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.XtraReports.v15.2",
+    "System.ComponentModel.DataAnnotations",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GeradorArquivosContabilidade.g.resources",
+      "file": "0000.bin",
+      "bytes": 15431,
+      "sha256": "b61d9be10d2f30018a2653a303e4ed51add828208befd1f30f174ffd5057b388"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosContabilidade.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosContabilidade.Reports.ResumoArquivosEnviados.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosContabilidade.Reports.DocumentosFiscaisSemXml.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.GeradorArquivosContabilidade.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 299,
+      "sha256": "53445a69f2d4dc1a76b7da2a00f5d2c3fbf8369a1a070e57bf80f591f6563e37"
+    }
+  ]
+}

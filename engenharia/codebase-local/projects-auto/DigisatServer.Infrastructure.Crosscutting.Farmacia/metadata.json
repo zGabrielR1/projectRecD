@@ -1,0 +1,17 @@
+{
+  "artifactSha256": "14768948dc0e3ee5a7c9fff9b5e0db40d338dd0f028428777ca4acd643b8a8e4",
+  "mvid": "36b867e4-4dfe-4b1f-91ee-c27df6556f31",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Farmacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "System.Xml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Web.Services",
+    "System.Core",
+    "MongoDB.Bson",
+    "Microsoft.CSharp"
+  ],
+  "resources": []
+}

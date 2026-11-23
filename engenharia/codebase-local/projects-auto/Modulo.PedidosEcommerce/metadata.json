@@ -1,0 +1,57 @@
+{
+  "artifactSha256": "9758c12eb0b465610882883b943e6b138be3cbdea26b21bdb54c58f2ac76aedb",
+  "mvid": "0045e321-2aa6-43f4-ade5-cb798427e8c0",
+  "assembly": "Modulo.PedidosEcommerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "Infraestrutura",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "System.Windows.Forms",
+    "DevExpress.XtraReports.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "System.Drawing",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Application.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.PedidosEcommerce.g.resources",
+      "file": "0000.bin",
+      "bytes": 10535,
+      "sha256": "342c63f6d1697f64704d1a770e229474be207e470e4c70dfc535bb37a989eb1b"
+    },
+    {
+      "name": "Otus.Modulo.PedidosEcommerce.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PedidosEcommerce.Reports.ImpressoPedidoEcommerce.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.PedidosEcommerce.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 287,
+      "sha256": "de1cb32327972c3b50e7066bf58d993db6548dd0e8976a0b489bbd527b5fd8e4"
+    }
+  ]
+}

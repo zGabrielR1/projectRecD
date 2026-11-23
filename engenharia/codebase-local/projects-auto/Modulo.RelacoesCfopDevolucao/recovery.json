@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.RelacoesCfopDevolucao",
+  "baseline": "baseline\\Modulo.RelacoesCfopDevolucao.dll",
+  "baseline_sha256": "08dd49fb2c964642b822560c96d885637e65a8f93fbf60e9dd386be99b8c18ff",
+  "export_project": "recovered\\SuiteG6\\Modulo.RelacoesCfopDevolucao\\Modulo.RelacoesCfopDevolucao.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "378161f2e555ef47627d972bc45848547efe352616710a29967ac6f2ef19b6b3"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "528aaca1b0385b32df12d6132b2760b14d85a484597868852546d61355364299"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "dd1425d7e87f830bb33effb4d5a19fac86ed41958e7afe3044ef233af70724b5"
+    },
+    {
+      "path": "RelacaoCfopDevolucaoModulo.cs",
+      "export_path": "RelacaoCfopDevolucaoModulo.cs",
+      "raw_sha256": "a63faef45b821f27dfde44f377445dfbfdf20147ad14b8277200c2ad7b8685f2"
+    },
+    {
+      "path": "ViewModels\\RelacaoCfopDevolucaoAbaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoCfopDevolucaoAbaViewModel.cs",
+      "raw_sha256": "94cdb2dd5ca4e0ad93bd0f793f2d82cf6522856068e4ec694a37135cc1fb4203"
+    },
+    {
+      "path": "ViewModels\\RelacaoCfopDevolucaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\RelacaoCfopDevolucaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "dce39e49adde4b1b6325e4db7eef5e60cdcc0e688369e9d226d77f2d98924301"
+    },
+    {
+      "path": "ViewModels\\RelacaoCfopDevolucaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\RelacaoCfopDevolucaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "2b45e079421a9579b8d4da1061774285f20ab896a88786be248f3653dd31e37f"
+    },
+    {
+      "path": "ViewModels\\RelacaoCfopDevolucaoFormulario.cs",
+      "export_path": "ViewModels\\RelacaoCfopDevolucaoFormulario.cs",
+      "raw_sha256": "370e10dc7128dc16d9e20053f34936114942f4b673897feff2451ffc9f93262e"
+    },
+    {
+      "path": "ViewModels\\RelacaoCfopDevolucaoListaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoCfopDevolucaoListaViewModel.cs",
+      "raw_sha256": "e24da76915988993a0ef4c63539df7f35ebf045f68fbac3361b0a7b9aef73543"
+    },
+    {
+      "path": "ViewModels\\RelacaoCfopDevolucaoViewModel.cs",
+      "export_path": "ViewModels\\RelacaoCfopDevolucaoViewModel.cs",
+      "raw_sha256": "327d76451a8275bc5334797829a1d9ce7594234811ce83188d7db690c183d959"
+    },
+    {
+      "path": "ViewModels\\RelacoesCfopDevolucaoViewModel.cs",
+      "export_path": "ViewModels\\RelacoesCfopDevolucaoViewModel.cs",
+      "raw_sha256": "7d23fbcda374dd14083b14eabcdc06db4ecb592150b8753457b5f80846419332"
+    },
+    {
+      "path": "Views\\RelacaoCfopDevolucaoFichaAdicionarView.cs",
+      "export_path": "Views\\RelacaoCfopDevolucaoFichaAdicionarView.cs",
+      "raw_sha256": "e2c91256e2608539b6fa047f37b73594fc0981e8f2fa17f2eb5bd9e6dfed259f"
+    },
+    {
+      "path": "Views\\RelacaoCfopDevolucaoFichaAtualizarView.cs",
+      "export_path": "Views\\RelacaoCfopDevolucaoFichaAtualizarView.cs",
+      "raw_sha256": "a61f05edd86b3aaa4dbda944156072c27ee4f70d1028c7022608f38a2130dc28"
+    },
+    {
+      "path": "Views\\RelacaoCfopDevolucaoListaView.cs",
+      "export_path": "Views\\RelacaoCfopDevolucaoListaView.cs",
+      "raw_sha256": "55a7f2580fb88ef90bc841762498c4ede08572333191f0a6dc8eead183b402e1"
+    },
+    {
+      "path": "Views\\RelacaoCfopDevolucaoView.cs",
+      "export_path": "Views\\RelacaoCfopDevolucaoView.cs",
+      "raw_sha256": "7c93beddfe0c4a11b57e895adeafa9a7f2392055821b177b8d5edba1bcb407e5"
+    },
+    {
+      "path": "Views\\RelacoesCfopDevolucaoView.cs",
+      "export_path": "Views\\RelacoesCfopDevolucaoView.cs",
+      "raw_sha256": "cf68c6cec7527a70c339ef36ed98f91a562c6e6e57dae89925c288901b3b004d"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.RelacoesCfopDevolucao.g.resources",
+      "file": "0000.bin",
+      "bytes": 13816,
+      "sha256": "f2056b384694ba585828cf744341ea4fd6f31661a7144cf4cc910a9153a3ca68"
+    },
+    {
+      "name": "Otus.Modulo.RelacoesCfopDevolucao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

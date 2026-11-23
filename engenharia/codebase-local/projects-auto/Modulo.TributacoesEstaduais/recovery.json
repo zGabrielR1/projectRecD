@@ -1,0 +1,440 @@
+{
+  "name": "Modulo.TributacoesEstaduais",
+  "baseline": "baseline\\Modulo.TributacoesEstaduais.dll",
+  "baseline_sha256": "d23f185fe57c082d9df1ab449969f7cbf010671f84c0e5b136b1d78579bc0cc5",
+  "export_project": "recovered\\SuiteG6\\Modulo.TributacoesEstaduais\\Modulo.TributacoesEstaduais.csproj",
+  "sources": [
+    {
+      "path": "Events\\DuplicarTributacaoEstadualEvent.cs",
+      "export_path": "Events\\DuplicarTributacaoEstadualEvent.cs",
+      "raw_sha256": "52f53545561378d95b4d4a2d6f19576439e1ec09a6327c7d28e6cf57f910b76c"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "8163c91c6350ff1fdd6f36ef878476b2a12d1647feccc51a20c7f7d73d1e616b"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "bed4937e4c9a2483296c6d39d5b949aca427817f835c8d7aee322c526e14db84"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "9cac7e5bfef043e404c146db86c9caad8d7b57ccc1f6d1f3be3df24bcfb998bc"
+    },
+    {
+      "path": "TributacaoEstadualModulo.cs",
+      "export_path": "TributacaoEstadualModulo.cs",
+      "raw_sha256": "3345c9a428cfbf9b730360cbeb13248c6393c6b37dc704367d3d6333dc8af2fe"
+    },
+    {
+      "path": "ViewModels\\ModalidadeBaseCalculoComboBoxViewModel.cs",
+      "export_path": "ViewModels\\ModalidadeBaseCalculoComboBoxViewModel.cs",
+      "raw_sha256": "6919c4fa2748a0bacd69a8cd6d09317fccb1fdfae89d307824f016c4c0c8bafb"
+    },
+    {
+      "path": "ViewModels\\ModalidadeBaseCalculoSTComboBoxViewModel.cs",
+      "export_path": "ViewModels\\ModalidadeBaseCalculoSTComboBoxViewModel.cs",
+      "raw_sha256": "f65877726683de655f309c50b1ee9a88ba33974859612ac8bb3b00afd699ee26"
+    },
+    {
+      "path": "ViewModels\\MotivoDesoneracaoIcmsComboBoxViewModel.cs",
+      "export_path": "ViewModels\\MotivoDesoneracaoIcmsComboBoxViewModel.cs",
+      "raw_sha256": "9bd47d04200aebbb11d43918e96f9cc53bd61e6456ce2d8b7216c429e2499e70"
+    },
+    {
+      "path": "ViewModels\\MotivoDesoneracaoIcmsStComboBoxViewModel.cs",
+      "export_path": "ViewModels\\MotivoDesoneracaoIcmsStComboBoxViewModel.cs",
+      "raw_sha256": "f4e6e1fdeb3e459307f5d07ddc70551dd27f87ea08ef7779796887e830e5d7c1"
+    },
+    {
+      "path": "ViewModels\\NaoContribuinteInterestadualViewModel.cs",
+      "export_path": "ViewModels\\NaoContribuinteInterestadualViewModel.cs",
+      "raw_sha256": "d973079970ad691a2f48e86701911bfa86fd6eaa878c20bfcfa968a57d2419ff"
+    },
+    {
+      "path": "ViewModels\\NaoContribuinteViewModel.cs",
+      "export_path": "ViewModels\\NaoContribuinteViewModel.cs",
+      "raw_sha256": "c24966f59742dd71b8c8c2db81a8ec3c3ffdc9a23d52d004091fe85b04045569"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\PercentualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\PercentualViewModel.cs",
+      "raw_sha256": "58505a7755e9398352eef2aabd052a137fd3439d2af5bdcbfd8776f55c4ea1a1"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\CSOSNInterestadualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\CSOSNInterestadualViewModel.cs",
+      "raw_sha256": "19cc922463b548c8e49a15c89c8ed6300fd048b8d16127ea616d047e8be7c51e"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\CSOSNViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\CSOSNViewModel.cs",
+      "raw_sha256": "dbcb47f4574492d05a81f59e8c33fac21371d6408f94895b0aa9268dcbe7c92a"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\CSTICMSInterestadualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\CSTICMSInterestadualViewModel.cs",
+      "raw_sha256": "c85321e28d1aa9e91251534cb69fd6d88821a99f422d6c81e2a26b5f55316f82"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\CSTICMSViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\CSTICMSViewModel.cs",
+      "raw_sha256": "42ea1a4c66b6817689a62e39ec5c8cfacdc1c2bf58bb3a98f4d1e0edf716dc8f"
+    },
+    {
+      "path": "_long\\db013e6d98750ff5.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\IcmsCobradoAnteriormentePorSubstituicaoTributariaInterestadu.cs",
+      "raw_sha256": "b81fd1c4820ad2d60d65b675380761e88271b3e2280a864b07483356c1b197a1"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\IcmsCobradoAnteriormentePorSubstituicaoTributariaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\IcmsCobradoAnteriormentePorSubstituicaoTributariaViewModel.cs",
+      "raw_sha256": "6cf3c177807266b13123a5d5fb1b1e6bb34988ee15a2a8f3ca5f85f9d813959b"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\NaoTributadoInterestadualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\NaoTributadoInterestadualViewModel.cs",
+      "raw_sha256": "2658fe096ad74d4b37ae3222463606da003b821b97e10534aab69230560b583c"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\NaoTributadoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\NaoTributadoViewModel.cs",
+      "raw_sha256": "dec8345c3a21a89274427e32d020e3ddd130f5813aab77951c5056f482f0e322"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SituacaoTributariaItemViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SituacaoTributariaItemViewModel.cs",
+      "raw_sha256": "aa9833d19ddd60973c2f24ca6d2c769120ed0fbc56d0c40fd4b3fe8865fb574e"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SubstituicaoTributariaInterestadualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SubstituicaoTributariaInterestadualViewModel.cs",
+      "raw_sha256": "1d1eaa5628f9358b2b5851255986a09881f2456ed467b01a9f54986282b7e684"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SubstituicaoTributariaSimplesNacionalInterestadualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SubstituicaoTributariaSimplesNacionalInterestadualViewModel.cs",
+      "raw_sha256": "4c4897a175c8abce9c8736146edf96f65e1ddbf862b31fa39a7abb094fca2872"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SubstituicaoTributariaSimplesNacionalViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SubstituicaoTributariaSimplesNacionalViewModel.cs",
+      "raw_sha256": "e185c75332958b68852d89b45cc6da93206b097edde13ab661c4cdd49f6305d1"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SubstituicaoTributariaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\SubstituicaoTributariaViewModel.cs",
+      "raw_sha256": "3e9e8d856f4d632a95efeb52d5d743690ed56c6ca838dacf6d7f51e5c8ecc9b3"
+    },
+    {
+      "path": "_long\\591ab6f03a711c76.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComDiferimentoEReducaoBaseCalculoInterestadualViewM.cs",
+      "raw_sha256": "b29a19b8912f367a13f6a56088125df759260b5a04c28770cbbc67d823d14bd2"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComDiferimentoEReducaoBaseCalculoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComDiferimentoEReducaoBaseCalculoViewModel.cs",
+      "raw_sha256": "c5de81ecbcabadffa4e537a2b6e3a88cf4fc67794c0b073b40831ce88d231442"
+    },
+    {
+      "path": "_long\\3b7307bdc0c6cbfa.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoESubstituicaoTributariaEDiferi.2.cs",
+      "raw_sha256": "bed9ca63ebd4ea28839ed7e477b506600cc63f60c52ff5339e6bfc1aa1ce9812"
+    },
+    {
+      "path": "_long\\0d4f6451cb950a5a.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoESubstituicaoTributariaEDiferi.cs",
+      "raw_sha256": "cbdecd0260897e8d5e773fa462bfebc51a7e7208454460a6eb74a0773ef48a08"
+    },
+    {
+      "path": "_long\\be9af5809603d224.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoESubstituicaoTributariaInteres.2.cs",
+      "raw_sha256": "677bc39db1e729a66a223854059338126908e00c58fd1cf6a21d20f41b160a31"
+    },
+    {
+      "path": "_long\\dc6001a3bbbc5465.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoESubstituicaoTributariaInteres.cs",
+      "raw_sha256": "2ce20c069de4ff426197027b6bf4a9bc7c039b45c014cad4ad4eebe52807a6d4"
+    },
+    {
+      "path": "_long\\11054c874f336733.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoESubstituicaoTributariaSimples.2.cs",
+      "raw_sha256": "4aa7cc626f8a00c28d0c12a1346f0a86bcc3f45a687eb91b1df74b70756d59c2"
+    },
+    {
+      "path": "_long\\ca2811bce68fe5db.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoESubstituicaoTributariaSimples.cs",
+      "raw_sha256": "37e9d68ce2ac63798bd5798d22b7991f857267552434fe7960f1df401d98d16c"
+    },
+    {
+      "path": "_long\\ce1d27404ea6c7cd.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoESubstituicaoTributariaViewMod.cs",
+      "raw_sha256": "7d5d4a7c87656250fb031fbd15f54289f81a1a2238209187ea867d676329093c"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoInterestadualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoInterestadualViewModel.cs",
+      "raw_sha256": "8c3d7045e8110cdd856692b9723b3f976a275279dc0f3991ee5be98f789b0f34"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComReducaoBaseCalculoViewModel.cs",
+      "raw_sha256": "37ef2629b0ba5d661f7889a1132fa50582cce260123dbf05f83f0eacf3ccc36e"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComSubstituicaoTributariaInterestadualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComSubstituicaoTributariaInterestadualViewModel.cs",
+      "raw_sha256": "c6960c8dcb150682471ca1bb0a0a95c901cd8cd4405c6e9966b46f82814fd890"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComSubstituicaoTributariaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoComSubstituicaoTributariaViewModel.cs",
+      "raw_sha256": "cc32bca240547a8c76b6748ee83e32c290050e5c75985047e6cf159c5f871a20"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoInterestadualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoInterestadualViewModel.cs",
+      "raw_sha256": "fcfbf2c05cc15f9c6fde456250e9846b549e5b52f8ec56609bc2030411030a2d"
+    },
+    {
+      "path": "_long\\ddb9b3cdb232694c.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoMonofasicaPropriaResponsabilidadeRetencaoCombustive.2.cs",
+      "raw_sha256": "c5f01f936db2b7a493617768c055858e3b6897dfdd6c45a5343222a95c899bbd"
+    },
+    {
+      "path": "_long\\41312653a2c59ebf.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoMonofasicaPropriaResponsabilidadeRetencaoCombustive.cs",
+      "raw_sha256": "5708642545b38345fdab6dfcd94b686828939361e644dbc285ec528123e68e4f"
+    },
+    {
+      "path": "_long\\431cbeab19bb9656.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoMonofasicaPropriaSobreCombustiveisInterestadualView.cs",
+      "raw_sha256": "29fa89845850f72d9f7d54e9e12c913a85392b794ad0a91d0ba4636f1073e5fb"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoMonofasicaPropriaSobreCombustiveisViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoMonofasicaPropriaSobreCombustiveisViewModel.cs",
+      "raw_sha256": "0b839c1ff8e428c0385d787fcb2bce8b4e8da9c0eb5a3b87b2ec3b89c298bb9b"
+    },
+    {
+      "path": "_long\\310cd7c6b95eaa14.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoMonofasicaSobreCombustiveisCobradaAnteriormenteInte.cs",
+      "raw_sha256": "ac444bbfb5e1c4fe0195c841dd2228789c25654408719eeb7bad2f8ee8b42283"
+    },
+    {
+      "path": "_long\\00a6fe972f35bc55.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoMonofasicaSobreCombustiveisCobradaAnteriormenteView.cs",
+      "raw_sha256": "6269b4a524e93919a34906c41f84ec18d362d1797c622b8ca49d0cbfc178cb51"
+    },
+    {
+      "path": "_long\\972d245ac6e4ca1d.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoMonofasicaSobreCombustiveisRecolhimentoDiferidoInte.cs",
+      "raw_sha256": "0068816b815727d415253edb7117cc7630badf3f75eb68440f95f0fe8e11c16c"
+    },
+    {
+      "path": "_long\\3e5ada9a4a6717b4.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoMonofasicaSobreCombustiveisRecolhimentoDiferidoView.cs",
+      "raw_sha256": "d675c0151cb8db8f748a4fe7bf7cb1d43e48cfee6598370f780b736549eb4479"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoSimplesNacionalInterestadualViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoSimplesNacionalInterestadualViewModel.cs",
+      "raw_sha256": "4a19344d1abc0dbdbaf093830860fe0036aced073442f59a5f56eaa114e43420"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoSimplesNacionalViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoSimplesNacionalViewModel.cs",
+      "raw_sha256": "6b19ba4195c3839c30345a51999de8ef233116b3aea69007402aaf2593b0fc48"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\Itens\\TributadoViewModel.cs",
+      "raw_sha256": "e325ee5353c818e75ea0ebbe1f1e6931e07ec2b02250aac37549ed3f53882c47"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\SituacaoTributariaFactory.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\SituacaoTributariaFactory.cs",
+      "raw_sha256": "18c5b706173b71e6cc766d4b1c655148df7b32eb76313427708fb5505a8c525e"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\SituacaoTributariaInterestadualFactory.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\SituacaoTributariaInterestadualFactory.cs",
+      "raw_sha256": "f0b4317c75a58fe80e354d268f4c831237eaee9edacce1d629ca63aeb2a10151"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\SituacaoTributariaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\SituacaoTributariaViewModel.cs",
+      "raw_sha256": "fa8bb7cd0c0d8c97ab7bce96d2965d932309d7692a1a71bdd34218b0dd9a584b"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\ValorIgualOuMaiorQueZero.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\ValorIgualOuMaiorQueZero.cs",
+      "raw_sha256": "a6178e684cff6b3c1eef2ea99be90f6b7a900d3a9dc3e21789159f9face80130"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\ValorMaiorQueZeroViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\ValorMaiorQueZeroViewModel.cs",
+      "raw_sha256": "781f97340da8d60e6eff9ac7967bf43726ce9e8820760cae539f0f92f8c8fa11"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributaria\\ValorViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributaria\\ValorViewModel.cs",
+      "raw_sha256": "aaff5b2dd7ef59db840534895f63916b580f661fd15f5db6c20fb328538fe9f2"
+    },
+    {
+      "path": "ViewModels\\PercentualAbaViewModel.cs",
+      "export_path": "ViewModels\\PercentualAbaViewModel.cs",
+      "raw_sha256": "76e2cd9f8c2c0d24a60f827c9e4e5e7dcf7376ae9cd0e1b3bde037ff18d0ec6b"
+    },
+    {
+      "path": "ViewModels\\PercentualEstadualAbaViewModel.cs",
+      "export_path": "ViewModels\\PercentualEstadualAbaViewModel.cs",
+      "raw_sha256": "5f37b2a4bf3ac29ab688ca62baccbe49f9ca680f3c76538741da904313b5cd19"
+    },
+    {
+      "path": "ViewModels\\PercentualEstadualFichaManutencaoDetalheViewModel.cs",
+      "export_path": "ViewModels\\PercentualEstadualFichaManutencaoDetalheViewModel.cs",
+      "raw_sha256": "b9f36f54e254598095ac0450ca69f0855f363d4ac680cc1f752897d4bc0e03cc"
+    },
+    {
+      "path": "ViewModels\\PercentualEstadualListaManutencaoDetalheViewModel.cs",
+      "export_path": "ViewModels\\PercentualEstadualListaManutencaoDetalheViewModel.cs",
+      "raw_sha256": "735307997820e6426d7a4be835f3f240204c72ef071f9c1da2cdabf8a7299a02"
+    },
+    {
+      "path": "ViewModels\\PercentualEstadualViewModel.cs",
+      "export_path": "ViewModels\\PercentualEstadualViewModel.cs",
+      "raw_sha256": "0964e193a5b3a3fa7bfd3981d3816bba0ec7bbea10fd66761a0ce6c7ba009ed9"
+    },
+    {
+      "path": "ViewModels\\PercentualFichaViewModel.cs",
+      "export_path": "ViewModels\\PercentualFichaViewModel.cs",
+      "raw_sha256": "9109eaa2dd4a95ba1047734ebce79458826344936f0af9085f6bb1f6de72bd60"
+    },
+    {
+      "path": "ViewModels\\PercentualFormulario.cs",
+      "export_path": "ViewModels\\PercentualFormulario.cs",
+      "raw_sha256": "331f375ac23dcf34fe153d88762120fcfaefb73fce60f7eeae0307db0d351beb"
+    },
+    {
+      "path": "ViewModels\\TributacaoEcfAbaViewModel.cs",
+      "export_path": "ViewModels\\TributacaoEcfAbaViewModel.cs",
+      "raw_sha256": "4f601920b799c1597c25979ab2f5cad58523b2d78d6f146d645350f1a36e15bd"
+    },
+    {
+      "path": "ViewModels\\TributacaoEcfViewModel.cs",
+      "export_path": "ViewModels\\TributacaoEcfViewModel.cs",
+      "raw_sha256": "805c0c4b8e9d6e7424c3105421803deab7fed69350f2881c9b93eaa8aadafd4d"
+    },
+    {
+      "path": "ViewModels\\TributacaoEstadualAbaViewModel.cs",
+      "export_path": "ViewModels\\TributacaoEstadualAbaViewModel.cs",
+      "raw_sha256": "47cc74d1f187768d9daa2fd06903a0ca6d585018bf836c8473e92b7f78481624"
+    },
+    {
+      "path": "ViewModels\\TributacaoEstadualFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TributacaoEstadualFichaAdicionarViewModel.cs",
+      "raw_sha256": "2fb2d58714f4799094208cb48cd430c95b4782f16e5e79f86dd299bf545caf82"
+    },
+    {
+      "path": "ViewModels\\TributacaoEstadualFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\TributacaoEstadualFichaAtualizarViewModel.cs",
+      "raw_sha256": "5e889fe6b1918c3127a7078e0af59c22c364fba1fd4ff44325aafb587936ca32"
+    },
+    {
+      "path": "ViewModels\\TributacaoEstadualFormulario.cs",
+      "export_path": "ViewModels\\TributacaoEstadualFormulario.cs",
+      "raw_sha256": "283b70c5914a38db0b865d8f38972dd65fff523abe5945ed0e1bee0edf0c9823"
+    },
+    {
+      "path": "ViewModels\\TributacaoEstadualListaViewModel.cs",
+      "export_path": "ViewModels\\TributacaoEstadualListaViewModel.cs",
+      "raw_sha256": "9dffdcacc9d7be3534d4d3eb09e7482658c7c1d4736e76ae88f4138808958b51"
+    },
+    {
+      "path": "ViewModels\\TributacaoEstadualViewModel.cs",
+      "export_path": "ViewModels\\TributacaoEstadualViewModel.cs",
+      "raw_sha256": "f626e110436cdef5761a58506157a2141c4486c211017459c3f07cbf95b65c1f"
+    },
+    {
+      "path": "ViewModels\\TributacoesEstaduaisViewModel.cs",
+      "export_path": "ViewModels\\TributacoesEstaduaisViewModel.cs",
+      "raw_sha256": "193b487115da081166ca8d2b867cc838bfe9b77bbc70ccf44b0853ba6692f90c"
+    },
+    {
+      "path": "ViewModels\\UFTributacaoViewModel.cs",
+      "export_path": "ViewModels\\UFTributacaoViewModel.cs",
+      "raw_sha256": "080a14445c07bf591af008f02f2ea43b0b5094dd096b1d5a640b0cce06a7572a"
+    },
+    {
+      "path": "Views\\PercentualFichaView.cs",
+      "export_path": "Views\\PercentualFichaView.cs",
+      "raw_sha256": "06d129e891b9070f58b6b4042bc0484f0444529a6b2c76a1a9472d286d5ef637"
+    },
+    {
+      "path": "Views\\PercentualView.cs",
+      "export_path": "Views\\PercentualView.cs",
+      "raw_sha256": "349f53e36bfefdf74c35127ffd0518c4d13942536da3e6862bd9c907af4b3d59"
+    },
+    {
+      "path": "Views\\TributacaoEstadualFichaAdicionarView.cs",
+      "export_path": "Views\\TributacaoEstadualFichaAdicionarView.cs",
+      "raw_sha256": "eed7ab0d3fcfb714cc64eee12ccbf0c17546213591192cd4f8e6c9f8606987c1"
+    },
+    {
+      "path": "Views\\TributacaoEstadualFichaAtualizarView.cs",
+      "export_path": "Views\\TributacaoEstadualFichaAtualizarView.cs",
+      "raw_sha256": "4fd2bcb0b800a9466a34f6fb31dc5c8856b0b134811857ebcf6f2659ba71063a"
+    },
+    {
+      "path": "Views\\TributacaoEstadualFichaViewDetalhes\\PercentualEstadualFichaView.cs",
+      "export_path": "Views\\TributacaoEstadualFichaViewDetalhes\\PercentualEstadualFichaView.cs",
+      "raw_sha256": "889839860c2ca5c10c2f983b568c43fdd9caf6e816e9450aaa45961b75e8a1a1"
+    },
+    {
+      "path": "Views\\TributacaoEstadualFichaViewDetalhes\\PercentualEstadualListaView.cs",
+      "export_path": "Views\\TributacaoEstadualFichaViewDetalhes\\PercentualEstadualListaView.cs",
+      "raw_sha256": "78650f9614f24b8c305e33693dd8eafed6719c12941e9820257eeb75ddd5538d"
+    },
+    {
+      "path": "Views\\TributacaoEstadualFichaViewDetalhes\\TributacaoEcf.cs",
+      "export_path": "Views\\TributacaoEstadualFichaViewDetalhes\\TributacaoEcf.cs",
+      "raw_sha256": "7fbbb5ae6115948c7e2763f6df0c2ed1f5818caa201794b57acc432028ba279e"
+    },
+    {
+      "path": "Views\\TributacaoEstadualFichaViewDetalhes\\TributacaoEstadualView.cs",
+      "export_path": "Views\\TributacaoEstadualFichaViewDetalhes\\TributacaoEstadualView.cs",
+      "raw_sha256": "878e229f3d5ff088cb218f40b5b6ecb0daa52f458534d60bdd78696e596b7e75"
+    },
+    {
+      "path": "Views\\TributacaoEstadualListaView.cs",
+      "export_path": "Views\\TributacaoEstadualListaView.cs",
+      "raw_sha256": "0148d21333fa1cee273f66294f13c9ea1bea5ad18ddae2dee1eae99f29bb9ea3"
+    },
+    {
+      "path": "Views\\TributacoesEstaduaisView.cs",
+      "export_path": "Views\\TributacoesEstaduaisView.cs",
+      "raw_sha256": "80c51b8d075ea042683258ac352c58ab04480c86a0f11e6df3ae612b5e9c45a5"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.TributacoesEstaduais.g.resources",
+      "file": "0000.bin",
+      "bytes": 70439,
+      "sha256": "c3a120081784df2e0a9adeb2f964fe2901a16f0cabc08a18d861a843337ebbc7"
+    },
+    {
+      "name": "Otus.Modulo.TributacoesEstaduais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

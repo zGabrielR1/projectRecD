@@ -1,0 +1,542 @@
+{
+  "name": "DigisatServer.Application.ServiceAgents",
+  "baseline": "baseline\\DigisatServer.Application.ServiceAgents.dll",
+  "baseline_sha256": "c2386d2da83ced57f50cfb965bc7fade293604fc8c0dc13197f71711a8f39f57",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Application.ServiceAgents\\DigisatServer.Application.ServiceAgents.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "9564b89ba0bf095931541262d8e824c224adad24ba93f4af073c5d65c301e0b7"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\AuditoriaCompletaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\AuditoriaCompletaDto.cs",
+      "raw_sha256": "fba929028dac00824ccf1508aabfd0cddfd552788e757c618e0470a6bb4f896d"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\AuditoriaServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\AuditoriaServiceClient.cs",
+      "raw_sha256": "94c46a39fd6cae8c7e7df29becd28e0dce88dc0d9a4231aaccd2c2bea1939db1"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\CancelamentoCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\CancelamentoCompletoDto.cs",
+      "raw_sha256": "904fc6b07fedc9135014880b2d7345f5de5e2fd19815c28d6ab03668455bd0f3"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ClienteRevendaCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ClienteRevendaCompletoDto.cs",
+      "raw_sha256": "585f91720389c384c2aa0263202532592ed7670789c011b3fd02f494aecaac60"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ClienteRevendaServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ClienteRevendaServiceClient.cs",
+      "raw_sha256": "bb11cedb3218ed96d74903e4d42f6666b0bba4dec438c6327bcea7133a0717aa"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\DadosEmpresaXmlDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\DadosEmpresaXmlDto.cs",
+      "raw_sha256": "3b2ac2ca3119884886845b5f6387feb551c0621704569dee317c766d61b05c43"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\DashboardDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\DashboardDto.cs",
+      "raw_sha256": "4464f11658e4599a24b3b2040fb880c34a95fdb60193891c8f7ba21ef87f33c8"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\DocumentoCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\DocumentoCompletoDto.cs",
+      "raw_sha256": "20ac82ecb405476298155d288487c725765aea1d7a9b166eb62a2cf0f378f190"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\EcfCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\EcfCompletoDto.cs",
+      "raw_sha256": "2c3388c6891a15a0c6100e5c47a981f37013a7cbab70a0336be3ee9f389e534b"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\EcfTipoModelos.cs",
+      "export_path": "ServiceReferenceHabilitacao\\EcfTipoModelos.cs",
+      "raw_sha256": "d1e2c3775049868fa1a0b4ee702219aa79c4d2ccd95e3aa8d59f89f24eb37683"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\EcfXmlDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\EcfXmlDto.cs",
+      "raw_sha256": "187b11f053de2a776215288153091c9e5d93bc8e4ffff0b611bec9c88a12dd09"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\EmailCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\EmailCompletoDto.cs",
+      "raw_sha256": "a8af1d7b184a7f7bb894e6c381bd120313e0b5f135502398cb466df4cb7dcf77"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\EnderecoCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\EnderecoCompletoDto.cs",
+      "raw_sha256": "5dd848de9c00e6e447251ba300f51819fe9843b71057a9df668673fb4fb66e3d"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\EnderecoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\EnderecoDto.cs",
+      "raw_sha256": "c74cbb042127170652638f21f74727d7ec7e1bd4e091ddbf662fad7b3ca356e5"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\FilialDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\FilialDto.cs",
+      "raw_sha256": "fa9ef9251090229b177cf1c909478cd5d9ef1afbaa8ae8f376c913a6b5ceeadf"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\FilialXmlDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\FilialXmlDto.cs",
+      "raw_sha256": "0fea197d1d4b63b1b73b679f3d4ce506e0f592c4b199ea61852dbd46847970a9"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\GeracaoSistemaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\GeracaoSistemaDto.cs",
+      "raw_sha256": "d37abaa8cbe61e488a8d0e15d2fdd63f4eb0c50df81aedc35bac1a61dbfa578a"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoCompletaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoCompletaDto.cs",
+      "raw_sha256": "7482e3c68a44fcb3686ce43005376e629567ea9ef33bb398da8708982d772c37"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoG4ResumoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoG4ResumoDto.cs",
+      "raw_sha256": "ebf2d4820f1d913892184fcd39ac6eb2a8e7ffc567709d8b7e39764fe86aebd0"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoG4ServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoG4ServiceClient.cs",
+      "raw_sha256": "1c6cc0e6d50f729a13ad8b1aa44459fe7eecb11f0a9b55d0515313a9f8fa8cc8"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoListaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoListaDto.cs",
+      "raw_sha256": "ce2b75657477170334eab108e48f0b127692638551281bba12c07c92c15a58a4"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoResumoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoResumoDto.cs",
+      "raw_sha256": "32d2019e16540ccdaf0aed85911b9c4987d5174e5e021257d65c43c4f485c3ab"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoResumoQuantidadeDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoResumoQuantidadeDto.cs",
+      "raw_sha256": "5489b201f783a1841a8e405a3896f4f7b3e25f30363d793521f37c157bee5b21"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoServiceClient.cs",
+      "raw_sha256": "9b8b728e8ce45de77b1884faea721872780e98e1c282dc36158fc56f5f4273cb"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoServiceWebClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoServiceWebClient.cs",
+      "raw_sha256": "36490e66616e702485a676521ea68a2c09a8d380921d0347c6093bf9a9de45cd"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoSiteServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoSiteServiceClient.cs",
+      "raw_sha256": "eb68cd88bf6940cab2d56ea31e8c793a6f5fc6a381fe6712a8bbf7d2092d2218"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitacaoXmlDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitacaoXmlDto.cs",
+      "raw_sha256": "3697415e79fbdc63c848929830deae34995c273755da8b1c14dee9c9d91f6ffa"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HabilitadoPeriodoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HabilitadoPeriodoDto.cs",
+      "raw_sha256": "bc874050cf2283b626b3ea2b846a7df38d0f9ff2208ed0b732afaa8d6632e1f5"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HistoricoLicencasAdicionaisCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HistoricoLicencasAdicionaisCompletoDto.cs",
+      "raw_sha256": "417970e2378d686e950ddf593aaccfbc09a674af5c8b195dd9476c1d024e8f38"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HistoricoSistemaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HistoricoSistemaDto.cs",
+      "raw_sha256": "6e31aae1b9d23d3dfed3d2914129696d660228d137cdbdca85bf172beb49ad8e"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\HistoricoValidacaoPafCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\HistoricoValidacaoPafCompletoDto.cs",
+      "raw_sha256": "ca01f8aa5722f0fc20dc74c2b087dbec40d3679e897a3f08ac2fbaecf71883dd"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IAuditoriaService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IAuditoriaService.cs",
+      "raw_sha256": "35bb6d1fe5241ae716a45d2a4f7b04f1ea7a7cae900822740f2921aac18bac88"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IAuditoriaServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IAuditoriaServiceChannel.cs",
+      "raw_sha256": "378148f3f631d3dbee203e0846527d5405ff567642d2a88f609b1732bb517c80"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IClienteRevendaService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IClienteRevendaService.cs",
+      "raw_sha256": "5846841b96395fe94b7d7ccf2b27382645b5bf5d8663672fe7f73235995f4f48"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IClienteRevendaServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IClienteRevendaServiceChannel.cs",
+      "raw_sha256": "3ec6b8570dbb262d91ca513c7f7bc0ad0b1e15c9d3cf48128dd5afb819cb670d"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IHabilitacaoG4Service.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IHabilitacaoG4Service.cs",
+      "raw_sha256": "6a80aee418ea9d27567cb1248841dc6130068fa799fcf575e73b6c0b098ee067"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IHabilitacaoG4ServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IHabilitacaoG4ServiceChannel.cs",
+      "raw_sha256": "daca63176b4c9078305afafd8583f7c534b38b7d771cb34d2e7e747a349c1de8"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IHabilitacaoService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IHabilitacaoService.cs",
+      "raw_sha256": "dd0fd5148e50bdcc75b22beda03281f7d4e0d26b8f3d945ad498d76fc9ce5a56"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IHabilitacaoServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IHabilitacaoServiceChannel.cs",
+      "raw_sha256": "afeff773bdc94318e9abf5ab760480d7d928f230cddc0da7661b6c8ad3d448b4"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IHabilitacaoServiceWeb.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IHabilitacaoServiceWeb.cs",
+      "raw_sha256": "f66bbca4668053cc747757f00a51857656fd1dcaa28db72fe8da39d795bce934"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IHabilitacaoServiceWebChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IHabilitacaoServiceWebChannel.cs",
+      "raw_sha256": "cbc16b13a1cf1a8f787339d9a01b6fee4112cd9455d4b5dda965c2a9c7497b0d"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IHabilitacaoSiteService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IHabilitacaoSiteService.cs",
+      "raw_sha256": "17e19ed23e414615db7c19f4005b4d7acdb1cceddca378c6e18bff66f5b346c5"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IHabilitacaoSiteServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IHabilitacaoSiteServiceChannel.cs",
+      "raw_sha256": "54f0e16acc13daa436769d0e9d3d420670bee7f76d402fbd9b7ab743ed13a242"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IMunicipioService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IMunicipioService.cs",
+      "raw_sha256": "63037a2e2dfd0f37e5a2c131beef11ebf9e8fb9ebc6c6ba9b9061617fce6cba5"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IMunicipioServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IMunicipioServiceChannel.cs",
+      "raw_sha256": "d1dc26b8e8672e6460ba644ae9124debb03162a2e589b74bef182452a6174961"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IPerfilService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IPerfilService.cs",
+      "raw_sha256": "7a1c77ccb03813315bbba54fe3d49039c9acc0561253150b1b6018cb4d57d136"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IPerfilServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IPerfilServiceChannel.cs",
+      "raw_sha256": "f71500d902f047f727fb90dbf034788d439e79e673cb6e3f7da9eca3dfc8ab14"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IRevendaService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IRevendaService.cs",
+      "raw_sha256": "dc6d0a16072b69cb04d3de498767be079e3ebf50cf32a6b9eddcb409de7809f2"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IRevendaServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IRevendaServiceChannel.cs",
+      "raw_sha256": "84af2d35634662a6a10f141aa322675b5d07141e41f8cb52d587432759c40699"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ISerialRevendaService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ISerialRevendaService.cs",
+      "raw_sha256": "bce6c2e7c9bc456ff54741ede17f69866f15aadde793ad425a0eaef6df00ac4c"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ISerialRevendaServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ISerialRevendaServiceChannel.cs",
+      "raw_sha256": "c5f2b69ea91f6ab3307f9c09a941060aeac2da9e4ce44d0049d8eb6120e5d319"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ISerialService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ISerialService.cs",
+      "raw_sha256": "0321143a63b6df9dafd0ea6357a7585070d8acc207b245abf6f3faf8cd6e2c71"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ISerialServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ISerialServiceChannel.cs",
+      "raw_sha256": "f76611f5edc825c432d6388ed0cb71d1786d97839e824a2fb9059a81e2f9fd10"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IUfService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IUfService.cs",
+      "raw_sha256": "cd34928e08108bc6f5f6bb6ba8972fad0a97bff8d1e1192d8c862a29c385cb52"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IUfServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IUfServiceChannel.cs",
+      "raw_sha256": "7d9660fa6d92e450231249c0946d09c3bb421596e9652b438076ea57e2b33c23"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IValidacaoPafService.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IValidacaoPafService.cs",
+      "raw_sha256": "64c5a2cd1bf7fe36a4d3206be711c3fd7d09c980b16735589d3215d3a71cd68d"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\IValidacaoPafServiceChannel.cs",
+      "export_path": "ServiceReferenceHabilitacao\\IValidacaoPafServiceChannel.cs",
+      "raw_sha256": "dbbedc1da1917b323e6ca7a6bd1de57c90681fcc9d215ba7dd55ebc9abfee1c0"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\MarcaEcf.cs",
+      "export_path": "ServiceReferenceHabilitacao\\MarcaEcf.cs",
+      "raw_sha256": "b009950b9b4ef35d784d5c529ad1debe856b34068193d264951a9b9b2f8ed1e6"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\MarcaSat.cs",
+      "export_path": "ServiceReferenceHabilitacao\\MarcaSat.cs",
+      "raw_sha256": "58b3014b38f957d490440708b745314537d3777cd6af9c0758cae2b18ef23cbd"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ModeloSat.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ModeloSat.cs",
+      "raw_sha256": "0995d175171dc4af2f5006fa5549364a782fab524eb2f36a056ca2a712f80b46"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ModuloCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ModuloCompletoDto.cs",
+      "raw_sha256": "953e1477e277354dd60706e6b2885f01741a0561da07bd9d0c1e3f8a41a83ffc"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ModuloHabilitadoXmlDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ModuloHabilitadoXmlDto.cs",
+      "raw_sha256": "09578b339f23d2b3da3a884a4944c89439652cad1916a5d1d070d7a3ce310e5c"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ModulosHabilitacaoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ModulosHabilitacaoDto.cs",
+      "raw_sha256": "b9525516035c2d18ea76ee83c6bea5820f9d664e6b1d0b69afc92ed98570e837"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\MotivoCancelamento.cs",
+      "export_path": "ServiceReferenceHabilitacao\\MotivoCancelamento.cs",
+      "raw_sha256": "437e1e4e29ecf7f1b4f99bcac0a9532abe85400e9a4849cdd4a43d49d09be6fc"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\MunicipioCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\MunicipioCompletoDto.cs",
+      "raw_sha256": "ad7be44370a4b8acca01d729c7950325ab5290cfb181071e8a71348157112c4c"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\MunicipioListaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\MunicipioListaDto.cs",
+      "raw_sha256": "0c861b3786089bb4cb466398500eab3c7743b3f0df81174e03a9a3f632382849"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\MunicipioServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\MunicipioServiceClient.cs",
+      "raw_sha256": "34b1cdcbc5ed48434bd242659728801786764e0dfbed56ddc4e7b5cce105ac8b"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\PerfilCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\PerfilCompletoDto.cs",
+      "raw_sha256": "130b55af16f8e288cfc8c31713823bfcd80d7fc883022e017006d09a90045fcc"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\PerfilServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\PerfilServiceClient.cs",
+      "raw_sha256": "5b5f3c9d5df002c0b4e363eb828f2e69ea06d9dffc075d198ae76e183187a893"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\PerfilXmlDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\PerfilXmlDto.cs",
+      "raw_sha256": "bc45b0d6531bbdbbe425092f954cc382a6a140d48dd0c378120faa2e445c04fc"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\PessoaJuridicaCompletaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\PessoaJuridicaCompletaDto.cs",
+      "raw_sha256": "5bd8703e15d223031e078ea08483c696409591a74a5871847707a3fc9f76e505"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ProporcaoDesistenciaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ProporcaoDesistenciaDto.cs",
+      "raw_sha256": "0dbdcda30a4705bd1611276e81efa795e75f639525cc8de2e2c3206b6502f1ff"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\RamoDeAtividade.cs",
+      "export_path": "ServiceReferenceHabilitacao\\RamoDeAtividade.cs",
+      "raw_sha256": "8e494b6227fb9d0ce684a62f9139a71bd121587908440b52d769f8babdd0d113"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\RequisicaoCompletaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\RequisicaoCompletaDto.cs",
+      "raw_sha256": "47cb9f95c1cfdc4f10d5f312a684b3ef8fe773171dd7dcd8ac120a1c0eae8c85"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ResumoHabilitadoPeriodoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ResumoHabilitadoPeriodoDto.cs",
+      "raw_sha256": "13046aa79cdde7ea3a27fd0e253331c794d885f00ca9133938ab7cdc90c2aff0"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ResumoSerialDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ResumoSerialDto.cs",
+      "raw_sha256": "81f0c91cd57c4400f7bbe53be346e5be7a357f66be1083cef1e32ad5b2da518e"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\RevendaCompletaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\RevendaCompletaDto.cs",
+      "raw_sha256": "fa86fdeef7c95eff71a4ff3ddcd29a48b5f92549596866ea6e58acf5d52eb3d5"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\RevendaListaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\RevendaListaDto.cs",
+      "raw_sha256": "6c31e62739de844cf7c8890069981aabf3665d9ae9c67ad68d9f08e98cd0b066"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\RevendaServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\RevendaServiceClient.cs",
+      "raw_sha256": "e836bc1289fcf1f14e3e275e777aab80b6082853a9d60cc7ae225a1bffb86741"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SatCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SatCompletoDto.cs",
+      "raw_sha256": "020f1dcc3d6320f7726ed9f8272c476f99fd002bd250bb2b043a1cef87a7dbf7"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SatXmlDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SatXmlDto.cs",
+      "raw_sha256": "af5324c1ee642d205d74f168d1c4c045f7d5e33878eaa41d2d6edb9cbc90e8fe"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SerialComCodigoDeSegurancaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SerialComCodigoDeSegurancaDto.cs",
+      "raw_sha256": "ecebf02b9c3d0a9139bb331f3be869cd3e64c33778b1b075ba60bd9713d27f74"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SerialCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SerialCompletoDto.cs",
+      "raw_sha256": "6196324efcb4883df7a59447d67bd5493077a3f939e77a2fe953afbb822b388e"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SerialListaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SerialListaDto.cs",
+      "raw_sha256": "10ddd545dd8475ea86834c9c49600168b1afbf580e709a2fb94fe3d473275e7e"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SerialRevendaCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SerialRevendaCompletoDto.cs",
+      "raw_sha256": "8b15da69362ffec3573cc061017a118528640f1109f99bcc59c99cb15d06f1bf"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SerialRevendaServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SerialRevendaServiceClient.cs",
+      "raw_sha256": "515b01ee6cab496cfc28101978e0e5e2758d6ed6f01fbf488fac30d007dd0b92"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SerialServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SerialServiceClient.cs",
+      "raw_sha256": "f90fc004e73d41d7fca07b4b8c51c7698d176fd5735798453e03bfc212f53b92"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SerialSistema.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SerialSistema.cs",
+      "raw_sha256": "419c50f36b2790f659c4920ded745e2b7e2bb0a984b98cf78dcc010859325f5b"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SistemasPorRamoDetalhadoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SistemasPorRamoDetalhadoDto.cs",
+      "raw_sha256": "39f6ca74c7219ff45f7542eb73a4a9bcfb11d249c628ff679d2088216783cd5d"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SistemasPorRamoSimplificadoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SistemasPorRamoSimplificadoDto.cs",
+      "raw_sha256": "1598d011ab2408748c05f4dddf1adbd60886c22c6817a876b7c105a5e656c2ee"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SistemasVendidosPorDiaMesDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SistemasVendidosPorDiaMesDto.cs",
+      "raw_sha256": "9f2c83481077d9cdf3ca2d651047d73a99efebffff60a6a6e2cbbac28885d33b"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SistemasVendidosPorEstadoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SistemasVendidosPorEstadoDto.cs",
+      "raw_sha256": "c301cd58b04057c5c1d177d77117501e48e19424a7144193e16b32d166f5d8de"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SistemasVendidosPorMesAnoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SistemasVendidosPorMesAnoDto.cs",
+      "raw_sha256": "9b3d22c248ac91bdba925c878a9faa2fb00eaa7b27bf285b887796002169c417"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SistemasVendidosPorMesESistemaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SistemasVendidosPorMesESistemaDto.cs",
+      "raw_sha256": "2d497b588979ff77c019a2fd04c497a40261889e09441025a4b0e7ea9cb14a67"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SistemasVendidosPorRamoAtividadeEUfDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SistemasVendidosPorRamoAtividadeEUfDto.cs",
+      "raw_sha256": "731b5df808dfbbfd4740f8911493be12271bd74cc39d76de8e9d169c1e522f0e"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\SituacaoSerial.cs",
+      "export_path": "ServiceReferenceHabilitacao\\SituacaoSerial.cs",
+      "raw_sha256": "b645b99e9f6ecd60427f53d53583085becad4b54c978599a04fe1f0eefa5d5fd"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\TelefoneCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\TelefoneCompletoDto.cs",
+      "raw_sha256": "2be63399f473a69916d027f4e345735dd6411acb33ed84ec0468085fba29a939"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\TipoCadastro.cs",
+      "export_path": "ServiceReferenceHabilitacao\\TipoCadastro.cs",
+      "raw_sha256": "24301ec0539feedcd83f8964923b8aa8eee39d4d2a4a3c48ae9d167a98f1eeb4"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\TipoMesaContaCliente.cs",
+      "export_path": "ServiceReferenceHabilitacao\\TipoMesaContaCliente.cs",
+      "raw_sha256": "fd159325914a93a7b1979ede431a28b7989928cb9f0d42f81ffc6ddd532bb6b4"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\TipoPontoDeVenda.cs",
+      "export_path": "ServiceReferenceHabilitacao\\TipoPontoDeVenda.cs",
+      "raw_sha256": "2845c0e970eb9225367ab8dba876c483fb344e5975d5a258902d757d999d69c3"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\UfCompletoDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\UfCompletoDto.cs",
+      "raw_sha256": "4db3b3a5a412dd3154eeb905f68cf8551e77a4bd26d85e62c317a828bdcc6aaf"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\UfServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\UfServiceClient.cs",
+      "raw_sha256": "37f92d9cae0ff95cc5fd848b1b8b6c99e1382b1124d3894bd57841e1f25c4c35"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ValidacaoPafCompletaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ValidacaoPafCompletaDto.cs",
+      "raw_sha256": "747a3387c6c7d8be572b338fea5b7489f4886d0e83daea3ce730841b1c9e957d"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\ValidacaoPafServiceClient.cs",
+      "export_path": "ServiceReferenceHabilitacao\\ValidacaoPafServiceClient.cs",
+      "raw_sha256": "7ba75a14d27f42243a02872097140ad9286105da070468d2fbbd4a037607867b"
+    },
+    {
+      "path": "ServiceReferenceHabilitacao\\VersaoCompletaDto.cs",
+      "export_path": "ServiceReferenceHabilitacao\\VersaoCompletaDto.cs",
+      "raw_sha256": "82651a98bc50af4344c5620a2a7fd02ce5f5b5cb6b37a303d78f7695c9e946f9"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [],
+  "generated_stubs": false
+}

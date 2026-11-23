@@ -1,0 +1,119 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Inventario",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Inventario.dll",
+  "baseline_sha256": "2bb25b204f1e0faa07f1f6a92601e8174b0aafeb079adfccbeb18cca39e35f3b",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Inventario\\DigisatServer.Infrastructure.Crosscutting.Inventario.csproj",
+  "sources": [
+    {
+      "path": "AlterdataContabil\\ArquivoAlterdataContabil.cs",
+      "export_path": "AlterdataContabil\\ArquivoAlterdataContabil.cs",
+      "raw_sha256": "45135c5f92e6a759ff3bfb7900831516015323249264aeeaeedd959b7e021591"
+    },
+    {
+      "path": "AlterdataContabil\\InventarioModeloAlterdataContabil.cs",
+      "export_path": "AlterdataContabil\\InventarioModeloAlterdataContabil.cs",
+      "raw_sha256": "1a9cad88c878144f6242b16588aed77e449b476795befa4086158642f45b1807"
+    },
+    {
+      "path": "AlterdataContabil\\ItensInventarioModeloAlterdataContabilDefault.cs",
+      "export_path": "AlterdataContabil\\ItensInventarioModeloAlterdataContabilDefault.cs",
+      "raw_sha256": "d9cee35a28b3ca6c44f5cd68a79d42e52cc87a160956de129e006f024c1fdbb0"
+    },
+    {
+      "path": "Interfaces\\IInventarioModeloAlterdataContabil.cs",
+      "export_path": "Interfaces\\IInventarioModeloAlterdataContabil.cs",
+      "raw_sha256": "b98a1b58a0418e50e7767cddbd17659ff2d3a6c2209a88079f8e1e57180b6c2b"
+    },
+    {
+      "path": "Interfaces\\IInventarioModeloP7.cs",
+      "export_path": "Interfaces\\IInventarioModeloP7.cs",
+      "raw_sha256": "0f215e748dd29f2d70ee9c32c034efc2948707aa662a482c7825071cdcd0273f"
+    },
+    {
+      "path": "Interfaces\\IInventarioModeloP7Rodape.cs",
+      "export_path": "Interfaces\\IInventarioModeloP7Rodape.cs",
+      "raw_sha256": "a044370539ac87d04b90d9eba648bd774f886ba3802d8552c5db72c80f556090"
+    },
+    {
+      "path": "Interfaces\\IItensInventarioModeloAlterdataContabil.cs",
+      "export_path": "Interfaces\\IItensInventarioModeloAlterdataContabil.cs",
+      "raw_sha256": "935a48df73e75700e9b38d89ba7ed4f4096a37e3e0bb6a6b91cc6a9e8c3ab4bd"
+    },
+    {
+      "path": "Interfaces\\IItensInventarioModeloP7.cs",
+      "export_path": "Interfaces\\IItensInventarioModeloP7.cs",
+      "raw_sha256": "4e874f640b1b62beeef139260f077f937bbf37c56433c89a0174d03ee383fccd"
+    },
+    {
+      "path": "InventarioDefault.cs",
+      "export_path": "InventarioDefault.cs",
+      "raw_sha256": "ce37d0f8e74fa55852fd989ea7c0742f8bb404146d14e4a2cb481f09a6fb72aa"
+    },
+    {
+      "path": "ModeloP7\\ArquivoP7.cs",
+      "export_path": "ModeloP7\\ArquivoP7.cs",
+      "raw_sha256": "f4a9943806e041a2c6947ac918a274a1b8c86e8593203e7945c3cba1c507490c"
+    },
+    {
+      "path": "ModeloP7\\InventarioModeloP7.cs",
+      "export_path": "ModeloP7\\InventarioModeloP7.cs",
+      "raw_sha256": "51ad1c6d582fb9a92900e82a54355b59c65f14614fa125f25c2fe92769dde7be"
+    },
+    {
+      "path": "ModeloP7\\InventarioModeloP7Rodape.cs",
+      "export_path": "ModeloP7\\InventarioModeloP7Rodape.cs",
+      "raw_sha256": "463ecb70964784da1e57a643641feb87823cddef30acebf9812c631a5e810c73"
+    },
+    {
+      "path": "ModeloP7\\ItensInventarioModeloP7.cs",
+      "export_path": "ModeloP7\\ItensInventarioModeloP7.cs",
+      "raw_sha256": "f5692b3f0b83fa210e2e85faa670ca0d99f7922cb2a5b504e8d074e79cbadbae"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f38826bd95cee459c1931aae109b843c1ef47bf1c8a580ab9d520082ab331411"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "4d242762d469241867636961a00afa0b00f9d21c4154e270cedf4b0bb779edb3"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d836613a34e3355109a25d01a3e35bc67955e7e6ed976466c5bb6c919e39e03e"
+    },
+    {
+      "path": "Types\\ClassificacaoFiscal.cs",
+      "export_path": "Types\\ClassificacaoFiscal.cs",
+      "raw_sha256": "2e1798ca786049378d5d751a6df7848fa317428301336523b777ebdd450c2960"
+    },
+    {
+      "path": "Types\\Formatos.cs",
+      "export_path": "Types\\Formatos.cs",
+      "raw_sha256": "a37e902928e035ba86407d7d6787edebb19cfb757f5c93e9cfcfd3dce9687b49"
+    },
+    {
+      "path": "Types\\Modelo.cs",
+      "export_path": "Types\\Modelo.cs",
+      "raw_sha256": "2a612397c9780f9e6814f8320eb77d6ec665e98b8ce9d415fc35aea1d73f00ba"
+    },
+    {
+      "path": "Types\\Ordenacao.cs",
+      "export_path": "Types\\Ordenacao.cs",
+      "raw_sha256": "c5a0e9665dec9b8106eee1ac4cf9d4f0cf497bc957c648365fe77ee83bb4bb13"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Inventario.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

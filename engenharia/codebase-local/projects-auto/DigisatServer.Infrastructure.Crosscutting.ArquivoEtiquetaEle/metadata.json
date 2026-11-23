@@ -1,0 +1,15 @@
+{
+  "artifactSha256": "5436d2ac3e31085505046c884e18f045f7399e7515b79e949e1de6c164413f13",
+  "mvid": "122bb7d6-58ba-47b7-ad8a-8608d261d0b8",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.ArquivoEtiquetaEletronica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "System"
+  ],
+  "resources": []
+}

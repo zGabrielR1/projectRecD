@@ -1,0 +1,19 @@
+{
+  "assembly": "DevExpress.Xpf.DocumentViewer.v15.2.Core, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "DevExpress.Mvvm.v15.2",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "DevExpress.Xpf.Ribbon.v15.2",
+    "PresentationFramework",
+    "System.Xaml",
+    "System",
+    "WindowsBase",
+    "DevExpress.Xpf.Grid.v15.2",
+    "DevExpress.Data.v15.2",
+    "System.Drawing",
+    "System.Core",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ]
+}

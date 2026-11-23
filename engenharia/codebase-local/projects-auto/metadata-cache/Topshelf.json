@@ -1,0 +1,10 @@
+{
+  "assembly": "Topshelf, Version=4.1.0.117, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b",
+  "references": [
+    "mscorlib",
+    "System.ServiceProcess",
+    "System.Configuration.Install",
+    "System",
+    "System.Core"
+  ]
+}

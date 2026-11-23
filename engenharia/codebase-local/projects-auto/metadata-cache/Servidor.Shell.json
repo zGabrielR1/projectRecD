@@ -1,0 +1,17 @@
+{
+  "assembly": "Servidor.Shell, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "System.Xaml",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "System",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "WindowsBase",
+    "System.Reactive.Core",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core"
+  ]
+}

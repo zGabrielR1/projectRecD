@@ -1,0 +1,11 @@
+{
+  "artifactSha256": "f281126008d5856b006ab75f1eadb0505ef39b5a0beb2fc24ab289a3845d2581",
+  "mvid": "79fed5d6-e5b1-4da1-93ec-0671f85e7c8c",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.LeitorCartao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting"
+  ],
+  "resources": []
+}

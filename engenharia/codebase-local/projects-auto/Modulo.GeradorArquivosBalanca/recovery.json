@@ -1,0 +1,96 @@
+{
+  "name": "Modulo.GeradorArquivosBalanca",
+  "baseline": "baseline\\Modulo.GeradorArquivosBalanca.dll",
+  "baseline_sha256": "62deec983ce1d70d1fad4bd1d654b917885c98bd0047ca98afae766ba5290ebc",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosBalanca\\Modulo.GeradorArquivosBalanca.csproj",
+  "sources": [
+    {
+      "path": "GeradorArquivoBalancaModulo.cs",
+      "export_path": "GeradorArquivoBalancaModulo.cs",
+      "raw_sha256": "86f86c13504b422cacd9450910d6521d968c281120ce1bc03b4cc0872fa11c51"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "8d1d8b8fd685b7620f66b383f98ea710ef66076fc4c2c818dc4905b8030837e9"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "71bb81e5f16bee96c57ab46a62da101d0158f156156692bdc57d2a23c9c8aac7"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "e9f79ded69d5df59b7da48882c800b6f2f4a05cfebea60c2bf978b5691c21a95"
+    },
+    {
+      "path": "Services\\GeradorArquivosBalancaService.cs",
+      "export_path": "Services\\GeradorArquivosBalancaService.cs",
+      "raw_sha256": "4485a65bc763feb3d38668ee7ef1c9ba521022ce1c85d6f5126be7e4a9a413a1"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoAbaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoAbaViewModel.cs",
+      "raw_sha256": "c5ffff5c9c49348ef7f8aa004c768547aef7d243ab29b498e828bf5bec290add"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoBalancaFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoBalancaFichaViewModel.cs",
+      "raw_sha256": "04069d3be64165c51a0ecd96e8ff669e4e4115f5cc38c63d2ee73f3faf956bc3"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoBalancaFormulario.cs",
+      "export_path": "ViewModels\\GeradorArquivoBalancaFormulario.cs",
+      "raw_sha256": "e5550b438a8c361e5e9e3275d6d167ac957de2185328e033b7688dccd8409761"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoBalancaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoBalancaViewModel.cs",
+      "raw_sha256": "881ca9b03d5fc8c7c87660075611dcbf2bd6e4fc758ef5138126cdc6ae21d455"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosBalancaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosBalancaViewModel.cs",
+      "raw_sha256": "d2199c075be5f1db95cdc966d8e537b6dae27234fef08477ca00fe750bb5f9aa"
+    },
+    {
+      "path": "Views\\GeradorArquivoBalancaFichaView.cs",
+      "export_path": "Views\\GeradorArquivoBalancaFichaView.cs",
+      "raw_sha256": "e5bbf6f18d65fc6bc5a75653ba8354698cb81875322e67fca78f3a73cf101478"
+    },
+    {
+      "path": "Views\\GeradorArquivoFichaViewDetalhes\\GeradorArquivoView.cs",
+      "export_path": "Views\\GeradorArquivoFichaViewDetalhes\\GeradorArquivoView.cs",
+      "raw_sha256": "af81b0614cfc0c29c83b0d858ecc0beee47f67ee8966b14b93b40d3ea4231a92"
+    },
+    {
+      "path": "Views\\GeradorArquivosBalancaView.cs",
+      "export_path": "Views\\GeradorArquivosBalancaView.cs",
+      "raw_sha256": "1cde9e716e8b84a7daaafbc324061efd2a55feed0ebfc682518a7565eb615cbb"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Restore exception catch assignment to outer retry local, supported by original stloc.0/ldloc.0 IL",
+      "occurrences": 1,
+      "evidence": "engenharia\\codebase-local\\retry-evidence\\Modulo.GeradorArquivosBalanca\\Modulo.GeradorArquivosBalanca.il"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosBalanca.g.resources",
+      "file": "0000.bin",
+      "bytes": 9767,
+      "sha256": "49881e3c37522e862e8794a6f14bb9b38a50fb6de21f3d2e770c05f339e0e4d5"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosBalanca.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

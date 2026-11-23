@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "1cc927d61241f7a19ddc975e48235cf3e71b2f5566de480a046424419e431bb8",
+  "mvid": "a42b4fc1-1077-4ead-aaf1-9ba40c005d7a",
+  "assembly": "Modulo.TransacoesPbm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "System.Reactive.Core",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.TransacoesPbm.g.resources",
+      "file": "0000.bin",
+      "bytes": 9107,
+      "sha256": "e74193b05c756b7127b2fd3ca850cf0d84aec3817a409a9c6d1c1c4d38c40b48"
+    },
+    {
+      "name": "Otus.Modulo.TransacoesPbm.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

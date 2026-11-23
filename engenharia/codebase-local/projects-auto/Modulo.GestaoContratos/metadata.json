@@ -1,0 +1,51 @@
+{
+  "artifactSha256": "f1405691d5f3e02c6bd94ef64455eced5ba7b5f73aed8742596102f87d556da5",
+  "mvid": "b55bafa4-7f38-47d2-bdd1-57d7bf5b64d0",
+  "assembly": "Modulo.GestaoContratos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Windows.Forms",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "Prism.Unity.Wpf",
+    "System.Drawing",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Printing.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoContratos.g.resources",
+      "file": "0000.bin",
+      "bytes": 78702,
+      "sha256": "b029d93e1d055a71670a92f1dd6d50598e3fe4df7eb3d25577086b65b0d83628"
+    },
+    {
+      "name": "Otus.Modulo.GestaoContratos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GestaoContratos.Reports.ImpressoContrato.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

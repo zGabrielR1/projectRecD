@@ -1,0 +1,240 @@
+{
+  "name": "Modulo.AnunciosShopee",
+  "baseline": "baseline\\Modulo.AnunciosShopee.dll",
+  "baseline_sha256": "f576f45789def7a15b8fa26a7cc1feec7f1447744ec7e7b60167ab18979d07d9",
+  "export_project": "recovered\\SuiteG6\\Modulo.AnunciosShopee\\Modulo.AnunciosShopee.csproj",
+  "sources": [
+    {
+      "path": "AnuncioShopeeModulo.cs",
+      "export_path": "AnuncioShopeeModulo.cs",
+      "raw_sha256": "716e346e8052c2f76e10f2fd622b1725d5e4ade2ca16dd09c6fcd2e7520c3004"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "005c02d48101b00a4ac930f2535305187f2a12b0b167e5c4b5256789755b09d1"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "ac864882befec8f3f50dc49a3123b9523a65287999d035f77d76c33d375f95c4"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "06c0a4528296f33a7b13267ee6c7f851cbe9867b4859ec32937cf4b2b824868f"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeAbaViewModel.cs",
+      "raw_sha256": "d8faf06596fc4fb2370e4e15726184f57b6a38cbfdc18f703a65c031b468ea58"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeAtacadoAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeAtacadoAbaViewModel.cs",
+      "raw_sha256": "c349806be7bfbdcdb74c5e70ef4765845d9e64285eb44de12ab808f33686699f"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeAtacadoViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeAtacadoViewModel.cs",
+      "raw_sha256": "ae9f5c1df6929255155355b48383f16e410984304b851abcfbe72179699052e3"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeCategoriaAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeCategoriaAbaViewModel.cs",
+      "raw_sha256": "4060f883a62cebe1becb73a51f60748da519b4dfa54f37cfb74509b98fd1688f"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeCategoriaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeCategoriaViewModel.cs",
+      "raw_sha256": "b3c034c26f0cac6327b1cbdbb86cfcec1486c6b9b5afc9c46a9ed2ab56fb5394"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeEntregaAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeEntregaAbaViewModel.cs",
+      "raw_sha256": "13a2fa368950ac1f71f82e6181cf0619b678088b68f601ab4c4e95113d0882c8"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeEntregaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeEntregaViewModel.cs",
+      "raw_sha256": "893c2c11ebd1f06288a2533065b28b090626ccd8439ca091e45e23164aa5fab7"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeFichaAdicionarViewModel.cs",
+      "raw_sha256": "244273903589888244f9ec041a4f85965c4f11a003f04846a2b1b3d6fbbe7bf1"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeFichaAtualizarViewModel.cs",
+      "raw_sha256": "1c9ed937a2f0a2ed3867c200aff17b1a696f38524f8c40652e6859f8c291c13e"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeFormulario.cs",
+      "export_path": "ViewModels\\AnuncioShopeeFormulario.cs",
+      "raw_sha256": "9ac9a9cc400e2e3abb3ccd1b45889d115fe817e9bd1db58f0341c92841c0741e"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeImagensAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeImagensAbaViewModel.cs",
+      "raw_sha256": "066cc2530afff7a22dbd2e5bb646e91e67b637f9a1227efcd321e6cb223d3c94"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeImagensViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeImagensViewModel.cs",
+      "raw_sha256": "997ad9e7063690e32b86ce04b6c8ee94d260df2f2830467e8b28763eaf4de5c9"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeImportarAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeImportarAbaViewModel.cs",
+      "raw_sha256": "d5a67f177c30e1a68e218774e00c729cb637b8f55c54ef681338b76684706ce9"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeImportarFichaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeImportarFichaViewModel.cs",
+      "raw_sha256": "5de02f23089af4ff70ec87e3504682e6b50662109b4c9678b1b0598b0e97ae62"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeImportarFormulario.cs",
+      "export_path": "ViewModels\\AnuncioShopeeImportarFormulario.cs",
+      "raw_sha256": "f2b2ed9f6176149a977e23e5a9615caf30f67ecb65e37387e6960ed009308924"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeImportarViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeImportarViewModel.cs",
+      "raw_sha256": "ad9122e85854978c26a2aa4484aff91ed198a16b2b122f876346fdefd40fb70a"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeListaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeListaViewModel.cs",
+      "raw_sha256": "7175b1f6fc8e5c8404a32597a1911992d976db27fdc5d07cc4b953cfc2df7636"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeVariacaoAbaViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeVariacaoAbaViewModel.cs",
+      "raw_sha256": "0eb615e5d710063524a97ccbd761cedff327f8bec6dc67bd04b15f5dac16b213"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeVariacaoViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeVariacaoViewModel.cs",
+      "raw_sha256": "5c52d73139c834ce3087a31fddd00ce139f807bf399433049dfb7fde49a2190a"
+    },
+    {
+      "path": "ViewModels\\AnuncioShopeeViewModel.cs",
+      "export_path": "ViewModels\\AnuncioShopeeViewModel.cs",
+      "raw_sha256": "693d191b9f74fe38fa751d65308209bef98741dca8dd1f1d6bc18123f43a723b"
+    },
+    {
+      "path": "ViewModels\\AnunciosShopeeViewModel.cs",
+      "export_path": "ViewModels\\AnunciosShopeeViewModel.cs",
+      "raw_sha256": "f5385834b8c2c2757e2b5f234400f441538584360e0c2cfa4b92c74edf281f0d"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoFactory.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoFactory.cs",
+      "raw_sha256": "9693b4292af08e25cea9c4bb254732fce9973fc60e4c220b248ad680a8bd3e43"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoListaSelecionavelViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoListaSelecionavelViewModel.cs",
+      "raw_sha256": "b72fe7337ff5b5afad72236617a5893affa61e5343c35d869abd4f28e1320d43"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoListaViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoListaViewModel.cs",
+      "raw_sha256": "70032214b9bcc2bce3cdfbc50ead9fb5a0be9fb9e48cff53a17a7bb3f6be152e"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoTextoViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoTextoViewModel.cs",
+      "raw_sha256": "e4a739efb911c1b115ddcb83aca78a873f3e8d116928b023d8cc8a2d0c407130"
+    },
+    {
+      "path": "ViewModels\\Atributos\\AtributoViewModel.cs",
+      "export_path": "ViewModels\\Atributos\\AtributoViewModel.cs",
+      "raw_sha256": "6b3c9c1b1f3e109442633f31ddad222b96e56be5c266914af2c1a286d94a3e78"
+    },
+    {
+      "path": "ViewModels\\Variacoes\\ImagensVariacoesViewModel.cs",
+      "export_path": "ViewModels\\Variacoes\\ImagensVariacoesViewModel.cs",
+      "raw_sha256": "c8d79856e4bd817ed146e561b6d90c10c0814ee2f999f994350a7c9d9544d99f"
+    },
+    {
+      "path": "ViewModels\\Variacoes\\VariacoesViewModel.cs",
+      "export_path": "ViewModels\\Variacoes\\VariacoesViewModel.cs",
+      "raw_sha256": "83754984ff4044e633f275ecac537a3cf63debc4bebff65487ac7e55c58d0881"
+    },
+    {
+      "path": "Views\\AnuncioShopeeFichaAdicionarView.cs",
+      "export_path": "Views\\AnuncioShopeeFichaAdicionarView.cs",
+      "raw_sha256": "90ad6466b67a2879b8e102aaed8aace2df0dab64807ca5cb71bf3850053ebdff"
+    },
+    {
+      "path": "Views\\AnuncioShopeeFichaAtualizarView.cs",
+      "export_path": "Views\\AnuncioShopeeFichaAtualizarView.cs",
+      "raw_sha256": "33692cc86abe619e08db3b7934080958ebd757ab0fe6ab83b208b10553db9d6d"
+    },
+    {
+      "path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeAtacadoView.cs",
+      "export_path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeAtacadoView.cs",
+      "raw_sha256": "7111c3bb1ea351d7a602af47d3446f66e875fd3ee10059cfa7d38d1a2680a2b7"
+    },
+    {
+      "path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeCategoriaView.cs",
+      "export_path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeCategoriaView.cs",
+      "raw_sha256": "949e917f9bc6eaf3da33e6e36d430180269e8d63923e485cfb2dd9a7f73f4113"
+    },
+    {
+      "path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeEntregaView.cs",
+      "export_path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeEntregaView.cs",
+      "raw_sha256": "364998b731110bc1f85f1636544d99ab131d9cddb3fecb42197630dac521689d"
+    },
+    {
+      "path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeImagensView.cs",
+      "export_path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeImagensView.cs",
+      "raw_sha256": "837ef7f04bac0a91b6e55a3608f8d109bcf11436b7e40bbd7a0b7f69f365fbbb"
+    },
+    {
+      "path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeVariacaoView.cs",
+      "export_path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeVariacaoView.cs",
+      "raw_sha256": "8d52fa3e51fa1974b84bd57b4fb7245ae2b9dcd13bd934f7b0e833c1838ec9be"
+    },
+    {
+      "path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeView.cs",
+      "export_path": "Views\\AnuncioShopeeFichaViewDetalhes\\AnuncioShopeeView.cs",
+      "raw_sha256": "15e47e653ca19f9c127d41dba99f0561ff33795e4b1d5138c048e4cf43ad391d"
+    },
+    {
+      "path": "Views\\AnuncioShopeeImportarFichaView.cs",
+      "export_path": "Views\\AnuncioShopeeImportarFichaView.cs",
+      "raw_sha256": "02602b40cac49e03d9509f028c1214b265383297b57974b0ebfbe109853ccb8c"
+    },
+    {
+      "path": "Views\\AnuncioShopeeListaView.cs",
+      "export_path": "Views\\AnuncioShopeeListaView.cs",
+      "raw_sha256": "8d6b2b4ae901065141bfc59c8446f6861b54fa5467596601404fd7901454bbdb"
+    },
+    {
+      "path": "Views\\AnunciosShopeeView.cs",
+      "export_path": "Views\\AnunciosShopeeView.cs",
+      "raw_sha256": "2432b3a7420fe083080d3cc213fbb88863cc8219c648d061654699730ce45831"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.AnunciosShopee.g.resources",
+      "file": "0000.bin",
+      "bytes": 70339,
+      "sha256": "562ce728e1d1d5d72786583fe207a589efea5efedf644b81ef4dd8b55c838b56"
+    },
+    {
+      "name": "Otus.Modulo.AnunciosShopee.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

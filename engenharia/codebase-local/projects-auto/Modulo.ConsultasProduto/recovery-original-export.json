@@ -1,0 +1,145 @@
+{
+  "name": "Modulo.ConsultasProduto",
+  "baseline": "baseline\\Modulo.ConsultasProduto.dll",
+  "baseline_sha256": "7e6227a6a61f9b631a5a591d0132f32a43813ddb67c09140b7fb1e5731e8f2e7",
+  "export_project": "recovered\\SuiteG6\\Modulo.ConsultasProduto\\Modulo.ConsultasProduto.csproj",
+  "sources": [
+    {
+      "path": "ConsultaProdutoModulo.cs",
+      "export_path": "ConsultaProdutoModulo.cs",
+      "raw_sha256": "bbe8fc5a4dc8ab8941494c6bb85d540353ebb40d9fff817ef21142ca4915d998"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "dcf7357c79f4c82d3407a3da98251adef989d1eb9694aeef05cf454565258671"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "8227ab6327c0727954ce2f6d1759c77be7f59975f86e4e48154439913bb6edf2"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "87b0852c1f20e3ac4d98942bee35d24079db2cecef5eeb50f4d80c698cb4bb38"
+    },
+    {
+      "path": "ViewModels\\ConsultaProduto.cs",
+      "export_path": "ViewModels\\ConsultaProduto.cs",
+      "raw_sha256": "9146307107de40bd2a999ecb0e6cfa2bc79bfb649dc86e8c4594c1f73a3d24d6"
+    },
+    {
+      "path": "ViewModels\\ConsultaProdutoFichaViewModel.cs",
+      "export_path": "ViewModels\\ConsultaProdutoFichaViewModel.cs",
+      "raw_sha256": "6e0b20c17af8b1120c2c73dab8187070bf9ffe5555944e9110c51600374a8891"
+    },
+    {
+      "path": "ViewModels\\ConsultaProdutoFormulario.cs",
+      "export_path": "ViewModels\\ConsultaProdutoFormulario.cs",
+      "raw_sha256": "7d83a3ef1fe11e58d7f8b9473e8627d64f41cac0953e2ed164d911e0456a56bd"
+    },
+    {
+      "path": "ViewModels\\ConsultaProdutoPendenteAbaViewModel.cs",
+      "export_path": "ViewModels\\ConsultaProdutoPendenteAbaViewModel.cs",
+      "raw_sha256": "860e1ef9bda41110242d8c5a3c7b94be500670c8cd32dd8a0d2d7aadeb4e646e"
+    },
+    {
+      "path": "ViewModels\\ConsultaProdutoPendenteViewModel.cs",
+      "export_path": "ViewModels\\ConsultaProdutoPendenteViewModel.cs",
+      "raw_sha256": "c54c0386629d91e6ebb7a52625edc7aeb25f612c29107aa484860bd4d0f98f96"
+    },
+    {
+      "path": "ViewModels\\ConsultasProdutoViewModel.cs",
+      "export_path": "ViewModels\\ConsultasProdutoViewModel.cs",
+      "raw_sha256": "680f1ee827baefa389b5b8f94f6e42dfb3d657ac7a4484d902ebe4753baaaf50"
+    },
+    {
+      "path": "ViewModels\\EnviadosParaAnaliseAbaViewModel.cs",
+      "export_path": "ViewModels\\EnviadosParaAnaliseAbaViewModel.cs",
+      "raw_sha256": "24a3737c2c4e87cc26f1aa50c6fe33795c78612c8a6f0e247951f0f5f784c666"
+    },
+    {
+      "path": "ViewModels\\EnviadosParaAnaliseViewModel.cs",
+      "export_path": "ViewModels\\EnviadosParaAnaliseViewModel.cs",
+      "raw_sha256": "a9133287fbad89c5614ba245d38ff4fc9d1fc2d1445004a713b0ff81dfdc7dc8"
+    },
+    {
+      "path": "ViewModels\\SelecaoProdutoAbaViewModel.cs",
+      "export_path": "ViewModels\\SelecaoProdutoAbaViewModel.cs",
+      "raw_sha256": "1564846f35275e4297363b7d132062e7d45d87e0b51bd30e5bd77aadbd71ef87"
+    },
+    {
+      "path": "ViewModels\\SelecaoProdutoViewModel.cs",
+      "export_path": "ViewModels\\SelecaoProdutoViewModel.cs",
+      "raw_sha256": "cf44dd8bfcfeac9f90b4417420cda934f23a46c3b7b03b43f5c377660e1654e3"
+    },
+    {
+      "path": "ViewModels\\SelecionadosComCodigoBarrasAbaViewModel.cs",
+      "export_path": "ViewModels\\SelecionadosComCodigoBarrasAbaViewModel.cs",
+      "raw_sha256": "9a3b8ce912efcc2b34f25b9146688194a7989e98dcc3fdd2aaa876936d537aa2"
+    },
+    {
+      "path": "ViewModels\\SelecionadosComCodigoBarrasViewModel.cs",
+      "export_path": "ViewModels\\SelecionadosComCodigoBarrasViewModel.cs",
+      "raw_sha256": "96cb7a4e201d42ac7cb923cc7b1824dac1561219a3edeee582e172eac42a0a45"
+    },
+    {
+      "path": "ViewModels\\SelecionadosSemCodigoBarrasAbaViewModel.cs",
+      "export_path": "ViewModels\\SelecionadosSemCodigoBarrasAbaViewModel.cs",
+      "raw_sha256": "f0a504365df11cce8852493ec5fc37eae7d89ac71bc756565bcc63da30b1b0d1"
+    },
+    {
+      "path": "ViewModels\\SelecionadosSemCodigoBarrasViewModel.cs",
+      "export_path": "ViewModels\\SelecionadosSemCodigoBarrasViewModel.cs",
+      "raw_sha256": "0170880dd65ef0816d8721034b42384b08a3410497524356cd09acd5fa86b480"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaView.cs",
+      "raw_sha256": "f3df982b5f1d04760604b1633d5ecab917a97c0c106c05b3a687a89c6f1690e2"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\ConsultaProdutosPendentesView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\ConsultaProdutosPendentesView.cs",
+      "raw_sha256": "284ae861d0c835fd09dc87860eb8cc508197a6748d9194f66b9d62ae3892442f"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\EnviadosParaAnaliseView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\EnviadosParaAnaliseView.cs",
+      "raw_sha256": "c548c3b2a77cfe88a9d756b7a0888caaeebc11af7a0e831702ad299ff507d702"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\SelecaoProdutoView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\SelecaoProdutoView.cs",
+      "raw_sha256": "2aa65552fed8ca9dac984ee2548a3ea512730f4eb0265f905f24f9e6dfbe7f2f"
+    },
+    {
+      "path": "Views\\ConsultaProdutoFichaViewDetalhes\\SelecionadosComCodigoBarrasView.cs",
+      "export_path": "Views\\ConsultaProdutoFichaViewDetalhes\\SelecionadosComCodigoBarrasView.cs",
+      "raw_sha256": "1e97682ae90f93e997a677f6fd607a330707c8e2dadeac05bd0a5e3da8fcb6c4"
+    },
+    {
+      "path": "Views\\ConsultasProdutoView.cs",
+      "export_path": "Views\\ConsultasProdutoView.cs",
+      "raw_sha256": "aaa3bc31a527cd558efeb4c2372b65afecf1f45707741ba6399924c102eab5f5"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.ConsultasProduto.g.resources",
+      "file": "0000.bin",
+      "bytes": 25476,
+      "sha256": "6d2f03253dd88963f0e4f86000fac6b1291b69f5d299b89ccb959618ba38c2fa"
+    },
+    {
+      "name": "Otus.Modulo.ConsultasProduto.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

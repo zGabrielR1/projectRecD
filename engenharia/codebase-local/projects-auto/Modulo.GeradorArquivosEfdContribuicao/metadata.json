@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "6938c6cebfca926f848fb37d38d86e36b0c9d396f268bca6308dfff987a81368",
+  "mvid": "b18b5107-6d8e-469f-96a3-70914c30f221",
+  "assembly": "Modulo.GeradorArquivosEfdContribuicao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System",
+    "System.Xaml",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting.EfdContribuicao",
+    "System.Core",
+    "PresentationCore",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GeradorArquivosEfdContribuicao.g.resources",
+      "file": "0000.bin",
+      "bytes": 26092,
+      "sha256": "291cec4f4468c59ba23a750eabe5cee23b77006a079edf2cc3bb0e62edb7f1f9"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosEfdContribuicao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

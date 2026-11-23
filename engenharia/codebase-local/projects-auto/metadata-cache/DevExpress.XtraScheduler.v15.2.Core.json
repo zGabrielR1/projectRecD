@@ -1,0 +1,14 @@
+{
+  "assembly": "DevExpress.XtraScheduler.v15.2.Core, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "DevExpress.Data.v15.2",
+    "System",
+    "System.Windows.Forms",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Drawing",
+    "System.Xml",
+    "System.Data",
+    "System.Core"
+  ]
+}

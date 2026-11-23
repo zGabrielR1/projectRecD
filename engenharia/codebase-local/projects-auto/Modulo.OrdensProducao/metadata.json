@@ -1,0 +1,94 @@
+{
+  "artifactSha256": "99583c312ede87c360e8f7ff77d45059123787657835b6e56d767fcf9eac0786",
+  "mvid": "1a0ad9aa-d914-425d-97d4-2bae1a332476",
+  "assembly": "Modulo.OrdensProducao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "Infraestrutura",
+    "System.Xaml",
+    "System",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "PresentationCore",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "System.Drawing",
+    "DevExpress.DataAccess.v15.2",
+    "Prism.Unity.Wpf",
+    "NClone",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.Data.v15.2",
+    "DevExpress.XtraPrinting.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.OrdensProducao.g.resources",
+      "file": "0000.bin",
+      "bytes": 47892,
+      "sha256": "ea275b0da50ce1424ae1dfc6f72d9e92880eeb3ec501890ae178355ba52a7f85"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ImpressoOrdensProducaoCadeia.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ImpressoControleEtapa.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ImpressoOrdemDesmontagem.resources",
+      "file": "0004.bin",
+      "bytes": 1574,
+      "sha256": "bdd49d5a540d0b2b52b1873cc5af100efe9ed92a2de84fbf55cfd87e429f8d99"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ImpressoOrdemProducao.resources",
+      "file": "0005.bin",
+      "bytes": 3010,
+      "sha256": "76218266c8a327984e85908832f212040117c2342dbad39a057ce2480b2a96f2"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ListaMateriasPrimasFalta.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.ResumoMateriaPrima.resources",
+      "file": "0007.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.OrdensProducao.Reports.MateriasPrimasFalta.resources",
+      "file": "0008.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.OrdensProducao.dll.licenses",
+      "file": "0009.bin",
+      "bytes": 285,
+      "sha256": "4fd7c0889b907296d44c7e3a50ad1ba26955e0826393d99a8ace67d5961ce0f3"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Modulo.GeradorArquivosContabilidade",
+  "baseline": "baseline\\Modulo.GeradorArquivosContabilidade.dll",
+  "baseline_sha256": "2772e0107ce3a6e5db28f0f87fefbe60b14f35f33a5338f199f1ee9a78eade28",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosContabilidade\\Modulo.GeradorArquivosContabilidade.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "d1d8a9f6257f93b55460312e952c5e5bcc0d375029dd6e103fc67e3e58b9df09"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "2772e0107ce3a6e5db28f0f87fefbe60b14f35f33a5338f199f1ee9a78eade28"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 12
+    },
+    {
+      "kind": "Resolve UI exception/report alignment aliases and protected report disposal",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException",
+        "TextAlignment": "DevExpress.XtraPrinting.TextAlignment"
+      }
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosContabilidade.g.resources",
+      "file": "0000.bin",
+      "bytes": 15431,
+      "sha256": "b61d9be10d2f30018a2653a303e4ed51add828208befd1f30f174ffd5057b388"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosContabilidade.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosContabilidade.Reports.ResumoArquivosEnviados.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosContabilidade.Reports.DocumentosFiscaisSemXml.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.GeradorArquivosContabilidade.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 299,
+      "sha256": "53445a69f2d4dc1a76b7da2a00f5d2c3fbf8369a1a070e57bf80f591f6563e37"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "GeradorArquivoContabilidadeModulo.cs",
+      "export_path": "GeradorArquivoContabilidadeModulo.cs",
+      "raw_sha256": "3a5640a1d09b43dce8e59b6555f5887b80c2cb04d1c050a0f53402af4c916cb7"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "b7b43bb0e64dbcb9ee0a49c859e22cc954337d00b56f3bd52c366a9d92db0b0a"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "ae94b2320ae822c10696a4ac09dc247cb99cefb2b7962911cf7ce7b7d150b5d8"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "2f5271424ac7230c9da7c0874b6d1ae8f718bb10e51c0eed9b05e85f5690fd1d"
+    },
+    {
+      "path": "Reports\\DocumentosFiscaisSemXml.cs",
+      "export_path": "Reports\\DocumentosFiscaisSemXml.cs",
+      "raw_sha256": "83003105c91a83fc5b1f5d58505c441f1b935c47f67236eb93c8543f8bb61d90"
+    },
+    {
+      "path": "Reports\\ResumoArquivosEnviados.cs",
+      "export_path": "Reports\\ResumoArquivosEnviados.cs",
+      "raw_sha256": "b35f3769df3a03a4f2d59bbcc2568df33bdb1f3d8031aec4f3e302b1d7f76a38"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoContabilidadeAbaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoContabilidadeAbaViewModel.cs",
+      "raw_sha256": "0fb2d7ca1f488c69a9891e612253daf7ab7d3d93ec9e3bb03cc72e034622570b"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoContabilidadeFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoContabilidadeFichaViewModel.cs",
+      "raw_sha256": "af5b04f3daa74391feb6c9ce654641e0096fa22ec4b1386735ee72afbfe97d37"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoContabilidadeFormulario.cs",
+      "export_path": "ViewModels\\GeradorArquivoContabilidadeFormulario.cs",
+      "raw_sha256": "19c069480575e7d7eb1bf311dbabe534c5ed2aa14236ea9cf138fd3938339da6"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoContabilidadeViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoContabilidadeViewModel.cs",
+      "raw_sha256": "05345f0b0de38a729c6229c5e5a9c55adaa788319d288c58ed06d357e060be65"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosContabilidadeViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosContabilidadeViewModel.cs",
+      "raw_sha256": "8ae9aab475d74631835e5ca41b1b67de279c44476de21cb31c8e96be4b93d3b8"
+    },
+    {
+      "path": "Views\\GeradorArquivoContabilidadeFichaView.cs",
+      "export_path": "Views\\GeradorArquivoContabilidadeFichaView.cs",
+      "raw_sha256": "cd7d9e14862e62b347166ebc77ce99e9965c34179418340ca38bcc19a6ae8e71"
+    },
+    {
+      "path": "Views\\GeradorArquivosContabilidadeView.cs",
+      "export_path": "Views\\GeradorArquivosContabilidadeView.cs",
+      "raw_sha256": "a2653609184b96e127f3108f4d01415057b65099598dcd73edeefa72aef167a4"
+    },
+    {
+      "path": "Views\\VerificarXmls.cs",
+      "export_path": "Views\\VerificarXmls.cs",
+      "raw_sha256": "810c7e6cf2b553c956420c2ab2f000b23c576f34c545cd4a1113f4e5382f51fd"
+    }
+  ]
+}

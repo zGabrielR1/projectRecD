@@ -1,0 +1,142 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Balanca",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Balanca.dll",
+  "baseline_sha256": "4c73185600eb4d5b8f12d5fb22e4f1dea8f996bbe4b9768ec841c34fefa5085c",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Balanca\\DigisatServer.Infrastructure.Crosscutting.Balanca.csproj",
+  "sources": [
+    {
+      "path": "Classes\\BalancaDefault.cs",
+      "export_path": "Classes\\BalancaDefault.cs",
+      "raw_sha256": "d3ffb91320648bfdbe1aa311045f6974b0562eded743ed35b6f1d26ed52b9eb2"
+    },
+    {
+      "path": "Classes\\BalancaFactory.cs",
+      "export_path": "Classes\\BalancaFactory.cs",
+      "raw_sha256": "7e1dbc1a3fd4acf324250215ef0f78f4e41fc96a853adb786ee1687e3b4be83f"
+    },
+    {
+      "path": "Classes\\BalancaPesoEventHandler.cs",
+      "export_path": "Classes\\BalancaPesoEventHandler.cs",
+      "raw_sha256": "5d0d52ffda7a673acd6a3dfb5b27144246a4334e5831fba4be1fe69181fd2980"
+    },
+    {
+      "path": "Classes\\Bematech\\Bematech.cs",
+      "export_path": "Classes\\Bematech\\Bematech.cs",
+      "raw_sha256": "2b25988bca2452eb4ac8e76e2c1ecd8d875196859f96d47e707a2f629b5451b9"
+    },
+    {
+      "path": "Classes\\Bematech\\BematechDefault.cs",
+      "export_path": "Classes\\Bematech\\BematechDefault.cs",
+      "raw_sha256": "b0a5475c1908f16b9968a753dfa8d15e2fefbb7f7d3c840154628ef03a224cf5"
+    },
+    {
+      "path": "Classes\\Elgin\\Elgin.cs",
+      "export_path": "Classes\\Elgin\\Elgin.cs",
+      "raw_sha256": "3cb15b5ab0f4f5f205e54a6d9f51614efa89c8fac2e65be0413acdf53690735a"
+    },
+    {
+      "path": "Classes\\Elgin\\ElginDefault.cs",
+      "export_path": "Classes\\Elgin\\ElginDefault.cs",
+      "raw_sha256": "81b02e6706f8cd06e92cc6c19b2fdea9f7a13c8502d1cee9e6f8da15da0f02b1"
+    },
+    {
+      "path": "Classes\\Filizola\\Filizola.cs",
+      "export_path": "Classes\\Filizola\\Filizola.cs",
+      "raw_sha256": "36d70921293ade9340fcff2f42feaf78226d4b9cfd1d2a32de5d8f07b5163de6"
+    },
+    {
+      "path": "Classes\\Filizola\\FilizolaCs.cs",
+      "export_path": "Classes\\Filizola\\FilizolaCs.cs",
+      "raw_sha256": "6077c7680cc1af4e0ce8cd834413367e1fbe0d976d0c3e5449b94115ceb5b6c4"
+    },
+    {
+      "path": "Classes\\Filizola\\FilizolaDefault.cs",
+      "export_path": "Classes\\Filizola\\FilizolaDefault.cs",
+      "raw_sha256": "535ba8722e4be474f697ac767f984404e791c23c46206162a318a2f70de49be9"
+    },
+    {
+      "path": "Classes\\Systel\\Systel.cs",
+      "export_path": "Classes\\Systel\\Systel.cs",
+      "raw_sha256": "35337d44260ddbf07a6587b67fd19d5887916637fe48fb4f6696dded0b4c351f"
+    },
+    {
+      "path": "Classes\\Systel\\SystelDefault.cs",
+      "export_path": "Classes\\Systel\\SystelDefault.cs",
+      "raw_sha256": "c849f41dba3e84b64eaa56f3c16b5cefc69f4c76c41829a66bffdb81d66728f8"
+    },
+    {
+      "path": "Classes\\Toledo\\Toledo.cs",
+      "export_path": "Classes\\Toledo\\Toledo.cs",
+      "raw_sha256": "a92779de42686a021ba93d82ee80266085cd8fc284aa9180f8930cfa640536b3"
+    },
+    {
+      "path": "Classes\\Toledo\\ToledoDefault.cs",
+      "export_path": "Classes\\Toledo\\ToledoDefault.cs",
+      "raw_sha256": "d35e49747f6faca455117bf26415cd4231e7880f900ae7d7a87f8e35ab0c128f"
+    },
+    {
+      "path": "Classes\\Urano\\Urano.cs",
+      "export_path": "Classes\\Urano\\Urano.cs",
+      "raw_sha256": "ff86778743ff9873562e983c9f37052741a89f6da8eac6de0fa6d518eb51f935"
+    },
+    {
+      "path": "Classes\\Urano\\UranoDefault.cs",
+      "export_path": "Classes\\Urano\\UranoDefault.cs",
+      "raw_sha256": "0c8b614e0abf570d6e6b662db50345e2a1e8ab663cc6d7021a124c6d6da2925a"
+    },
+    {
+      "path": "Classes\\Urano\\UranoUdc.cs",
+      "export_path": "Classes\\Urano\\UranoUdc.cs",
+      "raw_sha256": "b0a4562bcdb39859938b8ed60bdddf7253ef6842d647e0a5df63e3a3a4fe2f84"
+    },
+    {
+      "path": "Classes\\Urano\\UranoUs.cs",
+      "export_path": "Classes\\Urano\\UranoUs.cs",
+      "raw_sha256": "680e03a4c8a0941c9c058c4c37fe24da94ed6bae20936cf471ab1642b27762e4"
+    },
+    {
+      "path": "Classes\\Welmy\\Welmy.cs",
+      "export_path": "Classes\\Welmy\\Welmy.cs",
+      "raw_sha256": "f2af0f0890ec44c30c4b34f1b91a86889b6a667564cd044463c17a04ab9127c7"
+    },
+    {
+      "path": "Classes\\Welmy\\WelmyDefault.cs",
+      "export_path": "Classes\\Welmy\\WelmyDefault.cs",
+      "raw_sha256": "675eac50972525c583de25bc3aa04ea58f054be57a86d11ffb73061dd5d096c8"
+    },
+    {
+      "path": "Events\\BalancaPesoEventArgs.cs",
+      "export_path": "Events\\BalancaPesoEventArgs.cs",
+      "raw_sha256": "441e115104730ef5a3c193d17e576f98017494e56b36c91ac5a0da996d0ad23c"
+    },
+    {
+      "path": "Interfaces\\IBalanca.cs",
+      "export_path": "Interfaces\\IBalanca.cs",
+      "raw_sha256": "4d8131c3f6aab5c03c85b2a7170dcf3dec8b8fc024391e3b208e7260135bcc5b"
+    },
+    {
+      "path": "Interfaces\\IBalancaFactory.cs",
+      "export_path": "Interfaces\\IBalancaFactory.cs",
+      "raw_sha256": "df33da97cd38ba9fa0b46ced0d44e1a4f1761d11dcb9338f133f50b7bc7c95f9"
+    },
+    {
+      "path": "Interfaces\\IBalancaMarcaFactory.cs",
+      "export_path": "Interfaces\\IBalancaMarcaFactory.cs",
+      "raw_sha256": "e7d444c2cc58890343a9d6b8f37011a87f98453449cdcd11ec376de125638cb1"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "45e75934e00627c4251a613e63c3be4d4794ab0c55d8488363493a9f2cdafeed"
+    },
+    {
+      "path": "Types\\BalancaTipo.cs",
+      "export_path": "Types\\BalancaTipo.cs",
+      "raw_sha256": "82a5263f441dbcd957bbeed8e5dd6f288410d818890a19ba63718f95a6e9d3da"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [],
+  "generated_stubs": false
+}

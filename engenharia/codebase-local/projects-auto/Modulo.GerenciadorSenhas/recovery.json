@@ -1,0 +1,65 @@
+{
+  "name": "Modulo.GerenciadorSenhas",
+  "baseline": "baseline\\Modulo.GerenciadorSenhas.dll",
+  "baseline_sha256": "889d321bc4da5cf4dcfc16ce966f39eaae0281b021e8368b0c29a52c3616a09a",
+  "export_project": "recovered\\SuiteG6\\Modulo.GerenciadorSenhas\\Modulo.GerenciadorSenhas.csproj",
+  "sources": [
+    {
+      "path": "GerenciadorSenhaModulo.cs",
+      "export_path": "GerenciadorSenhaModulo.cs",
+      "raw_sha256": "f277dd4b370449e5d64b9a33e819b08ae306f9d3c036676e6f781074a0d1e5f4"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "ad6cad6e9c316a718b500ee707a313d269e08d139e882efab41a70a8bb345868"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "4f8dd4cc506c9566fb83af7e8f86a3dd21874c076cb2ba73076c08f2577165e1"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8c1d14cbb712dea684ea88cb307d67c256fcb0b119c85f4a3b069a0cb39083b1"
+    },
+    {
+      "path": "ViewModels\\GerenciadorSenhaListaViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorSenhaListaViewModel.cs",
+      "raw_sha256": "1d0f50afdad9a0dfd2d2a666a9e96c96de73144bfaba6def79933632b9fa90ed"
+    },
+    {
+      "path": "ViewModels\\GerenciadorSenhasViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorSenhasViewModel.cs",
+      "raw_sha256": "acf39d057436c6e82f14b8d53cc7f71bf482d51e9503686b1e64f31b85bc2994"
+    },
+    {
+      "path": "Views\\GerenciadorSenhaListaView.cs",
+      "export_path": "Views\\GerenciadorSenhaListaView.cs",
+      "raw_sha256": "da1bc4c5b328ad9a7a529b33e460684757e2974c9f7ad4c897c55f7687a87536"
+    },
+    {
+      "path": "Views\\GerenciadorSenhasView.cs",
+      "export_path": "Views\\GerenciadorSenhasView.cs",
+      "raw_sha256": "4c1845e46c052de9f3bd95615b1406e29a0fc9648a0e6f22f7c27b94702f3334"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GerenciadorSenhas.g.resources",
+      "file": "0000.bin",
+      "bytes": 7430,
+      "sha256": "f6d4b20890ee43db796f457b3b876afacc7084601eb75e147956694fc7f7c41b"
+    },
+    {
+      "name": "Otus.Modulo.GerenciadorSenhas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

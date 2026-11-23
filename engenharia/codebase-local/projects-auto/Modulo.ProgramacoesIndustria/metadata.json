@@ -1,0 +1,57 @@
+{
+  "artifactSha256": "d231df9f37aabe6b03db6c5286554ee3e43a7d68d9d028526823e01712665df0",
+  "mvid": "a55e10ca-bc0d-4c78-8dbd-b906a83c18ea",
+  "assembly": "Modulo.ProgramacoesIndustria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.XtraScheduler.v15.2.Core",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Xpf.Scheduler.v15.2",
+    "PresentationCore",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.Data.v15.2",
+    "DigisatServer.Application.Core",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ProgramacoesIndustria.g.resources",
+      "file": "0000.bin",
+      "bytes": 30713,
+      "sha256": "65a9d9af4af5f83b75facc55c30f11608349b86a80487f02dbedd08e0cd08461"
+    },
+    {
+      "name": "Otus.Modulo.ProgramacoesIndustria.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ProgramacoesIndustria.Reports.ImpressoProgramacao.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ProgramacoesIndustria.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 292,
+      "sha256": "92970eac5c37000bb16dfc28bd37106fd319b0f69edde73deb186be6b10bef16"
+    }
+  ]
+}

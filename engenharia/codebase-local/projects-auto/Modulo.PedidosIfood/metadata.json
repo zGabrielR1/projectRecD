@@ -1,0 +1,65 @@
+{
+  "artifactSha256": "df5d0d96d6952ec3d299fdce3af3d284f2d16fe7c7c2ec0ab34f5a4b90d7531f",
+  "mvid": "1e6c7d5a-cf74-4a11-b4c2-c616a12ce9a6",
+  "assembly": "Modulo.PedidosIfood, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Reactive.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "System.Drawing",
+    "System.Windows.Interactivity",
+    "WindowsBase",
+    "PresentationCore",
+    "Akka",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "Akka.DI.Unity",
+    "Prism.Unity.Wpf",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.PedidosIfood.g.resources",
+      "file": "0000.bin",
+      "bytes": 44976,
+      "sha256": "144f8b5ca6cb6b539745d972627e856ab798d7be2360e7fe69847db0e3da5fd1"
+    },
+    {
+      "name": "Otus.Modulo.PedidosIfood.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PedidosIfood.Reports.RelatorioPedidoIfood56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 10510,
+      "sha256": "aa8d8e36c0c57ee31111494df34d47a1899b5e098d42e0a302544e947b8650e5"
+    },
+    {
+      "name": "Otus.Modulo.PedidosIfood.Reports.RelatorioPedidoIfood79Mm80Mm.resources",
+      "file": "0003.bin",
+      "bytes": 10510,
+      "sha256": "96c5bfe222e9525bae36dadabcbc40cd96f4a3e3e5621efdc9d480027f7b7d4c"
+    },
+    {
+      "name": "Modulo.PedidosIfood.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 283,
+      "sha256": "602124acbcbb31c7f7b1216435000396158e7d9a6380656cc1c423f67fc68df1"
+    }
+  ]
+}

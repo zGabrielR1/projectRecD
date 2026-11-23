@@ -1,0 +1,95 @@
+{
+  "name": "Modulo.Boxes",
+  "baseline": "baseline\\Modulo.Boxes.dll",
+  "baseline_sha256": "d1747c8d8d04ffb831ff21195ea24b2aefaac084a2c055bc0b8a9404fe538a02",
+  "export_project": "recovered\\SuiteG6\\Modulo.Boxes\\Modulo.Boxes.csproj",
+  "sources": [
+    {
+      "path": "BoxModulo.cs",
+      "export_path": "BoxModulo.cs",
+      "raw_sha256": "3b212e32aca662ff095806e9d04ab3f83e2c277b9529b024c125982c7264086f"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "421ba9695810bf0b2db3b2f47332ae2d3b9e2aa3dc78181d6df23206cc62dd91"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "d4230d3fbcf1475ac91d10bdb1c4755e6bb4652e0229965e0f353c0e55d3ac29"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "99459080f3d13c1fb1edd230708b527d1628796e91104c06056069e9a8597b26"
+    },
+    {
+      "path": "ViewModels\\BoxAbaViewModel.cs",
+      "export_path": "ViewModels\\BoxAbaViewModel.cs",
+      "raw_sha256": "8b2be8de7f9416015658627ac860731827c07c1d4b1a6566e8536ebf3d863a66"
+    },
+    {
+      "path": "ViewModels\\BoxesViewModel.cs",
+      "export_path": "ViewModels\\BoxesViewModel.cs",
+      "raw_sha256": "dd3d51f013e38fe06256073220bef770f3f823c74a1f09d96ac981d50efa6ad1"
+    },
+    {
+      "path": "ViewModels\\BoxFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\BoxFichaAdicionarViewModel.cs",
+      "raw_sha256": "1babec74a824a6bed1734eea7db52370ebe6c5639cbd499c0985bbe240d691e8"
+    },
+    {
+      "path": "ViewModels\\BoxFormulario.cs",
+      "export_path": "ViewModels\\BoxFormulario.cs",
+      "raw_sha256": "4adbe51191244884b7566a5089c7bf075c24a4e71c2e4f3867dce5c51e49afbf"
+    },
+    {
+      "path": "ViewModels\\BoxListaViewModel.cs",
+      "export_path": "ViewModels\\BoxListaViewModel.cs",
+      "raw_sha256": "b94f8041b5d23c1a8d5bee2ab03a71d55430c5b084024ea632e3883a19b7dead"
+    },
+    {
+      "path": "ViewModels\\BoxViewModel.cs",
+      "export_path": "ViewModels\\BoxViewModel.cs",
+      "raw_sha256": "202854da2d01008e36ad28711b3697438a2351a32e6b8ee1c983bb6c2eb6e1eb"
+    },
+    {
+      "path": "Views\\BoxesView.cs",
+      "export_path": "Views\\BoxesView.cs",
+      "raw_sha256": "e13bd8961cdb3c3ee99fb940e7551c3775f9c5ef09738051c09e3c1c8b22808a"
+    },
+    {
+      "path": "Views\\BoxFichaAdicionarView.cs",
+      "export_path": "Views\\BoxFichaAdicionarView.cs",
+      "raw_sha256": "65c0a6b68c1ec7eca2ce47c9a3659587a758efcb52b3273766ead7567713032e"
+    },
+    {
+      "path": "Views\\BoxFichaViewDetalhes\\BoxView.cs",
+      "export_path": "Views\\BoxFichaViewDetalhes\\BoxView.cs",
+      "raw_sha256": "fc6ceb0e9d46cacaae13bbd0acea8ac2244ef8a1a262a95ba55a0c0afea72ce5"
+    },
+    {
+      "path": "Views\\BoxListaView.cs",
+      "export_path": "Views\\BoxListaView.cs",
+      "raw_sha256": "50c3a1b5629b729eecfe0aa218467611b40e303a360f90a4c4cfc88da951b350"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Boxes.g.resources",
+      "file": "0000.bin",
+      "bytes": 9020,
+      "sha256": "f3f4cc283f2dd5a50b44c804957e05e08380210ff9178071d47c6ead16d17d05"
+    },
+    {
+      "name": "Otus.Modulo.Boxes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

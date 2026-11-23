@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.EmailsModelo",
+  "baseline": "baseline\\Modulo.EmailsModelo.dll",
+  "baseline_sha256": "f02f7c6993260409158fb2302e9b8c6934bf0ecffafabc774d2e2db947a8a1c7",
+  "export_project": "recovered\\SuiteG6\\Modulo.EmailsModelo\\Modulo.EmailsModelo.csproj",
+  "sources": [
+    {
+      "path": "EmailModeloModulo.cs",
+      "export_path": "EmailModeloModulo.cs",
+      "raw_sha256": "13303901c516a8c7f74433b47d87b9e20e8783ec91d3d36aa2159877de801a46"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "92355dcfbbd20851eda635e3ff011fe492bc851d40d3901de8338825d0e318d7"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "c6a049cc18c1f5f1dfd36142f3155e86e76257b89438cfc9bc819fee7b498330"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8428e79a47ed033e8eaa35f0b9bb36efea0603af00b429b7e7cb6ff2bb36fd6f"
+    },
+    {
+      "path": "ViewModels\\EmailModeloAbaViewModel.cs",
+      "export_path": "ViewModels\\EmailModeloAbaViewModel.cs",
+      "raw_sha256": "5db4366d30f2f8c0a3c090aa0aa6347eadbd08f67f70f7bd0f6d4f08e0d43b10"
+    },
+    {
+      "path": "ViewModels\\EmailModeloFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\EmailModeloFichaAdicionarViewModel.cs",
+      "raw_sha256": "6f5dccb5373de694c880ec683087ce977bd930e5bde9010ad41585355c5b8fb6"
+    },
+    {
+      "path": "ViewModels\\EmailModeloFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\EmailModeloFichaAtualizarViewModel.cs",
+      "raw_sha256": "e79b48086cc5f16d8f191f272c4c8f0ace772a561480d1abedff3cff0466888e"
+    },
+    {
+      "path": "ViewModels\\EmailModeloFormulario.cs",
+      "export_path": "ViewModels\\EmailModeloFormulario.cs",
+      "raw_sha256": "35066ae53dcdc237b48c0ab9a8196aaf7f82576a01713edc83f922495f64243f"
+    },
+    {
+      "path": "ViewModels\\EmailModeloListaViewModel.cs",
+      "export_path": "ViewModels\\EmailModeloListaViewModel.cs",
+      "raw_sha256": "a6b8045f4725de461ac6e58c75ed78bb0ceb38c7b88804fea51fc33f4faa9bfa"
+    },
+    {
+      "path": "ViewModels\\EmailModeloViewModel.cs",
+      "export_path": "ViewModels\\EmailModeloViewModel.cs",
+      "raw_sha256": "ad4d5c06300eec8e464f90164d9b3d7eb843b5c8d29a834446011c41691ca09f"
+    },
+    {
+      "path": "ViewModels\\EmailsModeloViewModel.cs",
+      "export_path": "ViewModels\\EmailsModeloViewModel.cs",
+      "raw_sha256": "6bbefd7fa7423483a389dbe7acc97e0ccce86934238d09858c29d3c18593699d"
+    },
+    {
+      "path": "Views\\EmailModeloFichaAdicionarView.cs",
+      "export_path": "Views\\EmailModeloFichaAdicionarView.cs",
+      "raw_sha256": "020c951be690251c2c01ad431d68c426e7f4ee8b6479ff5201f6bae81a6b7b8c"
+    },
+    {
+      "path": "Views\\EmailModeloFichaAtualizarView.cs",
+      "export_path": "Views\\EmailModeloFichaAtualizarView.cs",
+      "raw_sha256": "a8568ce4999ff17469edad73f47c65c87a9f0ff186f507ac8581e2a6236f7ad8"
+    },
+    {
+      "path": "Views\\EmailModeloListaView.cs",
+      "export_path": "Views\\EmailModeloListaView.cs",
+      "raw_sha256": "612bc071b973971a92e99e2c175425bd4a41e34c2fffe9ecbb21c42aa1b1e55e"
+    },
+    {
+      "path": "Views\\EmailModeloViewDetalhes\\EmailModeloView.cs",
+      "export_path": "Views\\EmailModeloViewDetalhes\\EmailModeloView.cs",
+      "raw_sha256": "e0f3fce4e5a8a2e3f6bf2d0bbdf56c0e3531e17ef995dacd382a38c2b41f9db4"
+    },
+    {
+      "path": "Views\\EmailsModeloView.cs",
+      "export_path": "Views\\EmailsModeloView.cs",
+      "raw_sha256": "53968b05fc939803f6694c3a7bbcf92819191bcdd7d37b24aafa8fd3c4b8f7bd"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.EmailsModelo.g.resources",
+      "file": "0000.bin",
+      "bytes": 12764,
+      "sha256": "bd5498b35a4b0b34798a8cbaa8d6a01151f4d3379a47ae4900618b1308765db5"
+    },
+    {
+      "name": "Otus.Modulo.EmailsModelo.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

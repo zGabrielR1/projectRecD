@@ -1,0 +1,207 @@
+{
+  "name": "Modulo.PedidosIfood",
+  "baseline": "baseline\\Modulo.PedidosIfood.dll",
+  "baseline_sha256": "df5d0d96d6952ec3d299fdce3af3d284f2d16fe7c7c2ec0ab34f5a4b90d7531f",
+  "export_project": "recovered\\SuiteG6\\Modulo.PedidosIfood\\Modulo.PedidosIfood.csproj",
+  "sources": [
+    {
+      "path": "Actors\\IPedidoIfoodClientActorSystem.cs",
+      "export_path": "Actors\\IPedidoIfoodClientActorSystem.cs",
+      "raw_sha256": "6d87da94e71f0039d8b8428077c765ebe344c96b61b6b61f3e56848a7f819d2e"
+    },
+    {
+      "path": "Actors\\PedidoIfoodClientActor.cs",
+      "export_path": "Actors\\PedidoIfoodClientActor.cs",
+      "raw_sha256": "6b65f7e0b8b1c565e707596af52adff66bd8653bd18c0fe2b6c0afd2898a44f5"
+    },
+    {
+      "path": "Actors\\PedidoIfoodClientActorSystem.cs",
+      "export_path": "Actors\\PedidoIfoodClientActorSystem.cs",
+      "raw_sha256": "dccfa63057d3bf8b744839a58d6b73d27c390cbe2655ee07e8a27b9ce4b76014"
+    },
+    {
+      "path": "Behaviors\\ArrastarEntreColunasBehavior.cs",
+      "export_path": "Behaviors\\ArrastarEntreColunasBehavior.cs",
+      "raw_sha256": "24a43aa0000efac568766ef17c9b9a48771bd2e0f975774ac0ba075b185fb255"
+    },
+    {
+      "path": "Behaviors\\ArrasteEntreColunas.cs",
+      "export_path": "Behaviors\\ArrasteEntreColunas.cs",
+      "raw_sha256": "3dde477835f31c0c8b4a05d255f2c3a534464e12492240568d6ae643091238d1"
+    },
+    {
+      "path": "Behaviors\\CursoresArraste.cs",
+      "export_path": "Behaviors\\CursoresArraste.cs",
+      "raw_sha256": "a43463fd6cb0a8d199545d37342b631e280a305361cc79315790d83778be05ab"
+    },
+    {
+      "path": "PedidoIfoodModulo.cs",
+      "export_path": "PedidoIfoodModulo.cs",
+      "raw_sha256": "8d5782004c8e3b1b564741fe835f281afb4d5249f8b56ca76a676a65b8f051f9"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f3b1351f4b7deb2499dadfb5994b703539a26dc1686f45cf090bc9c266dcd194"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "dc7fd4e03a96fd36388b3076ee6e9150da6306220b8473b727bd4a9aa5ecc81f"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "1e8f5effc5ff2c77dae2b7b79246a95a1e7a46816d257146a6658241cba60850"
+    },
+    {
+      "path": "Reports\\RelatorioPedidoIfood56Mm57Mm58Mm.cs",
+      "export_path": "Reports\\RelatorioPedidoIfood56Mm57Mm58Mm.cs",
+      "raw_sha256": "91f4746c012f104a0ee3f06d12690d6a4c0370137282099e84e8401d8fa6f068"
+    },
+    {
+      "path": "Reports\\RelatorioPedidoIfood79Mm80Mm.cs",
+      "export_path": "Reports\\RelatorioPedidoIfood79Mm80Mm.cs",
+      "raw_sha256": "136411e92d76a21b695287389a4cee514b7f7672f88a6669a6bde41ab3fe3250"
+    },
+    {
+      "path": "ViewModels\\LinhaMotivoRejeicao.cs",
+      "export_path": "ViewModels\\LinhaMotivoRejeicao.cs",
+      "raw_sha256": "4269c37242118a07cbb8dc4b43e7c03e9ec635d909815ecb9c565a41b05fb8f8"
+    },
+    {
+      "path": "ViewModels\\OpcaoRemapeamento.cs",
+      "export_path": "ViewModels\\OpcaoRemapeamento.cs",
+      "raw_sha256": "abc3311ad969cf846424accfb3280e8316aac9c3a86e69b85dc6465381807bf7"
+    },
+    {
+      "path": "ViewModels\\PedidoIfoodViewModel.cs",
+      "export_path": "ViewModels\\PedidoIfoodViewModel.cs",
+      "raw_sha256": "c0072528bf296adcbdcb5c48b1a6375313f71861fbac2d29a67fc27a63af1811"
+    },
+    {
+      "path": "ViewModels\\PedidosIfoodViewModel.cs",
+      "export_path": "ViewModels\\PedidosIfoodViewModel.cs",
+      "raw_sha256": "c95f43348026e111bedbb5d0248942608f87d3d32af2c63935c7423b162219d1"
+    },
+    {
+      "path": "ViewModels\\PedidoViewModel.cs",
+      "export_path": "ViewModels\\PedidoViewModel.cs",
+      "raw_sha256": "b58ec92d45b36dc2dc8b050a091181c0e0fd84f5b0aba40b5d5913a583d9570b"
+    },
+    {
+      "path": "ViewModels\\RemapeamentoCategoriaViewModel.cs",
+      "export_path": "ViewModels\\RemapeamentoCategoriaViewModel.cs",
+      "raw_sha256": "cacdc3facb452180cd3ce534be79cc690c03be0e18e304585107a14d94f70b90"
+    },
+    {
+      "path": "ViewModels\\RemapeamentoComplementoViewModel.cs",
+      "export_path": "ViewModels\\RemapeamentoComplementoViewModel.cs",
+      "raw_sha256": "b50c81eb728b9e614b8759864b004083f43ab5f5d1fbdd360d195859a529cff3"
+    },
+    {
+      "path": "ViewModels\\RemapeamentoIfoodFichaViewModel.cs",
+      "export_path": "ViewModels\\RemapeamentoIfoodFichaViewModel.cs",
+      "raw_sha256": "8f047890e9c63883cf03d0ac98388a5d421763785abc2c0390ca3a9d95829922"
+    },
+    {
+      "path": "ViewModels\\RemapeamentoItemViewModel.cs",
+      "export_path": "ViewModels\\RemapeamentoItemViewModel.cs",
+      "raw_sha256": "413f7090df239406117d2061b5cd9b256bb3c693d4861fe4f34c30a51a610b78"
+    },
+    {
+      "path": "ViewModels\\ResumoRemapeamentoViewModel.cs",
+      "export_path": "ViewModels\\ResumoRemapeamentoViewModel.cs",
+      "raw_sha256": "db60fc01e97887ac249d2ae57752fe8b978b6b73d7d0545602d28c7c616b8f00"
+    },
+    {
+      "path": "Views\\PedidoIfoodView.cs",
+      "export_path": "Views\\PedidoIfoodView.cs",
+      "raw_sha256": "f182bf2c0d5db900062a783ea7d62afd3b0426abde191781ea68661b083aabc0"
+    },
+    {
+      "path": "Views\\PedidosIfoodView.cs",
+      "export_path": "Views\\PedidosIfoodView.cs",
+      "raw_sha256": "4af9504cce0c85df715beccd93d5fe0a29c6619ab25c2bd3147cf8aabdb5e8b5"
+    },
+    {
+      "path": "Views\\RemapeamentoIfoodFichaView.cs",
+      "export_path": "Views\\RemapeamentoIfoodFichaView.cs",
+      "raw_sha256": "5fc3d43f65264dcf3d662024a9686ae2446677677574b1e9aa45e6e64a949bca"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 25
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 28,
+      "types": [
+        "__c_DisplayClass24_0",
+        "__c_DisplayClass25_0",
+        "__c_DisplayClass40_0",
+        "__c_DisplayClass42_0",
+        "__c_DisplayClass45_0",
+        "__c_DisplayClass49_0",
+        "__c_DisplayClass51_0",
+        "__c_DisplayClass52_0",
+        "__c_DisplayClass55_0",
+        "__c_DisplayClass61_0",
+        "__c_DisplayClass63_0",
+        "__c_DisplayClass66_0",
+        "__c_DisplayClass71_0",
+        "__c_DisplayClass75_0",
+        "__c_DisplayClass76_0",
+        "__c_DisplayClass77_0",
+        "__c_DisplayClass78_0",
+        "__c_DisplayClass3_0",
+        "__c_DisplayClass3_1",
+        "__c_DisplayClass35_0",
+        "__c_DisplayClass38_0",
+        "__c_DisplayClass39_0",
+        "__c_DisplayClass41_0",
+        "__c_DisplayClass4_0",
+        "__c_DisplayClass4_1",
+        "__c_DisplayClass60_0",
+        "__c_DisplayClass17_0",
+        "__c_DisplayClass4_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.PedidosIfood.g.resources",
+      "file": "0000.bin",
+      "bytes": 44976,
+      "sha256": "144f8b5ca6cb6b539745d972627e856ab798d7be2360e7fe69847db0e3da5fd1"
+    },
+    {
+      "name": "Otus.Modulo.PedidosIfood.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PedidosIfood.Reports.RelatorioPedidoIfood56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 10510,
+      "sha256": "aa8d8e36c0c57ee31111494df34d47a1899b5e098d42e0a302544e947b8650e5"
+    },
+    {
+      "name": "Otus.Modulo.PedidosIfood.Reports.RelatorioPedidoIfood79Mm80Mm.resources",
+      "file": "0003.bin",
+      "bytes": 10510,
+      "sha256": "96c5bfe222e9525bae36dadabcbc40cd96f4a3e3e5621efdc9d480027f7b7d4c"
+    },
+    {
+      "name": "Modulo.PedidosIfood.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 283,
+      "sha256": "602124acbcbb31c7f7b1216435000396158e7d9a6380656cc1c423f67fc68df1"
+    }
+  ],
+  "generated_stubs": false
+}

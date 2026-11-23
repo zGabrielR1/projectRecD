@@ -1,0 +1,7 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.LeitorCartao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting"
+  ]
+}

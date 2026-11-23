@@ -1,0 +1,9 @@
+{
+  "assembly": "Akka.DI.SimpleInjector, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "Akka.DI.Core",
+    "SimpleInjector",
+    "Akka"
+  ]
+}

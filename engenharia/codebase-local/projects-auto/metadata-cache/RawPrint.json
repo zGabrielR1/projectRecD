@@ -1,0 +1,8 @@
+{
+  "assembly": "RawPrint, Version=0.2.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System.Core",
+    "System"
+  ]
+}

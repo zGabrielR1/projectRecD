@@ -1,0 +1,14 @@
+{
+  "assembly": "MimeKit, Version=2.10.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814",
+  "references": [
+    "mscorlib",
+    "System.Core",
+    "System",
+    "BouncyCastle.Crypto",
+    "System.Net.Http",
+    "System.Data",
+    "System.Security",
+    "System.Buffers",
+    "System.Data.DataSetExtensions"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "128b393f7ef359f7f94a764a65f47f9f498de209f7f49b767a7255b034b96fa8",
+  "mvid": "85e1cbf1-80ff-447b-977d-272a8ac561ff",
+  "assembly": "Modulo.ImportacoesGuiaDaFarmacia, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ImportacoesGuiaDaFarmacia.g.resources",
+      "file": "0000.bin",
+      "bytes": 13905,
+      "sha256": "290478ce55c6fe45fcc6c65a0d81f7f45314afba36e884202ab90967e4102cc3"
+    },
+    {
+      "name": "Otus.Modulo.ImportacoesGuiaDaFarmacia.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "artifactSha256": "dbeb8cd9841dc231e80c8891d476e7f31cc060516561d3457d4dfbbaaae2f157",
+  "mvid": "07d50f8d-daff-435b-b35d-ef0447d4f24a",
+  "assembly": "Modulo.Mensagens, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "Prism.Unity.Wpf",
+    "System.Reactive.Core",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Mensagens.g.resources",
+      "file": "0000.bin",
+      "bytes": 9156,
+      "sha256": "5312cecb1956f2a0f7574f82111805999db33a7743b14d97613b81967496f6f4"
+    },
+    {
+      "name": "Otus.Modulo.Mensagens.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Mensagens.Report.RelatorioConsultaProdutoIMendes.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Mensagens.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 280,
+      "sha256": "93672d32342ae095e8c9a2163dd1bccae8d0771e6e61a4612c1fe3cfedfa06a4"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "name": "Modulo.AutoatendimentoBalancas",
+  "baseline": "baseline\\Modulo.AutoatendimentoBalancas.dll",
+  "baseline_sha256": "789bcbb168b5f005282964eec1f44042ce87602a091817e69e0af270bd8b43cd",
+  "export_project": "recovered\\SuiteG6\\Modulo.AutoatendimentoBalancas\\Modulo.AutoatendimentoBalancas.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "85f792c405fcd33a09f0cee502e4be9f1e916a58a3437fd72d214af3ec674ad1"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "789bcbb168b5f005282964eec1f44042ce87602a091817e69e0af270bd8b43cd"
+    },
+    {
+      "kind": "Qualify session company/API order model or rename illegal generated base-call helper identifier",
+      "alias": ""
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 67
+    },
+    {
+      "kind": "Qualify report TextAlignment and UI HelperException; restore protected report Dispose calls"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.AutoatendimentoBalancas.g.resources",
+      "file": "0000.bin",
+      "bytes": 16746,
+      "sha256": "eb028d0abdc560cd057a8ed4d84acfd91168e4830cdd0b45af43e75fa93a70ee"
+    },
+    {
+      "name": "Otus.Modulo.AutoatendimentoBalancas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.AutoatendimentoBalancas.Reports.RelatorioAutoatendimento56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.AutoatendimentoBalancas.Reports.RelatorioAutoatendimento79Mm80Mm.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.AutoatendimentoBalancas.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 294,
+      "sha256": "fb3dacb03f0b418c6f160b37e613eb28bdecf8147b0785c5f64ce2b0d09dbe24"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "AutoatendimentoBalancaModulo.cs",
+      "export_path": "AutoatendimentoBalancaModulo.cs",
+      "raw_sha256": "d78ce998b60ed2c8a6bc5a869aba4a7105e4158104a51fed2a32afce3cd6f7d9"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "4ff535da0fa63e60e2f714f5cde90059a1692729c121bb687edc2120ef8d0c28"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "96792bbdb6d18977981a4d6b062db3daf17aa3fdb058755752e374211f9f5987"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "1bbfc5ca4fb025659c57c548949d8b52bbe0caf15614d676730401677ffc7280"
+    },
+    {
+      "path": "Reports\\ImpressaoComanda.cs",
+      "export_path": "Reports\\ImpressaoComanda.cs",
+      "raw_sha256": "e0e56f526d0cf156f44e0596a6d56de076cfe43644c44fb3a9518c8c5cbd014c"
+    },
+    {
+      "path": "Reports\\RelatorioAutoatendimento56Mm57Mm58Mm.cs",
+      "export_path": "Reports\\RelatorioAutoatendimento56Mm57Mm58Mm.cs",
+      "raw_sha256": "05af617bbf0555b0186d92233924e749947b2c44e3488bdec5a38319ac2dca51"
+    },
+    {
+      "path": "Reports\\RelatorioAutoatendimento79Mm80Mm.cs",
+      "export_path": "Reports\\RelatorioAutoatendimento79Mm80Mm.cs",
+      "raw_sha256": "c6e8c3b61e76f0ce9daa023311b8eabeb2175fe9baa696f66a0b4b8b27b21b66"
+    },
+    {
+      "path": "ViewModels\\AutoatendimentoBalancasViewModel.cs",
+      "export_path": "ViewModels\\AutoatendimentoBalancasViewModel.cs",
+      "raw_sha256": "f4071e8c8484c17f8b37e9f8e0cd779038150a8b01ee3d6a93d50d37ac15c391"
+    },
+    {
+      "path": "ViewModels\\AutoatendimentoBalancaViewModel.cs",
+      "export_path": "ViewModels\\AutoatendimentoBalancaViewModel.cs",
+      "raw_sha256": "0b3f1fb23eef095e795b59d0ad9ee5da2caf7884d938570fa518b3d94d33991f"
+    },
+    {
+      "path": "ViewModels\\CapturaPesoViewModel.cs",
+      "export_path": "ViewModels\\CapturaPesoViewModel.cs",
+      "raw_sha256": "f5a48ad4c766b86a611b86b2390d4e7ee4433eac681da4a8a52c8436cfceb964"
+    },
+    {
+      "path": "ViewModels\\ComandaCapturaPesoViewModel.cs",
+      "export_path": "ViewModels\\ComandaCapturaPesoViewModel.cs",
+      "raw_sha256": "f121214d9461af6ea9ec42e558d286c272d6d0e93e8f43aa069d4c1c1896c352"
+    },
+    {
+      "path": "ViewModels\\ImpressaoCapturaPesoViewModel.cs",
+      "export_path": "ViewModels\\ImpressaoCapturaPesoViewModel.cs",
+      "raw_sha256": "dd0aee200ea0ed68cdf8dfdbe7e50ef85633b47dc6d2e7f29240e7252aaf471d"
+    },
+    {
+      "path": "ViewModels\\ItemBase.cs",
+      "export_path": "ViewModels\\ItemBase.cs",
+      "raw_sha256": "eee809a58fde81c4b579c1f595068fec8d6f1e8b57c9537d519b17c72968db3e"
+    },
+    {
+      "path": "ViewModels\\ItemCapturaPeso.cs",
+      "export_path": "ViewModels\\ItemCapturaPeso.cs",
+      "raw_sha256": "ff40b55af3ae50fca494e6822259039b89a5e4c3939970ea3f36a49b0b5f8f97"
+    },
+    {
+      "path": "ViewModels\\ItemLancamentoManual.cs",
+      "export_path": "ViewModels\\ItemLancamentoManual.cs",
+      "raw_sha256": "b85e04741a98d9d06206b758a6c1cc6abfd37dd1af672cb69737ba880589faf5"
+    },
+    {
+      "path": "ViewModels\\ItensLancamentoManualViewModel.cs",
+      "export_path": "ViewModels\\ItensLancamentoManualViewModel.cs",
+      "raw_sha256": "03f5b2905aba9e696103ac767ae6b18f4d9b5abfa3618ecd11fafb7b26b54a77"
+    },
+    {
+      "path": "Views\\AutoatendimentoBalancasView.cs",
+      "export_path": "Views\\AutoatendimentoBalancasView.cs",
+      "raw_sha256": "86eaae66559b80a056465fc59cb5b2228aa7c43f345a981260761ef147c49011"
+    },
+    {
+      "path": "Views\\AutoatendimentoBalancaView.cs",
+      "export_path": "Views\\AutoatendimentoBalancaView.cs",
+      "raw_sha256": "add6f954c98b49e9a0399c05e4e501b6719872543231398c8323e2c592feb314"
+    }
+  ]
+}

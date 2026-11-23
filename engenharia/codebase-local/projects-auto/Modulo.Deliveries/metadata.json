@@ -1,0 +1,57 @@
+{
+  "artifactSha256": "1c6dc8ca9c69e95d2faa2a8afb34640653f21a38f0524255fe2f50ce186414d2",
+  "mvid": "a128b2e2-07fe-4f16-a82a-21cbbb6774ba",
+  "assembly": "Modulo.Deliveries, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Domain.Main",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "MongoDB.Bson",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "PresentationCore",
+    "Prism.Unity.Wpf",
+    "DigisatServer.Application.Core",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Domain.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Deliveries.g.resources",
+      "file": "0000.bin",
+      "bytes": 51241,
+      "sha256": "1226387c77f6ae4bfb1edea7eb79d8bd41dddaf499c9d5ffaabfac4fd7c0fd40"
+    },
+    {
+      "name": "Otus.Modulo.Deliveries.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Deliveries.Resources.Messages.resources",
+      "file": "0002.bin",
+      "bytes": 276,
+      "sha256": "35876f2717ea1bc58ac08984d8e5f85a5489144382e1137893c6e421af62b5fc"
+    },
+    {
+      "name": "Modulo.Deliveries.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 281,
+      "sha256": "46bf1bd99b5c999839a0c2eca91a0d71d3f9e65214c3e2b7e99321114b5c56ab"
+    }
+  ]
+}

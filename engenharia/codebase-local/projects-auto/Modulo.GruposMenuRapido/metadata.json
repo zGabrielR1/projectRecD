@@ -1,0 +1,33 @@
+{
+  "artifactSha256": "c634cee5a9474cabe953e6ce1e329fc766b87d5f7c4988c8e14fead4995ac4a4",
+  "mvid": "661caaab-03e9-4245-a32f-7055457f8e8c",
+  "assembly": "Modulo.GruposMenuRapido, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "PresentationFramework",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GruposMenuRapido.g.resources",
+      "file": "0000.bin",
+      "bytes": 44313,
+      "sha256": "b29d448c64974bf5ebde89ef7ea17100abb7ebb30546c6579f5afecbbbfb611d"
+    }
+  ]
+}

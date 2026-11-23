@@ -1,0 +1,1660 @@
+{
+  "name": "DigisatServer.Application.Main",
+  "baseline": "baseline\\DigisatServer.Application.Main.dll",
+  "baseline_sha256": "f27cb00fdbee2851ad9119a32a435943c58c072ca102fe88ef0e3f001938cd9d",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Application.Main\\DigisatServer.Application.Main.csproj",
+  "sources": [
+    {
+      "path": "AuxiliaresModulo\\Services\\AgendamentoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\AgendamentoAppService.cs",
+      "raw_sha256": "01f56a088784bfd0b1fc7eda90591848023af7854ffcb87c4b1f7e0d1c16f553"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\AgendamentoMobileAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\AgendamentoMobileAppService.cs",
+      "raw_sha256": "e15fe745fe99f063c2e9dac3de7420a0537229529d06b2b75c961a4b07d70611"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\AlteracaoPrecoAgendadaAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\AlteracaoPrecoAgendadaAppService.cs",
+      "raw_sha256": "19cf0b7e7b8b2e008322166358a061ff8de76717b6d9b60c9e9306a124f24f4c"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\AlteracaoRapidaAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\AlteracaoRapidaAppService.cs",
+      "raw_sha256": "a54ec0b1e1a7fccf4aa03924028f7aaf0b2817fb4e6437a695a3a9bbfe848471"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\AnuncioMercadoLivreAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\AnuncioMercadoLivreAppService.cs",
+      "raw_sha256": "2173928bad888109c61c1de06811230b6d0dff8410fdf76f0b9f678f244cf806"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\AnuncioShopeeAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\AnuncioShopeeAppService.cs",
+      "raw_sha256": "5a1eed4fa0b9ffe941ebc8193fc812eff3715289b448e310ed9201786369c056"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\AutoatendimentoBalancaAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\AutoatendimentoBalancaAppService.cs",
+      "raw_sha256": "5ed116da258c4907eaf168d8b24a55a75f232ebf0bfdd789d583d04a3ff1249b"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\AutomacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\AutomacaoAppService.cs",
+      "raw_sha256": "8af04326118bb2859bb792c38edad1a2d01217174ecc875c2e9223b332c06903"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\AutorizacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\AutorizacaoAppService.cs",
+      "raw_sha256": "29fd48cb7e5a1f7fb623f148127945cc5c983c940014ab8af73561b8004152e1"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\BloqueioMesaContaClienteAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\BloqueioMesaContaClienteAppService.cs",
+      "raw_sha256": "a419ce1eecc2377e049293c13e1a29825ce0ce4729259d620380cc9c9e671a7c"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\CashbackExpiracaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\CashbackExpiracaoAppService.cs",
+      "raw_sha256": "ab209f36766c5c194f99649f5dd7bb4535376f1695510f4a2530720305ded966"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\CfopRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\CfopRelatorioAppService.cs",
+      "raw_sha256": "65da293bfd5389f16ae6caebe66855b938a9b794f60f17726f0b0d820abd0d31"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\CompartilhamentoWhatsAppAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\CompartilhamentoWhatsAppAppService.cs",
+      "raw_sha256": "2c2a4adcdcd0365dc2fc19fd6119dd41d1082da395ced7c7dfc997ca93fae858"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ConferenciaEstoqueAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ConferenciaEstoqueAppService.cs",
+      "raw_sha256": "4addfdef020ca03ffaed7a3afb0bf587bbee6e9ecc59929a782433e88d3cc3af"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ConfiguracaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ConfiguracaoAppService.cs",
+      "raw_sha256": "2aff357921ded615387cf3cfbeba44fadf85e73c8e9148f62f698bfefa72cccd"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ConfiguracaoServidorAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ConfiguracaoServidorAppService.cs",
+      "raw_sha256": "a6affc2fc37138267955b89ffef822a58ad2ad5785476b0730a5adcc24d03053"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ConhecimentoTransporteEletronicoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ConhecimentoTransporteEletronicoRelatorioAppService.cs",
+      "raw_sha256": "371a5512d2ab8707a44f827cee642731bfefe446dbd20b24a356870484f6baa4"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ConsultaArquivoFiscoService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ConsultaArquivoFiscoService.cs",
+      "raw_sha256": "946bcf53d44f5a54d456bfe2927d543de637915da0faaa78b483a36752c5c3ff"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ContaMovimentacaoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ContaMovimentacaoRelatorioAppService.cs",
+      "raw_sha256": "bff8b5a38b1b42dd376785e8f77eae26c03b6ccb52364b4dcbda552969193e79"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\CustoDiretoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\CustoDiretoRelatorioAppService.cs",
+      "raw_sha256": "1bf0da03bf1595953798e4bca2b9bdd731fdbef72219d34291245d58193b667c"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\CustoIndiretoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\CustoIndiretoRelatorioAppService.cs",
+      "raw_sha256": "7ce63750298b692f6981c0892e72c23d339a775f4eec0e969e0bbef91e61e71d"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\DeclaracaoExportacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\DeclaracaoExportacaoAppService.cs",
+      "raw_sha256": "6ba9e0d6befb861755cdd6a0e0ee547939faaf45f08f0ae50cd2d2c2e470528e"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\DeliveryRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\DeliveryRelatorioAppService.cs",
+      "raw_sha256": "2290818d9652153e273c7f7926edcdb326f9b2c0e08eb4a2598b784068f37d6d"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\DemonstrativoResultadoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\DemonstrativoResultadoAppService.cs",
+      "raw_sha256": "5f7d660dd3679087c8d89717d1f7fc57566f268c3d09245f20044db7d932724e"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\EmailModeloAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\EmailModeloAppService.cs",
+      "raw_sha256": "019e0ce34205d14387ba6eab1fb812b10f95a714da639f4408e304730c698d6e"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\EnvioPafEcfAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\EnvioPafEcfAppService.cs",
+      "raw_sha256": "7346fbff3f8fe8467864b982e4e45af5eec571a049cc22b1645efae31faa7da8"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\EstoqueFisicoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\EstoqueFisicoRelatorioAppService.cs",
+      "raw_sha256": "4edc8ee432c13ed0988a959697f883c349d8a4d51f8acfd6143117a1ca7f1ea4"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\EtiquetaConfiguracaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\EtiquetaConfiguracaoAppService.cs",
+      "raw_sha256": "5cba5c602be04a6083a6162497f8a8d9323a5e96bcdaeb4473b9650da8cd979b"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ExceptionConsultaNFSe.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ExceptionConsultaNFSe.cs",
+      "raw_sha256": "bbb43405d5153b40b575886bc3cdacd1cf6bd72ffb8fa6584912854b0c7790d3"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ExceptionErroConsultaLote.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ExceptionErroConsultaLote.cs",
+      "raw_sha256": "33223fb40f251629911969b99dd5e8ccefb7223a136d2c92e47b2b2bdc9b6a84"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ExceptionOperacaoNaoSuportada.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ExceptionOperacaoNaoSuportada.cs",
+      "raw_sha256": "825b8c77d2adc30bb15fa8ac08ddbd216da90421397c9be369c14d56e52973bc"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GeradorArquivoContabilidadeAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GeradorArquivoContabilidadeAppService.cs",
+      "raw_sha256": "20742718894b7adc9af235859aaa852eddeaff25a4de679c707d2c996ac547f0"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GeradorArquivoEfdContribuicaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GeradorArquivoEfdContribuicaoAppService.cs",
+      "raw_sha256": "a38d232350f29cc6eeaf49a8ce588f69302be39e854ee09869763c1645f3d777"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GeradorArquivoInventarioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GeradorArquivoInventarioAppService.cs",
+      "raw_sha256": "c9dfcfcc4af43dc1c71c2445ba9c7d663560bf19c7e96bd57e20e12b7c06c68b"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GeradorArquivoLivroCaixaDigitalProdutorRuralAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GeradorArquivoLivroCaixaDigitalProdutorRuralAppService.cs",
+      "raw_sha256": "7f7428603374eb5cc5de86c1f4885541c815c5457900de58b4301c79b6fb41d7"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GeradorArquivoRegistrosPafEcfAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GeradorArquivoRegistrosPafEcfAppService.cs",
+      "raw_sha256": "debb088ab9c834fd93d0a997b8c4297df5c72c0ba4dcd8f32666f9a72af6c645"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GeradorArquivoSintegraAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GeradorArquivoSintegraAppService.cs",
+      "raw_sha256": "0d494c47a59b58f32a02900a9e896ba357c6bdb0f279eec77b1e62a30066f2d5"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GeradorArquivoSpedFiscalAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GeradorArquivoSpedFiscalAppService.cs",
+      "raw_sha256": "d0966bb02307d74a81e4eafd4c99ac49074304e86d877fb9055585044bc32ed3"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GerenciamentoRotinaDiariaAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GerenciamentoRotinaDiariaAppService.cs",
+      "raw_sha256": "49fb0777052694daa5c6a5a17445d59c919fb2c9da5fbbe96e4787ccb08f33bb"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GestaoCashbackAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GestaoCashbackAppService.cs",
+      "raw_sha256": "9104e0d33da14390a8c8e179bbb7f309b419338f4a9b99dec91099d220d72b8f"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GestaoCodigoIdentificadorOperacaoTransporteAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GestaoCodigoIdentificadorOperacaoTransporteAppService.cs",
+      "raw_sha256": "30c2d89a0b1f473f0debde095c8f49150fbc55c6cbda36fe119880b8a0e43005"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GestaoEmpresarialAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GestaoEmpresarialAppService.cs",
+      "raw_sha256": "0cacbdcd7d9537b90191929b41029f3d56ffeac1a4972a1d0625f021100e7d1b"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GestaoPainelContabilAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GestaoPainelContabilAppService.cs",
+      "raw_sha256": "992dcdb817c74d0361490073e0aebcd3f0794e17a9d64d04f341b1710e1b9152"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoClubeConstrudataAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoClubeConstrudataAppService.cs",
+      "raw_sha256": "356c9f5d44aa084764b0b96bddec55b3e7880987619483f15f0f6f20c7f0a450"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoDominioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoDominioAppService.cs",
+      "raw_sha256": "a643aa420ff6a951049940bcd750bae8fe959ee2a6de34787209ebf88040148e"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoFNRHAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoFNRHAppService.cs",
+      "raw_sha256": "61acae5836658d4f688bc08c46c364343203497296f08165d48c69f3391c4863"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoRodoilProAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoRodoilProAppService.cs",
+      "raw_sha256": "8a33d972af1bf4923c681dfe9d18ee68ac5861e4a8671f4d8b1b4e5e1f4126b1"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoScanntechAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GestaoSincronizacaoScanntechAppService.cs",
+      "raw_sha256": "8558e9c32ddc898facdf8f78b43865436e718b52f9ed7b9be2e008897fdf3e0f"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\GrupoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\GrupoRelatorioAppService.cs",
+      "raw_sha256": "38c4f98e36f9b63fba611d38f0f039660d8e5d1ae9f094a86b3e0e66cdb55405"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\HabilitacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\HabilitacaoAppService.cs",
+      "raw_sha256": "75c5f4de3bb40c315ef3e1fed8a1b43c85a35c8dc50a295c9cfbfc6def261b5c"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ImportacaoAbcFarmaAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ImportacaoAbcFarmaAppService.cs",
+      "raw_sha256": "09fa63b733143383ffe910688a0130f88f55554b50d943fc54a50b1db7efa9cd"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ImportacaoGuiaDaFarmaciaAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ImportacaoGuiaDaFarmaciaAppService.cs",
+      "raw_sha256": "53fdbb1aa7ec5179577bcee29ed927675b1bb302b512a9ff39597963a488fda3"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\InstalacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\InstalacaoAppService.cs",
+      "raw_sha256": "a618ff8bf6996e1c079a9d9e8cd61f6a925d1c498059c36d3bc99e1cab031ba1"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\InternacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\InternacaoAppService.cs",
+      "raw_sha256": "83b1da92b05b468063e01516a29bb6fdbc10211b3b75b09ac3751362146798fa"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\InutilizacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\InutilizacaoAppService.cs",
+      "raw_sha256": "8f80842395349e7da2cd9855c6022d8d92be4686a401aba2a2bddd7096b22c3c"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\JornadaAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\JornadaAppService.cs",
+      "raw_sha256": "cdc4d180d76141169283f6537afeee457b7a3d447a99696703931baab557818c"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\JornadaRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\JornadaRelatorioAppService.cs",
+      "raw_sha256": "7b98b5942afb25c130c5b2b53ffa431e6404a8a442f63fc8540185d61324aba4"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\LivroMovimentacaoCombustivelAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\LivroMovimentacaoCombustivelAppService.cs",
+      "raw_sha256": "5fbc2c82d6929d08abd2166e81532276eb828da133f75547619299889f3a9418"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\LogNFSe.cs",
+      "export_path": "AuxiliaresModulo\\Services\\LogNFSe.cs",
+      "raw_sha256": "f2df3ff5847f386b6f2cbf590d9816007b6a4d19f4585a6274831c8424517a83"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ManifestoEletronicoDocumentoFiscalRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ManifestoEletronicoDocumentoFiscalRelatorioAppService.cs",
+      "raw_sha256": "6d7e89c825f39b0853ac598dc8ae72f1c01fd0be79fe4cb200dd281f4319701f"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\MensagemWhatsappModeloAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\MensagemWhatsappModeloAppService.cs",
+      "raw_sha256": "f2e9644549c6d421acff539a022bc28d39802e140b7d56dbbd18bba80bec9f6a"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\MovimentacaoEntradaRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\MovimentacaoEntradaRelatorioAppService.cs",
+      "raw_sha256": "2c1bd13bf2054406cb77574c5d04c8cf4b99fd5c56dc5706176dd7bfc747a4df"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\MovimentacaoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\MovimentacaoRelatorioAppService.cs",
+      "raw_sha256": "891a4b034714c2b88b204132f7097408baba863610765faf81aa941b67282057"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\MovimentacaoSaidaRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\MovimentacaoSaidaRelatorioAppService.cs",
+      "raw_sha256": "c1b631b803a0c87642d4197dd5ca056b493b3a20bde49c48b181beb5b9e004c7"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\NFeServidorAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\NFeServidorAppService.cs",
+      "raw_sha256": "ca332671ed4969fb1a7684dc38fe3255911f96ef552ed03529af28270920bcad"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\NotaFiscalServicoEletronicaAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\NotaFiscalServicoEletronicaAppService.cs",
+      "raw_sha256": "98dbf50497c23e77e2f7aae87f2d68e532df436c8a898c76e710c4f880757ffe"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\NotaFiscalServicoEletronicaNacionalAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\NotaFiscalServicoEletronicaNacionalAppService.cs",
+      "raw_sha256": "11a3b74316e6660391503876dcef5ad58fae51035815ab16b9cf49f1ecd52b73"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\NotaFiscalServicoEletronicaV2AppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\NotaFiscalServicoEletronicaV2AppService.cs",
+      "raw_sha256": "25040f7f2b645a7c4fc4622ad981ac65a2492968a9127c6d68ac9c0bb3f3352d"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\OpcaoNotificacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\OpcaoNotificacaoAppService.cs",
+      "raw_sha256": "206fa105b242247c64316ae489d7b84ed09109edda71ff53ae54846db48f2aeb"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\OrcamentoIndustriaRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\OrcamentoIndustriaRelatorioAppService.cs",
+      "raw_sha256": "2449a15c603170daa3168e1fe826434281e6eaafda1e02e3f0d2f97e6ed8aa44"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\OrdemProducaoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\OrdemProducaoRelatorioAppService.cs",
+      "raw_sha256": "64957f6f17932434c401a56eed7bf1950b0dbc19086ad9733d839ca4c2d7f26e"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\PagamentoRecebimentoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\PagamentoRecebimentoRelatorioAppService.cs",
+      "raw_sha256": "6bbe53943a73c6ce80cb54ef5f405f3e4dc2aac945973540a19b862f09b3ec06"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\Parcial.cs",
+      "export_path": "AuxiliaresModulo\\Services\\Parcial.cs",
+      "raw_sha256": "bc5d2611dcfa6b0bde90e26f1c827df87fc3bedb6bc0a353e68d327cbbe1546e"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\PedidoRestauranteAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\PedidoRestauranteAppService.cs",
+      "raw_sha256": "4b4a03fad79e817f75f410779c2eabee1ed0d2897cab5da7c35a9ca18b9578f1"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\PeriodoMes.cs",
+      "export_path": "AuxiliaresModulo\\Services\\PeriodoMes.cs",
+      "raw_sha256": "5a1d02f803af2f702d87e74e7503194e08fcd6c70578434311f7789442f56aaa"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\PessoaRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\PessoaRelatorioAppService.cs",
+      "raw_sha256": "92364a78550f9f428c730b4cdbf9fc7ac4ebfe3db4770dabc30450639f5c5976"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\PostoCombustivelAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\PostoCombustivelAppService.cs",
+      "raw_sha256": "20251293cc2d9a80780b283b6a927b021727a5c7bd2c9b34ba608850eb4a45bd"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\PostoCombustivelMobileAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\PostoCombustivelMobileAppService.cs",
+      "raw_sha256": "f71ee454d1b5eefcb40b2f3ecf3853475be4a25985c52f58b44f9f26e8e07e97"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\PostoCombustivelRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\PostoCombustivelRelatorioAppService.cs",
+      "raw_sha256": "982ec52e219f22d794ea152363adece38e1f1dddc7430c3ee7379cdf8ca3356a"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ProdutoServicoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ProdutoServicoRelatorioAppService.cs",
+      "raw_sha256": "985fdba7584f4265bd64ead3053357beba9a89970576b60fb7c54298bd0115c8"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\ProgramacaoIndustriaRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\ProgramacaoIndustriaRelatorioAppService.cs",
+      "raw_sha256": "1fed55d555b8514adf5993c1acf967a71a126d8fd508394aa5c1a58d84fd5e6f"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\RelacaoVendedorClienteRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\RelacaoVendedorClienteRelatorioAppService.cs",
+      "raw_sha256": "f35ffd4f5a56170402117f0b5264c61e78fffdf32f4062ac535b809a84624e9c"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\RelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\RelatorioAppService.cs",
+      "raw_sha256": "58355f379c16b025b56649be1e591e14919d4f174fb6ed1edd767b6a70ea1112"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\RelogioService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\RelogioService.cs",
+      "raw_sha256": "035212a6cd0d231e24faa9fdf12462fc3a45dab261d3e0bd9729041a16e25d55"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\RestauranteAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\RestauranteAppService.cs",
+      "raw_sha256": "0eddec29f902e685fe996a90c72b4361b10f3ded0c907330231eaa3f2de247db"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\SequenciaMovimentacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\SequenciaMovimentacaoAppService.cs",
+      "raw_sha256": "827c32e2a63b670995d2513d94a141a3c238d5a7962da2fdb308cad8aae7bdf2"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\SincronizacaoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\SincronizacaoAppService.cs",
+      "raw_sha256": "1d7e98d0f51e28410d5aa4be3d9e83d00b156f0368b5aefcf14e89a1e87f3b80"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\SincronizacaoEcommerceAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\SincronizacaoEcommerceAppService.cs",
+      "raw_sha256": "163dd921b921b570945b690be515b10344c5bd367e2f1a184f0dbb448d4e324d"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\SngpcAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\SngpcAppService.cs",
+      "raw_sha256": "dd9d846834e61324e139ff0a2ca8395d6155a99c5e3c770e8966e161381351b0"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\TokenAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\TokenAppService.cs",
+      "raw_sha256": "88ac08a102edc7c6b40562e4dd37b6a71d569b35acb661d20a8427978592f1ee"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\TransferenciaRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\TransferenciaRelatorioAppService.cs",
+      "raw_sha256": "d431852950bb6bc750544233f2e66766f2c28b73ea51cba04983b48da8e65309"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\TransmissaoArquivoFiscoService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\TransmissaoArquivoFiscoService.cs",
+      "raw_sha256": "99cc11b5bacb8c1791ae4386e4b77009b62c529dafddb9dd6b5f5b72f5f58d6d"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\TurnoAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\TurnoAppService.cs",
+      "raw_sha256": "68d3e0570037e1ae25ec3751b3f8c972e96efe249d6491c552b3e8fad9c0cddf"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\TurnoRelatorioAppService.cs",
+      "export_path": "AuxiliaresModulo\\Services\\TurnoRelatorioAppService.cs",
+      "raw_sha256": "beedc38450fe1a3d0f0b11e7a52ee7850b3a6fc38391561788d74a7708538cf8"
+    },
+    {
+      "path": "AuxiliaresModulo\\Services\\Util.cs",
+      "export_path": "AuxiliaresModulo\\Services\\Util.cs",
+      "raw_sha256": "275ff11c17ea63da6f8d5b0390a33d813e1e54b38362c93be8d40a0404256004"
+    },
+    {
+      "path": "AuxiliaresModulo\\Token.cs",
+      "export_path": "AuxiliaresModulo\\Token.cs",
+      "raw_sha256": "f2eb898a7ff6a8336d62c8437c2d69018875966998b6ceed1dea7277666875bf"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\AdicionarAtualizarEmpresaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\AdicionarAtualizarEmpresaAppService.cs",
+      "raw_sha256": "e0d9d7fd47892d2a85b2f9b5720d8393fcf7936af8549d056c91f5802c1aef5a"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\AgrupamentoQuartoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\AgrupamentoQuartoAppService.cs",
+      "raw_sha256": "e83a06886438ab0a8b198a83ec287b010605ffb982608d8b0be22978232994ed"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\AjusteEInformacaoValorProvenienteDocumentoFiscalAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\AjusteEInformacaoValorProvenienteDocumentoFiscalAppService.cs",
+      "raw_sha256": "bcf812e2f508539e7193fbd21c073ede9cac63e25379a1b5a4f12f9a9244a735"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\AlteracaoPrecoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\AlteracaoPrecoAppService.cs",
+      "raw_sha256": "2a092cc13e9fcda50af5f308d08bd1f9cab61815d27ff46d3b529eacf2836788"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\AnimalAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\AnimalAppService.cs",
+      "raw_sha256": "fd58a63ea2cf064ef9829b23cef290284bf02d671fefc5cb945edef1375381ad"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\BaseAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\BaseAppService.cs",
+      "raw_sha256": "441d349e0d5b5ebb42096e7b75c12e6e79c29b2ad2b6ffc68521b8550e836dec"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\BicoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\BicoAppService.cs",
+      "raw_sha256": "25056591204730ff28215216df358776688b921e952a8b10b2a2437e6a9535b5"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\BoxAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\BoxAppService.cs",
+      "raw_sha256": "821a52530f279b00e80baf5beaafe71d10253205911470f43101fb5cb1ca03fb"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\CalculoPrecoCustoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\CalculoPrecoCustoAppService.cs",
+      "raw_sha256": "bf910f6cc836c43cc9296c48c60e3aa6a210a4829220eb4e1542905cdba2bbdf"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\CardapioAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\CardapioAppService.cs",
+      "raw_sha256": "76f5b35cf3e6344babd96351e5d55e7d1e4f8a3f440a0b09f4340eb66ccb3319"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\ConsultaServicoCreditoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\ConsultaServicoCreditoAppService.cs",
+      "raw_sha256": "aba95f474efedec39188dbdc388a501270bcb30a4fd4f2f9d6f61834bcc9f700"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\CrudAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\CrudAppService.cs",
+      "raw_sha256": "1c9181fdbcf2f0651afe7849924792b8ab4a3b0ac257174723f2c2d476c8cd2a"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\CrudAtivarDesativarAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\CrudAtivarDesativarAppService.cs",
+      "raw_sha256": "767b75e2aedf35c59da3b79445d8acceea2e8eaddb4f0a093c725c19181104ef"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\CrudEmpresaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\CrudEmpresaAppService.cs",
+      "raw_sha256": "d03a66a8f1b31b3f33f66342a84ca0c25e216ab20c8a00837dfbc8bb24edb7c4"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\DePagarAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\DePagarAppService.cs",
+      "raw_sha256": "5ab0efb47824aa783d135aba580b8f9e9f621f22b48b02d3c9d329be462c6027"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\DepartamentoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\DepartamentoAppService.cs",
+      "raw_sha256": "7d5b509e0da01213f9197389a847a55b7a521e9bdce6c9d1611f25f47d75c766"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\DoseAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\DoseAppService.cs",
+      "raw_sha256": "c3ae8546f7e1cc7881b78a1548e5d50fc58b2ba668bb5145ef25710b44d37a77"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\EspecieAnimalAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\EspecieAnimalAppService.cs",
+      "raw_sha256": "7bb4da6e83f1867cb6066c13b3ca8a8e32602fa855d664cc20bb8a60d6781d78"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\FatorConversaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\FatorConversaoAppService.cs",
+      "raw_sha256": "67eaf5699ece641c474f875e938f5d2c308d80f308e6971a1fd49e9158be8beb"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\FiltrosMovimentacaoRelacionamento.cs",
+      "export_path": "CadastrosModulo\\Services\\FiltrosMovimentacaoRelacionamento.cs",
+      "raw_sha256": "a3772aa72f76b3ffcd6efd710c69899facce13735e5a91bfa2f5653cbcf3436d"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\FormatoAroAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\FormatoAroAppService.cs",
+      "raw_sha256": "8124693ee396fca872043cb66f00d91294ee83d16d2f647701ec1b7ccc4fd14d"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\FreteAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\FreteAppService.cs",
+      "raw_sha256": "4020859f852bf6c42db584fcd34b0496e1db2dffb7754581d05648cde90cde61"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\GradeAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\GradeAppService.cs",
+      "raw_sha256": "a84005a04b59fa5432b76d11387b65215694ba1104e097c81fefbbecd13eaee3"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\GraficosInicioAgregador.cs",
+      "export_path": "CadastrosModulo\\Services\\GraficosInicioAgregador.cs",
+      "raw_sha256": "42b0a77ed7793de433423774768046680e44fcd272ecd043d636d6ccfd0a51ae"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\GrupoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\GrupoAppService.cs",
+      "raw_sha256": "41dcb8bf7305407f15c4782580876f7f020aabde859df7dfbac5d3e17af034ba"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\GrupoMenuAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\GrupoMenuAppService.cs",
+      "raw_sha256": "4960797ae14aa394210722820f4c98b594addc3bd4c45023ce7a7e17ecba889e"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\HospedagemAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\HospedagemAppService.cs",
+      "raw_sha256": "42bc0b882e2fedf7e07e3a50c939339fdfbbb387b108b9bcc3d0834238325806"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\HunitAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\HunitAppService.cs",
+      "raw_sha256": "28687134ffd7cca30df0ad108d583440fef647c386bcb76233b0b37a3278891e"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\IMendesAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\IMendesAppService.cs",
+      "raw_sha256": "96a12fae7d833345aff6daf9e5d7a83c6123cd17c00c9dee6879fde5a5391fd7"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\ImpressoraAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\ImpressoraAppService.cs",
+      "raw_sha256": "3cc25b4301835786b1e679e1ddf9f0930e7530eeadeb394d5f84088adb7d05a7"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\InformacaoExtraAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\InformacaoExtraAppService.cs",
+      "raw_sha256": "a9e667dcc8d13bb4812d765eaeb454e38e6f7c822e781330aa4c3379a98447b0"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\InformacaoNutricionalAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\InformacaoNutricionalAppService.cs",
+      "raw_sha256": "2df27a9ec0e016fde50fdfc72b82e6954d4c282bf0678a35dd3b45057cfad796"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\KitAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\KitAppService.cs",
+      "raw_sha256": "89fdb4de6805e90443c8a225fc824a7e8de4e92f8523f779d34855fc879170ef"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\LinhaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\LinhaAppService.cs",
+      "raw_sha256": "d092e340d2046c34497c039dc3c1f5cbff7fcb6b5238ba41d964e693fdb9fff3"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\LocacaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\LocacaoAppService.cs",
+      "raw_sha256": "7b0632c674f684987de2f4510b287441765a220089eb6ce381b016b693da3a3f"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\LocalizacaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\LocalizacaoAppService.cs",
+      "raw_sha256": "408df0acafd92ac1d6557bd01d5a63b90c3441e633747084078e764d67833096"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\MarcaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\MarcaAppService.cs",
+      "raw_sha256": "c8474e0fd6a25d85d72caf45a37809bca8eaee1db0a04e3a90ae0ce2ddde9c80"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\MaterialAroAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\MaterialAroAppService.cs",
+      "raw_sha256": "f826c782ce4cd34db5a6eae17f5274225d66fc87b190847322e1fb71cfe7b4db"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\MenuRapidoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\MenuRapidoAppService.cs",
+      "raw_sha256": "c7e76c5240346a79b9a5f5432da8aa3bed738611da56f64f8ce8d0dfa2b8007d"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\MetaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\MetaAppService.cs",
+      "raw_sha256": "976d6e19c63e90c375d05003ef4b21154302e86252076c3fa3b1547709933869"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\MoedaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\MoedaAppService.cs",
+      "raw_sha256": "768a854a2759e7078b07ce07a1e3c20cd8e02d7c0928a3e713d868a24483d0ed"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\NaturezaOperacaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\NaturezaOperacaoAppService.cs",
+      "raw_sha256": "0e2468ca377c4725d4d94f75241edd65f79aea1a1131233622ba841e4c1615dc"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\NCMNBSAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\NCMNBSAppService.cs",
+      "raw_sha256": "3adf69efb812e44fa1280baca82e48cc18faaa4c66f71ddf58f32764b1374c32"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\ObjetoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\ObjetoAppService.cs",
+      "raw_sha256": "fca8bd01447532bec200639801cf811a2fe9b703e010abe46353902116f7517a"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\ObservacaoDadoAdicionalAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\ObservacaoDadoAdicionalAppService.cs",
+      "raw_sha256": "169619c575048fd67c57dcad901e7eddf704715ffd2a02163cdf0b31991b5816"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\OperacaoFiscalAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\OperacaoFiscalAppService.cs",
+      "raw_sha256": "c5145f6047b3f55e32b811623b2061ae257442300464905a6f46d81ae7d395c7"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\OperacaoFiscalEnumerable.cs",
+      "export_path": "CadastrosModulo\\Services\\OperacaoFiscalEnumerable.cs",
+      "raw_sha256": "f918ac61bc94e25046f3806970ab95f66aa78594e2f3df5f3a37d179b79e73c7"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\OperacaoFiscalIbsCbsEnumerable.cs",
+      "export_path": "CadastrosModulo\\Services\\OperacaoFiscalIbsCbsEnumerable.cs",
+      "raw_sha256": "6c5cc1b9ccba646e2c5f248191ce4dc77d9a4d510e9f3e3ea1a22c6833934330"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\OperacaoFiscalIsEnumerable.cs",
+      "export_path": "CadastrosModulo\\Services\\OperacaoFiscalIsEnumerable.cs",
+      "raw_sha256": "785c0024f2680a8f2b7b95f716c188359575c8c55687b15b23ebcb3e3289bcfb"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\ParametrizaSoftAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\ParametrizaSoftAppService.cs",
+      "raw_sha256": "c8481fb103954d9645b16ab0015d1bc1d51e9032409c1dccf2e7b67bac6a35b8"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\PerfilAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\PerfilAppService.cs",
+      "raw_sha256": "d01a1b6008630b62b275de3a69fb14ba4fa0bd25304f01074646ba28e5cf9c0f"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\PessoaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\PessoaAppService.cs",
+      "raw_sha256": "783dcc1ddd52523277ce050ce5baaf58b0ae11cd37491d64f59f00ea5a9aca19"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\PlanoContaContabilAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\PlanoContaContabilAppService.cs",
+      "raw_sha256": "99ed17e8f3851fdbe171803e42c9b31c7342415656ddebe1d7ecd2448263eb8f"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\PosologiaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\PosologiaAppService.cs",
+      "raw_sha256": "c7b216f934f48d377d69be04b49be9fc2cba1dceaca554233cc6831490165960"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\ProdutoServicoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\ProdutoServicoAppService.cs",
+      "raw_sha256": "a914d9681e4506477895942aad4ab4c5102784c60e61301128d956bf53666f4d"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\ProfissaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\ProfissaoAppService.cs",
+      "raw_sha256": "baad4984e3ccdd981e278cb4fdd2b6432f1b02158a3d6020bb4f949dd8f36ab5"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\PromocaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\PromocaoAppService.cs",
+      "raw_sha256": "6363c968a577e953b17aa45aba9a09535397d40f3e2ec1617522ce58d3dd6c60"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\PromocaoScanntechAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\PromocaoScanntechAppService.cs",
+      "raw_sha256": "ca4ccc6ce22f092578a6513532a92dcb4ef6dacb41d423b95abfc32fec96cc4f"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\PropriedadeRuralAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\PropriedadeRuralAppService.cs",
+      "raw_sha256": "a6665d521741ccfc4118f569674cce8d428494c55003dd287d34319fc469b681"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\RacaAnimalAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\RacaAnimalAppService.cs",
+      "raw_sha256": "4263f8994c1763dbc2203202004c03f7e5a4a94fc0be3014c25a426f16dceae8"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\RelacaoCfopDevolucaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\RelacaoCfopDevolucaoAppService.cs",
+      "raw_sha256": "209ecf4b5c5086f03304e6af8bb5a3125753b83d36e43f5f249926fe995dcab4"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\RelacaoEspecieContaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\RelacaoEspecieContaAppService.cs",
+      "raw_sha256": "c0346f2eb8d319e7bd66828482b80ce1ece9fb813c348e08610aad940178334f"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\RelacaoProdutoFornecedorAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\RelacaoProdutoFornecedorAppService.cs",
+      "raw_sha256": "2f636b4ec7a3da0976bbccbb639cad01dd0f1afe029186e9d4607367dffb24d0"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\RelacaoVendedorClienteAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\RelacaoVendedorClienteAppService.cs",
+      "raw_sha256": "2a0e6442a049fd732c8d112362d3320f33fd344164925fd9fc05bd38b1c35dc0"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\RelacionamentoClienteAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\RelacionamentoClienteAppService.cs",
+      "raw_sha256": "3e6b7df894fb28ed0b322a67cc9004124cec26230f4c357f37b969e26227d90b"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\SegmentacaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\SegmentacaoAppService.cs",
+      "raw_sha256": "f0ec4aa1f002c54b7b35ff7ad6e9cbceeb33039c6c9d254ba340f5df31bf757e"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\SetorAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\SetorAppService.cs",
+      "raw_sha256": "c9ed091e51a920f17f39c03f24c0320c82ef4a7e11f88354bc22da29390cd494"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\StatusDavOsCadastroAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\StatusDavOsCadastroAppService.cs",
+      "raw_sha256": "7cd303136ff0a054efb51f3597f250c99059ccb60a35c26724e12d9d9947ef20"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TabelaPrecoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TabelaPrecoAppService.cs",
+      "raw_sha256": "5da482067dd79893f91c55511b7e8f500a7c97bcf19abac94e16fd71f2a2df3c"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TanqueAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TanqueAppService.cs",
+      "raw_sha256": "fb8742f95fc09a57372e5724839f80c8f106eb8f664dd6638e9f0e5987faedb3"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TipoAdministracaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TipoAdministracaoAppService.cs",
+      "raw_sha256": "0a95a85aa1cf59508ae7329e24d28c8425bf9fa05f533d701752b592dbc8f4dd"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TipoPersonalizadoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TipoPersonalizadoAppService.cs",
+      "raw_sha256": "5502cc6695d6ff897cd1926015c23e323c1d8c2dcef6f5840bd513de67885f92"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TipoSegmentacaoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TipoSegmentacaoAppService.cs",
+      "raw_sha256": "c725a53ecec59ef3c6e0e52537fe6b6ccf2b5264c190c86b686e67b4d056d7c4"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TipoTratamentoAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TipoTratamentoAppService.cs",
+      "raw_sha256": "920c15139890fb4815d3a5d9785ade5d741edf513b3393d9a126ba878fe8877c"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TributacaoEstadualAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TributacaoEstadualAppService.cs",
+      "raw_sha256": "894fe36b5aa39a8d2f294a5044bede29b6fc2d9fd3b286404a70417550847d01"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TributacaoFederalAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TributacaoFederalAppService.cs",
+      "raw_sha256": "46da40851cae98c8f37e2be0e7f484f64da0c18db876bcf476327822d5084e84"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TributacaoIbsCbsAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TributacaoIbsCbsAppService.cs",
+      "raw_sha256": "e9e3bace1e7325f3ae3d4e9b5e76b3fd08ffc3c26655c23a785d87fed7bdb0ef"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TributacaoIPIAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TributacaoIPIAppService.cs",
+      "raw_sha256": "cf155d61b484f124c3038ee5b25ccd082d7e87e0f08eff07971701d99933941b"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TributacaoIsAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TributacaoIsAppService.cs",
+      "raw_sha256": "d352a90ce232ac82e35b5a80ad1ad527ceed1f79b2aca39df4843954f6865edf"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TributacaoMunicipalAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TributacaoMunicipalAppService.cs",
+      "raw_sha256": "6702834a14ab13355c78844540e4575e673641325c3fb355411c3fb5fdab5241"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\TributacaoPISCOFINSAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\TributacaoPISCOFINSAppService.cs",
+      "raw_sha256": "1049a51326ed37788bcf5bfe644112baa02778145c000de09165ce2e71d7593e"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\UnidadeMedidaAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\UnidadeMedidaAppService.cs",
+      "raw_sha256": "ad23de5375c46254285b70416f789a6f06caf73f98e57123b40549eaad72c396"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\UsuarioAppService.cs",
+      "export_path": "CadastrosModulo\\Services\\UsuarioAppService.cs",
+      "raw_sha256": "1c5ab2526b866c7fd3eb637352ed5d88076a2176ea00af2d265ec5137041502f"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\VendasPorClienteAgregador.cs",
+      "export_path": "CadastrosModulo\\Services\\VendasPorClienteAgregador.cs",
+      "raw_sha256": "54db1ee01be4eb8ca9128d8f229ee2801ba102a3fefe8d2a1cae12bcab6ba439"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\VendasPorProdutoAgregador.cs",
+      "export_path": "CadastrosModulo\\Services\\VendasPorProdutoAgregador.cs",
+      "raw_sha256": "9d52ad54808b325eb615a30b62a7f7a2b6a1d2e59b28503658169d4d5845e0f2"
+    },
+    {
+      "path": "CadastrosModulo\\Services\\VendedoresMaisVendemAgregador.cs",
+      "export_path": "CadastrosModulo\\Services\\VendedoresMaisVendemAgregador.cs",
+      "raw_sha256": "dff08fb7d1d08981c92de6e79c4c7abddaa48a4758651f78d45e150378f10f62"
+    },
+    {
+      "path": "ComprasModulo\\CotacaoAppService.cs",
+      "export_path": "ComprasModulo\\CotacaoAppService.cs",
+      "raw_sha256": "5bc74cf78a703d2e8429e7d912ca9ce2839f6045864d7343155c608bc4fd0b44"
+    },
+    {
+      "path": "ConversoresModulo\\ConversorAppService.cs",
+      "export_path": "ConversoresModulo\\ConversorAppService.cs",
+      "raw_sha256": "43002a4d57005b76001ea372e7556957052ae82bc8351fc551a4f25be3f00a4b"
+    },
+    {
+      "path": "EntradasModulo\\Services\\ComposicaoAppService.cs",
+      "export_path": "EntradasModulo\\Services\\ComposicaoAppService.cs",
+      "raw_sha256": "9452c1487345f82f4290af9c11bb2452141a6f64fc1a4aa393f8691a81ce5501"
+    },
+    {
+      "path": "EntradasModulo\\Services\\RelacaoDadosFornecedorEntradaAppService.cs",
+      "export_path": "EntradasModulo\\Services\\RelacaoDadosFornecedorEntradaAppService.cs",
+      "raw_sha256": "d73124581414e5522006d5b8f78f3948061e9e8897eecd4d1fdf6d9d99e6c895"
+    },
+    {
+      "path": "EntradasModulo\\Services\\RelacaoPisCofinsEntradaAppService.cs",
+      "export_path": "EntradasModulo\\Services\\RelacaoPisCofinsEntradaAppService.cs",
+      "raw_sha256": "025cae269fdb50fd35f1aabbfacdaa6661ca6d21085f878ba76179a18cfbd2c1"
+    },
+    {
+      "path": "Events\\MostrarAvisoServerEvent.cs",
+      "export_path": "Events\\MostrarAvisoServerEvent.cs",
+      "raw_sha256": "2129c870e3f9a73eae3fc5a8a35ba4f454341de6d7b534e3d6b9c183bedb9e6d"
+    },
+    {
+      "path": "Events\\MostrarErroEPararServicoEvent.cs",
+      "export_path": "Events\\MostrarErroEPararServicoEvent.cs",
+      "raw_sha256": "fac0651fd37313b014cd37ba891599a066bea2f5f022a6244c7da4e37197c2d1"
+    },
+    {
+      "path": "Events\\MostrarErroServerEvent.cs",
+      "export_path": "Events\\MostrarErroServerEvent.cs",
+      "raw_sha256": "0a3df202d203b0e1f70ff45b90fb04e4de5c3f7f828eecc10de3d0f22ce48fc3"
+    },
+    {
+      "path": "Events\\MostrarMensagemServerEvent.cs",
+      "export_path": "Events\\MostrarMensagemServerEvent.cs",
+      "raw_sha256": "e51708f7d8fd869e951ce54f5c5edc3c1626069f16e78a7be024cd8781fb5f20"
+    },
+    {
+      "path": "Events\\ServicoIniciadoEvent.cs",
+      "export_path": "Events\\ServicoIniciadoEvent.cs",
+      "raw_sha256": "4b9f9f8cdba85a6cf4a70a9bcd2dffcdd83b261ffca01c4bc35fdd888117dfa8"
+    },
+    {
+      "path": "Events\\ServicoNFeConsultaAppEvent.cs",
+      "export_path": "Events\\ServicoNFeConsultaAppEvent.cs",
+      "raw_sha256": "c3917ed0dd1450e9bd70995c71e04fa4279aef1619e6a9488b5345beb04e3d69"
+    },
+    {
+      "path": "Events\\ServicoNFeConsultaErroAppEvent.cs",
+      "export_path": "Events\\ServicoNFeConsultaErroAppEvent.cs",
+      "raw_sha256": "6840bd91c3c91d8f91265f41a6eae701fbb157343a5fe4231dc5559f5e2dc74f"
+    },
+    {
+      "path": "Events\\ServicoNFeConsultaSucessoAppEvent.cs",
+      "export_path": "Events\\ServicoNFeConsultaSucessoAppEvent.cs",
+      "raw_sha256": "de024b85fe652451a6791fb1183f6736b7e6fc0e65e5a4eb33b36f3bb63c8e70"
+    },
+    {
+      "path": "Events\\TokenAtualizadoAppEvent.cs",
+      "export_path": "Events\\TokenAtualizadoAppEvent.cs",
+      "raw_sha256": "750fb4f99470e08e25fabdd680b9029105eaeb2175a7d0ef46aa7feea5f78b96"
+    },
+    {
+      "path": "Events\\UsuarioAtualizadoAppEvent.cs",
+      "export_path": "Events\\UsuarioAtualizadoAppEvent.cs",
+      "raw_sha256": "6d7214b395e89f8cddc4b1bc4d9e4981f33b163b67c1ca859a8acbb323ea78c0"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\BalanceteBaseAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\BalanceteBaseAppService.cs",
+      "raw_sha256": "51787323a55f84c73363c26b371f946fbe7b179bc415999e0140ffcb7fef7a99"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\BalanceteCentroCustoAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\BalanceteCentroCustoAppService.cs",
+      "raw_sha256": "dafa568a7d4f51ee02296bbb2f2ebc2a58d4160f8a8c7c8e9bb6406039721501"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\BalancetePlanoContaAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\BalancetePlanoContaAppService.cs",
+      "raw_sha256": "f5ab8968032bd95cbe2afac856ec3649b64689174eefb3594380006ea3e6eb73"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\BoletoAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\BoletoAppService.cs",
+      "raw_sha256": "393a31c1fe760f41403a4e1f19c2044ad2ae4509bb1c9d955dc0ef074d0eca8a"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\CentroCustoAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\CentroCustoAppService.cs",
+      "raw_sha256": "9e90525552f141a5d06e9fcf6bc974f254f245e3d14a68449d7c6a5242a41b85"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\ChequeAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\ChequeAppService.cs",
+      "raw_sha256": "e8d9a13082c27eb7af1df7044f072b311246dc56ab0b55c969732e6c97387cbe"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\ComissaoAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\ComissaoAppService.cs",
+      "raw_sha256": "fc71123e1ae7693e549461f8bb0c8e0e55dadf3a12cfe4c1daca3200be861131"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\ConciliacaoFinanceiraAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\ConciliacaoFinanceiraAppService.cs",
+      "raw_sha256": "0b45e38f7517f93be389c9eef1303016b4ea7a96f74fad3913d807d02a0ab264"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\ContaAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\ContaAppService.cs",
+      "raw_sha256": "b3da81fb38d871bc97af2801fa577dcef83b2eab81c115fd292c0dd894963061"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\ContaMobileAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\ContaMobileAppService.cs",
+      "raw_sha256": "47aab9da57abd6350c07684e59f38cddd63b7a9c00a6e3984f22b02750b15b5c"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\CrudAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\CrudAppService.cs",
+      "raw_sha256": "ca220418e29ebd8c04f8b2d0150a8a492b4f24782167ab7ff719958bca625970"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\CrudAtivarDesativarAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\CrudAtivarDesativarAppService.cs",
+      "raw_sha256": "e93149883b54e67fe485d30d0e5b0dc8332bb289425eb500a217c1bdc0eff121"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\DadosPagamentoCartao.cs",
+      "export_path": "FinanceirosModulo\\Services\\DadosPagamentoCartao.cs",
+      "raw_sha256": "a4e2c84238c56d3b170f582e24b872aca748a036af270b67e5e6952053edac5b"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\FluxoCaixaAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\FluxoCaixaAppService.cs",
+      "raw_sha256": "648d7ea532764757cd4324e6f757f9ca7f1742a41af7fac79788f9a2ac8683bd"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\FormaPagamentoAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\FormaPagamentoAppService.cs",
+      "raw_sha256": "c549935828423a09ce1d65562eae99defd491257e2f953a1e3b5128cd8ec2826"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\GestaoContratoAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\GestaoContratoAppService.cs",
+      "raw_sha256": "7974faabaee0c17def7f9f426184e7bc0ca37a25dc92a3acfbd547f2f0382c4d"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\MovimentoContaAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\MovimentoContaAppService.cs",
+      "raw_sha256": "b1b6481e70e71f629b2bfc71f1f38eee39fad03eaf0e89db9ab46b20706dacd1"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\PagamentoAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\PagamentoAppService.cs",
+      "raw_sha256": "37470dbbe6cb32f0c1bb56fadcae7d0cd11bf526dc77b9760822c70c47261746"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\PlanoContaAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\PlanoContaAppService.cs",
+      "raw_sha256": "eb6e1a8ced40b1d068185b6371cff115271b24dd04e209d948da6d6765c4e859"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\PredefinicaoLancamentoFinanceiroAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\PredefinicaoLancamentoFinanceiroAppService.cs",
+      "raw_sha256": "05ceb3ade3fe0d1fd037291de9b98e9831b670d88e853b13a16cfd4a5845284a"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\RecebimentoAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\RecebimentoAppService.cs",
+      "raw_sha256": "5d2707b07b90de2d195eff5b6d43d350b85b1c1aae4ff2a5f0942e1f65db10e0"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\TipoContratoAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\TipoContratoAppService.cs",
+      "raw_sha256": "7dc93b711128c2c958ab2992a52720a338f00864dd2033197664c1a111a317a4"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\TransacaoPbmAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\TransacaoPbmAppService.cs",
+      "raw_sha256": "c5fbec2a5d1b76859e6a557047c3fb080810086994ab41de3345a36b95436309"
+    },
+    {
+      "path": "FinanceirosModulo\\Services\\TransferenciaAppService.cs",
+      "export_path": "FinanceirosModulo\\Services\\TransferenciaAppService.cs",
+      "raw_sha256": "ab3d4c81f8fc8ad21219135b61907bd103825abdda8e6abdae3ff41c2e5c7244"
+    },
+    {
+      "path": "Handlers\\AtualizarUsuarioHandler.cs",
+      "export_path": "Handlers\\AtualizarUsuarioHandler.cs",
+      "raw_sha256": "170efffd88a0dbccb4c07cd3e293a58bcc6b0c474f00e8424312d431b9682867"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\CustoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\CustoAppService.cs",
+      "raw_sha256": "4dbbbf039d6d5b61311d0959786b8fe7690f9cb074b576ec9622f34888631a98"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\CustoIndiretoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\CustoIndiretoAppService.cs",
+      "raw_sha256": "e8bc2dc2b63068ade8d3bdafcf326b7159da09cf2b90fc8d0f95973ff4463ebc"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\EncargoSocialAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\EncargoSocialAppService.cs",
+      "raw_sha256": "6a27467a6342d089235a64254c5a4b5e6078f2d6a8d79b6281fc44232911f4c2"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\EstoqueFisicoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\EstoqueFisicoAppService.cs",
+      "raw_sha256": "2da9ce534fbed7a8f5e9cb420569611ebf66ab70cb80b1f0735779b869877346"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\FaseProducaoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\FaseProducaoAppService.cs",
+      "raw_sha256": "90deda9cffb4009fe1b886b9be3793edef5f1461e5b2779c8bff374ca48d497c"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\FeriadoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\FeriadoAppService.cs",
+      "raw_sha256": "116ff8250aaac2bf4b1f45e4462b63b6e0939d3245197a3d5d7c81872c34ba82"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\IncidenciaCustoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\IncidenciaCustoAppService.cs",
+      "raw_sha256": "a3bedbd4aee27136e476e81432b9ad34eee473c4d6442ef93c45b6b3214b4ba0"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\IncidenciaCustoIndiretoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\IncidenciaCustoIndiretoAppService.cs",
+      "raw_sha256": "ead151db2c4ff241ec169c5a705f0c31b595d81f0c47792825b5a6751175578d"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\IncidenciaEncargoSocialAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\IncidenciaEncargoSocialAppService.cs",
+      "raw_sha256": "2c9907d59cfcf05edc86afd48edd45ccb6d4f1b2bbe9f8fc44418bef2677f70a"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\JornadaTrabalhoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\JornadaTrabalhoAppService.cs",
+      "raw_sha256": "694d01ed0b7dcad0ebf8084fe21db7066a7d32b762ff2e269c8b65896272b204"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\MaoObraAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\MaoObraAppService.cs",
+      "raw_sha256": "a0b22a2fd6c2758da7581b4223f21520bd5297d5f07338cbd9bc1f56baf0dc3e"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\OrcamentoIndustriaAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\OrcamentoIndustriaAppService.cs",
+      "raw_sha256": "6853d3aace4ceb9ed73646254fc492f7f694130db409070eca3f0e4c0cfb1d35"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\OrdemDesmontagemAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\OrdemDesmontagemAppService.cs",
+      "raw_sha256": "52e8cf745d93eb387c554e96b29bdb3814f176304b4271a077107b8316308736"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\OrdemProducaoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\OrdemProducaoAppService.cs",
+      "raw_sha256": "a6b4736178b0390cf337316f39d0a0025e41109fd0060ce4484c2096c0c17ab6"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\ProgramacaoIndustriaAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\ProgramacaoIndustriaAppService.cs",
+      "raw_sha256": "f5ff341af9382f9fa87e95b6ab8d50208755d3f71bba70847e92068a4b453c11"
+    },
+    {
+      "path": "IndustriasModulo\\Services\\SimuladorCustoAppService.cs",
+      "export_path": "IndustriasModulo\\Services\\SimuladorCustoAppService.cs",
+      "raw_sha256": "c49f8a4dfe9aefd597a818e1eb25cffaffec7d4803eed6c952b3db0d2745027a"
+    },
+    {
+      "path": "MercadosLivresModulo\\MercadoLivreAppService.cs",
+      "export_path": "MercadosLivresModulo\\MercadoLivreAppService.cs",
+      "raw_sha256": "2250512805ccd02197f8d2f2665ac2d54a0613afc3d89a5775557500b22ea82a"
+    },
+    {
+      "path": "MobileDevices\\AuthAppService.cs",
+      "export_path": "MobileDevices\\AuthAppService.cs",
+      "raw_sha256": "098d792e76368b8ab12a4991bc06f8cf5b9038bf22d94afa5e079e72bb1db108"
+    },
+    {
+      "path": "MobileDevices\\Services\\ColetorDadosAppService.cs",
+      "export_path": "MobileDevices\\Services\\ColetorDadosAppService.cs",
+      "raw_sha256": "38908040fbaafa14dadcbe044e5ea06f6b9b4f2b0b0526847ba25f9be0ac5166"
+    },
+    {
+      "path": "MobileDevices\\Services\\ConfiguracaoMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\ConfiguracaoMobileAppService.cs",
+      "raw_sha256": "e87539badaaa8b01948fe8087a57312aafd856a3594c400ea75ddff8ea4f8d7e"
+    },
+    {
+      "path": "MobileDevices\\Services\\EmpresaMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\EmpresaMobileAppService.cs",
+      "raw_sha256": "d189bcbc2243855713c90af6d03e40c61fc2a3449ee7abec804f8d5de26521b8"
+    },
+    {
+      "path": "MobileDevices\\Services\\ForcaVendasAppService.cs",
+      "export_path": "MobileDevices\\Services\\ForcaVendasAppService.cs",
+      "raw_sha256": "f318003329e07c8b6bddb17e050a023319bf8721e4059451cade67c07d10ebfb"
+    },
+    {
+      "path": "MobileDevices\\Services\\GerarBoletosDePagarMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\GerarBoletosDePagarMobileAppService.cs",
+      "raw_sha256": "cafeea58f660c282eae0f77f3dbbffea8870db85cdb008b7cf48d877370dd216"
+    },
+    {
+      "path": "MobileDevices\\Services\\GrupoMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\GrupoMobileAppService.cs",
+      "raw_sha256": "ccb3e9de2e5d6a7b3c1baea4d1c0193344511bde762a4277dfb8b71fe506e503"
+    },
+    {
+      "path": "MobileDevices\\Services\\HospedagemMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\HospedagemMobileAppService.cs",
+      "raw_sha256": "9cd97bfb95f4ae94f5d1bc0d86330a2e5c5624b7098a5e4b3f1780a0a9b5c738"
+    },
+    {
+      "path": "MobileDevices\\Services\\KitMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\KitMobileAppService.cs",
+      "raw_sha256": "7d63799464420f10ff53bb4d8abae82e197af0a4e9394f58d75c7ae63a9999cd"
+    },
+    {
+      "path": "MobileDevices\\Services\\MensagemAppService.cs",
+      "export_path": "MobileDevices\\Services\\MensagemAppService.cs",
+      "raw_sha256": "3f05e9efa5a992d57e4f084a30c0d5eee0e82d850d519b26203414234a705fca"
+    },
+    {
+      "path": "MobileDevices\\Services\\MesaContaMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\MesaContaMobileAppService.cs",
+      "raw_sha256": "12c95a71a1bf6523e485620667c835cdeb4ed004c4df4739523ea6d00d99fb74"
+    },
+    {
+      "path": "MobileDevices\\Services\\MobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\MobileAppService.cs",
+      "raw_sha256": "d28a2da78c3acdff09c8a3ac3f3fd9fb5786b963205a2277ce6979380dfda4a2"
+    },
+    {
+      "path": "MobileDevices\\Services\\MovimentacaoMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\MovimentacaoMobileAppService.cs",
+      "raw_sha256": "51ebbe5ef04810e3def75f23dabbd950e2258e579e0a1a473932f6b671a4d6d5"
+    },
+    {
+      "path": "MobileDevices\\Services\\NotaFiscalEletronicaMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\NotaFiscalEletronicaMobileAppService.cs",
+      "raw_sha256": "0bf80da1d8b4fc4c0bb9f8c85cd5513c238098aa0592ae8e1ce5691de12a1c73"
+    },
+    {
+      "path": "MobileDevices\\Services\\OrcamentoMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\OrcamentoMobileAppService.cs",
+      "raw_sha256": "0bfee6ab142dae0cde817d2fd8f0d3c432daa9c861d848ef4af2dbf29ad1607c"
+    },
+    {
+      "path": "MobileDevices\\Services\\OrdemServicoMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\OrdemServicoMobileAppService.cs",
+      "raw_sha256": "1bcf47953bfb5918ce3c5de46d5243ef99c37dfa233f3651e997d38160270907"
+    },
+    {
+      "path": "MobileDevices\\Services\\PedidoVendaMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\PedidoVendaMobileAppService.cs",
+      "raw_sha256": "74b2e92f269751fd2262d855988d96f9f1a21134c4b75bb85d29b9aba3e06943"
+    },
+    {
+      "path": "MobileDevices\\Services\\PerfilMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\PerfilMobileAppService.cs",
+      "raw_sha256": "709014409c68eec7deb1b18984dcbaa3ffc6ca56149594cbe4efd730f22bfc51"
+    },
+    {
+      "path": "MobileDevices\\Services\\PessoaMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\PessoaMobileAppService.cs",
+      "raw_sha256": "f50ca420a946b3cce59f2a72bfc8cf484874762b2764e3495673a4a64ca60ede"
+    },
+    {
+      "path": "MobileDevices\\Services\\ProdutoServicoMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\ProdutoServicoMobileAppService.cs",
+      "raw_sha256": "cdc457f31a1d5e4061e7fb37823c1b96434a01215ca1f19c0a994d6e847d32bf"
+    },
+    {
+      "path": "MobileDevices\\Services\\RegistroVendaMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\RegistroVendaMobileAppService.cs",
+      "raw_sha256": "d5cda25642742922d7aecb7bc15d01e1a3456862047502965f2a785498ee73c8"
+    },
+    {
+      "path": "MobileDevices\\Services\\RestauranteMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\RestauranteMobileAppService.cs",
+      "raw_sha256": "ba4634ca316be362c2a84083001b5275257415412be44bce19e170a42a04b684"
+    },
+    {
+      "path": "MobileDevices\\Services\\SenhaMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\SenhaMobileAppService.cs",
+      "raw_sha256": "c4fafce3f8a6372cfbb0974a058b0878ee604a0c6437de6bc79df8d06fdbcfde"
+    },
+    {
+      "path": "MobileDevices\\Services\\TabelaPrecoMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\TabelaPrecoMobileAppService.cs",
+      "raw_sha256": "e8064086722747129dbf165d0d9b28b93c4b1589e5641af7b6c5c6d8f22eaed9"
+    },
+    {
+      "path": "MobileDevices\\Services\\TicketMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\TicketMobileAppService.cs",
+      "raw_sha256": "320598dba69c46eb6c23c2732e064858464d35425ad9d4e3b769c489a2cc55b0"
+    },
+    {
+      "path": "MobileDevices\\Services\\TransacaoMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\TransacaoMobileAppService.cs",
+      "raw_sha256": "740280e676a0e6c4f6a1f2187110bcef41e439ccd4a32df8187e30a650e987ba"
+    },
+    {
+      "path": "MobileDevices\\Services\\TurnoMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\TurnoMobileAppService.cs",
+      "raw_sha256": "9540a29e237d57a046de21f9ef5b87a320fc3da6cc00ccff3e35620d1fb54ffb"
+    },
+    {
+      "path": "MobileDevices\\Services\\UsuarioMobileAppService.cs",
+      "export_path": "MobileDevices\\Services\\UsuarioMobileAppService.cs",
+      "raw_sha256": "d42df2ce4ccde1978e95766c7f85f0910ecf4ef2fd1c2995f222bbbfec65ee72"
+    },
+    {
+      "path": "MovimentacoesModulo\\CartaCorrecaoAppService.cs",
+      "export_path": "MovimentacoesModulo\\CartaCorrecaoAppService.cs",
+      "raw_sha256": "9aa878167003a7590682e4d4b1381ff9f57fbef4bf7903087f2b78b437de27d8"
+    },
+    {
+      "path": "MovimentacoesModulo\\CompraAppService.cs",
+      "export_path": "MovimentacoesModulo\\CompraAppService.cs",
+      "raw_sha256": "e099163429d5ff770979cd25dc5fac890902b7a42896eb6ccede7e9633700246"
+    },
+    {
+      "path": "MovimentacoesModulo\\ConhecimentoTransporteEletronicoAppService.cs",
+      "export_path": "MovimentacoesModulo\\ConhecimentoTransporteEletronicoAppService.cs",
+      "raw_sha256": "00f09ba3c8a669b288d0a54c337429ac75a07dbb4d82097e89541794d67ce7fb"
+    },
+    {
+      "path": "MovimentacoesModulo\\ControleEntregaAppService.cs",
+      "export_path": "MovimentacoesModulo\\ControleEntregaAppService.cs",
+      "raw_sha256": "6a979d4bbb8869551d16f6fe1e6f855efdf4549f37786980af1fb49c844da359"
+    },
+    {
+      "path": "MovimentacoesModulo\\DeliveryAppService.cs",
+      "export_path": "MovimentacoesModulo\\DeliveryAppService.cs",
+      "raw_sha256": "b2a3fce1dce5697e52a3740cd65cae1c48c8d6a7b369e43433e9ec0c497ac06d"
+    },
+    {
+      "path": "MovimentacoesModulo\\DevolucaoAppService.cs",
+      "export_path": "MovimentacoesModulo\\DevolucaoAppService.cs",
+      "raw_sha256": "ee9c4e8b97c6460b0c448979429124cca73be566784f3c866a7d779f19b0e9b9"
+    },
+    {
+      "path": "MovimentacoesModulo\\DocumentoAuxiliarVendaAppService.cs",
+      "export_path": "MovimentacoesModulo\\DocumentoAuxiliarVendaAppService.cs",
+      "raw_sha256": "b6792b02c08267e80aa5381dd0f6769c09bdd314213bbbe268b6305d0877a371"
+    },
+    {
+      "path": "MovimentacoesModulo\\DocumentoAuxiliarVendaAppServiceBase.cs",
+      "export_path": "MovimentacoesModulo\\DocumentoAuxiliarVendaAppServiceBase.cs",
+      "raw_sha256": "4956e4c54bfc24e6b096bb2f192cdc988def92aade4761e9878d73cce2f66584"
+    },
+    {
+      "path": "MovimentacoesModulo\\DocumentoAuxiliarVendaOrdemServicoAppService.cs",
+      "export_path": "MovimentacoesModulo\\DocumentoAuxiliarVendaOrdemServicoAppService.cs",
+      "raw_sha256": "d5243cbcd49ea9a22936fcff747edf8ee2f2ace5fd30ad149ba81025810fb7d3"
+    },
+    {
+      "path": "MovimentacoesModulo\\FarmaciaPopularAppService.cs",
+      "export_path": "MovimentacoesModulo\\FarmaciaPopularAppService.cs",
+      "raw_sha256": "9ee4b1b35df5e9c41fc06a6cff9b3d8599da21fa8e8ab3afec69d17aa3c50aec"
+    },
+    {
+      "path": "MovimentacoesModulo\\IImpressaoImagemAnexaDavOsService.cs",
+      "export_path": "MovimentacoesModulo\\IImpressaoImagemAnexaDavOsService.cs",
+      "raw_sha256": "1a079c5f03105931bd90573fd0ef52fbf2271d06937f781f8fbfbe7ed877539e"
+    },
+    {
+      "path": "MovimentacoesModulo\\ImportacaoXmlAppService.cs",
+      "export_path": "MovimentacoesModulo\\ImportacaoXmlAppService.cs",
+      "raw_sha256": "f2a7e49d5f4e7fa476008fa58943c38832e658a0087e1a446310fecd1d915457"
+    },
+    {
+      "path": "MovimentacoesModulo\\ImpressaoImagemAnexaDavOsService.cs",
+      "export_path": "MovimentacoesModulo\\ImpressaoImagemAnexaDavOsService.cs",
+      "raw_sha256": "e6159684eac4cf2bf881b641436a600227ef44a6c3be5c22c10c888dd17885af"
+    },
+    {
+      "path": "MovimentacoesModulo\\ManifestacaoDestinatarioAppService.cs",
+      "export_path": "MovimentacoesModulo\\ManifestacaoDestinatarioAppService.cs",
+      "raw_sha256": "32c2f6db1b19d02592d620b716ca6b3724c9df67c51a652a1e9de531a289e395"
+    },
+    {
+      "path": "MovimentacoesModulo\\ManifestacaoDestinatarioCteAppService.cs",
+      "export_path": "MovimentacoesModulo\\ManifestacaoDestinatarioCteAppService.cs",
+      "raw_sha256": "35ca9ddfb2ff6e5ef408ffae1a3b172d3ceb04f621350e8d65ec97d45991afcd"
+    },
+    {
+      "path": "MovimentacoesModulo\\ManifestoEletronicoDocumentoFiscalAppService.cs",
+      "export_path": "MovimentacoesModulo\\ManifestoEletronicoDocumentoFiscalAppService.cs",
+      "raw_sha256": "136716b073f7c0bcf30b30bde3e96a5456fc28e80d32c9cc6ac4d7e151ecd1fd"
+    },
+    {
+      "path": "MovimentacoesModulo\\MovimentacaoAppServiceBase.cs",
+      "export_path": "MovimentacoesModulo\\MovimentacaoAppServiceBase.cs",
+      "raw_sha256": "eab794bebbbad5a445a1298b2b9ee920045fadc6728220201f0fa2edf30b6fca"
+    },
+    {
+      "path": "MovimentacoesModulo\\MovimentacaoCtrcAppService.cs",
+      "export_path": "MovimentacoesModulo\\MovimentacaoCtrcAppService.cs",
+      "raw_sha256": "5561f1a819c600feddf0131220128622c99572682a142cf126527d70af2b86fb"
+    },
+    {
+      "path": "MovimentacoesModulo\\MovimentacaoDocumentoFiscalEletronicoBaseAppServiceBase.cs",
+      "export_path": "MovimentacoesModulo\\MovimentacaoDocumentoFiscalEletronicoBaseAppServiceBase.cs",
+      "raw_sha256": "3a3b40dae398189d8562c5ef7fc731490a7a35d1f43bbf0d3bdf6f6ae2e5e751"
+    },
+    {
+      "path": "MovimentacoesModulo\\MovimentacaoEntradaAppService.cs",
+      "export_path": "MovimentacoesModulo\\MovimentacaoEntradaAppService.cs",
+      "raw_sha256": "9e401fa2c6098a7f6068164c51c4e06914d245409936159e945acbecb854b832"
+    },
+    {
+      "path": "MovimentacoesModulo\\MovimentacaoSaidaAppService.cs",
+      "export_path": "MovimentacoesModulo\\MovimentacaoSaidaAppService.cs",
+      "raw_sha256": "12fe3707f95c0e64243b15f878613a0291b370c51fca53f669f1b5eb3ead0346"
+    },
+    {
+      "path": "MovimentacoesModulo\\NotaFiscalConsumidorEletronicaAppService.cs",
+      "export_path": "MovimentacoesModulo\\NotaFiscalConsumidorEletronicaAppService.cs",
+      "raw_sha256": "e36525278a60c74b43c67917912395fd06879b4510d93c140c194b3b7ae3225c"
+    },
+    {
+      "path": "MovimentacoesModulo\\NotaFiscalEletronicaEntradaAppService.cs",
+      "export_path": "MovimentacoesModulo\\NotaFiscalEletronicaEntradaAppService.cs",
+      "raw_sha256": "9307380d464ce5ada3066a6252e66c00692d5b6856aff82e0f35efb1005b4665"
+    },
+    {
+      "path": "MovimentacoesModulo\\NotaFiscalEletronicaSaidaAppService.cs",
+      "export_path": "MovimentacoesModulo\\NotaFiscalEletronicaSaidaAppService.cs",
+      "raw_sha256": "34937a397de85251190ed563222d52e3331561fd87fab5d8dab3f4e99523f20f"
+    },
+    {
+      "path": "MovimentacoesModulo\\NotaFiscalServicoAppService.cs",
+      "export_path": "MovimentacoesModulo\\NotaFiscalServicoAppService.cs",
+      "raw_sha256": "7a79e555f652f2aa9d715628a713a4a18b783c780885d083120cb1224ce0f617"
+    },
+    {
+      "path": "MovimentacoesModulo\\NotaManualAppService.cs",
+      "export_path": "MovimentacoesModulo\\NotaManualAppService.cs",
+      "raw_sha256": "dfcabf5efc0eeccd3716ee28178343bbfafcd1dc57fe778c40c54d8db533dfec"
+    },
+    {
+      "path": "MovimentacoesModulo\\OrcamentoAppService.cs",
+      "export_path": "MovimentacoesModulo\\OrcamentoAppService.cs",
+      "raw_sha256": "b825a84ef8213be4b5798d92e27aa7b4d981a2a7121e46f1688d007fff9c2ead"
+    },
+    {
+      "path": "MovimentacoesModulo\\PedidoCompraAppService.cs",
+      "export_path": "MovimentacoesModulo\\PedidoCompraAppService.cs",
+      "raw_sha256": "2ac76f33c1a1439ed4a66a9c4a1f84fcde65dc4a669d00150cecc56517b82b31"
+    },
+    {
+      "path": "MovimentacoesModulo\\PedidoEcommerceAppService.cs",
+      "export_path": "MovimentacoesModulo\\PedidoEcommerceAppService.cs",
+      "raw_sha256": "5c66b23d00bb504448c2bb668d1d23ed128d0d786a70a1af02890b61450f5cca"
+    },
+    {
+      "path": "MovimentacoesModulo\\PedidoIfoodAppService.cs",
+      "export_path": "MovimentacoesModulo\\PedidoIfoodAppService.cs",
+      "raw_sha256": "bb69588f5fbf213d2466a7743ce5f7caa48ab3e444ea7a06abb88e140de59a22"
+    },
+    {
+      "path": "MovimentacoesModulo\\PreVendaAppService.cs",
+      "export_path": "MovimentacoesModulo\\PreVendaAppService.cs",
+      "raw_sha256": "c21453fd7c193588f3df346b27be55a829b61e8bab4e9cb429abddd083257b54"
+    },
+    {
+      "path": "MovimentacoesModulo\\RemapeamentoIfoodMontador.cs",
+      "export_path": "MovimentacoesModulo\\RemapeamentoIfoodMontador.cs",
+      "raw_sha256": "355ace7c69f6d17ef4b9609625bf6c7710c0bc20a716affff29e32ccbd81d4e4"
+    },
+    {
+      "path": "MovimentacoesModulo\\RomaneioCargaAppService.cs",
+      "export_path": "MovimentacoesModulo\\RomaneioCargaAppService.cs",
+      "raw_sha256": "9c3ae1d444cba1dd8f45ea2ad22791cd83357d7bf6db8a30d6b929a0c7048e43"
+    },
+    {
+      "path": "MovimentacoesModulo\\RomaneioConhecimentoTransporteEletronicoAppService.cs",
+      "export_path": "MovimentacoesModulo\\RomaneioConhecimentoTransporteEletronicoAppService.cs",
+      "raw_sha256": "ba40344ec3f7294ce7ead2c736c762bdcf069e92a16feeb73c8fe10a3267281e"
+    },
+    {
+      "path": "MovimentacoesModulo\\SenhaAppService.cs",
+      "export_path": "MovimentacoesModulo\\SenhaAppService.cs",
+      "raw_sha256": "889fd961968d916949594943add46f7dc5d6fd6acd0448df6895519859bee683"
+    },
+    {
+      "path": "MovimentacoesModulo\\TicketAppService.cs",
+      "export_path": "MovimentacoesModulo\\TicketAppService.cs",
+      "raw_sha256": "c22e4bd6c8f6f71a9504241e319cf06893680d632baeefdca5e823fa705dc97f"
+    },
+    {
+      "path": "MovimentacoesModulo\\TransacaoAppService.cs",
+      "export_path": "MovimentacoesModulo\\TransacaoAppService.cs",
+      "raw_sha256": "f7c0ee5c01be62a6a2fd4b77750da821934c73c9727c466ce30642caa06f7d17"
+    },
+    {
+      "path": "MovimentacoesModulo\\ValePresenteAppService.cs",
+      "export_path": "MovimentacoesModulo\\ValePresenteAppService.cs",
+      "raw_sha256": "0ad6b441ef89c09c4bf3a4a431dde06d8f481afdd6cdfb055d8947feb281dd0a"
+    },
+    {
+      "path": "MovimentacoesModulo\\ValidacaoEstoqueAppService.cs",
+      "export_path": "MovimentacoesModulo\\ValidacaoEstoqueAppService.cs",
+      "raw_sha256": "44094fc0ed4ff557fa8d3a0f8b646a86e348a6feab895fe01876affa2c7b7578"
+    },
+    {
+      "path": "NFSeNacionalX\\Ambiente.cs",
+      "export_path": "NFSeNacionalX\\Ambiente.cs",
+      "raw_sha256": "5f0a9ec1d6cd7a55777d1da39617c28bd6cc59d2911bf64412e68ad5e8dde167"
+    },
+    {
+      "path": "NFSeNacionalX\\IspdConverterX.cs",
+      "export_path": "NFSeNacionalX\\IspdConverterX.cs",
+      "raw_sha256": "1bf3b4ee47eb0a9141eab47a48db16ce0abe30cdba924656f64fecfdcf501077"
+    },
+    {
+      "path": "NFSeNacionalX\\IspdListRet.cs",
+      "export_path": "NFSeNacionalX\\IspdListRet.cs",
+      "raw_sha256": "65f044a51bedd1b6044cdb414e1e26920e20d3b6df2e261aa1aa3cdb1caff623"
+    },
+    {
+      "path": "NFSeNacionalX\\IspdNFSeNacional.cs",
+      "export_path": "NFSeNacionalX\\IspdNFSeNacional.cs",
+      "raw_sha256": "a0c867f625a4e5d67bc62751ad16dc95361b07bfdaafd53468d31042a566e26a"
+    },
+    {
+      "path": "NFSeNacionalX\\spdNFSeNacionalRet.cs",
+      "export_path": "NFSeNacionalX\\spdNFSeNacionalRet.cs",
+      "raw_sha256": "7be90f470eeae658a8a68d32066b766a293c6c5a5537c0ffc43913ebdd75a96e"
+    },
+    {
+      "path": "NFSeNacionalX\\spdNFSeNacionalRetConverterX.cs",
+      "export_path": "NFSeNacionalX\\spdNFSeNacionalRetConverterX.cs",
+      "raw_sha256": "b455c44f6cbc9d187e54349dc86b7a3f9ad8f5f63e5e9a1c5a7e47855df72fee"
+    },
+    {
+      "path": "NFSeNacionalX\\spdNFSeNacionalX.cs",
+      "export_path": "NFSeNacionalX\\spdNFSeNacionalX.cs",
+      "raw_sha256": "935e357ff92c57bfc82930617523229a98948cf32b971309869e991f6e6d9d67"
+    },
+    {
+      "path": "NFSeNacionalX\\VersaoManual.cs",
+      "export_path": "NFSeNacionalX\\VersaoManual.cs",
+      "raw_sha256": "ca3430adacea83d9305543f86bd6c10b6b594ecf1cc01948f831864e8bfc16ca"
+    },
+    {
+      "path": "NFSeX\\Ambiente.cs",
+      "export_path": "NFSeX\\Ambiente.cs",
+      "raw_sha256": "98e641d7429df1e74948bf562e2a0b75b8a092e980c86d780d8bce896c03661a"
+    },
+    {
+      "path": "NFSeX\\IspdConverterX.cs",
+      "export_path": "NFSeX\\IspdConverterX.cs",
+      "raw_sha256": "01d5857eba03ef1ffb4d1bc5d16732cdf6043350331fa7a86f2d19c7406f0965"
+    },
+    {
+      "path": "NFSeX\\IspdListRet.cs",
+      "export_path": "NFSeX\\IspdListRet.cs",
+      "raw_sha256": "5808d2eb8002526e407c6cc36dd7d2d04f6f783ef8decabb3b5502ca24964b5b"
+    },
+    {
+      "path": "NFSeX\\IspdNFSe.cs",
+      "export_path": "NFSeX\\IspdNFSe.cs",
+      "raw_sha256": "ae427ac976ed95ef405e57ed07f883d07c50002dab449c29cf86a7390c5af4ac"
+    },
+    {
+      "path": "NFSeX\\spdNFSeRet.cs",
+      "export_path": "NFSeX\\spdNFSeRet.cs",
+      "raw_sha256": "8292ed813aec06407c3028f0356ce53fc66c021c47e3ddf3500b28b9be578f9a"
+    },
+    {
+      "path": "NFSeX\\spdNFSeRetConverterX.cs",
+      "export_path": "NFSeX\\spdNFSeRetConverterX.cs",
+      "raw_sha256": "ac76f96cd1e9234a2b10d34a6a0d061a1e7faf04a3ab66368023adc292346ad6"
+    },
+    {
+      "path": "NFSeX\\spdNFSeX.cs",
+      "export_path": "NFSeX\\spdNFSeX.cs",
+      "raw_sha256": "7ff43889e924e946156a7901013f2460b830358578ead0ea51abb2914a9bf1c4"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f19033f516df407bc418b7f880b3c41eae0d08b5f55127a840f15c9650f232af"
+    },
+    {
+      "path": "Resources\\Messages.cs",
+      "export_path": "Resources\\Messages.cs",
+      "raw_sha256": "54caf2bdb6062c34ba5e6680155ea421bba158a2b6a2ee05bfb31af9a7552fd9"
+    },
+    {
+      "path": "ShopeesModulo\\ShopeeAppService.cs",
+      "export_path": "ShopeesModulo\\ShopeeAppService.cs",
+      "raw_sha256": "9ead46755c7e46cd2963a347952ed6c2052b8e7e08ce8831bb3e8fa0dcf72451"
+    },
+    {
+      "path": "__PrivateImplementationDetails.cs",
+      "export_path": "__PrivateImplementationDetails.cs",
+      "raw_sha256": "bb23b9b67103a92a5a071df9062dba40c1959eb1eed3dc1d58250f88fdd090da",
+      "generated": true
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 4522
+    },
+    {
+      "kind": "synthesized ComputeStringHash helper",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Application.Main.Resources.Messages.resources",
+      "file": "0000.bin",
+      "bytes": 1005,
+      "sha256": "239281b6b3777d92fb6728b93669e07e600f12743f07bdf7c272c0a608645864"
+    },
+    {
+      "name": "DigisatServer.Application.Main.dll.licenses",
+      "file": "0001.bin",
+      "bytes": 294,
+      "sha256": "78e538b82e1616307b05359a223ad60e51738989a6903d5753ba689ec93edfe5"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,10 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.PixPinPad, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "BouncyCastle.Crypto"
+  ]
+}

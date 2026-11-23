@@ -1,0 +1,27 @@
+{
+  "artifactSha256": "b5bb322c2faed57bc7918ac4efefcda0aad9ffc8bd55f187ecbf1c84f9e2d7bf",
+  "mvid": "b8fe3973-8f3c-4756-acdf-3bac20a294c4",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Style, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DevExpress.Xpf.Core.v15.2",
+    "PresentationCore",
+    "PresentationFramework",
+    "DevExpress.Xpf.Grid.v15.2",
+    "System",
+    "DevExpress.Xpf.Grid.v15.2.Core",
+    "WindowsBase",
+    "System.Windows.Interactivity",
+    "DevExpress.Data.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Style.g.resources",
+      "file": "0000.bin",
+      "bytes": 582368,
+      "sha256": "f5ab2f634f37c7d0576ba4d328693e807f73e4b9de407c1de98ccce7bf16a408"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "name": "Modulo.Cotacoes",
+  "baseline": "baseline\\Modulo.Cotacoes.dll",
+  "baseline_sha256": "07fa07b4595cb79115e1d9e87b724cf803e6d85da54a9acc4c4dedaf6ba24ab6",
+  "export_project": "recovered\\SuiteG6\\Modulo.Cotacoes\\Modulo.Cotacoes.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "419a008bc6e3930e4db8118726710ad6686ae9d6862855f1a8b094a199108096"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "07fa07b4595cb79115e1d9e87b724cf803e6d85da54a9acc4c4dedaf6ba24ab6"
+    },
+    {
+      "kind": "Restore three missing stock view-model Dto getter/cast expressions from original IL",
+      "evidence": "type-evidence/Modulo.Cotacoes/Modulo.Cotacoes.il",
+      "occurrences": 3
+    },
+    {
+      "kind": "Qualify report base, alignment and UI helper; restore report Dispose base call",
+      "aliases": {
+        "Relatorio": "DigisatServer.Infrastructure.Crosscutting.Report.Models.Relatorio",
+        "TextAlignment": "DevExpress.XtraPrinting.TextAlignment",
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException"
+      }
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 175
+    },
+    {
+      "kind": "Cast numeric TextAlignment default explicitly while preserving value 16"
+    },
+    {
+      "kind": "Express PointFloat conversion as cast, retain derived qualifiers for protected access, and dispatch abstract CriarItem delegate through this; qualify session Pessoa",
+      "point_conversions": 2
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Cotacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 52268,
+      "sha256": "6ea3d9177f0ee734816ee136788de74861f08e32a78cbeb2a9f02926105b24e0"
+    },
+    {
+      "name": "Otus.Modulo.Cotacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "CotacaoModulo.cs",
+      "export_path": "CotacaoModulo.cs",
+      "raw_sha256": "3c79b899ed3c270d41851b2bd735b5f838d30747da56d613db58aca0c115c4ab"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c06bea00bedab6d4244f57e7a3725cad143c116f431ced3ca45ba9975f52af7e"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "51e7f590ae136af51f2bfcfddf0af9f78d0dbd2a64bca37cb58e533ee5df7de2"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "f39ab178695c484fbb55aaf45841d75c2f132ecd91dd5345d087814945eae59d"
+    },
+    {
+      "path": "Reports\\ImpressoCotacaoBase.cs",
+      "export_path": "Reports\\ImpressoCotacaoBase.cs",
+      "raw_sha256": "1e904fafdd53c6186a35f59ed47eb6c45cdab47f222519404b9ca6403812de2e"
+    },
+    {
+      "path": "Reports\\ImpressoCotacaoPorFornecedor.cs",
+      "export_path": "Reports\\ImpressoCotacaoPorFornecedor.cs",
+      "raw_sha256": "d5e26ff9f37facd1dae887a4afefdf08fbbd381f4f4745866d73a38d74155cb5"
+    },
+    {
+      "path": "Reports\\ImpressoMapaComparativoCotacao.cs",
+      "export_path": "Reports\\ImpressoMapaComparativoCotacao.cs",
+      "raw_sha256": "5d8dc48a4473ae1e5994c1ce54f1bdd7877bc5fb4f665bfbfc1a153d5be74a8d"
+    },
+    {
+      "path": "Services\\ArquivoRespostaCotacao.cs",
+      "export_path": "Services\\ArquivoRespostaCotacao.cs",
+      "raw_sha256": "610311bcfe9b7c057f25d407708ffb55e6ba16299378f5961d2126f4c47abb87"
+    },
+    {
+      "path": "Services\\GeradorFormularioCotacaoHtml.cs",
+      "export_path": "Services\\GeradorFormularioCotacaoHtml.cs",
+      "raw_sha256": "86eb782a22be8c76fc21888f8a257c85bdbded1632d5892252ef84a1d285d12d"
+    },
+    {
+      "path": "Services\\GeradorPedidoCompraCotacao.cs",
+      "export_path": "Services\\GeradorPedidoCompraCotacao.cs",
+      "raw_sha256": "7a5b5b6c8ac0d43b079de3ed3bd8b4174105a8d13a991a1d8c63930cf61fcaab"
+    },
+    {
+      "path": "Services\\PropostaRespostaCotacao.cs",
+      "export_path": "Services\\PropostaRespostaCotacao.cs",
+      "raw_sha256": "eb8289de4b90a8dd0411445af07315b91f11928242258a167cce5c93c542cd19"
+    },
+    {
+      "path": "Services\\RespostaCotacaoCodec.cs",
+      "export_path": "Services\\RespostaCotacaoCodec.cs",
+      "raw_sha256": "777e9b594915819326ca49d7176e635931d6e7d0c6f2113f46e1ad9f178bf330"
+    },
+    {
+      "path": "Services\\RespostaImportada.cs",
+      "export_path": "Services\\RespostaImportada.cs",
+      "raw_sha256": "f5bc2ae2c48cf295add6264ab07a3f738d0bd145c91347954943d05e5ffd6cc6"
+    },
+    {
+      "path": "ViewModels\\Abas\\CotacaoApuracaoAbaViewModel.cs",
+      "export_path": "ViewModels\\Abas\\CotacaoApuracaoAbaViewModel.cs",
+      "raw_sha256": "dea0c5da7ed4a8a0dc197d8a76a60595c6280811fae7f0488fe2fcd487a92a33"
+    },
+    {
+      "path": "ViewModels\\Abas\\CotacaoFornecedoresAbaViewModel.cs",
+      "export_path": "ViewModels\\Abas\\CotacaoFornecedoresAbaViewModel.cs",
+      "raw_sha256": "dc9e62adfd69b4ad5ff60d19c7a6fb72cc6162927fdd9b0e4b938d27c29509be"
+    },
+    {
+      "path": "ViewModels\\Abas\\CotacaoItensAbaViewModel.cs",
+      "export_path": "ViewModels\\Abas\\CotacaoItensAbaViewModel.cs",
+      "raw_sha256": "7f69b54ce0b01ea36465b473a355249369bddacfc894bb2e6e83698e59a6f7cc"
+    },
+    {
+      "path": "ViewModels\\Abas\\CotacaoPrincipalAbaViewModel.cs",
+      "export_path": "ViewModels\\Abas\\CotacaoPrincipalAbaViewModel.cs",
+      "raw_sha256": "ec906fbc394201491d97397bc81b71ae8c6d383550ac263e1dc9ce120905b2a3"
+    },
+    {
+      "path": "ViewModels\\Abas\\CotacaoPropostasAbaViewModel.cs",
+      "export_path": "ViewModels\\Abas\\CotacaoPropostasAbaViewModel.cs",
+      "raw_sha256": "ce5b50e0c03fc89a5fe30263b84bf4fef0a2158dfc37dfaf81b6e0d1264947d5"
+    },
+    {
+      "path": "ViewModels\\Apuracao\\ApuracaoItemViewModel.cs",
+      "export_path": "ViewModels\\Apuracao\\ApuracaoItemViewModel.cs",
+      "raw_sha256": "35df3dc2aa1530f62bd8001cf4e6e46f9885d6080f110119852f6e01b87f1e87"
+    },
+    {
+      "path": "ViewModels\\Apuracao\\ConcorrenteApuracaoViewModel.cs",
+      "export_path": "ViewModels\\Apuracao\\ConcorrenteApuracaoViewModel.cs",
+      "raw_sha256": "4a1b052a2bf2dedb172ffdff9b17e3c6bfc3405a19b2d27a83e1632022b8ecc8"
+    },
+    {
+      "path": "ViewModels\\Apuracao\\PainelApuracaoViewModel.cs",
+      "export_path": "ViewModels\\Apuracao\\PainelApuracaoViewModel.cs",
+      "raw_sha256": "42a2768b1935917960e65b045daf11768685e5c207348b8ee677b9535fb7aaa5"
+    },
+    {
+      "path": "ViewModels\\CotacaoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\CotacaoFichaAdicionarViewModel.cs",
+      "raw_sha256": "18e5c25d45238632ab1811b6c1b4eda79c46b87cf5335475660babacdf995a3f"
+    },
+    {
+      "path": "ViewModels\\CotacaoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\CotacaoFichaAtualizarViewModel.cs",
+      "raw_sha256": "d6b4eb9152894981c8e8a37317ddb4d247202d8d57489bf0000d400c8a488629"
+    },
+    {
+      "path": "ViewModels\\CotacaoFormulario.cs",
+      "export_path": "ViewModels\\CotacaoFormulario.cs",
+      "raw_sha256": "ec1d5e9ff768c1953b38381a7baac7370e9205dc166101643972e792eda5dd90"
+    },
+    {
+      "path": "ViewModels\\CotacaoListaViewModel.cs",
+      "export_path": "ViewModels\\CotacaoListaViewModel.cs",
+      "raw_sha256": "40d1af82f01d7d0e97637bccb71ddd03a59d1ea4a722417f72814fc8fd2f7de7"
+    },
+    {
+      "path": "ViewModels\\CotacaoViewModel.cs",
+      "export_path": "ViewModels\\CotacaoViewModel.cs",
+      "raw_sha256": "893601aa0dcf4dce357777f4c2b6f9129d493153b491fc530b90164e195545b3"
+    },
+    {
+      "path": "ViewModels\\CotacoesViewModel.cs",
+      "export_path": "ViewModels\\CotacoesViewModel.cs",
+      "raw_sha256": "9100436a2fee072b491b15b545a6536ab032ff6996ee48aba6cbc30a364a7192"
+    },
+    {
+      "path": "ViewModels\\Itens\\ItemCotacaoViewModel.cs",
+      "export_path": "ViewModels\\Itens\\ItemCotacaoViewModel.cs",
+      "raw_sha256": "695131a042e1e097f21b9a43683b8770556c83e857afc1f85994a61ead44541a"
+    },
+    {
+      "path": "ViewModels\\Itens\\ListaItemCotacaoNaFichaViewModel.cs",
+      "export_path": "ViewModels\\Itens\\ListaItemCotacaoNaFichaViewModel.cs",
+      "raw_sha256": "964aeaead118d56aa48f40a87962f273ac3c5b1bf3013804e60fbfcb5aede0f2"
+    },
+    {
+      "path": "ViewModels\\Itens\\ListaItemCotacaoViewModel.cs",
+      "export_path": "ViewModels\\Itens\\ListaItemCotacaoViewModel.cs",
+      "raw_sha256": "f90e35cc503cf2748cc4510e46d62f19ad30780efd36cd1363d632c2f9124de1"
+    },
+    {
+      "path": "ViewModels\\Itens\\NavegacaoGradeItem.cs",
+      "export_path": "ViewModels\\Itens\\NavegacaoGradeItem.cs",
+      "raw_sha256": "c92ba4fb16181774e249218b57ec8e756d652c7c5e465ae47c91ffd4611d6beb"
+    },
+    {
+      "path": "ViewModels\\Participantes\\ListaParticipanteCotacaoViewModel.cs",
+      "export_path": "ViewModels\\Participantes\\ListaParticipanteCotacaoViewModel.cs",
+      "raw_sha256": "d41251997b74c878d1e3f1cc4da89ebb33b6c053ead50879fc9ecda52a510464"
+    },
+    {
+      "path": "ViewModels\\Participantes\\ParticipanteCotacaoViewModel.cs",
+      "export_path": "ViewModels\\Participantes\\ParticipanteCotacaoViewModel.cs",
+      "raw_sha256": "fda9f0b0693693b43700a86be0a2ea8421629c1be78dac88a96cf6257b0a44d1"
+    },
+    {
+      "path": "ViewModels\\Propostas\\LancamentoPropostaViewModel.cs",
+      "export_path": "ViewModels\\Propostas\\LancamentoPropostaViewModel.cs",
+      "raw_sha256": "6e8189b0dfbde535ae3c5417504909a6584d972b4fd253f582cedc563510b375"
+    },
+    {
+      "path": "ViewModels\\Propostas\\PropostaItemViewModel.cs",
+      "export_path": "ViewModels\\Propostas\\PropostaItemViewModel.cs",
+      "raw_sha256": "6c754f8bc2aba428df9c0488ae299b3d2c12e915a08a73ed26a8d2216f3fc0f9"
+    },
+    {
+      "path": "Views\\CotacaoFichaAdicionarView.cs",
+      "export_path": "Views\\CotacaoFichaAdicionarView.cs",
+      "raw_sha256": "e4964d27abb92ad864cb69374120e82fff8388dce59377d0be82b2b7200ac1a6"
+    },
+    {
+      "path": "Views\\CotacaoFichaAtualizarView.cs",
+      "export_path": "Views\\CotacaoFichaAtualizarView.cs",
+      "raw_sha256": "dfe159ec014454b0c02002fea30baf89f5f4b977dedecce26249a312bb0c49d1"
+    },
+    {
+      "path": "Views\\CotacaoFichaViewDetalhes\\CotacaoApuracaoView.cs",
+      "export_path": "Views\\CotacaoFichaViewDetalhes\\CotacaoApuracaoView.cs",
+      "raw_sha256": "93633f124e75f804019c5a3c66281e6fc4b72ceddc42f0f55303671ecfd66406"
+    },
+    {
+      "path": "Views\\CotacaoFichaViewDetalhes\\CotacaoFornecedoresView.cs",
+      "export_path": "Views\\CotacaoFichaViewDetalhes\\CotacaoFornecedoresView.cs",
+      "raw_sha256": "e739f7ea768694b24842ccccbb52cd0813a4f02299e11700bb64985087028bee"
+    },
+    {
+      "path": "Views\\CotacaoFichaViewDetalhes\\CotacaoItensView.cs",
+      "export_path": "Views\\CotacaoFichaViewDetalhes\\CotacaoItensView.cs",
+      "raw_sha256": "50ce1a0d5ad75c4728093a60cf696d32fa3224c62c57a2887a7b94569dc23504"
+    },
+    {
+      "path": "Views\\CotacaoFichaViewDetalhes\\CotacaoPropostasView.cs",
+      "export_path": "Views\\CotacaoFichaViewDetalhes\\CotacaoPropostasView.cs",
+      "raw_sha256": "09700c63016ebcbb681b0dc22c7d08ad73f10dfd349736436de49a603e645abf"
+    },
+    {
+      "path": "Views\\CotacaoFichaViewDetalhes\\CotacaoView.cs",
+      "export_path": "Views\\CotacaoFichaViewDetalhes\\CotacaoView.cs",
+      "raw_sha256": "ae9352d6744260aafd050cbe6195ab2a6daa5f097ca5921d27460068dd017fcd"
+    },
+    {
+      "path": "Views\\CotacaoListaView.cs",
+      "export_path": "Views\\CotacaoListaView.cs",
+      "raw_sha256": "6b07cbe474d74bbdbfa1d805bd13335a8d7c6c6d0e000d48f6032e021c87a0e0"
+    },
+    {
+      "path": "Views\\CotacoesView.cs",
+      "export_path": "Views\\CotacoesView.cs",
+      "raw_sha256": "6fb12e97e0a82e75cdac462161c6904ecb7364cb68b93f72ad6285bf9f0bfeff"
+    }
+  ]
+}

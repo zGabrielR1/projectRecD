@@ -1,0 +1,11 @@
+{
+  "assembly": "DigisatServer.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "MongoDB.Bson",
+    "mscorlib",
+    "DigisatServer.Infrastructure.Data.Core",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core"
+  ]
+}

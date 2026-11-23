@@ -1,0 +1,200 @@
+{
+  "name": "Modulo.PromocoesScanntech",
+  "baseline": "baseline\\Modulo.PromocoesScanntech.dll",
+  "baseline_sha256": "3e3ccd48e9c502438df8cb18b3d97702b9ee27c87da663262cf9800496b4db65",
+  "export_project": "recovered\\SuiteG6\\Modulo.PromocoesScanntech\\Modulo.PromocoesScanntech.csproj",
+  "sources": [
+    {
+      "path": "PromocaoScanntechModulo.cs",
+      "export_path": "PromocaoScanntechModulo.cs",
+      "raw_sha256": "72e7264ebb287b3a0d5c6846e04132136b45047c0b13561fc1c7dd7f2a64f13d"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "637d95d644590766bce31eefae141395ca3de2525c819118027d8ff7b6da17d9"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "97c01b36000e58bb9891621bb21b8b28423ffafa8566260e52afa9b692600bd6"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "3b27ecdcde785821270c2f3804b46dfba35148bb36c601c44267a6bf5218cbea"
+    },
+    {
+      "path": "ViewModels\\DescontoPercentualScanntechViewModel.cs",
+      "export_path": "ViewModels\\DescontoPercentualScanntechViewModel.cs",
+      "raw_sha256": "7dcaae3473e2087e889e472a6391a710e283e2748febbd0e363c67abf8c9f348"
+    },
+    {
+      "path": "ViewModels\\DescontoPercentualViewModel.cs",
+      "export_path": "ViewModels\\DescontoPercentualViewModel.cs",
+      "raw_sha256": "fb94933a109139301bc064b805bc32126530ef3afcba034b4c955719d398b770"
+    },
+    {
+      "path": "ViewModels\\DescontoValorScanntechViewModel.cs",
+      "export_path": "ViewModels\\DescontoValorScanntechViewModel.cs",
+      "raw_sha256": "7bacfbbfa6fa0b8ed02709cdfa735996c821087fa7e054d1b7ad09406b6e752e"
+    },
+    {
+      "path": "ViewModels\\DescontoValorViewModel.cs",
+      "export_path": "ViewModels\\DescontoValorViewModel.cs",
+      "raw_sha256": "daf1c29c596b695e43d6e3b6c90c52cae06619f9847b6d8d9d3079b6e350216d"
+    },
+    {
+      "path": "ViewModels\\ItemBeneficioViewModel.cs",
+      "export_path": "ViewModels\\ItemBeneficioViewModel.cs",
+      "raw_sha256": "e0dee3f7b6b2bc32cb7d65b13a33f34405320a88bf6d753208315b65ba956ed2"
+    },
+    {
+      "path": "ViewModels\\ItemPromocaoViewModel.cs",
+      "export_path": "ViewModels\\ItemPromocaoViewModel.cs",
+      "raw_sha256": "7045d004a2ead18a02470fb376cbff2f90e0daac4a29d3fcc548bd76c629d7aa"
+    },
+    {
+      "path": "ViewModels\\LevaXPagaYScanntechViewModel.cs",
+      "export_path": "ViewModels\\LevaXPagaYScanntechViewModel.cs",
+      "raw_sha256": "04f4ba6fb31ae1c8c0cd421dbba7e616994909da31dcc571726fda37033b35db"
+    },
+    {
+      "path": "ViewModels\\LevaXPagaYViewModel.cs",
+      "export_path": "ViewModels\\LevaXPagaYViewModel.cs",
+      "raw_sha256": "d47297e6cec68b698fa99cd25dd3f4ac2919bb11e574b89502ac71947be10d6e"
+    },
+    {
+      "path": "ViewModels\\OutroProdutoComDescontoScanntechViewModel.cs",
+      "export_path": "ViewModels\\OutroProdutoComDescontoScanntechViewModel.cs",
+      "raw_sha256": "c8715b2fb653f46b3cbd9650bf4e508db62184f91a28ebde741443688d1ec004"
+    },
+    {
+      "path": "ViewModels\\OutroProdutoComDescontoViewModel.cs",
+      "export_path": "ViewModels\\OutroProdutoComDescontoViewModel.cs",
+      "raw_sha256": "0959e9ad62aff741b1da04bb55536d029917a7bbf3496aeebfed2af417344c5a"
+    },
+    {
+      "path": "ViewModels\\OutroProdutoDeBrindeScanntechViewModel.cs",
+      "export_path": "ViewModels\\OutroProdutoDeBrindeScanntechViewModel.cs",
+      "raw_sha256": "b8aed2f317d579c7519665097625908b045951da14b381b1d740a180dbe0c2c6"
+    },
+    {
+      "path": "ViewModels\\OutroProdutoDeBrindeViewModel.cs",
+      "export_path": "ViewModels\\OutroProdutoDeBrindeViewModel.cs",
+      "raw_sha256": "63764c0ff424b1b97dc2eb5d84bd7551af0328e505b68309025d9e2a5e9962ec"
+    },
+    {
+      "path": "ViewModels\\PrecoFixoScanntechViewModel.cs",
+      "export_path": "ViewModels\\PrecoFixoScanntechViewModel.cs",
+      "raw_sha256": "03e090746f34dc89a20afea163b10880561c306b88d8c8ef23eff73a9c0f7e72"
+    },
+    {
+      "path": "ViewModels\\PrecoFixoViewModel.cs",
+      "export_path": "ViewModels\\PrecoFixoViewModel.cs",
+      "raw_sha256": "9a74477ef8cefcd85af62a2a300ba876856637f301bc96d91f7669fb8d1a18b7"
+    },
+    {
+      "path": "ViewModels\\ProdutoViewModel.cs",
+      "export_path": "ViewModels\\ProdutoViewModel.cs",
+      "raw_sha256": "335011ce5b338ff89e9607d7edf736b56b8c981b5052757e43c9e75093f3c0e2"
+    },
+    {
+      "path": "ViewModels\\PromocaoDetalheScanntechAbaViewModel.cs",
+      "export_path": "ViewModels\\PromocaoDetalheScanntechAbaViewModel.cs",
+      "raw_sha256": "6558b5715be15218ac1c8dc5ff9d89829951ee324b81a8f98fc29f52ae6a16e7"
+    },
+    {
+      "path": "ViewModels\\PromocaoDetalheScanntechViewModel.cs",
+      "export_path": "ViewModels\\PromocaoDetalheScanntechViewModel.cs",
+      "raw_sha256": "7daf59d22f5233999d9e6b20bb09677779911129c665ebc8f6d5b77f07fed4cd"
+    },
+    {
+      "path": "ViewModels\\PromocaoScanntechAbaViewModel.cs",
+      "export_path": "ViewModels\\PromocaoScanntechAbaViewModel.cs",
+      "raw_sha256": "18c4bfa075661f6a2489396dfb0040746f75e0514ad33a41eb5b059ce82fe0d0"
+    },
+    {
+      "path": "ViewModels\\PromocaoScanntechFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\PromocaoScanntechFichaAdicionarViewModel.cs",
+      "raw_sha256": "32206e567bc8c68c6b7a389de11e496d7774252aea24d7f8b8250607c66b527c"
+    },
+    {
+      "path": "ViewModels\\PromocaoScanntechFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\PromocaoScanntechFichaAtualizarViewModel.cs",
+      "raw_sha256": "0b43287a062a800bdcd61709e81d7d0fbfb91a9fbc38806f6a88049fdfa90695"
+    },
+    {
+      "path": "ViewModels\\PromocaoScanntechFormulario.cs",
+      "export_path": "ViewModels\\PromocaoScanntechFormulario.cs",
+      "raw_sha256": "29de91b395ff8706e499b3959175f46d417ef86475819de8aa6bd404dfbc06f9"
+    },
+    {
+      "path": "ViewModels\\PromocaoScanntechListaViewModel.cs",
+      "export_path": "ViewModels\\PromocaoScanntechListaViewModel.cs",
+      "raw_sha256": "69b17cacab4cbd1660a9a114b99b2b6acb282cd02738c533ef8e4b3932618a16"
+    },
+    {
+      "path": "ViewModels\\PromocaoScanntechViewModel.cs",
+      "export_path": "ViewModels\\PromocaoScanntechViewModel.cs",
+      "raw_sha256": "febba1315f8a1b8b09b9eab4d4e3b5443a03dd7c08634ce68fa2ae9033f53407"
+    },
+    {
+      "path": "ViewModels\\PromocoesScanntechViewModel.cs",
+      "export_path": "ViewModels\\PromocoesScanntechViewModel.cs",
+      "raw_sha256": "710d38934c42c5b233d0b38ab571d1f8bf32e8ce0ed0152554ac1c5e471f2f98"
+    },
+    {
+      "path": "ViewModels\\TipoPromocaoScanntechViewModel.cs",
+      "export_path": "ViewModels\\TipoPromocaoScanntechViewModel.cs",
+      "raw_sha256": "4a6515c00c7664c6cdf6edf2fecd82d46f768c762b26480f40c3931a0f79c1e7"
+    },
+    {
+      "path": "Views\\PromocaoScanntechFichaAdicionarView.cs",
+      "export_path": "Views\\PromocaoScanntechFichaAdicionarView.cs",
+      "raw_sha256": "33c365831648ad7c6aa615acde392b5debfb20e9df08624866b2e0254c2f68c5"
+    },
+    {
+      "path": "Views\\PromocaoScanntechFichaAtualizarView.cs",
+      "export_path": "Views\\PromocaoScanntechFichaAtualizarView.cs",
+      "raw_sha256": "d87defd091fa839876a931427054f929423e9364ce196177847d0f8bc06becf7"
+    },
+    {
+      "path": "Views\\PromocaoScanntechFichaViewDetalhes\\PromocaoDetalheScanntechView.cs",
+      "export_path": "Views\\PromocaoScanntechFichaViewDetalhes\\PromocaoDetalheScanntechView.cs",
+      "raw_sha256": "a43efd645b50a7f7adde54ee990fa0eb8cd7b037b74af49d3c0a1b9d094dd92b"
+    },
+    {
+      "path": "Views\\PromocaoScanntechFichaViewDetalhes\\PromocaoScanntechView.cs",
+      "export_path": "Views\\PromocaoScanntechFichaViewDetalhes\\PromocaoScanntechView.cs",
+      "raw_sha256": "1f5b7b206019c27f6369033de311f5df0a9b19502e1d0992dbfa641b985bee19"
+    },
+    {
+      "path": "Views\\PromocaoScanntechListaView.cs",
+      "export_path": "Views\\PromocaoScanntechListaView.cs",
+      "raw_sha256": "ec7d456be77e4b4c426a7145d88729c7876235ee6887bf49ee06e5c93f38b21f"
+    },
+    {
+      "path": "Views\\PromocoesScanntechView.cs",
+      "export_path": "Views\\PromocoesScanntechView.cs",
+      "raw_sha256": "61e424d9a8ee9507df782290c40de6f6929a227cf1a0fcf3799591476209f734"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.PromocoesScanntech.g.resources",
+      "file": "0000.bin",
+      "bytes": 35880,
+      "sha256": "f3d4ebb3f8821f64f4a28e76f5a4c93346096d03ad81ce453180acf331971b83"
+    },
+    {
+      "name": "Otus.Modulo.PromocoesScanntech.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

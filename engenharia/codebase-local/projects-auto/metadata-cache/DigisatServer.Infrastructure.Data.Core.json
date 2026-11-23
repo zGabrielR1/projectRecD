@@ -1,0 +1,18 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Data.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "MongoDB.Driver",
+    "MongoDB.Bson",
+    "Akka",
+    "MongoDB.Driver.Core",
+    "System.Reactive.Linq",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "System",
+    "System.ServiceProcess",
+    "System.Reactive.Core",
+    "System.Configuration",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework"
+  ]
+}

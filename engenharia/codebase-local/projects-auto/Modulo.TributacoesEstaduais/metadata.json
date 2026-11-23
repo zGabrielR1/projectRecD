@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "d23f185fe57c082d9df1ab449969f7cbf010671f84c0e5b136b1d78579bc0cc5",
+  "mvid": "cdb6ab7d-a756-463c-b251-30b0f4ec0cbd",
+  "assembly": "Modulo.TributacoesEstaduais, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "PresentationCore",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Reactive.Core",
+    "NClone"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.TributacoesEstaduais.g.resources",
+      "file": "0000.bin",
+      "bytes": 70439,
+      "sha256": "c3a120081784df2e0a9adeb2f964fe2901a16f0cabc08a18d861a843337ebbc7"
+    },
+    {
+      "name": "Otus.Modulo.TributacoesEstaduais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

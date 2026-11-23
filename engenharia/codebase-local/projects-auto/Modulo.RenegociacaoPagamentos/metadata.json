@@ -1,0 +1,41 @@
+{
+  "artifactSha256": "29c65363ef28228fb243d2349e850b8facbcecd2917f258a01758c8599f8fbb3",
+  "mvid": "540493b0-8de8-4d3a-aec6-c101afdbbcdf",
+  "assembly": "Modulo.RenegociacaoPagamentos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Application.Main.Dto",
+    "DevExpress.Mvvm.v15.2",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Xpf.Grid.v15.2",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.RenegociacaoPagamentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 21031,
+      "sha256": "7345c4c7610455a60505f879fb61567a911dd85b95e0f6a623c8a78743b3ef9f"
+    },
+    {
+      "name": "Otus.Modulo.RenegociacaoPagamentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

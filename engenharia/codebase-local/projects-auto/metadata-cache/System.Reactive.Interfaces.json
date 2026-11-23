@@ -1,0 +1,7 @@
+{
+  "assembly": "System.Reactive.Interfaces, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263",
+  "references": [
+    "mscorlib",
+    "System.Core"
+  ]
+}

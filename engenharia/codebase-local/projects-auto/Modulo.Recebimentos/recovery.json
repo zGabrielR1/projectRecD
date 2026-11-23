@@ -1,0 +1,172 @@
+{
+  "name": "Modulo.Recebimentos",
+  "baseline": "baseline\\Modulo.Recebimentos.dll",
+  "baseline_sha256": "11006f8242ba8a1d60b9f741adee845b806249b691888fe6280354d71be48337",
+  "export_project": "recovered\\SuiteG6\\Modulo.Recebimentos\\Modulo.Recebimentos.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "492450f9e0a61f7afec5eab0b7809eacb54ce42605f1f0b48a0114b00a1c3121"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "caadaf4c311175bf7ef506d3e4550f28dc88769386c82c2388b63a7930bce05d"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8568074dcd45fc07ad63ca71292d6610d0eca14ca819162848936fdc103c7bca"
+    },
+    {
+      "path": "RecebimentoModulo.cs",
+      "export_path": "RecebimentoModulo.cs",
+      "raw_sha256": "f81a3d8e0e4c0c8a2adb291a0291a3aee3c442325e3d607112006845fdd32cb0"
+    },
+    {
+      "path": "ViewModels\\RecebimentoAbaViewModel.cs",
+      "export_path": "ViewModels\\RecebimentoAbaViewModel.cs",
+      "raw_sha256": "ba412341d2f89db9392c90f3d4e6fcdd5345e42f4da26e22e1332aaf3b72fa85"
+    },
+    {
+      "path": "ViewModels\\RecebimentoAnexosAbaViewModel.cs",
+      "export_path": "ViewModels\\RecebimentoAnexosAbaViewModel.cs",
+      "raw_sha256": "3ef918e979a256fa0a214b33745b2cf46cca1af6af0854cc1d6f234c366eb7b7"
+    },
+    {
+      "path": "ViewModels\\RecebimentoAnexosFichaViewModel.cs",
+      "export_path": "ViewModels\\RecebimentoAnexosFichaViewModel.cs",
+      "raw_sha256": "b25e51a015ebf7d6296b0b6c712501a575357ad2192870ddc7f72624a9096cc8"
+    },
+    {
+      "path": "ViewModels\\RecebimentoAnexosFormulario.cs",
+      "export_path": "ViewModels\\RecebimentoAnexosFormulario.cs",
+      "raw_sha256": "32a7f57e54168f0fc614c1ccdc249e15204f28f5badb2c4b4d7522fc78866cb8"
+    },
+    {
+      "path": "ViewModels\\RecebimentoAnexosViewModel.cs",
+      "export_path": "ViewModels\\RecebimentoAnexosViewModel.cs",
+      "raw_sha256": "73290f633df812cb69cb39fc9f1a8c283a1e6fb800a0d04b9df443ebeff77340"
+    },
+    {
+      "path": "ViewModels\\RecebimentoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\RecebimentoFichaAdicionarViewModel.cs",
+      "raw_sha256": "4df8748a86b441fee05a9be7ae177cdcfa9882afcf0705b7ce7866ef38834c6e"
+    },
+    {
+      "path": "ViewModels\\RecebimentoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\RecebimentoFichaAtualizarViewModel.cs",
+      "raw_sha256": "01772f497cd69a6c81cd56322d6e5e1dced6148b29eff98119a5801afc797ee2"
+    },
+    {
+      "path": "ViewModels\\RecebimentoFormulario.cs",
+      "export_path": "ViewModels\\RecebimentoFormulario.cs",
+      "raw_sha256": "64b634acc51152aca4ba66ff534a9b0dd812798caf83fe2114d1d804a88dc643"
+    },
+    {
+      "path": "ViewModels\\RecebimentoListaViewModel.cs",
+      "export_path": "ViewModels\\RecebimentoListaViewModel.cs",
+      "raw_sha256": "90dcc648d7c31adb1483a7c7a4f339473a1fa77a3141d234be9c330bcef940dd"
+    },
+    {
+      "path": "ViewModels\\RecebimentosViewModel.cs",
+      "export_path": "ViewModels\\RecebimentosViewModel.cs",
+      "raw_sha256": "d37b8f0dcb6bef219494a20ef49251c3be291938408b830286e6293806d50094"
+    },
+    {
+      "path": "ViewModels\\RecebimentoViewModel.cs",
+      "export_path": "ViewModels\\RecebimentoViewModel.cs",
+      "raw_sha256": "4f6f0831593d535cfe5ca75d7182899006d75d12f075d53cb29b01712b5c5e75"
+    },
+    {
+      "path": "Views\\RecebimentoAnexosFichaView.cs",
+      "export_path": "Views\\RecebimentoAnexosFichaView.cs",
+      "raw_sha256": "26967e22009d2c44aa1d7afad257f455f6d7be108899d150779c33de1b6ef0d7"
+    },
+    {
+      "path": "Views\\RecebimentoFichaAdicionarView.cs",
+      "export_path": "Views\\RecebimentoFichaAdicionarView.cs",
+      "raw_sha256": "8a794e3558def87fbdd4bd87abf17a7a68892c2d7dd4c33f8e45c4eea4ffb682"
+    },
+    {
+      "path": "Views\\RecebimentoFichaAtualizarView.cs",
+      "export_path": "Views\\RecebimentoFichaAtualizarView.cs",
+      "raw_sha256": "481e5f06c158f67c87a2530b5f4853529e038628a395b87a8ec3b7da6a37c138"
+    },
+    {
+      "path": "Views\\RecebimentoFichaViewDetalhes\\RecebimentoAnexosView.cs",
+      "export_path": "Views\\RecebimentoFichaViewDetalhes\\RecebimentoAnexosView.cs",
+      "raw_sha256": "a65cee1103018c1db24ec64c19c4fccb55071ffc5b3112068575cc2da33aebfa"
+    },
+    {
+      "path": "Views\\RecebimentoFichaViewDetalhes\\RecebimentoView.cs",
+      "export_path": "Views\\RecebimentoFichaViewDetalhes\\RecebimentoView.cs",
+      "raw_sha256": "91b05fc954842feba18a4dee9c8c94823e95bafe865a69fca95ad0dfcbb77cdf"
+    },
+    {
+      "path": "Views\\RecebimentoListaView.cs",
+      "export_path": "Views\\RecebimentoListaView.cs",
+      "raw_sha256": "6d6baad104aa0353f46028ab1166102c0b3c75b394ec19674fbd94c65293879b"
+    },
+    {
+      "path": "Views\\RecebimentosView.cs",
+      "export_path": "Views\\RecebimentosView.cs",
+      "raw_sha256": "848dde4fab8ce0fa9e52ed3e0b6bb903b31cad497d0f24adfe3f30ce5be7d32e"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 72
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 20,
+      "types": [
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass23_0",
+        "__c_DisplayClass23_1",
+        "__c_DisplayClass23_2",
+        "__c_DisplayClass23_3",
+        "__c_DisplayClass24_0",
+        "__c_DisplayClass24_1",
+        "__c_DisplayClass24_2",
+        "__c_DisplayClass24_3",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass17_0",
+        "__c_DisplayClass18_0",
+        "__c_DisplayClass23_0",
+        "__c_DisplayClass24_0",
+        "__c_DisplayClass42_0",
+        "__c_DisplayClass50_0",
+        "__c_DisplayClass19_0",
+        "__c_DisplayClass25_0`1",
+        "__c_DisplayClass25_1`1",
+        "__c_DisplayClass25_2`1"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Recebimentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 40951,
+      "sha256": "75d2b19be8888e01ce2b4906cd1af8a5c1e0e76e2eea14439fed2566af67bc4a"
+    },
+    {
+      "name": "Otus.Modulo.Recebimentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Recebimentos.dll.licenses",
+      "file": "0002.bin",
+      "bytes": 283,
+      "sha256": "2d3b6757e439710d7057df3d34df73511170d8f7015ae3af6f883db3b784e77b"
+    }
+  ],
+  "generated_stubs": false
+}

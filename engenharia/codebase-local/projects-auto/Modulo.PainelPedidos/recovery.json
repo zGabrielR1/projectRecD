@@ -1,0 +1,90 @@
+{
+  "name": "Modulo.PainelPedidos",
+  "baseline": "baseline\\Modulo.PainelPedidos.dll",
+  "baseline_sha256": "717fa0a35c13f2ab424aa93af9987724dd82e5639e70aa65c365b9b02e75fa1b",
+  "export_project": "recovered\\SuiteG6\\Modulo.PainelPedidos\\Modulo.PainelPedidos.csproj",
+  "sources": [
+    {
+      "path": "Actors\\PainelPedidoActorSystem.cs",
+      "export_path": "Actors\\PainelPedidoActorSystem.cs",
+      "raw_sha256": "9ef87fb9c51656e16c107ff8adef76f4b2e79585ba15384666e47bd6cd8bb185"
+    },
+    {
+      "path": "Actors\\RestauranteClientActor.cs",
+      "export_path": "Actors\\RestauranteClientActor.cs",
+      "raw_sha256": "26af2c241e4cc0872d4f6e6cad744a3a5e6d26cb38da55248da0e486d382236d"
+    },
+    {
+      "path": "PainelPedidoModulo.cs",
+      "export_path": "PainelPedidoModulo.cs",
+      "raw_sha256": "d04d73a6b6c25076127831287771c633b6f6b9420b4f2e73331bbfc710bbf3ac"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "92fd19b4ca8b1024baddad5cc51904b42bdd90fe41321b09a9459dba9d47f4be"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "9769493522937699b6b7669352326a6e426c2bad30e308e77a13eaea8f5bf9f3"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "8bab989236b5a7b8674c2c4e89dd577932c84db7bbedc53c2750c721f1a2c797"
+    },
+    {
+      "path": "ViewModels\\ConfiguracaoAmbienteProducao.cs",
+      "export_path": "ViewModels\\ConfiguracaoAmbienteProducao.cs",
+      "raw_sha256": "f2ba670353391230d3260f00b8a236ed4d7aff8611c421f3ab8166aa15615b8f"
+    },
+    {
+      "path": "ViewModels\\PainelPedidoPrincipalViewModel.cs",
+      "export_path": "ViewModels\\PainelPedidoPrincipalViewModel.cs",
+      "raw_sha256": "078007e7aefc93c4937f856f40656485dd4e35b3eb440f881ae58abe2d3aaa25"
+    },
+    {
+      "path": "ViewModels\\PainelPedidoViewModel.cs",
+      "export_path": "ViewModels\\PainelPedidoViewModel.cs",
+      "raw_sha256": "9624266d6ed05073fa701ee1985d2355a538371a2e3afa8344de8b85e8d614ae"
+    },
+    {
+      "path": "ViewModels\\PedidoViewModel.cs",
+      "export_path": "ViewModels\\PedidoViewModel.cs",
+      "raw_sha256": "ce9e2d40a2fa5f28ecd6e8b0e0b80b6c82ce51b8511922b1e490b52571e68ae0"
+    },
+    {
+      "path": "Views\\PainelPedidoPrincipalView.cs",
+      "export_path": "Views\\PainelPedidoPrincipalView.cs",
+      "raw_sha256": "5a0c941195dd97ad08fb01ba48612ddc6028c3f2c7d0fdf8d577935d14f813d7"
+    },
+    {
+      "path": "Views\\PainelPedidoView.cs",
+      "export_path": "Views\\PainelPedidoView.cs",
+      "raw_sha256": "04357b4ff454f52e691f336b001763f391d539c5ead0c89f135b4ac46fba340a"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 12
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.PainelPedidos.g.resources",
+      "file": "0000.bin",
+      "bytes": 14966,
+      "sha256": "55a872ff539e709ddfe128e249d769f5ba53338753c66982f9b29aa22aa2a992"
+    },
+    {
+      "name": "Otus.Modulo.PainelPedidos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,21 @@
+{
+  "artifactSha256": "516cc740643aff8f2a6a9d8fd2370b53a67d04e9b1f5a71384d8047abd7bb781",
+  "mvid": "65b03d4f-f895-4c38-bed6-b8716f92c5d7",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.PixPinPad, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "BouncyCastle.Crypto"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.PixPinPad.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "assembly": "DigisatServer.Application.Main.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System.Runtime.Serialization",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "NClone",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "System.Core",
+    "System.Drawing",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural",
+    "PresentationCore",
+    "DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "DigisatServer.Infrastructure.Crosscutting.Inventario",
+    "DigisatServer.Infrastructure.Crosscutting.EfdContribuicao",
+    "DigisatServer.Infrastructure.Crosscutting.Sintegra"
+  ]
+}

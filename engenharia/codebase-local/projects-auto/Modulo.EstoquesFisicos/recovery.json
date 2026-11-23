@@ -1,0 +1,145 @@
+{
+  "name": "Modulo.EstoquesFisicos",
+  "baseline": "baseline\\Modulo.EstoquesFisicos.dll",
+  "baseline_sha256": "9486de55189e34f330bdd35efd8f01938c10303f0bdc201906ed75685c904961",
+  "export_project": "recovered\\SuiteG6\\Modulo.EstoquesFisicos\\Modulo.EstoquesFisicos.csproj",
+  "sources": [
+    {
+      "path": "EstoqueFisicoModulo.cs",
+      "export_path": "EstoqueFisicoModulo.cs",
+      "raw_sha256": "5268ea6f16b2fd125ef340f2413f883f61cd5e23e348762aa3549403d6f24ce9"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "f637240f35a23e607ab15e0c62358252e9e88c562e9b43edf5b6e2c518395751"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "b239023f12e2b6d3ee3b702bea968fccae124bebd87e5d8b6a16bed8e983caa0"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "e499f0461993e1f00312de76a4938a1c122e97441ac5be855cb73f4806bf47fa"
+    },
+    {
+      "path": "ViewModels\\EstoqueFisicoAbaViewModel.cs",
+      "export_path": "ViewModels\\EstoqueFisicoAbaViewModel.cs",
+      "raw_sha256": "cea5115c3e6c3737ccaf081dc9edf9fe34af80e40739492500b3b0fd92b7e9c4"
+    },
+    {
+      "path": "ViewModels\\EstoqueFisicoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\EstoqueFisicoFichaAdicionarViewModel.cs",
+      "raw_sha256": "b13dae185a7d2fb1b72a2598a23160f3695c6d26788711fbdd622b134d786982"
+    },
+    {
+      "path": "ViewModels\\EstoqueFisicoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\EstoqueFisicoFichaAtualizarViewModel.cs",
+      "raw_sha256": "7bdd2ebade40b7d3bd9103504c259199f9520e02a27f907b850dc346a636e2e4"
+    },
+    {
+      "path": "ViewModels\\EstoqueFisicoFormulario.cs",
+      "export_path": "ViewModels\\EstoqueFisicoFormulario.cs",
+      "raw_sha256": "192bb3d088283bf7d287d6c74eb87ab2ba188c9605038d69a35ad75ba65eebc3"
+    },
+    {
+      "path": "ViewModels\\EstoqueFisicoListaViewModel.cs",
+      "export_path": "ViewModels\\EstoqueFisicoListaViewModel.cs",
+      "raw_sha256": "6e98cf58b7e29bfba8a98f87fa6e87872a02d105ad88336477af8caa87f5c945"
+    },
+    {
+      "path": "ViewModels\\EstoqueFisicoViewModel.cs",
+      "export_path": "ViewModels\\EstoqueFisicoViewModel.cs",
+      "raw_sha256": "d3908514d27220d544743d229fad2bf7465180c8f0188e2499e3fff013a3a60b"
+    },
+    {
+      "path": "ViewModels\\EstoquesFisicosViewModel.cs",
+      "export_path": "ViewModels\\EstoquesFisicosViewModel.cs",
+      "raw_sha256": "940b54b246c3a6e899f104e5a2298ba07e08ffc390988a47bd30d464b109275c"
+    },
+    {
+      "path": "ViewModels\\ItemViewModel.cs",
+      "export_path": "ViewModels\\ItemViewModel.cs",
+      "raw_sha256": "8941135515367dc15787059875d286f21a4113c81b7326129ee97bf1e615e063"
+    },
+    {
+      "path": "ViewModels\\ListaItensViewModel.cs",
+      "export_path": "ViewModels\\ListaItensViewModel.cs",
+      "raw_sha256": "eed437eb5cdebc2ab823ef5736bdd3da744699bfdfbd6cb6689c6be487a51dfd"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoInternaAbaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacaoInternaAbaViewModel.cs",
+      "raw_sha256": "2db0790e07431aed5993b65d3652d2ffd456665d12004b5475afeff304517ff7"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoInternaFichaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacaoInternaFichaViewModel.cs",
+      "raw_sha256": "49247e957b5e566d760a2f309a17e6678fafa62f75ddf7842af2142b48be7cbb"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoInternaFormulario.cs",
+      "export_path": "ViewModels\\MovimentacaoInternaFormulario.cs",
+      "raw_sha256": "e03b37ecd4ee5d8d69159993b254d5a016a5246ded34a119c90f58ae10b9d182"
+    },
+    {
+      "path": "ViewModels\\MovimentacaoInternaViewModel.cs",
+      "export_path": "ViewModels\\MovimentacaoInternaViewModel.cs",
+      "raw_sha256": "71cd567e8aa489d3b61e230cd449210fcd177951ac0f3d340edcf88f397bf21b"
+    },
+    {
+      "path": "Views\\EstoqueFisicoFichaAdicionarView.cs",
+      "export_path": "Views\\EstoqueFisicoFichaAdicionarView.cs",
+      "raw_sha256": "4bc0dc27e3eec9119bf956528c4eafeed879f9218b1295c583b1d909bc5a6dbe"
+    },
+    {
+      "path": "Views\\EstoqueFisicoFichaAtualizarView.cs",
+      "export_path": "Views\\EstoqueFisicoFichaAtualizarView.cs",
+      "raw_sha256": "1a4793654cea2a71efda9a8cd1557826918caffe4ac48f0d7cd2aa0e7eb7c8e8"
+    },
+    {
+      "path": "Views\\EstoqueFisicoListaView.cs",
+      "export_path": "Views\\EstoqueFisicoListaView.cs",
+      "raw_sha256": "134ecd253c1e2e6458c655699da00306efa6fba642fe486c227f34a84b381131"
+    },
+    {
+      "path": "Views\\EstoqueFisicoViewDetalhes\\EstoqueFisicoView.cs",
+      "export_path": "Views\\EstoqueFisicoViewDetalhes\\EstoqueFisicoView.cs",
+      "raw_sha256": "56fa66c768832355f6ea632c9df9ae4ed8fe6c0f6de2ac209bafdef06b2bc0ac"
+    },
+    {
+      "path": "Views\\EstoqueFisicoViewDetalhes\\MovimentacaoInternaView.cs",
+      "export_path": "Views\\EstoqueFisicoViewDetalhes\\MovimentacaoInternaView.cs",
+      "raw_sha256": "0d3974479dafe45fe24d45837419e6df8a35f14a72ddf592ab787409e3ad2fe1"
+    },
+    {
+      "path": "Views\\EstoquesFisicosView.cs",
+      "export_path": "Views\\EstoquesFisicosView.cs",
+      "raw_sha256": "9d580455f9654a6973b03e72bb4faa9f97e62b685dba864e3adc29711f845935"
+    },
+    {
+      "path": "Views\\MovimentacaoInternaFichaView.cs",
+      "export_path": "Views\\MovimentacaoInternaFichaView.cs",
+      "raw_sha256": "06ce987198e83bf096656cf7e794786e8a8d4a3f41c9bae0b2d1dac0662c77c9"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.EstoquesFisicos.g.resources",
+      "file": "0000.bin",
+      "bytes": 24204,
+      "sha256": "5f2033a27936f6591d08f1a4dbdde9b71e88c8094ddc9533dc97f66a501157b2"
+    },
+    {
+      "name": "Otus.Modulo.EstoquesFisicos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

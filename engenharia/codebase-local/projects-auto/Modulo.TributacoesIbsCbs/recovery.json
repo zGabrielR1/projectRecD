@@ -1,0 +1,304 @@
+{
+  "name": "Modulo.TributacoesIbsCbs",
+  "baseline": "baseline\\Modulo.TributacoesIbsCbs.dll",
+  "baseline_sha256": "0e25384d1714cc3f51d61428dc46b3ea61f046d4d5b128df959dbfc9922c6030",
+  "export_project": "recovered\\SuiteG6\\Modulo.TributacoesIbsCbs\\Modulo.TributacoesIbsCbs.csproj",
+  "sources": [
+    {
+      "path": "Events\\DuplicarTributacaoIbsCbsEvent.cs",
+      "export_path": "Events\\DuplicarTributacaoIbsCbsEvent.cs",
+      "raw_sha256": "4445bb1c2f18ec9a00789f2de65809ea328a0823cd9571a0fa953b584eaa0f06"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "346b7f30d9c4dc3449072c3419381a55c5970a8ff6de8850280a17cee7c35b8f"
+    },
+    {
+      "path": "TributacoesIbsCbsModulo.cs",
+      "export_path": "TributacoesIbsCbsModulo.cs",
+      "raw_sha256": "c4dcb7f254ae4c8a6f4b3a00fed897794c0a8f84ad08154dfdc0fa155d5d7b93"
+    },
+    {
+      "path": "ViewModels\\NaoContribuinteReformaTributariaViewModel.cs",
+      "export_path": "ViewModels\\NaoContribuinteReformaTributariaViewModel.cs",
+      "raw_sha256": "3b5dea038026199011e0035d59314b3bf5621a71ff1aaf950457090b0a14067a"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\GrupoOperacoesAreasIncentivadasViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\GrupoOperacoesAreasIncentivadasViewModel.cs",
+      "raw_sha256": "96ba87888233b038f5b47e04c40b7ad289487759c3a6da818f0307ace14e3c5d"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\PercentualReformaTributariaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\PercentualReformaTributariaViewModel.cs",
+      "raw_sha256": "21843c4b5c0d2486d721c18e5efce74bb32c553cb1b61024885548d7a76ab1aa"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\CSTIBSCBSViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\CSTIBSCBSViewModel.cs",
+      "raw_sha256": "506e90f96146c2e3c06bf82e08bf527b2aad4c4e5c335c57d8411e1d1355002b"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AjusteIbsNaZfmViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AjusteIbsNaZfmViewModel.cs",
+      "raw_sha256": "2a5a87b654e6fea859bc121367e32957680caed4dcedb51c2fc49b28281e14f4"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AjusteViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AjusteViewModel.cs",
+      "raw_sha256": "ac9f7cd595bbfa1a36e3e5d841891eda60e4da4f0d192ae58555f0ee1aaaa143"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AliquotaFixaProporcionalViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AliquotaFixaProporcionalViewModel.cs",
+      "raw_sha256": "dbe66313f8c211fb7064cd6f7fd8cbc9e1fa015dc4906f72efb83b1817e3eaa5"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AliquotaFixaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AliquotaFixaViewModel.cs",
+      "raw_sha256": "074dee86b74ee567cd40a68f714fece1016e9bb61c6447cd4163f347978c2e97"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AliquotaReduzidaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\AliquotaReduzidaViewModel.cs",
+      "raw_sha256": "f7abf37dc8ac9091a390bcf98385fd4adef9d8a15820ab01c5afad8c9c8b73de"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\DiferimentoAliquotaReduzidaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\DiferimentoAliquotaReduzidaViewModel.cs",
+      "raw_sha256": "677b096b45f2a039f71b29ae02371c9718de8c91bcfaad5313ca5dcdbb88e8f8"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\DiferimentoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\DiferimentoViewModel.cs",
+      "raw_sha256": "ccd57fd7f35d659313742b216999aca07a4077477b274b9bd7691b2cd15574bb"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\ExclusaoBaseCalculoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\ExclusaoBaseCalculoViewModel.cs",
+      "raw_sha256": "46539d2dcb611cda0558f80b4c1f1cf7fc8aa0a9720ce965ed6d11df6c72fb5e"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\ImunidadeNaoIncidenciaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\ImunidadeNaoIncidenciaViewModel.cs",
+      "raw_sha256": "01c388028d0458affb86b97f9b03a239af379410e22b6dab13182aa0a1d5533d"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\IsencaoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\IsencaoViewModel.cs",
+      "raw_sha256": "3bfd2764631d16f1314a7bff0d2a35c31a3816d019c82fa742ef06d9cace3e29"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\ReducaoAliquotaReducaoBaseCalculoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\ReducaoAliquotaReducaoBaseCalculoViewModel.cs",
+      "raw_sha256": "d15cf9c7a107d9c2932bfed07cac9fbd3aab4cc1961e06d91d4046d4c2551de6"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\ReducaoBaseCalculoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\ReducaoBaseCalculoViewModel.cs",
+      "raw_sha256": "c663ca15d4db1acf5201e2519897a0ea406f170910360d3a22589bb72ef8630e"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\SituacaoTributariaReformaTributariaItemViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\SituacaoTributariaReformaTributariaItemViewModel.cs",
+      "raw_sha256": "c19e50accc87d8b32e46139ae692e4e1773b592657c61c8bbbe2d57fff7b07ab"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\SuspensaoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\SuspensaoViewModel.cs",
+      "raw_sha256": "014f942d4f7f50377ba2a1190c5ba9b04acbb51a0a238b5590a38a3ed15428cc"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TransferenciaCreditoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TransferenciaCreditoViewModel.cs",
+      "raw_sha256": "b781e2739788f5f0348cb2d3b7e54cecee297303806004fdb14e937472f0a860"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributacaoRegimeEspecificoViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributacaoRegimeEspecificoViewModel.cs",
+      "raw_sha256": "0f6090d9e78338a3cef73b90c37ce4984411903b751e4082758239b4a707f708"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoAliquotaUniformeReduzidaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoAliquotaUniformeReduzidaViewModel.cs",
+      "raw_sha256": "f98a2c3678f6f929660b6ad90d9cc87f9ba4db65228db94d6d94fbfe47d9ef45"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoAliquotaUniformeViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoAliquotaUniformeViewModel.cs",
+      "raw_sha256": "defcb29035877285d98aa0011d4239968e5d21a064cfa543b2d22033b52e6943"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoIntegralmenteViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoIntegralmenteViewModel.cs",
+      "raw_sha256": "f0bf33683d117a39e05c8e75475a1cd84f49a4b6426c36aa46b91ea110a84264"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoMonofasicaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoMonofasicaViewModel.cs",
+      "raw_sha256": "0cc21587e2937f333f51208922f622937c46b90cd954c85f034c6c65a3723ea9"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoRegularViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\Itens\\TributadoRegularViewModel.cs",
+      "raw_sha256": "7b3453e15762d74616cd1c7b73acc614ed90e97dbbbf1b81b04a74ef685ca523"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\SituacaoTributariaReformaTributariaFactory.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\SituacaoTributariaReformaTributariaFactory.cs",
+      "raw_sha256": "b8544e129faca3e28ec5dffc2d206424dfa3a6ff9f5442c1b286765d5c1b2948"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\SituacaoTributariaReformaTributariaViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\SituacaoTributariaReformaTributariaViewModel.cs",
+      "raw_sha256": "d0ded416b9f67ee085ab83b4479b052aeb5440549dbf56afd83df368ca232856"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\ValorIgualOuMaiorQueZero.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\ValorIgualOuMaiorQueZero.cs",
+      "raw_sha256": "7c7814f79c18b27e8f79ae0c08027aaaeec787971425cb0a8750ed2c2aaa7a1a"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\ValorMaiorQueZeroViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\ValorMaiorQueZeroViewModel.cs",
+      "raw_sha256": "23dd519016590402f1f036d99f343d3bb254630db65183a3f177ca550fa21998"
+    },
+    {
+      "path": "ViewModels\\Percentuais\\SituacoesTributarias\\ValorViewModel.cs",
+      "export_path": "ViewModels\\Percentuais\\SituacoesTributarias\\ValorViewModel.cs",
+      "raw_sha256": "e8b4462bca420f098b513bcb09608db0588f7bdf21cb6031501a6e720c076af2"
+    },
+    {
+      "path": "ViewModels\\PercentualIbsCbsAbaViewModel.cs",
+      "export_path": "ViewModels\\PercentualIbsCbsAbaViewModel.cs",
+      "raw_sha256": "5695ea390973ed724c5e5e59f796aaff3a9432d4dc6aed7f7187cf8f78d918e1"
+    },
+    {
+      "path": "ViewModels\\PercentualIbsCbsFichaManutencaoDetalheViewModel.cs",
+      "export_path": "ViewModels\\PercentualIbsCbsFichaManutencaoDetalheViewModel.cs",
+      "raw_sha256": "76b37e19991223fcfe7586cb44425f998a85ef546666b8c8168f57268e01ccd9"
+    },
+    {
+      "path": "ViewModels\\PercentualIbsCbsListaManutencaoDetalheViewModel.cs",
+      "export_path": "ViewModels\\PercentualIbsCbsListaManutencaoDetalheViewModel.cs",
+      "raw_sha256": "fa51e4ce4b008d93e39ee2b32cd4842b7146e66a1dd674120c7c77da7d3ebf72"
+    },
+    {
+      "path": "ViewModels\\PercentualIbsCbsViewModel.cs",
+      "export_path": "ViewModels\\PercentualIbsCbsViewModel.cs",
+      "raw_sha256": "9b3cade3e273250da910da19cc972bcc4f05dadaa963c3d1a59421a6e12e60a9"
+    },
+    {
+      "path": "ViewModels\\PercentualReformaTributariaAbaViewModel.cs",
+      "export_path": "ViewModels\\PercentualReformaTributariaAbaViewModel.cs",
+      "raw_sha256": "59f5e76379095ff8586bd99f89621585ee77307b907fddc55932bf9197851976"
+    },
+    {
+      "path": "ViewModels\\PercentualReformaTributariaFichaViewModel.cs",
+      "export_path": "ViewModels\\PercentualReformaTributariaFichaViewModel.cs",
+      "raw_sha256": "731f2ba487aa69634fdb1ead9b522ee601713646b75c9cab77638e96133cde04"
+    },
+    {
+      "path": "ViewModels\\PercentualReformaTributariaFormulario.cs",
+      "export_path": "ViewModels\\PercentualReformaTributariaFormulario.cs",
+      "raw_sha256": "45c2bd9af78263d42c443e8a5b6adeda9f747e9ee6dcd9ad181696f678bff17f"
+    },
+    {
+      "path": "ViewModels\\TributacaoIbsCbsAbaViewModel.cs",
+      "export_path": "ViewModels\\TributacaoIbsCbsAbaViewModel.cs",
+      "raw_sha256": "21c0d0370c0f020d2637f15e8d8f88c5c3481f3af2e9b3d397a07fc6263e5d48"
+    },
+    {
+      "path": "ViewModels\\TributacaoIbsCbsFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\TributacaoIbsCbsFichaAdicionarViewModel.cs",
+      "raw_sha256": "71d3522a23d838d6f31f9ebccc276e52b08c6f2b8728507afa58e61dfd133880"
+    },
+    {
+      "path": "ViewModels\\TributacaoIbsCbsFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\TributacaoIbsCbsFichaAtualizarViewModel.cs",
+      "raw_sha256": "96d789a88dd8428baa964d1cda879c1ef2c60eeb48938b837f5b3edda0db0935"
+    },
+    {
+      "path": "ViewModels\\TributacaoIbsCbsFormulario.cs",
+      "export_path": "ViewModels\\TributacaoIbsCbsFormulario.cs",
+      "raw_sha256": "a16986a41349809ca78b5530df692b2e7f513bab94d7ee7eda9b2228afd89dbd"
+    },
+    {
+      "path": "ViewModels\\TributacaoIbsCbsListaViewModel.cs",
+      "export_path": "ViewModels\\TributacaoIbsCbsListaViewModel.cs",
+      "raw_sha256": "4179797806f8927d6b31fedb58bf055e699c2e11cbbd9fe251a2a95e288d7798"
+    },
+    {
+      "path": "ViewModels\\TributacaoIbsCbsViewModel.cs",
+      "export_path": "ViewModels\\TributacaoIbsCbsViewModel.cs",
+      "raw_sha256": "dfe14234e5bc5d1421e6414965c7b23942a62c66f6e97b7444e079365d3a9520"
+    },
+    {
+      "path": "ViewModels\\TributacoesIbsCbsViewModel.cs",
+      "export_path": "ViewModels\\TributacoesIbsCbsViewModel.cs",
+      "raw_sha256": "11773984d3d175f263923f64f51f076e86c08116e42d02c5ccbd1e5f7bd11ea2"
+    },
+    {
+      "path": "ViewModels\\UFTributacaoReformaTributariaViewModel.cs",
+      "export_path": "ViewModels\\UFTributacaoReformaTributariaViewModel.cs",
+      "raw_sha256": "7110808b56f311238fb45f67f3e1e1492b53c753791e580bb7952a6c8272e1b8"
+    },
+    {
+      "path": "Views\\PercentualReformaTributariaFichaView.cs",
+      "export_path": "Views\\PercentualReformaTributariaFichaView.cs",
+      "raw_sha256": "93f535dcbdc3421c389880e3207a95d3571a14aa0ac3188cb3496df49205b66e"
+    },
+    {
+      "path": "Views\\PercentualReformaTributariaView.cs",
+      "export_path": "Views\\PercentualReformaTributariaView.cs",
+      "raw_sha256": "3ac2eff9d0595e2ee30eefa20a5ea03f5de06de10081735374f5ce3b04ecbcaa"
+    },
+    {
+      "path": "Views\\TributacaoIbsCbsFichaAdicionarView.cs",
+      "export_path": "Views\\TributacaoIbsCbsFichaAdicionarView.cs",
+      "raw_sha256": "70b58519144f7ec7c5995327285f8a6a275aad80e355fadf794b29401e386a4f"
+    },
+    {
+      "path": "Views\\TributacaoIbsCbsFichaAtualizarView.cs",
+      "export_path": "Views\\TributacaoIbsCbsFichaAtualizarView.cs",
+      "raw_sha256": "a480ad78b9991d8c7a0501d739c644a28295f2101ec60cc33ee70cfbc9d7527c"
+    },
+    {
+      "path": "Views\\TributacaoIbsCbsFichaViewDetalhes\\PercentualIbsCbsFichaView.cs",
+      "export_path": "Views\\TributacaoIbsCbsFichaViewDetalhes\\PercentualIbsCbsFichaView.cs",
+      "raw_sha256": "265cae87d5ce09433f8613f1abc237e58657aa8389ca599bc52053da9bb4fa44"
+    },
+    {
+      "path": "Views\\TributacaoIbsCbsFichaViewDetalhes\\PercentualIbsCbsListaView.cs",
+      "export_path": "Views\\TributacaoIbsCbsFichaViewDetalhes\\PercentualIbsCbsListaView.cs",
+      "raw_sha256": "366070dde4bedcfa603324c493def0ad41332dcfde70a4b7a56b5424f0d8e2b2"
+    },
+    {
+      "path": "Views\\TributacaoIbsCbsFichaViewDetalhes\\TributacaoIbsCbsView.cs",
+      "export_path": "Views\\TributacaoIbsCbsFichaViewDetalhes\\TributacaoIbsCbsView.cs",
+      "raw_sha256": "15655fb63b0472bf7cd920a3450d0a00fa6af0f47e81db6d46ce7c773cf2855c"
+    },
+    {
+      "path": "Views\\TributacaoIbsCbsListaView.cs",
+      "export_path": "Views\\TributacaoIbsCbsListaView.cs",
+      "raw_sha256": "57bdf5a919d6991d82c7809ecd69b10df0edc046069674b01fa9071d2b95bd28"
+    },
+    {
+      "path": "Views\\TributacoesIbsCbsView.cs",
+      "export_path": "Views\\TributacoesIbsCbsView.cs",
+      "raw_sha256": "3939351782c2beb1b618292c027a9794723ba8ff4fa82186169c90a5307918ec"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.TributacoesIbsCbs.g.resources",
+      "file": "0000.bin",
+      "bytes": 58441,
+      "sha256": "970428d8f10105b0fca85845e64962799747dbd2480428f67619dd084339bee5"
+    }
+  ],
+  "generated_stubs": false
+}

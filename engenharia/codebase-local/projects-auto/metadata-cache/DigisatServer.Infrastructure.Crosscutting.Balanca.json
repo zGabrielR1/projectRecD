@@ -1,0 +1,12 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Balanca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "System.Reactive.Core",
+    "System.Reactive.Linq",
+    "System.Core",
+    "System.Reactive.Interfaces"
+  ]
+}

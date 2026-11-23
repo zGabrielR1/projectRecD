@@ -1,0 +1,165 @@
+{
+  "name": "Modulo.Cardapios",
+  "baseline": "baseline\\Modulo.Cardapios.dll",
+  "baseline_sha256": "d72baa82825fe15d8f5bf53c50adcac28093b9d55422925ce902e301151adf20",
+  "export_project": "recovered\\SuiteG6\\Modulo.Cardapios\\Modulo.Cardapios.csproj",
+  "sources": [
+    {
+      "path": "CardapioModulo.cs",
+      "export_path": "CardapioModulo.cs",
+      "raw_sha256": "42a906b51b6fe04b0447d3127ba75a0f7dabd8c8d086e67f86974b8fa6e2ca0e"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "65581bd58397051c817ae1cc4f5f3efb84f5b55553f133c585d4587de9fce80e"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "618bd10152c485e8e8259dce9e0a8b8800c29833c3d782a4839a74ca0bcdab50"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "7b296a65df6c35bf3a070722617051657671c567b09819579f6d0609897e5361"
+    },
+    {
+      "path": "ViewModels\\AdicionaisFichaViewModel.cs",
+      "export_path": "ViewModels\\AdicionaisFichaViewModel.cs",
+      "raw_sha256": "7b2816af7f3042288899783f8219cdeb8ec3216884b32cdb17f5f38bffaf6c06"
+    },
+    {
+      "path": "ViewModels\\CardapioAbaViewModel.cs",
+      "export_path": "ViewModels\\CardapioAbaViewModel.cs",
+      "raw_sha256": "4abd6de3790de707230e1a0c1376710ba297cd959cf2a649ec064c1026580c74"
+    },
+    {
+      "path": "ViewModels\\CardapioFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\CardapioFichaAdicionarViewModel.cs",
+      "raw_sha256": "44a227a52fc34d19e40cef6a4f2f907b98a3786dc8fb2413f89a2f2c117c016f"
+    },
+    {
+      "path": "ViewModels\\CardapioFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\CardapioFichaAtualizarViewModel.cs",
+      "raw_sha256": "5467712552e264c3df66381306806ff3394532b40e37347d4a039be5d5bedcb6"
+    },
+    {
+      "path": "ViewModels\\CardapioFormulario.cs",
+      "export_path": "ViewModels\\CardapioFormulario.cs",
+      "raw_sha256": "0fd8f4d3a19f62b01e12d1108fa222b057a5f2470bf9eab650d96f1bff863bda"
+    },
+    {
+      "path": "ViewModels\\CardapioListaViewModel.cs",
+      "export_path": "ViewModels\\CardapioListaViewModel.cs",
+      "raw_sha256": "7ad0eacba971cc926ba673efab7bceb179ad54071465ce86e38df90d8e5e1ff2"
+    },
+    {
+      "path": "ViewModels\\CardapiosViewModel.cs",
+      "export_path": "ViewModels\\CardapiosViewModel.cs",
+      "raw_sha256": "a07eaef86ed3e6fe6b16913d42c3323d001084dee4994c340c891a5c4968d251"
+    },
+    {
+      "path": "ViewModels\\CardapioViewModel.cs",
+      "export_path": "ViewModels\\CardapioViewModel.cs",
+      "raw_sha256": "b759a86369fdf1bbea791e138689a27a833e22981c26a700466d7f358662125f"
+    },
+    {
+      "path": "ViewModels\\ComponentesFichaViewModel.cs",
+      "export_path": "ViewModels\\ComponentesFichaViewModel.cs",
+      "raw_sha256": "7549e3e40a167c82636099e675dd0858ce28c44560cc976e8a34de4713b3a65e"
+    },
+    {
+      "path": "ViewModels\\IfoodAbaViewModel.cs",
+      "export_path": "ViewModels\\IfoodAbaViewModel.cs",
+      "raw_sha256": "e9c7f45fa4ea0a9df9c129591b969fade31da6378368855eea92d301a8673808"
+    },
+    {
+      "path": "ViewModels\\IfoodViewModel.cs",
+      "export_path": "ViewModels\\IfoodViewModel.cs",
+      "raw_sha256": "ce179a501eeef773d79a7db09429c373198f67587101efd71f72492e1fd07564"
+    },
+    {
+      "path": "ViewModels\\ItemCardapioViewModel.cs",
+      "export_path": "ViewModels\\ItemCardapioViewModel.cs",
+      "raw_sha256": "362915f9c4b657bfec1bbf88011ace8f35d8beb5602fadafcad9af5c7b280f41"
+    },
+    {
+      "path": "ViewModels\\ItensCardapioAbaViewModel.cs",
+      "export_path": "ViewModels\\ItensCardapioAbaViewModel.cs",
+      "raw_sha256": "6c51ab7b93676788865b013c664dacde811ca8cd7efdde819302d3c513dae2d2"
+    },
+    {
+      "path": "ViewModels\\ItensCardapioViewModel.cs",
+      "export_path": "ViewModels\\ItensCardapioViewModel.cs",
+      "raw_sha256": "88444e98c0511b9af430c98ca2b61cb239b72003be97afa60b009c55908ec6d1"
+    },
+    {
+      "path": "ViewModels\\ObservacoesFichaViewModel.cs",
+      "export_path": "ViewModels\\ObservacoesFichaViewModel.cs",
+      "raw_sha256": "4e96e4c186638cfa629b5c70894422ff248ca7c41ea593f2f3513f0ded2f502f"
+    },
+    {
+      "path": "ViewModels\\OrdenarCardapioFichaViewModel.cs",
+      "export_path": "ViewModels\\OrdenarCardapioFichaViewModel.cs",
+      "raw_sha256": "350e6fab2a7366a30b91a904e78462e6d722608d8c4141fe92a34677af276b6b"
+    },
+    {
+      "path": "Views\\CardapioFichaAdicionarView.cs",
+      "export_path": "Views\\CardapioFichaAdicionarView.cs",
+      "raw_sha256": "6a737b237eb74dc94a9d2dd439bdadaaa4fa1233cfd9fca319a19c134b948d70"
+    },
+    {
+      "path": "Views\\CardapioFichaAtualizarView.cs",
+      "export_path": "Views\\CardapioFichaAtualizarView.cs",
+      "raw_sha256": "11c0fd295f89b9473bfade3000a749a19c479ea438c7118eeef8e04b2294ce7d"
+    },
+    {
+      "path": "Views\\CardapioListaView.cs",
+      "export_path": "Views\\CardapioListaView.cs",
+      "raw_sha256": "0c3107a2f670272a1866391614577ad0b33acdd30df2e175b9ab7776a4cc97be"
+    },
+    {
+      "path": "Views\\CardapiosView.cs",
+      "export_path": "Views\\CardapiosView.cs",
+      "raw_sha256": "520dbced3f21f5c970d187a64517dd4a2617333b6266d799a40fe0dc840282af"
+    },
+    {
+      "path": "Views\\CardapioViewDetalhes\\CardapioView.cs",
+      "export_path": "Views\\CardapioViewDetalhes\\CardapioView.cs",
+      "raw_sha256": "870c4daf529b39176578c50199a77613dd3e8891cb1843c799ea512a8550f277"
+    },
+    {
+      "path": "Views\\CardapioViewDetalhes\\IfoodView.cs",
+      "export_path": "Views\\CardapioViewDetalhes\\IfoodView.cs",
+      "raw_sha256": "c18cca50ca8f07deadf1e81e635f1ab989cc835acab96d309631f4f9fdf1f3e5"
+    },
+    {
+      "path": "Views\\CardapioViewDetalhes\\ItensCardapioView.cs",
+      "export_path": "Views\\CardapioViewDetalhes\\ItensCardapioView.cs",
+      "raw_sha256": "a0521cd8482aab257ef3141e13018ef223d842af97cb3e17627d0728fbffca46"
+    },
+    {
+      "path": "Views\\OrdenarCardapioFichaView.cs",
+      "export_path": "Views\\OrdenarCardapioFichaView.cs",
+      "raw_sha256": "82dfac3922b3a33b952bfaa62aabc210160ffed5542829f10a8946664d47c50b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Cardapios.g.resources",
+      "file": "0000.bin",
+      "bytes": 48468,
+      "sha256": "78ebb4752922ec71917085900a4f389553bdd91ad1e8d23e6c3db13b6ef18492"
+    },
+    {
+      "name": "Otus.Modulo.Cardapios.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

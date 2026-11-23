@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "9486de55189e34f330bdd35efd8f01938c10303f0bdc201906ed75685c904961",
+  "mvid": "9abd83b9-a866-417d-8cd1-870edc32e33f",
+  "assembly": "Modulo.EstoquesFisicos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.EstoquesFisicos.g.resources",
+      "file": "0000.bin",
+      "bytes": 24204,
+      "sha256": "5f2033a27936f6591d08f1a4dbdde9b71e88c8094ddc9533dc97f66a501157b2"
+    },
+    {
+      "name": "Otus.Modulo.EstoquesFisicos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

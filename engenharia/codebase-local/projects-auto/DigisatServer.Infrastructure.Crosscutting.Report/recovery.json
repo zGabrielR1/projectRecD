@@ -1,0 +1,540 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Report",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Report.dll",
+  "baseline_sha256": "e8b5d45b04b76192165b2dab62f426791fca93a1a807ee506c4ae66d29655298",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Report\\DigisatServer.Infrastructure.Crosscutting.Report.csproj",
+  "sources": [
+    {
+      "path": "DanfeNFCe\\RelatorioDanfeNfce56Mm57Mm58Mm.cs",
+      "export_path": "DanfeNFCe\\RelatorioDanfeNfce56Mm57Mm58Mm.cs",
+      "raw_sha256": "9273b2ade4fb832567c83dee98c9c0a3637da59c52a4752c2ae56a434a1c78e3"
+    },
+    {
+      "path": "DanfeNFCe\\RelatorioDanfeNfce79Mm80Mm.cs",
+      "export_path": "DanfeNFCe\\RelatorioDanfeNfce79Mm80Mm.cs",
+      "raw_sha256": "bb5c894a8b4eaa944ba33b77d2e99f08d51e55b099d1a943e58a982ba69e3838"
+    },
+    {
+      "path": "DanfeNFCe\\RelatorioDanfeNfceA4.cs",
+      "export_path": "DanfeNFCe\\RelatorioDanfeNfceA4.cs",
+      "raw_sha256": "ca91f04d1e3386102bbd4b49f79d22141f20f26cd48c619c00394f2dad6af6d5"
+    },
+    {
+      "path": "DanfeNFCe\\RelatorioDanfeNfceCancelado56Mm57Mm58Mm.cs",
+      "export_path": "DanfeNFCe\\RelatorioDanfeNfceCancelado56Mm57Mm58Mm.cs",
+      "raw_sha256": "19008e683e7f044af876d33d4d930167b52211714fb21d6f84e8e54f0ad967be"
+    },
+    {
+      "path": "DanfeNFCe\\RelatorioDanfeNfceCancelado79Mm80Mm.cs",
+      "export_path": "DanfeNFCe\\RelatorioDanfeNfceCancelado79Mm80Mm.cs",
+      "raw_sha256": "6560f7e0d7d9812593b931f5ac6178aa032b7b0b16cf999e48baf211eb6d1839"
+    },
+    {
+      "path": "DanfeNFCe\\RelatorioDanfeNfceCanceladoA4.cs",
+      "export_path": "DanfeNFCe\\RelatorioDanfeNfceCanceladoA4.cs",
+      "raw_sha256": "c4ac7339222e09a437b166858b3dcedd9fbe2e2f690883e83b02e004306f9a14"
+    },
+    {
+      "path": "Danfe\\DanfePaisagem\\RelatorioDanfePaisagem.cs",
+      "export_path": "Danfe\\DanfePaisagem\\RelatorioDanfePaisagem.cs",
+      "raw_sha256": "c9257746c61a1f9ec23a44109fd223eaae985b1b7b9925f7bd871b929b65988b"
+    },
+    {
+      "path": "Danfe\\DanfePaisagem\\RelatorioParcialDanfePaisagem.cs",
+      "export_path": "Danfe\\DanfePaisagem\\RelatorioParcialDanfePaisagem.cs",
+      "raw_sha256": "6f64b6180f75105db3b4c1a4dfc42200118dbf424210f4f89131363e3cb7aa94"
+    },
+    {
+      "path": "Danfe\\DanfePaisagem\\RelatorioParcialDanfePaisagemDuplicatas.cs",
+      "export_path": "Danfe\\DanfePaisagem\\RelatorioParcialDanfePaisagemDuplicatas.cs",
+      "raw_sha256": "44df2c2c9798cd7a11fcd74f1be828b890b46d1238535152b3b884fe509f565c"
+    },
+    {
+      "path": "Danfe\\DanfePaisagem\\RelatorioParcialDanfeProdutoEServicoPaisagem.cs",
+      "export_path": "Danfe\\DanfePaisagem\\RelatorioParcialDanfeProdutoEServicoPaisagem.cs",
+      "raw_sha256": "5d30c6855886d14465f1567652e19fd49ce481e1e490e5b7e24d78c52c44a0af"
+    },
+    {
+      "path": "Danfe\\DanfeRetrato\\RelatorioDanfeRetrato.cs",
+      "export_path": "Danfe\\DanfeRetrato\\RelatorioDanfeRetrato.cs",
+      "raw_sha256": "6a8f4406e04d24bdd7cbcdf00b754442f43b4348ba04bf2f845634194677d83a"
+    },
+    {
+      "path": "Danfe\\DanfeRetrato\\RelatorioDanfeRetratoComprovanteCancelamento.cs",
+      "export_path": "Danfe\\DanfeRetrato\\RelatorioDanfeRetratoComprovanteCancelamento.cs",
+      "raw_sha256": "479fc9ea3d67b80eae7c38f4bd03a243c0d8168e5717613066e2dc0fc54f2cc1"
+    },
+    {
+      "path": "Danfe\\DanfeRetrato\\RelatorioParcialDanfeRetratoDadosProdutoEServico.cs",
+      "export_path": "Danfe\\DanfeRetrato\\RelatorioParcialDanfeRetratoDadosProdutoEServico.cs",
+      "raw_sha256": "eedd9002cc99ccf74dfd1bd7a20f8618497b9158978f54f0371bd2ef1b18bf10"
+    },
+    {
+      "path": "Danfe\\DanfeRetrato\\RelatorioParcialDanfeRetratoDuplicatas.cs",
+      "export_path": "Danfe\\DanfeRetrato\\RelatorioParcialDanfeRetratoDuplicatas.cs",
+      "raw_sha256": "cd1c421ce9f452de97606261d76a59618a86d32ab69b7d21ac8ac475ae8c39c0"
+    },
+    {
+      "path": "Danfe\\DanfeSimplificadoTipo2\\RelatorioDanfeSimplificadoTipo2.cs",
+      "export_path": "Danfe\\DanfeSimplificadoTipo2\\RelatorioDanfeSimplificadoTipo2.cs",
+      "raw_sha256": "9e4faffea84752a7fb130e67ef265586e8aad3d4ab530f61ec2e38e1597c7ac6"
+    },
+    {
+      "path": "Danfe\\DanfeSimplificado\\RelatorioDanfeSimplificado.cs",
+      "export_path": "Danfe\\DanfeSimplificado\\RelatorioDanfeSimplificado.cs",
+      "raw_sha256": "6537954a23f934e98b00adec14a13ee2f9656e333b1d07af2d53fca67956a0cc"
+    },
+    {
+      "path": "Danfe\\DanfeSimplificado\\RelatorioDanfeSimplificadoComprovanteCancelamento.cs",
+      "export_path": "Danfe\\DanfeSimplificado\\RelatorioDanfeSimplificadoComprovanteCancelamento.cs",
+      "raw_sha256": "a52fd0c24ef68321289cad2bb1aebc7d0be101b67197f1e9dc3ce3167e83c3d2"
+    },
+    {
+      "path": "Events\\FavoritouRelatorioEvent.cs",
+      "export_path": "Events\\FavoritouRelatorioEvent.cs",
+      "raw_sha256": "6830ca5c5260b41b2c2c29c9de803abcbbf64e388ab80985a2faa40af76da982"
+    },
+    {
+      "path": "ExtratoSat\\ExtratoCfeSatAutorizado56Mm57Mm58Mm.cs",
+      "export_path": "ExtratoSat\\ExtratoCfeSatAutorizado56Mm57Mm58Mm.cs",
+      "raw_sha256": "b547cc43a18a26b88c1d178f917290b043f4f4fdb79ddda122e849ca42c7c5c1"
+    },
+    {
+      "path": "ExtratoSat\\ExtratoCfeSatAutorizado79Mm80Mm.cs",
+      "export_path": "ExtratoSat\\ExtratoCfeSatAutorizado79Mm80Mm.cs",
+      "raw_sha256": "0fadf1c073edb60fa4c33eb473a42a6e3e216032a2abbc6e627752e7333bd36a"
+    },
+    {
+      "path": "ExtratoSat\\ExtratoCfeSatCancelado56Mm57Mm58Mm.cs",
+      "export_path": "ExtratoSat\\ExtratoCfeSatCancelado56Mm57Mm58Mm.cs",
+      "raw_sha256": "11ece0bda6b879a2fc668bededcd03101a9a896090a285a6b6774ea0f3a21ce9"
+    },
+    {
+      "path": "ExtratoSat\\ExtratoCfeSatCancelado79Mm80Mm.cs",
+      "export_path": "ExtratoSat\\ExtratoCfeSatCancelado79Mm80Mm.cs",
+      "raw_sha256": "cc40575516362a2351b41d4315a6938628b78d89752f5cacf507c2fdc20f1c62"
+    },
+    {
+      "path": "FichaConsumo\\RelatorioFichaConsumo56Mm57Mm58Mm.cs",
+      "export_path": "FichaConsumo\\RelatorioFichaConsumo56Mm57Mm58Mm.cs",
+      "raw_sha256": "88b6a3a2e427605c07e98cba7726808c20991b066c9d49e60d65499102649cde"
+    },
+    {
+      "path": "FichaConsumo\\RelatorioFichaConsumo79Mm80Mm.cs",
+      "export_path": "FichaConsumo\\RelatorioFichaConsumo79Mm80Mm.cs",
+      "raw_sha256": "a1ce56878908e8927cc40ac1756f4d63e11a7b3009e807ef3b0b4a82352235a0"
+    },
+    {
+      "path": "ImagensItens\\ImagemItem.cs",
+      "export_path": "ImagensItens\\ImagemItem.cs",
+      "raw_sha256": "51731597216d3c51985e787c62f8c08c0d88d341b8fb1a9c1dd594cfa3fe3c3c"
+    },
+    {
+      "path": "Interfaces\\IImpressoMesaContaCliente.cs",
+      "export_path": "Interfaces\\IImpressoMesaContaCliente.cs",
+      "raw_sha256": "bc9a70243d7267fbacf570462cbae19d8e1f278fd4a36b9cc68ea972219815b7"
+    },
+    {
+      "path": "Interfaces\\IImpressoMesaContaClienteItem.cs",
+      "export_path": "Interfaces\\IImpressoMesaContaClienteItem.cs",
+      "raw_sha256": "542349e3a232ddb518d6eec07ae546aa5fdc7dac5207b0684f8c68b156986784"
+    },
+    {
+      "path": "Interfaces\\IImpressoMesaContaClienteItemAdicional.cs",
+      "export_path": "Interfaces\\IImpressoMesaContaClienteItemAdicional.cs",
+      "raw_sha256": "21c69d34db55a75aff4697662a01cbb45f3b8e1a19436367fd4039609d6ca661"
+    },
+    {
+      "path": "MesaContaCliente\\ImpressoMesaContaCliente56Mm57Mm58Mm.cs",
+      "export_path": "MesaContaCliente\\ImpressoMesaContaCliente56Mm57Mm58Mm.cs",
+      "raw_sha256": "17fc8235ab084fda970236f9c7ab731db8ae3bad74e4c28eefc797607d6faa23"
+    },
+    {
+      "path": "MesaContaCliente\\ImpressoMesaContaCliente79Mm80Mm.cs",
+      "export_path": "MesaContaCliente\\ImpressoMesaContaCliente79Mm80Mm.cs",
+      "raw_sha256": "65034e8c807631022d616c25d9556b2a7200684e260f949dd429fd259139ff02"
+    },
+    {
+      "path": "Models\\BaseImpresso.cs",
+      "export_path": "Models\\BaseImpresso.cs",
+      "raw_sha256": "b56904fd7f7a22e8b529d56e9826a412cbe863befeeb7997b37811d1bf1cd48d"
+    },
+    {
+      "path": "Models\\DadosImagensItensReport.cs",
+      "export_path": "Models\\DadosImagensItensReport.cs",
+      "raw_sha256": "f895a0a199ab27d8b6f970451924b02af11022f2dc876261ccc25d30db0d2e77"
+    },
+    {
+      "path": "Models\\DadosParcelaReport.cs",
+      "export_path": "Models\\DadosParcelaReport.cs",
+      "raw_sha256": "7ed99a58623846002dd441beb19065f2bfa5304da75bf036a69aba5600c56a79"
+    },
+    {
+      "path": "Models\\IMovimentacaoObservacao.cs",
+      "export_path": "Models\\IMovimentacaoObservacao.cs",
+      "raw_sha256": "a030777d6d7f611be75513c5abd996807cf5180ed0c775a8cfc71298d3c0b929"
+    },
+    {
+      "path": "Models\\ImpressoMesaContaCliente.cs",
+      "export_path": "Models\\ImpressoMesaContaCliente.cs",
+      "raw_sha256": "580b6a63eeb8530d211dd719ffac13b8d8f7cdc3c8cf7f36411851cd4b2c2701"
+    },
+    {
+      "path": "Models\\ImpressoMesaContaClienteItem.cs",
+      "export_path": "Models\\ImpressoMesaContaClienteItem.cs",
+      "raw_sha256": "7249d1093e75d1a315e242712c826bb899fedbafeaa859d425c13753610b8729"
+    },
+    {
+      "path": "Models\\ImpressoMesaContaClienteItemAdicional.cs",
+      "export_path": "Models\\ImpressoMesaContaClienteItemAdicional.cs",
+      "raw_sha256": "3562a2f9d85ed5f05de365d62bbbb2764d75e7fda4e9e36d3fb8afaea379e829"
+    },
+    {
+      "path": "Models\\InformacaoImpresso.cs",
+      "export_path": "Models\\InformacaoImpresso.cs",
+      "raw_sha256": "b8e840f320c6e284c6e60a871ebbcb96efc16685ca6ec08ca36b3a78db8988a9"
+    },
+    {
+      "path": "Models\\LinhaImpresso.cs",
+      "export_path": "Models\\LinhaImpresso.cs",
+      "raw_sha256": "5c54097c3db8987652ef780ef4918e7ed7a3a6233d8227c641ca44b2f9cdf691"
+    },
+    {
+      "path": "Models\\ListaImpresso.cs",
+      "export_path": "Models\\ListaImpresso.cs",
+      "raw_sha256": "209738e0d89fee9db0cb9b2ed76ad4e6d61eebc4bedbf237c1a229569ad6f28d"
+    },
+    {
+      "path": "Models\\Movimentacoes\\AnimalMovimentacaoReport.cs",
+      "export_path": "Models\\Movimentacoes\\AnimalMovimentacaoReport.cs",
+      "raw_sha256": "cb84d55dc4b97aa21e109807d476a5e4a9c372ad32e8cd8701ce00ece1c0dd4b"
+    },
+    {
+      "path": "Models\\Movimentacoes\\EmitenteReport.cs",
+      "export_path": "Models\\Movimentacoes\\EmitenteReport.cs",
+      "raw_sha256": "d6f48ba899d0e99a7626fafe718b70b43fe18d89fce46769cbe3ab2c5daa8b95"
+    },
+    {
+      "path": "Models\\Movimentacoes\\EnderecoReport.cs",
+      "export_path": "Models\\Movimentacoes\\EnderecoReport.cs",
+      "raw_sha256": "83b57874ca44816b8637c4dc054eed50efd72e2660bc4b7bb0e055edb3eddfd2"
+    },
+    {
+      "path": "Models\\Movimentacoes\\ItemMovimentacaoReport.cs",
+      "export_path": "Models\\Movimentacoes\\ItemMovimentacaoReport.cs",
+      "raw_sha256": "3f8963c0f34bddf481dbd5176b5a7a1e273640cec40dc57c07fd92936a544aec"
+    },
+    {
+      "path": "Models\\Movimentacoes\\MovimentacaoReport.cs",
+      "export_path": "Models\\Movimentacoes\\MovimentacaoReport.cs",
+      "raw_sha256": "0d22bc2af503c4c8165de0f2b779cba33c1afd77f7ccfe079fc6cdc26a10106d"
+    },
+    {
+      "path": "Models\\Movimentacoes\\ObjetoMovimentacaoReport.cs",
+      "export_path": "Models\\Movimentacoes\\ObjetoMovimentacaoReport.cs",
+      "raw_sha256": "901f25d5562decba3223b8c70425ab97ae71e658a507cd799868967c9b219b84"
+    },
+    {
+      "path": "Models\\Movimentacoes\\PessoaReport.cs",
+      "export_path": "Models\\Movimentacoes\\PessoaReport.cs",
+      "raw_sha256": "ccdbe8acdce050cb5dbe75f9171ac19e1ae3949453bf512fdd4150496bd787b7"
+    },
+    {
+      "path": "Models\\Parametro.cs",
+      "export_path": "Models\\Parametro.cs",
+      "raw_sha256": "7bcc62531e501153c9177407b0c3983a7a26989325ebd7db8533058798b21706"
+    },
+    {
+      "path": "Models\\Parametros.cs",
+      "export_path": "Models\\Parametros.cs",
+      "raw_sha256": "d7f1ce8874d72bf0c614f1b3b1749053f0e2831a18eb20258dd2988cec0f73b8"
+    },
+    {
+      "path": "Models\\Relatorio.cs",
+      "export_path": "Models\\Relatorio.cs",
+      "raw_sha256": "28d1a578fdde9d79e2c233007b64047b5f9d93b5531bf016554020551c6dcce8"
+    },
+    {
+      "path": "Orcamento\\RelatorioOrcamento.cs",
+      "export_path": "Orcamento\\RelatorioOrcamento.cs",
+      "raw_sha256": "7c818e7939e93fdc6f57a18d32472b2e93c36a5014c50eb5da0bd9c4c0f76be5"
+    },
+    {
+      "path": "OrdemServico\\RelatorioOrdemServico.cs",
+      "export_path": "OrdemServico\\RelatorioOrdemServico.cs",
+      "raw_sha256": "4ba9198587482a34ff76af6c2a48e420c9d1c8676c991e886067b5b9e5110580"
+    },
+    {
+      "path": "Parcelas\\Parcela.cs",
+      "export_path": "Parcelas\\Parcela.cs",
+      "raw_sha256": "4b4c2ee2ece0519dc08c19ee1bf405cf723c5f87dd9e19b8abf1a20c755b1be4"
+    },
+    {
+      "path": "Parcelas\\ParcelaComCabecalhoERodape.cs",
+      "export_path": "Parcelas\\ParcelaComCabecalhoERodape.cs",
+      "raw_sha256": "824f10b63f7d2d19fc29b4904c56f1d09766fe5f8ff05cf3cd261306d5f54d67"
+    },
+    {
+      "path": "Parcelas\\ParcelasPendentesEAtrasadasComCabecalhoERodape.cs",
+      "export_path": "Parcelas\\ParcelasPendentesEAtrasadasComCabecalhoERodape.cs",
+      "raw_sha256": "0728776cacb54fe338d72fd744f361e7b5bcf91e34fbf3619b17596aa4eeb579"
+    },
+    {
+      "path": "PedidoVenda\\RelatorioPedidoVenda.cs",
+      "export_path": "PedidoVenda\\RelatorioPedidoVenda.cs",
+      "raw_sha256": "7d773ead505a261f743844e7e2ab71cfc59f1d567222cf4414fee1638a9fdc42"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "5aac75c9af58d069d9ee7a168f0e514badfde3d65ae7f606ae6f36603b28bccb"
+    },
+    {
+      "path": "RegistroVenda\\RelatorioRegistroVenda56Mm57Mm58Mm.cs",
+      "export_path": "RegistroVenda\\RelatorioRegistroVenda56Mm57Mm58Mm.cs",
+      "raw_sha256": "84da0b77ecdacd17af42c563b9e43849fe88ef0ee24a9a2f726da0648cc581e9"
+    },
+    {
+      "path": "RegistroVenda\\RelatorioRegistroVenda79Mm80Mm.cs",
+      "export_path": "RegistroVenda\\RelatorioRegistroVenda79Mm80Mm.cs",
+      "raw_sha256": "cc8ecfb685cf1e4ddd9d24ff7fea2a368f09b2836d8cdb0a444745890123b67a"
+    },
+    {
+      "path": "RegistroVenda\\RelatorioRegistroVendaA4.cs",
+      "export_path": "RegistroVenda\\RelatorioRegistroVendaA4.cs",
+      "raw_sha256": "579332a0ed3fb2c9516dc3349971f6b0edc77b6867e297ef291dc4f87bb0bab8"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Qualify report enum types shadowed by WPF imports or instance properties",
+      "occurrences": 2291
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfceA4.resources",
+      "file": "0000.bin",
+      "bytes": 22054,
+      "sha256": "3d33b7c648e55a57481d47ec43ed49ccb98e1952281d31bc6471d60d4a1a9d33"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfceCancelado56Mm57Mm58Mm.resources",
+      "file": "0001.bin",
+      "bytes": 23404,
+      "sha256": "528089602e484ed4d002712a89e4beef43f4f2eb8b5f1f3ac99382b3b7295c79"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfce56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 24406,
+      "sha256": "f1a41e8d1d6515a5395cbfb8d00efd8fc1a451bac3c9ea96e9097e3cad074efe"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfceCanceladoA4.resources",
+      "file": "0003.bin",
+      "bytes": 19368,
+      "sha256": "edfcfdb0a0e5cb46483986485a1cf5b7d3ea0c072abb12537cc868205f00e87d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfceCancelado79Mm80Mm.resources",
+      "file": "0004.bin",
+      "bytes": 20214,
+      "sha256": "11a9864e2584686de1856871e78e947375e5bea95a61065d26d01c646ff6252f"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.DanfeNFCe.RelatorioDanfeNfce79Mm80Mm.resources",
+      "file": "0005.bin",
+      "bytes": 25570,
+      "sha256": "096790d40bebf0d2b9aeb43f1f39477d5df06fb61cdbc22a92fd3ae4cf11caae"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfePaisagem.RelatorioDanfePaisagem.resources",
+      "file": "0006.bin",
+      "bytes": 447,
+      "sha256": "c7a83f222ffb98952b4a570dbc8fc186bfebc65398bbcabc223e8e8e6926b0a2"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfePaisagem.RelatorioParcialDanfePaisagem.resources",
+      "file": "0007.bin",
+      "bytes": 11028,
+      "sha256": "75cc574e69470adac71c559850874a94480022c8f4ffa17f8152a1f209537766"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfePaisagem.RelatorioParcialDanfeProdutoEServicoPaisagem.resources",
+      "file": "0008.bin",
+      "bytes": 17412,
+      "sha256": "977335badbd428fe52c000eed6328c22cad8e48f3679d4e643da49e3e3befdba"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfePaisagem.RelatorioParcialDanfePaisagemDuplicatas.resources",
+      "file": "0009.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeRetrato.RelatorioDanfeRetrato.resources",
+      "file": "0010.bin",
+      "bytes": 22981,
+      "sha256": "c8dea1bcd0e3321b3375e6055b0243aac41aec17d02176c8a8f432f0e48be43b"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeRetrato.RelatorioDanfeRetratoComprovanteCancelamento.resources",
+      "file": "0011.bin",
+      "bytes": 8559,
+      "sha256": "0323419937c8d349bfc882f293217642fc5d57df440d0cb86e05049f0769799e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeRetrato.RelatorioParcialDanfeRetratoDadosProdutoEServico.resources",
+      "file": "0012.bin",
+      "bytes": 18065,
+      "sha256": "710772e1b186efcdc4e99b7540c5b49d0b134283921238483f9e8abeace0f12c"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeRetrato.RelatorioParcialDanfeRetratoDuplicatas.resources",
+      "file": "0013.bin",
+      "bytes": 2438,
+      "sha256": "9f5db6915a7c338ecb51e33b2a1a652165ecfa942964a0ee83037937fdd6ca0d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeSimplificadoTipo2.RelatorioDanfeSimplificadoTipo2.resources",
+      "file": "0014.bin",
+      "bytes": 25916,
+      "sha256": "5c6560d880a15482cd5968a7927a144338ecdd202867ad0fc952dbb1d50cc268"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeSimplificado.RelatorioDanfeSimplificadoComprovanteCancelamento.resources",
+      "file": "0015.bin",
+      "bytes": 12146,
+      "sha256": "905bf823c6668c4b3c1047a2ef03ac41deefac5a80ce27047dee7ddd642736dc"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Danfe.DanfeSimplificado.RelatorioDanfeSimplificado.resources",
+      "file": "0016.bin",
+      "bytes": 18559,
+      "sha256": "3bbc741ebfcde96a3ae70b2debed6afda1a3a905d79e0e1eb14df68bc2b83dee"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ExtratoSat.ExtratoCfeSatAutorizado56Mm57Mm58Mm.resources",
+      "file": "0017.bin",
+      "bytes": 5367,
+      "sha256": "50c96650dcfc564124b47796621cc86e94fae62869aa66b14f2791019a7a6140"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ExtratoSat.ExtratoCfeSatAutorizado79Mm80Mm.resources",
+      "file": "0018.bin",
+      "bytes": 5555,
+      "sha256": "a7c9146f5fcb8cd032949768a5e2882975103d4bfcc9f76b035d21bd368527a8"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ExtratoSat.ExtratoCfeSatCancelado56Mm57Mm58Mm.resources",
+      "file": "0019.bin",
+      "bytes": 5285,
+      "sha256": "b7873fdd34d0c624a1aeaed30f4201a85e10defe0096bd459098b0b47184b9c7"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ExtratoSat.ExtratoCfeSatCancelado79Mm80Mm.resources",
+      "file": "0020.bin",
+      "bytes": 5377,
+      "sha256": "9d47f094fb1b7bd5224b9c0ff24472ce7198e9fbec158f3e2c9e0b116b53e5dd"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.FichaConsumo.RelatorioFichaConsumo56Mm57Mm58Mm.resources",
+      "file": "0021.bin",
+      "bytes": 2572,
+      "sha256": "a8a94595ab1ba51b19ae24bba45b0b03df3e96920b00c781c4a48c70250a602d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.FichaConsumo.RelatorioFichaConsumo79Mm80Mm.resources",
+      "file": "0022.bin",
+      "bytes": 2572,
+      "sha256": "a8a94595ab1ba51b19ae24bba45b0b03df3e96920b00c781c4a48c70250a602d"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.ImagensItens.ImagemItem.resources",
+      "file": "0023.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.MesaContaCliente.ImpressoMesaContaCliente56Mm57Mm58Mm.resources",
+      "file": "0024.bin",
+      "bytes": 9296,
+      "sha256": "fab480c3cd2216ca017bd5ad22bf4896bb96321afb5931bc0db470e9815552c8"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.MesaContaCliente.ImpressoMesaContaCliente79Mm80Mm.resources",
+      "file": "0025.bin",
+      "bytes": 10792,
+      "sha256": "b13fdc3ec58d24d02ccba75d5ba46f88d000af219b929e75478932b2146b74b7"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Models.Relatorio.resources",
+      "file": "0026.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Orcamento.RelatorioOrcamento.resources",
+      "file": "0027.bin",
+      "bytes": 3742,
+      "sha256": "28adc38760624367ff9dc94c71e305b8d6e7005e9c43a42899d003bda5926258"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.OrdemServico.RelatorioOrdemServico.resources",
+      "file": "0028.bin",
+      "bytes": 3742,
+      "sha256": "28adc38760624367ff9dc94c71e305b8d6e7005e9c43a42899d003bda5926258"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Parcelas.ParcelasPendentesEAtrasadasComCabecalhoERodape.resources",
+      "file": "0029.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Parcelas.ParcelaComCabecalhoERodape.resources",
+      "file": "0030.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.Parcelas.Parcela.resources",
+      "file": "0031.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.PedidoVenda.RelatorioPedidoVenda.resources",
+      "file": "0032.bin",
+      "bytes": 3742,
+      "sha256": "28adc38760624367ff9dc94c71e305b8d6e7005e9c43a42899d003bda5926258"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.RegistroVenda.RelatorioRegistroVenda56Mm57Mm58Mm.resources",
+      "file": "0033.bin",
+      "bytes": 21318,
+      "sha256": "0658139b2ad04ca0728c6377e28bd0cb015288ea7b84882dc40d59937f809444"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.RegistroVenda.RelatorioRegistroVendaA4.resources",
+      "file": "0034.bin",
+      "bytes": 21178,
+      "sha256": "209a07bda3a2b0485bf9b2666e567da3ffd5fdbe4c38dfb546d0b20853cf1b5e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.RegistroVenda.RelatorioRegistroVenda79Mm80Mm.resources",
+      "file": "0035.bin",
+      "bytes": 21458,
+      "sha256": "3925f302bacf892fefc0a0f3e3e407764c8e812c783657dd5cd5f6d79fbc44c0"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report.dll.licenses",
+      "file": "0036.bin",
+      "bytes": 312,
+      "sha256": "4f1b36162b2457b2d4613c65a427ae0ef59dea8c57d989474f8930e96c5a5f54"
+    }
+  ],
+  "generated_stubs": false
+}

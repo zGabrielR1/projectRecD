@@ -1,0 +1,13 @@
+{
+  "artifactSha256": "b03e1df6b2003b1d7c11940c5450734a5acc92a3a9d963e90ec8e30072ebd9a5",
+  "mvid": "0fa55424-2391-48f0-b522-0e051b22dcf6",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.ArquivoContabilidade, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "System"
+  ],
+  "resources": []
+}

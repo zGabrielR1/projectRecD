@@ -1,0 +1,18 @@
+{
+  "assembly": "DevExpress.XtraPrinting.v15.2, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.Data.v15.2",
+    "DevExpress.Utils.v15.2",
+    "DevExpress.XtraEditors.v15.2",
+    "System.Drawing",
+    "System.Windows.Forms",
+    "DevExpress.RichEdit.v15.2.Core",
+    "System",
+    "DevExpress.XtraBars.v15.2",
+    "DevExpress.XtraTreeList.v15.2",
+    "DevExpress.XtraLayout.v15.2",
+    "System.Core"
+  ]
+}

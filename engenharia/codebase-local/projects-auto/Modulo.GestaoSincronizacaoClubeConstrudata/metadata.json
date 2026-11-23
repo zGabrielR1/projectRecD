@@ -1,0 +1,32 @@
+{
+  "artifactSha256": "6f2758cab21bc5b77c8296bca29d52bba8032e87303c2515ae5842192114cd07",
+  "mvid": "eab0a51a-8715-44e0-8f81-7d2457d6a190",
+  "assembly": "Modulo.GestaoSincronizacaoClubeConstrudata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "PresentationFramework",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Xpf.Grid.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DevExpress.Xpf.Grid.v15.2.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GestaoSincronizacaoClubeConstrudata.g.resources",
+      "file": "0000.bin",
+      "bytes": 15647,
+      "sha256": "09d82151405a308e63eb17add90433890f6a8b7e81af22163cda01ba6562daf2"
+    }
+  ]
+}

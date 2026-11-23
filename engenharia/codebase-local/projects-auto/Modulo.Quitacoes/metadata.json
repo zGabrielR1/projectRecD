@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "4e2c4687dfaeb5fff2d8e88bfc9d7d73263ba98cb82fbd590d439785a8b8d656",
+  "mvid": "cb83d32b-ac86-4bb9-9777-b6dd594a2042",
+  "assembly": "Modulo.Quitacoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "PresentationCore",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Quitacoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 22934,
+      "sha256": "ad50501c2c10a2f31f82ec20730e61b6617484029740c6366bb0296960520075"
+    },
+    {
+      "name": "Otus.Modulo.Quitacoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

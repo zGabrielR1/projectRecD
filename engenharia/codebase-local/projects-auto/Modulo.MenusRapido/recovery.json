@@ -1,0 +1,189 @@
+{
+  "name": "Modulo.MenusRapido",
+  "baseline": "baseline\\Modulo.MenusRapido.dll",
+  "baseline_sha256": "7f8ed2456fd3b36ba7d8976a9a4ea9f221eba3762526c90c95d46ad2cf982536",
+  "export_project": "recovered\\SuiteG6\\Modulo.MenusRapido\\Modulo.MenusRapido.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "03e4031c3d17d1cbbd0865a03434a3240bdf133c53e592c0d61910488d584c9c"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "7f8ed2456fd3b36ba7d8976a9a4ea9f221eba3762526c90c95d46ad2cf982536"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 142
+    },
+    {
+      "kind": "Resolve report or permission descriptor import aliases and protected report Dispose call",
+      "aliases": {
+        "HelperException": "DigisatServer.Infrastructure.Crosscutting.Mvvm.HelperException",
+        "Atualizar": "DigisatServer.Infrastructure.Crosscutting.Right.Atualizar",
+        "Adicionar": "DigisatServer.Infrastructure.Crosscutting.Right.Adicionar",
+        "VisualizarRelatorio": "DigisatServer.Infrastructure.Crosscutting.Right.VisualizarRelatorio"
+      }
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.MenusRapido.g.resources",
+      "file": "0000.bin",
+      "bytes": 58258,
+      "sha256": "98f0777e1795ec34954ee5791bb8d6c2764231c089f968d8a8e64d3e57606f79"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "MenuRapidoModulo.cs",
+      "export_path": "MenuRapidoModulo.cs",
+      "raw_sha256": "7ce5a23b3fb7d73eca279ff81e6814fefd28e2ecf812e77101811573b828b5cf"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "3df3118c308d529461bb6879e8efc335f5a57cac675b7fb8e3e43e43e162c0a6"
+    },
+    {
+      "path": "ViewModels\\AdicionaisFichaViewModel.cs",
+      "export_path": "ViewModels\\AdicionaisFichaViewModel.cs",
+      "raw_sha256": "8c2c812ab4830c157ccd044d58518abddd62417ead9133bbd4157879054dcc50"
+    },
+    {
+      "path": "ViewModels\\BonificacoesFichaViewModel.cs",
+      "export_path": "ViewModels\\BonificacoesFichaViewModel.cs",
+      "raw_sha256": "f1ca18e6bd939916227c8e2b89af822b0e7d67201c0c3805b1a1616a22cfe99b"
+    },
+    {
+      "path": "ViewModels\\ComponentesFichaViewModel.cs",
+      "export_path": "ViewModels\\ComponentesFichaViewModel.cs",
+      "raw_sha256": "0088cff3ae8e84b2261b46d9b59d9c4c807b4666745aa15046986ca76a6d367c"
+    },
+    {
+      "path": "ViewModels\\GrupoComplementoFichaViewModel.cs",
+      "export_path": "ViewModels\\GrupoComplementoFichaViewModel.cs",
+      "raw_sha256": "6505bd494899873bc4201a0e5408c2190bebe4480ab0cd5ee692db27e98e3711"
+    },
+    {
+      "path": "ViewModels\\IfoodAbaViewModel.cs",
+      "export_path": "ViewModels\\IfoodAbaViewModel.cs",
+      "raw_sha256": "5ebaf888f324d824ba55b39c07309a99c6a349fb18c0a4bbd9da9e9f4725697d"
+    },
+    {
+      "path": "ViewModels\\IfoodViewModel.cs",
+      "export_path": "ViewModels\\IfoodViewModel.cs",
+      "raw_sha256": "ba9bab4fb128b35423ad6890f934a10a3e53ba6d2e13416b202c8e95fad755c1"
+    },
+    {
+      "path": "ViewModels\\ItemGrupoMenuViewModel.cs",
+      "export_path": "ViewModels\\ItemGrupoMenuViewModel.cs",
+      "raw_sha256": "5358a5fb7aa9780687b364aac66b8823ebf69ff5ece2e959689640925045d994"
+    },
+    {
+      "path": "ViewModels\\ItemMenuViewModel.cs",
+      "export_path": "ViewModels\\ItemMenuViewModel.cs",
+      "raw_sha256": "36a33fee32c00607bfef4d72eb3146072bfd6957722212c6f55f39be2fad2985"
+    },
+    {
+      "path": "ViewModels\\ItensMenuAbaViewModel.cs",
+      "export_path": "ViewModels\\ItensMenuAbaViewModel.cs",
+      "raw_sha256": "fa6df6e790141599447e156cd9ed0a6c722289a5f0b5ac0074832890121ced9a"
+    },
+    {
+      "path": "ViewModels\\ItensMenuViewModel.cs",
+      "export_path": "ViewModels\\ItensMenuViewModel.cs",
+      "raw_sha256": "b84dc970d494e6bbec0060612bbec5cdf6b087453d3ed381951b8f3d054ff012"
+    },
+    {
+      "path": "ViewModels\\MenuRapidoAbaViewModel.cs",
+      "export_path": "ViewModels\\MenuRapidoAbaViewModel.cs",
+      "raw_sha256": "b9e88e7f1a5d8abaf2e59064cc5b6f592f1fda9addd12581b1908812afd87757"
+    },
+    {
+      "path": "ViewModels\\MenuRapidoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\MenuRapidoFichaAdicionarViewModel.cs",
+      "raw_sha256": "fde66d4d961399ebc67f10c22f899d08da588bf0b610b5b2e06d51fbb4f097ad"
+    },
+    {
+      "path": "ViewModels\\MenuRapidoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\MenuRapidoFichaAtualizarViewModel.cs",
+      "raw_sha256": "76e3005e044b4970672a6ee05d208ec1ab35dab53dbf9d9e30308d751192beb6"
+    },
+    {
+      "path": "ViewModels\\MenuRapidoFormulario.cs",
+      "export_path": "ViewModels\\MenuRapidoFormulario.cs",
+      "raw_sha256": "a0cce0ff5f5adf6bcfad4bb04e9626d43d5b25fb2c2cadd7391a389c833a2d61"
+    },
+    {
+      "path": "ViewModels\\MenuRapidoListaViewModel.cs",
+      "export_path": "ViewModels\\MenuRapidoListaViewModel.cs",
+      "raw_sha256": "a4bb0bbd1ed8ee557fd335740ce10abd076098babcb4aac80f324ba6932ae14b"
+    },
+    {
+      "path": "ViewModels\\MenuRapidoViewModel.cs",
+      "export_path": "ViewModels\\MenuRapidoViewModel.cs",
+      "raw_sha256": "7302f0ef674be7e0051004522eddfb13e557f41b711cb5cff6460c399c145a7a"
+    },
+    {
+      "path": "ViewModels\\MenusRapidoViewModel.cs",
+      "export_path": "ViewModels\\MenusRapidoViewModel.cs",
+      "raw_sha256": "1485f5de8ac76a8c3523db8378002bec1ff86c1fb5da5f6ed6d8d89e94af7475"
+    },
+    {
+      "path": "ViewModels\\OrdenarMenuFichaViewModel.cs",
+      "export_path": "ViewModels\\OrdenarMenuFichaViewModel.cs",
+      "raw_sha256": "ce238429326e56ca20398550aa9fff3b8b40639595982859b4579eb3fed0d2c3"
+    },
+    {
+      "path": "ViewModels\\PredefinicoesFichaViewModel.cs",
+      "export_path": "ViewModels\\PredefinicoesFichaViewModel.cs",
+      "raw_sha256": "84bdfa6432bd9e79f87d79011c6b68b0903174c9f37267d32fdd23cc9d85d95d"
+    },
+    {
+      "path": "Views\\MenuRapidoFichaAdicionarView.cs",
+      "export_path": "Views\\MenuRapidoFichaAdicionarView.cs",
+      "raw_sha256": "f170ae4a7e925e78b584388f02981979272e270389baf918c7d2952c0a62dd3b"
+    },
+    {
+      "path": "Views\\MenuRapidoFichaAtualizarView.cs",
+      "export_path": "Views\\MenuRapidoFichaAtualizarView.cs",
+      "raw_sha256": "9f51770b770d46aeea91af0504b6d5d389e638f27a327f725a6ed79e48a87b11"
+    },
+    {
+      "path": "Views\\MenuRapidoListaView.cs",
+      "export_path": "Views\\MenuRapidoListaView.cs",
+      "raw_sha256": "ffd6faeeeff48ccedfd70422409f1b79e4f9fea67d7289604091012993a0b37a"
+    },
+    {
+      "path": "Views\\MenusRapidoView.cs",
+      "export_path": "Views\\MenusRapidoView.cs",
+      "raw_sha256": "118ee2a2b5d2dbf930b417f2ee96231aceceefc74e0d7aab7c21e7c0c1da557d"
+    },
+    {
+      "path": "Views\\MenuViewDetalhes\\IfoodView.cs",
+      "export_path": "Views\\MenuViewDetalhes\\IfoodView.cs",
+      "raw_sha256": "8334bd0ba16e01162840e0d20ca4291914ee02dfbedfea55ab402088c7945694"
+    },
+    {
+      "path": "Views\\MenuViewDetalhes\\ItensMenuView.cs",
+      "export_path": "Views\\MenuViewDetalhes\\ItensMenuView.cs",
+      "raw_sha256": "5279c477c3efbf6a229d7d22597d2b7a060c59f9cfc95899ec8bb6efe00282cd"
+    },
+    {
+      "path": "Views\\MenuViewDetalhes\\MenuView.cs",
+      "export_path": "Views\\MenuViewDetalhes\\MenuView.cs",
+      "raw_sha256": "48b6e426725e4343b24328a27d8bbf75df3aff91439fb7df8e9c88e669638d28"
+    },
+    {
+      "path": "Views\\OrdenarMenuFichaView.cs",
+      "export_path": "Views\\OrdenarMenuFichaView.cs",
+      "raw_sha256": "f13e463e4ee1f9c6c12dd1b99bcc3b6da681d974753676f75223ef9bfffd6924"
+    }
+  ]
+}

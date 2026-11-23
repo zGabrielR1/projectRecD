@@ -1,0 +1,107 @@
+{
+  "name": "Modulo.Mensagens",
+  "baseline": "baseline\\Modulo.Mensagens.dll",
+  "baseline_sha256": "dbeb8cd9841dc231e80c8891d476e7f31cc060516561d3457d4dfbbaaae2f157",
+  "export_project": "recovered\\SuiteG6\\Modulo.Mensagens\\Modulo.Mensagens.csproj",
+  "sources": [
+    {
+      "path": "_alternative/WholeModule.cs",
+      "export_path": "alternative whole-module ILSpy decompilation",
+      "raw_sha256": "4b17876519018b81beeb1b3f08db5e79dfc1b9d52d4470a3180bb472e89c015d"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "Fresh whole-module ILSpy export; original source retained",
+      "input_sha256": "dbeb8cd9841dc231e80c8891d476e7f31cc060516561d3457d4dfbbaaae2f157"
+    },
+    {
+      "kind": "Replace illegal explicit base-type this qualifiers with base member access",
+      "occurrences": 5
+    },
+    {
+      "kind": "Resolve report or permission descriptor import aliases and protected report Dispose call",
+      "aliases": {
+        "TextAlignment": "DevExpress.XtraPrinting.TextAlignment"
+      }
+    },
+    {
+      "kind": "Express lowered enum switch as integer offset before numeric case labels"
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Mensagens.g.resources",
+      "file": "0000.bin",
+      "bytes": 9156,
+      "sha256": "5312cecb1956f2a0f7574f82111805999db33a7743b14d97613b81967496f6f4"
+    },
+    {
+      "name": "Otus.Modulo.Mensagens.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Mensagens.Report.RelatorioConsultaProdutoIMendes.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Mensagens.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 280,
+      "sha256": "93672d32342ae095e8c9a2163dd1bccae8d0771e6e61a4612c1fe3cfedfa06a4"
+    }
+  ],
+  "generated_stubs": false,
+  "original_export_sources": [
+    {
+      "path": "MensagemModulo.cs",
+      "export_path": "MensagemModulo.cs",
+      "raw_sha256": "6ffe4d8888e9a171da961b11add748a6c64990e798abad80c90899b28d121e5a"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "5519036cec2034a4809c408693054039eb2edc65d97f14ae833a4d562b9f8a97"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "eef05f74d4a94eac3c6199502e0de8271a1c5272bf5ab0640952e56410a6fc89"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "b0c51b25867fefe43212c8b2aacbc98be486be855ce68131558f523488851bf9"
+    },
+    {
+      "path": "Report\\RelatorioConsultaProdutoIMendes.cs",
+      "export_path": "Report\\RelatorioConsultaProdutoIMendes.cs",
+      "raw_sha256": "a1b7500254cfdc31ebafb48a768b9fc80eefe3a68c5c13678f1da420555d9ebb"
+    },
+    {
+      "path": "ViewModels\\MensagensViewModel.cs",
+      "export_path": "ViewModels\\MensagensViewModel.cs",
+      "raw_sha256": "73a11c3fbc41b7466c988915764aac229f5b005c01d4106cd79396ae9f04f6ee"
+    },
+    {
+      "path": "ViewModels\\NotificacaoListaViewModel.cs",
+      "export_path": "ViewModels\\NotificacaoListaViewModel.cs",
+      "raw_sha256": "2f47d40f5f5ace3f771f139895165714518df033ca9a2d7d065c7693246d849b"
+    },
+    {
+      "path": "Views\\MensagensView.cs",
+      "export_path": "Views\\MensagensView.cs",
+      "raw_sha256": "8456fcbe36ca6ddb052384b38d23c55c430dbac6649f3d1ac51494750a30c10e"
+    },
+    {
+      "path": "Views\\NotificacaoListaView.cs",
+      "export_path": "Views\\NotificacaoListaView.cs",
+      "raw_sha256": "7482896350a2cd0b88682ec4d0572fcbcbcb7959e92960d24cfc0aeebec952f4"
+    }
+  ]
+}

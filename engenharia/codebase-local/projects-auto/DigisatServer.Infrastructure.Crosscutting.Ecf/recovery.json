@@ -1,0 +1,741 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.Ecf",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.Ecf.dll",
+  "baseline_sha256": "e5fb5be79c9d0fd4c76dab043e4c96095d385a416158667c91a5a5e7dae998d5",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Ecf\\DigisatServer.Infrastructure.Crosscutting.Ecf.csproj",
+  "sources": [
+    {
+      "path": "-Module-{BA97F56D-CE22-4C82-B81A-94594AEFD0A1}.cs",
+      "export_path": "-Module-{BA97F56D-CE22-4C82-B81A-94594AEFD0A1}.cs",
+      "raw_sha256": "6f1fa9ace3600f8d31079664d8fa964b92c144e03c9e97d30773f8a773073a92"
+    },
+    {
+      "path": "Classes\\Auxiliar.cs",
+      "export_path": "Classes\\Auxiliar.cs",
+      "raw_sha256": "cb568bb96219749fdbefd46f4accc99b2a443847b9ea2104f0b0c7c54a10e70a"
+    },
+    {
+      "path": "Classes\\Bematech\\Bematech.cs",
+      "export_path": "Classes\\Bematech\\Bematech.cs",
+      "raw_sha256": "ca994f11aabdc286bafd8f33a9702c0b359b080bf144dfd17b3b07432f331647"
+    },
+    {
+      "path": "Classes\\Bematech\\BematechDeclaracoes.cs",
+      "export_path": "Classes\\Bematech\\BematechDeclaracoes.cs",
+      "raw_sha256": "73e25d1ba8ebb44f8712c343f488d20bca706ea0865f299df9267c58602195da"
+    },
+    {
+      "path": "Classes\\Bematech\\BematechDefault.cs",
+      "export_path": "Classes\\Bematech\\BematechDefault.cs",
+      "raw_sha256": "5374d7efa4e606296a4b19115357433835b5a830db07928ea2d78015a3e39b02"
+    },
+    {
+      "path": "Classes\\Bematech\\BematechMp4000.cs",
+      "export_path": "Classes\\Bematech\\BematechMp4000.cs",
+      "raw_sha256": "9676d7e5c566e4782024631ff9cf6eafcaac2cb1930b376a6e9d2c45b26d93c3"
+    },
+    {
+      "path": "Classes\\Bematech\\BematechMp4200.cs",
+      "export_path": "Classes\\Bematech\\BematechMp4200.cs",
+      "raw_sha256": "88b6af8c08f8497527d892111f6871f6c9fbaee876261b999eefc2512b7cc9bd"
+    },
+    {
+      "path": "Classes\\Bematech\\BematechMp7000.cs",
+      "export_path": "Classes\\Bematech\\BematechMp7000.cs",
+      "raw_sha256": "fb3148cfdc5eae61287fe26df6c72acc06b1e4108c8a39a367b70ba527194332"
+    },
+    {
+      "path": "Classes\\Daruma\\Daruma.cs",
+      "export_path": "Classes\\Daruma\\Daruma.cs",
+      "raw_sha256": "9062b53a49ffda31232a10e5fee342a8b7de303f5b19b80b0d78a482455db77f"
+    },
+    {
+      "path": "Classes\\Daruma\\DarumaDeclaracoes.cs",
+      "export_path": "Classes\\Daruma\\DarumaDeclaracoes.cs",
+      "raw_sha256": "a86e10c3441f5dac97b541f265c404e0ecbb8f9eb837a066ab7d443b4b95db87"
+    },
+    {
+      "path": "Classes\\Daruma\\DarumaDefault.cs",
+      "export_path": "Classes\\Daruma\\DarumaDefault.cs",
+      "raw_sha256": "041c8c37202dfe9f3f23ffb48a00c362b0a7c2665bf379f0c32973d3b9edb5d8"
+    },
+    {
+      "path": "Classes\\EcfAliquota.cs",
+      "export_path": "Classes\\EcfAliquota.cs",
+      "raw_sha256": "fadb06a5d99857945c49cbe58f2abff40f1335581ace4faf3343c6cfa191ebf1"
+    },
+    {
+      "path": "Classes\\EcfArquivoBinarioMemoriaFiscalData.cs",
+      "export_path": "Classes\\EcfArquivoBinarioMemoriaFiscalData.cs",
+      "raw_sha256": "f11ae8edde355404e6e3e139fb43cbcecfefa08cf8fbfd4ad4d9512981ae5ce6"
+    },
+    {
+      "path": "Classes\\EcfArquivoBinarioMemoriaFitaDetalheData.cs",
+      "export_path": "Classes\\EcfArquivoBinarioMemoriaFitaDetalheData.cs",
+      "raw_sha256": "46aefcb32869124e746cc627ede9bff79a61105fa841c69563334fc579ded0e7"
+    },
+    {
+      "path": "Classes\\EcfArquivoEspelhoMemoriaFitaDetalhe.cs",
+      "export_path": "Classes\\EcfArquivoEspelhoMemoriaFitaDetalhe.cs",
+      "raw_sha256": "794b4a584c4761231b376b81a7f0e941d796ca3ffd10bfef57d07caf74f110b1"
+    },
+    {
+      "path": "Classes\\EcfArquivoEspelhoMemoriaFitaDetalheCoo.cs",
+      "export_path": "Classes\\EcfArquivoEspelhoMemoriaFitaDetalheCoo.cs",
+      "raw_sha256": "7e624aca3151004aec391284cb1321e1b13cf0ba145b98e3509079a85a288250"
+    },
+    {
+      "path": "Classes\\EcfArquivoEspelhoMemoriaFitaDetalheData.cs",
+      "export_path": "Classes\\EcfArquivoEspelhoMemoriaFitaDetalheData.cs",
+      "raw_sha256": "2d51e246162e99cbf5c9e11da2b5ffab6e513c38fae2ef8c13e0764cd69a05d3"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaFiscal.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaFiscal.cs",
+      "raw_sha256": "a2661d056ed4b33f99d93b48c6f677dd47291c1ea868147685539411c9f17727"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaFiscalCoo.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaFiscalCoo.cs",
+      "raw_sha256": "a09f5fe7aaebc6a8fa17c27b7a4b5fde70af4df0611bb880719e6d8e0c701d77"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaFiscalCrz.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaFiscalCrz.cs",
+      "raw_sha256": "eb800d83a441248da9a25357cae8f15fa9a148e6cb073c32d7341f88c38c5549"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaFiscalData.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaFiscalData.cs",
+      "raw_sha256": "4d23eeae09763a39583d5559416bc72ed4b2aa25debaea1da21969334ee6c4f8"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaFitaDetalhe.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaFitaDetalhe.cs",
+      "raw_sha256": "c542435af7e20933b1508ab5c567a51a01a869b4e31b79940877976e265b6eee"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaFitaDetalheCoo.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaFitaDetalheCoo.cs",
+      "raw_sha256": "b20ecdaaaac0cda5e079a5ade82afde1d094006a29b0210877a8dbd04097e515"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaFitaDetalheData.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaFitaDetalheData.cs",
+      "raw_sha256": "fb7a7299f312dd7f3c1d2bb126624dbd6d8edc7eff3623259b472b024a4bd4f0"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaFitaDetalheTotal.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaFitaDetalheTotal.cs",
+      "raw_sha256": "d5bcc0efee647516bb007292747268c25d8ade49bd35deb96dd583becdba7cc0"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaTotal.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaTotal.cs",
+      "raw_sha256": "98fe9e3730ee2f6201c7fcf614265a476cdae79dbbcfa3829afe3c991098919b"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaTotalCoo.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaTotalCoo.cs",
+      "raw_sha256": "6754c250220125c7147e36009302ecc15c4bf0ae0439f4c467cef63b73e30bcf"
+    },
+    {
+      "path": "Classes\\EcfArquivoMemoriaTotalData.cs",
+      "export_path": "Classes\\EcfArquivoMemoriaTotalData.cs",
+      "raw_sha256": "22a9c7bc6738f429bee54a37aca4f51b1a14cdcb884264c95a19c682e697544d"
+    },
+    {
+      "path": "Classes\\EcfBase.cs",
+      "export_path": "Classes\\EcfBase.cs",
+      "raw_sha256": "4ce29b7b33319ce62af23852832f891728bbc84e2fe16b4e0fd6ba3a7af651c9"
+    },
+    {
+      "path": "Classes\\EcfCheque.cs",
+      "export_path": "Classes\\EcfCheque.cs",
+      "raw_sha256": "d6b32e7c3ecc6044f42adf49e8d179e1a84842dd1d2653b9a00f99b233be5d7b"
+    },
+    {
+      "path": "Classes\\EcfComprovanteCreditoDebito.cs",
+      "export_path": "Classes\\EcfComprovanteCreditoDebito.cs",
+      "raw_sha256": "1cb012d0323bcae5b33c8df07ffadd9d0f2738c1f4c17a5a64752567fa85f7d5"
+    },
+    {
+      "path": "Classes\\EcfComprovanteNaoFiscal.cs",
+      "export_path": "Classes\\EcfComprovanteNaoFiscal.cs",
+      "raw_sha256": "fa3f6919c61181103c2d9b8a883db9bd90a4948a34662f9ab12cf0093b1c98c6"
+    },
+    {
+      "path": "Classes\\EcfConsumidor.cs",
+      "export_path": "Classes\\EcfConsumidor.cs",
+      "raw_sha256": "8e4930ee4ab698bda8a1c98b2dad8e0e64cb4ef19ca0551701c6793763baede2"
+    },
+    {
+      "path": "Classes\\EcfDadosRecuperadosReducaoZ.cs",
+      "export_path": "Classes\\EcfDadosRecuperadosReducaoZ.cs",
+      "raw_sha256": "dc3f9d6518a16c36a0bbc4af7578065af796d2c644a93c0775146c8e073e0033"
+    },
+    {
+      "path": "Classes\\EcfDadosReducaoZ.cs",
+      "export_path": "Classes\\EcfDadosReducaoZ.cs",
+      "raw_sha256": "25f962675329b61f0ce7a77ad77acb076bb7413a6ece9f4edf5ac4d5bafcef4c"
+    },
+    {
+      "path": "Classes\\EcfDefault.cs",
+      "export_path": "Classes\\EcfDefault.cs",
+      "raw_sha256": "c2f90b35040d283519873c104266fca90d28e47757a61cdea65bef8d77d60589"
+    },
+    {
+      "path": "Classes\\EcfDescontoAcrescimo.cs",
+      "export_path": "Classes\\EcfDescontoAcrescimo.cs",
+      "raw_sha256": "dc2178ca61e5819e8003988fcc48a5fa33fc06dcba4aed90b83af857ae03733a"
+    },
+    {
+      "path": "Classes\\EcfDescontoAcrescimoItem.cs",
+      "export_path": "Classes\\EcfDescontoAcrescimoItem.cs",
+      "raw_sha256": "5162c0fa5fb57cdf3a21315da7527422a9459d77f35227a6f04ae84c6dff2e3b"
+    },
+    {
+      "path": "Classes\\EcfEspeciePagamento.cs",
+      "export_path": "Classes\\EcfEspeciePagamento.cs",
+      "raw_sha256": "5e9a55f642189f4145ef97c290cbe01ac05d40f16cc2a676f465efc17167fe29"
+    },
+    {
+      "path": "Classes\\EcfFactory.cs",
+      "export_path": "Classes\\EcfFactory.cs",
+      "raw_sha256": "e617a012986779b2300ce4bd80f083d25746482082d0f157ab5c2dce077c7d06"
+    },
+    {
+      "path": "Classes\\EcfLeituraMemoriaFiscal.cs",
+      "export_path": "Classes\\EcfLeituraMemoriaFiscal.cs",
+      "raw_sha256": "f5bc86ce5a8de0908cebdd426b94538b1466d0f1349f68a701e0d6c3545152d1"
+    },
+    {
+      "path": "Classes\\EcfLeituraMemoriaFiscalCrz.cs",
+      "export_path": "Classes\\EcfLeituraMemoriaFiscalCrz.cs",
+      "raw_sha256": "63d0dc91768d97cd5309c520938533321285947832d04e740b1c7706c5d6255f"
+    },
+    {
+      "path": "Classes\\EcfLeituraMemoriaFiscalData.cs",
+      "export_path": "Classes\\EcfLeituraMemoriaFiscalData.cs",
+      "raw_sha256": "63e403fe3e29defe864508726fc9eb0e8e710282dc4a5b9aa02c20e09a84d4dd"
+    },
+    {
+      "path": "Classes\\EcfMensagemPromocional.cs",
+      "export_path": "Classes\\EcfMensagemPromocional.cs",
+      "raw_sha256": "b5e6a86c8881f5c77227579506cac5f743ad2a679469b83d26a60fa3632c9d44"
+    },
+    {
+      "path": "Classes\\EcfProdutoServico.cs",
+      "export_path": "Classes\\EcfProdutoServico.cs",
+      "raw_sha256": "8dd948e9b6815af6a3c64bfcbc11723731de18b2e6c588a126e45cc22429c081"
+    },
+    {
+      "path": "Classes\\EcfRegistrarItemComprovanteNaoFiscal.cs",
+      "export_path": "Classes\\EcfRegistrarItemComprovanteNaoFiscal.cs",
+      "raw_sha256": "41bf47198b23f3022e7bd1f971317a6207b4fada8f5b719be1486e1f21dbc970"
+    },
+    {
+      "path": "Classes\\EcfRelatorioGerencial.cs",
+      "export_path": "Classes\\EcfRelatorioGerencial.cs",
+      "raw_sha256": "47a5dc809a35aa242061bb673110fd1667abfc5d70bb71a0e247ce162e70d696"
+    },
+    {
+      "path": "Classes\\Elgin\\Elgin.cs",
+      "export_path": "Classes\\Elgin\\Elgin.cs",
+      "raw_sha256": "0fd4f7f63b16386f473e0819fad8071793ff4382133e963c6a9543e438f2b956"
+    },
+    {
+      "path": "Classes\\Elgin\\ElginDeclaracoes.cs",
+      "export_path": "Classes\\Elgin\\ElginDeclaracoes.cs",
+      "raw_sha256": "4cecc3ab57f8a7f670fe673604334dc7a7a75c9aacbfdc4c73ba585feedc59dd"
+    },
+    {
+      "path": "Classes\\Elgin\\ElginDefault.cs",
+      "export_path": "Classes\\Elgin\\ElginDefault.cs",
+      "raw_sha256": "dc09328e794b127a41ecc7f16745274a33f2903483f91a481eefc218daf00ff6"
+    },
+    {
+      "path": "Classes\\Epson\\Epson.cs",
+      "export_path": "Classes\\Epson\\Epson.cs",
+      "raw_sha256": "604955d3e3972452d93c1d17c7671317f0ce5bda65ffdd0ae8d65cd69281e15c"
+    },
+    {
+      "path": "Classes\\Epson\\EpsonBase.cs",
+      "export_path": "Classes\\Epson\\EpsonBase.cs",
+      "raw_sha256": "0327751e0ee4d475d600888da5fbf91cbe7ffdcc0c7d2586af7e83a6c9ba3f24"
+    },
+    {
+      "path": "Classes\\Epson\\EpsonDeclaracoes.cs",
+      "export_path": "Classes\\Epson\\EpsonDeclaracoes.cs",
+      "raw_sha256": "c3320efda30462f34a3185ec4bd7d1517589b08521d53448db26008692998e7a"
+    },
+    {
+      "path": "Classes\\Epson\\EpsonDefault.cs",
+      "export_path": "Classes\\Epson\\EpsonDefault.cs",
+      "raw_sha256": "2e8101deaf62117c0fada4a174462ccf145bfc627789b6b32552f58227f2c176"
+    },
+    {
+      "path": "Classes\\Epson\\EpsonTmh6000Fbiii.cs",
+      "export_path": "Classes\\Epson\\EpsonTmh6000Fbiii.cs",
+      "raw_sha256": "30d26b8d1dbe9f4e742ce8c360b7bef7d3b3dbc88914feaec89d7f46bc2f3eeb"
+    },
+    {
+      "path": "Classes\\Epson\\EpsonTmt800F.cs",
+      "export_path": "Classes\\Epson\\EpsonTmt800F.cs",
+      "raw_sha256": "1abd0e6c5e5f4708f2140920f835c53bc7b57a6399c3e1a56e5a964957d9c120"
+    },
+    {
+      "path": "Classes\\Epson\\EpsonTmt81Fbiii.cs",
+      "export_path": "Classes\\Epson\\EpsonTmt81Fbiii.cs",
+      "raw_sha256": "a9d25151b9200c91c5fbef584790112729bc1e3ebe9f7aac01ce4ed671c580d6"
+    },
+    {
+      "path": "Classes\\Epson\\EpsonTmt88Fbiii.cs",
+      "export_path": "Classes\\Epson\\EpsonTmt88Fbiii.cs",
+      "raw_sha256": "a15fc50393a16cce2eaf68283bb541d7e9061a27b2d2704bb6fb5f6742015e7a"
+    },
+    {
+      "path": "Classes\\Epson\\EpsonTmt900F.cs",
+      "export_path": "Classes\\Epson\\EpsonTmt900F.cs",
+      "raw_sha256": "0adc266d1a92cea7eefc2996d093e505844408755ce6a2445493ea4d7ab71806"
+    },
+    {
+      "path": "Classes\\Sweda\\Sweda.cs",
+      "export_path": "Classes\\Sweda\\Sweda.cs",
+      "raw_sha256": "ca85a5fa582e17fc4e7a471ed8e67f561ba942d63d896b8438a5d1d69521230d"
+    },
+    {
+      "path": "Classes\\Sweda\\SwedaDeclaracoes.cs",
+      "export_path": "Classes\\Sweda\\SwedaDeclaracoes.cs",
+      "raw_sha256": "4569bd7ab5f1fec89d3b05efbfeda02be6c4172b776fd40a3dc1728790ae06af"
+    },
+    {
+      "path": "Classes\\Sweda\\SwedaDefault.cs",
+      "export_path": "Classes\\Sweda\\SwedaDefault.cs",
+      "raw_sha256": "66c11c579121dbaae5b1a590473fa53d6c12bff28420d346e7d2bd1c887e1738"
+    },
+    {
+      "path": "Classes\\Zpm\\Zpm.cs",
+      "export_path": "Classes\\Zpm\\Zpm.cs",
+      "raw_sha256": "13fb89738ad2a2c9f505d621cac650452bcfd49a51a0e363a1a93039818375bd"
+    },
+    {
+      "path": "Classes\\Zpm\\ZpmBase.cs",
+      "export_path": "Classes\\Zpm\\ZpmBase.cs",
+      "raw_sha256": "c1156ceb2e3a317abd886c731def0f4d9d8e65d475522cdbfd4eea1f8cd1ffd8"
+    },
+    {
+      "path": "Classes\\Zpm\\ZpmDataregisQuick.cs",
+      "export_path": "Classes\\Zpm\\ZpmDataregisQuick.cs",
+      "raw_sha256": "cc13aaf7dcdc92e23f17e81b12919d171aa0199f82b3e9f5dcea62de0e648a4a"
+    },
+    {
+      "path": "Classes\\Zpm\\ZpmDeclaracoes.cs",
+      "export_path": "Classes\\Zpm\\ZpmDeclaracoes.cs",
+      "raw_sha256": "fe75d6af41b87f6631a035d04d191a3eaaea5b5e59900acdc1f60b9a62a481ee"
+    },
+    {
+      "path": "Classes\\Zpm\\ZpmDefault.cs",
+      "export_path": "Classes\\Zpm\\ZpmDefault.cs",
+      "raw_sha256": "b84fe11857c282732944149d9b6bbd9efcafd9efac98fe374cc03645fdd0edf8"
+    },
+    {
+      "path": "Events\\BooleanEventArgs.cs",
+      "export_path": "Events\\BooleanEventArgs.cs",
+      "raw_sha256": "30ea9d62e0f869c6de4c9f4cdb4499719d0e2fc101ac692d8e1b03d26fa77602"
+    },
+    {
+      "path": "Events\\DataHoraEventArgs.cs",
+      "export_path": "Events\\DataHoraEventArgs.cs",
+      "raw_sha256": "34388bab8092555227b654f94a684efde5f8bfc5a7f33962e5559e6f75a83a4b"
+    },
+    {
+      "path": "Events\\EcfAntesEfetuarPagamentoCupomFiscalEventArgs.cs",
+      "export_path": "Events\\EcfAntesEfetuarPagamentoCupomFiscalEventArgs.cs",
+      "raw_sha256": "5c8b72a723604a07709e88cdeb06d04b8961a10ba5c3edf429dbe12d6c1f6a4f"
+    },
+    {
+      "path": "Events\\EcfAntesEmitirReducaoZEventArgs.cs",
+      "export_path": "Events\\EcfAntesEmitirReducaoZEventArgs.cs",
+      "raw_sha256": "86d1b4b357258f1f844edb4cfb71b3e5059ec1f786d5ac4f24ed1e3ba2173a9c"
+    },
+    {
+      "path": "Events\\EcfDepoisAbrirComprovanteCreditoDebitoEventArgs.cs",
+      "export_path": "Events\\EcfDepoisAbrirComprovanteCreditoDebitoEventArgs.cs",
+      "raw_sha256": "0597db1cb19db418bd49cedb4cd97063372e9a9ed7d8dec1923a4fad760c7164"
+    },
+    {
+      "path": "Events\\EcfDepoisAbrirComprovanteNaoFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisAbrirComprovanteNaoFiscalEventArgs.cs",
+      "raw_sha256": "bc7e2cb20574a1ea121401a844d486d819adaa23b6f249158b6ee71b5ca32bf6"
+    },
+    {
+      "path": "Events\\EcfDepoisAbrirCupomFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisAbrirCupomFiscalEventArgs.cs",
+      "raw_sha256": "0c09f9f528c3efa4b5a7522e19ad0795c9c047df2cff71ce56249487ecb2a536"
+    },
+    {
+      "path": "Events\\EcfDepoisAbrirJornadaFiscalAposReducaoZEventArgs.cs",
+      "export_path": "Events\\EcfDepoisAbrirJornadaFiscalAposReducaoZEventArgs.cs",
+      "raw_sha256": "286422287a657e84600e896c2b9b9ca042dda417c1e0d2da90ef4c71e49734b1"
+    },
+    {
+      "path": "Events\\EcfDepoisAbrirJornadaFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisAbrirJornadaFiscalEventArgs.cs",
+      "raw_sha256": "dafc27ef3530d32f40da2966763270014b3152889f940036debda62308c53045"
+    },
+    {
+      "path": "Events\\EcfDepoisAbrirRelatorioGerencialEventArgs.cs",
+      "export_path": "Events\\EcfDepoisAbrirRelatorioGerencialEventArgs.cs",
+      "raw_sha256": "a7511532265e59144d3d111e6750c00fcd2fea7602f12ad2410b158962c3ff2f"
+    },
+    {
+      "path": "Events\\EcfDepoisCancelarComprovanteNaoFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisCancelarComprovanteNaoFiscalEventArgs.cs",
+      "raw_sha256": "17535fb607212383d58008946914e3ea2a8191cf3596160eaeba00ad562e4dcc"
+    },
+    {
+      "path": "Events\\EcfDepoisCancelarCupomFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisCancelarCupomFiscalEventArgs.cs",
+      "raw_sha256": "d1d7f68f92dfb573aa7d51a66784c7afecf20488e05fd53085a7fff692fd1097"
+    },
+    {
+      "path": "Events\\EcfDepoisCancelarItemComprovanteNaoFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisCancelarItemComprovanteNaoFiscalEventArgs.cs",
+      "raw_sha256": "73b95c7e808713f29435f21a4151dc48c08141c281f470f276fd1d8581516451"
+    },
+    {
+      "path": "Events\\EcfDepoisCancelarItemCupomFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisCancelarItemCupomFiscalEventArgs.cs",
+      "raw_sha256": "633156b152e88c3bb624af9a988dc1d6a4bf719bbb0db41f79d00d8f750dbfeb"
+    },
+    {
+      "path": "Events\\EcfDepoisCarregarDadosReducaoZEventArgs.cs",
+      "export_path": "Events\\EcfDepoisCarregarDadosReducaoZEventArgs.cs",
+      "raw_sha256": "1a356641accc645f37fcde730ef61b351bfd6429c086018150bda5412da38a95"
+    },
+    {
+      "path": "Events\\EcfDepoisEfetuarPagamentoComprovanteNaoFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEfetuarPagamentoComprovanteNaoFiscalEventArgs.cs",
+      "raw_sha256": "ade160d2dc666691bc341cc818e478852a3498614160bc236fc311fcac4935a5"
+    },
+    {
+      "path": "Events\\EcfDepoisEfetuarPagamentoCupomFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEfetuarPagamentoCupomFiscalEventArgs.cs",
+      "raw_sha256": "ffa8393e06380b06186c4bfe27a456122566a915b04e868473a1eddf0c535bc9"
+    },
+    {
+      "path": "Events\\EcfDepoisEmitirDocumentoBaseEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEmitirDocumentoBaseEventArgs.cs",
+      "raw_sha256": "62d1f5b71e6a9eb63a5f7772b0ca5a10b8e2d3389dfb0b521b7e1f9cb08e836f"
+    },
+    {
+      "path": "Events\\EcfDepoisEmitirLeituraMemoriaFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEmitirLeituraMemoriaFiscalEventArgs.cs",
+      "raw_sha256": "4b72bcc52ab96711d66062abe58b7856a04a463bff620a05a29d746ddd1e5e3d"
+    },
+    {
+      "path": "Events\\EcfDepoisEmitirLeituraXEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEmitirLeituraXEventArgs.cs",
+      "raw_sha256": "20c6ae9f4fed6b51f0c75aa9c9e4fc2d6f222736c8bc983fbb709bdab99c720d"
+    },
+    {
+      "path": "Events\\EcfDepoisEmitirReducaoZEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEmitirReducaoZEventArgs.cs",
+      "raw_sha256": "e5c2322a86e80d0800b38981958a5f6be9b253decf57b320b691739cc7c6b8bf"
+    },
+    {
+      "path": "Events\\EcfDepoisEmitirSangriaEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEmitirSangriaEventArgs.cs",
+      "raw_sha256": "caad7b4bdd0a027b7530b0d2a9df72904206c660e6bcb734e723a0450f9550cc"
+    },
+    {
+      "path": "Events\\EcfDepoisEmitirSuprimentoEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEmitirSuprimentoEventArgs.cs",
+      "raw_sha256": "de96b04e65bbe6ec3e00ec0468c7558f7e917b11465a65a525ff239a960e2b22"
+    },
+    {
+      "path": "Events\\EcfDepoisEncerrarComprovanteNaoFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEncerrarComprovanteNaoFiscalEventArgs.cs",
+      "raw_sha256": "27104530978c94795cdf03eaeab98fc79451ee0fd0baa2d8589c1b77e739cdef"
+    },
+    {
+      "path": "Events\\EcfDepoisEncerrarCupomFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisEncerrarCupomFiscalEventArgs.cs",
+      "raw_sha256": "fb37faade8f84cf05a8c7d75bea5a4a518b91c5f728a32cc40a3c67809567e15"
+    },
+    {
+      "path": "Events\\EcfDepoisGerarArquivoBinarioMemoriaFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisGerarArquivoBinarioMemoriaFiscalEventArgs.cs",
+      "raw_sha256": "ea924640e7ce6251d2192db44c50ff2f6b59c2fff146cf02fad7c650c0dbfb24"
+    },
+    {
+      "path": "Events\\EcfDepoisGerarArquivoBinarioMemoriaFitaDetalheEventArgs.cs",
+      "export_path": "Events\\EcfDepoisGerarArquivoBinarioMemoriaFitaDetalheEventArgs.cs",
+      "raw_sha256": "fccd0a0467a934e5fa59c2a27222c58e8ed1b3946453c36e70e29a94845a2673"
+    },
+    {
+      "path": "Events\\EcfDepoisGerarArquivoEspelhoMemoriaFitaDetalheEventArgs.cs",
+      "export_path": "Events\\EcfDepoisGerarArquivoEspelhoMemoriaFitaDetalheEventArgs.cs",
+      "raw_sha256": "7e85ba227b7cc03d946811092cc76369fcc127a41529588f8b707af3aad130ae"
+    },
+    {
+      "path": "Events\\EcfDepoisGerarArquivoMemoriaFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisGerarArquivoMemoriaFiscalEventArgs.cs",
+      "raw_sha256": "58b32c646acd216c4668232e7d068581921005484a423eb1778029c3ee969731"
+    },
+    {
+      "path": "Events\\EcfDepoisGerarArquivoMemoriaFitaDetalheEventArgs.cs",
+      "export_path": "Events\\EcfDepoisGerarArquivoMemoriaFitaDetalheEventArgs.cs",
+      "raw_sha256": "fa23638bdeb1462183f0be4d5106524f33c7a63c639dd57c916b7f397c49ad4e"
+    },
+    {
+      "path": "Events\\EcfDepoisGerarArquivoMemoriaTotalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisGerarArquivoMemoriaTotalEventArgs.cs",
+      "raw_sha256": "c9bfe35a838dc2c19198352fd65e356016732deadd85df0cbea6eafdafeffdd4"
+    },
+    {
+      "path": "Events\\EcfDepoisLancarDescontoAcrescimoItemCupomFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisLancarDescontoAcrescimoItemCupomFiscalEventArgs.cs",
+      "raw_sha256": "3cc4f9f5f8f0bb21c9b40ade39f42c63932294e356d7ff2dd19f0452171be113"
+    },
+    {
+      "path": "Events\\EcfDepoisRegistrarItemComprovanteNaoFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisRegistrarItemComprovanteNaoFiscalEventArgs.cs",
+      "raw_sha256": "45a711be5e88e4794148e8477d3476904ff78b50d2a0c6a0e7ad2e08d4282be6"
+    },
+    {
+      "path": "Events\\EcfDepoisTotalizarComprovanteNaoFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisTotalizarComprovanteNaoFiscalEventArgs.cs",
+      "raw_sha256": "6bf9c895c3532274d3215acdf90154f85e2331ac50f72530271d95e5e9d23217"
+    },
+    {
+      "path": "Events\\EcfDepoisTotalizarCupomFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisTotalizarCupomFiscalEventArgs.cs",
+      "raw_sha256": "6e096de9962a661d1f7b658c8d1271776ac304b82c573e0bea9a25fd47f1f0c1"
+    },
+    {
+      "path": "Events\\EcfDepoisVenderCupomFiscalEventArgs.cs",
+      "export_path": "Events\\EcfDepoisVenderCupomFiscalEventArgs.cs",
+      "raw_sha256": "3ff059b7f0aa4e30aa6a4a082f08f49de3c77fdea01b6253812a91a24cb4bf61"
+    },
+    {
+      "path": "Events\\EcfDocumentoAbertoEventArgs.cs",
+      "export_path": "Events\\EcfDocumentoAbertoEventArgs.cs",
+      "raw_sha256": "229d0b5bc545f64d0f6b72155ffa7b60df26dcee07b606233a1a5d3cb98bda69"
+    },
+    {
+      "path": "Events\\EcfErroEventArgs.cs",
+      "export_path": "Events\\EcfErroEventArgs.cs",
+      "raw_sha256": "c124f6cebf41fcf3db0622b528ba43d163f8f7d885715ad5d477dde249be0f29"
+    },
+    {
+      "path": "Events\\EcfEstadoDocumentoAbertoEventArgs.cs",
+      "export_path": "Events\\EcfEstadoDocumentoAbertoEventArgs.cs",
+      "raw_sha256": "60fedd8c496ec92437c28a894fb5535683e886f89f9ddaf22e604302e647f25f"
+    },
+    {
+      "path": "Exceptions\\EcfArquivoNaoExisteException.cs",
+      "export_path": "Exceptions\\EcfArquivoNaoExisteException.cs",
+      "raw_sha256": "1a576473a38c190d7d28eefe83953f1733e1209d3be4490b339f6c8e911f93b7"
+    },
+    {
+      "path": "Exceptions\\EcfBaseException.cs",
+      "export_path": "Exceptions\\EcfBaseException.cs",
+      "raw_sha256": "780ca53a9185c76c27bc54917e5a3688d0d0d35a964cad2fedb9250c53db6e54"
+    },
+    {
+      "path": "Exceptions\\EcfConsumidorIdentificadoException.cs",
+      "export_path": "Exceptions\\EcfConsumidorIdentificadoException.cs",
+      "raw_sha256": "515a1ac8943c672223b1a26e0a00bb50456d30b95050e898fcd66619d0139a19"
+    },
+    {
+      "path": "Exceptions\\EcfConsumidorNaoIdentificadoException.cs",
+      "export_path": "Exceptions\\EcfConsumidorNaoIdentificadoException.cs",
+      "raw_sha256": "27bae06f5239fcfc34d81b9ac06e5d29d1d3cc1552d63a0dd9851a3523dab11e"
+    },
+    {
+      "path": "Exceptions\\EcfFactoryIniciarComunicacaoException.cs",
+      "export_path": "Exceptions\\EcfFactoryIniciarComunicacaoException.cs",
+      "raw_sha256": "098f1fabc21a537fd879c5ff6ef15ab55fdb25a469317b557fc4c110f0dcd7ea"
+    },
+    {
+      "path": "Exceptions\\EcfFuncaoNaoSuportadaException.cs",
+      "export_path": "Exceptions\\EcfFuncaoNaoSuportadaException.cs",
+      "raw_sha256": "79831d912a4b6622a8f31d4695ced194342397568cb541480a9a826acaee0508"
+    },
+    {
+      "path": "Exceptions\\EcfGrandeTotalInvalidoException.cs",
+      "export_path": "Exceptions\\EcfGrandeTotalInvalidoException.cs",
+      "raw_sha256": "c59b008b92a7367e14b6c34807a3013e7d12643f1d2f084ab8909afe325338d4"
+    },
+    {
+      "path": "Exceptions\\EcfInformacaoInvalidaException.cs",
+      "export_path": "Exceptions\\EcfInformacaoInvalidaException.cs",
+      "raw_sha256": "04d0fcdb57df92a99ab7c036835f0393594c689e497d4cc695d43ac5b11aaa0c"
+    },
+    {
+      "path": "Exceptions\\EcfNumeroFabricacaoInvalidoException.cs",
+      "export_path": "Exceptions\\EcfNumeroFabricacaoInvalidoException.cs",
+      "raw_sha256": "29f73f6b5410acc35ac104a6b2be88994975ac1abb8b8f4f9057b31cf87fce2c"
+    },
+    {
+      "path": "Exceptions\\EcfReducaoZException.cs",
+      "export_path": "Exceptions\\EcfReducaoZException.cs",
+      "raw_sha256": "843f3162836a37e08c17328794ed30e0c2cb801894991f35e46a4246d3ba5530"
+    },
+    {
+      "path": "Exceptions\\SemConfiguracaoEcfException.cs",
+      "export_path": "Exceptions\\SemConfiguracaoEcfException.cs",
+      "raw_sha256": "73fd7a1e53cafef2d411b4f292a562cb501a0164f5ac6a8ddd4c82a2b133a409"
+    },
+    {
+      "path": "Interfaces\\IEcf.cs",
+      "export_path": "Interfaces\\IEcf.cs",
+      "raw_sha256": "2889226046bc192ecb699860ef02744dae0dc8506317dd9ecc1fae8aa0474a80"
+    },
+    {
+      "path": "Interfaces\\IEcfAliquota.cs",
+      "export_path": "Interfaces\\IEcfAliquota.cs",
+      "raw_sha256": "e7f7b9918565f3cce1345703e3840f1c620959c86cdb7b81b688de728f545c14"
+    },
+    {
+      "path": "Interfaces\\IEcfArquivoMemoria.cs",
+      "export_path": "Interfaces\\IEcfArquivoMemoria.cs",
+      "raw_sha256": "6d44e89064473e6da6b6bcee8b0127fcddd9c9327cab8f80da564d360bcf0af9"
+    },
+    {
+      "path": "Interfaces\\IEcfCheque.cs",
+      "export_path": "Interfaces\\IEcfCheque.cs",
+      "raw_sha256": "1ddc245e4d34fd220ae4ced219b45d780fa460ddf15801254df9e9949eab4638"
+    },
+    {
+      "path": "Interfaces\\IEcfComprovanteCreditoDebito.cs",
+      "export_path": "Interfaces\\IEcfComprovanteCreditoDebito.cs",
+      "raw_sha256": "d74dd17b3b95f010df8b3c59eff0d61dab28f57eaae054d240d666591843c85a"
+    },
+    {
+      "path": "Interfaces\\IEcfComprovanteNaoFiscal.cs",
+      "export_path": "Interfaces\\IEcfComprovanteNaoFiscal.cs",
+      "raw_sha256": "259e4445679e1677a552d6630a1af4e4f0f6f907ec63e4bb00e4ad35f44392c0"
+    },
+    {
+      "path": "Interfaces\\IEcfConsumidor.cs",
+      "export_path": "Interfaces\\IEcfConsumidor.cs",
+      "raw_sha256": "9798c1c2738bf84863d0d52780dccba09cd386a416fc3db77362270d0a878ac6"
+    },
+    {
+      "path": "Interfaces\\IEcfDadosReducaoZ.cs",
+      "export_path": "Interfaces\\IEcfDadosReducaoZ.cs",
+      "raw_sha256": "531e525faf3f9676e9b04cc0628bf0afa0ce481661f42133aefa0d6aac74337c"
+    },
+    {
+      "path": "Interfaces\\IEcfDescontoAcrescimo.cs",
+      "export_path": "Interfaces\\IEcfDescontoAcrescimo.cs",
+      "raw_sha256": "ed94fb447f5dafac123640822ddfd8647f135223269c74c144777db95d24d34a"
+    },
+    {
+      "path": "Interfaces\\IEcfDescontoAcrescimoItem.cs",
+      "export_path": "Interfaces\\IEcfDescontoAcrescimoItem.cs",
+      "raw_sha256": "91dd06859437bd3feafcc293ab940b9e144bbfb529cb07d43856dc8f9fe38f4d"
+    },
+    {
+      "path": "Interfaces\\IEcfEspeciePagamento.cs",
+      "export_path": "Interfaces\\IEcfEspeciePagamento.cs",
+      "raw_sha256": "dc9cb912dfdffbf1a75295097ce1e47473cd1c2c2bcf2a7307dada5caa3afc31"
+    },
+    {
+      "path": "Interfaces\\IEcfFactory.cs",
+      "export_path": "Interfaces\\IEcfFactory.cs",
+      "raw_sha256": "d3872dc471778851592e33511895b3fcb08d70660bd5eec14977f578e2894bea"
+    },
+    {
+      "path": "Interfaces\\IEcfLeituraMemoriaFiscal.cs",
+      "export_path": "Interfaces\\IEcfLeituraMemoriaFiscal.cs",
+      "raw_sha256": "872e9ccbbcb85ffdc31814e6cd9308f4df3847a7a2b61382cf78e5614408b6b5"
+    },
+    {
+      "path": "Interfaces\\IEcfMarcaFactory.cs",
+      "export_path": "Interfaces\\IEcfMarcaFactory.cs",
+      "raw_sha256": "3f7f67120f7348bfa3363b5d6e736f3eef5ac63f6e1a7179fec5b3fd7682676a"
+    },
+    {
+      "path": "Interfaces\\IEcfMensagemPromocional.cs",
+      "export_path": "Interfaces\\IEcfMensagemPromocional.cs",
+      "raw_sha256": "c578a80c12eaf4ee9fa01e42b63e57735b45a95fcf4123f1b2a1b035eba64c7a"
+    },
+    {
+      "path": "Interfaces\\IEcfProdutoServico.cs",
+      "export_path": "Interfaces\\IEcfProdutoServico.cs",
+      "raw_sha256": "c9c8287172a2554add388cafc2935c00330016e2ce2306c08b5c9b1c858a9bfa"
+    },
+    {
+      "path": "Interfaces\\IEcfRegistrarItemComprovanteNaoFiscal.cs",
+      "export_path": "Interfaces\\IEcfRegistrarItemComprovanteNaoFiscal.cs",
+      "raw_sha256": "b5b2606b3d9129e646af8a3f5c02ea70530de678fb0fdfdec53764f804d9f0c5"
+    },
+    {
+      "path": "Interfaces\\IEcfRelatorioGerencial.cs",
+      "export_path": "Interfaces\\IEcfRelatorioGerencial.cs",
+      "raw_sha256": "abbaf6a9c5de45eb59a5a88bf76b02c763971b0d63eea443f674d45bb5e59b57"
+    },
+    {
+      "path": "nvJugKW8M8gnlYp5li\\vPsRT38HtQo4NMOnLX.cs",
+      "export_path": "nvJugKW8M8gnlYp5li\\vPsRT38HtQo4NMOnLX.cs",
+      "raw_sha256": "7a2a3d80ca81e404e06d88335e180bbcba80f0d8b0f8b8b90e5485eb5dafe620"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "b7a25673e447ea8e21b720951ff8f5fb2fc58d61f68ca75d096f41508b82598e"
+    },
+    {
+      "path": "rJESFfbqZmZ5ItVQJJ\\fNnSSiGu8FoNmaKvib.cs",
+      "export_path": "rJESFfbqZmZ5ItVQJJ\\fNnSSiGu8FoNmaKvib.cs",
+      "raw_sha256": "82ff5614db4525dda3b9b39404d07084136867ad6490ebf27d7b20267d9ef3f5"
+    },
+    {
+      "path": "tLborhasMPaDgk4rg1\\QwHDrHp8oY3EUeekg0.cs",
+      "export_path": "tLborhasMPaDgk4rg1\\QwHDrHp8oY3EUeekg0.cs",
+      "raw_sha256": "6125335608396d25f8f88bd4ed93c77e826d9ed15922f59bf61135afd0181db8"
+    },
+    {
+      "path": "Types\\ChavesXml.cs",
+      "export_path": "Types\\ChavesXml.cs",
+      "raw_sha256": "ee672aac841ef9657fd5d40bbe961d3417a8d02b0d205294771084960cdd064f"
+    },
+    {
+      "path": "Types\\EcfTipo.cs",
+      "export_path": "Types\\EcfTipo.cs",
+      "raw_sha256": "89b3a648d8047127d465b20bf76006e90c01a193cd60970db4bb81abcbba7da7"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 350
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Ecf.g.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "file": "0001.bin",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "file": "0002.bin",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    }
+  ],
+  "generated_stubs": false
+}

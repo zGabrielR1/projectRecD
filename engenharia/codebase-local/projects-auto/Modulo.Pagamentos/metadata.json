@@ -1,0 +1,40 @@
+{
+  "artifactSha256": "4bf9cf85aaacd8ed25532d2f9fd78429159ea1de104926d9864cc9ddf4ffe6e2",
+  "mvid": "fb82fee2-0265-48f9-9b61-ab9a476e198c",
+  "assembly": "Modulo.Pagamentos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2",
+    "System.Windows.Forms",
+    "PresentationCore",
+    "Prism.Unity.Wpf"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Pagamentos.g.resources",
+      "file": "0000.bin",
+      "bytes": 38602,
+      "sha256": "0b58bf113b29923ab91a55e2bf202893f4d4669a048a5a07499cec04d934a04a"
+    },
+    {
+      "name": "Otus.Modulo.Pagamentos.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

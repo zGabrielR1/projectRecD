@@ -1,0 +1,283 @@
+{
+  "name": "Modulo.SincronizacoesEcommerce",
+  "baseline": "baseline\\Modulo.SincronizacoesEcommerce.dll",
+  "baseline_sha256": "d40a7945daa725ebf8a88586205b149c16bacaf0e8234042039cedd5754c2ac3",
+  "export_project": "recovered\\SuiteG6\\Modulo.SincronizacoesEcommerce\\Modulo.SincronizacoesEcommerce.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "940ef1c38382e441cdd633be0ab0a240b3e1d0103a45cb0525610f238a2a40ad"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "c5546753b10c45896f393653eb2876182634668106f2b7c691f4f6b7d5531a27"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "cae6dcf54de0349d8bdf7d90ecac838a701451e40731270387c95ee9036fb892"
+    },
+    {
+      "path": "SincronizacaoEcommerceModulo.cs",
+      "export_path": "SincronizacaoEcommerceModulo.cs",
+      "raw_sha256": "3388fc9eebc61b6520e853f886b1d7190c0a1dc11bfd0306eefb6e25342f7b12"
+    },
+    {
+      "path": "ViewModels\\EnviarQuantidadesViewModel.cs",
+      "export_path": "ViewModels\\EnviarQuantidadesViewModel.cs",
+      "raw_sha256": "4c3e02463f4b8daa6253de0a7b37f840829e68fff0a0d148d93a3dff3db51364"
+    },
+    {
+      "path": "ViewModels\\ImagemViewModel.cs",
+      "export_path": "ViewModels\\ImagemViewModel.cs",
+      "raw_sha256": "dffffb8c7cfe22d56b6e6236c932d9c14120a28648ebaa4db1e66b8f7e7a2682"
+    },
+    {
+      "path": "ViewModels\\ItemQuantidadeViewModel.cs",
+      "export_path": "ViewModels\\ItemQuantidadeViewModel.cs",
+      "raw_sha256": "494b1b579b73e68d4dd3990d6aa1c74bf8da15d846c7fb227662f68249e317b0"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceAbaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceAbaViewModel.cs",
+      "raw_sha256": "0d9ecfd56104b45464e7f0b847354fe686cde5d9529e1dec72e105d6a76ae4d0"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceEnvioAbaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceEnvioAbaViewModel.cs",
+      "raw_sha256": "0b645c56f095cd1a9ad9615369582c34242d7a5f73ecc8fecabdf7e8fa24349e"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceEnvioViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceEnvioViewModel.cs",
+      "raw_sha256": "6444b0cd8aa1f3c2916a556638322eb7e4210e99af1738c6de137c2285bb061f"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceEspecificacoesAbaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceEspecificacoesAbaViewModel.cs",
+      "raw_sha256": "122d246759eaf0d8ec9192aebd1435ad31229eb0c1aa2a3d256a45d6fbe6b2f6"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceEspecificacoesViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceEspecificacoesViewModel.cs",
+      "raw_sha256": "f83fa0604282471df5427829e046cddb108aa38aa66ae3bc1ab84183d6b9382c"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceFichaTecnicaAbaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceFichaTecnicaAbaViewModel.cs",
+      "raw_sha256": "3ef66d588971700d9a8f1b59645a6015b7cc9c0e39817fe1af34f66de03dc4e8"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceFichaTecnicaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceFichaTecnicaViewModel.cs",
+      "raw_sha256": "3988540f444c28e5bdf4186ed8596c35e8d3f3d32968b20cd65c96dc0ede8c38"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceFichaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceFichaViewModel.cs",
+      "raw_sha256": "b51ca3f9ed1aacbceaa4443579480ff66da8f125d6e4434f880674e2f9329b60"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceFormulario.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceFormulario.cs",
+      "raw_sha256": "8a17e4d947b2daff95e646056aea88244211cb449c2bbb3c01746a0c7f393428"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceGradeAbaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceGradeAbaViewModel.cs",
+      "raw_sha256": "cfda00897c2c7fc016c510acfb8c8e9f9501b6c16f4ea1474a62329ba23d994a"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceGradeFichaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceGradeFichaManutencaoDetalhe.cs",
+      "raw_sha256": "09671440d1f6ea477c6544a5f71c01882d684f4a58b0af36fcd5d2276697b3af"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceGradeLinhaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceGradeLinhaViewModel.cs",
+      "raw_sha256": "f8e2cf347e94b41e9fb36d8299fa8911d39ed8da776486c88a7f07fc22e420c9"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceGradeViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceGradeViewModel.cs",
+      "raw_sha256": "d40011451e31408af2a140a5cf66a49dc2ada88d1337906cf2e493f9d52bd711"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceImagensAbaViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceImagensAbaViewModel.cs",
+      "raw_sha256": "5eefce7a9cdc7b48f59cd84ddd5109c3f1c064ef7d85193172387c3ce14b8f5a"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceImagensViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceImagensViewModel.cs",
+      "raw_sha256": "986296f36bcc6069931d6cde60ac9e7d16b3de38b5cdc77652e954e5cf8c5c0b"
+    },
+    {
+      "path": "ViewModels\\ProdutoEcommerceViewModel.cs",
+      "export_path": "ViewModels\\ProdutoEcommerceViewModel.cs",
+      "raw_sha256": "be1c804d7ed624ec01d067201425994bef77b1b241ae0f8faea4359791e1306a"
+    },
+    {
+      "path": "ViewModels\\ProdutoGradeListaManutencaoDetalhe.cs",
+      "export_path": "ViewModels\\ProdutoGradeListaManutencaoDetalhe.cs",
+      "raw_sha256": "851d80c795836eeeb2999642a71115291a1a7cd292b9785e75aab99fe7d3b1f3"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoEcommerceAbaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoEcommerceAbaViewModel.cs",
+      "raw_sha256": "3b880c859e1e3a4f6083f70aa27f489809243a77c7d37036a1730297437b02de"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoEcommerceFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoEcommerceFichaAdicionarViewModel.cs",
+      "raw_sha256": "e37b27f2b2f9a14953af5c075870df48b58366d5b65e1308caa696b029602faa"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoEcommerceFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoEcommerceFichaAtualizarViewModel.cs",
+      "raw_sha256": "f3b75a7343b42299362a03383c50e26e1dcfc053e133bfac44ca34ac4ed26ea1"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoEcommerceFormulario.cs",
+      "export_path": "ViewModels\\SincronizacaoEcommerceFormulario.cs",
+      "raw_sha256": "125d9403ade9baa4ef30a886d02fe264e53143a1fa2922647a3429289809efc3"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoEcommerceListaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoEcommerceListaViewModel.cs",
+      "raw_sha256": "7942af8559e89fd3f31847c9b6342c7dded347c00264255f0609309dd13082ba"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoEcommerceProdutosAbaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoEcommerceProdutosAbaViewModel.cs",
+      "raw_sha256": "095a8cf5457636c69adf73761037e3299cb374e8fd75a6a751eac1c4d92b3bf3"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoEcommerceProdutosViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoEcommerceProdutosViewModel.cs",
+      "raw_sha256": "8b75a98f89db6b53395b8a2bc355583ab6413f35809f259e09e4d77a70ddb63a"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoEcommerceViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoEcommerceViewModel.cs",
+      "raw_sha256": "6ac42d00ca566ed2e678e6259af5f9c4c80ea85dd7687ab8bb7cb3636043ce7d"
+    },
+    {
+      "path": "ViewModels\\SincronizacaoQuantidadeEcommerceFichaViewModel.cs",
+      "export_path": "ViewModels\\SincronizacaoQuantidadeEcommerceFichaViewModel.cs",
+      "raw_sha256": "c2104df44201d584bc11626259b292dac8480c1d2d05af50ef09a4d173dee482"
+    },
+    {
+      "path": "ViewModels\\SincronizacoesEcommerceViewModel.cs",
+      "export_path": "ViewModels\\SincronizacoesEcommerceViewModel.cs",
+      "raw_sha256": "c0912c4af1bac21769bce880c4a87e6700ff762f7487966ade762e94b3f08738"
+    },
+    {
+      "path": "Views\\ButtonEnviar.cs",
+      "export_path": "Views\\ButtonEnviar.cs",
+      "raw_sha256": "7ffe8510ed997627700b817f9f11f63e369949cfeb594c28375af366c48fa2ad"
+    },
+    {
+      "path": "Views\\ProdutoEcommerceFichaView.cs",
+      "export_path": "Views\\ProdutoEcommerceFichaView.cs",
+      "raw_sha256": "c14d18c3d769d4e751d681352e55cdb620e652c517bb2e9fe331c31ce07ffc7c"
+    },
+    {
+      "path": "Views\\SincronizacaoEcommerceFichaAdicionarView.cs",
+      "export_path": "Views\\SincronizacaoEcommerceFichaAdicionarView.cs",
+      "raw_sha256": "c46681b541c81dde81f63ea84e90ff3f8bf938976ce2c9446b2a1a4deca6e086"
+    },
+    {
+      "path": "Views\\SincronizacaoEcommerceFichaAtualizarView.cs",
+      "export_path": "Views\\SincronizacaoEcommerceFichaAtualizarView.cs",
+      "raw_sha256": "388869ba204ac69564e538c13f9b711d74ad93d775af7fb89960911320be7fef"
+    },
+    {
+      "path": "Views\\SincronizacaoEcommerceFichaViewDetalhes\\ProdutoGradeFichaView.cs",
+      "export_path": "Views\\SincronizacaoEcommerceFichaViewDetalhes\\ProdutoGradeFichaView.cs",
+      "raw_sha256": "9bfad63c1eec5fab386eeafd433520b21a95192fa591088e5a2d8677cd5b924a"
+    },
+    {
+      "path": "Views\\SincronizacaoEcommerceFichaViewDetalhes\\ProdutoGradeListaView.cs",
+      "export_path": "Views\\SincronizacaoEcommerceFichaViewDetalhes\\ProdutoGradeListaView.cs",
+      "raw_sha256": "4255d79074fcd7b1ba4448e7e191df712650a45f8270f52e5d360fff37959ee9"
+    },
+    {
+      "path": "Views\\SincronizacaoEcommerceFichaViewDetalhes\\SincronizacaoEcommerceProdutosView.cs",
+      "export_path": "Views\\SincronizacaoEcommerceFichaViewDetalhes\\SincronizacaoEcommerceProdutosView.cs",
+      "raw_sha256": "75bdc81c054c99a81b73d19fb593ef4324a0361bb40d4bb066b1b4d3629eb587"
+    },
+    {
+      "path": "Views\\SincronizacaoEcommerceFichaViewDetalhes\\SincronizacaoEcommerceView.cs",
+      "export_path": "Views\\SincronizacaoEcommerceFichaViewDetalhes\\SincronizacaoEcommerceView.cs",
+      "raw_sha256": "6144611a4461b60f395cbaaf9da3aa3469847eb0039d1f4731cf7db39aace68e"
+    },
+    {
+      "path": "Views\\SincronizacaoEcommerceListaView.cs",
+      "export_path": "Views\\SincronizacaoEcommerceListaView.cs",
+      "raw_sha256": "f5ae37e892fd2cf636b997340d8d8b7e7975b1fe7c2af339be04437a296f1347"
+    },
+    {
+      "path": "Views\\SincronizacaoQuantidadeEcommerceFichaView.cs",
+      "export_path": "Views\\SincronizacaoQuantidadeEcommerceFichaView.cs",
+      "raw_sha256": "4a1834e21df1f5e919edcc0cb3bc7488e96c2943080ec7fa06236614e2080283"
+    },
+    {
+      "path": "Views\\SincronizacoesEcommerceView.cs",
+      "export_path": "Views\\SincronizacoesEcommerceView.cs",
+      "raw_sha256": "26a5c38150dbebbe801c9e86f210355f9cffc1ca28349795956c5f18e10dd22c"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 63
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 22,
+      "types": [
+        "__c_DisplayClass37_0",
+        "__c_DisplayClass30_0",
+        "__c_DisplayClass30_1",
+        "__c_DisplayClass30_2",
+        "__c_DisplayClass12_0",
+        "__c_DisplayClass12_1",
+        "__c_DisplayClass12_2",
+        "__c_DisplayClass12_3",
+        "__c_DisplayClass11_0",
+        "__c_DisplayClass5_0",
+        "__c_DisplayClass5_1",
+        "__c_DisplayClass9_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass14_0",
+        "__c_DisplayClass14_1",
+        "__c_DisplayClass14_2",
+        "__c_DisplayClass28_0",
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass4_0",
+        "__c_DisplayClass4_1",
+        "__c_DisplayClass3_0",
+        "__c_DisplayClass3_1"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.SincronizacoesEcommerce.g.resources",
+      "file": "0000.bin",
+      "bytes": 60533,
+      "sha256": "2b49401a6b0f85030a68fe6fdd4212d5b9f5fc5831f825c393968c6ad7afa9d7"
+    },
+    {
+      "name": "Otus.Modulo.SincronizacoesEcommerce.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

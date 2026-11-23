@@ -1,0 +1,87 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.LeitorCartao",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.LeitorCartao.dll",
+  "baseline_sha256": "f281126008d5856b006ab75f1eadb0505ef39b5a0beb2fc24ab289a3845d2581",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.LeitorCartao\\DigisatServer.Infrastructure.Crosscutting.LeitorCartao.csproj",
+  "sources": [
+    {
+      "path": "Classes\\Acs\\Acs.cs",
+      "export_path": "Classes\\Acs\\Acs.cs",
+      "raw_sha256": "2c97db3809df15b9e166ed72677abe11d11ea8e95f21ded2ed4c1022da6c13f8"
+    },
+    {
+      "path": "Classes\\Acs\\AcsDeclaracoes.cs",
+      "export_path": "Classes\\Acs\\AcsDeclaracoes.cs",
+      "raw_sha256": "73f853bca539b311e77fbce4ddc197727cc446799cd67e6db63a909b5b00206d"
+    },
+    {
+      "path": "Classes\\Acs\\AcsDefault.cs",
+      "export_path": "Classes\\Acs\\AcsDefault.cs",
+      "raw_sha256": "3a90b3d5f61d0aedc62dd1b78d4282602491fb3601d22bb1fcebd08229a527bc"
+    },
+    {
+      "path": "Classes\\Acs\\RW21.cs",
+      "export_path": "Classes\\Acs\\RW21.cs",
+      "raw_sha256": "d9d5f2071f32c255527f46f90cb664aae5b160847f3731ad4e71211c6fe342ae"
+    },
+    {
+      "path": "Classes\\Acs\\RW26D.cs",
+      "export_path": "Classes\\Acs\\RW26D.cs",
+      "raw_sha256": "1aae6018c13ae6f053d7730764b8ba201c62cfadf278b5776c1229a475d279d9"
+    },
+    {
+      "path": "Classes\\Acs\\RW33.cs",
+      "export_path": "Classes\\Acs\\RW33.cs",
+      "raw_sha256": "1187ead37c9d4217e7c18e78306f650dacfecbc2ef08956b8fce73a2cb95b6ec"
+    },
+    {
+      "path": "Classes\\Acs\\RW41.cs",
+      "export_path": "Classes\\Acs\\RW41.cs",
+      "raw_sha256": "c7d1aae4826c99d09d419e7a5b6e9562fdfefe64a4c5e593131ec18b25920385"
+    },
+    {
+      "path": "Classes\\Acs\\RWZ4A9.cs",
+      "export_path": "Classes\\Acs\\RWZ4A9.cs",
+      "raw_sha256": "842256aa03df2af38dd7d0511da1ceac43a0f38107f575c5d0bc02305c558c44"
+    },
+    {
+      "path": "Classes\\LeitorCartaoDefault.cs",
+      "export_path": "Classes\\LeitorCartaoDefault.cs",
+      "raw_sha256": "b93bb988210f7c3849bd18baa7d6829c1bc31b07e5fe9af46e26589cd5813e00"
+    },
+    {
+      "path": "Classes\\LeitorCartaoFactory.cs",
+      "export_path": "Classes\\LeitorCartaoFactory.cs",
+      "raw_sha256": "1e0c41ba913b6b527e9b3c397997af72d12b500931f3b277a7dd0d58a8099520"
+    },
+    {
+      "path": "Classes\\RetornoLeituraCartao.cs",
+      "export_path": "Classes\\RetornoLeituraCartao.cs",
+      "raw_sha256": "6b6aca11997aa0d63a0779c2da4a151cb9a9029d5a9e66929bc7815c31fdb14b"
+    },
+    {
+      "path": "Interfaces\\ILeitorCartao.cs",
+      "export_path": "Interfaces\\ILeitorCartao.cs",
+      "raw_sha256": "0cbc32666f52472210d466ebf0f39fe5531cd9e4d576f3183df66f5601df0de1"
+    },
+    {
+      "path": "Interfaces\\ILeitorCartaoFactory.cs",
+      "export_path": "Interfaces\\ILeitorCartaoFactory.cs",
+      "raw_sha256": "df9e92072c8106d23ca497c67936158692212dbb3383946e3abc0fe557fa4213"
+    },
+    {
+      "path": "Interfaces\\ILeitorCartaoMarcaFactory.cs",
+      "export_path": "Interfaces\\ILeitorCartaoMarcaFactory.cs",
+      "raw_sha256": "f3289b69122722245ff50fa0097317ae04d05cc095fcac19c848228f7442c357"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "b97f139657e400a70bafc738327ec278eb692987413c13cf810c7a2f452b30e3"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [],
+  "generated_stubs": false
+}

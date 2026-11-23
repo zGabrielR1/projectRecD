@@ -1,0 +1,277 @@
+{
+  "name": "Modulo.LivrosMovimentacaoCombustivel",
+  "baseline": "baseline\\Modulo.LivrosMovimentacaoCombustivel.dll",
+  "baseline_sha256": "069efd99ca26ebac14dd6ad2fe34c022d7dd06078eef6e48bc3c2912bcda155b",
+  "export_project": "recovered\\SuiteG6\\Modulo.LivrosMovimentacaoCombustivel\\Modulo.LivrosMovimentacaoCombustivel.csproj",
+  "sources": [
+    {
+      "path": "LivroMovimentacaoCombustivelModulo.cs",
+      "export_path": "LivroMovimentacaoCombustivelModulo.cs",
+      "raw_sha256": "97b3836f90a0e20015e04069adac049c4ee0af09be405d09a254713c0dbddbf7"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "fa0a6ae1dde029d4cff0e5a86d63dd8a66809d5abca845ba9fe7688e397722ab"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "eb8ac1e0413ea84ef4ca82bfff0b5ba1785075adaee0e476dc2b15ef41343a60"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "9251648d6e42f8126d43e221f21df4d1e7238a6ceee19f58b6e2cc055acbc98f"
+    },
+    {
+      "path": "Reports\\RelatorioFolhaLmc.cs",
+      "export_path": "Reports\\RelatorioFolhaLmc.cs",
+      "raw_sha256": "7d3184ee403d8323f2fd8a29e73b81fc3e3f2f75abfba75c3e45cbd44417cfc0"
+    },
+    {
+      "path": "Reports\\RelatorioTermoAberturaLmc.cs",
+      "export_path": "Reports\\RelatorioTermoAberturaLmc.cs",
+      "raw_sha256": "76988995adfa32835bc818a870475a8f1177b9265bd3f8433bbf59fe1c3e4f3c"
+    },
+    {
+      "path": "Reports\\RelatorioTermoFechamentoLmc.cs",
+      "export_path": "Reports\\RelatorioTermoFechamentoLmc.cs",
+      "raw_sha256": "433c210d3282e00b8bfd31a65f2fc4ee596ae3db3cad1bb29b519384d147f9d2"
+    },
+    {
+      "path": "ViewModels\\BicoLmcViewModel.cs",
+      "export_path": "ViewModels\\BicoLmcViewModel.cs",
+      "raw_sha256": "77b3a454e3fb60bd86d912efeafa7dd6441b183274caa53bb6ee45d4d37ad1ae"
+    },
+    {
+      "path": "ViewModels\\FolhaAbaViewModel.cs",
+      "export_path": "ViewModels\\FolhaAbaViewModel.cs",
+      "raw_sha256": "9e86b697d7d6142e51506f1a7cb1ed3c2f5592887d5c6ff3f825cc470f920151"
+    },
+    {
+      "path": "ViewModels\\FolhaFichaViewModel.cs",
+      "export_path": "ViewModels\\FolhaFichaViewModel.cs",
+      "raw_sha256": "525c3a33a19db32423cf24a31c70cadcd51297d9ae4b70d7a47a623e015e3ba1"
+    },
+    {
+      "path": "ViewModels\\FolhaViewModel.cs",
+      "export_path": "ViewModels\\FolhaViewModel.cs",
+      "raw_sha256": "80c368103488edfc66c160343d398ee1493b22fbd659995ed7e40fb0762c41a3"
+    },
+    {
+      "path": "ViewModels\\GerarFolhasAbaViewModel.cs",
+      "export_path": "ViewModels\\GerarFolhasAbaViewModel.cs",
+      "raw_sha256": "15edc58ea69a0d2fb317b1f28bd9ecd16ca346c838105a6f242484184ade7026"
+    },
+    {
+      "path": "ViewModels\\GerarFolhasFichaViewModel.cs",
+      "export_path": "ViewModels\\GerarFolhasFichaViewModel.cs",
+      "raw_sha256": "2afe8ab9c40869e6abb690d27b9d317f375a65ee8e2f12c3723279f6e768be80"
+    },
+    {
+      "path": "ViewModels\\GerarFolhasFormulario.cs",
+      "export_path": "ViewModels\\GerarFolhasFormulario.cs",
+      "raw_sha256": "8baf2bb45175e7bcf9b6c2530e6871b6895427b09e3e73e19023d2d0a1525c4d"
+    },
+    {
+      "path": "ViewModels\\GerarFolhasViewModel.cs",
+      "export_path": "ViewModels\\GerarFolhasViewModel.cs",
+      "raw_sha256": "e9d011898d7ce8534e08b8a71ae83a412ad961fdc03d0c715f29e762b14658ea"
+    },
+    {
+      "path": "ViewModels\\ImprimirLivroMovimentacaoCombustivel.cs",
+      "export_path": "ViewModels\\ImprimirLivroMovimentacaoCombustivel.cs",
+      "raw_sha256": "74ed7040a5684389f76c0eb89cda9a5b35fe9ddb404cdbb8fa25f5a897fd43cf"
+    },
+    {
+      "path": "ViewModels\\ImprimirLivroMovimentacaoCombustivelAbaViewModel.cs",
+      "export_path": "ViewModels\\ImprimirLivroMovimentacaoCombustivelAbaViewModel.cs",
+      "raw_sha256": "0311f6e4d3f0f720beccad3fdba93e54e9181a93a634f12728f72dd8c750e4c9"
+    },
+    {
+      "path": "ViewModels\\ImprimirLivroMovimentacaoCombustivelFichaViewModel.cs",
+      "export_path": "ViewModels\\ImprimirLivroMovimentacaoCombustivelFichaViewModel.cs",
+      "raw_sha256": "8b055e60876a74fcd39587b12fc636b70a4765bfa8e5dfedea69f9938d6c39dc"
+    },
+    {
+      "path": "ViewModels\\ImprimirLivroMovimentacaoCombustivelFormulario.cs",
+      "export_path": "ViewModels\\ImprimirLivroMovimentacaoCombustivelFormulario.cs",
+      "raw_sha256": "b91fd0a42da3e07c656a70bd7fa6b29fb407b8ca8d01ef631d041d3b3545801e"
+    },
+    {
+      "path": "ViewModels\\ImprimirLivroMovimentacaoCombustivelViewModel.cs",
+      "export_path": "ViewModels\\ImprimirLivroMovimentacaoCombustivelViewModel.cs",
+      "raw_sha256": "171b35e452bb2c3e3fbf797f673aecc5671cb9c19557a3aa733e2f6f1eaf5d66"
+    },
+    {
+      "path": "ViewModels\\ItemDistribuidoraDto.cs",
+      "export_path": "ViewModels\\ItemDistribuidoraDto.cs",
+      "raw_sha256": "16d4539c32d8880872932a4b08263b8c90fe0f83cf4ad60bfcda7c366f76aa71"
+    },
+    {
+      "path": "ViewModels\\ItemDistribuidoraViewModel.cs",
+      "export_path": "ViewModels\\ItemDistribuidoraViewModel.cs",
+      "raw_sha256": "8f70631d62b0bc92fd8f68c5816438e0293661f5db8677c53ca145bf1d0325ad"
+    },
+    {
+      "path": "ViewModels\\ListaDistribuidoraViewModel.cs",
+      "export_path": "ViewModels\\ListaDistribuidoraViewModel.cs",
+      "raw_sha256": "f72bc3846db7779838a7e2130e38dc6db0b0a0ba282d6bafbf407c881d657218"
+    },
+    {
+      "path": "ViewModels\\LivroMovimentacaoCombustivelFormulario.cs",
+      "export_path": "ViewModels\\LivroMovimentacaoCombustivelFormulario.cs",
+      "raw_sha256": "3a8f9b6b234bbb0f32528075580cf8fea9bd4bf74c106fc69614e10b537d865c"
+    },
+    {
+      "path": "ViewModels\\LivroMovimentacaoCombustivelListaViewModel.cs",
+      "export_path": "ViewModels\\LivroMovimentacaoCombustivelListaViewModel.cs",
+      "raw_sha256": "9764832fd4c1aa7aa87219df625e9d3ecdc8dab4a263eaaa175e562b4e4760f3"
+    },
+    {
+      "path": "ViewModels\\LivrosMovimentacaoCombustivelViewModel.cs",
+      "export_path": "ViewModels\\LivrosMovimentacaoCombustivelViewModel.cs",
+      "raw_sha256": "4d17667ec830d6dbc2c36e66d2ec8a8e503303780188a20fa950579ef87378e0"
+    },
+    {
+      "path": "ViewModels\\TanqueLmcViewModel.cs",
+      "export_path": "ViewModels\\TanqueLmcViewModel.cs",
+      "raw_sha256": "a3e2523a859f1b44a95fd9b2bdb5bb390cbb90728945c2a57e1c55e0ccd6cc63"
+    },
+    {
+      "path": "ViewModels\\TanqueVolumeInicialFinalViewModel.cs",
+      "export_path": "ViewModels\\TanqueVolumeInicialFinalViewModel.cs",
+      "raw_sha256": "acf25516724ae0759447c8be1ea0d1489f2d536e41b02f3277e11cfc722a370c"
+    },
+    {
+      "path": "ViewModels\\TanqueVolumeViewModel.cs",
+      "export_path": "ViewModels\\TanqueVolumeViewModel.cs",
+      "raw_sha256": "ec2c088cbbcd3f8634b568ed68410d4e142592b05391dca52313182ebf53b6d6"
+    },
+    {
+      "path": "ViewModels\\VolumeInicialAbaViewModel.cs",
+      "export_path": "ViewModels\\VolumeInicialAbaViewModel.cs",
+      "raw_sha256": "06a91ccf8834b99ab5ef6e75bac7942e8ba29e8d4e1bf58f333ae0e1727af880"
+    },
+    {
+      "path": "ViewModels\\VolumeInicialFichaViewModel.cs",
+      "export_path": "ViewModels\\VolumeInicialFichaViewModel.cs",
+      "raw_sha256": "4734959fb51043a2ef1208d7c35232dc542bba7af74677ad44f2992f440dab97"
+    },
+    {
+      "path": "ViewModels\\VolumeInicialFormulario.cs",
+      "export_path": "ViewModels\\VolumeInicialFormulario.cs",
+      "raw_sha256": "c6b34d208e47b7b258e5faace0f992726fd39ae367511452762b64eedc80ebe5"
+    },
+    {
+      "path": "ViewModels\\VolumeInicialViewModel.cs",
+      "export_path": "ViewModels\\VolumeInicialViewModel.cs",
+      "raw_sha256": "c908bb7b53997e340997a7de727f38c3afca1b07d52a55e6b79115fdf3fb1456"
+    },
+    {
+      "path": "Views\\FolhaFichaView.cs",
+      "export_path": "Views\\FolhaFichaView.cs",
+      "raw_sha256": "13f9b64e62806ddc463951be937c123da783b622a2939e1435aef8b9f111e12f"
+    },
+    {
+      "path": "Views\\GerarFolhasFichaView.cs",
+      "export_path": "Views\\GerarFolhasFichaView.cs",
+      "raw_sha256": "c3aac0622dba6bacff773e98b67a8fe1b2eaeaabf7f11dae0a37d6dd8cfe20bc"
+    },
+    {
+      "path": "Views\\ImprimirLivroMovimentacaoCombustivelFichaView.cs",
+      "export_path": "Views\\ImprimirLivroMovimentacaoCombustivelFichaView.cs",
+      "raw_sha256": "2f63287fc978c3a844ea4caf58908325c58f4a6583fffb36091ad8a34b65b5b7"
+    },
+    {
+      "path": "Views\\LivroMovimentacaoCombustivelListaView.cs",
+      "export_path": "Views\\LivroMovimentacaoCombustivelListaView.cs",
+      "raw_sha256": "cbd53234b105e96314019bd29ab131f336935dc7a6a525c57891781abe794e65"
+    },
+    {
+      "path": "Views\\LivrosMovimentacaoCombustivelView.cs",
+      "export_path": "Views\\LivrosMovimentacaoCombustivelView.cs",
+      "raw_sha256": "7dc2140f6d1ca84df022e6237a18ae984fa1a44e164660777d3d7ebf5c43de01"
+    },
+    {
+      "path": "Views\\VolumeInicialFichaView.cs",
+      "export_path": "Views\\VolumeInicialFichaView.cs",
+      "raw_sha256": "8b1ffe9b9cfa94d0c2cc917476c5489e961da8f1634790af3e6b3e408b1709e9"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 23
+    },
+    {
+      "kind": "synthesized closure type declarations",
+      "occurrences": 22,
+      "types": [
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass13_0",
+        "__c_DisplayClass16_0",
+        "__c_DisplayClass2_0",
+        "__c_DisplayClass4_0",
+        "__c_DisplayClass8_0",
+        "__c_DisplayClass11_0",
+        "__c_DisplayClass19_0",
+        "__c_DisplayClass22_0",
+        "__c_DisplayClass25_0",
+        "__c_DisplayClass28_0",
+        "__c_DisplayClass31_0",
+        "__c_DisplayClass34_0",
+        "__c_DisplayClass53_0",
+        "__c_DisplayClass6_0",
+        "__c_DisplayClass9_0",
+        "__c_DisplayClass9_1",
+        "__c_DisplayClass7_0",
+        "__c_DisplayClass10_0",
+        "__c_DisplayClass3_0",
+        "__c_DisplayClass2_0"
+      ]
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.LivrosMovimentacaoCombustivel.g.resources",
+      "file": "0000.bin",
+      "bytes": 31428,
+      "sha256": "2261d0997e790e3ced897855fd0080748c6e330f39a788556018da4044da64b6"
+    },
+    {
+      "name": "Otus.Modulo.LivrosMovimentacaoCombustivel.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.LivrosMovimentacaoCombustivel.Reports.RelatorioFolhaLmc.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.LivrosMovimentacaoCombustivel.Reports.RelatorioTermoAberturaLmc.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.LivrosMovimentacaoCombustivel.Reports.RelatorioTermoFechamentoLmc.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.LivrosMovimentacaoCombustivel.dll.licenses",
+      "file": "0005.bin",
+      "bytes": 300,
+      "sha256": "94beb3fc3b5aad2c4c81c638499d87fb02166e53f25d11ec84157909455dea34"
+    }
+  ],
+  "generated_stubs": false
+}

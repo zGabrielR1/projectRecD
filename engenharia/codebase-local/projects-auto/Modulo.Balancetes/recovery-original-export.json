@@ -1,0 +1,97 @@
+{
+  "name": "Modulo.Balancetes",
+  "baseline": "baseline\\Modulo.Balancetes.dll",
+  "baseline_sha256": "94ce98bd7c38b1367ca1663514730c66ef121a4e3b72474fb089265b07dcba0d",
+  "export_project": "recovered\\SuiteG6\\Modulo.Balancetes\\Modulo.Balancetes.csproj",
+  "sources": [
+    {
+      "path": "BalanceteModulo.cs",
+      "export_path": "BalanceteModulo.cs",
+      "raw_sha256": "6e577ae3822b4911ccbc9407c16dcaaf1a5e09d2b4ad800d2d4a5a79726bc740"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "9a0c76eaef185e39f7c6d2d2c31aba3432bdf0b2b1548c67e850524f2ea652e2"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "eb24a0af3a82e0b2821c15fefa976278adbfb607be26940381b934fa5b50f9b6"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "24075ff9384689f4b95262b251e865b58f4a116df37ed3eaa992937c51daa1cb"
+    },
+    {
+      "path": "Reports\\Relatorio.cs",
+      "export_path": "Reports\\Relatorio.cs",
+      "raw_sha256": "84eb964dc568e641a0e958e1059050da1cde8da8a0b50fbf433c192831287172"
+    },
+    {
+      "path": "ViewModels\\BalanceteAbaViewModel.cs",
+      "export_path": "ViewModels\\BalanceteAbaViewModel.cs",
+      "raw_sha256": "627a42e44565ff0d491b076800d5b1206791ebf56302123dc1c8cae5aee939e5"
+    },
+    {
+      "path": "ViewModels\\BalanceteFichaViewModel.cs",
+      "export_path": "ViewModels\\BalanceteFichaViewModel.cs",
+      "raw_sha256": "23195919f929faeeeef7377ce88966a0bc5109f8dbe8baeeae5f0444edf45031"
+    },
+    {
+      "path": "ViewModels\\BalanceteFormulario.cs",
+      "export_path": "ViewModels\\BalanceteFormulario.cs",
+      "raw_sha256": "15ece64ae90c484c9791005d26a63b8c994b58b086312ef7b7716260c3b12ca6"
+    },
+    {
+      "path": "ViewModels\\BalancetesViewModel.cs",
+      "export_path": "ViewModels\\BalancetesViewModel.cs",
+      "raw_sha256": "c7a8c8a063ac12f0499fb645c6cc14e8b0521407874b28d05cf43901e64159e1"
+    },
+    {
+      "path": "ViewModels\\BalanceteViewModel.cs",
+      "export_path": "ViewModels\\BalanceteViewModel.cs",
+      "raw_sha256": "994f7764a834278cc049f95950c0c5e9e8fe9e2a99af7a9581d121c2ef757bd1"
+    },
+    {
+      "path": "Views\\BalanceteFichaView.cs",
+      "export_path": "Views\\BalanceteFichaView.cs",
+      "raw_sha256": "e598dada71f78077cc650caea7e5927eeb41f262d18f36a92ea50dd0b37cef1c"
+    },
+    {
+      "path": "Views\\BalancetesView.cs",
+      "export_path": "Views\\BalancetesView.cs",
+      "raw_sha256": "f9d244f03181d446d7a00678ea29acbd1fb97d2cf35efcf178fdb0a6a41f3859"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.Balancetes.g.resources",
+      "file": "0000.bin",
+      "bytes": 11239,
+      "sha256": "d8216d7be7b996d4ed57377f64d1a3dc76155581fc82fce445b38a81d153a135"
+    },
+    {
+      "name": "Otus.Modulo.Balancetes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Balancetes.Reports.Relatorio.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Balancetes.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 281,
+      "sha256": "b4e22151c65c54eb68975502b8d7d6604c4da69ee7867e9e7b65d44719d4e055"
+    }
+  ],
+  "generated_stubs": false
+}

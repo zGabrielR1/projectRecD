@@ -1,0 +1,155 @@
+{
+  "name": "Modulo.Iniciais",
+  "baseline": "baseline\\Modulo.Iniciais.dll",
+  "baseline_sha256": "ecc3ccba31d02c4dd4f934ac20f54287740e9d6c2d94731fc90f92f084fcdbdc",
+  "export_project": "recovered\\SuiteG6\\Modulo.Iniciais\\Modulo.Iniciais.csproj",
+  "sources": [
+    {
+      "path": "HomeModulo.cs",
+      "export_path": "HomeModulo.cs",
+      "raw_sha256": "b5e499035bdd951881859f151c281eeee4de374b62d99df488d7c7f930b60725"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "fb259fb584de9aef200120ecbb60500365b6f4340b021ec308d3878ff6dc6f6c"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "371f25993d561e4c8deabbd22a12415b0d92a7b13343aeffe695da3ba1e4755d"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "98f5ab4352a597eaa6acd36f19073021a3cfcbd956c3fcc66026c29a13f5a8f9"
+    },
+    {
+      "path": "Services\\InicialNavegacaoService.cs",
+      "export_path": "Services\\InicialNavegacaoService.cs",
+      "raw_sha256": "2fa3f3c6ab9985b67d0ac26fc2ad9fa6aa339deed01cd1803e49192ac0cba056"
+    },
+    {
+      "path": "ViewModels\\IniciaisViewModel.cs",
+      "export_path": "ViewModels\\IniciaisViewModel.cs",
+      "raw_sha256": "584c022732c784d677c8fc1f6dd2353d1e7cc7e9fa9f8f8b1954e7431cb25484"
+    },
+    {
+      "path": "ViewModels\\InicialViewModel.cs",
+      "export_path": "ViewModels\\InicialViewModel.cs",
+      "raw_sha256": "16a1d3f65932939f32f32497cf3984b73bda50d0c99776699284836b9486af33"
+    },
+    {
+      "path": "ViewModels\\MasterRemoteViewModel.cs",
+      "export_path": "ViewModels\\MasterRemoteViewModel.cs",
+      "raw_sha256": "7416cec38eaefd102d498d873371877462f8565997edab53e5b28b1c18609e17"
+    },
+    {
+      "path": "ViewModels\\SistemaAdministradorIndustriaViewModel.cs",
+      "export_path": "ViewModels\\SistemaAdministradorIndustriaViewModel.cs",
+      "raw_sha256": "3ec6476080dccad7c846c7a2c026ac959663002fc1fd0e059e5ea4acdc77d880"
+    },
+    {
+      "path": "ViewModels\\SistemaAdministradorViewModel.cs",
+      "export_path": "ViewModels\\SistemaAdministradorViewModel.cs",
+      "raw_sha256": "8a0cf8d91bcb7636356922589adbbcaad1aa60403df8ea2d8649398e26023a41"
+    },
+    {
+      "path": "ViewModels\\SistemaBaseViewModel.cs",
+      "export_path": "ViewModels\\SistemaBaseViewModel.cs",
+      "raw_sha256": "833677e6d384a6756c889dc9e310131609d0e07eba582870344a2aeab2e7b4c4"
+    },
+    {
+      "path": "ViewModels\\SistemaComercialViewModel.cs",
+      "export_path": "ViewModels\\SistemaComercialViewModel.cs",
+      "raw_sha256": "579f76e213967232e5a9a2dfd32b9b0a434aedee3ee50ac11e7df7aaba39f109"
+    },
+    {
+      "path": "ViewModels\\SistemaDigiSatMEIViewModel.cs",
+      "export_path": "ViewModels\\SistemaDigiSatMEIViewModel.cs",
+      "raw_sha256": "024974369f88b370fb9dbb63047f449925f727acfb8e262f19617bfa3b35673e"
+    },
+    {
+      "path": "ViewModels\\SistemaGerencialViewModel.cs",
+      "export_path": "ViewModels\\SistemaGerencialViewModel.cs",
+      "raw_sha256": "414d452b73c91b44cfc2cb18206daf454bb16841d800d6df56b79121c39dfd2f"
+    },
+    {
+      "path": "ViewModels\\SuporteViewModel.cs",
+      "export_path": "ViewModels\\SuporteViewModel.cs",
+      "raw_sha256": "8214564c3a5946f121cea63b23f5d800739f8633a95d5c800a3d16b531f3a741"
+    },
+    {
+      "path": "Views\\IniciaisView.cs",
+      "export_path": "Views\\IniciaisView.cs",
+      "raw_sha256": "a46bdb8b51622c1c772d4caa90d8bd4baef76e6ae17e814ec73bed21a2fea299"
+    },
+    {
+      "path": "Views\\InicialView.cs",
+      "export_path": "Views\\InicialView.cs",
+      "raw_sha256": "d0f5cb87da3520c9113e0e252ae3e70add88a622d375492e9e1b18d8b125d10f"
+    },
+    {
+      "path": "Views\\MasterRemoteView.cs",
+      "export_path": "Views\\MasterRemoteView.cs",
+      "raw_sha256": "3398d451ffeea02dbb6fcc50b31fd8db85dca81b1fd39a1f673d42fdb3f2d6b2"
+    },
+    {
+      "path": "Views\\SistemaAdministradorIndustriaView.cs",
+      "export_path": "Views\\SistemaAdministradorIndustriaView.cs",
+      "raw_sha256": "e705f4169f8ce1f93ab47fd4a81982fa376588ad2e8637b8e5740efab76bb935"
+    },
+    {
+      "path": "Views\\SistemaAdministradorView.cs",
+      "export_path": "Views\\SistemaAdministradorView.cs",
+      "raw_sha256": "203a9780229b2180b33ec0afd0a04018153790c2bd19ed9ccdc3ddf1220888d7"
+    },
+    {
+      "path": "Views\\SistemaBaseView.cs",
+      "export_path": "Views\\SistemaBaseView.cs",
+      "raw_sha256": "ec8bfad24de9f60b378fc0cea96fc4e56e79fa4713608817119b7d0389910c3f"
+    },
+    {
+      "path": "Views\\SistemaComercialView.cs",
+      "export_path": "Views\\SistemaComercialView.cs",
+      "raw_sha256": "19fa5dcc2053cf60a8b521bf344dd60e59d7fe7ad29b379722933a37dbea99d1"
+    },
+    {
+      "path": "Views\\SistemaDigiSatMEIView.cs",
+      "export_path": "Views\\SistemaDigiSatMEIView.cs",
+      "raw_sha256": "a885af463fa95a8d8d4323d87c5bf49bc8d6a5fb07616a242b110bc4d3b61b02"
+    },
+    {
+      "path": "Views\\SistemaGerencialView.cs",
+      "export_path": "Views\\SistemaGerencialView.cs",
+      "raw_sha256": "d91024899a5a34c4e1db9cb8ff2cbd1359d6cbd42eb8fbb2c232fbd3f582e090"
+    },
+    {
+      "path": "Views\\SuporteView.cs",
+      "export_path": "Views\\SuporteView.cs",
+      "raw_sha256": "e1a1d94f886f15559033380234c9e6663ea5f7003c9be20c54018d7eea5f9e01"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 22
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "Modulo.Iniciais.g.resources",
+      "file": "0000.bin",
+      "bytes": 19598064,
+      "sha256": "1ac16c0ea8ca54986c81850118c5d7e2619388072b762347866868421b758d25"
+    },
+    {
+      "name": "Otus.Modulo.Iniciais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

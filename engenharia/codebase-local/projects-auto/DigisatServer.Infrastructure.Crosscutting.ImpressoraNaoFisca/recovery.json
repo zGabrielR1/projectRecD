@@ -1,0 +1,31 @@
+﻿{
+    "name":  "DigisatServer.Infrastructure.Crosscutting.ImpressoraNaoFisca",
+    "baseline":  "baseline\\DigisatServer.Infrastructure.Crosscutting.ImpressoraNaoFiscal.dll",
+    "baseline_sha256":  "c73b6b2db10528362f79f60494a81898687adf9770208c5fe44492bf99e9a811",
+    "export_project":  "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ImpressoraNaoFisca\\DigisatServer.Infrastructure.Crosscutting.ImpressoraNaoFisca.csproj",
+    "sources":  [
+                    {
+                        "path":  "ImpressoraNaoFiscal.cs",
+                        "export_path":  "ImpressoraNaoFiscal.cs",
+                        "raw_sha256":  "3082446c09a1f0faca532a89740c6b3f8656d750fffecc87750e850866a52aef"
+                    },
+                    {
+                        "path":  "Properties\\AssemblyInfo.cs",
+                        "export_path":  "Properties\\AssemblyInfo.cs",
+                        "raw_sha256":  "da5076e377b61532174970d67903fcced5c5bcb6480248951e72848d718d9be3"
+                    },
+                    {
+                        "path":  "SpoolerImpressora.cs",
+                        "export_path":  "SpoolerImpressora.cs",
+                        "raw_sha256":  "e1524afe5354723da3baa42113aba4c0378fc8d1e757db2a58cb6fb4117b4303"
+                    }
+                ],
+    "output_type":  "Library",
+    "repairs":  [
+                    "Replaced invalid decompiler cached-lambda identifier with an initialized local predicate and qualified System.IO.File to avoid the sibling namespace collision."
+                ],
+    "original_resources":  [
+
+                           ],
+    "generated_stubs":  false
+}

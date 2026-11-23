@@ -1,0 +1,56 @@
+{
+  "artifactSha256": "c83b6a951019e1f0feffc5be5051041dc257da2b77002f75462f5a6f3e32bb27",
+  "mvid": "a170b9b6-cb0e-4aed-8672-cfca16839225",
+  "assembly": "Modulo.Comissoes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Drawing",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Comissoes.g.resources",
+      "file": "0000.bin",
+      "bytes": 14635,
+      "sha256": "b714f586d620985e0510b30b55333bc7229325e8c31b36ca6304c8223e1bb11f"
+    },
+    {
+      "name": "Otus.Modulo.Comissoes.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Comissoes.Reports.RelatorioComissoes.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.Comissoes.dll.licenses",
+      "file": "0003.bin",
+      "bytes": 280,
+      "sha256": "c1c67fea409eeac7bac146be0d51450579e83ca39c4dfd671636eb1c461f85a2"
+    }
+  ]
+}

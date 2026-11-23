@@ -1,0 +1,35 @@
+{
+  "artifactSha256": "f740a2a0ce5e2a13ceffc6843121715aa332647113852b11e6df92c23375035e",
+  "mvid": "fb4a0fb7-dab7-4629-8312-998498a79729",
+  "assembly": "Modulo.Shopee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Shopee.g.resources",
+      "file": "0000.bin",
+      "bytes": 9377,
+      "sha256": "f5f078d89621559ec98e354dbd78ee5c480ae715f4e3efe096a5b435cbf38b29"
+    },
+    {
+      "name": "Otus.Modulo.Shopee.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

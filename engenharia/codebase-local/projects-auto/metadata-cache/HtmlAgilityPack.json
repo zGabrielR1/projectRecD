@@ -1,0 +1,10 @@
+{
+  "assembly": "HtmlAgilityPack, Version=1.12.1.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a",
+  "references": [
+    "mscorlib",
+    "System",
+    "System.Xml",
+    "System.Net.Http",
+    "System.Core"
+  ]
+}

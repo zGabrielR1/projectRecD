@@ -1,0 +1,10 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.Inventario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System"
+  ]
+}

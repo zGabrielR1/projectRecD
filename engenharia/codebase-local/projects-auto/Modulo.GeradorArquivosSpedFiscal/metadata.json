@@ -1,0 +1,39 @@
+{
+  "artifactSha256": "6b0823e7621254caf5ac2ec289da39c6f71365f412b2ba9b7a578e11d29c3f22",
+  "mvid": "a70b54cf-047c-4889-ab5c-70d904e35dee",
+  "assembly": "Modulo.GeradorArquivosSpedFiscal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "PresentationCore",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.GeradorArquivosSpedFiscal.g.resources",
+      "file": "0000.bin",
+      "bytes": 36557,
+      "sha256": "4de6dc09b7edddb04436686f65cdeee3c5c57233063e8fd80c1510175fe8eee2"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosSpedFiscal.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

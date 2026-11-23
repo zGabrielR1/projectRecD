@@ -1,0 +1,65 @@
+{
+  "artifactSha256": "4792f9990401fa33d1baef00a380be5442fc6dbd2fb2ea700546783af4b884d7",
+  "mvid": "b3a7097c-29a0-43d2-ba33-e1a793b761fb",
+  "assembly": "Modulo.ConferenciasEstoque, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "Infraestrutura",
+    "System.Xaml",
+    "DevExpress.Xpf.Core.v15.2",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "PresentationCore",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.Core",
+    "System.ComponentModel.DataAnnotations",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "DevExpress.DataAccess.v15.2",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2",
+    "NClone",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "DevExpress.Data.v15.2",
+    "System.Drawing"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.ConferenciasEstoque.g.resources",
+      "file": "0000.bin",
+      "bytes": 37886,
+      "sha256": "4dab4ecf2aeb31a310fc89cbb749f5a02f1d95dc2908a5728ebbfea70d1555fa"
+    },
+    {
+      "name": "Otus.Modulo.ConferenciasEstoque.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ConferenciasEstoque.Reports.ImpressoItensNaoRelacionados.resources",
+      "file": "0002.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.ConferenciasEstoque.Reports.ImpressoConferenciaEstoque.resources",
+      "file": "0003.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.ConferenciasEstoque.dll.licenses",
+      "file": "0004.bin",
+      "bytes": 290,
+      "sha256": "7a2d58ec3f20c02c0d9c9442975360ca1e0e9a95b65c710ba055ce014754ed54"
+    }
+  ]
+}

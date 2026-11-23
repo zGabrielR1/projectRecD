@@ -1,0 +1,105 @@
+{
+  "name": "Modulo.RelacoesDadosFornecedorEntrada",
+  "baseline": "baseline\\Modulo.RelacoesDadosFornecedorEntrada.dll",
+  "baseline_sha256": "73579e7c24df22768bcf1a4cc29164ba0362a1c963bacdbe975c351f874d311c",
+  "export_project": "recovered\\SuiteG6\\Modulo.RelacoesDadosFornecedorEntrada\\Modulo.RelacoesDadosFornecedorEntrada.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "38852144e6a58f3912283327ff446ee34559a06cad1ed9534c58406c02463712"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "19ed67ed4bcbcf365318db9ca34496ecbf8a797c7bfdc7d80d49be8780fb7303"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "973adac61ad62e186d5a5f14a721af0be8c0e13a487b524d2ccf1319311ff9ed"
+    },
+    {
+      "path": "RelacaoDadosFornecedorEntradaModulo.cs",
+      "export_path": "RelacaoDadosFornecedorEntradaModulo.cs",
+      "raw_sha256": "356d0771413a37ffaf7c25e4a1985248fc8e8ddacc94c7fdb3746154f88c270b"
+    },
+    {
+      "path": "ViewModels\\RelacaoDadosFornecedorEntradaAbaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoDadosFornecedorEntradaAbaViewModel.cs",
+      "raw_sha256": "46198d29b69f357fd04079880decb85a5cb5faae7f02262f6abaef0bc72815c5"
+    },
+    {
+      "path": "ViewModels\\RelacaoDadosFornecedorEntradaFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\RelacaoDadosFornecedorEntradaFichaAdicionarViewModel.cs",
+      "raw_sha256": "222197cfa03a01dca6b0a05f35fbf795824f0dd458368311c66634d6708337d3"
+    },
+    {
+      "path": "ViewModels\\RelacaoDadosFornecedorEntradaFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\RelacaoDadosFornecedorEntradaFichaAtualizarViewModel.cs",
+      "raw_sha256": "3fab56f6a91af11f70a1914faeb1f677548d05c38401769c8ff338b9f5ce3099"
+    },
+    {
+      "path": "ViewModels\\RelacaoDadosFornecedorEntradaFormulario.cs",
+      "export_path": "ViewModels\\RelacaoDadosFornecedorEntradaFormulario.cs",
+      "raw_sha256": "d8961d6227400a4db6f3e473a6c5bf66de6554082b91e6f7bbfc4088726e17d6"
+    },
+    {
+      "path": "ViewModels\\RelacaoDadosFornecedorEntradaListaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoDadosFornecedorEntradaListaViewModel.cs",
+      "raw_sha256": "67a99b4c738a19d9723d944c7c096d3fcf8e6468e7199f59339d2aee438198a3"
+    },
+    {
+      "path": "ViewModels\\RelacaoDadosFornecedorEntradaViewModel.cs",
+      "export_path": "ViewModels\\RelacaoDadosFornecedorEntradaViewModel.cs",
+      "raw_sha256": "5c7f98799892e209ddfa541218c62ac79038916f5409efa1396f667ad7e2178c"
+    },
+    {
+      "path": "ViewModels\\RelacoesDadosFornecedorEntradaViewModel.cs",
+      "export_path": "ViewModels\\RelacoesDadosFornecedorEntradaViewModel.cs",
+      "raw_sha256": "4859822b18853670eea9a7fcd6208f01b5da02e60a0fba340f578862c2d83e44"
+    },
+    {
+      "path": "Views\\RelacaoDadosFornecedorEntradaFichaAdicionarView.cs",
+      "export_path": "Views\\RelacaoDadosFornecedorEntradaFichaAdicionarView.cs",
+      "raw_sha256": "176320d9dd8ce203920e6dc2161d7b9e5cf73a0062e1d5966f82cb57f606d638"
+    },
+    {
+      "path": "Views\\RelacaoDadosFornecedorEntradaFichaAtualizarView.cs",
+      "export_path": "Views\\RelacaoDadosFornecedorEntradaFichaAtualizarView.cs",
+      "raw_sha256": "8aa7a1a9b2b6ef2f7ae6542e79589931a19bac3e396c61c73f0cc23367089a02"
+    },
+    {
+      "path": "Views\\RelacaoDadosFornecedorEntradaListaView.cs",
+      "export_path": "Views\\RelacaoDadosFornecedorEntradaListaView.cs",
+      "raw_sha256": "825ee364b95e5049ce740d336600a1c23341dae31e18358470a8e40e96772bd2"
+    },
+    {
+      "path": "Views\\RelacaoDadosFornecedorEntradaView.cs",
+      "export_path": "Views\\RelacaoDadosFornecedorEntradaView.cs",
+      "raw_sha256": "6df8bba24362587efe95720630ffd2ad0c88980d276fbd0581b53eef5b79ee3d"
+    },
+    {
+      "path": "Views\\RelacoesDadosFornecedorEntradaView.cs",
+      "export_path": "Views\\RelacoesDadosFornecedorEntradaView.cs",
+      "raw_sha256": "29fb050963d7cca286e6410680058b90e33a0380d1db5d6412543fc1bbfbaca9"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.RelacoesDadosFornecedorEntrada.g.resources",
+      "file": "0000.bin",
+      "bytes": 16243,
+      "sha256": "5c67ae9d1566da5cc535b615627dde07c31fd00c5dae1d6b7d29d00853867750"
+    },
+    {
+      "name": "Otus.Modulo.RelacoesDadosFornecedorEntrada.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

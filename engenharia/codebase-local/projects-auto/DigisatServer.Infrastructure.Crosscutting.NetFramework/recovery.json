@@ -1,0 +1,371 @@
+{
+  "name": "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+  "baseline": "baseline\\DigisatServer.Infrastructure.Crosscutting.NetFramework.dll",
+  "baseline_sha256": "cea6965fe80382ff896426427953c1841f1a4bd696b062353bc542f46b698b11",
+  "export_project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.NetFramework\\DigisatServer.Infrastructure.Crosscutting.NetFramework.csproj",
+  "sources": [
+    {
+      "path": "-Module-{3817F3FA-1F53-448E-97DB-959C9F00E003}.cs",
+      "export_path": "-Module-{3817F3FA-1F53-448E-97DB-959C9F00E003}.cs",
+      "raw_sha256": "e73e4606d2ab3bb5b155b88a615f2aea9151082b7d676e88b20b28c0965cda5f"
+    },
+    {
+      "path": "Actor\\DActorSystemBase.cs",
+      "export_path": "Actor\\DActorSystemBase.cs",
+      "raw_sha256": "495bb543b951402d399345d2cd04c5ba272364b06d5c49f66024b7cda423b08b"
+    },
+    {
+      "path": "Actor\\DClientActorSystemBase.cs",
+      "export_path": "Actor\\DClientActorSystemBase.cs",
+      "raw_sha256": "3f61a224f41882476766d671f5a7f4d531c2088bb9820880c1faf2b3b3d9a932"
+    },
+    {
+      "path": "Actor\\DServerActorSystemBase.cs",
+      "export_path": "Actor\\DServerActorSystemBase.cs",
+      "raw_sha256": "6ad9e2dff90b87ebe33a9008a9afc5e5924dd7888a1e013e71a9f33f60a80343"
+    },
+    {
+      "path": "Cryptography\\AESCrypto.cs",
+      "export_path": "Cryptography\\AESCrypto.cs",
+      "raw_sha256": "b5af02a754eff0cf96b3285f46f69a6c0058a76a3545930fe2bd221892b1cba5"
+    },
+    {
+      "path": "Cryptography\\AESCryptoFactory.cs",
+      "export_path": "Cryptography\\AESCryptoFactory.cs",
+      "raw_sha256": "77d869d585b17c742f765db69525e046dcc0ac0eeaed4e5668b3dfbbe9661dce"
+    },
+    {
+      "path": "Cryptography\\HashHelper.cs",
+      "export_path": "Cryptography\\HashHelper.cs",
+      "raw_sha256": "e854b52d5212499254af97711f6053c0e7359c382c50d11f36ac4cdd0ae3144c"
+    },
+    {
+      "path": "Distribuicao\\AssinaturaManifesto.cs",
+      "export_path": "Distribuicao\\AssinaturaManifesto.cs",
+      "raw_sha256": "8301bd71e4a0256202e2e555fe1eec19e8ecc1c7d1dc67faa2fdefa85a09c228"
+    },
+    {
+      "path": "Distribuicao\\ClienteDistribuicao.cs",
+      "export_path": "Distribuicao\\ClienteDistribuicao.cs",
+      "raw_sha256": "5f34444c57f9c1f5d49ad7de6525aa4e7de122460da92d3b083033edf65c4020"
+    },
+    {
+      "path": "Distribuicao\\DownloadFalhouException.cs",
+      "export_path": "Distribuicao\\DownloadFalhouException.cs",
+      "raw_sha256": "4555cb9c1dfd6dbba07086dd6ab9b327da8b8d1e720f1430b2171f89afd77f08"
+    },
+    {
+      "path": "Distribuicao\\HashArquivo.cs",
+      "export_path": "Distribuicao\\HashArquivo.cs",
+      "raw_sha256": "441e1100535d0ad8a8f9598de2acf7ff6bc18b2d5356be32f5838aca3359f96c"
+    },
+    {
+      "path": "Distribuicao\\LancadorAtualizador.cs",
+      "export_path": "Distribuicao\\LancadorAtualizador.cs",
+      "raw_sha256": "5e191b95b74d55abfdb201ae902d55ce0f592b88623b5f88c49d54c39f9741e6"
+    },
+    {
+      "path": "Distribuicao\\ManifestoInvalidoException.cs",
+      "export_path": "Distribuicao\\ManifestoInvalidoException.cs",
+      "raw_sha256": "7291931bd283394bee341e63344d00a274ad70614208db6f82056ce7b64087dd"
+    },
+    {
+      "path": "Distribuicao\\ReleaseLocal.cs",
+      "export_path": "Distribuicao\\ReleaseLocal.cs",
+      "raw_sha256": "e03b80e5594500c039670972e376ab6a65f5756b71b66c56d9f17c58cb7d866b"
+    },
+    {
+      "path": "Distribuicao\\SerializadorManifesto.cs",
+      "export_path": "Distribuicao\\SerializadorManifesto.cs",
+      "raw_sha256": "bd3078ef9abc6dfa62771fd890b58906b7aaf0ce4e6bcd79f3185d1ea8dd8a23"
+    },
+    {
+      "path": "e9iuGjXAPLCDfGZhqP\\q8uS2O4UtuDe2RqU0S.cs",
+      "export_path": "e9iuGjXAPLCDfGZhqP\\q8uS2O4UtuDe2RqU0S.cs",
+      "raw_sha256": "ba158bc5026b6d29159031e4be386c07264a294444d02bdbb0ee02380f6df55b"
+    },
+    {
+      "path": "Event\\EventPublisher.cs",
+      "export_path": "Event\\EventPublisher.cs",
+      "raw_sha256": "efe1ee2eb874ca1301d095dc177281d6d224e6e114440969d7f4e9fa7ac3a86b"
+    },
+    {
+      "path": "File\\ArquivoCorrelacaoNcm.cs",
+      "export_path": "File\\ArquivoCorrelacaoNcm.cs",
+      "raw_sha256": "4151b2fb9b2f2c154998f2ee29ce5539a651d22e3dd2dfe0385e304b05628a15"
+    },
+    {
+      "path": "File\\ArquivoDefault.cs",
+      "export_path": "File\\ArquivoDefault.cs",
+      "raw_sha256": "8eb4388067c3f369fda6e3ce442df3277ff2976452fea9435424968b69cbad71"
+    },
+    {
+      "path": "File\\ArquivoDevolucaoIcmsStSimplesNacional.cs",
+      "export_path": "File\\ArquivoDevolucaoIcmsStSimplesNacional.cs",
+      "raw_sha256": "e58df023d38a5139f8b4d2abad83becfa1d390a376a77709683ced3070e5953a"
+    },
+    {
+      "path": "File\\ArquivoFactory.cs",
+      "export_path": "File\\ArquivoFactory.cs",
+      "raw_sha256": "f4ca3d9c67bfc56bb31b8322de4353b8d87ec42d05060b24f3772320ef1c9013"
+    },
+    {
+      "path": "File\\ArquivoProdutoDivergente.cs",
+      "export_path": "File\\ArquivoProdutoDivergente.cs",
+      "raw_sha256": "6996c10d04b128e75ccf5ff989b107193c75dad6d128192d66fcbb0e8bcd095b"
+    },
+    {
+      "path": "File\\ArquivoProdutoServico.cs",
+      "export_path": "File\\ArquivoProdutoServico.cs",
+      "raw_sha256": "3804d4b7604052361bef054403b716d24b46047b297c470c546e812f77c78d84"
+    },
+    {
+      "path": "File\\ArquivoProdutoServicoAdvIntegra.cs",
+      "export_path": "File\\ArquivoProdutoServicoAdvIntegra.cs",
+      "raw_sha256": "d2393f0bc5db95f17113ea88a683e9b6c055bdbb72db28d8a58acf62570979d0"
+    },
+    {
+      "path": "File\\ArquivoRetornoProdutoServico.cs",
+      "export_path": "File\\ArquivoRetornoProdutoServico.cs",
+      "raw_sha256": "9a85a1e569a3cc677816a74acbb8e4147483f5c8b43c6b0fd3b9564fe69a30d8"
+    },
+    {
+      "path": "File\\ArquivoRetornoProdutoServicoAdvIntegra.cs",
+      "export_path": "File\\ArquivoRetornoProdutoServicoAdvIntegra.cs",
+      "raw_sha256": "35fce2f2aa329e5abcf957871e1cc777cb4668f5ece3841781142b906510096d"
+    },
+    {
+      "path": "File\\ConfiguracaoServer.cs",
+      "export_path": "File\\ConfiguracaoServer.cs",
+      "raw_sha256": "02408c02140970cdddc9e0cde833125748f8efd8147aa7dd5d2661c1525932f7"
+    },
+    {
+      "path": "File\\CorrelacaoNcm.cs",
+      "export_path": "File\\CorrelacaoNcm.cs",
+      "raw_sha256": "5918d083b4b7e7c8b717d0f874b2160f4b42801658b8d16cf1e25c3868a6dde8"
+    },
+    {
+      "path": "File\\DevolucaoIcmsStSimplesNacional.cs",
+      "export_path": "File\\DevolucaoIcmsStSimplesNacional.cs",
+      "raw_sha256": "d1d92def0e032e35c0accbebfc93ba4cc47bb2e1b62cb5df91839ddbdcc7c1a9"
+    },
+    {
+      "path": "File\\IBPTZipFile.cs",
+      "export_path": "File\\IBPTZipFile.cs",
+      "raw_sha256": "4d6de9280362548dd3bb245e15755f55c16f476b27339b83dbe8e10cb3f1dd68"
+    },
+    {
+      "path": "File\\IBPTZipFileFactory.cs",
+      "export_path": "File\\IBPTZipFileFactory.cs",
+      "raw_sha256": "9115c3989a00a8dc3f4c65cda3ef64113c871ddfc13409c0ded849d6d6bbe93f"
+    },
+    {
+      "path": "File\\IniFile.cs",
+      "export_path": "File\\IniFile.cs",
+      "raw_sha256": "4f124bf5ea2e253ef468aeedaad67337490e87c0a158a5884026b9aa82768ab0"
+    },
+    {
+      "path": "File\\PafEcfDefault.cs",
+      "export_path": "File\\PafEcfDefault.cs",
+      "raw_sha256": "3c1d9c02ffc6a53ce7389c7658804db4cc51b57e9934896f192534bed7bcbc8a"
+    },
+    {
+      "path": "File\\ProdutoDivergente.cs",
+      "export_path": "File\\ProdutoDivergente.cs",
+      "raw_sha256": "b59683b863cdc5f7a8d403c53543c1473f93cce1985aba173fc31c3e5340b9f5"
+    },
+    {
+      "path": "File\\ProdutoServico.cs",
+      "export_path": "File\\ProdutoServico.cs",
+      "raw_sha256": "34aada16019ce0c18bcd9f372c64fa83e4ecf96d4efc15fb0a56d439d7d90d84"
+    },
+    {
+      "path": "File\\ProdutoServicoAdvIntegra.cs",
+      "export_path": "File\\ProdutoServicoAdvIntegra.cs",
+      "raw_sha256": "f6da287b1735897bd0e6a76e66b67546e5e134d6107b2ea9c6bbab394671edbd"
+    },
+    {
+      "path": "File\\Registro.cs",
+      "export_path": "File\\Registro.cs",
+      "raw_sha256": "dd83d6b37acc3e0080c984d7667ed5054847f8a797ce3419e087707f85d26a8c"
+    },
+    {
+      "path": "File\\RegistroRetornoProdutoServico.cs",
+      "export_path": "File\\RegistroRetornoProdutoServico.cs",
+      "raw_sha256": "010fd29af1fa810eebe25aa3cdf752f258e6a055f53d59b3c3fa2f1e589e4786"
+    },
+    {
+      "path": "File\\RegistroRetornoProdutoServicoAdvIntegra.cs",
+      "export_path": "File\\RegistroRetornoProdutoServicoAdvIntegra.cs",
+      "raw_sha256": "4b808f3d8c90624fe659216b635434ee786ef2e39a0c13b196bc92be73cf6e32"
+    },
+    {
+      "path": "File\\RetornoInformacaoErro.cs",
+      "export_path": "File\\RetornoInformacaoErro.cs",
+      "raw_sha256": "238c965187ff18d3e59c09f84f92eaffbe72ff4ed8aab997213b303ba8dc9269"
+    },
+    {
+      "path": "File\\RetornoInformacaoErroAdvIntegra.cs",
+      "export_path": "File\\RetornoInformacaoErroAdvIntegra.cs",
+      "raw_sha256": "98f221f11e396d37e258571b27aaa2fd1957d4fb0a529791ee87f978f0234bc4"
+    },
+    {
+      "path": "File\\XmlAuxiliarFile.cs",
+      "export_path": "File\\XmlAuxiliarFile.cs",
+      "raw_sha256": "5963c94b89e7ee53ca21c31035faf9424e4be0f12665bb5e1dde195e6d460a4e"
+    },
+    {
+      "path": "File\\XmlAuxiliarFileFactory.cs",
+      "export_path": "File\\XmlAuxiliarFileFactory.cs",
+      "raw_sha256": "d4394437bd2f94559a23c14107777fee8c10758d19f19fe5a0ec320d567fecad"
+    },
+    {
+      "path": "File\\XmlConfiguracaoClientFile.cs",
+      "export_path": "File\\XmlConfiguracaoClientFile.cs",
+      "raw_sha256": "2ace3d6532ad6bdc3f8399b882c8f8bfde36eed862add203fdcce9c3b62a19ac"
+    },
+    {
+      "path": "File\\XmlConfiguracaoClientFileFactory.cs",
+      "export_path": "File\\XmlConfiguracaoClientFileFactory.cs",
+      "raw_sha256": "80b60e5e56dea6cb21ee51c951db0e7b9b2b033862625a1eb7d2893af55f85f2"
+    },
+    {
+      "path": "File\\XmlConfiguracaoServerFile.cs",
+      "export_path": "File\\XmlConfiguracaoServerFile.cs",
+      "raw_sha256": "675a6927d757c2b9ba3effef3b22c2daf09c53b6cb42f2257424b83c328695da"
+    },
+    {
+      "path": "File\\XmlEtiquetaFile.cs",
+      "export_path": "File\\XmlEtiquetaFile.cs",
+      "raw_sha256": "385136a4fada82d58c9a6d73252d3aacc5d1091ca7928e6283512b8dbfe29184"
+    },
+    {
+      "path": "File\\XmlEtiquetaFileFactory.cs",
+      "export_path": "File\\XmlEtiquetaFileFactory.cs",
+      "raw_sha256": "81037f78baefab9595dc9cc07def7948ea572596d72a3567c75ab43a13aa3e36"
+    },
+    {
+      "path": "File\\XmlFile.cs",
+      "export_path": "File\\XmlFile.cs",
+      "raw_sha256": "b0a8db6151ac1b64528f43a29d84ec95f0e0d2933973343eb4755ad5fa828fc9"
+    },
+    {
+      "path": "File\\XmlSngpc.cs",
+      "export_path": "File\\XmlSngpc.cs",
+      "raw_sha256": "611ce356927cd5cb4ff5823cb52445df07904e80000502f55b796c573d562dbf"
+    },
+    {
+      "path": "File\\XmlSngpcFileFactory.cs",
+      "export_path": "File\\XmlSngpcFileFactory.cs",
+      "raw_sha256": "d84d304d7fe488d02daac2b822351aa7dd06040422ce0fef2013c426309d2a5d"
+    },
+    {
+      "path": "File\\XmlTokenFile.cs",
+      "export_path": "File\\XmlTokenFile.cs",
+      "raw_sha256": "71a898005943eee7261cbc07f3e30b3c8a37070dad2d8e7ccc40770b1a1a779b"
+    },
+    {
+      "path": "File\\XmlTokenFileFactory.cs",
+      "export_path": "File\\XmlTokenFileFactory.cs",
+      "raw_sha256": "5e2b41f41dd6d0dc32db0cd1baafb3fd513221297cc3d52de2e6d5bbae7e6196"
+    },
+    {
+      "path": "j3GMrVCQW2htBLxvVl\\P0gvkd3Fes9w16iNAu.cs",
+      "export_path": "j3GMrVCQW2htBLxvVl\\P0gvkd3Fes9w16iNAu.cs",
+      "raw_sha256": "c9d695087a1bf3e4f3d54fcafb426b0809a65f8bda7eb2b5e2061b08b70f0812"
+    },
+    {
+      "path": "LjSZDZZmor6RrMWTWQ\\TgwajVl04UipkZ0HUE.cs",
+      "export_path": "LjSZDZZmor6RrMWTWQ\\TgwajVl04UipkZ0HUE.cs",
+      "raw_sha256": "663abd1dac61ed55e844a0435b38731eca2ac51f8de2628949c0ae385713288e"
+    },
+    {
+      "path": "Logging\\TraceSourceLog.cs",
+      "export_path": "Logging\\TraceSourceLog.cs",
+      "raw_sha256": "6b49a4799e6435e5f0871aff1294979535ae1d98d9d4b2a3248c5940b5a1746c"
+    },
+    {
+      "path": "Logging\\TraceSourceLogFactory.cs",
+      "export_path": "Logging\\TraceSourceLogFactory.cs",
+      "raw_sha256": "1483823ba6461264aa7d8d1ed358ffebe2a36c10c2aaba79c01ae2aa809797a8"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "8a12ce9b110c3eee71d31e32a8207e4c4c014c947a9481e7944242f682f34019"
+    },
+    {
+      "path": "Service\\ConfiguracaoClientService.cs",
+      "export_path": "Service\\ConfiguracaoClientService.cs",
+      "raw_sha256": "921f7e993d59d9a7b9c0dd2ac3d9f40ea137a242f164029db9269689abd02b23"
+    },
+    {
+      "path": "Service\\ConfiguracaoService.cs",
+      "export_path": "Service\\ConfiguracaoService.cs",
+      "raw_sha256": "477363d1f92224ce3c92877a2503791572cac598096465b3440ad61b534a1859"
+    },
+    {
+      "path": "Session\\Token.cs",
+      "export_path": "Session\\Token.cs",
+      "raw_sha256": "0c5a8e7fadd52c3fe800c06bcd53d1d2f26c966a14dd5e034d1504fa528989d7"
+    },
+    {
+      "path": "Signature\\Assinaturas.cs",
+      "export_path": "Signature\\Assinaturas.cs",
+      "raw_sha256": "88e201253f0e1bdde60995e05eeb97a33808d458d642f038fb9263c3ea3fbe67"
+    },
+    {
+      "path": "Wrapper\\AssinaturaWrapper.cs",
+      "export_path": "Wrapper\\AssinaturaWrapper.cs",
+      "raw_sha256": "a4bc12d1d273b3ecf293ae0563ad528ef48907ea86a1c9e01fde4dc6bccb8f4e"
+    },
+    {
+      "path": "Wrapper\\FileIoWrapper.cs",
+      "export_path": "Wrapper\\FileIoWrapper.cs",
+      "raw_sha256": "4dd6fa8945647971cb71abdd255b0dc60b12a4a1cc0c58ef440fd7ad6fe0ff0f"
+    },
+    {
+      "path": "Wrapper\\HashWrapper.cs",
+      "export_path": "Wrapper\\HashWrapper.cs",
+      "raw_sha256": "30aecb8b08c155d4ba5a13f3c5860c5a3da075e25006327d8310a9f07c51f2dd"
+    },
+    {
+      "path": "__PrivateImplementationDetails.cs",
+      "export_path": "__PrivateImplementationDetails.cs",
+      "raw_sha256": "bb23b9b67103a92a5a071df9062dba40c1959eb1eed3dc1d58250f88fdd090da",
+      "generated": true
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [
+    {
+      "kind": "generated identifier sanitization",
+      "occurrences": 33
+    },
+    {
+      "kind": "synthesized ComputeStringHash helper",
+      "occurrences": 1
+    }
+  ],
+  "original_resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.NetFramework.g.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "file": "0001.bin",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "file": "0002.bin",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    }
+  ],
+  "generated_stubs": false
+}

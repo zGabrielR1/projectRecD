@@ -1,0 +1,190 @@
+{
+  "name": "Modulo.GeradorArquivosSpedFiscal",
+  "baseline": "baseline\\Modulo.GeradorArquivosSpedFiscal.dll",
+  "baseline_sha256": "6b0823e7621254caf5ac2ec289da39c6f71365f412b2ba9b7a578e11d29c3f22",
+  "export_project": "recovered\\SuiteG6\\Modulo.GeradorArquivosSpedFiscal\\Modulo.GeradorArquivosSpedFiscal.csproj",
+  "sources": [
+    {
+      "path": "GeradorArquivoSpedFiscalModulo.cs",
+      "export_path": "GeradorArquivoSpedFiscalModulo.cs",
+      "raw_sha256": "ed85de1a7cfb6791bdf396440a24545b7b6064b6a0192ac82fd73ed014c5409f"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "6d656925d337f6c2a9afa93b9392523f12394bb66900abc73077e81126957431"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "0fa8b62c9d8e824a1833dfc81e9341bcca989e149cf7432dbc1d61d3e320b29c"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "f2b4b666563541df190048b4a419c631baf45b03f6c5d2fda935a3b6d48d6147"
+    },
+    {
+      "path": "ViewModels\\GeradorAquivoSpedFiscalFormulario.cs",
+      "export_path": "ViewModels\\GeradorAquivoSpedFiscalFormulario.cs",
+      "raw_sha256": "794fd9c186953c0a2429584c958979a7c83436a1dcc0cae7afee2a5c9552b5f1"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivoSpedFiscalFichaViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivoSpedFiscalFichaViewModel.cs",
+      "raw_sha256": "d8b44e3ee18d7a84b824ee948e7981260a642c6e4990d3e6c25e7bd3424cb790"
+    },
+    {
+      "path": "ViewModels\\GeradorArquivosSpedFiscalViewModel.cs",
+      "export_path": "ViewModels\\GeradorArquivosSpedFiscalViewModel.cs",
+      "raw_sha256": "6984b3834663eb2a62c42c0dc01fda1fbe51a1b6e3481df93682afd7cd4f45bb"
+    },
+    {
+      "path": "ViewModels\\Passo1AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo1AbaViewModel.cs",
+      "raw_sha256": "26bf49188bd2a18a441f9020d65eb369a15262fc810424608733fe2245309537"
+    },
+    {
+      "path": "ViewModels\\Passo1ViewModel.cs",
+      "export_path": "ViewModels\\Passo1ViewModel.cs",
+      "raw_sha256": "9cc34ba445ba3afaf51fe9b253bb18d10aea8f4905176d5637f4521b66c8ec0b"
+    },
+    {
+      "path": "ViewModels\\Passo2AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo2AbaViewModel.cs",
+      "raw_sha256": "022a8d634757df4ffd17d97ee777dca449fc54d0c4246ae3eedc9fbab89e9ca6"
+    },
+    {
+      "path": "ViewModels\\Passo2ViewModel.cs",
+      "export_path": "ViewModels\\Passo2ViewModel.cs",
+      "raw_sha256": "42c8cbe3ee02c5aa233616a870c597084bbd3879639d409bd0b269f6bef1ffac"
+    },
+    {
+      "path": "ViewModels\\Passo3AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo3AbaViewModel.cs",
+      "raw_sha256": "b3d744ae886f55b1e2b85a8fa45ece2112ee988e9c67848add1ad2914d0f6820"
+    },
+    {
+      "path": "ViewModels\\Passo3ViewModel.cs",
+      "export_path": "ViewModels\\Passo3ViewModel.cs",
+      "raw_sha256": "e94c60ce3bd965298d5d90fd3f02b2fa1e2e58b45211ba7f8df25a88fb221617"
+    },
+    {
+      "path": "ViewModels\\Passo4AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo4AbaViewModel.cs",
+      "raw_sha256": "17ecd02eeac8ad04489367b20d7d5c98410220bf8e131ab950a800704dc32dd8"
+    },
+    {
+      "path": "ViewModels\\Passo4ViewModel.cs",
+      "export_path": "ViewModels\\Passo4ViewModel.cs",
+      "raw_sha256": "7c08cb118d475af4041a7421c831f332811fa22e1265f938e10cac5051774b85"
+    },
+    {
+      "path": "ViewModels\\Passo5AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo5AbaViewModel.cs",
+      "raw_sha256": "9397731427534a22d778cbf425aa1bdb43505eadedd7068416a311def8b3d6d6"
+    },
+    {
+      "path": "ViewModels\\Passo5ViewModel.cs",
+      "export_path": "ViewModels\\Passo5ViewModel.cs",
+      "raw_sha256": "c97c0548884bf85213a12f7a7ee4c1add4edbbc8a4b68459525ef9067c419f82"
+    },
+    {
+      "path": "ViewModels\\Passo6AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo6AbaViewModel.cs",
+      "raw_sha256": "e7ec3c1c9506ea57b895614cbcb26cda0c65d14c1b015e25290ed1e131fc559d"
+    },
+    {
+      "path": "ViewModels\\Passo6ViewModel.cs",
+      "export_path": "ViewModels\\Passo6ViewModel.cs",
+      "raw_sha256": "9fc59ca776531b2b85665e8cea380d40f700020b0967d7c464ccf09186213cbc"
+    },
+    {
+      "path": "ViewModels\\Passo7AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo7AbaViewModel.cs",
+      "raw_sha256": "4981cd498da69104a0dabaeb4c62871cbd178131c5bd1af928e40f25452b5386"
+    },
+    {
+      "path": "ViewModels\\Passo7ViewModel.cs",
+      "export_path": "ViewModels\\Passo7ViewModel.cs",
+      "raw_sha256": "429239575728456969022589e3a12b697f978727edacddebf3f0cea7d857c532"
+    },
+    {
+      "path": "ViewModels\\Passo8AbaViewModel.cs",
+      "export_path": "ViewModels\\Passo8AbaViewModel.cs",
+      "raw_sha256": "c12a8a1ae7ab64ab7fede8d2c764d761ea3d0d56c16e58ef8529323926d000e9"
+    },
+    {
+      "path": "ViewModels\\Passo8ViewModel.cs",
+      "export_path": "ViewModels\\Passo8ViewModel.cs",
+      "raw_sha256": "1bbef04a0338be75be4a7e9f51bb6d5194887b12d262c72e92380df4736a8bb2"
+    },
+    {
+      "path": "Views\\GeradorArquivoSpedFiscalFichaView.cs",
+      "export_path": "Views\\GeradorArquivoSpedFiscalFichaView.cs",
+      "raw_sha256": "c3c153b919c6ab815db55cb5af1af1189b7acc285ec02b96c92e5143ff809364"
+    },
+    {
+      "path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo1View.cs",
+      "export_path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo1View.cs",
+      "raw_sha256": "ca85e635fc320d987809cf6037f630fc216fc84814f169c3bb8c74b0e790f6ea"
+    },
+    {
+      "path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo2View.cs",
+      "export_path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo2View.cs",
+      "raw_sha256": "c9625cbad847d43ca5531388b94413ee45f6fc30e78f833193767b78aa301bb9"
+    },
+    {
+      "path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo3View.cs",
+      "export_path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo3View.cs",
+      "raw_sha256": "566380073ea0d0e67e3f290ba7253e85fbc77d6572b420948a0d736b18e85f94"
+    },
+    {
+      "path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo4View.cs",
+      "export_path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo4View.cs",
+      "raw_sha256": "22ad1a26aaf855d8f9a20fc3f76222139fae0143b7f1a486567766bcc6c3750d"
+    },
+    {
+      "path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo5View.cs",
+      "export_path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo5View.cs",
+      "raw_sha256": "719fed4dba63b81c2e9005cf14bfb7ee3245c58d30dfd84582ebf7b8442b5137"
+    },
+    {
+      "path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo6View.cs",
+      "export_path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo6View.cs",
+      "raw_sha256": "c2dc9f6a7c53329c11976ccc193e05f05d065835c55cdd550e8a6f359be3cd14"
+    },
+    {
+      "path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo7View.cs",
+      "export_path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo7View.cs",
+      "raw_sha256": "a5a69b4fadcf8f8615f4ab273eaecb351fb9f6f5376a55028a0bb9ae51870286"
+    },
+    {
+      "path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo8View.cs",
+      "export_path": "Views\\GeradorArquivoSpedFiscalFichaViewDetalhe\\Passo8View.cs",
+      "raw_sha256": "d0456b3f84d947695c44ce4de5b1585f0489403016b6de65db8ab8ab5627e6b3"
+    },
+    {
+      "path": "Views\\GeradorArquivosSpedFiscalView.cs",
+      "export_path": "Views\\GeradorArquivosSpedFiscalView.cs",
+      "raw_sha256": "842322dd82db67cfbfac3f68d00859fb62ebeca00f0c99fde3feca715951ceb0"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GeradorArquivosSpedFiscal.g.resources",
+      "file": "0000.bin",
+      "bytes": 36557,
+      "sha256": "4de6dc09b7edddb04436686f65cdeee3c5c57233063e8fd80c1510175fe8eee2"
+    },
+    {
+      "name": "Otus.Modulo.GeradorArquivosSpedFiscal.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

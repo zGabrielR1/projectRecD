@@ -1,0 +1,22 @@
+{
+  "artifactSha256": "b35cb9b66f60b78ee589fca24d16950ad62049dbb736290b608239dbfdb202ed",
+  "mvid": "aee80b62-35f7-4eff-94e1-b4a82153891d",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalProdutorRural.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

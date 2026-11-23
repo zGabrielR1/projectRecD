@@ -1,0 +1,36 @@
+{
+  "artifactSha256": "492195d6c94a2d0cb83b09147b12cb6dd5a22b6ff56f7cc67f82ec5db4d9b4f0",
+  "mvid": "24e96a9c-1be6-4d42-ac7f-a45163171c74",
+  "assembly": "Modulo.JornadasTrabalho, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "Prism.Unity.Wpf",
+    "System.Core",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.JornadasTrabalho.g.resources",
+      "file": "0000.bin",
+      "bytes": 6571,
+      "sha256": "b50c8f4571d3baa0f31201a7aff5ed09fa2d22466bdd5236bb41a35486d42417"
+    },
+    {
+      "name": "Otus.Modulo.JornadasTrabalho.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

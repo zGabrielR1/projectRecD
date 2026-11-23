@@ -1,0 +1,109 @@
+{
+  "artifactSha256": "3fe68ade1ec02b3dcd508779b49dd4855e1d2eaa5feba5c3d13d483e037aabbd",
+  "mvid": "122e50f4-bf54-4365-8d4b-40bdb0dfdcca",
+  "assembly": "Modulo.Animais, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Crosscutting.Style",
+    "PresentationCore",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DevExpress.Mvvm.v15.2",
+    "System.ComponentModel.DataAnnotations",
+    "System.Core",
+    "System.Windows.Forms",
+    "DigisatServer.Domain.Main",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "DevExpress.XtraReports.v15.2",
+    "System.Drawing",
+    "Prism.Unity.Wpf",
+    "DevExpress.XtraPrinting.v15.2",
+    "DevExpress.Printing.v15.2.Core",
+    "System.Reactive.Core",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.Animais.g.resources",
+      "file": "0000.bin",
+      "bytes": 185862,
+      "sha256": "a31952c1f4262870b75389dbdb650248aa00850307619f4266e5ed8af067e49d"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoAtestadoTransito.resources",
+      "file": "0002.bin",
+      "bytes": 867,
+      "sha256": "509df1bba54400439a9b5b8b38fb59bbf5d3aee4d86aac0f83079220e1530466"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoAtestadoGenerico.resources",
+      "file": "0003.bin",
+      "bytes": 2304,
+      "sha256": "41fd014b0a43baae79fc211e8e21dea13f9e85ea9e6230c836b525876d5f71fd"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoConsulta.resources",
+      "file": "0004.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoFichaCadastral.resources",
+      "file": "0005.bin",
+      "bytes": 616,
+      "sha256": "c8e025c715c5bdd7a58d6132c0720547e2b0ad15d160e8fb50f8e8007f6294d5"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoReceiturario.resources",
+      "file": "0006.bin",
+      "bytes": 2424,
+      "sha256": "01bc194299d720a1dcdf2b8db24ea87bd349fc2c049fbd745290d2ce5c4e79f4"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoTermoRetiradaSemAlta.resources",
+      "file": "0007.bin",
+      "bytes": 1222,
+      "sha256": "32a970d9bcf41acbeaeada156487b46d515638dc996b0b094b7735d9412f8919"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoTermoEutanasia.resources",
+      "file": "0008.bin",
+      "bytes": 1168,
+      "sha256": "65281e10758a2c6a24359f5a322ac85804d0ef1b50721afcbbb7f131baa80f49"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoTermoCirurgicoAnestesico.resources",
+      "file": "0009.bin",
+      "bytes": 1762,
+      "sha256": "f55c13ff1c296bb2f5258b8e029895eca40900e548b3cb973322d2321825b560"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoAtestadoVacinacao.resources",
+      "file": "0010.bin",
+      "bytes": 2304,
+      "sha256": "41fd014b0a43baae79fc211e8e21dea13f9e85ea9e6230c836b525876d5f71fd"
+    },
+    {
+      "name": "Otus.Modulo.Animais.Reports.ImpressoFichaClinicaAnimal.resources",
+      "file": "0011.bin",
+      "bytes": 616,
+      "sha256": "c8e025c715c5bdd7a58d6132c0720547e2b0ad15d160e8fb50f8e8007f6294d5"
+    }
+  ]
+}

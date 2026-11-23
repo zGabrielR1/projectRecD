@@ -1,0 +1,22 @@
+{
+  "artifactSha256": "aaa23bc5315f8912f8e6dd6e26bf60e6e392cff24be7afbea6b7acf8320980f3",
+  "mvid": "5518d115-58cf-4463-8ac9-f377efb41c7f",
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.EfdContribuicao, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "System.Core"
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.EfdContribuicao.Properties.Resources.resources",
+      "file": "0000.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

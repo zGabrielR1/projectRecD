@@ -1,0 +1,37 @@
+{
+  "artifactSha256": "8a9114e00e880c3e33676f26b2087f6e80404cdb33102e9e5a2216d7b9fc5658",
+  "mvid": "4527428c-bea1-450e-a866-e0460a394425",
+  "assembly": "Modulo.TiposPersonalizado, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "Infraestrutura",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "System.Core",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "System.ComponentModel.DataAnnotations",
+    "Prism.Unity.Wpf",
+    "DevExpress.Mvvm.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.TiposPersonalizado.g.resources",
+      "file": "0000.bin",
+      "bytes": 10836,
+      "sha256": "272115f82e832cb575f6688510fdeac8e3b0beec015dd921034d0f36a847062b"
+    },
+    {
+      "name": "Otus.Modulo.TiposPersonalizado.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ]
+}

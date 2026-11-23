@@ -1,0 +1,11 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.LeitorSerial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "System",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Reactive.Core",
+    "System.Reactive.Linq",
+    "System.Reactive.Interfaces"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "name": "Modulo.GerenciadorTickets",
+  "baseline": "baseline\\Modulo.GerenciadorTickets.dll",
+  "baseline_sha256": "b85607cf5e5b33048a1e811d741e2d790529b247abe7aad6f8c66c6749bf0643",
+  "export_project": "recovered\\SuiteG6\\Modulo.GerenciadorTickets\\Modulo.GerenciadorTickets.csproj",
+  "sources": [
+    {
+      "path": "GerenciadorTicketModulo.cs",
+      "export_path": "GerenciadorTicketModulo.cs",
+      "raw_sha256": "c8034b9a30bc251f3d41e90c80b06447021eac543d8b8414ab57414f9569de2f"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "c35ba9942d44d757d8b318eb87b23b3a8121f2d00c6bf378ab37157fa007d8ca"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "dfd7612aaf4d6c2f59f925a9f24c216e513841b871db4a31d831bd5b31c6246a"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "678098e79aee1678f43f4c4f0ce18f4f29cede6fa28b955f2cea2c7d60459463"
+    },
+    {
+      "path": "ViewModels\\DescontoPercentualVendaViewModel.cs",
+      "export_path": "ViewModels\\DescontoPercentualVendaViewModel.cs",
+      "raw_sha256": "3216e19ef8afe8b02ebeef19a4f6d2212da04926a27a1f24fc0da6f2b8344e3d"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketAbaViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorTicketAbaViewModel.cs",
+      "raw_sha256": "c0bddf5aa3348b4df78d4a09b56280bb38205be76ec39ef6f56da3a5fd7a368f"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketDetalheAbaViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorTicketDetalheAbaViewModel.cs",
+      "raw_sha256": "fbadbe6de7e2984df16144f0eaed5facaae5c2e0b0a8247541296de09627fe02"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketDetalheViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorTicketDetalheViewModel.cs",
+      "raw_sha256": "0d91d9812992043b3eb80cab0705cc2f82e57b331f2d512ce85085d85b540392"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorTicketFichaAdicionarViewModel.cs",
+      "raw_sha256": "c8e75ae9af7b648040b36e420e89ba7652737cbe1f37f84068fb76ad5a235137"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorTicketFichaAtualizarViewModel.cs",
+      "raw_sha256": "f19043e877a019cffb82d931b42c6879be37d611ae924e3f2bff4752f0f6b386"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketFormulario.cs",
+      "export_path": "ViewModels\\GerenciadorTicketFormulario.cs",
+      "raw_sha256": "cff15dfc3ecc5e80a5976c54837bfd4b742832a9a52054f4b47dfb339780d3f6"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketListaViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorTicketListaViewModel.cs",
+      "raw_sha256": "210f51a3780b8c8a935f8402a8ccb74bbd7365ceea9c74c7276e28fedbef5e4e"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketsViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorTicketsViewModel.cs",
+      "raw_sha256": "962e8aecea42300e5a4693274385d31289e4d6b6aa51baed290435febb4af9c3"
+    },
+    {
+      "path": "ViewModels\\GerenciadorTicketViewModel.cs",
+      "export_path": "ViewModels\\GerenciadorTicketViewModel.cs",
+      "raw_sha256": "89a22c4b7b89be37aa69240659efe9148974a4b41aaced44d6c5cf3280769668"
+    },
+    {
+      "path": "ViewModels\\ItemTicketViewModel.cs",
+      "export_path": "ViewModels\\ItemTicketViewModel.cs",
+      "raw_sha256": "b8c58a65f7b794b0902b707e2f5d874f92184519e552a72caceb21c601459e8f"
+    },
+    {
+      "path": "ViewModels\\PeriodoEspecificoItemViewModel.cs",
+      "export_path": "ViewModels\\PeriodoEspecificoItemViewModel.cs",
+      "raw_sha256": "e9deb9931325c72d4c53f6cd8f570ef9db9ae8dac9341e275647de858ac290c3"
+    },
+    {
+      "path": "ViewModels\\ProdutoViewModel.cs",
+      "export_path": "ViewModels\\ProdutoViewModel.cs",
+      "raw_sha256": "bdecb3e39f30d0973e793636db8868a9af7b6edcd637c48bef402ef8aa920bfc"
+    },
+    {
+      "path": "ViewModels\\TicketBaseGeradorViewModel.cs",
+      "export_path": "ViewModels\\TicketBaseGeradorViewModel.cs",
+      "raw_sha256": "7a6d6f53edad20c6b4d0f9536ce537adb8c0e7988b3c86e9c857cb1a50d3b158"
+    },
+    {
+      "path": "ViewModels\\TipoTicketViewModel.cs",
+      "export_path": "ViewModels\\TipoTicketViewModel.cs",
+      "raw_sha256": "6dc7bf424beb5e7d69f758f262f5373ebd8b06e23899ed0cb62d7369273738ca"
+    },
+    {
+      "path": "ViewModels\\VinculadoPromocaoViewModel.cs",
+      "export_path": "ViewModels\\VinculadoPromocaoViewModel.cs",
+      "raw_sha256": "12d26427edcbe29fa20d4eae000ffdc1843244ef599aac0ec2e6b6b9edbd0484"
+    },
+    {
+      "path": "Views\\GerenciadorTicketFichaAdicionarView.cs",
+      "export_path": "Views\\GerenciadorTicketFichaAdicionarView.cs",
+      "raw_sha256": "34891a111e86cf8d035987f41bddc15591cae4674b618d3691633f65f7e5bc09"
+    },
+    {
+      "path": "Views\\GerenciadorTicketFichaAtualizarView.cs",
+      "export_path": "Views\\GerenciadorTicketFichaAtualizarView.cs",
+      "raw_sha256": "517d05ad51d5ede160fd6c9c5a7846989a5ae07392467b4b7a1b2bf87ce281e4"
+    },
+    {
+      "path": "Views\\GerenciadorTicketFichaViewDetalhes\\GerenciadorTicketDetalheView.cs",
+      "export_path": "Views\\GerenciadorTicketFichaViewDetalhes\\GerenciadorTicketDetalheView.cs",
+      "raw_sha256": "2f29cc12887d7570e2cc8313fbfe5563514295561a6292c967c1c466ba16646d"
+    },
+    {
+      "path": "Views\\GerenciadorTicketFichaViewDetalhes\\GerenciadorTicketView.cs",
+      "export_path": "Views\\GerenciadorTicketFichaViewDetalhes\\GerenciadorTicketView.cs",
+      "raw_sha256": "cb76eb36168e1de7fe17bbac377d22237544850a1d4c02b2875dc60642ca0fc1"
+    },
+    {
+      "path": "Views\\GerenciadorTicketListaView.cs",
+      "export_path": "Views\\GerenciadorTicketListaView.cs",
+      "raw_sha256": "a58e1fbdfabca4e6f066054b2342f043786ee609cc6691cfda2ddb617ec4fcca"
+    },
+    {
+      "path": "Views\\GerenciadorTicketsView.cs",
+      "export_path": "Views\\GerenciadorTicketsView.cs",
+      "raw_sha256": "32b44d012a9c9c7534fdc0ebb5b03eba445101171f198386b10d756ea919f2df"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.GerenciadorTickets.g.resources",
+      "file": "0000.bin",
+      "bytes": 30695,
+      "sha256": "3ee19ab59b2f2b4d80b7a14111dda780c5b0a448ad5c3c8a374b35f2f27d2ce7"
+    },
+    {
+      "name": "Otus.Modulo.GerenciadorTickets.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

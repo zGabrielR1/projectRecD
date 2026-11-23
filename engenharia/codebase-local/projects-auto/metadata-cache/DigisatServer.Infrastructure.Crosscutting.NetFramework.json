@@ -1,0 +1,21 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Crosscutting.NetFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "references": [
+    "mscorlib",
+    "mscorlib",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Core",
+    "System.Runtime.Serialization",
+    "System.Xml",
+    "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+    "System",
+    "Newtonsoft.Json",
+    "PresentationFramework",
+    "Ionic.Zip",
+    "System.Reactive.Interfaces",
+    "System.Reactive.Linq",
+    "System.Reactive.Core",
+    "Akka",
+    "Akka.DI.Core"
+  ]
+}

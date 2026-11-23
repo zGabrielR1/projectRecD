@@ -1,0 +1,85 @@
+{
+  "name": "Modulo.TransacoesPbm",
+  "baseline": "baseline\\Modulo.TransacoesPbm.dll",
+  "baseline_sha256": "1cc927d61241f7a19ddc975e48235cf3e71b2f5566de480a046424419e431bb8",
+  "export_project": "recovered\\SuiteG6\\Modulo.TransacoesPbm\\Modulo.TransacoesPbm.csproj",
+  "sources": [
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "de1cdccef6789f689ee9f889439e2d013396d013d54cab343d1a674b88c845db"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "ff78687903ee899a64269a59925739b40f52f82f3f4864093b9dec03540977ef"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "418b3b330725c8ce8386f302f40519cca1b056fe92fc87398b487a8db0bcfdd6"
+    },
+    {
+      "path": "TransacaoPbmModulo.cs",
+      "export_path": "TransacaoPbmModulo.cs",
+      "raw_sha256": "bab0514332c66fc9e8069de781f3cf0cbfc4869279ed3596f66686139cab7866"
+    },
+    {
+      "path": "ViewModels\\ItemTransacaoPbmViewModel.cs",
+      "export_path": "ViewModels\\ItemTransacaoPbmViewModel.cs",
+      "raw_sha256": "5d3449108110fc917ec145bfcf10de16f61f17d67574f0f6ff04bc2c874cce37"
+    },
+    {
+      "path": "ViewModels\\TransacaoPbmAbaViewModel.cs",
+      "export_path": "ViewModels\\TransacaoPbmAbaViewModel.cs",
+      "raw_sha256": "afc1a9b6929f987623110124496133fcee767971e02cdd52a94ee25221163427"
+    },
+    {
+      "path": "ViewModels\\TransacaoPbmFichaViewModel.cs",
+      "export_path": "ViewModels\\TransacaoPbmFichaViewModel.cs",
+      "raw_sha256": "c8d46e6ff6fde47d99423747984a0729de7aa74fa6acfd5bb849dfec43368542"
+    },
+    {
+      "path": "ViewModels\\TransacaoPbmFormulario.cs",
+      "export_path": "ViewModels\\TransacaoPbmFormulario.cs",
+      "raw_sha256": "237977ac5fad5ee4afbe7cfec3074cd6b618d219f609b31fd6d03fc4cdd45202"
+    },
+    {
+      "path": "ViewModels\\TransacaoPbmViewModel.cs",
+      "export_path": "ViewModels\\TransacaoPbmViewModel.cs",
+      "raw_sha256": "2aaebe8733699d511e9c0a9675bdc1cf870b4b2f3ac8b9772259ca684ce916a1"
+    },
+    {
+      "path": "ViewModels\\TransacoesPbmViewModel.cs",
+      "export_path": "ViewModels\\TransacoesPbmViewModel.cs",
+      "raw_sha256": "a024673f7a5180bbfa78582bdaa70101380cca9264fe3d4b6546725aa492d3d7"
+    },
+    {
+      "path": "Views\\TransacaoPbmFichaView.cs",
+      "export_path": "Views\\TransacaoPbmFichaView.cs",
+      "raw_sha256": "de7616a1039060d781e29000eee17c03760d1a3f4bc9f5d47e6b798b002d11e2"
+    },
+    {
+      "path": "Views\\TransacoesPbmView.cs",
+      "export_path": "Views\\TransacoesPbmView.cs",
+      "raw_sha256": "efe2a35a8c48e39c172456adccab61e6ccb2116d85cdd50b7afce57026695720"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.TransacoesPbm.g.resources",
+      "file": "0000.bin",
+      "bytes": 9107,
+      "sha256": "e74193b05c756b7127b2fd3ca850cf0d84aec3817a409a9c6d1c1c4d38c40b48"
+    },
+    {
+      "name": "Otus.Modulo.TransacoesPbm.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

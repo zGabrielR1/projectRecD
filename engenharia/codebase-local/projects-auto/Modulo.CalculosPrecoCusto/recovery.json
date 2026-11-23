@@ -1,0 +1,110 @@
+{
+  "name": "Modulo.CalculosPrecoCusto",
+  "baseline": "baseline\\Modulo.CalculosPrecoCusto.dll",
+  "baseline_sha256": "00d2349326d94ea1280f9fd4026f48d6cede36d9e91faac3ce508a6c4f178810",
+  "export_project": "recovered\\SuiteG6\\Modulo.CalculosPrecoCusto\\Modulo.CalculosPrecoCusto.csproj",
+  "sources": [
+    {
+      "path": "CalculoPrecoCustoModulo.cs",
+      "export_path": "CalculoPrecoCustoModulo.cs",
+      "raw_sha256": "b11b60b1b62cbce8427661f7c5b1fe205128bc1a3635a1284e47cba0ef6f30d6"
+    },
+    {
+      "path": "Properties\\AssemblyInfo.cs",
+      "export_path": "Properties\\AssemblyInfo.cs",
+      "raw_sha256": "741ba0e8b6db327509c554734d47528926d01e2f4f0822f89ff89456b32cc166"
+    },
+    {
+      "path": "Properties\\Resources.cs",
+      "export_path": "Properties\\Resources.cs",
+      "raw_sha256": "cc0f363393caff9445a1d439daf49a291d248fef799625a2cf184dc10db04076"
+    },
+    {
+      "path": "Properties\\Settings.Designer.cs",
+      "export_path": "Properties\\Settings.Designer.cs",
+      "raw_sha256": "d96cbf94d80a4f874f4053da03294461528fe9eeaa9afa9147e09f23f98dbede"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoCustoAbaViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoCustoAbaViewModel.cs",
+      "raw_sha256": "02bee18325a29d21a526516afe7b153f9d16309f77136e59d7e6862855d2c9c7"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoCustoFichaAdicionarViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoCustoFichaAdicionarViewModel.cs",
+      "raw_sha256": "f3bcd50514159e725cce50d3bae300955501afef609d00f1fa6371cf22beac2d"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoCustoFichaAtualizarViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoCustoFichaAtualizarViewModel.cs",
+      "raw_sha256": "00707b530314bb2dd2069410058857c90311c07cd140c0b18169a4a0bc78cd90"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoCustoFormulario.cs",
+      "export_path": "ViewModels\\CalculoPrecoCustoFormulario.cs",
+      "raw_sha256": "7c7e8132d5b3bacedd7856a9ea762566650f7868cbd4e8e0969347c09bf1ce6a"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoCustoListaViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoCustoListaViewModel.cs",
+      "raw_sha256": "27091f5c38b90e9500c0ac4f820a23f97f8a7bf71389458e5d1f81f99524d84b"
+    },
+    {
+      "path": "ViewModels\\CalculoPrecoCustoViewModel.cs",
+      "export_path": "ViewModels\\CalculoPrecoCustoViewModel.cs",
+      "raw_sha256": "d02ad8883868d15b82b98fdca673d3122714d4c5cd657890e3d8335e2e403397"
+    },
+    {
+      "path": "ViewModels\\ConstituidorDetalheViewModel.cs",
+      "export_path": "ViewModels\\ConstituidorDetalheViewModel.cs",
+      "raw_sha256": "1bccc606d10b19140993232244bfce81a1fd6d7c6d83cb1326c237d67a45f40e"
+    },
+    {
+      "path": "ViewModels\\ListaConstituidorDetalheViewModel.cs",
+      "export_path": "ViewModels\\ListaConstituidorDetalheViewModel.cs",
+      "raw_sha256": "77b21d4dde323792625f9ca22a4ddb4651115c364977ef4aacf3ca237a2a74f2"
+    },
+    {
+      "path": "Views\\CalculoPrecoCustoFichaAdicionarView.cs",
+      "export_path": "Views\\CalculoPrecoCustoFichaAdicionarView.cs",
+      "raw_sha256": "a8f9131955454d5a49aaa8208596e0cdec9ae53d657eea1fa2c59a370a99b76d"
+    },
+    {
+      "path": "Views\\CalculoPrecoCustoFichaAtualizarView.cs",
+      "export_path": "Views\\CalculoPrecoCustoFichaAtualizarView.cs",
+      "raw_sha256": "f7f1ae842bd2541bfe0f1a3e1ced3632bd1adb18e0584e08095cc7e992b92c3e"
+    },
+    {
+      "path": "Views\\CalculoPrecoCustoFichaViewDetalhes\\CalculoPrecoCustoView.cs",
+      "export_path": "Views\\CalculoPrecoCustoFichaViewDetalhes\\CalculoPrecoCustoView.cs",
+      "raw_sha256": "41a580ef08a57c99d0d443b5ff905a350b42efb6808c7287f0503f1baddf9d0f"
+    },
+    {
+      "path": "Views\\CalculoPrecoCustoListaView.cs",
+      "export_path": "Views\\CalculoPrecoCustoListaView.cs",
+      "raw_sha256": "1a70a1bc519bc46ac865710810eac94f7e1c608a74ed2ff428e21f4bbdd4f9b4"
+    },
+    {
+      "path": "Views\\CalculosPrecoCustoView.cs",
+      "export_path": "Views\\CalculosPrecoCustoView.cs",
+      "raw_sha256": "399f598491195289c55fde3c5cc72d99dd7fd11e0b7a8f745a770266de8d527b"
+    }
+  ],
+  "output_type": "Library",
+  "repairs": [],
+  "original_resources": [
+    {
+      "name": "Modulo.CalculosPrecoCusto.g.resources",
+      "file": "0000.bin",
+      "bytes": 12872,
+      "sha256": "bd4a4ee51fa1b5361b89319d69f854148adedd70f624a1867e449e5267d0b091"
+    },
+    {
+      "name": "Otus.Modulo.CalculosPrecoCusto.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    }
+  ],
+  "generated_stubs": false
+}

@@ -1,0 +1,111 @@
+{
+  "artifactSha256": "3eb00e176ba3e6e78481ba9ded8934c7acbb6695dad520e7cb331bce79be3f7c",
+  "mvid": "7647d037-ef88-4a1a-967c-5310a77f74d6",
+  "assembly": "Modulo.PontoDeVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "entryPoint": null,
+  "references": [
+    "mscorlib",
+    "PresentationFramework",
+    "Prism.Wpf",
+    "Microsoft.Practices.Unity",
+    "System.Xaml",
+    "System",
+    "PresentationCore",
+    "DevExpress.Mvvm.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+    "DigisatServer.Domain.Main",
+    "DigisatServer.Application.Main.Dto",
+    "DigisatServer.Distributed.Wcf.Main",
+    "DigisatServer.Infrastructure.Crosscutting",
+    "System.Reactive.Linq",
+    "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+    "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+    "Infraestrutura",
+    "DigisatServer.Infrastructure.Data.Core",
+    "MongoDB.Bson",
+    "WindowsBase",
+    "System.Reactive.Core",
+    "System.ServiceProcess",
+    "DigisatServer.Infrastructure.Crosscutting.Tef",
+    "System.Core",
+    "DigisatServer.Infrastructure.Crosscutting.DFe",
+    "System.Drawing",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+    "DigisatServer.Infrastructure.Crosscutting.Report",
+    "System.ComponentModel.DataAnnotations",
+    "DevExpress.Xpf.Core.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Display",
+    "DigisatServer.Infrastructure.Crosscutting.Ecf",
+    "Akka",
+    "Ionic.Zip",
+    "DigisatServer.Infrastructure.Crosscutting.PixPinPad",
+    "DevExpress.XtraReports.v15.2",
+    "System.Windows.Forms",
+    "DevExpress.Printing.v15.2.Core",
+    "DigisatServer.Domain.Core",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+    "Akka.DI.Unity",
+    "Prism.Unity.Wpf",
+    "DigisatServer.Application.Core",
+    "DevExpress.XtraPrinting.v15.2",
+    "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+    "NClone",
+    "DevExpress.Data.v15.2"
+  ],
+  "resources": [
+    {
+      "name": "Modulo.PontoDeVendas.g.resources",
+      "file": "0000.bin",
+      "bytes": 1130943,
+      "sha256": "327dd3affb5a67a57829fb8edaf24d8a8629b974dc75fd4535dc7ec1a5daf30a"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Properties.Resources.resources",
+      "file": "0001.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.ParcelamentoViaCliente56Mm57Mm58Mm.resources",
+      "file": "0002.bin",
+      "bytes": 2478,
+      "sha256": "a675897d62610acee05a3d127b2835a366b2ec680ea1f5e25cf4a36fb0a19ca0"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.ParcelamentoViaEstabelecimento56Mm57Mm58Mm.resources",
+      "file": "0003.bin",
+      "bytes": 4630,
+      "sha256": "47081cb8b1dc26b92fd82296b612f86a0f3608e192d6b6065071ae20206ba950"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.ParcelamentoViaEstabelecimento79Mm80Mm.resources",
+      "file": "0004.bin",
+      "bytes": 4630,
+      "sha256": "47081cb8b1dc26b92fd82296b612f86a0f3608e192d6b6065071ae20206ba950"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.ParcelamentoViaCliente79Mm80Mm.resources",
+      "file": "0005.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.RelatorioMapaResumo.resources",
+      "file": "0006.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Otus.Modulo.PontoDeVendas.Reports.RelatorioQrCodePagamentoDigital.resources",
+      "file": "0007.bin",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "Modulo.PontoDeVendas.dll.licenses",
+      "file": "0008.bin",
+      "bytes": 284,
+      "sha256": "6d8146721e14e9c3e8eba1378a8e5ae75aaddb10c20741403c63d34be64ee58a"
+    }
+  ]
+}

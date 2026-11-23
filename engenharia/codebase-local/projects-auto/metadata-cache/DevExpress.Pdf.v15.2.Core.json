@@ -1,0 +1,13 @@
+{
+  "assembly": "DevExpress.Pdf.v15.2.Core, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+  "references": [
+    "mscorlib",
+    "System",
+    "DevExpress.Data.v15.2",
+    "System.Xml.Linq",
+    "System.Drawing",
+    "System.Core",
+    "System.Security",
+    "System.Numerics"
+  ]
+}
