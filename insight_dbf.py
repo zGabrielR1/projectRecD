@@ -88,8 +88,91 @@ def read_dbf(data: bytes) -> list[dict]:
     return rows
 
 
+import unicodedata
+from difflib import SequenceMatcher
+
+
+TARGET_FIELDS = [
+    ('chave_acesso', 'Chave de acesso'),
+    ('numero', 'Número do documento'),
+    ('serie', 'Série'),
+    ('data_emissao', 'Data de emissão'),
+    ('emitente_cnpj', 'CNPJ/CPF emitente'),
+    ('destinatario_cnpj', 'CNPJ/CPF destinatário'),
+    ('cliente_nome', 'Nome cliente/fornecedor'),
+    ('produto_codigo', 'Código do produto'),
+    ('produto_descricao', 'Descrição do produto'),
+    ('produto_ean', 'Código de barras/EAN'),
+    ('quantidade', 'Quantidade'),
+    ('valor_unitario', 'Valor unitário'),
+    ('valor_total', 'Valor total'),
+    ('desconto', 'Desconto'),
+    ('cfop', 'CFOP'),
+    ('ncm', 'NCM'),
+    ('unidade', 'Unidade'),
+    ('valor_nf', 'Valor total da nota'),
+]
+
+
+def normalize_name(value: str) -> str:
+    value = unicodedata.normalize('NFKD', str(value or ''))
+    value = ''.join(ch for ch in value if not unicodedata.combining(ch))
+    value = value.lower()
+    out = []
+    for ch in value:
+        out.append(ch if ch.isalnum() else ' ')
+    return ' '.join(''.join(out).split())
+
+
+def suggest_mapping(columns: list[str]) -> dict:
+    aliases = {
+        'chave_acesso': ['chave acesso', 'chave', 'chnfe', 'chave nfe', 'chave nf', 'access key'],
+        'numero': ['numero', 'nro', 'num', 'nf', 'nfe', 'numero nota', 'numero documento'],
+        'serie': ['serie', 'ser'],
+        'data_emissao': ['data emissao', 'emissao', 'data', 'dt emissao', 'dtemissao'],
+        'emitente_cnpj': ['cnpj emitente', 'emitente cnpj', 'cpf cnpj emitente', 'cnpj'],
+        'destinatario_cnpj': ['cnpj destinatario', 'destinatario', 'cpf cnpj', 'cliente cnpj'],
+        'cliente_nome': ['cliente', 'nome cliente', 'fornecedor', 'razao social', 'nome'],
+        'produto_codigo': ['codigo produto', 'cod produto', 'produto', 'codigo', 'cprod'],
+        'produto_descricao': ['descricao', 'descricao produto', 'produto descricao', 'xprod'],
+        'produto_ean': ['ean', 'codigo barras', 'cod barras', 'gtin', 'cbarra'],
+        'quantidade': ['quantidade', 'qtd', 'qtde', 'qcom'],
+        'valor_unitario': ['valor unitario', 'vl unitario', 'preco', 'vuncom', 'unitario'],
+        'valor_total': ['valor total', 'total item', 'vprod', 'vl total'],
+        'desconto': ['desconto', 'vdesc', 'desc'],
+        'cfop': ['cfop'],
+        'ncm': ['ncm'],
+        'unidade': ['unidade', 'un', 'ucom'],
+        'valor_nf': ['valor nf', 'total nf', 'vnf', 'valor nota'],
+    }
+    suggestions = {}
+    used = set()
+    for col in columns:
+        norm = normalize_name(col)
+        best_target, best_score = None, 0.0
+        for target, _label in TARGET_FIELDS:
+            for alias in aliases.get(target, [target]):
+                score = SequenceMatcher(None, norm, normalize_name(alias)).ratio()
+                if norm == normalize_name(alias):
+                    score = 1.0
+                elif norm and (norm in normalize_name(alias) or normalize_name(alias) in norm):
+                    score = max(score, 0.92)
+                if score > best_score:
+                    best_target, best_score = target, score
+        if best_target and best_score >= 0.72 and best_target not in used:
+            suggestions[col] = {'target': best_target, 'confidence': round(best_score, 3), 'auto': True}
+            used.add(best_target)
+        else:
+            suggestions[col] = {'target': '', 'confidence': round(best_score, 3), 'auto': False}
+    return suggestions
+
+
 def dbf_preview(data: bytes, name: str = 'arquivo.dbf') -> dict:
     rows = read_dbf(data)
     columns = list(rows[0].keys()) if rows else []
     sample = rows[:50]
-    return {'file': name, 'status': 'dbf', 'rows': len(rows), 'columns': columns, 'sample': sample}
+    return {
+        'file': name, 'status': 'dbf', 'rows': len(rows), 'columns': columns, 'sample': sample,
+        'suggested_mapping': suggest_mapping(columns),
+        'target_fields': [{'id': k, 'label': v} for k, v in TARGET_FIELDS],
+    }

@@ -282,9 +282,46 @@
         return;
       }
       if (data.dbf_review) {
-        $('bson').textContent = 'Conferência de arquivo DBF\nColunas: '+(data.dbf_review.columns||[]).join(', ')+
-          '\nRegistros: '+data.dbf_review.rows+'\n\n'+JSON.stringify(data.dbf_review.sample||[], null, 2);
-        $('bson').closest('details').open = true;
+        const review = data.dbf_review;
+        const targets = review.target_fields || [];
+        const mapping = review.suggested_mapping || {};
+        const wrap = document.createElement('div');
+        wrap.className = 'dbf-mapping';
+        const title = document.createElement('p');
+        title.textContent = 'Conferência de arquivo DBF · '+review.rows+' registros · mapeamento manual/automático por nome similar.';
+        wrap.appendChild(title);
+        const table = document.createElement('table');
+        table.innerHTML = '<thead><tr><th>Coluna DBF</th><th>Campo destino</th><th>Auto</th></tr></thead>';
+        const tb = document.createElement('tbody');
+        (review.columns || []).forEach(col => {
+          const tr = document.createElement('tr');
+          const tdCol = document.createElement('td'); tdCol.textContent = col; tr.appendChild(tdCol);
+          const tdSel = document.createElement('td');
+          const sel = document.createElement('select');
+          sel.dataset.col = col;
+          const empty = document.createElement('option'); empty.value=''; empty.textContent='(não mapear)'; sel.appendChild(empty);
+          targets.forEach(t => { const o=document.createElement('option'); o.value=t.id; o.textContent=t.label; sel.appendChild(o); });
+          sel.value = (mapping[col] && mapping[col].target) || '';
+          tdSel.appendChild(sel); tr.appendChild(tdSel);
+          const tdAuto = document.createElement('td'); tdAuto.textContent = mapping[col]?.auto ? 'auto' : 'manual'; tr.appendChild(tdAuto);
+          tb.appendChild(tr);
+        });
+        table.appendChild(tb); wrap.appendChild(table);
+        const actions = document.createElement('div'); actions.className='nfce-actions';
+        const dl = document.createElement('button'); dl.type='button'; dl.className='secondary'; dl.textContent='Baixar mapeamento JSON';
+        dl.onclick = () => {
+          const out = {};
+          wrap.querySelectorAll('select[data-col]').forEach(s => { if (s.value) out[s.dataset.col] = s.value; });
+          const blob = new Blob([JSON.stringify({schema:'insight.dbf.mapping.v1',file:review.file,mapping:out}, null, 2)], {type:'application/json'});
+          const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=(review.file||'dbf')+'.mapping.json'; a.click(); URL.revokeObjectURL(a.href);
+        };
+        actions.appendChild(dl);
+        const note = document.createElement('p'); note.className='nfce-note'; note.textContent='Mapeamento automático por similaridade de nome. Revise antes de usar. A conversão nativa campo-a-campo depende de perfil/mapeamento revisado para o layout do sistema de origem.';
+        actions.appendChild(note);
+        wrap.appendChild(actions);
+        const pre = document.createElement('pre'); pre.textContent = JSON.stringify(review.sample||[], null, 2);
+        wrap.appendChild(pre);
+        const box = $('bson'); box.replaceChildren(wrap); box.closest('details').open = true;
         return;
       }
       const xml = JSON.parse(data.xml);

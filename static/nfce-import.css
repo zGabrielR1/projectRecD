@@ -68,3 +68,7 @@
   .nfce-table th, .nfce-table td { padding: 10px 7px; }
   .nfce-header .eyebrow { font-size: 10px; }
 }
+.dbf-mapping table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13px}
+.dbf-mapping th,.dbf-mapping td{padding:8px;border-bottom:1px solid var(--border);text-align:left}
+.dbf-mapping select{min-width:220px;max-width:100%}
+.dbf-mapping pre{max-height:260px}
