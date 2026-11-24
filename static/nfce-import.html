@@ -31,6 +31,9 @@
       <label for="accessKeys">Chaves de acesso</label>
       <textarea id="accessKeys" rows="3" autocomplete="off" spellcheck="false" aria-describedby="keyHint" placeholder="Cole uma chave de 44 dígitos por linha"></textarea>
       <small id="keyHint">Cole uma lista ou copie as chaves de uma planilha. A busca usa os XMLs autorizados em XmlMovimentacoes no banco de destino.</small>
+      <label for="keyFile">Arquivo de chaves (.txt, .csv ou .tsv)</label>
+      <input id="keyFile" type="file" accept=".txt,.csv,.tsv" aria-describedby="keyFileHint">
+      <small id="keyFileHint">Use uma coluna de chaves. O arquivo pode ser combinado com as chaves coladas acima.</small>
       <label for="xmls">Arquivos NF-e / NFC-e (.xml)</label><input id="xmls" type="file" accept=".xml,text/xml,application/xml" multiple>
       <label for="folders">Ou selecionar uma pasta de XMLs</label><input id="folders" type="file" webkitdirectory multiple>
       <small id="fileLimits">Sem limite de quantidade ou tamanho total. Envio incremental com progresso e retomada.</small>

@@ -20,6 +20,8 @@ Em **Importar XML fiscal**, cole uma ou mais chaves de 44 dígitos. A lista acei
 
 Chaves inválidas, notas canceladas na base, versões conflitantes e notas sem XML autorizado são exibidas individualmente. Corrija as chaves ou retire as pendentes da lista para validar os documentos encontrados. Se o XML não estiver no banco, obtenha o `nfeProc` com o emissor ou pelo serviço fiscal ao qual você tem acesso e selecione o arquivo. A consulta usa o acervo do banco e funciona sem internet.
 
+Para importar uma lista, selecione um TXT, CSV ou TSV com uma coluna de chaves. O cabeçalho `Chave de Acesso` é opcional. Salve a coluna como texto na planilha para preservar os 44 dígitos. O Insight combina as chaves do arquivo com as chaves coladas, remove repetições e deixa a lista editável se alguma chave precisar de correção.
+
 ## Volume e desempenho
 
 Não há cotas de quantidade de arquivos, tamanho total do lote, XML de 1 MiB ou requisição de 8 MiB. A interface envia cada arquivo como corpo binário, sem montar um JSON/base64 de todo o lote. Até quatro transferências trabalham em paralelo; essa é uma janela de execução, não um limite do lote.

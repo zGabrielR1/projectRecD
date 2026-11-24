@@ -23,7 +23,7 @@
   async function api(path,options){return (await request(path,options)).json();}
   function controls(){
     const locked=uploading||active()||Boolean(job&&job.state!=='uploading');
-    for(const id of ['mappingMode','profile','xmls','folders','accessKeys'])$(id).disabled=locked;
+    for(const id of ['mappingMode','profile','xmls','folders','accessKeys','keyFile'])$(id).disabled=locked;
     $('mappingMode').disabled=uploading||active()||Boolean(job);$('profile').disabled=uploading||active()||Boolean(job);
     $('validate').disabled=locked;$('apply').disabled=uploading||active()||!job?.valid;
     $('download').disabled=uploading||active()||!job||Boolean(job.counts.invalid)||!((job.counts.ready||0)+(job.counts.imported||0));
@@ -56,6 +56,12 @@
   async function poll(){const current=++epoch;while(job&&active()&&current===epoch){await new Promise(resolve=>setTimeout(resolve,900));if(current!==epoch)return;try{await refresh();}catch(error){message(error.message+' O processamento local pode continuar. Recarregue para consultar o progresso.');break;}}controls();}
   async function history(append=false){try{if(!append)historyOffset=0;const data=await api(root+'?offset='+historyOffset),select=$('jobHistory');if(!append)select.replaceChildren(new Option('Nova importação',''));select.querySelector('option[value="__more"]')?.remove();for(const item of data.jobs)select.add(new Option(new Date(item.created*1000).toLocaleString('pt-BR')+' · '+item.database_name+' · '+item.state,item.id));if(data.has_more)select.add(new Option('Carregar importações anteriores…','__more'));select.value=job?.id||'';}catch(error){message(error.message);}}
   function* selectedFiles(){for(const list of [$('xmls').files,$('folders').files])for(const file of list)if(file.name.toLowerCase().endsWith('.xml'))yield file;}
+  function splitKeys(text){
+    const entries=text.split(/[\r\n\t,;]+/).map(value=>value.trim().replace(/^"(.*)"$/, '$1'));
+    const header=entries.findIndex(Boolean);
+    if(header>=0&&/^chave(?:[ _-]*(?:de[ _-]*)?acesso)?$/i.test(entries[header]))entries.splice(header,1);
+    return entries.map(value=>value.replace(/[\s.-]+/g,'')).filter(Boolean);
+  }
   function showKeyIssues(issues){
     const list=$('keyIssueList');
     list.replaceChildren();
@@ -68,12 +74,25 @@
   }
   $('importForm').onsubmit=async event=>{
     event.preventDefault();if(uploading||active())return;message('');
-    const keys=[...new Set($('accessKeys').value.split(/[\r\n\t,;]+/).map(value=>value.trim().replace(/[\s.-]+/g,'')).filter(Boolean))];
     const iterator=selectedFiles(),first=iterator.next();
-    if(first.done&&!keys.length&&!job?.counts?.uploaded){message('Informe chaves de acesso ou selecione arquivos XML.');return;}
     showKeyIssues([]);
     uploading=true;controls();const pending=new Set();let sent=0,failed=null;
     try{
+      const keyFile=$('keyFile').files[0];
+      let fileKeys=[];
+      if(keyFile){
+        if(!/\.(txt|csv|tsv)$/i.test(keyFile.name))throw new Error('Selecione um arquivo de chaves TXT, CSV ou TSV.');
+        const bytes=new Uint8Array(await keyFile.arrayBuffer());
+        const encoding=bytes[0]===255&&bytes[1]===254?'utf-16le':
+          bytes[0]===254&&bytes[1]===255?'utf-16be':'utf-8';
+        fileKeys=splitKeys(new TextDecoder(encoding).decode(bytes));
+        if(!fileKeys.length)throw new Error('O arquivo de chaves está vazio.');
+        // Keep all entries editable if the lookup reports unresolved keys.
+        $('accessKeys').value=[...new Set([...splitKeys($('accessKeys').value),...fileKeys])].join('\n');
+        $('keyFile').value='';
+      }
+      const keys=[...new Set(splitKeys($('accessKeys').value))];
+      if(first.done&&!keys.length&&!job?.counts?.uploaded){message('Informe chaves de acesso ou selecione arquivos XML.');return;}
       if(!job){const mode=$('mappingMode').value,body={mode};if(mode==='manual'){const profile=$('profile').files[0];if(!profile||!profile.name.toLowerCase().endsWith('.json'))throw new Error('Selecione um perfil JSON revisado, ou use a identificação automática.');body.profile=await profile.text();}job=await api(root,{method:'POST',body});remember(job.id);}
       if(job.state!=='uploading')throw new Error('Crie uma nova importação para selecionar outros arquivos.');
       const issues=[];
@@ -100,7 +119,7 @@
   $('nextPage').onclick=async()=>{offset+=job.page_size;await refresh().catch(e=>message(e.message));};
   $('pause').onclick=async()=>{try{render(await api(root+'/'+job.id+'/pause',{method:'POST'}));}catch(error){message(error.message);}};
   $('resume').onclick=async()=>{try{message('');render(await api(root+'/'+job.id+'/validate',{method:'POST'}));await poll();}catch(error){message(error.message);}};
-  $('newJob').onclick=()=>{epoch++;job=null;offset=0;remember(null);$('results').hidden=true;$('xmls').value='';$('folders').value='';$('profile').value='';$('accessKeys').value='';showKeyIssues([]);$('mappingMode').onchange();$('status').textContent='Informe as chaves ou selecione os XMLs para começar.';message('');history();controls();};
+  $('newJob').onclick=()=>{epoch++;job=null;offset=0;remember(null);$('results').hidden=true;$('xmls').value='';$('folders').value='';$('profile').value='';$('accessKeys').value='';$('keyFile').value='';showKeyIssues([]);$('mappingMode').onchange();$('status').textContent='Informe as chaves ou selecione os XMLs para começar.';message('');history();controls();};
   $('jobHistory').onchange=async()=>{if($('jobHistory').value==='__more'){historyOffset+=50;await history(true);return;}if(!$('jobHistory').value){$('newJob').click();return;}try{epoch++;offset=0;render(await api(root+'/'+$('jobHistory').value));await poll();}catch(error){message(error.message);}};
   $('discard').onclick=async()=>{try{await api(root+'/'+job.id,{method:'DELETE'});$('newJob').click();}catch(error){message(error.message);}};
   $('download').onclick=async()=>{try{message('');if(auth&&window.showSaveFilePicker){const handle=await showSaveFilePicker({suggestedName:'nfce-import.zip',types:[{description:'Arquivo ZIP',accept:{'application/zip':['.zip']}}]});const response=await request(root+'/'+job.id+'/export');await response.body.pipeTo(await handle.createWritable());}else{const link=document.createElement('a');link.href=root+'/'+job.id+'/export';link.download='nfce-import.zip';document.body.append(link);link.click();link.remove();}}catch(error){if(error.name!=='AbortError')message(error.message);}};

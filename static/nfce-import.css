@@ -28,7 +28,7 @@
   border: 1px solid var(--border);
   border-radius: 6px;
 }
-#keyHint { margin-bottom: 16px; line-height: 1.5; }
+#keyHint, #keyFileHint { margin-bottom: 16px; line-height: 1.5; }
 #keyIssues { padding: 16px 0; overflow-wrap: anywhere; }
 #keyIssueList { margin-bottom: 0; font-size: 13px; line-height: 1.6; }
 .nfce-page small { display: block; color: var(--muted); font-size: 12px; }
