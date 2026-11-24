@@ -110,6 +110,8 @@ def document(job_id:str,file_id:int,request:Request):
     sale=jobs.document(job_id,editor.actor(request),file_id)
     if 'cfe_review' in sale:
         return sale
+    if 'dbf_review' in sale:
+        return sale
     result = {'movement': ejson(sale['movement']), 'xml': ejson(sale['xml'])}
     if sale.get('parties'):
         result['parties'] = sale['parties']

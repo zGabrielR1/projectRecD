@@ -394,6 +394,17 @@ def index_file(job_id,row,*,allow_manual_entry=False,allow_cfe=False):
     raw=raw_bytes(job_id,row)
     if hashlib.sha256(raw).hexdigest()!=row['sha']:
         raise ValueError('O arquivo local diverge do envio original. Envie novamente em outra importação.')
+    if raw[:1] in b'\x03\x83\x8b\xcb\xf5' and (row['name'].lower().endswith('.dbf') or len(raw) > 32):
+        # DBF legacy import: parse and expose for review/mapping; no blind native write.
+        try:
+            from insight_dbf import dbf_preview
+            preview = dbf_preview(raw, row['name'])
+            update_file(row['id'], kind='dbf', summary=json.dumps({'dbf_rows': preview['rows'], 'columns': preview['columns'][:40]}),
+                        status='invalid', message='Arquivo DBF identificado. Confira as colunas e use perfil/mapeamento revisado antes da conversão nativa.')
+            return
+        except ValueError as exc:
+            if row['name'].lower().endswith('.dbf'):
+                raise
     root=read_xml(raw)
     if root.tag == 'CFe':
         if row.get('source') not in (None, 'cfe'):
@@ -716,6 +727,9 @@ def document(job_id,owner,file_id):
     with connect() as db:row=db.execute('SELECT * FROM files WHERE id=? AND job_id=?',(file_id,job_id)).fetchone()
     if row and row['kind'] == 'cfe' and row['summary']:
         return {'cfe_review': json.loads(row['summary'])}
+    if row and row['kind'] == 'dbf':
+        from insight_dbf import dbf_preview
+        return {'dbf_review': dbf_preview(raw_bytes(job_id, dict(row)), row['name'])}
     if not row or not row['sale_path']:raise HTTPException(404,'Documento convertido não disponível.')
     return read_sale(job_id,dict(row))
 

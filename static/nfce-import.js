@@ -207,7 +207,7 @@
     for (const input of [$('xmls'), $('folders'), ...folderInputs]) {
       if (['incoming', 'purchase'].includes(input.dataset.dfeSource) && $('mappingMode').value !== 'manual') continue;
       for (const file of input.files) {
-        if (file.name.toLowerCase().endsWith('.xml')) yield {file, source: input.dataset.dfeSource};
+        if (file.name.toLowerCase().endsWith('.xml') || file.name.toLowerCase().endsWith('.dbf')) yield {file, source: input.dataset.dfeSource};
       }
     }
   }
@@ -261,7 +261,7 @@
         message('Revise as chaves indicadas. Para continuar só com os XMLs encontrados, retire da lista as chaves pendentes.');
         return;
       }
-      const enqueue=async ({file, source})=>{const slot=await api(root+'/'+job.id+'/slots',{method:'POST',body:{name:file.webkitRelativePath||file.name,size:file.size,modified:file.lastModified,source}});if(!slot.stored)await api(root+'/'+job.id+'/files/'+slot.upload_id,{method:'POST',raw:true,body:file,headers:{'Content-Type':'application/xml'}});sent++;$('status').textContent=num(sent)+' arquivos enviados ou retomados. Arquivos já guardados não são retransmitidos.';};
+      const enqueue=async ({file, source})=>{const slot=await api(root+'/'+job.id+'/slots',{method:'POST',body:{name:file.webkitRelativePath||file.name,size:file.size,modified:file.lastModified,source}});if(!slot.stored){const type=file.name.toLowerCase().endsWith('.dbf')?'application/x-dbf':'application/xml';await api(root+'/'+job.id+'/files/'+slot.upload_id,{method:'POST',raw:true,body:file,headers:{'Content-Type':type}});}sent++;$('status').textContent=num(sent)+' arquivos enviados ou retomados. Arquivos já guardados não são retransmitidos.';};
       async function send(file){if(failed)throw failed;const task=enqueue(file);pending.add(task);task.then(()=>pending.delete(task),error=>{pending.delete(task);failed=failed||error;});if(pending.size>=4)await Promise.race(pending);if(failed)throw failed;}
       if(!first.done)await send(first.value);for(const file of iterator)await send(file);await Promise.all(pending);if(failed)throw failed;
       $('accessKeys').value='';
@@ -278,6 +278,12 @@
       if (job?.id !== jobId) return;
       if (data.cfe_review) {
         $('bson').textContent = 'Conferência do XML CF-e/SAT\n'+JSON.stringify(data.cfe_review, null, 2);
+        $('bson').closest('details').open = true;
+        return;
+      }
+      if (data.dbf_review) {
+        $('bson').textContent = 'Conferência de arquivo DBF\nColunas: '+(data.dbf_review.columns||[]).join(', ')+
+          '\nRegistros: '+data.dbf_review.rows+'\n\n'+JSON.stringify(data.dbf_review.sample||[], null, 2);
         $('bson').closest('details').open = true;
         return;
       }
