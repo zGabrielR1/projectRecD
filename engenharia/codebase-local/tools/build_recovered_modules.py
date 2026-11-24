@@ -26,7 +26,7 @@ DOTNET = Path('C:/Program Files/dotnet/dotnet.exe')
 CSC = Path('C:/Program Files/dotnet/sdk/11.0.100-rc.2.26504.105/Roslyn/bincore/csc.dll')
 FRAMEWORK = Path('C:/Windows/Microsoft.NET/Framework64/v4.0.30319')
 RUNTIME = Path('C:/Program Files/dotnet/shared/Microsoft.NETCore.App/10.0.12')
-CECIL = ROOT.parents[1] / 'engenharia/recompilacao-data-core-2026-10-30/build/Mono.Cecil.dll'
+CECIL = ROOT / 'projects/DigisatServer.Infrastructure.Data.Core/tooling/Mono.Cecil.dll'
 METADATA_CACHE = AUTO / 'metadata-cache'
 METADATA_LOCK = threading.Lock()
 VERIFIED_LOCAL_DEPENDENCIES = {
@@ -106,7 +106,7 @@ def prepare_tool():
     folder = AUTO / 'tooling'
     folder.mkdir(parents=True, exist_ok=True)
     output = folder / 'RecoveredModuleResources.dll'
-    src = ROOT / 'tools' / 'RecoveredModuleResources.cs'
+    src = Path(__file__).with_name('RecoveredModuleResources.cs')
     command = [DOTNET, CSC, '-nologo', '-target:exe', '-out:' + str(output)]
     command += ['-r:' + str(p) for p in RUNTIME.glob('*.dll') if managed(p)]
     command += ['-r:' + str(CECIL), src]
@@ -230,12 +230,29 @@ def refs_for(metadata, name, tool):
 
 def build_one(folder, tool):
     started = time.monotonic()
-    recovery = json.loads((folder / 'recovery.json').read_text(encoding='utf-8'))
-    metadata = json.loads((folder / 'metadata.json').read_text(encoding='utf-8'))
+    recovery = json.loads((folder / 'recovery.json').read_text(encoding='utf-8-sig'))
+    metadata = json.loads((folder / 'metadata.json').read_text(encoding='utf-8-sig'))
     target = ROOT / recovery['baseline']
     if sha(target) != recovery['baseline_sha256']:
         raise RuntimeError('Baseline changed')
-    refs, missing = refs_for(metadata, recovery['name'], tool)
+    refs, missing = refs_for(metadata, target.stem, tool)
+    framework_overrides = recovery.get('framework_reference_overrides', {})
+    if framework_overrides:
+        def read_identity(path):
+            result = run([DOTNET, tool, path, tool.parent, '--metadata-only'])
+            result.check_returncode()
+            return json.loads(result.stdout)
+
+        declared = read_identity(target)['referenceIdentities']
+        selected = {path.name: path for path in refs}
+        for filename, identity in framework_overrides.items():
+            if Path(filename).name != filename or filename not in selected or identity not in declared:
+                raise RuntimeError('Unexpected framework reference override: ' + filename)
+            candidate = FRAMEWORK / filename
+            if read_identity(candidate)['assembly'] != identity:
+                raise RuntimeError('Framework reference identity differs: ' + filename)
+            selected[filename] = candidate
+        refs = list(selected.values())
     sources = [folder / 'source' / x['path'] for x in recovery['sources']]
     lowered_methodof = 0
     for source in sources:
@@ -249,7 +266,9 @@ def build_one(folder, tool):
     build = folder / 'build'
     build.mkdir(exist_ok=True)
     kind = recovery['output_type'].lower()
-    output = build / (recovery['name'] + ('.dll' if kind == 'library' else '.exe'))
+    # dnSpy can shorten project paths on Windows. Roslyn uses the output name
+    # for the assembly's simple name, so keep the original artifact name.
+    output = build / target.name
     command = ['-nologo', '-preferreduilang:en-US', '-nostdlib+', '-unsafe+', '-deterministic+',
                '-langversion:latest', '-nowarn:0436', '-target:' + ('library' if kind == 'library' else 'winexe' if kind == 'winexe' else 'exe'), '-out:' + str(output)]
     command += ['-r:' + str(p) for p in refs]
@@ -273,8 +292,10 @@ def build_one(folder, tool):
               'source_files': len(sources), 'source_hashes': source_hashes,
               'source_changed_since_export': any(sha(folder / 'source' / x['path']) != x['raw_sha256'] for x in recovery['sources']),
               'baseline_sha256': recovery['baseline_sha256'], 'output_sha256': sha(output) if code == 0 else None,
+              'output_file': str(output.relative_to(folder)) if code == 0 else None,
               'compiler_sha256': sha(CSC), 'reference_hashes': {p.name: sha(p) for p in refs},
               'missing_declared_references': missing, 'error_counts': {x: errors.count(x) for x in sorted(set(errors))},
+              'framework_reference_overrides': framework_overrides,
               'elapsed_seconds': round(time.monotonic() - started, 2),
               'resources': metadata['resources'], 'repairs': recovery['repairs'] + ([{'kind': 'ILSpy methodof lowering', 'occurrences': lowered_methodof}] if lowered_methodof else []) + ([{'kind': 'Roslyn ambiguous Expression qualification', 'occurrences': qualified_expression}] if qualified_expression else []),
               'validation': 'C# compilation only; runtime and complete API/behavior parity not established.',
@@ -284,11 +305,23 @@ def build_one(folder, tool):
 
 
 def main():
+    global ROOT, AUTO, BASELINE, EXPORT, METADATA_CACHE, VERIFIED_LOCAL_DEPENDENCIES
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--workspace', type=Path, default=ROOT, help='Build against a specific recovered snapshot')
     parser.add_argument('--prepare', action='store_true', help='Create editable copies once; never overwrite existing source')
     parser.add_argument('--only', action='append', help='Exact recovered project name; may repeat')
     parser.add_argument('--workers', type=int, default=2, choices=[1, 2])
     args = parser.parse_args()
+    workspace = args.workspace.resolve()
+    if workspace != ROOT:
+        # Dependencies from the historical editable workspace cannot stand in
+        # for assemblies from a newer installation.
+        ROOT = workspace
+        AUTO = ROOT / 'projects-auto'
+        BASELINE = ROOT / 'baseline'
+        EXPORT = ROOT / 'recovered' / 'SuiteG6'
+        METADATA_CACHE = AUTO / 'metadata-cache'
+        VERIFIED_LOCAL_DEPENDENCIES = {}
     projects = sorted(EXPORT.glob('*/*.csproj'))
     if args.only:
         projects = [p for p in projects if p.stem in args.only]

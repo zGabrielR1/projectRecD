@@ -1,4 +1,5 @@
 baseline/
+snapshots/
 recovered/
 build/
 **/bin/

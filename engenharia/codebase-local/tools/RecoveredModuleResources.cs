@@ -10,7 +10,8 @@ class RecoveredModuleResources {
   using var module=ModuleDefinition.ReadModule(args[0]);Directory.CreateDirectory(args[1]);
   if(args.Length>2&&args[2]=="--metadata-only") {
    Console.WriteLine(JsonSerializer.Serialize(new{assembly=module.Assembly.Name.FullName,
-    references=module.AssemblyReferences.Select(r=>r.Name).ToArray()},new JsonSerializerOptions{WriteIndented=true}));
+    references=module.AssemblyReferences.Select(r=>r.Name).ToArray(),
+    referenceIdentities=module.AssemblyReferences.Select(r=>r.FullName).ToArray()},new JsonSerializerOptions{WriteIndented=true}));
    return;
   }
   int index=0;
