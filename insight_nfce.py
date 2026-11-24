@@ -82,6 +82,22 @@ def parse_xml(raw: bytes, *, issuer: str, environment: str = '1') -> dict:
         raise ValueError('Chave de acesso inválida (incluindo dígito verificador).')
     key = key[3:]
     cnpj = get(info, 'emit/CNPJ')
+    recipient_document = get(info, 'dest/CNPJ', False) or get(info, 'dest/CPF', False)
+    parties = []
+    for role, path, address_node, document in (
+        ('issuer', 'emit', 'enderEmit', cnpj),
+        ('recipient', 'dest', 'enderDest', recipient_document),
+    ):
+        if not document:
+            continue
+        parties.append({
+            'role': role,
+            'document': document,
+            'name': get(info, path + '/xNome', False),
+            'state_registration': get(info, path + '/IE', False),
+            'address': {field: get(info, f'{path}/{address_node}/{field}', False)
+                        for field in ('xLgr', 'nro', 'xCpl', 'xBairro', 'cMun', 'xMun', 'UF', 'CEP')},
+        })
     model = get(info, 'ide/mod')
     env = get(info, 'ide/tpAmb')
     number, series = get(info, 'ide/nNF'), get(info, 'ide/serie')
@@ -122,6 +138,7 @@ def parse_xml(raw: bytes, *, issuer: str, environment: str = '1') -> dict:
         if included not in {'0', '1'}:
             raise ValueError('indTot inválido.')
         items.append({'sequence': int(seq), 'code': get(det, 'prod/cProd'),
+                      'barcode': get(det, 'prod/cEAN', False),
                       'description': get(det, 'prod/xProd'), 'unit': get(det, 'prod/uCom'),
                       'quantity': str(quantity), 'unit_price': str(price),
                       'product_total': str(product_total), 'included_in_total': included == '1',
@@ -133,13 +150,41 @@ def parse_xml(raw: bytes, *, issuer: str, environment: str = '1') -> dict:
     if sum((Decimal(i['product_total']) for i in items if i['included_in_total']), Decimal(0)) != product_total:
         raise ValueError('Soma dos produtos diverge de total/ICMSTot/vProd.')
     total = amount(info, 'total/ICMSTot/vNF')
+    installments = []
+    installment_numbers = set()
+    for duplicate in info.findall('n:cobr/n:dup', NS):
+        installment_number = get(duplicate, 'nDup', False)
+        if installment_number and installment_number in installment_numbers:
+            raise ValueError('Número de duplicata repetido no XML.')
+        if installment_number:
+            installment_numbers.add(installment_number)
+        due_date = get(duplicate, 'dVenc', False)
+        if due_date:
+            try:
+                if not re.fullmatch(r'[0-9]{4}-[0-9]{2}-[0-9]{2}', due_date):
+                    raise ValueError()
+                datetime.strptime(due_date, '%Y-%m-%d')
+            except ValueError:
+                raise ValueError('Data de vencimento inválida na duplicata.') from None
+        installments.append({'number': installment_number, 'date': due_date,
+                             'amount': str(amount(duplicate, 'vDup'))})
+    billed_net = get(info, 'cobr/fat/vLiq', False)
+    if installments and billed_net:
+        declared = amount(info, 'cobr/fat/vLiq')
+        installment_total = sum((Decimal(row['amount']) for row in installments), Decimal(0))
+        if installment_total != declared:
+            raise ValueError('Soma das duplicatas diverge do valor líquido da fatura.')
     warnings = [NOTICE, 'Protocolo aceito conforme o XML; cancelamentos posteriores exigem consulta/eventos separados.']
     return {'_id': environment + ':' + key, 'schema': 'insight.nfce.archive.v1',
             'access_key': key, 'issuer_cnpj': issuer, 'environment': environment, 'model': model,
+            'recipient_document': recipient_document,
+            'parties': parties,
+            'direction': get(info, 'ide/tpNF', False) or '1',
             'number': number, 'series': series, 'issued_at': issued.astimezone(timezone.utc),
             'issued_at_original': issued_text, 'issuer_name': get(info, 'emit/xNome'),
             'authorization_protocol': get(protocol, 'nProt'), 'protocol_status': get(protocol, 'cStat'),
             'total': str(total), 'product_total': str(product_total), 'items': items,
+            'installments': installments,
             'xml_sha256': hashlib.sha256(raw).hexdigest(),
             'xml_base64': base64.b64encode(raw).decode('ascii'), 'warnings': warnings,
             'native_movement_created': False}

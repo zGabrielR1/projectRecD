@@ -27,7 +27,9 @@ async def configuration(request):
 @router.post('')
 async def create(request:Request):
     body=await configuration(request)
-    return await run_in_threadpool(jobs.create,editor.actor(request),body.get('mode','automatic'),body.get('profile'))
+    return await run_in_threadpool(jobs.create,editor.actor(request),body.get('mode','automatic'),body.get('profile'),
+                                   body.get('use_barcode', False), body.get('import_movements', True),
+                                   body.get('import_people', False))
 
 
 @router.get('/{job_id}')
@@ -106,7 +108,111 @@ async def apply(job_id:str,request:Request,x_insight_editor_session:str=Header(d
 @router.get('/{job_id}/documents/{file_id}')
 def document(job_id:str,file_id:int,request:Request):
     sale=jobs.document(job_id,editor.actor(request),file_id)
-    return {'movement':ejson(sale['movement']),'xml':ejson(sale['xml'])}
+    if 'cfe_review' in sale:
+        return sale
+    result = {'movement': ejson(sale['movement']), 'xml': ejson(sale['xml'])}
+    if sale.get('parties'):
+        result['parties'] = sale['parties']
+    if sale.get('people'):
+        result['people'] = ejson(sale['people'])
+    if sale.get('products'):
+        result['products'] = [
+            dict(product, company_product_id=str(product['company_product_id']))
+            for product in sale['products']
+        ]
+    if 'purchase_cost_candidates' in sale:
+        result['purchase_cost_candidates'] = ejson(sale['purchase_cost_candidates'])
+    if sale.get('installments'):
+        result['installments'] = sale['installments']
+        native_type = sale['movement']['_t']
+        if isinstance(native_type, list):
+            native_type = native_type[-1]
+        result['installment_kind'] = ('payable' if native_type in
+                                      {'NotaFiscalCompra', 'NotaFiscalEletronicaEntrada'} else 'receivable')
+    return result
+
+
+@router.get('/{job_id}/purchase-costs')
+def purchase_costs(job_id: str, request: Request):
+    return {'costs': ejson(jobs.purchase_cost_preview(job_id, editor.actor(request)))}
+
+
+@router.post('/{job_id}/documents/{file_id}/person/preview')
+def prepare_person(job_id: str, file_id: int, request: Request,
+                   x_insight_editor_session: str = Header(default='')):
+    from insight_nfce_api import prepare_person_insert
+
+    owner = editor.actor(request)
+    job = jobs.owned(job_id, owner)
+    if not job['import_people']:
+        raise HTTPException(409, 'A opção Pessoas está desmarcada neste lote.')
+    if job['state'] not in {'ready', 'complete'}:
+        raise HTTPException(409, 'Conclua a validação antes de cadastrar pessoas.')
+    people = jobs.document(job_id, owner, file_id).get('people', [])
+    if len(people) != 1:
+        raise HTTPException(404, 'Cadastro de pessoa indisponível neste documento.')
+    with editor.editor_client() as client:
+        preview = prepare_person_insert(people[0], job['database_name'],
+                                        x_insight_editor_session, owner, client=client)
+    return {'preview': preview}
+
+
+@router.get('/{job_id}/people')
+def people_preview(job_id: str, request: Request):
+    people = jobs.reviewed_people(job_id, editor.actor(request))
+    return {'people': [{'id': str(ident), 'name': person['Nome'],
+                        'document': person.get('Cpf') or person.get('Cnpj')}
+                       for ident, person in people.items()]}
+
+
+@router.post('/{job_id}/people/preview')
+async def prepare_people(job_id: str, request: Request,
+                         x_insight_editor_session: str = Header(default='')):
+    from insight_nfce_api import prepare_person_insert
+
+    owner = editor.actor(request)
+    body = await configuration(request)
+
+    def prepare():
+        job = jobs.owned(job_id, owner)
+        if body.get('confirmation') != 'IMPORTAR ' + job['database_name']:
+            raise HTTPException(422, 'Confirme o banco de destino.')
+        people = jobs.reviewed_people(job_id, owner)
+        if body.get('ids') != sorted(str(ident) for ident in people):
+            raise HTTPException(409, 'A lista de pessoas mudou. Revise o lote novamente.')
+        with editor.editor_client() as client:
+            previews = [prepare_person_insert(person, job['database_name'],
+                                              x_insight_editor_session, owner, client=client)
+                        for person in people.values()]
+        return {'previews': [preview['id'] for preview in previews if preview],
+                'existing': sum(preview is None for preview in previews)}
+
+    return await run_in_threadpool(prepare)
+
+
+@router.post('/{job_id}/purchase-costs/{product_id}/preview')
+def prepare_cost(job_id: str, product_id: str, request: Request,
+                 x_insight_editor_session: str = Header(default='')):
+    from bson import ObjectId
+    from insight_nfce_api import prepare_purchase_cost
+
+    owner = editor.actor(request)
+    job = jobs.owned(job_id, owner)
+    if job['state'] != 'complete':
+        raise HTTPException(409, 'Conclua a importação antes de atualizar preços de custo.')
+    if not ObjectId.is_valid(product_id):
+        raise HTTPException(422, 'Identificador de produto inválido.')
+    candidate = next((cost for cost in jobs.purchase_cost_preview(job_id, owner)
+                      if cost['company_product_id'] == ObjectId(product_id)), None)
+    if candidate is None:
+        raise HTTPException(404, 'Produto sem custo de compra neste lote.')
+    try:
+        with editor.editor_client() as client:
+            preview = prepare_purchase_cost(candidate, job['database_name'],
+                                            x_insight_editor_session, owner, client=client)
+    except ValueError as exc:
+        raise HTTPException(422, str(exc)) from None
+    return {'preview': preview}
 
 
 @router.api_route('/{job_id}/export',methods=['GET','POST'])

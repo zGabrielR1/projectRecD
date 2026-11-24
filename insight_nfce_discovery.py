@@ -13,8 +13,8 @@ from xml.etree import ElementTree as ET
 from collections import OrderedDict
 
 from bson import BSON, Int64, ObjectId, json_util
-from insight_nfce import NS, NOTICE, digits, parse_xml
-from insight_nfce_mapping import discriminator, tax_values, validate_native_documents
+from insight_nfce import NS, NOTICE, digits, key_valid, parse_xml
+from insight_nfce_mapping import discriminator, product_review, tax_values, validate_native_documents
 
 MAX_SAMPLES = 100
 MAX_ITEMS = 2000
@@ -23,6 +23,25 @@ MAX_BYTES = 12 * 1024 * 1024
 
 def movement_type(model):
     return {'65': 'NotaFiscalConsumidorEletronica', '55': 'NotaFiscalEletronicaSaida'}[model]
+
+
+def nfe_route(parsed, source=None):
+    """Resolve the SuiteG6 movement and parties from the document's perspective."""
+    model = parsed['model']
+    direction = parsed['direction']
+    issuer = parsed['issuer_cnpj']
+    recipient = digits(parsed['recipient_document'])
+    if source == 'purchase':
+        if model != '55' or direction != '1' or len(recipient) != 14 or recipient == issuer:
+            raise ValueError('A nota de compra deve ser uma NF-e de saída do fornecedor destinada à empresa.')
+        return 'NotaFiscalCompra', recipient, issuer
+    if model == '55' and direction == '0':
+        if source not in (None, 'incoming'):
+            raise ValueError('Modelo ou direção do XML não corresponde à pasta selecionada.')
+        return 'NotaFiscalEletronicaEntrada', issuer, recipient
+    if direction != '1' or source not in (None, {'55': 'outgoing', '65': 'nfce'}[model]):
+        raise ValueError('Modelo ou direção do XML não corresponde à pasta selecionada.')
+    return movement_type(model), issuer, recipient
 
 
 def read_xml(raw):
@@ -34,6 +53,73 @@ def read_xml(raw):
         raise ValueError('DTD e entidades não são permitidos.')
     try: return ET.fromstring(text)
     except ET.ParseError: raise ValueError('XML inválido.') from None
+
+
+def parse_cfe(root):
+    """Read the identity and total from the installed SAT sale XML shape."""
+    if root.tag != 'CFe' or len(root.findall('infCFe')) != 1:
+        raise ValueError('Informe um XML de venda CF-e/SAT.')
+    info = root.find('infCFe')
+    key = info.get('Id', '').removeprefix('CFe')
+    cnpj = info.findtext('emit/CNPJ', '')
+    series = info.findtext('ide/nserieSAT', '')
+    number = info.findtext('ide/nCFe', '')
+    if (not info.get('Id', '').startswith('CFe') or not key_valid(key)
+            or key[20:22] != '59' or key[6:20] != cnpj
+            or not re.fullmatch(r'[0-9]{1,9}', series) or series.zfill(9) != key[22:31]
+            or not re.fullmatch(r'[0-9]{1,6}', number) or number.zfill(6) != key[31:37]):
+        raise ValueError('Identificação do CF-e não confere com a chave de acesso.')
+    date = info.findtext('ide/dEmi', '')
+    time = info.findtext('ide/hEmi', '')
+    try:
+        if not re.fullmatch(r'[0-9]{8}', date) or not re.fullmatch(r'[0-9]{6}', time):
+            raise ValueError()
+        issued = datetime.strptime(date + time, '%Y%m%d%H%M%S')
+    except ValueError:
+        raise ValueError('Data ou hora de emissão do CF-e inválida.') from None
+    if issued.strftime('%y%m') != key[2:6]:
+        raise ValueError('Mês/ano de emissão do CF-e não confere com a chave.')
+    total = info.findtext('total/vCFe', '')
+    def money(value):
+        if not re.fullmatch(r'[0-9]{1,15}(?:\.[0-9]{1,2})?', value):
+            raise ValueError('Valor monetário do CF-e inválido.')
+        return Decimal(value)
+
+    paid = []
+    for payment in info.findall('pgto/MP'):
+        code = payment.findtext('cMP', '')
+        if not re.fullmatch(r'[0-9]{2}', code):
+            raise ValueError('Código de pagamento do CF-e inválido.')
+        paid.append({'code': code, 'amount': str(money(payment.findtext('vMP', '')))})
+    change = money(info.findtext('pgto/vTroco', '0'))
+    if not paid or sum(Decimal(payment['amount']) for payment in paid) - change != money(total):
+        raise ValueError('Pagamentos do CF-e menos o troco não conferem com o total.')
+    items = []
+    sequences = set()
+    for detail in info.findall('det'):
+        sequence = detail.get('nItem', '')
+        code = detail.findtext('prod/cProd', '').strip()
+        quantity = detail.findtext('prod/qCom', '')
+        unit_price = detail.findtext('prod/vUnCom', '')
+        if (not re.fullmatch(r'[0-9]{1,3}', sequence) or int(sequence) < 1
+                or int(sequence) in sequences or not code
+                or not re.fullmatch(r'[0-9]{1,15}(?:\.[0-9]{1,10})?', quantity)
+                or Decimal(quantity) <= 0
+                or not re.fullmatch(r'[0-9]{1,15}(?:\.[0-9]{1,10})?', unit_price)):
+            raise ValueError('Identificação, quantidade ou preço inválido no item CF-e.')
+        sequences.add(int(sequence))
+        items.append({'sequence': int(sequence), 'code': code, 'quantity': quantity,
+                      'unit_price': unit_price, 'gross': str(money(detail.findtext('prod/vProd', ''))),
+                      'discount': str(money(detail.findtext('prod/vDesc', '0'))),
+                      'addition': str(money(detail.findtext('prod/vOutro', '0'))),
+                      'description': detail.findtext('prod/xProd', ''),
+                      'barcode': detail.findtext('prod/cEAN', '')})
+    gross_total = info.findtext('total/ICMSTot/vProd')
+    if gross_total is not None and sum(Decimal(item['gross']) for item in items) != money(gross_total):
+        raise ValueError('Soma dos produtos do CF-e não confere com o total bruto.')
+    return {'access_key': key, 'model': '59', 'series': series, 'number': number,
+            'issuer_cnpj': cnpj, 'issued_at_original': issued.isoformat(),
+            'total': total, 'payments': paid, 'change': str(change), 'items': items}
 
 
 def prepare_files(files):
@@ -79,6 +165,13 @@ def tree_signature(node, ignore=()):
 
 def get(info, path, default=''):
     return info.findtext('/'.join('n:' + p for p in path.split('/')), default=default, namespaces=NS)
+
+
+def product_barcode(det):
+    value = get(det, 'prod/cEAN').strip()
+    if not re.fullmatch(r'[0-9]{8}|[0-9]{12,14}', value) or not value.strip('0'):
+        return None
+    return value
 
 
 def fiscal_signature(det):
@@ -129,8 +222,9 @@ def make_guard(collection, document, fields):
 
 
 class Discovery:
-    def __init__(self, db):
+    def __init__(self, db, *, use_barcode=False):
         self.db = db
+        self.use_barcode = use_barcode
         self.cache = OrderedDict()
         self.failures = OrderedDict()
         self.company_guards = {}
@@ -143,20 +237,20 @@ class Discovery:
         # Each database query has its own timeout; there is no job-wide deadline.
         pass
 
-    def company(self, cnpj, model='65'):
-        # Keep independent samples and failures for each fiscal model.
-        cache_key = cnpj + ':' + model
+    def company(self, cnpj, model='65', *, native_type=None):
+        native_type = native_type or movement_type(model)
+        cache_key = (cnpj, model, native_type)
         self.check_time()
         if cache_key in self.cache:
             self.cache.move_to_end(cache_key);return self.cache[cache_key]
         if cache_key in self.failures: raise ValueError(self.failures[cache_key])
-        try: return self._company(cnpj, model)
+        try: return self._company(cnpj, model, native_type, cache_key)
         except ValueError as exc:
             self.failures[cache_key] = str(exc)
             if len(self.failures)>512:self.failures.popitem(last=False)
             raise
 
-    def _company(self, cnpj, model):
+    def _company(self, cnpj, model, native_type, cache_key):
         formatted = f'{cnpj[:2]}.{cnpj[2:5]}.{cnpj[5:8]}/{cnpj[8:12]}-{cnpj[12:]}'
         companies = bounded(self.db.Pessoas, {'Cnpj': {'$in': [cnpj, formatted]}, 'Ativo': True},
                             {'_id':1,'Cnpj':1,'Ativo':1,'Versao':1}, limit=3)
@@ -166,7 +260,7 @@ class Discovery:
         company_id = companies[0]['_id']
         self.company_guards[cnpj] = make_guard('Pessoas',companies[0],('Cnpj','Ativo','Versao'))
         samples = bounded(self.db.Movimentacoes,
-            {'EmpresaReferencia': company_id, '_t': movement_type(model), 'Situacao.Codigo': 2},
+            {'EmpresaReferencia': company_id, '_t': native_type, 'Situacao.Codigo': 2},
             sort=('DataHoraEmissao', -1))
         if not samples:
             raise ValueError('Empresa localizada, mas não há NFC-e concluída para identificar o formato nativo. Nenhum formato será presumido.')
@@ -188,7 +282,11 @@ class Discovery:
             candidates = xmls.get(sample.get('ChaveAcesso'), [])
             if len(candidates) != 1: continue
             info, xml_record = candidates[0]
-            if digits(get(info, 'emit/CNPJ')) != cnpj or get(info, 'ide/mod') != model: continue
+            if get(info, 'ide/mod') != model:
+                continue
+            company_path = 'dest/CNPJ' if native_type == 'NotaFiscalCompra' else 'emit/CNPJ'
+            if digits(get(info, company_path)) != cnpj:
+                continue
             paired.append((sample, info))
             self.xml_guards[sample['_id']] = make_guard('XmlMovimentacoes',xml_record,('ChaveAcesso','Xml','TipoMovimentacao'))
             if model == '55' and type(xml_record.get('TipoMovimentacao')) is not int:
@@ -196,21 +294,23 @@ class Discovery:
             self.xml_types[sample['_id']] = xml_record.get('TipoMovimentacao', 11)
         if not paired:
             raise ValueError('Não há pares únicos de NFC-e e XML na amostra para conferir os vínculos fiscais.')
-        self.cache[cnpj + ':' + model] = (company_id, paired)
+        self.cache[cache_key] = (company_id, paired)
         while len(self.cache)>4:
             old,(_,old_pairs)=self.cache.popitem(last=False)
             for sample,_ in old_pairs:self.xml_guards.pop(sample['_id'],None)
             for sample,_ in old_pairs:self.xml_types.pop(sample['_id'],None)
         self.notes.append({'company_id': str(company_id), 'sampled_movements': len(samples),
                            'paired_xmls': len(paired)})
-        return self.cache[cnpj + ':' + model]
+        return self.cache[cache_key]
 
     def build(self, incoming):
         self.check_time()
         parsed, info = incoming['parsed'], incoming['info']
-        company_id, paired = self.company(parsed['issuer_cnpj'], parsed['model'])
-        recipient = digits(get(info, 'dest/CNPJ') or get(info, 'dest/CPF'))
-        options = [(doc, xml) for doc, xml in paired if digits(get(xml, 'dest/CNPJ') or get(xml, 'dest/CPF')) == recipient
+        native_type, company_cnpj, recipient = nfe_route(parsed, incoming.get('source'))
+        company_id, paired = self.company(company_cnpj, parsed['model'], native_type=native_type)
+        party = 'emit' if native_type == 'NotaFiscalCompra' else 'dest'
+        options = [(doc, xml) for doc, xml in paired
+                   if digits(get(xml, party + '/CNPJ') or get(xml, party + '/CPF')) == recipient
                    and get(xml, 'ide/tpAmb') == parsed['environment']
                    and get(xml, 'ide/finNFe', '1') == get(info, 'ide/finNFe', '1')
                    and get(xml, 'ide/tpNF', '1') == get(info, 'ide/tpNF', '1')
@@ -220,7 +320,7 @@ class Discovery:
             raise ValueError('Destinatário/ambiente sem exemplo compatível nesta empresa. Não será usado o cliente de outra venda.')
         template, _ = options[0]
         used_templates = {template['_id']:template}
-        if digits(str(template.get('Empresa', {}).get('Documento', ''))) != parsed['issuer_cnpj']:
+        if digits(str(template.get('Empresa', {}).get('Documento', ''))) != company_cnpj:
             raise ValueError('Histórico de empresa do exemplo diverge do CNPJ do XML.')
         if recipient and digits(str(template.get('Pessoa', {}).get('Documento', ''))) != recipient:
             raise ValueError('Histórico do destinatário diverge do XML.')
@@ -231,9 +331,10 @@ class Discovery:
         static_fields = ('_t', 'Empresa', 'Modelo', 'FinalidadeEmissaoNfe', 'NaturezaOperacao',
                          'OrientacaoDanfe', 'IndicadorOperacaoConsumidorFinal', 'SequenciaMovimentacaoReferencia')
         doc = pick(template, static_fields)
-        if not discriminator(doc, movement_type(parsed['model'])):
+        if not discriminator(doc, native_type):
             raise ValueError('Discriminador NFC-e nativo não reconhecido.')
-        if get(info, 'ide/finNFe', '1') != '1' or get(info, 'ide/tpNF', '1') != '1':
+        if (native_type in {'NotaFiscalCompra', 'NotaFiscalEletronicaEntrada'}
+                or get(info, 'ide/finNFe', '1') != '1'):
             raise ValueError('Somente NFC-e de saída com finalidade normal é suportada.')
         doc.update(_id=ident, Ativo=True, Numero=Int64(parsed['number']), Serie=parsed['series'],
             EmpresaReferencia=company_id, Pessoa=deepcopy(template['Pessoa']), DataHoraEmissao=wall,
@@ -260,23 +361,28 @@ class Discovery:
         guard_fields = ('_t','EmpresaReferencia','Empresa','Pessoa','ItensBase','ItensPagamentos','Situacao',
                         'Modelo','FinalidadeEmissaoNfe','NaturezaOperacao','OrientacaoDanfe',
                         'ModalidadeFrete','IndicadorPresencaComprador','PagamentoRecebimento','Versao')
-        guards = [self.company_guards[parsed['issuer_cnpj']],
+        guards = [self.company_guards[company_cnpj],
                   make_guard('Movimentacoes',template,guard_fields),self.xml_guards[template['_id']]]
         for line, det in zip(parsed['items'], info.findall('n:det',NS)):
             self.check_time()
             if not line['included_in_total']: raise ValueError('Itens indTot=0 não são suportados na descoberta automática.')
             signature = fiscal_signature(det)
+            barcode = product_barcode(det) if self.use_barcode else None
+            if self.use_barcode and not barcode:
+                raise ValueError('Item sem código de barras comercial utilizável: ' + line['code'])
             candidates = []
             for source, source_xml in paired:
                 for source_det in source_xml.findall('n:det',NS):
-                    if get(source_det,'prod/cProd') != line['code']: continue
+                    if barcode:
+                        if product_barcode(source_det) != barcode: continue
+                    elif get(source_det,'prod/cProd') != line['code']: continue
                     try:
                         if fiscal_signature(source_det) != signature: continue
                     except ValueError: continue
                     # Match the source XML line to its native product, not just an array position.
                     for candidate in source.get('ItensBase',[]):
                         product = candidate.get('ProdutoServico',{})
-                        if candidate.get('Cancelado') or str(product.get('CodigoInterno')) != line['code']: continue
+                        if candidate.get('Cancelado') or str(product.get('CodigoInterno')) != get(source_det, 'prod/cProd'): continue
                         if Decimal(str(candidate.get('Quantidade',0))) != Decimal(get(source_det,'prod/qCom','0')): continue
                         if Decimal(str(candidate.get('PrecoUnitario',0))) != Decimal(get(source_det,'prod/vUnCom','0')): continue
                         candidates.append((candidate, source))
@@ -293,10 +399,15 @@ class Discovery:
             if not link or link.get('ProdutoServicoReferencia') != product_id or link.get('Ativo') is False:
                 raise ValueError('Vínculo do produto removido/inativo ou de outra empresa.')
             current_product = self.db.ProdutosServicos.find_one({'_id':product_id, 'Ativo':True},
-                {'_id':1,'Versao':1,'CodigoInterno':1,'Ativo':1},max_time_ms=5000)
+                {'_id':1,'Versao':1,'CodigoInterno':1,'CodigoBarras':1,'Ativo':1},max_time_ms=5000)
             if current_product is None:
                 raise ValueError('Produto ausente ou inativo no cadastro atual.')
-            if str(current_product.get('CodigoInterno')) != line['code']:
+            if barcode:
+                matches = bounded(self.db.ProdutosServicos,
+                                  {'CodigoBarras': barcode, 'Ativo': True}, {'_id': 1}, limit=2)
+                if len(matches) != 1 or matches[0]['_id'] != product_id:
+                    raise ValueError('Código de barras sem vínculo único no cadastro: ' + barcode)
+            elif str(current_product.get('CodigoInterno')) != line['code']:
                 raise ValueError('Código atual do produto diverge do XML; confirme o vínculo manualmente.')
             item = pick(item_source, ('_t','ProdutoServicoEmpresaReferencia','ProdutoServico','NCMNBS',
                 'OperacaoFiscal','Percentual','IPI','PIS','COFINS','DecimaisQuantidade','DecimaisPrecoUnitario',
@@ -323,7 +434,7 @@ class Discovery:
             doc['ItensBase'].append(item)
             guards.extend((make_guard('Movimentacoes',source,guard_fields),self.xml_guards[source['_id']],
                 make_guard('ProdutosServicosEmpresa',link,('EmpresaReferencia','ProdutoServicoReferencia','Ativo','Versao')),
-                make_guard('ProdutosServicos',current_product,('Ativo','CodigoInterno','Versao'))))
+                make_guard('ProdutosServicos',current_product,('Ativo','CodigoInterno','CodigoBarras','Versao'))))
         for payment_source in self.payments(doc, info, paired):
             used_templates[payment_source['_id']] = payment_source
         total = sum(((Decimal(str(i['Quantidade']))*Decimal(str(i['PrecoUnitario']))).quantize(Decimal('.01'),rounding=ROUND_HALF_UP)
@@ -339,7 +450,9 @@ class Discovery:
             guards.append(make_guard('Movimentacoes',source,guard_fields))
             guards.append(self.xml_guards[source['_id']])
         guards = list({(g['collection'],g['id']):g for g in guards}.values())
-        return {'movement':doc,'xml':xml,'guards':guards,
+        return {'movement':doc,'xml':xml,'guards':guards,'installments':parsed['installments'],
+                'parties': parsed['parties'],
+                'products': product_review(parsed, doc),
                 'summary':{k:parsed[k] for k in ('access_key','number','series','total','issued_at_original','xml_sha256')},
                 'notice':NOTICE + ' Vendedor não informado. Tributos aproximados permanecem no XML; a exibição nativa pode recalculá-los pelo cadastro.'}
 

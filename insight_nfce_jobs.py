@@ -7,6 +7,7 @@ from contextlib import contextmanager, nullcontext, ExitStack
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from datetime import datetime, timezone
+from decimal import Decimal
 import hashlib
 import json
 import os
@@ -25,8 +26,8 @@ from fastapi import HTTPException
 import insight_store as store
 import insight_editor as editor
 from insight_nfce import ARCHIVED_CANCELLATION, NOTICE, MONGO_DOCUMENT_BYTES, key_valid, parse_xml
-from insight_nfce_mapping import load_profile, build_sale, validate_native_documents
-from insight_nfce_discovery import movement_type, Discovery, read_xml, tree_signature, NS
+from insight_nfce_mapping import load_profile, build_sale, build_cfe, validate_native_documents
+from insight_nfce_discovery import nfe_route, parse_cfe, Discovery, read_xml, tree_signature, NS
 
 _pool=ThreadPoolExecutor(max_workers=2,thread_name_prefix='nfce')
 _active={}
@@ -37,6 +38,7 @@ _heartbeat_started=False
 _initialized=set()
 _uploads=set()
 _anchors=OrderedDict()
+DFE_SOURCES = {'purchase', 'incoming', 'outgoing', 'nfce', 'cfe'}
 
 
 def take_connection(path):
@@ -101,6 +103,14 @@ def connect(*,durable=False):
         columns={row[1] for row in connection.execute('PRAGMA table_info(files)')}
         for column in ('raw','sale'):
             if column not in columns:connection.execute('ALTER TABLE files ADD COLUMN '+column+' BLOB')
+        if 'source' not in columns:
+            connection.execute('ALTER TABLE files ADD COLUMN source TEXT')
+        if 'use_barcode' not in {row[1] for row in connection.execute('PRAGMA table_info(jobs)')}:
+            connection.execute('ALTER TABLE jobs ADD COLUMN use_barcode INTEGER NOT NULL DEFAULT 0')
+        if 'import_movements' not in {row[1] for row in connection.execute('PRAGMA table_info(jobs)')}:
+            connection.execute('ALTER TABLE jobs ADD COLUMN import_movements INTEGER NOT NULL DEFAULT 1')
+        if 'import_people' not in {row[1] for row in connection.execute('PRAGMA table_info(jobs)')}:
+            connection.execute('ALTER TABLE jobs ADD COLUMN import_people INTEGER NOT NULL DEFAULT 0')
         _initialized.add(str(path))
     # Re-creatable staging/progress uses WAL NORMAL; the before-write uncertainty
     # marker uses FULL. The independent editor write journal remains durable too.
@@ -145,17 +155,25 @@ def owned(job_id,owner):
     return dict(row)
 
 
-def create(owner,mode='automatic',profile=None):
+def create(owner,mode='automatic',profile=None,use_barcode=False,import_movements=True,import_people=False):
     import app
+    if type(import_movements) is not bool:
+        raise HTTPException(422, 'Seleção de movimentações inválida.')
+    if type(import_people) is not bool or (import_people and mode != 'manual'):
+        raise HTTPException(422, 'A seleção Pessoas exige um perfil JSON revisado.')
+    if type(use_barcode) is not bool or (use_barcode and mode != 'automatic'):
+        raise HTTPException(422, 'O código de barras exige identificação automática.')
     if mode not in {'automatic','manual'}:raise HTTPException(422,'Modo inválido.')
     try:database=load_profile(profile)['database'] if mode=='manual' else app.MONGO_DATABASE
     except (ValueError,TypeError,AttributeError) as exc:raise HTTPException(422,str(exc)) from None
+    if import_people and not isinstance(load_profile(profile).get('person_template'), dict):
+        raise HTTPException(422, 'O perfil precisa definir person_template para importar Pessoas.')
     editor.database_name(database)
     if database in editor.SYSTEM_DATABASES:raise HTTPException(403,'Banco de sistema não permitido.')
     job_id=secrets.token_urlsafe(24);now=time.time()
     with _lock,connect() as db:
-        db.execute('INSERT INTO jobs(id,owner,connection_key,database_name,mode,profile,state,created,updated) VALUES(?,?,?,?,?,?,?,?,?)',
-            (job_id,owner,identity(),database,mode,profile,'uploading',now,now))
+        db.execute('INSERT INTO jobs(id,owner,connection_key,database_name,mode,profile,state,created,updated,use_barcode,import_movements,import_people) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',
+            (job_id,owner,identity(),database,mode,profile,'uploading',now,now,use_barcode,import_movements,import_people))
     folder(job_id)
     return snapshot(job_id,owner)
 
@@ -194,11 +212,17 @@ def upload_slot(job_id,owner,metadata):
     if job['state']!='uploading':raise HTTPException(409,'Os envios já foram encerrados.')
     name=metadata.get('name')
     if not isinstance(name,str) or not name:raise HTTPException(422,'Informe o nome do arquivo.')
-    digest=hashlib.sha256(json.dumps([name,metadata.get('size'),metadata.get('modified')],
+    source = metadata.get('source')
+    if source is not None and (not isinstance(source, str) or source not in DFE_SOURCES):
+        raise HTTPException(422, 'Categoria de XML inválida.')
+    identity_fields = [name, metadata.get('size'), metadata.get('modified')]
+    if source is not None:
+        identity_fields.append(source)
+    digest=hashlib.sha256(json.dumps(identity_fields,
                                   ensure_ascii=False,separators=(',',':')).encode('utf-8')).hexdigest()
     with connect() as db:
-        db.execute('INSERT OR IGNORE INTO files(job_id,upload_id,name,path,status) VALUES(?,?,?,?,?)',
-                   (job_id,digest,name,secrets.token_hex(16)+'.xml','awaiting_upload'))
+        db.execute('INSERT OR IGNORE INTO files(job_id,upload_id,name,path,status,source) VALUES(?,?,?,?,?,?)',
+                   (job_id,digest,name,secrets.token_hex(16)+'.xml','awaiting_upload',source))
     return {'upload_id':digest,**stored_upload(job_id,owner,digest)}
 
 
@@ -358,7 +382,7 @@ def signature(node):
     return hashlib.sha256(json.dumps(tree_signature(node),ensure_ascii=False).encode('utf-8')).hexdigest()
 
 
-def index_file(job_id,row):
+def index_file(job_id,row,*,allow_manual_entry=False,allow_cfe=False):
     path=folder(job_id)/row['path']
     # Every original XML is stored in one Mongo document. Avoid reading an
     # impossible document into memory; this is Mongo's bound, not an upload cap.
@@ -368,15 +392,43 @@ def index_file(job_id,row):
     if hashlib.sha256(raw).hexdigest()!=row['sha']:
         raise ValueError('O arquivo local diverge do envio original. Envie novamente em outra importação.')
     root=read_xml(raw)
+    if root.tag == 'CFe':
+        if row.get('source') not in (None, 'cfe'):
+            raise ValueError('CF-e não corresponde à pasta selecionada.')
+        summary = parse_cfe(root)
+        if allow_cfe:
+            update_file(row['id'], kind='authorized', key='1:CFe'+summary['access_key'],
+                        signature=signature(root), full_signature=signature(root),
+                        summary=json.dumps(summary), status='indexed')
+            return
+        update_file(row['id'], kind='cfe', summary=json.dumps(summary), status='invalid',
+                    message='CF-e identificado. A conversão nativa ainda não está disponível.')
+        return
+    if row.get('source') == 'cfe':
+        raise ValueError('A pasta de CF-e aceita apenas XML de venda CF-e/SAT.')
     if root.tag=='{'+NS['n']+'}NFe':
         info=root.find('n:infNFe',NS);node=root;kind='signed'
     else:
         info=root.find('n:NFe/n:infNFe',NS);node=root.find('n:NFe',NS);kind='authorized'
     if info is None or node is None:raise ValueError('XML não é uma NFC-e NFe/nfeProc.')
+    source = row.get('source')
+    expected = {'purchase': ('55', '1'), 'incoming': ('55', '0'),
+                'outgoing': ('55', '1'), 'nfce': ('65', '1')}
+    if source in expected:
+        model = info.findtext('n:ide/n:mod', namespaces=NS)
+        direction = info.findtext('n:ide/n:tpNF', namespaces=NS)
+        if (model, direction) != expected[source]:
+            raise ValueError('Modelo ou direção do XML não corresponde à pasta selecionada.')
     environment=info.findtext('n:ide/n:tpAmb',namespaces=NS) or ''
     if kind=='authorized':
         parsed=parse_xml(raw,issuer=info.findtext('n:emit/n:CNPJ',namespaces=NS) or '',environment=environment)
+        native_type, _, _ = nfe_route(parsed, source)
         summary={key:parsed[key] for key in ('access_key','number','series','total','issued_at_original','xml_sha256')}
+        summary['installment_count'] = len(parsed['installments'])
+        if native_type in {'NotaFiscalCompra', 'NotaFiscalEletronicaEntrada'} and not allow_manual_entry:
+            update_file(row['id'], kind=kind, summary=json.dumps(summary), status='invalid',
+                        message='A conversão nativa desta categoria ainda não está disponível.')
+            return
     else:summary={'access_key':info.get('Id','')[3:]}
     key=environment+':'+info.get('Id','')
     update_file(row['id'],kind=kind,key=key,signature=signature(node),full_signature=signature(root),
@@ -404,7 +456,7 @@ def incoming(job_id,row):
     raw=raw_bytes(job_id,row);root=read_xml(raw)
     info=root.find('n:NFe/n:infNFe',NS)
     parsed=parse_xml(raw,issuer=info.findtext('n:emit/n:CNPJ',namespaces=NS),environment=info.findtext('n:ide/n:tpAmb',namespaces=NS))
-    return {'name':row['name'],'raw':raw,'info':info,'parsed':parsed}
+    return {'name':row['name'],'source':row.get('source'),'raw':raw,'info':info,'parsed':parsed}
 
 
 def write_sale(job_id,row,sale):
@@ -460,6 +512,8 @@ def heartbeat():
 def launch(job_id,owner,phase,*,session_token=None,background=True):
     global _heartbeat_started
     job=owned(job_id,owner)
+    if phase == 'apply' and not job['import_movements']:
+        raise HTTPException(409, 'A gravação de movimentações está desmarcada neste lote.')
     with _lock,connect() as db:
         db.execute('BEGIN IMMEDIATE')
         current=db.execute('SELECT * FROM jobs WHERE id=?',(job_id,)).fetchone()
@@ -512,13 +566,17 @@ def work(job_id,owner,phase,session_token):
 
 
 def validate_job(job_id,job,owner):
+    profile=load_profile(job['profile']) if job['mode']=='manual' else None
     while running(job_id):
         row=next_file(job_id,'uploaded')
         if not row:break
-        try:index_file(job_id,row)
+        try:
+            if job['mode'] == 'manual':
+                index_file(job_id, row, allow_manual_entry=True, allow_cfe='cfe' in profile)
+            else:
+                index_file(job_id, row)
         except ValueError as exc:update_file(row['id'],status='invalid',message=str(exc))
     if not running(job_id):return
-    profile=load_profile(job['profile']) if job['mode']=='manual' else None
     with ExitStack() as stack:
         client=None;discovery=None;processed=0
         while running(job_id):
@@ -527,14 +585,19 @@ def validate_job(job_id,job,owner):
             if not row:break
             if not resolve_pair(row):continue
             try:
-                if profile:sale=build_sale(raw_bytes(job_id,row),profile)
+                if profile:
+                    raw = raw_bytes(job_id, row)
+                    sale = (build_cfe(raw, profile) if row['key'].startswith('1:CFe')
+                            else build_sale(raw, profile, source=row.get('source')))
                 else:
                     if client is None:
                         client=stack.enter_context(editor.editor_client())
-                        discovery=Discovery(client[job['database_name']])
+                        database = client[job['database_name']]
+                        discovery = Discovery(database, use_barcode=True) if job['use_barcode'] else Discovery(database)
                     item=incoming(job_id,row)
-                    company_id,_=discovery.company(item['parsed']['issuer_cnpj'], item['parsed']['model'])
-                    query={'EmpresaReferencia':company_id,'_t':movement_type(item['parsed']['model']),
+                    native_type, company_cnpj, _ = nfe_route(item['parsed'], item['source'])
+                    company_id, _ = discovery.company(company_cnpj, item['parsed']['model'], native_type=native_type)
+                    query={'EmpresaReferencia':company_id,'_t':native_type,
                            'Numero':int(item['parsed']['number']),'Serie':item['parsed']['series']}
                     previous=client[job['database_name']].Movimentacoes.find_one(query,{'ChaveAcesso':1},max_time_ms=5000)
                     if previous:
@@ -554,6 +617,8 @@ def validate_job(job_id,job,owner):
 
 def authorize_apply(job_id,owner,token,confirmation):
     job=owned(job_id,owner)
+    if not job['import_movements']:
+        raise HTTPException(409, 'A gravação de movimentações está desmarcada neste lote.')
     if confirmation!='IMPORTAR '+job['database_name']:raise HTTPException(422,'Confirme o banco de destino.')
     access=editor.session(token,owner,job['database_name'])
     for collection in ('Movimentacoes','XmlMovimentacoes'):
@@ -613,12 +678,19 @@ def snapshot(job_id,owner,offset=0,page_size=50):
     values=[]
     for row in rows:
         value={'id':row['id'],'file':row['name'],'status':row['status'],'message':row['message']}
-        if row['summary']:value.update(json.loads(row['summary']))
+        if row['summary']:
+            summary = json.loads(row['summary'])
+            if summary.get('model') == '59':
+                summary.pop('items', None)
+                summary.pop('payments', None)
+            value.update(summary)
         if row['result']:value['result']=json.loads(row['result'])
         values.append(value)
     in_progress=job['state'] in {'queued','validating','applying','pausing'}
     orphan=in_progress and job['lease']<time.time()
-    return {'id':job_id,'database':job['database_name'],'mode':job['mode'],
+    return {'id':job_id,'database':job['database_name'],'mode':job['mode'],'use_barcode':bool(job['use_barcode']),
+            'import_movements': bool(job['import_movements']),
+            'import_people': bool(job['import_people']),
             'state':'interrupted' if orphan and job['phase']=='apply' else 'paused' if orphan else job['state'],
             'phase':job['phase'],'error':job['error'],'total':total,'bytes':size,'counts':counts,
             'ready':counts.get('ready',0),'valid':not counts.get('invalid') and not counts.get('unknown') and
@@ -629,17 +701,70 @@ def snapshot(job_id,owner,offset=0,page_size=50):
 def document(job_id,owner,file_id):
     owned(job_id,owner)
     with connect() as db:row=db.execute('SELECT * FROM files WHERE id=? AND job_id=?',(file_id,job_id)).fetchone()
+    if row and row['kind'] == 'cfe' and row['summary']:
+        return {'cfe_review': json.loads(row['summary'])}
     if not row or not row['sale_path']:raise HTTPException(404,'Documento convertido não disponível.')
     return read_sale(job_id,dict(row))
 
 
-def iter_sales(job_id):
+def iter_sales(job_id, *, status=None):
     previous=0
     while True:
         with connect() as db:
-            row=db.execute("SELECT id,sale,sale_path FROM files WHERE job_id=? AND sale_path IS NOT NULL AND id>? ORDER BY id LIMIT 1",(job_id,previous)).fetchone()
+            sql = 'SELECT id,sale,sale_path FROM files WHERE job_id=? AND sale_path IS NOT NULL AND id>?'
+            params = (job_id, previous)
+            if status is not None:
+                sql += ' AND status=?'
+                params += (status,)
+            row = db.execute(sql + ' ORDER BY id LIMIT 1', params).fetchone()
         if not row:break
         previous=row['id'];yield read_sale(job_id,dict(row))
+
+
+def latest_purchase_costs(sales):
+    """Select one cost per company product from prepared purchase documents."""
+    latest = {}
+    for sale in sales:
+        for candidate in sale.get('purchase_cost_candidates', []):
+            product = candidate['company_product_id']
+            moment = datetime.fromisoformat(candidate['issued_at'])
+            current = latest.get(product)
+            if current is None or moment > current[0]:
+                latest[product] = (moment, candidate, False)
+            elif moment == current[0]:
+                existing = current[1]
+                conflict = current[2] or Decimal(candidate['unit_cost']) != Decimal(existing['unit_cost'])
+                chosen = min((existing, candidate), key=lambda value: (value['access_key'], value['line']))
+                latest[product] = (moment, chosen, conflict)
+    return [dict(candidate, conflict=conflict) for _, candidate, conflict in latest.values()]
+
+
+def reviewed_people(job_id, owner):
+    job = owned(job_id, owner)
+    if not job['import_people'] or job['state'] not in {'ready', 'complete'}:
+        raise HTTPException(409, 'Selecione Pessoas e conclua a validação do lote.')
+    people = {}
+    for sale in iter_sales(job_id):
+        for person in sale.get('people', []):
+            ident = person['_id']
+            previous = people.setdefault(ident, person)
+            if previous != person:
+                raise HTTPException(409, 'O lote contém cadastros diferentes para o mesmo CPF ou CNPJ.')
+    return people
+
+
+def purchase_cost_preview(job_id, owner):
+    job = owned(job_id, owner)
+    if job['state'] not in {'ready', 'complete'}:
+        raise HTTPException(422, 'Conclua a validação antes de conferir os custos de compra.')
+    if job['state'] == 'ready':
+        return latest_purchase_costs(iter_sales(job_id, status='ready'))
+    # Choose across the whole batch first so a newer duplicate never makes
+    # an older imported purchase appear to be the latest.
+    latest = latest_purchase_costs(iter_sales(job_id))
+    imported_keys = {sale['summary']['access_key'] for sale in iter_sales(job_id, status='imported')
+                     if sale.get('purchase_cost_candidates')}
+    return [candidate for candidate in latest if candidate['access_key'] in imported_keys]
 
 
 def export_zip(job_id,owner):

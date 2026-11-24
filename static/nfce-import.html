@@ -24,10 +24,13 @@
     <section><h2>1. Base do cliente</h2><p>Use a conexão ativa do Insight. O emitente é identificado pelo CNPJ do XML e os vínculos são conferidos em uma amostra de vendas da própria empresa.</p>
       <label for="mappingMode">Identificação dos vínculos</label><select id="mappingMode"><option value="automatic">Identificar automaticamente na base conectada</option><option value="manual">Usar perfil JSON revisado (avançado)</option></select>
       <p id="automaticHint">Não é necessário exportar BSON. A descoberta apenas consulta a base; a gravação acontece depois da prévia e da confirmação.</p>
+      <label><input id="useBarcode" type="checkbox" style="width:auto;min-height:0"> Utilizar o código de barras como identificador</label>
+      <label><input id="importMovements" type="checkbox" style="width:auto;min-height:0" checked> Movimentações de Entrada e Saída</label>
+      <label><input id="importPeople" type="checkbox" style="width:auto;min-height:0" disabled> Pessoas (perfil JSON)</label>
       <div id="manualProfile" hidden><label for="profile">Perfil de importação (.json)</label><input id="profile" type="file" accept=".json,application/json">
       <a href="/static/nfce-profile.example.json" download>Baixar estrutura do perfil</a></div>
     </section>
-    <section><h2>2. XMLs autorizados</h2><p>Notas autorizadas de saída normal. Compras de fornecedores, devoluções, CT-e, SAT, NFS-e e eventos ainda exigem conversores próprios e são bloqueados. Escolha qualquer pasta pelo seletor. A pasta usual do SuiteG6 é <code>C:\Digisat\SuiteG6\Dfe\</code>.</p>
+    <section><h2>2. XMLs fiscais</h2><p>Selecione arquivos ou pastas de XML. Para notas de compra e NF-e de entrada, use um perfil JSON revisado. A pasta usual do SuiteG6 é <code>C:\Digisat\SuiteG6\Dfe\</code>.</p>
       <label for="accessKeys">Chaves de acesso</label>
       <textarea id="accessKeys" rows="3" autocomplete="off" spellcheck="false" aria-describedby="keyHint" placeholder="Cole uma chave de 44 dígitos por linha"></textarea>
       <small id="keyHint">Cole uma lista ou copie as chaves de uma planilha. A busca usa os XMLs autorizados em XmlMovimentacoes no banco de destino.</small>
@@ -36,6 +39,20 @@
       <small id="keyFileHint">Use uma coluna de chaves. O arquivo pode ser combinado com as chaves coladas acima.</small>
       <label for="xmls">Arquivos NF-e / NFC-e (.xml)</label><input id="xmls" type="file" accept=".xml,text/xml,application/xml" multiple>
       <label for="folders">Ou selecionar uma pasta de XMLs</label><input id="folders" type="file" webkitdirectory multiple>
+      <details>
+        <summary>Selecionar pastas por tipo de documento</summary>
+        <label for="outgoingFolder">Diretório de NF-e de saída</label>
+        <input id="outgoingFolder" type="file" webkitdirectory data-dfe-source="outgoing">
+        <label for="nfceFolder">Diretório de NFC-e</label>
+        <input id="nfceFolder" type="file" webkitdirectory data-dfe-source="nfce">
+        <label for="incomingFolder">Diretório de NF-e de entrada (perfil JSON)</label>
+        <input id="incomingFolder" type="file" webkitdirectory data-dfe-source="incoming" disabled>
+        <label for="purchaseFolder">Diretório de notas de compra (perfil JSON)</label>
+        <input id="purchaseFolder" type="file" webkitdirectory data-dfe-source="purchase" disabled>
+        <label for="cfeFolder">Diretório de CF-e/SAT</label>
+        <input id="cfeFolder" type="file" webkitdirectory data-dfe-source="cfe" aria-describedby="cfeFolderHint">
+        <small id="cfeFolderHint">Para preparar a gravação, use um perfil JSON com mapeamento de CF-e. Sem perfil, o XML fica disponível para conferência.</small>
+      </details>
       <small id="fileLimits">Sem limite de quantidade ou tamanho total. Envio incremental com progresso e retomada.</small>
     </section>
     <div class="nfce-actions"><button id="validate" type="submit">Validar para importação</button><span id="status" role="status">Informe as chaves ou selecione os XMLs para começar.</span></div>
@@ -51,6 +68,17 @@
     <div class="nfce-table"><table><thead><tr><th>Arquivo / chave de acesso</th><th>Documento</th><th>Valor</th><th>Validação</th></tr></thead><tbody id="rows"></tbody></table></div>
     <div class="nfce-actions"><button id="previousPage" class="secondary" type="button">Anterior</button><span id="pageLabel"></span><button id="nextPage" class="secondary" type="button">Próxima</button></div>
     <details><summary>Ver documento selecionado</summary><pre id="bson">Clique no nome de um arquivo convertido para conferir o BSON. Os documentos são carregados individualmente.</pre></details>
+    <details id="purchaseCostReview" hidden>
+      <summary>Conferir custos da última compra</summary>
+      <pre id="purchaseCostList" role="status"></pre>
+      <div id="purchaseCostActions"></div>
+      <div id="purchaseCostBatch" hidden>
+        <label><input id="useLastPurchaseCost" type="checkbox" style="width:auto;min-height:0"> Utilizar custo da última compra no preço de custo</label>
+        <button id="applyPurchaseCosts" type="button" class="secondary" disabled>Aplicar custos do lote</button>
+      </div>
+    </details>
+    <button id="insertPerson" class="secondary" type="button" hidden>Cadastrar pessoa revisada</button>
+    <button id="insertPeople" class="secondary" type="button" hidden>Revisar e cadastrar pessoas do lote</button>
     <p id="notice" class="nfce-note"></p>
     <div class="nfce-commit"><h2>4. Inserir no banco</h2><p>A aplicação confere chaves existentes e registra cada escrita no diário do editor. A inserção das duas coleções não é uma transação no MongoDB 3.4.</p>
       <label for="confirmation">Confirmação do banco de destino</label><input id="confirmation" autocomplete="off" placeholder="IMPORTAR NomeDoBanco">

@@ -13,6 +13,7 @@ from unittest.mock import patch, MagicMock
 import zipfile
 
 from bson import json_util
+from xml.etree import ElementTree as ET
 from fastapi import FastAPI, HTTPException
 from fastapi.testclient import TestClient
 
@@ -22,6 +23,7 @@ from test_nfce_import import profile
 import insight_nfce_jobs as jobs
 from insight_nfce_jobs_api import router
 import insight_editor as editor
+from insight_nfce import NS
 from insight_nfce_mapping import build_sale,validate_native_documents
 
 
@@ -30,6 +32,83 @@ def padded_xml(number=124,size=0):
 
 
 class JobTests(unittest.TestCase):
+    def test_unselected_movements_allow_review_but_reject_apply(self):
+        created = jobs.create('owner', 'manual', json_util.dumps(profile()), import_movements=False)
+        self.add(created['id'], xml())
+        review = jobs.launch(created['id'], 'owner', 'validate', background=False)
+        self.assertEqual(review['ready'], 1)
+        self.assertFalse(review['import_movements'])
+        with self.assertRaises(HTTPException) as error:
+            jobs.launch(created['id'], 'owner', 'apply', background=False)
+        self.assertEqual(error.exception.status_code, 409)
+
+    def test_sat_folder_rejects_nfce_without_preparing_a_write(self):
+        job_id = self.create()
+        raw = xml()
+        path = Path(self.temp.name) / 'nfce.xml'
+        path.write_bytes(raw)
+        slot = jobs.upload_slot(job_id, 'owner', {'name': path.name, 'size': len(raw), 'source': 'cfe'})
+        jobs.upload_local(job_id, 'owner', path, upload_id=slot['upload_id'])
+        result = jobs.launch(job_id, 'owner', 'validate', background=False)
+        self.assertFalse(result['valid'])
+        self.assertIn('pasta de CF-e', result['rows'][0]['message'])
+
+    def test_purchase_folder_prepares_reviewable_movement_with_matching_parties(self):
+        raw = xml()
+        old_key = ET.fromstring(raw).find('n:NFe/n:infNFe', NS).get('Id')[3:]
+        head = old_key[:20] + '55' + old_key[22:43]
+        check = 11 - sum(int(n) * (2 + i % 8) for i, n in enumerate(reversed(head))) % 11
+        key = head + str(0 if check >= 10 else check)
+        raw = raw.replace(old_key.encode(), key.encode()).replace(b'<mod>65', b'<mod>55')
+        raw = raw.replace(b'</emit>', b'</emit><dest><CNPJ>98765432000110</CNPJ></dest>')
+        mapping = profile()
+        mapping['movement']['_t'] = 'NotaFiscalCompra'
+        mapping['company']['Documento'] = '98765432000110'
+        mapping['customer']['Documento'] = mapping['issuer_cnpj']
+        supplier_cnpj = mapping['issuer_cnpj']
+        mapping['purchase_suppliers'] = {
+            supplier_cnpj: {'customer': mapping['customer'], 'products': mapping['products']},
+        }
+        mapping['issuer_cnpj'] = '11111111000111'
+        mapping['xml_movement_type'] = 123  # Synthetic profile value.
+        batch_profile = profile()
+        batch_profile['person_template'] = {'Cnpj': {'_t': 'SyntheticPessoaJuridica', 'Ativo': True}}
+        batch_profile['source_profiles'] = {
+            'purchase': {field: mapping[field] for field in
+                         ('movement', 'company', 'purchase_suppliers', 'xml_movement_type')},
+        }
+        job_id = jobs.create('owner', 'manual', json_util.dumps(batch_profile))['id']
+        path = Path(self.temp.name) / 'supplier.xml'
+        path.write_bytes(raw)
+        slot = jobs.upload_slot(job_id, 'owner', {'name': path.name, 'size': len(raw), 'source': 'purchase'})
+        jobs.upload_local(job_id, 'owner', path, upload_id=slot['upload_id'])
+        result = jobs.launch(job_id, 'owner', 'validate', background=False)
+        self.assertEqual(result['ready'], 1, result)
+        sale = jobs.document(job_id, 'owner', result['rows'][0]['id'])
+        self.assertEqual(sale['movement']['_t'], 'NotaFiscalCompra')
+        self.assertEqual(sale['movement']['Pessoa']['Documento'], supplier_cnpj)
+        self.assertEqual(sale['people'][0]['Cnpj'], supplier_cnpj)
+        self.assertEqual(len(sale['people']), 1)
+        self.assertEqual(sale['xml']['ChaveAcesso'], key)
+        costs = jobs.purchase_cost_preview(job_id, 'owner')
+        self.assertEqual(len(costs), 1)
+        candidate = costs[0]
+        self.assertEqual(candidate['unit_cost'], '3.335')
+        self.assertEqual(candidate['access_key'], key)
+        earlier = dict(candidate, issued_at='2026-11-12T10:30:00-03:00', unit_cost='9.00')
+        conflicting = dict(candidate, unit_cost='4.00', line=2)
+        selected = jobs.latest_purchase_costs([
+            {'purchase_cost_candidates': [candidate, earlier, conflicting]},
+        ])
+        self.assertEqual(selected, [dict(candidate, conflict=True)])
+        file_id = result['rows'][0]['id']
+        with jobs.connect() as db:
+            db.execute("UPDATE jobs SET state='complete' WHERE id=?", (job_id,))
+        jobs.update_file(file_id, status='duplicate')
+        self.assertEqual(jobs.purchase_cost_preview(job_id, 'owner'), [])
+        jobs.update_file(file_id, status='imported')
+        self.assertEqual(jobs.purchase_cost_preview(job_id, 'owner'), costs)
+
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory()
         self.environment=patch.dict(os.environ,{'INSIGHT_DATA_DIR':self.temp.name})
@@ -140,8 +219,8 @@ class JobTests(unittest.TestCase):
         job_id=self.create()
         for index in range(4):self.add(job_id,xml(124+index),index)
         original=jobs.index_file;processed=[]
-        def pause_after_one(j,row):
-            original(j,row);processed.append(row['id'])
+        def pause_after_one(j,row,**kwargs):
+            original(j,row,**kwargs);processed.append(row['id'])
             if len(processed)==1:jobs.pause(j,'owner')
         with patch.object(jobs,'index_file',side_effect=pause_after_one):
             result=jobs.launch(job_id,'owner','validate',background=False)

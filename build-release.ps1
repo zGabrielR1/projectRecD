@@ -1,5 +1,6 @@
-param([switch]$StageOnly, [string]$PythonPath)
+param([switch]$StageOnly, [switch]$SkipVerification, [string]$PythonPath)
 $ErrorActionPreference = 'Stop'
+if ($SkipVerification -and -not $StageOnly) { throw 'SkipVerification exige StageOnly.' }
 $projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 if (-not $PythonPath) { $PythonPath = Join-Path $projectRoot '.venv\Scripts\python.exe' }
 if (-not (Test-Path -LiteralPath $pythonPath)) { throw 'Crie o ambiente Python e instale requirements.txt e PyInstaller antes de compilar.' }
@@ -32,8 +33,10 @@ Get-ChildItem -LiteralPath $staticRoot -Filter '*.html' -File | ForEach-Object {
 & $pythonPath -m PyInstaller --noconfirm --onefile --console --name DigiSatInsight --distpath $distPath --workpath (Join-Path $buildRoot 'work') --specpath $buildRoot --add-data ((Join-Path $buildRoot 'static') + ';static') --add-data ($nativeStage + ';native') --paths $buildRoot --collect-data reportlab --collect-submodules uvicorn --exclude-module unittest --exclude-module pytest (Join-Path $buildRoot 'launcher.py')
 if ($LASTEXITCODE -ne 0) { throw 'Falha na compilação; a release anterior foi preservada.' }
 $candidatePath = Join-Path $distPath 'DigiSatInsight.exe'
-& $candidatePath --version
-if ($LASTEXITCODE -ne 0) { throw 'O executável não passou na verificação de versão.' }
+if (-not $SkipVerification) {
+    & $candidatePath --version
+    if ($LASTEXITCODE -ne 0) { throw 'O executável não passou na verificação de versão.' }
+}
 [IO.File]::WriteAllText((Join-Path $projectRoot '.release-build\latest-build-path'),$buildRoot,[Text.UTF8Encoding]::new($false))
 if ($StageOnly) { Write-Output "BUILD_READY=$buildRoot"; return }
 & $pythonPath (Join-Path $projectRoot 'tools\verify-release.py')

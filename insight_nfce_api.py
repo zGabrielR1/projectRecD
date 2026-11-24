@@ -211,6 +211,68 @@ def apply_plan(token, confirmation, session_token, owner):
     return {'database': database, 'results': results, 'unprocessed': len(plan['sales']) - len(results), 'notice': NOTICE}
 
 
+def prepare_person_insert(person, database, session_token, owner, *, client):
+    access = editor.session(session_token, owner, database)
+    for action in ('find', 'insert'):
+        if not editor.permitted(access['grants'], database, 'Pessoas', action):
+            raise HTTPException(403, 'Permissão ausente: ' + action + ' em Pessoas')
+    field = 'Cpf' if person.get('Cpf') else 'Cnpj'
+    document = person[field]
+    if field == 'Cpf':
+        formatted = f'{document[:3]}.{document[3:6]}.{document[6:9]}-{document[9:]}'
+    else:
+        formatted = f'{document[:2]}.{document[2:5]}.{document[5:8]}/{document[8:12]}-{document[12:]}'
+    people = editor.selected_collection(client, database, 'Pessoas', write=True)
+    if people.find_one({field: {'$in': [document, formatted]}}, {'_id': 1}, max_time_ms=5000):
+        return None
+    return editor.prepare_import_insert(person, database, 'Pessoas', session_token, owner, client=client)
+
+
+def prepare_purchase_cost(candidate, database, session_token, owner, *, client):
+    """Journal a cost change for a validated purchase line."""
+    from bson import ObjectId
+    from insight_nfce_mapping import purchase_cost_change
+
+    if candidate['conflict']:
+        raise HTTPException(409, 'Resolva o conflito entre custos da última compra.')
+    access = editor.session(session_token, owner, database)
+    for collection, action in (('ProdutosServicosEmpresa', 'find'), ('Precos', 'find'), ('Precos', 'update')):
+        if not editor.permitted(access['grants'], database, collection, action):
+            raise HTTPException(403, 'Permissão ausente: ' + action + ' em ' + collection)
+    products = editor.selected_collection(client, database, 'ProdutosServicosEmpresa')
+    link = products.find_one({'_id': candidate['company_product_id'],
+                              'EmpresaReferencia': candidate['company_id'], 'Ativo': True},
+                             {'PrecoReferencia': 1}, max_time_ms=5000)
+    price_id = link.get('PrecoReferencia') if link else None
+    if not isinstance(price_id, ObjectId):
+        raise HTTPException(409, 'Vínculo ativo de preço não encontrado para o produto da empresa.')
+    prices = editor.selected_collection(client, database, 'Precos', write=True)
+    before = prices.find_one({'_id': price_id}, max_time_ms=5000)
+    if before is None:
+        raise HTTPException(409, 'Cadastro de preço não encontrado.')
+    after = purchase_cost_change(before, candidate['unit_cost'])
+    if after is None:
+        return None
+    validate_native_documents(after)
+    return editor.journal_preview(database, 'Precos', 'update', price_id, before, after,
+                                  session_token, owner, access)
+
+
+def native_document_filter(movement):
+    discriminator = movement['_t']
+    native_type = discriminator[-1] if isinstance(discriminator, list) else discriminator
+    company = movement['EmpresaReferencia']
+    number_filter = {'Numero': movement['Numero'], 'Serie': movement['Serie']}
+    if native_type in {'NotaFiscalCompra', 'CupomFiscalEletronico'}:
+        if native_type == 'NotaFiscalCompra':
+            number_filter['Pessoa.PessoaReferencia'] = movement['Pessoa']['PessoaReferencia']
+        else:
+            number_filter['NumeroFabricacao'] = movement['NumeroFabricacao']
+        return {'EmpresaReferencia': company, '_t': native_type,
+                '$or': [{'ChaveAcesso': movement['ChaveAcesso']}, number_filter]}
+    return {'EmpresaReferencia': company, '_t': native_type, **number_filter}
+
+
 def apply_sale(sale,database,session_token,owner,*,client=None):
     """One resumable write unit; optional pooled client belongs to the import worker."""
     from contextlib import nullcontext
@@ -220,8 +282,7 @@ def apply_sale(sale,database,session_token,owner,*,client=None):
         with (nullcontext(client) if client is not None else editor.editor_client()) as current:
             moves=editor.selected_collection(current,database,'Movimentacoes',write=True)
             movement=sale['movement']
-            native_filter={'EmpresaReferencia':movement['EmpresaReferencia'],'Numero':movement['Numero'],
-                           'Serie':movement['Serie'],'_t':movement['_t'][-1] if isinstance(movement['_t'],list) else movement['_t']}
+            native_filter = native_document_filter(movement)
             existing=moves.find_one(native_filter,{'_id':1,'ChaveAcesso':1},max_time_ms=5000)
             if existing is not None:
                 if existing.get('ChaveAcesso') not in (None,key):

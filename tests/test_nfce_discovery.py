@@ -14,8 +14,8 @@ from fastapi import HTTPException
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from test_nfce_import import fixture, profile
 from insight_nfce import NS
-from insight_nfce_mapping import build_sale
-from insight_nfce_discovery import Discovery, prepare_files, customer_matches
+from insight_nfce_mapping import build_sale, build_cfe
+from insight_nfce_discovery import Discovery, prepare_files, customer_matches, nfe_route, parse_cfe
 import insight_nfce_api as api
 
 
@@ -96,6 +96,103 @@ def prepared(raw=None):return prepare_files([('incoming.xml',raw or xml(124))])[
 
 
 class DiscoveryTests(unittest.TestCase):
+    def test_purchase_duplicate_query_scopes_number_to_supplier(self):
+        company, supplier = ObjectId(), ObjectId()
+        query = api.native_document_filter({
+            '_t': ['Movimentacao', 'NotaFiscalCompra'], 'EmpresaReferencia': company,
+            'Numero': 123, 'Serie': '1', 'ChaveAcesso': 'purchase-key',
+            'Pessoa': {'PessoaReferencia': supplier},
+        })
+        self.assertEqual(query, {
+            'EmpresaReferencia': company, '_t': 'NotaFiscalCompra',
+            '$or': [{'ChaveAcesso': 'purchase-key'},
+                    {'Numero': 123, 'Serie': '1', 'Pessoa.PessoaReferencia': supplier}],
+        })
+
+    def test_installments_are_read_from_billing_without_inventing_settlement(self):
+        billing = (b'<cobr><dup><nDup>001</nDup><dVenc>2026-12-01</dVenc>'
+                   b'<vDup>12.30</vDup></dup></cobr>')
+        raw = xml(124).replace(b'<pag>', billing + b'<pag>')
+        self.assertEqual(prepared(raw)['parsed']['installments'],
+                         [{'number': '001', 'date': '2026-12-01', 'amount': '12.30'}])
+        bad = raw.replace(b'2026-12-01', b'2026-02-30')
+        accepted, rejected = prepare_files([('invalid.xml', bad)])
+        self.assertFalse(accepted)
+        self.assertIn('vencimento', rejected[0]['message'])
+        bad_total = raw.replace(b'<cobr>', b'<cobr><fat><vLiq>12.31</vLiq></fat>')
+        accepted, rejected = prepare_files([('divergente.xml', bad_total)])
+        self.assertFalse(accepted)
+        self.assertIn('valor líquido', rejected[0]['message'])
+
+    def test_sat_payment_and_change_match_receipt_total(self):
+        cnpj, serial, number = '12345678000190', '000000123', '000456'
+        head = '352611' + cnpj + '59' + serial + number + '123456'
+        remainder = 11 - sum(int(n) * (2 + i % 8) for i, n in enumerate(reversed(head))) % 11
+        key = head + str(0 if remainder >= 10 else remainder)
+        raw = (f'<CFe><infCFe Id="CFe{key}"><ide><nserieSAT>{serial}</nserieSAT>'
+               f'<nCFe>{number}</nCFe><dEmi>20261124</dEmi><hEmi>102030</hEmi></ide><emit><CNPJ>{cnpj}</CNPJ></emit>'
+               '<det nItem="1"><prod><cProd>A</cProd><qCom>3</qCom><vUnCom>5.00</vUnCom>'
+               '<vProd>15.00</vProd></prod></det><total><ICMSTot><vProd>15.00</vProd></ICMSTot>'
+               '<vCFe>15.00</vCFe></total><pgto><MP><cMP>01</cMP><vMP>20.00</vMP>'
+               '</MP><vTroco>5.00</vTroco></pgto></infCFe></CFe>')
+        parsed = parse_cfe(ET.fromstring(raw))
+        self.assertEqual(parsed['change'], '5.00')
+        self.assertEqual(parsed['issued_at_original'], '2026-11-24T10:20:30')
+        with self.assertRaisesRegex(ValueError, 'Mês/ano'):
+            parse_cfe(ET.fromstring(raw.replace('20261124', '20261024')))
+        self.assertEqual(parsed['payments'], [{'code': '01', 'amount': '20.00'}])
+        self.assertEqual(parsed['items'][0]['gross'], '15.00')
+        cfg = profile()
+        cfg['issuer_cnpj'] = cnpj
+        cfg['cfe'] = {
+            'xml_movement_type': 123,
+            'movement': {'_t': 'CupomFiscalEletronico', 'Empresa': cfg['company'],
+                         'Situacao': {'_t': 'Concluido', 'Codigo': 2},
+                         'Ativo': True, 'MovimentacaoItemFinanceiro': False},
+            'item': {'_t': 'ItemProdutoSaida',
+                     'Quantidade': {'$bind': 'item.quantity', 'type': 'double'},
+                     'PrecoUnitario': {'$bind': 'item.unit_price', 'type': 'double'},
+                     'ProdutoServicoEmpresaReferencia': {'$bind': 'product.reference'}},
+            'payments': {'01': {'Valor': 15.0}},
+        }
+        sale = build_cfe(raw.encode(), cfg)
+        self.assertEqual(sale['movement']['NumeroFabricacao'], serial)
+        self.assertEqual(sale['movement']['ChaveAcesso'], key)
+        self.assertEqual(sale['xml']['Xml'], raw)
+        cfg['cfe']['item']['Quantidade'] = 2.0
+        with self.assertRaisesRegex(ValueError, 'Quantidade'):
+            build_cfe(raw.encode(), cfg)
+        with self.assertRaisesRegex(ValueError, 'total bruto'):
+            parse_cfe(ET.fromstring(raw.replace('<vProd>15.00', '<vProd>14.00', 1)))
+        with self.assertRaisesRegex(ValueError, 'troco'):
+            parse_cfe(ET.fromstring(raw.replace('<vTroco>5.00', '<vTroco>4.00')))
+
+    def test_purchase_reverses_parties_but_self_issued_entry_does_not(self):
+        issuer, recipient = '12345678000190', '98765432000110'
+        parsed = {'model': '55', 'direction': '1', 'issuer_cnpj': issuer,
+                  'recipient_document': recipient}
+        self.assertEqual(nfe_route(parsed, 'purchase'), ('NotaFiscalCompra', recipient, issuer))
+        self.assertEqual(nfe_route(dict(parsed, direction='0'), 'incoming'),
+                         ('NotaFiscalEletronicaEntrada', issuer, recipient))
+        with self.assertRaises(ValueError):
+            nfe_route(parsed, 'incoming')
+
+    def test_barcode_resolves_different_code_and_rejects_ambiguous_catalog(self):
+        db = Database()
+        barcode = '0789123456789'
+        tag = f'<cEAN>{barcode}</cEAN>'.encode()
+        db.XmlMovimentacoes.rows[0]['Xml'] = xml().replace(b'</cProd>', b'</cProd>' + tag).decode()
+        product = db.ProdutosServicos.rows[0]
+        product['CodigoBarras'] = barcode
+        raw = xml(124).replace(b'<cProd>A</cProd>', b'<cProd>OTHER</cProd>' + tag)
+        incoming = prepared(raw)
+        sale = Discovery(db, use_barcode=True).build(incoming)
+        self.assertEqual(sale['movement']['ItensBase'][0]['ProdutoServico']['ProdutoServicoReferencia'],
+                         product['_id'])
+        db.ProdutosServicos.rows.append(dict(product, _id=ObjectId()))
+        with self.assertRaisesRegex(ValueError, 'sem vínculo único'):
+            Discovery(db, use_barcode=True).build(incoming)
+
     def test_automatic_sale_has_new_identity_and_no_old_financial_or_seller_state(self):
         db=Database();sale=Discovery(db).build(prepared())
         self.assertEqual(sale['movement']['Numero'],124)

@@ -65,6 +65,36 @@ class ParserTests(unittest.TestCase):
 
 
 class MappingTests(unittest.TestCase):
+    def test_purchase_cost_prepares_update_in_existing_editor_journal(self):
+        company, product, price_id = ObjectId(), ObjectId(), ObjectId()
+        candidate = {'company_id': company, 'company_product_id': product,
+                     'unit_cost': '3.335', 'conflict': False}
+        links, prices = MagicMock(), MagicMock()
+        links.find_one.return_value = {'PrecoReferencia': price_id}
+        before = {'_id': price_id, 'Custo': {'Valor': 2.0}, 'Venda': {'Valor': 9.0}}
+        prices.find_one.return_value = before
+        with (patch.object(api.editor, 'session', return_value={'grants': []}),
+              patch.object(api.editor, 'permitted', return_value=True),
+              patch.object(api.editor, 'selected_collection', side_effect=[links, prices]),
+              patch.object(api.editor, 'journal_preview', return_value={'id': 'preview'}) as journal):
+            result = api.prepare_purchase_cost(candidate, 'SyntheticOnly', 'token', 'owner', client=object())
+        self.assertEqual(result, {'id': 'preview'})
+        args = journal.call_args.args
+        self.assertEqual(args[:5], ('SyntheticOnly', 'Precos', 'update', price_id, before))
+        self.assertEqual(args[5]['Custo']['Valor'], 3.335)
+        self.assertEqual(args[5]['Venda'], before['Venda'])
+
+    def test_purchase_cost_change_preserves_sale_price_and_native_cost_type(self):
+        from bson import Decimal128
+        for original, expected in [(2.0, 3.335), (Decimal128('2.00'), Decimal128('3.335'))]:
+            price = {'_id': ObjectId(), 'Venda': {'Valor': 9.0},
+                     'Custo': {'_t': 'Custo', 'Valor': original}}
+            changed = mapping.purchase_cost_change(price, '3.335')
+            self.assertEqual(changed['Custo'], {'_t': 'Custo', 'Valor': expected})
+            self.assertEqual(changed['Venda'], price['Venda'])
+            self.assertEqual(price['Custo']['Valor'], original)
+            self.assertIsNone(mapping.purchase_cost_change(changed, '3.335'))
+
     def test_native_wall_clock_double_and_idempotent_identity(self):
         sale = mapping.build_sale(fixture(), profile())
         self.assertEqual(sale['movement']['DataHoraEmissao'].hour, 10)
