@@ -1,8 +1,8 @@
 # Divergência dos três relatórios "Movimentações por mês" de 28/10/2026
 
-Os três PDFs enviados por Giovani Monay (SERVIDOR, CANGURU e ESCRITORIO) foram emitidos em 28/10/2026, para a empresa GATA MODA INTIMA, ano 2026, origem "Nota fiscal de consumidor eletrônica" e situação "Concluído". A comparação célula a célula mostra que a divergência não vem dos dados: 51 das 60 células (5 vendedores × 12 meses) são idênticas nas três emissões. As 9 células restantes são **sempre menores** que o maior valor observado para a mesma célula, e a máquina que perde mais muda de mês para mês. Esse é o comportamento do defeito de concorrência já identificado em `ObterTotalMovimentacoesPorMesPorVendedor`: cada execução perde uma parte diferente da soma.
+Os três PDFs enviados por Giovani Monay (SERVIDOR, CANGURU e ESCRITORIO) foram emitidos em 28/10/2026, para a empresa GATA MODA INTIMA, ano 2026, origem "Nota fiscal de consumidor eletrônica" e situação "Concluído". São idênticas 51 das 60 células (5 vendedores × 12 meses); nove divergem. O padrão é compatível com o defeito de concorrência identificado no build analisado de `ObterTotalMovimentacoesPorMesPorVendedor`. Os PDFs não comprovam igualdade dos dados, destino da consulta ou identidade do build remoto; a causa no cliente continua pendente de confirmação. Veja o [relato consolidado e procedimento de validação](consolidacao-re-2026-11-03.md).
 
-O relatório do SERVIDOR não é a referência. Em julho e agosto ele é o menor dos três, abaixo de terminais que consultam a mesma base.
+O relatório do SERVIDOR não pode ser adotado automaticamente como referência. Em julho e agosto ele é o menor dos três; o destino efetivo das consultas precisa ser confirmado.
 
 ## Totais por mês
 
@@ -36,7 +36,7 @@ Novembro e dezembro são zero nas três emissões. Outubro aparece na tabela ape
 | VENDEDORA 4 | Julho | 5.493,45 | 5.493,45 | 5.170,73 | 5.493,45 | ESCRITORIO −322,72 |
 | VENDEDORA 4 | Setembro | 38.964,28 | 38.964,28 | 37.660,79 | 38.964,28 | ESCRITORIO −1.303,49 |
 
-## Quanto cada relatório perdeu
+## Diferença em relação à soma dos máximos observados
 
 | Relatório | Total impresso | Total consolidado | Falta | Onde |
 |---|---:|---:|---:|---|
@@ -44,9 +44,9 @@ Novembro e dezembro são zero nas três emissões. Outubro aparece na tabela ape
 | CANGURU | 1.674.032,03 | 1.679.455,08 | 5.423,05 | VENDEDORA 1 Maio −2.023,34; VENDEDORA 1 Junho −3.399,71 |
 | ESCRITORIO | 1.674.440,08 | 1.679.455,08 | 5.015,00 | VENDEDORA 1 Julho −1.882,36; VENDEDORA 3 Janeiro −132,93; VENDEDORA 3 Outubro −1.373,50; VENDEDORA 4 Julho −322,72; VENDEDORA 4 Setembro −1.303,49 |
 
-Os três relatórios perdem entre 0,25% e 0,32% do total, em pontos diferentes. Nenhuma célula de nenhum relatório é maior que o maior valor já observado para a mesma célula.
+Os três relatórios ficam entre 0,25% e 0,32% abaixo da soma dos máximos observados. Essa comparação não demonstra perda em relação a um total correto independente; toda célula é, por definição, menor ou igual ao máximo observado.
 
-## Por que isso aponta para o cálculo, e não para a sincronização
+## Hipótese de defeito no cálculo
 
 Em [ObterTotalMovimentacoesPorMesPorVendedor](../engenharia/sincronizacao-2026-10-30/fontes/MovimentacaoSaidaRelatorioAppService.cs:148), o serviço lê as movimentações do ano em páginas de 500, soma cada página em paralelo em dicionários locais por thread e depois mescla os resultados no dicionário global:
 
@@ -58,24 +58,24 @@ acumuladoGlobal.AddOrUpdate(chave, parcial, (key, existing) => {
 });
 ```
 
-O `ConcurrentDictionary` protege o mapa, mas não a soma dentro do array `decimal[12]` compartilhado. Duas threads podem ler o mesmo valor e uma sobrescrever a soma da outra. O valor só pode ficar **menor** que o correto, e o mês afetado depende do intercalamento das threads naquela execução.
+O `ConcurrentDictionary` protege o mapa, mas não a soma dentro do array `decimal[12]` compartilhado. Duas threads podem interferir na soma; o callback também pode ser reexecutado. O ensaio citado demonstra resultados menores para sua entrada positiva, mas não estabelece que qualquer execução real só possa subestimar o total.
 
 O que os anexos mostram encaixa nesse mecanismo:
 
-- Meses fechados mudam de um relatório para outro, sem nenhuma venda nova nesses meses.
+- Meses fechados mudam de um relatório para outro; ausência de alterações retroativas ainda não foi verificada na base.
 - Os meses afetados são diferentes em cada máquina; a máquina mais baixa muda de mês (SERVIDOR em julho e agosto, CANGURU em maio e junho, ESCRITORIO em janeiro, julho, setembro e outubro).
-- A diferença é sempre negativa em relação ao maior valor, nunca positiva.
-- A ordem de grandeza (R$ 132,93 a R$ 3.399,71) é compatível com a contribuição mensal de uma thread para uma página de documentos; uma página perdida ou duplicada pela paginação de 500 documentos mudaria dezenas de milhares de reais.
-- O relatório do SERVIDOR é o menor em julho e agosto. Se o problema fosse base incompleta nos terminais, o servidor, que é a origem dos dados, não poderia ficar abaixo deles.
-- Três emissões simultâneas disputam CPU no mesmo servidor, o que aumenta o intercalamento e a chance de perda em cada uma.
+- A comparação com o máximo descreve a divergência, mas não demonstra sua direção em relação ao total correto.
+- A ordem de grandeza, isoladamente, não identifica a contribuição de uma thread ou página.
+- O relatório do SERVIDOR é o menor em julho e agosto. Isso não descarta diferenças entre bases, filtros efetivos ou endpoints.
+- Caso as consultas atinjam o mesmo servidor, haverá concorrência no processo; isso ainda exige confirmação do destino e dos horários de execução.
 
 O campo "Acumulado" não confirma nada por si: ele é um campo calculado do próprio relatório, definido como `[Janeiro] + [Fevereiro] + ... + [Dezembro]` ([layout](../engenharia/codigo-descompilado/Modulo.Relatorios/Reports/Movimentacao/Saida/TotalMovimentacoesPorMesPorVendedor.Designer.cs:719)). A linha "Totais:" soma as mesmas células. Os dois herdam a perda dos meses.
 
-A conferência de setembro enviada em 26/10 (R$ 170.356,74 em itens e o mesmo valor em pagamentos) coincide com o maior valor observado em setembro. O relatório do ESCRITORIO, naquele mês, perdeu R$ 1.303,49 desse total.
+A conferência de setembro enviada em 26/10 (R$ 170.356,74 em itens e pagamentos) coincide com o maior valor observado em setembro. O ESCRITORIO fica R$ 1.303,49 abaixo; confirmar equivalência de filtros e entrada é necessário para atribuir a diferença ao cálculo.
 
 ## Qual valor usar
 
-Nenhum dos três está integralmente correto. Como a falha só subtrai, o valor de cada célula é no mínimo o maior já observado. Somando esses valores, o total do ano fica em **R$ 1.679.455,08**:
+Não foi estabelecido qual emissão está correta. Somando o maior valor observado de cada célula, obtém-se **R$ 1.679.455,08** como comparação entre PDFs, não como total oficial:
 
 | Vendedor | SERVIDOR | CANGURU | ESCRITORIO | Consolidado |
 |---|---:|---:|---:|---:|
@@ -86,7 +86,7 @@ Nenhum dos três está integralmente correto. Como a falha só subtrai, o valor 
 | VENDEDORA 4 | 63.122,96 | 63.122,96 | 61.496,75 | 63.122,96 |
 | **Total** | **1.675.291,56** | **1.674.032,03** | **1.674.440,08** | **1.679.455,08** |
 
-Esse número é um piso: se alguma célula tiver perdido valor nas três emissões, o total correto será maior. O valor exato só pode ser obtido por um cálculo determinístico — o build corrigido ou uma soma serial da base com os mesmos filtros do relatório.
+Esse número só seria um piso sob a hipótese de perdas sobre a mesma entrada positiva, ainda não comprovada no cliente. O valor exato exige cálculo determinístico sobre entrada congelada e filtros equivalentes. Os rótulos “Falta” e “Consolidado” nas tabelas designam apenas diferenças e máximos observados.
 
 ## Correção e validação
 

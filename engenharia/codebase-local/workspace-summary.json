@@ -1,0 +1,16 @@
+{
+  "source_targets": 218,
+  "recovered_projects": 218,
+  "source_files": 22126,
+  "source_bytes": 139265045,
+  "managed_dependency_names": 510,
+  "names_with_distinct_variants": 6,
+  "recovered_tree_files": 24939,
+  "file_index_sha256": "58051c41ca03ad0befb965011f304fe0d5cd5e42d911d8fe9558327eb1346546",
+  "verified_solution_projects": [
+    "DigisatServer.Infrastructure.Data.Core",
+    "Recovered.ReportService"
+  ],
+  "domain_core": "Full source recovered; compilation blocked by obfuscator/decompiler constructs",
+  "original_vendor_application_executed": false
+}

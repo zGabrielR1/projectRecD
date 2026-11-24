@@ -1,0 +1,65 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Data.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "mvid": "43370605-4c69-4adb-8203-5852a9304802",
+  "runtime": "Native Windows CLR 4.0.30319.42000; mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+  "assertions": 6,
+  "checks": [
+    {
+      "name": "checkpoint failure leaves IsRunning true",
+      "passed": true,
+      "observed": {
+        "thrown": true,
+        "IsRunning": true,
+        "SyncCalls": 1
+      }
+    },
+    {
+      "name": "second Run silently skips recovery",
+      "passed": true,
+      "observed": {
+        "SyncCalls": 1,
+        "AsyncCalls": 0
+      }
+    },
+    {
+      "name": "failed replay Task completes successfully",
+      "passed": true,
+      "observed": {
+        "status": "RanToCompletion",
+        "errors": 1,
+        "AsyncCalls": 1
+      }
+    },
+    {
+      "name": "partial cursor retry duplicates prior events",
+      "passed": true,
+      "observed": {
+        "increments": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "AsyncCalls": 2
+      }
+    },
+    {
+      "name": "retry retains pre-failure filter",
+      "passed": true,
+      "observed": {
+        "filters": [
+          "{ \"ts\" : { \"$gte\" : MinKey } }",
+          "{ \"ts\" : { \"$gte\" : MinKey } }"
+        ]
+      }
+    },
+    {
+      "name": "in-memory lastTs advances despite stale retry filter",
+      "passed": true,
+      "observed": {
+        "increment": 2
+      }
+    }
+  ],
+  "scope": "Actual supplied Data.Core assembly; synthetic in-memory IMongoCollection/IAsyncCursor and logger; no database, network, services or config"
+}

@@ -1,0 +1,71 @@
+{
+  "original_path": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Data.Core.dll",
+  "original_sha256": "51fb587ae4a006c95cf4bd7b36ba9fb65951f6893fbdadc76fdcb04f849c983b",
+  "original_mvid": "43370605-4c69-4adb-8203-5852a9304802",
+  "raw_source_sha256": "0df0df4a5610446dcf7ae985ebd3b7ff87854bb8531126a8d214a9db07d662cc",
+  "initial_recovered_source_sha256": "0df0df4a5610446dcf7ae985ebd3b7ff87854bb8531126a8d214a9db07d662cc",
+  "source_lines": 2933,
+  "repairs": [],
+  "exception_metadata_support": [
+    {
+      "method": "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::Initialize()",
+      "token": "[Method:0x00ff]",
+      "catchType": "System.TimeoutException"
+    }
+  ],
+  "references": [
+    {
+      "name": "Akka.dll",
+      "sha256": "1332b355ec71e28ffcc2ee4aadfe93627ea03b95c4f92ddfe75db9fe0a9a77c7"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.dll",
+      "sha256": "a75faa4e67bfb3858ee5f709751079d52e8216faddbcf914d0a4bcb2649f2dd4"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.NetFramework.dll",
+      "sha256": "cea6965fe80382ff896426427953c1841f1a4bd696b062353bc542f46b698b11"
+    },
+    {
+      "name": "MongoDB.Bson.dll",
+      "sha256": "77fc1b24bc91c2a621fff0f0032e73516f4f4484d22b5d6b9926f623d76ce975"
+    },
+    {
+      "name": "MongoDB.Driver.dll",
+      "sha256": "7952f3252ff5e647a7edf8244031ebab61e1efd16e47b19baf4bc94c12e81ddb"
+    },
+    {
+      "name": "MongoDB.Driver.Core.dll",
+      "sha256": "0d6ec7d67cdf7a38a023cc66dc26058c24da5ec6b61de8dd2dc1ab3e204d4c81"
+    },
+    {
+      "name": "System.Reactive.Core.dll",
+      "sha256": "eb0ded63a40ef4d8b2e2a78bca52a8a8f74b8a2394867bb8547223b15af380aa"
+    },
+    {
+      "name": "System.Reactive.Interfaces.dll",
+      "sha256": "ed6131702df41a1c2c4ab1027614bc028c61d54c3261d7090d43838a79bd9266"
+    },
+    {
+      "name": "System.Reactive.Linq.dll",
+      "sha256": "c0689c2bbed77cd0595e7af9ec42a0d49d8d5af1cdab736f16dd24bb95df123b"
+    },
+    {
+      "name": "System.Reactive.PlatformServices.dll",
+      "sha256": "4fb35b1d908b39f909d7941e987dd77e014be5d95cda90086ab6bc590eadaaba"
+    },
+    {
+      "name": "System.ValueTuple.dll",
+      "sha256": "e1cd89b94e888bdfc6cf8cc8608735c40d4bc0d3580d3f921002304b696c61c3"
+    }
+  ],
+  "decompiler_sha256": "d174072a16aa758a39d160f70ce924103898fae2b8506b48f70d6909e25a1fd0",
+  "resource_payloads": [
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Resources.Messages.resources",
+      "bytes": 697,
+      "sha256": "f517eee17be47802031c2329243d74ebee3279464fefcdb8749563683d7f916f"
+    }
+  ],
+  "target_execution_during_recovery": false
+}

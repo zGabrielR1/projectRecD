@@ -1,0 +1,271 @@
+{
+  "modules": [
+    {
+      "name": "SincronizadorG6.exe",
+      "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\SincronizadorG6.exe",
+      "original_sha256": "26ffed48484bdd9e9210034d2076c07f713fed969c9dd877039d28133c7e5386",
+      "original_mvid": "91c0799e-4f08-465f-aa32-5796302826d9",
+      "raw_sha256": "b42845566ed330107d4c3de2ae9d215fbdde287739971b37074dda65e3849f2d",
+      "initial_recovered_sha256": "b42845566ed330107d4c3de2ae9d215fbdde287739971b37074dda65e3849f2d",
+      "source_lines": 432,
+      "references": [
+        {
+          "name": "Akka.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\Akka.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\Akka.dll",
+          "sha256": "1332b355ec71e28ffcc2ee4aadfe93627ea03b95c4f92ddfe75db9fe0a9a77c7"
+        },
+        {
+          "name": "Akka.DI.SimpleInjector.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\Akka.DI.SimpleInjector.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\Akka.DI.SimpleInjector.dll",
+          "sha256": "419d949f0e52f9a3dabee3d2bb364a079131fb62ae2f45612fe6d05bc0b92d5c"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Crosscutting.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\DigisatServer.Infrastructure.Crosscutting.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\DigisatServer.Infrastructure.Crosscutting.dll",
+          "sha256": "a75faa4e67bfb3858ee5f709751079d52e8216faddbcf914d0a4bcb2649f2dd4"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Crosscutting.NetFramework.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\DigisatServer.Infrastructure.Crosscutting.NetFramework.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\DigisatServer.Infrastructure.Crosscutting.NetFramework.dll",
+          "sha256": "cea6965fe80382ff896426427953c1841f1a4bd696b062353bc542f46b698b11"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Crosscutting.RegistroSistema.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema.dll",
+          "sha256": "6fee3224c06f63f650a811817e0273da4ca9daf0cd5bc06f26f6dcefaeda4a78"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Data.Core.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\DigisatServer.Infrastructure.Data.Core.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\DigisatServer.Infrastructure.Data.Core.dll",
+          "sha256": "51fb587ae4a006c95cf4bd7b36ba9fb65951f6893fbdadc76fdcb04f849c983b"
+        },
+        {
+          "name": "MongoDB.Driver.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\MongoDB.Driver.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\MongoDB.Driver.dll",
+          "sha256": "7952f3252ff5e647a7edf8244031ebab61e1efd16e47b19baf4bc94c12e81ddb"
+        },
+        {
+          "name": "MongoDB.Driver.Core.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\MongoDB.Driver.Core.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\MongoDB.Driver.Core.dll",
+          "sha256": "0d6ec7d67cdf7a38a023cc66dc26058c24da5ec6b61de8dd2dc1ab3e204d4c81"
+        },
+        {
+          "name": "mscorlib.dll",
+          "framework": true,
+          "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+          "sha256": "11ac114c43ecf6996bef58ba3c99fba3693a4560a84eeadde54d193060dc626c"
+        },
+        {
+          "name": "NLog.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\NLog.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\NLog.dll",
+          "sha256": "4b8399f36a0abebd8b2a0dc58af5d83f3a6ae5f2228ac49e1fe9f70497975635"
+        },
+        {
+          "name": "SimpleInjector.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\SimpleInjector.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\SimpleInjector.dll",
+          "sha256": "a03e8f9dc40e597c943ed9e6cca5c8f95f90c68910ccae092372d2416c019fc1"
+        },
+        {
+          "name": "System.Core.dll",
+          "framework": true,
+          "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Core.dll",
+          "sha256": "8b898bed54ae8cc61f9c58cc3eb062724f8357d2bdda338b5d363654ecff333d"
+        },
+        {
+          "name": "System.ServiceProcess.dll",
+          "framework": true,
+          "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.ServiceProcess.dll",
+          "sha256": "39a46cb60718dae105eaa5bd1010ddd7388abb4e4c4699cdf24709f3aae84df3"
+        },
+        {
+          "name": "Topshelf.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\Topshelf.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\Topshelf.dll",
+          "sha256": "0c0bffb6c281f131b91c1bc1801f86ad3227ebf33694570482ad256c85f42855"
+        },
+        {
+          "name": "Topshelf.NLog.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\SincronizadorG6.exe\\Topshelf.NLog.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Sincronizador\\Topshelf.NLog.dll",
+          "sha256": "ec207cec064fe3683bcbff73c7f0fe1c08d87797f329ba85a2e8494a483d4d93"
+        }
+      ],
+      "repairs": [],
+      "target_execution": false
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.dll",
+      "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Distributed.Akka.Main.dll",
+      "original_sha256": "f0cae4e37b786355493dd03d971e8747e4288887fcd08f56f2fc1ac43ab56f6f",
+      "original_mvid": "3a600217-dba0-458e-8f70-d05d0f4e9e22",
+      "raw_sha256": "5a4b306ebdc661e49d0ba608edbb981d9f17ef0653b5341e96e79557c90dcc04",
+      "initial_recovered_sha256": "5a4b306ebdc661e49d0ba608edbb981d9f17ef0653b5341e96e79557c90dcc04",
+      "source_lines": 1248,
+      "references": [
+        {
+          "name": "Akka.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\Akka.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\Akka.dll",
+          "sha256": "1332b355ec71e28ffcc2ee4aadfe93627ea03b95c4f92ddfe75db9fe0a9a77c7"
+        },
+        {
+          "name": "Akka.DI.SimpleInjector.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\Akka.DI.SimpleInjector.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\Akka.DI.SimpleInjector.dll",
+          "sha256": "419d949f0e52f9a3dabee3d2bb364a079131fb62ae2f45612fe6d05bc0b92d5c"
+        },
+        {
+          "name": "DigisatServer.Application.Core.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Application.Core.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Application.Core.dll",
+          "sha256": "e15ddc46b2820b87bbc8668083f9ecd1e0738a269cb4c6b07c9cd3add63433f0"
+        },
+        {
+          "name": "DigisatServer.Distributed.Boot.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Distributed.Boot.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Distributed.Boot.dll",
+          "sha256": "1c8196fdc474cf69d32e9d2ea5fb3863dc6290b94b3be376536ed3cf1aa2f29c"
+        },
+        {
+          "name": "DigisatServer.Domain.Core.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Domain.Core.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Domain.Core.dll",
+          "sha256": "fcd29ec09a65eaa8397ccc6b63f6630c61b6fb99293c4a863162d7382928d9ff"
+        },
+        {
+          "name": "DigisatServer.Domain.Main.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Domain.Main.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Domain.Main.dll",
+          "sha256": "785489e546e4f6d47c671a330f3f2c26400cd3fc809b2454941d9513da4daea5"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Crosscutting.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Infrastructure.Crosscutting.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Infrastructure.Crosscutting.dll",
+          "sha256": "a75faa4e67bfb3858ee5f709751079d52e8216faddbcf914d0a4bcb2649f2dd4"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Crosscutting.Concentrador.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Infrastructure.Crosscutting.Concentrador.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Infrastructure.Crosscutting.Concentrador.dll",
+          "sha256": "a15e00dbbdf194849b5d8d419dbe8b6f1bf8345db3e7a18d69ce05acc2bc072e"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Crosscutting.DFe.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Infrastructure.Crosscutting.DFe.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Infrastructure.Crosscutting.DFe.dll",
+          "sha256": "236c6a789c26a13b48ef1792dd7645dfab92186a6b3f8cdc718737a5e6902922"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Crosscutting.NetFramework.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Infrastructure.Crosscutting.NetFramework.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Infrastructure.Crosscutting.NetFramework.dll",
+          "sha256": "cea6965fe80382ff896426427953c1841f1a4bd696b062353bc542f46b698b11"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf.dll",
+          "sha256": "8cb622bec66d145337f961820245a35a1864fa256c99ff077a4f2c4b028a880b"
+        },
+        {
+          "name": "DigisatServer.Infrastructure.Data.Core.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\DigisatServer.Infrastructure.Data.Core.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\DigisatServer.Infrastructure.Data.Core.dll",
+          "sha256": "51fb587ae4a006c95cf4bd7b36ba9fb65951f6893fbdadc76fdcb04f849c983b"
+        },
+        {
+          "name": "MongoDB.Bson.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\MongoDB.Bson.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\MongoDB.Bson.dll",
+          "sha256": "77fc1b24bc91c2a621fff0f0032e73516f4f4484d22b5d6b9926f623d76ce975"
+        },
+        {
+          "name": "MongoDB.Driver.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\MongoDB.Driver.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\MongoDB.Driver.dll",
+          "sha256": "7952f3252ff5e647a7edf8244031ebab61e1efd16e47b19baf4bc94c12e81ddb"
+        },
+        {
+          "name": "MongoDB.Driver.Core.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\MongoDB.Driver.Core.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\MongoDB.Driver.Core.dll",
+          "sha256": "0d6ec7d67cdf7a38a023cc66dc26058c24da5ec6b61de8dd2dc1ab3e204d4c81"
+        },
+        {
+          "name": "mscorlib.dll",
+          "framework": true,
+          "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+          "sha256": "11ac114c43ecf6996bef58ba3c99fba3693a4560a84eeadde54d193060dc626c"
+        },
+        {
+          "name": "SimpleInjector.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\SimpleInjector.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\SimpleInjector.dll",
+          "sha256": "a03e8f9dc40e597c943ed9e6cca5c8f95f90c68910ccae092372d2416c019fc1"
+        },
+        {
+          "name": "System.Core.dll",
+          "framework": true,
+          "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Core.dll",
+          "sha256": "8b898bed54ae8cc61f9c58cc3eb062724f8357d2bdda338b5d363654ecff333d"
+        },
+        {
+          "name": "System.Reactive.Core.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\System.Reactive.Core.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\System.Reactive.Core.dll",
+          "sha256": "eb0ded63a40ef4d8b2e2a78bca52a8a8f74b8a2394867bb8547223b15af380aa"
+        },
+        {
+          "name": "System.Reactive.Linq.dll",
+          "framework": false,
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Rebuilt.Sincronizador\\references\\DigisatServer.Distributed.Akka.Main.dll\\System.Reactive.Linq.dll",
+          "original_path": "C:\\Digisat\\SuiteG6\\Servidor\\System.Reactive.Linq.dll",
+          "sha256": "c0689c2bbed77cd0595e7af9ec42a0d49d8d5af1cdab736f16dd24bb95df123b"
+        }
+      ],
+      "repairs": [],
+      "target_execution": false
+    }
+  ],
+  "decompiler_sha256": "d174072a16aa758a39d160f70ce924103898fae2b8506b48f70d6909e25a1fd0"
+}

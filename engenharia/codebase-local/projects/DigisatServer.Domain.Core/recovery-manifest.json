@@ -1,0 +1,21 @@
+{
+  "original_path": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Domain.Core.dll",
+  "original_sha256": "fcd29ec09a65eaa8397ccc6b63f6630c61b6fb99293c4a863162d7382928d9ff",
+  "original_mvid": "4cdd4d74-f808-4419-8645-e7924228ecb7",
+  "raw_source_sha256": "30506e1e09f4e99f6f8c239cebaa5c2ea4adb71248703e3a56c35ab37c1c8a1c",
+  "initial_recovered_source_sha256": "30506e1e09f4e99f6f8c239cebaa5c2ea4adb71248703e3a56c35ab37c1c8a1c",
+  "source_lines": 2831,
+  "repairs": [],
+  "references": [
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.dll",
+      "sha256": "a75faa4e67bfb3858ee5f709751079d52e8216faddbcf914d0a4bcb2649f2dd4"
+    },
+    {
+      "name": "MongoDB.Bson.dll",
+      "sha256": "77fc1b24bc91c2a621fff0f0032e73516f4f4484d22b5d6b9926f623d76ce975"
+    }
+  ],
+  "decompiler_sha256": "d174072a16aa758a39d160f70ce924103898fae2b8506b48f70d6909e25a1fd0",
+  "target_executed": false
+}

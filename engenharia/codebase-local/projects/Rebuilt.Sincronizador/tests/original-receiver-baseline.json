@@ -1,0 +1,208 @@
+{
+  "actorAssembly": "SincronizadorG6, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "actorMvid": "91c0799e-4f08-465f-aa32-5796302826d9",
+  "repositoryMvid": "43370605-4c69-4adb-8203-5852a9304802",
+  "handlerToken": "0x06000016",
+  "runtime": "Native CLR 4.0.30319.42000",
+  "assertions": 22,
+  "checks": [
+    {
+      "label": "set modifier",
+      "passed": true,
+      "observed": {
+        "method": "FindOneAndUpdateAsync",
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }",
+        "payload": "{ \"$set\" : { \"Name\" : \"fixture\" } }",
+        "optionsNull": true,
+        "upsert": false,
+        "status": "RanToCompletion"
+      }
+    },
+    {
+      "label": "set modifier uses message ID filter",
+      "passed": true,
+      "observed": {
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }"
+      }
+    },
+    {
+      "label": "set modifier preserves repository option policy",
+      "passed": true,
+      "observed": {
+        "optionsNull": true,
+        "upsert": false
+      }
+    },
+    {
+      "label": "unset with source marker",
+      "passed": true,
+      "observed": {
+        "method": "FindOneAndUpdateAsync",
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }",
+        "payload": "{ \"$unset\" : { \"Name\" : 1 }, \"__sourceid__\" : \"fixture\" }",
+        "optionsNull": true,
+        "upsert": false,
+        "status": "RanToCompletion"
+      }
+    },
+    {
+      "label": "unset with source marker uses message ID filter",
+      "passed": true,
+      "observed": {
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }"
+      }
+    },
+    {
+      "label": "unset with source marker preserves repository option policy",
+      "passed": true,
+      "observed": {
+        "optionsNull": true,
+        "upsert": false
+      }
+    },
+    {
+      "label": "inc with source marker",
+      "passed": true,
+      "observed": {
+        "method": "ReplaceOneAsync",
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }",
+        "payload": "{ \"$inc\" : { \"Count\" : 1 }, \"__sourceid__\" : \"fixture\" }",
+        "optionsNull": false,
+        "upsert": true,
+        "status": "RanToCompletion"
+      }
+    },
+    {
+      "label": "inc with source marker uses message ID filter",
+      "passed": true,
+      "observed": {
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }"
+      }
+    },
+    {
+      "label": "inc with source marker preserves repository option policy",
+      "passed": true,
+      "observed": {
+        "optionsNull": false,
+        "upsert": true
+      }
+    },
+    {
+      "label": "ordinary replacement",
+      "passed": true,
+      "observed": {
+        "method": "ReplaceOneAsync",
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }",
+        "payload": "{ \"Memo\" : \"plain fixture\", \"__sourceid__\" : \"fixture\" }",
+        "optionsNull": false,
+        "upsert": true,
+        "status": "RanToCompletion"
+      }
+    },
+    {
+      "label": "ordinary replacement uses message ID filter",
+      "passed": true,
+      "observed": {
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }"
+      }
+    },
+    {
+      "label": "ordinary replacement preserves repository option policy",
+      "passed": true,
+      "observed": {
+        "optionsNull": false,
+        "upsert": true
+      }
+    },
+    {
+      "label": "replacement with literal set text",
+      "passed": true,
+      "observed": {
+        "method": "FindOneAndUpdateAsync",
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }",
+        "payload": "{ \"Memo\" : \"literal $set text\", \"__sourceid__\" : \"fixture\" }",
+        "optionsNull": true,
+        "upsert": false,
+        "status": "RanToCompletion"
+      }
+    },
+    {
+      "label": "replacement with literal set text uses message ID filter",
+      "passed": true,
+      "observed": {
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }"
+      }
+    },
+    {
+      "label": "replacement with literal set text preserves repository option policy",
+      "passed": true,
+      "observed": {
+        "optionsNull": true,
+        "upsert": false
+      }
+    },
+    {
+      "label": "replacement with literal unset text",
+      "passed": true,
+      "observed": {
+        "method": "FindOneAndUpdateAsync",
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }",
+        "payload": "{ \"Memo\" : \"literal $unset text\", \"__sourceid__\" : \"fixture\" }",
+        "optionsNull": true,
+        "upsert": false,
+        "status": "RanToCompletion"
+      }
+    },
+    {
+      "label": "replacement with literal unset text uses message ID filter",
+      "passed": true,
+      "observed": {
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }"
+      }
+    },
+    {
+      "label": "replacement with literal unset text preserves repository option policy",
+      "passed": true,
+      "observed": {
+        "optionsNull": true,
+        "upsert": false
+      }
+    },
+    {
+      "label": "literal uppercase SET remains replacement",
+      "passed": true,
+      "observed": {
+        "method": "ReplaceOneAsync",
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }",
+        "payload": "{ \"Memo\" : \"literal $SET text\" }",
+        "optionsNull": false,
+        "upsert": true,
+        "status": "RanToCompletion"
+      }
+    },
+    {
+      "label": "literal uppercase SET remains replacement uses message ID filter",
+      "passed": true,
+      "observed": {
+        "filter": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\") }"
+      }
+    },
+    {
+      "label": "literal uppercase SET remains replacement preserves repository option policy",
+      "passed": true,
+      "observed": {
+        "optionsNull": false,
+        "upsert": true
+      }
+    },
+    {
+      "label": "success path did not require actor logger",
+      "passed": true,
+      "observed": {
+        "actorConstructorInvoked": false,
+        "repositoryConstructorInvoked": false
+      }
+    }
+  ],
+  "scope": "Actual private receiver method and actual repository methods on uninitialized instances; synthetic driver interfaces returning successful zero-match Tasks; no ActorSystem, constructors, entrypoint, config, network or MongoDB"
+}

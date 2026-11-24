@@ -1,0 +1,16 @@
+{
+  "folders": [
+    { "name": "Editable verified components", "path": "projects" },
+    { "name": "Recovered complete module tree", "path": "recovered/SuiteG6" },
+    { "name": "Offline build and recovery tools", "path": "tools" }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/baseline/**": true,
+      "**/references/**": true,
+      "**/tooling/**": true,
+      "**/bin/**": true,
+      "**/obj/**": true
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "fileSha256": "14c712dc0ba06a24dee909e151bd35626ff1901d1fda4f91b92072c48d3bedfd",
+  "mvid": "10f6f9c7-72d6-4b6d-89f8-2d0d739522fc",
+  "assembly": "DigisatServer.Distributed.Akka.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "typeCount": 63,
+  "methodCount": 226,
+  "api": [
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.ConsultaPrecoServerActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.ConsultaPrecoServerActor::.ctor(DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<DigisatServer.Domain.Main.Aggregates.CadastrosAgg.Pessoas.Pessoa>,DigisatServer.Domain.Main.Aggregates.CadastrosAgg.ProdutosServicos.IProdutoServicoEmpresaRepositoryRead)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.ConsultaProdutoPbmServerActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.ConsultaProdutoPbmServerActor::.ctor(DigisatServer.Domain.Main.Aggregates.CadastrosAgg.ProdutosServicos.IProdutoServicoEmpresaRepositoryRead)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.HabilitacaoServerActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.HabilitacaoServerActor::.ctor(DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Habilitacao)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.MensagemServerActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.MensagemServerActor::.ctor(DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Mensagens.Mensagem>,DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Mensagens.Mensagem>,DigisatServer.Infrastructure.Crosscutting.Event.IEventPublisher)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.MicroTerminalServerActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.MicroTerminalServerActor::.ctor(DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<DigisatServer.Domain.Main.Aggregates.CadastrosAgg.Pessoas.Pessoa>,DigisatServer.Domain.Main.Aggregates.CadastrosAgg.Cardapios.ICardapioRepositoryRead,DigisatServer.Domain.Main.Aggregates.CadastrosAgg.ProdutosServicos.IProdutoServicoEmpresaRepositoryRead,DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Restaurantes.ItemMesaConta>,DigisatServer.Domain.Main.Aggregates.MovimentacoesAgg.RegistrosPafEcf.IRegistroPafEcfRepositoryWrite,DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Configuracoes.IConfiguracaoRepositoryRead,DigisatServer.Domain.Main.Aggregates.MovimentacoesAgg.IMovimentacaoRepositoryWrite,DigisatServer.Domain.Main.Aggregates.MovimentacoesAgg.IMovimentacaoRepositoryRead,DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Restaurantes.MesaContaClienteBloqueada>)",
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.MicroTerminalServerActor::Create()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.PedidoIfoodClient",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "Akka.Actor.IActorRef DigisatServer.Distributed.Akka.Main.Actors.PedidoIfoodClient::get_ActorRef()",
+        "System.String DigisatServer.Distributed.Akka.Main.Actors.PedidoIfoodClient::get_EmpresaReferencia()",
+        "System.String DigisatServer.Distributed.Akka.Main.Actors.PedidoIfoodClient::get_Id()",
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.PedidoIfoodClient::.ctor(Akka.Actor.IActorRef,System.String,System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.PedidoIfoodServerActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.PedidoIfoodServerActor::.ctor(DigisatServer.Infrastructure.Crosscutting.Event.IEventPublisher)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.PostoServerActorTestConnection",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.PostoServerActorTestConnection::.ctor(DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<DigisatServer.Domain.Main.Aggregates.CadastrosAgg.Pessoas.Pessoa>)",
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.PostoServerActorTestConnection::Create()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.PostoServerActorWcf",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.PostoServerActorWcf::.ctor(DigisatServer.Domain.Main.Aggregates.CadastrosAgg.PostosCombustiveis.ITanqueRepositoryRead,DigisatServer.Domain.Main.Aggregates.MovimentacoesAgg.RegistrosPafEcf.IRegistroPafEcfRepositoryWrite,DigisatServer.Domain.Main.Aggregates.CadastrosAgg.Pessoas.IPessoaRepositoryRead,DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Abastecimentos.RegistroAbastecimento>,DigisatServer.Domain.Main.Services.AuxiliaresSer.Abastecimentos.IAbastecimentoService,DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryWrite`1<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Abastecimentos.RegistroQuebraContinuidadeEncerrante>,DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Abastecimentos.RegistroQuebraContinuidadeEncerrante>,DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Abastecimentos.SituacaoComunicacaoBico>,DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Abastecimentos.SituacaoComunicacaoBico>,DigisatServer.Infrastructure.Crosscutting.Event.IEventPublisher,DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Configuracoes.IConfiguracaoRepositoryRead)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.RestauranteClient",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "Akka.Actor.IActorRef DigisatServer.Distributed.Akka.Main.Actors.RestauranteClient::get_Actor()",
+        "System.String DigisatServer.Distributed.Akka.Main.Actors.RestauranteClient::get_Id()",
+        "System.String DigisatServer.Distributed.Akka.Main.Actors.RestauranteClient::get_IdEmpresa()",
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.RestauranteClient::.ctor(System.String,System.String,Akka.Actor.IActorRef)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.RestauranteServerActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.RestauranteServerActor::.ctor(DigisatServer.Infrastructure.Crosscutting.Event.IEventPublisher)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.SatServerActorWcf",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.SatServerActorWcf::.ctor(DigisatServer.Infrastructure.Crosscutting.Event.IEventPublisher)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoClient",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "Akka.Actor.IActorRef DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoClient::get_ActorRef()",
+        "System.Boolean DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoClient::get_OfflineAMaisDeUmDia()",
+        "System.DateTime DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoClient::get_DataHoraOffline()",
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoClient::.ctor(Akka.Actor.IActorRef)",
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoClient::set_DataHoraOffline(System.DateTime)",
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoClient::SetarOffline()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoServerActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoServerActor::.ctor(DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao,DigisatServer.Application.Core.Contracts.AuxiliaresModulo.ISincronizacaoAppService,DigisatServer.Infrastructure.Crosscutting.Event.IEventPublisher)",
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.SincronizacaoServerActor::GravarLog(System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.Actors.WcfServerActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Distributed.Akka.Main.Actors.WcfServerActor::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.AkkaFactory",
+      "baseType": "DigisatServer.Infrastructure.Crosscutting.NetFramework.Actor.DServerActorSystemBase`2<System.IServiceProvider,Akka.DI.SimpleInjector.SimpleInjectorDependencyResolver>",
+      "interfaces": [],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<System.Type> DigisatServer.Distributed.Akka.Main.AkkaFactory::get_ActorTypes()",
+        "System.Void DigisatServer.Distributed.Akka.Main.AkkaFactory::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "Microsoft.CodeAnalysis.EmbeddedAttribute",
+      "baseType": "System.Attribute",
+      "interfaces": [],
+      "methods": [
+        "System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "System.Runtime.CompilerServices.RefSafetyRulesAttribute",
+      "baseType": "System.Attribute",
+      "interfaces": [],
+      "methods": [
+        "System.Void System.Runtime.CompilerServices.RefSafetyRulesAttribute::.ctor(System.Int32)"
+      ],
+      "fields": [
+        "System.Int32 System.Runtime.CompilerServices.RefSafetyRulesAttribute::Version"
+      ]
+    }
+  ],
+  "exceptions": [],
+  "resources": [],
+  "references": [
+    "Akka, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null",
+    "Akka.DI.SimpleInjector, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Application.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Distributed.Boot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Domain.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting, Version=1.1.1.1, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting.DFe, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Data.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Bson, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Driver, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Driver.Core, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "SimpleInjector, Version=4.0.12.0, Culture=neutral, PublicKeyToken=984cb50dea722e99",
+    "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System.Reactive.Core, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263",
+    "System.Reactive.Linq, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "source-recovered-build-blocked",
+  "source_sha256": "30506e1e09f4e99f6f8c239cebaa5c2ea4adb71248703e3a56c35ab37c1c8a1c",
+  "original_sha256": "fcd29ec09a65eaa8397ccc6b63f6630c61b6fb99293c4a863162d7382928d9ff",
+  "compiler_sha256": "03a90c0454a9320dc853796f40fb113f5d6bbbb4b0b0eee6ae012551dd056255",
+  "repairs": [],
+  "compiled": false,
+  "blocker": "Obfuscated IL decompiles to illegal compiler-generated identifiers, explicit .ctor pseudo-calls and invalid ref expressions. No semantic rewrite performed.",
+  "compile_log": "logs/compile.log",
+  "production_replacement": false,
+  "original_target_executed": false
+}

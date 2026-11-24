@@ -1,0 +1,1529 @@
+{
+  "compiled": 199,
+  "attempted": 218,
+  "remaining": 19,
+  "classification": "Diagnostic families; syntax errors may cascade. Obfuscation attribution requires original method evidence.",
+  "families": {
+    "invalid decompiler syntax or identifiers": 19
+  },
+  "projects": [
+    {
+      "project": "DigisatServer.Application.Core",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 102,
+      "error_codes": {
+        "CS0426": 73,
+        "CS0165": 10,
+        "CS0121": 2,
+        "CS1061": 2,
+        "CS0266": 2,
+        "CS0234": 1,
+        "CS0748": 1,
+        "CS0103": 11
+      },
+      "examples": [
+        {
+          "code": "CS0426",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Core\\source\\Projections\\DashboardProjection\\PessoaProjection.cs",
+          "line": 23,
+          "column": 21,
+          "message": "The type name '__c_DisplayClass0_0' does not exist in the type 'PessoaProjection'"
+        },
+        {
+          "code": "CS0165",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Core\\source\\_long\\99271cb491841f68.cs",
+          "line": 114,
+          "column": 18,
+          "message": "Use of unassigned local variable '__9__0'"
+        },
+        {
+          "code": "CS0121",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Core\\source\\Projections\\CadastrosProjection\\Mobile\\ProdutoServicoEmpresaMobileProjection.cs",
+          "line": 148,
+          "column": 109,
+          "message": "The call is ambiguous between the following methods or properties: 'DigisatServer.Application.Core.Projections.CadastrosProjection.Mobile.ProdutoEmpresaMobileProjection.ProjectedAsMobileDto(DigisatServer.Domain.Main.Aggregates.CadastrosAgg.ProdutosServicos.ProdutoServicoEmpresa, bool)' and 'DigisatServer.Application.Core.Projections.CadastrosProjection.Mobile.ProdutoServicoEmpresaMobileProjection.ProjectedAsMobileDto(DigisatServer.Domain.Main.Aggregates.CadastrosAgg.ProdutosServicos.ProdutoServicoEmpresa, bool)'"
+        },
+        {
+          "code": "CS1061",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Core\\source\\Projections\\CadastrosProjection\\Mobile\\PessoaMobileProjection.cs",
+          "line": 139,
+          "column": 37,
+          "message": "'object' does not contain a definition for 'Add' and no accessible extension method 'Add' accepting a first argument of type 'object' could be found (are you missing a using directive or an assembly reference?)"
+        },
+        {
+          "code": "CS0266",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Core\\source\\Projections\\CadastrosProjection\\Mobile\\PessoaMobileProjection.cs",
+          "line": 141,
+          "column": 29,
+          "message": "Cannot implicitly convert type 'object' to 'System.Collections.Generic.List<DigisatServer.Domain.Main.Aggregates.AuxiliaresAgg.Autorizacoes.Autorizacao>'. An explicit conversion exists (are you missing a cast?)"
+        },
+        {
+          "code": "CS0234",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Core\\source\\Projections\\CadastrosProjection\\Pessoas\\IMendesProjection.cs",
+          "line": 51,
+          "column": 11,
+          "message": "The type or namespace name 'Criar' does not exist in the namespace 'DigisatServer.Application.Core.Projections.CadastrosProjection.IMendes' (are you missing an assembly reference?)"
+        },
+        {
+          "code": "CS0748",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Core\\source\\Projections\\MovimentacoesProjection\\ImportacoesXmlNFe\\ItemProjection.cs",
+          "line": 178,
+          "column": 154,
+          "message": "Inconsistent lambda parameter usage; parameter types must be all explicit or all implicit"
+        },
+        {
+          "code": "CS0103",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Core\\source\\Projections\\FinanceirosProjection\\MovimentosConta\\ResumoFinanceiroProjection.cs",
+          "line": 303,
+          "column": 24,
+          "message": "The name 'g' does not exist in the current context"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Core\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Application.Main",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 145,
+      "error_codes": {
+        "CS1001": 136,
+        "CS1525": 9
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Main\\source\\AuxiliaresModulo\\Services\\JornadaRelatorioAppService.cs",
+          "line": 189,
+          "column": 28,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Main\\source\\MovimentacoesModulo\\DevolucaoAppService.cs",
+          "line": 78,
+          "column": 74,
+          "message": "Invalid expression term '>'"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Application.Main\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Domain.Core",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 1,
+      "error_codes": {
+        "CS1525": 1
+      },
+      "examples": [
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Core\\source\\EntityBaseSpecification.cs",
+          "line": 60,
+          "column": 118,
+          "message": "Invalid expression term '.'"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Core\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Domain.Main",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 14876,
+      "error_codes": {
+        "CS1001": 2005,
+        "CS1056": 6289,
+        "CS1525": 2282,
+        "CS1002": 1044,
+        "CS0839": 264,
+        "CS1026": 336,
+        "CS1513": 261,
+        "CS1003": 241,
+        "CS8641": 23,
+        "CS1519": 142,
+        "CS8124": 75,
+        "CS1031": 25,
+        "CS8803": 13,
+        "CS1022": 93,
+        "CS0106": 1745,
+        "CS0116": 16,
+        "CS1514": 17,
+        "CS0443": 1,
+        "CS1014": 4
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\Abastecimentos\\RegistroAbastecimento.cs",
+          "line": 278,
+          "column": 35,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1056",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\Abastecimentos\\RegistroAbastecimento.cs",
+          "line": 278,
+          "column": 35,
+          "message": "Unexpected character '\\u0020'"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\Abastecimentos\\RegistroAbastecimento.cs",
+          "line": 284,
+          "column": 53,
+          "message": "Invalid expression term ''"
+        },
+        {
+          "code": "CS1002",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\Abastecimentos\\RelatorioEncerrante.cs",
+          "line": 75,
+          "column": 35,
+          "message": "; expected"
+        },
+        {
+          "code": "CS0839",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\CartasCorrecao\\CartaCorrecao.cs",
+          "line": 100,
+          "column": 45,
+          "message": "Argument missing"
+        },
+        {
+          "code": "CS1026",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 76,
+          "column": 10,
+          "message": ") expected"
+        },
+        {
+          "code": "CS1513",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 76,
+          "column": 42,
+          "message": "} expected"
+        },
+        {
+          "code": "CS1003",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 85,
+          "column": 15,
+          "message": "Syntax error, 'switch' expected"
+        },
+        {
+          "code": "CS8641",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 102,
+          "column": 7,
+          "message": "'else' cannot start a statement."
+        },
+        {
+          "code": "CS1519",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 187,
+          "column": 11,
+          "message": "Invalid token ':' in a member declaration"
+        },
+        {
+          "code": "CS8124",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 191,
+          "column": 90,
+          "message": "Tuple must contain at least two elements."
+        },
+        {
+          "code": "CS1031",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 193,
+          "column": 8,
+          "message": "Type expected"
+        },
+        {
+          "code": "CS8803",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 201,
+          "column": 1,
+          "message": "Top-level statements must precede namespace and type declarations."
+        },
+        {
+          "code": "CS1022",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 217,
+          "column": 36,
+          "message": "Type or namespace definition, or end-of-file expected"
+        },
+        {
+          "code": "CS0106",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\AuxiliaresAgg\\ConfiguracoesServidor\\ConfiguracaoServidorPadrao.cs",
+          "line": 230,
+          "column": 3,
+          "message": "The modifier 'public' is not valid for this item"
+        },
+        {
+          "code": "CS0116",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\CadastrosAgg\\Pessoas\\Carteiras\\Carteira.cs",
+          "line": 395,
+          "column": 44,
+          "message": "A namespace cannot directly contain members such as fields, methods or statements"
+        },
+        {
+          "code": "CS1514",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\CadastrosAgg\\Pessoas\\PessoaSpecifications.cs",
+          "line": 355,
+          "column": 12,
+          "message": "{ expected"
+        },
+        {
+          "code": "CS0443",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\CadastrosAgg\\Usuarios\\UsuarioSpecifications.cs",
+          "line": 104,
+          "column": 133,
+          "message": "Syntax error; value expected"
+        },
+        {
+          "code": "CS1014",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\source\\Aggregates\\MovimentacoesAgg\\PedidosMobile\\PedidoMobile.cs",
+          "line": 2296,
+          "column": 89,
+          "message": "A get or set accessor expected"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Domain.Main\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Crosscutting",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 6329,
+      "error_codes": {
+        "CS1001": 1042,
+        "CS1056": 1158,
+        "CS0839": 144,
+        "CS1525": 2689,
+        "CS1002": 363,
+        "CS1003": 68,
+        "CS1026": 137,
+        "CS1513": 138,
+        "CS1519": 78,
+        "CS8124": 29,
+        "CS1022": 66,
+        "CS8803": 8,
+        "CS0106": 363,
+        "CS1514": 3,
+        "CS0116": 20,
+        "CS8641": 10,
+        "CS0594": 1,
+        "CS1031": 12
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Config\\ConfiguracaoImpressoraNaoFiscal.cs",
+          "line": 260,
+          "column": 45,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1056",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Config\\ConfiguracaoImpressoraNaoFiscal.cs",
+          "line": 260,
+          "column": 45,
+          "message": "Unexpected character '\\u0020'"
+        },
+        {
+          "code": "CS0839",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Model\\Industrias\\CalculoProducao.cs",
+          "line": 85,
+          "column": 60,
+          "message": "Argument missing"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Model\\Industrias\\CalculoProducao.cs",
+          "line": 126,
+          "column": 58,
+          "message": "Invalid expression term ''"
+        },
+        {
+          "code": "CS1002",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Model\\Industrias\\CalculoProducao.cs",
+          "line": 154,
+          "column": 12,
+          "message": "; expected"
+        },
+        {
+          "code": "CS1003",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Model\\Industrias\\CalculoProducao.cs",
+          "line": 186,
+          "column": 34,
+          "message": "Syntax error, ',' expected"
+        },
+        {
+          "code": "CS1026",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Function\\Backup\\BackupDados.cs",
+          "line": 381,
+          "column": 11,
+          "message": ") expected"
+        },
+        {
+          "code": "CS1513",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Function\\Backup\\BackupDados.cs",
+          "line": 381,
+          "column": 17,
+          "message": "} expected"
+        },
+        {
+          "code": "CS1519",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Function\\Backup\\BackupDados.cs",
+          "line": 417,
+          "column": 4,
+          "message": "Invalid token 'finally' in a member declaration"
+        },
+        {
+          "code": "CS8124",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Function\\Backup\\BackupDados.cs",
+          "line": 419,
+          "column": 18,
+          "message": "Tuple must contain at least two elements."
+        },
+        {
+          "code": "CS1022",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Function\\Backup\\BackupDados.cs",
+          "line": 424,
+          "column": 3,
+          "message": "Type or namespace definition, or end-of-file expected"
+        },
+        {
+          "code": "CS8803",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Function\\Backup\\BackupDados.cs",
+          "line": 427,
+          "column": 3,
+          "message": "Top-level statements must precede namespace and type declarations."
+        },
+        {
+          "code": "CS0106",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Function\\Backup\\BackupDados.cs",
+          "line": 428,
+          "column": 3,
+          "message": "The modifier 'private' is not valid for this item"
+        },
+        {
+          "code": "CS1514",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Model\\OrigensPesquisaMovimentacao\\OrigensPesquisaMovimentacao.cs",
+          "line": 126,
+          "column": 12,
+          "message": "{ expected"
+        },
+        {
+          "code": "CS0116",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\MyBigInteger.cs",
+          "line": 2538,
+          "column": 4,
+          "message": "A namespace cannot directly contain members such as fields, methods or statements"
+        },
+        {
+          "code": "CS8641",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\MyBigInteger.cs",
+          "line": 4307,
+          "column": 7,
+          "message": "'else' cannot start a statement."
+        },
+        {
+          "code": "CS0594",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\MyBigInteger.cs",
+          "line": 12206,
+          "column": 97,
+          "message": "Floating-point constant is outside the range of type 'double'"
+        },
+        {
+          "code": "CS1031",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\source\\Service\\ApiShopee\\ImagemShopee.cs",
+          "line": 124,
+          "column": 17,
+          "message": "Type expected"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Crosscutting.Boleto",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 101,
+      "error_codes": {
+        "CS1525": 101
+      },
+      "examples": [
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Boleto\\source\\Banco\\BancoBtg.cs",
+          "line": 798,
+          "column": 15,
+          "message": "Invalid expression term '<'"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Boleto\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 104,
+      "error_codes": {
+        "CS0121": 6,
+        "CS1061": 43,
+        "CS0165": 22,
+        "CS0234": 3,
+        "CS0266": 4,
+        "CS0246": 7,
+        "CS0818": 7,
+        "CS0748": 7,
+        "CS0029": 4,
+        "CS1503": 1
+      },
+      "examples": [
+        {
+          "code": "CS0121",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\Cesna\\Cesna.cs",
+          "line": 17,
+          "column": 29,
+          "message": "The call is ambiguous between the following methods or properties: 'DigisatServer.Infrastructure.Crosscutting.Helper.HelperSwitch.TypeSwitch.Case<T>(System.Action)' and 'DigisatServer.Infrastructure.Crosscutting.Helper.HelperSwitch.TypeSwitch.Case<T>(System.Action<T>)'"
+        },
+        {
+          "code": "CS1061",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\Cesna\\CesnaDeclaracoes.cs",
+          "line": 29,
+          "column": 23,
+          "message": "'Cesna' does not contain a definition for 'FcmOpen' and no accessible extension method 'FcmOpen' accepting a first argument of type 'Cesna' could be found (are you missing a using directive or an assembly reference?)"
+        },
+        {
+          "code": "CS0165",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\Cesna\\CesnaIdCode.cs",
+          "line": 147,
+          "column": 16,
+          "message": "Use of unassigned local variable '__9__0'"
+        },
+        {
+          "code": "CS0234",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\Bico.cs",
+          "line": 543,
+          "column": 7,
+          "message": "The type or namespace name 'Move' does not exist in the namespace 'DigisatServer.Infrastructure.Crosscutting.File' (are you missing an assembly reference?)"
+        },
+        {
+          "code": "CS0266",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\VLTech\\VLTechDefault.cs",
+          "line": 137,
+          "column": 23,
+          "message": "Cannot implicitly convert type 'int' to 'System.IntPtr'. An explicit conversion exists (are you missing a cast?)"
+        },
+        {
+          "code": "CS0246",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\ConcentradorDefault.cs",
+          "line": 112,
+          "column": 9,
+          "message": "The type or namespace name '__f_AnonymousType0<,>' could not be found (are you missing a using directive or an assembly reference?)"
+        },
+        {
+          "code": "CS0818",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\ConcentradorDefault.cs",
+          "line": 113,
+          "column": 8,
+          "message": "Implicitly-typed variables must be initialized"
+        },
+        {
+          "code": "CS0748",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\ConcentradorDefault.cs",
+          "line": 128,
+          "column": 57,
+          "message": "Inconsistent lambda parameter usage; parameter types must be all explicit or all implicit"
+        },
+        {
+          "code": "CS0029",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\Hiro\\HiroDefault.cs",
+          "line": 38,
+          "column": 44,
+          "message": "Cannot implicitly convert type 'Hiro.Classes.Abastecimento' to 'DigisatServer.Infrastructure.Crosscutting.Concentrador.Classes.Abastecimento'"
+        },
+        {
+          "code": "CS1503",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\source\\Classes\\Hiro\\HiroDefault.cs",
+          "line": 380,
+          "column": 57,
+          "message": "Argument 1: cannot convert from 'DigisatServer.Infrastructure.Crosscutting.Concentrador.Classes.Abastecimento' to 'Hiro.Classes.Abastecimento'"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 369,
+      "error_codes": {
+        "CS1001": 47,
+        "CS1056": 106,
+        "CS1525": 56,
+        "CS1026": 13,
+        "CS1002": 29,
+        "CS1513": 9,
+        "CS1003": 11,
+        "CS0839": 9,
+        "CS1519": 4,
+        "CS0116": 19,
+        "CS1022": 23,
+        "CS8124": 7,
+        "CS8803": 1,
+        "CS0106": 32,
+        "CS8641": 2,
+        "CS0595": 1
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\OpenRsa.cs",
+          "line": 224,
+          "column": 42,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1056",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\OpenRsa.cs",
+          "line": 224,
+          "column": 42,
+          "message": "Unexpected character '\\u0020'"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Hash.cs",
+          "line": 508,
+          "column": 176,
+          "message": "Invalid expression term ''"
+        },
+        {
+          "code": "CS1026",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 52,
+          "column": 10,
+          "message": ") expected"
+        },
+        {
+          "code": "CS1002",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 52,
+          "column": 10,
+          "message": "; expected"
+        },
+        {
+          "code": "CS1513",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 52,
+          "column": 16,
+          "message": "} expected"
+        },
+        {
+          "code": "CS1003",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 62,
+          "column": 15,
+          "message": "Syntax error, 'switch' expected"
+        },
+        {
+          "code": "CS0839",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 107,
+          "column": 75,
+          "message": "Argument missing"
+        },
+        {
+          "code": "CS1519",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 144,
+          "column": 4,
+          "message": "Invalid token 'throw' in a member declaration"
+        },
+        {
+          "code": "CS0116",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 264,
+          "column": 4,
+          "message": "A namespace cannot directly contain members such as fields, methods or statements"
+        },
+        {
+          "code": "CS1022",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 264,
+          "column": 11,
+          "message": "Type or namespace definition, or end-of-file expected"
+        },
+        {
+          "code": "CS8124",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 268,
+          "column": 47,
+          "message": "Tuple must contain at least two elements."
+        },
+        {
+          "code": "CS8803",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 287,
+          "column": 3,
+          "message": "Top-level statements must precede namespace and type declarations."
+        },
+        {
+          "code": "CS0106",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 288,
+          "column": 3,
+          "message": "The modifier 'private' is not valid for this item"
+        },
+        {
+          "code": "CS8641",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 365,
+          "column": 7,
+          "message": "'else' cannot start a statement."
+        },
+        {
+          "code": "CS0595",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\source\\Elg3oIqf6ie1lOCypi\\EhwmYUPcqhCAiyacJu.cs",
+          "line": 563,
+          "column": 96,
+          "message": "Invalid real literal."
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Crosscutting.Ecf",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 2400,
+      "error_codes": {
+        "CS1001": 291,
+        "CS1056": 851,
+        "CS1525": 289,
+        "CS0839": 195,
+        "CS1026": 53,
+        "CS1003": 38,
+        "CS1002": 117,
+        "CS1513": 81,
+        "CS1519": 30,
+        "CS8124": 10,
+        "CS1514": 8,
+        "CS0116": 8,
+        "CS1022": 19,
+        "CS8803": 2,
+        "CS0106": 404,
+        "CS8641": 2,
+        "CS1031": 2
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Zpm\\ZpmBase.cs",
+          "line": 1006,
+          "column": 41,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1056",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Bematech\\BematechDefault.cs",
+          "line": 1393,
+          "column": 39,
+          "message": "Unexpected character '\\u0020'"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Daruma\\DarumaDefault.cs",
+          "line": 793,
+          "column": 51,
+          "message": "Invalid expression term ''"
+        },
+        {
+          "code": "CS0839",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Bematech\\BematechDefault.cs",
+          "line": 1478,
+          "column": 97,
+          "message": "Argument missing"
+        },
+        {
+          "code": "CS1026",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Bematech\\BematechDefault.cs",
+          "line": 1844,
+          "column": 102,
+          "message": ") expected"
+        },
+        {
+          "code": "CS1003",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Bematech\\BematechDefault.cs",
+          "line": 1844,
+          "column": 109,
+          "message": "Syntax error, ',' expected"
+        },
+        {
+          "code": "CS1002",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Bematech\\BematechDefault.cs",
+          "line": 1844,
+          "column": 188,
+          "message": "; expected"
+        },
+        {
+          "code": "CS1513",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Bematech\\BematechDefault.cs",
+          "line": 1844,
+          "column": 188,
+          "message": "} expected"
+        },
+        {
+          "code": "CS1519",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Zpm\\ZpmBase.cs",
+          "line": 1719,
+          "column": 11,
+          "message": "Invalid token ':' in a member declaration"
+        },
+        {
+          "code": "CS8124",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Zpm\\ZpmBase.cs",
+          "line": 1720,
+          "column": 43,
+          "message": "Tuple must contain at least two elements."
+        },
+        {
+          "code": "CS1514",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Daruma\\DarumaDefault.cs",
+          "line": 2406,
+          "column": 14,
+          "message": "{ expected"
+        },
+        {
+          "code": "CS0116",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Zpm\\ZpmBase.cs",
+          "line": 2057,
+          "column": 4,
+          "message": "A namespace cannot directly contain members such as fields, methods or statements"
+        },
+        {
+          "code": "CS1022",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Zpm\\ZpmBase.cs",
+          "line": 2057,
+          "column": 11,
+          "message": "Type or namespace definition, or end-of-file expected"
+        },
+        {
+          "code": "CS8803",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Zpm\\ZpmBase.cs",
+          "line": 2062,
+          "column": 3,
+          "message": "Top-level statements must precede namespace and type declarations."
+        },
+        {
+          "code": "CS0106",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Zpm\\ZpmBase.cs",
+          "line": 2063,
+          "column": 3,
+          "message": "The modifier 'private' is not valid for this item"
+        },
+        {
+          "code": "CS8641",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Zpm\\ZpmBase.cs",
+          "line": 2757,
+          "column": 7,
+          "message": "'else' cannot start a statement."
+        },
+        {
+          "code": "CS1031",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\source\\Classes\\Elgin\\ElginDefault.cs",
+          "line": 5702,
+          "column": 46,
+          "message": "Type expected"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Ecf\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 23,
+      "error_codes": {
+        "CS1001": 6,
+        "CS1525": 8,
+        "CS1056": 7,
+        "CS0839": 1,
+        "CS1002": 1
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf\\source\\TransmissaoService.cs",
+          "line": 82,
+          "column": 50,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf\\source\\TransmissaoService.cs",
+          "line": 83,
+          "column": 4,
+          "message": "Invalid expression term '<'"
+        },
+        {
+          "code": "CS1056",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf\\source\\TransmissaoService.cs",
+          "line": 606,
+          "column": 31,
+          "message": "Unexpected character '\\u0020'"
+        },
+        {
+          "code": "CS0839",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf\\source\\TransmissaoServidorService.cs",
+          "line": 58,
+          "column": 39,
+          "message": "Argument missing"
+        },
+        {
+          "code": "CS1002",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf\\source\\TransmissaoServidorService.cs",
+          "line": 59,
+          "column": 11,
+          "message": "; expected"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 668,
+      "error_codes": {
+        "CS1001": 320,
+        "CS1525": 348
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Farmacia\\source\\Pbms\\VidaLink\\ProdutoVendidoVidaLink.cs",
+          "line": 30,
+          "column": 31,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Farmacia\\source\\Pbms\\VidaLink\\ProdutoVendidoVidaLink.cs",
+          "line": 30,
+          "column": 32,
+          "message": "Invalid expression term '>'"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.Farmacia\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 105,
+      "error_codes": {
+        "CS1001": 31,
+        "CS1056": 53,
+        "CS1525": 13,
+        "CS1002": 2,
+        "CS0839": 4,
+        "CS1003": 2
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.NetFramework\\source\\Cryptography\\AESCrypto.cs",
+          "line": 258,
+          "column": 36,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1056",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.NetFramework\\source\\Cryptography\\AESCrypto.cs",
+          "line": 258,
+          "column": 36,
+          "message": "Unexpected character '\\u0020'"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.NetFramework\\source\\Distribuicao\\LancadorAtualizador.cs",
+          "line": 177,
+          "column": 21,
+          "message": "Invalid expression term ''"
+        },
+        {
+          "code": "CS1002",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.NetFramework\\source\\Distribuicao\\ClienteDistribuicao.cs",
+          "line": 290,
+          "column": 97,
+          "message": "; expected"
+        },
+        {
+          "code": "CS0839",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.NetFramework\\source\\Cryptography\\AESCrypto.cs",
+          "line": 311,
+          "column": 75,
+          "message": "Argument missing"
+        },
+        {
+          "code": "CS1003",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.NetFramework\\source\\Cryptography\\AESCrypto.cs",
+          "line": 318,
+          "column": 69,
+          "message": "Syntax error, ',' expected"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.NetFramework\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Crosscutting.RegistroSistema",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 64,
+      "error_codes": {
+        "CS1001": 9,
+        "CS1056": 27,
+        "CS1525": 6,
+        "CS1026": 2,
+        "CS1002": 6,
+        "CS1513": 2,
+        "CS1519": 4,
+        "CS0839": 8
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\source\\Function\\ControleDeHash.cs",
+          "line": 103,
+          "column": 40,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1056",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\source\\Function\\ControleDeHash.cs",
+          "line": 103,
+          "column": 40,
+          "message": "Unexpected character '\\u0020'"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\source\\Models\\AtivacaoBase.cs",
+          "line": 42,
+          "column": 26,
+          "message": "Invalid expression term ''"
+        },
+        {
+          "code": "CS1026",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\source\\Service\\RegistroWindowsService.cs",
+          "line": 73,
+          "column": 10,
+          "message": ") expected"
+        },
+        {
+          "code": "CS1002",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\source\\Models\\AtivacaoBase.cs",
+          "line": 42,
+          "column": 26,
+          "message": "; expected"
+        },
+        {
+          "code": "CS1513",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\source\\Models\\AtivacaoBase.cs",
+          "line": 42,
+          "column": 32,
+          "message": "} expected"
+        },
+        {
+          "code": "CS1519",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\source\\Models\\AtivacaoBase.cs",
+          "line": 47,
+          "column": 4,
+          "message": "Invalid token 'return' in a member declaration"
+        },
+        {
+          "code": "CS0839",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\source\\Models\\ContraAtivacao.cs",
+          "line": 186,
+          "column": 104,
+          "message": "Argument missing"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Data.Core",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 17,
+      "error_codes": {
+        "CS0136": 3,
+        "CS0426": 6,
+        "CS0103": 4,
+        "CS0119": 2,
+        "CS0117": 2
+      },
+      "examples": [
+        {
+          "code": "CS0136",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Data.Core\\source\\RepositorySincronizacao.cs",
+          "line": 56,
+          "column": 38,
+          "message": "A local or parameter named 'cursor2' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter"
+        },
+        {
+          "code": "CS0426",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Data.Core\\source\\RepositoryBaseWrite.cs",
+          "line": 80,
+          "column": 33,
+          "message": "The type name '__c_DisplayClass6_0' does not exist in the type 'RepositoryBaseWrite<TEntity>'"
+        },
+        {
+          "code": "CS0103",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Data.Core\\source\\RepositoryBaseWrite.cs",
+          "line": 84,
+          "column": 179,
+          "message": "The name 'methodof' does not exist in the current context"
+        },
+        {
+          "code": "CS0119",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Data.Core\\source\\RepositoryBaseWrite.cs",
+          "line": 84,
+          "column": 204,
+          "message": "'ObjectId' is a type, which is not valid in the given context"
+        },
+        {
+          "code": "CS0117",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Data.Core\\source\\RepositoryBaseWrite.cs",
+          "line": 84,
+          "column": 402,
+          "message": "'RepositoryBaseWrite<TEntity>' does not contain a definition for '__c_DisplayClass6_0'"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Data.Core\\build\\compile.log"
+    },
+    {
+      "project": "DigisatServer.Infrastructure.Data.Main",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 1280,
+      "error_codes": {
+        "CS1001": 619,
+        "CS1525": 661
+      },
+      "examples": [
+        {
+          "code": "CS1001",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Data.Main\\source\\Repositories\\ReceitaRepositoryRead.cs",
+          "line": 57,
+          "column": 50,
+          "message": "Identifier expected"
+        },
+        {
+          "code": "CS1525",
+          "file": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Data.Main\\source\\Repositories\\RegistroPafEcfRepositoryWrite.cs",
+          "line": 139,
+          "column": 56,
+          "message": "Invalid expression term 'string'"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\DigisatServer.Infrastructure.Data.Main\\build\\compile.log"
+    },
+    {
+      "project": "Modulo.Movimentacoes",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 160,
+      "error_codes": {
+        "CS0136": 10,
+        "CS0165": 11,
+        "CS1656": 2,
+        "CS0426": 121,
+        "CS0103": 8,
+        "CS0266": 2,
+        "CS0120": 1,
+        "CS0023": 1,
+        "CS0117": 4
+      },
+      "examples": [
+        {
+          "code": "CS0136",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\source\\Entradas\\ViewModels\\MovimentacaoEntradaListaViewModel.cs",
+          "line": 298,
+          "column": 28,
+          "message": "A local or parameter named 'obj' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter"
+        },
+        {
+          "code": "CS0165",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\source\\Entradas\\ViewModels\\MovimentacaoEntradaListaViewModel.cs",
+          "line": 309,
+          "column": 44,
+          "message": "Use of unassigned local variable 'obj'"
+        },
+        {
+          "code": "CS1656",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\source\\Entradas\\ViewModels\\NotaFiscalCompra\\CompraFormacaoPrecoVendaViewModel.cs",
+          "line": 360,
+          "column": 6,
+          "message": "Cannot assign to 'formacaoPrecoVendaItem' because it is a 'foreach iteration variable'"
+        },
+        {
+          "code": "CS0426",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\source\\Entradas\\ViewModels\\MovimentacaoEntradaListaViewModel.cs",
+          "line": 717,
+          "column": 38,
+          "message": "The type name '__c_DisplayClass51_0' does not exist in the type 'MovimentacaoEntradaListaViewModel'"
+        },
+        {
+          "code": "CS0103",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\source\\Saidas\\ViewModels\\NotaManual\\NotaManualViewModel.cs",
+          "line": 565,
+          "column": 105,
+          "message": "The name 'item2' does not exist in the current context"
+        },
+        {
+          "code": "CS0266",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\source\\Base\\ViewModels\\FichaMovimentacaoBase.cs",
+          "line": 108,
+          "column": 16,
+          "message": "Cannot implicitly convert type 'DigisatServer.Infrastructure.Crosscutting.Model.NaturezasOperacao.TipoBaseNaturezaOperacao?' to 'int?'. An explicit conversion exists (are you missing a cast?)"
+        },
+        {
+          "code": "CS0120",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\source\\Base\\ViewModels\\InclusaoItemViewModel.cs",
+          "line": 369,
+          "column": 252,
+          "message": "An object reference is required for the non-static field, method, or property 'InclusaoItemViewModel._quantidadeEmHora'"
+        },
+        {
+          "code": "CS0023",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\source\\Base\\ViewModels\\ListaManutencaoPesquisaDetalheBase.cs",
+          "line": 36,
+          "column": 4,
+          "message": "Operator '.' cannot be applied to operand of type 'anonymous method'"
+        },
+        {
+          "code": "CS0117",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\source\\Base\\ViewModels\\ListaMovimentacao.cs",
+          "line": 327,
+          "column": 719,
+          "message": "'ListaMovimentacao<TViewModel, TService, TModulo, TOrigem>' does not contain a definition for '__c_DisplayClass31_1'"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\Modulo.Movimentacoes\\build\\compile.log"
+    },
+    {
+      "project": "Modulo.Pessoas",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 63,
+      "error_codes": {
+        "CS0426": 25,
+        "CS0121": 6,
+        "CS0030": 2,
+        "CS7036": 2,
+        "CS0518": 6,
+        "CS0175": 2,
+        "CS0103": 3,
+        "CS0201": 2,
+        "CS0155": 1,
+        "CS0136": 1,
+        "CS0266": 5,
+        "CS0165": 3,
+        "CS0029": 4,
+        "CS0117": 1
+      },
+      "examples": [
+        {
+          "code": "CS0426",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaConsultarServicoCreditoViewModel.cs",
+          "line": 65,
+          "column": 49,
+          "message": "The type name '__c_DisplayClass5_0' does not exist in the type 'PessoaFichaConsultarServicoCreditoViewModel'"
+        },
+        {
+          "code": "CS0121",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\Cashback\\CashbackViewModel.cs",
+          "line": 56,
+          "column": 40,
+          "message": "The call is ambiguous between the following methods or properties: 'Otus.Infraestrutura.Interfaces.IImpressoraNaoFiscalService.Imprimir(DigisatServer.Infrastructure.Crosscutting.Mvvm.Interfaces.IRelatorio)' and 'Otus.Infraestrutura.Interfaces.IImpressoraNaoFiscalService.Imprimir(DevExpress.XtraReports.IReport)'"
+        },
+        {
+          "code": "CS0030",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\TiposCadastro\\TiposJuridica\\TipoTaxa.cs",
+          "line": 20,
+          "column": 68,
+          "message": "Cannot convert type 'Otus.Modulo.Pessoas.ViewModels.PessoaFichaViewModelDetalhes.TiposCadastro.TiposJuridica.TipoTaxa' to 'int'"
+        },
+        {
+          "code": "CS7036",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\EnderecosEletronico\\EnderecoEletronicoViewModel.cs",
+          "line": 24,
+          "column": 11,
+          "message": "There is no argument given that corresponds to the required parameter 'dto' of 'ViewModelDetalheBase<EnderecoEletronico, EnderecoEletronicoListaManutencaoDetalhe, EnderecoEletronicoFichaManutencaoDetalhe>.ViewModelDetalheBase(List<EnderecoEletronico>)'"
+        },
+        {
+          "code": "CS0518",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\EnderecosEletronico\\EnderecoEletronicoViewModel.cs",
+          "line": 35,
+          "column": 4,
+          "message": "Predefined type 'System.Range' is not defined or imported"
+        },
+        {
+          "code": "CS0175",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\EnderecosEletronico\\EnderecoEletronicoViewModel.cs",
+          "line": 35,
+          "column": 4,
+          "message": "Use of keyword 'base' is not valid in this context"
+        },
+        {
+          "code": "CS0103",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\EnderecosEletronico\\EnderecoEletronicoViewModel.cs",
+          "line": 35,
+          "column": 10,
+          "message": "The name 'ctor' does not exist in the current context"
+        },
+        {
+          "code": "CS0201",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\EnderecosEletronico\\EnderecoEletronicoViewModel.cs",
+          "line": 35,
+          "column": 4,
+          "message": "Only assignment, call, increment, decrement, await, and new object expressions can be used as a statement"
+        },
+        {
+          "code": "CS0155",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\CreditosServicos\\CreditoServicoViewModel.cs",
+          "line": 577,
+          "column": 11,
+          "message": "The type caught or thrown must be derived from System.Exception"
+        },
+        {
+          "code": "CS0136",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\CreditosServicos\\CreditoServicoViewModel.cs",
+          "line": 577,
+          "column": 18,
+          "message": "A local or parameter named 'obj2' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter"
+        },
+        {
+          "code": "CS0266",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\CreditosServicos\\CreditoServicoViewModel.cs",
+          "line": 598,
+          "column": 12,
+          "message": "Cannot implicitly convert type 'object' to 'System.Exception'. An explicit conversion exists (are you missing a cast?)"
+        },
+        {
+          "code": "CS0165",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\Enderecos\\EnderecoFichaManutencaoDetalhe.cs",
+          "line": 46,
+          "column": 19,
+          "message": "Use of unassigned local variable '__9__1'"
+        },
+        {
+          "code": "CS0029",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\TiposCadastro\\TiposJuridica\\DebitoParcelado.cs",
+          "line": 89,
+          "column": 17,
+          "message": "Cannot implicitly convert type 'Otus.Modulo.Pessoas.ViewModels.PessoaFichaViewModelDetalhes.TiposCadastro.TiposJuridica.TipoTaxa' to 'DigisatServer.Infrastructure.Crosscutting.Enum.TipoTaxa'"
+        },
+        {
+          "code": "CS0117",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\source\\ViewModels\\PessoaFichaViewModelDetalhes\\TiposCadastro\\TiposJuridica\\AdministradoraCartaoViewModel.cs",
+          "line": 251,
+          "column": 815,
+          "message": "'AdministradoraCartaoViewModel' does not contain a definition for '__c_DisplayClass36_0'"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\Modulo.Pessoas\\build\\compile.log"
+    },
+    {
+      "project": "Modulo.PontoDeVendas",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 202,
+      "error_codes": {
+        "CS0426": 77,
+        "CS1729": 1,
+        "CS0518": 6,
+        "CS0175": 2,
+        "CS0103": 3,
+        "CS0201": 3,
+        "CS0165": 54,
+        "CS0121": 29,
+        "CS0023": 1,
+        "CS0029": 4,
+        "CS1061": 3,
+        "CS0136": 7,
+        "CS1656": 2,
+        "CS1540": 3,
+        "CS1929": 5,
+        "CS0120": 1,
+        "CS0266": 1
+      },
+      "examples": [
+        {
+          "code": "CS0426",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\PontoDeVendaViewModel.cs",
+          "line": 169,
+          "column": 26,
+          "message": "The type name '__c_DisplayClass16_0' does not exist in the type 'PontoDeVendaViewModel'"
+        },
+        {
+          "code": "CS1729",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\Aggregates\\MedicamentoFarmaciaPopularLocal.cs",
+          "line": 20,
+          "column": 10,
+          "message": "'MedicamentoLocal' does not contain a constructor that takes 0 arguments"
+        },
+        {
+          "code": "CS0518",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\Aggregates\\MedicamentoFarmaciaPopularLocal.cs",
+          "line": 24,
+          "column": 4,
+          "message": "Predefined type 'System.Range' is not defined or imported"
+        },
+        {
+          "code": "CS0175",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\Aggregates\\MedicamentoFarmaciaPopularLocal.cs",
+          "line": 24,
+          "column": 4,
+          "message": "Use of keyword 'base' is not valid in this context"
+        },
+        {
+          "code": "CS0103",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\Aggregates\\MedicamentoFarmaciaPopularLocal.cs",
+          "line": 24,
+          "column": 10,
+          "message": "The name 'ctor' does not exist in the current context"
+        },
+        {
+          "code": "CS0201",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\Aggregates\\MedicamentoFarmaciaPopularLocal.cs",
+          "line": 24,
+          "column": 4,
+          "message": "Only assignment, call, increment, decrement, await, and new object expressions can be used as a statement"
+        },
+        {
+          "code": "CS0165",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\Aggregates\\PreDocumentoFiscal.cs",
+          "line": 1222,
+          "column": 21,
+          "message": "Use of unassigned local variable '__9__6'"
+        },
+        {
+          "code": "CS0121",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\Services\\ShipayService.cs",
+          "line": 172,
+          "column": 8,
+          "message": "The call is ambiguous between the following methods or properties: 'System.Threading.Thread.Thread(System.Threading.ThreadStart)' and 'System.Threading.Thread.Thread(System.Threading.ParameterizedThreadStart)'"
+        },
+        {
+          "code": "CS0023",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\Informacao.cs",
+          "line": 83,
+          "column": 4,
+          "message": "Operator '.' cannot be applied to operand of type 'anonymous method'"
+        },
+        {
+          "code": "CS0029",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\Paineis\\PainelTotalizacaoEmissorBase.cs",
+          "line": 112,
+          "column": 13,
+          "message": "Cannot implicitly convert type 'DigisatServer.Infrastructure.Crosscutting.Enum.TipoTef?' to 'bool?'"
+        },
+        {
+          "code": "CS1061",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\Paineis\\PainelTotalizacaoEmissorBase.cs",
+          "line": 257,
+          "column": 66,
+          "message": "'Endereco' does not contain a definition for 'ToText' and no accessible extension method 'ToText' accepting a first argument of type 'Endereco' could be found (are you missing a using directive or an assembly reference?)"
+        },
+        {
+          "code": "CS0136",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\Paineis\\PainelTotalizacaoEmissorBase.cs",
+          "line": 1052,
+          "column": 48,
+          "message": "A local or parameter named 'enumerator2' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter"
+        },
+        {
+          "code": "CS1656",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\Paineis\\PainelTotalizacaoEmissorBase.cs",
+          "line": 1141,
+          "column": 7,
+          "message": "Cannot assign to 'itensImpressora' because it is a 'foreach iteration variable'"
+        },
+        {
+          "code": "CS1540",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\Paineis\\PainelConsultaAutorizacaoPbm.cs",
+          "line": 218,
+          "column": 17,
+          "message": "Cannot access protected member 'UpdateViewBindableBase.DormirAsync(int, Action<object>)' via a qualifier of type 'UpdateViewBindableBase'; the qualifier must be of type 'PainelConsultaAutorizacaoPbm' (or derived from it)"
+        },
+        {
+          "code": "CS1929",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\Paineis\\PainelImportacaoParcialMesaConta.cs",
+          "line": 72,
+          "column": 16,
+          "message": "'IEnumerable<ItemMesaContaDto>' does not contain a definition for 'Any' and the best extension method overload 'Queryable.Any<MesaContaCreditoDto>(IQueryable<MesaContaCreditoDto>)' requires a receiver of type 'System.Linq.IQueryable<DigisatServer.Application.Main.Dto.Auxiliares.Restaurantes.MesaContaCreditoDto>'"
+        },
+        {
+          "code": "CS0120",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\Paineis\\PainelMesasAbertasPafNfce.cs",
+          "line": 126,
+          "column": 251,
+          "message": "An object reference is required for the non-static field, method, or property 'PainelMesasAbertasPafNfce.PodeImprimir()'"
+        },
+        {
+          "code": "CS0266",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\source\\ViewModels\\Paineis\\PainelPromocaoScanntechMeioPagamento.cs",
+          "line": 176,
+          "column": 51,
+          "message": "Cannot implicitly convert type 'System.Collections.Generic.IEnumerable<Otus.Modulo.PontoDeVendas.Aggregates.Scanntech.FormaPagamento>' to 'System.Collections.Generic.IEnumerable<Otus.Modulo.PontoDeVendas.ViewModels.FormaPagamento>'. An explicit conversion exists (are you missing a cast?)"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\Modulo.PontoDeVendas\\build\\compile.log"
+    },
+    {
+      "project": "Modulo.Relatorios",
+      "family": "invalid decompiler syntax or identifiers",
+      "diagnostic_count": 2689,
+      "error_codes": {
+        "CS0165": 2,
+        "CS0426": 6,
+        "CS0176": 1750,
+        "CS0104": 481,
+        "CS1503": 440,
+        "CS0118": 10
+      },
+      "examples": [
+        {
+          "code": "CS0165",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Relatorios\\source\\ViewModels\\RelatorioListaViewModel.cs",
+          "line": 65,
+          "column": 20,
+          "message": "Use of unassigned local variable '__9__2'"
+        },
+        {
+          "code": "CS0426",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Relatorios\\source\\ViewModels\\RelatorioFichaViewModel.cs",
+          "line": 359,
+          "column": 28,
+          "message": "The type name '__c_DisplayClass55_0' does not exist in the type 'RelatorioFichaViewModel'"
+        },
+        {
+          "code": "CS0176",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Relatorios\\source\\Reports\\Devolucao\\DevolucoesPorPeriodo.cs",
+          "line": 243,
+          "column": 32,
+          "message": "Member 'TextAlignment.TopLeft' cannot be accessed with an instance reference; qualify it with a type name instead"
+        },
+        {
+          "code": "CS0104",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Relatorios\\source\\Reports\\Delivery\\EntregasPorEntregador.cs",
+          "line": 394,
+          "column": 64,
+          "message": "'FontStyle' is an ambiguous reference between 'System.Drawing.FontStyle' and 'System.Windows.FontStyle'"
+        },
+        {
+          "code": "CS1503",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Relatorios\\source\\Reports\\Delivery\\EntregasPorEntregador.cs",
+          "line": 394,
+          "column": 38,
+          "message": "Argument 1: cannot convert from 'string' to 'System.Drawing.FontFamily'"
+        },
+        {
+          "code": "CS0118",
+          "file": "engenharia\\codebase-local\\projects-auto\\Modulo.Relatorios\\source\\Reports\\Movimentacao\\ListaMovimentacoesPorOrigemETipoComImpostos.cs",
+          "line": 175,
+          "column": 4,
+          "message": "'Pessoa' is a namespace but is used like a type"
+        }
+      ],
+      "log": "engenharia\\codebase-local\\projects-auto\\Modulo.Relatorios\\build\\compile.log"
+    }
+  ]
+}

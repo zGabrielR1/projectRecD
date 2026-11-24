@@ -1,0 +1,55 @@
+{
+  "output_sha256": "17df408b6203fea857c129287bea356ae01b7ba26e5bf8105b7641b7a2e760b7",
+  "output_mvid": "d5b28740-50fd-4832-b2b6-f9affb4cbd2b",
+  "source_sha256": "0df0df4a5610446dcf7ae985ebd3b7ff87854bb8531126a8d214a9db07d662cc",
+  "source_modified_since_recovery": false,
+  "compiler_sha256": "03a90c0454a9320dc853796f40fb113f5d6bbbb4b0b0eee6ae012551dd056255",
+  "framework_references": [
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+      "sha256": "11ac114c43ecf6996bef58ba3c99fba3693a4560a84eeadde54d193060dc626c"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.dll",
+      "sha256": "2b3c17c6208a0b4b6beb94e1a066f99ba06cdb2ea919479e99d47e8c6d96dc71"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Core.dll",
+      "sha256": "8b898bed54ae8cc61f9c58cc3eb062724f8357d2bdda338b5d363654ecff333d"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Configuration.dll",
+      "sha256": "5a3d35a9a0db4f075cc073ea8e875ef6b3533e88ec610621ac400efcc7c8e663"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.ServiceProcess.dll",
+      "sha256": "39a46cb60718dae105eaa5bd1010ddd7388abb4e4c4699cdf24709f3aae84df3"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Runtime.Serialization.dll",
+      "sha256": "262dc04303fd554c85b7e911bf4749e714b3bc7619f261449da812ee6b23a653"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Xml.dll",
+      "sha256": "08bb5145db0ec469eb1818ef386bf8f8ae74696f947300ad7299d1b7328314c4"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Data.dll",
+      "sha256": "44ef042fa9fbca676466cf9ddd7541ec00c8887c10672880702cc5a4a8182606"
+    }
+  ],
+  "build_runner_sha256": "73461412f268594acdef02d3fe2b8bb1aea7d0a3887a7529c68fc264b11c17f6",
+  "metadata_helper_sha256": "99f49690521892f617670412da1a49af1a17b68e51f94766569005b879d7f8a1",
+  "metadata_library_sha256": "831dca77470d85cb6ffbea3072daa7a3df5b7c9fcfd9c3f43674a9be99d4bfcf",
+  "original_named_type_surfaces": 66,
+  "all_original_named_type_surfaces_equal": true,
+  "extra_compiler_types": [
+    "Microsoft.CodeAnalysis.EmbeddedAttribute",
+    "System.Runtime.CompilerServices.RefSafetyRulesAttribute"
+  ],
+  "embedded_resources_equal": true,
+  "assembly_references_equal": true,
+  "target_attribute": ".NETFramework,Version=v4.6",
+  "compile_reference_scope": "Installed native Framework 4.8 runtime assemblies, not net46 reference pack",
+  "production_replacement": false
+}

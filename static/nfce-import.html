@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Importar XML fiscal · DigiSat Insight</title>
+  <script src="/static/theme.js"></script>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/static/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/theme.css">
+  <link rel="stylesheet" href="/static/pebble.css"><link rel="stylesheet" href="/static/pebble-layout.css">
+  <link rel="stylesheet" href="/static/pulse.css"><link rel="stylesheet" href="/static/nfce-import.css">
+  <link rel="stylesheet" href="/static/light.css">
+  <script src="/static/pebble.js" defer></script><script src="/static/nfce-import.js" defer></script>
+</head>
+<body class="suite-page nfce-page">
+<a class="skip" href="#nfceMain">Pular para importação</a>
+<main id="nfceMain" class="nfce-shell">
+  <header class="nfce-header"><div><p class="eyebrow">DIGISAT INSIGHT · DOCUMENTOS FISCAIS</p>
+    <h1>Importar XML fiscal</h1><p>NF-e (55) e NFC-e (65) em lote para <strong>Movimentacoes</strong>, com prévia de cada documento.</p></div>
+    <button id="themeToggle" type="button" class="secondary"><span id="themeLabel">Modo claro</span></button>
+  </header>
+  <p class="nfce-scope">Inserção histórica direta. Estoque, caixa, financeiro, numeração e sincronização não são executados. Análise estática, sem validação no SuiteG6.</p>
+  <form id="importForm" class="nfce-inputs panel">
+    <section><h2>1. Base do cliente</h2><p>Use a conexão ativa do Insight. O emitente é identificado pelo CNPJ do XML e os vínculos são conferidos em uma amostra de vendas da própria empresa.</p>
+      <label for="mappingMode">Identificação dos vínculos</label><select id="mappingMode"><option value="automatic">Identificar automaticamente na base conectada</option><option value="manual">Usar perfil JSON revisado (avançado)</option></select>
+      <p id="automaticHint">Não é necessário exportar BSON. A descoberta apenas consulta a base; a gravação acontece depois da prévia e da confirmação.</p>
+      <div id="manualProfile" hidden><label for="profile">Perfil de importação (.json)</label><input id="profile" type="file" accept=".json,application/json">
+      <a href="/static/nfce-profile.example.json" download>Baixar estrutura do perfil</a></div>
+    </section>
+    <section><h2>2. XMLs autorizados</h2><p>Notas autorizadas de saída normal. Compras de fornecedores, devoluções, CT-e, SAT, NFS-e e eventos ainda exigem conversores próprios e são bloqueados. Escolha qualquer pasta pelo seletor. A pasta usual do SuiteG6 é <code>C:\Digisat\SuiteG6\Dfe\</code>.</p>
+      <label for="xmls">Arquivos NF-e / NFC-e (.xml)</label><input id="xmls" type="file" accept=".xml,text/xml,application/xml" multiple>
+      <label for="folders">Ou selecionar uma pasta de XMLs</label><input id="folders" type="file" webkitdirectory multiple>
+      <small id="fileLimits">Sem limite de quantidade ou tamanho total. Envio incremental com progresso e retomada.</small>
+    </section>
+    <div class="nfce-actions"><button id="validate" type="submit">Identificar base e validar XMLs</button><span id="status" role="status">Selecione os XMLs para começar. Nenhum backup é necessário.</span></div>
+  </form>
+  <div class="nfce-job-actions"><label for="jobHistory">Importações locais recentes</label><select id="jobHistory"><option value="">Nova importação</option></select><button id="newJob" class="secondary" type="button">Nova importação</button><button id="resume" class="secondary" type="button" hidden>Retomar processamento</button><button id="pause" class="secondary" type="button" hidden>Pausar após o arquivo atual</button><button id="discard" class="secondary" type="button" hidden>Descartar arquivos locais</button></div>
+  <p id="error" role="alert" hidden></p>
+  <section id="results" class="panel" hidden aria-label="Prévia da importação">
+    <div class="nfce-result-heading"><div><h2>3. Conferir documentos</h2><p id="scope"></p></div><button id="download" class="secondary" type="button" disabled>Exportar documentos revisados</button></div>
+    <div class="nfce-table"><table><thead><tr><th>Arquivo / chave de acesso</th><th>Documento</th><th>Valor</th><th>Validação</th></tr></thead><tbody id="rows"></tbody></table></div>
+    <div class="nfce-actions"><button id="previousPage" class="secondary" type="button">Anterior</button><span id="pageLabel"></span><button id="nextPage" class="secondary" type="button">Próxima</button></div>
+    <details><summary>Ver documento selecionado</summary><pre id="bson">Clique no nome de um arquivo convertido para conferir o BSON. Os documentos são carregados individualmente.</pre></details>
+    <p id="notice" class="nfce-note"></p>
+    <div class="nfce-commit"><h2>4. Inserir no banco</h2><p>A aplicação confere chaves existentes e registra cada escrita no diário do editor. A inserção das duas coleções não é uma transação no MongoDB 3.4.</p>
+      <label for="confirmation">Confirmação do banco de destino</label><input id="confirmation" autocomplete="off" placeholder="IMPORTAR NomeDoBanco">
+      <button id="apply" type="button" disabled>Inserir vendas revisadas</button>
+      <p id="commitStatus" role="status"></p>
+    </div>
+  </section>
+  <section class="nfce-help"><h2>Como o processamento funciona</h2><p>Os arquivos são enviados e processados incrementalmente. O progresso e os documentos ficam guardados localmente até você descartá-los; fechar a página não apaga a importação. A quantidade de arquivos e o tamanho total não têm cota. Cada documento gravado ainda deve respeitar o limite nativo de 16 MiB do MongoDB. A descoberta usa uma amostra da empresa; vínculos ambíguos ou não suportados permanecem bloqueados.</p><a href="/database-editor">Abrir banco de dados e diário de alterações →</a></section>
+</main>
+<dialog id="authDialog" aria-labelledby="authTitle"><form id="authForm"><h2 id="authTitle">Acessar o Insight</h2><label>Usuário<input id="authUser" autocomplete="username" required></label><label>Senha<input id="authPassword" type="password" autocomplete="current-password" required></label><div class="nfce-actions"><button type="submit">Entrar</button><button id="authCancel" type="button" class="secondary">Cancelar</button></div></form></dialog>
+</body></html>

@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigisatServer.Infrastructure.Data.Core", "projects\DigisatServer.Infrastructure.Data.Core\DigisatServer.Infrastructure.Data.Core.csproj", "{EF0B8CDB-60F6-5812-812C-51E498806C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recovered.ReportService", "projects\Recovered.ReportService\Recovered.ReportService.csproj", "{39B70C66-7E91-51A0-9E03-A29FB37DD862}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF0B8CDB-60F6-5812-812C-51E498806C32} = {EF0B8CDB-60F6-5812-812C-51E498806C32}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF0B8CDB-60F6-5812-812C-51E498806C32}.Debug|Any CPU.ActiveCfg = Debug|AnyCPU
+		{EF0B8CDB-60F6-5812-812C-51E498806C32}.Debug|Any CPU.Build.0 = Debug|AnyCPU
+		{39B70C66-7E91-51A0-9E03-A29FB37DD862}.Debug|Any CPU.ActiveCfg = Debug|AnyCPU
+		{39B70C66-7E91-51A0-9E03-A29FB37DD862}.Debug|Any CPU.Build.0 = Debug|AnyCPU
+	EndGlobalSection
+EndGlobal

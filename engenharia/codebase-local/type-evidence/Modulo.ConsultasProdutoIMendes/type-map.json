@@ -1,0 +1,46 @@
+{
+  "scope": "Original assembly type references for remaining IMendes collisions; original DLL was not executed.",
+  "types": {
+    "Grupo": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.RegrasFiscais.Grupo",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.SaneamentoGrades.Grupo"
+    ],
+    "Regra": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.RegrasFiscais.Regra",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.SaneamentoGrades.Regra"
+    ],
+    "Produto": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Base.EnviaRecebeDados.Produto",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Base.SaneamentoGrades.Produto",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.EnviarReceberDados.Alterados.Produto",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.EnviarReceberDados.DescricaoProdutos.Produto"
+    ],
+    "ProdutoDevolvido": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.EnviarReceberDados.HistoricoAcesso.ProdutoDevolvido"
+    ],
+    "HistoricoAcesso": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Base.EnviaRecebeDados.HistoricoAcesso",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.EnviarReceberDados.HistoricoAcesso",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.EnviarReceberDados.HistoricoAcesso.HistoricoAcesso"
+    ],
+    "DescricaoProdutos": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Base.EnviaRecebeDados.DescricaoProdutos",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.EnviarReceberDados.DescricaoProdutos",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.EnviarReceberDados.DescricaoProdutos.DescricaoProdutos"
+    ],
+    "Uf": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Base.SaneamentoGrades.Uf"
+    ],
+    "Perfil": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Base.SaneamentoGrades.Perfil"
+    ],
+    "PisCofins": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Base.Simulador.PisCofins",
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.RegrasFiscais.PisCofins"
+    ],
+    "Ipi": [
+      "DigisatServer.Infrastructure.Crosscutting.Service.IMendes.Classes.Retorno.RegrasFiscais.Ipi"
+    ]
+  },
+  "status": "Incomplete reconstruction. Global aliases are insufficient for request/response classes sharing names."
+}

@@ -1,0 +1,1765 @@
+{
+  "target_executed": false,
+  "tool": "D:\\Downloads\\stuff\\winUtils\\dnSpy-net-win64\\dnSpy.Console.exe",
+  "tool_sha256": "1f1e6ffb55388cea037bba17ba93b48d1886b5a47bf21d94b99064f5c85f44a2",
+  "exit_code": null,
+  "finalized_existing_export": true,
+  "elapsed_seconds_this_step": 3.96,
+  "selected_targets": 218,
+  "recovered_projects": 218,
+  "source_files": 22126,
+  "source_bytes": 139265045,
+  "projects": [
+    {
+      "name": "DigisatServer.Application.Core",
+      "project": "recovered\\SuiteG6\\DigisatServer.Application.Core\\DigisatServer.Application.Core.csproj",
+      "source_files": 1070,
+      "source_bytes": 3444887,
+      "snapshot_references": 2,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Application.Main",
+      "project": "recovered\\SuiteG6\\DigisatServer.Application.Main\\DigisatServer.Application.Main.csproj",
+      "source_files": 324,
+      "source_bytes": 5132395,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Application.Main.Dto",
+      "project": "recovered\\SuiteG6\\DigisatServer.Application.Main.Dto\\DigisatServer.Application.Main.Dto.csproj",
+      "source_files": 1608,
+      "source_bytes": 9564721,
+      "snapshot_references": 1,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Application.ServiceAgents",
+      "project": "recovered\\SuiteG6\\DigisatServer.Application.ServiceAgents\\DigisatServer.Application.ServiceAgents.csproj",
+      "source_files": 106,
+      "source_bytes": 320736,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main",
+      "project": "recovered\\SuiteG6\\DigisatServer.Distributed.Akka.Main\\DigisatServer.Distributed.Akka.Main.csproj",
+      "source_files": 17,
+      "source_bytes": 82553,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Distributed.Boot",
+      "project": "recovered\\SuiteG6\\DigisatServer.Distributed.Boot\\DigisatServer.Distributed.Boot.csproj",
+      "source_files": 3,
+      "source_bytes": 56639,
+      "snapshot_references": 4,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Distributed.Wcf.Core",
+      "project": "recovered\\SuiteG6\\DigisatServer.Distributed.Wcf.Core\\DigisatServer.Distributed.Wcf.Core.csproj",
+      "source_files": 39,
+      "source_bytes": 72283,
+      "snapshot_references": 3,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Distributed.Wcf.Main",
+      "project": "recovered\\SuiteG6\\DigisatServer.Distributed.Wcf.Main\\DigisatServer.Distributed.Wcf.Main.csproj",
+      "source_files": 622,
+      "source_bytes": 1682145,
+      "snapshot_references": 3,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Domain.Core",
+      "project": "recovered\\SuiteG6\\DigisatServer.Domain.Core\\DigisatServer.Domain.Core.csproj",
+      "source_files": 24,
+      "source_bytes": 65730,
+      "snapshot_references": 1,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Domain.Main",
+      "project": "recovered\\SuiteG6\\DigisatServer.Domain.Main\\DigisatServer.Domain.Main.csproj",
+      "source_files": 3629,
+      "source_bytes": 36437500,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting\\DigisatServer.Infrastructure.Crosscutting.csproj",
+      "source_files": 3497,
+      "source_bytes": 18390532,
+      "snapshot_references": 21,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca\\DigisatServer.Infrastructure.Crosscutting.ArquivoBalanca.csproj",
+      "source_files": 55,
+      "source_bytes": 154674,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoContabilida",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ArquivoContabilida\\DigisatServer.Infrastructure.Crosscutting.ArquivoContabilida.csproj",
+      "source_files": 429,
+      "source_bytes": 3679382,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoEtiquetaEle",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ArquivoEtiquetaEle\\DigisatServer.Infrastructure.Crosscutting.ArquivoEtiquetaEle.csproj",
+      "source_files": 8,
+      "source_bytes": 17821,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoOfx",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ArquivoOfx\\DigisatServer.Infrastructure.Crosscutting.ArquivoOfx.csproj",
+      "source_files": 9,
+      "source_bytes": 21139,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalCon",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalCon\\DigisatServer.Infrastructure.Crosscutting.ArquivoTerminalCon.csproj",
+      "source_files": 17,
+      "source_bytes": 31669,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Balanca",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Balanca\\DigisatServer.Infrastructure.Crosscutting.Balanca.csproj",
+      "source_files": 26,
+      "source_bytes": 31843,
+      "snapshot_references": 3,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Boleto",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Boleto\\DigisatServer.Infrastructure.Crosscutting.Boleto.csproj",
+      "source_files": 395,
+      "source_bytes": 2133482,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Concentrador",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Concentrador\\DigisatServer.Infrastructure.Crosscutting.Concentrador.csproj",
+      "source_files": 129,
+      "source_bytes": 315050,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Criptografia",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Criptografia\\DigisatServer.Infrastructure.Crosscutting.Criptografia.csproj",
+      "source_files": 12,
+      "source_bytes": 114002,
+      "snapshot_references": 1,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.DFe",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.DFe\\DigisatServer.Infrastructure.Crosscutting.DFe.csproj",
+      "source_files": 1125,
+      "source_bytes": 3351470,
+      "snapshot_references": 2,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Display",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Display\\DigisatServer.Infrastructure.Crosscutting.Display.csproj",
+      "source_files": 12,
+      "source_bytes": 21511,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Ecf",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Ecf\\DigisatServer.Infrastructure.Crosscutting.Ecf.csproj",
+      "source_files": 141,
+      "source_bytes": 2790534,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.EfdContribuicao",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.EfdContribuicao\\DigisatServer.Infrastructure.Crosscutting.EfdContribuicao.csproj",
+      "source_files": 213,
+      "source_bytes": 607994,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf\\DigisatServer.Infrastructure.Crosscutting.EnvioPafEcf.csproj",
+      "source_files": 54,
+      "source_bytes": 349011,
+      "snapshot_references": 3,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Farmacia",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Farmacia\\DigisatServer.Infrastructure.Crosscutting.Farmacia.csproj",
+      "source_files": 124,
+      "source_bytes": 378870,
+      "snapshot_references": 1,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ImpressoraCheque",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ImpressoraCheque\\DigisatServer.Infrastructure.Crosscutting.ImpressoraCheque.csproj",
+      "source_files": 26,
+      "source_bytes": 31910,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ImpressoraNaoFisca",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.ImpressoraNaoFisca\\DigisatServer.Infrastructure.Crosscutting.ImpressoraNaoFisca.csproj",
+      "source_files": 3,
+      "source_bytes": 31212,
+      "snapshot_references": 4,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Inventario",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Inventario\\DigisatServer.Infrastructure.Crosscutting.Inventario.csproj",
+      "source_files": 20,
+      "source_bytes": 43091,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.LeitorCartao",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.LeitorCartao\\DigisatServer.Infrastructure.Crosscutting.LeitorCartao.csproj",
+      "source_files": 15,
+      "source_bytes": 15456,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.LeitorSerial",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.LeitorSerial\\DigisatServer.Infrastructure.Crosscutting.LeitorSerial.csproj",
+      "source_files": 3,
+      "source_bytes": 7471,
+      "snapshot_references": 3,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalP",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalP\\DigisatServer.Infrastructure.Crosscutting.LivroCaixaDigitalP.csproj",
+      "source_files": 34,
+      "source_bytes": 72473,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Mvvm",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Mvvm\\DigisatServer.Infrastructure.Crosscutting.Mvvm.csproj",
+      "source_files": 137,
+      "source_bytes": 352812,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.NetFramework",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.NetFramework\\DigisatServer.Infrastructure.Crosscutting.NetFramework.csproj",
+      "source_files": 65,
+      "source_bytes": 490888,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Notificacao",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Notificacao\\DigisatServer.Infrastructure.Crosscutting.Notificacao.csproj",
+      "source_files": 25,
+      "source_bytes": 111692,
+      "snapshot_references": 1,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.PixPinPad",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.PixPinPad\\DigisatServer.Infrastructure.Crosscutting.PixPinPad.csproj",
+      "source_files": 15,
+      "source_bytes": 31258,
+      "snapshot_references": 1,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.RegistroSistema",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema\\DigisatServer.Infrastructure.Crosscutting.RegistroSistema.csproj",
+      "source_files": 17,
+      "source_bytes": 124114,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf\\DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf.csproj",
+      "source_files": 102,
+      "source_bytes": 319093,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Report",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Report\\DigisatServer.Infrastructure.Crosscutting.Report.csproj",
+      "source_files": 60,
+      "source_bytes": 2205729,
+      "snapshot_references": 4,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Sintegra",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Sintegra\\DigisatServer.Infrastructure.Crosscutting.Sintegra.csproj",
+      "source_files": 67,
+      "source_bytes": 254711,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.SpedFiscal",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.SpedFiscal\\DigisatServer.Infrastructure.Crosscutting.SpedFiscal.csproj",
+      "source_files": 412,
+      "source_bytes": 1061579,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Style",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Style\\DigisatServer.Infrastructure.Crosscutting.Style.csproj",
+      "source_files": 28,
+      "source_bytes": 49431,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Tef",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Crosscutting.Tef\\DigisatServer.Infrastructure.Crosscutting.Tef.csproj",
+      "source_files": 85,
+      "source_bytes": 282584,
+      "snapshot_references": 1,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Data.Core\\DigisatServer.Infrastructure.Data.Core.csproj",
+      "source_files": 66,
+      "source_bytes": 148211,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Main",
+      "project": "recovered\\SuiteG6\\DigisatServer.Infrastructure.Data.Main\\DigisatServer.Infrastructure.Data.Main.csproj",
+      "source_files": 94,
+      "source_bytes": 1042637,
+      "snapshot_references": 3,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "DigisatServer.Other.SatService.Infraestrutura",
+      "project": "recovered\\SuiteG6\\DigisatServer.Other.SatService.Infraestrutura\\DigisatServer.Other.SatService.Infraestrutura.csproj",
+      "source_files": 9,
+      "source_bytes": 13546,
+      "snapshot_references": 0,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Agendamentos",
+      "project": "recovered\\SuiteG6\\Modulo.Agendamentos\\Modulo.Agendamentos.csproj",
+      "source_files": 17,
+      "source_bytes": 84444,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.AgrupamentoQuartos",
+      "project": "recovered\\SuiteG6\\Modulo.AgrupamentoQuartos\\Modulo.AgrupamentoQuartos.csproj",
+      "source_files": 41,
+      "source_bytes": 108773,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.AlteracoesPrecoAgendadas",
+      "project": "recovered\\SuiteG6\\Modulo.AlteracoesPrecoAgendadas\\Modulo.AlteracoesPrecoAgendadas.csproj",
+      "source_files": 21,
+      "source_bytes": 65397,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.AlteracoesRapidas",
+      "project": "recovered\\SuiteG6\\Modulo.AlteracoesRapidas\\Modulo.AlteracoesRapidas.csproj",
+      "source_files": 99,
+      "source_bytes": 142176,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Animais",
+      "project": "recovered\\SuiteG6\\Modulo.Animais\\Modulo.Animais.csproj",
+      "source_files": 116,
+      "source_bytes": 983798,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.AnunciosMercadoLivre",
+      "project": "recovered\\SuiteG6\\Modulo.AnunciosMercadoLivre\\Modulo.AnunciosMercadoLivre.csproj",
+      "source_files": 46,
+      "source_bytes": 296809,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.AnunciosShopee",
+      "project": "recovered\\SuiteG6\\Modulo.AnunciosShopee\\Modulo.AnunciosShopee.csproj",
+      "source_files": 43,
+      "source_bytes": 260768,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.AtualizacoesCustoMateriaPrima",
+      "project": "recovered\\SuiteG6\\Modulo.AtualizacoesCustoMateriaPrima\\Modulo.AtualizacoesCustoMateriaPrima.csproj",
+      "source_files": 10,
+      "source_bytes": 29312,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.AtualizacoesGrupoComplementos",
+      "project": "recovered\\SuiteG6\\Modulo.AtualizacoesGrupoComplementos\\Modulo.AtualizacoesGrupoComplementos.csproj",
+      "source_files": 9,
+      "source_bytes": 22407,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Autenticacoes",
+      "project": "recovered\\SuiteG6\\Modulo.Autenticacoes\\Modulo.Autenticacoes.csproj",
+      "source_files": 28,
+      "source_bytes": 96053,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.AutoatendimentoBalancas",
+      "project": "recovered\\SuiteG6\\Modulo.AutoatendimentoBalancas\\Modulo.AutoatendimentoBalancas.csproj",
+      "source_files": 18,
+      "source_bytes": 133728,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Balancetes",
+      "project": "recovered\\SuiteG6\\Modulo.Balancetes\\Modulo.Balancetes.csproj",
+      "source_files": 12,
+      "source_bytes": 37573,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Boxes",
+      "project": "recovered\\SuiteG6\\Modulo.Boxes\\Modulo.Boxes.csproj",
+      "source_files": 14,
+      "source_bytes": 14915,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.CalculosPrecoCusto",
+      "project": "recovered\\SuiteG6\\Modulo.CalculosPrecoCusto\\Modulo.CalculosPrecoCusto.csproj",
+      "source_files": 17,
+      "source_bytes": 26040,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.CalculosPrecoVenda",
+      "project": "recovered\\SuiteG6\\Modulo.CalculosPrecoVenda\\Modulo.CalculosPrecoVenda.csproj",
+      "source_files": 22,
+      "source_bytes": 33727,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Cardapios",
+      "project": "recovered\\SuiteG6\\Modulo.Cardapios\\Modulo.Cardapios.csproj",
+      "source_files": 28,
+      "source_bytes": 102961,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.CartasCorrecao",
+      "project": "recovered\\SuiteG6\\Modulo.CartasCorrecao\\Modulo.CartasCorrecao.csproj",
+      "source_files": 15,
+      "source_bytes": 62396,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.CentrosCusto",
+      "project": "recovered\\SuiteG6\\Modulo.CentrosCusto\\Modulo.CentrosCusto.csproj",
+      "source_files": 18,
+      "source_bytes": 37137,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Cheques",
+      "project": "recovered\\SuiteG6\\Modulo.Cheques\\Modulo.Cheques.csproj",
+      "source_files": 18,
+      "source_bytes": 43917,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Comissoes",
+      "project": "recovered\\SuiteG6\\Modulo.Comissoes\\Modulo.Comissoes.csproj",
+      "source_files": 14,
+      "source_bytes": 72704,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Composicoes",
+      "project": "recovered\\SuiteG6\\Modulo.Composicoes\\Modulo.Composicoes.csproj",
+      "source_files": 31,
+      "source_bytes": 104168,
+      "snapshot_references": 14,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ConferenciasEstoque",
+      "project": "recovered\\SuiteG6\\Modulo.ConferenciasEstoque\\Modulo.ConferenciasEstoque.csproj",
+      "source_files": 24,
+      "source_bytes": 149096,
+      "snapshot_references": 13,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Configuracoes",
+      "project": "recovered\\SuiteG6\\Modulo.Configuracoes\\Modulo.Configuracoes.csproj",
+      "source_files": 100,
+      "source_bytes": 941541,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ConfiguracoesDFe",
+      "project": "recovered\\SuiteG6\\Modulo.ConfiguracoesDFe\\Modulo.ConfiguracoesDFe.csproj",
+      "source_files": 12,
+      "source_bytes": 17801,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ConhecimentosTransporteEletronico",
+      "project": "recovered\\SuiteG6\\Modulo.ConhecimentosTransporteEletronico\\Modulo.ConhecimentosTransporteEletronico.csproj",
+      "source_files": 132,
+      "source_bytes": 849039,
+      "snapshot_references": 14,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ConsultasProduto",
+      "project": "recovered\\SuiteG6\\Modulo.ConsultasProduto\\Modulo.ConsultasProduto.csproj",
+      "source_files": 24,
+      "source_bytes": 74797,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ConsultasProdutoIMendes",
+      "project": "recovered\\SuiteG6\\Modulo.ConsultasProdutoIMendes\\Modulo.ConsultasProdutoIMendes.csproj",
+      "source_files": 37,
+      "source_bytes": 155892,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Contas",
+      "project": "recovered\\SuiteG6\\Modulo.Contas\\Modulo.Contas.csproj",
+      "source_files": 54,
+      "source_bytes": 148392,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ControlesEntrega",
+      "project": "recovered\\SuiteG6\\Modulo.ControlesEntrega\\Modulo.ControlesEntrega.csproj",
+      "source_files": 50,
+      "source_bytes": 502302,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Cotacoes",
+      "project": "recovered\\SuiteG6\\Modulo.Cotacoes\\Modulo.Cotacoes.csproj",
+      "source_files": 44,
+      "source_bytes": 303372,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Custos",
+      "project": "recovered\\SuiteG6\\Modulo.Custos\\Modulo.Custos.csproj",
+      "source_files": 26,
+      "source_bytes": 39174,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.CustosIndiretos",
+      "project": "recovered\\SuiteG6\\Modulo.CustosIndiretos\\Modulo.CustosIndiretos.csproj",
+      "source_files": 26,
+      "source_bytes": 42000,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.DeclaracoesExportacao",
+      "project": "recovered\\SuiteG6\\Modulo.DeclaracoesExportacao\\Modulo.DeclaracoesExportacao.csproj",
+      "source_files": 21,
+      "source_bytes": 42372,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Deliveries",
+      "project": "recovered\\SuiteG6\\Modulo.Deliveries\\Modulo.Deliveries.csproj",
+      "source_files": 36,
+      "source_bytes": 232160,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.DemonstrativoResultado",
+      "project": "recovered\\SuiteG6\\Modulo.DemonstrativoResultado\\Modulo.DemonstrativoResultado.csproj",
+      "source_files": 54,
+      "source_bytes": 462808,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Departamentos",
+      "project": "recovered\\SuiteG6\\Modulo.Departamentos\\Modulo.Departamentos.csproj",
+      "source_files": 14,
+      "source_bytes": 15828,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Devolucoes",
+      "project": "recovered\\SuiteG6\\Modulo.Devolucoes\\Modulo.Devolucoes.csproj",
+      "source_files": 37,
+      "source_bytes": 219253,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.EmailsModelo",
+      "project": "recovered\\SuiteG6\\Modulo.EmailsModelo\\Modulo.EmailsModelo.csproj",
+      "source_files": 16,
+      "source_bytes": 24678,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.EncargosSocial",
+      "project": "recovered\\SuiteG6\\Modulo.EncargosSocial\\Modulo.EncargosSocial.csproj",
+      "source_files": 22,
+      "source_bytes": 35720,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.EnderecosServidor",
+      "project": "recovered\\SuiteG6\\Modulo.EnderecosServidor\\Modulo.EnderecosServidor.csproj",
+      "source_files": 11,
+      "source_bytes": 23230,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.EntregasDelivery",
+      "project": "recovered\\SuiteG6\\Modulo.EntregasDelivery\\Modulo.EntregasDelivery.csproj",
+      "source_files": 25,
+      "source_bytes": 146957,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.EstoquesFisicos",
+      "project": "recovered\\SuiteG6\\Modulo.EstoquesFisicos\\Modulo.EstoquesFisicos.csproj",
+      "source_files": 24,
+      "source_bytes": 54977,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Etiquetas",
+      "project": "recovered\\SuiteG6\\Modulo.Etiquetas\\Modulo.Etiquetas.csproj",
+      "source_files": 241,
+      "source_bytes": 546739,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ExportarArquivosContabilidade",
+      "project": "recovered\\SuiteG6\\Modulo.ExportarArquivosContabilidade\\Modulo.ExportarArquivosContabilidade.csproj",
+      "source_files": 21,
+      "source_bytes": 64012,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.FarmaciasPopulares",
+      "project": "recovered\\SuiteG6\\Modulo.FarmaciasPopulares\\Modulo.FarmaciasPopulares.csproj",
+      "source_files": 27,
+      "source_bytes": 84575,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.FasesProducao",
+      "project": "recovered\\SuiteG6\\Modulo.FasesProducao\\Modulo.FasesProducao.csproj",
+      "source_files": 16,
+      "source_bytes": 17964,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.FatoresConversao",
+      "project": "recovered\\SuiteG6\\Modulo.FatoresConversao\\Modulo.FatoresConversao.csproj",
+      "source_files": 20,
+      "source_bytes": 23979,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Feriados",
+      "project": "recovered\\SuiteG6\\Modulo.Feriados\\Modulo.Feriados.csproj",
+      "source_files": 16,
+      "source_bytes": 19939,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.FluxosCaixa",
+      "project": "recovered\\SuiteG6\\Modulo.FluxosCaixa\\Modulo.FluxosCaixa.csproj",
+      "source_files": 9,
+      "source_bytes": 38940,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.FormasPagamento",
+      "project": "recovered\\SuiteG6\\Modulo.FormasPagamento\\Modulo.FormasPagamento.csproj",
+      "source_files": 22,
+      "source_bytes": 41079,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Fretes",
+      "project": "recovered\\SuiteG6\\Modulo.Fretes\\Modulo.Fretes.csproj",
+      "source_files": 16,
+      "source_bytes": 18034,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosBalanca",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosBalanca\\Modulo.GeradorArquivosBalanca.csproj",
+      "source_files": 13,
+      "source_bytes": 64669,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosContabilidade",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosContabilidade\\Modulo.GeradorArquivosContabilidade.csproj",
+      "source_files": 14,
+      "source_bytes": 75544,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional\\Modulo.GeradorArquivosDevolucaoIcmsStSimplesNacional.csproj",
+      "source_files": 17,
+      "source_bytes": 52601,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosEfdContribuicao",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosEfdContribuicao\\Modulo.GeradorArquivosEfdContribuicao.csproj",
+      "source_files": 30,
+      "source_bytes": 65827,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosEtiquetas",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosEtiquetas\\Modulo.GeradorArquivosEtiquetas.csproj",
+      "source_files": 11,
+      "source_bytes": 33282,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosInventario",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosInventario\\Modulo.GeradorArquivosInventario.csproj",
+      "source_files": 19,
+      "source_bytes": 136916,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural\\Modulo.GeradorArquivosLivroCaixaDigitalProdutorRural.csproj",
+      "source_files": 15,
+      "source_bytes": 33639,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosSintegra",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosSintegra\\Modulo.GeradorArquivosSintegra.csproj",
+      "source_files": 30,
+      "source_bytes": 62520,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosSpedFiscal",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosSpedFiscal\\Modulo.GeradorArquivosSpedFiscal.csproj",
+      "source_files": 33,
+      "source_bytes": 97082,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GeradorArquivosTerminalConsulta",
+      "project": "recovered\\SuiteG6\\Modulo.GeradorArquivosTerminalConsulta\\Modulo.GeradorArquivosTerminalConsulta.csproj",
+      "source_files": 13,
+      "source_bytes": 34782,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GerenciadorBoletos",
+      "project": "recovered\\SuiteG6\\Modulo.GerenciadorBoletos\\Modulo.GerenciadorBoletos.csproj",
+      "source_files": 21,
+      "source_bytes": 159407,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GerenciadorSenhas",
+      "project": "recovered\\SuiteG6\\Modulo.GerenciadorSenhas\\Modulo.GerenciadorSenhas.csproj",
+      "source_files": 8,
+      "source_bytes": 14944,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GerenciadorTickets",
+      "project": "recovered\\SuiteG6\\Modulo.GerenciadorTickets\\Modulo.GerenciadorTickets.csproj",
+      "source_files": 26,
+      "source_bytes": 65807,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GerenciamentoRotinasDiaria",
+      "project": "recovered\\SuiteG6\\Modulo.GerenciamentoRotinasDiaria\\Modulo.GerenciamentoRotinasDiaria.csproj",
+      "source_files": 24,
+      "source_bytes": 76296,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoArquivosPafEcf",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoArquivosPafEcf\\Modulo.GestaoArquivosPafEcf.csproj",
+      "source_files": 27,
+      "source_bytes": 57573,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoArquivosSngpc",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoArquivosSngpc\\Modulo.GestaoArquivosSngpc.csproj",
+      "source_files": 12,
+      "source_bytes": 24889,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoBoletos",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoBoletos\\Modulo.GestaoBoletos.csproj",
+      "source_files": 31,
+      "source_bytes": 202649,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoCashback",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoCashback\\Modulo.GestaoCashback.csproj",
+      "source_files": 19,
+      "source_bytes": 51173,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoCodigosIdentificadoresOperacoesTransporte",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoCodigosIdentificadoresOperacoesTransporte\\Modulo.GestaoCodigosIdentificadoresOperacoesTransporte.csproj",
+      "source_files": 15,
+      "source_bytes": 55385,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoContratos",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoContratos\\Modulo.GestaoContratos.csproj",
+      "source_files": 49,
+      "source_bytes": 289956,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoEmpresarial",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoEmpresarial\\Modulo.GestaoEmpresarial.csproj",
+      "source_files": 85,
+      "source_bytes": 265317,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoPainelContabeis",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoPainelContabeis\\Modulo.GestaoPainelContabeis.csproj",
+      "source_files": 18,
+      "source_bytes": 46211,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoSincronizacaoClubeConstrudata",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacaoClubeConstrudata\\Modulo.GestaoSincronizacaoClubeConstrudata.csproj",
+      "source_files": 13,
+      "source_bytes": 29733,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoSincronizacaoRodoilPro",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacaoRodoilPro\\Modulo.GestaoSincronizacaoRodoilPro.csproj",
+      "source_files": 13,
+      "source_bytes": 29089,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoSincronizacoesDominio",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacoesDominio\\Modulo.GestaoSincronizacoesDominio.csproj",
+      "source_files": 12,
+      "source_bytes": 23635,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoSincronizacoesHospedagemFNRH",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacoesHospedagemFNRH\\Modulo.GestaoSincronizacoesHospedagemFNRH.csproj",
+      "source_files": 12,
+      "source_bytes": 23780,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GestaoSincronizacoesScanntech",
+      "project": "recovered\\SuiteG6\\Modulo.GestaoSincronizacoesScanntech\\Modulo.GestaoSincronizacoesScanntech.csproj",
+      "source_files": 12,
+      "source_bytes": 26895,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Grades",
+      "project": "recovered\\SuiteG6\\Modulo.Grades\\Modulo.Grades.csproj",
+      "source_files": 27,
+      "source_bytes": 48910,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Grupos",
+      "project": "recovered\\SuiteG6\\Modulo.Grupos\\Modulo.Grupos.csproj",
+      "source_files": 22,
+      "source_bytes": 26930,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.GruposMenuRapido",
+      "project": "recovered\\SuiteG6\\Modulo.GruposMenuRapido\\Modulo.GruposMenuRapido.csproj",
+      "source_files": 23,
+      "source_bytes": 83366,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Hospedagens",
+      "project": "recovered\\SuiteG6\\Modulo.Hospedagens\\Modulo.Hospedagens.csproj",
+      "source_files": 80,
+      "source_bytes": 1409211,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ImportacoesAbcFarma",
+      "project": "recovered\\SuiteG6\\Modulo.ImportacoesAbcFarma\\Modulo.ImportacoesAbcFarma.csproj",
+      "source_files": 15,
+      "source_bytes": 31103,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ImportacoesGuiaDaFarmacia",
+      "project": "recovered\\SuiteG6\\Modulo.ImportacoesGuiaDaFarmacia\\Modulo.ImportacoesGuiaDaFarmacia.csproj",
+      "source_files": 15,
+      "source_bytes": 31886,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Iniciais",
+      "project": "recovered\\SuiteG6\\Modulo.Iniciais\\Modulo.Iniciais.csproj",
+      "source_files": 25,
+      "source_bytes": 76442,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Internacoes",
+      "project": "recovered\\SuiteG6\\Modulo.Internacoes\\Modulo.Internacoes.csproj",
+      "source_files": 29,
+      "source_bytes": 353692,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Inutilizacoes",
+      "project": "recovered\\SuiteG6\\Modulo.Inutilizacoes\\Modulo.Inutilizacoes.csproj",
+      "source_files": 16,
+      "source_bytes": 34018,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.JornadasTrabalho",
+      "project": "recovered\\SuiteG6\\Modulo.JornadasTrabalho\\Modulo.JornadasTrabalho.csproj",
+      "source_files": 12,
+      "source_bytes": 24001,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Kits",
+      "project": "recovered\\SuiteG6\\Modulo.Kits\\Modulo.Kits.csproj",
+      "source_files": 21,
+      "source_bytes": 32322,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.LivrosMovimentacaoCombustivel",
+      "project": "recovered\\SuiteG6\\Modulo.LivrosMovimentacaoCombustivel\\Modulo.LivrosMovimentacaoCombustivel.csproj",
+      "source_files": 39,
+      "source_bytes": 224874,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Locacoes",
+      "project": "recovered\\SuiteG6\\Modulo.Locacoes\\Modulo.Locacoes.csproj",
+      "source_files": 25,
+      "source_bytes": 249727,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ManifestacoesDestinatario",
+      "project": "recovered\\SuiteG6\\Modulo.ManifestacoesDestinatario\\Modulo.ManifestacoesDestinatario.csproj",
+      "source_files": 9,
+      "source_bytes": 38670,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ManifestacoesDestinatarioCte",
+      "project": "recovered\\SuiteG6\\Modulo.ManifestacoesDestinatarioCte\\Modulo.ManifestacoesDestinatarioCte.csproj",
+      "source_files": 9,
+      "source_bytes": 28812,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ManifestosEletronicoDocumentoFiscal",
+      "project": "recovered\\SuiteG6\\Modulo.ManifestosEletronicoDocumentoFiscal\\Modulo.ManifestosEletronicoDocumentoFiscal.csproj",
+      "source_files": 115,
+      "source_bytes": 629931,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.MaosObra",
+      "project": "recovered\\SuiteG6\\Modulo.MaosObra\\Modulo.MaosObra.csproj",
+      "source_files": 12,
+      "source_bytes": 23247,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.MapaMesas",
+      "project": "recovered\\SuiteG6\\Modulo.MapaMesas\\Modulo.MapaMesas.csproj",
+      "source_files": 13,
+      "source_bytes": 51303,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Marcas",
+      "project": "recovered\\SuiteG6\\Modulo.Marcas\\Modulo.Marcas.csproj",
+      "source_files": 14,
+      "source_bytes": 16535,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Mensagens",
+      "project": "recovered\\SuiteG6\\Modulo.Mensagens\\Modulo.Mensagens.csproj",
+      "source_files": 9,
+      "source_bytes": 41167,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.MensagensWhatsappModelo",
+      "project": "recovered\\SuiteG6\\Modulo.MensagensWhatsappModelo\\Modulo.MensagensWhatsappModelo.csproj",
+      "source_files": 14,
+      "source_bytes": 19384,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Menus",
+      "project": "recovered\\SuiteG6\\Modulo.Menus\\Modulo.Menus.csproj",
+      "source_files": 290,
+      "source_bytes": 734452,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.MenusRapido",
+      "project": "recovered\\SuiteG6\\Modulo.MenusRapido\\Modulo.MenusRapido.csproj",
+      "source_files": 29,
+      "source_bytes": 161605,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.MercadosLivres",
+      "project": "recovered\\SuiteG6\\Modulo.MercadosLivres\\Modulo.MercadosLivres.csproj",
+      "source_files": 12,
+      "source_bytes": 22305,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Metas",
+      "project": "recovered\\SuiteG6\\Modulo.Metas\\Modulo.Metas.csproj",
+      "source_files": 13,
+      "source_bytes": 39135,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Moedas",
+      "project": "recovered\\SuiteG6\\Modulo.Moedas\\Modulo.Moedas.csproj",
+      "source_files": 16,
+      "source_bytes": 18219,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Movimentacoes",
+      "project": "recovered\\SuiteG6\\Modulo.Movimentacoes\\Modulo.Movimentacoes.csproj",
+      "source_files": 459,
+      "source_bytes": 3437322,
+      "snapshot_references": 15,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.MovimentacoesCtrc",
+      "project": "recovered\\SuiteG6\\Modulo.MovimentacoesCtrc\\Modulo.MovimentacoesCtrc.csproj",
+      "source_files": 32,
+      "source_bytes": 161795,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.MovimentosConta",
+      "project": "recovered\\SuiteG6\\Modulo.MovimentosConta\\Modulo.MovimentosConta.csproj",
+      "source_files": 33,
+      "source_bytes": 171911,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.NsCMNsBS",
+      "project": "recovered\\SuiteG6\\Modulo.NsCMNsBS\\Modulo.NsCMNsBS.csproj",
+      "source_files": 24,
+      "source_bytes": 34909,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Objetos",
+      "project": "recovered\\SuiteG6\\Modulo.Objetos\\Modulo.Objetos.csproj",
+      "source_files": 39,
+      "source_bytes": 95445,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ObjetosValor",
+      "project": "recovered\\SuiteG6\\Modulo.ObjetosValor\\Modulo.ObjetosValor.csproj",
+      "source_files": 83,
+      "source_bytes": 159939,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.OpcoesNotificacao",
+      "project": "recovered\\SuiteG6\\Modulo.OpcoesNotificacao\\Modulo.OpcoesNotificacao.csproj",
+      "source_files": 12,
+      "source_bytes": 19782,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.OperacoesFiscais",
+      "project": "recovered\\SuiteG6\\Modulo.OperacoesFiscais\\Modulo.OperacoesFiscais.csproj",
+      "source_files": 16,
+      "source_bytes": 32285,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.OrcamentosIndustria",
+      "project": "recovered\\SuiteG6\\Modulo.OrcamentosIndustria\\Modulo.OrcamentosIndustria.csproj",
+      "source_files": 24,
+      "source_bytes": 107069,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.OrdensDemontagem",
+      "project": "recovered\\SuiteG6\\Modulo.OrdensDemontagem\\Modulo.OrdensDemontagem.csproj",
+      "source_files": 32,
+      "source_bytes": 141564,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.OrdensProducao",
+      "project": "recovered\\SuiteG6\\Modulo.OrdensProducao\\Modulo.OrdensProducao.csproj",
+      "source_files": 48,
+      "source_bytes": 373461,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.OrdensServico",
+      "project": "recovered\\SuiteG6\\Modulo.OrdensServico\\Modulo.OrdensServico.csproj",
+      "source_files": 18,
+      "source_bytes": 279934,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Pagamentos",
+      "project": "recovered\\SuiteG6\\Modulo.Pagamentos\\Modulo.Pagamentos.csproj",
+      "source_files": 22,
+      "source_bytes": 66692,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.PainelPedidos",
+      "project": "recovered\\SuiteG6\\Modulo.PainelPedidos\\Modulo.PainelPedidos.csproj",
+      "source_files": 12,
+      "source_bytes": 38118,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.PedidosEcommerce",
+      "project": "recovered\\SuiteG6\\Modulo.PedidosEcommerce\\Modulo.PedidosEcommerce.csproj",
+      "source_files": 12,
+      "source_bytes": 88622,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.PedidosIfood",
+      "project": "recovered\\SuiteG6\\Modulo.PedidosIfood\\Modulo.PedidosIfood.csproj",
+      "source_files": 25,
+      "source_bytes": 281345,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.PedidosMercadoLivre",
+      "project": "recovered\\SuiteG6\\Modulo.PedidosMercadoLivre\\Modulo.PedidosMercadoLivre.csproj",
+      "source_files": 12,
+      "source_bytes": 94682,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.PedidosShopee",
+      "project": "recovered\\SuiteG6\\Modulo.PedidosShopee\\Modulo.PedidosShopee.csproj",
+      "source_files": 12,
+      "source_bytes": 89277,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Perfis",
+      "project": "recovered\\SuiteG6\\Modulo.Perfis\\Modulo.Perfis.csproj",
+      "source_files": 24,
+      "source_bytes": 50272,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Pessoas",
+      "project": "recovered\\SuiteG6\\Modulo.Pessoas\\Modulo.Pessoas.csproj",
+      "source_files": 332,
+      "source_bytes": 1378112,
+      "snapshot_references": 13,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.PlanosConta",
+      "project": "recovered\\SuiteG6\\Modulo.PlanosConta\\Modulo.PlanosConta.csproj",
+      "source_files": 19,
+      "source_bytes": 44668,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.PontoDeVendas",
+      "project": "recovered\\SuiteG6\\Modulo.PontoDeVendas\\Modulo.PontoDeVendas.csproj",
+      "source_files": 591,
+      "source_bytes": 3269339,
+      "snapshot_references": 18,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ProdutosServicos",
+      "project": "recovered\\SuiteG6\\Modulo.ProdutosServicos\\Modulo.ProdutosServicos.csproj",
+      "source_files": 369,
+      "source_bytes": 1360084,
+      "snapshot_references": 19,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ProgramacoesIndustria",
+      "project": "recovered\\SuiteG6\\Modulo.ProgramacoesIndustria\\Modulo.ProgramacoesIndustria.csproj",
+      "source_files": 20,
+      "source_bytes": 96577,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Promocoes",
+      "project": "recovered\\SuiteG6\\Modulo.Promocoes\\Modulo.Promocoes.csproj",
+      "source_files": 25,
+      "source_bytes": 48342,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.PromocoesScanntech",
+      "project": "recovered\\SuiteG6\\Modulo.PromocoesScanntech\\Modulo.PromocoesScanntech.csproj",
+      "source_files": 35,
+      "source_bytes": 90910,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.PropriedadesRurais",
+      "project": "recovered\\SuiteG6\\Modulo.PropriedadesRurais\\Modulo.PropriedadesRurais.csproj",
+      "source_files": 25,
+      "source_bytes": 52218,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Quitacoes",
+      "project": "recovered\\SuiteG6\\Modulo.Quitacoes\\Modulo.Quitacoes.csproj",
+      "source_files": 19,
+      "source_bytes": 69792,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Recebimentos",
+      "project": "recovered\\SuiteG6\\Modulo.Recebimentos\\Modulo.Recebimentos.csproj",
+      "source_files": 22,
+      "source_bytes": 118748,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RelacionamentoClientes",
+      "project": "recovered\\SuiteG6\\Modulo.RelacionamentoClientes\\Modulo.RelacionamentoClientes.csproj",
+      "source_files": 93,
+      "source_bytes": 388302,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RelacoesCfopDevolucao",
+      "project": "recovered\\SuiteG6\\Modulo.RelacoesCfopDevolucao\\Modulo.RelacoesCfopDevolucao.csproj",
+      "source_files": 16,
+      "source_bytes": 23353,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RelacoesDadosFornecedorEntrada",
+      "project": "recovered\\SuiteG6\\Modulo.RelacoesDadosFornecedorEntrada\\Modulo.RelacoesDadosFornecedorEntrada.csproj",
+      "source_files": 16,
+      "source_bytes": 29299,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RelacoesEspecieConta",
+      "project": "recovered\\SuiteG6\\Modulo.RelacoesEspecieConta\\Modulo.RelacoesEspecieConta.csproj",
+      "source_files": 16,
+      "source_bytes": 35457,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RelacoesPisCofinsEntrada",
+      "project": "recovered\\SuiteG6\\Modulo.RelacoesPisCofinsEntrada\\Modulo.RelacoesPisCofinsEntrada.csproj",
+      "source_files": 13,
+      "source_bytes": 28808,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RelacoesProdutoFornecedor",
+      "project": "recovered\\SuiteG6\\Modulo.RelacoesProdutoFornecedor\\Modulo.RelacoesProdutoFornecedor.csproj",
+      "source_files": 19,
+      "source_bytes": 41574,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RelacoesVendedorCliente",
+      "project": "recovered\\SuiteG6\\Modulo.RelacoesVendedorCliente\\Modulo.RelacoesVendedorCliente.csproj",
+      "source_files": 14,
+      "source_bytes": 24241,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Relatorios",
+      "project": "recovered\\SuiteG6\\Modulo.Relatorios\\Modulo.Relatorios.csproj",
+      "source_files": 424,
+      "source_bytes": 12865047,
+      "snapshot_references": 16,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RenegociacaoECobrancas",
+      "project": "recovered\\SuiteG6\\Modulo.RenegociacaoECobrancas\\Modulo.RenegociacaoECobrancas.csproj",
+      "source_files": 21,
+      "source_bytes": 106004,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RenegociacaoPagamentos",
+      "project": "recovered\\SuiteG6\\Modulo.RenegociacaoPagamentos\\Modulo.RenegociacaoPagamentos.csproj",
+      "source_files": 14,
+      "source_bytes": 49906,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Restaurantes",
+      "project": "recovered\\SuiteG6\\Modulo.Restaurantes\\Modulo.Restaurantes.csproj",
+      "source_files": 37,
+      "source_bytes": 329553,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RomaneiosCarga",
+      "project": "recovered\\SuiteG6\\Modulo.RomaneiosCarga\\Modulo.RomaneiosCarga.csproj",
+      "source_files": 25,
+      "source_bytes": 167442,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.RomaneiosConhecimentoTransporteEletronico",
+      "project": "recovered\\SuiteG6\\Modulo.RomaneiosConhecimentoTransporteEletronico\\Modulo.RomaneiosConhecimentoTransporteEletronico.csproj",
+      "source_files": 22,
+      "source_bytes": 148813,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.SequenciasMovimentacoes",
+      "project": "recovered\\SuiteG6\\Modulo.SequenciasMovimentacoes\\Modulo.SequenciasMovimentacoes.csproj",
+      "source_files": 16,
+      "source_bytes": 28897,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Setores",
+      "project": "recovered\\SuiteG6\\Modulo.Setores\\Modulo.Setores.csproj",
+      "source_files": 14,
+      "source_bytes": 15144,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Shopee",
+      "project": "recovered\\SuiteG6\\Modulo.Shopee\\Modulo.Shopee.csproj",
+      "source_files": 12,
+      "source_bytes": 22737,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.SimuladorCustos",
+      "project": "recovered\\SuiteG6\\Modulo.SimuladorCustos\\Modulo.SimuladorCustos.csproj",
+      "source_files": 9,
+      "source_bytes": 100532,
+      "snapshot_references": 10,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.SincronizacoesEcommerce",
+      "project": "recovered\\SuiteG6\\Modulo.SincronizacoesEcommerce\\Modulo.SincronizacoesEcommerce.csproj",
+      "source_files": 45,
+      "source_bytes": 143602,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Sngpcs",
+      "project": "recovered\\SuiteG6\\Modulo.Sngpcs\\Modulo.Sngpcs.csproj",
+      "source_files": 30,
+      "source_bytes": 122141,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.SubstituicoesMateriaPrima",
+      "project": "recovered\\SuiteG6\\Modulo.SubstituicoesMateriaPrima\\Modulo.SubstituicoesMateriaPrima.csproj",
+      "source_files": 10,
+      "source_bytes": 42809,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.SugestaoCompras",
+      "project": "recovered\\SuiteG6\\Modulo.SugestaoCompras\\Modulo.SugestaoCompras.csproj",
+      "source_files": 26,
+      "source_bytes": 124600,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TabelasPreco",
+      "project": "recovered\\SuiteG6\\Modulo.TabelasPreco\\Modulo.TabelasPreco.csproj",
+      "source_files": 27,
+      "source_bytes": 96605,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TanquesBombasBicos",
+      "project": "recovered\\SuiteG6\\Modulo.TanquesBombasBicos\\Modulo.TanquesBombasBicos.csproj",
+      "source_files": 40,
+      "source_bytes": 95814,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TiposPersonalizado",
+      "project": "recovered\\SuiteG6\\Modulo.TiposPersonalizado\\Modulo.TiposPersonalizado.csproj",
+      "source_files": 17,
+      "source_bytes": 20379,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TiposSegmentacao",
+      "project": "recovered\\SuiteG6\\Modulo.TiposSegmentacao\\Modulo.TiposSegmentacao.csproj",
+      "source_files": 30,
+      "source_bytes": 78641,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TransacoesPbm",
+      "project": "recovered\\SuiteG6\\Modulo.TransacoesPbm\\Modulo.TransacoesPbm.csproj",
+      "source_files": 12,
+      "source_bytes": 24050,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Transferencias",
+      "project": "recovered\\SuiteG6\\Modulo.Transferencias\\Modulo.Transferencias.csproj",
+      "source_files": 14,
+      "source_bytes": 31349,
+      "snapshot_references": 6,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TributacoesEstaduais",
+      "project": "recovered\\SuiteG6\\Modulo.TributacoesEstaduais\\Modulo.TributacoesEstaduais.csproj",
+      "source_files": 83,
+      "source_bytes": 231786,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TributacoesFederais",
+      "project": "recovered\\SuiteG6\\Modulo.TributacoesFederais\\Modulo.TributacoesFederais.csproj",
+      "source_files": 81,
+      "source_bytes": 151685,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TributacoesIbsCbs",
+      "project": "recovered\\SuiteG6\\Modulo.TributacoesIbsCbs\\Modulo.TributacoesIbsCbs.csproj",
+      "source_files": 57,
+      "source_bytes": 226957,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TributacoesIs",
+      "project": "recovered\\SuiteG6\\Modulo.TributacoesIs\\Modulo.TributacoesIs.csproj",
+      "source_files": 36,
+      "source_bytes": 96875,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.TributacoesMunicipais",
+      "project": "recovered\\SuiteG6\\Modulo.TributacoesMunicipais\\Modulo.TributacoesMunicipais.csproj",
+      "source_files": 22,
+      "source_bytes": 64918,
+      "snapshot_references": 7,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Turnos",
+      "project": "recovered\\SuiteG6\\Modulo.Turnos\\Modulo.Turnos.csproj",
+      "source_files": 59,
+      "source_bytes": 224271,
+      "snapshot_references": 9,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.Usuarios",
+      "project": "recovered\\SuiteG6\\Modulo.Usuarios\\Modulo.Usuarios.csproj",
+      "source_files": 30,
+      "source_bytes": 92155,
+      "snapshot_references": 12,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.ValesPresente",
+      "project": "recovered\\SuiteG6\\Modulo.ValesPresente\\Modulo.ValesPresente.csproj",
+      "source_files": 24,
+      "source_bytes": 104993,
+      "snapshot_references": 11,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "Modulo.VisualizarAnexos",
+      "project": "recovered\\SuiteG6\\Modulo.VisualizarAnexos\\Modulo.VisualizarAnexos.csproj",
+      "source_files": 11,
+      "source_bytes": 14463,
+      "snapshot_references": 5,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "ServidorG6",
+      "project": "recovered\\SuiteG6\\ServidorG6\\ServidorG6.csproj",
+      "source_files": 4,
+      "source_bytes": 6902,
+      "snapshot_references": 3,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "SincronizadorG6",
+      "project": "recovered\\SuiteG6\\SincronizadorG6\\SincronizadorG6.csproj",
+      "source_files": 6,
+      "source_bytes": 19754,
+      "snapshot_references": 8,
+      "status": "decompiled-not-build-verified"
+    },
+    {
+      "name": "SistemaG6",
+      "project": "recovered\\SuiteG6\\SistemaG6\\SistemaG6.csproj",
+      "source_files": 4,
+      "source_bytes": 6801,
+      "snapshot_references": 2,
+      "status": "decompiled-not-build-verified"
+    }
+  ],
+  "limitations": [
+    "Decompiler reconstruction, not original project structure or sources.",
+    "Project export is not proof of successful compilation or behavioral equivalence.",
+    "BAML retained as resources; original XAML/designer sources are not recovered.",
+    "Duplicate names select recorded origin precedence; distinct variants remain listed.",
+    "Resources are exported code artifacts; no customer/config directories copied."
+  ]
+}

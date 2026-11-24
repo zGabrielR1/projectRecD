@@ -1,0 +1,97 @@
+{
+  "runtime": "4.0.30319.42000",
+  "assertions": 16,
+  "checks": [
+    {
+      "label": "Full thirds allocation DigisatServer.Application.Main",
+      "passed": true
+    },
+    {
+      "label": "Single thirds allocation DigisatServer.Application.Main",
+      "passed": true
+    },
+    {
+      "label": "Negative payment DigisatServer.Application.Main",
+      "passed": true
+    },
+    {
+      "label": "Empty rates DigisatServer.Application.Main",
+      "passed": true
+    },
+    {
+      "label": "Three actual callbacks DigisatServer.Application.Main",
+      "passed": true
+    },
+    {
+      "label": "Original mutation retained <ObterTotalMovimentacoesPorMesPorVendedor>b__4 DigisatServer.Application.Main",
+      "passed": true
+    },
+    {
+      "label": "Original mutation retained <TotalMovimentadoPorVendedor>b__4 DigisatServer.Application.Main",
+      "passed": true
+    },
+    {
+      "label": "Original mutation retained <ObterTotalMovimentacoesPorMesPorTipo>b__4 DigisatServer.Application.Main",
+      "passed": true
+    },
+    {
+      "label": "Full thirds allocation Recovered.ReportService",
+      "passed": true
+    },
+    {
+      "label": "Single thirds allocation Recovered.ReportService",
+      "passed": true
+    },
+    {
+      "label": "Negative payment Recovered.ReportService",
+      "passed": true
+    },
+    {
+      "label": "Empty rates Recovered.ReportService",
+      "passed": true
+    },
+    {
+      "label": "Three actual callbacks Recovered.ReportService",
+      "passed": true
+    },
+    {
+      "label": "Original mutation retained <ObterTotalMovimentacoesPorMesPorVendedor>b__10 Recovered.ReportService",
+      "passed": true
+    },
+    {
+      "label": "Original mutation retained <TotalMovimentadoPorVendedor>b__10 Recovered.ReportService",
+      "passed": true
+    },
+    {
+      "label": "Original mutation retained <ObterTotalMovimentacoesPorMesPorTipo>b__5 Recovered.ReportService",
+      "passed": true
+    }
+  ],
+  "original": {
+    "assembly": "DigisatServer.Application.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "mvid": "b30a6fa6-e83d-4926-b4d3-d4d1fc4370e9",
+    "full": [
+      3.33,
+      3.33,
+      3.34
+    ],
+    "selected": [
+      3.33
+    ],
+    "callbackCount": 3
+  },
+  "rebuilt": {
+    "assembly": "Recovered.ReportService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "mvid": "446128fe-06d5-4dd6-abda-6aab90e44db6",
+    "full": [
+      3.33,
+      3.33,
+      3.34
+    ],
+    "selected": [
+      3.33
+    ],
+    "callbackCount": 3
+  },
+  "scope": "Actual original and source-compiled helpers/callbacks; synthetic DTOs, no report service constructor, repositories, configuration, database or application entrypoint"
+}

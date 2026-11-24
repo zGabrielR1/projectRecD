@@ -1,0 +1,101 @@
+{
+  "artifact": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\Recovered.ReportService\\baseline\\DigisatServer.Application.Main.dll",
+  "origin_artifact_path": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Application.Main.dll",
+  "artifact_sha256": "f27cb00fdbee2851ad9119a32a435943c58c072ca102fe88ef0e3f001938cd9d",
+  "source_raw_sha256": "8f96a23cae6a9f914829b532bcc4a54f425d3093c294d264bcbbfe9d99d1db95",
+  "source_sha256": "8263e6001295a01360f6b08f491285fe07bb6ab3696913e5e7d2c508e162e085",
+  "helper_sha256": "1214477b0b316e8e726510f091dc6d3919f358ce1121925c1af8028a428b737b",
+  "output_sha256": "5a87427e554764943d114dd80370107734ff605ec99145dafd2cbc89d1014aec",
+  "recovery_source_sha256": "8263e6001295a01360f6b08f491285fe07bb6ab3696913e5e7d2c508e162e085",
+  "source_changed_since_recovery": false,
+  "compiler": "C:\\Program Files\\dotnet\\sdk\\11.0.100-rc.2.26504.105\\Roslyn\\bincore\\csc.dll",
+  "compiler_sha256": "03a90c0454a9320dc853796f40fb113f5d6bbbb4b0b0eee6ae012551dd056255",
+  "decompiler_helper_sha256": "290381906683c7ac906e86bb889e35d9e813e8046ebe8ca7b3cb4f3bf2b2548d",
+  "decompiler_library_sha256": "d174072a16aa758a39d160f70ce924103898fae2b8506b48f70d6909e25a1fd0",
+  "framework_references": "Installed Windows .NET Framework 4.8 runtime assemblies",
+  "source_target_framework": ".NETFramework,Version=v4.6",
+  "build_target_framework": ".NETFramework,Version=v4.8",
+  "renamed_generated_identifiers": 553,
+  "lambda_typing_repairs": {
+    "(recoveredTransparent1, IItemDocumentoFiscalProduto item)": "(recoveredTransparent1, item)",
+    "(recoveredTransparent3, IItemEstoque itemEstoque)": "(recoveredTransparent3, itemEstoque)",
+    "(redeTipo, IEnumerable<IInformacaoTransacao> tefs)": "(redeTipo, tefs)",
+    "(redeTipo, IEnumerable<Parcela> parcelas)": "(redeTipo, parcelas)",
+    "(ObjectId objetoId, itens)": "(objetoId, itens)"
+  },
+  "source_compilation": true,
+  "reconstruction_mode": "compile local source; recovery uses syntax-only repairs",
+  "cil_rewriting": false,
+  "selected_checks_equal_to_original": true,
+  "compile_overwrites_source": false,
+  "source_linked_data_core": {
+    "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects\\DigisatServer.Infrastructure.Data.Core\\bin\\DigisatServer.Infrastructure.Data.Core.dll",
+    "sha256": "17df408b6203fea857c129287bea356ae01b7ba26e5bf8105b7641b7a2e760b7",
+    "scope": "Compile-time linkage; selected report helper checks do not exercise Data.Core behavior."
+  },
+  "references": [
+    {
+      "name": "DevExpress.Mvvm.v15.2.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DevExpress.Mvvm.v15.2.dll",
+      "sha256": "d61da962b1736470bf4d0a937c686abc854bd8ad4290499ab9f2607deed9cfed"
+    },
+    {
+      "name": "DigisatServer.Application.Core.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Application.Core.dll",
+      "sha256": "e15ddc46b2820b87bbc8668083f9ecd1e0738a269cb4c6b07c9cd3add63433f0"
+    },
+    {
+      "name": "DigisatServer.Application.Main.Dto.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Application.Main.Dto.dll",
+      "sha256": "aaa1a59a0cbdd0480e6ef74a4e60b0daad208f0b068572ba889218d91275eb34"
+    },
+    {
+      "name": "DigisatServer.Domain.Core.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Domain.Core.dll",
+      "sha256": "fcd29ec09a65eaa8397ccc6b63f6630c61b6fb99293c4a863162d7382928d9ff"
+    },
+    {
+      "name": "DigisatServer.Domain.Main.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Domain.Main.dll",
+      "sha256": "785489e546e4f6d47c671a330f3f2c26400cd3fc809b2454941d9513da4daea5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Crosscutting.dll",
+      "sha256": "a75faa4e67bfb3858ee5f709751079d52e8216faddbcf914d0a4bcb2649f2dd4"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.Concentrador.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Crosscutting.Concentrador.dll",
+      "sha256": "a15e00dbbdf194849b5d8d419dbe8b6f1bf8345db3e7a18d69ce05acc2bc072e"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Data.Core.dll",
+      "sha256": "51fb587ae4a006c95cf4bd7b36ba9fb65951f6893fbdadc76fdcb04f849c983b"
+    },
+    {
+      "name": "MongoDB.Bson.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\MongoDB.Bson.dll",
+      "sha256": "77fc1b24bc91c2a621fff0f0032e73516f4f4484d22b5d6b9926f623d76ce975"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.ArquivoContabilidade.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Crosscutting.ArquivoContabilidade.dll",
+      "sha256": "b03e1df6b2003b1d7c11940c5450734a5acc92a3a9d963e90ec8e30072ebd9a5"
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf.dll",
+      "source": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Crosscutting.RegistrosPafEcf.dll",
+      "sha256": "8cb622bec66d145337f961820245a35a1864fa256c99ff077a4f2c4b028a880b"
+    }
+  ],
+  "compared_declared_methods": 74,
+  "behavior_assertions": 16,
+  "behavior_results_sha256": "9c6bf7598e3ae6e10b4cd34dc5fcdb00ac92f0635ab5186a526926d93446ce70",
+  "scope": "Complete selected current service class and Parcial, not complete Application.Main assembly.",
+  "limitations": [
+    "Original DLLs still provide domain, DTOs and interfaces.",
+    "No production integration or full method equivalence claim."
+  ]
+}

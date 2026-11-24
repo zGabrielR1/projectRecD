@@ -1,0 +1,43 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+    <Platform Condition="'$(Platform)' == ''">AnyCPU</Platform>
+    <ProjectGuid>{39B70C66-7E91-51A0-9E03-A29FB37DD862}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Recovered.ReportService</RootNamespace>
+    <AssemblyName>Recovered.ReportService</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <Deterministic>true</Deterministic>
+    <NoWarn>$(NoWarn);0436</NoWarn>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <UseRebuiltDataCore Condition="'$(UseRebuiltDataCore)' == ''">true</UseRebuiltDataCore>
+    <SourceLinkArgument Condition="'$(UseRebuiltDataCore)' == 'true'">--source-linked</SourceLinkArgument>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="MovimentacaoSaidaRelatorioAppService.cs" />
+    <Compile Include="Parcial.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Reference Include="System" /><Reference Include="System.Core" /><Reference Include="System.Data" />
+    <Reference Include="System.Xml" /><Reference Include="System.Runtime.Serialization" />
+    <Reference Include="DevExpress.Mvvm.v15.2"><HintPath>references\DevExpress.Mvvm.v15.2.dll</HintPath></Reference>
+    <Reference Include="DigisatServer.Application.Core"><HintPath>references\DigisatServer.Application.Core.dll</HintPath></Reference>
+    <Reference Include="DigisatServer.Application.Main.Dto"><HintPath>references\DigisatServer.Application.Main.Dto.dll</HintPath></Reference>
+    <Reference Include="DigisatServer.Domain.Core"><HintPath>references\DigisatServer.Domain.Core.dll</HintPath></Reference>
+    <Reference Include="DigisatServer.Domain.Main"><HintPath>references\DigisatServer.Domain.Main.dll</HintPath></Reference>
+    <Reference Include="DigisatServer.Infrastructure.Crosscutting"><HintPath>references\DigisatServer.Infrastructure.Crosscutting.dll</HintPath></Reference>
+    <Reference Include="DigisatServer.Infrastructure.Crosscutting.Concentrador"><HintPath>references\DigisatServer.Infrastructure.Crosscutting.Concentrador.dll</HintPath></Reference>
+    <Reference Include="DigisatServer.Infrastructure.Data.Core" Condition="'$(UseRebuiltDataCore)' != 'true'"><HintPath>references\DigisatServer.Infrastructure.Data.Core.dll</HintPath></Reference>
+    <ProjectReference Include="..\DigisatServer.Infrastructure.Data.Core\DigisatServer.Infrastructure.Data.Core.csproj" Condition="'$(UseRebuiltDataCore)' == 'true'">
+      <Name>DigisatServer.Infrastructure.Data.Core</Name>
+    </ProjectReference>
+    <Reference Include="MongoDB.Bson"><HintPath>references\MongoDB.Bson.dll</HintPath></Reference>
+  </ItemGroup>
+  <!-- Offline build uses the installed Roslyn compiler and runtime references.
+       No NuGet restore or targeting-pack installation is performed. -->
+  <Target Name="Build">
+    <Exec Command="python &quot;$(MSBuildProjectDirectory)\..\..\tools\build_reports.py&quot; --compile-only $(SourceLinkArgument)" />
+  </Target>
+  <Target Name="Rebuild" DependsOnTargets="Build" />
+</Project>

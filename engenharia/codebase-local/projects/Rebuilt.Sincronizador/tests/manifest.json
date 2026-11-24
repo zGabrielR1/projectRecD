@@ -1,0 +1,9 @@
+{
+  "rebuilt_actor_sha256": "84f2516b9b0350b708213189a191c33e69548eedb66fa44c864f228f55e7bca3",
+  "rebuilt_actor_mvid": "ed9cd3c1-1196-44b1-87ba-390f5667efa3",
+  "assertions": 22,
+  "harness_sha256": "9b1ae6f01791d63630ca6f29ffb7870ff8ea0bef2b03165bdfb344ebd11edb45",
+  "results_sha256": "2f46f61cab345742e4ef0e18d5b33c11fa35683b99148ecb30ebdb792c5cecbc",
+  "checks_equal_original_baseline": true,
+  "scope": "Rebuilt handler; actual original repository; uninitialized instances/synthetic driver; no actor startup"
+}

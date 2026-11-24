@@ -1,0 +1,102 @@
+{
+  "fileSha256": "84f2516b9b0350b708213189a191c33e69548eedb66fa44c864f228f55e7bca3",
+  "mvid": "ed9cd3c1-1196-44b1-87ba-390f5667efa3",
+  "assembly": "SincronizadorG6, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "typeCount": 14,
+  "methodCount": 56,
+  "api": [
+    {
+      "name": "Microsoft.CodeAnalysis.EmbeddedAttribute",
+      "baseType": "System.Attribute",
+      "interfaces": [],
+      "methods": [
+        "System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "Sincronizador.Bootstrapper",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [],
+      "fields": [
+        "SimpleInjector.Container Sincronizador.Bootstrapper::Container"
+      ]
+    },
+    {
+      "name": "Sincronizador.Program",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Void Sincronizador.Program::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "Sincronizador.SincronizacaoClientActor",
+      "baseType": "Akka.Actor.ReceiveActor",
+      "interfaces": [],
+      "methods": [
+        "System.Void Sincronizador.SincronizacaoClientActor::.ctor(DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao,NLog.Logger)",
+        "System.Void Sincronizador.SincronizacaoClientActor::GravarLog(System.String)",
+        "System.Void Sincronizador.SincronizacaoClientActor::RestartService(System.String,System.Int32)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "Sincronizador.SincronizacaoClientActorSystem",
+      "baseType": "DigisatServer.Infrastructure.Crosscutting.NetFramework.Actor.DClientActorSystemBase`2<System.IServiceProvider,Akka.DI.SimpleInjector.SimpleInjectorDependencyResolver>",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Crosscutting.Interfaces.IActorSystem Sincronizador.SincronizacaoClientActorSystem::Criar(System.String)",
+        "System.Void Sincronizador.SincronizacaoClientActorSystem::.ctor(SimpleInjector.Container)",
+        "System.Void Sincronizador.SincronizacaoClientActorSystem::Finalizar()",
+        "System.Void Sincronizador.SincronizacaoClientActorSystem::Iniciar()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "Sincronizador.SincronizacaoService",
+      "baseType": "System.Object",
+      "interfaces": [
+        "Topshelf.ServiceControl"
+      ],
+      "methods": [
+        "System.Boolean Sincronizador.SincronizacaoService::Start(Topshelf.HostControl)",
+        "System.Boolean Sincronizador.SincronizacaoService::Stop(Topshelf.HostControl)",
+        "System.Void Sincronizador.SincronizacaoService::.ctor(DigisatServer.Infrastructure.Crosscutting.Interfaces.IClientActorSystem,NLog.Logger)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "System.Runtime.CompilerServices.RefSafetyRulesAttribute",
+      "baseType": "System.Attribute",
+      "interfaces": [],
+      "methods": [
+        "System.Void System.Runtime.CompilerServices.RefSafetyRulesAttribute::.ctor(System.Int32)"
+      ],
+      "fields": [
+        "System.Int32 System.Runtime.CompilerServices.RefSafetyRulesAttribute::Version"
+      ]
+    }
+  ],
+  "exceptions": [],
+  "resources": [],
+  "references": [
+    "Akka, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null",
+    "Akka.DI.SimpleInjector, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting, Version=1.1.1.1, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting.RegistroSistema, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Data.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Driver, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Driver.Core, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c",
+    "SimpleInjector, Version=4.0.12.0, Culture=neutral, PublicKeyToken=984cb50dea722e99",
+    "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+    "Topshelf, Version=4.1.0.117, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b",
+    "Topshelf.NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source_regenerated": false,
+  "target_executed": "Selected rebuilt synthetic behavior checks only; no vendor app launched",
+  "results": [
+    {
+      "project": "data-core",
+      "started_utc": "2026-11-11T18:42:12.392108+00:00",
+      "finished_utc": "2026-11-11T18:42:25.113513+00:00",
+      "exit_code": 0
+    },
+    {
+      "project": "reports",
+      "started_utc": "2026-11-11T18:42:25.113535+00:00",
+      "finished_utc": "2026-11-11T18:42:41.465219+00:00",
+      "exit_code": 0
+    }
+  ]
+}

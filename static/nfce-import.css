@@ -1,0 +1,53 @@
+.nfce-shell { max-width: 1200px; margin: 0 auto; }
+.nfce-header, .nfce-result-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
+.nfce-header h1 { font-size: 30px; letter-spacing: -1px; margin: 8px 0 12px; }
+.nfce-header p, .nfce-inputs p, .nfce-commit p, .nfce-help p, .nfce-note { color: var(--muted); font-size: 13px; line-height: 1.65; }
+.nfce-scope { padding: 14px 0; margin: 12px 0 22px; border-bottom: 1px solid var(--border); font-size: 13px; line-height: 1.7; }
+.nfce-inputs { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; padding: 24px; }
+.nfce-page h2 { font-size: 17px; margin: 0 0 12px; }
+.nfce-inputs section { min-width: 0; }
+.nfce-page input { max-width: 100%; width: 100%; margin: 8px 0 12px; min-height: 42px; padding: 10px 12px; }
+.nfce-page select { max-width: 100%; width: 100%; margin: 8px 0 12px; min-height: 42px; padding: 10px 12px; }
+.nfce-job-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 18px 0; }
+.nfce-job-actions select { width: min(420px, 100%); max-width: 100%; }
+.nfce-document-link { padding: 0; border: 0; background: transparent; color: var(--ink); text-align: left; text-decoration: underline; cursor: pointer; }
+.nfce-page input[type=file] { padding: 12px; border: 1px dashed var(--border); font-size: 13px; }
+.nfce-page input::file-selector-button { margin-right: 10px; padding: 8px; border-radius: 5px; border: 1px solid #67758b; background: transparent; color: inherit; }
+.nfce-page label { font-size: 13px; display: block; }
+.nfce-page small { display: block; color: var(--muted); font-size: 12px; }
+.nfce-page a { font-size: 13px; }
+.nfce-page button.secondary { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+.nfce-actions { display: flex; align-items: center; gap: 16px; grid-column: 1/-1; flex-wrap: wrap; }
+.nfce-actions span { font-size: 13px; color: var(--muted); }
+#results { margin-top: 24px; padding: 24px; }
+#scope { font-size: 13px; color: var(--muted); }
+.nfce-table { overflow: auto; max-height: 460px; margin: 18px 0; }
+.nfce-table table { width: 100%; border-collapse: collapse; }
+.nfce-table th, .nfce-table td { padding: 13px 10px; border-bottom: 1px solid var(--border); font-size: 13px; text-align: left; vertical-align: top; }
+.nfce-table th { background: transparent; color: var(--muted); text-transform: none; font-weight: 500; }
+.nfce-table th:nth-child(3), .nfce-table td:nth-child(3) { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.nfce-table code { display: block; overflow-wrap: anywhere; margin-top: 5px; font-size: 11px; }
+.nfce-table td:first-child { min-width: 190px; max-width: 420px; overflow-wrap: anywhere; }
+.nfce-table .invalid { color: var(--danger, #ef7070); }
+.nfce-page pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 360px; overflow: auto; font-size: 12px; padding: 16px; line-height: 1.6; }
+.nfce-page summary { cursor: pointer; padding: 10px 0; font-size: 13px; }
+.nfce-commit { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--border); }
+.nfce-commit input { max-width: 420px; display: block; }
+.nfce-help { padding: 26px 0; max-width: 80ch; }
+#error { color: var(--danger, #ef7070); padding: 16px 0; }
+#authDialog { max-width: 420px; width: calc(100% - 32px); }
+#authDialog form { padding: 20px; }
+.nfce-page button:disabled { opacity: .5; cursor: not-allowed; }
+.nfce-page [hidden] { display: none !important; }
+@media(max-width: 760px) {
+  .nfce-inputs { grid-template-columns: 1fr; padding: 18px; gap: 24px; }
+  .nfce-header { gap: 12px; }
+  .nfce-header h1 { font-size: 26px; }
+  .nfce-header > button { font-size: 12px; padding: 9px; white-space: nowrap; }
+  .nfce-result-heading { flex-direction: column; gap: 8px; }
+  #results { padding: 16px; }
+  .nfce-page code { overflow-wrap: anywhere; }
+  .nfce-actions { align-items: flex-start; flex-direction: column; }
+  .nfce-table th, .nfce-table td { padding: 10px 7px; }
+  .nfce-header .eyebrow { font-size: 10px; }
+}

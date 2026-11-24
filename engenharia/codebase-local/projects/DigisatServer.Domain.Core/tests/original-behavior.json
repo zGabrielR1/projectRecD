@@ -1,0 +1,61 @@
+{
+  "assembly": "DigisatServer.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "mvid": "4cdd4d74-f808-4419-8645-e7924228ecb7",
+  "runtime": "4.0.30319.42000",
+  "assertions": 13,
+  "checks": [
+    {
+      "name": "Explicit constructor sets id/state/version",
+      "passed": true
+    },
+    {
+      "name": "Deactivate",
+      "passed": true
+    },
+    {
+      "name": "Activate",
+      "passed": true
+    },
+    {
+      "name": "Explicit version update",
+      "passed": true
+    },
+    {
+      "name": "Null comparison version allowed",
+      "passed": true
+    },
+    {
+      "name": "Equal version allowed",
+      "passed": true
+    },
+    {
+      "name": "Different version throws",
+      "passed": true
+    },
+    {
+      "name": "ObjectId specification positive",
+      "passed": true
+    },
+    {
+      "name": "ObjectId specification negative",
+      "passed": true
+    },
+    {
+      "name": "String id specification",
+      "passed": true
+    },
+    {
+      "name": "Search normalization deduplicates",
+      "passed": true
+    },
+    {
+      "name": "Search specification normalized value",
+      "passed": true
+    },
+    {
+      "name": "Clear search",
+      "passed": true
+    }
+  ],
+  "scope": "Actual domain constructors/properties/specifications on explicit synthetic entity; no database/service/application entrypoint/configuration."
+}

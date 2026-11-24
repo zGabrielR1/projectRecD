@@ -1,0 +1,6 @@
+bin/
+obj/
+references/
+baseline/
+tooling/
+*.raw.cs

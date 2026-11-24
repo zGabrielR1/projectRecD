@@ -1,0 +1,31 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Offline project: no targeting-pack restore or generated source overwrite. -->
+  <PropertyGroup>
+    <AssemblyName>DigisatServer.Infrastructure.Data.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <BuildRunner>$(MSBuildThisFileDirectory)..\..\tools\build_data_core.py</BuildRunner>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="source\Data.Core.recovered.cs" />
+    <EmbeddedResource Include="resources\DigisatServer.Infrastructure.Data.Core.Resources.Messages.resources">
+      <LogicalName>DigisatServer.Infrastructure.Data.Core.Resources.Messages.resources</LogicalName>
+    </EmbeddedResource>
+    <Reference Include="Akka"><HintPath>references\Akka.dll</HintPath></Reference>
+    <Reference Include="DigisatServer.Infrastructure.Crosscutting"><HintPath>references\DigisatServer.Infrastructure.Crosscutting.dll</HintPath></Reference>
+    <Reference Include="DigisatServer.Infrastructure.Crosscutting.NetFramework"><HintPath>references\DigisatServer.Infrastructure.Crosscutting.NetFramework.dll</HintPath></Reference>
+    <Reference Include="MongoDB.Bson"><HintPath>references\MongoDB.Bson.dll</HintPath></Reference>
+    <Reference Include="MongoDB.Driver"><HintPath>references\MongoDB.Driver.dll</HintPath></Reference>
+    <Reference Include="MongoDB.Driver.Core"><HintPath>references\MongoDB.Driver.Core.dll</HintPath></Reference>
+    <Reference Include="System.Reactive.Core"><HintPath>references\System.Reactive.Core.dll</HintPath></Reference>
+    <Reference Include="System.Reactive.Interfaces"><HintPath>references\System.Reactive.Interfaces.dll</HintPath></Reference>
+    <Reference Include="System.Reactive.Linq"><HintPath>references\System.Reactive.Linq.dll</HintPath></Reference>
+  </ItemGroup>
+  <Target Name="Build">
+    <Exec Command="python &quot;$(BuildRunner)&quot; --compile-only" />
+  </Target>
+  <Target Name="Rebuild" DependsOnTargets="Build" />
+  <Target Name="Test">
+    <Exec Command="python &quot;$(BuildRunner)&quot; --test" />
+  </Target>
+</Project>

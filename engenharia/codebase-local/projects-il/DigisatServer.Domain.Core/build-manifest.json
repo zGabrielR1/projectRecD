@@ -1,0 +1,26 @@
+{
+  "input_sha256": "fcd29ec09a65eaa8397ccc6b63f6630c61b6fb99293c4a863162d7382928d9ff",
+  "source_il_sha256": "1c0b7b4a14289fc15ae13f45f24ac95c8801f1b71cbb280e0a5cff6875c1acaf",
+  "output_sha256": "5c532cbb09dcd41c0af4e837252764322b409fe137abb765ea1ae63747fa5c35",
+  "assembler_sha256": "5aed52d2d24d2f8391bd217e76b189e4ddba90e9f361e8345fb0d9f8cdd7803e",
+  "build_language": "CIL textual source",
+  "target_executed": false,
+  "verification": {
+    "evidence_file": "projects/DigisatServer.Domain.Core/il-verification.json",
+    "comparison": {
+      "all_original_named_type_surfaces_equal": true,
+      "resources_equal": true,
+      "assembly_references_equal": false,
+      "only_reference_difference_is_unused_obfuscator_ref": true,
+      "type_count_equal": true,
+      "method_count_equal": true,
+      "selected_checks_equal": true
+    },
+    "selected_behavior_assertions": 13,
+    "selected_behavior_match": true
+  },
+  "limitations": [
+    "Not a complete Application.Main/SuiteG6 source build.",
+    "Assembly layout/MVID differ and one unused obfuscator assembly reference is not retained."
+  ]
+}

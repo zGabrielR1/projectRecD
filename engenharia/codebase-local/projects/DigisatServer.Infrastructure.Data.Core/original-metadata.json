@@ -1,0 +1,962 @@
+{
+  "fileSha256": "51fb587ae4a006c95cf4bd7b36ba9fb65951f6893fbdadc76fdcb04f849c983b",
+  "mvid": "43370605-4c69-4adb-8203-5852a9304802",
+  "assembly": "DigisatServer.Infrastructure.Data.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "typeCount": 133,
+  "methodCount": 521,
+  "api": [
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.CollectionReplicator",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.CollectionReplicator DigisatServer.Infrastructure.Data.Core.CollectionReplicator::From(System.String,DigisatServer.Infrastructure.Data.Core.OpLogTail,System.String,System.String)",
+        "DigisatServer.Infrastructure.Data.Core.CollectionReplicator DigisatServer.Infrastructure.Data.Core.CollectionReplicator::To(MongoDB.Driver.IMongoCollection`1<MongoDB.Bson.BsonDocument>,System.String)",
+        "DigisatServer.Infrastructure.Data.Core.CollectionReplicator DigisatServer.Infrastructure.Data.Core.CollectionReplicator::To(System.Collections.Generic.IEnumerable`1<Akka.Actor.ICanTell>,Akka.Actor.IActorRef,System.String,System.Boolean)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.CollectionReplicator::GravarLog(System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IDescricao",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.String DigisatServer.Infrastructure.Data.Core.Interfaces.IDescricao::get_Descricao()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1<MongoDB.Bson.ObjectId>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao"
+      ],
+      "methods": [
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity::get_Ativo()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase"
+      ],
+      "methods": [
+        "System.Collections.Generic.IReadOnlyCollection`1<System.String> DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1::get_InformacoesPesquisa()",
+        "TIdentifier DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1::get_Id()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityEmpresa",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "MongoDB.Bson.ObjectId DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityEmpresa::get_EmpresaReferencia()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityPaf`1",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityPaf`1::ValidarChavePaf(TEntity)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityTree",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1<MongoDB.Bson.ObjectId>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao"
+      ],
+      "methods": [
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityTree::get_IsPrincipal()",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityTree::get_IsUltimoNivel()",
+        "System.Collections.Generic.IEnumerable`1<System.String> DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityTree::get_CodigosUnico()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityTree::get_CodigoUnico()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityTree::get_Descricao()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityTree::DesativarTodos()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityTree::SetarCodigoUnico(System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1<MongoDB.Bson.ObjectId>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase"
+      ],
+      "methods": [
+        "System.TimeSpan DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao::get_Versao()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao::AtualizarVersao(System.TimeSpan)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao::TestarVersao(DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IPage`1",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Crosscutting.Interfaces.IPage"
+      ],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<TResult> DigisatServer.Infrastructure.Data.Core.Interfaces.IPage`1::get_Lista()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.Action DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::AddWithDeleteAction(TEntity)",
+        "System.Int64 DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::AtualizarCampo(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TValue>>,TValue)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::AddAsync(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::AddAsync(TEntity)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::DeleteAsync(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::DeleteAsync(TEntity)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::UpdateAsync(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::UpdateAsync(TEntity)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::Add(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::Add(TEntity)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::Delete(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::Delete(TEntity)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::DeleteAll()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::DropCollection()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::Update(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::Update(TEntity)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1::AtualizarCampo(MongoDB.Bson.ObjectId,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TValue>>,TValue)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryEmpresaRead`1",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<TEntity>"
+      ],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryEmpresaRead`1::GetIn(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,System.Collections.Generic.IEnumerable`1<TField>,DigisatServer.Infrastructure.Crosscutting.Interfaces.IUsuarioIdentity)",
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryEmpresaRead`1::GetIn(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,System.Collections.Generic.IEnumerable`1<TField>,System.String)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryEmpresaRead`1::GetOneBy(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,TField,DigisatServer.Infrastructure.Crosscutting.Interfaces.IUsuarioIdentity)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryEmpresaRead`1::GetOneBy(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,TField,System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`1",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2<T,MongoDB.Bson.ObjectId>"
+      ],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::get_Exists()",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::IndexesExists(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::IndexExists(System.String)",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::IsCapped()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::get_Name()",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::CreateIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::CreateTextIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::CreateUniqueIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::Drop()",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::DropAllIndexes()",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::DropIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::DropIndexes(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::EnsureIndex(System.String,System.Boolean,System.Boolean,System.Boolean)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::EnsureIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::EnsureIndexes(System.Collections.Generic.IEnumerable`1<MongoDB.Driver.IndexKeysDefinition`1<TEntity>>,MongoDB.Driver.CreateIndexOptions)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::EnsureIndexes(System.Collections.Generic.IEnumerable`1<System.String>,System.Boolean,System.Boolean,System.Boolean)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2::EnsureIndexes(System.Collections.Generic.IEnumerable`1<System.String>)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryPafBaseWrite`1",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<TEntity>"
+      ],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryPafWrite`1",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<TEntity>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryPafBaseWrite`1<TEntity>"
+      ],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::Find(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::GetByFields(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>>[])",
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::GetByListAndFields(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Collections.Generic.IEnumerable`1<TField>>>,System.Linq.Expressions.Expression`1<System.Func`2<TField,System.Boolean>>,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>>[])",
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::GetIn(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,System.Collections.Generic.IEnumerable`1<TField>)",
+        "System.Int64 DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::Count(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::ForEachAsync(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>,System.Action`1<TEntity>)",
+        "System.Threading.Tasks.Task`1<DigisatServer.Infrastructure.Data.Core.Interfaces.IPage`1<TEntity>> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::Find(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>,System.String,System.Int16,System.Int32,DigisatServer.Infrastructure.Crosscutting.Enum.SortType,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Object>>)",
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<TEntity>> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::FindAsync(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Threading.Tasks.Task`1<System.Int64> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::CountAsync(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::FindOne(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>,System.String,DigisatServer.Infrastructure.Crosscutting.Enum.SortType,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Object>>)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::FindOne(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::GetById(MongoDB.Bson.ObjectId)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1::GetOneBy(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,TField)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryTreeRead`1",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<TEntity>"
+      ],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryTreeRead`1::GetAll()",
+        "System.Collections.Generic.List`1<TEntity> DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryTreeRead`1::GetByListCodigoUnico(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryTreeRead`1::GetByCodigoUnico(System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryTreeWrite`1",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<TEntity>"
+      ],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryWrite`1",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<TEntity>"
+      ],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.ISequentialEntity",
+      "baseType": null,
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1<System.String>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase"
+      ],
+      "methods": [
+        "System.Int64 DigisatServer.Infrastructure.Data.Core.Interfaces.ISequentialEntity::get_Contador()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1::SatisfiedBy()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.LocalDatabaseNotFoundException",
+      "baseType": "System.Exception",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.LocalDatabaseNotFoundException::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Mappings.DateTimeSerializerEx",
+      "baseType": "MongoDB.Bson.Serialization.Serializers.DateTimeSerializer",
+      "interfaces": [],
+      "methods": [
+        "System.DateTime DigisatServer.Infrastructure.Data.Core.Mappings.DateTimeSerializerEx::Deserialize(MongoDB.Bson.Serialization.BsonDeserializationContext,MongoDB.Bson.Serialization.BsonDeserializationArgs)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.DateTimeSerializerEx::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.DateTimeSerializerEx::Serialize(MongoDB.Bson.Serialization.BsonSerializationContext,MongoDB.Bson.Serialization.BsonSerializationArgs,System.DateTime)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Mappings.DecimalSerializerEx",
+      "baseType": "MongoDB.Bson.Serialization.Serializers.DecimalSerializer",
+      "interfaces": [],
+      "methods": [
+        "System.Decimal DigisatServer.Infrastructure.Data.Core.Mappings.DecimalSerializerEx::Deserialize(MongoDB.Bson.Serialization.BsonDeserializationContext,MongoDB.Bson.Serialization.BsonDeserializationArgs)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.DecimalSerializerEx::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.DecimalSerializerEx::Serialize(MongoDB.Bson.Serialization.BsonSerializationContext,MongoDB.Bson.Serialization.BsonSerializationArgs,System.Decimal)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<System.Type> DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::GetTypes()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::get_Namespace()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::Convention()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::Index()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::Initialize()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::InitializeServer()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::RegisterConvention(MongoDB.Bson.Serialization.Conventions.ConventionPack)"
+      ],
+      "fields": [
+        "System.String[] DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::Users"
+      ]
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::.ctor()"
+      ],
+      "fields": [
+        "System.UInt32 DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::dwLength",
+        "System.UInt32 DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::dwMemoryLoad",
+        "System.UInt64 DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::ullAvailExtendedVirtual",
+        "System.UInt64 DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::ullAvailPageFile",
+        "System.UInt64 DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::ullAvailPhys",
+        "System.UInt64 DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::ullAvailVirtual",
+        "System.UInt64 DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::ullTotalPageFile",
+        "System.UInt64 DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::ullTotalPhys",
+        "System.UInt64 DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap/MemoriaStatusEx::ullTotalVirtual"
+      ]
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::AlterarConfiguracaoParaConversao()",
+        "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::AlterarConfiguracaoParaProducao()",
+        "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::Create()",
+        "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::IniciarMongoDb()",
+        "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::IniciarReplicaSet()",
+        "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::PararMongoDb()",
+        "DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::RemoverDatabaseLocal()",
+        "System.Collections.Generic.IEnumerable`1<System.Type> DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::GetTypes()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::get_Namespace()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::.ctor()"
+      ],
+      "fields": [
+        "System.String DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMapServidor::ErroInicializarServicoMongoDbDigisat"
+      ]
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Mappings.MongoMap",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.MongoMap::Convention()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.MongoMap::InitConversao(System.Boolean)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.MongoMap::InitProducaoClient()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.MongoMap::InitProducaoServer()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.MongoMap::ReiniciarMongoAntesRestaurarBase()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.MongoMap::ReiniciarMongoDepoisRestaurarBase()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.MongoMap::StopConversao()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Mappings.StringOrInt32Serializer",
+      "baseType": "System.Object",
+      "interfaces": [
+        "MongoDB.Bson.Serialization.IBsonSerializer"
+      ],
+      "methods": [
+        "System.Object DigisatServer.Infrastructure.Data.Core.Mappings.StringOrInt32Serializer::Deserialize(MongoDB.Bson.Serialization.BsonDeserializationContext,MongoDB.Bson.Serialization.BsonDeserializationArgs)",
+        "System.Type DigisatServer.Infrastructure.Data.Core.Mappings.StringOrInt32Serializer::get_ValueType()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.StringOrInt32Serializer::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.StringOrInt32Serializer::Serialize(MongoDB.Bson.Serialization.BsonSerializationContext,MongoDB.Bson.Serialization.BsonSerializationArgs,System.Object)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.MongoClientIsNullException",
+      "baseType": "System.Exception",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.MongoClientIsNullException::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.MongoExtensions",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<System.String> DigisatServer.Infrastructure.Data.Core.MongoExtensions::GetCollectionNames(MongoDB.Driver.IMongoDatabase)",
+        "System.Collections.Generic.IEnumerable`1<System.String> DigisatServer.Infrastructure.Data.Core.MongoExtensions::GetDatabaseNames(MongoDB.Driver.MongoClient)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.MongoOperation",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Operations DigisatServer.Infrastructure.Data.Core.MongoOperation::get_OperationType()",
+        "MongoDB.Bson.BsonDocument DigisatServer.Infrastructure.Data.Core.MongoOperation::get_Data()",
+        "MongoDB.Bson.BsonDocument DigisatServer.Infrastructure.Data.Core.MongoOperation::get_Source()",
+        "System.DateTime DigisatServer.Infrastructure.Data.Core.MongoOperation::get_When()",
+        "System.String DigisatServer.Infrastructure.Data.Core.MongoOperation::get_CollectionAffected()",
+        "System.String DigisatServer.Infrastructure.Data.Core.MongoOperation::get_DatabaseAffected()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2<TEntity,MongoDB.Bson.ObjectId>",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`1<TEntity>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2<TEntity,MongoDB.Bson.ObjectId>"
+      ],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`1::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`1::.ctor(MongoDB.Driver.MongoServerAddress,System.String)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`1::.ctor(MongoDB.Driver.MongoServerAddress)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2",
+      "baseType": "System.Object",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryManager`2<TEntity,TIdentifier>"
+      ],
+      "methods": [
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::get_Exists()",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::IndexesExists(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::IndexExists(System.String)",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::IsCapped()",
+        "System.Collections.Generic.IEnumerable`1<System.String> DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::IndexNames()",
+        "System.String DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::get_Name()",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::CreateCompoundIndex(System.String[],System.Boolean)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::CreateIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::CreateTextIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::CreateUniqueIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::Drop()",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::DropAllIndexes()",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::DropIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::DropIndexes(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::EnsureIndex(System.String,System.Boolean,System.Boolean,System.Boolean)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::EnsureIndex(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::EnsureIndexes(System.Collections.Generic.IEnumerable`1<MongoDB.Driver.IndexKeysDefinition`1<TEntity>>,MongoDB.Driver.CreateIndexOptions)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::EnsureIndexes(System.Collections.Generic.IEnumerable`1<System.String>,System.Boolean,System.Boolean,System.Boolean)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::EnsureIndexes(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::.ctor(MongoDB.Driver.MongoServerAddress,System.String)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.MongoRepositoryManager`2::.ctor(MongoDB.Driver.MongoServerAddress)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Operations",
+      "baseType": "System.Enum",
+      "interfaces": [],
+      "methods": [],
+      "fields": [
+        "DigisatServer.Infrastructure.Data.Core.Operations DigisatServer.Infrastructure.Data.Core.Operations::Delete",
+        "DigisatServer.Infrastructure.Data.Core.Operations DigisatServer.Infrastructure.Data.Core.Operations::Insert",
+        "DigisatServer.Infrastructure.Data.Core.Operations DigisatServer.Infrastructure.Data.Core.Operations::InsertUpdateAndDelete",
+        "DigisatServer.Infrastructure.Data.Core.Operations DigisatServer.Infrastructure.Data.Core.Operations::None",
+        "DigisatServer.Infrastructure.Data.Core.Operations DigisatServer.Infrastructure.Data.Core.Operations::Unsupported",
+        "DigisatServer.Infrastructure.Data.Core.Operations DigisatServer.Infrastructure.Data.Core.Operations::Update",
+        "System.Int32 DigisatServer.Infrastructure.Data.Core.Operations::value__"
+      ]
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.OpLog",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.OpLog DigisatServer.Infrastructure.Data.Core.OpLog::LoadFrom(MongoDB.Driver.IMongoDatabase)",
+        "DigisatServer.Infrastructure.Data.Core.OpLogTail DigisatServer.Infrastructure.Data.Core.OpLog::Tail(DigisatServer.Infrastructure.Data.Core.Operations,System.DateTime)",
+        "DigisatServer.Infrastructure.Data.Core.OpLogTail DigisatServer.Infrastructure.Data.Core.OpLog::Tail(DigisatServer.Infrastructure.Data.Core.Operations)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.OpLogCollectionNotFoundException",
+      "baseType": "System.Exception",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.OpLogCollectionNotFoundException::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.OpLogTail",
+      "baseType": "System.Object",
+      "interfaces": [
+        "System.IDisposable",
+        "System.IObservable`1<DigisatServer.Infrastructure.Data.Core.MongoOperation>"
+      ],
+      "methods": [
+        "MongoDB.Bson.ObjectId DigisatServer.Infrastructure.Data.Core.OpLogTail::get_GlobalTsId()",
+        "MongoDB.Driver.IMongoCollection`1<MongoDB.Bson.BsonDocument> DigisatServer.Infrastructure.Data.Core.OpLogTail::get_CollectionLastTs()",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.OpLogTail::get_IsRunning()",
+        "System.IDisposable DigisatServer.Infrastructure.Data.Core.OpLogTail::Subscribe(System.Action`1<DigisatServer.Infrastructure.Data.Core.MongoOperation>)",
+        "System.IDisposable DigisatServer.Infrastructure.Data.Core.OpLogTail::Subscribe(System.IObserver`1<DigisatServer.Infrastructure.Data.Core.MongoOperation>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.OpLogTail::RunBetween(System.DateTime,System.DateTime)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.OpLogTail::Dispose()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.OpLogTail::Run()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.OpLogTailIsNullException",
+      "baseType": "System.Exception",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.OpLogTailIsNullException::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Page`1",
+      "baseType": "System.Object",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Crosscutting.Interfaces.IPage",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IPage`1<TResult>"
+      ],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<TResult> DigisatServer.Infrastructure.Data.Core.Page`1::get_Lista()",
+        "System.Int16 DigisatServer.Infrastructure.Data.Core.Page`1::get_Pagina()",
+        "System.Int32 DigisatServer.Infrastructure.Data.Core.Page`1::get_Tamanho()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Page`1::.ctor(System.Int16,System.Int32,System.Collections.Generic.IEnumerable`1<TResult>)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.RepositoryMongo`2<TEntity,MongoDB.Bson.ObjectId>",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<TEntity>"
+      ],
+      "methods": [
+        "System.Action DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::AddWithDeleteAction(TEntity)",
+        "System.Int64 DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::AtualizarCampo(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TValue>>,TValue)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::AddAsync(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::AddAsync(TEntity)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::DeleteAsync(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::DeleteAsync(TEntity)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::UpdateAsync(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::UpdateAsync(TEntity)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::Add(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::Add(TEntity)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::Delete(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::Delete(TEntity)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::DeleteAll()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::DropCollection()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::Update(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::Update(TEntity)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1::AtualizarCampo(MongoDB.Bson.ObjectId,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TValue>>,TValue)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositoryEmpresaRead`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.RepositoryRead`1<TEntity>",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryEmpresaRead`1<TEntity>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<TEntity>"
+      ],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryEmpresaRead`1::GetIn(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,System.Collections.Generic.IEnumerable`1<TField>,DigisatServer.Infrastructure.Crosscutting.Interfaces.IUsuarioIdentity)",
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryEmpresaRead`1::GetIn(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,System.Collections.Generic.IEnumerable`1<TField>,System.String)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryEmpresaRead`1::.ctor()",
+        "TEntity DigisatServer.Infrastructure.Data.Core.RepositoryEmpresaRead`1::GetOneBy(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,TField,DigisatServer.Infrastructure.Crosscutting.Interfaces.IUsuarioIdentity)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.RepositoryEmpresaRead`1::GetOneBy(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,TField,System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositoryMongo`2",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "MongoDB.Driver.IMongoCollection`1<TForeign> DigisatServer.Infrastructure.Data.Core.RepositoryMongo`2::GetCollection()",
+        "MongoDB.Driver.IMongoCollection`1<TForeign> DigisatServer.Infrastructure.Data.Core.RepositoryMongo`2::GetCollection()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryMongo`2::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryMongo`2::.ctor(MongoDB.Driver.MongoServerAddress)"
+      ],
+      "fields": [
+        "MongoDB.Driver.IMongoCollection`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryMongo`2::Collection"
+      ]
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositoryPafBaseWrite`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1<TEntity>",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<TEntity>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryPafBaseWrite`1<TEntity>"
+      ],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryPafBaseWrite`1::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryPafBaseWrite`1::Update(TEntity)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositoryPafWrite`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.RepositoryWrite`1<TEntity>",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<TEntity>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryPafBaseWrite`1<TEntity>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryPafWrite`1<TEntity>"
+      ],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryPafWrite`1::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryPafWrite`1::Update(TEntity)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositoryRead`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.RepositoryMongo`2<TEntity,MongoDB.Bson.ObjectId>",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<TEntity>"
+      ],
+      "methods": [
+        "MongoDB.Driver.FilterDefinition`1<T> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::GetFilterInformacaoPesquisa(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Object>>,System.String)",
+        "MongoDB.Driver.FilterDefinition`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::GetFilter(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>,System.String)",
+        "MongoDB.Driver.FilterDefinition`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::ToFilter(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "MongoDB.Driver.IFindFluent`2<T,T> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::SortEx(MongoDB.Driver.IFindFluent`2<T,T>,System.Int16,System.Int32,DigisatServer.Infrastructure.Crosscutting.Enum.SortType,System.Linq.Expressions.Expression`1<System.Func`2<T,System.Object>>)",
+        "MongoDB.Driver.IFindFluent`2<TEntity,TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::SortEx(MongoDB.Driver.IFindFluent`2<TEntity,TEntity>,System.Int16,System.Int32,DigisatServer.Infrastructure.Crosscutting.Enum.SortType,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Object>>)",
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::Find(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::GetByFields(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>>[])",
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::GetByListAndFields(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Collections.Generic.IEnumerable`1<TField>>>,System.Linq.Expressions.Expression`1<System.Func`2<TField,System.Boolean>>,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>>[])",
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::GetIn(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,System.Collections.Generic.IEnumerable`1<TField>)",
+        "System.Int64 DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::Count(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::ForEachAsync(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>,System.Action`1<TEntity>)",
+        "System.Threading.Tasks.Task`1<DigisatServer.Infrastructure.Data.Core.Interfaces.IPage`1<TEntity>> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::Find(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>,System.String,System.Int16,System.Int32,DigisatServer.Infrastructure.Crosscutting.Enum.SortType,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Object>>)",
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<TEntity>> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::FindAsync(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Threading.Tasks.Task`1<System.Int64> DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::CountAsync(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::.ctor()",
+        "TEntity DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::FindOne(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>,System.String,DigisatServer.Infrastructure.Crosscutting.Enum.SortType,System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Object>>)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::FindOne(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::GetById(MongoDB.Bson.ObjectId)",
+        "TEntity DigisatServer.Infrastructure.Data.Core.RepositoryRead`1::GetOneBy(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,TField>>,TField)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "MongoDB.Driver.IMongoDatabase DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::get_Database()",
+        "System.Collections.Generic.IEnumerable`1<System.String> DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::Get(System.String,System.Nullable`1<MongoDB.Bson.ObjectId>,System.Int32)",
+        "System.Collections.Generic.IEnumerable`1<System.String> DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::GetAll(System.String)",
+        "System.Int64 DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::Count(System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::BulkUpdateAsync(System.String,System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::BulkWriteAsync(System.String,System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::GetOneByOne(System.String,System.Action`1<System.Collections.Generic.KeyValuePair`2<System.String,System.String>>)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::ReplaceOneAsync(System.String,System.String,System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::ReplaceOneAsync(System.String,System.String)",
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::UpdateOneAsync(System.String,System.String,System.String)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::.ctor(System.String,System.Int32)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::Drop(System.String)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::DropAll(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::IniciarLastTs()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::InsertMany(System.Collections.Generic.IDictionary`2<System.String,System.String>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositorySincronizacao::set_Database(MongoDB.Driver.IMongoDatabase)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositoryTreeRead`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.RepositoryRead`1<TEntity>",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryRead`1<TEntity>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryTreeRead`1<TEntity>"
+      ],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryTreeRead`1::GetAll()",
+        "System.Collections.Generic.List`1<TEntity> DigisatServer.Infrastructure.Data.Core.RepositoryTreeRead`1::GetByListCodigoUnico(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryTreeRead`1::.ctor()",
+        "TEntity DigisatServer.Infrastructure.Data.Core.RepositoryTreeRead`1::GetByCodigoUnico(System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositoryTreeWrite`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.RepositoryWrite`1<TEntity>",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<TEntity>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryTreeWrite`1<TEntity>"
+      ],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryTreeWrite`1::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryTreeWrite`1::Add(System.Collections.Generic.IEnumerable`1<TEntity>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryTreeWrite`1::Add(TEntity)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryTreeWrite`1::Update(TEntity)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.RepositoryWrite`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.RepositoryBaseWrite`1<TEntity>",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryBaseWrite`1<TEntity>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IRepositoryWrite`1<TEntity>"
+      ],
+      "methods": [
+        "System.Threading.Tasks.Task DigisatServer.Infrastructure.Data.Core.RepositoryWrite`1::UpdateAsync(TEntity)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryWrite`1::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.RepositoryWrite`1::Update(TEntity)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Resources.Messages",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Globalization.CultureInfo DigisatServer.Infrastructure.Data.Core.Resources.Messages::get_Culture()",
+        "System.Resources.ResourceManager DigisatServer.Infrastructure.Data.Core.Resources.Messages::get_ResourceManager()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Resources.Messages::get_aviso()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Resources.Messages::get_erro()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Resources.Messages::get_exception_Duplicado()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Resources.Messages::get_exception_FalhaAoExecutarComandoNoBD()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Resources.Messages::get_exception_RegistroAlteradoPorOutraTransacao()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Resources.Messages::get_informacao()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Resources.Messages::set_Culture(System.Globalization.CultureInfo)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Sequencia",
+      "baseType": "System.Object",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1<System.String>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISequentialEntity"
+      ],
+      "methods": [
+        "System.Collections.Generic.IReadOnlyCollection`1<System.String> DigisatServer.Infrastructure.Data.Core.Sequencia::get_InformacoesPesquisa()",
+        "System.Int64 DigisatServer.Infrastructure.Data.Core.Sequencia::get_Contador()",
+        "System.String DigisatServer.Infrastructure.Data.Core.Sequencia::get_Id()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Sequencia::.ctor()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Sequencia::set_Contador(System.Int64)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Sequencia::set_Id(System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.SourceIdIsNullOrEmptyException",
+      "baseType": "System.Exception",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Infrastructure.Data.Core.SourceIdIsNullOrEmptyException::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.AndSpecification`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.Specification.CompositeSpecification`1<T>",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Infrastructure.Data.Core.Specification.AndSpecification`1::get_LeftSideSpecification()",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Infrastructure.Data.Core.Specification.AndSpecification`1::get_RightSideSpecification()",
+        "System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Specification.AndSpecification`1::SatisfiedBy()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.AndSpecification`1::.ctor(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T>,DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T>)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.CompositeSpecification`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity> DigisatServer.Infrastructure.Data.Core.Specification.CompositeSpecification`1::get_LeftSideSpecification()",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity> DigisatServer.Infrastructure.Data.Core.Specification.CompositeSpecification`1::get_RightSideSpecification()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.CompositeSpecification`1::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.DirectSpecification`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>",
+      "interfaces": [],
+      "methods": [
+        "System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Specification.DirectSpecification`1::SatisfiedBy()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.DirectSpecification`1::.ctor(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.DirectSpecification`1::Expression(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.EspecificacaoMongo",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity> DigisatServer.Infrastructure.Data.Core.Specification.EspecificacaoMongo::PorCampoIgual(System.String,MongoDB.Bson.BsonValue)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.ExpressionBuilder",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Specification.ExpressionBuilder::And(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>,System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>)",
+        "System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Specification.ExpressionBuilder::Or(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>,System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>)",
+        "System.Linq.Expressions.Expression`1<T> DigisatServer.Infrastructure.Data.Core.Specification.ExpressionBuilder::Compose(System.Linq.Expressions.Expression`1<T>,System.Linq.Expressions.Expression`1<T>,System.Func`3<System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression>)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.FilterDefinitionSpecification`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>",
+      "interfaces": [],
+      "methods": [
+        "MongoDB.Driver.FilterDefinition`1<TEntity> DigisatServer.Infrastructure.Data.Core.Specification.FilterDefinitionSpecification`1::get_Filter()",
+        "System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Specification.FilterDefinitionSpecification`1::SatisfiedBy()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.FilterDefinitionSpecification`1::.ctor(MongoDB.Bson.BsonDocument)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.FilterDefinitionSpecification`1::.ctor(MongoDB.Driver.FilterDefinition`1<TEntity>)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.NotSpecification`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>",
+      "interfaces": [],
+      "methods": [
+        "System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Specification.NotSpecification`1::SatisfiedBy()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.NotSpecification`1::.ctor(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.NotSpecification`1::.ctor(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>>)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.OrSpecification`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.Specification.CompositeSpecification`1<T>",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Infrastructure.Data.Core.Specification.OrSpecification`1::get_LeftSideSpecification()",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Infrastructure.Data.Core.Specification.OrSpecification`1::get_RightSideSpecification()",
+        "System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Specification.OrSpecification`1::SatisfiedBy()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.OrSpecification`1::.ctor(DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T>,DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T>)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.ParameterRebinder",
+      "baseType": "System.Linq.Expressions.ExpressionVisitor",
+      "interfaces": [],
+      "methods": [
+        "System.Linq.Expressions.Expression DigisatServer.Infrastructure.Data.Core.Specification.ParameterRebinder::ReplaceParameters(System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.ParameterExpression>,System.Linq.Expressions.Expression)",
+        "System.Linq.Expressions.Expression DigisatServer.Infrastructure.Data.Core.Specification.ParameterRebinder::VisitParameter(System.Linq.Expressions.ParameterExpression)",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.ParameterRebinder::.ctor(System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.ParameterExpression>)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1",
+      "baseType": "System.Object",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<TEntity>"
+      ],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity> DigisatServer.Infrastructure.Data.Core.Specification.Specification`1::op_BitwiseAnd(DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>,DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>)",
+        "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity> DigisatServer.Infrastructure.Data.Core.Specification.Specification`1::op_BitwiseOr(DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>,DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>)",
+        "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity> DigisatServer.Infrastructure.Data.Core.Specification.Specification`1::op_LogicalNot(DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>)",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.Specification.Specification`1::op_False(DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>)",
+        "System.Boolean DigisatServer.Infrastructure.Data.Core.Specification.Specification`1::op_True(DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>)",
+        "System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Specification.Specification`1::SatisfiedBy()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.Specification`1::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Specification.TrueSpecification`1",
+      "baseType": "DigisatServer.Infrastructure.Data.Core.Specification.Specification`1<TEntity>",
+      "interfaces": [],
+      "methods": [
+        "System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>> DigisatServer.Infrastructure.Data.Core.Specification.TrueSpecification`1::SatisfiedBy()",
+        "System.Void DigisatServer.Infrastructure.Data.Core.Specification.TrueSpecification`1::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Util`1",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "MongoDB.Driver.IMongoClient DigisatServer.Infrastructure.Data.Core.Util`1::CreateClient(MongoDB.Driver.MongoServerAddress,System.Int32,System.Int32,MongoDB.Driver.MongoCredential)",
+        "MongoDB.Driver.IMongoClient DigisatServer.Infrastructure.Data.Core.Util`1::CreateClientWithoutReplicaSetAndCredentials(MongoDB.Driver.MongoServerAddress)",
+        "MongoDB.Driver.IMongoCollection`1<TEntity> DigisatServer.Infrastructure.Data.Core.Util`1::GetCollectionFromMongoServerAddress(MongoDB.Driver.MongoServerAddress,System.String)",
+        "MongoDB.Driver.IMongoCollection`1<TEntity> DigisatServer.Infrastructure.Data.Core.Util`1::GetCollectionFromMongoServerAddress(MongoDB.Driver.MongoServerAddress)",
+        "MongoDB.Driver.IMongoDatabase DigisatServer.Infrastructure.Data.Core.Util`1::GetDatabaseFromAddress(MongoDB.Driver.MongoServerAddress,System.String)",
+        "MongoDB.Driver.MongoCredential DigisatServer.Infrastructure.Data.Core.Util`1::GetMongoCredential(System.String)",
+        "MongoDB.Driver.MongoServerAddress DigisatServer.Infrastructure.Data.Core.Util`1::GetDefaultMongoServerAddress(System.Int32)",
+        "System.String DigisatServer.Infrastructure.Data.Core.Util`1::GetDefaultMongoDbDatabaseName()"
+      ],
+      "fields": []
+    }
+  ],
+  "exceptions": [
+    {
+      "method": "System.Void DigisatServer.Infrastructure.Data.Core.Mappings.EntityMongoMap::Initialize()",
+      "token": "[Method:0x00ff]",
+      "catchType": "System.TimeoutException"
+    }
+  ],
+  "resources": [
+    {
+      "name": "DigisatServer.Infrastructure.Data.Core.Resources.Messages.resources",
+      "bytes": 697,
+      "sha256": "f517eee17be47802031c2329243d74ebee3279464fefcdb8749563683d7f916f"
+    }
+  ],
+  "references": [
+    "Akka, Version=1.3.2.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting, Version=1.1.1.1, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting.NetFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Bson, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Driver, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Driver.Core, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+    "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System.Reactive.Core, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263",
+    "System.Reactive.Linq, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263",
+    "System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "runs": [
+    {
+      "name": "SyncRuntimeProof",
+      "assertions": 6,
+      "harness_sha256": "d312bddbf8177195dcb4f965f8ae0862c1e92ff3ccd22b37f96d64f0184c4481",
+      "results_sha256": "9c418a6b4d5081b2c7aee850b45ffd5e1857a28771c6e960a5a3701ee97c0803",
+      "original_baseline_sha256": "f4f63d93d4bfc163fe456d10dc8cba5331d0480cfeb74bbfe91e833b62293254",
+      "checks_equal_to_original": true
+    },
+    {
+      "name": "ReplicationRuntimeProof",
+      "assertions": 13,
+      "harness_sha256": "a086c6470587daa74ec60d43094dfdd4cfc600e8d23a468824ca7cb3de2ab5e9",
+      "results_sha256": "02e429918700a7992eabf8e1329ca350c14de61a9f6da09e2437eb49e9ed18a0",
+      "original_baseline_sha256": "69561e99a4e460eb36ff3665ad31ca7d20d79f15f4a8c361e0a25f4413156845",
+      "checks_equal_to_original": true
+    }
+  ],
+  "rebuilt_target_sha256": "17df408b6203fea857c129287bea356ae01b7ba26e5bf8105b7641b7a2e760b7",
+  "scope": "Native CLR, synthetic collections/cursors/recipients/logger; no services/database/network"
+}

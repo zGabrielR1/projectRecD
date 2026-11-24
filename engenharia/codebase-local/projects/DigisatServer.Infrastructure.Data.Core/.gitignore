@@ -1,0 +1,7 @@
+bin/
+tests/bin/
+references/
+baseline/
+tooling/*.dll
+tooling/*.runtimeconfig.json
+source/Data.Core.raw.cs

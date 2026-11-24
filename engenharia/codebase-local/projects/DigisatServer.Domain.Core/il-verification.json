@@ -1,0 +1,65 @@
+{
+  "original_sha256": "fcd29ec09a65eaa8397ccc6b63f6630c61b6fb99293c4a863162d7382928d9ff",
+  "rebuilt_sha256": "5c532cbb09dcd41c0af4e837252764322b409fe137abb765ea1ae63747fa5c35",
+  "rebuilt_mvid": "133d31ca-a4db-4ce9-b4ae-2f4f36aca8b7",
+  "comparison": {
+    "all_original_named_type_surfaces_equal": true,
+    "resources_equal": true,
+    "assembly_references_equal": false,
+    "only_reference_difference_is_unused_obfuscator_ref": true,
+    "type_count_equal": true,
+    "method_count_equal": true,
+    "selected_checks_equal": true
+  },
+  "runs": [
+    {
+      "mode": "original",
+      "inputs": [
+        {
+          "path": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Domain.Core.dll",
+          "sha256": "fcd29ec09a65eaa8397ccc6b63f6630c61b6fb99293c4a863162d7382928d9ff"
+        },
+        {
+          "path": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Data.Core.dll",
+          "sha256": "51fb587ae4a006c95cf4bd7b36ba9fb65951f6893fbdadc76fdcb04f849c983b"
+        },
+        {
+          "path": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Crosscutting.dll",
+          "sha256": "a75faa4e67bfb3858ee5f709751079d52e8216faddbcf914d0a4bcb2649f2dd4"
+        },
+        {
+          "path": "C:\\Digisat\\SuiteG6\\Sistema\\MongoDB.Bson.dll",
+          "sha256": "77fc1b24bc91c2a621fff0f0032e73516f4f4484d22b5d6b9926f623d76ce975"
+        }
+      ],
+      "assertions": 13,
+      "results_sha256": "6ef39de482805360602bfeb3672b35850c2c11b2867d5cd7c08af27061cd8f0c",
+      "harness_sha256": "a639ccf2a646c736eb6b29561db54946af66d39031beb4262c1f1cf7aed16418"
+    },
+    {
+      "mode": "il-rebuilt",
+      "inputs": [
+        {
+          "path": "D:\\Downloads\\stuff\\ProjetoIADuo\\projetoIADigisat\\engenharia\\codebase-local\\projects-il\\DigisatServer.Domain.Core\\bin\\DigisatServer.Domain.Core.dll",
+          "sha256": "5c532cbb09dcd41c0af4e837252764322b409fe137abb765ea1ae63747fa5c35"
+        },
+        {
+          "path": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Data.Core.dll",
+          "sha256": "51fb587ae4a006c95cf4bd7b36ba9fb65951f6893fbdadc76fdcb04f849c983b"
+        },
+        {
+          "path": "C:\\Digisat\\SuiteG6\\Sistema\\DigisatServer.Infrastructure.Crosscutting.dll",
+          "sha256": "a75faa4e67bfb3858ee5f709751079d52e8216faddbcf914d0a4bcb2649f2dd4"
+        },
+        {
+          "path": "C:\\Digisat\\SuiteG6\\Sistema\\MongoDB.Bson.dll",
+          "sha256": "77fc1b24bc91c2a621fff0f0032e73516f4f4484d22b5d6b9926f623d76ce975"
+        }
+      ],
+      "assertions": 13,
+      "results_sha256": "28bd2eb891ed66532373a97715d0627fa891a9c88189e0bba4adba2b527448d2",
+      "harness_sha256": "a639ccf2a646c736eb6b29561db54946af66d39031beb4262c1f1cf7aed16418"
+    }
+  ],
+  "scope": "API/resource/reference metadata plus 13 selected pure domain checks; no complete application equivalence claim."
+}

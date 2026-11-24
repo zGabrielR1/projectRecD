@@ -1,0 +1,67 @@
+{
+  "schema": "insight.nfce.mapping.v1",
+  "database": "PREENCHER_BANCO",
+  "issuer_cnpj": "00000000000000",
+  "environment": "1",
+  "company_id": {"$oid": "000000000000000000000000"},
+  "company": {},
+  "customer": {},
+  "products": {
+    "CODIGO_CPROD_NO_XML": {
+      "reference": {"$oid": "000000000000000000000000"},
+      "snapshot": {},
+      "percentual": {},
+      "ipi": {},
+      "pis": {},
+      "cofins": {},
+      "operacao_fiscal": {},
+      "estoque_movimentacao": {}
+    }
+  },
+  "movement": {
+    "_t": ["Movimentacao", "DocumentoAuxiliar", "DocumentoFiscal", "DocumentoFiscalEletronico", "NotaFiscalConsumidorEletronica"],
+    "Ativo": true,
+    "MovimentacaoItemFinanceiro": false,
+    "ImportouXml": true,
+    "NomeUsuario": "DigiSat Insight XML",
+    "Empresa": {"$bind": "profile.company"},
+    "Pessoa": {"$bind": "profile.customer"},
+    "Situacao": {"_t": "Concluido", "Codigo": 2, "Descricao": "Concluído", "Cor": "#006400", "DescricaoComando": "Concluir"},
+    "FinalidadeEmissaoNfe": {"_t": "NFeNormal", "Codigo": 1, "Descricao": "Normal"},
+    "NaturezaOperacao": {"_t": "Venda", "Codigo": 1, "Descricao": "Venda"},
+    "DataHoraEntradaSaida": {"$bind": "issued_at"},
+    "NumeroProtocolo": {"$bind": "invoice.authorization_protocol"},
+    "TipoAmbiente": {"$bind": "invoice.environment", "type": "int"},
+    "Historicos": [{"DataHora": {"$bind": "issued_at"}, "NomeUsuario": "DigiSat Insight XML", "Observacao": "Importação histórica de XML autorizado", "SituacaoMovimentacao": {"_t": "Concluido", "Codigo": 2, "Descricao": "Concluído"}}],
+    "Troco": {"$bind": "xml:pag/vTroco", "type": "double", "default": "0"}
+  },
+  "item": {
+    "_t": ["ItemBase", "Item", "ItemDocumentoAuxiliar", "ItemDocumentoFiscal", "ItemDocumentoFiscalSaida", "ItemDocumentoFiscalSaidaProduto"],
+    "ProdutoServicoEmpresaReferencia": {"$bind": "product.reference"},
+    "ProdutoServico": {"$bind": "product.snapshot"},
+    "Empresa": {"$bind": "profile.company"},
+    "Destinatario": {"$bind": "profile.customer"},
+    "DataHora": {"$bind": "issued_at"},
+    "NumeroMovimentacao": {"$bind": "number"},
+    "Quantidade": {"$bind": "item.quantity", "type": "double"},
+    "PrecoUnitario": {"$bind": "item.unit_price", "type": "double"},
+    "DecimaisQuantidade": 4,
+    "DecimaisPrecoUnitario": 10,
+    "Cancelado": false,
+    "DescontoDigitado": {"$bind": "item.discount", "type": "double"},
+    "DescontoProporcional": 0.0,
+    "OutrasDespesasDigitado": {"$bind": "xml:prod/vOutro", "type": "double", "default": "0"},
+    "OutrasDespesasProporcional": 0.0,
+    "Frete": {"$bind": "xml:prod/vFrete", "type": "double", "default": "0"},
+    "Seguro": {"$bind": "xml:prod/vSeg", "type": "double", "default": "0"},
+    "Percentual": {"$bind": "product.percentual"},
+    "IPI": {"$bind": "product.ipi"},
+    "PIS": {"$bind": "product.pis"},
+    "COFINS": {"$bind": "product.cofins"},
+    "OperacaoFiscal": {"$bind": "product.operacao_fiscal"},
+    "EstoqueMovimentacao": {"$bind": "product.estoque_movimentacao"}
+  },
+  "payments": {
+    "01": {"_t": ["ItemPagamento", "ItemPagamentoDinheiro"], "Valor": {"$bind": "xml:vPag", "type": "double"}, "ValorDigitado": {"$bind": "xml:vPag", "type": "double"}}
+  }
+}

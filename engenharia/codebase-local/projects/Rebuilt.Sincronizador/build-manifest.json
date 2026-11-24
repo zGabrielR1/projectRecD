@@ -1,0 +1,33 @@
+{
+  "compiler_sha256": "03a90c0454a9320dc853796f40fb113f5d6bbbb4b0b0eee6ae012551dd056255",
+  "modules": [
+    {
+      "name": "SincronizadorG6.exe",
+      "compiled": true,
+      "source_sha256": "b42845566ed330107d4c3de2ae9d215fbdde287739971b37074dda65e3849f2d",
+      "source_modified": false,
+      "output_sha256": "84f2516b9b0350b708213189a191c33e69548eedb66fa44c864f228f55e7bca3",
+      "output_mvid": "ed9cd3c1-1196-44b1-87ba-390f5667efa3",
+      "original_named_type_surfaces": 5,
+      "original_api_surfaces_equal": true,
+      "embedded_resources_equal": true,
+      "assembly_references_equal": false,
+      "entrypoint_never_executed": true,
+      "production_replacement": false
+    },
+    {
+      "name": "DigisatServer.Distributed.Akka.Main.dll",
+      "compiled": true,
+      "source_sha256": "5a4b306ebdc661e49d0ba608edbb981d9f17ef0653b5341e96e79557c90dcc04",
+      "source_modified": false,
+      "output_sha256": "14c712dc0ba06a24dee909e151bd35626ff1901d1fda4f91b92072c48d3bedfd",
+      "output_mvid": "10f6f9c7-72d6-4b6d-89f8-2d0d739522fc",
+      "original_named_type_surfaces": 16,
+      "original_api_surfaces_equal": true,
+      "embedded_resources_equal": true,
+      "assembly_references_equal": true,
+      "entrypoint_never_executed": true,
+      "production_replacement": false
+    }
+  ]
+}

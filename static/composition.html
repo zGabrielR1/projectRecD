@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Compras de composição · DigiSat Insight</title>
+  <script src="/static/theme.js?v=pebble-1"></script>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/static/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/theme.css">
+  <link rel="stylesheet" href="/static/pebble.css?v=2">
+  <link rel="stylesheet" href="/static/pebble-layout.css?v=3">
+  <link rel="stylesheet" href="/static/pulse.css?v=2">
+  <link rel="stylesheet" href="/static/composition.css?v=1">
+  <link rel="stylesheet" href="/static/light.css?v=1">
+  <script src="/static/pebble.js?v=3" defer></script>
+  <script src="/static/composition.js?v=1" defer></script>
+</head>
+<body class="suite-page composition-page">
+<a class="skip" href="#compositionMain">Pular para o relatório</a>
+<main id="compositionMain" class="composition-shell">
+  <header class="composition-header">
+    <div>
+      <p class="eyebrow">DIGISAT INSIGHT · COMPOSIÇÃO</p>
+      <h1>Compras de composição</h1>
+      <p class="composition-intro">Veja quanto entrou de cada componente e quantas composições podem ser montadas com as compras do período.</p>
+    </div>
+    <button id="themeToggle" type="button" class="secondary theme-toggle"><span id="themeLabel">Modo claro</span></button>
+  </header>
+
+  <section class="composition-filter-panel panel" aria-label="Filtros de compras de composição">
+    <form id="compositionForm">
+      <div class="filter-grid">
+        <label>Empresa<select id="company" required><option value="">Carregando empresas…</option></select></label>
+        <label>Data inicial<input id="start" type="date" required></label>
+        <label>Data final<input id="end" type="date" required></label>
+        <label>Composição<select id="composition"><option value="">Todas as composições</option></select></label>
+      </div>
+      <div class="filter-grid filter-grid-secondary">
+        <label class="search-field">Pesquisar composição ou componente<input id="search" type="search" maxlength="100" placeholder="Código, descrição ou componente"></label>
+        <label class="check"><input id="concluded" type="checkbox" checked> Somente compras concluídas</label>
+        <label class="check"><input id="optional" type="checkbox" checked> Mostrar componentes opcionais</label>
+      </div>
+      <div class="filter-actions">
+        <button id="run" class="primary" type="submit">Consultar compras</button>
+        <span id="filterStatus" role="status">Carregando empresas…</span>
+      </div>
+    </form>
+  </section>
+
+  <div id="notice" class="composition-notice" role="status" hidden></div>
+  <p id="error" class="composition-error" role="alert" hidden></p>
+
+  <section id="empty" class="composition-empty panel" aria-live="polite">
+    <span class="composition-empty-icon" aria-hidden="true">◎</span>
+    <h2>Comece pelo período e pela empresa</h2>
+    <p>O relatório usa as compras registradas no SuiteG6 e a lista de componentes da composição. Nenhum dado é alterado.</p>
+  </section>
+
+  <section id="result" hidden aria-label="Resultado das compras de composição">
+    <div class="result-heading">
+      <div>
+        <p class="eyebrow">RESULTADO</p>
+        <h2 id="resultTitle">Compras de composição</h2>
+        <p id="resultPeriod"></p>
+      </div>
+      <div class="result-heading-actions">
+        <div id="resultBadges" class="result-badges"></div>
+        <button id="exportCsv" class="secondary" type="button" disabled>Exportar CSV</button>
+      </div>
+    </div>
+    <div id="summary" class="composition-summary"></div>
+    <div id="compositions" class="composition-list"></div>
+    <details class="composition-method">
+      <summary>Como o cálculo é feito</summary>
+      <div id="method"></div>
+    </details>
+    <details class="composition-warnings">
+      <summary>Avisos e regras <span id="warningCount"></span></summary>
+      <ul id="warnings"></ul>
+    </details>
+    <p id="provenance" class="composition-provenance"></p>
+  </section>
+</main>
+
+<dialog id="authDialog" aria-labelledby="authTitle">
+  <form id="authForm">
+    <h2 id="authTitle">Acessar o Insight</h2>
+    <p>Informe as credenciais configuradas para este painel.</p>
+    <label>Usuário<input id="authUser" autocomplete="username" required></label>
+    <label>Senha<input id="authPassword" type="password" autocomplete="current-password" required></label>
+    <div class="filter-actions">
+      <button type="submit">Entrar</button>
+      <button id="authCancel" type="button" class="secondary">Cancelar</button>
+    </div>
+  </form>
+</dialog>
+</body>
+</html>

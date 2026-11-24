@@ -1,0 +1,30 @@
+{
+  "service": "DigisatServer.Application.Main.AuxiliaresModulo.Services.MovimentacaoSaidaRelatorioAppService",
+  "originalServiceMethods": 75,
+  "rebuiltServiceMethods": 74,
+  "comparedDeclaredMethods": 74,
+  "ignoredOriginalGeneratedMethods": [
+    "\u003C\u003Ef__AnonymousType110\u00609\u003CSystem.String,System.String,System.Int64,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal\u003E DigisatServer.Application.Main.AuxiliaresModulo.Services.MovimentacaoSaidaRelatorioAppService::\u003CObterItensVendidosComFcp\u003Eb__45_8(DigisatServer.Domain.Main.Aggregates.MovimentacoesAgg.Itens.IItemDocumentoAuxiliarProduto)"
+  ],
+  "methodsMatch": true,
+  "fieldsMatch": true,
+  "interfacesMatch": true,
+  "assemblyReferences": [
+    "DevExpress.Mvvm.v15.2, Version=15.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a",
+    "DigisatServer.Application.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Application.Main.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Domain.Main, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting, Version=1.1.1.1, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Crosscutting.Concentrador, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Data.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Bson, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  ],
+  "framework": [
+    ".NETFramework,Version=v4.8"
+  ],
+  "scope": "Complete selected service class and signatures; not whole Application.Main assembly, production integration or behavior equivalence of every method"
+}

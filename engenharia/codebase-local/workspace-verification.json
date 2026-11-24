@@ -1,0 +1,9 @@
+{
+  "recovered_projects_present": 218,
+  "csharp_files_recorded": 22126,
+  "verified_solution_projects": 2,
+  "selected_behavior_assertions": 35,
+  "source_linked_data_core_matches": true,
+  "domain_core_build_block_recorded": true,
+  "scope": "Recorded coverage, solution paths, build outputs and selected proofs; not full product equivalence"
+}

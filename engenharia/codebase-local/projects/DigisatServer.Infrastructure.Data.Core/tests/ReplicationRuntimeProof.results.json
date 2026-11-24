@@ -1,0 +1,112 @@
+{
+  "assembly": "DigisatServer.Infrastructure.Data.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "mvid": "d5b28740-50fd-4832-b2b6-f9affb4cbd2b",
+  "runtime": "Native CLR 4.0.30319.42000",
+  "assertions": 13,
+  "checks": [
+    {
+      "label": "insert emits original DTO coordinates",
+      "passed": true,
+      "observed": {
+        "Id": "0123456789abcdef01234567",
+        "CollectionAffected": "rows"
+      }
+    },
+    {
+      "label": "insert adds source marker only to clone",
+      "passed": true,
+      "observed": {
+        "outgoing": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\"), \"Name\" : \"fixture\", \"__sourceid__\" : \"source-fixture\" }",
+        "original": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\"), \"Name\" : \"fixture\" }"
+      }
+    },
+    {
+      "label": "checkpoint advances after Tell without recipient processing",
+      "passed": true,
+      "observed": {
+        "writes": 1,
+        "recipientProcessingPerformed": false
+      }
+    },
+    {
+      "label": "set modifier omits source marker",
+      "passed": true,
+      "observed": {
+        "outgoing": "{ \"$set\" : { \"Name\" : \"updated\" } }"
+      }
+    },
+    {
+      "label": "unset modifier receives top-level source marker",
+      "passed": true,
+      "observed": {
+        "outgoing": "{ \"$unset\" : { \"Name\" : 1 }, \"__sourceid__\" : \"source-fixture\" }"
+      }
+    },
+    {
+      "label": "inc modifier receives top-level source marker",
+      "passed": true,
+      "observed": {
+        "outgoing": "{ \"$inc\" : { \"Count\" : 1 }, \"__sourceid__\" : \"source-fixture\" }"
+      }
+    },
+    {
+      "label": "replacement literal differs from BSON key classification",
+      "passed": true,
+      "observed": {
+        "outgoing": "{ \"_id\" : ObjectId(\"0123456789abcdef01234567\"), \"Memo\" : \"literal $set text\", \"__sourceid__\" : \"source-fixture\" }",
+        "containsSetText": true,
+        "hasSetKey": false
+      }
+    },
+    {
+      "label": "physical delete emits no message but advances checkpoint",
+      "passed": true,
+      "observed": {
+        "newMessages": 0,
+        "checkpointIncrement": 6
+      }
+    },
+    {
+      "label": "namespace filtering excludes foreign database",
+      "passed": true,
+      "observed": {
+        "newMessages": 0,
+        "newWrites": 0
+      }
+    },
+    {
+      "label": "empty recipient list still advances checkpoint",
+      "passed": true,
+      "observed": {
+        "writes": 1,
+        "recipientCount": 0
+      }
+    },
+    {
+      "label": "updateLastTs false sends without checkpoint",
+      "passed": true,
+      "observed": {
+        "messages": 1,
+        "writes": 0
+      }
+    },
+    {
+      "label": "echo suppression returns before checkpoint",
+      "passed": true,
+      "observed": {
+        "messages": 0,
+        "writes": 0
+      }
+    },
+    {
+      "label": "recipient throw leaves partial send without checkpoint",
+      "passed": true,
+      "observed": {
+        "failed": true,
+        "firstRecipientMessages": 1,
+        "writes": 0
+      }
+    }
+  ],
+  "scope": "Actual original actor-bound emitter with synthetic ICanTell and checkpoint; no ActorSystem, MongoDB, services, network or customer config"
+}

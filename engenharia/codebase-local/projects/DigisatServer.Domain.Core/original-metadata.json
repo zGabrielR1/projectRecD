@@ -1,0 +1,389 @@
+{
+  "fileSha256": "fcd29ec09a65eaa8397ccc6b63f6630c61b6fb99293c4a863162d7382928d9ff",
+  "mvid": "4cdd4d74-f808-4419-8645-e7924228ecb7",
+  "assembly": "DigisatServer.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "typeCount": 48,
+  "methodCount": 224,
+  "api": [
+    {
+      "name": "<PrivateImplementationDetails>{13807139-3F14-47B5-B987-024BC70ADDE2}/__StaticArrayInitTypeSize=16",
+      "baseType": "System.ValueType",
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "<PrivateImplementationDetails>{13807139-3F14-47B5-B987-024BC70ADDE2}/__StaticArrayInitTypeSize=18",
+      "baseType": "System.ValueType",
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "<PrivateImplementationDetails>{13807139-3F14-47B5-B987-024BC70ADDE2}/__StaticArrayInitTypeSize=256",
+      "baseType": "System.ValueType",
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "<PrivateImplementationDetails>{13807139-3F14-47B5-B987-024BC70ADDE2}/__StaticArrayInitTypeSize=30",
+      "baseType": "System.ValueType",
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "<PrivateImplementationDetails>{13807139-3F14-47B5-B987-024BC70ADDE2}/__StaticArrayInitTypeSize=32",
+      "baseType": "System.ValueType",
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "<PrivateImplementationDetails>{13807139-3F14-47B5-B987-024BC70ADDE2}/__StaticArrayInitTypeSize=40",
+      "baseType": "System.ValueType",
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "<PrivateImplementationDetails>{13807139-3F14-47B5-B987-024BC70ADDE2}/__StaticArrayInitTypeSize=64",
+      "baseType": "System.ValueType",
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.Entity",
+      "baseType": "DigisatServer.Domain.Core.EntityVersao",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1<MongoDB.Bson.ObjectId>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao"
+      ],
+      "methods": [
+        "System.Boolean DigisatServer.Domain.Core.Entity::get_Ativo()",
+        "System.Void DigisatServer.Domain.Core.Entity::.ctor()",
+        "System.Void DigisatServer.Domain.Core.Entity::.ctor(System.Boolean,System.TimeSpan,MongoDB.Bson.ObjectId)",
+        "System.Void DigisatServer.Domain.Core.Entity::Ativar()",
+        "System.Void DigisatServer.Domain.Core.Entity::Desativar()",
+        "System.Void DigisatServer.Domain.Core.Entity::set_Ativo(System.Boolean)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.EntityBase",
+      "baseType": "System.Object",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1<MongoDB.Bson.ObjectId>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase"
+      ],
+      "methods": [
+        "MongoDB.Bson.ObjectId DigisatServer.Domain.Core.EntityBase::get_Id()",
+        "System.Collections.Generic.IReadOnlyCollection`1<System.String> DigisatServer.Domain.Core.EntityBase::get_InformacoesPesquisa()",
+        "System.DateTime DigisatServer.Domain.Core.EntityBase::get_DataInclusao()",
+        "System.Void DigisatServer.Domain.Core.EntityBase::.ctor()",
+        "System.Void DigisatServer.Domain.Core.EntityBase::.ctor(MongoDB.Bson.ObjectId)",
+        "System.Void DigisatServer.Domain.Core.EntityBase::AdicionarInformacaoPesquisa(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Void DigisatServer.Domain.Core.EntityBase::AdicionarInformacaoPesquisa(System.String)",
+        "System.Void DigisatServer.Domain.Core.EntityBase::LimparInformacoesPesquisa()",
+        "System.Void DigisatServer.Domain.Core.EntityBase::RemoverInformacaoPesquisa(System.String[])",
+        "System.Void DigisatServer.Domain.Core.EntityBase::set_Id(MongoDB.Bson.ObjectId)",
+        "System.Void DigisatServer.Domain.Core.EntityBase::set_InformacoesPesquisa(System.Collections.Generic.IReadOnlyCollection`1<System.String>)",
+        "System.Void DigisatServer.Domain.Core.EntityBase::Visit(DigisatServer.Infrastructure.Crosscutting.Interfaces.IVisitor)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.EntityBaseEmpresaSpecification`1",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityBaseEmpresaSpecification`1::PorEmpresa(MongoDB.Bson.ObjectId)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityBaseEmpresaSpecification`1::PorEmpresa(System.String)",
+        "System.Void DigisatServer.Domain.Core.EntityBaseEmpresaSpecification`1::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.EntityBaseSpecification`1",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityBaseSpecification`1::All()",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityBaseSpecification`1::PorDataInclusao(System.DateTime,System.DateTime)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityBaseSpecification`1::PorId(MongoDB.Bson.ObjectId)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityBaseSpecification`1::PorId(System.String)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityBaseSpecification`1::PorInformacaoPesquisa(System.String)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.EntityEmpresaSpecification`1",
+      "baseType": "DigisatServer.Domain.Core.EntityBaseEmpresaSpecification`1<T>",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityEmpresaSpecification`1::AtivoPorEmpresa(MongoDB.Bson.ObjectId)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityEmpresaSpecification`1::AtivoPorEmpresa(System.String)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityEmpresaSpecification`1::InativoPorEmpresa(System.String)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityEmpresaSpecification`1::PorId(System.String)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntityEmpresaSpecification`1::PorIds(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Void DigisatServer.Domain.Core.EntityEmpresaSpecification`1::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.EntitySpecification`1",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntitySpecification`1::All()",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntitySpecification`1::Ativo()",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntitySpecification`1::Inativo()",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntitySpecification`1::PorId(MongoDB.Bson.ObjectId)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntitySpecification`1::PorId(System.String)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntitySpecification`1::PorIntervaloId(MongoDB.Bson.ObjectId,MongoDB.Bson.ObjectId)",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.ISpecification`1<T> DigisatServer.Domain.Core.EntitySpecification`1::VersaoMaiorQue(System.TimeSpan)",
+        "System.Void DigisatServer.Domain.Core.EntitySpecification`1::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.EntityTree`1",
+      "baseType": "DigisatServer.Domain.Core.Entity",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1<MongoDB.Bson.ObjectId>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityTree",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao"
+      ],
+      "methods": [
+        "System.Boolean DigisatServer.Domain.Core.EntityTree`1::get_IsPrincipal()",
+        "System.Boolean DigisatServer.Domain.Core.EntityTree`1::get_IsUltimoNivel()",
+        "System.Collections.Generic.IEnumerable`1<DigisatServer.Domain.Core.IItemAgrupamento> DigisatServer.Domain.Core.EntityTree`1::get_Itens()",
+        "System.Collections.Generic.IEnumerable`1<System.String> DigisatServer.Domain.Core.EntityTree`1::get_CodigosUnico()",
+        "System.Collections.Generic.IEnumerable`1<T> DigisatServer.Domain.Core.EntityTree`1::get_Branches()",
+        "System.Collections.Generic.IEnumerable`1<T> DigisatServer.Domain.Core.EntityTree`1::Obter()",
+        "System.Decimal DigisatServer.Domain.Core.EntityTree`1::get_Valor()",
+        "System.Decimal DigisatServer.Domain.Core.EntityTree`1::get_ValorVisivelDre()",
+        "System.String DigisatServer.Domain.Core.EntityTree`1::get_CodigoUnico()",
+        "System.String DigisatServer.Domain.Core.EntityTree`1::get_CodigoUnicoAntecessor()",
+        "System.String DigisatServer.Domain.Core.EntityTree`1::get_Descricao()",
+        "System.String DigisatServer.Domain.Core.EntityTree`1::ToString()",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::.ctor()",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::.ctor(System.String,System.String,System.String,System.Boolean,System.TimeSpan,MongoDB.Bson.ObjectId)",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::DesativarTodos()",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::ProcessarItens(System.Collections.Generic.IEnumerable`1<DigisatServer.Domain.Core.IItemEntityTreeValor>)",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::set_Branches(System.Collections.Generic.IEnumerable`1<T>)",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::set_CodigosUnico(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::set_CodigoUnico(System.String)",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::set_CodigoUnicoAntecessor(System.String)",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::set_Descricao(System.String)",
+        "System.Void DigisatServer.Domain.Core.EntityTree`1::SetarCodigoUnico(System.String)",
+        "T DigisatServer.Domain.Core.EntityTree`1::Adicionar(T)",
+        "T DigisatServer.Domain.Core.EntityTree`1::Atualizar(T)",
+        "T DigisatServer.Domain.Core.EntityTree`1::Obter(System.String)"
+      ],
+      "fields": [
+        "System.Collections.Generic.IEnumerable`1<DigisatServer.Domain.Core.IItemEntityTreeValor> DigisatServer.Domain.Core.EntityTree`1::_itens"
+      ]
+    },
+    {
+      "name": "DigisatServer.Domain.Core.EntityVersao",
+      "baseType": "DigisatServer.Domain.Core.EntityBase",
+      "interfaces": [
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntity`1<MongoDB.Bson.ObjectId>",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityBase",
+        "DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao"
+      ],
+      "methods": [
+        "System.TimeSpan DigisatServer.Domain.Core.EntityVersao::get_Versao()",
+        "System.Void DigisatServer.Domain.Core.EntityVersao::.ctor()",
+        "System.Void DigisatServer.Domain.Core.EntityVersao::.ctor(System.TimeSpan,MongoDB.Bson.ObjectId)",
+        "System.Void DigisatServer.Domain.Core.EntityVersao::AtualizarVersao(System.TimeSpan)",
+        "System.Void DigisatServer.Domain.Core.EntityVersao::set_Versao(System.TimeSpan)",
+        "System.Void DigisatServer.Domain.Core.EntityVersao::TestarVersao(DigisatServer.Infrastructure.Data.Core.Interfaces.IEntityVersao)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.Events.DepoisAdicionarEntityEvent`1",
+      "baseType": "DigisatServer.Domain.Core.Events.EntityEvent`1<T>",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Domain.Core.Events.DepoisAdicionarEntityEvent`1::.ctor(T)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.Events.DepoisAtualizarEntityEvent`1",
+      "baseType": "DigisatServer.Domain.Core.Events.EntityEvent`1<T>",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Domain.Core.Events.DepoisAtualizarEntityEvent`1::.ctor(T)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.Events.DomainEvent",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Domain.Core.Events.DomainEvent::Raise(T)",
+        "System.Void DigisatServer.Domain.Core.Events.DomainEvent::Register(System.Action`1<T>)"
+      ],
+      "fields": [
+        "DigisatServer.Domain.Core.Events.IEventContainer DigisatServer.Domain.Core.Events.DomainEvent::Container"
+      ]
+    },
+    {
+      "name": "DigisatServer.Domain.Core.Events.EntityEvent`1",
+      "baseType": "System.Object",
+      "interfaces": [
+        "DigisatServer.Domain.Core.Events.IDomainEvent"
+      ],
+      "methods": [
+        "System.Void DigisatServer.Domain.Core.Events.EntityEvent`1::.ctor()",
+        "System.Void DigisatServer.Domain.Core.Events.EntityEvent`1::.ctor(T)",
+        "System.Void DigisatServer.Domain.Core.Events.EntityEvent`1::set_Entity(T)",
+        "T DigisatServer.Domain.Core.Events.EntityEvent`1::get_Entity()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.Events.IDomainEvent",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.Events.IDomainEventHandler`1",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.Void DigisatServer.Domain.Core.Events.IDomainEventHandler`1::Handle(T)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.Events.IEventContainer",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<DigisatServer.Domain.Core.Events.IDomainEventHandler`1<T>> DigisatServer.Domain.Core.Events.IEventContainer::Handlers(T)",
+        "TContainer DigisatServer.Domain.Core.Events.IEventContainer::To()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.HelperObjectId",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "MongoDB.Bson.ObjectId DigisatServer.Domain.Core.HelperObjectId::TryParseReferencia(System.String)",
+        "System.Boolean DigisatServer.Domain.Core.HelperObjectId::IsDefaultOrEmpty(MongoDB.Bson.ObjectId)",
+        "System.Collections.Generic.List`1<MongoDB.Bson.ObjectId> DigisatServer.Domain.Core.HelperObjectId::ConverterStringParaObjectIds(System.Collections.Generic.IEnumerable`1<System.String>)",
+        "System.String DigisatServer.Domain.Core.HelperObjectId::GenerateId()",
+        "System.String DigisatServer.Domain.Core.HelperObjectId::ToStringEmptyWhenDefault(MongoDB.Bson.ObjectId)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.IItemAgrupamento",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<DigisatServer.Domain.Core.IItemAgrupamento> DigisatServer.Domain.Core.IItemAgrupamento::get_Itens()",
+        "System.Decimal DigisatServer.Domain.Core.IItemAgrupamento::get_Valor()",
+        "System.String DigisatServer.Domain.Core.IItemAgrupamento::get_CodigoUnico()",
+        "System.String DigisatServer.Domain.Core.IItemAgrupamento::get_Descricao()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "DigisatServer.Domain.Core.IItemEntityTreeValor",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [
+        "System.Collections.Generic.IEnumerable`1<DigisatServer.Domain.Core.IItemAgrupamento> DigisatServer.Domain.Core.IItemEntityTreeValor::get_Itens()",
+        "System.Decimal DigisatServer.Domain.Core.IItemEntityTreeValor::get_Valor()",
+        "System.String DigisatServer.Domain.Core.IItemEntityTreeValor::get_CodigoUnico()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "JC4f4JafBUq3fNbMvd.CVyPDAoVmbgwxotFko",
+      "baseType": null,
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "JCR2L3MAOJkV1ICmY5.IYWM0aVpfC53gw7Uj2",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Void JCR2L3MAOJkV1ICmY5.IYWM0aVpfC53gw7Uj2::.ctor()"
+      ],
+      "fields": []
+    },
+    {
+      "name": "JCR2L3MAOJkV1ICmY5.IYWM0aVpfC53gw7Uj2/SFU4mbT3GMret7THonf",
+      "baseType": "System.MulticastDelegate",
+      "interfaces": [],
+      "methods": [
+        "System.IAsyncResult JCR2L3MAOJkV1ICmY5.IYWM0aVpfC53gw7Uj2/SFU4mbT3GMret7THonf::BeginInvoke(System.Object,System.AsyncCallback,System.Object)",
+        "System.Void JCR2L3MAOJkV1ICmY5.IYWM0aVpfC53gw7Uj2/SFU4mbT3GMret7THonf::.ctor(System.Object,System.IntPtr)",
+        "System.Void JCR2L3MAOJkV1ICmY5.IYWM0aVpfC53gw7Uj2/SFU4mbT3GMret7THonf::EndInvoke(System.IAsyncResult)",
+        "System.Void JCR2L3MAOJkV1ICmY5.IYWM0aVpfC53gw7Uj2/SFU4mbT3GMret7THonf::Invoke(System.Object)"
+      ],
+      "fields": []
+    },
+    {
+      "name": "jmvaIPxi7ar7Sl8uOk.CkWRbk2EftNA16p4Ja",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [],
+      "fields": []
+    },
+    {
+      "name": "UCflwNTe7cPEp3Tm5f.ffE65Be3sHFoumqO80",
+      "baseType": "System.Object",
+      "interfaces": [],
+      "methods": [
+        "System.Void UCflwNTe7cPEp3Tm5f.ffE65Be3sHFoumqO80::.ctor()"
+      ],
+      "fields": []
+    }
+  ],
+  "exceptions": [],
+  "resources": [
+    {
+      "name": "DigisatServer.Domain.Core.g.resources",
+      "bytes": 180,
+      "sha256": "e13ed2c59366d0eea74863fd71a81f0cb977cce1edfde304fc538690a4f6ac89"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.SplashForm.resources",
+      "bytes": 2804,
+      "sha256": "68ecbff7ef59c0d2d7a34d386d9e1f23c0bd9494fb2b4709adfcefc76e8c9d9c"
+    },
+    {
+      "name": "aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources",
+      "bytes": 5650,
+      "sha256": "fd69c8c2514e47fe7ffb2af4092b5a68c4904b6b5ef787431d99ef7235274440"
+    }
+  ],
+  "references": [
+    "DigisatServer.Infrastructure.Crosscutting, Version=1.1.1.1, Culture=neutral, PublicKeyToken=null",
+    "DigisatServer.Infrastructure.Data.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "MongoDB.Bson, Version=2.4.4.0, Culture=neutral, PublicKeyToken=null",
+    "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "mscorlib, Version=65535.65535.65535.65535, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  ]
+}

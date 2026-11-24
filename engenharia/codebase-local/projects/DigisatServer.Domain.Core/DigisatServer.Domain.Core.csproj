@@ -1,0 +1,21 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{915BA055-9986-4759-81EC-C28717AEB29E}</ProjectGuid>
+    <AssemblyName>DigisatServer.Domain.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="source\Domain.Core.recovered.cs" />
+    <None Include="README.md" />
+    <None Include="recovery-manifest.json" />
+    <None Include="build-manifest.json" />
+  </ItemGroup>
+  <Target Name="Build">
+    <Exec Command="python &quot;$(MSBuildThisFileDirectory)..\..\tools\build_domain_core.py&quot; --compile-only" />
+  </Target>
+  <Target Name="Clean">
+    <Message Text="Build artifacts remain local; no recursive deletion is performed." Importance="high" />
+  </Target>
+</Project>

@@ -1,0 +1,745 @@
+--- MovimentacaoSaidaRelatorioAppService.raw.cs
++++ MovimentacaoSaidaRelatorioAppService.cs
+@@ -709,59 +709,59 @@
+ 					{
+ 						item = item,
+ 						produtoServico = ObterProdutoServico(produtosServicosPorId, item.ProdutoServicoEmpresaReferencia)
+-					}).Select(<>h__TransparentIdentifier0 => new
+-					{
+-						<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-						grupo = subGrupos.FirstOrDefault((SubGrupo x) => x.Id.Equals(<>h__TransparentIdentifier0.produtoServico?.ProdutoServico.SubGrupoReferencia ?? default(ObjectId)))
+-					}).Select(<>h__TransparentIdentifier1 => new
+-					{
+-						<>h__TransparentIdentifier1 = <>h__TransparentIdentifier1,
+-						produto = (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.produtoServico.ProdutoServico as Produto)
++					}).Select(recoveredTransparent0 => new
++					{
++						recoveredTransparent0 = recoveredTransparent0,
++						grupo = subGrupos.FirstOrDefault((SubGrupo x) => x.Id.Equals(recoveredTransparent0.produtoServico?.ProdutoServico.SubGrupoReferencia ?? default(ObjectId)))
++					}).Select(recoveredTransparent1 => new
++					{
++						recoveredTransparent1 = recoveredTransparent1,
++						produto = (recoveredTransparent1.recoveredTransparent0.produtoServico.ProdutoServico as Produto)
+ 					})
+-						.Select(<>h__TransparentIdentifier2 => new
++						.Select(recoveredTransparent2 => new
+ 						{
+-							<>h__TransparentIdentifier2 = <>h__TransparentIdentifier2,
+-							marca = marcas.FirstOrDefault((Marca x) => x.Id.Equals(<>h__TransparentIdentifier2.produto?.Marca?.Id ?? default(ObjectId)))
++							recoveredTransparent2 = recoveredTransparent2,
++							marca = marcas.FirstOrDefault((Marca x) => x.Id.Equals(recoveredTransparent2.produto?.Marca?.Id ?? default(ObjectId)))
+ 						})
+-						.Select(<>h__TransparentIdentifier3 => new
++						.Select(recoveredTransparent3 => new
+ 						{
+-							<>h__TransparentIdentifier3 = <>h__TransparentIdentifier3,
+-							precoEntrada = ((<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.produtoServico is ServicoEmpresa) ? <>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.produtoServico.ValorCusto : ((opcaoPreco.Codigo == 1) ? <>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.produtoServico.ValorCusto : ((opcaoPreco.Codigo == 4) ? RetornarPrecoCustoAnteriorADataMovimentacao(historicosPrecoCusto, <>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.DataHora, <>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.produtoServico.Preco.Id) : ((opcaoPreco.Codigo == 2) ? <>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.produtoServico.To<ProdutoEmpresa>().ValorCustoMedio : <>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.produtoServico.To<ProdutoEmpresa>().PrecoUltimaCompra))))
++							recoveredTransparent3 = recoveredTransparent3,
++							precoEntrada = ((recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.produtoServico is ServicoEmpresa) ? recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.produtoServico.ValorCusto : ((opcaoPreco.Codigo == 1) ? recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.produtoServico.ValorCusto : ((opcaoPreco.Codigo == 4) ? RetornarPrecoCustoAnteriorADataMovimentacao(historicosPrecoCusto, recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.DataHora, recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.produtoServico.Preco.Id) : ((opcaoPreco.Codigo == 2) ? recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.produtoServico.To<ProdutoEmpresa>().ValorCustoMedio : recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.produtoServico.To<ProdutoEmpresa>().PrecoUltimaCompra))))
+ 						})
+-						.Where(<>h__TransparentIdentifier4 => <>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.produtoServico != null && !<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.Cancelado)
+-						.Where(<>h__TransparentIdentifier4 => string.IsNullOrEmpty(produtoServicoEmpresaReferencia) || <>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.ProdutoServicoEmpresaReferencia.Equals(produtoServicoEmpresaReferencia.TryParseReferencia()))
+-						.Select(<>h__TransparentIdentifier4 => new
++						.Where(recoveredTransparent4 => recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.produtoServico != null && !recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.Cancelado)
++						.Where(recoveredTransparent4 => string.IsNullOrEmpty(produtoServicoEmpresaReferencia) || recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.ProdutoServicoEmpresaReferencia.Equals(produtoServicoEmpresaReferencia.TryParseReferencia()))
++						.Select(recoveredTransparent4 => new
+ 						{
+-							<>h__TransparentIdentifier4 = <>h__TransparentIdentifier4,
+-							venda = <>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.TotalLiquido
++							recoveredTransparent4 = recoveredTransparent4,
++							venda = recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.TotalLiquido
+ 						})
+-						.Select(<>h__TransparentIdentifier5 => new
++						.Select(recoveredTransparent5 => new
+ 						{
+-							<>h__TransparentIdentifier5 = <>h__TransparentIdentifier5,
+-							custo = <>h__TransparentIdentifier5.<>h__TransparentIdentifier4.precoEntrada * <>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.Quantidade
++							recoveredTransparent5 = recoveredTransparent5,
++							custo = recoveredTransparent5.recoveredTransparent4.precoEntrada * recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.Quantidade
+ 						})
+-						.Select(<>h__TransparentIdentifier6 => new
++						.Select(recoveredTransparent6 => new
+ 						{
+-							<>h__TransparentIdentifier6 = <>h__TransparentIdentifier6,
+-							valorLucro = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.venda - <>h__TransparentIdentifier6.custo
++							recoveredTransparent6 = recoveredTransparent6,
++							valorLucro = recoveredTransparent6.recoveredTransparent5.venda - recoveredTransparent6.custo
+ 						})
+-						.Select(<>h__TransparentIdentifier7 => new LucroProdutoVendidoDto
++						.Select(recoveredTransparent7 => new LucroProdutoVendidoDto
+ 						{
+ 							Cnpj = documentoFiscal.Empresa.CpfCnpjFormatado.ToStringEmptyWhenNull(),
+ 							Empresa = documentoFiscal.Empresa.Nome.ToStringEmptyWhenNull().RemoverCaracteresNaoImprimiveis(),
+-							CustoTotal = <>h__TransparentIdentifier7.<>h__TransparentIdentifier6.custo,
+-							VendaTotal = <>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.venda,
+-							ValorLucro = <>h__TransparentIdentifier7.valorLucro,
+-							Descricao = <>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.ProdutoServico.Descricao.ToStringEmptyWhenNull(),
+-							Quantidade = <>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.Quantidade,
+-							CodigoInterno = <>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.ProdutoServico.CodigoInterno.ToStringEmptyWhenNull(),
+-							PrecoUnitarioVenda = <>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.PrecoUnitario,
+-							PrecoUnitarioCusto = <>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.precoEntrada,
+-							TipoProdutoServico = <>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.ProdutoServico.Tipo,
+-							Subgrupo = (<>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.grupo?.Descricao ?? string.Empty),
+-							SubgrupoReferencia = (<>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.grupo?.Id.ToStringEmptyWhenDefault() ?? string.Empty),
+-							Marca = (<>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.marca?.Descricao ?? string.Empty),
+-							MarcaReferencia = (<>h__TransparentIdentifier7.<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.marca?.Id.ToStringEmptyWhenDefault() ?? string.Empty)
++							CustoTotal = recoveredTransparent7.recoveredTransparent6.custo,
++							VendaTotal = recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.venda,
++							ValorLucro = recoveredTransparent7.valorLucro,
++							Descricao = recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.ProdutoServico.Descricao.ToStringEmptyWhenNull(),
++							Quantidade = recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.Quantidade,
++							CodigoInterno = recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.ProdutoServico.CodigoInterno.ToStringEmptyWhenNull(),
++							PrecoUnitarioVenda = recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.PrecoUnitario,
++							PrecoUnitarioCusto = recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.precoEntrada,
++							TipoProdutoServico = recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.ProdutoServico.Tipo,
++							Subgrupo = (recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.grupo?.Descricao ?? string.Empty),
++							SubgrupoReferencia = (recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.grupo?.Id.ToStringEmptyWhenDefault() ?? string.Empty),
++							Marca = (recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.marca?.Descricao ?? string.Empty),
++							MarcaReferencia = (recoveredTransparent7.recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.marca?.Id.ToStringEmptyWhenDefault() ?? string.Empty)
+ 						}));
+ 				}
+ 			}
+@@ -839,47 +839,47 @@
+ 				Data = movimentacao2.DataHoraEmissao.Date
+ 			}).ToListEmptyWhenNull());
+ 			IEnumerable<ItemPagamento> source3 = source.Where((ItemPagamento x) => x is IItemPagamentoCartao);
+-			list.AddRange(source3.OfType<IItemPagamentoCartao>().SelectMany((IItemPagamentoCartao parcela) => parcela.InformacoesTransacaoRelatorio, (IItemPagamentoCartao parcela, IInformacaoTransacao tef) => new { parcela, tef }).Select(<>h__TransparentIdentifier0 => new
+-			{
+-				<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-				creditoDebito = (<>h__TransparentIdentifier0.tef.Debito ? "Débito" : "Crédito")
++			list.AddRange(source3.OfType<IItemPagamentoCartao>().SelectMany((IItemPagamentoCartao parcela) => parcela.InformacoesTransacaoRelatorio, (IItemPagamentoCartao parcela, IInformacaoTransacao tef) => new { parcela, tef }).Select(recoveredTransparent0 => new
++			{
++				recoveredTransparent0 = recoveredTransparent0,
++				creditoDebito = (recoveredTransparent0.tef.Debito ? "Débito" : "Crédito")
+ 			})
+-				.Select(<>h__TransparentIdentifier1 =>
++				.Select(recoveredTransparent1 =>
+ 				{
+ 					TotalizacaoEspecieDto obj4 = new TotalizacaoEspecieDto
+ 					{
+-						Codigo = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.parcela.EspeciePagamento.Codigo,
+-						Descricao = $"{<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.parcela.EspeciePagamento.Descricao} {<>h__TransparentIdentifier1.creditoDebito}",
+-						DescricaoBandeira = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.DescricaoRelatorio,
+-						Valor = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Valor,
++						Codigo = recoveredTransparent1.recoveredTransparent0.parcela.EspeciePagamento.Codigo,
++						Descricao = $"{recoveredTransparent1.recoveredTransparent0.parcela.EspeciePagamento.Descricao} {recoveredTransparent1.creditoDebito}",
++						DescricaoBandeira = recoveredTransparent1.recoveredTransparent0.tef.DescricaoRelatorio,
++						Valor = recoveredTransparent1.recoveredTransparent0.tef.Valor,
+ 						Usuario = RetornarUsuario(usuarios, movimentacao2),
+ 						Data = movimentacao2.DataHoraEmissao,
+-						Debito = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito
++						Debito = recoveredTransparent1.recoveredTransparent0.tef.Debito
+ 					};
+ 					int numeroParcelas3;
+-					if (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.IsExactlyObject<InformacaoTransacaoTef>())
+-					{
+-						numeroParcelas3 = ((!<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito && <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.To<InformacaoTransacaoTef>().NumeroParcelas == 0) ? 1 : <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.To<InformacaoTransacaoTef>().NumeroParcelas);
++					if (recoveredTransparent1.recoveredTransparent0.tef.IsExactlyObject<InformacaoTransacaoTef>())
++					{
++						numeroParcelas3 = ((!recoveredTransparent1.recoveredTransparent0.tef.Debito && recoveredTransparent1.recoveredTransparent0.tef.To<InformacaoTransacaoTef>().NumeroParcelas == 0) ? 1 : recoveredTransparent1.recoveredTransparent0.tef.To<InformacaoTransacaoTef>().NumeroParcelas);
+ 					}
+ 					else
+ 					{
+-						if (!<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito)
++						if (!recoveredTransparent1.recoveredTransparent0.tef.Debito)
+ 						{
+-							Taxa taxa7 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++							Taxa taxa7 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 							if (taxa7 == null || !taxa7.Is<Debito>())
+ 							{
+-								Taxa taxa8 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++								Taxa taxa8 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 								if (taxa8 == null || !taxa8.Is<CreditoAVista>())
+ 								{
+-									Taxa taxa9 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++									Taxa taxa9 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 									if (taxa9 == null || !taxa9.Is<Credito>())
+ 									{
+-										numeroParcelas3 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<DebitoParcelado>()?.NumeroParcelas ?? 0;
++										numeroParcelas3 = recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<DebitoParcelado>()?.NumeroParcelas ?? 0;
+ 									}
+ 									else
+ 									{
+-										Credito credito3 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<Credito>();
+-										numeroParcelas3 = ((credito3 == null || credito3.NumeroParcelas == 0) ? 1 : (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<Credito>()?.NumeroParcelas ?? 0));
++										Credito credito3 = recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<Credito>();
++										numeroParcelas3 = ((credito3 == null || credito3.NumeroParcelas == 0) ? 1 : (recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<Credito>()?.NumeroParcelas ?? 0));
+ 									}
+ 								}
+ 								else
+@@ -950,47 +950,47 @@
+ 				return obj3;
+ 			}));
+ 			IEnumerable<ItemPagamento> source5 = source.Where((ItemPagamento x) => x is ItemPagamentoTerminalPos);
+-			list.AddRange(source5.OfType<ItemPagamentoTerminalPos>().SelectMany((ItemPagamentoTerminalPos parcela) => parcela.PagamentosTransacoes, (ItemPagamentoTerminalPos parcela, PagamentoTransacao tef) => new { parcela, tef }).Select(<>h__TransparentIdentifier0 => new
+-			{
+-				<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-				creditoDebito = (<>h__TransparentIdentifier0.tef.Debito ? "Débito" : "Crédito")
++			list.AddRange(source5.OfType<ItemPagamentoTerminalPos>().SelectMany((ItemPagamentoTerminalPos parcela) => parcela.PagamentosTransacoes, (ItemPagamentoTerminalPos parcela, PagamentoTransacao tef) => new { parcela, tef }).Select(recoveredTransparent0 => new
++			{
++				recoveredTransparent0 = recoveredTransparent0,
++				creditoDebito = (recoveredTransparent0.tef.Debito ? "Débito" : "Crédito")
+ 			})
+-				.Select(<>h__TransparentIdentifier1 =>
++				.Select(recoveredTransparent1 =>
+ 				{
+ 					TotalizacaoEspecieDto obj2 = new TotalizacaoEspecieDto
+ 					{
+-						Codigo = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.parcela.EspeciePagamento.Codigo,
+-						Descricao = $"{<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.parcela.EspeciePagamento.Descricao} {<>h__TransparentIdentifier1.creditoDebito}",
+-						DescricaoBandeira = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.DescricaoRelatorio,
+-						Valor = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Valor,
++						Codigo = recoveredTransparent1.recoveredTransparent0.parcela.EspeciePagamento.Codigo,
++						Descricao = $"{recoveredTransparent1.recoveredTransparent0.parcela.EspeciePagamento.Descricao} {recoveredTransparent1.creditoDebito}",
++						DescricaoBandeira = recoveredTransparent1.recoveredTransparent0.tef.DescricaoRelatorio,
++						Valor = recoveredTransparent1.recoveredTransparent0.tef.Valor,
+ 						Usuario = RetornarUsuario(usuarios, movimentacao2),
+ 						Data = movimentacao2.DataHoraEmissao,
+-						Debito = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito
++						Debito = recoveredTransparent1.recoveredTransparent0.tef.Debito
+ 					};
+ 					int numeroParcelas;
+-					if (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.IsExactlyObject<PagamentoTransacao>())
+-					{
+-						numeroParcelas = ((!<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito && <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.To<PagamentoTransacao>().NumeroParcelas == 0) ? 1 : <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.To<PagamentoTransacao>().NumeroParcelas);
++					if (recoveredTransparent1.recoveredTransparent0.tef.IsExactlyObject<PagamentoTransacao>())
++					{
++						numeroParcelas = ((!recoveredTransparent1.recoveredTransparent0.tef.Debito && recoveredTransparent1.recoveredTransparent0.tef.To<PagamentoTransacao>().NumeroParcelas == 0) ? 1 : recoveredTransparent1.recoveredTransparent0.tef.To<PagamentoTransacao>().NumeroParcelas);
+ 					}
+ 					else
+ 					{
+-						if (!<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito)
++						if (!recoveredTransparent1.recoveredTransparent0.tef.Debito)
+ 						{
+-							Taxa taxa = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++							Taxa taxa = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 							if (taxa == null || !taxa.Is<Debito>())
+ 							{
+-								Taxa taxa2 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++								Taxa taxa2 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 								if (taxa2 == null || !taxa2.Is<CreditoAVista>())
+ 								{
+-									Taxa taxa3 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++									Taxa taxa3 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 									if (taxa3 == null || !taxa3.Is<Credito>())
+ 									{
+-										numeroParcelas = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<DebitoParcelado>()?.NumeroParcelas ?? 0;
++										numeroParcelas = recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<DebitoParcelado>()?.NumeroParcelas ?? 0;
+ 									}
+ 									else
+ 									{
+-										Credito credito = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<Credito>();
+-										numeroParcelas = ((credito == null || credito.NumeroParcelas == 0) ? 1 : (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<Credito>()?.NumeroParcelas ?? 0));
++										Credito credito = recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<Credito>();
++										numeroParcelas = ((credito == null || credito.NumeroParcelas == 0) ? 1 : (recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<Credito>()?.NumeroParcelas ?? 0));
+ 									}
+ 								}
+ 								else
+@@ -1134,46 +1134,46 @@
+ 				Data = movimentacao2.DataHoraEmissao.Date
+ 			}).SelectMany((TotalizacaoEspecieDto x) => RatearPorVendedor(x, rateios2)).ToListEmptyWhenNull());
+ 			IEnumerable<ItemPagamento> source3 = source.Where((ItemPagamento x) => x is IItemPagamentoCartao);
+-			list2.AddRange(source3.OfType<IItemPagamentoCartao>().SelectMany((IItemPagamentoCartao parcela) => parcela.InformacoesTransacaoRelatorio, (IItemPagamentoCartao parcela, IInformacaoTransacao tef) => new { parcela, tef }).Select(<>h__TransparentIdentifier0 => new
+-			{
+-				<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-				creditoDebito = (<>h__TransparentIdentifier0.tef.Debito ? "Débito" : "Crédito")
++			list2.AddRange(source3.OfType<IItemPagamentoCartao>().SelectMany((IItemPagamentoCartao parcela) => parcela.InformacoesTransacaoRelatorio, (IItemPagamentoCartao parcela, IInformacaoTransacao tef) => new { parcela, tef }).Select(recoveredTransparent0 => new
++			{
++				recoveredTransparent0 = recoveredTransparent0,
++				creditoDebito = (recoveredTransparent0.tef.Debito ? "Débito" : "Crédito")
+ 			})
+-				.Select(<>h__TransparentIdentifier1 =>
++				.Select(recoveredTransparent1 =>
+ 				{
+ 					TotalizacaoEspecieDto obj4 = new TotalizacaoEspecieDto
+ 					{
+-						Codigo = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.parcela.EspeciePagamento.Codigo,
+-						Descricao = $"{<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.parcela.EspeciePagamento.Descricao} {<>h__TransparentIdentifier1.creditoDebito}",
+-						DescricaoBandeira = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.DescricaoRelatorio,
+-						Valor = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Valor,
++						Codigo = recoveredTransparent1.recoveredTransparent0.parcela.EspeciePagamento.Codigo,
++						Descricao = $"{recoveredTransparent1.recoveredTransparent0.parcela.EspeciePagamento.Descricao} {recoveredTransparent1.creditoDebito}",
++						DescricaoBandeira = recoveredTransparent1.recoveredTransparent0.tef.DescricaoRelatorio,
++						Valor = recoveredTransparent1.recoveredTransparent0.tef.Valor,
+ 						Data = movimentacao2.DataHoraEmissao,
+-						Debito = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito
++						Debito = recoveredTransparent1.recoveredTransparent0.tef.Debito
+ 					};
+ 					int numeroParcelas3;
+-					if (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.IsExactlyObject<InformacaoTransacaoTef>())
+-					{
+-						numeroParcelas3 = ((!<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito && <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.To<InformacaoTransacaoTef>().NumeroParcelas == 0) ? 1 : <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.To<InformacaoTransacaoTef>().NumeroParcelas);
++					if (recoveredTransparent1.recoveredTransparent0.tef.IsExactlyObject<InformacaoTransacaoTef>())
++					{
++						numeroParcelas3 = ((!recoveredTransparent1.recoveredTransparent0.tef.Debito && recoveredTransparent1.recoveredTransparent0.tef.To<InformacaoTransacaoTef>().NumeroParcelas == 0) ? 1 : recoveredTransparent1.recoveredTransparent0.tef.To<InformacaoTransacaoTef>().NumeroParcelas);
+ 					}
+ 					else
+ 					{
+-						if (!<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito)
++						if (!recoveredTransparent1.recoveredTransparent0.tef.Debito)
+ 						{
+-							Taxa taxa7 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++							Taxa taxa7 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 							if (taxa7 == null || !taxa7.Is<Debito>())
+ 							{
+-								Taxa taxa8 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++								Taxa taxa8 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 								if (taxa8 == null || !taxa8.Is<CreditoAVista>())
+ 								{
+-									Taxa taxa9 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++									Taxa taxa9 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 									if (taxa9 == null || !taxa9.Is<Credito>())
+ 									{
+-										numeroParcelas3 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<DebitoParcelado>()?.NumeroParcelas ?? 0;
++										numeroParcelas3 = recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<DebitoParcelado>()?.NumeroParcelas ?? 0;
+ 									}
+ 									else
+ 									{
+-										Credito credito3 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<Credito>();
+-										numeroParcelas3 = ((credito3 == null || credito3.NumeroParcelas == 0) ? 1 : (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<Credito>()?.NumeroParcelas ?? 0));
++										Credito credito3 = recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<Credito>();
++										numeroParcelas3 = ((credito3 == null || credito3.NumeroParcelas == 0) ? 1 : (recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<Credito>()?.NumeroParcelas ?? 0));
+ 									}
+ 								}
+ 								else
+@@ -1244,46 +1244,46 @@
+ 				return obj3;
+ 			}).SelectMany((TotalizacaoEspecieDto x) => RatearPorVendedor(x, rateios2)));
+ 			IEnumerable<ItemPagamento> source5 = source.Where((ItemPagamento x) => x is ItemPagamentoTerminalPos);
+-			list2.AddRange(source5.OfType<ItemPagamentoTerminalPos>().SelectMany((ItemPagamentoTerminalPos parcela) => parcela.PagamentosTransacoes, (ItemPagamentoTerminalPos parcela, PagamentoTransacao tef) => new { parcela, tef }).Select(<>h__TransparentIdentifier0 => new
+-			{
+-				<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-				creditoDebito = (<>h__TransparentIdentifier0.tef.Debito ? "Débito" : "Crédito")
++			list2.AddRange(source5.OfType<ItemPagamentoTerminalPos>().SelectMany((ItemPagamentoTerminalPos parcela) => parcela.PagamentosTransacoes, (ItemPagamentoTerminalPos parcela, PagamentoTransacao tef) => new { parcela, tef }).Select(recoveredTransparent0 => new
++			{
++				recoveredTransparent0 = recoveredTransparent0,
++				creditoDebito = (recoveredTransparent0.tef.Debito ? "Débito" : "Crédito")
+ 			})
+-				.Select(<>h__TransparentIdentifier1 =>
++				.Select(recoveredTransparent1 =>
+ 				{
+ 					TotalizacaoEspecieDto obj2 = new TotalizacaoEspecieDto
+ 					{
+-						Codigo = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.parcela.EspeciePagamento.Codigo,
+-						Descricao = $"{<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.parcela.EspeciePagamento.Descricao} {<>h__TransparentIdentifier1.creditoDebito}",
+-						DescricaoBandeira = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.DescricaoRelatorio,
+-						Valor = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Valor,
++						Codigo = recoveredTransparent1.recoveredTransparent0.parcela.EspeciePagamento.Codigo,
++						Descricao = $"{recoveredTransparent1.recoveredTransparent0.parcela.EspeciePagamento.Descricao} {recoveredTransparent1.creditoDebito}",
++						DescricaoBandeira = recoveredTransparent1.recoveredTransparent0.tef.DescricaoRelatorio,
++						Valor = recoveredTransparent1.recoveredTransparent0.tef.Valor,
+ 						Data = movimentacao2.DataHoraEmissao,
+-						Debito = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito
++						Debito = recoveredTransparent1.recoveredTransparent0.tef.Debito
+ 					};
+ 					int numeroParcelas;
+-					if (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.IsExactlyObject<PagamentoTransacao>())
+-					{
+-						numeroParcelas = ((!<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito && <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.To<PagamentoTransacao>().NumeroParcelas == 0) ? 1 : <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.To<PagamentoTransacao>().NumeroParcelas);
++					if (recoveredTransparent1.recoveredTransparent0.tef.IsExactlyObject<PagamentoTransacao>())
++					{
++						numeroParcelas = ((!recoveredTransparent1.recoveredTransparent0.tef.Debito && recoveredTransparent1.recoveredTransparent0.tef.To<PagamentoTransacao>().NumeroParcelas == 0) ? 1 : recoveredTransparent1.recoveredTransparent0.tef.To<PagamentoTransacao>().NumeroParcelas);
+ 					}
+ 					else
+ 					{
+-						if (!<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Debito)
++						if (!recoveredTransparent1.recoveredTransparent0.tef.Debito)
+ 						{
+-							Taxa taxa = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++							Taxa taxa = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 							if (taxa == null || !taxa.Is<Debito>())
+ 							{
+-								Taxa taxa2 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++								Taxa taxa2 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 								if (taxa2 == null || !taxa2.Is<CreditoAVista>())
+ 								{
+-									Taxa taxa3 = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa;
++									Taxa taxa3 = recoveredTransparent1.recoveredTransparent0.tef.Taxa;
+ 									if (taxa3 == null || !taxa3.Is<Credito>())
+ 									{
+-										numeroParcelas = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<DebitoParcelado>()?.NumeroParcelas ?? 0;
++										numeroParcelas = recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<DebitoParcelado>()?.NumeroParcelas ?? 0;
+ 									}
+ 									else
+ 									{
+-										Credito credito = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<Credito>();
+-										numeroParcelas = ((credito == null || credito.NumeroParcelas == 0) ? 1 : (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Taxa.To<Credito>()?.NumeroParcelas ?? 0));
++										Credito credito = recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<Credito>();
++										numeroParcelas = ((credito == null || credito.NumeroParcelas == 0) ? 1 : (recoveredTransparent1.recoveredTransparent0.tef.Taxa.To<Credito>()?.NumeroParcelas ?? 0));
+ 									}
+ 								}
+ 								else
+@@ -1494,15 +1494,15 @@
+ 					Data = movimentacao2.DataHoraEmissao.Date
+ 				}).ToListEmptyWhenNull());
+ 				IEnumerable<ItemPagamento> source3 = source.Where((ItemPagamento x) => x is IItemPagamentoCartao);
+-				list.AddRange(source3.OfType<IItemPagamentoCartao>().SelectMany((IItemPagamentoCartao parcela) => parcela.InformacoesTransacaoRelatorio, (IItemPagamentoCartao parcela, IInformacaoTransacao tef) => new { parcela, tef }).Select(<>h__TransparentIdentifier0 => new
+-				{
+-					<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-					creditoDebito = (<>h__TransparentIdentifier0.tef.Debito ? "Débito" : "Crédito")
++				list.AddRange(source3.OfType<IItemPagamentoCartao>().SelectMany((IItemPagamentoCartao parcela) => parcela.InformacoesTransacaoRelatorio, (IItemPagamentoCartao parcela, IInformacaoTransacao tef) => new { parcela, tef }).Select(recoveredTransparent0 => new
++				{
++					recoveredTransparent0 = recoveredTransparent0,
++					creditoDebito = (recoveredTransparent0.tef.Debito ? "Débito" : "Crédito")
+ 				})
+-					.Select(<>h__TransparentIdentifier1 => new ResumoVendasDto
+-					{
+-						Descricao = $"{<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.parcela.EspeciePagamento.Descricao} {<>h__TransparentIdentifier1.creditoDebito}",
+-						Valor = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.tef.Valor,
++					.Select(recoveredTransparent1 => new ResumoVendasDto
++					{
++						Descricao = $"{recoveredTransparent1.recoveredTransparent0.parcela.EspeciePagamento.Descricao} {recoveredTransparent1.creditoDebito}",
++						Valor = recoveredTransparent1.recoveredTransparent0.tef.Valor,
+ 						Data = movimentacao2.DataHoraEmissao
+ 					}));
+ 			}
+@@ -1681,19 +1681,19 @@
+ 		{
+ 			item = item,
+ 			composicao = (resultado.FirstOrDefault((ProdutoServicoEmpresa x) => x.ProdutoServico.CodigoInterno.Equals(item.CodigoInterno)).ProdutoServico as Composicao)
+-		}).Select(<>h__TransparentIdentifier0 => new ComposicaoVendidaDto
+-		{
+-			Codigo = <>h__TransparentIdentifier0.item.CodigoInterno,
+-			Desconto = <>h__TransparentIdentifier0.item.TotalDesconto,
+-			Descricao = <>h__TransparentIdentifier0.item.Descricao,
+-			Preco = <>h__TransparentIdentifier0.item.PrecoUnitario,
+-			Quantidade = <>h__TransparentIdentifier0.item.Quantidade,
+-			Total = <>h__TransparentIdentifier0.item.Total,
+-			Compontes = <>h__TransparentIdentifier0.composicao.Componentes.Select((Componente c) => new DigisatServer.Infrastructure.Crosscutting.Dto.Relatorios.ComponenteVendidoDto
++		}).Select(recoveredTransparent0 => new ComposicaoVendidaDto
++		{
++			Codigo = recoveredTransparent0.item.CodigoInterno,
++			Desconto = recoveredTransparent0.item.TotalDesconto,
++			Descricao = recoveredTransparent0.item.Descricao,
++			Preco = recoveredTransparent0.item.PrecoUnitario,
++			Quantidade = recoveredTransparent0.item.Quantidade,
++			Total = recoveredTransparent0.item.Total,
++			Compontes = recoveredTransparent0.composicao.Componentes.Select((Componente c) => new DigisatServer.Infrastructure.Crosscutting.Dto.Relatorios.ComponenteVendidoDto
+ 			{
+ 				Codigo = (componentes.FirstOrDefault((ProdutoServico x) => x.Id.Equals(c.ProdutoReferencia))?.CodigoInterno ?? c.ProdutoReferencia.ToStringEmptyWhenDefault()),
+ 				Descricao = c.ProdutoDescricao,
+-				Quantidade = c.Quantidade * <>h__TransparentIdentifier0.item.Quantidade
++				Quantidade = c.Quantidade * recoveredTransparent0.item.Quantidade
+ 			}).ToList()
+ 		}).ToList();
+ 	}
+@@ -2016,16 +2016,16 @@
+ 		{
+ 			movimentacao = movimentacao,
+ 			itens = movimentacao.Itens.Where((IItem i) => !i.Cancelado)
+-		}).Select(<>h__TransparentIdentifier0 => new DocumentoAuxiliarPeriodoMovimentacaoDto
+-		{
+-			Numero = <>h__TransparentIdentifier0.movimentacao.Numero,
+-			Cliente = <>h__TransparentIdentifier0.movimentacao.Pessoa.Nome.RemoverCaracteresNaoImprimiveis(),
+-			Data = <>h__TransparentIdentifier0.movimentacao.DataHoraEmissao,
+-			DataPrevisao = (<>h__TransparentIdentifier0.movimentacao.To<DocumentoAuxiliarVenda>()?.DataHoraPrevisao ?? <>h__TransparentIdentifier0.movimentacao.DataHoraEmissao),
+-			TotalProdutos = <>h__TransparentIdentifier0.movimentacao.TotalProdutos,
+-			Situacao = <>h__TransparentIdentifier0.movimentacao.Situacao.Descricao,
+-			Pagamento = (<>h__TransparentIdentifier0.movimentacao.Is<IMovimentacaoPagamentoRecebimento>() ? string.Join("/", <>h__TransparentIdentifier0.movimentacao.To<IMovimentacaoPagamentoRecebimento>().PagamentoRecebimento.Parcelas.Select((Parcela parcela) => parcela.EspeciePagamento.Descricao).Distinct()) : string.Empty),
+-			Itens = <>h__TransparentIdentifier0.itens.ToListEmptyWhenNull().Select((IItem item) => new DocumentoAuxiliarPeriodoItemDto
++		}).Select(recoveredTransparent0 => new DocumentoAuxiliarPeriodoMovimentacaoDto
++		{
++			Numero = recoveredTransparent0.movimentacao.Numero,
++			Cliente = recoveredTransparent0.movimentacao.Pessoa.Nome.RemoverCaracteresNaoImprimiveis(),
++			Data = recoveredTransparent0.movimentacao.DataHoraEmissao,
++			DataPrevisao = (recoveredTransparent0.movimentacao.To<DocumentoAuxiliarVenda>()?.DataHoraPrevisao ?? recoveredTransparent0.movimentacao.DataHoraEmissao),
++			TotalProdutos = recoveredTransparent0.movimentacao.TotalProdutos,
++			Situacao = recoveredTransparent0.movimentacao.Situacao.Descricao,
++			Pagamento = (recoveredTransparent0.movimentacao.Is<IMovimentacaoPagamentoRecebimento>() ? string.Join("/", recoveredTransparent0.movimentacao.To<IMovimentacaoPagamentoRecebimento>().PagamentoRecebimento.Parcelas.Select((Parcela parcela) => parcela.EspeciePagamento.Descricao).Distinct()) : string.Empty),
++			Itens = recoveredTransparent0.itens.ToListEmptyWhenNull().Select((IItem item) => new DocumentoAuxiliarPeriodoItemDto
+ 			{
+ 				CodigoInterno = item.ProdutoServico.CodigoInterno,
+ 				Descricao = item.ProdutoServico.Descricao,
+@@ -2033,7 +2033,7 @@
+ 				Preco = item.PrecoUnitario,
+ 				Total = item.Total
+ 			}),
+-			Total = <>h__TransparentIdentifier0.movimentacao.Total
++			Total = recoveredTransparent0.movimentacao.Total
+ 		}).ToListEmptyWhenNull();
+ 		List<DocumentoAuxiliarPorPeriodoItemAcumuladoDto> itensAcumulados = list3.SelectMany((DocumentoAuxiliarPeriodoMovimentacaoDto x) => x.Itens).GroupBy((DocumentoAuxiliarPeriodoItemDto g) => new { g.CodigoInterno, g.Descricao }).Select(s => new DocumentoAuxiliarPorPeriodoItemAcumuladoDto
+ 		{
+@@ -2518,22 +2518,22 @@
+ 					g = g,
+ 					produtoEmpresa = produtosEmpresa.OfType<ProdutoEmpresa>().FirstOrDefault((ProdutoEmpresa x) => x.ProdutoServico.CodigoInterno.Equals(g.CodigoInterno))
+ 				})
+-				.Select(<>h__TransparentIdentifier0 => new
+-				{
+-					<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-					precoEntrada = ((preco.Codigo != 1) ? ((preco.Codigo != 2) ? (<>h__TransparentIdentifier0.produtoEmpresa?.PrecoUltimaCompra ?? 0m) : (<>h__TransparentIdentifier0.produtoEmpresa?.ValorCustoMedio ?? 0m)) : (<>h__TransparentIdentifier0.produtoEmpresa?.ValorCusto ?? 0m))
++				.Select(recoveredTransparent0 => new
++				{
++					recoveredTransparent0 = recoveredTransparent0,
++					precoEntrada = ((preco.Codigo != 1) ? ((preco.Codigo != 2) ? (recoveredTransparent0.produtoEmpresa?.PrecoUltimaCompra ?? 0m) : (recoveredTransparent0.produtoEmpresa?.ValorCustoMedio ?? 0m)) : (recoveredTransparent0.produtoEmpresa?.ValorCusto ?? 0m))
+ 				})
+-				.Select(<>h__TransparentIdentifier1 => new VendasPorProdutoDto
+-				{
+-					Descricao = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.Descricao,
+-					Quantidade = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.Quantidade,
+-					CodigoInterno = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.CodigoInterno,
+-					CodigoBarras = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.Barras,
+-					Preco = <>h__TransparentIdentifier1.precoEntrada,
+-					Venda = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.PrecoUnitario,
+-					Lucro = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.TotalVenda - <>h__TransparentIdentifier1.precoEntrada * <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.Quantidade,
+-					PercentualLucro = ((<>h__TransparentIdentifier1.precoEntrada > 0m) ? (<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.TotalVenda / (<>h__TransparentIdentifier1.precoEntrada * <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.Quantidade) * 100m - 100m) : 0m),
+-					TotalVenda = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.g.TotalVenda,
++				.Select(recoveredTransparent1 => new VendasPorProdutoDto
++				{
++					Descricao = recoveredTransparent1.recoveredTransparent0.g.Descricao,
++					Quantidade = recoveredTransparent1.recoveredTransparent0.g.Quantidade,
++					CodigoInterno = recoveredTransparent1.recoveredTransparent0.g.CodigoInterno,
++					CodigoBarras = recoveredTransparent1.recoveredTransparent0.g.Barras,
++					Preco = recoveredTransparent1.precoEntrada,
++					Venda = recoveredTransparent1.recoveredTransparent0.g.PrecoUnitario,
++					Lucro = recoveredTransparent1.recoveredTransparent0.g.TotalVenda - recoveredTransparent1.precoEntrada * recoveredTransparent1.recoveredTransparent0.g.Quantidade,
++					PercentualLucro = ((recoveredTransparent1.precoEntrada > 0m) ? (recoveredTransparent1.recoveredTransparent0.g.TotalVenda / (recoveredTransparent1.precoEntrada * recoveredTransparent1.recoveredTransparent0.g.Quantidade) * 100m - 100m) : 0m),
++					TotalVenda = recoveredTransparent1.recoveredTransparent0.g.TotalVenda,
+ 					CnpjEmpresa = empresa.CpfCnpjFormatado.ToStringEmptyWhenNull(),
+ 					NomeEmpresa = empresa.Nome.ToStringEmptyWhenNull()
+ 				})
+@@ -2812,16 +2812,16 @@
+ 		{
+ 			movimentacao = movimentacao,
+ 			itens = (string.IsNullOrEmpty(marcaReferencia) ? movimentacao.Itens : movimentacao.Itens.Where((IItem i) => i.ProdutoServico.ProdutoServicoReferencia.In(produtos.Select((ProdutoServico p) => p.Id).ToArray())))
+-		}).Select(<>h__TransparentIdentifier0 => new DocumentoAuxiliarPeriodoMovimentacaoDto
+-		{
+-			Numero = <>h__TransparentIdentifier0.movimentacao.Numero,
+-			Cliente = <>h__TransparentIdentifier0.movimentacao.Pessoa.Nome.RemoverCaracteresNaoImprimiveis(),
+-			Data = <>h__TransparentIdentifier0.movimentacao.DataHoraEmissao,
+-			DataPrevisao = (<>h__TransparentIdentifier0.movimentacao.To<DocumentoAuxiliarVenda>()?.DataHoraPrevisao ?? <>h__TransparentIdentifier0.movimentacao.DataHoraEmissao),
+-			TotalProdutos = <>h__TransparentIdentifier0.movimentacao.TotalProdutos,
+-			Situacao = <>h__TransparentIdentifier0.movimentacao.Situacao.Descricao,
+-			Pagamento = (<>h__TransparentIdentifier0.movimentacao.Is<IMovimentacaoPagamentoRecebimento>() ? string.Join("/", <>h__TransparentIdentifier0.movimentacao.To<IMovimentacaoPagamentoRecebimento>().PagamentoRecebimento.Parcelas.Select((Parcela parcela) => parcela.EspeciePagamento.Descricao).Distinct()) : string.Empty),
+-			Itens = <>h__TransparentIdentifier0.itens.Select((IItem item) => new DocumentoAuxiliarPeriodoItemDto
++		}).Select(recoveredTransparent0 => new DocumentoAuxiliarPeriodoMovimentacaoDto
++		{
++			Numero = recoveredTransparent0.movimentacao.Numero,
++			Cliente = recoveredTransparent0.movimentacao.Pessoa.Nome.RemoverCaracteresNaoImprimiveis(),
++			Data = recoveredTransparent0.movimentacao.DataHoraEmissao,
++			DataPrevisao = (recoveredTransparent0.movimentacao.To<DocumentoAuxiliarVenda>()?.DataHoraPrevisao ?? recoveredTransparent0.movimentacao.DataHoraEmissao),
++			TotalProdutos = recoveredTransparent0.movimentacao.TotalProdutos,
++			Situacao = recoveredTransparent0.movimentacao.Situacao.Descricao,
++			Pagamento = (recoveredTransparent0.movimentacao.Is<IMovimentacaoPagamentoRecebimento>() ? string.Join("/", recoveredTransparent0.movimentacao.To<IMovimentacaoPagamentoRecebimento>().PagamentoRecebimento.Parcelas.Select((Parcela parcela) => parcela.EspeciePagamento.Descricao).Distinct()) : string.Empty),
++			Itens = recoveredTransparent0.itens.Select((IItem item) => new DocumentoAuxiliarPeriodoItemDto
+ 			{
+ 				CodigoInterno = item.ProdutoServico.CodigoInterno,
+ 				Descricao = item.ProdutoServico.Descricao,
+@@ -2830,7 +2830,7 @@
+ 				Total = item.Total,
+ 				Cancelado = item.Cancelado
+ 			}),
+-			Total = <>h__TransparentIdentifier0.movimentacao.Total
++			Total = recoveredTransparent0.movimentacao.Total
+ 		}).ToListEmptyWhenNull();
+ 		List<DocumentoAuxiliarPorPeriodoItemAcumuladoDto> itensAcumulados = list.SelectMany((DocumentoAuxiliarPeriodoMovimentacaoDto x) => x.Itens).Where((DocumentoAuxiliarPeriodoItemDto y) => !y.Cancelado).GroupBy((DocumentoAuxiliarPeriodoItemDto g) => new { g.CodigoInterno, g.Descricao })
+ 			.Select(s => new DocumentoAuxiliarPorPeriodoItemAcumuladoDto
+@@ -3030,41 +3030,41 @@
+ 			Empresa = x.Empresa,
+ 			Itens = x.Itens.OfType<IItemDocumentoFiscalProduto>().Where((IItemDocumentoFiscalProduto i) => !i.Cancelado && i.OperacaoFiscal.MovimentaEstoque && i.OperacaoFiscal.MovimentaFinanceiro && i.EstoqueMovimentacao.Is<EstoqueBaseMovimentacao>() && i.ProdutoServico is MedicamentoHistorico && i.ProdutoServico.To<MedicamentoHistorico>().ClasseTerapeutica.Codigo.Equals(classeTerapeuticaDto.Codigo)).ToListEmptyWhenNull()
+ 		}).ToListEmptyWhenNull();
+-		return source2.SelectMany(empresa => select.Where(x => x.EmpresaReferencia.Equals(empresa.PessoaReferencia)), (empresa, movimentacao) => new { empresa, movimentacao }).Select(<>h__TransparentIdentifier0 => new
+-		{
+-			<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-			itens = <>h__TransparentIdentifier0.movimentacao.Itens
+-		}).SelectMany(<>h__TransparentIdentifier1 => <>h__TransparentIdentifier1.itens, (<>h__TransparentIdentifier1, IItemDocumentoFiscalProduto item) => new { <>h__TransparentIdentifier1, item })
+-			.Select(<>h__TransparentIdentifier2 => new
+-			{
+-				<>h__TransparentIdentifier2 = <>h__TransparentIdentifier2,
+-				estoque = (<>h__TransparentIdentifier2.item.EstoqueMovimentacao as EstoqueBaseMovimentacao)
++		return source2.SelectMany(empresa => select.Where(x => x.EmpresaReferencia.Equals(empresa.PessoaReferencia)), (empresa, movimentacao) => new { empresa, movimentacao }).Select(recoveredTransparent0 => new
++		{
++			recoveredTransparent0 = recoveredTransparent0,
++			itens = recoveredTransparent0.movimentacao.Itens
++		}).SelectMany(recoveredTransparent1 => recoveredTransparent1.itens, (recoveredTransparent1, item) => new { recoveredTransparent1, item })
++			.Select(recoveredTransparent2 => new
++			{
++				recoveredTransparent2 = recoveredTransparent2,
++				estoque = (recoveredTransparent2.item.EstoqueMovimentacao as EstoqueBaseMovimentacao)
+ 			})
+-			.SelectMany(<>h__TransparentIdentifier3 => <>h__TransparentIdentifier3.estoque.Lista, (<>h__TransparentIdentifier3, IItemEstoque itemEstoque) => new { <>h__TransparentIdentifier3, itemEstoque })
+-			.Where(<>h__TransparentIdentifier4 => <>h__TransparentIdentifier4.itemEstoque.Quantidade > 0m)
+-			.Select(<>h__TransparentIdentifier4 => new
+-			{
+-				<>h__TransparentIdentifier4 = <>h__TransparentIdentifier4,
+-				medicamento = (resultado.FirstOrDefault((ProdutoServico x) => x.Id.Equals(<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.item.ProdutoServico.ProdutoServicoReferencia)) as Medicamento)
++			.SelectMany(recoveredTransparent3 => recoveredTransparent3.estoque.Lista, (recoveredTransparent3, itemEstoque) => new { recoveredTransparent3, itemEstoque })
++			.Where(recoveredTransparent4 => recoveredTransparent4.itemEstoque.Quantidade > 0m)
++			.Select(recoveredTransparent4 => new
++			{
++				recoveredTransparent4 = recoveredTransparent4,
++				medicamento = (resultado.FirstOrDefault((ProdutoServico x) => x.Id.Equals(recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.item.ProdutoServico.ProdutoServicoReferencia)) as Medicamento)
+ 			})
+-			.Select(<>h__TransparentIdentifier5 => new
+-			{
+-				<>h__TransparentIdentifier5 = <>h__TransparentIdentifier5,
+-				estoqueLote = (<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.itemEstoque as ItemEstoqueLote)
++			.Select(recoveredTransparent5 => new
++			{
++				recoveredTransparent5 = recoveredTransparent5,
++				estoqueLote = (recoveredTransparent5.recoveredTransparent4.itemEstoque as ItemEstoqueLote)
+ 			})
+-			.Select(<>h__TransparentIdentifier6 => new MedicamentoControladoMovimentadoDto
+-			{
+-				Numero = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.movimentacao.Numero,
+-				DataVenda = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.movimentacao.DataHoraEmissao,
+-				Origem = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.movimentacao.Tipo.RetornarDescricao(),
+-				Serie = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.movimentacao.Serie,
+-				Descricao = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.item.ProdutoServico.Descricao,
+-				Codigo = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.item.ProdutoServico.CodigoInterno,
+-				Quantidade = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.itemEstoque.Quantidade,
+-				Lote = (<>h__TransparentIdentifier6.estoqueLote?.Numero ?? string.Empty),
+-				RegistroMinisterioSaude = (<>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.item.ProdutoServico.To<MedicamentoHistorico>()?.RegistroMinisterioSaude ?? <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.medicamento?.RegistroMinisterioSaude ?? string.Empty),
+-				Empresa = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.empresa.Nome,
+-				CnpjEmpresa = <>h__TransparentIdentifier6.<>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.empresa.CpfCnpjFormatado
++			.Select(recoveredTransparent6 => new MedicamentoControladoMovimentadoDto
++			{
++				Numero = recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.movimentacao.Numero,
++				DataVenda = recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.movimentacao.DataHoraEmissao,
++				Origem = recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.movimentacao.Tipo.RetornarDescricao(),
++				Serie = recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.movimentacao.Serie,
++				Descricao = recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.item.ProdutoServico.Descricao,
++				Codigo = recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.item.ProdutoServico.CodigoInterno,
++				Quantidade = recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.itemEstoque.Quantidade,
++				Lote = (recoveredTransparent6.estoqueLote?.Numero ?? string.Empty),
++				RegistroMinisterioSaude = (recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.item.ProdutoServico.To<MedicamentoHistorico>()?.RegistroMinisterioSaude ?? recoveredTransparent6.recoveredTransparent5.medicamento?.RegistroMinisterioSaude ?? string.Empty),
++				Empresa = recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.empresa.Nome,
++				CnpjEmpresa = recoveredTransparent6.recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.empresa.CpfCnpjFormatado
+ 			})
+ 			.ToList();
+ 	}
+@@ -3125,7 +3125,7 @@
+ 				.OrPorTipo<DigisatServer.Domain.Main.Aggregates.MovimentacoesAgg.RegistroVenda>()));
+ 		List<RelatorioVendasCartaoDto> first = source.OfType<IMovimentacaoPagamento>().SelectMany((IMovimentacaoPagamento x) => x.Pagamentos.ToListEmptyWhenNull()).OfType<IItemPagamentoCartao>()
+ 			.SelectMany((IItemPagamentoCartao x) => x.InformacoesTransacaoRelatorio)
+-			.GroupBy((IInformacaoTransacao x) => new { x.DescricaoRelatorio, x.Tipo, x.CodigoAutorizacaoTransacao }, (redeTipo, IEnumerable<IInformacaoTransacao> tefs) => new RelatorioVendasCartaoDto
++			.GroupBy((IInformacaoTransacao x) => new { x.DescricaoRelatorio, x.Tipo, x.CodigoAutorizacaoTransacao }, (redeTipo, tefs) => new RelatorioVendasCartaoDto
+ 			{
+ 				Rede = redeTipo.DescricaoRelatorio,
+ 				Valor = tefs.Sum((IInformacaoTransacao x) => x.Valor),
+@@ -3140,7 +3140,7 @@
+ 				x.EspeciePagamento.To<EspeciePagamentoCartao>().DescricaoRelatorio,
+ 				x.EspeciePagamento.To<EspeciePagamentoCartao>().TipoRelatorio,
+ 				x.EspeciePagamento.To<EspeciePagamentoCartao>().CodigoAutorizacaoTransacao
+-			}, (redeTipo, IEnumerable<Parcela> parcelas) => new RelatorioVendasCartaoDto
++			}, (redeTipo, parcelas) => new RelatorioVendasCartaoDto
+ 			{
+ 				Rede = redeTipo.DescricaoRelatorio,
+ 				Valor = parcelas.Sum((Parcela x) => x.Valor),
+@@ -3156,7 +3156,7 @@
+ 		var source = (await _movimentacaoRepositoryRead.FindAsync(EntityBaseEmpresaSpecification<Movimentacao>.PorEmpresa(usuarioIdentity.IdEmpresa).PorSituacaoConcluido().PorDataGarantiaObjeto(dataInicial, dataFinal))).Cast<DocumentoAuxiliarVendaOrdemServico>().SelectMany((DocumentoAuxiliarVendaOrdemServico davOS) => davOS.Objetos.Where((ObjetoMovimentacao objeto) => objeto.DataFinalGarantia >= dataInicial.Date && objeto.DataFinalGarantia <= dataFinal.ToFinalDia()).Select((ObjetoMovimentacao objetoMovimentacao) => new { objetoMovimentacao, davOS.Pessoa, davOS.Numero }));
+ 		IEnumerable<ObjectId> fieldData = source.Select(x => x.Pessoa.PessoaReferencia).Distinct();
+ 		IEnumerable<Pessoa> pessoas = _pessoaRepositoryRead.GetIn((Pessoa x) => x.Id, fieldData);
+-		return source.GroupBy(x => x.objetoMovimentacao.Objeto.Id, (ObjectId objetoId, itens) => new RelatorioObjetoPessoaDto
++		return source.GroupBy(x => x.objetoMovimentacao.Objeto.Id, (objetoId, itens) => new RelatorioObjetoPessoaDto
+ 		{
+ 			Objeto = itens.FirstOrDefault().objetoMovimentacao.Objeto.ProjectedAsDto(),
+ 			Itens = itens.Select(x =>
+@@ -3779,15 +3779,15 @@
+ 				foreach (List<Movimentacao> item2 in _movimentacaoRepositoryRead.FindSemXmlHistoricosEmLotes(specification, 1000))
+ 				{
+ 					AdicionarProdutosServicos(produtosServicos, item2.SelectMany((Movimentacao x) => x.ItensBase.Select((ItemBase i) => i.ProdutoServicoEmpresaReferencia)));
+-					var source = item2.SelectMany((Movimentacao documentoFiscal) => documentoFiscal.Itens.OfType<IItemDocumentoAuxiliar>(), (Movimentacao documentoFiscal, IItemDocumentoAuxiliar item) => new { documentoFiscal, item }).Select(<>h__TransparentIdentifier0 => new
+-					{
+-						<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-						produtoServico = ObterProdutoServico(produtosServicos, <>h__TransparentIdentifier0.item.ProdutoServicoEmpresaReferencia)
+-					}).Where(<>h__TransparentIdentifier1 => <>h__TransparentIdentifier1.produtoServico != null && !<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.Cancelado && <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.OperacaoFiscal.MovimentaFinanceiro)
+-						.Select(<>h__TransparentIdentifier1 => new
++					var source = item2.SelectMany((Movimentacao documentoFiscal) => documentoFiscal.Itens.OfType<IItemDocumentoAuxiliar>(), (Movimentacao documentoFiscal, IItemDocumentoAuxiliar item) => new { documentoFiscal, item }).Select(recoveredTransparent0 => new
++					{
++						recoveredTransparent0 = recoveredTransparent0,
++						produtoServico = ObterProdutoServico(produtosServicos, recoveredTransparent0.item.ProdutoServicoEmpresaReferencia)
++					}).Where(recoveredTransparent1 => recoveredTransparent1.produtoServico != null && !recoveredTransparent1.recoveredTransparent0.item.Cancelado && recoveredTransparent1.recoveredTransparent0.item.OperacaoFiscal.MovimentaFinanceiro)
++						.Select(recoveredTransparent1 => new
+ 						{
+-							Item = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item,
+-							ProdutoServico = <>h__TransparentIdentifier1.produtoServico
++							Item = recoveredTransparent1.recoveredTransparent0.item,
++							ProdutoServico = recoveredTransparent1.produtoServico
+ 						})
+ 						.ToList();
+ 					if (valorEscriturarInventario == ValorEscriturarInventario.Custo)
+@@ -3798,36 +3798,36 @@
+ 					{
+ 						itemVendido = itemVendido,
+ 						item = itemVendido.Item
+-					}).Select(<>h__TransparentIdentifier0 => new
+-					{
+-						<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-						produtoServico = <>h__TransparentIdentifier0.itemVendido.ProdutoServico
+-					}).Select(<>h__TransparentIdentifier1 => new
+-					{
+-						<>h__TransparentIdentifier1 = <>h__TransparentIdentifier1,
+-						precoEntrada = ((<>h__TransparentIdentifier1.produtoServico is ServicoEmpresa) ? <>h__TransparentIdentifier1.produtoServico.ValorCusto : ((valorEscriturarInventario == ValorEscriturarInventario.Custo) ? RetornarPrecoCustoAnteriorADataMovimentacao(historicosPrecoCusto, <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.DataHora, <>h__TransparentIdentifier1.produtoServico.Preco.Id) : ((valorEscriturarInventario == ValorEscriturarInventario.CustoMedio) ? <>h__TransparentIdentifier1.produtoServico.To<ProdutoEmpresa>().ValorCustoMedio : <>h__TransparentIdentifier1.produtoServico.To<ProdutoEmpresa>().PrecoUltimaCompra)))
++					}).Select(recoveredTransparent0 => new
++					{
++						recoveredTransparent0 = recoveredTransparent0,
++						produtoServico = recoveredTransparent0.itemVendido.ProdutoServico
++					}).Select(recoveredTransparent1 => new
++					{
++						recoveredTransparent1 = recoveredTransparent1,
++						precoEntrada = ((recoveredTransparent1.produtoServico is ServicoEmpresa) ? recoveredTransparent1.produtoServico.ValorCusto : ((valorEscriturarInventario == ValorEscriturarInventario.Custo) ? RetornarPrecoCustoAnteriorADataMovimentacao(historicosPrecoCusto, recoveredTransparent1.recoveredTransparent0.item.DataHora, recoveredTransparent1.produtoServico.Preco.Id) : ((valorEscriturarInventario == ValorEscriturarInventario.CustoMedio) ? recoveredTransparent1.produtoServico.To<ProdutoEmpresa>().ValorCustoMedio : recoveredTransparent1.produtoServico.To<ProdutoEmpresa>().PrecoUltimaCompra)))
+ 					})
+-						.Select(<>h__TransparentIdentifier2 => new
++						.Select(recoveredTransparent2 => new
+ 						{
+-							<>h__TransparentIdentifier2 = <>h__TransparentIdentifier2,
+-							venda = <>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.TotalLiquido
++							recoveredTransparent2 = recoveredTransparent2,
++							venda = recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.TotalLiquido
+ 						})
+-						.Select(<>h__TransparentIdentifier3 => new
++						.Select(recoveredTransparent3 => new
+ 						{
+-							<>h__TransparentIdentifier3 = <>h__TransparentIdentifier3,
+-							custo = <>h__TransparentIdentifier3.<>h__TransparentIdentifier2.precoEntrada * <>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.Quantidade
++							recoveredTransparent3 = recoveredTransparent3,
++							custo = recoveredTransparent3.recoveredTransparent2.precoEntrada * recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.Quantidade
+ 						})
+-						.Select(<>h__TransparentIdentifier4 => new
++						.Select(recoveredTransparent4 => new
+ 						{
+-							<>h__TransparentIdentifier4 = <>h__TransparentIdentifier4,
+-							valorLucro = <>h__TransparentIdentifier4.<>h__TransparentIdentifier3.venda - <>h__TransparentIdentifier4.custo
++							recoveredTransparent4 = recoveredTransparent4,
++							valorLucro = recoveredTransparent4.recoveredTransparent3.venda - recoveredTransparent4.custo
+ 						})
+-						.Select(<>h__TransparentIdentifier5 => new LucroProdutoVendidoDemonstrativoResultadoDto
++						.Select(recoveredTransparent5 => new LucroProdutoVendidoDemonstrativoResultadoDto
+ 						{
+-							DataHora = <>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.<>h__TransparentIdentifier2.<>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.DataHora,
+-							CustoTotal = <>h__TransparentIdentifier5.<>h__TransparentIdentifier4.custo,
+-							VendaTotal = <>h__TransparentIdentifier5.<>h__TransparentIdentifier4.<>h__TransparentIdentifier3.venda,
+-							ValorLucro = <>h__TransparentIdentifier5.valorLucro
++							DataHora = recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.recoveredTransparent2.recoveredTransparent1.recoveredTransparent0.item.DataHora,
++							CustoTotal = recoveredTransparent5.recoveredTransparent4.custo,
++							VendaTotal = recoveredTransparent5.recoveredTransparent4.recoveredTransparent3.venda,
++							ValorLucro = recoveredTransparent5.valorLucro
+ 						}));
+ 				}
+ 			}
+@@ -3849,16 +3849,16 @@
+ 				{
+ 					item = item,
+ 					produtoServico = ObterProdutoServico(produtosServicos, item.ProdutoServicoEmpresaReferencia)
+-				}).Where(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.produtoServico != null && !<>h__TransparentIdentifier0.item.Cancelado)
+-					.Select(<>h__TransparentIdentifier0 => new
+-					{
+-						<>h__TransparentIdentifier0 = <>h__TransparentIdentifier0,
+-						devolucao = <>h__TransparentIdentifier0.item.TotalLiquido
++				}).Where(recoveredTransparent0 => recoveredTransparent0.produtoServico != null && !recoveredTransparent0.item.Cancelado)
++					.Select(recoveredTransparent0 => new
++					{
++						recoveredTransparent0 = recoveredTransparent0,
++						devolucao = recoveredTransparent0.item.TotalLiquido
+ 					})
+-					.Select(<>h__TransparentIdentifier1 => new LucroProdutoVendidoDemonstrativoResultadoDto
+-					{
+-						DataHora = <>h__TransparentIdentifier1.<>h__TransparentIdentifier0.item.DataHora,
+-						Devolucao = <>h__TransparentIdentifier1.devolucao
++					.Select(recoveredTransparent1 => new LucroProdutoVendidoDemonstrativoResultadoDto
++					{
++						DataHora = recoveredTransparent1.recoveredTransparent0.item.DataHora,
++						Devolucao = recoveredTransparent1.devolucao
+ 					}));
+ 			}
+ 			List<LucroProdutoVendidoDemonstrativoResultadoDto> source2 = list3.GroupBy((LucroProdutoVendidoDemonstrativoResultadoDto g) => new { g.DataHora.Month }).Select(arg => new LucroProdutoVendidoDemonstrativoResultadoDto
