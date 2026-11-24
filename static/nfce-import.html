@@ -19,7 +19,7 @@
     <h1>Importar XML fiscal</h1><p>Importe vendas de NF-e (55) e NFC-e (65) por arquivo ou chave de acesso, com prévia antes de gravar.</p></div>
     <button id="themeToggle" type="button" class="secondary"><span id="themeLabel">Modo claro</span></button>
   </header>
-  <p class="nfce-scope">Inserção histórica direta. Estoque, caixa, financeiro, numeração e sincronização não são executados. Análise estática, sem validação no SuiteG6.</p>
+  <p class="nfce-scope">Inserção histórica direta. Estoque, caixa, numeração e sincronização não são executados. Cadastros de produto e títulos financeiros só são gravados quando o perfil JSON declarar os modelos nativos. Análise estática, sem validação no SuiteG6.</p>
   <form id="importForm" class="nfce-inputs panel">
     <section><h2>1. Base do cliente</h2><p>Use a conexão ativa do Insight. O emitente é identificado pelo CNPJ do XML e os vínculos são conferidos em uma amostra de vendas da própria empresa.</p>
       <label for="mappingMode">Identificação dos vínculos</label><select id="mappingMode"><option value="automatic">Identificar automaticamente na base conectada</option><option value="manual">Usar perfil JSON revisado (avançado)</option></select>
@@ -80,7 +80,7 @@
     <button id="insertPerson" class="secondary" type="button" hidden>Cadastrar pessoa revisada</button>
     <button id="insertPeople" class="secondary" type="button" hidden>Revisar e cadastrar pessoas do lote</button>
     <p id="notice" class="nfce-note"></p>
-    <div class="nfce-commit"><h2>4. Inserir no banco</h2><p>A aplicação confere chaves existentes e registra cada escrita no diário do editor. A inserção das duas coleções não é uma transação no MongoDB 3.4.</p>
+    <div class="nfce-commit"><h2>4. Inserir no banco</h2><p>A aplicação confere chaves existentes e registra cada escrita no diário do editor. Cadastros de produto e títulos financeiros preparados pelo perfil entram na mesma operação, em ordem de dependência. A inserção entre coleções não é uma transação no MongoDB 3.4.</p>
       <label for="confirmation">Confirmação do banco de destino</label><input id="confirmation" autocomplete="off" placeholder="IMPORTAR NomeDoBanco">
       <button id="apply" type="button" disabled>Inserir vendas revisadas</button>
       <p id="commitStatus" role="status"></p>

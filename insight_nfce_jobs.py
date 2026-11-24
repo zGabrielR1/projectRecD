@@ -26,7 +26,8 @@ from fastapi import HTTPException
 import insight_store as store
 import insight_editor as editor
 from insight_nfce import ARCHIVED_CANCELLATION, NOTICE, MONGO_DOCUMENT_BYTES, key_valid, parse_xml
-from insight_nfce_mapping import load_profile, build_sale, build_cfe, validate_native_documents
+from insight_nfce_mapping import (load_profile, build_sale, build_cfe, sale_collections,
+                                  sale_documents, validate_native_documents)
 from insight_nfce_discovery import nfe_route, parse_cfe, Discovery, read_xml, tree_signature, NS
 
 _pool=ThreadPoolExecutor(max_workers=2,thread_name_prefix='nfce')
@@ -105,6 +106,8 @@ def connect(*,durable=False):
             if column not in columns:connection.execute('ALTER TABLE files ADD COLUMN '+column+' BLOB')
         if 'source' not in columns:
             connection.execute('ALTER TABLE files ADD COLUMN source TEXT')
+        if 'collections' not in columns:
+            connection.execute('ALTER TABLE files ADD COLUMN collections TEXT')
         if 'use_barcode' not in {row[1] for row in connection.execute('PRAGMA table_info(jobs)')}:
             connection.execute('ALTER TABLE jobs ADD COLUMN use_barcode INTEGER NOT NULL DEFAULT 0')
         if 'import_movements' not in {row[1] for row in connection.execute('PRAGMA table_info(jobs)')}:
@@ -464,7 +467,8 @@ def write_sale(job_id,row,sale):
     with payload_connection(job_id) as db:
         db.execute('INSERT INTO payloads(id,sale) VALUES(?,?) ON CONFLICT(id) DO UPDATE SET sale=excluded.sale',
                    (row['id'],sqlite3.Binary(BSON.encode(sale))))
-    update_file(row['id'],status='ready',sale_path='sqlite',message=None)
+    update_file(row['id'],status='ready',sale_path='sqlite',message=None,
+                collections=json.dumps(sorted(sale_collections([sale]))))
 
 
 def validation_checkpoint(job_id):
@@ -615,13 +619,22 @@ def validate_job(job_id,job,owner):
             db.execute('UPDATE jobs SET state=? WHERE id=?',('blocked' if bad else 'ready',job_id))
 
 
+def authorized_collections(job_id):
+    with connect() as db:
+        rows = db.execute("SELECT collections FROM files WHERE job_id=? AND collections IS NOT NULL", (job_id,)).fetchall()
+    names = {'Movimentacoes', 'XmlMovimentacoes'}
+    for row in rows:
+        names.update(json.loads(row['collections']))
+    return names
+
+
 def authorize_apply(job_id,owner,token,confirmation):
     job=owned(job_id,owner)
     if not job['import_movements']:
         raise HTTPException(409, 'A gravação de movimentações está desmarcada neste lote.')
     if confirmation!='IMPORTAR '+job['database_name']:raise HTTPException(422,'Confirme o banco de destino.')
     access=editor.session(token,owner,job['database_name'])
-    for collection in ('Movimentacoes','XmlMovimentacoes'):
+    for collection in authorized_collections(job_id):
         for action in ('insert','find'):
             if not editor.permitted(access['grants'],job['database_name'],collection,action):
                 raise HTTPException(403,'Permissão ausente: '+action+' em '+collection)
@@ -775,15 +788,22 @@ def export_zip(job_id,owner):
     if path.exists():return path
     temporary=folder(job_id)/(secrets.token_hex(16)+'.zip.tmp')
     with zipfile.ZipFile(temporary,'w',zipfile.ZIP_DEFLATED,compresslevel=1,allowZip64=True) as output:
-        for field,name in [('movement','Movimentacoes.json'),('xml','XmlMovimentacoes.json')]:
-            with output.open(name,'w',force_zip64=True) as entry:
+        groups = {}
+        for sale in iter_sales(job_id):
+            for collection, document in sale_documents(sale):
+                groups.setdefault(collection, {})[document['_id']] = document
+        for collection, documents in groups.items():
+            with output.open(collection+'.json','w',force_zip64=True) as entry:
                 entry.write(b'[');first=True
-                for sale in iter_sales(job_id):
+                for document in documents.values():
                     if not first:entry.write(b',\n')
-                    entry.write(json_util.dumps(sale[field],json_options=json_util.CANONICAL_JSON_OPTIONS,ensure_ascii=False).encode('utf-8'))
+                    entry.write(json_util.dumps(document,json_options=json_util.CANONICAL_JSON_OPTIONS,ensure_ascii=False).encode('utf-8'))
                     first=False
                 entry.write(b']')
-        output.writestr('LEIA-ME.txt',NOTICE+'\nDestino: '+job['database_name']+'\nImportar por inserção; nunca replace/upsert. Verifique chaves existentes.')
+        output.writestr('LEIA-ME.txt',NOTICE+'\nDestino: '+job['database_name']+
+                        '\nOrdem: cadastros de produto (quando houver), XmlMovimentacoes, Movimentacoes, '
+                        'Pagamentos/Recebimentos (quando houver). Importar por inserção; nunca replace/upsert. '
+                        'Verifique chaves existentes.')
     if path.exists():temporary.unlink()
     else:temporary.replace(path)
     return path

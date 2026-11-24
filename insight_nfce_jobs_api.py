@@ -122,6 +122,15 @@ def document(job_id:str,file_id:int,request:Request):
         ]
     if 'purchase_cost_candidates' in sale:
         result['purchase_cost_candidates'] = ejson(sale['purchase_cost_candidates'])
+    if sale.get('product_registrations'):
+        result['product_registrations'] = [
+            {'code': registration['code'], 'documents': ejson(registration['documents'])}
+            for registration in sale['product_registrations']
+        ]
+    if sale.get('finance'):
+        result['finance'] = {'collection': sale['finance']['collection'],
+                             'type': sale['finance']['type'],
+                             'documents': ejson(sale['finance']['documents'])}
     if sale.get('installments'):
         result['installments'] = sale['installments']
         native_type = sale['movement']['_t']

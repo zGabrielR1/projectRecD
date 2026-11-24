@@ -13,7 +13,8 @@ from starlette.concurrency import run_in_threadpool
 import insight_editor as editor
 from insight_editor_query import ejson
 from insight_nfce import ARCHIVED_CANCELLATION, NOTICE
-from insight_nfce_mapping import build_sale, load_profile, validate_native_documents
+from insight_nfce_mapping import (build_sale, load_profile, sale_collections, sale_documents,
+                                  validate_native_documents)
 
 router = APIRouter(prefix='/api/nfce-import', dependencies=[Depends(editor.same_origin)])
 _plans = {}
@@ -172,11 +173,16 @@ def export(token: str, request: Request):
     import io
     import zipfile
     data = io.BytesIO()
+    groups = {}
+    for sale in plan['sales']:
+        for collection, document in sale_documents(sale):
+            groups.setdefault(collection, {})[document['_id']] = document
     with zipfile.ZipFile(data, 'w', zipfile.ZIP_DEFLATED) as output:
-        for field, collection in [('movement', 'Movimentacoes'), ('xml', 'XmlMovimentacoes')]:
-            output.writestr(collection + '.json', ejson([s[field] for s in plan['sales']]))
+        for collection, documents in groups.items():
+            output.writestr(collection + '.json', ejson(list(documents.values())))
         output.writestr('LEIA-ME.txt', NOTICE + '\nDestino: ' + plan['database'] +
-                        '\nImportar XmlMovimentacoes primeiro. Usar inserção; nunca replace/upsert. '
+                        '\nOrdem: cadastros de produto (quando houver), XmlMovimentacoes, Movimentacoes, '
+                        'Pagamentos/Recebimentos (quando houver). Usar inserção; nunca replace/upsert. '
                         'O ZIP offline não verifica duplicatas existentes com outros _ids. '
                         'Prefira Aplicar no Insight para conferir a chave antes de gravar.')
     return Response(data.getvalue(), media_type='application/zip',
@@ -196,7 +202,7 @@ def apply_plan(token, confirmation, session_token, owner):
     access = editor.session(session_token, owner, database)
     if confirmation != 'IMPORTAR ' + database or not plan['valid']:
         raise HTTPException(422, 'Corrija o lote e digite IMPORTAR seguido do nome do banco.')
-    for collection in ('Movimentacoes', 'XmlMovimentacoes'):
+    for collection in sale_collections(plan['sales']):
         for action in ('insert', 'find'):
             if not editor.permitted(access['grants'], database, collection, action):
                 raise HTTPException(403, 'Permissão ausente: ' + action + ' em ' + collection)
@@ -273,9 +279,24 @@ def native_document_filter(movement):
     return {'EmpresaReferencia': company, '_t': native_type, **number_filter}
 
 
+def insert_document(document, database, collection, session_token, owner, *, client, changes):
+    """Insert one prepared document, tolerating an identical journaled prior write."""
+    existing = editor.selected_collection(client, database, collection).find_one(
+        {'_id': document['_id']}, max_time_ms=5000)
+    if existing is not None:
+        if existing != document:
+            raise HTTPException(409, 'Já existe um documento diferente com o _id preparado em ' + collection + '.')
+        return False
+    change = editor.prepare_import_insert(document, database, collection, session_token, owner, client=client)
+    changes.append(change['id'])
+    editor.apply_change(change['id'], session_token, owner, collection, document_limit=None, client=client)
+    return True
+
+
 def apply_sale(sale,database,session_token,owner,*,client=None):
     """One resumable write unit; optional pooled client belongs to the import worker."""
     from contextlib import nullcontext
+    from insight_nfce_mapping import REGISTRATION_COLLECTIONS
     key=sale['summary']['access_key'];changes=[]
     try:
         validate_native_documents(sale['movement'],sale['xml'])
@@ -301,12 +322,25 @@ def apply_sale(sale,database,session_token,owner,*,client=None):
                 source=current[database][guard['collection']].find_one({'_id':guard['id']},projection,max_time_ms=5000)
                 if source is None or ('digest' in guard and guard_digest(source,guard['fields'])!=guard['digest']) or source.get('Versao')!=guard['version']:
                     raise HTTPException(409,'Uma referência usada na descoberta mudou. Valide novamente.')
+            for registration in sale.get('product_registrations', []):
+                documents = registration['documents']
+                for collection in REGISTRATION_COLLECTIONS:
+                    if collection in documents:
+                        insert_document(documents[collection],database,collection,session_token,
+                                        owner,client=current,changes=changes)
             for field,collection in [('xml','XmlMovimentacoes'),('movement','Movimentacoes')]:
                 if field=='xml' and existing_xml:continue
                 change=editor.prepare_import_insert(sale[field],database,collection,session_token,owner,client=current)
                 changes.append(change['id'])
                 editor.apply_change(change['id'],session_token,owner,collection,document_limit=None,client=current)
+            finance = sale.get('finance')
+            if finance:
+                for document in finance['documents']:
+                    insert_document(document,database,finance['collection'],session_token,
+                                    owner,client=current,changes=changes)
         return {'access_key':key,'status':'imported','changes':changes}
-    except Exception:
+    except Exception as exc:
+        detail = exc.detail if isinstance(exc, HTTPException) else None
         return {'access_key':key,'status':'stopped','changes':changes,
-                'message':'Escrita interrompida. Confira o diário e as duas coleções; o resultado pode ser parcial ou incerto.'}
+                'message':('Escrita interrompida: ' + str(detail) if detail else
+                           'Escrita interrompida. Confira o diário e as duas coleções; o resultado pode ser parcial ou incerto.')}

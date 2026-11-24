@@ -19,7 +19,10 @@ def load_profile(text):
     if not isinstance(profile, dict) or profile.get('schema') != 'insight.nfce.mapping.v1':
         raise ValueError('Perfil deve usar schema insight.nfce.mapping.v1.')
     for key in ('database', 'issuer_cnpj', 'company_id', 'movement', 'item', 'products', 'payments'):
-        if not profile.get(key):
+        if key == 'products':
+            if not isinstance(profile.get(key), dict):
+                raise ValueError('Perfil incompleto: ' + key)
+        elif not profile.get(key):
             raise ValueError('Perfil incompleto: ' + key)
     if not isinstance(profile['company_id'], ObjectId):
         raise ValueError('company_id deve ser ObjectId em Extended JSON.')
@@ -29,6 +32,8 @@ def load_profile(text):
         raise ValueError('issuer_cnpj deve ter 14 dígitos.')
     if not isinstance(profile['products'], dict) or not isinstance(profile['payments'], dict):
         raise ValueError('products e payments devem ser objetos de mapeamento.')
+    if not profile['products'] and not isinstance(profile.get('product_template'), dict):
+        raise ValueError('Perfil deve mapear products ou declarar product_template.')
     if profile.get('environment') not in {'1', '2'}:
         raise ValueError('environment deve ser 1 ou 2.')
     return profile
@@ -131,6 +136,209 @@ def matches_path(pattern, path):
     return len(left) == len(right) and all(a == '*' or a == b for a, b in zip(left, right))
 
 
+def generated_id(kind, company_id, code, extra=''):
+    return ObjectId(hashlib.sha256(
+        ('insight-dfe-' + kind + ':' + str(company_id) + ':' + code + extra).encode()).digest()[:12])
+
+
+REGISTRATION_COLLECTIONS = ('Estoques', 'EstoquesQuantidade', 'ProdutosServicos',
+                            'Precos', 'ProdutosServicosEmpresa')
+
+
+def product_registration(profile, item, context, node):
+    """Build product/link/price/stock documents from an explicit profile template.
+
+    The template supplies every native field; this function only binds the
+    generated identities so a purchase line can reference the new company
+    product without guessing defaults from another product.
+    """
+    template = profile.get('product_template')
+    if not isinstance(template, dict):
+        raise ValueError('Produto sem mapeamento interno: ' + item['code'])
+    code = item['code']
+    company_id = profile['company_id']
+    generated = {
+        'product_id': generated_id('product', company_id, code),
+        'company_product_id': generated_id('product-link', company_id, code),
+        'price_id': generated_id('price', company_id, code),
+        'stock_id': generated_id('stock', company_id, code),
+        'stock_quantity_id': generated_id('stock-quantity', company_id, code),
+    }
+    child = dict(context, generated=generated, code=code)
+    document_templates = {}
+    for key, collection in (('product', 'ProdutosServicos'), ('company', 'ProdutosServicosEmpresa'),
+                            ('price', 'Precos'), ('stock', 'Estoques'),
+                            ('stock_quantity', 'EstoquesQuantidade')):
+        value = template.get(key)
+        if value is None:
+            continue
+        if not isinstance(value, dict):
+            raise ValueError('product_template.' + key + ' deve ser um objeto.')
+        document_templates[collection] = render(value, child, node)
+    for collection in ('ProdutosServicos', 'ProdutosServicosEmpresa', 'Precos'):
+        if collection not in document_templates:
+            raise ValueError('product_template incompleto: ' + collection)
+    mapping_template = template.get('mapping')
+    if not isinstance(mapping_template, dict):
+        raise ValueError('product_template.mapping deve descrever o item nativo.')
+    mapping = render(mapping_template, child, node)
+    mapping['reference'] = generated['company_product_id']
+    for field in ('snapshot', 'percentual', 'ipi', 'pis', 'cofins', 'operacao_fiscal',
+                  'estoque_movimentacao'):
+        if not isinstance(mapping.get(field), dict) or not mapping[field].get('_t'):
+            raise ValueError('product_template.mapping incompleto: ' + field)
+    snapshot_reference = mapping['snapshot'].get('ProdutoServicoReferencia')
+    if snapshot_reference is not None and snapshot_reference != generated['product_id']:
+        raise ValueError('product_template.mapping.snapshot deve usar generated.product_id.')
+
+    documents = document_templates
+    product = documents['ProdutosServicos']
+    product['_id'] = generated['product_id']
+    if not product.get('_t') or product.get('Ativo') is not True:
+        raise ValueError('product_template.product deve ser um cadastro ativo e tipado.')
+    link = documents['ProdutosServicosEmpresa']
+    link['_id'] = generated['company_product_id']
+    link['ProdutoServicoReferencia'] = generated['product_id']
+    link['EmpresaReferencia'] = company_id
+    link['PrecoReferencia'] = generated['price_id']
+    if not link.get('_t') or link.get('Ativo') is not True:
+        raise ValueError('product_template.company deve ser um vínculo ativo e tipado.')
+    price = documents['Precos']
+    price['_id'] = generated['price_id']
+    if not price.get('_t') or not isinstance(price.get('Custo'), dict) or 'Valor' not in price['Custo']:
+        raise ValueError('product_template.price deve conter _t e Custo.Valor.')
+    if 'Estoques' in documents:
+        stock = documents['Estoques']
+        stock['_id'] = generated['stock_id']
+        if not stock.get('_t'):
+            raise ValueError('product_template.stock deve conter _t.')
+        link['EstoqueReferencia'] = generated['stock_id']
+    if 'EstoquesQuantidade' in documents:
+        quantity = documents['EstoquesQuantidade']
+        if 'Estoques' not in documents:
+            raise ValueError('product_template.stock_quantity exige product_template.stock.')
+        quantity['_id'] = generated['stock_quantity_id']
+        quantity['EstoqueReferencia'] = generated['stock_id']
+        quantity.setdefault('EstoqueReferenciaParent', generated['stock_id'])
+        quantity.setdefault('Quantidade', 0.0)
+        if not quantity.get('_t'):
+            raise ValueError('product_template.stock_quantity deve conter _t.')
+    validate_native_documents(*documents.values())
+    return mapping, {'code': code, 'documents': documents}
+
+
+def finance_kind(document):
+    native_type = document.get('_t')
+    if isinstance(native_type, list):
+        native_type = native_type[-1] if native_type else None
+    return 'payable' if native_type in {'NotaFiscalCompra', 'NotaFiscalEletronicaEntrada'} else 'receivable'
+
+
+def build_finance(parsed, profile, context, document, node):
+    """Build native parcela documents from XML duplicatas using a profile template.
+
+    The XML proves due date and amount only. The template supplies the native
+    account/plan/species; no settlement is invented and no reference is copied
+    from another sale.
+    """
+    config = profile.get('finance')
+    if not isinstance(config, dict):
+        return None
+    kind = finance_kind(document)
+    side = config.get(kind)
+    if side is None:
+        return None
+    expected = {'payable': ('Pagamentos', 'Pagamento'),
+                'receivable': ('Recebimentos', 'Recebimento')}[kind]
+    if not isinstance(side, dict):
+        raise ValueError('finance.' + kind + ' deve ser um objeto.')
+    collection, payment_type = side.get('collection'), side.get('type')
+    if collection != expected[0] or payment_type != expected[1]:
+        raise ValueError('finance.' + kind + ' deve usar ' + expected[0] + '/' + expected[1] + '.')
+    template = side.get('parcela')
+    if not isinstance(template, dict):
+        raise ValueError('finance.' + kind + '.parcela deve ser um objeto.')
+    person_template = side.get('person')
+    if person_template is not None and not isinstance(person_template, dict):
+        raise ValueError('finance.' + kind + '.person deve ser um objeto.')
+    if not parsed['installments']:
+        return None
+    identity = profile['environment'] + ':' + parsed['access_key']
+    person_reference = document['Pessoa'].get('PessoaReferencia')
+    if not isinstance(person_reference, ObjectId) or person_reference == ObjectId('000000000000000000000000'):
+        raise ValueError('Movimentação sem pessoa para vincular as parcelas financeiras.')
+    documents = []
+    for order, installment in enumerate(parsed['installments'], 1):
+        if not installment['date']:
+            raise ValueError('Duplicata sem vencimento exige revisão antes de gerar o título financeiro.')
+        if not installment['amount']:
+            raise ValueError('Duplicata sem valor exige revisão antes de gerar o título financeiro.')
+        child = dict(context, installment=dict(installment, order=order))
+        parcela = render(template, child, node)
+        if not isinstance(parcela, dict) or not parcela.get('_t'):
+            raise ValueError('finance.' + kind + '.parcela deve produzir um documento tipado.')
+        parcela['_id'] = ObjectId(hashlib.sha256(
+            ('insight-nfce-title:' + identity + ':' + str(order)).encode()).digest()[:12])
+        parcela['Ordem'] = order
+        if installment['number']:
+            parcela['Documento'] = installment['number']
+        parcela['Vencimento'] = datetime.strptime(installment['date'], '%Y-%m-%d').replace(tzinfo=timezone.utc)
+        parcela['DataEmissao'] = context['issued_at']
+        parcela['EmpresaReferencia'] = profile['company_id']
+        parcela['PessoaReferencia'] = person_reference
+        parcela['Ativo'] = True
+        if person_template is not None:
+            person = render(person_template, child, node)
+            if not isinstance(person, dict) or not person.get('_t'):
+                raise ValueError('finance.' + kind + '.person deve produzir um cadastro tipado.')
+            parcela['Pessoa'] = person
+        status = parcela.get('Situacao')
+        if not isinstance(status, dict) or status.get('_t') != 'Pendente' or status.get('Codigo') != 1:
+            raise ValueError('Título financeiro importado deve iniciar Pendente, código 1.')
+        account = parcela.get('ContaReferencia')
+        if not isinstance(account, ObjectId) or account == ObjectId('000000000000000000000000'):
+            raise ValueError('finance.' + kind + '.parcela deve informar ContaReferencia.')
+        history = parcela.get('Historico')
+        if not isinstance(history, list) or not history or history[0].get('_t') != 'HistoricoAguardando':
+            raise ValueError('Título financeiro exige histórico inicial HistoricoAguardando.')
+        amount = Decimal(installment['amount'])
+        for entry in history:
+            try:
+                value = Decimal(str(entry.get('Valor')))
+            except (InvalidOperation, TypeError):
+                raise ValueError('Histórico financeiro sem Valor numérico.') from None
+            if not value.is_finite() or value != amount:
+                raise ValueError('Histórico financeiro deve registrar o valor da duplicata.')
+        validate_native_documents(parcela)
+        documents.append(parcela)
+    return {'kind': kind, 'collection': collection, 'type': payment_type, 'documents': documents}
+
+
+def sale_documents(sale):
+    """Yield (collection, document) in dependency order for export and writes."""
+    for registration in sale.get('product_registrations', []):
+        for collection in REGISTRATION_COLLECTIONS:
+            document = registration['documents'].get(collection)
+            if document is not None:
+                yield collection, document
+    yield 'XmlMovimentacoes', sale['xml']
+    yield 'Movimentacoes', sale['movement']
+    finance = sale.get('finance')
+    if finance:
+        for document in finance['documents']:
+            yield finance['collection'], document
+
+
+def sale_collections(sales):
+    names = {'Movimentacoes', 'XmlMovimentacoes'}
+    for sale in sales:
+        for registration in sale.get('product_registrations', []):
+            names.update(registration['documents'])
+        if sale.get('finance'):
+            names.add(sale['finance']['collection'])
+    return names
+
+
 def build_sale(raw, profile, *, source=None):
     source_profiles = profile.get('source_profiles', {})
     if not isinstance(source_profiles, dict):
@@ -138,7 +346,8 @@ def build_sale(raw, profile, *, source=None):
     if source in source_profiles:
         overrides = source_profiles[source]
         allowed = {'issuer_cnpj', 'movement', 'item', 'products', 'payments',
-                   'company', 'customer', 'xml_movement_type', 'purchase_suppliers'}
+                   'company', 'customer', 'xml_movement_type', 'purchase_suppliers',
+                   'product_template', 'finance'}
         if not isinstance(overrides, dict) or set(overrides) - allowed:
             raise ValueError('Configuração inválida no perfil da pasta de XML.')
         profile = dict(profile, **overrides)
@@ -165,10 +374,16 @@ def build_sale(raw, profile, *, source=None):
     native_id = ObjectId(hashlib.sha256(('insight-nfce:' + identity).encode()).digest()[:12])
     context = {'profile': profile, 'invoice': parsed, 'id': native_id, 'issued_at': wall,
                'number': Int64(parsed['number']), 'series': parsed['series'], 'items': [], 'payments': []}
+    registrations = []
+    registered = set()
     for det, item in zip(info.findall('n:det', NS), parsed['items']):
         product = profile['products'].get(item['code'])
         if not isinstance(product, dict):
-            raise ValueError('Produto sem mapeamento interno: ' + item['code'])
+            product, registration = product_registration(profile, item, context, det)
+            if item['code'] in registered:
+                raise ValueError('Produto repetido no XML com cadastro gerado: ' + item['code'])
+            registered.add(item['code'])
+            registrations.append(registration)
         child = dict(context, product=product, item=item)
         if not item['included_in_total']:
             raise ValueError('Itens indTot=0 exigem outro perfil de integração; não são suportados nesta importação.')
@@ -249,6 +464,9 @@ def build_sale(raw, profile, *, source=None):
         total += net
     if total != Decimal(parsed['total']):
         raise ValueError('Total calculado pelos itens nativos diverge de vNF: ' + str(total))
+    finance = build_finance(parsed, profile, context, document, info)
+    if finance:
+        document['PagamentoRecebimento'] = {'_t': finance['type'], 'Parcelas': finance['documents']}
     xml = {'_id': ObjectId(hashlib.sha256(('insight-nfce-xml:' + identity).encode()).digest()[:12]),
            'Data': wall, 'ChaveAcesso': key, 'Xml': raw.decode('utf-8-sig'),
            'TipoMovimentacao': 11 if parsed['model'] == '65' else profile.get('xml_movement_type'), 'EventoCancelamento': False, 'Cancelada': False}
@@ -257,6 +475,10 @@ def build_sale(raw, profile, *, source=None):
     validate_native_documents(document, xml)
     result = {'movement': document, 'xml': xml, 'summary': {k: parsed[k] for k in
             ('access_key', 'number', 'series', 'total', 'issued_at_original', 'xml_sha256')}, 'notice': NOTICE}
+    if registrations:
+        result['product_registrations'] = registrations
+    if finance:
+        result['finance'] = finance
     if parsed['installments']:
         result['installments'] = parsed['installments']
     result['parties'] = parsed['parties']

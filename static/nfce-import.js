@@ -290,9 +290,16 @@
       if (data.purchase_cost_candidates) {
         sections.push('Custos unitários do XML de compra\n'+JSON.stringify(JSON.parse(data.purchase_cost_candidates), null, 2));
       }
+      if (data.product_registrations) {
+        sections.push('Cadastros de produto preparados\n'+JSON.stringify(data.product_registrations, null, 2));
+      }
+      if (data.finance) {
+        sections.push('Títulos financeiros · '+data.finance.collection+' · sem baixa\n'+
+          JSON.stringify(data.finance, null, 2));
+      }
       if (data.installments?.length) {
         const title = data.installment_kind === 'payable' ? 'Parcelas a pagar' : 'Parcelas a receber';
-        sections.push(title+' informadas no XML · sem baixa financeira\n'+data.installments.map(
+        sections.push(title+' informadas no XML\n'+data.installments.map(
           entry => [entry.number || '—', entry.date || 'Sem vencimento', 'R$ '+entry.amount.replace('.', ',')].join(' · ')
         ).join('\n'));
       }

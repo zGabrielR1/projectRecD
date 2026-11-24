@@ -14,7 +14,8 @@ COLLECTION = 'Movimentacoes'
 NS = {'n': 'http://www.portalfiscal.inf.br/nfe'}
 ARCHIVED_CANCELLATION = {'$or': [{'EventoCancelamento': True}, {'Cancelada': True}]}
 NOTICE = ('Inserção direta de venda histórica em Movimentacoes. Não executa os serviços de '
-          'estoque, caixa, financeiro, numeração ou sincronização do SuiteG6. '
+          'estoque, caixa, numeração ou sincronização do SuiteG6. Cadastros de produto, títulos '
+          'financeiros e pessoas somente são gravados quando o perfil declarar os modelos nativos. '
           'Compatibilidade analisada estaticamente; sem validação em instalação nativa. '
           'Assinatura digital e situação atual na SEFAZ não verificadas.')
 

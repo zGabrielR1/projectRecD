@@ -12,14 +12,14 @@ import unittest
 from unittest.mock import patch, MagicMock
 import zipfile
 
-from bson import json_util
+from bson import json_util, ObjectId
 from xml.etree import ElementTree as ET
 from fastapi import FastAPI, HTTPException
 from fastapi.testclient import TestClient
 
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from test_nfce_discovery import xml
-from test_nfce_import import profile
+from test_nfce_import import profile, product_template_profile, finance_profile
 import insight_nfce_jobs as jobs
 from insight_nfce_jobs_api import router
 import insight_editor as editor
@@ -108,6 +108,56 @@ class JobTests(unittest.TestCase):
         self.assertEqual(jobs.purchase_cost_preview(job_id, 'owner'), [])
         jobs.update_file(file_id, status='imported')
         self.assertEqual(jobs.purchase_cost_preview(job_id, 'owner'), costs)
+
+    def test_purchase_registers_product_and_payable_title(self):
+        raw = xml()
+        old_key = ET.fromstring(raw).find('n:NFe/n:infNFe', NS).get('Id')[3:]
+        head = old_key[:20] + '55' + old_key[22:43]
+        check = 11 - sum(int(n) * (2 + i % 8) for i, n in enumerate(reversed(head))) % 11
+        key = head + str(0 if check >= 10 else check)
+        raw = raw.replace(old_key.encode(), key.encode()).replace(b'<mod>65', b'<mod>55')
+        raw = raw.replace(b'</emit>', b'</emit><dest><CNPJ>98765432000110</CNPJ><xNome>Empresa</xNome></dest>')
+        raw = raw.replace(b'<pag>', b'<cobr><dup><nDup>001</nDup><dVenc>2026-12-01</dVenc>'
+                                   b'<vDup>10.00</vDup></dup></cobr><pag>')
+        base = product_template_profile()
+        base.update(finance=finance_profile('payable')['finance'])
+        base['products'] = {}
+        base['company'] = {'_t': 'EmpresaHistorico', 'PessoaReferencia': base['company_id'],
+                           'Documento': '98765432000110'}
+        base['customer'] = {'_t': 'JuridicaHistorico', 'PessoaReferencia': ObjectId('222222222222222222222222'),
+                            'Documento': base['issuer_cnpj']}
+        base['person_template'] = {'Cnpj': {'_t': 'SyntheticPessoaJuridica', 'Ativo': True}}
+        mapping_value = profile()
+        mapping_value['movement']['_t'] = 'NotaFiscalCompra'
+        base['source_profiles'] = {'purchase': {
+            'movement': mapping_value['movement'],
+            'company': base['company'],
+            'purchase_suppliers': {base['issuer_cnpj']: {'customer': base['customer'], 'products': {}}},
+            'xml_movement_type': 123,
+        }}
+        job_id = jobs.create('owner', 'manual', json_util.dumps(base))['id']
+        path = Path(self.temp.name) / 'supplier.xml'
+        path.write_bytes(raw)
+        slot = jobs.upload_slot(job_id, 'owner', {'name': path.name, 'size': len(raw), 'source': 'purchase'})
+        jobs.upload_local(job_id, 'owner', path, upload_id=slot['upload_id'])
+        result = jobs.launch(job_id, 'owner', 'validate', background=False)
+        self.assertEqual(result['ready'], 1, result)
+        sale = jobs.document(job_id, 'owner', result['rows'][0]['id'])
+        self.assertEqual(sale['finance']['collection'], 'Pagamentos')
+        self.assertEqual(sale['movement']['PagamentoRecebimento']['_t'], 'Pagamento')
+        self.assertEqual(sale['movement']['PagamentoRecebimento']['Parcelas'][0]['Vencimento'].day, 1)
+        registration = sale['product_registrations'][0]
+        self.assertEqual(registration['documents']['ProdutosServicosEmpresa']['_id'],
+                         sale['movement']['ItensBase'][0]['ProdutoServicoEmpresaReferencia'])
+        self.assertEqual(jobs.authorized_collections(job_id),
+                         {'Movimentacoes', 'XmlMovimentacoes', 'Pagamentos', 'Estoques',
+                          'EstoquesQuantidade', 'ProdutosServicos', 'Precos', 'ProdutosServicosEmpresa'})
+        with zipfile.ZipFile(jobs.export_zip(job_id, 'owner')) as archive:
+            self.assertEqual(set(archive.namelist()), {
+                'Estoques.json', 'EstoquesQuantidade.json', 'ProdutosServicos.json', 'Precos.json',
+                'ProdutosServicosEmpresa.json', 'XmlMovimentacoes.json', 'Movimentacoes.json',
+                'Pagamentos.json', 'LEIA-ME.txt'})
+            self.assertIn(b'Pagamentos', archive.read('LEIA-ME.txt'))
 
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory()

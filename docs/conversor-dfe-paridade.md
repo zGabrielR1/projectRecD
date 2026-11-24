@@ -18,7 +18,15 @@ Evidência REA `ev_658a4a1df89c6921279e535175f6bd81f0ac35fe5150f29ebbcb77956fe7d
 
 No SuiteG6 2.0.26322.10, o módulo `DigisatServer.Infrastructure.Data.Main` consulta `ParcelaRecebimento` por referência no repositório de boletos e mantém `ParcelaPagamento` em seu próprio repositório. O repositório de movimentações também lê `PagamentoRecebimento.Parcelas` no documento fiscal. Portanto, gravar apenas a lista embutida não reproduz o caminho de consulta de títulos. A próxima validação precisa conferir identidade e relações nos dois formatos nativos.
 
-## Preço de custo
+No Insight RC4, um perfil JSON pode declarar `finance.payable` ou `finance.receivable` com o template nativo da parcela. O importador gera documentos em `Pagamentos`/`Recebimentos` e também os embute em `Movimentacao.PagamentoRecebimento.Parcelas`, usando `_id` determinístico por chave+ordem, vencimento/valor do XML e estado inicial `Pendente` (código 1). Isso cobre o formato observado (documento + lista embutida), mas continua dependente de perfil revisado e não executa baixa, juros, multa ou conciliação.
+
+## Cadastro de produto (RC4)
+
+O fluxo de compra pode exigir produtos inexistentes na base. No Insight RC4, o perfil pode declarar `product_template` com modelos nativos para `ProdutosServicos`, `ProdutosServicosEmpresa`, `Precos`, `Estoques` e `EstoquesQuantidade`, além de `mapping` para o item da movimentação. IDs são determinísticos por empresa+código; a aplicação grava cadastros antes da movimentação e evita sobrescrever documento diferente com o mesmo `_id`. Não há descoberta automática de cadastro mínimo seguro; o template é responsabilidade do perfil revisado.
+
+## Verificação pendente
+
+As gravações nas rotas/coleções nativas do SuiteG6 instalado ainda não foram homologadas com base de cliente. Antes de uso em produção, conferir no SuiteG6: abertura da movimentação, vínculo do produto/empresa, preço de custo, parcelas em Pagamentos/Recebimentos e ausência de efeitos colaterais indesejados.
 
 Em `DigisatConversor.ServiceDfe.dll`, `ProdutoServicoService.CarregarProdutosEServicos` carrega os documentos de compra separadamente e entrega as duas opções de produto a `ProdutoServicoLista.ProcessarProdutosServicos`. Os vínculos existentes consultam `PrecoCusto` e `PrecoVenda`. O processamento também tem caminhos que selecionam uma linha de compra com `LastOrDefault` e leem `Prod.vUnCom`. Isso identifica a fonte do custo no XML: o preço unitário comercial da compra.
 

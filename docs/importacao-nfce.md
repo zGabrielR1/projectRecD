@@ -4,7 +4,11 @@
 
 Importar XML fiscal aceita lotes mistos de NFC-e (modelo 65) e NF-e (modelo 55), com nfeProc autorizado, de saída e finalidade normal. A identificação automática usa somente a conexão selecionada no aplicativo: não exige Studio 3T, exportação BSON, cópia de outra base ou perfil manual. As amostras, o discriminador nativo e o TipoMovimentacao do XML ficam separados por modelo. A base precisa conter exemplos compatíveis da própria empresa, produtos e pagamentos; ausência ou ambiguidade bloqueia o arquivo.
 
-Compras emitidas por fornecedores, devoluções, complementares, ajuste, CT-e, SAT/CF-e, NFS-e e eventos de cancelamento continuam sem conversor nativo e não são gravados. Tributos positivos, TEF e estoque por lote/grade/serial mantêm as restrições abaixo. Importar um documento histórico não executa os serviços de estoque ou financeiro do SuiteG6.
+## 1.1.3 RC4
+
+Com perfil JSON revisado, o importador pode preparar cadastros de produto (`product_template`) e títulos financeiros a partir de duplicatas (`finance.payable`/`finance.receivable`). Esses documentos são incluídos na prévia, no ZIP e na aplicação, com escrita registrada no diário do editor. A identificação automática continua sem criar cadastros/financeiro; nesses casos, o perfil é obrigatório.
+
+Compras/entrada/CF-e por perfil continuam suportados conforme o mapeamento declarado. A verificação das gravações nas rotas nativas do SuiteG6 instalado permanece pendente. Importar um documento histórico não executa os serviços nativos de estoque, caixa, numeração ou sincronização do SuiteG6; baixas financeiras não são inventadas.
 
 Configure servidor, porta, banco, usuário, senha e autenticação em **Configurar conexão → Testar e salvar**. As opções do aplicativo permitem definir limite de linhas, endpoint/modelo/chave de IA e acesso ao painel. O aplicativo grava a configuração local; não é necessário editar config.env nem criar arquivo de senha. A senha MongoDB fica em MONGO_PASSWORD nesse arquivo local. Senhas não aparecem nas APIs de diagnóstico. Alterações no acesso ao painel são aplicadas ao reiniciar.
 
@@ -12,7 +16,7 @@ Instalações antigas ainda podem ser lidas; salvar pela interface migra a refer
 
 Os testes desta versão gravam NFC-e e NF-e sintéticas em MongoDB descartável autenticado, conferem as duas coleções, o diário, a autenticação após salvar e a repetição sem duplicação. Não equivalem a homologação no SuiteG6 instalado.
 
-A tela /nfce-import e o script tools/import-nfce.py preparam documentos para Movimentacoes e XmlMovimentacoes. A inserção é histórica: não executa serviços de estoque, caixa, financeiro, numeração ou sincronização do SuiteG6. A compatibilidade nativa continua baseada na análise estática e nos formatos observados; não foi executada inserção em base de cliente durante o desenvolvimento.
+A tela /nfce-import e o script tools/import-nfce.py preparam documentos para Movimentacoes, XmlMovimentacoes e, quando o perfil declarar, cadastros de produto e títulos financeiros. A inserção é histórica: não executa serviços nativos de estoque, caixa, numeração ou sincronização do SuiteG6. A compatibilidade nativa continua baseada na análise estática e nos formatos observados; não foi executada inserção em base de cliente durante o desenvolvimento.
 
 ## Buscar pela chave de acesso
 

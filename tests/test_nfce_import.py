@@ -143,6 +143,139 @@ class MappingTests(unittest.TestCase):
         self.assertTrue(mapping.matches_path('imposto/ICMS/*/vBC','imposto/ICMS/ICMS00/vBC'))
 
 
+def product_template_profile():
+    value = profile()
+    value['products'] = {}
+    value['product_template'] = {
+        'product': {'_t': 'Produto', 'Ativo': True, 'CodigoInterno': {'$bind': 'code'},
+                    'Descricao': {'$bind': 'xml:prod/xProd'}},
+        'company': {'_t': 'ProdutoEmpresa', 'Ativo': True, 'Vendavel': True},
+        'price': {'_t': 'Preco', 'Custo': {'Valor': {'$bind': 'xml:prod/vUnCom', 'type': 'double'}},
+                  'Venda': {'Valor': 0.0}},
+        'stock': {'_t': 'Estoque'},
+        'stock_quantity': {'_t': 'EstoqueQuantidade'},
+        'mapping': {
+            'snapshot': {'_t': 'ProdutoHistorico',
+                         'ProdutoServicoReferencia': {'$bind': 'generated.product_id', 'type': 'objectId'}},
+            'percentual': {'_t': 'SyntheticPercentual', 'ValorSt': 0.0},
+            'ipi': {'_t': 'SyntheticIPI', 'Valor': 0.0},
+            'pis': {'_t': 'SyntheticPIS'}, 'cofins': {'_t': 'SyntheticCOFINS'},
+            'operacao_fiscal': {'_t': 'SyntheticOperacao'},
+            'estoque_movimentacao': {'_t': 'SyntheticEstoque'},
+        },
+    }
+    return value
+
+
+def finance_profile(kind='receivable'):
+    value = profile()
+    collection, native_type = (('Recebimentos', 'Recebimento') if kind == 'receivable'
+                               else ('Pagamentos', 'Pagamento'))
+    value['finance'] = {kind: {
+        'collection': collection, 'type': native_type,
+        'parcela': {
+            '_t': 'Parcela' + native_type, 'Descricao': 'Duplicata do XML',
+            'Situacao': {'_t': 'Pendente', 'Codigo': 1},
+            'ContaReferencia': ObjectId('555555555555555555555555'),
+            'Historico': [{'_t': 'HistoricoAguardando',
+                           'Valor': {'$bind': 'installment.amount', 'type': 'double'},
+                           'EspeciePagamento': {'_t': 'Boleto'},
+                           'ContaReferencia': ObjectId('555555555555555555555555')}],
+        },
+    }}
+    return value
+
+
+def billed_fixture(amount='10.00'):
+    billing = (f'<cobr><fat><vLiq>{amount}</vLiq></fat><dup><nDup>001</nDup>'
+               f'<dVenc>2026-12-01</dVenc><vDup>{amount}</vDup></dup></cobr>').encode()
+    return fixture().replace(b'<pag>', billing + b'<pag>')
+
+
+class ParityTests(unittest.TestCase):
+    def test_product_template_generates_company_link_price_and_stock(self):
+        sale = mapping.build_sale(fixture(), product_template_profile())
+        registration = sale['product_registrations'][0]
+        documents = registration['documents']
+        self.assertEqual(set(documents), {'Estoques', 'EstoquesQuantidade', 'ProdutosServicos',
+                                          'Precos', 'ProdutosServicosEmpresa'})
+        product, link = documents['ProdutosServicos'], documents['ProdutosServicosEmpresa']
+        self.assertEqual(link['ProdutoServicoReferencia'], product['_id'])
+        self.assertEqual(link['PrecoReferencia'], documents['Precos']['_id'])
+        self.assertEqual(link['EstoqueReferencia'], documents['Estoques']['_id'])
+        self.assertEqual(documents['EstoquesQuantidade']['EstoqueReferencia'], documents['Estoques']['_id'])
+        self.assertEqual(link['EmpresaReferencia'], product_template_profile()['company_id'])
+        self.assertEqual(documents['ProdutosServicos']['CodigoInterno'], 'A')
+        self.assertEqual(documents['Precos']['Custo']['Valor'], 3.335)
+        item = sale['movement']['ItensBase'][0]
+        self.assertEqual(item['ProdutoServicoEmpresaReferencia'], link['_id'])
+        self.assertEqual(item['ProdutoServico']['ProdutoServicoReferencia'], product['_id'])
+
+    def test_finance_template_embeds_parcelas_and_uses_pending_state(self):
+        sale = mapping.build_sale(billed_fixture(), finance_profile())
+        finance = sale['finance']
+        self.assertEqual(finance['collection'], 'Recebimentos')
+        self.assertEqual(len(finance['documents']), 1)
+        parcela = finance['documents'][0]
+        self.assertEqual(parcela['Ordem'], 1)
+        self.assertEqual(parcela['Documento'], '001')
+        self.assertEqual(parcela['Vencimento'].strftime('%Y-%m-%d'), '2026-12-01')
+        self.assertEqual(parcela['PessoaReferencia'], ObjectId('222222222222222222222222'))
+        self.assertEqual(parcela['EmpresaReferencia'], finance_profile()['company_id'])
+        self.assertEqual(sale['movement']['PagamentoRecebimento'],
+                         {'_t': 'Recebimento', 'Parcelas': [parcela]})
+        self.assertEqual(mapping.build_sale(billed_fixture(), finance_profile())['finance'],
+                         finance)
+
+    def test_finance_requires_pending_state_and_due_date(self):
+        changed = finance_profile()
+        changed['finance']['receivable']['parcela']['Situacao'] = {'_t': 'Quitada', 'Codigo': 2}
+        with self.assertRaisesRegex(ValueError, 'Pendente'):
+            mapping.build_sale(billed_fixture(), changed)
+        raw = billed_fixture().replace(b'<dVenc>2026-12-01</dVenc>', b'<dVenc></dVenc>')
+        with self.assertRaisesRegex(ValueError, 'vencimento'):
+            mapping.build_sale(raw, finance_profile())
+
+    def test_apply_writes_registrations_before_movement_and_finance_after(self):
+        sale = mapping.build_sale(billed_fixture(), finance_profile())
+        sale.update(product_registrations=mapping.build_sale(
+            fixture(), product_template_profile())['product_registrations'])
+        coll = MagicMock(); coll.find_one.return_value = None
+        with patch.object(api.editor, 'editor_client'), \
+             patch.object(api.editor, 'selected_collection', return_value=coll), \
+             patch.object(api.editor, 'prepare_import_insert', side_effect=lambda document, *a, **k: {'id': str(document['_id'])}), \
+             patch.object(api.editor, 'apply_change') as apply_change:
+            result = api.apply_sale(sale, 'SyntheticOnly', 'token', 'owner')
+        self.assertEqual(result['status'], 'imported', result)
+        collections = [call.args[3] for call in apply_change.call_args_list]
+        self.assertEqual(collections, ['Estoques', 'EstoquesQuantidade', 'ProdutosServicos', 'Precos',
+                                       'ProdutosServicosEmpresa', 'XmlMovimentacoes',
+                                       'Movimentacoes', 'Recebimentos'])
+        self.assertEqual(len(result['changes']), 8)
+
+    def test_apply_accepts_identical_prior_documents_and_blocks_divergence(self):
+        sale = mapping.build_sale(billed_fixture(), finance_profile())
+        parcela = sale['finance']['documents'][0]
+        coll = MagicMock()
+        coll.find_one.side_effect = lambda query, *a, **k: (
+            parcela if isinstance(query, dict) and query.get('_id') == parcela['_id'] else None)
+        with patch.object(api.editor, 'editor_client'), \
+             patch.object(api.editor, 'selected_collection', return_value=coll), \
+             patch.object(api.editor, 'prepare_import_insert', side_effect=lambda document, *a, **k: {'id': 'x'}), \
+             patch.object(api.editor, 'apply_change'):
+            result = api.apply_sale(sale, 'SyntheticOnly', 'token', 'owner')
+        self.assertEqual(result['status'], 'imported', result)
+        coll.find_one.side_effect = lambda query, *a, **k: (
+            dict(parcela, Ordem=9) if isinstance(query, dict) and query.get('_id') == parcela['_id'] else None)
+        with patch.object(api.editor, 'editor_client'), \
+             patch.object(api.editor, 'selected_collection', return_value=coll), \
+             patch.object(api.editor, 'prepare_import_insert'), \
+             patch.object(api.editor, 'apply_change'):
+            result = api.apply_sale(sale, 'SyntheticOnly', 'token', 'owner')
+        self.assertEqual(result['status'], 'stopped')
+        self.assertIn('diferente', result['message'])
+
+
 class ApiTests(unittest.TestCase):
     def setUp(self):
         api._plans.clear()

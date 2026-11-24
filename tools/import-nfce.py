@@ -45,19 +45,26 @@ def main():
             parser.error((job.get('error') or 'Há arquivos bloqueados; nenhuma venda foi gravada.')+
                          ' Progresso preservado; use --resume '+job_id+' para continuar após corrigir a causa.')
         args.output.mkdir(parents=True,exist_ok=False)
-        count=0
-        for field,name in [('movement','Movimentacoes.json'),('xml','XmlMovimentacoes.json')]:
-            with (args.output/name).open('x',encoding='utf-8') as output:
-                output.write('[');first=True;current_count=0
-                for sale in jobs.iter_sales(job_id):
+        groups = {}
+        for sale in jobs.iter_sales(job_id):
+            from insight_nfce_mapping import sale_documents
+            for collection, document in sale_documents(sale):
+                groups.setdefault(collection, {})[document['_id']] = document
+        count = 0
+        for collection, documents in groups.items():
+            with (args.output/(collection+'.json')).open('x',encoding='utf-8') as output:
+                output.write('[');first=True
+                for document in documents.values():
                     if not first:output.write(',\n')
-                    output.write(export_json(sale[field]));first=False;current_count+=1
+                    output.write(export_json(document));first=False
                 output.write(']')
-                count=current_count
+            count = max(count, len(documents))
         (args.output/'LEIA-ME.txt').write_text(NOTICE+'\nDestino: '+job['database']+
-            '\nUse inserção; nunca replace/upsert. Verifique chaves existentes. O script não grava MongoDB.\n'+
+            '\nOrdem: cadastros de produto (quando houver), XmlMovimentacoes, Movimentacoes, '
+            'Pagamentos/Recebimentos (quando houver). Use inserção; nunca replace/upsert. '
+            'Verifique chaves existentes. O script não grava MongoDB.\n'+
             'Importação local persistente: '+job_id,encoding='utf-8')
-        print(str(count)+' NFC-e exportadas. Nenhuma escrita no MongoDB.')
+        print(str(count)+' documentos exportados por coleção. Nenhuma escrita no MongoDB.')
         return 0
     except (ValueError,OSError,HTTPException) as exc:
         parser.error(str(exc.detail) if isinstance(exc,HTTPException) else str(exc))
