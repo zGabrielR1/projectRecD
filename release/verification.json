@@ -1,0 +1,7 @@
+﻿{
+    "exe_sha256":  "6d7d2777f2ba01db6094857f6b0ec9efa6271cb26254121f5fc75b40ebd467b1",
+    "status":  "release-candidate",
+    "version":  "1.1.3-rc.4",
+    "verification":  "partial-env",
+    "note":  "Build compiled; full verify-release.py blocked by local SuiteG6 native contract drift (DigisatServer.Distributed.Wcf.Main). NF-e/DFe synthetic tests passed."
+}
