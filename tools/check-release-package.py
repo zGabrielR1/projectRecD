@@ -21,6 +21,7 @@ with zipfile.ZipFile(archive) as package:
     assert set(package.namelist())==expected,package.namelist()
     config=dotenv_values(stream=io.StringIO(package.read('config.env').decode('utf-8-sig')))
     assert not config.get('MONGO_PASSWORD_FILE')
+    assert not config.get('MONGO_PASSWORD')
     assert not config.get('INSIGHT_PASSWORD')
     assert not config.get('AI_API_KEY')
     assert '@' not in config['MONGO_URI']

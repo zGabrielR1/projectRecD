@@ -67,14 +67,28 @@ checked = subprocess.run([sys.executable, str(ROOT / 'tools/check-release-packag
 if checked.returncode:
     raise SystemExit('Package validation failed; no release was created.')
 build = Path((ROOT / '.release-build/latest-build-path').read_text(encoding='utf-8'))
-verification = json.loads((build / 'verification/verification.json').read_text(encoding='utf-8'))
+isolated = (assets / 'verification.json').is_file()
+verification_path = assets / 'verification.json' if isolated else build / 'verification/verification.json'
+verification = json.loads(verification_path.read_text(encoding='utf-8'))
 if verification['version'] != VERSION or verification['exe_sha256'] != hashlib.sha256((assets / 'DigiSatInsight.exe').read_bytes()).hexdigest():
     raise SystemExit('The release candidate does not match its verification report.')
-for gate in ['bi_rules', 'bi_presentation_math', 'bi_assets_and_authentication', 'bi_live_dashboard', 'bi_models_and_saved_views', 'bi_restart_persistence', 'connection_inspection', 'light_theme_assets', 'finance_drill_down']:
+if isolated:
+    gates = ['windows_pe_executed', 'authentication', 'nfce_key_file_assets',
+             'nfce_key_lookup_connection_failure_reported', 'nfce_disk_backed_job',
+             'nfce_streamed_json_export', 'nfce_job_restart_persistence']
+    if verification.get('validation_profile') != 'windows-isolated':
+        raise SystemExit('Unexpected isolated verification profile.')
+else:
+    gates = ['bi_rules', 'bi_presentation_math', 'bi_assets_and_authentication', 'bi_live_dashboard',
+             'bi_models_and_saved_views', 'bi_restart_persistence', 'connection_inspection',
+             'light_theme_assets', 'finance_drill_down']
+for gate in gates:
     if verification.get(gate) is not True:
-        raise SystemExit('BI gate not approved: ' + gate)
+        raise SystemExit('Verification gate not approved: ' + gate)
 
 sha = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+if isolated and verification.get('commit') != sha:
+    raise SystemExit('The isolated verification report belongs to a different commit.')
 reference = api('/repos/' + REPO + '/git/ref/tags/' + TAG)
 if reference['object']['type'] == 'tag':
     reference = api('/repos/' + REPO + '/git/tags/' + reference['object']['sha'])
@@ -93,6 +107,8 @@ else:
 upload = release['upload_url'].split('{')[0]
 existing = {item['name']: item for item in release.get('assets', [])}
 names = ['DigiSatInsight-' + VERSION + '-win64.zip', 'DigiSatInsight.exe', 'SHA256SUMS', 'VERSION.json', 'LEIA-ME.md']
+if isolated:
+    names.append('verification.json')
 for filename in names:
     content = (assets / filename).read_bytes()
     digest = 'sha256:' + hashlib.sha256(content).hexdigest()

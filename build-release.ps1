@@ -1,7 +1,7 @@
-param([switch]$StageOnly)
+param([switch]$StageOnly, [string]$PythonPath)
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
-$pythonPath = Join-Path $projectRoot '.venv\Scripts\python.exe'
+if (-not $PythonPath) { $PythonPath = Join-Path $projectRoot '.venv\Scripts\python.exe' }
 if (-not (Test-Path -LiteralPath $pythonPath)) { throw 'Crie o ambiente Python e instale requirements.txt e PyInstaller antes de compilar.' }
 $stamp = Get-Date -Format 'yyyyMMdd-HHmmss-fff'
 $buildRoot = Join-Path $projectRoot ".release-build\build-$stamp"

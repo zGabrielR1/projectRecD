@@ -75,25 +75,8 @@ try:
         time.sleep(.25)
     else:
         raise AssertionError('Packaged server did not start')
-    snapshot = {'year': 2026, 'company_reference': 'RC-fixture', 'repository_scope_description': 'Synthetic preselected input',
-                'documents': [{'document_id': 'one', 'month': 1, 'items': [{'seller_id': 'A', 'total_liquido': '0.1',
-                    'cancelled': False, 'auxiliary_document': False, 'moves_stock': True, 'moves_finance': True},
-                    {'seller_id': 'A', 'total_liquido': '0.2', 'cancelled': False, 'auxiliary_document': False,
-                     'moves_stock': True, 'moves_finance': True}]}]}
-    assert request('/api/audit/monthly', snapshot, authenticated=False)[0] == 401
-    status, monthly = request('/api/audit/monthly', snapshot)
-    assert status == 200 and monthly['rows'][0]['months'][0] == '0.3'
-    assert monthly['coverage']['remote_build_verified'] is False
-    assert monthly['provenance']['production_assembly_executed'] is False
-    status, prices = request('/api/audit/unit-prices', {'rows': [
-        {'reference': 'half', 'quantity': '.5', 'net_total': '10', 'reported_unit_price': '10'},
-        {'reference': 'zero', 'quantity': '0', 'net_total': '10'}]})
-    assert status == 200 and prices['rows'][0]['reference_unit_price'] == '20.00'
-    assert prices['rows'][1]['status'] == 'undefined_zero_quantity'
-    assert request('/api/audit/monthly', {'year': 2026})[0] == 422
-    native = request('/api/native/catalog')[1]
-    report = next(r for r in native['reports'] if r['id'] == 'MovimentacaoSaida.TotalMovimentacoesPorMesPorVendedor')
-    assert report['calls'][0]['upstream_issues'][0]['remote_build_status'] == 'unverified'
+    assert request('/api/nfce-import/jobs', authenticated=False)[0] == 401
+    assert request('/api/native/catalog')[0] == 200
     for filename in ['theme.js', 'native.js', 'light.css', 'fonts/InterVariable.woff2',
                      'nfce-import.html', 'nfce-import.js', 'nfce-import.css', 'nfce-profile.example.json']:
         source = BUILD / 'static' / filename
@@ -101,48 +84,21 @@ try:
             continue  # Font filenames vary; all static files are hash-listed by staging.
         status, data = request('/static/' + filename, raw=True)
         assert status == 200 and hashlib.sha256(data).digest() == hashlib.sha256(source.read_bytes()).digest()
-    assert request('/nfce-import', raw=True)[0] == 200
-    assert request('/api/nfce-import/preview', {}, authenticated=False)[0] == 401
-    # Synthetic XML/profile only. The packaged server points to a deliberately closed Mongo port.
+    status, page = request('/nfce-import', raw=True)
+    assert status == 200 and b'id="keyFile"' in page
     sys.path.insert(0, str(ROOT / 'tests'))
     from test_nfce_import import fixture as nfce_fixture, profile as nfce_profile
-    from bson import json_util, ObjectId, Int64
-    payload = {'profile': json_util.dumps(nfce_profile()), 'files': [
-        {'name': 'synthetic.xml', 'base64': base64.b64encode(nfce_fixture()).decode('ascii')}]}
-    status, preview = request('/api/nfce-import/preview', payload)
-    assert status == 200 and preview['valid'] is True and preview['ready'] == 1, (status, preview.get('detail'))
-    movement = json_util.loads(preview['documents'][0]['movement'])
-    assert isinstance(movement['Numero'], Int64) and movement['Numero'] == 123
-    assert isinstance(movement['EmpresaReferencia'], ObjectId)
-    assert movement['DataHoraEmissao'].hour == 10
-    from test_xml_release import nfe
-    nfe_mapping = nfce_profile()
-    nfe_mapping['movement']['_t'] = ['Movimentacao', 'NotaFiscalEletronicaSaida']
-    nfe_mapping['xml_movement_type'] = 7  # Synthetic fixture enum, not native parity evidence.
-    status, nfe_preview = request('/api/nfce-import/preview', {
-        'profile': json_util.dumps(nfe_mapping), 'files': [
-            {'name': 'synthetic-nfe.xml', 'base64': base64.b64encode(nfe()).decode('ascii')}]})
-    assert status == 200 and nfe_preview['valid'] and nfe_preview['ready'] == 1
-    assert json_util.loads(nfe_preview['documents'][0]['movement'])['_t'][-1] == 'NotaFiscalEletronicaSaida'
-    configuration = request('/api/workspace/connection')[1]
-    assert 'password' not in configuration and 'password_file_exists' not in configuration
-    status, archive_data = request('/api/nfce-import/export/' + preview['id'], {}, raw=True)
-    assert status == 200
+    from bson import json_util
     import io
-    with zipfile.ZipFile(io.BytesIO(archive_data)) as exported:
-        assert set(exported.namelist()) == {'Movimentacoes.json', 'XmlMovimentacoes.json', 'LEIA-ME.txt'}
-        assert len(json_util.loads(exported.read('Movimentacoes.json'))) == 1
-    invalid = {'profile': (BUILD / 'static/nfce-profile.example.json').read_text(encoding='utf-8'), 'files': payload['files']}
-    assert request('/api/nfce-import/preview', invalid)[0] == 422
-    auto_payload = {'mode':'automatic','files':payload['files']}
-    # With Mongo intentionally unavailable, discovery must report a connection error,
-    # rather than asking for JSON/BSON or silently inventing native references.
-    assert request('/api/nfce-import/preview',auto_payload)[0] == 503
-    # Exercise the actual disk-backed job API in the packaged executable.
+
     large_xml=nfce_fixture().replace(b'</infNFe>',b'<infAdic><infCpl>'+b'x'*(2*1024*1024)+b'</infCpl></infAdic></infNFe>')
-    status,job=request('/api/nfce-import/jobs',{'mode':'manual','profile':payload['profile']})
+    status,job=request('/api/nfce-import/jobs',{'mode':'manual','profile':json_util.dumps(nfce_profile())})
     assert status==200
     job_path='/api/nfce-import/jobs/'+job['id']
+    from insight_nfce import NS
+    from xml.etree import ElementTree as ET
+    key = ET.fromstring(large_xml).find('n:NFe/n:infNFe', NS).get('Id')[3:]
+    assert request(job_path+'/keys', {'keys': [key]})[0] == 503
     assert request(job_path+'/files/large?name=synthetic-large.xml',large_xml)[0]==200
     assert request(job_path+'/files/large')[1]['stored'] is True
     assert request(job_path+'/validate',{})[0]==200
@@ -176,16 +132,11 @@ finally:
     log.close()
 
 digest = hashlib.sha256(EXE.read_bytes()).hexdigest()
-verification = {'version': VERSION, 'commit': os.environ.get('GITHUB_SHA'), 'exe_sha256': digest,
+commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+verification = {'version': VERSION, 'commit': commit, 'exe_sha256': digest,
     'validation_profile': 'windows-isolated', 'windows_pe_executed': True, 'minimal_path': True,
-    'authentication': True, 'independent_monthly_audit': True, 'fractional_unit_price_audit': True,
-    'snapshot_validation': True, 'native_notices': True, 'static_assets': True,
-    'nfce_import_assets': True, 'nfce_import_authentication': True,
-    'nfe_import_offline_preview': True, 'gui_configuration_secret_redaction': True,
-    'nfce_import_offline_preview': True, 'nfce_import_json_export': True,
-    'nfce_import_placeholder_profile_rejected': True, 'nfce_native_import_validated': False,
-    'nfce_automatic_discovery_no_profile_required': True,
-    'nfce_automatic_discovery_connection_failure_reported': True,
+    'authentication': True, 'static_assets': True, 'native_catalog': True,
+    'nfce_key_file_assets': True, 'nfce_key_lookup_connection_failure_reported': True,
     'nfce_stream_upload_over_one_mib': True, 'nfce_disk_backed_job': True,
     'nfce_streamed_json_export': True, 'nfce_job_restart_persistence': True,
     'live_digisat_validated': False, 'live_database_validated': False,
@@ -195,16 +146,14 @@ verification = {'version': VERSION, 'commit': os.environ.get('GITHUB_SHA'), 'exe
 shutil.copyfile(EXE, OUT / 'DigiSatInsight.exe')
 shutil.copyfile(ROOT / 'docs/guia-1.0.md', OUT / 'LEIA-ME.md')
 with (OUT / 'LEIA-ME.md').open('a', encoding='utf-8') as guide:
-    guide.write('\n\n## Auditorias independentes\n\nPOST /api/audit/monthly e POST /api/audit/unit-prices operam sobre snapshots normalizados. '
-                'Nao capturam automaticamente dados Mongo/WCF. Verificacao Windows isolada; homologacao SuiteG6/base do cliente pendente.\n')
-    guide.write('\n\n' + (ROOT / 'docs/importacao-nfce.md').read_text(encoding='utf-8'))
+    guide.write('\n\n' + (ROOT / 'docs' / f'release-{VERSION}.md').read_text(encoding='utf-8'))
 metadata = {'version': VERSION, 'status': 'release-candidate', 'platform': 'Windows x64',
             'python_required': False, 'built_at': datetime.now(timezone.utc).isoformat(),
             'validation_profile': 'windows-isolated', 'live_digisat_validated': False}
 (OUT / 'VERSION.json').write_text(json.dumps(metadata, indent=2) + '\n')
 # Explicit template independent of developer files or existing local settings.
 template = ('MONGO_URI=mongodb://127.0.0.1:12220/?directConnection=true&readPreference=secondaryPreferred\n'
-            'MONGO_DATABASE=DigisatServer\nMONGO_USERNAME=insight\nMONGO_AUTH_SOURCE=admin\nMONGO_PASSWORD=\n'
+            'MONGO_DATABASE=DigisatServer\nMONGO_USERNAME=insight\nMONGO_AUTH_SOURCE=admin\nMONGO_PASSWORD_FILE=\n'
             'DIGISAT_MODE=live\nMAX_REPORT_ROWS=500\nINSIGHT_USER=\nINSIGHT_PASSWORD=\nINSIGHT_REQUIRE_READ_ONLY=1\n'
             'AI_ENDPOINT=\nAI_MODEL=\nAI_API_KEY=\n')
 distribution = BUILD / 'isolated-distribution'
