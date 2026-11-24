@@ -269,12 +269,12 @@
     }catch(error){await Promise.allSettled(pending);message(error.message+' Os envios concluídos permanecem guardados para retomada.');}
     finally{uploading=false;if(job)await refresh().catch(()=>{});controls();}
   };
-  async function showDocument(fileId) {
+  async function showDocument(fileId, preloaded) {
     const personButton = $('insertPerson');
     const jobId = job.id;
     personButton.hidden = true;
     try {
-      const data = await api(root+'/'+job.id+'/documents/'+fileId);
+      const data = preloaded || await api(root+'/'+job.id+'/documents/'+fileId);
       if (job?.id !== jobId) return;
       if (data.cfe_review) {
         $('bson').textContent = 'Conferência do XML CF-e/SAT\n'+JSON.stringify(data.cfe_review, null, 2);
@@ -290,6 +290,16 @@
         const title = document.createElement('p');
         title.textContent = 'Conferência de arquivo DBF · '+review.rows+' registros · mapeamento manual/automático por nome similar.';
         wrap.appendChild(title);
+        if (review.presets) {
+          const pLabel = document.createElement('label'); pLabel.textContent = 'Sistema de origem / preset';
+          const pSel = document.createElement('select');
+          review.presets.forEach(p => { const o=document.createElement('option'); o.value=p.id; o.textContent=p.label; if (p.id===review.preset) o.selected=true; pSel.appendChild(o); });
+          pSel.onchange = async () => {
+            try { const d = await api(root+'/'+job.id+'/documents/'+fileId+'?preset='+encodeURIComponent(pSel.value)); if (job?.id===jobId) showDocument(fileId, d); }
+            catch (e) { message(e.message); }
+          };
+          pLabel.appendChild(pSel); wrap.appendChild(pLabel);
+        }
         const table = document.createElement('table');
         table.innerHTML = '<thead><tr><th>Coluna DBF</th><th>Campo destino</th><th>Auto</th></tr></thead>';
         const tb = document.createElement('tbody');
@@ -312,11 +322,11 @@
         dl.onclick = () => {
           const out = {};
           wrap.querySelectorAll('select[data-col]').forEach(s => { if (s.value) out[s.dataset.col] = s.value; });
-          const blob = new Blob([JSON.stringify({schema:'insight.dbf.mapping.v1',file:review.file,mapping:out}, null, 2)], {type:'application/json'});
+          const blob = new Blob([JSON.stringify({schema:'insight.dbf.mapping.v1',file:review.file,preset:review.preset,mapping:out}, null, 2)], {type:'application/json'});
           const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=(review.file||'dbf')+'.mapping.json'; a.click(); URL.revokeObjectURL(a.href);
         };
         actions.appendChild(dl);
-        const note = document.createElement('p'); note.className='nfce-note'; note.textContent='Mapeamento automático por similaridade de nome. Revise antes de usar. A conversão nativa campo-a-campo depende de perfil/mapeamento revisado para o layout do sistema de origem.';
+        const note = document.createElement('p'); note.className='nfce-note'; note.textContent='Mapeamento automático por similaridade de nome. Presets ARPA/SGBR/G4/G5 são pontos de partida e devem ser revisados. A conversão nativa campo-a-campo depende de perfil/mapeamento revisado para o layout do sistema de origem.';
         actions.appendChild(note);
         wrap.appendChild(actions);
         const pre = document.createElement('pre'); pre.textContent = JSON.stringify(review.sample||[], null, 2);

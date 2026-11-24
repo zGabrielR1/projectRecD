@@ -106,11 +106,16 @@ async def apply(job_id:str,request:Request,x_insight_editor_session:str=Header(d
 
 
 @router.get('/{job_id}/documents/{file_id}')
-def document(job_id:str,file_id:int,request:Request):
+def document(job_id:str,file_id:int,request:Request,preset:str='generico'):
     sale=jobs.document(job_id,editor.actor(request),file_id)
     if 'cfe_review' in sale:
         return sale
     if 'dbf_review' in sale:
+        if preset and preset != 'generico':
+            from insight_dbf import dbf_preview
+            with jobs.connect() as db: row=db.execute('SELECT * FROM files WHERE id=? AND job_id=?',(file_id,job_id)).fetchone()
+            if row:
+                return {'dbf_review': dbf_preview(jobs.raw_bytes(job_id, dict(row)), row['name'], preset=preset)}
         return sale
     result = {'movement': ejson(sale['movement']), 'xml': ejson(sale['xml'])}
     if sale.get('parties'):

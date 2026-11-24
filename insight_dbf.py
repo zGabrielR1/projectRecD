@@ -124,7 +124,56 @@ def normalize_name(value: str) -> str:
     return ' '.join(''.join(out).split())
 
 
-def suggest_mapping(columns: list[str]) -> dict:
+PRESETS = {
+    'generico': {'label': 'Genérico (auto por nome)', 'aliases': {}},
+    'arpa': {'label': 'ARPA (ponto de partida)', 'aliases': {
+        'produto_codigo': ['codprod', 'cod_prod', 'codigo'],
+        'produto_descricao': ['descprod', 'descricao', 'nomeprod'],
+        'quantidade': ['qtde', 'quant', 'qtd'],
+        'valor_unitario': ['vlunit', 'preco', 'vrunit'],
+        'valor_total': ['vltotal', 'total', 'vrtotal'],
+        'cliente_nome': ['nomecli', 'cliente', 'nomfor'],
+        'emitente_cnpj': ['cnpj', 'cpfcnpj'],
+        'data_emissao': ['dtemissao', 'data', 'dtsaida'],
+        'numero': ['numnota', 'nota', 'numero'],
+        'serie': ['serie'],
+    }},
+    'sgbr': {'label': 'SGBR (ponto de partida)', 'aliases': {
+        'produto_codigo': ['cdproduto', 'codigo', 'codprod'],
+        'produto_descricao': ['nmproduto', 'descricao', 'produto'],
+        'quantidade': ['quantidade', 'qtde'],
+        'valor_unitario': ['vlunitario', 'vlunit'],
+        'valor_total': ['vltotal', 'total'],
+        'cliente_nome': ['nmcliente', 'cliente', 'nmfornec'],
+        'data_emissao': ['dtemissao', 'data'],
+        'numero': ['nrnota', 'numero'],
+        'chave_acesso': ['chavenfe', 'chave'],
+    }},
+    'g4': {'label': 'Administrador G4 (ponto de partida)', 'aliases': {
+        'produto_codigo': ['codpro', 'codigo', 'idproduto'],
+        'produto_descricao': ['descricao', 'produto'],
+        'quantidade': ['qtd', 'qtde'],
+        'valor_unitario': ['vlrunit', 'unitario'],
+        'valor_total': ['vlrtot', 'total'],
+        'cliente_nome': ['cliente', 'nome'],
+        'data_emissao': ['data', 'emissao'],
+        'numero': ['documento', 'numero'],
+    }},
+    'g5': {'label': 'Gerencial G5 (ponto de partida)', 'aliases': {
+        'produto_codigo': ['codproduto', 'codigo'],
+        'produto_descricao': ['descproduto', 'descricao'],
+        'quantidade': ['quantidade', 'qtd'],
+        'valor_unitario': ['valorunit', 'unitario'],
+        'valor_total': ['valortotal', 'total'],
+        'cliente_nome': ['nomecliente', 'cliente'],
+        'data_emissao': ['dataemissao', 'data'],
+        'numero': ['numeronf', 'numero'],
+        'chave_acesso': ['chavenfe', 'chaveacesso'],
+    }},
+}
+
+
+def suggest_mapping(columns: list[str], preset: str = 'generico') -> dict:
     aliases = {
         'chave_acesso': ['chave acesso', 'chave', 'chnfe', 'chave nfe', 'chave nf', 'access key'],
         'numero': ['numero', 'nro', 'num', 'nf', 'nfe', 'numero nota', 'numero documento'],
@@ -145,13 +194,15 @@ def suggest_mapping(columns: list[str]) -> dict:
         'unidade': ['unidade', 'un', 'ucom'],
         'valor_nf': ['valor nf', 'total nf', 'vnf', 'valor nota'],
     }
+    preset_aliases = PRESETS.get(preset, PRESETS['generico']).get('aliases', {})
     suggestions = {}
     used = set()
     for col in columns:
         norm = normalize_name(col)
         best_target, best_score = None, 0.0
         for target, _label in TARGET_FIELDS:
-            for alias in aliases.get(target, [target]):
+            candidates = list(aliases.get(target, [target])) + list(preset_aliases.get(target, []))
+            for alias in candidates:
                 score = SequenceMatcher(None, norm, normalize_name(alias)).ratio()
                 if norm == normalize_name(alias):
                     score = 1.0
@@ -167,12 +218,14 @@ def suggest_mapping(columns: list[str]) -> dict:
     return suggestions
 
 
-def dbf_preview(data: bytes, name: str = 'arquivo.dbf') -> dict:
+def dbf_preview(data: bytes, name: str = 'arquivo.dbf', preset: str = 'generico') -> dict:
     rows = read_dbf(data)
     columns = list(rows[0].keys()) if rows else []
     sample = rows[:50]
     return {
         'file': name, 'status': 'dbf', 'rows': len(rows), 'columns': columns, 'sample': sample,
-        'suggested_mapping': suggest_mapping(columns),
+        'suggested_mapping': suggest_mapping(columns, preset=preset),
         'target_fields': [{'id': k, 'label': v} for k, v in TARGET_FIELDS],
+        'presets': [{'id': k, 'label': v['label']} for k, v in PRESETS.items()],
+        'preset': preset,
     }

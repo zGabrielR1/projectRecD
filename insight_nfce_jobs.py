@@ -729,7 +729,7 @@ def document(job_id,owner,file_id):
         return {'cfe_review': json.loads(row['summary'])}
     if row and row['kind'] == 'dbf':
         from insight_dbf import dbf_preview
-        return {'dbf_review': dbf_preview(raw_bytes(job_id, dict(row)), row['name'])}
+        return {'dbf_review': dbf_preview(raw_bytes(job_id, dict(row)), row['name'], preset='generico')}
     if not row or not row['sale_path']:raise HTTPException(404,'Documento convertido não disponível.')
     return read_sale(job_id,dict(row))
 
