@@ -1,6 +1,7 @@
 """MongoDB document administration: scoped sessions, previews and single-document writes."""
 from __future__ import annotations
 
+from contextlib import nullcontext
 import hashlib
 import hmac
 import json
@@ -9,7 +10,7 @@ import threading
 import time
 from typing import Literal
 
-from bson import ObjectId
+from bson import BSON, ObjectId, json_util
 from bson.errors import InvalidDocument
 from fastapi import APIRouter, Depends, Header, HTTPException, Request
 from pydantic import BaseModel, ConfigDict, Field
@@ -293,8 +294,12 @@ def preview(req, token, owner):
         raise HTTPException(503, 'Não foi possível preparar a alteração. Nenhuma escrita foi enviada.') from None
     if before is not None and after is not None and same_document(before, after):
         fail('Não há alterações para aplicar.')
+    return journal_preview(req.database, req.collection, req.operation, ident, before, after, token, owner, access)
+
+
+def journal_preview(database, collection, operation, ident, before, after, token, owner, access):
     key = store.identifier()
-    body = {'id': key, 'database': req.database, 'collection': req.collection, 'operation': req.operation,
+    body = {'id': key, 'database': database, 'collection': collection, 'operation': operation,
             'id_json': ejson(ident), 'before_json': ejson(before), 'after_json': ejson(after),
             'created': store.now(), 'expires': time.time() + PREVIEW_SECONDS,
             'status':'preview', 'session_hash':digest(token), 'actor':owner, 'fingerprint':access['fingerprint'],
@@ -304,6 +309,22 @@ def preview(req, token, owner):
     return {k:body[k] for k in ('id','database','collection','operation','id_json','before_json','after_json','expires','status')}
 
 
+def prepare_import_insert(document, database, collection, token, owner, *, client):
+    from insight_nfce import MONGO_DOCUMENT_BYTES
+
+    access = session(token, owner, database)
+    if not all(permitted(access['grants'], database, collection, action) for action in ('find', 'insert')):
+        raise HTTPException(403, 'A conta não pode ler e inserir nesta coleção.')
+    validate_document(document)
+    if len(BSON.encode(document)) > MONGO_DOCUMENT_BYTES:
+        fail('Documento acima do limite BSON de 16 MiB.')
+    ident = document['_id']
+    coll = selected_collection(client, database, collection, write=True)
+    if coll.find_one({'_id': {'$eq': ident}}, {'_id': 1}, max_time_ms=5000) is not None:
+        raise HTTPException(409, 'Já existe um documento com este _id.')
+    return journal_preview(database, collection, 'insert', ident, None, document, token, owner, access)
+
+
 def guarded_filter(before, after=None):
     clauses = [{field:{'$eq':value}} for field, value in before.items()]
     if after is not None:
@@ -311,7 +332,7 @@ def guarded_filter(before, after=None):
     return {'$and': clauses}
 
 
-def apply_change(key, token, owner, confirmation):
+def apply_change(key, token, owner, confirmation, *, document_limit=MAX_JSON, client=None):
     body = get_change(key)
     if not body:
         raise HTTPException(404, 'Prévia não encontrada.')
@@ -330,10 +351,12 @@ def apply_change(key, token, owner, confirmation):
             raise HTTPException(409, 'A prévia expirou. Prepare uma nova alteração.')
         body.update(status='applying', submitted_at=store.now())
         db.execute('UPDATE editor_changes SET body=? WHERE id=?', (store.dump(body), key))
-    before, after = parse_json(body['before_json']), parse_json(body['after_json'])
+    before = parse_json(body['before_json'])
+    after = (json_util.loads(body['after_json']) if document_limit is None
+             else parse_json(body['after_json'], maximum=document_limit))
     try:
-        with editor_client() as client:
-            coll = selected_collection(client, body['database'], body['collection'], write=True)
+        with (nullcontext(client) if client is not None else editor_client()) as current_client:
+            coll = selected_collection(current_client, body['database'], body['collection'], write=True)
             if body['operation'] == 'insert':
                 coll.insert_one(after)
             elif body['operation'] == 'update':

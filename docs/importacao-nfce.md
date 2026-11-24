@@ -14,6 +14,12 @@ Os testes desta versão gravam NFC-e e NF-e sintéticas em MongoDB descartável 
 
 A tela /nfce-import e o script tools/import-nfce.py preparam documentos para Movimentacoes e XmlMovimentacoes. A inserção é histórica: não executa serviços de estoque, caixa, financeiro, numeração ou sincronização do SuiteG6. A compatibilidade nativa continua baseada na análise estática e nos formatos observados; não foi executada inserção em base de cliente durante o desenvolvimento.
 
+## Buscar pela chave de acesso
+
+Em **Importar XML fiscal**, cole uma ou mais chaves de 44 dígitos. A lista aceita quebras de linha, tabulações, vírgulas e ponto e vírgula. Chaves repetidas são consultadas uma vez. O Insight procura o XML autorizado de produção na coleção `XmlMovimentacoes` do banco de destino. O mesmo lote também aceita arquivos XML. A prévia aplica as mesmas regras de conversão e o usuário confirma o banco antes da gravação. O XML já arquivado é reaproveitado na inserção da movimentação.
+
+Chaves inválidas, notas canceladas na base, versões conflitantes e notas sem XML autorizado são exibidas individualmente. Corrija as chaves ou retire as pendentes da lista para validar os documentos encontrados. Se o XML não estiver no banco, obtenha o `nfeProc` com o emissor ou pelo serviço fiscal ao qual você tem acesso e selecione o arquivo. A consulta usa o acervo do banco e funciona sem internet.
+
 ## Volume e desempenho
 
 Não há cotas de quantidade de arquivos, tamanho total do lote, XML de 1 MiB ou requisição de 8 MiB. A interface envia cada arquivo como corpo binário, sem montar um JSON/base64 de todo o lote. Até quatro transferências trabalham em paralelo; essa é uma janela de execução, não um limite do lote.

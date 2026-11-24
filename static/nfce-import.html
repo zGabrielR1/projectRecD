@@ -16,7 +16,7 @@
 <a class="skip" href="#nfceMain">Pular para importação</a>
 <main id="nfceMain" class="nfce-shell">
   <header class="nfce-header"><div><p class="eyebrow">DIGISAT INSIGHT · DOCUMENTOS FISCAIS</p>
-    <h1>Importar XML fiscal</h1><p>NF-e (55) e NFC-e (65) em lote para <strong>Movimentacoes</strong>, com prévia de cada documento.</p></div>
+    <h1>Importar XML fiscal</h1><p>Importe vendas de NF-e (55) e NFC-e (65) por arquivo ou chave de acesso, com prévia antes de gravar.</p></div>
     <button id="themeToggle" type="button" class="secondary"><span id="themeLabel">Modo claro</span></button>
   </header>
   <p class="nfce-scope">Inserção histórica direta. Estoque, caixa, financeiro, numeração e sincronização não são executados. Análise estática, sem validação no SuiteG6.</p>
@@ -28,12 +28,19 @@
       <a href="/static/nfce-profile.example.json" download>Baixar estrutura do perfil</a></div>
     </section>
     <section><h2>2. XMLs autorizados</h2><p>Notas autorizadas de saída normal. Compras de fornecedores, devoluções, CT-e, SAT, NFS-e e eventos ainda exigem conversores próprios e são bloqueados. Escolha qualquer pasta pelo seletor. A pasta usual do SuiteG6 é <code>C:\Digisat\SuiteG6\Dfe\</code>.</p>
+      <label for="accessKeys">Chaves de acesso</label>
+      <textarea id="accessKeys" rows="3" autocomplete="off" spellcheck="false" aria-describedby="keyHint" placeholder="Cole uma chave de 44 dígitos por linha"></textarea>
+      <small id="keyHint">Cole uma lista ou copie as chaves de uma planilha. A busca usa os XMLs autorizados em XmlMovimentacoes no banco de destino.</small>
       <label for="xmls">Arquivos NF-e / NFC-e (.xml)</label><input id="xmls" type="file" accept=".xml,text/xml,application/xml" multiple>
       <label for="folders">Ou selecionar uma pasta de XMLs</label><input id="folders" type="file" webkitdirectory multiple>
       <small id="fileLimits">Sem limite de quantidade ou tamanho total. Envio incremental com progresso e retomada.</small>
     </section>
-    <div class="nfce-actions"><button id="validate" type="submit">Identificar base e validar XMLs</button><span id="status" role="status">Selecione os XMLs para começar. Nenhum backup é necessário.</span></div>
+    <div class="nfce-actions"><button id="validate" type="submit">Validar para importação</button><span id="status" role="status">Informe as chaves ou selecione os XMLs para começar.</span></div>
   </form>
+  <section id="keyIssues" aria-labelledby="keyIssuesTitle" hidden>
+    <h2 id="keyIssuesTitle">Chaves que precisam de atenção</h2>
+    <ul id="keyIssueList"></ul>
+  </section>
   <div class="nfce-job-actions"><label for="jobHistory">Importações locais recentes</label><select id="jobHistory"><option value="">Nova importação</option></select><button id="newJob" class="secondary" type="button">Nova importação</button><button id="resume" class="secondary" type="button" hidden>Retomar processamento</button><button id="pause" class="secondary" type="button" hidden>Pausar após o arquivo atual</button><button id="discard" class="secondary" type="button" hidden>Descartar arquivos locais</button></div>
   <p id="error" role="alert" hidden></p>
   <section id="results" class="panel" hidden aria-label="Prévia da importação">

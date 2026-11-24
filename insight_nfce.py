@@ -12,6 +12,7 @@ from xml.etree import ElementTree as ET
 MONGO_DOCUMENT_BYTES = 16 * 1024 * 1024
 COLLECTION = 'Movimentacoes'
 NS = {'n': 'http://www.portalfiscal.inf.br/nfe'}
+ARCHIVED_CANCELLATION = {'$or': [{'EventoCancelamento': True}, {'Cancelada': True}]}
 NOTICE = ('Inserção direta de venda histórica em Movimentacoes. Não executa os serviços de '
           'estoque, caixa, financeiro, numeração ou sincronização do SuiteG6. '
           'Compatibilidade analisada estaticamente; sem validação em instalação nativa. '

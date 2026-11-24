@@ -1450,6 +1450,13 @@ from insight_bi import router as bi_router
 app.include_router(bi_router)
 from insight_bi_finance import router as bi_finance_router
 app.include_router(bi_finance_router)
+from insight_nfce_jobs_api import router as nfce_jobs_router
+app.include_router(nfce_jobs_router)
+
+
+@app.get('/nfce-import', include_in_schema=False)
+def nfce_import_page():
+    return FileResponse(ROOT / 'static' / 'nfce-import.html')
 
 
 @app.get('/bi-finance', include_in_schema=False)

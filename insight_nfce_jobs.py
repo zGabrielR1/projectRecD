@@ -24,7 +24,7 @@ from fastapi import HTTPException
 
 import insight_store as store
 import insight_editor as editor
-from insight_nfce import NOTICE, MONGO_DOCUMENT_BYTES, parse_xml
+from insight_nfce import ARCHIVED_CANCELLATION, NOTICE, MONGO_DOCUMENT_BYTES, key_valid, parse_xml
 from insight_nfce_mapping import load_profile, build_sale, validate_native_documents
 from insight_nfce_discovery import movement_type, Discovery, read_xml, tree_signature, NS
 
@@ -239,6 +239,79 @@ class BlobUpload:
 def upload_error(file_id):
     with connect() as db:db.execute("UPDATE files SET status='upload_error',message='Envio interrompido; selecione os arquivos novamente para retomar.' WHERE id=?",(file_id,))
     with _lock:_uploads.discard(file_id)
+
+
+def import_keys(job_id, owner, keys):
+    """Stage authorized XML already archived in the job's target database."""
+    from pymongo.errors import PyMongoError
+
+    job = owned(job_id, owner)
+    if job['state'] != 'uploading':
+        raise HTTPException(409, 'Os envios desta importação já foram encerrados.')
+    if not isinstance(keys, list) or not 1 <= len(keys) <= 50:
+        raise HTTPException(422, 'Envie de 1 a 50 chaves por consulta.')
+    if any(not isinstance(key, str) or len(key) > 64 for key in keys):
+        raise HTTPException(422, 'Informe as chaves como texto.')
+    keys = dict.fromkeys(re.sub(r'[\s.-]+', '', key) for key in keys)
+    results = []
+    try:
+        with editor.editor_client() as client:
+            collection = editor.selected_collection(client, job['database_name'], 'XmlMovimentacoes')
+            for key in keys:
+                result = {'key': key, 'status': 'unavailable'}
+                results.append(result)
+                if not re.fullmatch(r'[0-9]{44}', key) or not key_valid(key) or key[20:22] not in {'55', '65'}:
+                    result['message'] = 'Chave inválida. Confira os 44 dígitos, o modelo e o dígito verificador.'
+                    continue
+                try:
+                    raw = archived_xml(collection, key)
+                except ValueError as exc:
+                    result['message'] = str(exc)
+                    continue
+                upload_id = 'key-' + key
+                digest = hashlib.sha256(raw).hexdigest()
+                row, target = reserve(job_id, owner, upload_id, key + '-procNFe.xml')
+                if target is None:
+                    if row['sha'] != digest:
+                        result['message'] = 'O XML guardado mudou. Crie outra importação para revisar a nova versão.'
+                        continue
+                else:
+                    try:
+                        with target.open('xb') as output:
+                            output.write(raw)
+                        uploaded(row['id'], len(raw), digest)
+                    except BaseException:
+                        upload_error(row['id'])
+                        raise
+                result.update(status='stored', message='XML autorizado localizado na base.')
+    except PyMongoError:
+        raise HTTPException(503, 'Não foi possível consultar XmlMovimentacoes. Confira a conexão e a permissão de leitura.') from None
+    return {'results': results}
+
+
+def archived_xml(collection, key):
+    if collection.find_one({'ChaveAcesso': key, **ARCHIVED_CANCELLATION}, {'_id': 1}, max_time_ms=5000):
+        raise ValueError('Há evento de cancelamento para esta chave na base.')
+    raw = None
+    query = {'ChaveAcesso': key, 'EventoCancelamento': {'$ne': True}}
+    with collection.find(query, {'Xml': 1, '_id': 0}).max_time_ms(5000).batch_size(1) as candidates:
+        for candidate in candidates:
+            xml = candidate.get('Xml')
+            if not isinstance(xml, str):
+                continue
+            content = xml.encode('utf-8')
+            try:
+                parsed = parse_xml(content, issuer=key[6:20])
+            except ValueError:
+                continue
+            if parsed['access_key'] != key:
+                continue
+            if raw is not None and raw != content:
+                raise ValueError('Há versões diferentes do XML autorizado para esta chave.')
+            raw = content
+    if raw is None:
+        raise ValueError('XML autorizado de produção não encontrado na base. Envie o nfeProc se conseguir recuperá-lo.')
+    return raw
 
 
 def upload_local(job_id,owner,path,upload_id=None):

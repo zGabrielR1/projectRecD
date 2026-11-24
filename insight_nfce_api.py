@@ -12,7 +12,7 @@ from starlette.concurrency import run_in_threadpool
 
 import insight_editor as editor
 from insight_editor_query import ejson
-from insight_nfce import NOTICE
+from insight_nfce import ARCHIVED_CANCELLATION, NOTICE
 from insight_nfce_mapping import build_sale, load_profile, validate_native_documents
 
 router = APIRouter(prefix='/api/nfce-import', dependencies=[Depends(editor.same_origin)])
@@ -228,8 +228,11 @@ def apply_sale(sale,database,session_token,owner,*,client=None):
                     raise HTTPException(409,'Número/série já existem com outra chave.')
                 return {'access_key':key,'status':'duplicate','message':'Venda já existe; não alterada.'}
             xmls=editor.selected_collection(current,database,'XmlMovimentacoes',write=True)
-            existing_xml=xmls.find_one({'ChaveAcesso':key,'EventoCancelamento':False},max_time_ms=5000)
-            if existing_xml and existing_xml.get('Xml')!=sale['xml']['Xml']:
+            if xmls.find_one({'ChaveAcesso':key,**ARCHIVED_CANCELLATION},{'_id':1},max_time_ms=5000):
+                raise HTTPException(409,'Há evento de cancelamento para esta chave na base.')
+            existing_xml=xmls.find_one({'ChaveAcesso':key,'EventoCancelamento':{'$ne':True}},max_time_ms=5000)
+            if existing_xml and (not isinstance(existing_xml.get('Xml'), str)
+                                 or existing_xml['Xml'].removeprefix('\ufeff') != sale['xml']['Xml']):
                 raise HTTPException(409,'XML existente difere do selecionado.')
             for guard in sale.get('guards',[]):
                 from insight_nfce_discovery import guard_digest

@@ -49,6 +49,44 @@ class JobTests(unittest.TestCase):
         path=Path(self.temp.name)/('input-'+str(index)+'.xml');path.write_bytes(raw)
         jobs.upload_local(job_id,'owner',path,upload_id=str(index))
 
+    def test_access_key_lookup_stages_only_matching_authorized_xml_and_resumes(self):
+        created = self.client.post('/api/nfce-import/jobs', json={
+            'mode': 'manual', 'profile': json_util.dumps(profile()),
+        }).json()
+        raw = xml()
+        key = build_sale(raw, profile())['summary']['access_key']
+        missing = build_sale(xml(124), profile())['summary']['access_key']
+        collection = MagicMock()
+        collection.find_one.return_value = None
+        cursor = collection.find.return_value.max_time_ms.return_value.batch_size.return_value
+        cursor.__enter__.return_value = [{'Xml': raw.decode()}]
+        url = f"/api/nfce-import/jobs/{created['id']}/keys"
+        with patch.object(editor, 'editor_client'), patch.object(editor, 'selected_collection', return_value=collection):
+            result = self.client.post(url, json={'keys': [key, ' '.join([key[:10], key[10:]]), missing, '123']})
+            self.assertEqual(result.status_code, 200)
+            self.assertEqual([row['status'] for row in result.json()['results']], ['stored', 'unavailable', 'unavailable'])
+            self.assertEqual(self.client.post(url, json={'keys': [key]}).json()['results'][0]['status'], 'stored')
+            collection.find_one.return_value = {'_id': 'cancelled'}
+            self.assertIn('cancelamento', self.client.post(url, json={'keys': [key]}).json()['results'][0]['message'])
+        with jobs.connect() as db:
+            owner = db.execute('SELECT owner FROM jobs WHERE id=?', (created['id'],)).fetchone()[0]
+        result = jobs.launch(created['id'], owner, 'validate', background=False)
+        self.assertEqual(result['total'], 1)
+        self.assertEqual(result['counts']['ready'], 1)
+        self.assertEqual(result['rows'][0]['access_key'], key)
+        from insight_nfce_api import apply_sale
+        sale = jobs.document(created['id'], owner, result['rows'][0]['id'])
+        movements = MagicMock()
+        movements.find_one.return_value = None
+        collection.find_one.side_effect = [None, {'Xml': raw.decode()}]
+        with patch.object(editor, 'selected_collection', side_effect=[movements, collection]), \
+             patch.object(editor, 'prepare_import_insert', return_value={'id': 'movement-change'}) as prepare, \
+             patch.object(editor, 'apply_change'):
+            applied = apply_sale(sale, 'SyntheticOnly', 'token', owner, client=MagicMock())
+        self.assertEqual(applied['status'], 'imported')
+        self.assertEqual(prepare.call_count, 1)
+        self.assertEqual(prepare.call_args.args[2], 'Movimentacoes')
+
     def test_more_than_250_files_and_over_8_mib_validate_with_paged_results(self):
         job_id=self.create()
         for index in range(275):self.add(job_id,padded_xml(1000+index,33000),index)

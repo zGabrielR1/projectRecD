@@ -46,6 +46,12 @@ async def slot(job_id:str,request:Request):
     return await run_in_threadpool(jobs.upload_slot,job_id,editor.actor(request),body)
 
 
+@router.post('/{job_id}/keys')
+async def keys(job_id: str, request: Request):
+    body = await configuration(request)
+    return await run_in_threadpool(jobs.import_keys, job_id, editor.actor(request), body.get('keys'))
+
+
 @router.post('/{job_id}/files/{upload_id}')
 async def upload(job_id:str,upload_id:str,request:Request,name:str='XML'):
     row,target=await run_in_threadpool(jobs.reserve,job_id,editor.actor(request),upload_id,name)
