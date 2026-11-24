@@ -11,7 +11,7 @@ The Nov 24, 2026 capture from `C:\Digisat\SuiteG6` preserved the older recovery 
 - **Notificacao** compiled after restoring 38 loads and stores of 19 WPF routed-event backing fields. The original CIL identifies the fields used by the event raisers and the static constructor.
 - **Assembly names** now come from the pinned input filename. This preserves the original assembly name even when dnSpy shortens the project path.
 
-Eight C# builds remain blocked: Crosscutting, Concentrador, Criptografia, Ecf, EnvioPafEcf, NetFramework, RegistroSistema, and Data.Main. Concentrador's remaining diagnostic concerns an embedded COM event interface whose original metadata carries the import flag. Compilation and static metadata checks leave runtime, hardware, and integrated SuiteG6 behavior unverified.
+Eight C# builds remain blocked: Crosscutting, Concentrador, Criptografia, Ecf, EnvioPafEcf, NetFramework, RegistroSistema, and Data.Main. Each has an editable CIL build described below. Integrated SuiteG6 behavior and hardware tests remain pending.
 
 ## Local workflow
 
@@ -24,3 +24,24 @@ python tools/build_recovered_modules.py --workspace snapshots/installed-20261124
 ```
 
 The first build measures the raw export. The 27-project result includes local source repairs and alternate exports. The snapshot retains the recovered sources, compiler logs, per-project repair records, inventory delta, and static compatibility reports. Git tracks the recovery tooling and these findings. The local snapshot and installed binaries stay outside Git.
+
+## Editing and checking Data.Core
+
+In the prepared snapshot, edit `projects-auto/DigisatServer.Infrastructure.Data.Core/source/_alternative/WholeModule.cs`. Rebuild and compare the behavior with the original DLL from the same installation:
+
+```powershell
+python tools/build_recovered_modules.py --workspace snapshots/installed-20261124 --only DigisatServer.Infrastructure.Data.Core
+python tools/test_snapshot_data_core.py --workspace snapshots/installed-20261124
+```
+
+The test checks the build hashes and runs the two existing synthetic harnesses in temporary folders under the Windows CLR. Six sync assertions and thirteen replication assertions matched the original `2.0.26322.10` DLL. The tests substitute in-memory collections, cursors and recipients. Live services, MongoDB, and integrated application startup remain outside their coverage.
+
+## Editable CIL
+
+All eight modules blocked in C# assemble from editable CIL, bringing source build coverage to **35 of 35 infrastructure modules**. Edit their `projects-il/<assembly>/source/` files in the prepared snapshot and rebuild using the exact DLL name:
+
+```powershell
+python tools/il_workspace.py --workspace snapshots/installed-20261124 DigisatServer.Infrastructure.Crosscutting.Concentrador.dll
+```
+
+All eight matched the original assembly identities, embedded resource hashes by name, and checked named API surfaces. Concentrador's embedded COM event interface retains the original import flag and 21 methods. Concentrador and Data.Main matched their full reference lists. The other six omit a duplicate `mscorlib` entry with version `65535.65535.65535.65535`. The eight CIL outputs have static verification only.

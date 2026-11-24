@@ -13,7 +13,7 @@ DOTNET = Path('C:/Program Files/dotnet/dotnet.exe')
 CSC = Path('C:/Program Files/dotnet/sdk/11.0.100-rc.2.26504.105/Roslyn/bincore/csc.dll')
 RUNTIME = Path('C:/Program Files/dotnet/shared/Microsoft.NETCore.App/10.0.12')
 ILASM = Path('C:/Windows/Microsoft.NET/Framework64/v4.0.30319/ilasm.exe')
-OLD = ROOT.parents[1] / 'engenharia/recompilacao-data-core-2026-10-30/build'
+DEPENDENCIES = ROOT / 'projects/DigisatServer.Infrastructure.Data.Core/tooling'
 TOOL = ROOT / 'il-roundtrip/tooling'
 
 
@@ -37,10 +37,10 @@ def make_opaque_token_calls_assemblable(il):
         lines.extend(match.group(1) + '           .emitbyte 0x%02X' % byte for byte in raw[1:])
         return '\n'.join(lines)
     transformed, count = pattern.subn(replace, source)
-    # ILSpy omits the method token discriminator for this generic method token.
+    # An operand with an owner, member name and parameter list names a method.
     transformed, bad_method_tokens = re.subn(
-        r'^(\s*IL_[0-9A-Fa-f]+:\s+ldtoken) bool (?=\[System\.Core\].*::)',
-        r'\1 method bool ', transformed, flags=re.M)
+        r'^(\s*IL_[0-9A-Fa-f]+:\s+ldtoken)[ \t]+(?![ \t]|(?:method|field)\b)(?=[^\n]+::[^\n]+\()',
+        r'\1 method ', transformed, flags=re.M)
     # Place variance before generic type constraints, as required by ILAsm.
     transformed, bad_variance = re.subn(
         r'(`1)<\(([^()\n]+)\) -([A-Za-z_]\w*)>',
@@ -81,10 +81,19 @@ def make_opaque_token_calls_assemblable(il):
         pending.append((pos, pos, '\n'.join(replacements) + '\n'))
     for start, end, replacement_text in sorted(pending, key=lambda item: item[0], reverse=True):
         transformed = transformed[:start] + replacement_text + transformed[end:]
-    if count or bad_method_tokens or bad_variance or missing_resources or label_edits:
+    # Label clauses also support nested catches and distinct handler boundaries.
+    transformed, catch_regions = re.subn(
+        r'^(\s*\.try )(IL_[0-9A-Fa-f]+)-(IL_[0-9A-Fa-f]+)( catch .+?) (IL_[0-9A-Fa-f]+)-(IL_[0-9A-Fa-f]+)[ \t]*$',
+        r'\1\2 to \3\4 handler \5 to \6', transformed, flags=re.M)
+    transformed, filter_regions = re.subn(
+        r'^(\s*\.try )(IL_[0-9A-Fa-f]+)-(IL_[0-9A-Fa-f]+)( filter IL_[0-9A-Fa-f]+) handler +'
+        r'(IL_[0-9A-Fa-f]+)-(IL_[0-9A-Fa-f]+)[ \t]*$',
+        r'\1\2 to \3\4 handler \5 to \6', transformed, flags=re.M)
+    if count or bad_method_tokens or bad_variance or missing_resources or label_edits or catch_regions or filter_regions:
         il.write_text(transformed, encoding='utf-8')
     return {'opaque_invalid_token_calls': count, 'method_token_discriminators': bad_method_tokens,
-            'generic_variance_constraints': bad_variance, 'embedded_resources': len(missing_resources)}
+            'generic_variance_constraints': bad_variance, 'embedded_resources': len(missing_resources),
+            'catch_regions': catch_regions, 'filter_regions': filter_regions}
 
 
 def run(command, cwd, log, timeout=120):
@@ -98,7 +107,7 @@ def run(command, cwd, log, timeout=120):
 def prepare():
     TOOL.mkdir(parents=True, exist_ok=True)
     for name in ['ICSharpCode.Decompiler.dll', 'Mono.Cecil.dll']:
-        shutil.copyfile(OLD / name, TOOL / name)
+        shutil.copyfile(DEPENDENCIES / name, TOOL / name)
     executable = TOOL / 'ManagedIlWorkspace.dll'
     refs = [p for p in RUNTIME.glob('*.dll') if managed(p)] + list(TOOL.glob('ICSharpCode.Decompiler.dll')) + list(TOOL.glob('Mono.Cecil.dll'))
     run([DOTNET, CSC, '-nologo', '-target:exe', '-out:' + str(executable)] +
@@ -111,12 +120,18 @@ def prepare():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('name', help='Exact snapshotted DLL/EXE name')
+    parser.add_argument('--workspace', type=Path, default=ROOT, help='Use a separate installed-build snapshot')
     parser.add_argument('--recover', action='store_true')
     args = parser.parse_args()
-    original = ROOT / 'baseline' / args.name
+    workspace = args.workspace.resolve()
+    original = workspace / 'baseline' / args.name
     if original.name != args.name or not original.exists():
         raise SystemExit('Choose an exact baseline artifact name.')
-    project = ROOT / 'projects-il' / original.stem
+    inventory = json.loads((workspace / 'artifact-inventory.json').read_bytes())
+    inputs = {row['name']: row['sha256'] for row in inventory['records']}
+    if inputs.get(args.name) != sha(original):
+        raise SystemExit('Baseline artifact differs from the pinned snapshot inventory.')
+    project = workspace / 'projects-il' / original.stem
     source = project / 'source'
     logs = project / 'logs'
     binary = project / 'bin'
@@ -152,8 +167,8 @@ def main():
         'source_il_sha256': sha(il), 'output_sha256': sha(output), 'assembler_sha256': sha(ILASM),
         'build_language': 'CIL textual source', 'target_executed': False,
         'verification': verification,
-        'limitations': ['Not a complete Application.Main/SuiteG6 source build.',
-                        'Assembly layout/MVID differ and one unused obfuscator assembly reference is not retained.']}, indent=2), encoding='utf-8')
+        'limitations': ['Single-module assembly only.',
+                        'Assembly layout and metadata can differ. Check compatibility against the input assembly.']}, indent=2), encoding='utf-8')
     print('Assembled IL source: ' + args.name)
 
 
