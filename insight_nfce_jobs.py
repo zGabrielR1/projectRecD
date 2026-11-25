@@ -170,8 +170,8 @@ def create(owner,mode='automatic',profile=None,use_barcode=False,import_movement
         raise HTTPException(422, 'A seleção Pessoas exige um perfil JSON revisado.')
     if import_products is not None and (type(import_products) is not bool or (import_products and mode != 'manual')):
         raise HTTPException(422, 'A seleção Produtos exige um perfil JSON revisado.')
-    if type(import_finance) is not bool or (import_finance and (mode != 'manual' or not import_movements)):
-        raise HTTPException(422, 'Movimentações Financeiras exigem movimentações de entrada e saída e perfil JSON.')
+    if type(import_finance) is not bool or (import_finance and mode != 'manual'):
+        raise HTTPException(422, 'Movimentações Financeiras exigem um perfil JSON revisado.')
     if type(use_barcode) is not bool:
         raise HTTPException(422, 'Seleção de código de barras inválida.')
     if mode not in {'automatic','manual'}:raise HTTPException(422,'Modo inválido.')
@@ -535,7 +535,8 @@ def write_sale(job_id,row,sale):
         db.execute('INSERT INTO payloads(id,sale) VALUES(?,?) ON CONFLICT(id) DO UPDATE SET sale=excluded.sale',
                    (row['id'],sqlite3.Binary(BSON.encode(sale))))
     update_file(row['id'],status='ready',sale_path='sqlite',message=None,
-                collections=json.dumps(sorted(sale_collections([sale])) if 'movement' in sale else []))
+                collections=json.dumps(sorted(sale_collections([sale])) if 'movement' in sale else
+                                       ([sale['finance']['collection']] if sale.get('finance') else [])))
 
 
 def validation_checkpoint(job_id):
@@ -583,7 +584,7 @@ def heartbeat():
 def launch(job_id,owner,phase,*,session_token=None,background=True):
     global _heartbeat_started
     job=owned(job_id,owner)
-    if phase == 'apply' and not job['import_movements']:
+    if phase == 'apply' and not (job['import_movements'] or job['import_finance']):
         raise HTTPException(409, 'A gravação de movimentações está desmarcada neste lote.')
     with _lock,connect() as db:
         db.execute('BEGIN IMMEDIATE')
@@ -641,7 +642,8 @@ def validate_job(job_id,job,owner):
 
     profile=load_profile(job['profile']) if job['mode']=='manual' else None
     cfe_profile = profile_for_source(profile, 'cfe') if profile else None
-    catalog_only = bool(not job['import_movements'] and (job['import_people'] or job['import_products']))
+    catalog_only = bool(not job['import_movements'] and
+                        (job['import_people'] or job['import_products'] or job['import_finance']))
     while running(job_id):
         row=next_file(job_id,'uploaded')
         if not row:break
@@ -701,10 +703,10 @@ def validate_job(job_id,job,owner):
             db.execute('UPDATE jobs SET state=? WHERE id=?',('blocked' if bad else 'ready',job_id))
 
 
-def authorized_collections(job_id):
+def authorized_collections(job_id, *, movements=True):
     with connect() as db:
         rows = db.execute("SELECT collections FROM files WHERE job_id=? AND collections IS NOT NULL", (job_id,)).fetchall()
-    names = {'Movimentacoes', 'XmlMovimentacoes'}
+    names = {'Movimentacoes', 'XmlMovimentacoes'} if movements else set()
     for row in rows:
         names.update(json.loads(row['collections']))
     return names
@@ -712,17 +714,19 @@ def authorized_collections(job_id):
 
 def authorize_apply(job_id,owner,token,confirmation):
     job=owned(job_id,owner)
-    if not job['import_movements']:
+    if not (job['import_movements'] or job['import_finance']):
         raise HTTPException(409, 'A gravação de movimentações está desmarcada neste lote.')
     if confirmation!='IMPORTAR '+job['database_name']:raise HTTPException(422,'Confirme o banco de destino.')
     access=editor.session(token,owner,job['database_name'])
-    collections = authorized_collections(job_id)
+    collections = authorized_collections(job_id, movements=bool(job['import_movements']))
     for collection in collections:
         for action in ('insert','find'):
             if not editor.permitted(access['grants'],job['database_name'],collection,action):
                 raise HTTPException(403,'Permissão ausente: '+action+' em '+collection)
     if collections.intersection({'Pagamentos', 'Recebimentos'}):
         check_finance_dependencies(job_id, job['database_name'], access)
+    if not job['import_movements']:
+        return
     if job['import_people']:
         database = job['database_name']
         if not editor.permitted(access['grants'], database, 'Pessoas', 'find'):
@@ -801,6 +805,9 @@ def apply_job(job_id,job,owner,session_token):
             row=next_file(job_id,'ready')
             if not row:break
             sale=read_sale(job_id,row)
+            if not job['import_movements'] and not sale.get('finance'):
+                update_file(row['id'], status='duplicate', message='XML sem duplicatas para importar.', durable=True)
+                continue
             update_file(row['id'],status='applying',durable=True)
             result=apply_sale(sale,job['database_name'],session_token,owner,client=client)
             status={'imported':'imported','duplicate':'duplicate','stopped':'unknown'}[result['status']]
@@ -977,10 +984,15 @@ def export_zip(job_id,owner):
             for collection, records in (('ProdutosServicos', products), ('ProdutosServicosEmpresa', links)):
                 for document in records.values():
                     add(collection, document)
-        if job['import_movements'] or not (job['import_people'] or job['import_products']):
+        if job['import_movements'] or not (job['import_people'] or job['import_products'] or job['import_finance']):
             for sale in iter_sales(job_id):
                 for collection, document in sale_documents(sale):
                     add(collection, document)
+        elif job['import_finance']:
+            for sale in iter_sales(job_id):
+                if sale.get('finance'):
+                    for document in sale['finance']['documents']:
+                        add(sale['finance']['collection'], document)
 
         with zipfile.ZipFile(temporary, 'w', zipfile.ZIP_DEFLATED, compresslevel=1, allowZip64=True) as output:
             for (collection,) in db.execute('SELECT collection FROM records GROUP BY collection ORDER BY MIN(rowid)'):

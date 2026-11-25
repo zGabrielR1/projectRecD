@@ -326,6 +326,13 @@ def apply_sale(sale,database,session_token,owner,*,client=None):
     from insight_nfce_mapping import REGISTRATION_COLLECTIONS
     key=sale['summary']['access_key'];changes=[]
     try:
+        if 'movement' not in sale:
+            finance = sale['finance']
+            with (nullcontext(client) if client is not None else editor.editor_client()) as current:
+                for document in finance['documents']:
+                    insert_document(document, database, finance['collection'], session_token, owner,
+                                    client=current, changes=changes)
+            return {'access_key': key, 'status': 'imported' if changes else 'duplicate', 'changes': changes}
         validate_native_documents(sale['movement'],sale['xml'])
         with (nullcontext(client) if client is not None else editor.editor_client()) as current:
             moves=editor.selected_collection(current,database,'Movimentacoes',write=True)

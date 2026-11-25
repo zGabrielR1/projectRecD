@@ -415,9 +415,23 @@ def build_sale(raw, profile, *, source=None, include_finance=True, include_produ
     if catalog_only:
         from insight_nfce_discovery import nfe_route
 
-        nfe_route(parsed, source)
-        return build_catalog_review(profile, context, info, source, info.findall('n:det', NS),
-                                    include_people, include_products, use_barcode, profile['item'])
+        native_type, company_document, person_document = nfe_route(parsed, source)
+        result = build_catalog_review(profile, context, info, source, info.findall('n:det', NS),
+                                      include_people, include_products, use_barcode, profile['item'])
+        result['summary'] = {'access_key': key}
+        if require_finance and parsed['installments']:
+            person = render(profile['movement'].get('Pessoa'), context, info)
+            if not isinstance(person, dict):
+                raise ValueError('Perfil financeiro exige o vínculo da pessoa em movement.Pessoa.')
+            if source == 'purchase':
+                company = render(profile['movement'].get('Empresa'), context, info)
+                if (not isinstance(company, dict) or company.get('PessoaReferencia') != profile['company_id']
+                        or digits(str(company.get('Documento') or '')) != company_document
+                        or digits(str(person.get('Documento') or '')) != person_document):
+                    raise ValueError('O perfil financeiro de compra deve vincular a empresa destinatária e o fornecedor.')
+            result['finance'] = build_finance(parsed, profile, context, {'_t': native_type, 'Pessoa': person},
+                                              info, required=True)
+        return result
     registrations = {}
     for det, item in zip(info.findall('n:det', NS), parsed['items']):
         identifier = product_identifier(item, use_barcode)

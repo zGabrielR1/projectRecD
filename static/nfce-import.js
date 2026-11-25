@@ -39,8 +39,8 @@
     $('importMovements').disabled = Boolean(job) || uploading;
     $('importPeople').disabled = Boolean(job) || uploading || $('mappingMode').value !== 'manual';
     $('importProducts').disabled = $('importPeople').disabled;
-    $('importFinance').disabled = $('importPeople').disabled || !$('importMovements').checked;
-    $('validate').disabled=locked;$('apply').disabled=uploading||active()||!job?.valid||job?.import_movements===false;
+    $('importFinance').disabled = $('importPeople').disabled;
+    $('validate').disabled=locked;$('apply').disabled=uploading||active()||!job?.valid||(job?.import_movements===false&&!job?.import_finance);
     $('download').disabled = uploading || active() || !job || !['ready', 'complete'].includes(job.state) ||
       Boolean(job.counts.invalid) || !((job.counts.ready || 0) + (job.counts.imported || 0));
     $('pause').hidden=!active();$('resume').hidden=!job||!['paused','interrupted'].includes(job.state)||job.phase==='apply';
@@ -314,7 +314,7 @@
       }
       const keys=[...new Set(splitKeys($('accessKeys').value))];
       if(first.done&&!keys.length&&!job?.counts?.uploaded){message('Informe chaves de acesso ou selecione arquivos XML.');return;}
-      if(!job){const mode=$('mappingMode').value,body={mode,import_finance:mode==='manual'&&$('importMovements').checked&&$('importFinance').checked,import_products:mode==='manual'&&$('importProducts').checked,import_people:mode==='manual'&&$('importPeople').checked,import_movements:$('importMovements').checked,use_barcode:$('useBarcode').checked};if(mode==='manual'){const profile=$('profile').files[0];if(!profile||!profile.name.toLowerCase().endsWith('.json'))throw new Error('Selecione um perfil JSON revisado, ou use a identificação automática.');body.profile=await profile.text();}job=await api(root,{method:'POST',body});remember(job.id);}
+      if(!job){const mode=$('mappingMode').value,body={mode,import_finance:mode==='manual'&&$('importFinance').checked,import_products:mode==='manual'&&$('importProducts').checked,import_people:mode==='manual'&&$('importPeople').checked,import_movements:$('importMovements').checked,use_barcode:$('useBarcode').checked};if(mode==='manual'){const profile=$('profile').files[0];if(!profile||!profile.name.toLowerCase().endsWith('.json'))throw new Error('Selecione um perfil JSON revisado, ou use a identificação automática.');body.profile=await profile.text();}job=await api(root,{method:'POST',body});remember(job.id);}
       if(job.state!=='uploading')throw new Error('Crie uma nova importação para selecionar outros arquivos.');
       const issues=[];
       for(let index=0;index<keys.length;index+=50){

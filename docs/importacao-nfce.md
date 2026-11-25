@@ -15,7 +15,7 @@ Para chaves arquivadas na base, selecione **Tipo das chaves informadas** se o lo
 | Pessoas | `person_template.Cpf` e/ou `person_template.Cnpj` | Prepara o fornecedor da nota de compra ou o destinatário da NF-e para cadastro individual ou em lote. |
 | Produtos | `product_catalog.product` e `product_catalog.company_product`, ou `product_template` com movimentações selecionadas | Prepara produto e vínculo por empresa para cadastro separado. Com `product_template`, os registros gerados entram na mesma aplicação da movimentação. |
 | Movimentações de Entrada e Saída | Perfil da origem do XML | Grava a movimentação e arquiva o XML. Com a opção desmarcada, continua possível revisar o lote e cadastrar pessoas e produtos separadamente. |
-| Movimentações Financeiras | `finance.payable` e/ou `finance.receivable`, com movimentações selecionadas | Prepara títulos em aberto para duplicatas com vencimento e valor. A prévia mostra os títulos preparados e os dados do XML. |
+| Movimentações Financeiras | `finance.payable` e/ou `finance.receivable` e vínculo da pessoa em `movement.Pessoa` | Prepara títulos em aberto para duplicatas com vencimento e valor. Pode ser usada separadamente para gravar apenas `Pagamentos` ou `Recebimentos`. |
 
 Os modelos BSON do perfil devem representar a versão do SuiteG6 usada na base de destino. A identificação automática usa os vínculos existentes.
 
