@@ -4,16 +4,16 @@ The requested order was followed: the Insight RC was published first; vendor sou
 
 ## Insight 1.1.1 RC6
 
-[Published prerelease](https://github.com/zGabrielR1/projetoIADigisat/releases/tag/v1.1.1-rc.6), commit `4aeabf7bd4d64dbcd4b187767090bc47fac6d01a`, branch `release/1.1.1-rc.6`.
+[Published prerelease](https://github.com/zGabrielR1/projectRecD/releases/tag/v1.1.1-rc.6), commit `4aeabf7bd4d64dbcd4b187767090bc47fac6d01a`, branch `release/1.1.1-rc.6`.
 
-[Windows CI](https://github.com/zGabrielR1/projetoIADigisat/actions/runs/41156152400) passed:
+[Windows CI](https://github.com/zGabrielR1/projectRecD/actions/runs/41156152400) passed:
 
 - 111 Python source tests, plus JavaScript arithmetic/export checks.
 - Real Windows x64 portable build and PE execution with minimal PATH.
 - Authentication and both independent calculation APIs, invalid-input handling, native notices and static-asset checks.
 - ZIP file allowlist, credential-free configuration and inner/outer SHA-256 verification.
 
-The [portable ZIP](https://github.com/zGabrielR1/projetoIADigisat/releases/download/v1.1.1-rc.6/DigiSatInsight-1.1.1-rc.6-win64.zip) is about 26.9 MB. Its SHA-256 is `e3d02a0d9ac088e611256dd0e09c11481364e9054d1577b12233fdf7db5fa647`; executable SHA-256 is `b7a9bf9394b434b149046d2de3275ff4be1cdc80b5230f8df7432945af602658`. Downloaded artifacts were independently checked again on Linux in `release/DigiSatInsight-1.1.1-rc.6-win64/`.
+The [portable ZIP](https://github.com/zGabrielR1/projectRecD/releases/download/v1.1.1-rc.6/DigiSatInsight-1.1.1-rc.6-win64.zip) is about 26.9 MB. Its SHA-256 is `e3d02a0d9ac088e611256dd0e09c11481364e9054d1577b12233fdf7db5fa647`; executable SHA-256 is `b7a9bf9394b434b149046d2de3275ff4be1cdc80b5230f8df7432945af602658`. Downloaded artifacts were independently checked again on Linux in `release/DigiSatInsight-1.1.1-rc.6-win64/`.
 
 The published `verification.json` identifies the profile as **windows-isolated**. Installed Digisat/WCF, customer-data parity, live Mongo/CRUD acceptance and full visual regression were not claimed. The original live-environment verifier/finalizer remain separate and now require the new audit gates too. The public release snapshot adds no vendor installer, recovered vendor source, private configuration or database files. Existing source/workspace changes were preserved; publication used an isolated curated branch rather than committing the working tree wholesale.
 

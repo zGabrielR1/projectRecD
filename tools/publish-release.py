@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from insight_version import VERSION
 
-REPO = 'zGabrielR1/projetoIADigisat'
+REPO = 'zGabrielR1/projectRecD'
 TAG = 'v' + VERSION
 parser = argparse.ArgumentParser()
 parser.add_argument('--publish', action='store_true')

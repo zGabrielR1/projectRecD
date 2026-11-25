@@ -1,0 +1,6 @@
+[submodule "side-projects/SuiteG6-Rebuild"]
+	path = side-projects/SuiteG6-Rebuild
+	url = https://github.com/zGabrielR1/SuiteG6-Rebuild.git
+[submodule "side-projects/DigisatWeb-Reconstruction"]
+	path = side-projects/DigisatWeb-Reconstruction
+	url = https://github.com/zGabrielR1/DigisatWeb-Reconstruction.git
