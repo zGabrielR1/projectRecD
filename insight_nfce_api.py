@@ -122,8 +122,11 @@ def make_discovery_plan(body, owner):
                 for incoming in prepared:
                     try:
                         company_id, _ = discovery.company(incoming['parsed']['issuer_cnpj'], incoming['parsed']['model'])
-                        native_filter = {'EmpresaReferencia':company_id, '_t':movement_type(incoming['parsed']['model']),
-                                         'Numero':int(incoming['parsed']['number']), 'Serie':incoming['parsed']['series']}
+                        native_filter = native_document_filter({
+                            'EmpresaReferencia': company_id, '_t': movement_type(incoming['parsed']['model']),
+                            'Numero': int(incoming['parsed']['number']), 'Serie': incoming['parsed']['series'],
+                            'ChaveAcesso': incoming['parsed']['access_key'],
+                        })
                         existing = db.Movimentacoes.find_one(native_filter, {'ChaveAcesso':1}, max_time_ms=5000)
                         if existing:
                             if existing.get('ChaveAcesso') != incoming['parsed']['access_key']:
@@ -234,17 +237,28 @@ def prepare_person_insert(person, database, session_token, owner, *, client):
     return editor.prepare_import_insert(person, database, 'Pessoas', session_token, owner, client=client)
 
 
-def prepare_purchase_cost(candidate, database, session_token, owner, *, client):
-    """Journal a cost change for a validated purchase line."""
+def check_purchase_cost_source(candidate, database, access, *, client):
     from bson import ObjectId
-    from insight_nfce_mapping import purchase_cost_change
+    from bson.decimal128 import Decimal128
+    from insight_nfce_mapping import native_issue_time
 
-    if candidate['conflict']:
-        raise HTTPException(409, 'Resolva o conflito entre custos da última compra.')
-    access = editor.session(session_token, owner, database)
-    for collection, action in (('ProdutosServicosEmpresa', 'find'), ('Precos', 'find'), ('Precos', 'update')):
-        if not editor.permitted(access['grants'], database, collection, action):
-            raise HTTPException(403, 'Permissão ausente: ' + action + ' em ' + collection)
+    for collection in ('Movimentacoes', 'ProdutosServicosEmpresa'):
+        if not editor.permitted(access['grants'], database, collection, 'find'):
+            raise HTTPException(403, 'Permissão ausente: find em ' + collection)
+    purchases = editor.selected_collection(client, database, 'Movimentacoes')
+    key = candidate['access_key']
+    issued = native_issue_time(candidate['issued_at'])
+    query = {'EmpresaReferencia': candidate['company_id'], '_t': 'NotaFiscalCompra',
+             'Situacao.Codigo': 2, 'ItensBase.ProdutoServicoEmpresaReferencia': candidate['company_product_id']}
+    cost = candidate['unit_cost']
+    source_line = {'ProdutoServicoEmpresaReferencia': candidate['company_product_id'],
+                   'PrecoUnitario': {'$in': [float(cost), Decimal128(cost)]}}
+    if not purchases.find_one(dict(query, ChaveAcesso=key, DataHoraEmissao=issued,
+                                   ItensBase={'$elemMatch': source_line}), {'_id': 1}, max_time_ms=5000):
+        raise HTTPException(409, 'A compra ou o custo unitário revisado mudou. Prepare uma nova prévia.')
+    if purchases.find_one(dict(query, DataHoraEmissao={'$gte': issued}, ChaveAcesso={'$ne': key}),
+                          {'_id': 1}, max_time_ms=5000):
+        raise HTTPException(409, 'Há outra compra da mesma data e hora ou mais recente na base. Revise o custo.')
     products = editor.selected_collection(client, database, 'ProdutosServicosEmpresa')
     link = products.find_one({'_id': candidate['company_product_id'],
                               'EmpresaReferencia': candidate['company_id'], 'Ativo': True},
@@ -252,6 +266,20 @@ def prepare_purchase_cost(candidate, database, session_token, owner, *, client):
     price_id = link.get('PrecoReferencia') if link else None
     if not isinstance(price_id, ObjectId):
         raise HTTPException(409, 'Vínculo ativo de preço não encontrado para o produto da empresa.')
+    return price_id
+
+
+def prepare_purchase_cost(candidate, database, session_token, owner, *, client):
+    """Journal a cost change for a validated purchase line."""
+    from insight_nfce_mapping import purchase_cost_change
+
+    if candidate['conflict']:
+        raise HTTPException(409, 'Resolva o conflito entre custos da última compra.')
+    access = editor.session(session_token, owner, database)
+    price_id = check_purchase_cost_source(candidate, database, access, client=client)
+    for action in ('find', 'update'):
+        if not editor.permitted(access['grants'], database, 'Precos', action):
+            raise HTTPException(403, 'Permissão ausente: ' + action + ' em Precos')
     prices = editor.selected_collection(client, database, 'Precos', write=True)
     before = prices.find_one({'_id': price_id}, max_time_ms=5000)
     if before is None:
@@ -261,7 +289,7 @@ def prepare_purchase_cost(candidate, database, session_token, owner, *, client):
         return None
     validate_native_documents(after)
     return editor.journal_preview(database, 'Precos', 'update', price_id, before, after,
-                                  session_token, owner, access)
+                                  session_token, owner, access, purchase_cost=candidate)
 
 
 def native_document_filter(movement):
@@ -269,14 +297,13 @@ def native_document_filter(movement):
     native_type = discriminator[-1] if isinstance(discriminator, list) else discriminator
     company = movement['EmpresaReferencia']
     number_filter = {'Numero': movement['Numero'], 'Serie': movement['Serie']}
-    if native_type in {'NotaFiscalCompra', 'CupomFiscalEletronico'}:
-        if native_type == 'NotaFiscalCompra':
-            number_filter['Pessoa.PessoaReferencia'] = movement['Pessoa']['PessoaReferencia']
-        else:
-            number_filter['NumeroFabricacao'] = movement['NumeroFabricacao']
-        return {'EmpresaReferencia': company, '_t': native_type,
-                '$or': [{'ChaveAcesso': movement['ChaveAcesso']}, number_filter]}
-    return {'EmpresaReferencia': company, '_t': native_type, **number_filter}
+    if native_type == 'NotaFiscalCompra':
+        number_filter['Pessoa.PessoaReferencia'] = movement['Pessoa']['PessoaReferencia']
+    elif native_type == 'CupomFiscalEletronico':
+        serial = movement.get('NumeroFabricacaoSat') or movement['NumeroFabricacao']
+        number_filter['$or'] = [{'NumeroFabricacaoSat': serial}, {'NumeroFabricacao': serial}]
+    return {'EmpresaReferencia': company, '_t': native_type,
+            '$or': [{'ChaveAcesso': movement['ChaveAcesso']}, number_filter]}
 
 
 def insert_document(document, database, collection, session_token, owner, *, client, changes):
@@ -284,7 +311,7 @@ def insert_document(document, database, collection, session_token, owner, *, cli
     existing = editor.selected_collection(client, database, collection).find_one(
         {'_id': document['_id']}, max_time_ms=5000)
     if existing is not None:
-        if existing != document:
+        if not editor.same_document(existing, document):
             raise HTTPException(409, 'Já existe um documento diferente com o _id preparado em ' + collection + '.')
         return False
     change = editor.prepare_import_insert(document, database, collection, session_token, owner, client=client)
@@ -305,10 +332,17 @@ def apply_sale(sale,database,session_token,owner,*,client=None):
             movement=sale['movement']
             native_filter = native_document_filter(movement)
             existing=moves.find_one(native_filter,{'_id':1,'ChaveAcesso':1},max_time_ms=5000)
+            finance = sale.get('finance')
+            resume_titles = False
             if existing is not None:
                 if existing.get('ChaveAcesso') not in (None,key):
                     raise HTTPException(409,'Número/série já existem com outra chave.')
-                return {'access_key':key,'status':'duplicate','message':'Venda já existe; não alterada.'}
+                if not finance or existing.get('_id') != movement['_id'] or existing.get('ChaveAcesso') != key:
+                    return {'access_key':key,'status':'duplicate','message':'Movimentação já existe; não alterada.'}
+                previous = moves.find_one({'_id': movement['_id']}, max_time_ms=5000)
+                if not editor.same_document(previous, movement):
+                    raise HTTPException(409, 'A movimentação existente difere da prévia financeira.')
+                resume_titles = True
             xmls=editor.selected_collection(current,database,'XmlMovimentacoes',write=True)
             if xmls.find_one({'ChaveAcesso':key,**ARCHIVED_CANCELLATION},{'_id':1},max_time_ms=5000):
                 raise HTTPException(409,'Há evento de cancelamento para esta chave na base.')
@@ -316,28 +350,48 @@ def apply_sale(sale,database,session_token,owner,*,client=None):
             if existing_xml and (not isinstance(existing_xml.get('Xml'), str)
                                  or existing_xml['Xml'].removeprefix('\ufeff') != sale['xml']['Xml']):
                 raise HTTPException(409,'XML existente difere do selecionado.')
+            if resume_titles and not existing_xml:
+                raise HTTPException(409, 'O XML da movimentação existente precisa estar na base antes de retomar os títulos.')
             for guard in sale.get('guards',[]):
                 from insight_nfce_discovery import guard_digest
                 projection={f:1 for f in guard['fields']} if 'fields' in guard else {'Versao':1}
                 source=current[database][guard['collection']].find_one({'_id':guard['id']},projection,max_time_ms=5000)
                 if source is None or ('digest' in guard and guard_digest(source,guard['fields'])!=guard['digest']) or source.get('Versao')!=guard['version']:
                     raise HTTPException(409,'Uma referência usada na descoberta mudou. Valide novamente.')
-            for registration in sale.get('product_registrations', []):
+            registrations = sale.get('product_registrations', [])
+            if registrations:
+                catalog = editor.selected_collection(current, database, 'ProdutosServicos')
+                identifiers = {}
+                for registration in registrations:
+                    product = registration['documents']['ProdutosServicos']
+                    for field in ('CodigoInterno', 'CodigoBarras'):
+                        value = product.get(field)
+                        if not isinstance(value, (str, int)) or not value or value == 'SEM GTIN':
+                            continue
+                        identity = (field, value)
+                        if identifiers.setdefault(identity, product['_id']) != product['_id']:
+                            raise HTTPException(409, 'O XML gera produtos com código ou código de barras duplicado.')
+                        conflict = catalog.find_one({field: value, '_id': {'$ne': product['_id']}},
+                                                    {'_id': 1}, max_time_ms=5000)
+                        if conflict is not None:
+                            raise HTTPException(409, 'Outro produto usa o código ou código de barras preparado. Revise o vínculo.')
+            for registration in registrations:
                 documents = registration['documents']
                 for collection in REGISTRATION_COLLECTIONS:
                     if collection in documents:
                         insert_document(documents[collection],database,collection,session_token,
                                         owner,client=current,changes=changes)
             for field,collection in [('xml','XmlMovimentacoes'),('movement','Movimentacoes')]:
-                if field=='xml' and existing_xml:continue
+                if resume_titles or (field=='xml' and existing_xml):continue
                 change=editor.prepare_import_insert(sale[field],database,collection,session_token,owner,client=current)
                 changes.append(change['id'])
                 editor.apply_change(change['id'],session_token,owner,collection,document_limit=None,client=current)
-            finance = sale.get('finance')
             if finance:
                 for document in finance['documents']:
                     insert_document(document,database,finance['collection'],session_token,
                                     owner,client=current,changes=changes)
+            if resume_titles and not changes:
+                return {'access_key': key, 'status': 'duplicate', 'message': 'Movimentação e títulos já existem.'}
         return {'access_key':key,'status':'imported','changes':changes}
     except Exception as exc:
         detail = exc.detail if isinstance(exc, HTTPException) else None

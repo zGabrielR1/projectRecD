@@ -28,19 +28,28 @@
     for (const id of ['incomingFolder', 'purchaseFolder']) {
       $(id).disabled = locked || $('mappingMode').value !== 'manual';
     }
-    for(const id of ['mappingMode','profile','xmls','folders','accessKeys','keyFile'])$(id).disabled=locked;
+    for(const id of ['mappingMode','profile','xmls','folders','accessKeys','keyFile','keySource'])$(id).disabled=locked;
+    const keySource = $('keySource');
+    for (const option of keySource.options) {
+      option.disabled = $('mappingMode').value !== 'manual' && ['purchase', 'incoming', 'cfe'].includes(option.value);
+    }
+    if (keySource.selectedOptions[0]?.disabled) keySource.value = '';
     $('mappingMode').disabled=uploading||active()||Boolean(job);$('profile').disabled=uploading||active()||Boolean(job);
-    $('useBarcode').disabled=Boolean(job)||uploading||$('mappingMode').value==='manual';
+    $('useBarcode').disabled=Boolean(job)||uploading;
     $('importMovements').disabled = Boolean(job) || uploading;
     $('importPeople').disabled = Boolean(job) || uploading || $('mappingMode').value !== 'manual';
+    $('importProducts').disabled = $('importPeople').disabled;
+    $('importFinance').disabled = $('importPeople').disabled || !$('importMovements').checked;
     $('validate').disabled=locked;$('apply').disabled=uploading||active()||!job?.valid||job?.import_movements===false;
-    $('download').disabled=uploading||active()||!job||Boolean(job.counts.invalid)||!((job.counts.ready||0)+(job.counts.imported||0));
+    $('download').disabled = uploading || active() || !job || !['ready', 'complete'].includes(job.state) ||
+      Boolean(job.counts.invalid) || !((job.counts.ready || 0) + (job.counts.imported || 0));
     $('pause').hidden=!active();$('resume').hidden=!job||!['paused','interrupted'].includes(job.state)||job.phase==='apply';
     $('newJob').disabled=uploading||active();$('jobHistory').disabled=uploading||active();
     $('discard').hidden=!job;$('discard').disabled=uploading||active();
     $('previousPage').disabled=!job||offset===0;$('nextPage').disabled=!job?.has_more;
     document.body.setAttribute('aria-busy',String(uploading||active()));
   }
+    $('importMovements').onchange = controls;
   $('mappingMode').onchange=()=>{const manual=$('mappingMode').value==='manual';$('manualProfile').hidden=!manual;$('automaticHint').hidden=manual;$('profile').required=manual;controls();};
   function render(value){
     const costReview = $('purchaseCostReview');
@@ -52,13 +61,18 @@
       $('useLastPurchaseCost').checked = false;
       $('applyPurchaseCosts').disabled = true;
     }
-    job=value;$('importPeople').checked=Boolean(job.import_people);$('importMovements').checked=job.import_movements!==false;$('useBarcode').checked=Boolean(job.use_barcode);remember(job.id);$('mappingMode').value=job.mode;$('manualProfile').hidden=job.mode!=='manual';$('automaticHint').hidden=job.mode==='manual';$('profile').required=false;$('results').hidden=false;$('rows').replaceChildren();
+    job=value;$('importFinance').checked=Boolean(job.import_finance);$('importProducts').checked=Boolean(job.import_products);$('importPeople').checked=Boolean(job.import_people);$('importMovements').checked=job.import_movements!==false;$('useBarcode').checked=Boolean(job.use_barcode);remember(job.id);$('mappingMode').value=job.mode;$('manualProfile').hidden=job.mode!=='manual';$('automaticHint').hidden=job.mode==='manual';$('profile').required=false;$('results').hidden=false;$('rows').replaceChildren();
     const labels={awaiting_upload:'Aguardando envio',receiving:'Recebendo',uploaded:'Enviado',indexed:'Indexado',ready:'Pronto para revisão',invalid:'Bloqueado',duplicate:'Duplicado / já existente',imported:'Inserido',applying:'Gravando',unknown:'Conferir diário',upload_error:'Retomar envio'};
     for(const row of job.rows){
       const tr=document.createElement('tr'),name=document.createElement('td');
       if(['ready','imported','unknown'].includes(row.status)||row.model==='59'){const button=document.createElement('button');button.type='button';button.className='nfce-document-link';button.textContent=row.file;button.onclick=()=>showDocument(row.id);name.append(button);}else name.textContent=row.file;
       if(row.access_key){const code=document.createElement('code');code.textContent=row.access_key;name.append(code);}tr.append(name);
-      for(const text of [row.number?row.series+'/'+row.number:'—',row.total?Number(row.total).toLocaleString('pt-BR',{style:'currency',currency:'BRL'}):'—',row.message||labels[row.status]||row.status]){const cell=document.createElement('td');cell.textContent=text;tr.append(cell);}
+      const sourceLabels = {purchase:'Nota de compra', incoming:'NF-e de entrada', outgoing:'NF-e de saída',
+                            nfce:'NFC-e', cfe:'CF-e/SAT'};
+      const inferredSource = {'59':'cfe', '65':'nfce', '55':row.direction === '0' ? 'incoming' : 'outgoing'}[row.model];
+      const documentLabel = [sourceLabels[row.source || inferredSource], row.number && row.series+'/'+row.number]
+        .filter(Boolean).join(' · ') || '—';
+      for(const text of [documentLabel,row.total?Number(row.total).toLocaleString('pt-BR',{style:'currency',currency:'BRL'}):'—',row.message||labels[row.status]||row.status]){const cell=document.createElement('td');cell.textContent=text;tr.append(cell);}
       if(['invalid','unknown','upload_error'].includes(row.status))tr.className='invalid';$('rows').append(tr);
     }
     const c=job.counts;
@@ -70,7 +84,59 @@
     $('confirmation').placeholder='IMPORTAR '+job.database;controls();
     costReview.hidden = job.mode !== 'manual' || !['ready', 'complete'].includes(job.state);
     $('insertPeople').hidden = !job.import_people || !['ready', 'complete'].includes(job.state);
+    const catalog = $('catalogReview');
+    if (catalog.dataset.job !== job.id) {
+      catalog.dataset.job = job.id;
+      catalog.open = false;
+      $('insertProducts').disabled = true;
+    }
+    catalog.hidden = !job.import_products || !['ready', 'complete'].includes(job.state);
   }
+  $('catalogReview').addEventListener('toggle', async event => {
+    if (!event.currentTarget.open || !job) return;
+    const {id, database} = job;
+    const path = root+'/'+id+'/products';
+    const preview = $('catalogProducts');
+    const button = $('insertProducts');
+    preview.textContent = 'Carregando produtos…';
+    button.disabled = true;
+    try {
+      const result = await api(path);
+      const products = JSON.parse(result.products);
+      if (job?.id !== id) return;
+      preview.textContent = products.length
+        ? JSON.stringify({produtos: products, vinculos: JSON.parse(result.links)}, null, 2)
+        : 'Nenhum cadastro de produto preparado no perfil.';
+      if (!products.length) return;
+      button.disabled = false;
+      button.onclick = async () => {
+        if (job?.id !== id || !window.confirm('Cadastrar '+products.length+' produtos no banco '+database+'?')) return;
+        button.disabled = true;
+        let applied = 0;
+        try {
+          const session = await api('/api/editor/unlock', {
+            method:'POST', body:{database, confirmation:'EDITAR '+database},
+          });
+          if (job?.id !== id) return;
+          const headers = {'X-Insight-Editor-Session':session.token};
+          const result = await api(path+'/preview', {method:'POST', headers,
+            body:{confirmation:'IMPORTAR '+database, ids:products.map(product => product._id.$oid).sort()}});
+          for (const record of result.previews) {
+            if (job?.id !== id) return;
+            await api('/api/editor/apply/'+record.id, {method:'POST', headers, body:{confirmation:record.collection}});
+            applied++;
+          }
+          preview.append('\n\n'+applied+' registros de produto e vínculos cadastrados.');
+        } catch (error) {
+          message(applied+' registros cadastrados antes da interrupção. '+error.message);
+        } finally {
+          if (job?.id === id) button.disabled = false;
+        }
+      };
+    } catch (error) {
+      if (job?.id === id) preview.textContent = error.message;
+    }
+  });
   $('insertPeople').onclick = async () => {
     const button = $('insertPeople');
     const {id, database} = job;
@@ -248,12 +314,12 @@
       }
       const keys=[...new Set(splitKeys($('accessKeys').value))];
       if(first.done&&!keys.length&&!job?.counts?.uploaded){message('Informe chaves de acesso ou selecione arquivos XML.');return;}
-      if(!job){const mode=$('mappingMode').value,body={mode,import_people:mode==='manual'&&$('importPeople').checked,import_movements:$('importMovements').checked,use_barcode:mode==='automatic'&&$('useBarcode').checked};if(mode==='manual'){const profile=$('profile').files[0];if(!profile||!profile.name.toLowerCase().endsWith('.json'))throw new Error('Selecione um perfil JSON revisado, ou use a identificação automática.');body.profile=await profile.text();}job=await api(root,{method:'POST',body});remember(job.id);}
+      if(!job){const mode=$('mappingMode').value,body={mode,import_finance:mode==='manual'&&$('importMovements').checked&&$('importFinance').checked,import_products:mode==='manual'&&$('importProducts').checked,import_people:mode==='manual'&&$('importPeople').checked,import_movements:$('importMovements').checked,use_barcode:$('useBarcode').checked};if(mode==='manual'){const profile=$('profile').files[0];if(!profile||!profile.name.toLowerCase().endsWith('.json'))throw new Error('Selecione um perfil JSON revisado, ou use a identificação automática.');body.profile=await profile.text();}job=await api(root,{method:'POST',body});remember(job.id);}
       if(job.state!=='uploading')throw new Error('Crie uma nova importação para selecionar outros arquivos.');
       const issues=[];
       for(let index=0;index<keys.length;index+=50){
         $('status').textContent='Consultando chaves '+num(index+1)+'–'+num(Math.min(index+50,keys.length))+' de '+num(keys.length)+'…';
-        const lookup=await api(root+'/'+job.id+'/keys',{method:'POST',body:{keys:keys.slice(index,index+50)}});
+        const lookup=await api(root+'/'+job.id+'/keys',{method:'POST',body:{keys:keys.slice(index,index+50),source:$('keySource').value||null}});
         issues.push(...lookup.results.filter(item=>item.status!=='stored'));
       }
       if(issues.length){
@@ -334,12 +400,13 @@
         const box = $('bson'); box.replaceChildren(wrap); box.closest('details').open = true;
         return;
       }
-      const xml = JSON.parse(data.xml);
-      xml.Xml = '[XML original preservado; não repetido nesta visualização]';
-      const sections = [
-        'Movimentacoes\n'+JSON.stringify(JSON.parse(data.movement), null, 2),
-        'XmlMovimentacoes\n'+JSON.stringify(xml, null, 2),
-      ];
+      const sections = [];
+      if (data.movement && data.xml) {
+        const xml = JSON.parse(data.xml);
+        xml.Xml = '[XML original preservado; não repetido nesta visualização]';
+        sections.push('Movimentacoes\n'+JSON.stringify(JSON.parse(data.movement), null, 2),
+          'XmlMovimentacoes\n'+JSON.stringify(xml, null, 2));
+      }
       if (data.purchase_cost_candidates) {
         sections.push('Custos unitários do XML de compra\n'+JSON.stringify(JSON.parse(data.purchase_cost_candidates), null, 2));
       }

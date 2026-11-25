@@ -14,7 +14,7 @@ from fastapi import HTTPException
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from test_nfce_import import fixture, profile
 from insight_nfce import NS
-from insight_nfce_mapping import build_sale, build_cfe
+from insight_nfce_mapping import build_sale, build_cfe, profile_for_source
 from insight_nfce_discovery import Discovery, prepare_files, customer_matches, nfe_route, parse_cfe
 import insight_nfce_api as api
 
@@ -156,7 +156,10 @@ class DiscoveryTests(unittest.TestCase):
             'payments': {'01': {'Valor': 15.0}},
         }
         sale = build_cfe(raw.encode(), cfg)
-        self.assertEqual(sale['movement']['NumeroFabricacao'], serial)
+        batch_profile = profile()
+        batch_profile['source_profiles'] = {'cfe': {'issuer_cnpj': cnpj, 'cfe': cfg['cfe']}}
+        self.assertEqual(build_cfe(raw.encode(), profile_for_source(batch_profile, 'cfe')), sale)
+        self.assertEqual(sale['movement']['NumeroFabricacaoSat'], serial)
         self.assertEqual(sale['movement']['ChaveAcesso'], key)
         self.assertEqual(sale['xml']['Xml'], raw)
         cfg['cfe']['item']['Quantidade'] = 2.0

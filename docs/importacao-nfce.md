@@ -6,7 +6,18 @@ Importar XML fiscal aceita lotes mistos de NFC-e (modelo 65) e NF-e (modelo 55),
 
 ## 1.1.3 RC4
 
-Com perfil JSON revisado, o importador pode preparar cadastros de produto (`product_template`) e títulos financeiros a partir de duplicatas (`finance.payable`/`finance.receivable`). Esses documentos são incluídos na prévia, no ZIP e na aplicação, com escrita registrada no diário do editor. A identificação automática continua sem criar cadastros/financeiro; nesses casos, o perfil é obrigatório.
+No modo manual, as opções são salvas na criação do lote. Use **Revisar e cadastrar pessoas do lote** e a seção **Produtos** para conferir os cadastros separados antes de gravar os movimentos que dependem deles.
+
+Para chaves arquivadas na base, selecione **Tipo das chaves informadas** se o lote precisar de um mapeamento de pasta específico. Uma nota de compra emitida pelo fornecedor deve usar **Nota de compra**. A direção de saída no XML é a do fornecedor. A importação por chave de CF-e exige a seção `cfe` no perfil.
+
+| Opção | Configuração do perfil | Resultado |
+| --- | --- | --- |
+| Pessoas | `person_template.Cpf` e/ou `person_template.Cnpj` | Prepara o fornecedor da nota de compra ou o destinatário da NF-e para cadastro individual ou em lote. |
+| Produtos | `product_catalog.product` e `product_catalog.company_product`, ou `product_template` com movimentações selecionadas | Prepara produto e vínculo por empresa para cadastro separado. Com `product_template`, os registros gerados entram na mesma aplicação da movimentação. |
+| Movimentações de Entrada e Saída | Perfil da origem do XML | Grava a movimentação e arquiva o XML. Com a opção desmarcada, continua possível revisar o lote e cadastrar pessoas e produtos separadamente. |
+| Movimentações Financeiras | `finance.payable` e/ou `finance.receivable`, com movimentações selecionadas | Prepara títulos em aberto para duplicatas com vencimento e valor. A prévia mostra os títulos preparados e os dados do XML. |
+
+Os modelos BSON do perfil devem representar a versão do SuiteG6 usada na base de destino. A identificação automática usa os vínculos existentes.
 
 Compras/entrada/CF-e por perfil continuam suportados conforme o mapeamento declarado. A verificação das gravações nas rotas nativas do SuiteG6 instalado permanece pendente. Importar um documento histórico não executa os serviços nativos de estoque, caixa, numeração ou sincronização do SuiteG6; baixas financeiras não são inventadas.
 

@@ -117,7 +117,11 @@ def parse_cfe(root):
     gross_total = info.findtext('total/ICMSTot/vProd')
     if gross_total is not None and sum(Decimal(item['gross']) for item in items) != money(gross_total):
         raise ValueError('Soma dos produtos do CF-e não confere com o total bruto.')
-    return {'access_key': key, 'model': '59', 'series': series, 'number': number,
+    recipient = info.findtext('dest/CNPJ') or info.findtext('dest/CPF') or ''
+    recipient_name = info.findtext('dest/xNome', '').strip()
+    parties = [{'role': 'recipient', 'document': recipient, 'name': recipient_name,
+                'state_registration': '', 'address': {}}] if recipient else []
+    return {'access_key': key, 'model': '59', 'series': series, 'number': number, 'parties': parties,
             'issuer_cnpj': cnpj, 'issued_at_original': issued.isoformat(),
             'total': total, 'payments': paid, 'change': str(change), 'items': items}
 
@@ -339,12 +343,14 @@ class Discovery:
         doc.update(_id=ident, Ativo=True, Numero=Int64(parsed['number']), Serie=parsed['series'],
             EmpresaReferencia=company_id, Pessoa=deepcopy(template['Pessoa']), DataHoraEmissao=wall,
             DataHoraEntradaSaida=wall, ChaveAcesso=key, PrimeiraChaveAcesso=key,
-            ImportouXml=True, MovimentacaoItemFinanceiro=False, Versao='00:00:00',
+            ImportouXml=True, Versao='00:00:00',
             OrigemMobile=False, OrigemPedirMenu=False, Convertida=False, SequenciaEvento=0,
-            NomeUsuario='DigiSat Insight XML', Observacao=get(info,'infAdic/infCpl'),
+            Observacao=get(info,'infAdic/infCpl'),
             ObservacaoDocumentoImportado='Importação histórica pelo DigiSat Insight',
             MovimentacoesReferenciadas=[], DocumentosFiscaisReferenciados=[], Autorizacoes=[],
             UtilizouCashback=False, ValorCashbackUtilizado=0.0, ItensBase=[], ItensPagamentos=[])
+        if native_type == 'NotaFiscalConsumidorEletronica':
+            doc.update(NomeUsuario='DigiSat Insight XML', MovimentacaoItemFinanceiro=False)
         for field, path in [('ModalidadeFrete','transp/modFrete'), ('IndicadorPresencaComprador','ide/indPres')]:
             code = get(info, path)
             choices = [d for d,x in options if field in d and get(x,path) == code]

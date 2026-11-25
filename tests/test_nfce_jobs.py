@@ -32,6 +32,43 @@ def padded_xml(number=124,size=0):
 
 
 class JobTests(unittest.TestCase):
+    def test_automatic_preview_skips_a_movement_with_the_same_access_key(self):
+        raw = xml()
+        key = build_sale(raw, profile())['summary']['access_key']
+        job_id = jobs.create('owner', 'automatic')['id']
+        self.add(job_id, raw)
+        client = MagicMock()
+        movements = client.__getitem__.return_value.Movimentacoes
+        movements.find_one.side_effect = lambda query, *args, **kwargs: (
+            {'ChaveAcesso': key} if {'ChaveAcesso': key} in query.get('$or', []) else None)
+        with patch.object(editor, 'editor_client') as connect, patch.object(jobs, 'Discovery') as discovery:
+            connect.return_value.__enter__.return_value = client
+            discovery.return_value.company.return_value = (ObjectId(), {})
+            review = jobs.launch(job_id, 'owner', 'validate', background=False)
+            discovery.return_value.build.assert_not_called()
+        self.assertEqual(review['counts'], {'duplicate': 1})
+
+    def test_products_only_export_skips_fiscal_mapping(self):
+        config = profile()
+        product_id = ObjectId()
+        config['products']['A']['snapshot']['ProdutoServicoReferencia'] = product_id
+        config['item']['IPI'] = {'$bind': 'missing.fiscal.mapping'}
+        config['product_catalog'] = {
+            'product': {'_id': product_id, '_t': 'Produto', 'Ativo': True, 'CodigoInterno': 'A'},
+            'company_product': {'_t': 'ProdutoEmpresa', 'Ativo': True},
+        }
+        job_id = jobs.create('owner', 'manual', json_util.dumps(config),
+                             import_movements=False, import_products=True)['id']
+        self.add(job_id, xml())
+        review = jobs.launch(job_id, 'owner', 'validate', background=False)
+        self.assertEqual(review['ready'], 1, review)
+        with zipfile.ZipFile(jobs.export_zip(job_id, 'owner')) as archive:
+            self.assertEqual(set(archive.namelist()), {
+                'ProdutosServicos.json', 'ProdutosServicosEmpresa.json', 'LEIA-ME.txt',
+            })
+            link = json_util.loads(archive.read('ProdutosServicosEmpresa.json'))[0]
+            self.assertEqual(link['ProdutoServicoReferencia'], product_id)
+
     def test_unselected_movements_allow_review_but_reject_apply(self):
         created = jobs.create('owner', 'manual', json_util.dumps(profile()), import_movements=False)
         self.add(created['id'], xml())
@@ -60,7 +97,29 @@ class JobTests(unittest.TestCase):
         check = 11 - sum(int(n) * (2 + i % 8) for i, n in enumerate(reversed(head))) % 11
         key = head + str(0 if check >= 10 else check)
         raw = raw.replace(old_key.encode(), key.encode()).replace(b'<mod>65', b'<mod>55')
+        incoming = raw.replace(b'<tpNF>1</tpNF>', b'<tpNF>0</tpNF>')
+        collection = MagicMock()
+        collection.find_one.return_value = None
+        cursor = collection.find.return_value.max_time_ms.return_value.batch_size.return_value
+        cursor.__enter__.return_value = [{'Xml': incoming.decode()}]
+        self.assertEqual(jobs.archived_xml(collection, key, source='incoming'), incoming)
+        with self.assertRaisesRegex(ValueError, 'perfil JSON revisado'):
+            jobs.archived_xml(collection, key, allow_manual_entry=False)
+        with self.assertRaisesRegex(ValueError, 'pasta selecionada'):
+            jobs.archived_xml(collection, key, source='outgoing')
         raw = raw.replace(b'</emit>', b'</emit><dest><CNPJ>98765432000110</CNPJ></dest>')
+        signed = ET.tostring(ET.fromstring(raw).find('n:NFe', NS))
+        misrouted_job = self.create()
+        signed_path = Path(self.temp.name) / 'signed.xml'
+        signed_path.write_bytes(signed)
+        signed_slot = jobs.upload_slot(misrouted_job, 'owner', {
+            'name': signed_path.name, 'size': len(signed), 'source': 'purchase',
+        })
+        jobs.upload_local(misrouted_job, 'owner', signed_path, upload_id=signed_slot['upload_id'])
+        self.add(misrouted_job, raw)
+        review = jobs.launch(misrouted_job, 'owner', 'validate', background=False)
+        self.assertEqual(review['state'], 'blocked')
+        self.assertIn('nfeProc autorizado na pasta de notas de compra', review['rows'][0]['message'])
         mapping = profile()
         mapping['movement']['_t'] = 'NotaFiscalCompra'
         mapping['company']['Documento'] = '98765432000110'
@@ -77,7 +136,7 @@ class JobTests(unittest.TestCase):
             'purchase': {field: mapping[field] for field in
                          ('movement', 'company', 'purchase_suppliers', 'xml_movement_type')},
         }
-        job_id = jobs.create('owner', 'manual', json_util.dumps(batch_profile))['id']
+        job_id = jobs.create('owner', 'manual', json_util.dumps(batch_profile), import_people=True)['id']
         path = Path(self.temp.name) / 'supplier.xml'
         path.write_bytes(raw)
         slot = jobs.upload_slot(job_id, 'owner', {'name': path.name, 'size': len(raw), 'source': 'purchase'})
@@ -95,7 +154,7 @@ class JobTests(unittest.TestCase):
         candidate = costs[0]
         self.assertEqual(candidate['unit_cost'], '3.335')
         self.assertEqual(candidate['access_key'], key)
-        earlier = dict(candidate, issued_at='2026-11-12T10:30:00-03:00', unit_cost='9.00')
+        earlier = dict(candidate, issued_at='2026-11-12T10:30:00-05:00', unit_cost='9.00')
         conflicting = dict(candidate, unit_cost='4.00', line=2)
         selected = jobs.latest_purchase_costs([
             {'purchase_cost_candidates': [candidate, earlier, conflicting]},
@@ -108,6 +167,17 @@ class JobTests(unittest.TestCase):
         self.assertEqual(jobs.purchase_cost_preview(job_id, 'owner'), [])
         jobs.update_file(file_id, status='imported')
         self.assertEqual(jobs.purchase_cost_preview(job_id, 'owner'), costs)
+
+        batch_profile['source_profiles']['purchase']['purchase_suppliers'][supplier_cnpj]['products'] = {}
+        people_job = jobs.create('owner', 'manual', json_util.dumps(batch_profile),
+                                 import_people=True, import_movements=False, import_products=False)['id']
+        slot = jobs.upload_slot(people_job, 'owner', {'name': path.name, 'size': len(raw), 'source': 'purchase'})
+        jobs.upload_local(people_job, 'owner', path, upload_id=slot['upload_id'])
+        review = jobs.launch(people_job, 'owner', 'validate', background=False)
+        self.assertEqual(review['ready'], 1, review)
+        with zipfile.ZipFile(jobs.export_zip(people_job, 'owner')) as archive:
+            self.assertEqual(set(archive.namelist()), {'Pessoas.json', 'LEIA-ME.txt'})
+            self.assertEqual(json_util.loads(archive.read('Pessoas.json'))[0]['Cnpj'], supplier_cnpj)
 
     def test_purchase_registers_product_and_payable_title(self):
         raw = xml()
@@ -135,7 +205,7 @@ class JobTests(unittest.TestCase):
             'purchase_suppliers': {base['issuer_cnpj']: {'customer': base['customer'], 'products': {}}},
             'xml_movement_type': 123,
         }}
-        job_id = jobs.create('owner', 'manual', json_util.dumps(base))['id']
+        job_id = jobs.create('owner', 'manual', json_util.dumps(base), import_finance=True)['id']
         path = Path(self.temp.name) / 'supplier.xml'
         path.write_bytes(raw)
         slot = jobs.upload_slot(job_id, 'owner', {'name': path.name, 'size': len(raw), 'source': 'purchase'})
@@ -158,6 +228,16 @@ class JobTests(unittest.TestCase):
                 'ProdutosServicosEmpresa.json', 'XmlMovimentacoes.json', 'Movimentacoes.json',
                 'Pagamentos.json', 'LEIA-ME.txt'})
             self.assertIn(b'Pagamentos', archive.read('LEIA-ME.txt'))
+
+        default_job = jobs.create('owner', 'manual', json_util.dumps(base))['id']
+        slot = jobs.upload_slot(default_job, 'owner', {'name': path.name, 'size': len(raw), 'source': 'purchase'})
+        jobs.upload_local(default_job, 'owner', path, upload_id=slot['upload_id'])
+        review = jobs.launch(default_job, 'owner', 'validate', background=False)
+        self.assertEqual(review['ready'], 1, review)
+        sale = jobs.document(default_job, 'owner', review['rows'][0]['id'])
+        self.assertTrue(sale['installments'])
+        self.assertNotIn('finance', sale)
+        self.assertNotIn('Pagamentos', jobs.authorized_collections(default_job))
 
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory()

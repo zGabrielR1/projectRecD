@@ -211,6 +211,32 @@ class ParityTests(unittest.TestCase):
         self.assertEqual(item['ProdutoServicoEmpresaReferencia'], link['_id'])
         self.assertEqual(item['ProdutoServico']['ProdutoServicoReferencia'], product['_id'])
 
+    def test_generated_product_uses_xml_barcode_when_selected(self):
+        barcode = '0789123456789'
+        raw = fixture().replace(b'<cProd>A</cProd>', f'<cProd>A</cProd><cEAN>{barcode}</cEAN>'.encode())
+        config = product_template_profile()
+        sale = mapping.build_sale(raw, config, use_barcode=True)
+        product = sale['product_registrations'][0]['documents']['ProdutosServicos']
+        self.assertEqual(product['CodigoBarras'], barcode)
+        config['product_template']['product']['CodigoBarras'] = '7891234567890'
+        with self.assertRaisesRegex(ValueError, 'cadastro diverge do XML'):
+            mapping.build_sale(raw, config, use_barcode=True)
+
+    def test_repeated_product_lines_share_one_generated_registration(self):
+        raw = fixture()
+        start = raw.index(b'<det nItem=')
+        end = raw.index(b'</det>', start) + len(b'</det>')
+        second = raw[start:end].replace(b'nItem="1"', b'nItem="2"')
+        raw = (raw[:end] + second + raw[end:]
+               .replace(b'<vProd>10.01', b'<vProd>20.02')
+               .replace(b'<vNF>10.00', b'<vNF>20.00')
+               .replace(b'<vPag>10.00', b'<vPag>20.00'))
+        sale = mapping.build_sale(raw, product_template_profile())
+        self.assertEqual(len(sale['product_registrations']), 1)
+        items = sale['movement']['ItensBase']
+        self.assertEqual(len(items), 2)
+        self.assertEqual(items[0]['ProdutoServicoEmpresaReferencia'], items[1]['ProdutoServicoEmpresaReferencia'])
+
     def test_finance_template_embeds_parcelas_and_uses_pending_state(self):
         sale = mapping.build_sale(billed_fixture(), finance_profile())
         finance = sale['finance']
@@ -308,7 +334,10 @@ class ApiTests(unittest.TestCase):
 
     def test_apply_checks_duplicate_and_consumes_plan(self):
         plan=self.make_plan()
-        coll=MagicMock();coll.find_one.return_value={'_id':ObjectId()}
+        key = parser.parse_xml(fixture(), issuer='12345678000195')['access_key']
+        coll = MagicMock()
+        coll.find_one.side_effect = lambda query, *args, **kwargs: (
+            {'_id': ObjectId(), 'ChaveAcesso': key} if {'ChaveAcesso': key} in query.get('$or', []) else None)
         with patch.object(api.editor,'session',return_value={'grants':[]}), patch.object(api.editor,'permitted',return_value=True), patch.object(api.editor,'editor_client'), patch.object(api.editor,'selected_collection',return_value=coll), patch.object(api.editor,'apply_change') as write:
             result=api.apply_plan(plan['id'],'IMPORTAR SyntheticOnly','token','owner')
             self.assertEqual(result['results'][0]['status'],'duplicate');write.assert_not_called()

@@ -8,7 +8,13 @@ Evidências REA `ev_961884b99f77fd0b7110e093238bdcb1cc2a2d3197b81eb8766f14d4a6d4
 
 ## Perfis de pasta no Insight
 
-O perfil JSON pode definir `source_profiles` com configurações por pasta para `purchase`, `incoming`, `outgoing` e `nfce`. Cada configuração substitui somente os campos declarados. Banco, empresa de destino e ambiente são compartilhados pelo lote. Em `purchase`, `purchase_suppliers` aceita o CNPJ do fornecedor como chave, com `customer` e `products` próprios para aquele emissor.
+O perfil JSON pode definir `source_profiles` com configurações por pasta para `purchase`, `incoming`, `outgoing`, `nfce` e `cfe`. Cada configuração substitui somente os campos declarados. Banco, empresa de destino e ambiente são compartilhados pelo lote. Em `purchase`, `purchase_suppliers` aceita o CNPJ do fornecedor como chave, com `customer` e `products` próprios para aquele emissor. Use `source_profiles.cfe.cfe` para declarar o mapeamento SAT apenas na pasta CF-e.
+
+## Itens de entrada
+
+O ConversorGNew projeta produtos e serviços de entrada em modelos distintos (`ItemDocumentoEntradaProduto` e `ItemDocumentoEntradaServico`). Para produtos, a projeção também chama rotinas específicas de IPI e percentuais. O modelo de saída não comprova a estrutura de entrada. Um perfil de entrada precisa declarar esses objetos conforme a base de destino antes de usar o recurso.
+
+Evidência REA `ev_0dfa4e86d01410b762ad77d77d80391244389b4c14cf7f5b4c0c35b46e4bfe3b`.
 
 ## Movimentações financeiras
 

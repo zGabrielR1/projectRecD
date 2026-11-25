@@ -27,6 +27,8 @@
       <label><input id="useBarcode" type="checkbox" style="width:auto;min-height:0"> Utilizar o código de barras como identificador</label>
       <label><input id="importMovements" type="checkbox" style="width:auto;min-height:0" checked> Movimentações de Entrada e Saída</label>
       <label><input id="importPeople" type="checkbox" style="width:auto;min-height:0" disabled> Pessoas (perfil JSON)</label>
+      <label><input id="importProducts" type="checkbox" style="width:auto;min-height:0" disabled> Produtos (perfil JSON)</label>
+      <label><input id="importFinance" type="checkbox" style="width:auto;min-height:0" disabled> Movimentações Financeiras (perfil JSON)</label>
       <div id="manualProfile" hidden><label for="profile">Perfil de importação (.json)</label><input id="profile" type="file" accept=".json,application/json">
       <a href="/static/nfce-profile.example.json" download>Baixar estrutura do perfil</a></div>
     </section>
@@ -37,6 +39,15 @@
       <label for="keyFile">Arquivo de chaves (.txt, .csv ou .tsv)</label>
       <input id="keyFile" type="file" accept=".txt,.csv,.tsv" aria-describedby="keyFileHint">
       <small id="keyFileHint">Use uma coluna de chaves. O arquivo pode ser combinado com as chaves coladas acima.</small>
+      <label for="keySource">Tipo das chaves informadas</label>
+      <select id="keySource">
+        <option value="">Identificar pelo XML</option>
+        <option value="purchase">Nota de compra (perfil JSON)</option>
+        <option value="incoming">NF-e de entrada (perfil JSON)</option>
+        <option value="outgoing">NF-e de saída</option>
+        <option value="nfce">NFC-e</option>
+        <option value="cfe">CF-e/SAT (perfil JSON)</option>
+      </select>
       <label for="xmls">Arquivos NF-e / NFC-e / DBF (.xml, .dbf)</label><input id="xmls" type="file" accept=".xml,.dbf,text/xml,application/xml,application/x-dbf" multiple>
       <label for="folders">Ou selecionar uma pasta de XMLs</label><input id="folders" type="file" webkitdirectory multiple>
       <details>
@@ -79,6 +90,12 @@
     </details>
     <button id="insertPerson" class="secondary" type="button" hidden>Cadastrar pessoa revisada</button>
     <button id="insertPeople" class="secondary" type="button" hidden>Revisar e cadastrar pessoas do lote</button>
+    <details id="catalogReview" hidden>
+      <summary>Produtos</summary>
+      <p>Cadastre os produtos e os vínculos revisados antes de inserir as movimentações que os utilizam.</p>
+      <pre id="catalogProducts"></pre>
+      <button id="insertProducts" class="secondary" type="button" disabled>Cadastrar produtos revisados</button>
+    </details>
     <p id="notice" class="nfce-note"></p>
     <div class="nfce-commit"><h2>4. Inserir no banco</h2><p>A aplicação confere chaves existentes e registra cada escrita no diário do editor. Cadastros de produto e títulos financeiros preparados pelo perfil entram na mesma operação, em ordem de dependência. A inserção entre coleções não é uma transação no MongoDB 3.4.</p>
       <label for="confirmation">Confirmação do banco de destino</label><input id="confirmation" autocomplete="off" placeholder="IMPORTAR NomeDoBanco">

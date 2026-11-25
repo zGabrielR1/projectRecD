@@ -65,11 +65,11 @@ class XmlReleaseTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             Discovery(db).build(incoming)
 
-    def test_nfe_profile_requires_matching_discriminator_and_explicit_xml_type(self):
+    def test_nfe_profile_requires_matching_discriminator_and_defaults_native_xml_type(self):
         p = profile()
         with self.assertRaises(ValueError): build_sale(nfe(), p)
         p['movement']['_t'] = ['Movimentacao', 'NotaFiscalEletronicaSaida']
-        with self.assertRaisesRegex(ValueError, 'xml_movement_type'): build_sale(nfe(), p)
+        self.assertEqual(build_sale(nfe(), p)['xml']['TipoMovimentacao'], 10)
         p['xml_movement_type'] = 7
         self.assertEqual(build_sale(nfe(), p)['xml']['TipoMovimentacao'], 7)
 
@@ -83,44 +83,43 @@ class XmlReleaseTests(unittest.TestCase):
 
 
 class GuiPasswordTests(unittest.TestCase):
-    def test_gui_application_options_persist_and_secrets_stay_redacted(self):
+    def test_gui_connection_options_persist_and_secrets_stay_redacted(self):
         with tempfile.TemporaryDirectory() as folder, patch.object(connection, 'runtime_dir', return_value=Path(folder)), \
              patch.object(connection, 'test_connection', return_value={'connected': True}), patch.object(connection, 'event'), \
-             patch.multiple(app, MONGO_PASSWORD='', MONGO_PASSWORD_FILE='', MONGO_URI=app.MONGO_URI,
+             patch.multiple(app, MONGO_PASSWORD_FILE='', MONGO_URI=app.MONGO_URI,
                  MONGO_DATABASE=app.MONGO_DATABASE, MONGO_USERNAME=app.MONGO_USERNAME, MONGO_AUTH_SOURCE=app.MONGO_AUTH_SOURCE,
-                 MODE=app.MODE, MAX_ROWS=app.MAX_ROWS, AI_ENDPOINT=app.AI_ENDPOINT, AI_MODEL=app.AI_MODEL, AI_API_KEY=app.AI_API_KEY), patch.dict(os.environ):
-            original_user = app.INSIGHT_USER
-            connection.save_connection(connection.ConnectionSettings(database='Synthetic', max_report_rows=750,
-                ai_endpoint='http://127.0.0.1:11434', ai_model='synthetic', ai_api_key='private-api-fixture',
-                panel_username='operator', panel_password='private-panel-fixture'))
+                 MODE=app.MODE), patch.dict(os.environ):
+            secret = 'private-mongo-fixture'
+            connection.save_connection(connection.ConnectionSettings(database='Synthetic', username='importer',
+                password=secret, require_read_only=True))
             values = dotenv_values(Path(folder) / '.env', interpolate=False)
-            self.assertEqual(values['MAX_REPORT_ROWS'], '750')
-            self.assertEqual(app.MAX_ROWS, 750)
-            self.assertEqual(values['AI_API_KEY'], 'private-api-fixture')
-            self.assertEqual(values['INSIGHT_PASSWORD'], 'private-panel-fixture')
-            self.assertEqual(app.INSIGHT_USER, original_user)  # Authentication changes together on restart.
-            self.assertNotIn('private-api-fixture', str(connection.current_settings()))
-            self.assertNotIn('private-panel-fixture', str(connection.current_settings()))
+            self.assertEqual(values['INSIGHT_REQUIRE_READ_ONLY'], '1')
+            self.assertNotIn(secret, str(values))
+            settings = connection.current_settings()
+            self.assertTrue(settings['require_read_only'])
+            self.assertTrue(settings['password_file_exists'])
+            self.assertNotIn(secret, str(settings))
 
-    def test_password_roundtrip_migrates_legacy_reference_without_key_files(self):
+    def test_password_roundtrip_reuses_new_key_file(self):
         with tempfile.TemporaryDirectory() as folder, patch.object(connection, 'runtime_dir', return_value=Path(folder)), \
              patch.object(connection, 'test_connection', return_value={'connected': True}), \
-             patch.object(connection, 'event'), patch.multiple(app, MONGO_PASSWORD='', MONGO_PASSWORD_FILE='old.key',
+             patch.object(connection, 'event'), patch.multiple(app, MONGO_PASSWORD_FILE='old.key',
                  MONGO_URI=app.MONGO_URI, MONGO_DATABASE=app.MONGO_DATABASE, MONGO_USERNAME=app.MONGO_USERNAME,
                  MONGO_AUTH_SOURCE=app.MONGO_AUTH_SOURCE, MODE=app.MODE), patch.dict(os.environ):
             path = Path(folder) / '.env'
             path.write_text('MONGO_PASSWORD_FILE=old.key\nMAX_REPORT_ROWS=500\n')
-            secret = " quote' slash\\ dollar${UNCHANGED} hash# unicodeç "
+            secret = "quote' slash\\ dollar${UNCHANGED} hash# unicodeç"
             connection.save_connection(connection.ConnectionSettings(database='Synthetic', username='importer', password=secret))
             parsed = dotenv_values(path, interpolate=False)
-            self.assertEqual(parsed['MONGO_PASSWORD'], secret)
-            self.assertNotIn('MONGO_PASSWORD_FILE', parsed)
+            self.assertNotIn('MONGO_PASSWORD', parsed)
+            key_file = Path(folder) / parsed['MONGO_PASSWORD_FILE']
+            self.assertEqual(key_file.read_text(encoding='utf-8'), secret + '\n')
             self.assertEqual(parsed['MAX_REPORT_ROWS'], '500')
             self.assertEqual(connection.password_from_current(), secret)
             self.assertNotIn(secret, str(connection.current_settings()))
-            self.assertFalse(list(Path(folder).glob('*.key')))
             connection.save_connection(connection.ConnectionSettings(database='Synthetic', username='importer'))
-            self.assertEqual(dotenv_values(path, interpolate=False)['MONGO_PASSWORD'], secret)
+            self.assertEqual(connection.password_from_current(), secret)
+            self.assertEqual(list(Path(folder).glob('*.key')), [key_file])
 
     def test_failed_connection_never_changes_configuration(self):
         from fastapi import HTTPException

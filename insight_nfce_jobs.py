@@ -6,7 +6,6 @@ document at a time; SQLite indexes handle deduplication and paged progress.
 from contextlib import contextmanager, nullcontext, ExitStack
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from datetime import datetime, timezone
 from decimal import Decimal
 import hashlib
 import json
@@ -27,7 +26,7 @@ import insight_store as store
 import insight_editor as editor
 from insight_nfce import ARCHIVED_CANCELLATION, NOTICE, MONGO_DOCUMENT_BYTES, key_valid, parse_xml
 from insight_nfce_mapping import (load_profile, build_sale, build_cfe, sale_collections,
-                                  sale_documents, validate_native_documents)
+                                  sale_documents, profile_for_source, validate_native_documents, native_issue_time)
 from insight_nfce_discovery import nfe_route, parse_cfe, Discovery, read_xml, tree_signature, NS
 
 _pool=ThreadPoolExecutor(max_workers=2,thread_name_prefix='nfce')
@@ -114,6 +113,10 @@ def connect(*,durable=False):
             connection.execute('ALTER TABLE jobs ADD COLUMN import_movements INTEGER NOT NULL DEFAULT 1')
         if 'import_people' not in {row[1] for row in connection.execute('PRAGMA table_info(jobs)')}:
             connection.execute('ALTER TABLE jobs ADD COLUMN import_people INTEGER NOT NULL DEFAULT 0')
+        if 'import_products' not in {row[1] for row in connection.execute('PRAGMA table_info(jobs)')}:
+            connection.execute('ALTER TABLE jobs ADD COLUMN import_products INTEGER')
+        if 'import_finance' not in {row[1] for row in connection.execute('PRAGMA table_info(jobs)')}:
+            connection.execute('ALTER TABLE jobs ADD COLUMN import_finance INTEGER')
         _initialized.add(str(path))
     # Re-creatable staging/progress uses WAL NORMAL; the before-write uncertainty
     # marker uses FULL. The independent editor write journal remains durable too.
@@ -158,30 +161,44 @@ def owned(job_id,owner):
     return dict(row)
 
 
-def create(owner,mode='automatic',profile=None,use_barcode=False,import_movements=True,import_people=False):
+def create(owner,mode='automatic',profile=None,use_barcode=False,import_movements=True,import_people=False,
+           import_products=None, import_finance=False):
     import app
     if type(import_movements) is not bool:
         raise HTTPException(422, 'Seleção de movimentações inválida.')
     if type(import_people) is not bool or (import_people and mode != 'manual'):
         raise HTTPException(422, 'A seleção Pessoas exige um perfil JSON revisado.')
-    if type(use_barcode) is not bool or (use_barcode and mode != 'automatic'):
-        raise HTTPException(422, 'O código de barras exige identificação automática.')
+    if import_products is not None and (type(import_products) is not bool or (import_products and mode != 'manual')):
+        raise HTTPException(422, 'A seleção Produtos exige um perfil JSON revisado.')
+    if type(import_finance) is not bool or (import_finance and (mode != 'manual' or not import_movements)):
+        raise HTTPException(422, 'Movimentações Financeiras exigem movimentações de entrada e saída e perfil JSON.')
+    if type(use_barcode) is not bool:
+        raise HTTPException(422, 'Seleção de código de barras inválida.')
     if mode not in {'automatic','manual'}:raise HTTPException(422,'Modo inválido.')
-    try:database=load_profile(profile)['database'] if mode=='manual' else app.MONGO_DATABASE
+    try:
+        config = load_profile(profile) if mode == 'manual' else None
+        database = config['database'] if config else app.MONGO_DATABASE
+        configurations = [config] + [profile_for_source(config, source) for source in DFE_SOURCES] if config else []
     except (ValueError,TypeError,AttributeError) as exc:raise HTTPException(422,str(exc)) from None
-    if import_people and not isinstance(load_profile(profile).get('person_template'), dict):
+    if import_people and not any(isinstance(value.get('person_template'), dict) for value in configurations):
         raise HTTPException(422, 'O perfil precisa definir person_template para importar Pessoas.')
+    if import_products:
+        if not any(isinstance(value.get('product_catalog'), dict) or (
+                import_movements and isinstance(value.get('product_template'), dict)) for value in configurations):
+            raise HTTPException(422, 'Use product_catalog ou selecione movimentações com um product_template no perfil.')
+    if import_finance and not any(isinstance(value.get('finance'), dict) for value in configurations):
+        raise HTTPException(422, 'O perfil precisa definir finance para importar Movimentações Financeiras.')
     editor.database_name(database)
     if database in editor.SYSTEM_DATABASES:raise HTTPException(403,'Banco de sistema não permitido.')
     job_id=secrets.token_urlsafe(24);now=time.time()
     with _lock,connect() as db:
-        db.execute('INSERT INTO jobs(id,owner,connection_key,database_name,mode,profile,state,created,updated,use_barcode,import_movements,import_people) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)',
-            (job_id,owner,identity(),database,mode,profile,'uploading',now,now,use_barcode,import_movements,import_people))
+        db.execute('INSERT INTO jobs(id,owner,connection_key,database_name,mode,profile,state,created,updated,use_barcode,import_movements,import_people,import_products,import_finance) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)',
+            (job_id,owner,identity(),database,mode,profile,'uploading',now,now,use_barcode,import_movements,import_people,import_products,import_finance))
     folder(job_id)
     return snapshot(job_id,owner)
 
 
-def reserve(job_id,owner,upload_id,name):
+def reserve(job_id,owner,upload_id,name,*,source=None):
     owned(job_id,owner)
     with _lock,connect() as db:
         db.execute('BEGIN IMMEDIATE')
@@ -196,8 +213,8 @@ def reserve(job_id,owner,upload_id,name):
             db.execute("UPDATE files SET path=?,status='receiving',message=NULL,raw=NULL WHERE id=?",(leaf,existing['id']))
             file_id=existing['id']
         else:
-            file_id=db.execute('INSERT INTO files(job_id,upload_id,name,path,status) VALUES(?,?,?,?,?)',
-                (job_id,upload_id,name,leaf,'receiving')).lastrowid
+            file_id=db.execute('INSERT INTO files(job_id,upload_id,name,path,status,source) VALUES(?,?,?,?,?,?)',
+                (job_id,upload_id,name,leaf,'receiving',source)).lastrowid
         _uploads.add(file_id)
     return {'id':file_id,'path':leaf,'status':'receiving'},folder(job_id)/leaf
 
@@ -268,11 +285,15 @@ def upload_error(file_id):
     with _lock:_uploads.discard(file_id)
 
 
-def import_keys(job_id, owner, keys):
+def import_keys(job_id, owner, keys, source=None):
     """Stage authorized XML already archived in the job's target database."""
     from pymongo.errors import PyMongoError
 
     job = owned(job_id, owner)
+    if source is not None and (not isinstance(source, str) or source not in DFE_SOURCES):
+        raise HTTPException(422, 'Tipo de documento inválido para a lista de chaves.')
+    if source in ('purchase', 'incoming', 'cfe') and job['mode'] != 'manual':
+        raise HTTPException(422, 'O tipo selecionado exige um perfil JSON revisado.')
     if job['state'] != 'uploading':
         raise HTTPException(409, 'Os envios desta importação já foram encerrados.')
     if not isinstance(keys, list) or not 1 <= len(keys) <= 50:
@@ -280,6 +301,9 @@ def import_keys(job_id, owner, keys):
     if any(not isinstance(key, str) or len(key) > 64 for key in keys):
         raise HTTPException(422, 'Informe as chaves como texto.')
     keys = dict.fromkeys(re.sub(r'[\s.-]+', '', key) for key in keys)
+    allow_cfe = job['mode'] == 'manual' and 'cfe' in profile_for_source(load_profile(job['profile']), 'cfe')
+    models = {'55', '65', '59'} if allow_cfe else {'55', '65'}
+    selected_model = {'purchase': '55', 'incoming': '55', 'outgoing': '55', 'nfce': '65', 'cfe': '59'}.get(source)
     results = []
     try:
         with editor.editor_client() as client:
@@ -287,17 +311,26 @@ def import_keys(job_id, owner, keys):
             for key in keys:
                 result = {'key': key, 'status': 'unavailable'}
                 results.append(result)
-                if not re.fullmatch(r'[0-9]{44}', key) or not key_valid(key) or key[20:22] not in {'55', '65'}:
+                if not re.fullmatch(r'[0-9]{44}', key) or not key_valid(key):
                     result['message'] = 'Chave inválida. Confira os 44 dígitos, o modelo e o dígito verificador.'
                     continue
+                if key[20:22] not in models:
+                    result['message'] = ('CF-e por chave exige um perfil JSON com mapeamento cfe.'
+                                         if key[20:22] == '59' else 'Modelo de documento não suportado.')
+                    continue
+                if selected_model and key[20:22] != selected_model:
+                    result['message'] = 'A chave não corresponde ao tipo de documento selecionado.'
+                    continue
                 try:
-                    raw = archived_xml(collection, key)
+                    raw = archived_xml(collection, key, source=source,
+                                       allow_manual_entry=job['mode'] == 'manual')
                 except ValueError as exc:
                     result['message'] = str(exc)
                     continue
-                upload_id = 'key-' + key
+                upload_id = 'key-' + key + ('-' + source if source else '')
                 digest = hashlib.sha256(raw).hexdigest()
-                row, target = reserve(job_id, owner, upload_id, key + '-procNFe.xml')
+                suffix = '-CFe.xml' if key[20:22] == '59' else '-procNFe.xml'
+                row, target = reserve(job_id, owner, upload_id, key + suffix, source=source)
                 if target is None:
                     if row['sha'] != digest:
                         result['message'] = 'O XML guardado mudou. Crie outra importação para revisar a nova versão.'
@@ -316,10 +349,11 @@ def import_keys(job_id, owner, keys):
     return {'results': results}
 
 
-def archived_xml(collection, key):
+def archived_xml(collection, key, *, source=None, allow_manual_entry=True):
     if collection.find_one({'ChaveAcesso': key, **ARCHIVED_CANCELLATION}, {'_id': 1}, max_time_ms=5000):
         raise ValueError('Há evento de cancelamento para esta chave na base.')
     raw = None
+    selected = None
     query = {'ChaveAcesso': key, 'EventoCancelamento': {'$ne': True}}
     with collection.find(query, {'Xml': 1, '_id': 0}).max_time_ms(5000).batch_size(1) as candidates:
         for candidate in candidates:
@@ -328,7 +362,8 @@ def archived_xml(collection, key):
                 continue
             content = xml.encode('utf-8')
             try:
-                parsed = parse_xml(content, issuer=key[6:20])
+                parsed = (parse_cfe(read_xml(content)) if key[20:22] == '59'
+                          else parse_xml(content, issuer=key[6:20]))
             except ValueError:
                 continue
             if parsed['access_key'] != key:
@@ -336,8 +371,15 @@ def archived_xml(collection, key):
             if raw is not None and raw != content:
                 raise ValueError('Há versões diferentes do XML autorizado para esta chave.')
             raw = content
+            selected = parsed
     if raw is None:
+        if key[20:22] == '59':
+            raise ValueError('XML de venda CF-e não encontrado na base. Selecione o arquivo original.')
         raise ValueError('XML autorizado de produção não encontrado na base. Envie o nfeProc se conseguir recuperá-lo.')
+    if key[20:22] != '59':
+        native_type, _, _ = nfe_route(selected, source)
+        if not allow_manual_entry and native_type == 'NotaFiscalEletronicaEntrada':
+            raise ValueError('A NF-e de entrada exige um perfil JSON revisado.')
     return raw
 
 
@@ -437,7 +479,7 @@ def index_file(job_id,row,*,allow_manual_entry=False,allow_cfe=False):
     if kind=='authorized':
         parsed=parse_xml(raw,issuer=info.findtext('n:emit/n:CNPJ',namespaces=NS) or '',environment=environment)
         native_type, _, _ = nfe_route(parsed, source)
-        summary={key:parsed[key] for key in ('access_key','number','series','total','issued_at_original','xml_sha256')}
+        summary={key:parsed[key] for key in ('access_key','number','series','total','issued_at_original','xml_sha256','model','direction')}
         summary['installment_count'] = len(parsed['installments'])
         if native_type in {'NotaFiscalCompra', 'NotaFiscalEletronicaEntrada'} and not allow_manual_entry:
             update_file(row['id'], kind=kind, summary=json.dumps(summary), status='invalid',
@@ -450,11 +492,24 @@ def index_file(job_id,row,*,allow_manual_entry=False,allow_cfe=False):
 
 
 def resolve_pair(row):
+    identity = (row['job_id'], row['key'])
     with connect() as db:
-        first=db.execute("SELECT id,signature,full_signature FROM files WHERE job_id=? AND key=? AND kind='authorized' ORDER BY id LIMIT 1",
-                         (row['job_id'],row['key'])).fetchone()
+        sources = db.execute(
+            "SELECT DISTINCT source FROM files WHERE job_id=? AND key=? AND kind IN ('authorized', 'signed') "
+            "AND source IS NOT NULL LIMIT 2", identity).fetchall()
+        first = db.execute(
+            "SELECT id,source,signature,full_signature FROM files WHERE job_id=? AND key=? AND kind='authorized' "
+            "ORDER BY source IS NULL, id LIMIT 1", identity).fetchone()
+    if len(sources) > 1:
+        update_file(row['id'], status='invalid',
+                    message='A mesma chave está em pastas com tipos diferentes. Revise a origem do XML.')
+        return False
     if row['kind']=='signed':
         same=first is not None and first['signature']==row['signature']
+        if same and row.get('source') == 'purchase' and first['source'] is None:
+            update_file(row['id'], status='invalid',
+                        message='Selecione o nfeProc autorizado na pasta de notas de compra.')
+            return False
         update_file(row['id'],status='duplicate' if same else 'invalid',message=
             'NFe sem protocolo representada pelo nfeProc autorizado.' if same else 'NFe sem protocolo autorizado correspondente ou conteúdo diferente.')
         return False
@@ -474,12 +529,13 @@ def incoming(job_id,row):
 
 
 def write_sale(job_id,row,sale):
-    validate_native_documents(sale['movement'],sale['xml'])
+    if 'movement' in sale:
+        validate_native_documents(sale['movement'],sale['xml'])
     with payload_connection(job_id) as db:
         db.execute('INSERT INTO payloads(id,sale) VALUES(?,?) ON CONFLICT(id) DO UPDATE SET sale=excluded.sale',
                    (row['id'],sqlite3.Binary(BSON.encode(sale))))
     update_file(row['id'],status='ready',sale_path='sqlite',message=None,
-                collections=json.dumps(sorted(sale_collections([sale]))))
+                collections=json.dumps(sorted(sale_collections([sale])) if 'movement' in sale else []))
 
 
 def validation_checkpoint(job_id):
@@ -581,13 +637,17 @@ def work(job_id,owner,phase,session_token):
 
 
 def validate_job(job_id,job,owner):
+    from insight_nfce_api import native_document_filter
+
     profile=load_profile(job['profile']) if job['mode']=='manual' else None
+    cfe_profile = profile_for_source(profile, 'cfe') if profile else None
+    catalog_only = bool(not job['import_movements'] and (job['import_people'] or job['import_products']))
     while running(job_id):
         row=next_file(job_id,'uploaded')
         if not row:break
         try:
             if job['mode'] == 'manual':
-                index_file(job_id, row, allow_manual_entry=True, allow_cfe='cfe' in profile)
+                index_file(job_id, row, allow_manual_entry=True, allow_cfe='cfe' in cfe_profile)
             else:
                 index_file(job_id, row)
         except ValueError as exc:update_file(row['id'],status='invalid',message=str(exc))
@@ -602,8 +662,16 @@ def validate_job(job_id,job,owner):
             try:
                 if profile:
                     raw = raw_bytes(job_id, row)
-                    sale = (build_cfe(raw, profile) if row['key'].startswith('1:CFe')
-                            else build_sale(raw, profile, source=row.get('source')))
+                    sale = (build_cfe(raw, cfe_profile, include_products=job['import_products'] != 0,
+                                      include_people=bool(job['import_people']), use_barcode=bool(job['use_barcode']),
+                                      catalog_only=catalog_only)
+                            if row['key'].startswith('1:CFe')
+                            else build_sale(raw, profile, source=row.get('source'),
+                                            include_finance=job['import_finance'] != 0,
+                                            require_finance=job['import_finance'] == 1,
+                                            include_products=job['import_products'] != 0,
+                                            include_people=bool(job['import_people']), use_barcode=bool(job['use_barcode']),
+                                            catalog_only=catalog_only))
                 else:
                     if client is None:
                         client=stack.enter_context(editor.editor_client())
@@ -612,8 +680,11 @@ def validate_job(job_id,job,owner):
                     item=incoming(job_id,row)
                     native_type, company_cnpj, _ = nfe_route(item['parsed'], item['source'])
                     company_id, _ = discovery.company(company_cnpj, item['parsed']['model'], native_type=native_type)
-                    query={'EmpresaReferencia':company_id,'_t':native_type,
-                           'Numero':int(item['parsed']['number']),'Serie':item['parsed']['series']}
+                    query = native_document_filter({
+                        'EmpresaReferencia': company_id, '_t': native_type,
+                        'Numero': int(item['parsed']['number']), 'Serie': item['parsed']['series'],
+                        'ChaveAcesso': item['parsed']['access_key'],
+                    })
                     previous=client[job['database_name']].Movimentacoes.find_one(query,{'ChaveAcesso':1},max_time_ms=5000)
                     if previous:
                         if previous.get('ChaveAcesso')!=item['parsed']['access_key']:raise ValueError('Número/série existem com outra chave.')
@@ -645,10 +716,72 @@ def authorize_apply(job_id,owner,token,confirmation):
         raise HTTPException(409, 'A gravação de movimentações está desmarcada neste lote.')
     if confirmation!='IMPORTAR '+job['database_name']:raise HTTPException(422,'Confirme o banco de destino.')
     access=editor.session(token,owner,job['database_name'])
-    for collection in authorized_collections(job_id):
+    collections = authorized_collections(job_id)
+    for collection in collections:
         for action in ('insert','find'):
             if not editor.permitted(access['grants'],job['database_name'],collection,action):
                 raise HTTPException(403,'Permissão ausente: '+action+' em '+collection)
+    if collections.intersection({'Pagamentos', 'Recebimentos'}):
+        check_finance_dependencies(job_id, job['database_name'], access)
+    if job['import_people']:
+        database = job['database_name']
+        if not editor.permitted(access['grants'], database, 'Pessoas', 'find'):
+            raise HTTPException(403, 'Permissão ausente: find em Pessoas')
+        with editor.editor_client() as client:
+            people = editor.selected_collection(client, database, 'Pessoas')
+            for sale in iter_sales(job_id, status='ready'):
+                for expected in sale.get('people', []):
+                    reference = sale['movement'].get('Pessoa', {}).get('PessoaReferencia')
+                    field = 'Cpf' if expected.get('Cpf') else 'Cnpj'
+                    actual = people.find_one({'_id': reference}, {field: 1, 'Ativo': 1}, max_time_ms=5000)
+                    if (actual is None or actual.get('Ativo') is not True
+                            or re.sub(r'\D', '', str(actual.get(field, ''))) != expected[field]):
+                        raise HTTPException(409, 'Confira o vínculo e cadastre a pessoa revisada antes de gravar a movimentação.')
+    if job['import_products']:
+        products, links = reviewed_products(job_id, owner, ready_only=True)
+        if products or links:
+            database = job['database_name']
+            with editor.editor_client() as client:
+                for collection, documents in (('ProdutosServicos', products),
+                                               ('ProdutosServicosEmpresa', links)):
+                    if not editor.permitted(access['grants'], database, collection, 'find'):
+                        raise HTTPException(403, 'Permissão ausente: find em ' + collection)
+                    coll = editor.selected_collection(client, database, collection)
+                    for ident, expected in documents.items():
+                        actual = coll.find_one({'_id': ident}, max_time_ms=5000)
+                        if actual is None or any(actual.get(field) != expected.get(field)
+                                                 for field in ('Ativo', 'CodigoInterno', 'CodigoBarras',
+                                                               'EmpresaReferencia', 'ProdutoServicoReferencia')):
+                            raise HTTPException(409, 'Cadastre os produtos e vínculos revisados antes de gravar as movimentações.')
+
+
+def check_finance_dependencies(job_id, database, access):
+    for collection in ('Pessoas', 'Contas'):
+        if not editor.permitted(access['grants'], database, collection, 'find'):
+            raise HTTPException(403, 'Permissão ausente: find em ' + collection)
+    with editor.editor_client() as client:
+        people = editor.selected_collection(client, database, 'Pessoas')
+        accounts = editor.selected_collection(client, database, 'Contas')
+        checked = set()
+        for sale in iter_sales(job_id, status='ready'):
+            finance = sale.get('finance')
+            if not finance:
+                continue
+            titles = editor.selected_collection(client, database, finance['collection'])
+            for title in finance['documents']:
+                for collection, entity, reference in (
+                    ('Pessoas', people, title['PessoaReferencia']),
+                    ('Contas', accounts, title['ContaReferencia']),
+                ):
+                    key = (collection, reference)
+                    if key not in checked:
+                        found = entity.find_one({'_id': reference}, {'Ativo': 1}, max_time_ms=5000)
+                        if found is None or found.get('Ativo') is False:
+                            raise HTTPException(409, 'Título financeiro com vínculo ausente ou inativo em ' + collection + '.')
+                        checked.add(key)
+                existing = titles.find_one({'_id': title['_id']}, max_time_ms=5000)
+                if existing is not None and not editor.same_document(existing, title):
+                    raise HTTPException(409, 'Já existe um título diferente com a identidade preparada.')
 
 
 def apply_job(job_id,job,owner,session_token):
@@ -697,11 +830,11 @@ def snapshot(job_id,owner,offset=0,page_size=50):
         counts={row['status']:row['n'] for row in metrics}
         total=sum(counts.values())
         size=sum(row['bytes'] for row in metrics)
-        rows=db.execute('SELECT id,name,status,message,summary,result FROM files WHERE job_id=? ORDER BY id LIMIT ? OFFSET ?',
+        rows=db.execute('SELECT id,name,status,message,summary,result,source FROM files WHERE job_id=? ORDER BY id LIMIT ? OFFSET ?',
                         (job_id,page_size,offset)).fetchall()
     values=[]
     for row in rows:
-        value={'id':row['id'],'file':row['name'],'status':row['status'],'message':row['message']}
+        value={'id':row['id'],'file':row['name'],'status':row['status'],'message':row['message'],'source':row['source']}
         if row['summary']:
             summary = json.loads(row['summary'])
             if summary.get('model') == '59':
@@ -715,6 +848,8 @@ def snapshot(job_id,owner,offset=0,page_size=50):
     return {'id':job_id,'database':job['database_name'],'mode':job['mode'],'use_barcode':bool(job['use_barcode']),
             'import_movements': bool(job['import_movements']),
             'import_people': bool(job['import_people']),
+            'import_products': bool(job['import_products']),
+            'import_finance': None if job['import_finance'] is None else bool(job['import_finance']),
             'state':'interrupted' if orphan and job['phase']=='apply' else 'paused' if orphan else job['state'],
             'phase':job['phase'],'error':job['error'],'total':total,'bytes':size,'counts':counts,
             'ready':counts.get('ready',0),'valid':not counts.get('invalid') and not counts.get('unknown') and
@@ -754,7 +889,7 @@ def latest_purchase_costs(sales):
     for sale in sales:
         for candidate in sale.get('purchase_cost_candidates', []):
             product = candidate['company_product_id']
-            moment = datetime.fromisoformat(candidate['issued_at'])
+            moment = native_issue_time(candidate['issued_at'])
             current = latest.get(product)
             if current is None or moment > current[0]:
                 latest[product] = (moment, candidate, False)
@@ -770,14 +905,32 @@ def reviewed_people(job_id, owner):
     job = owned(job_id, owner)
     if not job['import_people'] or job['state'] not in {'ready', 'complete'}:
         raise HTTPException(409, 'Selecione Pessoas e conclua a validação do lote.')
-    people = {}
+    people, references = {}, {}
     for sale in iter_sales(job_id):
         for person in sale.get('people', []):
             ident = person['_id']
+            document = person.get('Cpf') or person.get('Cnpj')
+            if references.setdefault(document, ident) != ident:
+                raise HTTPException(409, 'O mesmo CPF ou CNPJ aponta para cadastros diferentes no lote.')
             previous = people.setdefault(ident, person)
             if previous != person:
                 raise HTTPException(409, 'O lote contém cadastros diferentes para o mesmo CPF ou CNPJ.')
     return people
+
+
+def reviewed_products(job_id, owner, *, ready_only=False):
+    job = owned(job_id, owner)
+    states = {'ready', 'complete', 'paused', 'interrupted'} if ready_only else {'ready', 'complete'}
+    if not job['import_products'] or job['state'] not in states:
+        raise HTTPException(409, 'Selecione Produtos e conclua a validação do lote.')
+    products, links = {}, {}
+    for sale in iter_sales(job_id, status='ready' if ready_only else None):
+        for pair in sale.get('catalog_products', []):
+            product, link = pair['product'], pair['company_product']
+            if (products.setdefault(product['_id'], product) != product
+                    or links.setdefault(link['_id'], link) != link):
+                raise HTTPException(409, 'O lote contém cadastros incompatíveis para o mesmo produto.')
+    return products, links
 
 
 def purchase_cost_preview(job_id, owner):
@@ -796,28 +949,60 @@ def purchase_cost_preview(job_id, owner):
 
 def export_zip(job_id,owner):
     job=owned(job_id,owner);state=snapshot(job_id,owner)
-    if state['counts'].get('invalid') or job['state'] not in {'ready','complete','paused'}:
+    if state['counts'].get('invalid') or job['state'] not in {'ready', 'complete'}:
         raise HTTPException(422,'Conclua a validação antes de exportar.')
-    path=folder(job_id)/'export.zip'
+    path=folder(job_id)/'export-dfe.zip'
     if path.exists():return path
-    temporary=folder(job_id)/(secrets.token_hex(16)+'.zip.tmp')
-    with zipfile.ZipFile(temporary,'w',zipfile.ZIP_DEFLATED,compresslevel=1,allowZip64=True) as output:
-        groups = {}
-        for sale in iter_sales(job_id):
-            for collection, document in sale_documents(sale):
-                groups.setdefault(collection, {})[document['_id']] = document
-        for collection, documents in groups.items():
-            with output.open(collection+'.json','w',force_zip64=True) as entry:
-                entry.write(b'[');first=True
-                for document in documents.values():
-                    if not first:entry.write(b',\n')
-                    entry.write(json_util.dumps(document,json_options=json_util.CANONICAL_JSON_OPTIONS,ensure_ascii=False).encode('utf-8'))
-                    first=False
-                entry.write(b']')
-        output.writestr('LEIA-ME.txt',NOTICE+'\nDestino: '+job['database_name']+
-                        '\nOrdem: cadastros de produto (quando houver), XmlMovimentacoes, Movimentacoes, '
-                        'Pagamentos/Recebimentos (quando houver). Importar por inserção; nunca replace/upsert. '
-                        'Verifique chaves existentes.')
+    temporary = folder(job_id) / (secrets.token_hex(16) + '.zip.tmp')
+    spool = temporary.with_suffix('.sqlite3')
+    db = sqlite3.connect(spool)
+    try:
+        db.execute('CREATE TABLE records (collection TEXT, ident TEXT, document BLOB, UNIQUE(collection, ident))')
+
+        def add(collection, document):
+            ident = json_util.dumps(document['_id'], json_options=json_util.CANONICAL_JSON_OPTIONS)
+            data = BSON.encode(document)
+            inserted = db.execute('INSERT OR IGNORE INTO records VALUES (?, ?, ?)', (collection, ident, data))
+            if not inserted.rowcount:
+                previous = db.execute('SELECT document FROM records WHERE collection=? AND ident=?',
+                                      (collection, ident)).fetchone()[0]
+                if not editor.same_document(BSON(previous).decode(), document):
+                    raise HTTPException(409, 'O lote contém registros diferentes com a mesma identidade em ' + collection + '.')
+
+        if job['import_people']:
+            for person in reviewed_people(job_id, owner).values():
+                add('Pessoas', person)
+        if job['import_products']:
+            products, links = reviewed_products(job_id, owner)
+            for collection, records in (('ProdutosServicos', products), ('ProdutosServicosEmpresa', links)):
+                for document in records.values():
+                    add(collection, document)
+        if job['import_movements'] or not (job['import_people'] or job['import_products']):
+            for sale in iter_sales(job_id):
+                for collection, document in sale_documents(sale):
+                    add(collection, document)
+
+        with zipfile.ZipFile(temporary, 'w', zipfile.ZIP_DEFLATED, compresslevel=1, allowZip64=True) as output:
+            for (collection,) in db.execute('SELECT collection FROM records GROUP BY collection ORDER BY MIN(rowid)'):
+                with output.open(collection + '.json', 'w', force_zip64=True) as entry:
+                    entry.write(b'[')
+                    rows = db.execute('SELECT document FROM records WHERE collection=? ORDER BY rowid', (collection,))
+                    for index, (data,) in enumerate(rows):
+                        if index:
+                            entry.write(b',\n')
+                        entry.write(json_util.dumps(BSON(data).decode(), json_options=json_util.CANONICAL_JSON_OPTIONS,
+                                                     ensure_ascii=False).encode('utf-8'))
+                    entry.write(b']')
+            output.writestr('LEIA-ME.txt', NOTICE + '\nDestino: ' + job['database_name'] +
+                            '\nOrdem: cadastros de pessoas e produtos (quando houver), XmlMovimentacoes, Movimentacoes, '
+                            'Pagamentos/Recebimentos (quando houver). Importar por inserção; nunca replace/upsert. '
+                            'Verifique chaves existentes.')
+    except BaseException:
+        temporary.unlink(missing_ok=True)
+        raise
+    finally:
+        db.close()
+        spool.unlink(missing_ok=True)
     if path.exists():temporary.unlink()
     else:temporary.replace(path)
     return path

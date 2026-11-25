@@ -145,7 +145,7 @@ REGISTRATION_COLLECTIONS = ('Estoques', 'EstoquesQuantidade', 'ProdutosServicos'
                             'Precos', 'ProdutosServicosEmpresa')
 
 
-def product_registration(profile, item, context, node):
+def product_registration(profile, item, context, node, *, identifier=None, use_barcode=False):
     """Build product/link/price/stock documents from an explicit profile template.
 
     The template supplies every native field; this function only binds the
@@ -155,7 +155,7 @@ def product_registration(profile, item, context, node):
     template = profile.get('product_template')
     if not isinstance(template, dict):
         raise ValueError('Produto sem mapeamento interno: ' + item['code'])
-    code = item['code']
+    code = identifier or item['code']
     company_id = profile['company_id']
     generated = {
         'product_id': generated_id('product', company_id, code),
@@ -194,6 +194,8 @@ def product_registration(profile, item, context, node):
     documents = document_templates
     product = documents['ProdutosServicos']
     product['_id'] = generated['product_id']
+    if use_barcode:
+        bind_product_barcode(product, code)
     if not product.get('_t') or product.get('Ativo') is not True:
         raise ValueError('product_template.product deve ser um cadastro ativo e tipado.')
     link = documents['ProdutosServicosEmpresa']
@@ -234,19 +236,25 @@ def finance_kind(document):
     return 'payable' if native_type in {'NotaFiscalCompra', 'NotaFiscalEletronicaEntrada'} else 'receivable'
 
 
-def build_finance(parsed, profile, context, document, node):
+def build_finance(parsed, profile, context, document, node, *, required=False):
     """Build native parcela documents from XML duplicatas using a profile template.
 
     The XML proves due date and amount only. The template supplies the native
     account/plan/species; no settlement is invented and no reference is copied
     from another sale.
     """
-    config = profile.get('finance')
-    if not isinstance(config, dict):
+    if not parsed['installments']:
         return None
+    config = profile.get('finance')
     kind = finance_kind(document)
+    if not isinstance(config, dict):
+        if required:
+            raise ValueError('O perfil precisa definir finance.' + kind + ' para importar as duplicatas deste XML.')
+        return None
     side = config.get(kind)
     if side is None:
+        if required:
+            raise ValueError('O perfil precisa definir finance.' + kind + ' para importar as duplicatas deste XML.')
         return None
     expected = {'payable': ('Pagamentos', 'Pagamento'),
                 'receivable': ('Recebimentos', 'Recebimento')}[kind]
@@ -261,8 +269,6 @@ def build_finance(parsed, profile, context, document, node):
     person_template = side.get('person')
     if person_template is not None and not isinstance(person_template, dict):
         raise ValueError('finance.' + kind + '.person deve ser um objeto.')
-    if not parsed['installments']:
-        return None
     identity = profile['environment'] + ':' + parsed['access_key']
     person_reference = document['Pessoa'].get('PessoaReferencia')
     if not isinstance(person_reference, ObjectId) or person_reference == ObjectId('000000000000000000000000'):
@@ -299,10 +305,13 @@ def build_finance(parsed, profile, context, document, node):
         if not isinstance(account, ObjectId) or account == ObjectId('000000000000000000000000'):
             raise ValueError('finance.' + kind + '.parcela deve informar ContaReferencia.')
         history = parcela.get('Historico')
-        if not isinstance(history, list) or not history or history[0].get('_t') != 'HistoricoAguardando':
-            raise ValueError('Título financeiro exige histórico inicial HistoricoAguardando.')
+        if (not isinstance(history, list) or len(history) != 1
+                or not discriminator(history[0], 'HistoricoAguardando')):
+            raise ValueError('Título financeiro exige apenas o histórico inicial HistoricoAguardando.')
         amount = Decimal(installment['amount'])
         for entry in history:
+            entry.update(EmpresaReferencia=profile['company_id'], ContaReferencia=account)
+            entry.setdefault('Data', context['issued_at'])
             try:
                 value = Decimal(str(entry.get('Valor')))
             except (InvalidOperation, TypeError):
@@ -339,7 +348,23 @@ def sale_collections(sales):
     return names
 
 
-def build_sale(raw, profile, *, source=None):
+def product_identifier(line, use_barcode):
+    if not use_barcode:
+        return line['code']
+    barcode = line.get('barcode', '').strip()
+    if not re.fullmatch(r'[0-9]{8}|[0-9]{12,14}', barcode) or not barcode.strip('0'):
+        raise ValueError('Item sem código de barras comercial utilizável: ' + line['code'])
+    return barcode
+
+
+def bind_product_barcode(product, barcode):
+    configured = product.get('CodigoBarras')
+    if configured not in (None, '', barcode):
+        raise ValueError('Código de barras do cadastro diverge do XML: ' + barcode)
+    product['CodigoBarras'] = barcode
+
+
+def profile_for_source(profile, source):
     source_profiles = profile.get('source_profiles', {})
     if not isinstance(source_profiles, dict):
         raise ValueError('source_profiles deve ser um objeto de mapeamento.')
@@ -347,10 +372,24 @@ def build_sale(raw, profile, *, source=None):
         overrides = source_profiles[source]
         allowed = {'issuer_cnpj', 'movement', 'item', 'products', 'payments',
                    'company', 'customer', 'xml_movement_type', 'purchase_suppliers',
-                   'product_template', 'finance'}
+                   'product_template', 'product_catalog', 'person_template', 'finance'}
+        if source == 'cfe':
+            allowed.add('cfe')
         if not isinstance(overrides, dict) or set(overrides) - allowed:
             raise ValueError('Configuração inválida no perfil da pasta de XML.')
-        profile = dict(profile, **overrides)
+        return dict(profile, **overrides)
+    return profile
+
+
+def native_issue_time(value):
+    # SuiteG6 labels the fiscal wall clock as UTC. BSON stores milliseconds.
+    wall = datetime.fromisoformat(value.replace('Z', '+00:00'))
+    return wall.replace(tzinfo=timezone.utc, microsecond=wall.microsecond // 1000 * 1000)
+
+
+def build_sale(raw, profile, *, source=None, include_finance=True, include_products=True, include_people=True,
+               use_barcode=False, require_finance=False, catalog_only=False):
+    profile = profile_for_source(profile, source)
     if source == 'purchase' and 'purchase_suppliers' in profile:
         from insight_nfce_discovery import read_xml
 
@@ -367,23 +406,29 @@ def build_sale(raw, profile, *, source=None):
     parsed = parse_xml(raw, issuer=profile['issuer_cnpj'], environment=profile['environment'])
     root = ET.fromstring(raw.decode('utf-8-sig'))
     info = root.find('n:NFe/n:infNFe', NS)
-    # Native DateTimeSerializerEx relabels wall clock as UTC; do not shift dhEmi by 3h.
-    wall = datetime.fromisoformat(parsed['issued_at_original'].replace('Z', '+00:00')).replace(tzinfo=timezone.utc)
+    wall = native_issue_time(parsed['issued_at_original'])
     key = parsed['access_key']
     identity = profile['environment'] + ':' + key
     native_id = ObjectId(hashlib.sha256(('insight-nfce:' + identity).encode()).digest()[:12])
     context = {'profile': profile, 'invoice': parsed, 'id': native_id, 'issued_at': wall,
                'number': Int64(parsed['number']), 'series': parsed['series'], 'items': [], 'payments': []}
-    registrations = []
-    registered = set()
+    if catalog_only:
+        from insight_nfce_discovery import nfe_route
+
+        nfe_route(parsed, source)
+        return build_catalog_review(profile, context, info, source, info.findall('n:det', NS),
+                                    include_people, include_products, use_barcode, profile['item'])
+    registrations = {}
     for det, item in zip(info.findall('n:det', NS), parsed['items']):
-        product = profile['products'].get(item['code'])
+        identifier = product_identifier(item, use_barcode)
+        product = profile['products'].get(identifier)
         if not isinstance(product, dict):
-            product, registration = product_registration(profile, item, context, det)
-            if item['code'] in registered:
-                raise ValueError('Produto repetido no XML com cadastro gerado: ' + item['code'])
-            registered.add(item['code'])
-            registrations.append(registration)
+            if not include_products:
+                raise ValueError('Produto sem vínculo. Selecione Produtos ou mapeie um cadastro existente: ' + item['code'])
+            product, registration = product_registration(profile, item, context, det, identifier=identifier,
+                                                         use_barcode=use_barcode)
+            if registrations.setdefault(identifier, registration) != registration:
+                raise ValueError('Linhas do mesmo produto geram cadastros diferentes: ' + identifier)
         child = dict(context, product=product, item=item)
         if not item['included_in_total']:
             raise ValueError('Itens indTot=0 exigem outro perfil de integração; não são suportados nesta importação.')
@@ -394,28 +439,36 @@ def build_sale(raw, profile, *, source=None):
                 if not any(matches_path(pattern, path) for pattern in coverage):
                     raise ValueError('Valor fiscal do XML sem binding explícito: ' + path)
         context['items'].append(render(profile['item'], child, det))
-    for payment in info.findall('n:pag/n:detPag', NS):
-        code = payment.findtext('n:tPag', namespaces=NS)
-        template = profile['payments'].get(code)
-        if template is None:
-            raise ValueError('Pagamento sem mapeamento interno: ' + str(code))
-        context['payments'].append(render(template, context, payment))
-    if not context['payments']:
-        raise ValueError('XML sem detPag; não é possível reconstruir pagamentos.')
-    # XML's paid total less change must agree before BSON payment mapping is accepted.
-    try:
-        paid = sum((Decimal(p.findtext('n:vPag', default='0', namespaces=NS)) for p in info.findall('n:pag/n:detPag', NS)), Decimal(0))
-        change = Decimal(info.findtext('n:pag/n:vTroco', default='0', namespaces=NS))
-    except InvalidOperation:
-        raise ValueError('Valor de pagamento/troco inválido.') from None
-    if not paid.is_finite() or not change.is_finite() or paid - change != Decimal(parsed['total']):
-        raise ValueError('Soma dos pagamentos menos troco diverge de vNF.')
-    try:
-        native_paid = sum((Decimal(str(p['Valor'])) for p in context['payments']), Decimal(0))
-    except (KeyError, TypeError, InvalidOperation):
-        raise ValueError('Cada pagamento nativo deve fornecer Valor numérico.') from None
-    if not native_paid.is_finite() or native_paid != Decimal(parsed['total']):
-        raise ValueError('Soma de Valor nos pagamentos nativos deve ser vNF líquido de troco.')
+    payment_nodes = info.findall('n:pag/n:detPag', NS)
+    payment_codes = [node.findtext('n:tPag', namespaces=NS) for node in payment_nodes]
+    if '90' in payment_codes:
+        if (parsed['model'] != '55' or payment_codes != ['90']
+                or payment_nodes[0].findtext('n:vPag', default='0', namespaces=NS) not in {'0', '0.0', '0.00'}
+                or info.findtext('n:pag/n:vTroco', default='0', namespaces=NS) not in {'0', '0.0', '0.00'}):
+            raise ValueError('NF-e sem pagamento exige tPag=90, valor zero e ausência de troco.')
+    elif payment_nodes or source != 'purchase':
+        for payment in payment_nodes:
+            code = payment.findtext('n:tPag', namespaces=NS)
+            template = profile['payments'].get(code)
+            if template is None:
+                raise ValueError('Pagamento sem mapeamento interno: ' + str(code))
+            context['payments'].append(render(template, context, payment))
+        if not context['payments']:
+            raise ValueError('XML sem detPag; não é possível reconstruir pagamentos.')
+        # XML's paid total less change must agree before BSON payment mapping is accepted.
+        try:
+            paid = sum((Decimal(p.findtext('n:vPag', default='0', namespaces=NS)) for p in info.findall('n:pag/n:detPag', NS)), Decimal(0))
+            change = Decimal(info.findtext('n:pag/n:vTroco', default='0', namespaces=NS))
+        except InvalidOperation:
+            raise ValueError('Valor de pagamento/troco inválido.') from None
+        if not paid.is_finite() or not change.is_finite() or paid - change != Decimal(parsed['total']):
+            raise ValueError('Soma dos pagamentos menos troco diverge de vNF.')
+        try:
+            native_paid = sum((Decimal(str(p['Valor'])) for p in context['payments']), Decimal(0))
+        except (KeyError, TypeError, InvalidOperation):
+            raise ValueError('Cada pagamento nativo deve fornecer Valor numérico.') from None
+        if not native_paid.is_finite() or native_paid != Decimal(parsed['total']):
+            raise ValueError('Soma de Valor nos pagamentos nativos deve ser vNF líquido de troco.')
     document = render(profile['movement'], context, info)
     expected_type = 'NotaFiscalConsumidorEletronica' if parsed['model'] == '65' else 'NotaFiscalEletronicaSaida'
     if parsed['model'] == '55' and parsed['direction'] == '0':
@@ -438,13 +491,27 @@ def build_sale(raw, profile, *, source=None):
     # Bind identity ourselves; a profile cannot redirect the operation to an existing sale.
     document.update(_id=native_id, ChaveAcesso=key, Numero=Int64(parsed['number']),
                     Serie=parsed['series'], EmpresaReferencia=profile['company_id'],
-                    DataHoraEmissao=wall, ItensBase=context['items'], ItensPagamentos=context['payments'])
+                    DataHoraEmissao=wall, ItensBase=context['items'])
+    if expected_type == 'NotaFiscalCompra':
+        document.pop('ItensPagamentos', None)
+    else:
+        document['ItensPagamentos'] = context['payments']
     for field in ('Empresa', 'Pessoa', 'Situacao', 'FinalidadeEmissaoNfe', 'NaturezaOperacao'):
         if not isinstance(document.get(field), dict) or not document[field].get('_t'):
             raise ValueError('Perfil deve preencher o objeto nativo ' + field)
     if document['Empresa'].get('PessoaReferencia') != profile['company_id']:
         raise ValueError('Empresa.PessoaReferencia deve coincidir com company_id.')
-    if document.get('MovimentacaoItemFinanceiro') is not False or document.get('Ativo') is not True:
+    if source != 'purchase':
+        company_document = digits(str(document['Empresa'].get('Documento') or ''))
+        person_document = digits(str(document['Pessoa'].get('Documento') or ''))
+        recipient = digits(parsed['recipient_document'])
+        if company_document and company_document != parsed['issuer_cnpj']:
+            raise ValueError('O documento da empresa no perfil difere do CNPJ emitente do XML.')
+        if recipient and person_document and person_document != recipient:
+            raise ValueError('O documento da pessoa no perfil difere do destinatário do XML.')
+    finance_flag = (document.get('MovimentacaoItemFinanceiro') if parsed['model'] == '65'
+                    else document.pop('MovimentacaoItemFinanceiro', False))
+    if finance_flag is not False or document.get('Ativo') is not True:
         raise ValueError('Perfil deve definir Ativo=true e MovimentacaoItemFinanceiro=false.')
     if not discriminator(document['Situacao'], 'Concluido') or document['Situacao'].get('Codigo') != 2:
         raise ValueError('Importação histórica exige situação nativa Concluido, código 2.')
@@ -464,29 +531,35 @@ def build_sale(raw, profile, *, source=None):
         total += net
     if total != Decimal(parsed['total']):
         raise ValueError('Total calculado pelos itens nativos diverge de vNF: ' + str(total))
-    finance = build_finance(parsed, profile, context, document, info)
+    finance = (build_finance(parsed, profile, context, document, info, required=require_finance)
+               if include_finance else None)
     if finance:
         document['PagamentoRecebimento'] = {'_t': finance['type'], 'Parcelas': finance['documents']}
+    native_xml_type = {'NotaFiscalCompra': 4, 'NotaFiscalEletronicaEntrada': 5,
+                       'NotaFiscalEletronicaSaida': 10, 'NotaFiscalConsumidorEletronica': 11}[expected_type]
     xml = {'_id': ObjectId(hashlib.sha256(('insight-nfce-xml:' + identity).encode()).digest()[:12]),
            'Data': wall, 'ChaveAcesso': key, 'Xml': raw.decode('utf-8-sig'),
-           'TipoMovimentacao': 11 if parsed['model'] == '65' else profile.get('xml_movement_type'), 'EventoCancelamento': False, 'Cancelada': False}
+           'TipoMovimentacao': native_xml_type if parsed['model'] == '65' else profile.get('xml_movement_type', native_xml_type),
+           'EventoCancelamento': False, 'Cancelada': False}
     if type(xml['TipoMovimentacao']) is not int:
         raise ValueError('Perfil NF-e exige xml_movement_type nativo inteiro revisado.')
     validate_native_documents(document, xml)
     result = {'movement': document, 'xml': xml, 'summary': {k: parsed[k] for k in
             ('access_key', 'number', 'series', 'total', 'issued_at_original', 'xml_sha256')}, 'notice': NOTICE}
     if registrations:
-        result['product_registrations'] = registrations
+        result['product_registrations'] = list(registrations.values())
     if finance:
         result['finance'] = finance
     if parsed['installments']:
         result['installments'] = parsed['installments']
     result['parties'] = parsed['parties']
-    person_template = profile.get('person_template')
+    person_template = profile.get('person_template') if include_people else None
     if person_template is not None:
-        people = build_people(parsed, person_template, context, info, source)
-        result['people'] = people
+        result['people'] = build_people(parsed, person_template, context, info, source, document['Pessoa'])
     result['products'] = product_review(parsed, document)
+    if include_products and 'product_catalog' in profile:
+        result['catalog_products'] = build_catalog_products(
+            profile, context, parsed['items'], info.findall('n:det', NS), use_barcode=use_barcode)
     if source == 'purchase':
         result['purchase_cost_candidates'] = [
             {'access_key': key, 'issued_at': parsed['issued_at_original'],
@@ -508,7 +581,7 @@ def product_review(parsed, document):
     ]
 
 
-def build_people(parsed, templates, context, node, source):
+def build_people(parsed, templates, context, node, source, snapshot=None):
     """Prepare reviewed customer/supplier records from identifiable XML parties."""
     if not isinstance(templates, dict):
         raise ValueError('person_template deve mapear CPF e CNPJ.')
@@ -530,31 +603,102 @@ def build_people(parsed, templates, context, node, source):
     result.update(_id=ObjectId(hashlib.sha256(('insight-dfe-person:' + document).encode()).digest()[:12]),
                   Nome=party['name'])
     result[field] = document
+    if isinstance(snapshot, dict):
+        reference = snapshot.get('PessoaReferencia')
+        if (isinstance(reference, ObjectId) and reference.binary.strip(b'\0')
+                and digits(str(snapshot.get('Documento', ''))) == document):
+            result['_id'] = reference
     validate_native_documents(result)
     return [result]
 
 
-def build_cfe(raw, profile):
+def build_catalog_review(profile, context, info, source, details, include_people, include_products,
+                         use_barcode, item_template):
+    parsed = context['invoice']
+    result = {'parties': parsed['parties']}
+    if include_people and 'person_template' in profile:
+        if source != 'cfe' or any(party['name'] for party in parsed['parties']):
+            result['people'] = build_people(parsed, profile['person_template'], context, info,
+                                            source, profile.get('customer'))
+    if include_products:
+        if 'product_catalog' not in profile:
+            raise ValueError('A pasta exige product_catalog para importar Produtos separadamente.')
+        result['catalog_products'] = build_catalog_products(
+            profile, context, parsed['items'], details, use_barcode=use_barcode, item_template=item_template)
+    return result
+
+
+def build_catalog_products(profile, context, lines, details, *, use_barcode=False, item_template=None):
+    """Prepare the catalog record and its company link from reviewed BSON templates."""
+    templates = profile['product_catalog']
+    if not isinstance(templates, dict) or any(not isinstance(templates.get(key), dict)
+                                              for key in ('product', 'company_product')):
+        raise ValueError('product_catalog exige os modelos product e company_product.')
+    records = {}
+    items = context['items'] if item_template is None else [None] * len(lines)
+    for line, detail, item in zip(lines, details, items, strict=True):
+        identifier = product_identifier(line, use_barcode)
+        product_mapping = profile['products'].get(identifier)
+        if product_mapping is None:
+            if item_template is not None:
+                raise ValueError('Produto sem mapeamento no catálogo: ' + identifier)
+            continue  # The generated registration already supplies this product.
+        child = dict(context, item=line, product=product_mapping)
+        if item_template is not None:
+            snapshot = item_template.get('ProdutoServico')
+            if isinstance(snapshot, dict) and '$bind' not in snapshot:
+                snapshot = {'ProdutoServicoReferencia': snapshot.get('ProdutoServicoReferencia')}
+            item = render({'ProdutoServico': snapshot, 'ProdutoServicoEmpresaReferencia':
+                           item_template.get('ProdutoServicoEmpresaReferencia')}, child, detail)
+        product = render(templates['product'], child, detail)
+        link = render(templates['company_product'], child, detail)
+        if use_barcode:
+            bind_product_barcode(product, identifier)
+        if any(not record.get('_t') or record.get('Ativo') is not True for record in (product, link)):
+            raise ValueError('O perfil exige produto e vínculo de empresa ativos e tipados.')
+        product_id = product.get('_id')
+        snapshot = item.get('ProdutoServico')
+        item_product = snapshot.get('ProdutoServicoReferencia') if isinstance(snapshot, dict) else None
+        code = product.get('CodigoInterno')
+        link_id = item['ProdutoServicoEmpresaReferencia']
+        if (not isinstance(product_id, ObjectId) or not product_id.binary.strip(b'\0')
+                or not isinstance(link_id, ObjectId) or not link_id.binary.strip(b'\0')
+                or product_id != item_product or type(code) not in (str, int, Int64)
+                or not str(code).strip()):
+            raise ValueError('Produto do catálogo sem código interno ou referência compatível com o item.')
+        link.update(_id=link_id, EmpresaReferencia=profile['company_id'],
+                    ProdutoServicoReferencia=product_id)
+        validate_native_documents(product, link)
+        pair = {'product': product, 'company_product': link}
+        if records.setdefault(link['_id'], pair) != pair:
+            raise ValueError('O XML produziu cadastros incompatíveis para o mesmo vínculo de produto.')
+    return list(records.values())
+
+
+def build_cfe(raw, profile, *, include_products=True, include_people=True, use_barcode=False, catalog_only=False):
     from insight_nfce_discovery import parse_cfe, read_xml
 
     root = read_xml(raw)
     parsed = parse_cfe(root)
     config = profile.get('cfe')
-    if not isinstance(config, dict) or type(config.get('xml_movement_type')) is not int:
-        raise ValueError('CF-e exige mapeamento cfe e xml_movement_type revisados.')
+    if not isinstance(config, dict) or type(config.get('xml_movement_type', 12)) is not int:
+        raise ValueError('CF-e exige mapeamento cfe revisado e xml_movement_type inteiro quando informado.')
     if parsed['issuer_cnpj'] != profile['issuer_cnpj'] or profile['environment'] != '1':
         raise ValueError('Emitente ou ambiente do perfil incompatível com a importação de CF-e.')
     info = root.find('infCFe')
     key = parsed['access_key']
-    wall = datetime.fromisoformat(parsed['issued_at_original']).replace(tzinfo=timezone.utc)
+    wall = native_issue_time(parsed['issued_at_original'])
     ident = ObjectId(hashlib.sha256(('insight-cfe:' + key).encode()).digest()[:12])
     context = {'profile': profile, 'invoice': parsed, 'id': ident, 'issued_at': wall,
                'number': Int64(parsed['number']), 'series': parsed['series']}
+    if catalog_only:
+        return build_catalog_review(profile, context, info, 'cfe', info.findall('det'),
+                                    include_people, include_products, use_barcode, config.get('item', {}))
     items, payments = [], []
     if not parsed['items']:
         raise ValueError('CF-e sem itens.')
     for line, detail in zip(parsed['items'], info.findall('det'), strict=True):
-        product = profile['products'].get(line['code'])
+        product = profile['products'].get(product_identifier(line, use_barcode))
         if not isinstance(product, dict):
             raise ValueError('Produto CF-e sem mapeamento: ' + line['code'])
         child = dict(context, product=product, item=line)
@@ -577,11 +721,23 @@ def build_cfe(raw, profile):
                 raise ValueError('Item nativo CF-e diverge do XML: ' + field)
         item['Numero'] = line['sequence']
         items.append(item)
-    for payment in parsed['payments']:
-        template = config.get('payments', {}).get(payment['code'])
+    payment_templates = config.get('payments')
+    if not isinstance(payment_templates, dict):
+        raise ValueError('Perfil CF-e exige mapeamento de pagamentos.')
+    change = Decimal(parsed['change'])
+    cash_entries = [index for index, payment in enumerate(parsed['payments']) if payment['code'] == '01']
+    change_entry = 0 if len(parsed['payments']) == 1 else cash_entries[0] if len(cash_entries) == 1 else None
+    if change_entry is not None and Decimal(parsed['payments'][change_entry]['amount']) < change:
+        change_entry = None
+    for index, (payment, entry) in enumerate(zip(parsed['payments'], info.findall('pgto/MP'), strict=True)):
+        template = payment_templates.get(payment['code'])
         if not isinstance(template, dict):
             raise ValueError('Pagamento CF-e sem mapeamento: ' + payment['code'])
-        payments.append(render(template, dict(context, payment=payment), info))
+        values = dict(payment)
+        if not change or change_entry is not None:
+            net = Decimal(payment['amount']) - (change if index == change_entry else Decimal(0))
+            values['net_amount'] = str(net)
+        payments.append(render(template, dict(context, payment=values), entry))
     try:
         paid = sum(Decimal(str(payment['Valor'])) for payment in payments)
     except (KeyError, InvalidOperation, TypeError):
@@ -593,18 +749,35 @@ def build_cfe(raw, profile):
         raise ValueError('Perfil CF-e exige o tipo CupomFiscalEletronico.')
     company = document.get('Empresa')
     status = document.get('Situacao')
+    legacy_finance_flag = document.pop('MovimentacaoItemFinanceiro', False)
     if (not isinstance(company, dict) or company.get('PessoaReferencia') != profile['company_id']
             or not discriminator(status, 'Concluido') or status.get('Codigo') != 2
-            or document.get('MovimentacaoItemFinanceiro') is not False or document.get('Ativo') is not True):
+            or legacy_finance_flag is not False or document.get('Ativo') is not True):
         raise ValueError('Perfil CF-e exige empresa vinculada e movimento histórico ativo e concluído.')
+    company_document = digits(str(company.get('Documento') or ''))
+    if company_document and company_document != parsed['issuer_cnpj']:
+        raise ValueError('O documento da empresa no perfil difere do CNPJ emitente do CF-e.')
+    person = document.get('Pessoa')
+    if isinstance(person, dict) and parsed['parties']:
+        person_document = digits(str(person.get('Documento') or ''))
+        if person_document and person_document != digits(parsed['parties'][0]['document']):
+            raise ValueError('O documento da pessoa no perfil difere do destinatário do CF-e.')
     document.update(_id=ident, EmpresaReferencia=profile['company_id'], ChaveAcesso=key,
-                    Numero=context['number'], Serie=context['series'], NumeroFabricacao=parsed['series'],
-                    DataHoraEmissao=wall, DataHoraEntradaSaida=wall, ItensBase=items, ItensPagamentos=payments)
+                    Numero=context['number'], Serie=context['series'], NumeroFabricacaoSat=parsed['series'],
+                    DataHoraEmissao=wall, ItensBase=items, Pagamentos=payments)
     xml = {'_id': ObjectId(hashlib.sha256(('insight-cfe-xml:' + key).encode()).digest()[:12]),
            'Data': wall, 'ChaveAcesso': key, 'Xml': raw.decode('utf-8-sig'),
-           'TipoMovimentacao': config['xml_movement_type'], 'EventoCancelamento': False, 'Cancelada': False}
+           'TipoMovimentacao': config.get('xml_movement_type', 12), 'EventoCancelamento': False, 'Cancelada': False}
     validate_native_documents(document, xml)
-    return {'movement': document, 'xml': xml, 'summary': parsed, 'notice': NOTICE}
+    result = {'movement': document, 'xml': xml, 'summary': parsed, 'notice': NOTICE,
+              'products': product_review(parsed, document), 'parties': parsed['parties']}
+    if include_people and 'person_template' in profile and any(party['name'] for party in parsed['parties']):
+        result['people'] = build_people(parsed, profile['person_template'], context, info,
+                                        'cfe', document.get('Pessoa'))
+    if include_products and 'product_catalog' in profile:
+        result['catalog_products'] = build_catalog_products(
+            profile, dict(context, items=items), parsed['items'], info.findall('det'), use_barcode=use_barcode)
+    return result
 
 
 def validate_native_documents(*documents):

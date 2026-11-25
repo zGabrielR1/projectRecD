@@ -297,13 +297,15 @@ def preview(req, token, owner):
     return journal_preview(req.database, req.collection, req.operation, ident, before, after, token, owner, access)
 
 
-def journal_preview(database, collection, operation, ident, before, after, token, owner, access):
+def journal_preview(database, collection, operation, ident, before, after, token, owner, access, *, purchase_cost=None):
     key = store.identifier()
     body = {'id': key, 'database': database, 'collection': collection, 'operation': operation,
             'id_json': ejson(ident), 'before_json': ejson(before), 'after_json': ejson(after),
             'created': store.now(), 'expires': time.time() + PREVIEW_SECONDS,
             'status':'preview', 'session_hash':digest(token), 'actor':owner, 'fingerprint':access['fingerprint'],
             'journal_owner':journal_owner(), 'connection_identity':access.get('connection_identity', connection_identity())}
+    if purchase_cost is not None:
+        body['purchase_cost_json'] = ejson(purchase_cost)
     # Durable original/plan exists before any MongoDB mutation can be attempted.
     put_change(key, body)
     return {k:body[k] for k in ('id','database','collection','operation','id_json','before_json','after_json','expires','status')}
@@ -336,7 +338,7 @@ def apply_change(key, token, owner, confirmation, *, document_limit=MAX_JSON, cl
     body = get_change(key)
     if not body:
         raise HTTPException(404, 'Prévia não encontrada.')
-    session(token, owner, body['database'])
+    access = session(token, owner, body['database'])
     if body['session_hash'] != digest(token) or body['actor'] != owner or body['fingerprint'] != fingerprint():
         raise HTTPException(403, 'A prévia pertence a outra sessão.')
     if confirmation != body['collection']:
@@ -356,6 +358,12 @@ def apply_change(key, token, owner, confirmation, *, document_limit=MAX_JSON, cl
              else parse_json(body['after_json'], maximum=document_limit))
     try:
         with (nullcontext(client) if client is not None else editor_client()) as current_client:
+            if 'purchase_cost_json' in body:
+                from insight_nfce_api import check_purchase_cost_source
+                price_id = check_purchase_cost_source(parse_json(body['purchase_cost_json']), body['database'],
+                                                      access, client=current_client)
+                if price_id != before['_id']:
+                    raise HTTPException(409, 'O vínculo de preço mudou. Prepare uma nova prévia.')
             coll = selected_collection(current_client, body['database'], body['collection'], write=True)
             if body['operation'] == 'insert':
                 coll.insert_one(after)

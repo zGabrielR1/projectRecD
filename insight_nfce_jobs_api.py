@@ -29,7 +29,8 @@ async def create(request:Request):
     body=await configuration(request)
     return await run_in_threadpool(jobs.create,editor.actor(request),body.get('mode','automatic'),body.get('profile'),
                                    body.get('use_barcode', False), body.get('import_movements', True),
-                                   body.get('import_people', False))
+                                   body.get('import_people', False), body.get('import_products'),
+                                   body.get('import_finance', False))
 
 
 @router.get('/{job_id}')
@@ -51,7 +52,7 @@ async def slot(job_id:str,request:Request):
 @router.post('/{job_id}/keys')
 async def keys(job_id: str, request: Request):
     body = await configuration(request)
-    return await run_in_threadpool(jobs.import_keys, job_id, editor.actor(request), body.get('keys'))
+    return await run_in_threadpool(jobs.import_keys, job_id, editor.actor(request), body.get('keys'), body.get('source'))
 
 
 @router.post('/{job_id}/files/{upload_id}')
@@ -117,11 +118,13 @@ def document(job_id:str,file_id:int,request:Request,preset:str='generico'):
             if row:
                 return {'dbf_review': dbf_preview(jobs.raw_bytes(job_id, dict(row)), row['name'], preset=preset)}
         return sale
-    result = {'movement': ejson(sale['movement']), 'xml': ejson(sale['xml'])}
+    result = {key: ejson(sale[key]) for key in ('movement', 'xml') if key in sale}
     if sale.get('parties'):
         result['parties'] = sale['parties']
     if sale.get('people'):
         result['people'] = ejson(sale['people'])
+    if sale.get('catalog_products'):
+        result['catalog_products'] = ejson(sale['catalog_products'])
     if sale.get('products'):
         result['products'] = [
             dict(product, company_product_id=str(product['company_product_id']))
@@ -206,6 +209,67 @@ async def prepare_people(job_id: str, request: Request,
     return await run_in_threadpool(prepare)
 
 
+@router.get('/{job_id}/products')
+def catalog_preview(job_id: str, request: Request):
+    products, links = jobs.reviewed_products(job_id, editor.actor(request))
+    return {'products': ejson(list(products.values())), 'links': ejson(list(links.values()))}
+
+
+@router.post('/{job_id}/products/preview')
+async def prepare_catalog(job_id: str, request: Request,
+                          x_insight_editor_session: str = Header(default='')):
+    owner = editor.actor(request)
+    body = await configuration(request)
+
+    def prepare():
+        job = jobs.owned(job_id, owner)
+        database = job['database_name']
+        if body.get('confirmation') != 'IMPORTAR ' + database:
+            raise HTTPException(422, 'Confirme o banco de destino.')
+        products, links = jobs.reviewed_products(job_id, owner)
+        if body.get('ids') != sorted(str(ident) for ident in products):
+            raise HTTPException(409, 'A lista de produtos mudou. Revise o lote novamente.')
+        access = editor.session(x_insight_editor_session, owner, database)
+        for collection in ('ProdutosServicos', 'ProdutosServicosEmpresa'):
+            for action in ('find', 'insert'):
+                if not editor.permitted(access['grants'], database, collection, action):
+                    raise HTTPException(403, 'Permissão ausente: ' + action + ' em ' + collection)
+        previews = []
+        with editor.editor_client() as client:
+            for collection, records, fields in (
+                ('ProdutosServicos', products, ('CodigoInterno',)),
+                ('ProdutosServicosEmpresa', links, ('EmpresaReferencia', 'ProdutoServicoReferencia')),
+            ):
+                coll = editor.selected_collection(client, database, collection, write=True)
+                queries, barcodes = set(), set()
+                for ident, record in records.items():
+                    values = tuple(record[field] for field in fields)
+                    if values in queries:
+                        raise HTTPException(409, 'O lote contém identificadores de produto duplicados.')
+                    queries.add(values)
+                    query = dict(zip(fields, values))
+                    if collection == 'ProdutosServicos' and record.get('CodigoBarras'):
+                        barcode = str(record['CodigoBarras'])
+                        if barcode in barcodes:
+                            raise HTTPException(409, 'O lote contém códigos de barras duplicados.')
+                        barcodes.add(barcode)
+                        query = {'$or': [query, {'CodigoBarras': record['CodigoBarras']}]}
+                    conflict = coll.find_one(dict(query, _id={'$ne': ident}), {'_id': 1}, max_time_ms=5000)
+                    if conflict is not None:
+                        raise HTTPException(409, 'Outro cadastro já usa o código, código de barras ou vínculo preparado.')
+                    found = coll.find_one({'_id': ident}, max_time_ms=5000)
+                    if found is not None:
+                        if not editor.same_document(found, record):
+                            raise HTTPException(409, 'Cadastro de produto existente difere do perfil revisado.')
+                        continue
+                    preview = editor.prepare_import_insert(record, database, collection,
+                                                           x_insight_editor_session, owner, client=client)
+                    previews.append({'id': preview['id'], 'collection': collection})
+        return {'previews': previews}
+
+    return await run_in_threadpool(prepare)
+
+
 @router.post('/{job_id}/purchase-costs/{product_id}/preview')
 def prepare_cost(job_id: str, product_id: str, request: Request,
                  x_insight_editor_session: str = Header(default='')):
@@ -222,9 +286,10 @@ def prepare_cost(job_id: str, product_id: str, request: Request,
                       if cost['company_product_id'] == ObjectId(product_id)), None)
     if candidate is None:
         raise HTTPException(404, 'Produto sem custo de compra neste lote.')
+    database = job['database_name']
     try:
         with editor.editor_client() as client:
-            preview = prepare_purchase_cost(candidate, job['database_name'],
+            preview = prepare_purchase_cost(candidate, database,
                                             x_insight_editor_session, owner, client=client)
     except ValueError as exc:
         raise HTTPException(422, str(exc)) from None
